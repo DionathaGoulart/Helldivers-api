@@ -8,4 +8,5 @@ export * from "./entities/stratagem.ts";
 export * from "./entities/warbond.ts";
 export * from "./entities/weapon.ts";
 export * from "./envelope.ts";
+export * from "./integrity.ts";
 export * from "./slug.ts";
