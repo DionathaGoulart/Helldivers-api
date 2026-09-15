@@ -1,0 +1,5 @@
+# Pages Functions secrets for `wrangler pages dev` (copy to .dev.vars, never commit).
+# Read-only B2 application key restricted to the bucket. Production values are set
+# once with `wrangler pages secret put`; this key never goes to GitHub.
+B2_READ_KEY_ID=
+B2_READ_APP_KEY=
