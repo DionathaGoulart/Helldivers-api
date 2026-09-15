@@ -1,0 +1,151 @@
+{
+  "pages": {
+    "Armed Resupply Pods": {
+      "file": "Armed_Resupply_Pods.html",
+      "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
+      "fetchedAt": "2026-09-15T15:06:35.830Z",
+      "lastModified": "Fri, 14 Aug 2026 19:16:02 GMT",
+      "wgRevisionId": 79383
+    },
+    "Boosters": {
+      "file": "Boosters.html",
+      "url": "https://helldivers.wiki.gg/wiki/Boosters",
+      "fetchedAt": "2026-09-15T15:04:24.766Z",
+      "lastModified": "Tue, 11 Aug 2026 03:58:00 GMT",
+      "wgRevisionId": 120428
+    },
+    "Concealed Insertion": {
+      "file": "Concealed_Insertion.html",
+      "url": "https://helldivers.wiki.gg/wiki/Concealed_Insertion",
+      "fetchedAt": "2026-09-15T15:06:51.292Z",
+      "lastModified": "Tue, 11 Aug 2026 04:13:48 GMT",
+      "wgRevisionId": 110637
+    },
+    "Dead Sprint": {
+      "file": "Dead_Sprint.html",
+      "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
+      "fetchedAt": "2026-09-15T15:06:31.282Z",
+      "lastModified": "Fri, 04 Sep 2026 10:24:54 GMT",
+      "wgRevisionId": 133905
+    },
+    "Experimental Infusion": {
+      "file": "Experimental_Infusion.html",
+      "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
+      "fetchedAt": "2026-09-15T15:06:23.521Z",
+      "lastModified": "Tue, 11 Aug 2026 03:59:13 GMT",
+      "wgRevisionId": 110631
+    },
+    "Expert Extraction Pilot": {
+      "file": "Expert_Extraction_Pilot.html",
+      "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",
+      "fetchedAt": "2026-09-15T15:06:16.911Z",
+      "lastModified": "Fri, 14 Aug 2026 19:46:07 GMT",
+      "wgRevisionId": 110629
+    },
+    "Firebomb Hellpods": {
+      "file": "Firebomb_Hellpods.html",
+      "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
+      "fetchedAt": "2026-09-15T15:06:26.842Z",
+      "lastModified": "Sun, 30 Aug 2026 14:16:48 GMT",
+      "wgRevisionId": 110632
+    },
+    "Flexible Reinforcement Budget": {
+      "file": "Flexible_Reinforcement_Budget.html",
+      "url": "https://helldivers.wiki.gg/wiki/Flexible_Reinforcement_Budget",
+      "fetchedAt": "2026-09-15T15:06:08.613Z",
+      "lastModified": "Fri, 14 Aug 2026 19:27:09 GMT",
+      "wgRevisionId": 91117
+    },
+    "Helldivers Mobilize Warbond": {
+      "file": "Helldivers_Mobilize_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond",
+      "fetchedAt": "2026-09-15T15:04:33.570Z",
+      "lastModified": "Wed, 09 Sep 2026 20:21:28 GMT",
+      "wgRevisionId": 134894
+    },
+    "Hellpod Space Optimization": {
+      "file": "Hellpod_Space_Optimization.html",
+      "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
+      "fetchedAt": "2026-09-15T15:04:29.170Z",
+      "lastModified": "Fri, 14 Aug 2026 02:56:29 GMT",
+      "wgRevisionId": 107748
+    },
+    "Increased Reinforcement Budget": {
+      "file": "Increased_Reinforcement_Budget.html",
+      "url": "https://helldivers.wiki.gg/wiki/Increased_Reinforcement_Budget",
+      "fetchedAt": "2026-09-15T15:06:05.462Z",
+      "lastModified": "Tue, 11 Aug 2026 05:31:50 GMT",
+      "wgRevisionId": 79059
+    },
+    "Localization Confusion": {
+      "file": "Localization_Confusion.html",
+      "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
+      "fetchedAt": "2026-09-15T15:06:12.873Z",
+      "lastModified": "Tue, 11 Aug 2026 03:59:31 GMT",
+      "wgRevisionId": 110628
+    },
+    "Motivational Shocks": {
+      "file": "Motivational_Shocks.html",
+      "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
+      "fetchedAt": "2026-09-15T15:06:20.411Z",
+      "lastModified": "Fri, 14 Aug 2026 19:46:10 GMT",
+      "wgRevisionId": 110630
+    },
+    "Muscle Enhancement": {
+      "file": "Muscle_Enhancement.html",
+      "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
+      "fetchedAt": "2026-09-15T15:06:02.266Z",
+      "lastModified": "Fri, 14 Aug 2026 19:28:05 GMT",
+      "wgRevisionId": 101394
+    },
+    "Redacted Regiment Premium Warbond": {
+      "file": "Redacted_Regiment_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Redacted_Regiment_Premium_Warbond",
+      "fetchedAt": "2026-09-15T15:06:55.760Z",
+      "lastModified": "Wed, 09 Sep 2026 02:22:40 GMT",
+      "wgRevisionId": 134845
+    },
+    "Sample Extricator": {
+      "file": "Sample_Extricator.html",
+      "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
+      "fetchedAt": "2026-09-15T15:06:39.865Z",
+      "lastModified": "Mon, 24 Aug 2026 22:21:53 GMT",
+      "wgRevisionId": 132489
+    },
+    "Sample Scanner": {
+      "file": "Sample_Scanner.html",
+      "url": "https://helldivers.wiki.gg/wiki/Sample_Scanner",
+      "fetchedAt": "2026-09-15T15:06:43.150Z",
+      "lastModified": "Tue, 11 Aug 2026 04:21:38 GMT",
+      "wgRevisionId": 110635
+    },
+    "Stamina Enhancement": {
+      "file": "Stamina_Enhancement.html",
+      "url": "https://helldivers.wiki.gg/wiki/Stamina_Enhancement",
+      "fetchedAt": "2026-09-15T15:05:58.210Z",
+      "lastModified": "Tue, 11 Aug 2026 04:00:50 GMT",
+      "wgRevisionId": 122720
+    },
+    "Stun Pods": {
+      "file": "Stun_Pods.html",
+      "url": "https://helldivers.wiki.gg/wiki/Stun_Pods",
+      "fetchedAt": "2026-09-15T15:06:46.700Z",
+      "lastModified": "Sun, 30 Aug 2026 14:19:06 GMT",
+      "wgRevisionId": 133150
+    },
+    "UAV Recon Booster": {
+      "file": "UAV_Recon_Booster.html",
+      "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
+      "fetchedAt": "2026-09-15T15:05:53.702Z",
+      "lastModified": "Tue, 11 Aug 2026 03:59:50 GMT",
+      "wgRevisionId": 79056
+    },
+    "Vitality Enhancement": {
+      "file": "Vitality_Enhancement.html",
+      "url": "https://helldivers.wiki.gg/wiki/Vitality_Enhancement",
+      "fetchedAt": "2026-09-15T15:05:49.670Z",
+      "lastModified": "Sun, 13 Sep 2026 09:44:38 GMT",
+      "wgRevisionId": 135291
+    }
+  }
+}
