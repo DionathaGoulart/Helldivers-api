@@ -1,0 +1,21 @@
+packages:
+  - apps/*
+  - packages/*
+
+# Dependencies allowed to run install scripts (pnpm 11 blocks all others).
+allowBuilds:
+  esbuild: true
+  workerd: true
+
+# Single source of truth for shared dev tool versions (`"<name>": "catalog:"`).
+# pnpm's default minimumReleaseAge (24 h) is kept: ranges resolve to the newest
+# release older than one day.
+catalog:
+  "@biomejs/biome": 2.5.13
+  "@types/node": ^24.13.4
+  aws4fetch: ^1.0.20
+  tsx: ^4.23.13
+  typescript: ^7.0.2
+  vitest: ^5.0.0
+  wrangler: 4.131.2
+  zod: ^4.6.5

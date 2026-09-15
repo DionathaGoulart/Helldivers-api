@@ -1,0 +1,19 @@
+# dependencies
+node_modules/
+
+# build and run output
+dist/
+.cache/
+.staging/
+.reports/
+.wrangler/
+
+# local secrets
+.env
+.dev.vars
+
+# local-only planning docs
+.harness/
+
+# OS
+.DS_Store
