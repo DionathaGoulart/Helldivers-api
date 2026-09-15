@@ -1,0 +1,64 @@
+name: probe
+
+# Phase 0 check (plan §2, risk R3): can GitHub Actions reach the wiki without a
+# Cloudflare challenge? Four requests, 3 s apart, with the scraper User-Agent.
+on:
+  workflow_dispatch:
+    inputs:
+      image_path:
+        description: Wiki thumbnail path to probe
+        type: string
+        default: /images/thumb/AR-23_Liberator_Primary_Render.png/512px-AR-23_Liberator_Primary_Render.png
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    env:
+      WIKI_BASE_URL: https://helldivers.wiki.gg
+      USER_AGENT: helldivers2-api-scraper (+https://github.com/DionathaGoulart/Helldivers-api)
+      IMAGE_PATH: ${{ inputs.image_path }}
+    steps:
+      - name: Probe wiki reachability
+        run: |
+          set -euo pipefail
+          if [[ "$IMAGE_PATH" != /images/* ]]; then
+            echo "::error::image_path must start with /images/"
+            exit 1
+          fi
+
+          paths=(/robots.txt /wiki/Boosters /wiki/AR-23_Liberator "$IMAGE_PATH")
+          {
+            echo "| Path | Status | cf-mitigated | cf-cache-status | Time |"
+            echo "| --- | --- | --- | --- | --- |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+          failed=0
+          for i in "${!paths[@]}"; do
+            path="${paths[$i]}"
+            if [ "$i" -gt 0 ]; then sleep 3; fi
+
+            headers="$(mktemp)"
+            metrics="$(curl --silent --show-error --max-time 30 \
+              --user-agent "$USER_AGENT" \
+              --output /dev/null --dump-header "$headers" \
+              --write-out '%{http_code} %{time_total}' \
+              "$WIKI_BASE_URL$path")" || metrics="000 -"
+            status="${metrics%% *}"
+            seconds="${metrics#* }"
+            mitigated="$(grep -i '^cf-mitigated:' "$headers" | cut -d' ' -f2- | tr -d '\r' || true)"
+            cache="$(grep -i '^cf-cache-status:' "$headers" | cut -d' ' -f2- | tr -d '\r' || true)"
+
+            echo "$path status=$status cf-mitigated=${mitigated:--} cf-cache-status=${cache:--} time=${seconds}s"
+            echo "| \`$path\` | $status | ${mitigated:--} | ${cache:--} | ${seconds}s |" >> "$GITHUB_STEP_SUMMARY"
+
+            if [ "$status" != "200" ] || [ -n "$mitigated" ]; then
+              echo "::error::$path returned $status (cf-mitigated: ${mitigated:-none})"
+              failed=1
+            fi
+          done
+
+          exit "$failed"
