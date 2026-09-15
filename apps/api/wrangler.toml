@@ -1,0 +1,4 @@
+name = "helldivers-api"
+pages_build_output_dir = "dist"
+# Must not be newer than the workerd bundled with the pinned wrangler.
+compatibility_date = "2026-09-11"
