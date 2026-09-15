@@ -7,6 +7,13 @@
       "lastModified": "Fri, 14 Aug 2026 19:16:02 GMT",
       "wgRevisionId": 79383
     },
+    "Armor Passives": {
+      "file": "Armor_Passives.html",
+      "url": "https://helldivers.wiki.gg/wiki/Armor_Passives",
+      "fetchedAt": "2026-09-15T15:35:13.023Z",
+      "lastModified": "Wed, 02 Sep 2026 19:59:53 GMT",
+      "wgRevisionId": 133669
+    },
     "Boosters": {
       "file": "Boosters.html",
       "url": "https://helldivers.wiki.gg/wiki/Boosters",
@@ -27,6 +34,13 @@
       "fetchedAt": "2026-09-15T15:06:31.282Z",
       "lastModified": "Fri, 04 Sep 2026 10:24:54 GMT",
       "wgRevisionId": 133905
+    },
+    "Equipment Traits": {
+      "file": "Equipment_Traits.html",
+      "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits",
+      "fetchedAt": "2026-09-15T15:35:17.298Z",
+      "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
+      "wgRevisionId": 81457
     },
     "Experimental Infusion": {
       "file": "Experimental_Infusion.html",
