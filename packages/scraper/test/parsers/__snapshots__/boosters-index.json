@@ -1,0 +1,398 @@
+[
+  {
+    "name": "Hellpod Space Optimization",
+    "page": {
+      "label": "Hellpod Space Optimization",
+      "title": "Hellpod Space Optimization",
+      "anchor": null
+    },
+    "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades and Stims.",
+    "icon": {
+      "file": "Hellpod_Space_Optimization_Booster_Icon.svg",
+      "src": "/images/Hellpod_Space_Optimization_Booster_Icon.svg?7aa15a"
+    },
+    "warbond": {
+      "label": "Helldivers Mobilize",
+      "title": "Helldivers Mobilize Warbond",
+      "anchor": "Page_3"
+    },
+    "price": {
+      "text": "15 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Vitality Enhancement",
+    "page": {
+      "label": "Vitality Enhancement",
+      "title": "Vitality Enhancement",
+      "anchor": null
+    },
+    "effect": "Provides minor damage reduction from all sources for all Helldivers",
+    "icon": {
+      "file": "Vitality_Enhancement_Booster_Icon.svg",
+      "src": "/images/Vitality_Enhancement_Booster_Icon.svg?16b440"
+    },
+    "warbond": {
+      "label": "Helldivers Mobilize",
+      "title": "Helldivers Mobilize Warbond",
+      "anchor": "Page_4"
+    },
+    "price": {
+      "text": "20 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "UAV Recon Booster",
+    "page": {
+      "label": "UAV Recon Booster",
+      "title": "UAV Recon Booster",
+      "anchor": null
+    },
+    "effect": "Increases all Helldivers' effective radar range.",
+    "icon": {
+      "file": "UAV_Recon_Booster_Booster_Icon.svg",
+      "src": "/images/UAV_Recon_Booster_Booster_Icon.svg?ce1f67"
+    },
+    "warbond": {
+      "label": "Helldivers Mobilize",
+      "title": "Helldivers Mobilize Warbond",
+      "anchor": "Page_6"
+    },
+    "price": {
+      "text": "40 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Stamina Enhancement",
+    "page": {
+      "label": "Stamina Enhancement",
+      "title": "Stamina Enhancement",
+      "anchor": null
+    },
+    "effect": "Increases all Helldivers' stamina capacity and recovery.",
+    "icon": {
+      "file": "Stamina_Enhancement_Booster_Icon.svg",
+      "src": "/images/Stamina_Enhancement_Booster_Icon.svg?f12c0f"
+    },
+    "warbond": {
+      "label": "Helldivers Mobilize",
+      "title": "Helldivers Mobilize Warbond",
+      "anchor": "Page_7"
+    },
+    "price": {
+      "text": "75 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Muscle Enhancement",
+    "page": {
+      "label": "Muscle Enhancement",
+      "title": "Muscle Enhancement",
+      "anchor": null
+    },
+    "effect": "Allows Helldivers to traverse difficult terrain with ease.",
+    "icon": {
+      "file": "Muscle_Enhancement_Booster_Icon.svg",
+      "src": "/images/Muscle_Enhancement_Booster_Icon.svg?4a47f5"
+    },
+    "warbond": {
+      "label": "Helldivers Mobilize",
+      "title": "Helldivers Mobilize Warbond",
+      "anchor": "Page_9"
+    },
+    "price": {
+      "text": "70 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Increased Reinforcement Budget",
+    "page": {
+      "label": "Increased Reinforcement Budget",
+      "title": "Increased Reinforcement Budget",
+      "anchor": null
+    },
+    "effect": "Increases the number of available reinforcements.",
+    "icon": {
+      "file": "Increased_Reinforcement_Budget_Booster_Icon.svg",
+      "src": "/images/Increased_Reinforcement_Budget_Booster_Icon.svg?cb9eaf"
+    },
+    "warbond": {
+      "label": "Helldivers Mobilize",
+      "title": "Helldivers Mobilize Warbond",
+      "anchor": "Page_10"
+    },
+    "price": {
+      "text": "150 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Flexible Reinforcement Budget",
+    "page": {
+      "label": "Flexible Reinforcement Budget",
+      "title": "Flexible Reinforcement Budget",
+      "anchor": null
+    },
+    "effect": "Reduces time until new reinforcements are granted once they've been depleted.",
+    "icon": {
+      "file": "Flexible_Reinforcement_Budget_Booster_Icon.svg",
+      "src": "/images/Flexible_Reinforcement_Budget_Booster_Icon.svg?32cacf"
+    },
+    "warbond": {
+      "label": "Steeled Veterans",
+      "title": "Steeled Veterans Premium Warbond",
+      "anchor": "Page_3"
+    },
+    "price": {
+      "text": "75 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Localization Confusion",
+    "page": {
+      "label": "Localization Confusion",
+      "title": "Localization Confusion",
+      "anchor": null
+    },
+    "effect": "Increases the time between enemy encounters.",
+    "icon": {
+      "file": "Localization_Confusion_Booster_Icon.svg",
+      "src": "/images/Localization_Confusion_Booster_Icon.svg?3b4fcb"
+    },
+    "warbond": {
+      "label": "Cutting Edge",
+      "title": "Cutting Edge Premium Warbond",
+      "anchor": "Page_1"
+    },
+    "price": {
+      "text": "18 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Expert Extraction Pilot",
+    "page": {
+      "label": "Expert Extraction Pilot",
+      "title": "Expert Extraction Pilot",
+      "anchor": null
+    },
+    "effect": "Lowers the time it takes for the extraction shuttle to reach the extraction beacon.",
+    "icon": {
+      "file": "Expert_Extraction_Pilot_Booster_Icon.svg",
+      "src": "/images/Expert_Extraction_Pilot_Booster_Icon.svg?cd8ab7"
+    },
+    "warbond": {
+      "label": "Democratic Detonation",
+      "title": "Democratic Detonation Premium Warbond",
+      "anchor": "Page_2"
+    },
+    "price": {
+      "text": "55 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Motivational Shocks",
+    "page": {
+      "label": "Motivational Shocks",
+      "title": "Motivational Shocks",
+      "anchor": null
+    },
+    "effect": "Allows all Helldivers to recover faster after being slowed by an attack, such as acid. Does not mitigate “area effects,” such as EMS strikes.",
+    "icon": {
+      "file": "Motivational_Shocks_Booster_Icon.svg",
+      "src": "/images/Motivational_Shocks_Booster_Icon.svg?2bde36"
+    },
+    "warbond": {
+      "label": "Polar Patriots",
+      "title": "Polar Patriots Premium Warbond",
+      "anchor": "Page_1"
+    },
+    "price": {
+      "text": "15 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Experimental Infusion",
+    "page": {
+      "label": "Experimental Infusion",
+      "title": "Experimental Infusion",
+      "anchor": null
+    },
+    "effect": "In addition to restoring health, Stims temporarily increase movement speed and damage reduction.",
+    "icon": {
+      "file": "Experimental_Infusion_Booster_Icon.svg",
+      "src": "/images/Experimental_Infusion_Booster_Icon.svg?b953d8"
+    },
+    "warbond": {
+      "label": "Viper Commandos",
+      "title": "Viper Commandos Premium Warbond",
+      "anchor": "Page_3"
+    },
+    "price": {
+      "text": "80 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Firebomb Hellpods",
+    "page": {
+      "label": "Firebomb Hellpods",
+      "title": "Firebomb Hellpods",
+      "anchor": null
+    },
+    "effect": "Lines all Hellpods with volatile incendiaries that detonate upon impact, igniting any units in vicinity of the drop site.",
+    "icon": {
+      "file": "Firebomb_Hellpods_Booster_Icon.svg",
+      "src": "/images/Firebomb_Hellpods_Booster_Icon.svg?98993c"
+    },
+    "warbond": {
+      "label": "Freedom's Flame",
+      "title": "Freedom's Flame Premium Warbond",
+      "anchor": "Page_3"
+    },
+    "price": {
+      "text": "60 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Dead Sprint",
+    "page": {
+      "label": "Dead Sprint",
+      "title": "Dead Sprint",
+      "anchor": null
+    },
+    "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
+    "icon": {
+      "file": "Dead_Sprint_Booster_Icon.svg",
+      "src": "/images/Dead_Sprint_Booster_Icon.svg?7fe9b8"
+    },
+    "warbond": {
+      "label": "Truth Enforcers",
+      "title": "Truth Enforcers Premium Warbond",
+      "anchor": "Page_1"
+    },
+    "price": {
+      "text": "35 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Armed Resupply Pods",
+    "page": {
+      "label": "Armed Resupply Pods",
+      "title": "Armed Resupply Pods",
+      "anchor": null
+    },
+    "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
+    "icon": {
+      "file": "Armed_Resupply_Pods_Booster_Icon.svg",
+      "src": "/images/Armed_Resupply_Pods_Booster_Icon.svg?34d6c9"
+    },
+    "warbond": {
+      "label": "Urban Legends",
+      "title": "Urban Legends Premium Warbond",
+      "anchor": "Page_2"
+    },
+    "price": {
+      "text": "55 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Sample Extricator",
+    "page": {
+      "label": "Sample Extricator",
+      "title": "Sample Extricator",
+      "anchor": null
+    },
+    "effect": "Large enemies now have a chance of dropping Samples on death. Capped at 10 drops per mission.",
+    "icon": {
+      "file": "Sample_Extricator_Booster_Icon.svg",
+      "src": "/images/Sample_Extricator_Booster_Icon.svg?39ba8b"
+    },
+    "warbond": {
+      "label": "Borderline Justice",
+      "title": "Borderline Justice Premium Warbond",
+      "anchor": "Page_3"
+    },
+    "price": {
+      "text": "65 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Sample Scanner",
+    "page": {
+      "label": "Sample Scanner",
+      "title": "Sample Scanner",
+      "anchor": null
+    },
+    "effect": "The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up.",
+    "icon": {
+      "file": "Sample_Scanner_Booster_Icon.svg",
+      "src": "/images/Sample_Scanner_Booster_Icon.svg?71d8c8"
+    },
+    "warbond": {
+      "label": "Masters of Ceremony",
+      "title": "Masters of Ceremony Premium Warbond",
+      "anchor": "Page_3"
+    },
+    "price": {
+      "text": "65 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Stun Pods",
+    "page": {
+      "label": "Stun Pods",
+      "title": "Stun Pods",
+      "anchor": null
+    },
+    "effect": "Exposes Hellpod wiring upon surface contact, stunning any units in the vicinity of the drop site.",
+    "icon": {
+      "file": "Stun_Pods_Booster_Icon.svg",
+      "src": "/images/Stun_Pods_Booster_Icon.svg?60fda5"
+    },
+    "warbond": {
+      "label": "Force of Law",
+      "title": "Force of Law Premium Warbond",
+      "anchor": "Page_2"
+    },
+    "price": {
+      "text": "55 Medals",
+      "currency": "medals"
+    }
+  },
+  {
+    "name": "Concealed Insertion",
+    "page": {
+      "label": "Concealed Insertion",
+      "title": "Concealed Insertion",
+      "anchor": null
+    },
+    "effect": "Equips Hellpods to deploy smokescreens on impact, obscuring Helldiver deployment.",
+    "icon": {
+      "file": "Concealed_Insertion_Booster_Icon.svg",
+      "src": "/images/Concealed_Insertion_Booster_Icon.svg?6274da"
+    },
+    "warbond": {
+      "label": "Redacted Regiment",
+      "title": "Redacted Regiment Premium Warbond",
+      "anchor": null
+    },
+    "price": {
+      "text": "40 Medals",
+      "currency": "medals"
+    }
+  }
+]
