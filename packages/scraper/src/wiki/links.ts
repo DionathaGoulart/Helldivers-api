@@ -1,0 +1,41 @@
+import type { Cheerio } from "cheerio";
+import type { AnyNode } from "domhandler";
+import { textOf } from "./html.ts";
+import { linkFromHref, type WikiLink } from "./title.ts";
+
+export interface LabeledLink extends WikiLink {
+  label: string; // link text as shown
+}
+
+export interface ImageRef {
+  file: string; // wiki file name, e.g. "Hellpod_Space_Optimization_Booster_Icon.svg"
+  src: string; // as served, with the version suffix (`?7aa15a`)
+}
+
+const NAMESPACED = /^(?:File|Category|Special|Template|MediaWiki):/i;
+
+/** First link to an article (not a file, category or special page) inside `node`. */
+export function firstArticleLink(node: Cheerio<AnyNode>): LabeledLink | null {
+  const anchors = node.find("a[href]");
+  for (let i = 0; i < anchors.length; i += 1) {
+    const anchor = anchors.eq(i);
+    const link = linkFromHref(anchor.attr("href") ?? "");
+    if (link && !NAMESPACED.test(link.title)) {
+      return { label: textOf(anchor), ...link };
+    }
+  }
+  return null;
+}
+
+/** `/images/thumb/A.png/51px-A.png?x` and `/images/A.svg?x` → the file name. */
+export function fileFromSrc(src: string): string | null {
+  const path = src.split(/[?#]/)[0] ?? "";
+  const match = /^\/images\/thumb\/([^/]+)\/[^/]+$/.exec(path) ?? /^\/images\/([^/]+)$/.exec(path);
+  return match?.[1] ? decodeURIComponent(match[1]) : null;
+}
+
+export function firstImage(node: Cheerio<AnyNode>): ImageRef | null {
+  const src = node.find("img[src]").first().attr("src");
+  const file = src ? fileFromSrc(src) : null;
+  return src && file ? { file, src } : null;
+}

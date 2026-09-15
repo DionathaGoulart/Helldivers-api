@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "@types/node": "catalog:",
+    "domhandler": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:"
   }
