@@ -30,4 +30,11 @@ jobs:
       - run: pnpm lint
       - run: pnpm test
       - run: pnpm validate:data packages/schemas/test/dataset
+      - run: pnpm validate:data
+      # Offline scrape over the saved fixtures into a copy of data/ (arch §11 E2E offline).
+      - name: E2E offline scrape
+        run: |
+          cp -R data "$RUNNER_TEMP/data"
+          DATA_DIR="$RUNNER_TEMP/data" pnpm scrape --offline --allow-drop --report "$RUNNER_TEMP/reports"
+          pnpm validate:data "$RUNNER_TEMP/data/v1"
       - run: pnpm build
