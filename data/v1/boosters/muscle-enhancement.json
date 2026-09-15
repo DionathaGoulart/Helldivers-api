@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "muscle-enhancement",
+    "slug": "muscle-enhancement",
+    "name": "Muscle Enhancement",
+    "aliases": [],
+    "description": "Muscle Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will move faster in more difficult terrain and environmental effects.",
+    "image": null,
+    "wiki": {
+      "title": "Muscle Enhancement",
+      "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
+      "flags": []
+    },
+    "effect": "Allows Helldivers to traverse difficult terrain with ease.",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 9,
+      "cost": {
+        "currency": "medals",
+        "amount": 70
+      },
+      "rotating": null
+    }
+  }
+}

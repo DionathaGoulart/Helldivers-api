@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dead-sprint",
+    "slug": "dead-sprint",
+    "name": "Dead Sprint",
+    "aliases": [],
+    "description": "Dead Sprint is a Booster in Helldivers 2. When equipped, all Helldivers will be able to keep sprinting after they're exhausted, though it will eat though your HP.",
+    "image": null,
+    "wiki": {
+      "title": "Dead Sprint",
+      "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
+      "flags": []
+    },
+    "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
+    "source": {
+      "type": "warbond",
+      "label": "Truth Enforcers",
+      "warbondId": "truth-enforcers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

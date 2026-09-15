@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "stamina-enhancement",
+    "slug": "stamina-enhancement",
+    "name": "Stamina Enhancement",
+    "aliases": [],
+    "description": "Stamina Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will have increased max stamina and stamina recovery, allowing for longer sprinting times, and more physically-taxing movements.",
+    "image": null,
+    "wiki": {
+      "title": "Stamina Enhancement",
+      "url": "https://helldivers.wiki.gg/wiki/Stamina_Enhancement",
+      "flags": []
+    },
+    "effect": "Increases all Helldivers' stamina capacity and recovery.",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 7,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  }
+}

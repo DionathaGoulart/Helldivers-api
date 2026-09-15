@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "count": 1,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "dataVersion": "2026-09-15.16b37bbe",
+      "date": "2026-09-15",
+      "summary": {
+        "added": 18,
+        "changed": 0,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "boosters",
+          "id": "armed-resupply-pods",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "concealed-insertion",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "dead-sprint",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "experimental-infusion",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "expert-extraction-pilot",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "firebomb-hellpods",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "flexible-reinforcement-budget",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "hellpod-space-optimization",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "increased-reinforcement-budget",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "localization-confusion",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "motivational-shocks",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "muscle-enhancement",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "sample-extricator",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "sample-scanner",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "stamina-enhancement",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "stun-pods",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "uav-recon-booster",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "vitality-enhancement",
+          "kind": "added"
+        }
+      ]
+    }
+  ]
+}

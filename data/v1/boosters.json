@@ -1,0 +1,466 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "count": 18,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "armed-resupply-pods",
+      "slug": "armed-resupply-pods",
+      "name": "Armed Resupply Pods",
+      "aliases": [],
+      "description": "The Armed Resupply Pods are a Booster in Helldivers 2. When equipped, all Resupply Pods come mounted with an automated custom AR-23P Liberator Penetrator lasting until ran out of bullets or the pod itself getting demolished.",
+      "image": null,
+      "wiki": {
+        "title": "Armed Resupply Pods",
+        "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
+        "flags": []
+      },
+      "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
+      "source": {
+        "type": "warbond",
+        "label": "Urban Legends",
+        "warbondId": "urban-legends",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "concealed-insertion",
+      "slug": "concealed-insertion",
+      "name": "Concealed Insertion",
+      "aliases": [],
+      "description": "Concealed Insertion is a Booster in Helldivers 2. When equipped, Hellpods emits smoke on impact.",
+      "image": null,
+      "wiki": {
+        "title": "Concealed Insertion",
+        "url": "https://helldivers.wiki.gg/wiki/Concealed_Insertion",
+        "flags": []
+      },
+      "effect": "Equips Hellpods to deploy smokescreens on impact, obscuring Helldiver deployment.",
+      "source": {
+        "type": "warbond",
+        "label": "Redacted Regiment",
+        "warbondId": "redacted-regiment",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 40
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "dead-sprint",
+      "slug": "dead-sprint",
+      "name": "Dead Sprint",
+      "aliases": [],
+      "description": "Dead Sprint is a Booster in Helldivers 2. When equipped, all Helldivers will be able to keep sprinting after they're exhausted, though it will eat though your HP.",
+      "image": null,
+      "wiki": {
+        "title": "Dead Sprint",
+        "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
+        "flags": []
+      },
+      "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
+      "source": {
+        "type": "warbond",
+        "label": "Truth Enforcers",
+        "warbondId": "truth-enforcers",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "experimental-infusion",
+      "slug": "experimental-infusion",
+      "name": "Experimental Infusion",
+      "aliases": [],
+      "description": "Experimental Infusion is a Booster in Helldivers 2. When equipped, all Helldivers will use a special Stim, which increases the movement speed and reduces damage taken, in addition to the standard properties of a Stim.",
+      "image": null,
+      "wiki": {
+        "title": "Experimental Infusion",
+        "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
+        "flags": []
+      },
+      "effect": "In addition to restoring health, Stims temporarily increase movement speed and damage reduction.",
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos",
+        "warbondId": "viper-commandos",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 80
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "expert-extraction-pilot",
+      "slug": "expert-extraction-pilot",
+      "name": "Expert Extraction Pilot",
+      "aliases": [],
+      "description": "Expert Extraction Pilot is a Booster in Helldivers 2. When equipped, the extraction timer will be decreased, allowing for the Helldivers' squad to extract from a mission at a quicker rate. This booster does not affect missions where the Extraction Shuttle is immediately called in and lands after a mission is completed.",
+      "image": null,
+      "wiki": {
+        "title": "Expert Extraction Pilot",
+        "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",
+        "flags": []
+      },
+      "effect": "Lowers the time it takes for the extraction shuttle to reach the extraction beacon.",
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation",
+        "warbondId": "democratic-detonation",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "firebomb-hellpods",
+      "slug": "firebomb-hellpods",
+      "name": "Firebomb Hellpods",
+      "aliases": [],
+      "description": "Firebomb Hellpods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will detonate upon impact with the surface. Due to the nature of the booster, and its potential damage, notify all squadmates of its use in order to minimize friendly fire.",
+      "image": null,
+      "wiki": {
+        "title": "Firebomb Hellpods",
+        "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
+        "flags": []
+      },
+      "effect": "Lines all Hellpods with volatile incendiaries that detonate upon impact, igniting any units in vicinity of the drop site.",
+      "source": {
+        "type": "warbond",
+        "label": "Freedom's Flame",
+        "warbondId": "freedoms-flame",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 60
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "flexible-reinforcement-budget",
+      "slug": "flexible-reinforcement-budget",
+      "name": "Flexible Reinforcement Budget",
+      "aliases": [],
+      "description": "Flexible Reinforcement Budget is a Booster in Helldivers 2. When equipped, the timer to gain reinforcements will be reduced. This effect only activates when there are no more reinforcements readily available.",
+      "image": null,
+      "wiki": {
+        "title": "Flexible Reinforcement Budget",
+        "url": "https://helldivers.wiki.gg/wiki/Flexible_Reinforcement_Budget",
+        "flags": []
+      },
+      "effect": "Reduces time until new reinforcements are granted once they've been depleted.",
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans",
+        "warbondId": "steeled-veterans",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 75
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "hellpod-space-optimization",
+      "slug": "hellpod-space-optimization",
+      "name": "Hellpod Space Optimization",
+      "aliases": [],
+      "description": "Hellpod Space Optimization is a Booster in Helldivers 2. When equipped, all Helldivers in a squad will come out of their Hellpod (either initial deployment or being reinforced) fully stocked with Ammo, Grenades, and Stims. Depending on their equipped armor, their max number of equipment will vary.",
+      "image": null,
+      "wiki": {
+        "title": "Hellpod Space Optimization",
+        "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
+        "flags": []
+      },
+      "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades and Stims.",
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "increased-reinforcement-budget",
+      "slug": "increased-reinforcement-budget",
+      "name": "Increased Reinforcement Budget",
+      "aliases": [],
+      "description": "Increased Reinforcement Budget is a Booster in Helldivers 2. When equipped, the amount of reinforcements is increased, allowing for greater number of reinforcements to be called in greater succession.",
+      "image": null,
+      "wiki": {
+        "title": "Increased Reinforcement Budget",
+        "url": "https://helldivers.wiki.gg/wiki/Increased_Reinforcement_Budget",
+        "flags": []
+      },
+      "effect": "Increases the number of available reinforcements.",
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 10,
+        "cost": {
+          "currency": "medals",
+          "amount": 150
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "localization-confusion",
+      "slug": "localization-confusion",
+      "name": "Localization Confusion",
+      "aliases": [],
+      "description": "Localization Confusion is a Booster in Helldivers 2. When equipped, the time between the call for spawned enemy encounters/reinforcements (in the form of Bug Breaches, or Incoming Dropships) will be increased. This increased time gives Helldivers more breathing room, allowing them to react more to the incoming enemies.",
+      "image": null,
+      "wiki": {
+        "title": "Localization Confusion",
+        "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
+        "flags": []
+      },
+      "effect": "Increases the time between enemy encounters.",
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge",
+        "warbondId": "cutting-edge",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 18
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "motivational-shocks",
+      "slug": "motivational-shocks",
+      "name": "Motivational Shocks",
+      "aliases": [],
+      "description": "Motivational Shocks is a Booster in Helldivers 2. When equipped, all Helldivers are able to recover faster after being slowed by certain attacks. While it does mitigate most attacks that slow down movement, it does not mitigate all of them.",
+      "image": null,
+      "wiki": {
+        "title": "Motivational Shocks",
+        "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
+        "flags": []
+      },
+      "effect": "Allows all Helldivers to recover faster after being slowed by an attack, such as acid. Does not mitigate “area effects,” such as EMS strikes.",
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots",
+        "warbondId": "polar-patriots",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "muscle-enhancement",
+      "slug": "muscle-enhancement",
+      "name": "Muscle Enhancement",
+      "aliases": [],
+      "description": "Muscle Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will move faster in more difficult terrain and environmental effects.",
+      "image": null,
+      "wiki": {
+        "title": "Muscle Enhancement",
+        "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
+        "flags": []
+      },
+      "effect": "Allows Helldivers to traverse difficult terrain with ease.",
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 9,
+        "cost": {
+          "currency": "medals",
+          "amount": 70
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sample-extricator",
+      "slug": "sample-extricator",
+      "name": "Sample Extricator",
+      "aliases": [],
+      "description": "Sample Extricator is a Booster in Helldivers 2. When equipped, all Large Enemies will have a chance of dropping Common samples upon death. The amount varies, but the amount dropped per mission is capped at 10.",
+      "image": null,
+      "wiki": {
+        "title": "Sample Extricator",
+        "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
+        "flags": []
+      },
+      "effect": "Large enemies now have a chance of dropping Samples on death. Capped at 10 drops per mission.",
+      "source": {
+        "type": "warbond",
+        "label": "Borderline Justice",
+        "warbondId": "borderline-justice",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 65
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sample-scanner",
+      "slug": "sample-scanner",
+      "name": "Sample Scanner",
+      "aliases": [],
+      "description": "Sample Scanner is a Booster in Helldivers 2. The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up. It affects all sample rarities.",
+      "image": null,
+      "wiki": {
+        "title": "Sample Scanner",
+        "url": "https://helldivers.wiki.gg/wiki/Sample_Scanner",
+        "flags": []
+      },
+      "effect": "The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up.",
+      "source": {
+        "type": "warbond",
+        "label": "Masters of Ceremony",
+        "warbondId": "masters-of-ceremony",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 65
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "stamina-enhancement",
+      "slug": "stamina-enhancement",
+      "name": "Stamina Enhancement",
+      "aliases": [],
+      "description": "Stamina Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will have increased max stamina and stamina recovery, allowing for longer sprinting times, and more physically-taxing movements.",
+      "image": null,
+      "wiki": {
+        "title": "Stamina Enhancement",
+        "url": "https://helldivers.wiki.gg/wiki/Stamina_Enhancement",
+        "flags": []
+      },
+      "effect": "Increases all Helldivers' stamina capacity and recovery.",
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 7,
+        "cost": {
+          "currency": "medals",
+          "amount": 75
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "stun-pods",
+      "slug": "stun-pods",
+      "name": "Stun Pods",
+      "aliases": [],
+      "description": "Stun Pods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will stun nearby enemies upon impact with the surface.",
+      "image": null,
+      "wiki": {
+        "title": "Stun Pods",
+        "url": "https://helldivers.wiki.gg/wiki/Stun_Pods",
+        "flags": []
+      },
+      "effect": "Exposes Hellpod wiring upon surface contact, stunning any units in the vicinity of the drop site.",
+      "source": {
+        "type": "warbond",
+        "label": "Force of Law",
+        "warbondId": "force-of-law",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "uav-recon-booster",
+      "slug": "uav-recon-booster",
+      "name": "UAV Recon Booster",
+      "aliases": [],
+      "description": "UAV Recon Booster is a Booster in Helldivers 2. When equipped, all Helldivers will have increased effective radar range, allowing for easier recon of terrain.",
+      "image": null,
+      "wiki": {
+        "title": "UAV Recon Booster",
+        "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "effect": "Increases all Helldivers' effective radar range.",
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 6,
+        "cost": {
+          "currency": "medals",
+          "amount": 40
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "vitality-enhancement",
+      "slug": "vitality-enhancement",
+      "name": "Vitality Enhancement",
+      "aliases": [],
+      "description": "Vitality Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will be more resistant to damage and injury.",
+      "image": null,
+      "wiki": {
+        "title": "Vitality Enhancement",
+        "url": "https://helldivers.wiki.gg/wiki/Vitality_Enhancement",
+        "flags": []
+      },
+      "effect": "Provides minor damage reduction from all sources for all Helldivers",
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 4,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    }
+  ]
+}

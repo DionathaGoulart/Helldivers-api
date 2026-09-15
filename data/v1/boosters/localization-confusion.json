@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "localization-confusion",
+    "slug": "localization-confusion",
+    "name": "Localization Confusion",
+    "aliases": [],
+    "description": "Localization Confusion is a Booster in Helldivers 2. When equipped, the time between the call for spawned enemy encounters/reinforcements (in the form of Bug Breaches, or Incoming Dropships) will be increased. This increased time gives Helldivers more breathing room, allowing them to react more to the incoming enemies.",
+    "image": null,
+    "wiki": {
+      "title": "Localization Confusion",
+      "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
+      "flags": []
+    },
+    "effect": "Increases the time between enemy encounters.",
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge",
+      "warbondId": "cutting-edge",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 18
+      },
+      "rotating": null
+    }
+  }
+}

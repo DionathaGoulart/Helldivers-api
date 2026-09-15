@@ -1,0 +1,22 @@
+{
+  "boosters": {
+    "Armed Resupply Pods": "armed-resupply-pods",
+    "Concealed Insertion": "concealed-insertion",
+    "Dead Sprint": "dead-sprint",
+    "Experimental Infusion": "experimental-infusion",
+    "Expert Extraction Pilot": "expert-extraction-pilot",
+    "Firebomb Hellpods": "firebomb-hellpods",
+    "Flexible Reinforcement Budget": "flexible-reinforcement-budget",
+    "Hellpod Space Optimization": "hellpod-space-optimization",
+    "Increased Reinforcement Budget": "increased-reinforcement-budget",
+    "Localization Confusion": "localization-confusion",
+    "Motivational Shocks": "motivational-shocks",
+    "Muscle Enhancement": "muscle-enhancement",
+    "Sample Extricator": "sample-extricator",
+    "Sample Scanner": "sample-scanner",
+    "Stamina Enhancement": "stamina-enhancement",
+    "Stun Pods": "stun-pods",
+    "UAV Recon Booster": "uav-recon-booster",
+    "Vitality Enhancement": "vitality-enhancement"
+  }
+}

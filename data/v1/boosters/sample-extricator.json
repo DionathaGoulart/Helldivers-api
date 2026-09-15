@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sample-extricator",
+    "slug": "sample-extricator",
+    "name": "Sample Extricator",
+    "aliases": [],
+    "description": "Sample Extricator is a Booster in Helldivers 2. When equipped, all Large Enemies will have a chance of dropping Common samples upon death. The amount varies, but the amount dropped per mission is capped at 10.",
+    "image": null,
+    "wiki": {
+      "title": "Sample Extricator",
+      "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
+      "flags": []
+    },
+    "effect": "Large enemies now have a chance of dropping Samples on death. Capped at 10 drops per mission.",
+    "source": {
+      "type": "warbond",
+      "label": "Borderline Justice",
+      "warbondId": "borderline-justice",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

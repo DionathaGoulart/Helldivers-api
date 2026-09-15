@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "firebomb-hellpods",
+    "slug": "firebomb-hellpods",
+    "name": "Firebomb Hellpods",
+    "aliases": [],
+    "description": "Firebomb Hellpods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will detonate upon impact with the surface. Due to the nature of the booster, and its potential damage, notify all squadmates of its use in order to minimize friendly fire.",
+    "image": null,
+    "wiki": {
+      "title": "Firebomb Hellpods",
+      "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
+      "flags": []
+    },
+    "effect": "Lines all Hellpods with volatile incendiaries that detonate upon impact, igniting any units in vicinity of the drop site.",
+    "source": {
+      "type": "warbond",
+      "label": "Freedom's Flame",
+      "warbondId": "freedoms-flame",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 60
+      },
+      "rotating": null
+    }
+  }
+}

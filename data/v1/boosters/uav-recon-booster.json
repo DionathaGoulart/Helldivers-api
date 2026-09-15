@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "uav-recon-booster",
+    "slug": "uav-recon-booster",
+    "name": "UAV Recon Booster",
+    "aliases": [],
+    "description": "UAV Recon Booster is a Booster in Helldivers 2. When equipped, all Helldivers will have increased effective radar range, allowing for easier recon of terrain.",
+    "image": null,
+    "wiki": {
+      "title": "UAV Recon Booster",
+      "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "effect": "Increases all Helldivers' effective radar range.",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 6,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

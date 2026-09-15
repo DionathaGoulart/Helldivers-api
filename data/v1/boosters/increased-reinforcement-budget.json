@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "increased-reinforcement-budget",
+    "slug": "increased-reinforcement-budget",
+    "name": "Increased Reinforcement Budget",
+    "aliases": [],
+    "description": "Increased Reinforcement Budget is a Booster in Helldivers 2. When equipped, the amount of reinforcements is increased, allowing for greater number of reinforcements to be called in greater succession.",
+    "image": null,
+    "wiki": {
+      "title": "Increased Reinforcement Budget",
+      "url": "https://helldivers.wiki.gg/wiki/Increased_Reinforcement_Budget",
+      "flags": []
+    },
+    "effect": "Increases the number of available reinforcements.",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 10,
+      "cost": {
+        "currency": "medals",
+        "amount": 150
+      },
+      "rotating": null
+    }
+  }
+}

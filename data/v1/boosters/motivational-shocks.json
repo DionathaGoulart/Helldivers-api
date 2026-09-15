@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.16b37bbe",
+    "generatedAt": "2026-09-15T15:25:42Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "motivational-shocks",
+    "slug": "motivational-shocks",
+    "name": "Motivational Shocks",
+    "aliases": [],
+    "description": "Motivational Shocks is a Booster in Helldivers 2. When equipped, all Helldivers are able to recover faster after being slowed by certain attacks. While it does mitigate most attacks that slow down movement, it does not mitigate all of them.",
+    "image": null,
+    "wiki": {
+      "title": "Motivational Shocks",
+      "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
+      "flags": []
+    },
+    "effect": "Allows all Helldivers to recover faster after being slowed by an attack, such as acid. Does not mitigate “area effects,” such as EMS strikes.",
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots",
+      "warbondId": "polar-patriots",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 15
+      },
+      "rotating": null
+    }
+  }
+}
