@@ -1,0 +1,12 @@
+{
+  "Bridge": "requisition",
+  "Engineering Bay": "requisition",
+  "Hangar": "requisition",
+  "Orbital Cannons": "requisition",
+  "Patriotic Administration Center": "requisition",
+  "Pre-Order Bonus": "pre_order",
+  "Robotics Workshop": "requisition",
+  "Starter Equipment": "default",
+  "Super Citizen Edition": "edition",
+  "Superstore": "superstore"
+}
