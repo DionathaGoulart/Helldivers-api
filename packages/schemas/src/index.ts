@@ -1,5 +1,6 @@
 export * from "./collections.ts";
 export * from "./common.ts";
+export * from "./dataset.ts";
 export * from "./entities/armor.ts";
 export * from "./entities/booster.ts";
 export * from "./entities/cosmetics.ts";
@@ -10,4 +11,5 @@ export * from "./entities/weapon.ts";
 export * from "./envelope.ts";
 export * from "./integrity.ts";
 export * from "./json-schema.ts";
+export * from "./reports.ts";
 export * from "./slug.ts";
