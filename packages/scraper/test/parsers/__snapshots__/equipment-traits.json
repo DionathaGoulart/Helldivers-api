@@ -1,0 +1,4738 @@
+{
+  "title": "Equipment Traits",
+  "categories": [
+    "Weapons",
+    "Stratagems",
+    "Pages with navboxes"
+  ],
+  "listed": [
+    {
+      "name": "Explosive",
+      "count": 63
+    },
+    {
+      "name": "Medium Armor Penetrating",
+      "count": 49
+    },
+    {
+      "name": "Anti-Tank",
+      "count": 40
+    },
+    {
+      "name": "Light Armor Penetrating",
+      "count": 38
+    },
+    {
+      "name": "Hellpod",
+      "count": 36
+    },
+    {
+      "name": "Support Weapon",
+      "count": 35
+    },
+    {
+      "name": "One Handed",
+      "count": 34
+    },
+    {
+      "name": "Backpack",
+      "count": 23
+    },
+    {
+      "name": "Heavy Armor Penetrating",
+      "count": 22
+    },
+    {
+      "name": "Incendiary",
+      "count": 20
+    },
+    {
+      "name": "Rounds Reload",
+      "count": 14
+    },
+    {
+      "name": "Orbital",
+      "count": 12
+    },
+    {
+      "name": "Sentry",
+      "count": 10
+    },
+    {
+      "name": "Melee",
+      "count": 10
+    },
+    {
+      "name": "Caustic",
+      "count": 9
+    },
+    {
+      "name": "Stationary Reload",
+      "count": 8
+    },
+    {
+      "name": "Vehicle",
+      "count": 8
+    },
+    {
+      "name": "Heat",
+      "count": 8
+    },
+    {
+      "name": "Eagle",
+      "count": 8
+    },
+    {
+      "name": "Chargeup",
+      "count": 7
+    },
+    {
+      "name": "Stun",
+      "count": 7
+    },
+    {
+      "name": "Expendable",
+      "count": 6
+    },
+    {
+      "name": "Beam",
+      "count": 6
+    },
+    {
+      "name": "Arc",
+      "count": 6
+    },
+    {
+      "name": "Guided",
+      "count": 5
+    },
+    {
+      "name": "Sticky",
+      "count": 5
+    },
+    {
+      "name": "Suppressed",
+      "count": 4
+    },
+    {
+      "name": "Stimulative",
+      "count": 1
+    }
+  ],
+  "traits": [
+    {
+      "name": "Explosive",
+      "anchor": "Explosive",
+      "members": [
+        {
+          "page": {
+            "label": "A/M-12 Mortar Sentry",
+            "title": "A/M-12 Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-12 Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/M-23 EMS Mortar Sentry",
+            "title": "A/M-23 EMS Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-23 EMS Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MLS-4X Rocket Sentry",
+            "title": "A/MLS-4X Rocket Sentry",
+            "anchor": null
+          },
+          "name": "A/MLS-4X Rocket Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AR/GL-21 One-Two",
+            "title": "AR/GL-21 One-Two",
+            "anchor": null
+          },
+          "name": "AR/GL-21 One-Two",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "B-100 Portable Hellbomb",
+            "title": "B-100 Portable Hellbomb",
+            "anchor": null
+          },
+          "name": "B-100 Portable Hellbomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CB-9 Exploding Crossbow",
+            "title": "CB-9 Exploding Crossbow",
+            "anchor": null
+          },
+          "name": "CB-9 Exploding Crossbow",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-20 Breaching Hammer",
+            "title": "CQC-20 Breaching Hammer",
+            "anchor": null
+          },
+          "name": "CQC-20 Breaching Hammer",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "E/GL-21 Grenadier Battlement",
+            "title": "E/GL-21 Grenadier Battlement",
+            "anchor": null
+          },
+          "name": "E/GL-21 Grenadier Battlement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle 110mm Rocket Pods",
+            "title": "Eagle 110mm Rocket Pods",
+            "anchor": null
+          },
+          "name": "Eagle 110mm Rocket Pods",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle 500kg Bomb",
+            "title": "Eagle 500kg Bomb",
+            "anchor": null
+          },
+          "name": "Eagle 500kg Bomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Airstrike",
+            "title": "Eagle Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Cluster Bomb",
+            "title": "Eagle Cluster Bomb",
+            "anchor": null
+          },
+          "name": "Eagle Cluster Bomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Gas Airstrike",
+            "title": "Eagle Gas Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Gas Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Napalm Airstrike",
+            "title": "Eagle Napalm Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Napalm Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Smoke Strike",
+            "title": "Eagle Smoke Strike",
+            "anchor": null
+          },
+          "name": "Eagle Smoke Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-45 Patriot Exosuit",
+            "title": "EXO-45 Patriot Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-45 Patriot Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-49 Emancipator Exosuit",
+            "title": "EXO-49 Emancipator Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-49 Emancipator Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-51 Lumberer Exosuit",
+            "title": "EXO-51 Lumberer Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-51 Lumberer Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-10 Incendiary",
+            "title": "G-10 Incendiary",
+            "anchor": null
+          },
+          "name": "G-10 Incendiary",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-12 High Explosive",
+            "title": "G-12 High Explosive",
+            "anchor": null
+          },
+          "name": "G-12 High Explosive",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-13 Incendiary Impact",
+            "title": "G-13 Incendiary Impact",
+            "anchor": null
+          },
+          "name": "G-13 Incendiary Impact",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-142 Pyrotech",
+            "title": "G-142 Pyrotech",
+            "anchor": null
+          },
+          "name": "G-142 Pyrotech",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-16 Impact",
+            "title": "G-16 Impact",
+            "anchor": null
+          },
+          "name": "G-16 Impact",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-23 Stun",
+            "title": "G-23 Stun",
+            "anchor": null
+          },
+          "name": "G-23 Stun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-3 Smoke",
+            "title": "G-3 Smoke",
+            "anchor": null
+          },
+          "name": "G-3 Smoke",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-31 Arc",
+            "title": "G-31 Arc",
+            "anchor": null
+          },
+          "name": "G-31 Arc",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-4 Gas",
+            "title": "G-4 Gas",
+            "anchor": null
+          },
+          "name": "G-4 Gas",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-48 Giga Grenade",
+            "title": "G-48 Giga Grenade",
+            "anchor": null
+          },
+          "name": "G-48 Giga Grenade",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-50 Seeker",
+            "title": "G-50 Seeker",
+            "anchor": null
+          },
+          "name": "G-50 Seeker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-6 Frag",
+            "title": "G-6 Frag",
+            "anchor": null
+          },
+          "name": "G-6 Frag",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-7 Pineapple",
+            "title": "G-7 Pineapple",
+            "anchor": null
+          },
+          "name": "G-7 Pineapple",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-89 Smokescreen",
+            "title": "G-89 Smokescreen",
+            "anchor": null
+          },
+          "name": "G-89 Smokescreen",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GL-21 Grenade Launcher",
+            "title": "GL-21 Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-21 Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-28 Belt-Fed Grenade Launcher",
+            "title": "GL-28 Belt-Fed Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-28 Belt-Fed Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-52 De-Escalator",
+            "title": "GL-52 De-Escalator",
+            "anchor": null
+          },
+          "name": "GL-52 De-Escalator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GP-20 Ultimatum",
+            "title": "GP-20 Ultimatum",
+            "anchor": null
+          },
+          "name": "GP-20 Ultimatum",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GP-31 Grenade Pistol",
+            "title": "GP-31 Grenade Pistol",
+            "anchor": null
+          },
+          "name": "GP-31 Grenade Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "MD-17 Anti-Tank Mines",
+            "title": "MD-17 Anti-Tank Mines",
+            "anchor": null
+          },
+          "name": "MD-17 Anti-Tank Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-6 Anti-Personnel Minefield",
+            "title": "MD-6 Anti-Personnel Minefield",
+            "anchor": null
+          },
+          "name": "MD-6 Anti-Personnel Minefield",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-8 Gas Mines",
+            "title": "MD-8 Gas Mines",
+            "anchor": null
+          },
+          "name": "MD-8 Gas Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-I4 Incendiary Mines",
+            "title": "MD-I4 Incendiary Mines",
+            "anchor": null
+          },
+          "name": "MD-I4 Incendiary Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MS-11 Solo Silo",
+            "title": "MS-11 Solo Silo",
+            "anchor": null
+          },
+          "name": "MS-11 Solo Silo",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital 120mm HE Barrage",
+            "title": "Orbital 120mm HE Barrage",
+            "anchor": null
+          },
+          "name": "Orbital 120mm HE Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital 380mm HE Barrage",
+            "title": "Orbital 380mm HE Barrage",
+            "anchor": null
+          },
+          "name": "Orbital 380mm HE Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Airburst Strike",
+            "title": "Orbital Airburst Strike",
+            "anchor": null
+          },
+          "name": "Orbital Airburst Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Gas Strike",
+            "title": "Orbital Gas Strike",
+            "anchor": null
+          },
+          "name": "Orbital Gas Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Gatling Barrage",
+            "title": "Orbital Gatling Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Gatling Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Napalm Barrage",
+            "title": "Orbital Napalm Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Napalm Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Precision Strike",
+            "title": "Orbital Precision Strike",
+            "anchor": null
+          },
+          "name": "Orbital Precision Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Smoke Strike",
+            "title": "Orbital Smoke Strike",
+            "anchor": null
+          },
+          "name": "Orbital Smoke Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Walking Barrage",
+            "title": "Orbital Walking Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Walking Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "P-33 Missile Pistol",
+            "title": "P-33 Missile Pistol",
+            "anchor": null
+          },
+          "name": "P-33 Missile Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P/40-K Bolt Pistol",
+            "title": "P/40-K Bolt Pistol",
+            "anchor": null
+          },
+          "name": "P/40-K Bolt Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-1 Scorcher",
+            "title": "PLAS-1 Scorcher",
+            "anchor": null
+          },
+          "name": "PLAS-1 Scorcher",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-101 Purifier",
+            "title": "PLAS-101 Purifier",
+            "anchor": null
+          },
+          "name": "PLAS-101 Purifier",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-15 Loyalist",
+            "title": "PLAS-15 Loyalist",
+            "anchor": null
+          },
+          "name": "PLAS-15 Loyalist",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-39 Accelerator Rifle",
+            "title": "PLAS-39 Accelerator Rifle",
+            "anchor": null
+          },
+          "name": "PLAS-39 Accelerator Rifle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-45 Epoch",
+            "title": "PLAS-45 Epoch",
+            "anchor": null
+          },
+          "name": "PLAS-45 Epoch",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "R-36 Eruptor",
+            "title": "R-36 Eruptor",
+            "anchor": null
+          },
+          "name": "R-36 Eruptor",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-8P Punisher Plasma",
+            "title": "SG-8P Punisher Plasma",
+            "anchor": null
+          },
+          "name": "SG-8P Punisher Plasma",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "TD-220 Bastion MK XVI",
+            "title": "TD-220 Bastion MK XVI",
+            "anchor": null
+          },
+          "name": "TD-220 Bastion MK XVI",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "TED-63 Dynamite",
+            "title": "TED-63 Dynamite",
+            "anchor": null
+          },
+          "name": "TED-63 Dynamite",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "TM-1 Lure Mine",
+            "title": "TM-1 Lure Mine",
+            "anchor": null
+          },
+          "name": "TM-1 Lure Mine",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Medium Armor Penetrating",
+      "anchor": "Medium_Armor_Penetrating",
+      "members": [
+        {
+          "page": {
+            "label": "A/G-16 Gatling Sentry",
+            "title": "A/G-16 Gatling Sentry",
+            "anchor": null
+          },
+          "name": "A/G-16 Gatling Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/M-12 Mortar Sentry",
+            "title": "A/M-12 Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-12 Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MG-43 Machine Gun Sentry",
+            "title": "A/MG-43 Machine Gun Sentry",
+            "anchor": null
+          },
+          "name": "A/MG-43 Machine Gun Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AR-2 Coyote",
+            "title": "AR-2 Coyote",
+            "anchor": null
+          },
+          "name": "AR-2 Coyote",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR-23P Liberator Penetrator",
+            "title": "AR-23P Liberator Penetrator",
+            "anchor": null
+          },
+          "name": "AR-23P Liberator Penetrator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR-32 Pacifier",
+            "title": "AR-32 Pacifier",
+            "anchor": null
+          },
+          "name": "AR-32 Pacifier",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "ARC-12 Blitzer",
+            "title": "ARC-12 Blitzer",
+            "anchor": null
+          },
+          "name": "ARC-12 Blitzer",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AX/AR-23 Guard Dog",
+            "title": "AX/AR-23 Guard Dog",
+            "anchor": null
+          },
+          "name": "AX/AR-23 Guard Dog",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "BR-14 Adjudicator",
+            "title": "BR-14 Adjudicator",
+            "anchor": null
+          },
+          "name": "BR-14 Adjudicator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-1 One True Flag",
+            "title": "CQC-1 One True Flag",
+            "anchor": null
+          },
+          "name": "CQC-1 One True Flag",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-19 Stun Lance",
+            "title": "CQC-19 Stun Lance",
+            "anchor": null
+          },
+          "name": "CQC-19 Stun Lance",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-2 Saber",
+            "title": "CQC-2 Saber",
+            "anchor": null
+          },
+          "name": "CQC-2 Saber",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-30 Stun Baton",
+            "title": "CQC-30 Stun Baton",
+            "anchor": null
+          },
+          "name": "CQC-30 Stun Baton",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-42 Machete",
+            "title": "CQC-42 Machete",
+            "anchor": null
+          },
+          "name": "CQC-42 Machete",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-5 Combat Hatchet",
+            "title": "CQC-5 Combat Hatchet",
+            "anchor": null
+          },
+          "name": "CQC-5 Combat Hatchet",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "DBS-2 Double Freedom",
+            "title": "DBS-2 Double Freedom",
+            "anchor": null
+          },
+          "name": "DBS-2 Double Freedom",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "E/GL-21 Grenadier Battlement",
+            "title": "E/GL-21 Grenadier Battlement",
+            "anchor": null
+          },
+          "name": "E/GL-21 Grenadier Battlement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Cluster Bomb",
+            "title": "Eagle Cluster Bomb",
+            "anchor": null
+          },
+          "name": "Eagle Cluster Bomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-45 Patriot Exosuit",
+            "title": "EXO-45 Patriot Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-45 Patriot Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-6 Frag",
+            "title": "G-6 Frag",
+            "anchor": null
+          },
+          "name": "G-6 Frag",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GL-21 Grenade Launcher",
+            "title": "GL-21 Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-21 Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "JAR-5 Dominator",
+            "title": "JAR-5 Dominator",
+            "anchor": null
+          },
+          "name": "JAR-5 Dominator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "K-2 Throwing Knife",
+            "title": "K-2 Throwing Knife",
+            "anchor": null
+          },
+          "name": "K-2 Throwing Knife",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-17 Double-Edge Sickle",
+            "title": "LAS-17 Double-Edge Sickle",
+            "anchor": null
+          },
+          "name": "LAS-17 Double-Edge Sickle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-58 Talon",
+            "title": "LAS-58 Talon",
+            "anchor": null
+          },
+          "name": "LAS-58 Talon",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M-1000 Maxigun",
+            "title": "M-1000 Maxigun",
+            "anchor": null
+          },
+          "name": "M-1000 Maxigun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-103 Supply FRV",
+            "title": "M-103 Supply FRV",
+            "anchor": null
+          },
+          "name": "M-103 Supply FRV",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MA5C Assault Rifle",
+            "title": "MA5C Assault Rifle",
+            "anchor": null
+          },
+          "name": "MA5C Assault Rifle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "MD-6 Anti-Personnel Minefield",
+            "title": "MD-6 Anti-Personnel Minefield",
+            "anchor": null
+          },
+          "name": "MD-6 Anti-Personnel Minefield",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MG-43 Machine Gun",
+            "title": "MG-43 Machine Gun",
+            "anchor": null
+          },
+          "name": "MG-43 Machine Gun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Airburst Strike",
+            "title": "Orbital Airburst Strike",
+            "anchor": null
+          },
+          "name": "Orbital Airburst Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "P-113 Verdict",
+            "title": "P-113 Verdict",
+            "anchor": null
+          },
+          "name": "P-113 Verdict",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-33 Missile Pistol",
+            "title": "P-33 Missile Pistol",
+            "anchor": null
+          },
+          "name": "P-33 Missile Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-69 Veto",
+            "title": "P-69 Veto",
+            "anchor": null
+          },
+          "name": "P-69 Veto",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-92 Warrant",
+            "title": "P-92 Warrant",
+            "anchor": null
+          },
+          "name": "P-92 Warrant",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-101 Purifier",
+            "title": "PLAS-101 Purifier",
+            "anchor": null
+          },
+          "name": "PLAS-101 Purifier",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-15 Loyalist",
+            "title": "PLAS-15 Loyalist",
+            "anchor": null
+          },
+          "name": "PLAS-15 Loyalist",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-39 Accelerator Rifle",
+            "title": "PLAS-39 Accelerator Rifle",
+            "anchor": null
+          },
+          "name": "PLAS-39 Accelerator Rifle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-2124 Constitution",
+            "title": "R-2124 Constitution",
+            "anchor": null
+          },
+          "name": "R-2124 Constitution",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-4 Hyena",
+            "title": "R-4 Hyena",
+            "anchor": null
+          },
+          "name": "R-4 Hyena",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-6 Deadeye",
+            "title": "R-6 Deadeye",
+            "anchor": null
+          },
+          "name": "R-6 Deadeye",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-63CS Diligence Counter Sniper",
+            "title": "R-63CS Diligence Counter Sniper",
+            "anchor": null
+          },
+          "name": "R-63CS Diligence Counter Sniper",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R/40-K Hot-Shot Marksman Rifle",
+            "title": "R/40-K Hot-Shot Marksman Rifle",
+            "anchor": null
+          },
+          "name": "R/40-K Hot-Shot Marksman Rifle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "RL-77 Airburst Rocket Launcher",
+            "title": "RL-77 Airburst Rocket Launcher",
+            "anchor": null
+          },
+          "name": "RL-77 Airburst Rocket Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SG-20 Halt",
+            "title": "SG-20 Halt",
+            "anchor": null
+          },
+          "name": "SG-20 Halt",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-8S Slugger",
+            "title": "SG-8S Slugger",
+            "anchor": null
+          },
+          "name": "SG-8S Slugger",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-97 Sweeper",
+            "title": "SG-97 Sweeper",
+            "anchor": null
+          },
+          "name": "SG-97 Sweeper",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-203 Gallant",
+            "title": "SMG-203 Gallant",
+            "anchor": null
+          },
+          "name": "SMG-203 Gallant",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-32 Reprimand",
+            "title": "SMG-32 Reprimand",
+            "anchor": null
+          },
+          "name": "SMG-32 Reprimand",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Anti-Tank",
+      "anchor": "Anti-Tank",
+      "members": [
+        {
+          "page": {
+            "label": "40-K Meltagun",
+            "title": "40-K Meltagun",
+            "anchor": null
+          },
+          "name": "40-K Meltagun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/AC-8 Autocannon Sentry",
+            "title": "A/AC-8 Autocannon Sentry",
+            "anchor": null
+          },
+          "name": "A/AC-8 Autocannon Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MLS-4X Rocket Sentry",
+            "title": "A/MLS-4X Rocket Sentry",
+            "anchor": null
+          },
+          "name": "A/MLS-4X Rocket Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "ARC-3 Arc Thrower",
+            "title": "ARC-3 Arc Thrower",
+            "anchor": null
+          },
+          "name": "ARC-3 Arc Thrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/ARC-3 K-9",
+            "title": "AX/ARC-3 K-9",
+            "anchor": null
+          },
+          "name": "AX/ARC-3 K-9",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B-100 Portable Hellbomb",
+            "title": "B-100 Portable Hellbomb",
+            "anchor": null
+          },
+          "name": "B-100 Portable Hellbomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/MD C4 Pack",
+            "title": "B/MD C4 Pack",
+            "anchor": null
+          },
+          "name": "B/MD C4 Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-20 Breaching Hammer",
+            "title": "CQC-20 Breaching Hammer",
+            "anchor": null
+          },
+          "name": "CQC-20 Breaching Hammer",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-9 Defoliation Tool",
+            "title": "CQC-9 Defoliation Tool",
+            "anchor": null
+          },
+          "name": "CQC-9 Defoliation Tool",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "E/AT-12 Anti-Tank Emplacement",
+            "title": "E/AT-12 Anti-Tank Emplacement",
+            "anchor": null
+          },
+          "name": "E/AT-12 Anti-Tank Emplacement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle 110mm Rocket Pods",
+            "title": "Eagle 110mm Rocket Pods",
+            "anchor": null
+          },
+          "name": "Eagle 110mm Rocket Pods",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle 500kg Bomb",
+            "title": "Eagle 500kg Bomb",
+            "anchor": null
+          },
+          "name": "Eagle 500kg Bomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Airstrike",
+            "title": "Eagle Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Strafing Run",
+            "title": "Eagle Strafing Run",
+            "anchor": null
+          },
+          "name": "Eagle Strafing Run",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-17 Expendable Anti-Tank",
+            "title": "EAT-17 Expendable Anti-Tank",
+            "anchor": null
+          },
+          "name": "EAT-17 Expendable Anti-Tank",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-411 Leveller",
+            "title": "EAT-411 Leveller",
+            "anchor": null
+          },
+          "name": "EAT-411 Leveller",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-45 Patriot Exosuit",
+            "title": "EXO-45 Patriot Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-45 Patriot Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-49 Emancipator Exosuit",
+            "title": "EXO-49 Emancipator Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-49 Emancipator Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-51 Lumberer Exosuit",
+            "title": "EXO-51 Lumberer Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-51 Lumberer Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FAF-14 Spear",
+            "title": "FAF-14 Spear",
+            "anchor": null
+          },
+          "name": "FAF-14 Spear",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-123 Thermite",
+            "title": "G-123 Thermite",
+            "anchor": null
+          },
+          "name": "G-123 Thermite",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G/40-K Melta Mine",
+            "title": "G/40-K Melta Mine",
+            "anchor": null
+          },
+          "name": "G/40-K Melta Mine",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GR-8 Recoilless Rifle",
+            "title": "GR-8 Recoilless Rifle",
+            "anchor": null
+          },
+          "name": "GR-8 Recoilless Rifle",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-99 Quasar Cannon",
+            "title": "LAS-99 Quasar Cannon",
+            "anchor": null
+          },
+          "name": "LAS-99 Quasar Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-17 Anti-Tank Mines",
+            "title": "MD-17 Anti-Tank Mines",
+            "anchor": null
+          },
+          "name": "MD-17 Anti-Tank Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MLS-4X Commando",
+            "title": "MLS-4X Commando",
+            "anchor": null
+          },
+          "name": "MLS-4X Commando",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MS-11 Solo Silo",
+            "title": "MS-11 Solo Silo",
+            "anchor": null
+          },
+          "name": "MS-11 Solo Silo",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital 120mm HE Barrage",
+            "title": "Orbital 120mm HE Barrage",
+            "anchor": null
+          },
+          "name": "Orbital 120mm HE Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital 380mm HE Barrage",
+            "title": "Orbital 380mm HE Barrage",
+            "anchor": null
+          },
+          "name": "Orbital 380mm HE Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital EMS Strike",
+            "title": "Orbital EMS Strike",
+            "anchor": null
+          },
+          "name": "Orbital EMS Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Laser",
+            "title": "Orbital Laser",
+            "anchor": null
+          },
+          "name": "Orbital Laser",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Precision Strike",
+            "title": "Orbital Precision Strike",
+            "anchor": null
+          },
+          "name": "Orbital Precision Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Railcannon Strike",
+            "title": "Orbital Railcannon Strike",
+            "anchor": null
+          },
+          "name": "Orbital Railcannon Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Walking Barrage",
+            "title": "Orbital Walking Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Walking Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "P-33 Missile Pistol",
+            "title": "P-33 Missile Pistol",
+            "anchor": null
+          },
+          "name": "P-33 Missile Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "RS-422 Railgun",
+            "title": "RS-422 Railgun",
+            "anchor": null
+          },
+          "name": "RS-422 Railgun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "S-11 Speargun",
+            "title": "S-11 Speargun",
+            "anchor": null
+          },
+          "name": "S-11 Speargun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "StA-X3 W.A.S.P. Launcher",
+            "title": "StA-X3 W.A.S.P. Launcher",
+            "anchor": null
+          },
+          "name": "StA-X3 W.A.S.P. Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "TD-220 Bastion MK XVI",
+            "title": "TD-220 Bastion MK XVI",
+            "anchor": null
+          },
+          "name": "TD-220 Bastion MK XVI",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "TM-1 Lure Mine",
+            "title": "TM-1 Lure Mine",
+            "anchor": null
+          },
+          "name": "TM-1 Lure Mine",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Light Armor Penetrating",
+      "anchor": "Light_Armor_Penetrating",
+      "members": [
+        {
+          "page": {
+            "label": "AR-23 Liberator",
+            "title": "AR-23 Liberator",
+            "anchor": null
+          },
+          "name": "AR-23 Liberator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR-23A Liberator Carbine",
+            "title": "AR-23A Liberator Carbine",
+            "anchor": null
+          },
+          "name": "AR-23A Liberator Carbine",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR-23C Liberator Concussive",
+            "title": "AR-23C Liberator Concussive",
+            "anchor": null
+          },
+          "name": "AR-23C Liberator Concussive",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR-59 Suppressor",
+            "title": "AR-59 Suppressor",
+            "anchor": null
+          },
+          "name": "AR-59 Suppressor",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR-61 Tenderizer",
+            "title": "AR-61 Tenderizer",
+            "anchor": null
+          },
+          "name": "AR-61 Tenderizer",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AR/GL-21 One-Two",
+            "title": "AR/GL-21 One-Two",
+            "anchor": null
+          },
+          "name": "AR/GL-21 One-Two",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AX/LAS-5 Rover",
+            "title": "AX/LAS-5 Rover",
+            "anchor": null
+          },
+          "name": "AX/LAS-5 Rover",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-13 Trident",
+            "title": "LAS-13 Trident",
+            "anchor": null
+          },
+          "name": "LAS-13 Trident",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-16 Sickle",
+            "title": "LAS-16 Sickle",
+            "anchor": null
+          },
+          "name": "LAS-16 Sickle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-17 Double-Edge Sickle",
+            "title": "LAS-17 Double-Edge Sickle",
+            "anchor": null
+          },
+          "name": "LAS-17 Double-Edge Sickle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-5 Scythe",
+            "title": "LAS-5 Scythe",
+            "anchor": null
+          },
+          "name": "LAS-5 Scythe",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-7 Dagger",
+            "title": "LAS-7 Dagger",
+            "anchor": null
+          },
+          "name": "LAS-7 Dagger",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M-105 Stalwart",
+            "title": "M-105 Stalwart",
+            "anchor": null
+          },
+          "name": "M-105 Stalwart",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M6C/SOCOM Pistol",
+            "title": "M6C/SOCOM Pistol",
+            "anchor": null
+          },
+          "name": "M6C/SOCOM Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M7S SMG",
+            "title": "M7S SMG",
+            "anchor": null
+          },
+          "name": "M7S SMG",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M90A Shotgun",
+            "title": "M90A Shotgun",
+            "anchor": null
+          },
+          "name": "M90A Shotgun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "MGX-42 Bullet Storm",
+            "title": "MGX-42 Bullet Storm",
+            "anchor": null
+          },
+          "name": "MGX-42 Bullet Storm",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MP-98 Knight",
+            "title": "MP-98 Knight",
+            "anchor": null
+          },
+          "name": "MP-98 Knight",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-19 Redeemer",
+            "title": "P-19 Redeemer",
+            "anchor": null
+          },
+          "name": "P-19 Redeemer",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-2 Peacemaker",
+            "title": "P-2 Peacemaker",
+            "anchor": null
+          },
+          "name": "P-2 Peacemaker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-1 Scorcher",
+            "title": "PLAS-1 Scorcher",
+            "anchor": null
+          },
+          "name": "PLAS-1 Scorcher",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-2 Amendment",
+            "title": "R-2 Amendment",
+            "anchor": null
+          },
+          "name": "R-2 Amendment",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-63 Diligence",
+            "title": "R-63 Diligence",
+            "anchor": null
+          },
+          "name": "R-63 Diligence",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-72 Censor",
+            "title": "R-72 Censor",
+            "anchor": null
+          },
+          "name": "R-72 Censor",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-20 Halt",
+            "title": "SG-20 Halt",
+            "anchor": null
+          },
+          "name": "SG-20 Halt",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-22 Bushwhacker",
+            "title": "SG-22 Bushwhacker",
+            "anchor": null
+          },
+          "name": "SG-22 Bushwhacker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-225 Breaker",
+            "title": "SG-225 Breaker",
+            "anchor": null
+          },
+          "name": "SG-225 Breaker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-225IE Breaker Incendiary",
+            "title": "SG-225IE Breaker Incendiary",
+            "anchor": null
+          },
+          "name": "SG-225IE Breaker Incendiary",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-225SP Breaker Spray&Pray",
+            "title": "SG-225SP Breaker Spray&Pray",
+            "anchor": null
+          },
+          "name": "SG-225SP Breaker Spray&Pray",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-451 Cookout",
+            "title": "SG-451 Cookout",
+            "anchor": null
+          },
+          "name": "SG-451 Cookout",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-8 Punisher",
+            "title": "SG-8 Punisher",
+            "anchor": null
+          },
+          "name": "SG-8 Punisher",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-88 Break-Action Shotgun",
+            "title": "SG-88 Break-Action Shotgun",
+            "anchor": null
+          },
+          "name": "SG-88 Break-Action Shotgun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-37 Defender",
+            "title": "SMG-37 Defender",
+            "anchor": null
+          },
+          "name": "SMG-37 Defender",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-72 Pummeler",
+            "title": "SMG-72 Pummeler",
+            "anchor": null
+          },
+          "name": "SMG-72 Pummeler",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG/FLAM-34 Stoker",
+            "title": "SMG/FLAM-34 Stoker",
+            "anchor": null
+          },
+          "name": "SMG/FLAM-34 Stoker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "StA-11 SMG",
+            "title": "StA-11 SMG",
+            "anchor": null
+          },
+          "name": "StA-11 SMG",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "StA-52 Assault Rifle",
+            "title": "StA-52 Assault Rifle",
+            "anchor": null
+          },
+          "name": "StA-52 Assault Rifle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "VG-70 Variable",
+            "title": "VG-70 Variable",
+            "anchor": null
+          },
+          "name": "VG-70 Variable",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Hellpod",
+      "anchor": "Hellpod",
+      "members": [
+        {
+          "page": {
+            "label": "A/AC-8 Autocannon Sentry",
+            "title": "A/AC-8 Autocannon Sentry",
+            "anchor": null
+          },
+          "name": "A/AC-8 Autocannon Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/ARC-3 Tesla Tower",
+            "title": "A/ARC-3 Tesla Tower",
+            "anchor": null
+          },
+          "name": "A/ARC-3 Tesla Tower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/FLAM-40 Flame Sentry",
+            "title": "A/FLAM-40 Flame Sentry",
+            "anchor": null
+          },
+          "name": "A/FLAM-40 Flame Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/G-16 Gatling Sentry",
+            "title": "A/G-16 Gatling Sentry",
+            "anchor": null
+          },
+          "name": "A/G-16 Gatling Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/GM-17 Gas Mortar Sentry",
+            "title": "A/GM-17 Gas Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/GM-17 Gas Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/LAS-98 Laser Sentry",
+            "title": "A/LAS-98 Laser Sentry",
+            "anchor": null
+          },
+          "name": "A/LAS-98 Laser Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/M-12 Mortar Sentry",
+            "title": "A/M-12 Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-12 Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/M-23 EMS Mortar Sentry",
+            "title": "A/M-23 EMS Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-23 EMS Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MG-43 Machine Gun Sentry",
+            "title": "A/MG-43 Machine Gun Sentry",
+            "anchor": null
+          },
+          "name": "A/MG-43 Machine Gun Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MLS-4X Rocket Sentry",
+            "title": "A/MLS-4X Rocket Sentry",
+            "anchor": null
+          },
+          "name": "A/MLS-4X Rocket Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/AR-23 Guard Dog",
+            "title": "AX/AR-23 Guard Dog",
+            "anchor": null
+          },
+          "name": "AX/AR-23 Guard Dog",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/ARC-3 K-9",
+            "title": "AX/ARC-3 K-9",
+            "anchor": null
+          },
+          "name": "AX/ARC-3 K-9",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/FLAM-75 Hot Dog",
+            "title": "AX/FLAM-75 Hot Dog",
+            "anchor": null
+          },
+          "name": "AX/FLAM-75 Hot Dog",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/LAS-5 Rover",
+            "title": "AX/LAS-5 Rover",
+            "anchor": null
+          },
+          "name": "AX/LAS-5 Rover",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/TX-13 Dog Breath",
+            "title": "AX/TX-13 Dog Breath",
+            "anchor": null
+          },
+          "name": "AX/TX-13 Dog Breath",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B-1 Supply Pack",
+            "title": "B-1 Supply Pack",
+            "anchor": null
+          },
+          "name": "B-1 Supply Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B-100 Portable Hellbomb",
+            "title": "B-100 Portable Hellbomb",
+            "anchor": null
+          },
+          "name": "B-100 Portable Hellbomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/FLAM-80 Cremator",
+            "title": "B/FLAM-80 Cremator",
+            "anchor": null
+          },
+          "name": "B/FLAM-80 Cremator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Dark Fluid Vessel",
+            "title": "Dark Fluid Vessel",
+            "anchor": null
+          },
+          "name": "Dark Fluid Vessel",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "E/AT-12 Anti-Tank Emplacement",
+            "title": "E/AT-12 Anti-Tank Emplacement",
+            "anchor": null
+          },
+          "name": "E/AT-12 Anti-Tank Emplacement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "E/GL-21 Grenadier Battlement",
+            "title": "E/GL-21 Grenadier Battlement",
+            "anchor": null
+          },
+          "name": "E/GL-21 Grenadier Battlement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "E/MG-101 HMG Emplacement",
+            "title": "E/MG-101 HMG Emplacement",
+            "anchor": null
+          },
+          "name": "E/MG-101 HMG Emplacement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FLAM-40 Flamethrower",
+            "title": "FLAM-40 Flamethrower",
+            "anchor": null
+          },
+          "name": "FLAM-40 Flamethrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FX-12 Shield Generator Relay",
+            "title": "FX-12 Shield Generator Relay",
+            "anchor": null
+          },
+          "name": "FX-12 Shield Generator Relay",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LIFT-860 Hover Pack",
+            "title": "LIFT-860 Hover Pack",
+            "anchor": null
+          },
+          "name": "Hover Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-98 Laser Cannon",
+            "title": "LAS-98 Laser Cannon",
+            "anchor": null
+          },
+          "name": "LAS-98 Laser Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LIFT-182 Warp Pack",
+            "title": "LIFT-182 Warp Pack",
+            "anchor": null
+          },
+          "name": "LIFT-182 Warp Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LIFT-850 Jump Pack",
+            "title": "LIFT-850 Jump Pack",
+            "anchor": null
+          },
+          "name": "LIFT-850 Jump Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-17 Anti-Tank Mines",
+            "title": "MD-17 Anti-Tank Mines",
+            "anchor": null
+          },
+          "name": "MD-17 Anti-Tank Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-6 Anti-Personnel Minefield",
+            "title": "MD-6 Anti-Personnel Minefield",
+            "anchor": null
+          },
+          "name": "MD-6 Anti-Personnel Minefield",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-8 Gas Mines",
+            "title": "MD-8 Gas Mines",
+            "anchor": null
+          },
+          "name": "MD-8 Gas Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-I4 Incendiary Mines",
+            "title": "MD-I4 Incendiary Mines",
+            "anchor": null
+          },
+          "name": "MD-I4 Incendiary Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SH-20 Ballistic Shield Backpack",
+            "title": "SH-20 Ballistic Shield Backpack",
+            "anchor": null
+          },
+          "name": "SH-20 Ballistic Shield Backpack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SH-32 Shield Generator Pack",
+            "title": "SH-32 Shield Generator Pack",
+            "anchor": null
+          },
+          "name": "SH-32 Shield Generator Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SH-51 Directional Shield",
+            "title": "SH-51 Directional Shield",
+            "anchor": null
+          },
+          "name": "SH-51 Directional Shield",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Tactical Video Camera",
+            "title": "Tactical Video Camera",
+            "anchor": null
+          },
+          "name": "Tactical Video Camera",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Support Weapon",
+      "anchor": "Support_Weapon",
+      "members": [
+        {
+          "page": {
+            "label": "40-K Meltagun",
+            "title": "40-K Meltagun",
+            "anchor": null
+          },
+          "name": "40-K Meltagun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AC-8 Autocannon",
+            "title": "AC-8 Autocannon",
+            "anchor": null
+          },
+          "name": "AC-8 Autocannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "APW-1 Anti-Materiel Rifle",
+            "title": "APW-1 Anti-Materiel Rifle",
+            "anchor": null
+          },
+          "name": "APW-1 Anti-Materiel Rifle",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "ARC-3 Arc Thrower",
+            "title": "ARC-3 Arc Thrower",
+            "anchor": null
+          },
+          "name": "ARC-3 Arc Thrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/FLAM-80 Cremator",
+            "title": "B/FLAM-80 Cremator",
+            "anchor": null
+          },
+          "name": "B/FLAM-80 Cremator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/MD C4 Pack",
+            "title": "B/MD C4 Pack",
+            "anchor": null
+          },
+          "name": "B/MD C4 Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-1 One True Flag",
+            "title": "CQC-1 One True Flag",
+            "anchor": null
+          },
+          "name": "CQC-1 One True Flag",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-20 Breaching Hammer",
+            "title": "CQC-20 Breaching Hammer",
+            "anchor": null
+          },
+          "name": "CQC-20 Breaching Hammer",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-9 Defoliation Tool",
+            "title": "CQC-9 Defoliation Tool",
+            "anchor": null
+          },
+          "name": "CQC-9 Defoliation Tool",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-17 Expendable Anti-Tank",
+            "title": "EAT-17 Expendable Anti-Tank",
+            "anchor": null
+          },
+          "name": "EAT-17 Expendable Anti-Tank",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-411 Leveller",
+            "title": "EAT-411 Leveller",
+            "anchor": null
+          },
+          "name": "EAT-411 Leveller",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-700 Expendable Napalm",
+            "title": "EAT-700 Expendable Napalm",
+            "anchor": null
+          },
+          "name": "EAT-700 Expendable Napalm",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FAF-14 Spear",
+            "title": "FAF-14 Spear",
+            "anchor": null
+          },
+          "name": "FAF-14 Spear",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FLAM-40 Flamethrower",
+            "title": "FLAM-40 Flamethrower",
+            "anchor": null
+          },
+          "name": "FLAM-40 Flamethrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-21 Grenade Launcher",
+            "title": "GL-21 Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-21 Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-28 Belt-Fed Grenade Launcher",
+            "title": "GL-28 Belt-Fed Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-28 Belt-Fed Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-52 De-Escalator",
+            "title": "GL-52 De-Escalator",
+            "anchor": null
+          },
+          "name": "GL-52 De-Escalator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GR-8 Recoilless Rifle",
+            "title": "GR-8 Recoilless Rifle",
+            "anchor": null
+          },
+          "name": "GR-8 Recoilless Rifle",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-98 Laser Cannon",
+            "title": "LAS-98 Laser Cannon",
+            "anchor": null
+          },
+          "name": "LAS-98 Laser Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-99 Quasar Cannon",
+            "title": "LAS-99 Quasar Cannon",
+            "anchor": null
+          },
+          "name": "LAS-99 Quasar Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-1000 Maxigun",
+            "title": "M-1000 Maxigun",
+            "anchor": null
+          },
+          "name": "M-1000 Maxigun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-105 Stalwart",
+            "title": "M-105 Stalwart",
+            "anchor": null
+          },
+          "name": "M-105 Stalwart",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MG-206 Heavy Machine Gun",
+            "title": "MG-206 Heavy Machine Gun",
+            "anchor": null
+          },
+          "name": "MG-206 Heavy Machine Gun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MG-43 Machine Gun",
+            "title": "MG-43 Machine Gun",
+            "anchor": null
+          },
+          "name": "MG-43 Machine Gun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MGX-42 Bullet Storm",
+            "title": "MGX-42 Bullet Storm",
+            "anchor": null
+          },
+          "name": "MGX-42 Bullet Storm",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MLS-4X Commando",
+            "title": "MLS-4X Commando",
+            "anchor": null
+          },
+          "name": "MLS-4X Commando",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MS-11 Solo Silo",
+            "title": "MS-11 Solo Silo",
+            "anchor": null
+          },
+          "name": "MS-11 Solo Silo",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "PLAS-45 Epoch",
+            "title": "PLAS-45 Epoch",
+            "anchor": null
+          },
+          "name": "PLAS-45 Epoch",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "RL-77 Airburst Rocket Launcher",
+            "title": "RL-77 Airburst Rocket Launcher",
+            "anchor": null
+          },
+          "name": "RL-77 Airburst Rocket Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "RS-422 Railgun",
+            "title": "RS-422 Railgun",
+            "anchor": null
+          },
+          "name": "RS-422 Railgun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "S-11 Speargun",
+            "title": "S-11 Speargun",
+            "anchor": null
+          },
+          "name": "S-11 Speargun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SG-88 Break-Action Shotgun",
+            "title": "SG-88 Break-Action Shotgun",
+            "anchor": null
+          },
+          "name": "SG-88 Break-Action Shotgun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "StA-X3 W.A.S.P. Launcher",
+            "title": "StA-X3 W.A.S.P. Launcher",
+            "anchor": null
+          },
+          "name": "StA-X3 W.A.S.P. Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-72 Entrenchment Tool",
+            "title": "CQC-72 Entrenchment Tool",
+            "anchor": null
+          },
+          "name": "Trench Shovel",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "TX-41 Sterilizer",
+            "title": "TX-41 Sterilizer",
+            "anchor": null
+          },
+          "name": "TX-41 Sterilizer",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "One Handed",
+      "anchor": "One_Handed",
+      "members": [
+        {
+          "page": {
+            "label": "CB-9 Exploding Crossbow",
+            "title": "CB-9 Exploding Crossbow",
+            "anchor": null
+          },
+          "name": "CB-9 Exploding Crossbow",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-1 One True Flag",
+            "title": "CQC-1 One True Flag",
+            "anchor": null
+          },
+          "name": "CQC-1 One True Flag",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-19 Stun Lance",
+            "title": "CQC-19 Stun Lance",
+            "anchor": null
+          },
+          "name": "CQC-19 Stun Lance",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-2 Saber",
+            "title": "CQC-2 Saber",
+            "anchor": null
+          },
+          "name": "CQC-2 Saber",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-30 Stun Baton",
+            "title": "CQC-30 Stun Baton",
+            "anchor": null
+          },
+          "name": "CQC-30 Stun Baton",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-42 Machete",
+            "title": "CQC-42 Machete",
+            "anchor": null
+          },
+          "name": "CQC-42 Machete",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-5 Combat Hatchet",
+            "title": "CQC-5 Combat Hatchet",
+            "anchor": null
+          },
+          "name": "CQC-5 Combat Hatchet",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-73 Entrenchment Tool",
+            "title": "CQC-73 Entrenchment Tool",
+            "anchor": null
+          },
+          "name": "Entrenchment Tool",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GP-20 Ultimatum",
+            "title": "GP-20 Ultimatum",
+            "anchor": null
+          },
+          "name": "GP-20 Ultimatum",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GP-31 Grenade Pistol",
+            "title": "GP-31 Grenade Pistol",
+            "anchor": null
+          },
+          "name": "GP-31 Grenade Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-58 Talon",
+            "title": "LAS-58 Talon",
+            "anchor": null
+          },
+          "name": "LAS-58 Talon",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-7 Dagger",
+            "title": "LAS-7 Dagger",
+            "anchor": null
+          },
+          "name": "LAS-7 Dagger",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M6C/SOCOM Pistol",
+            "title": "M6C/SOCOM Pistol",
+            "anchor": null
+          },
+          "name": "M6C/SOCOM Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M7S SMG",
+            "title": "M7S SMG",
+            "anchor": null
+          },
+          "name": "M7S SMG",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "MP-98 Knight",
+            "title": "MP-98 Knight",
+            "anchor": null
+          },
+          "name": "MP-98 Knight",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-11 Stim Pistol",
+            "title": "P-11 Stim Pistol",
+            "anchor": null
+          },
+          "name": "P-11 Stim Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-113 Verdict",
+            "title": "P-113 Verdict",
+            "anchor": null
+          },
+          "name": "P-113 Verdict",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-19 Redeemer",
+            "title": "P-19 Redeemer",
+            "anchor": null
+          },
+          "name": "P-19 Redeemer",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-2 Peacemaker",
+            "title": "P-2 Peacemaker",
+            "anchor": null
+          },
+          "name": "P-2 Peacemaker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-33 Missile Pistol",
+            "title": "P-33 Missile Pistol",
+            "anchor": null
+          },
+          "name": "P-33 Missile Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-35 Re-Educator",
+            "title": "P-35 Re-Educator",
+            "anchor": null
+          },
+          "name": "P-35 Re-Educator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-4 Senator",
+            "title": "P-4 Senator",
+            "anchor": null
+          },
+          "name": "P-4 Senator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-69 Veto",
+            "title": "P-69 Veto",
+            "anchor": null
+          },
+          "name": "P-69 Veto",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-72 Crisper",
+            "title": "P-72 Crisper",
+            "anchor": null
+          },
+          "name": "P-72 Crisper",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-92 Warrant",
+            "title": "P-92 Warrant",
+            "anchor": null
+          },
+          "name": "P-92 Warrant",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P/40-K Bolt Pistol",
+            "title": "P/40-K Bolt Pistol",
+            "anchor": null
+          },
+          "name": "P/40-K Bolt Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-15 Loyalist",
+            "title": "PLAS-15 Loyalist",
+            "anchor": null
+          },
+          "name": "PLAS-15 Loyalist",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-22 Bushwhacker",
+            "title": "SG-22 Bushwhacker",
+            "anchor": null
+          },
+          "name": "SG-22 Bushwhacker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-203 Gallant",
+            "title": "SMG-203 Gallant",
+            "anchor": null
+          },
+          "name": "SMG-203 Gallant",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-37 Defender",
+            "title": "SMG-37 Defender",
+            "anchor": null
+          },
+          "name": "SMG-37 Defender",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG-72 Pummeler",
+            "title": "SMG-72 Pummeler",
+            "anchor": null
+          },
+          "name": "SMG-72 Pummeler",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG/FLAM-34 Stoker",
+            "title": "SMG/FLAM-34 Stoker",
+            "anchor": null
+          },
+          "name": "SMG/FLAM-34 Stoker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "StA-11 SMG",
+            "title": "StA-11 SMG",
+            "anchor": null
+          },
+          "name": "StA-11 SMG",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-72 Entrenchment Tool",
+            "title": "CQC-72 Entrenchment Tool",
+            "anchor": null
+          },
+          "name": "Trench Shovel",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Backpack",
+      "anchor": "Backpack",
+      "members": [
+        {
+          "page": {
+            "label": "AC-8 Autocannon",
+            "title": "AC-8 Autocannon",
+            "anchor": null
+          },
+          "name": "AC-8 Autocannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/AR-23 Guard Dog",
+            "title": "AX/AR-23 Guard Dog",
+            "anchor": null
+          },
+          "name": "AX/AR-23 Guard Dog",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/ARC-3 K-9",
+            "title": "AX/ARC-3 K-9",
+            "anchor": null
+          },
+          "name": "AX/ARC-3 K-9",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/FLAM-75 Hot Dog",
+            "title": "AX/FLAM-75 Hot Dog",
+            "anchor": null
+          },
+          "name": "AX/FLAM-75 Hot Dog",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/LAS-5 Rover",
+            "title": "AX/LAS-5 Rover",
+            "anchor": null
+          },
+          "name": "AX/LAS-5 Rover",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/TX-13 Dog Breath",
+            "title": "AX/TX-13 Dog Breath",
+            "anchor": null
+          },
+          "name": "AX/TX-13 Dog Breath",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B-1 Supply Pack",
+            "title": "B-1 Supply Pack",
+            "anchor": null
+          },
+          "name": "B-1 Supply Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B-100 Portable Hellbomb",
+            "title": "B-100 Portable Hellbomb",
+            "anchor": null
+          },
+          "name": "B-100 Portable Hellbomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/FLAM-80 Cremator",
+            "title": "B/FLAM-80 Cremator",
+            "anchor": null
+          },
+          "name": "B/FLAM-80 Cremator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/MD C4 Pack",
+            "title": "B/MD C4 Pack",
+            "anchor": null
+          },
+          "name": "B/MD C4 Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Dark Fluid Vessel",
+            "title": "Dark Fluid Vessel",
+            "anchor": null
+          },
+          "name": "Dark Fluid Vessel",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FAF-14 Spear",
+            "title": "FAF-14 Spear",
+            "anchor": null
+          },
+          "name": "FAF-14 Spear",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-28 Belt-Fed Grenade Launcher",
+            "title": "GL-28 Belt-Fed Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-28 Belt-Fed Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GR-8 Recoilless Rifle",
+            "title": "GR-8 Recoilless Rifle",
+            "anchor": null
+          },
+          "name": "GR-8 Recoilless Rifle",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LIFT-860 Hover Pack",
+            "title": "LIFT-860 Hover Pack",
+            "anchor": null
+          },
+          "name": "Hover Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LIFT-182 Warp Pack",
+            "title": "LIFT-182 Warp Pack",
+            "anchor": null
+          },
+          "name": "LIFT-182 Warp Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LIFT-850 Jump Pack",
+            "title": "LIFT-850 Jump Pack",
+            "anchor": null
+          },
+          "name": "LIFT-850 Jump Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-1000 Maxigun",
+            "title": "M-1000 Maxigun",
+            "anchor": null
+          },
+          "name": "M-1000 Maxigun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "RL-77 Airburst Rocket Launcher",
+            "title": "RL-77 Airburst Rocket Launcher",
+            "anchor": null
+          },
+          "name": "RL-77 Airburst Rocket Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SH-20 Ballistic Shield Backpack",
+            "title": "SH-20 Ballistic Shield Backpack",
+            "anchor": null
+          },
+          "name": "SH-20 Ballistic Shield Backpack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SH-32 Shield Generator Pack",
+            "title": "SH-32 Shield Generator Pack",
+            "anchor": null
+          },
+          "name": "SH-32 Shield Generator Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "SH-51 Directional Shield",
+            "title": "SH-51 Directional Shield",
+            "anchor": null
+          },
+          "name": "SH-51 Directional Shield",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "StA-X3 W.A.S.P. Launcher",
+            "title": "StA-X3 W.A.S.P. Launcher",
+            "anchor": null
+          },
+          "name": "StA-X3 W.A.S.P. Launcher",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Heavy Armor Penetrating",
+      "anchor": "Heavy_Armor_Penetrating",
+      "members": [
+        {
+          "page": {
+            "label": "A/LAS-98 Laser Sentry",
+            "title": "A/LAS-98 Laser Sentry",
+            "anchor": null
+          },
+          "name": "A/LAS-98 Laser Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AC-8 Autocannon",
+            "title": "AC-8 Autocannon",
+            "anchor": null
+          },
+          "name": "AC-8 Autocannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "APW-1 Anti-Materiel Rifle",
+            "title": "APW-1 Anti-Materiel Rifle",
+            "anchor": null
+          },
+          "name": "APW-1 Anti-Materiel Rifle",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "E/MG-101 HMG Emplacement",
+            "title": "E/MG-101 HMG Emplacement",
+            "anchor": null
+          },
+          "name": "E/MG-101 HMG Emplacement",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-55 Breakthrough Exosuit",
+            "title": "EXO-55 Breakthrough Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-55 Breakthrough Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-12 High Explosive",
+            "title": "G-12 High Explosive",
+            "anchor": null
+          },
+          "name": "G-12 High Explosive",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-16 Impact",
+            "title": "G-16 Impact",
+            "anchor": null
+          },
+          "name": "G-16 Impact",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-50 Seeker",
+            "title": "G-50 Seeker",
+            "anchor": null
+          },
+          "name": "G-50 Seeker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GL-28 Belt-Fed Grenade Launcher",
+            "title": "GL-28 Belt-Fed Grenade Launcher",
+            "anchor": null
+          },
+          "name": "GL-28 Belt-Fed Grenade Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GL-52 De-Escalator",
+            "title": "GL-52 De-Escalator",
+            "anchor": null
+          },
+          "name": "GL-52 De-Escalator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-17 Double-Edge Sickle",
+            "title": "LAS-17 Double-Edge Sickle",
+            "anchor": null
+          },
+          "name": "LAS-17 Double-Edge Sickle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-98 Laser Cannon",
+            "title": "LAS-98 Laser Cannon",
+            "anchor": null
+          },
+          "name": "LAS-98 Laser Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-102 Gunner FRV",
+            "title": "M-102 Gunner FRV",
+            "anchor": null
+          },
+          "name": "M-102 Gunner FRV",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MG-206 Heavy Machine Gun",
+            "title": "MG-206 Heavy Machine Gun",
+            "anchor": null
+          },
+          "name": "MG-206 Heavy Machine Gun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Gatling Barrage",
+            "title": "Orbital Gatling Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Gatling Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "P-35 Re-Educator",
+            "title": "P-35 Re-Educator",
+            "anchor": null
+          },
+          "name": "P-35 Re-Educator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-4 Senator",
+            "title": "P-4 Senator",
+            "anchor": null
+          },
+          "name": "P-4 Senator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P/40-K Bolt Pistol",
+            "title": "P/40-K Bolt Pistol",
+            "anchor": null
+          },
+          "name": "P/40-K Bolt Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-45 Epoch",
+            "title": "PLAS-45 Epoch",
+            "anchor": null
+          },
+          "name": "PLAS-45 Epoch",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "R-36 Eruptor",
+            "title": "R-36 Eruptor",
+            "anchor": null
+          },
+          "name": "R-36 Eruptor",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "TD-220 Bastion MK XVI",
+            "title": "TD-220 Bastion MK XVI",
+            "anchor": null
+          },
+          "name": "TD-220 Bastion MK XVI",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "TED-63 Dynamite",
+            "title": "TED-63 Dynamite",
+            "anchor": null
+          },
+          "name": "TED-63 Dynamite",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Incendiary",
+      "anchor": "Incendiary",
+      "members": [
+        {
+          "page": {
+            "label": "A/FLAM-40 Flame Sentry",
+            "title": "A/FLAM-40 Flame Sentry",
+            "anchor": null
+          },
+          "name": "A/FLAM-40 Flame Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AR-2 Coyote",
+            "title": "AR-2 Coyote",
+            "anchor": null
+          },
+          "name": "AR-2 Coyote",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "AX/FLAM-75 Hot Dog",
+            "title": "AX/FLAM-75 Hot Dog",
+            "anchor": null
+          },
+          "name": "AX/FLAM-75 Hot Dog",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "B/FLAM-80 Cremator",
+            "title": "B/FLAM-80 Cremator",
+            "anchor": null
+          },
+          "name": "B/FLAM-80 Cremator",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Napalm Airstrike",
+            "title": "Eagle Napalm Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Napalm Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-700 Expendable Napalm",
+            "title": "EAT-700 Expendable Napalm",
+            "anchor": null
+          },
+          "name": "EAT-700 Expendable Napalm",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-51 Lumberer Exosuit",
+            "title": "EXO-51 Lumberer Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-51 Lumberer Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FLAM-40 Flamethrower",
+            "title": "FLAM-40 Flamethrower",
+            "anchor": null
+          },
+          "name": "FLAM-40 Flamethrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FLAM-66 Torcher",
+            "title": "FLAM-66 Torcher",
+            "anchor": null
+          },
+          "name": "FLAM-66 Torcher",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-10 Incendiary",
+            "title": "G-10 Incendiary",
+            "anchor": null
+          },
+          "name": "G-10 Incendiary",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-13 Incendiary Impact",
+            "title": "G-13 Incendiary Impact",
+            "anchor": null
+          },
+          "name": "G-13 Incendiary Impact",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-142 Pyrotech",
+            "title": "G-142 Pyrotech",
+            "anchor": null
+          },
+          "name": "G-142 Pyrotech",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M-104 Incinerator FRV",
+            "title": "M-104 Incinerator FRV",
+            "anchor": null
+          },
+          "name": "M-104 Incinerator FRV",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MD-I4 Incendiary Mines",
+            "title": "MD-I4 Incendiary Mines",
+            "anchor": null
+          },
+          "name": "MD-I4 Incendiary Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Napalm Barrage",
+            "title": "Orbital Napalm Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Napalm Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "P-72 Crisper",
+            "title": "P-72 Crisper",
+            "anchor": null
+          },
+          "name": "P-72 Crisper",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-4 Hyena",
+            "title": "R-4 Hyena",
+            "anchor": null
+          },
+          "name": "R-4 Hyena",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-225IE Breaker Incendiary",
+            "title": "SG-225IE Breaker Incendiary",
+            "anchor": null
+          },
+          "name": "SG-225IE Breaker Incendiary",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-451 Cookout",
+            "title": "SG-451 Cookout",
+            "anchor": null
+          },
+          "name": "SG-451 Cookout",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SMG/FLAM-34 Stoker",
+            "title": "SMG/FLAM-34 Stoker",
+            "anchor": null
+          },
+          "name": "SMG/FLAM-34 Stoker",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Rounds Reload",
+      "anchor": "Rounds_Reload",
+      "members": [
+        {
+          "page": {
+            "label": "DBS-2 Double Freedom",
+            "title": "DBS-2 Double Freedom",
+            "anchor": null
+          },
+          "name": "DBS-2 Double Freedom",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M90A Shotgun",
+            "title": "M90A Shotgun",
+            "anchor": null
+          },
+          "name": "M90A Shotgun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-11 Stim Pistol",
+            "title": "P-11 Stim Pistol",
+            "anchor": null
+          },
+          "name": "P-11 Stim Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-4 Senator",
+            "title": "P-4 Senator",
+            "anchor": null
+          },
+          "name": "P-4 Senator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-69 Veto",
+            "title": "P-69 Veto",
+            "anchor": null
+          },
+          "name": "P-69 Veto",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-2124 Constitution",
+            "title": "R-2124 Constitution",
+            "anchor": null
+          },
+          "name": "R-2124 Constitution",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-6 Deadeye",
+            "title": "R-6 Deadeye",
+            "anchor": null
+          },
+          "name": "R-6 Deadeye",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-20 Halt",
+            "title": "SG-20 Halt",
+            "anchor": null
+          },
+          "name": "SG-20 Halt",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-22 Bushwhacker",
+            "title": "SG-22 Bushwhacker",
+            "anchor": null
+          },
+          "name": "SG-22 Bushwhacker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-451 Cookout",
+            "title": "SG-451 Cookout",
+            "anchor": null
+          },
+          "name": "SG-451 Cookout",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-8 Punisher",
+            "title": "SG-8 Punisher",
+            "anchor": null
+          },
+          "name": "SG-8 Punisher",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-88 Break-Action Shotgun",
+            "title": "SG-88 Break-Action Shotgun",
+            "anchor": null
+          },
+          "name": "SG-88 Break-Action Shotgun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-8S Slugger",
+            "title": "SG-8S Slugger",
+            "anchor": null
+          },
+          "name": "SG-8S Slugger",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "SG-97 Sweeper",
+            "title": "SG-97 Sweeper",
+            "anchor": null
+          },
+          "name": "SG-97 Sweeper",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Orbital",
+      "anchor": "Orbital",
+      "members": [
+        {
+          "page": {
+            "label": "Orbital 120mm HE Barrage",
+            "title": "Orbital 120mm HE Barrage",
+            "anchor": null
+          },
+          "name": "Orbital 120mm HE Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital 380mm HE Barrage",
+            "title": "Orbital 380mm HE Barrage",
+            "anchor": null
+          },
+          "name": "Orbital 380mm HE Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Airburst Strike",
+            "title": "Orbital Airburst Strike",
+            "anchor": null
+          },
+          "name": "Orbital Airburst Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital EMS Strike",
+            "title": "Orbital EMS Strike",
+            "anchor": null
+          },
+          "name": "Orbital EMS Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Gas Strike",
+            "title": "Orbital Gas Strike",
+            "anchor": null
+          },
+          "name": "Orbital Gas Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Gatling Barrage",
+            "title": "Orbital Gatling Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Gatling Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Laser",
+            "title": "Orbital Laser",
+            "anchor": null
+          },
+          "name": "Orbital Laser",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Napalm Barrage",
+            "title": "Orbital Napalm Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Napalm Barrage",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Precision Strike",
+            "title": "Orbital Precision Strike",
+            "anchor": null
+          },
+          "name": "Orbital Precision Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Railcannon Strike",
+            "title": "Orbital Railcannon Strike",
+            "anchor": null
+          },
+          "name": "Orbital Railcannon Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Smoke Strike",
+            "title": "Orbital Smoke Strike",
+            "anchor": null
+          },
+          "name": "Orbital Smoke Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Walking Barrage",
+            "title": "Orbital Walking Barrage",
+            "anchor": null
+          },
+          "name": "Orbital Walking Barrage",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Sentry",
+      "anchor": "Sentry",
+      "members": [
+        {
+          "page": {
+            "label": "A/AC-8 Autocannon Sentry",
+            "title": "A/AC-8 Autocannon Sentry",
+            "anchor": null
+          },
+          "name": "A/AC-8 Autocannon Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/ARC-3 Tesla Tower",
+            "title": "A/ARC-3 Tesla Tower",
+            "anchor": null
+          },
+          "name": "A/ARC-3 Tesla Tower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/FLAM-40 Flame Sentry",
+            "title": "A/FLAM-40 Flame Sentry",
+            "anchor": null
+          },
+          "name": "A/FLAM-40 Flame Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/G-16 Gatling Sentry",
+            "title": "A/G-16 Gatling Sentry",
+            "anchor": null
+          },
+          "name": "A/G-16 Gatling Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/GM-17 Gas Mortar Sentry",
+            "title": "A/GM-17 Gas Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/GM-17 Gas Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/LAS-98 Laser Sentry",
+            "title": "A/LAS-98 Laser Sentry",
+            "anchor": null
+          },
+          "name": "A/LAS-98 Laser Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/M-12 Mortar Sentry",
+            "title": "A/M-12 Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-12 Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/M-23 EMS Mortar Sentry",
+            "title": "A/M-23 EMS Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-23 EMS Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MG-43 Machine Gun Sentry",
+            "title": "A/MG-43 Machine Gun Sentry",
+            "anchor": null
+          },
+          "name": "A/MG-43 Machine Gun Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "A/MLS-4X Rocket Sentry",
+            "title": "A/MLS-4X Rocket Sentry",
+            "anchor": null
+          },
+          "name": "A/MLS-4X Rocket Sentry",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Melee",
+      "anchor": "Melee",
+      "members": [
+        {
+          "page": {
+            "label": "CQC-1 One True Flag",
+            "title": "CQC-1 One True Flag",
+            "anchor": null
+          },
+          "name": "CQC-1 One True Flag",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-19 Stun Lance",
+            "title": "CQC-19 Stun Lance",
+            "anchor": null
+          },
+          "name": "CQC-19 Stun Lance",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-2 Saber",
+            "title": "CQC-2 Saber",
+            "anchor": null
+          },
+          "name": "CQC-2 Saber",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-20 Breaching Hammer",
+            "title": "CQC-20 Breaching Hammer",
+            "anchor": null
+          },
+          "name": "CQC-20 Breaching Hammer",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-30 Stun Baton",
+            "title": "CQC-30 Stun Baton",
+            "anchor": null
+          },
+          "name": "CQC-30 Stun Baton",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-42 Machete",
+            "title": "CQC-42 Machete",
+            "anchor": null
+          },
+          "name": "CQC-42 Machete",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-5 Combat Hatchet",
+            "title": "CQC-5 Combat Hatchet",
+            "anchor": null
+          },
+          "name": "CQC-5 Combat Hatchet",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-9 Defoliation Tool",
+            "title": "CQC-9 Defoliation Tool",
+            "anchor": null
+          },
+          "name": "CQC-9 Defoliation Tool",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "CQC-73 Entrenchment Tool",
+            "title": "CQC-73 Entrenchment Tool",
+            "anchor": null
+          },
+          "name": "Entrenchment Tool",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-72 Entrenchment Tool",
+            "title": "CQC-72 Entrenchment Tool",
+            "anchor": null
+          },
+          "name": "Trench Shovel",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Caustic",
+      "anchor": "Caustic",
+      "members": [
+        {
+          "page": {
+            "label": "A/GM-17 Gas Mortar Sentry",
+            "title": "A/GM-17 Gas Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/GM-17 Gas Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/TX-13 Dog Breath",
+            "title": "AX/TX-13 Dog Breath",
+            "anchor": null
+          },
+          "name": "AX/TX-13 Dog Breath",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Gas Airstrike",
+            "title": "Eagle Gas Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Gas Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-4 Gas",
+            "title": "G-4 Gas",
+            "anchor": null
+          },
+          "name": "G-4 Gas",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "MD-8 Gas Mines",
+            "title": "MD-8 Gas Mines",
+            "anchor": null
+          },
+          "name": "MD-8 Gas Mines",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Gas Strike",
+            "title": "Orbital Gas Strike",
+            "anchor": null
+          },
+          "name": "Orbital Gas Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "P-35 Re-Educator",
+            "title": "P-35 Re-Educator",
+            "anchor": null
+          },
+          "name": "P-35 Re-Educator",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "S-11 Speargun",
+            "title": "S-11 Speargun",
+            "anchor": null
+          },
+          "name": "S-11 Speargun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "TX-41 Sterilizer",
+            "title": "TX-41 Sterilizer",
+            "anchor": null
+          },
+          "name": "TX-41 Sterilizer",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Vehicle",
+      "anchor": "Vehicle",
+      "members": [
+        {
+          "page": {
+            "label": "EXO-45 Patriot Exosuit",
+            "title": "EXO-45 Patriot Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-45 Patriot Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-49 Emancipator Exosuit",
+            "title": "EXO-49 Emancipator Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-49 Emancipator Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-51 Lumberer Exosuit",
+            "title": "EXO-51 Lumberer Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-51 Lumberer Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EXO-55 Breakthrough Exosuit",
+            "title": "EXO-55 Breakthrough Exosuit",
+            "anchor": null
+          },
+          "name": "EXO-55 Breakthrough Exosuit",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-102 Gunner FRV",
+            "title": "M-102 Gunner FRV",
+            "anchor": null
+          },
+          "name": "M-102 Gunner FRV",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-103 Supply FRV",
+            "title": "M-103 Supply FRV",
+            "anchor": null
+          },
+          "name": "M-103 Supply FRV",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "M-104 Incinerator FRV",
+            "title": "M-104 Incinerator FRV",
+            "anchor": null
+          },
+          "name": "M-104 Incinerator FRV",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "TD-220 Bastion MK XVI",
+            "title": "TD-220 Bastion MK XVI",
+            "anchor": null
+          },
+          "name": "TD-220 Bastion MK XVI",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Heat",
+      "anchor": "Heat",
+      "members": [
+        {
+          "page": {
+            "label": "A/LAS-98 Laser Sentry",
+            "title": "A/LAS-98 Laser Sentry",
+            "anchor": null
+          },
+          "name": "A/LAS-98 Laser Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-13 Trident",
+            "title": "LAS-13 Trident",
+            "anchor": null
+          },
+          "name": "LAS-13 Trident",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-16 Sickle",
+            "title": "LAS-16 Sickle",
+            "anchor": null
+          },
+          "name": "LAS-16 Sickle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-17 Double-Edge Sickle",
+            "title": "LAS-17 Double-Edge Sickle",
+            "anchor": null
+          },
+          "name": "LAS-17 Double-Edge Sickle",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-5 Scythe",
+            "title": "LAS-5 Scythe",
+            "anchor": null
+          },
+          "name": "LAS-5 Scythe",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-58 Talon",
+            "title": "LAS-58 Talon",
+            "anchor": null
+          },
+          "name": "LAS-58 Talon",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-7 Dagger",
+            "title": "LAS-7 Dagger",
+            "anchor": null
+          },
+          "name": "LAS-7 Dagger",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-98 Laser Cannon",
+            "title": "LAS-98 Laser Cannon",
+            "anchor": null
+          },
+          "name": "LAS-98 Laser Cannon",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Stationary Reload",
+      "anchor": "Stationary_Reload",
+      "members": [
+        {
+          "page": {
+            "label": "AC-8 Autocannon",
+            "title": "AC-8 Autocannon",
+            "anchor": null
+          },
+          "name": "AC-8 Autocannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "FAF-14 Spear",
+            "title": "FAF-14 Spear",
+            "anchor": null
+          },
+          "name": "FAF-14 Spear",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "GR-8 Recoilless Rifle",
+            "title": "GR-8 Recoilless Rifle",
+            "anchor": null
+          },
+          "name": "GR-8 Recoilless Rifle",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MG-206 Heavy Machine Gun",
+            "title": "MG-206 Heavy Machine Gun",
+            "anchor": null
+          },
+          "name": "MG-206 Heavy Machine Gun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MG-43 Machine Gun",
+            "title": "MG-43 Machine Gun",
+            "anchor": null
+          },
+          "name": "MG-43 Machine Gun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "PLAS-45 Epoch",
+            "title": "PLAS-45 Epoch",
+            "anchor": null
+          },
+          "name": "PLAS-45 Epoch",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "RL-77 Airburst Rocket Launcher",
+            "title": "RL-77 Airburst Rocket Launcher",
+            "anchor": null
+          },
+          "name": "RL-77 Airburst Rocket Launcher",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "StA-X3 W.A.S.P. Launcher",
+            "title": "StA-X3 W.A.S.P. Launcher",
+            "anchor": null
+          },
+          "name": "StA-X3 W.A.S.P. Launcher",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Eagle",
+      "anchor": "Eagle",
+      "members": [
+        {
+          "page": {
+            "label": "Eagle 110mm Rocket Pods",
+            "title": "Eagle 110mm Rocket Pods",
+            "anchor": null
+          },
+          "name": "Eagle 110mm Rocket Pods",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle 500kg Bomb",
+            "title": "Eagle 500kg Bomb",
+            "anchor": null
+          },
+          "name": "Eagle 500kg Bomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Airstrike",
+            "title": "Eagle Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Cluster Bomb",
+            "title": "Eagle Cluster Bomb",
+            "anchor": null
+          },
+          "name": "Eagle Cluster Bomb",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Gas Airstrike",
+            "title": "Eagle Gas Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Gas Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Napalm Airstrike",
+            "title": "Eagle Napalm Airstrike",
+            "anchor": null
+          },
+          "name": "Eagle Napalm Airstrike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Smoke Strike",
+            "title": "Eagle Smoke Strike",
+            "anchor": null
+          },
+          "name": "Eagle Smoke Strike",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Eagle Strafing Run",
+            "title": "Eagle Strafing Run",
+            "anchor": null
+          },
+          "name": "Eagle Strafing Run",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Chargeup",
+      "anchor": "Chargeup",
+      "members": [
+        {
+          "page": {
+            "label": "40-K Meltagun",
+            "title": "40-K Meltagun",
+            "anchor": null
+          },
+          "name": "40-K Meltagun",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "ARC-3 Arc Thrower",
+            "title": "ARC-3 Arc Thrower",
+            "anchor": null
+          },
+          "name": "ARC-3 Arc Thrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-99 Quasar Cannon",
+            "title": "LAS-99 Quasar Cannon",
+            "anchor": null
+          },
+          "name": "LAS-99 Quasar Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "PLAS-101 Purifier",
+            "title": "PLAS-101 Purifier",
+            "anchor": null
+          },
+          "name": "PLAS-101 Purifier",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-15 Loyalist",
+            "title": "PLAS-15 Loyalist",
+            "anchor": null
+          },
+          "name": "PLAS-15 Loyalist",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "PLAS-45 Epoch",
+            "title": "PLAS-45 Epoch",
+            "anchor": null
+          },
+          "name": "PLAS-45 Epoch",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "RS-422 Railgun",
+            "title": "RS-422 Railgun",
+            "anchor": null
+          },
+          "name": "RS-422 Railgun",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Stun",
+      "anchor": "Stun",
+      "members": [
+        {
+          "page": {
+            "label": "A/M-23 EMS Mortar Sentry",
+            "title": "A/M-23 EMS Mortar Sentry",
+            "anchor": null
+          },
+          "name": "A/M-23 EMS Mortar Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AR-32 Pacifier",
+            "title": "AR-32 Pacifier",
+            "anchor": null
+          },
+          "name": "AR-32 Pacifier",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-19 Stun Lance",
+            "title": "CQC-19 Stun Lance",
+            "anchor": null
+          },
+          "name": "CQC-19 Stun Lance",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "CQC-30 Stun Baton",
+            "title": "CQC-30 Stun Baton",
+            "anchor": null
+          },
+          "name": "CQC-30 Stun Baton",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-109 Urchin",
+            "title": "G-109 Urchin",
+            "anchor": null
+          },
+          "name": "G-109 Urchin",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-23 Stun",
+            "title": "G-23 Stun",
+            "anchor": null
+          },
+          "name": "G-23 Stun",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "Orbital EMS Strike",
+            "title": "Orbital EMS Strike",
+            "anchor": null
+          },
+          "name": "Orbital EMS Strike",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Beam",
+      "anchor": "Beam",
+      "members": [
+        {
+          "page": {
+            "label": "A/LAS-98 Laser Sentry",
+            "title": "A/LAS-98 Laser Sentry",
+            "anchor": null
+          },
+          "name": "A/LAS-98 Laser Sentry",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/LAS-5 Rover",
+            "title": "AX/LAS-5 Rover",
+            "anchor": null
+          },
+          "name": "AX/LAS-5 Rover",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "LAS-5 Scythe",
+            "title": "LAS-5 Scythe",
+            "anchor": null
+          },
+          "name": "LAS-5 Scythe",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-7 Dagger",
+            "title": "LAS-7 Dagger",
+            "anchor": null
+          },
+          "name": "LAS-7 Dagger",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "LAS-98 Laser Cannon",
+            "title": "LAS-98 Laser Cannon",
+            "anchor": null
+          },
+          "name": "LAS-98 Laser Cannon",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "Orbital Laser",
+            "title": "Orbital Laser",
+            "anchor": null
+          },
+          "name": "Orbital Laser",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Expendable",
+      "anchor": "Expendable",
+      "members": [
+        {
+          "page": {
+            "label": "EAT-17 Expendable Anti-Tank",
+            "title": "EAT-17 Expendable Anti-Tank",
+            "anchor": null
+          },
+          "name": "EAT-17 Expendable Anti-Tank",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-411 Leveller",
+            "title": "EAT-411 Leveller",
+            "anchor": null
+          },
+          "name": "EAT-411 Leveller",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "EAT-700 Expendable Napalm",
+            "title": "EAT-700 Expendable Napalm",
+            "anchor": null
+          },
+          "name": "EAT-700 Expendable Napalm",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MGX-42 Bullet Storm",
+            "title": "MGX-42 Bullet Storm",
+            "anchor": null
+          },
+          "name": "MGX-42 Bullet Storm",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MLS-4X Commando",
+            "title": "MLS-4X Commando",
+            "anchor": null
+          },
+          "name": "MLS-4X Commando",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "MS-11 Solo Silo",
+            "title": "MS-11 Solo Silo",
+            "anchor": null
+          },
+          "name": "MS-11 Solo Silo",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Arc",
+      "anchor": "Arc",
+      "members": [
+        {
+          "page": {
+            "label": "A/ARC-3 Tesla Tower",
+            "title": "A/ARC-3 Tesla Tower",
+            "anchor": null
+          },
+          "name": "A/ARC-3 Tesla Tower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "ARC-12 Blitzer",
+            "title": "ARC-12 Blitzer",
+            "anchor": null
+          },
+          "name": "ARC-12 Blitzer",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "ARC-3 Arc Thrower",
+            "title": "ARC-3 Arc Thrower",
+            "anchor": null
+          },
+          "name": "ARC-3 Arc Thrower",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "AX/ARC-3 K-9",
+            "title": "AX/ARC-3 K-9",
+            "anchor": null
+          },
+          "name": "AX/ARC-3 K-9",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-31 Arc",
+            "title": "G-31 Arc",
+            "anchor": null
+          },
+          "name": "G-31 Arc",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "GL-52 De-Escalator",
+            "title": "GL-52 De-Escalator",
+            "anchor": null
+          },
+          "name": "GL-52 De-Escalator",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Sticky",
+      "anchor": "Sticky",
+      "members": [
+        {
+          "page": {
+            "label": "B/MD C4 Pack",
+            "title": "B/MD C4 Pack",
+            "anchor": null
+          },
+          "name": "B/MD C4 Pack",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-109 Urchin",
+            "title": "G-109 Urchin",
+            "anchor": null
+          },
+          "name": "G-109 Urchin",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G-123 Thermite",
+            "title": "G-123 Thermite",
+            "anchor": null
+          },
+          "name": "G-123 Thermite",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "G/SH-39 Shield",
+            "title": "G/SH-39 Shield",
+            "anchor": null
+          },
+          "name": "G/SH-39 Shield",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "TM-1 Lure Mine",
+            "title": "TM-1 Lure Mine",
+            "anchor": null
+          },
+          "name": "TM-1 Lure Mine",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Guided",
+      "anchor": "Guided",
+      "members": [
+        {
+          "page": {
+            "label": "FAF-14 Spear",
+            "title": "FAF-14 Spear",
+            "anchor": null
+          },
+          "name": "FAF-14 Spear",
+          "type": "Stratagem"
+        },
+        {
+          "page": {
+            "label": "G-50 Seeker",
+            "title": "G-50 Seeker",
+            "anchor": null
+          },
+          "name": "G-50 Seeker",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-33 Missile Pistol",
+            "title": "P-33 Missile Pistol",
+            "anchor": null
+          },
+          "name": "P-33 Missile Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "P-92 Warrant",
+            "title": "P-92 Warrant",
+            "anchor": null
+          },
+          "name": "P-92 Warrant",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "StA-X3 W.A.S.P. Launcher",
+            "title": "StA-X3 W.A.S.P. Launcher",
+            "anchor": null
+          },
+          "name": "StA-X3 W.A.S.P. Launcher",
+          "type": "Stratagem"
+        }
+      ]
+    },
+    {
+      "name": "Suppressed",
+      "anchor": "Suppressed",
+      "members": [
+        {
+          "page": {
+            "label": "AR-59 Suppressor",
+            "title": "AR-59 Suppressor",
+            "anchor": null
+          },
+          "name": "AR-59 Suppressor",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M6C/SOCOM Pistol",
+            "title": "M6C/SOCOM Pistol",
+            "anchor": null
+          },
+          "name": "M6C/SOCOM Pistol",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "M7S SMG",
+            "title": "M7S SMG",
+            "anchor": null
+          },
+          "name": "M7S SMG",
+          "type": "Weapon"
+        },
+        {
+          "page": {
+            "label": "R-72 Censor",
+            "title": "R-72 Censor",
+            "anchor": null
+          },
+          "name": "R-72 Censor",
+          "type": "Weapon"
+        }
+      ]
+    },
+    {
+      "name": "Stimulative",
+      "anchor": "Stimulative",
+      "members": [
+        {
+          "page": {
+            "label": "P-11 Stim Pistol",
+            "title": "P-11 Stim Pistol",
+            "anchor": null
+          },
+          "name": "P-11 Stim Pistol",
+          "type": "Weapon"
+        }
+      ]
+    }
+  ]
+}
