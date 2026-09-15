@@ -14,7 +14,8 @@
     "lint": "biome ci .",
     "format": "biome check --write .",
     "test": "vitest run",
-    "build": "pnpm -r build"
+    "build": "pnpm -r build",
+    "schemas:export": "tsx packages/schemas/scripts/export-json-schema.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "catalog:",

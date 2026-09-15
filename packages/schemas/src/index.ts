@@ -9,4 +9,5 @@ export * from "./entities/warbond.ts";
 export * from "./entities/weapon.ts";
 export * from "./envelope.ts";
 export * from "./integrity.ts";
+export * from "./json-schema.ts";
 export * from "./slug.ts";
