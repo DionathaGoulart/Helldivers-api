@@ -1,0 +1,545 @@
+[
+  {
+    "id": "acclimated",
+    "slug": "acclimated",
+    "name": "Acclimated",
+    "aliases": [],
+    "description": "Provides 50% resistance to fire, gas, acid, and electrical damage.",
+    "image": null,
+    "wiki": {
+      "title": "Acclimated",
+      "url": "https://helldivers.wiki.gg/wiki/Acclimated",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% resistance to fire, gas, acid, and electrical damage."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "adreno-defibrillator",
+    "slug": "adreno-defibrillator",
+    "name": "Adreno-Defibrillator",
+    "aliases": [],
+    "description": "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact. Increases stim effect duration by 2.0s. Provides 50% resistance to arc damage.",
+    "image": null,
+    "wiki": {
+      "title": "Adreno-Defibrillator",
+      "url": "https://helldivers.wiki.gg/wiki/Adreno-Defibrillator",
+      "flags": []
+    },
+    "effects": [
+      "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact.",
+      "Increases stim effect duration by 2.0s.",
+      "Provides 50% resistance to arc damage."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "advanced-filtration",
+    "slug": "advanced-filtration",
+    "name": "Advanced Filtration",
+    "aliases": [],
+    "description": "Provides 80% resistance to gas damage and effects.",
+    "image": null,
+    "wiki": {
+      "title": "Advanced Filtration",
+      "url": "https://helldivers.wiki.gg/wiki/Advanced_Filtration",
+      "flags": []
+    },
+    "effects": [
+      "Provides 80% resistance to gas damage and effects."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "ballistic-padding",
+    "slug": "ballistic-padding",
+    "name": "Ballistic Padding",
+    "aliases": [],
+    "description": "Provides 25% resistance to chest damage. Provides 25% resistance to explosive damage. Prevents all damage from bleeding if chest hemorrhages.",
+    "image": null,
+    "wiki": {
+      "title": "Ballistic Padding",
+      "url": "https://helldivers.wiki.gg/wiki/Ballistic_Padding",
+      "flags": []
+    },
+    "effects": [
+      "Provides 25% resistance to chest damage.",
+      "Provides 25% resistance to explosive damage.",
+      "Prevents all damage from bleeding if chest hemorrhages."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "concussive-padding-grenadier",
+    "slug": "concussive-padding-grenadier",
+    "name": "Concussive Padding, Grenadier",
+    "aliases": [],
+    "description": "Provides 50% resistance to explosive damage. Increases initial inventory and holding capacity of throwables by +2.",
+    "image": null,
+    "wiki": {
+      "title": "Concussive Padding, Grenadier",
+      "url": "https://helldivers.wiki.gg/wiki/Concussive_Padding,_Grenadier",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% resistance to explosive damage.",
+      "Increases initial inventory and holding capacity of throwables by +2."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "concussive-padding-hazmat",
+    "slug": "concussive-padding-hazmat",
+    "name": "Concussive Padding, Hazmat",
+    "aliases": [],
+    "description": "Provides 50% resistance to explosive damage. Provides 25% resistance to gas damage and effects. Sidearm recoil reduced by 30%.",
+    "image": null,
+    "wiki": {
+      "title": "Concussive Padding, Hazmat",
+      "url": "https://helldivers.wiki.gg/wiki/Concussive_Padding,_Hazmat",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% resistance to explosive damage.",
+      "Provides 25% resistance to gas damage and effects.",
+      "Sidearm recoil reduced by 30%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "concussive-padding-reinforced",
+    "slug": "concussive-padding-reinforced",
+    "name": "Concussive Padding, Reinforced",
+    "aliases": [],
+    "description": "Provides 50% resistance to explosive damage. Provides a higher armor rating.",
+    "image": null,
+    "wiki": {
+      "title": "Concussive Padding, Reinforced",
+      "url": "https://helldivers.wiki.gg/wiki/Concussive_Padding,_Reinforced",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% resistance to explosive damage.",
+      "Provides a higher armor rating."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "democracy-protects",
+    "slug": "democracy-protects",
+    "name": "Democracy Protects",
+    "aliases": [],
+    "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages.",
+    "image": null,
+    "wiki": {
+      "title": "Democracy Protects",
+      "url": "https://helldivers.wiki.gg/wiki/Democracy_Protects",
+      "flags": []
+    },
+    "effects": [
+      "50% chance to not die when taking lethal damage.",
+      "Prevents all damage from bleeding if chest hemorrhages."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "desert-stormer",
+    "slug": "desert-stormer",
+    "name": "Desert Stormer",
+    "aliases": [],
+    "description": "Provides 40% resistance to fire, gas, acid, and electrical damage. Increases throwing range by 20%.",
+    "image": null,
+    "wiki": {
+      "title": "Desert Stormer",
+      "url": "https://helldivers.wiki.gg/wiki/Desert_Stormer",
+      "flags": []
+    },
+    "effects": [
+      "Provides 40% resistance to fire, gas, acid, and electrical damage.",
+      "Increases throwing range by 20%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "electrical-conduit",
+    "slug": "electrical-conduit",
+    "name": "Electrical Conduit",
+    "aliases": [],
+    "description": "Provides 95% resistance to arc damage.",
+    "image": null,
+    "wiki": {
+      "title": "Electrical Conduit",
+      "url": "https://helldivers.wiki.gg/wiki/Electrical_Conduit",
+      "flags": []
+    },
+    "effects": [
+      "Provides 95% resistance to arc damage."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "engineering-kit",
+    "slug": "engineering-kit",
+    "name": "Engineering Kit",
+    "aliases": [],
+    "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2.",
+    "image": null,
+    "wiki": {
+      "title": "Engineering Kit",
+      "url": "https://helldivers.wiki.gg/wiki/Engineering_Kit",
+      "flags": []
+    },
+    "effects": [
+      "Further reduces recoil when crouching or prone by 30%.",
+      "Increases initial inventory and holding capacity of throwables by +2."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "extra-padding",
+    "slug": "extra-padding",
+    "name": "Extra Padding",
+    "aliases": [],
+    "description": "Provides a higher armor rating.",
+    "image": null,
+    "wiki": {
+      "title": "Extra Padding",
+      "url": "https://helldivers.wiki.gg/wiki/Extra_Padding",
+      "flags": []
+    },
+    "effects": [
+      "Provides a higher armor rating."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "feet-first",
+    "slug": "feet-first",
+    "name": "Feet First",
+    "aliases": [],
+    "description": "Wearer makes 50% less noise when moving. Increases point-of-interest identification range by 30%. Provides immunity to leg injuries.",
+    "image": null,
+    "wiki": {
+      "title": "Feet First",
+      "url": "https://helldivers.wiki.gg/wiki/Feet_First",
+      "flags": []
+    },
+    "effects": [
+      "Wearer makes 50% less noise when moving.",
+      "Increases point-of-interest identification range by 30%.",
+      "Provides immunity to leg injuries."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "fortified",
+    "slug": "fortified",
+    "name": "Fortified",
+    "aliases": [],
+    "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage.",
+    "image": null,
+    "wiki": {
+      "title": "Fortified",
+      "url": "https://helldivers.wiki.gg/wiki/Fortified",
+      "flags": []
+    },
+    "effects": [
+      "Further reduces recoil when crouching or prone by 30%.",
+      "Provides 50% resistance to explosive damage."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "gunslinger",
+    "slug": "gunslinger",
+    "name": "Gunslinger",
+    "aliases": [],
+    "description": "Increases sidearms reload speed by 40%. Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%.",
+    "image": null,
+    "wiki": {
+      "title": "Gunslinger",
+      "url": "https://helldivers.wiki.gg/wiki/Gunslinger",
+      "flags": []
+    },
+    "effects": [
+      "Increases sidearms reload speed by 40%.",
+      "Sidearm draw/holster speed increased by 50%.",
+      "Sidearm recoil reduced by 70%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "inflammable",
+    "slug": "inflammable",
+    "name": "Inflammable",
+    "aliases": [],
+    "description": "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
+    "image": null,
+    "wiki": {
+      "title": "Inflammable",
+      "url": "https://helldivers.wiki.gg/wiki/Inflammable",
+      "flags": []
+    },
+    "effects": [
+      "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "integrated-explosives",
+    "slug": "integrated-explosives",
+    "name": "Integrated Explosives",
+    "aliases": [],
+    "description": "Armor explodes 1.5s after the wearer dies. Increases initial inventory and holding capacity of throwables by +2.",
+    "image": null,
+    "wiki": {
+      "title": "Integrated Explosives",
+      "url": "https://helldivers.wiki.gg/wiki/Integrated_Explosives",
+      "flags": []
+    },
+    "effects": [
+      "Armor explodes 1.5s after the wearer dies.",
+      "Increases initial inventory and holding capacity of throwables by +2."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "kinetic-displacement-mitigation",
+    "slug": "kinetic-displacement-mitigation",
+    "name": "Kinetic Displacement Mitigation",
+    "aliases": [],
+    "description": "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability. Gives the wearer a 50% chance to avoid grievous limb injury. Reduces damage taken from impact and collisions by 30%.",
+    "image": null,
+    "wiki": {
+      "title": "Kinetic Displacement Mitigation",
+      "url": "https://helldivers.wiki.gg/wiki/Kinetic_Displacement_Mitigation",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
+      "Gives the wearer a 50% chance to avoid grievous limb injury.",
+      "Reduces damage taken from impact and collisions by 30%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "med-kit",
+    "slug": "med-kit",
+    "name": "Med-Kit",
+    "aliases": [],
+    "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s.",
+    "image": null,
+    "wiki": {
+      "title": "Med-Kit",
+      "url": "https://helldivers.wiki.gg/wiki/Med-Kit",
+      "flags": []
+    },
+    "effects": [
+      "Increases initial inventory and holding capacity of stims by +2.",
+      "Increases stim effect duration by 2.0s."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "oxygenator",
+    "slug": "oxygenator",
+    "name": "Oxygenator",
+    "aliases": [],
+    "description": "Increases the wearer's walking speed and running speed. Increases the speed and duration of slides.",
+    "image": null,
+    "wiki": {
+      "title": "Oxygenator",
+      "url": "https://helldivers.wiki.gg/wiki/Oxygenator",
+      "flags": []
+    },
+    "effects": [
+      "Increases the wearer's walking speed and running speed.",
+      "Increases the speed and duration of slides."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "peak-physique",
+    "slug": "peak-physique",
+    "name": "Peak Physique",
+    "aliases": [],
+    "description": "Increases melee damage by 40%. Improves weapons handling with less drag on weapon movement.",
+    "image": null,
+    "wiki": {
+      "title": "Peak Physique",
+      "url": "https://helldivers.wiki.gg/wiki/Peak_Physique",
+      "flags": []
+    },
+    "effects": [
+      "Increases melee damage by 40%.",
+      "Improves weapons handling with less drag on weapon movement."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "reduced-signature",
+    "slug": "reduced-signature",
+    "name": "Reduced Signature",
+    "aliases": [],
+    "description": "Wearer makes 50% less noise when moving. Reduces range at which enemies can detect the wearer by 40%.",
+    "image": null,
+    "wiki": {
+      "title": "Reduced Signature",
+      "url": "https://helldivers.wiki.gg/wiki/Reduced_Signature",
+      "flags": []
+    },
+    "effects": [
+      "Wearer makes 50% less noise when moving.",
+      "Reduces range at which enemies can detect the wearer by 40%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "reinforced-epaulettes",
+    "slug": "reinforced-epaulettes",
+    "name": "Reinforced Epaulettes",
+    "aliases": [],
+    "description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 20%.",
+    "image": null,
+    "wiki": {
+      "title": "Reinforced Epaulettes",
+      "url": "https://helldivers.wiki.gg/wiki/Reinforced_Epaulettes",
+      "flags": []
+    },
+    "effects": [
+      "Increases reload speed of primary weapons by 30%.",
+      "Gives wearer a 50% chance to avoid grievous limb injury.",
+      "Increases melee damage by 20%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "rock-solid",
+    "slug": "rock-solid",
+    "name": "Rock Solid",
+    "aliases": [],
+    "description": "Increases melee damage by 40%. Bearer is more resistant to being knocked prone.",
+    "image": null,
+    "wiki": {
+      "title": "Rock Solid",
+      "url": "https://helldivers.wiki.gg/wiki/Rock_Solid",
+      "flags": []
+    },
+    "effects": [
+      "Increases melee damage by 40%.",
+      "Bearer is more resistant to being knocked prone."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "scout",
+    "slug": "scout",
+    "name": "Scout",
+    "aliases": [],
+    "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%.",
+    "image": null,
+    "wiki": {
+      "title": "Scout",
+      "url": "https://helldivers.wiki.gg/wiki/Scout",
+      "flags": []
+    },
+    "effects": [
+      "Markers placed on the map will generate radar scans every 2.0s.",
+      "Reduces range at which enemies can detect the wearer by 30%."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "servo-assisted",
+    "slug": "servo-assisted",
+    "name": "Servo-Assisted",
+    "aliases": [],
+    "description": "Increases throwing range by 30%. Provides +50% limb health.",
+    "image": null,
+    "wiki": {
+      "title": "Servo-Assisted",
+      "url": "https://helldivers.wiki.gg/wiki/Servo-Assisted",
+      "flags": []
+    },
+    "effects": [
+      "Increases throwing range by 30%.",
+      "Provides +50% limb health."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "siege-ready",
+    "slug": "siege-ready",
+    "name": "Siege-Ready",
+    "aliases": [],
+    "description": "Increases reload speed of primary weapons by 30%. Increases ammo capacity of all weapons by 20%. Does not affect weapon backpacks.",
+    "image": null,
+    "wiki": {
+      "title": "Siege-Ready",
+      "url": "https://helldivers.wiki.gg/wiki/Siege-Ready",
+      "flags": []
+    },
+    "effects": [
+      "Increases reload speed of primary weapons by 30%.",
+      "Increases ammo capacity of all weapons by 20%. Does not affect weapon backpacks."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "supplementary-adrenaline",
+    "slug": "supplementary-adrenaline",
+    "name": "Supplementary Adrenaline",
+    "aliases": [],
+    "description": "When the wearer takes damage, they regain some stamina. Provides a higher armor rating.",
+    "image": null,
+    "wiki": {
+      "title": "Supplementary Adrenaline",
+      "url": "https://helldivers.wiki.gg/wiki/Supplementary_Adrenaline",
+      "flags": []
+    },
+    "effects": [
+      "When the wearer takes damage, they regain some stamina.",
+      "Provides a higher armor rating."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "true-grit",
+    "slug": "true-grit",
+    "name": "True Grit",
+    "aliases": [],
+    "description": "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
+    "image": null,
+    "wiki": {
+      "title": "True Grit",
+      "url": "https://helldivers.wiki.gg/wiki/True_Grit",
+      "flags": []
+    },
+    "effects": [
+      "Increases reload speed of support weapons by 30%.",
+      "Slightly increases weapon ergonomics to reduce drag on weapon movement."
+    ],
+    "armorIds": []
+  },
+  {
+    "id": "unflinching",
+    "slug": "unflinching",
+    "name": "Unflinching",
+    "aliases": [],
+    "description": "Helps prevent Helldivers from flinching when hit. Provides a higher armor rating. Markers placed on the map will generate radar scans every 2.0s.",
+    "image": null,
+    "wiki": {
+      "title": "Unflinching",
+      "url": "https://helldivers.wiki.gg/wiki/Unflinching",
+      "flags": []
+    },
+    "effects": [
+      "Helps prevent Helldivers from flinching when hit.",
+      "Provides a higher armor rating.",
+      "Markers placed on the map will generate radar scans every 2.0s."
+    ],
+    "armorIds": []
+  }
+]

@@ -80,12 +80,16 @@ async function readTree(root: string): Promise<Record<string, string>> {
 }
 
 describe("pnpm scrape --offline", () => {
-  it("publishes 18 boosters equal to the golden snapshot", async () => {
+  it("publishes boosters, passives and weapon traits equal to the golden snapshots", async () => {
     const report = await run("2026-09-15T21:07:00.123Z");
 
     expect(report.failure).toBeNull();
-    expect(report).toMatchObject({ ok: true, changed: true, mode: "offline" });
-    expect(report.counts).toEqual([{ collection: "boosters", before: 0, after: 18 }]);
+    expect(report).toMatchObject({ ok: true, changed: true, mode: "offline", warnings: [] });
+    expect(report.counts).toEqual([
+      { collection: "boosters", before: 0, after: 18 },
+      { collection: "passives", before: 0, after: 30 },
+      { collection: "weapon-traits", before: 0, after: 28 },
+    ]);
     expect(report.changes.every((change) => change.kind === "added")).toBe(true);
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
 
@@ -95,17 +99,42 @@ describe("pnpm scrape --offline", () => {
       await readFile(join(dataDir, "overrides", "warbond-stubs.json"), "utf8"),
     );
     expect(validateDataset(files, { knownIds: { warbonds: new Set(stubs) } })).toEqual([]);
-    expect(files.size).toBe(3 + 18);
+    // meta + changelog, then one list and one file per entity for each collection.
+    expect(files.size).toBe(2 + (1 + 18) + (1 + 30) + (1 + 28));
     expect(files.get("meta.json")).toMatchObject({ generatedAt: "2026-09-15T21:07:00Z" });
 
-    const boosters = (files.get("boosters.json") as { data: unknown[] }).data;
-    await expect(`${JSON.stringify(boosters, null, 2)}\n`).toMatchFileSnapshot(
-      "./__snapshots__/boosters.offline.json",
-    );
+    for (const collection of ["boosters", "passives", "weapon-traits"]) {
+      const list = (files.get(`${collection}.json`) as { data: unknown[] }).data;
+      await expect(`${JSON.stringify(list, null, 2)}\n`).toMatchFileSnapshot(
+        `./__snapshots__/${collection}.offline.json`,
+      );
+    }
+    expect(files.get("passives/true-grit.json")).toMatchObject({
+      data: {
+        wiki: { title: "True Grit", url: "https://helldivers.wiki.gg/wiki/True_Grit", flags: [] },
+        effects: [
+          "Increases reload speed of support weapons by 30%.",
+          "Slightly increases weapon ergonomics to reduce drag on weapon movement.",
+        ],
+      },
+    });
+    expect(files.get("weapon-traits/light-armor-penetrating.json")).toMatchObject({
+      data: {
+        name: "Light Armor Penetrating",
+        wiki: {
+          title: "Equipment Traits",
+          url: "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
+        },
+      },
+    });
 
     const lock = JSON.parse(await readFile(join(dataDir, "overrides", "ids.lock.json"), "utf8"));
     expect(Object.keys(lock.boosters)).toHaveLength(18);
     expect(lock.boosters["Hellpod Space Optimization"]).toBe("hellpod-space-optimization");
+    expect(Object.keys(lock.passives)).toHaveLength(30);
+    expect(lock.passives["Concussive Padding, Grenadier"]).toBe("concussive-padding-grenadier");
+    expect(Object.keys(lock["weapon-traits"])).toHaveLength(28);
+    expect(lock["weapon-traits"]["Equipment Traits#Anti-Tank"]).toBe("anti-tank");
   });
 
   it("changes nothing on a second run with the same pages", async () => {
@@ -158,7 +187,7 @@ describe("pnpm scrape --offline", () => {
     });
     expect(report.failure).toEqual({
       kind: "error",
-      messages: ["weapons is not scraped yet (available: boosters)"],
+      messages: ["weapons is not scraped yet (available: boosters, passives, weapon-traits)"],
     });
   });
 });
