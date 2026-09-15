@@ -79,6 +79,17 @@ describe("links and images", () => {
     });
   });
 
+  it("skips icon-only links to the article", () => {
+    const panel = loadHtml(
+      '<div id="h"><a href="/wiki/True_Grit"><img src="/images/True_Grit_Armor_Passive_Icon.svg?4e2218"></a> <a href="/wiki/True_Grit">True Grit</a></div>',
+    );
+    expect(firstArticleLink(panel("#h"))).toEqual({
+      label: "True Grit",
+      title: "True Grit",
+      anchor: null,
+    });
+  });
+
   it("reads image files from direct and thumbnail sources", () => {
     expect(firstImage($("#c"))).toEqual({ file: "Icon.svg", src: "/images/Icon.svg?7aa15a" });
     expect(fileFromSrc("/images/thumb/Super_Credit.png/51px-Super_Credit.png?178851")).toBe(

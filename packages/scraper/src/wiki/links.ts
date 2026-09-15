@@ -14,14 +14,18 @@ export interface ImageRef {
 
 const NAMESPACED = /^(?:File|Category|Special|Template|MediaWiki):/i;
 
-/** First link to an article (not a file, category or special page) inside `node`. */
+/**
+ * First text link to an article (not a file, category or special page) inside `node`.
+ * Icon-only links to the same article (`<a><img></a> <a>True Grit</a>`) are skipped.
+ */
 export function firstArticleLink(node: Cheerio<AnyNode>): LabeledLink | null {
   const anchors = node.find("a[href]");
   for (let i = 0; i < anchors.length; i += 1) {
     const anchor = anchors.eq(i);
     const link = linkFromHref(anchor.attr("href") ?? "");
-    if (link && !NAMESPACED.test(link.title)) {
-      return { label: textOf(anchor), ...link };
+    const label = textOf(anchor);
+    if (link && label && !NAMESPACED.test(link.title)) {
+      return { label, ...link };
     }
   }
   return null;
