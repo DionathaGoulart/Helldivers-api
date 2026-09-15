@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "unflinching",
+    "slug": "unflinching",
+    "name": "Unflinching",
+    "aliases": [],
+    "description": "Helps prevent Helldivers from flinching when hit. Provides a higher armor rating. Markers placed on the map will generate radar scans every 2.0s.",
+    "image": null,
+    "wiki": {
+      "title": "Unflinching",
+      "url": "https://helldivers.wiki.gg/wiki/Unflinching",
+      "flags": []
+    },
+    "effects": [
+      "Helps prevent Helldivers from flinching when hit.",
+      "Provides a higher armor rating.",
+      "Markers placed on the map will generate radar scans every 2.0s."
+    ],
+    "armorIds": []
+  }
+}

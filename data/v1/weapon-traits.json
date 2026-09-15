@@ -1,0 +1,434 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "count": 28,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "anti-tank",
+      "slug": "anti-tank",
+      "name": "Anti-Tank",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Anti-Tank",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "arc",
+      "slug": "arc",
+      "name": "Arc",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Arc",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "backpack",
+      "slug": "backpack",
+      "name": "Backpack",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Backpack",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "beam",
+      "slug": "beam",
+      "name": "Beam",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Beam",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "caustic",
+      "slug": "caustic",
+      "name": "Caustic",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Caustic",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "chargeup",
+      "slug": "chargeup",
+      "name": "Chargeup",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Chargeup",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "eagle",
+      "slug": "eagle",
+      "name": "Eagle",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Eagle",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "expendable",
+      "slug": "expendable",
+      "name": "Expendable",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Expendable",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "explosive",
+      "slug": "explosive",
+      "name": "Explosive",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Explosive",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "guided",
+      "slug": "guided",
+      "name": "Guided",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Guided",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "heat",
+      "slug": "heat",
+      "name": "Heat",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heat",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "heavy-armor-penetrating",
+      "slug": "heavy-armor-penetrating",
+      "name": "Heavy Armor Penetrating",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heavy_Armor_Penetrating",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "hellpod",
+      "slug": "hellpod",
+      "name": "Hellpod",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Hellpod",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "incendiary",
+      "slug": "incendiary",
+      "name": "Incendiary",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Incendiary",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "light-armor-penetrating",
+      "slug": "light-armor-penetrating",
+      "name": "Light Armor Penetrating",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "medium-armor-penetrating",
+      "slug": "medium-armor-penetrating",
+      "name": "Medium Armor Penetrating",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Medium_Armor_Penetrating",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "melee",
+      "slug": "melee",
+      "name": "Melee",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Melee",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "one-handed",
+      "slug": "one-handed",
+      "name": "One Handed",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#One_Handed",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "orbital",
+      "slug": "orbital",
+      "name": "Orbital",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Orbital",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "rounds-reload",
+      "slug": "rounds-reload",
+      "name": "Rounds Reload",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Rounds_Reload",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "sentry",
+      "slug": "sentry",
+      "name": "Sentry",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Sentry",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "stationary-reload",
+      "slug": "stationary-reload",
+      "name": "Stationary Reload",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stationary_Reload",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "sticky",
+      "slug": "sticky",
+      "name": "Sticky",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Sticky",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "stimulative",
+      "slug": "stimulative",
+      "name": "Stimulative",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stimulative",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "stun",
+      "slug": "stun",
+      "name": "Stun",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stun",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "support-weapon",
+      "slug": "support-weapon",
+      "name": "Support Weapon",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Support_Weapon",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "suppressed",
+      "slug": "suppressed",
+      "name": "Suppressed",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Suppressed",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    },
+    {
+      "id": "vehicle",
+      "slug": "vehicle",
+      "name": "Vehicle",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Equipment Traits",
+        "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Vehicle",
+        "flags": []
+      },
+      "weaponIds": [],
+      "stratagemIds": []
+    }
+  ]
+}

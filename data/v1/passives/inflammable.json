@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "inflammable",
+    "slug": "inflammable",
+    "name": "Inflammable",
+    "aliases": [],
+    "description": "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
+    "image": null,
+    "wiki": {
+      "title": "Inflammable",
+      "url": "https://helldivers.wiki.gg/wiki/Inflammable",
+      "flags": []
+    },
+    "effects": [
+      "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability."
+    ],
+    "armorIds": []
+  }
+}

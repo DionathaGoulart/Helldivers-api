@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "reduced-signature",
+    "slug": "reduced-signature",
+    "name": "Reduced Signature",
+    "aliases": [],
+    "description": "Wearer makes 50% less noise when moving. Reduces range at which enemies can detect the wearer by 40%.",
+    "image": null,
+    "wiki": {
+      "title": "Reduced Signature",
+      "url": "https://helldivers.wiki.gg/wiki/Reduced_Signature",
+      "flags": []
+    },
+    "effects": [
+      "Wearer makes 50% less noise when moving.",
+      "Reduces range at which enemies can detect the wearer by 40%."
+    ],
+    "armorIds": []
+  }
+}

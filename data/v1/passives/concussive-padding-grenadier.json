@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "concussive-padding-grenadier",
+    "slug": "concussive-padding-grenadier",
+    "name": "Concussive Padding, Grenadier",
+    "aliases": [],
+    "description": "Provides 50% resistance to explosive damage. Increases initial inventory and holding capacity of throwables by +2.",
+    "image": null,
+    "wiki": {
+      "title": "Concussive Padding, Grenadier",
+      "url": "https://helldivers.wiki.gg/wiki/Concussive_Padding,_Grenadier",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% resistance to explosive damage.",
+      "Increases initial inventory and holding capacity of throwables by +2."
+    ],
+    "armorIds": []
+  }
+}

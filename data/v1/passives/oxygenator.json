@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "oxygenator",
+    "slug": "oxygenator",
+    "name": "Oxygenator",
+    "aliases": [],
+    "description": "Increases the wearer's walking speed and running speed. Increases the speed and duration of slides.",
+    "image": null,
+    "wiki": {
+      "title": "Oxygenator",
+      "url": "https://helldivers.wiki.gg/wiki/Oxygenator",
+      "flags": []
+    },
+    "effects": [
+      "Increases the wearer's walking speed and running speed.",
+      "Increases the speed and duration of slides."
+    ],
+    "armorIds": []
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "kinetic-displacement-mitigation",
+    "slug": "kinetic-displacement-mitigation",
+    "name": "Kinetic Displacement Mitigation",
+    "aliases": [],
+    "description": "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability. Gives the wearer a 50% chance to avoid grievous limb injury. Reduces damage taken from impact and collisions by 30%.",
+    "image": null,
+    "wiki": {
+      "title": "Kinetic Displacement Mitigation",
+      "url": "https://helldivers.wiki.gg/wiki/Kinetic_Displacement_Mitigation",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
+      "Gives the wearer a 50% chance to avoid grievous limb injury.",
+      "Reduces damage taken from impact and collisions by 30%."
+    ],
+    "armorIds": []
+  }
+}

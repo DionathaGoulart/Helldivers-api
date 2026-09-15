@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "suppressed",
+    "slug": "suppressed",
+    "name": "Suppressed",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Equipment Traits",
+      "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Suppressed",
+      "flags": []
+    },
+    "weaponIds": [],
+    "stratagemIds": []
+  }
+}

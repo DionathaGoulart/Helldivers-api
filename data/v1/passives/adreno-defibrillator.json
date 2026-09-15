@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "adreno-defibrillator",
+    "slug": "adreno-defibrillator",
+    "name": "Adreno-Defibrillator",
+    "aliases": [],
+    "description": "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact. Increases stim effect duration by 2.0s. Provides 50% resistance to arc damage.",
+    "image": null,
+    "wiki": {
+      "title": "Adreno-Defibrillator",
+      "url": "https://helldivers.wiki.gg/wiki/Adreno-Defibrillator",
+      "flags": []
+    },
+    "effects": [
+      "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact.",
+      "Increases stim effect duration by 2.0s.",
+      "Provides 50% resistance to arc damage."
+    ],
+    "armorIds": []
+  }
+}

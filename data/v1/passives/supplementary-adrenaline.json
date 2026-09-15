@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "supplementary-adrenaline",
+    "slug": "supplementary-adrenaline",
+    "name": "Supplementary Adrenaline",
+    "aliases": [],
+    "description": "When the wearer takes damage, they regain some stamina. Provides a higher armor rating.",
+    "image": null,
+    "wiki": {
+      "title": "Supplementary Adrenaline",
+      "url": "https://helldivers.wiki.gg/wiki/Supplementary_Adrenaline",
+      "flags": []
+    },
+    "effects": [
+      "When the wearer takes damage, they regain some stamina.",
+      "Provides a higher armor rating."
+    ],
+    "armorIds": []
+  }
+}

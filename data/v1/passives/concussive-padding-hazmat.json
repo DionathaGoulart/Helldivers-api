@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "concussive-padding-hazmat",
+    "slug": "concussive-padding-hazmat",
+    "name": "Concussive Padding, Hazmat",
+    "aliases": [],
+    "description": "Provides 50% resistance to explosive damage. Provides 25% resistance to gas damage and effects. Sidearm recoil reduced by 30%.",
+    "image": null,
+    "wiki": {
+      "title": "Concussive Padding, Hazmat",
+      "url": "https://helldivers.wiki.gg/wiki/Concussive_Padding,_Hazmat",
+      "flags": []
+    },
+    "effects": [
+      "Provides 50% resistance to explosive damage.",
+      "Provides 25% resistance to gas damage and effects.",
+      "Sidearm recoil reduced by 30%."
+    ],
+    "armorIds": []
+  }
+}

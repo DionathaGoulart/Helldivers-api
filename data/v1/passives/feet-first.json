@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "feet-first",
+    "slug": "feet-first",
+    "name": "Feet First",
+    "aliases": [],
+    "description": "Wearer makes 50% less noise when moving. Increases point-of-interest identification range by 30%. Provides immunity to leg injuries.",
+    "image": null,
+    "wiki": {
+      "title": "Feet First",
+      "url": "https://helldivers.wiki.gg/wiki/Feet_First",
+      "flags": []
+    },
+    "effects": [
+      "Wearer makes 50% less noise when moving.",
+      "Increases point-of-interest identification range by 30%.",
+      "Provides immunity to leg injuries."
+    ],
+    "armorIds": []
+  }
+}

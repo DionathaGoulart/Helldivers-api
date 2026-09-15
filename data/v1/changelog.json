@@ -1,15 +1,316 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.16b37bbe",
-    "generatedAt": "2026-09-15T15:25:42Z",
-    "count": 1,
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "count": 2,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-15.7c155d29",
+      "date": "2026-09-15",
+      "summary": {
+        "added": 58,
+        "changed": 0,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "passives",
+          "id": "acclimated",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "adreno-defibrillator",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "advanced-filtration",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "ballistic-padding",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "concussive-padding-grenadier",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "concussive-padding-hazmat",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "concussive-padding-reinforced",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "democracy-protects",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "desert-stormer",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "electrical-conduit",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "engineering-kit",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "extra-padding",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "feet-first",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "fortified",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "gunslinger",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "inflammable",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "integrated-explosives",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "kinetic-displacement-mitigation",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "med-kit",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "oxygenator",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "peak-physique",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "reduced-signature",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "reinforced-epaulettes",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "rock-solid",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "scout",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "servo-assisted",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "siege-ready",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "supplementary-adrenaline",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "true-grit",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "unflinching",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "anti-tank",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "arc",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "backpack",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "beam",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "caustic",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "chargeup",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "eagle",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "expendable",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "explosive",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "guided",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heat",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heavy-armor-penetrating",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "hellpod",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "incendiary",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "light-armor-penetrating",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "medium-armor-penetrating",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "melee",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "one-handed",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "orbital",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "rounds-reload",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stationary-reload",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sticky",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stimulative",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stun",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "support-weapon",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "suppressed",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "vehicle",
+          "kind": "added"
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-15.16b37bbe",
       "date": "2026-09-15",

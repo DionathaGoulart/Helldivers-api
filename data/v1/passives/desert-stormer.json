@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "desert-stormer",
+    "slug": "desert-stormer",
+    "name": "Desert Stormer",
+    "aliases": [],
+    "description": "Provides 40% resistance to fire, gas, acid, and electrical damage. Increases throwing range by 20%.",
+    "image": null,
+    "wiki": {
+      "title": "Desert Stormer",
+      "url": "https://helldivers.wiki.gg/wiki/Desert_Stormer",
+      "flags": []
+    },
+    "effects": [
+      "Provides 40% resistance to fire, gas, acid, and electrical damage.",
+      "Increases throwing range by 20%."
+    ],
+    "armorIds": []
+  }
+}

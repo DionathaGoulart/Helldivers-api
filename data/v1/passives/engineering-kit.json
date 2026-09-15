@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "engineering-kit",
+    "slug": "engineering-kit",
+    "name": "Engineering Kit",
+    "aliases": [],
+    "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2.",
+    "image": null,
+    "wiki": {
+      "title": "Engineering Kit",
+      "url": "https://helldivers.wiki.gg/wiki/Engineering_Kit",
+      "flags": []
+    },
+    "effects": [
+      "Further reduces recoil when crouching or prone by 30%.",
+      "Increases initial inventory and holding capacity of throwables by +2."
+    ],
+    "armorIds": []
+  }
+}

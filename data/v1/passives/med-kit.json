@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "med-kit",
+    "slug": "med-kit",
+    "name": "Med-Kit",
+    "aliases": [],
+    "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s.",
+    "image": null,
+    "wiki": {
+      "title": "Med-Kit",
+      "url": "https://helldivers.wiki.gg/wiki/Med-Kit",
+      "flags": []
+    },
+    "effects": [
+      "Increases initial inventory and holding capacity of stims by +2.",
+      "Increases stim effect duration by 2.0s."
+    ],
+    "armorIds": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fortified",
+    "slug": "fortified",
+    "name": "Fortified",
+    "aliases": [],
+    "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage.",
+    "image": null,
+    "wiki": {
+      "title": "Fortified",
+      "url": "https://helldivers.wiki.gg/wiki/Fortified",
+      "flags": []
+    },
+    "effects": [
+      "Further reduces recoil when crouching or prone by 30%.",
+      "Provides 50% resistance to explosive damage."
+    ],
+    "armorIds": []
+  }
+}

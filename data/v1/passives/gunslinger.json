@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.7c155d29",
+    "generatedAt": "2026-09-15T15:42:33Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "gunslinger",
+    "slug": "gunslinger",
+    "name": "Gunslinger",
+    "aliases": [],
+    "description": "Increases sidearms reload speed by 40%. Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%.",
+    "image": null,
+    "wiki": {
+      "title": "Gunslinger",
+      "url": "https://helldivers.wiki.gg/wiki/Gunslinger",
+      "flags": []
+    },
+    "effects": [
+      "Increases sidearms reload speed by 40%.",
+      "Sidearm draw/holster speed increased by 50%.",
+      "Sidearm recoil reduced by 70%."
+    ],
+    "armorIds": []
+  }
+}
