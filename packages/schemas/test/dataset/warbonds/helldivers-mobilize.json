@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "helldivers-mobilize",
+    "slug": "helldivers-mobilize",
+    "name": "Helldivers Mobilize",
+    "aliases": ["Helldivers Mobilize!"],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Helldivers Mobilize Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond",
+      "flags": []
+    },
+    "type": "standard",
+    "releaseDate": "2024-02-08",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 0
+    },
+    "superCreditsClaimable": 100,
+    "medalsAllPages": 20,
+    "medalsAllItems": 26,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "Clapping",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "clapping",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 1
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Super Credits",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Hellpod Space Optimization",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "hellpod-space-optimization",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

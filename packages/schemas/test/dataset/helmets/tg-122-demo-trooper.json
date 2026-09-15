@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tg-122-demo-trooper",
+    "slug": "tg-122-demo-trooper",
+    "name": "TG-122 Demo-Trooper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TG-122 Demo-Trooper",
+      "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
+      "flags": []
+    },
+    "setIds": ["tg-122-demo-trooper"],
+    "source": {
+      "type": "warbond",
+      "label": "Castellan's Creed P2",
+      "warbondId": "castellans-creed",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

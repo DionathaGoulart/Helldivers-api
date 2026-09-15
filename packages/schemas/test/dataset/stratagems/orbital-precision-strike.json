@@ -1,0 +1,121 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "orbital-precision-strike",
+    "slug": "orbital-precision-strike",
+    "name": "Orbital Precision Strike",
+    "aliases": ["OPS"],
+    "description": "The Orbital Precision Strike, abbreviated as OPS, is a Stratagem in the Bridge category that fires a heavy-caliber artillery shell precisely at the Stratagem beacon.",
+    "image": {
+      "url": "/images/v1/stratagems/orbital-precision-strike.e93219fe.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Orbital_Precision_Strike_Stratagem_Icon_Background.svg"
+    },
+    "wiki": {
+      "title": "Orbital Precision Strike",
+      "url": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
+      "flags": ["potentially_outdated"]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": "bridge",
+    "kind": "orbital",
+    "traitIds": ["explosive", "orbital", "anti-tank"],
+    "code": ["right", "right", "up"],
+    "cooldownS": 90,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 85.5
+      },
+      {
+        "label": "With Zero-G Breech Loading",
+        "seconds": 81
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 76.95
+      }
+    ],
+    "callInTimeS": 4.45,
+    "callInTimeUpgradedS": 3.45,
+    "uses": "unlimited",
+    "unlockLevel": 1,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "380mm HE CANNON ROUND P",
+        "kind": "projectile",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      },
+      {
+        "name": "380mm HE CANNON ROUND P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Bombs": "1",
+      "Salvos": "1",
+      "Bombardment Area Size": "1 m",
+      "Uses": "∞",
+      "Cooldown": "90 s"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Bridge",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 0
+      },
+      "rotating": null
+    }
+  }
+}

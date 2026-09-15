@@ -1,0 +1,23 @@
+{
+  "id": "true-grit",
+  "slug": "true-grit",
+  "name": "True Grit",
+  "aliases": [],
+  "description": "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
+  "image": {
+    "url": "/images/v1/passives/true-grit.0fd0a058.webp",
+    "width": 256,
+    "height": 256,
+    "wikiFile": "True_Grit_Armor_Passive_Icon.svg"
+  },
+  "wiki": {
+    "title": "True Grit",
+    "url": "https://helldivers.wiki.gg/wiki/True_Grit",
+    "flags": []
+  },
+  "effects": [
+    "Increases reload speed of support weapons by 30%.",
+    "Slightly increases weapon ergonomics to reduce drag on weapon movement."
+  ],
+  "armorIds": ["tg-122-demo-trooper", "tg-8-sharpshooter"]
+}

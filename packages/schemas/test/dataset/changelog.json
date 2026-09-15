@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "count": 1,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "dataVersion": "2026-09-15.0d15ea5e",
+      "date": "2026-09-15",
+      "summary": {
+        "added": 1,
+        "changed": 1,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "40-k-meltagun",
+          "kind": "added"
+        },
+        {
+          "collection": "armors",
+          "id": "tg-8-sharpshooter",
+          "kind": "changed",
+          "paths": ["source.page"]
+        }
+      ]
+    }
+  ]
+}

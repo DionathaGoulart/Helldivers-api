@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "count": 2,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "tg-122-demo-trooper",
+      "slug": "tg-122-demo-trooper",
+      "name": "TG-122 Demo-Trooper",
+      "wiki": {
+        "title": "TG-122 Demo-Trooper",
+        "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
+        "flags": []
+      },
+      "armorId": "tg-122-demo-trooper",
+      "helmetId": "tg-122-demo-trooper",
+      "capeId": "city-fighters-resolve",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "castellans-creed page 2 lists exactly one armor (TG-122 Demo-Trooper) and one cape (City Fighter's Resolve)"
+      }
+    },
+    {
+      "id": "tg-8-sharpshooter",
+      "slug": "tg-8-sharpshooter",
+      "name": "TG-8 Sharpshooter",
+      "wiki": {
+        "title": "TG-8 Sharpshooter",
+        "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+        "flags": []
+      },
+      "armorId": "tg-8-sharpshooter",
+      "helmetId": "tg-8-sharpshooter",
+      "capeId": "camo-cloak",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "castellans-creed page 1 lists exactly one armor (TG-8 Sharpshooter) and one cape (Camo Cloak)"
+      }
+    }
+  ]
+}

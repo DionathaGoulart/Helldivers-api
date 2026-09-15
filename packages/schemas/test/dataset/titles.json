@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "count": 3,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "sergeant",
+      "slug": "sergeant",
+      "name": "Sergeant",
+      "aliases": [],
+      "description": null,
+      "image": {
+        "url": "/images/v1/titles/sergeant.373ff2eb.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_10_Sergeant_Rank_Icon.svg"
+      },
+      "wiki": {
+        "title": "Cosmetics",
+        "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Titles",
+        "flags": []
+      },
+      "kind": "rank",
+      "levelEarned": 10,
+      "source": {
+        "type": "progression",
+        "label": "Level 10",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "still-standing",
+      "slug": "still-standing",
+      "name": "Still Standing",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Still Standing",
+        "url": "https://helldivers.wiki.gg/wiki/Still_Standing",
+        "flags": []
+      },
+      "kind": "acquirable",
+      "levelEarned": null,
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed",
+        "warbondId": "castellans-creed",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "viper-commando",
+      "slug": "viper-commando",
+      "name": "Viper Commando",
+      "aliases": [],
+      "description": null,
+      "image": {
+        "url": "/images/v1/titles/viper-commando.33606cf5.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Viper_Commando_Title_Icon.svg"
+      },
+      "wiki": {
+        "title": "Viper Commando",
+        "url": "https://helldivers.wiki.gg/wiki/Viper_Commando",
+        "flags": []
+      },
+      "kind": "acquirable",
+      "levelEarned": null,
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos",
+        "warbondId": "viper-commandos",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    }
+  ]
+}

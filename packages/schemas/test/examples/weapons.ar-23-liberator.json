@@ -1,0 +1,99 @@
+{
+  "id": "ar-23-liberator",
+  "slug": "ar-23-liberator",
+  "name": "AR-23 Liberator",
+  "aliases": [],
+  "description": "The AR-23 Liberator is a Primary Assault Rifle, available for all Helldivers.",
+  "image": {
+    "url": "/images/v1/weapons/ar-23-liberator.7068ca99.webp",
+    "width": 512,
+    "height": 288,
+    "wikiFile": "AR-23_Liberator_Primary_Render.png"
+  },
+  "wiki": {
+    "title": "AR-23 Liberator",
+    "url": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+    "flags": ["potentially_outdated"]
+  },
+  "category": "primary",
+  "subcategory": "assault_rifle",
+  "traitIds": ["light-armor-penetrating"],
+  "firearm": {
+    "firingModes": ["auto", "semi", "burst"],
+    "fireRateRpm": [640],
+    "dps": [960],
+    "capacity": 45,
+    "spareMagazines": 8,
+    "startingMagazines": 6,
+    "magazinesFromSupply": 8,
+    "magazinesFromAmmoBox": 4,
+    "recoil": 10.5,
+    "horizontalRecoil": 6,
+    "verticalRecoil": 15,
+    "spread": {
+      "horizontal": 2,
+      "vertical": 2
+    },
+    "sway": 1,
+    "ergonomics": 65,
+    "reloadKind": "magazine",
+    "reloadTimeS": 3,
+    "reloadTimeUpgradedS": null,
+    "tacticalReloadTimeS": null
+  },
+  "throwable": null,
+  "attacks": [
+    {
+      "name": "5.5x50mm FULL METAL JACKET P",
+      "kind": "projectile",
+      "damage": {
+        "standard": 90,
+        "durable": 22,
+        "type": "Ballistic"
+      },
+      "penetration": {
+        "direct": "light",
+        "slightAngle": "light",
+        "largeAngle": "light",
+        "extremeAngle": "unarmored"
+      },
+      "projectile": {
+        "pellets": null,
+        "massG": 4.5,
+        "initialVelocityMps": 900,
+        "dragFactorPct": 30,
+        "gravityFactorPct": 100,
+        "penetrationSlowdownPct": 25
+      },
+      "area": null,
+      "forces": {
+        "demolition": 10,
+        "stagger": 15,
+        "push": 10
+      }
+    }
+  ],
+  "statsRaw": {
+    "Weapon Category": "Primary Weapons",
+    "Weapon Type": "Assault Rifles",
+    "Firing Modes": "Auto • Semi • Burst",
+    "Traits": "Light Armor Penetrating",
+    "Standard Damage": "90 Ballistic",
+    "Armor Penetration": "Light",
+    "Fire Rate": "640 rpm",
+    "DPS": "960",
+    "Capacity": "45",
+    "Spare Mags": "8",
+    "Ergonomics": "65",
+    "Recoil": "14",
+    "Reload Time": "3s"
+  },
+  "source": {
+    "type": "default",
+    "label": "Starter Equipment",
+    "warbondId": null,
+    "page": null,
+    "cost": null,
+    "rotating": null
+  }
+}

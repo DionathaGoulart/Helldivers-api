@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "count": 2,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "camo-cloak",
+      "slug": "camo-cloak",
+      "name": "Camo Cloak",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Camo Cloak",
+        "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
+        "flags": []
+      },
+      "pairedCapeId": "camo-cloak",
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed",
+        "warbondId": "castellans-creed",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 2
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "city-fighters-resolve",
+      "slug": "city-fighters-resolve",
+      "name": "City Fighter's Resolve",
+      "aliases": [],
+      "description": null,
+      "image": {
+        "url": "/images/v1/player-cards/city-fighters-resolve.a4da4f11.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "City_Fighter's_Resolve_Player_Card.png"
+      },
+      "wiki": {
+        "title": "City Fighter's Resolve",
+        "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
+        "flags": []
+      },
+      "pairedCapeId": "city-fighters-resolve",
+      "source": {
+        "type": "warbond",
+        "label": "Castellan’s Creed",
+        "warbondId": "castellans-creed",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 7
+        },
+        "rotating": null
+      }
+    }
+  ]
+}

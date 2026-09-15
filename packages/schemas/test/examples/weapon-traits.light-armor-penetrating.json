@@ -1,0 +1,15 @@
+{
+  "id": "light-armor-penetrating",
+  "slug": "light-armor-penetrating",
+  "name": "Light Armor Penetrating",
+  "aliases": [],
+  "description": null,
+  "image": null,
+  "wiki": {
+    "title": "Equipment Traits",
+    "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
+    "flags": []
+  },
+  "weaponIds": ["ar-23-liberator", "sg-88-break-action-shotgun"],
+  "stratagemIds": []
+}

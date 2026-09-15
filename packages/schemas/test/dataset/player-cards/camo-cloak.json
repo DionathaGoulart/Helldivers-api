@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "camo-cloak",
+    "slug": "camo-cloak",
+    "name": "Camo Cloak",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Camo Cloak",
+      "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
+      "flags": []
+    },
+    "pairedCapeId": "camo-cloak",
+    "source": {
+      "type": "warbond",
+      "label": "Castellan's Creed",
+      "warbondId": "castellans-creed",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

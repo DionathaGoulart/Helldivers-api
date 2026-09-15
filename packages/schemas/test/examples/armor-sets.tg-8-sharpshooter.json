@@ -1,0 +1,17 @@
+{
+  "id": "tg-8-sharpshooter",
+  "slug": "tg-8-sharpshooter",
+  "name": "TG-8 Sharpshooter",
+  "wiki": {
+    "title": "TG-8 Sharpshooter",
+    "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+    "flags": []
+  },
+  "armorId": "tg-8-sharpshooter",
+  "helmetId": "tg-8-sharpshooter",
+  "capeId": "camo-cloak",
+  "capeLink": {
+    "method": "warbond_page",
+    "evidence": "castellans-creed page 1 lists exactly one armor (TG-8 Sharpshooter) and one cape (Camo Cloak)"
+  }
+}

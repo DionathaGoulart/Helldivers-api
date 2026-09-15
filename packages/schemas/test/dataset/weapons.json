@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "count": 5,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "ar-23-liberator",
+      "slug": "ar-23-liberator",
+      "name": "AR-23 Liberator",
+      "aliases": [],
+      "description": "The AR-23 Liberator is a Primary Assault Rifle, available for all Helldivers.",
+      "image": {
+        "url": "/images/v1/weapons/ar-23-liberator.7068ca99.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23_Liberator_Primary_Render.png"
+      },
+      "wiki": {
+        "title": "AR-23 Liberator",
+        "url": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+        "flags": ["potentially_outdated"]
+      },
+      "category": "primary",
+      "subcategory": "assault_rifle",
+      "traitIds": ["light-armor-penetrating"],
+      "firearm": {
+        "firingModes": ["auto", "semi", "burst"],
+        "fireRateRpm": [640],
+        "dps": [960],
+        "capacity": 45,
+        "spareMagazines": 8,
+        "startingMagazines": 6,
+        "magazinesFromSupply": 8,
+        "magazinesFromAmmoBox": 4,
+        "recoil": 10.5,
+        "horizontalRecoil": 6,
+        "verticalRecoil": 15,
+        "spread": {
+          "horizontal": 2,
+          "vertical": 2
+        },
+        "sway": 1,
+        "ergonomics": 65,
+        "reloadKind": "magazine",
+        "reloadTimeS": 3,
+        "reloadTimeUpgradedS": null,
+        "tacticalReloadTimeS": null
+      },
+      "throwable": null,
+      "attacks": [
+        {
+          "name": "5.5x50mm FULL METAL JACKET P",
+          "kind": "projectile",
+          "damage": {
+            "standard": 90,
+            "durable": 22,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "light",
+            "slightAngle": "light",
+            "largeAngle": "light",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": {
+            "pellets": null,
+            "massG": 4.5,
+            "initialVelocityMps": 900,
+            "dragFactorPct": 30,
+            "gravityFactorPct": 100,
+            "penetrationSlowdownPct": 25
+          },
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 15,
+            "push": 10
+          }
+        }
+      ],
+      "statsRaw": {
+        "Weapon Category": "Primary Weapons",
+        "Weapon Type": "Assault Rifles",
+        "Firing Modes": "Auto • Semi • Burst",
+        "Traits": "Light Armor Penetrating",
+        "Standard Damage": "90 Ballistic",
+        "Armor Penetration": "Light",
+        "Fire Rate": "640 rpm",
+        "DPS": "960",
+        "Capacity": "45",
+        "Spare Mags": "8",
+        "Ergonomics": "65",
+        "Recoil": "14",
+        "Reload Time": "3s"
+      },
+      "source": {
+        "type": "default",
+        "label": "Starter Equipment",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "g-40-k-melta-mine",
+      "slug": "g-40-k-melta-mine",
+      "name": "G/40-K Melta Mine",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "G/40-K Melta Mine",
+        "url": "https://helldivers.wiki.gg/wiki/G/40-K_Melta_Mine",
+        "flags": []
+      },
+      "category": "throwable",
+      "subcategory": "special",
+      "traitIds": [],
+      "firearm": null,
+      "throwable": {
+        "capacity": null,
+        "startingCount": null,
+        "fromSupply": null,
+        "fuseTimeS": null,
+        "cookable": null
+      },
+      "attacks": [],
+      "statsRaw": {},
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed",
+        "warbondId": "castellans-creed",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "p-40-k-bolt-pistol",
+      "slug": "p-40-k-bolt-pistol",
+      "name": "P/40-K Bolt Pistol",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "P/40-K Bolt Pistol",
+        "url": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+        "flags": []
+      },
+      "category": "secondary",
+      "subcategory": "pistol",
+      "traitIds": [],
+      "firearm": null,
+      "throwable": null,
+      "attacks": [],
+      "statsRaw": {},
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed",
+        "warbondId": "castellans-creed",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "r-40-k-hot-shot-marksman-rifle",
+      "slug": "r-40-k-hot-shot-marksman-rifle",
+      "name": "R/40-K Hot-Shot Marksman Rifle",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "R/40-K Hot-Shot Marksman Rifle",
+        "url": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
+        "flags": []
+      },
+      "category": "primary",
+      "subcategory": "marksman_rifle",
+      "traitIds": [],
+      "firearm": null,
+      "throwable": null,
+      "attacks": [],
+      "statsRaw": {},
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed P1",
+        "warbondId": "castellans-creed",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sg-88-break-action-shotgun",
+      "slug": "sg-88-break-action-shotgun",
+      "name": "SG-88 Break-Action Shotgun",
+      "aliases": [],
+      "description": "The SG-88 Break-Action Shotgun is a Support Weapon with a 2 shot capacity found on various planets from Super Earth colonists.",
+      "image": {
+        "url": "/images/v1/weapons/sg-88-break-action-shotgun.0e838406.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-88_Break-Action_Shotgun_Support_Render.png"
+      },
+      "wiki": {
+        "title": "SG-88 Break-Action Shotgun",
+        "url": "https://helldivers.wiki.gg/wiki/SG-88_Break-Action_Shotgun",
+        "flags": []
+      },
+      "category": "civilian",
+      "subcategory": "shotgun",
+      "traitIds": ["support-weapon", "light-armor-penetrating", "rounds-reload"],
+      "firearm": {
+        "firingModes": ["semi", "volley"],
+        "fireRateRpm": [600],
+        "dps": [1170],
+        "capacity": 2,
+        "spareMagazines": 40,
+        "startingMagazines": 20,
+        "magazinesFromSupply": 20,
+        "magazinesFromAmmoBox": 10,
+        "recoil": 33.25,
+        "horizontalRecoil": 6.5,
+        "verticalRecoil": 60,
+        "spread": {
+          "horizontal": 60,
+          "vertical": 60
+        },
+        "sway": 1,
+        "ergonomics": 65,
+        "reloadKind": "rounds",
+        "reloadTimeS": 1.55,
+        "reloadTimeUpgradedS": null,
+        "tacticalReloadTimeS": 1.55
+      },
+      "throwable": null,
+      "attacks": [
+        {
+          "name": "10g MAGNUM P",
+          "kind": "projectile",
+          "damage": {
+            "standard": 65,
+            "durable": 13,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "light",
+            "slightAngle": "light",
+            "largeAngle": "light",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": {
+            "pellets": 9,
+            "massG": 6,
+            "initialVelocityMps": 385,
+            "dragFactorPct": 50,
+            "gravityFactorPct": 100,
+            "penetrationSlowdownPct": 25
+          },
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 20,
+            "push": 20
+          }
+        }
+      ],
+      "statsRaw": {
+        "Barrels": "x 2",
+        "Standard Damage": "585 Ballistic"
+      },
+      "source": {
+        "type": "other",
+        "label": "Minor Places of Interest",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    }
+  ]
+}

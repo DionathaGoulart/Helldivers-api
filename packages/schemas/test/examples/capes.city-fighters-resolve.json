@@ -1,0 +1,31 @@
+{
+  "id": "city-fighters-resolve",
+  "slug": "city-fighters-resolve",
+  "name": "City Fighter's Resolve",
+  "aliases": [],
+  "description": "City Fighter's Resolve is a cape and a player card in Helldivers 2. This cosmetic set, found on page two of the Castellan’s Creed Legendary Warbond, can be claimed separately for 25 and 7 Medals, respectively.",
+  "image": {
+    "url": "/images/v1/capes/city-fighters-resolve.63dc15a5.webp",
+    "width": 512,
+    "height": 512,
+    "wikiFile": "City_Fighter's_Resolve_Cape_Render.png"
+  },
+  "wiki": {
+    "title": "City Fighter's Resolve",
+    "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
+    "flags": []
+  },
+  "setIds": ["tg-122-demo-trooper"],
+  "playerCardId": "city-fighters-resolve",
+  "source": {
+    "type": "warbond",
+    "label": "Castellan’s Creed",
+    "warbondId": "castellans-creed",
+    "page": 2,
+    "cost": {
+      "currency": "medals",
+      "amount": 25
+    },
+    "rotating": null
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "count": 2,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "arctic",
+      "slug": "arctic",
+      "name": "Arctic",
+      "aliases": [],
+      "description": null,
+      "image": {
+        "url": "/images/v1/patterns/arctic-weapon.06a4f492.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+      },
+      "wiki": {
+        "title": "Cosmetics",
+        "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+        "flags": []
+      },
+      "scope": "weapon",
+      "unlockLevel": 5,
+      "variants": [
+        {
+          "target": "weapon",
+          "image": {
+            "url": "/images/v1/patterns/arctic-weapon.06a4f492.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+          },
+          "source": {
+            "type": "requisition",
+            "label": "Requisition Slips",
+            "warbondId": null,
+            "page": null,
+            "cost": {
+              "currency": "requisition",
+              "amount": 3000
+            },
+            "rotating": null
+          }
+        }
+      ]
+    },
+    {
+      "id": "castellans-green",
+      "slug": "castellans-green",
+      "name": "Castellans Green",
+      "aliases": [],
+      "description": "Castellans Green patterns are selectable wraps for your various vehicles. Each type's pattern can be claimed from separate pages in the Castellan’s Creed Legendary Warbond, being 20 Medals for the Hellpod on page one, 50 Medals for the Shuttle on page 2, and 50 and 55 Medals for the Exosuit and FRV on the 3rd page.",
+      "image": {
+        "url": "/images/v1/patterns/castellans-green-hellpod.21109a75.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+      },
+      "wiki": {
+        "title": "Castellans Green Pattern",
+        "url": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
+        "flags": ["stub"]
+      },
+      "scope": "vehicle",
+      "unlockLevel": null,
+      "variants": [
+        {
+          "target": "hellpod",
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-hellpod.21109a75.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+          },
+          "source": {
+            "type": "warbond",
+            "label": "Castellan's Creed",
+            "warbondId": "castellans-creed",
+            "page": 1,
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            },
+            "rotating": null
+          }
+        },
+        {
+          "target": "shuttle",
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-shuttle.58de236f.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Shuttle_Pattern_Icon.png"
+          },
+          "source": {
+            "type": "warbond",
+            "label": "Castellan's Creed",
+            "warbondId": "castellans-creed",
+            "page": 2,
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            },
+            "rotating": null
+          }
+        },
+        {
+          "target": "exosuit",
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-exosuit.4d912e5d.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Exosuit_Pattern_Icon.png"
+          },
+          "source": {
+            "type": "warbond",
+            "label": "Castellan's Creed",
+            "warbondId": "castellans-creed",
+            "page": 3,
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            },
+            "rotating": null
+          }
+        },
+        {
+          "target": "vehicle",
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-vehicle.90bfa43a.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Vehicle_Pattern_Icon.png"
+          },
+          "source": {
+            "type": "warbond",
+            "label": "Castellan's Creed",
+            "warbondId": "castellans-creed",
+            "page": 3,
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            },
+            "rotating": null
+          }
+        }
+      ]
+    }
+  ]
+}

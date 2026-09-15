@@ -1,0 +1,88 @@
+{
+  "id": "sg-88-break-action-shotgun",
+  "slug": "sg-88-break-action-shotgun",
+  "name": "SG-88 Break-Action Shotgun",
+  "aliases": [],
+  "description": "The SG-88 Break-Action Shotgun is a Support Weapon with a 2 shot capacity found on various planets from Super Earth colonists.",
+  "image": {
+    "url": "/images/v1/weapons/sg-88-break-action-shotgun.0e838406.webp",
+    "width": 512,
+    "height": 288,
+    "wikiFile": "SG-88_Break-Action_Shotgun_Support_Render.png"
+  },
+  "wiki": {
+    "title": "SG-88 Break-Action Shotgun",
+    "url": "https://helldivers.wiki.gg/wiki/SG-88_Break-Action_Shotgun",
+    "flags": []
+  },
+  "category": "civilian",
+  "subcategory": "shotgun",
+  "traitIds": ["support-weapon", "light-armor-penetrating", "rounds-reload"],
+  "firearm": {
+    "firingModes": ["semi", "volley"],
+    "fireRateRpm": [600],
+    "dps": [1170],
+    "capacity": 2,
+    "spareMagazines": 40,
+    "startingMagazines": 20,
+    "magazinesFromSupply": 20,
+    "magazinesFromAmmoBox": 10,
+    "recoil": 33.25,
+    "horizontalRecoil": 6.5,
+    "verticalRecoil": 60,
+    "spread": {
+      "horizontal": 60,
+      "vertical": 60
+    },
+    "sway": 1,
+    "ergonomics": 65,
+    "reloadKind": "rounds",
+    "reloadTimeS": 1.55,
+    "reloadTimeUpgradedS": null,
+    "tacticalReloadTimeS": 1.55
+  },
+  "throwable": null,
+  "attacks": [
+    {
+      "name": "10g MAGNUM P",
+      "kind": "projectile",
+      "damage": {
+        "standard": 65,
+        "durable": 13,
+        "type": "Ballistic"
+      },
+      "penetration": {
+        "direct": "light",
+        "slightAngle": "light",
+        "largeAngle": "light",
+        "extremeAngle": "unarmored"
+      },
+      "projectile": {
+        "pellets": 9,
+        "massG": 6,
+        "initialVelocityMps": 385,
+        "dragFactorPct": 50,
+        "gravityFactorPct": 100,
+        "penetrationSlowdownPct": 25
+      },
+      "area": null,
+      "forces": {
+        "demolition": 10,
+        "stagger": 20,
+        "push": 20
+      }
+    }
+  ],
+  "statsRaw": {
+    "Barrels": "x 2",
+    "Standard Damage": "585 Ballistic"
+  },
+  "source": {
+    "type": "other",
+    "label": "Minor Places of Interest",
+    "warbondId": null,
+    "page": null,
+    "cost": null,
+    "rotating": null
+  }
+}

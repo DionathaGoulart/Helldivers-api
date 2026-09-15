@@ -1,0 +1,28 @@
+{
+  "id": "sergeant",
+  "slug": "sergeant",
+  "name": "Sergeant",
+  "aliases": [],
+  "description": null,
+  "image": {
+    "url": "/images/v1/titles/sergeant.373ff2eb.webp",
+    "width": 256,
+    "height": 256,
+    "wikiFile": "Level_10_Sergeant_Rank_Icon.svg"
+  },
+  "wiki": {
+    "title": "Cosmetics",
+    "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Titles",
+    "flags": []
+  },
+  "kind": "rank",
+  "levelEarned": 10,
+  "source": {
+    "type": "progression",
+    "label": "Level 10",
+    "warbondId": null,
+    "page": null,
+    "cost": null,
+    "rotating": null
+  }
+}

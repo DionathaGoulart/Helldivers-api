@@ -1,0 +1,35 @@
+{
+  "id": "tg-8-sharpshooter",
+  "slug": "tg-8-sharpshooter",
+  "name": "TG-8 Sharpshooter",
+  "aliases": [],
+  "description": "\"Where lesser soldiers break, Helldivers obey. When Tyranny's horrors swarm, Helldivers obey. When death is certain, and hope and sense have fled, Helldivers obey.\" -- Last Lord Governor of Chara.",
+  "image": {
+    "url": "/images/v1/armors/tg-8-sharpshooter.6e37fb7e.webp",
+    "width": 512,
+    "height": 512,
+    "wikiFile": "TG-8_Sharpshooter_Armor_Render.png"
+  },
+  "wiki": {
+    "title": "TG-8 Sharpshooter",
+    "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+    "flags": []
+  },
+  "weight": "medium",
+  "armorRating": 100,
+  "speed": 500,
+  "staminaRegen": 100,
+  "passiveId": "true-grit",
+  "setIds": ["tg-8-sharpshooter"],
+  "source": {
+    "type": "warbond",
+    "label": "Castellan's Creed P1",
+    "warbondId": "castellans-creed",
+    "page": 1,
+    "cost": {
+      "currency": "medals",
+      "amount": 45
+    },
+    "rotating": null
+  }
+}

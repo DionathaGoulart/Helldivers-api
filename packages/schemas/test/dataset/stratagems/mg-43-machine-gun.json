@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "mg-43-machine-gun",
+    "slug": "mg-43-machine-gun",
+    "name": "MG-43 Machine Gun",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "MG-43 Machine Gun",
+      "url": "https://helldivers.wiki.gg/wiki/MG-43_Machine_Gun",
+      "flags": []
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "patriotic_administration_center",
+    "kind": "support_weapon",
+    "traitIds": ["support-weapon", "medium-armor-penetrating", "stationary-reload"],
+    "code": ["down", "left", "down", "up", "right"],
+    "cooldownS": 480,
+    "cooldownVariants": [],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 1,
+    "shipModules": [],
+    "supportWeapon": {
+      "firingModes": ["auto"],
+      "fireRateRpm": [630, 760, 900],
+      "dps": [945, 1140.3, 1350],
+      "capacity": 175,
+      "spareMagazines": 3,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 2,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 21.25,
+      "horizontalRecoil": 17.5,
+      "verticalRecoil": 25,
+      "spread": {
+        "horizontal": 4,
+        "vertical": 4
+      },
+      "sway": 1,
+      "ergonomics": 15,
+      "reloadKind": "stationary",
+      "reloadTimeS": 4.55,
+      "reloadTimeUpgradedS": 4.1,
+      "tacticalReloadTimeS": 3.83
+    },
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {},
+    "source": {
+      "type": "requisition",
+      "label": "Patriotic Administration Center",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 0
+      },
+      "rotating": null
+    }
+  }
+}

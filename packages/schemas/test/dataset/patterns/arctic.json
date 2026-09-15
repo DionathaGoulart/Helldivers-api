@@ -1,0 +1,53 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "arctic",
+    "slug": "arctic",
+    "name": "Arctic",
+    "aliases": [],
+    "description": null,
+    "image": {
+      "url": "/images/v1/patterns/arctic-weapon.06a4f492.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+    },
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 5,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": {
+          "url": "/images/v1/patterns/arctic-weapon.06a4f492.webp",
+          "width": 512,
+          "height": 288,
+          "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+        },
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 3000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  }
+}

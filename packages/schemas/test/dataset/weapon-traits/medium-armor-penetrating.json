@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "medium-armor-penetrating",
+    "slug": "medium-armor-penetrating",
+    "name": "Medium Armor Penetrating",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Equipment Traits",
+      "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Medium_Armor_Penetrating",
+      "flags": []
+    },
+    "weaponIds": [],
+    "stratagemIds": ["mg-43-machine-gun"]
+  }
+}

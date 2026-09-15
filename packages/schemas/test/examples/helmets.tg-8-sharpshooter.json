@@ -1,0 +1,30 @@
+{
+  "id": "tg-8-sharpshooter",
+  "slug": "tg-8-sharpshooter",
+  "name": "TG-8 Sharpshooter",
+  "aliases": [],
+  "description": null,
+  "image": {
+    "url": "/images/v1/helmets/tg-8-sharpshooter.062af996.webp",
+    "width": 512,
+    "height": 512,
+    "wikiFile": "TG-8_Sharpshooter_Helmet_Render.png"
+  },
+  "wiki": {
+    "title": "TG-8 Sharpshooter",
+    "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+    "flags": []
+  },
+  "setIds": ["tg-8-sharpshooter"],
+  "source": {
+    "type": "warbond",
+    "label": "Castellan's Creed P1",
+    "warbondId": "castellans-creed",
+    "page": 1,
+    "cost": {
+      "currency": "medals",
+      "amount": 30
+    },
+    "rotating": null
+  }
+}

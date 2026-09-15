@@ -1,0 +1,31 @@
+{
+  "id": "clapping",
+  "slug": "clapping",
+  "name": "Clapping",
+  "aliases": [],
+  "description": null,
+  "image": {
+    "url": "/images/v1/emotes/clapping.c89f9fe6.webp",
+    "width": 256,
+    "height": 256,
+    "wikiFile": "Clapping_Victory_Pose_Icon.png"
+  },
+  "wiki": {
+    "title": "Clapping",
+    "url": "https://helldivers.wiki.gg/wiki/Clapping",
+    "flags": []
+  },
+  "emote": false,
+  "victoryPose": true,
+  "source": {
+    "type": "warbond",
+    "label": "Helldivers Mobilize",
+    "warbondId": "helldivers-mobilize",
+    "page": 1,
+    "cost": {
+      "currency": "medals",
+      "amount": 1
+    },
+    "rotating": null
+  }
+}

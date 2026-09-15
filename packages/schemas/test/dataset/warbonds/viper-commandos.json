@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "viper-commandos",
+    "slug": "viper-commandos",
+    "name": "Viper Commandos",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Viper Commandos Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Viper_Commandos_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-06-13",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 200,
+    "medalsAllPages": 20,
+    "medalsAllItems": 40,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Super Credits",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Super Credits",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Viper Commando",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "viper-commando",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-15.0d15ea5e",
+    "generatedAt": "2026-09-15T21:07:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "castellans-creed",
+    "slug": "castellans-creed",
+    "name": "Castellan's Creed",
+    "aliases": ["Castellan’s Creed"],
+    "description": "Castellan's Creed is a Legendary Warbond available for 1,500 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": {
+      "url": "/images/v1/warbonds/castellans-creed.0fba0057.webp",
+      "width": 1024,
+      "height": 512,
+      "wikiFile": "Castellan's_Creed_Legendary_Warbond_Cover.png"
+    },
+    "wiki": {
+      "title": "Castellan's Creed Legendary Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Castellan's_Creed_Legendary_Warbond",
+      "flags": []
+    },
+    "type": "legendary",
+    "releaseDate": "2026-08-12",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1500
+    },
+    "superCreditsClaimable": 0,
+    "medalsAllPages": 210,
+    "medalsAllItems": 657,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "Camo Cloak",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "camo-cloak",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "TG-8 Sharpshooter",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "tg-8-sharpshooter",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "TG-8 Sharpshooter",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "tg-8-sharpshooter",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Camo Cloak",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "camo-cloak",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "R/40-K Hot-Shot Marksman Rifle",
+            "wikiType": "Marksman Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "r-40-k-hot-shot-marksman-rifle",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "Castellans Green Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "castellans-green",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "G/40-K Melta Mine",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-40-k-melta-mine",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "P/40-K Bolt Pistol",
+            "wikiType": "Pistol",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-40-k-bolt-pistol",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Castellans Green Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "castellans-green",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "City Fighter's Resolve",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "city-fighters-resolve",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "TG-122 Demo-Trooper",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "tg-122-demo-trooper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "TG-122 Demo-Trooper",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "tg-122-demo-trooper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "City Fighter's Resolve",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "city-fighters-resolve",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Still Standing",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "still-standing",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "40-K Meltagun",
+            "wikiType": "Stratagem",
+            "ref": {
+              "collection": "stratagems",
+              "id": "40-k-meltagun",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "Castellans Green Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "castellans-green",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Castellans Green Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "castellans-green",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
