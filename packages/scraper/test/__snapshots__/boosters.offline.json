@@ -409,7 +409,9 @@
     "wiki": {
       "title": "UAV Recon Booster",
       "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
-      "flags": []
+      "flags": [
+        "broken_file_links"
+      ]
     },
     "effect": "Increases all Helldivers' effective radar range.",
     "source": {
