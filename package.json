@@ -15,6 +15,7 @@
     "format": "biome check --write .",
     "test": "vitest run",
     "build": "pnpm -r build",
+    "fixtures:update": "tsx packages/scraper/scripts/fixtures-update.ts",
     "validate:data": "tsx packages/schemas/scripts/validate-data.ts",
     "schemas:export": "tsx packages/schemas/scripts/export-json-schema.ts"
   },
