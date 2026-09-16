@@ -266,6 +266,13 @@
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129642
     },
+    "AX/FLAM-75 \"Guard Dog\" Hot Dog": {
+      "file": "AX%2FFLAM-75_%22Guard_Dog%22_Hot_Dog.html",
+      "url": "https://helldivers.wiki.gg/wiki/AX/FLAM-75_%22Guard_Dog%22_Hot_Dog",
+      "fetchedAt": "2026-09-16T17:40:40.332Z",
+      "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
+      "wgRevisionId": 129645
+    },
     "AX/FLAM-75 Hot Dog": {
       "file": "AX%2FFLAM-75_Hot_Dog.html",
       "url": "https://helldivers.wiki.gg/wiki/AX/FLAM-75_Hot_Dog",
@@ -279,6 +286,13 @@
       "fetchedAt": "2026-09-16T14:16:47.901Z",
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129640
+    },
+    "AX/TX-13 \"Guard Dog\" Dog Breath": {
+      "file": "AX%2FTX-13_%22Guard_Dog%22_Dog_Breath.html",
+      "url": "https://helldivers.wiki.gg/wiki/AX/TX-13_%22Guard_Dog%22_Dog_Breath",
+      "fetchedAt": "2026-09-16T17:40:44.832Z",
+      "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
+      "wgRevisionId": 129643
     },
     "AX/TX-13 Dog Breath": {
       "file": "AX%2FTX-13_Dog_Breath.html",
@@ -475,6 +489,13 @@
       "fetchedAt": "2026-09-15T15:29:11.324Z",
       "lastModified": "Tue, 15 Sep 2026 15:09:45 GMT",
       "wgRevisionId": 120428
+    },
+    "Borderline Justice Premium Warbond": {
+      "file": "Borderline_Justice_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Borderline_Justice_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:47.634Z",
+      "lastModified": "Wed, 09 Sep 2026 02:17:18 GMT",
+      "wgRevisionId": 134838
     },
     "Botslayer": {
       "file": "Botslayer.html",
@@ -721,6 +742,13 @@
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129490
     },
+    "Castellan's Creed Legendary Warbond": {
+      "file": "Castellan's_Creed_Legendary_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Castellan's_Creed_Legendary_Warbond",
+      "fetchedAt": "2026-09-16T17:27:58.861Z",
+      "lastModified": "Fri, 11 Sep 2026 16:54:10 GMT",
+      "wgRevisionId": 135144
+    },
     "Castellans Green Pattern": {
       "file": "Castellans_Green_Pattern.html",
       "url": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
@@ -791,6 +819,13 @@
       "lastModified": "Tue, 11 Aug 2026 04:24:51 GMT",
       "wgRevisionId": 124899
     },
+    "Control Group Premium Warbond": {
+      "file": "Control_Group_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Control_Group_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:55.293Z",
+      "lastModified": "Wed, 09 Sep 2026 02:18:53 GMT",
+      "wgRevisionId": 134841
+    },
     "Cosmetics": {
       "file": "Cosmetics.html",
       "url": "https://helldivers.wiki.gg/wiki/Cosmetics",
@@ -818,6 +853,13 @@
       "fetchedAt": "2026-09-16T15:28:09.250Z",
       "lastModified": "Tue, 11 Aug 2026 04:05:19 GMT",
       "wgRevisionId": 124901
+    },
+    "Cutting Edge Premium Warbond": {
+      "file": "Cutting_Edge_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Cutting_Edge_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:31.957Z",
+      "lastModified": "Wed, 19 Aug 2026 17:01:21 GMT",
+      "wgRevisionId": 130648
     },
     "DBS-2 Double Freedom": {
       "file": "DBS-2_Double_Freedom.html",
@@ -909,6 +951,13 @@
       "fetchedAt": "2026-09-16T15:30:12.070Z",
       "lastModified": "Tue, 11 Aug 2026 10:13:58 GMT",
       "wgRevisionId": 124902
+    },
+    "Democratic Detonation": {
+      "file": "Democratic_Detonation.html",
+      "url": "https://helldivers.wiki.gg/wiki/Democratic_Detonation",
+      "fetchedAt": "2026-09-16T17:27:36.040Z",
+      "lastModified": "Wed, 19 Aug 2026 16:59:04 GMT",
+      "wgRevisionId": 130634
     },
     "Diagram of the Noblest Payload": {
       "file": "Diagram_of_the_Noblest_Payload.html",
@@ -1140,6 +1189,13 @@
       "fetchedAt": "2026-09-16T15:29:25.547Z",
       "lastModified": "Mon, 17 Aug 2026 14:36:22 GMT",
       "wgRevisionId": 124908
+    },
+    "Executive Onyx": {
+      "file": "Executive_Onyx.html",
+      "url": "https://helldivers.wiki.gg/wiki/Executive_Onyx",
+      "fetchedAt": "2026-09-16T17:41:11.035Z",
+      "lastModified": "Tue, 15 Sep 2026 14:14:35 GMT",
+      "wgRevisionId": 135490
     },
     "Exo Experts Premium Warbond": {
       "file": "Exo_Experts_Premium_Warbond.html",
@@ -1568,6 +1624,13 @@
       "lastModified": "Tue, 11 Aug 2026 04:01:44 GMT",
       "wgRevisionId": 124959
     },
+    "Glacial Polymer": {
+      "file": "Glacial_Polymer.html",
+      "url": "https://helldivers.wiki.gg/wiki/Glacial_Polymer",
+      "fetchedAt": "2026-09-16T17:40:59.374Z",
+      "lastModified": "Tue, 15 Sep 2026 14:14:29 GMT",
+      "wgRevisionId": 135489
+    },
     "Harbinger of True Equality": {
       "file": "Harbinger_of_True_Equality.html",
       "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
@@ -1582,12 +1645,26 @@
       "lastModified": "Wed, 09 Sep 2026 20:21:28 GMT",
       "wgRevisionId": 134894
     },
+    "Helldivers Mobilize! Warbond": {
+      "file": "Helldivers_Mobilize!_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Helldivers_Mobilize!_Warbond",
+      "fetchedAt": "2026-09-16T17:40:31.314Z",
+      "lastModified": "Wed, 09 Sep 2026 20:21:57 GMT",
+      "wgRevisionId": 134894
+    },
     "Hellpod Space Optimization": {
       "file": "Hellpod_Space_Optimization.html",
       "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
       "fetchedAt": "2026-09-15T15:04:29.170Z",
       "lastModified": "Fri, 14 Aug 2026 02:56:29 GMT",
       "wgRevisionId": 107748
+    },
+    "Helmet Durability Check": {
+      "file": "Helmet_Durability_Check.html",
+      "url": "https://helldivers.wiki.gg/wiki/Helmet_Durability_Check",
+      "fetchedAt": "2026-09-16T17:41:02.913Z",
+      "lastModified": "Tue, 15 Sep 2026 13:37:45 GMT",
+      "wgRevisionId": 135446
     },
     "Heritage Olive Pattern": {
       "file": "Heritage_Olive_Pattern.html",
@@ -1708,6 +1785,13 @@
       "lastModified": "Tue, 08 Sep 2026 19:56:04 GMT",
       "wgRevisionId": 134313
     },
+    "Integrated Extinguishers": {
+      "file": "Integrated_Extinguishers.html",
+      "url": "https://helldivers.wiki.gg/wiki/Integrated_Extinguishers",
+      "fetchedAt": "2026-09-16T17:40:55.660Z",
+      "lastModified": "Tue, 15 Sep 2026 21:59:51 GMT",
+      "wgRevisionId": 135574
+    },
     "Ironclad Democracy Premium Warbond": {
       "file": "Ironclad_Democracy_Premium_Warbond.html",
       "url": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
@@ -1756,6 +1840,13 @@
       "fetchedAt": "2026-09-16T13:19:41.224Z",
       "lastModified": "Wed, 09 Sep 2026 20:52:14 GMT",
       "wgRevisionId": 134896
+    },
+    "LAS-16 Trident": {
+      "file": "LAS-16_Trident.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-16_Trident",
+      "fetchedAt": "2026-09-16T17:40:35.669Z",
+      "lastModified": "Thu, 10 Sep 2026 15:18:00 GMT",
+      "wgRevisionId": 135007
     },
     "LAS-17 Double-Edge Sickle": {
       "file": "LAS-17_Double-Edge_Sickle.html",
@@ -2001,6 +2092,13 @@
       "fetchedAt": "2026-09-16T15:28:45.382Z",
       "lastModified": "Tue, 11 Aug 2026 05:01:45 GMT",
       "wgRevisionId": 124926
+    },
+    "Masters of Ceremony Premium Warbond": {
+      "file": "Masters_of_Ceremony_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Masters_of_Ceremony_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:52.120Z",
+      "lastModified": "Wed, 09 Sep 2026 02:17:41 GMT",
+      "wgRevisionId": 134839
     },
     "Mean Green Pattern": {
       "file": "Mean_Green_Pattern.html",
@@ -2365,6 +2463,13 @@
       "fetchedAt": "2026-09-16T15:29:13.690Z",
       "lastModified": "Tue, 11 Aug 2026 10:18:29 GMT",
       "wgRevisionId": 124934
+    },
+    "Polar Patriots Premium Warbond": {
+      "file": "Polar_Patriots_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Polar_Patriots_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:39.502Z",
+      "lastModified": "Wed, 19 Aug 2026 16:59:51 GMT",
+      "wgRevisionId": 130639
     },
     "Portable Comms Relay": {
       "file": "Portable_Comms_Relay.html",
@@ -2919,6 +3024,13 @@
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129619
     },
+    "Servants of Freedom Premium Warbond": {
+      "file": "Servants_of_Freedom_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Servants_of_Freedom_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:43.020Z",
+      "lastModified": "Wed, 09 Sep 2026 02:16:54 GMT",
+      "wgRevisionId": 134837
+    },
     "Ship Modules": {
       "file": "Ship_Modules.html",
       "url": "https://helldivers.wiki.gg/wiki/Ship_Modules",
@@ -3003,6 +3115,13 @@
       "lastModified": "Tue, 11 Aug 2026 10:56:41 GMT",
       "wgRevisionId": 124943
     },
+    "Steeled Veterans Premium Warbond": {
+      "file": "Steeled_Veterans_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Steeled_Veterans_Premium_Warbond",
+      "fetchedAt": "2026-09-16T17:27:27.371Z",
+      "lastModified": "Fri, 21 Aug 2026 20:12:37 GMT",
+      "wgRevisionId": 130629
+    },
     "Stone-Wrought Perseverance": {
       "file": "Stone-Wrought_Perseverance.html",
       "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",
@@ -3037,6 +3156,20 @@
       "fetchedAt": "2026-09-16T14:21:13.304Z",
       "lastModified": "Sun, 06 Sep 2026 10:12:00 GMT",
       "wgRevisionId": 134273
+    },
+    "Superstore": {
+      "file": "Superstore.html",
+      "url": "https://helldivers.wiki.gg/wiki/Superstore",
+      "fetchedAt": "2026-09-16T17:27:06.908Z",
+      "lastModified": "Tue, 11 Aug 2026 03:59:29 GMT",
+      "wgRevisionId": 124891
+    },
+    "Surplus EAT Allocation": {
+      "file": "Surplus_EAT_Allocation.html",
+      "url": "https://helldivers.wiki.gg/wiki/Surplus_EAT_Allocation",
+      "fetchedAt": "2026-09-16T17:41:06.698Z",
+      "lastModified": "Tue, 15 Sep 2026 13:31:54 GMT",
+      "wgRevisionId": 135442
     },
     "TD-220 Bastion MK XVI": {
       "file": "TD-220_Bastion_MK_XVI.html",
@@ -3143,6 +3276,13 @@
       "lastModified": "Tue, 11 Aug 2026 05:52:44 GMT",
       "wgRevisionId": 124945
     },
+    "Thumb of Approval": {
+      "file": "Thumb_of_Approval.html",
+      "url": "https://helldivers.wiki.gg/wiki/Thumb_of_Approval",
+      "fetchedAt": "2026-09-16T17:40:47.910Z",
+      "lastModified": "Tue, 11 Aug 2026 04:02:10 GMT",
+      "wgRevisionId": 117722
+    },
     "Thundering Hooves of Loyalty": {
       "file": "Thundering_Hooves_of_Loyalty.html",
       "url": "https://helldivers.wiki.gg/wiki/Thundering_Hooves_of_Loyalty",
@@ -3156,6 +3296,13 @@
       "fetchedAt": "2026-09-16T15:27:53.557Z",
       "lastModified": "Tue, 11 Aug 2026 04:06:20 GMT",
       "wgRevisionId": 124946
+    },
+    "Treadhead": {
+      "file": "Treadhead.html",
+      "url": "https://helldivers.wiki.gg/wiki/Treadhead",
+      "fetchedAt": "2026-09-16T17:41:16.681Z",
+      "lastModified": "Tue, 15 Sep 2026 15:04:07 GMT",
+      "wgRevisionId": 135458
     },
     "Triangulation Veil": {
       "file": "Triangulation_Veil.html",
@@ -3262,6 +3409,13 @@
       "lastModified": "Tue, 11 Aug 2026 05:53:48 GMT",
       "wgRevisionId": 124965
     },
+    "Verdant Camouflage": {
+      "file": "Verdant_Camouflage.html",
+      "url": "https://helldivers.wiki.gg/wiki/Verdant_Camouflage",
+      "fetchedAt": "2026-09-16T17:40:51.732Z",
+      "lastModified": "Tue, 15 Sep 2026 14:14:38 GMT",
+      "wgRevisionId": 135491
+    },
     "Veridical Ideology": {
       "file": "Veridical_Ideology.html",
       "url": "https://helldivers.wiki.gg/wiki/Veridical_Ideology",
@@ -3289,6 +3443,13 @@
       "fetchedAt": "2026-09-15T15:05:49.670Z",
       "lastModified": "Sun, 13 Sep 2026 09:44:38 GMT",
       "wgRevisionId": 135291
+    },
+    "Warbonds": {
+      "file": "Warbonds.html",
+      "url": "https://helldivers.wiki.gg/wiki/Warbonds",
+      "fetchedAt": "2026-09-16T17:27:03.590Z",
+      "lastModified": "Tue, 15 Sep 2026 13:59:04 GMT",
+      "wgRevisionId": 135477
     },
     "Watchful Compatriot": {
       "file": "Watchful_Compatriot.html",
