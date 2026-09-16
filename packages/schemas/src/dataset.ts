@@ -2,7 +2,7 @@ import type { z } from "zod";
 import { collectionSchemas } from "./collections.ts";
 import { Collection } from "./common.ts";
 import { ChangelogEntry, DatasetManifest, Item, List, type Meta } from "./envelope.ts";
-import { checkIntegrity, type Dataset, type IntegrityOptions } from "./integrity.ts";
+import { checkIntegrity, type Dataset } from "./integrity.ts";
 import { jsonSchemaFiles } from "./json-schema.ts";
 import { ConflictReport, ImageManifest } from "./reports.ts";
 
@@ -71,10 +71,7 @@ function keyMismatch(raw: unknown, parsed: unknown, path: Segment[]): DatasetIss
   return null;
 }
 
-export function validateDataset(
-  files: ReadonlyMap<string, unknown>,
-  options: Pick<IntegrityOptions, "knownIds"> = {},
-): DatasetIssue[] {
+export function validateDataset(files: ReadonlyMap<string, unknown>): DatasetIssue[] {
   const issues: DatasetIssue[] = [];
   const add = (file: string, path: string, message: string) => {
     issues.push({ file, path, message });
@@ -280,10 +277,7 @@ export function validateDataset(
     if (hasImages && !imageUrls) {
       add("reports/images.json", "", "missing file: entities reference images");
     }
-    const integrity = checkIntegrity(dataset, {
-      ...(imageUrls ? { imageUrls } : {}),
-      ...(options.knownIds ? { knownIds: options.knownIds } : {}),
-    });
+    const integrity = checkIntegrity(dataset, imageUrls ? { imageUrls } : {});
     for (const issue of integrity) {
       add(`${issue.collection}/${issue.id}.json`, `data.${issue.field}`, issue.message);
     }

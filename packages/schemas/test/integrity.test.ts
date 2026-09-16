@@ -70,21 +70,6 @@ describe("checkIntegrity", () => {
     ]);
   });
 
-  it("accepts refs into a missing collection whose ids are known (warbond stubs)", () => {
-    const dataset = loadDataset();
-    delete dataset.warbonds;
-    const warbonds = new Set(["castellans-creed", "helldivers-mobilize", "viper-commandos"]);
-
-    expect(checkIntegrity(dataset, { knownIds: { warbonds } })).toEqual([]);
-
-    warbonds.delete("viper-commandos");
-    const issues = checkIntegrity(dataset, { knownIds: { warbonds } });
-    expect(issues.length).toBeGreaterThan(0);
-    expect(issues.map((issue) => issue.message)).toEqual(
-      issues.map(() => "warbonds/viper-commandos does not exist"),
-    );
-  });
-
   it("reports refs into a collection missing from the dataset", () => {
     const dataset = loadDataset();
     delete dataset.passives;

@@ -7,12 +7,10 @@ import { z } from "zod";
 
 export const WarbondAliases = z.record(z.string().min(1), Id);
 export const SourceLabels = z.record(z.string().min(1), SourceType);
-export const WarbondStubs = z.array(Id); // temporary until the warbonds collection exists
 
 export interface Overrides {
   warbondAliases: z.infer<typeof WarbondAliases>;
   sourceLabels: z.infer<typeof SourceLabels>;
-  warbondStubs: z.infer<typeof WarbondStubs>;
 }
 
 export const overridesDir = (dataDir: string) => join(dataDir, "overrides");
@@ -44,6 +42,5 @@ export async function readOverrides(dataDir: string): Promise<Overrides> {
   return {
     warbondAliases: await readOverride(join(dir, "warbond-aliases.json"), WarbondAliases, {}),
     sourceLabels: await readOverride(join(dir, "source-labels.json"), SourceLabels, {}),
-    warbondStubs: await readOverride(join(dir, "warbond-stubs.json"), WarbondStubs, []),
   };
 }

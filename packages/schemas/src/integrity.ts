@@ -17,11 +17,6 @@ export interface IntegrityIssue {
 export interface IntegrityOptions {
   /** Image URLs from the B2 upload manifest; the manifest check runs only when given. */
   imageUrls?: ReadonlySet<string>;
-  /**
-   * Ids known to exist in collections this dataset does not have yet (temporary warbond
-   * stubs until the warbonds collection is scraped, plan §4). Ignored for present collections.
-   */
-  knownIds?: { readonly [C in Collection]?: ReadonlySet<Id> };
 }
 
 const SOURCED = [
@@ -63,10 +58,7 @@ export function checkIntegrity(dataset: Dataset, options: IntegrityOptions = {})
     index.set(collection, seen);
   }
 
-  const exists = (collection: Collection, id: Id) =>
-    dataset[collection] === undefined
-      ? (options.knownIds?.[collection]?.has(id) ?? false)
-      : (index.get(collection)?.has(id) ?? false);
+  const exists = (collection: Collection, id: Id) => index.get(collection)?.has(id) ?? false;
   const ref = (from: Collection, id: Id, field: string, target: Collection, targetId: Id) => {
     if (!exists(target, targetId)) {
       report(from, id, field, `${target}/${targetId} does not exist`);
@@ -169,10 +161,8 @@ export function checkIntegrity(dataset: Dataset, options: IntegrityOptions = {})
     }
     const warbond = warbonds.get(source.warbondId);
     if (!warbond) {
-      if (!exists("warbonds", source.warbondId)) {
-        report(collection, id, `${field}.warbondId`, `warbonds/${source.warbondId} does not exist`);
-      }
-      return; // a known but unscraped warbond has no pages to check yet
+      report(collection, id, `${field}.warbondId`, `warbonds/${source.warbondId} does not exist`);
+      return;
     }
     if (source.page > warbond.pages.length) {
       report(
