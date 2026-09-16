@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "hell-commander",
+    "slug": "hell-commander",
+    "name": "Hell Commander",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Hell Commander",
+      "url": "https://helldivers.wiki.gg/wiki/Hell_Commander",
+      "flags": []
+    },
+    "kind": "rank",
+    "levelEarned": 100,
+    "source": {
+      "type": "progression",
+      "label": "Level 100",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

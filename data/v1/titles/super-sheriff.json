@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "super-sheriff",
+    "slug": "super-sheriff",
+    "name": "Super Sheriff",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Super Sheriff",
+      "url": "https://helldivers.wiki.gg/wiki/Super_Sheriff",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Borderline Justice",
+      "warbondId": "borderline-justice",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

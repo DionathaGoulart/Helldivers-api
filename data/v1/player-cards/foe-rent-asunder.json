@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "foe-rent-asunder",
+    "slug": "foe-rent-asunder",
+    "name": "Foe Rent Asunder",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Foe Rent Asunder",
+      "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
+      "flags": []
+    },
+    "pairedCapeId": "foe-rent-asunder",
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P2",
+      "warbondId": "python-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "over-artifice-triumphant",
+    "slug": "over-artifice-triumphant",
+    "name": "Over Artifice Triumphant",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Over Artifice Triumphant",
+      "url": "https://helldivers.wiki.gg/wiki/Over_Artifice_Triumphant",
+      "flags": []
+    },
+    "pairedCapeId": "over-artifice-triumphant",
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P2",
+      "warbondId": "control-group",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "boxer",
+    "slug": "boxer",
+    "name": "Boxer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Boxer",
+      "url": "https://helldivers.wiki.gg/wiki/Boxer",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 32
+      },
+      "rotating": null
+    }
+  }
+}

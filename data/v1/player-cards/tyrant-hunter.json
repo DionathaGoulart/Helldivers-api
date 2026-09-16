@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tyrant-hunter",
+    "slug": "tyrant-hunter",
+    "name": "Tyrant Hunter",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Tyrant Hunter",
+      "url": "https://helldivers.wiki.gg/wiki/Tyrant_Hunter",
+      "flags": []
+    },
+    "pairedCapeId": "tyrant-hunter",
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P1",
+      "warbondId": "steeled-veterans",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

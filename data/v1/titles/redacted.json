@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "redacted",
+    "slug": "redacted",
+    "name": "[Redacted]",
+    "aliases": [
+      "Redacted"
+    ],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Redacted",
+      "url": "https://helldivers.wiki.gg/wiki/Redacted",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment",
+      "warbondId": "redacted-regiment",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

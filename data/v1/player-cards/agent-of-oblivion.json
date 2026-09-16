@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "agent-of-oblivion",
+    "slug": "agent-of-oblivion",
+    "name": "Agent of Oblivion",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Agent of Oblivion",
+      "url": "https://helldivers.wiki.gg/wiki/Agent_of_Oblivion",
+      "flags": []
+    },
+    "pairedCapeId": "agent-of-oblivion",
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P3",
+      "warbondId": "cutting-edge",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 16
+      },
+      "rotating": null
+    }
+  }
+}

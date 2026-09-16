@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rock-paper-scissors",
+    "slug": "rock-paper-scissors",
+    "name": "Rock Paper Scissors",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Rock Paper Scissors",
+      "url": "https://helldivers.wiki.gg/wiki/Rock_Paper_Scissors",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": false,
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 8,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

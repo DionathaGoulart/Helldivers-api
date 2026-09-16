@@ -1,7 +1,7 @@
 {
   "apiVersion": "v1",
-  "dataVersion": "2026-09-16.d8be02ac",
-  "generatedAt": "2026-09-16T15:42:09Z",
+  "dataVersion": "2026-09-16.b0bbe09d",
+  "generatedAt": "2026-09-16T16:42:36Z",
   "source": {
     "name": "The Helldivers Wiki",
     "url": "https://helldivers.wiki.gg"
@@ -19,20 +19,32 @@
     "capes": {
       "count": 89
     },
+    "emotes": {
+      "count": 48
+    },
     "helmets": {
       "count": 110
     },
     "passives": {
       "count": 31
     },
+    "patterns": {
+      "count": 27
+    },
+    "player-cards": {
+      "count": 76
+    },
     "stratagems": {
       "count": 114
+    },
+    "titles": {
+      "count": 56
     },
     "weapon-traits": {
       "count": 28
     },
     "weapons": {
-      "count": 102
+      "count": 104
     }
   }
 }

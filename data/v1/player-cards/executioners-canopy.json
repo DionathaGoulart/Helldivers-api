@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "executioners-canopy",
+    "slug": "executioners-canopy",
+    "name": "Executioner's Canopy",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Executioner's Canopy",
+      "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",
+      "flags": []
+    },
+    "pairedCapeId": "executioners-canopy",
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P2",
+      "warbondId": "viper-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

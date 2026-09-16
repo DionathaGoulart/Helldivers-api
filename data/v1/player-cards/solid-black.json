@@ -1,0 +1,33 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "solid-black",
+    "slug": "solid-black",
+    "name": "Solid Black",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Solid Black",
+      "url": "https://helldivers.wiki.gg/wiki/Solid_Black",
+      "flags": []
+    },
+    "pairedCapeId": null,
+    "source": {
+      "type": "default",
+      "label": "Starter Equipment",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

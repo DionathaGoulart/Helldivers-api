@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "humble-regalia",
+    "slug": "humble-regalia",
+    "name": "Humble Regalia",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Humble Regalia",
+      "url": "https://helldivers.wiki.gg/wiki/Humble_Regalia",
+      "flags": []
+    },
+    "pairedCapeId": "humble-regalia",
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P2",
+      "warbondId": "masters-of-ceremony",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

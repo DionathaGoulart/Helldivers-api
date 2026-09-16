@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rags-of-the-fashionable",
+    "slug": "rags-of-the-fashionable",
+    "name": "Rags of the Fashionable",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Rags of the Fashionable",
+      "url": "https://helldivers.wiki.gg/wiki/Rags_of_the_Fashionable",
+      "flags": []
+    },
+    "pairedCapeId": "rags-of-the-fashionable",
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers P1",
+      "warbondId": "siege-breakers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

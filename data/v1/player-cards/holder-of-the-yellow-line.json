@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "holder-of-the-yellow-line",
+    "slug": "holder-of-the-yellow-line",
+    "name": "Holder of the Yellow Line",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Holder of the Yellow Line",
+      "url": "https://helldivers.wiki.gg/wiki/Holder_of_the_Yellow_Line",
+      "flags": []
+    },
+    "pairedCapeId": "holder-of-the-yellow-line",
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P2",
+      "warbondId": "urban-legends",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

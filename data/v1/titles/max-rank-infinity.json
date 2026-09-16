@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "max-rank-infinity",
+    "slug": "max-rank-infinity",
+    "name": "Max Rank Infinity",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Max Rank Infinity",
+      "url": "https://helldivers.wiki.gg/wiki/Max_Rank_Infinity",
+      "flags": []
+    },
+    "kind": "rank",
+    "levelEarned": 280,
+    "source": {
+      "type": "progression",
+      "label": "Level 280",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

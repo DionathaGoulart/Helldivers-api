@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "free-spirited-spangles",
+    "slug": "free-spirited-spangles",
+    "name": "Free-Spirited Spangles",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Free-Spirited Spangles",
+      "url": "https://helldivers.wiki.gg/wiki/Free-Spirited_Spangles",
+      "flags": []
+    },
+    "pairedCapeId": "free-spirited-spangles",
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P1",
+      "warbondId": "exo-experts",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "mother-eagles-wings",
+    "slug": "mother-eagles-wings",
+    "name": "Mother Eagle's Wings",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Mother Eagle's Wings",
+      "url": "https://helldivers.wiki.gg/wiki/Mother_Eagle's_Wings",
+      "flags": []
+    },
+    "pairedCapeId": "mother-eagles-wings",
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P2",
+      "warbondId": "force-of-law",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

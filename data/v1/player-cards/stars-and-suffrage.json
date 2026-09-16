@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "stars-and-suffrage",
+    "slug": "stars-and-suffrage",
+    "name": "Stars and Suffrage",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Stars and Suffrage",
+      "url": "https://helldivers.wiki.gg/wiki/Stars_and_Suffrage",
+      "flags": []
+    },
+    "pairedCapeId": "stars-and-suffrage",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P4",
+      "warbondId": "helldivers-mobilize",
+      "page": 4,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

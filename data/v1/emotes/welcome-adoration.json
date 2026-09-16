@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "welcome-adoration",
+    "slug": "welcome-adoration",
+    "name": "Welcome Adoration",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Welcome Adoration",
+      "url": "https://helldivers.wiki.gg/wiki/Welcome_Adoration",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos",
+      "warbondId": "viper-commandos",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

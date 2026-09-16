@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "pillar-of-the-abyss",
+    "slug": "pillar-of-the-abyss",
+    "name": "Pillar of the Abyss",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Pillar of the Abyss",
+      "url": "https://helldivers.wiki.gg/wiki/Pillar_of_the_Abyss",
+      "flags": []
+    },
+    "pairedCapeId": "pillar-of-the-abyss",
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P1",
+      "warbondId": "redacted-regiment",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

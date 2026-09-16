@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "protect-eardrums",
+    "slug": "protect-eardrums",
+    "name": "Protect Eardrums",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Protect Eardrums",
+      "url": "https://helldivers.wiki.gg/wiki/Protect_Eardrums",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Control Group",
+      "warbondId": "control-group",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

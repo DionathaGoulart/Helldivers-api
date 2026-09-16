@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "signal-group-up",
+    "slug": "signal-group-up",
+    "name": "Signal: Group Up",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Signal: Group Up",
+      "url": "https://helldivers.wiki.gg/wiki/Signal:_Group_Up",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law",
+      "warbondId": "force-of-law",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "guns-of-liberty",
+    "slug": "guns-of-liberty",
+    "name": "Guns of Liberty",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Guns of Liberty",
+      "url": "https://helldivers.wiki.gg/wiki/Guns_of_Liberty",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos",
+      "warbondId": "viper-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 15
+      },
+      "rotating": null
+    }
+  }
+}

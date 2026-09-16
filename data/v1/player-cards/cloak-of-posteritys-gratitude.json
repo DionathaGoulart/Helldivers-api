@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cloak-of-posteritys-gratitude",
+    "slug": "cloak-of-posteritys-gratitude",
+    "name": "Cloak of Posterity's Gratitude",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cloak of Posterity's Gratitude",
+      "url": "https://helldivers.wiki.gg/wiki/Cloak_of_Posterity's_Gratitude",
+      "flags": []
+    },
+    "pairedCapeId": "cloak-of-posteritys-gratitude",
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P2",
+      "warbondId": "steeled-veterans",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

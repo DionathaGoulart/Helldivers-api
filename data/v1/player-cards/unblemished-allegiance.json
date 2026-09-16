@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "unblemished-allegiance",
+    "slug": "unblemished-allegiance",
+    "name": "Unblemished Allegiance",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Unblemished Allegiance",
+      "url": "https://helldivers.wiki.gg/wiki/Unblemished_Allegiance",
+      "flags": []
+    },
+    "pairedCapeId": "unblemished-allegiance",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P5",
+      "warbondId": "helldivers-mobilize",
+      "page": 5,
+      "cost": {
+        "currency": "medals",
+        "amount": 4
+      },
+      "rotating": null
+    }
+  }
+}

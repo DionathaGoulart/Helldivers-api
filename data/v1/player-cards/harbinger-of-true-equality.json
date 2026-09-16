@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "harbinger-of-true-equality",
+    "slug": "harbinger-of-true-equality",
+    "name": "Harbinger of True Equality",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Harbinger of True Equality",
+      "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
+      "flags": []
+    },
+    "pairedCapeId": "harbinger-of-true-equality",
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P1",
+      "warbondId": "democratic-detonation",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

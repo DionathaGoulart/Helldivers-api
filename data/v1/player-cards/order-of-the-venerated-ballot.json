@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "order-of-the-venerated-ballot",
+    "slug": "order-of-the-venerated-ballot",
+    "name": "Order of the Venerated Ballot",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Order of the Venerated Ballot",
+      "url": "https://helldivers.wiki.gg/wiki/Order_of_the_Venerated_Ballot",
+      "flags": []
+    },
+    "pairedCapeId": "order-of-the-venerated-ballot",
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P3",
+      "warbondId": "polar-patriots",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 16
+      },
+      "rotating": null
+    }
+  }
+}

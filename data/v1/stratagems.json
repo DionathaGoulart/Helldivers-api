@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d8be02ac",
-    "generatedAt": "2026-09-16T15:42:09Z",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
     "count": 114,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3168,7 +3168,9 @@
       "wiki": {
         "title": "Aquifer Drill",
         "url": "https://helldivers.wiki.gg/wiki/Aquifer_Drill",
-        "flags": []
+        "flags": [
+          "stub"
+        ]
       },
       "permitType": "mission",
       "availability": "objective",
@@ -18131,7 +18133,9 @@
       "wiki": {
         "title": "Portable Comms Relay",
         "url": "https://helldivers.wiki.gg/wiki/Portable_Comms_Relay",
-        "flags": []
+        "flags": [
+          "stub"
+        ]
       },
       "permitType": "mission",
       "availability": "objective",

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "honored-heirloom",
+    "slug": "honored-heirloom",
+    "name": "Honored Heirloom",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Honored Heirloom",
+      "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
+      "flags": []
+    },
+    "pairedCapeId": "honored-heirloom",
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

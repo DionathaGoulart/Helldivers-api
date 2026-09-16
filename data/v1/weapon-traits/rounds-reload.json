@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d8be02ac",
-    "generatedAt": "2026-09-16T15:42:09Z",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -34,6 +34,7 @@
       "sg-22-bushwhacker",
       "sg-451-cookout",
       "sg-8-punisher",
+      "sg-88-break-action-shotgun",
       "sg-8s-slugger",
       "sg-97-sweeper"
     ],

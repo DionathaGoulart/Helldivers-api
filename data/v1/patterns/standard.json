@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "standard",
+    "slug": "standard",
+    "name": "Standard",
+    "aliases": [],
+    "description": "Standard patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Standard Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Standard_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      }
+    ]
+  }
+}

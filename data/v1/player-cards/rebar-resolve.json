@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rebar-resolve",
+    "slug": "rebar-resolve",
+    "name": "Rebar Resolve",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Rebar Resolve",
+      "url": "https://helldivers.wiki.gg/wiki/Rebar_Resolve",
+      "flags": []
+    },
+    "pairedCapeId": "rebar-resolve",
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P1",
+      "warbondId": "urban-legends",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "mirandas-legacy",
+    "slug": "mirandas-legacy",
+    "name": "Miranda's Legacy",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Miranda's Legacy",
+      "url": "https://helldivers.wiki.gg/wiki/Miranda's_Legacy",
+      "flags": []
+    },
+    "pairedCapeId": "mirandas-legacy",
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P1",
+      "warbondId": "force-of-law",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "pride-of-the-whistleblower",
+    "slug": "pride-of-the-whistleblower",
+    "name": "Pride of the Whistleblower",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Pride of the Whistleblower",
+      "url": "https://helldivers.wiki.gg/wiki/Pride_of_the_Whistleblower",
+      "flags": []
+    },
+    "pairedCapeId": "pride-of-the-whistleblower",
+    "source": {
+      "type": "warbond",
+      "label": "Truth Enforcers P2",
+      "warbondId": "truth-enforcers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

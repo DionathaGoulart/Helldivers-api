@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "botslayer",
+    "slug": "botslayer",
+    "name": "Botslayer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Botslayer",
+      "url": "https://helldivers.wiki.gg/wiki/Botslayer",
+      "flags": []
+    },
+    "pairedCapeId": "botslayer",
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P1",
+      "warbondId": "cutting-edge",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

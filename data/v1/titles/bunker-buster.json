@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "bunker-buster",
+    "slug": "bunker-buster",
+    "name": "Bunker Buster",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Bunker Buster",
+      "url": "https://helldivers.wiki.gg/wiki/Bunker_Buster",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers",
+      "warbondId": "siege-breakers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

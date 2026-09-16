@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sg-88-break-action-shotgun",
+    "slug": "sg-88-break-action-shotgun",
+    "name": "SG-88 Break-Action Shotgun",
+    "aliases": [],
+    "description": "The SG-88 Break-Action Shotgun is a Support Weapon with a 2 shot capacity found on various planets from Super Earth colonists.",
+    "image": null,
+    "wiki": {
+      "title": "SG-88 Break-Action Shotgun",
+      "url": "https://helldivers.wiki.gg/wiki/SG-88_Break-Action_Shotgun",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "civilian",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "support-weapon",
+      "light-armor-penetrating",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "volley"
+      ],
+      "fireRateRpm": [
+        600
+      ],
+      "dps": [
+        1170
+      ],
+      "capacity": 2,
+      "spareMagazines": 40,
+      "startingMagazines": 20,
+      "magazinesFromSupply": 20,
+      "magazinesFromAmmoBox": 10,
+      "recoil": 33.25,
+      "horizontalRecoil": 6.5,
+      "verticalRecoil": 60,
+      "spread": {
+        "horizontal": 60,
+        "vertical": 60
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 1.55,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.55
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "10g MAGNUM P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 65,
+          "durable": 13,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 9,
+          "massG": 6,
+          "initialVelocityMps": 385,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 20
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Semi • Volley",
+      "Traits": "Support Weapon • Light Armor Penetrating • Rounds Reload",
+      "Standard Damage": "585 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "600 rpm",
+      "DPS": "1,170",
+      "Capacity": "2",
+      "Spare Shells": "40",
+      "Supply Box Refill": "20",
+      "Ammo Box Refill": "10",
+      "Ergonomics": "65",
+      "Reload Time": "1.55s",
+      "Tactical Reload Time": "1.55s",
+      "SG-88 BREAK-ACTION SHOTGUN › Fire Rate": "600 rpm",
+      "SG-88 BREAK-ACTION SHOTGUN › Recoil": "33.25",
+      "SG-88 BREAK-ACTION SHOTGUN › Horizontal Recoil": "6.5",
+      "SG-88 BREAK-ACTION SHOTGUN › Vertical Recoil": "60",
+      "SG-88 BREAK-ACTION SHOTGUN › Spread": "↔[60.00] ↕[60.00]",
+      "SG-88 BREAK-ACTION SHOTGUN › Sway": "1",
+      "SG-88 BREAK-ACTION SHOTGUN › Ergonomics": "65",
+      "SG-88 BREAK-ACTION SHOTGUN › Capacity": "2",
+      "SG-88 BREAK-ACTION SHOTGUN › Spare Rounds": "40",
+      "SG-88 BREAK-ACTION SHOTGUN › Starting Rounds": "20",
+      "SG-88 BREAK-ACTION SHOTGUN › Rounds from Supply": "20",
+      "SG-88 BREAK-ACTION SHOTGUN › Rounds from Ammo Box": "10",
+      "SG-88 BREAK-ACTION SHOTGUN › Barrels": "x 2",
+      "SG-88 BREAK-ACTION SHOTGUN › Attacks › 10g MAGNUM P": "Projectile",
+      "10g MAGNUM P › Projectile › Pellets": "x 9",
+      "10g MAGNUM P › Projectile › Mass": "6 g",
+      "10g MAGNUM P › Projectile › Initial Velocity": "385 m/s",
+      "10g MAGNUM P › Projectile › Drag Factor": "50%",
+      "10g MAGNUM P › Projectile › Gravity Factor": "100%",
+      "10g MAGNUM P › Projectile › Penetration Slowdown": "25%",
+      "10g MAGNUM P › Damage › Standard": "65 Ballistic",
+      "10g MAGNUM P › Damage › vs. Durable": "13 Ballistic",
+      "10g MAGNUM P › Penetration › Direct": "Light",
+      "10g MAGNUM P › Penetration › Slight Angle": "Light",
+      "10g MAGNUM P › Penetration › Large Angle": "Light",
+      "10g MAGNUM P › Penetration › Extreme Angle": "Unarmored",
+      "10g MAGNUM P › Special Effects › Demolition Force": "10",
+      "10g MAGNUM P › Special Effects › Stagger Force": "20",
+      "10g MAGNUM P › Special Effects › Push Force": "20"
+    },
+    "source": {
+      "type": "other",
+      "label": "Minor Places of Interest",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cresting-honor",
+    "slug": "cresting-honor",
+    "name": "Cresting Honor",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cresting Honor",
+      "url": "https://helldivers.wiki.gg/wiki/Cresting_Honor",
+      "flags": []
+    },
+    "pairedCapeId": "cresting-honor",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P7",
+      "warbondId": "helldivers-mobilize",
+      "page": 7,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

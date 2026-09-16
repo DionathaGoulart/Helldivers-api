@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "crest-of-the-unsullied",
+    "slug": "crest-of-the-unsullied",
+    "name": "Crest of the Unsullied",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Crest of the Unsullied",
+      "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
+      "flags": []
+    },
+    "pairedCapeId": "crest-of-the-unsullied",
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P2",
+      "warbondId": "entrenched-division",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 6
+      },
+      "rotating": null
+    }
+  }
+}

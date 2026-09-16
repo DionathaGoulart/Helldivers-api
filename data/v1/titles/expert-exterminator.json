@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "expert-exterminator",
+    "slug": "expert-exterminator",
+    "name": "Expert Exterminator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Expert Exterminator",
+      "url": "https://helldivers.wiki.gg/wiki/Expert_Exterminator",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents",
+      "warbondId": "chemical-agents",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "stone-wrought-perseverance",
+    "slug": "stone-wrought-perseverance",
+    "name": "Stone-Wrought Perseverance",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Stone-Wrought Perseverance",
+      "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",
+      "flags": []
+    },
+    "pairedCapeId": "stone-wrought-perseverance",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 35
+      },
+      "rotating": false
+    }
+  }
+}

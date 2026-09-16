@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "proof-of-faultless-virtue",
+    "slug": "proof-of-faultless-virtue",
+    "name": "Proof of Faultless Virtue",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Proof of Faultless Virtue",
+      "url": "https://helldivers.wiki.gg/wiki/Proof_of_Faultless_Virtue",
+      "flags": []
+    },
+    "pairedCapeId": "proof-of-faultless-virtue",
+    "source": {
+      "type": "warbond",
+      "label": "Truth Enforcers P3",
+      "warbondId": "truth-enforcers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 15
+      },
+      "rotating": null
+    }
+  }
+}

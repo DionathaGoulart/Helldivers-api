@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "deep-reflection",
+    "slug": "deep-reflection",
+    "name": "Deep Reflection",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Deep Reflection",
+      "url": "https://helldivers.wiki.gg/wiki/Deep_Reflection",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Freedom's Flame",
+      "warbondId": "freedoms-flame",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 15
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d8be02ac",
-    "generatedAt": "2026-09-16T15:42:09Z",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
     "count": 89,
     "source": {
       "name": "The Helldivers Wiki",
@@ -46,7 +46,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "agent-of-oblivion",
       "source": {
         "type": "warbond",
         "label": "Cutting Edge P3",
@@ -72,7 +72,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "badge-of-order",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -98,7 +98,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "bastion-of-integrity",
       "source": {
         "type": "warbond",
         "label": "Steeled Veterans P3",
@@ -124,7 +124,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "blazing-samaritan",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P9",
@@ -150,7 +150,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "botslayer",
       "source": {
         "type": "warbond",
         "label": "Cutting Edge P1",
@@ -176,7 +176,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "camo-cloak",
       "source": {
         "type": "warbond",
         "label": "Castellan’s Creed",
@@ -202,7 +202,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "city-fighters-resolve",
       "source": {
         "type": "warbond",
         "label": "Castellan’s Creed",
@@ -228,7 +228,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "cloak-of-posteritys-gratitude",
       "source": {
         "type": "warbond",
         "label": "Steeled Veterans P2",
@@ -254,7 +254,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "conductor-of-brilliance",
       "source": {
         "type": "warbond",
         "label": "Control Group P1",
@@ -280,7 +280,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "cover-of-darkness",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -306,7 +306,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "crest-of-the-unsullied",
       "source": {
         "type": "warbond",
         "label": "Entrenched Division P2",
@@ -332,7 +332,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "cresting-honor",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P7",
@@ -358,7 +358,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "de-foresters-sailcloth",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -384,7 +384,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "defender-of-our-dream",
       "source": {
         "type": "warbond",
         "label": "Righteous Revenants P2",
@@ -412,7 +412,7 @@
         ]
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "diagram-of-the-noblest-payload",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -438,7 +438,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "dignity-of-toil",
       "source": {
         "type": "warbond",
         "label": "Entrenched Division P1",
@@ -464,7 +464,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "dissidents-nightmare",
       "source": {
         "type": "warbond",
         "label": "Polar Patriots P1",
@@ -516,7 +516,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "eagles-fury",
       "source": {
         "type": "warbond",
         "label": "Democratic Detonation P2",
@@ -565,7 +565,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "eternal-corona",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -591,7 +591,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "executioners-canopy",
       "source": {
         "type": "warbond",
         "label": "Viper Commandos P2",
@@ -663,7 +663,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "eye-of-the-clandestine",
       "source": {
         "type": "warbond",
         "label": "Halo: ODST P2",
@@ -712,7 +712,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "federations-embrace",
       "source": {
         "type": "warbond",
         "label": "Masters of Ceremony P1",
@@ -738,7 +738,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "foe-rent-asunder",
       "source": {
         "type": "warbond",
         "label": "Python Commandos P2",
@@ -787,7 +787,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "fre-liberam",
       "source": {
         "type": "warbond",
         "label": "Servants of Freedom P1",
@@ -813,7 +813,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "free-spirited-spangles",
       "source": {
         "type": "warbond",
         "label": "Exo Experts P1",
@@ -839,7 +839,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "freedoms-tapestry",
       "source": {
         "type": "warbond",
         "label": "Democratic Detonation P3",
@@ -865,7 +865,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "gilded-quill",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -891,7 +891,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "harbinger-of-true-equality",
       "source": {
         "type": "warbond",
         "label": "Democratic Detonation P1",
@@ -917,7 +917,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "holder-of-the-yellow-line",
       "source": {
         "type": "warbond",
         "label": "Urban Legends P2",
@@ -943,7 +943,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "honored-heirloom",
       "source": {
         "type": "warbond",
         "label": "Halo: ODST P1",
@@ -969,7 +969,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "humble-regalia",
       "source": {
         "type": "warbond",
         "label": "Masters of Ceremony P2",
@@ -995,7 +995,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "independence-bringer",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P1",
@@ -1044,7 +1044,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "judgment-day",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P6",
@@ -1070,7 +1070,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "libertys-herald",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P2",
@@ -1096,7 +1096,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "light-of-eternal-liberty",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P10",
@@ -1122,7 +1122,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "mantle-of-true-citizenship",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P8",
@@ -1148,7 +1148,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "mark-of-the-constrictor",
       "source": {
         "type": "warbond",
         "label": "Python Commandos P1",
@@ -1174,7 +1174,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "mark-of-the-crimson-fang",
       "source": {
         "type": "warbond",
         "label": "Viper Commandos P1",
@@ -1200,7 +1200,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "martyris-rex",
       "source": {
         "type": "warbond",
         "label": "Cutting Edge P2",
@@ -1226,7 +1226,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "mirandas-legacy",
       "source": {
         "type": "warbond",
         "label": "Force of Law P1",
@@ -1252,7 +1252,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "mother-eagles-wings",
       "source": {
         "type": "warbond",
         "label": "Force of Law P2",
@@ -1278,7 +1278,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "order-of-the-venerated-ballot",
       "source": {
         "type": "warbond",
         "label": "Polar Patriots P3",
@@ -1304,7 +1304,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "over-artifice-triumphant",
       "source": {
         "type": "warbond",
         "label": "Control Group P2",
@@ -1330,7 +1330,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "patient-zeros-remembrance",
       "source": {
         "type": "warbond",
         "label": "Chemical Agents P2",
@@ -1356,7 +1356,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "per-democrasum",
       "source": {
         "type": "warbond",
         "label": "Servants of Freedom P2",
@@ -1382,7 +1382,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "pillar-of-the-abyss",
       "source": {
         "type": "warbond",
         "label": "Redacted Regiment P1",
@@ -1431,7 +1431,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "pinions-of-everlasting-glory",
       "source": {
         "type": "warbond",
         "label": "Polar Patriots P2",
@@ -1457,7 +1457,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "pride-of-the-whistleblower",
       "source": {
         "type": "warbond",
         "label": "Truth Enforcers P2",
@@ -1483,7 +1483,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "proof-of-faultless-virtue",
       "source": {
         "type": "warbond",
         "label": "Truth Enforcers P3",
@@ -1532,7 +1532,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "purifying-eclipse",
       "source": {
         "type": "warbond",
         "label": "Freedom's Flame P1",
@@ -1558,7 +1558,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "rags-of-the-fashionable",
       "source": {
         "type": "warbond",
         "label": "Siege Breakers P1",
@@ -1584,7 +1584,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "reaper-of-bounties",
       "source": {
         "type": "warbond",
         "label": "Borderline Justice P1",
@@ -1610,7 +1610,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "rebar-resolve",
       "source": {
         "type": "warbond",
         "label": "Urban Legends P1",
@@ -1659,7 +1659,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "rightful-occupier",
       "source": {
         "type": "warbond",
         "label": "Dust Devils P1",
@@ -1685,7 +1685,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "schema-laid-bare",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -1711,7 +1711,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "seal-of-general-consensus",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -1739,7 +1739,7 @@
         ]
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "shroud-of-the-juggernaut",
       "source": {
         "type": "warbond",
         "label": "Ironclad Democracy",
@@ -1764,7 +1764,7 @@
         ]
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "standard-of-rapid-evacuation",
       "source": {
         "type": "warbond",
         "label": "Ironclad Democracy",
@@ -1787,7 +1787,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "standard-of-safe-distance",
       "source": {
         "type": "warbond",
         "label": "Chemical Agents P1",
@@ -1813,7 +1813,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "stars-and-suffrage",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P4",
@@ -1839,7 +1839,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "stone-wrought-perseverance",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -1865,7 +1865,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "strength-in-our-arms",
       "source": {
         "type": "warbond",
         "label": "Righteous Revenants P1",
@@ -1891,7 +1891,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "testament-to-attrition",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -1917,7 +1917,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "the-breach",
       "source": {
         "type": "warbond",
         "label": "Freedom's Flame P2",
@@ -1943,7 +1943,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "thundering-hooves-of-loyalty",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -1969,7 +1969,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "tideturner",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P3",
@@ -1995,7 +1995,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "triangulation-veil",
       "source": {
         "type": "warbond",
         "label": "Redacted Regiment P2",
@@ -2021,7 +2021,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "tyrant-hunter",
       "source": {
         "type": "warbond",
         "label": "Steeled Veterans P1",
@@ -2047,7 +2047,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "unblemished-allegiance",
       "source": {
         "type": "warbond",
         "label": "Helldivers Mobilize! P5",
@@ -2096,7 +2096,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "veil-of-the-valorous-vagabond",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -2145,7 +2145,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "vision-of-freedom",
       "source": {
         "type": "superstore",
         "label": "Superstore",
@@ -2171,7 +2171,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "watchful-compatriot",
       "source": {
         "type": "warbond",
         "label": "Exo Experts P2",
@@ -2197,7 +2197,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "way-of-the-bandolier",
       "source": {
         "type": "warbond",
         "label": "Borderline Justice P2",
@@ -2223,7 +2223,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "wedgeful-tricorn",
       "source": {
         "type": "warbond",
         "label": "Siege Breakers P2",
@@ -2275,7 +2275,7 @@
         "flags": []
       },
       "setIds": [],
-      "playerCardId": null,
+      "playerCardId": "windswept-wayfinder",
       "source": {
         "type": "warbond",
         "label": "Dust Devils P2",

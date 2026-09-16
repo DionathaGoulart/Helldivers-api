@@ -1,0 +1,1256 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "count": 48,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "at-ease",
+      "slug": "at-ease",
+      "name": "At Ease",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "At Ease",
+        "url": "https://helldivers.wiki.gg/wiki/At_Ease",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Truth Enforcers",
+        "warbondId": "truth-enforcers",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "big-stretch",
+      "slug": "big-stretch",
+      "name": "Big Stretch",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Big Stretch",
+        "url": "https://helldivers.wiki.gg/wiki/Big_Stretch",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Freedom's Flame",
+        "warbondId": "freedoms-flame",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "big-whoop",
+      "slug": "big-whoop",
+      "name": "Big Whoop",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Big Whoop",
+        "url": "https://helldivers.wiki.gg/wiki/Big_Whoop",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 10,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "boxer",
+      "slug": "boxer",
+      "name": "Boxer",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Boxer",
+        "url": "https://helldivers.wiki.gg/wiki/Boxer",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation",
+        "warbondId": "democratic-detonation",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 32
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "call-the-helldivers",
+      "slug": "call-the-helldivers",
+      "name": "Call the Helldivers",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Call the Helldivers",
+        "url": "https://helldivers.wiki.gg/wiki/Call_the_Helldivers",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots",
+        "warbondId": "polar-patriots",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "casual-salute",
+      "slug": "casual-salute",
+      "name": "Casual Salute",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Casual Salute",
+        "url": "https://helldivers.wiki.gg/wiki/Casual_Salute",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "default",
+        "label": "Starter Equipment",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "clapping",
+      "slug": "clapping",
+      "name": "Clapping",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Clapping",
+        "url": "https://helldivers.wiki.gg/wiki/Clapping",
+        "flags": []
+      },
+      "emote": false,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 1
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "courtly-bow",
+      "slug": "courtly-bow",
+      "name": "Courtly Bow",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Courtly Bow",
+        "url": "https://helldivers.wiki.gg/wiki/Courtly_Bow",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation",
+        "warbondId": "democratic-detonation",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "deep-reflection",
+      "slug": "deep-reflection",
+      "name": "Deep Reflection",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Deep Reflection",
+        "url": "https://helldivers.wiki.gg/wiki/Deep_Reflection",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Freedom's Flame",
+        "warbondId": "freedoms-flame",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "diplomatic-handshake",
+      "slug": "diplomatic-handshake",
+      "name": "Diplomatic Handshake",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Diplomatic Handshake",
+        "url": "https://helldivers.wiki.gg/wiki/Diplomatic_Handshake",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Entrenched Division",
+        "warbondId": "entrenched-division",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "display-of-brawn",
+      "slug": "display-of-brawn",
+      "name": "Display of Brawn",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Display of Brawn",
+        "url": "https://helldivers.wiki.gg/wiki/Display_of_Brawn",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Siege Breakers",
+        "warbondId": "siege-breakers",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "distribute-ballots",
+      "slug": "distribute-ballots",
+      "name": "Distribute Ballots",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Distribute Ballots",
+        "url": "https://helldivers.wiki.gg/wiki/Distribute_Ballots",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots",
+        "warbondId": "polar-patriots",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 32
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "draw",
+      "slug": "draw",
+      "name": "Draw!",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Draw!",
+        "url": "https://helldivers.wiki.gg/wiki/Draw!",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "enthusiastic-mirth",
+      "slug": "enthusiastic-mirth",
+      "name": "Enthusiastic Mirth",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Enthusiastic Mirth",
+        "url": "https://helldivers.wiki.gg/wiki/Enthusiastic_Mirth",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ew",
+      "slug": "ew",
+      "name": "Ew",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Ew",
+        "url": "https://helldivers.wiki.gg/wiki/Ew",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Chemical Agents",
+        "warbondId": "chemical-agents",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "explosive-handshake",
+      "slug": "explosive-handshake",
+      "name": "Explosive Handshake",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Explosive Handshake",
+        "url": "https://helldivers.wiki.gg/wiki/Explosive_Handshake",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "finger-guns",
+      "slug": "finger-guns",
+      "name": "Finger Guns",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Finger Guns",
+        "url": "https://helldivers.wiki.gg/wiki/Finger_Guns",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 2
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "flex",
+      "slug": "flex",
+      "name": "Flex",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Flex",
+        "url": "https://helldivers.wiki.gg/wiki/Flex",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 6,
+        "cost": {
+          "currency": "medals",
+          "amount": 10
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "front-leaning-rest-position",
+      "slug": "front-leaning-rest-position",
+      "name": "Front-Leaning Rest Position",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Front-Leaning Rest Position",
+        "url": "https://helldivers.wiki.gg/wiki/Front-Leaning_Rest_Position",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Python Commandos",
+        "warbondId": "python-commandos",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "guns-of-liberty",
+      "slug": "guns-of-liberty",
+      "name": "Guns of Liberty",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Guns of Liberty",
+        "url": "https://helldivers.wiki.gg/wiki/Guns_of_Liberty",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos",
+        "warbondId": "viper-commandos",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "head-tap",
+      "slug": "head-tap",
+      "name": "Head Tap",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Head Tap",
+        "url": "https://helldivers.wiki.gg/wiki/Head_Tap",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge",
+        "warbondId": "cutting-edge",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "high-five",
+      "slug": "high-five",
+      "name": "High-Five",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "High-Five",
+        "url": "https://helldivers.wiki.gg/wiki/High-Five",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 5,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "hug",
+      "slug": "hug",
+      "name": "Hug",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Hug",
+        "url": "https://helldivers.wiki.gg/wiki/Hug",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 4,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "lockstep",
+      "slug": "lockstep",
+      "name": "Lockstep",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Lockstep",
+        "url": "https://helldivers.wiki.gg/wiki/Lockstep",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Masters of Ceremony",
+        "warbondId": "masters-of-ceremony",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "loosen-up",
+      "slug": "loosen-up",
+      "name": "Loosen Up",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Loosen Up",
+        "url": "https://helldivers.wiki.gg/wiki/Loosen_Up",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 9,
+        "cost": {
+          "currency": "medals",
+          "amount": 30
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "mime-instrumentation",
+      "slug": "mime-instrumentation",
+      "name": "Mime Instrumentation",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Mime Instrumentation",
+        "url": "https://helldivers.wiki.gg/wiki/Mime_Instrumentation",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots",
+        "warbondId": "polar-patriots",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "natural-gas-extraction",
+      "slug": "natural-gas-extraction",
+      "name": "Natural Gas Extraction",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Natural Gas Extraction",
+        "url": "https://helldivers.wiki.gg/wiki/Natural_Gas_Extraction",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Chemical Agents",
+        "warbondId": "chemical-agents",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 70
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "presentable",
+      "slug": "presentable",
+      "name": "Presentable",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Presentable",
+        "url": "https://helldivers.wiki.gg/wiki/Presentable",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge",
+        "warbondId": "cutting-edge",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 32
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "protect-eardrums",
+      "slug": "protect-eardrums",
+      "name": "Protect Eardrums",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Protect Eardrums",
+        "url": "https://helldivers.wiki.gg/wiki/Protect_Eardrums",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Control Group",
+        "warbondId": "control-group",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "raiders-cheer",
+      "slug": "raiders-cheer",
+      "name": "Raider's Cheer",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Raider's Cheer",
+        "url": "https://helldivers.wiki.gg/wiki/Raider's_Cheer",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Dust Devils",
+        "warbondId": "dust-devils",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "raise-weapon",
+      "slug": "raise-weapon",
+      "name": "Raise Weapon",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Raise Weapon",
+        "url": "https://helldivers.wiki.gg/wiki/Raise_Weapon",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Servants of Freedom",
+        "warbondId": "servants-of-freedom",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "rock-paper-scissors",
+      "slug": "rock-paper-scissors",
+      "name": "Rock Paper Scissors",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Rock Paper Scissors",
+        "url": "https://helldivers.wiki.gg/wiki/Rock_Paper_Scissors",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 8,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "roll-em",
+      "slug": "roll-em",
+      "name": "Roll 'Em",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Roll 'Em",
+        "url": "https://helldivers.wiki.gg/wiki/Roll_'Em",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans",
+        "warbondId": "steeled-veterans",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "salute",
+      "slug": "salute",
+      "name": "Salute",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Salute",
+        "url": "https://helldivers.wiki.gg/wiki/Salute",
+        "flags": []
+      },
+      "emote": false,
+      "victoryPose": true,
+      "source": {
+        "type": "default",
+        "label": "Starter Equipment",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "scout-handshake",
+      "slug": "scout-handshake",
+      "name": "Scout Handshake",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Scout Handshake",
+        "url": "https://helldivers.wiki.gg/wiki/Scout_Handshake",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize",
+        "warbondId": "helldivers-mobilize",
+        "page": 7,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "shotgun-show",
+      "slug": "shotgun-show",
+      "name": "Shotgun Show",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Shotgun Show",
+        "url": "https://helldivers.wiki.gg/wiki/Shotgun_Show",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge",
+        "warbondId": "cutting-edge",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "signal-group-up",
+      "slug": "signal-group-up",
+      "name": "Signal: Group Up",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Signal: Group Up",
+        "url": "https://helldivers.wiki.gg/wiki/Signal:_Group_Up",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Force of Law",
+        "warbondId": "force-of-law",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "signal-hold",
+      "slug": "signal-hold",
+      "name": "Signal: Hold",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Signal: Hold",
+        "url": "https://helldivers.wiki.gg/wiki/Signal:_Hold",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Force of Law",
+        "warbondId": "force-of-law",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "signal-silence",
+      "slug": "signal-silence",
+      "name": "Signal: Silence",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Signal: Silence",
+        "url": "https://helldivers.wiki.gg/wiki/Signal:_Silence",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Force of Law",
+        "warbondId": "force-of-law",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "squat",
+      "slug": "squat",
+      "name": "Squat",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Squat",
+        "url": "https://helldivers.wiki.gg/wiki/Squat",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation",
+        "warbondId": "democratic-detonation",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "super-person",
+      "slug": "super-person",
+      "name": "Super Person",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Super Person",
+        "url": "https://helldivers.wiki.gg/wiki/Super_Person",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans",
+        "warbondId": "steeled-veterans",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "target-sighted",
+      "slug": "target-sighted",
+      "name": "Target Sighted",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Target Sighted",
+        "url": "https://helldivers.wiki.gg/wiki/Target_Sighted",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Redacted Regiment",
+        "warbondId": "redacted-regiment",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "test-of-conviction",
+      "slug": "test-of-conviction",
+      "name": "Test of Conviction",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Test of Conviction",
+        "url": "https://helldivers.wiki.gg/wiki/Test_of_Conviction",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos",
+        "warbondId": "viper-commandos",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 70
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "this-is-democracy",
+      "slug": "this-is-democracy",
+      "name": "This Is Democracy",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "This Is Democracy",
+        "url": "https://helldivers.wiki.gg/wiki/This_Is_Democracy",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Urban Legends",
+        "warbondId": "urban-legends",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "thoracic-collision-exultation-maneuver",
+      "slug": "thoracic-collision-exultation-maneuver",
+      "name": "Thoracic Collision Exultation Maneuver",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Thoracic Collision Exultation Maneuver",
+        "url": "https://helldivers.wiki.gg/wiki/Thoracic_Collision_Exultation_Maneuver",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": false,
+      "source": {
+        "type": "warbond",
+        "label": "Freedom's Flame",
+        "warbondId": "freedoms-flame",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "tip-hat",
+      "slug": "tip-hat",
+      "name": "Tip Hat",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Tip Hat",
+        "url": "https://helldivers.wiki.gg/wiki/Tip_Hat",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Borderline Justice",
+        "warbondId": "borderline-justice",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "welcome-adoration",
+      "slug": "welcome-adoration",
+      "name": "Welcome Adoration",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "Welcome Adoration",
+        "url": "https://helldivers.wiki.gg/wiki/Welcome_Adoration",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos",
+        "warbondId": "viper-commandos",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "youre-next",
+      "slug": "youre-next",
+      "name": "You're Next",
+      "aliases": [],
+      "description": null,
+      "image": null,
+      "wiki": {
+        "title": "You're Next",
+        "url": "https://helldivers.wiki.gg/wiki/You're_Next",
+        "flags": []
+      },
+      "emote": true,
+      "victoryPose": true,
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans",
+        "warbondId": "steeled-veterans",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 32
+        },
+        "rotating": null
+      }
+    }
+  ]
+}

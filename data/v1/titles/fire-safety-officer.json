@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fire-safety-officer",
+    "slug": "fire-safety-officer",
+    "name": "Fire Safety Officer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Fire Safety Officer",
+      "url": "https://helldivers.wiki.gg/wiki/Fire_Safety_Officer",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Freedom's Flame",
+      "warbondId": "freedoms-flame",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

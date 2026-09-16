@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "high-five",
+    "slug": "high-five",
+    "name": "High-Five",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "High-Five",
+      "url": "https://helldivers.wiki.gg/wiki/High-Five",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": false,
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 5,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

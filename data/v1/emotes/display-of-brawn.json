@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "display-of-brawn",
+    "slug": "display-of-brawn",
+    "name": "Display of Brawn",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Display of Brawn",
+      "url": "https://helldivers.wiki.gg/wiki/Display_of_Brawn",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": true,
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers",
+      "warbondId": "siege-breakers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

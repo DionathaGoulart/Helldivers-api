@@ -1,6 +1,25 @@
 {
   "conflicts": [
     {
+      "collection": "patterns",
+      "id": "castellans-green",
+      "field": "variants[2].source.page",
+      "rule": 10,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Castellan%E2%80%99s_Creed_Legendary_Warbond",
+          "location": "Page 3 › Castellans Green Exosuit",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
+          "location": "infobox › Exosuit › Source",
+          "value": 1
+        }
+      ]
+    },
+    {
       "collection": "stratagems",
       "id": "a-arc-3-tesla-tower",
       "field": "callInTimeS",

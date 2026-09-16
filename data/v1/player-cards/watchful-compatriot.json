@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "watchful-compatriot",
+    "slug": "watchful-compatriot",
+    "name": "Watchful Compatriot",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Watchful Compatriot",
+      "url": "https://helldivers.wiki.gg/wiki/Watchful_Compatriot",
+      "flags": []
+    },
+    "pairedCapeId": "watchful-compatriot",
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P2",
+      "warbondId": "exo-experts",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "test-of-conviction",
+    "slug": "test-of-conviction",
+    "name": "Test of Conviction",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Test of Conviction",
+      "url": "https://helldivers.wiki.gg/wiki/Test_of_Conviction",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": false,
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos",
+      "warbondId": "viper-commandos",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 70
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "windswept-wayfinder",
+    "slug": "windswept-wayfinder",
+    "name": "Windswept Wayfinder",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Windswept Wayfinder",
+      "url": "https://helldivers.wiki.gg/wiki/Windswept_Wayfinder",
+      "flags": []
+    },
+    "pairedCapeId": "windswept-wayfinder",
+    "source": {
+      "type": "warbond",
+      "label": "Dust Devils P2",
+      "warbondId": "dust-devils",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

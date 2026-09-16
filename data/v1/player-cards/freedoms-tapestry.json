@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "freedoms-tapestry",
+    "slug": "freedoms-tapestry",
+    "name": "Freedom's Tapestry",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Freedom's Tapestry",
+      "url": "https://helldivers.wiki.gg/wiki/Freedom's_Tapestry",
+      "flags": []
+    },
+    "pairedCapeId": "freedoms-tapestry",
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P3",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 16
+      },
+      "rotating": null
+    }
+  }
+}

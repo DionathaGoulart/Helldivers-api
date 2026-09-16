@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "extra-judicial",
+    "slug": "extra-judicial",
+    "name": "Extra Judicial",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Extra Judicial",
+      "url": "https://helldivers.wiki.gg/wiki/Extra_Judicial",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law",
+      "warbondId": "force-of-law",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

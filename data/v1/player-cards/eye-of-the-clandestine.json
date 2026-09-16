@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eye-of-the-clandestine",
+    "slug": "eye-of-the-clandestine",
+    "name": "Eye of the Clandestine",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Eye of the Clandestine",
+      "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",
+      "flags": []
+    },
+    "pairedCapeId": "eye-of-the-clandestine",
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P2",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dissidents-nightmare",
+    "slug": "dissidents-nightmare",
+    "name": "Dissident's Nightmare",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Dissident's Nightmare",
+      "url": "https://helldivers.wiki.gg/wiki/Dissident's_Nightmare",
+      "flags": []
+    },
+    "pairedCapeId": "dissidents-nightmare",
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P1",
+      "warbondId": "polar-patriots",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

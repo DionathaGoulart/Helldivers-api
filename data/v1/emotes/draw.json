@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "draw",
+    "slug": "draw",
+    "name": "Draw!",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Draw!",
+      "url": "https://helldivers.wiki.gg/wiki/Draw!",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": false,
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  }
+}

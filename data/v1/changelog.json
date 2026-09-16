@@ -1,15 +1,1727 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d8be02ac",
-    "generatedAt": "2026-09-16T15:42:09Z",
-    "count": 5,
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "count": 6,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-16.b0bbe09d",
+      "date": "2026-09-16",
+      "summary": {
+        "added": 209,
+        "changed": 82,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "cqc-72-entrenchment-tool",
+          "kind": "added"
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-88-break-action-shotgun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "aquifer-drill",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "portable-comms-relay",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "agent-of-oblivion",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "badge-of-order",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "bastion-of-integrity",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "blazing-samaritan",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "botslayer",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "camo-cloak",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "city-fighters-resolve",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "cloak-of-posteritys-gratitude",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "conductor-of-brilliance",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "cover-of-darkness",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "crest-of-the-unsullied",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "cresting-honor",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "de-foresters-sailcloth",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "defender-of-our-dream",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "diagram-of-the-noblest-payload",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "dignity-of-toil",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "dissidents-nightmare",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eagles-fury",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eternal-corona",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "executioners-canopy",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eye-of-the-clandestine",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "federations-embrace",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "foe-rent-asunder",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "fre-liberam",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "free-spirited-spangles",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "freedoms-tapestry",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "gilded-quill",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "harbinger-of-true-equality",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "holder-of-the-yellow-line",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "honored-heirloom",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "humble-regalia",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "independence-bringer",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "judgment-day",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "libertys-herald",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "light-of-eternal-liberty",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mantle-of-true-citizenship",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mark-of-the-constrictor",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mark-of-the-crimson-fang",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "martyris-rex",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mirandas-legacy",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mother-eagles-wings",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "order-of-the-venerated-ballot",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "over-artifice-triumphant",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "patient-zeros-remembrance",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "per-democrasum",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pillar-of-the-abyss",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pinions-of-everlasting-glory",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pride-of-the-whistleblower",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "proof-of-faultless-virtue",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "purifying-eclipse",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "rags-of-the-fashionable",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "reaper-of-bounties",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "rebar-resolve",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "rightful-occupier",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "schema-laid-bare",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "seal-of-general-consensus",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "shroud-of-the-juggernaut",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "standard-of-rapid-evacuation",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "standard-of-safe-distance",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "stars-and-suffrage",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "stone-wrought-perseverance",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "strength-in-our-arms",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "testament-to-attrition",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "the-breach",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "thundering-hooves-of-loyalty",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "tideturner",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "triangulation-veil",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "tyrant-hunter",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "unblemished-allegiance",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "veil-of-the-valorous-vagabond",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "vision-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "watchful-compatriot",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "way-of-the-bandolier",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "wedgeful-tricorn",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "windswept-wayfinder",
+          "kind": "changed",
+          "paths": [
+            "playerCardId"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "light-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "melee",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "one-handed",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "rounds-reload",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "support-weapon",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "agent-of-oblivion",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "badge-of-order",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "bastion-of-integrity",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "blazing-samaritan",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "botslayer",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "camo-cloak",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "city-fighters-resolve",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "cloak-of-posteritys-gratitude",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "conductor-of-brilliance",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "cover-of-darkness",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "crest-of-the-unsullied",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "cresting-honor",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "de-foresters-sailcloth",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "defender-of-our-dream",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "diagram-of-the-noblest-payload",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "dignity-of-toil",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "dissidents-nightmare",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "eagles-fury",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "eternal-corona",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "executioners-canopy",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "eye-of-the-clandestine",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "federations-embrace",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "foe-rent-asunder",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "fre-liberam",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "free-spirited-spangles",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "freedoms-tapestry",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "gilded-quill",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "harbinger-of-true-equality",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "holder-of-the-yellow-line",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "honored-heirloom",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "humble-regalia",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "independence-bringer",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "judgment-day",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "libertys-herald",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "light-of-eternal-liberty",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "mantle-of-true-citizenship",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "mark-of-the-constrictor",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "mark-of-the-crimson-fang",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "martyris-rex",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "mirandas-legacy",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "mother-eagles-wings",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "order-of-the-venerated-ballot",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "over-artifice-triumphant",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "patient-zeros-remembrance",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "per-democrasum",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "pillar-of-the-abyss",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "pinions-of-everlasting-glory",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "pride-of-the-whistleblower",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "proof-of-faultless-virtue",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "purifying-eclipse",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "rags-of-the-fashionable",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "reaper-of-bounties",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "rebar-resolve",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "rightful-occupier",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "schema-laid-bare",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "seal-of-general-consensus",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "shroud-of-the-juggernaut",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "solid-black",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "standard-of-rapid-evacuation",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "standard-of-safe-distance",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "stars-and-suffrage",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "stone-wrought-perseverance",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "strength-in-our-arms",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "testament-to-attrition",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "the-breach",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "thundering-hooves-of-loyalty",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "tideturner",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "triangulation-veil",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "tyrant-hunter",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "unblemished-allegiance",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "veil-of-the-valorous-vagabond",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "vision-of-freedom",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "watchful-compatriot",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "way-of-the-bandolier",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "wedgeful-tricorn",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "windswept-wayfinder",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "at-ease",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "big-stretch",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "big-whoop",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "boxer",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "call-the-helldivers",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "casual-salute",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "clapping",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "courtly-bow",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "deep-reflection",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "diplomatic-handshake",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "display-of-brawn",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "distribute-ballots",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "draw",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "enthusiastic-mirth",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "ew",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "explosive-handshake",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "finger-guns",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "flex",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "front-leaning-rest-position",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "guns-of-liberty",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "head-tap",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "high-five",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "hug",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "lockstep",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "loosen-up",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "mime-instrumentation",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "natural-gas-extraction",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "presentable",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "protect-eardrums",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "raiders-cheer",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "raise-weapon",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "rock-paper-scissors",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "roll-em",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "salute",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "scout-handshake",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "shotgun-show",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "signal-group-up",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "signal-hold",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "signal-silence",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "squat",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "super-person",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "target-sighted",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "test-of-conviction",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "this-is-democracy",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "thoracic-collision-exultation-maneuver",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "tip-hat",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "welcome-adoration",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "youre-next",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "arctic",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "arctic-camo",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "castellans-green",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "chameleon-camo",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "churned-earth",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "concrete-jungle",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "default",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "desert",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "desert-camo",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "extrasolar-ash",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "forest",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "forest-camo",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "helldiver",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "heritage-olive",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "inconspicuous-black",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "mean-green",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "mobile-white",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "mustard",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "night",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "rattlesnake",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "safety-orange",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "standard",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "true-blue",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "undergrowth",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "urban",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "urban-camo",
+          "kind": "added"
+        },
+        {
+          "collection": "patterns",
+          "id": "venus",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "10-star-general",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "10-star-super-private",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "5-star-general",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "5-star-super-private",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "admirable-admiral",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "admiral",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "assault-infantry",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "bunker-buster",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "burier-of-heads",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "cadet",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "chief",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "command-divemaster-major",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "commander",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "death-captain",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "decorated-hero",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "divemaster",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "divemaster-major",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "exemplary-subject",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "exosuit-certified",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "expert-exterminator",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "extra-judicial",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "fire-safety-officer",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "first-divemaster",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "fleet-admiral",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "free-of-thought",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "galactic-commander",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "general",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "hell-commander",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "marshal",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "master-divemaster",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "master-divemaster-major-omega",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "master-sergeant",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "max-rank",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "max-rank-infinity",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "max-rank-infinity-1",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "mudskipper",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "private",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "python-commando",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "ranger",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "ranger-bald-eagle-class",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "ranger-eagle-class",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "rank-300",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "redacted",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "rookie",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "sergeant",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "servant-of-freedom",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "skull-admiral",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "space-cadet",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "space-chief-prime",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "star-marshal",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "still-standing",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "super-citizen",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "super-pedestrian",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "super-private",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "super-sheriff",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "viper-commando",
+          "kind": "added"
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-16.d8be02ac",
       "date": "2026-09-16",

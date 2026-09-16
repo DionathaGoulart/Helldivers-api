@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.b0bbe09d",
+    "generatedAt": "2026-09-16T16:42:36Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "explosive-handshake",
+    "slug": "explosive-handshake",
+    "name": "Explosive Handshake",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Explosive Handshake",
+      "url": "https://helldivers.wiki.gg/wiki/Explosive_Handshake",
+      "flags": []
+    },
+    "emote": true,
+    "victoryPose": false,
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize",
+      "warbondId": "helldivers-mobilize",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}
