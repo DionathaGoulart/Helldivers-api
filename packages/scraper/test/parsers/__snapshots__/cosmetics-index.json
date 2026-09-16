@@ -1,0 +1,4845 @@
+{
+  "title": "Cosmetics",
+  "categories": [
+    "Cosmetics",
+    "Pages using Tabber parser tag",
+    "Pages with hatnotes",
+    "Pages with navboxes"
+  ],
+  "playerCards": [
+    {
+      "name": "Solid Black",
+      "page": {
+        "label": "Solid Black",
+        "title": "Solid Black",
+        "anchor": null
+      },
+      "source": {
+        "label": "Starter Equipment",
+        "link": null,
+        "pageMarker": null
+      },
+      "cost": null,
+      "image": {
+        "file": "Solid_Black_Player_Card_Icon.png",
+        "src": "/images/thumb/Solid_Black_Player_Card_Icon.png/200px-Solid_Black_Player_Card_Icon.png?df21e6"
+      }
+    },
+    {
+      "name": "Independence Bringer",
+      "page": {
+        "label": "Independence Bringer",
+        "title": "Independence Bringer",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P1",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "1",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Independence_Bringer_Player_Card_Icon.png",
+        "src": "/images/thumb/Independence_Bringer_Player_Card_Icon.png/200px-Independence_Bringer_Player_Card_Icon.png?98806b"
+      }
+    },
+    {
+      "name": "Liberty's Herald",
+      "page": {
+        "label": "Liberty's Herald",
+        "title": "Liberty's Herald",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P2",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "1",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Liberty's_Herald_Player_Card_Icon.png",
+        "src": "/images/thumb/Liberty%27s_Herald_Player_Card_Icon.png/200px-Liberty%27s_Herald_Player_Card_Icon.png?12253b"
+      }
+    },
+    {
+      "name": "Tideturner",
+      "page": {
+        "label": "Tideturner",
+        "title": "Tideturner",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P3",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": "Page 3"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Tideturner_Player_Card_Icon.png",
+        "src": "/images/thumb/Tideturner_Player_Card_Icon.png/200px-Tideturner_Player_Card_Icon.png?9bb5cd"
+      }
+    },
+    {
+      "name": "Stars and Suffrage",
+      "page": {
+        "label": "Stars and Suffrage",
+        "title": "Stars and Suffrage",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P4",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_4"
+        },
+        "pageMarker": "Page 4"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Stars_and_Suffrage_Player_Card_Icon.png",
+        "src": "/images/thumb/Stars_and_Suffrage_Player_Card_Icon.png/200px-Stars_and_Suffrage_Player_Card_Icon.png?559386"
+      }
+    },
+    {
+      "name": "Unblemished Allegiance",
+      "page": {
+        "label": "Unblemished Allegiance",
+        "title": "Unblemished Allegiance",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P5",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_5"
+        },
+        "pageMarker": "Page 5"
+      },
+      "cost": {
+        "text": "4",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Unblemished_Allegiance_Player_Card_Icon.png",
+        "src": "/images/thumb/Unblemished_Allegiance_Player_Card_Icon.png/200px-Unblemished_Allegiance_Player_Card_Icon.png?5f60e0"
+      }
+    },
+    {
+      "name": "Judgment Day",
+      "page": {
+        "label": "Judgment Day",
+        "title": "Judgment Day",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P6",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_6"
+        },
+        "pageMarker": "Page 6"
+      },
+      "cost": {
+        "text": "6",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Judgment_Day_Player_Card_Icon.png",
+        "src": "/images/thumb/Judgment_Day_Player_Card_Icon.png/200px-Judgment_Day_Player_Card_Icon.png?82c9f7"
+      }
+    },
+    {
+      "name": "Cresting Honor",
+      "page": {
+        "label": "Cresting Honor",
+        "title": "Cresting Honor",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P7",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_7"
+        },
+        "pageMarker": "Page 7"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Cresting_Honor_Player_Card_Icon.png",
+        "src": "/images/thumb/Cresting_Honor_Player_Card_Icon.png/200px-Cresting_Honor_Player_Card_Icon.png?8be66b"
+      }
+    },
+    {
+      "name": "Mantle of True Citizenship",
+      "page": {
+        "label": "Mantle of True Citizenship",
+        "title": "Mantle of True Citizenship",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P8",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_8"
+        },
+        "pageMarker": "Page 8"
+      },
+      "cost": {
+        "text": "10",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Mantle_of_True_Citizenship_Player_Card_Icon.png",
+        "src": "/images/thumb/Mantle_of_True_Citizenship_Player_Card_Icon.png/200px-Mantle_of_True_Citizenship_Player_Card_Icon.png?4147b8"
+      }
+    },
+    {
+      "name": "Blazing Samaritan",
+      "page": {
+        "label": "Blazing Samaritan",
+        "title": "Blazing Samaritan",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P9",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_9"
+        },
+        "pageMarker": "Page 9"
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Blazing_Samaritan_Player_Card_Icon.png",
+        "src": "/images/thumb/Blazing_Samaritan_Player_Card_Icon.png/200px-Blazing_Samaritan_Player_Card_Icon.png?bb369e"
+      }
+    },
+    {
+      "name": "Light of Eternal Liberty",
+      "page": {
+        "label": "Light of Eternal Liberty",
+        "title": "Light of Eternal Liberty",
+        "anchor": null
+      },
+      "source": {
+        "label": "Helldivers Mobilize! P10",
+        "link": {
+          "label": "Helldivers Mobilize!",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_10"
+        },
+        "pageMarker": "Page 10"
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Light_of_Eternal_Liberty_Player_Card_Icon.png",
+        "src": "/images/thumb/Light_of_Eternal_Liberty_Player_Card_Icon.png/200px-Light_of_Eternal_Liberty_Player_Card_Icon.png?896ed4"
+      }
+    },
+    {
+      "name": "Tyrant Hunter",
+      "page": {
+        "label": "Tyrant Hunter",
+        "title": "Tyrant Hunter",
+        "anchor": null
+      },
+      "source": {
+        "label": "Steeled Veterans P1",
+        "link": {
+          "label": "Steeled Veterans",
+          "title": "Steeled Veterans Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Tyrant_Hunter_Player_Card_Icon.png",
+        "src": "/images/thumb/Tyrant_Hunter_Player_Card_Icon.png/200px-Tyrant_Hunter_Player_Card_Icon.png?e4b813"
+      }
+    },
+    {
+      "name": "Cloak of Posterity's Gratitude",
+      "page": {
+        "label": "Cloak of Posterity's Gratitude",
+        "title": "Cloak of Posterity's Gratitude",
+        "anchor": null
+      },
+      "source": {
+        "label": "Steeled Veterans P2",
+        "link": {
+          "label": "Steeled Veterans",
+          "title": "Steeled Veterans Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Cloak_of_Posterity's_Gratitude_Player_Card_Icon.png",
+        "src": "/images/thumb/Cloak_of_Posterity%27s_Gratitude_Player_Card_Icon.png/200px-Cloak_of_Posterity%27s_Gratitude_Player_Card_Icon.png?7bb175"
+      }
+    },
+    {
+      "name": "Bastion of Integrity",
+      "page": {
+        "label": "Bastion of Integrity",
+        "title": "Bastion of Integrity",
+        "anchor": null
+      },
+      "source": {
+        "label": "Steeled Veterans P3",
+        "link": {
+          "label": "Steeled Veterans",
+          "title": "Steeled Veterans Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": "Page 3"
+      },
+      "cost": {
+        "text": "16",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Bastion_of_Integrity_Player_Card_Icon.png",
+        "src": "/images/thumb/Bastion_of_Integrity_Player_Card_Icon.png/200px-Bastion_of_Integrity_Player_Card_Icon.png?9feb60"
+      }
+    },
+    {
+      "name": "Botslayer",
+      "page": {
+        "label": "Botslayer",
+        "title": "Botslayer",
+        "anchor": null
+      },
+      "source": {
+        "label": "Cutting Edge P1",
+        "link": {
+          "label": "Cutting Edge",
+          "title": "Cutting Edge Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Botslayer_Player_Card_Icon.png",
+        "src": "/images/thumb/Botslayer_Player_Card_Icon.png/200px-Botslayer_Player_Card_Icon.png?43e349"
+      }
+    },
+    {
+      "name": "Martyris Rex",
+      "page": {
+        "label": "Martyris Rex",
+        "title": "Martyris Rex",
+        "anchor": null
+      },
+      "source": {
+        "label": "Cutting Edge P2",
+        "link": {
+          "label": "Cutting Edge",
+          "title": "Cutting Edge Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Martyris_Rex_Player_Card_Icon.png",
+        "src": "/images/thumb/Martyris_Rex_Player_Card_Icon.png/200px-Martyris_Rex_Player_Card_Icon.png?d589c1"
+      }
+    },
+    {
+      "name": "Agent of Oblivion",
+      "page": {
+        "label": "Agent of Oblivion",
+        "title": "Agent of Oblivion",
+        "anchor": null
+      },
+      "source": {
+        "label": "Cutting Edge P3",
+        "link": {
+          "label": "Cutting Edge",
+          "title": "Cutting Edge Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": "Page 3"
+      },
+      "cost": {
+        "text": "16",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Agent_of_Oblivion_Player_Card_Icon.png",
+        "src": "/images/thumb/Agent_of_Oblivion_Player_Card_Icon.png/200px-Agent_of_Oblivion_Player_Card_Icon.png?c89c22"
+      }
+    },
+    {
+      "name": "Harbinger of True Equality",
+      "page": {
+        "label": "Harbinger of True Equality",
+        "title": "Harbinger of True Equality",
+        "anchor": null
+      },
+      "source": {
+        "label": "Democratic Detonation P1",
+        "link": {
+          "label": "Democratic Detonation",
+          "title": "Democratic Detonation Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Harbinger_of_True_Equality_Player_Card_Icon.png",
+        "src": "/images/thumb/Harbinger_of_True_Equality_Player_Card_Icon.png/200px-Harbinger_of_True_Equality_Player_Card_Icon.png?9060a6"
+      }
+    },
+    {
+      "name": "Eagle's Fury",
+      "page": {
+        "label": "Eagle's Fury",
+        "title": "Eagle's Fury",
+        "anchor": null
+      },
+      "source": {
+        "label": "Democratic Detonation P2",
+        "link": {
+          "label": "Democratic Detonation",
+          "title": "Democratic Detonation Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Eagle's_Fury_Player_Card_Icon.png",
+        "src": "/images/thumb/Eagle%27s_Fury_Player_Card_Icon.png/200px-Eagle%27s_Fury_Player_Card_Icon.png?a7899a"
+      }
+    },
+    {
+      "name": "Freedom's Tapestry",
+      "page": {
+        "label": "Freedom's Tapestry",
+        "title": "Freedom's Tapestry",
+        "anchor": null
+      },
+      "source": {
+        "label": "Democratic Detonation P3",
+        "link": {
+          "label": "Democratic Detonation",
+          "title": "Democratic Detonation Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": "Page 3"
+      },
+      "cost": {
+        "text": "16",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Freedom's_Tapestry_Player_Card_Icon.png",
+        "src": "/images/thumb/Freedom%27s_Tapestry_Player_Card_Icon.png/200px-Freedom%27s_Tapestry_Player_Card_Icon.png?d89a0a"
+      }
+    },
+    {
+      "name": "Dissident's Nightmare",
+      "page": {
+        "label": "Dissident's Nightmare",
+        "title": "Dissident's Nightmare",
+        "anchor": null
+      },
+      "source": {
+        "label": "Polar Patriots P1",
+        "link": {
+          "label": "Polar Patriots",
+          "title": "Polar Patriots Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Dissident's_Nightmare_Player_Card_Icon.png",
+        "src": "/images/thumb/Dissident%27s_Nightmare_Player_Card_Icon.png/200px-Dissident%27s_Nightmare_Player_Card_Icon.png?15b490"
+      }
+    },
+    {
+      "name": "Pinions of Everlasting Glory",
+      "page": {
+        "label": "Pinions of Everlasting Glory",
+        "title": "Pinions of Everlasting Glory",
+        "anchor": null
+      },
+      "source": {
+        "label": "Polar Patriots P2",
+        "link": {
+          "label": "Polar Patriots",
+          "title": "Polar Patriots Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Pinions_of_Everlasting_Glory_Player_Card_Icon.png",
+        "src": "/images/thumb/Pinions_of_Everlasting_Glory_Player_Card_Icon.png/200px-Pinions_of_Everlasting_Glory_Player_Card_Icon.png?ef43f5"
+      }
+    },
+    {
+      "name": "Order of the Venerated Ballot",
+      "page": {
+        "label": "Order of the Venerated Ballot",
+        "title": "Order of the Venerated Ballot",
+        "anchor": null
+      },
+      "source": {
+        "label": "Polar Patriots P3",
+        "link": {
+          "label": "Polar Patriots",
+          "title": "Polar Patriots Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": "Page 3"
+      },
+      "cost": {
+        "text": "16",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Order_of_the_Venerated_Ballot_Player_Card_Icon.png",
+        "src": "/images/thumb/Order_of_the_Venerated_Ballot_Player_Card_Icon.png/200px-Order_of_the_Venerated_Ballot_Player_Card_Icon.png?cca7bd"
+      }
+    },
+    {
+      "name": "Mark of the Crimson Fang",
+      "page": {
+        "label": "Mark of the Crimson Fang",
+        "title": "Mark of the Crimson Fang",
+        "anchor": null
+      },
+      "source": {
+        "label": "Viper Commandos P1",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Mark_of_the_Crimson_Fang_Player_Card_Icon.png",
+        "src": "/images/thumb/Mark_of_the_Crimson_Fang_Player_Card_Icon.png/200px-Mark_of_the_Crimson_Fang_Player_Card_Icon.png?be2055"
+      }
+    },
+    {
+      "name": "Executioner's Canopy",
+      "page": {
+        "label": "Executioner's Canopy",
+        "title": "Executioner's Canopy",
+        "anchor": null
+      },
+      "source": {
+        "label": "Viper Commandos P2",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Executioner's_Canopy_Player_Card_Icon.png",
+        "src": "/images/thumb/Executioner%27s_Canopy_Player_Card_Icon.png/200px-Executioner%27s_Canopy_Player_Card_Icon.png?d5244e"
+      }
+    },
+    {
+      "name": "Purifying Eclipse",
+      "page": {
+        "label": "Purifying Eclipse",
+        "title": "Purifying Eclipse",
+        "anchor": null
+      },
+      "source": {
+        "label": "Freedom's Flame P1",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Purifying_Eclipse_Player_Card_Icon.png",
+        "src": "/images/thumb/Purifying_Eclipse_Player_Card_Icon.png/200px-Purifying_Eclipse_Player_Card_Icon.png?6cb79c"
+      }
+    },
+    {
+      "name": "The Breach",
+      "page": {
+        "label": "The Breach",
+        "title": "The Breach",
+        "anchor": null
+      },
+      "source": {
+        "label": "Freedom's Flame P2",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "The_Breach_Player_Card_Icon.png",
+        "src": "/images/thumb/The_Breach_Player_Card_Icon.png/200px-The_Breach_Player_Card_Icon.png?de06cb"
+      }
+    },
+    {
+      "name": "Standard of Safe Distance",
+      "page": {
+        "label": "Standard of Safe Distance",
+        "title": "Standard of Safe Distance",
+        "anchor": null
+      },
+      "source": {
+        "label": "Chemical Agents P1",
+        "link": {
+          "label": "Chemical Agents",
+          "title": "Chemical Agents Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Standard_of_Safe_Distance_Player_Card_Icon.png",
+        "src": "/images/thumb/Standard_of_Safe_Distance_Player_Card_Icon.png/200px-Standard_of_Safe_Distance_Player_Card_Icon.png?b1dddf"
+      }
+    },
+    {
+      "name": "Patient Zero's Remembrance",
+      "page": {
+        "label": "Patient Zero's Remembrance",
+        "title": "Patient Zero's Remembrance",
+        "anchor": null
+      },
+      "source": {
+        "label": "Chemical Agents P2",
+        "link": {
+          "label": "Chemical Agents",
+          "title": "Chemical Agents Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Patient_Zero's_Remembrance_Player_Card_Icon.png",
+        "src": "/images/thumb/Patient_Zero%27s_Remembrance_Player_Card_Icon.png/200px-Patient_Zero%27s_Remembrance_Player_Card_Icon.png?f91d0c"
+      }
+    },
+    {
+      "name": "Cover of Darkness",
+      "page": {
+        "label": "Cover of Darkness",
+        "title": "Cover of Darkness",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "75",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Cover_of_Darkness_Player_Card_Icon.png",
+        "src": "/images/thumb/Cover_of_Darkness_Player_Card_Icon.png/200px-Cover_of_Darkness_Player_Card_Icon.png?c1d1a6"
+      }
+    },
+    {
+      "name": "Pride of the Whistleblower",
+      "page": {
+        "label": "Pride of the Whistleblower",
+        "title": "Pride of the Whistleblower",
+        "anchor": null
+      },
+      "source": {
+        "label": "Truth Enforcers P2",
+        "link": {
+          "label": "Truth Enforcers",
+          "title": "Truth Enforcers Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Pride_of_the_Whistleblower_Player_Card_Icon.png",
+        "src": "/images/thumb/Pride_of_the_Whistleblower_Player_Card_Icon.png/200px-Pride_of_the_Whistleblower_Player_Card_Icon.png?f2a930"
+      }
+    },
+    {
+      "name": "Proof of Faultless Virtue",
+      "page": {
+        "label": "Proof of Faultless Virtue",
+        "title": "Proof of Faultless Virtue",
+        "anchor": null
+      },
+      "source": {
+        "label": "Truth Enforcers P3",
+        "link": {
+          "label": "Truth Enforcers",
+          "title": "Truth Enforcers Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": "Page 3"
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Proof_of_Faultless_Virtue_Player_Card_Icon.png",
+        "src": "/images/thumb/Proof_of_Faultless_Virtue_Player_Card_Icon.png/200px-Proof_of_Faultless_Virtue_Player_Card_Icon.png?1d981d"
+      }
+    },
+    {
+      "name": "Stone-Wrought Perseverance",
+      "page": {
+        "label": "Stone-Wrought Perseverance",
+        "title": "Stone-Wrought Perseverance",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Stone-Wrought_Perseverance_Player_Card_Icon.png",
+        "src": "/images/thumb/Stone-Wrought_Perseverance_Player_Card_Icon.png/200px-Stone-Wrought_Perseverance_Player_Card_Icon.png?6c601c"
+      }
+    },
+    {
+      "name": "Rebar Resolve",
+      "page": {
+        "label": "Rebar Resolve",
+        "title": "Rebar Resolve",
+        "anchor": null
+      },
+      "source": {
+        "label": "Urban Legends P1",
+        "link": {
+          "label": "Urban Legends",
+          "title": "Urban Legends Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Rebar_Resolve_Player_Card_Icon.png",
+        "src": "/images/thumb/Rebar_Resolve_Player_Card_Icon.png/200px-Rebar_Resolve_Player_Card_Icon.png?265b54"
+      }
+    },
+    {
+      "name": "Holder of the Yellow Line",
+      "page": {
+        "label": "Holder of the Yellow Line",
+        "title": "Holder of the Yellow Line",
+        "anchor": null
+      },
+      "source": {
+        "label": "Urban Legends P2",
+        "link": {
+          "label": "Urban Legends",
+          "title": "Urban Legends Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "5",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Holder_of_the_Yellow_Line_Player_Card_Icon.png",
+        "src": "/images/thumb/Holder_of_the_Yellow_Line_Player_Card_Icon.png/200px-Holder_of_the_Yellow_Line_Player_Card_Icon.png?9ae389"
+      }
+    },
+    {
+      "name": "Strength in Our Arms",
+      "page": {
+        "label": "Strength in Our Arms",
+        "title": "Strength in Our Arms",
+        "anchor": null
+      },
+      "source": {
+        "label": "Righteous Revenants P1",
+        "link": {
+          "label": "Righteous Revenants",
+          "title": "Righteous Revenants Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Strength_in_Our_Arms_Player_Card_Icon.png",
+        "src": "/images/thumb/Strength_in_Our_Arms_Player_Card_Icon.png/200px-Strength_in_Our_Arms_Player_Card_Icon.png?9a3542"
+      }
+    },
+    {
+      "name": "Defender of Our Dream",
+      "page": {
+        "label": "Defender of Our Dream",
+        "title": "Defender of Our Dream",
+        "anchor": null
+      },
+      "source": {
+        "label": "Righteous Revenants P2",
+        "link": {
+          "label": "Righteous Revenants",
+          "title": "Righteous Revenants Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Defender_of_Our_Dream_Player_Card_Icon.png",
+        "src": "/images/thumb/Defender_of_Our_Dream_Player_Card_Icon.png/200px-Defender_of_Our_Dream_Player_Card_Icon.png?8cbdb1"
+      }
+    },
+    {
+      "name": "Vision of Freedom",
+      "page": {
+        "label": "Vision of Freedom",
+        "title": "Vision of Freedom",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Vision_of_Freedom_Player_Card_Icon.png",
+        "src": "/images/thumb/Vision_of_Freedom_Player_Card_Icon.png/200px-Vision_of_Freedom_Player_Card_Icon.png?1f38b4"
+      }
+    },
+    {
+      "name": "Fre Liberam",
+      "page": {
+        "label": "Fre Liberam",
+        "title": "Fre Liberam",
+        "anchor": null
+      },
+      "source": {
+        "label": "Servants of Freedom P1",
+        "link": {
+          "label": "Servants of Freedom",
+          "title": "Servants of Freedom Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Fre_Liberam_Player_Card_Icon.png",
+        "src": "/images/thumb/Fre_Liberam_Player_Card_Icon.png/200px-Fre_Liberam_Player_Card_Icon.png?833de0"
+      }
+    },
+    {
+      "name": "Per Democrasum",
+      "page": {
+        "label": "Per Democrasum",
+        "title": "Per Democrasum",
+        "anchor": null
+      },
+      "source": {
+        "label": "Servants of Freedom P2",
+        "link": {
+          "label": "Servants of Freedom",
+          "title": "Servants of Freedom Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Per_Democrasum_Player_Card_Icon.png",
+        "src": "/images/thumb/Per_Democrasum_Player_Card_Icon.png/200px-Per_Democrasum_Player_Card_Icon.png?5c684a"
+      }
+    },
+    {
+      "name": "Veil of the Valorous Vagabond",
+      "page": {
+        "label": "Veil of the Valorous Vagabond",
+        "title": "Veil of the Valorous Vagabond",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "40",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png",
+        "src": "/images/thumb/Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png/200px-Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png?7291a5"
+      }
+    },
+    {
+      "name": "Reaper of Bounties",
+      "page": {
+        "label": "Reaper of Bounties",
+        "title": "Reaper of Bounties",
+        "anchor": null
+      },
+      "source": {
+        "label": "Borderline Justice P1",
+        "link": {
+          "label": "Borderline Justice",
+          "title": "Borderline Justice Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Reaper_of_Bounties_Player_Card_Icon.png",
+        "src": "/images/thumb/Reaper_of_Bounties_Player_Card_Icon.png/200px-Reaper_of_Bounties_Player_Card_Icon.png?c02e58"
+      }
+    },
+    {
+      "name": "Way of the Bandolier",
+      "page": {
+        "label": "Way of the Bandolier",
+        "title": "Way of the Bandolier",
+        "anchor": null
+      },
+      "source": {
+        "label": "Borderline Justice P2",
+        "link": {
+          "label": "Borderline Justice",
+          "title": "Borderline Justice Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Way_of_the_Bandolier_Player_Card_Icon.png",
+        "src": "/images/thumb/Way_of_the_Bandolier_Player_Card_Icon.png/200px-Way_of_the_Bandolier_Player_Card_Icon.png?67c62e"
+      }
+    },
+    {
+      "name": "Seal of General Consensus",
+      "page": {
+        "label": "Seal of General Consensus",
+        "title": "Seal of General Consensus",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "75",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Seal_of_General_Consensus_Player_Card_Icon.png",
+        "src": "/images/thumb/Seal_of_General_Consensus_Player_Card_Icon.png/200px-Seal_of_General_Consensus_Player_Card_Icon.png?359e65"
+      }
+    },
+    {
+      "name": "Federation's Embrace",
+      "page": {
+        "label": "Federation's Embrace",
+        "title": "Federation's Embrace",
+        "anchor": null
+      },
+      "source": {
+        "label": "Masters of Ceremony P1",
+        "link": {
+          "label": "Masters of Ceremony",
+          "title": "Masters of Ceremony Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Federation's_Embrace_Player_Card_Icon.png",
+        "src": "/images/thumb/Federation%27s_Embrace_Player_Card_Icon.png/200px-Federation%27s_Embrace_Player_Card_Icon.png?41f7e9"
+      }
+    },
+    {
+      "name": "Humble Regalia",
+      "page": {
+        "label": "Humble Regalia",
+        "title": "Humble Regalia",
+        "anchor": null
+      },
+      "source": {
+        "label": "Masters of Ceremony P2",
+        "link": {
+          "label": "Masters of Ceremony",
+          "title": "Masters of Ceremony Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Humble_Regalia_Player_Card_Icon.png",
+        "src": "/images/thumb/Humble_Regalia_Player_Card_Icon.png/200px-Humble_Regalia_Player_Card_Icon.png?f58ef4"
+      }
+    },
+    {
+      "name": "Badge of Order",
+      "page": {
+        "label": "Badge of Order",
+        "title": "Badge of Order",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Badge_of_Order_Player_Card_Icon.png",
+        "src": "/images/thumb/Badge_of_Order_Player_Card_Icon.png/200px-Badge_of_Order_Player_Card_Icon.png?f12f2f"
+      }
+    },
+    {
+      "name": "Miranda's Legacy",
+      "page": {
+        "label": "Miranda's Legacy",
+        "title": "Miranda's Legacy",
+        "anchor": null
+      },
+      "source": {
+        "label": "Force of Law P1",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Miranda's_Legacy_Player_Card_Icon.png",
+        "src": "/images/thumb/Miranda%27s_Legacy_Player_Card_Icon.png/200px-Miranda%27s_Legacy_Player_Card_Icon.png?d622d7"
+      }
+    },
+    {
+      "name": "Mother Eagle's Wings",
+      "page": {
+        "label": "Mother Eagle's Wings",
+        "title": "Mother Eagle's Wings",
+        "anchor": null
+      },
+      "source": {
+        "label": "Force of Law P2",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Mother_Eagle's_Wings_Player_Card_Icon.png",
+        "src": "/images/thumb/Mother_Eagle%27s_Wings_Player_Card_Icon.png/200px-Mother_Eagle%27s_Wings_Player_Card_Icon.png?dbd553"
+      }
+    },
+    {
+      "name": "Conductor of Brilliance",
+      "page": {
+        "label": "Conductor of Brilliance",
+        "title": "Conductor of Brilliance",
+        "anchor": null
+      },
+      "source": {
+        "label": "Control Group P1",
+        "link": {
+          "label": "Control Group",
+          "title": "Control Group Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Conductor_of_Brilliance_Player_Card_Icon.png",
+        "src": "/images/thumb/Conductor_of_Brilliance_Player_Card_Icon.png/200px-Conductor_of_Brilliance_Player_Card_Icon.png?6d4a30"
+      }
+    },
+    {
+      "name": "Over Artifice Triumphant",
+      "page": {
+        "label": "Over Artifice Triumphant",
+        "title": "Over Artifice Triumphant",
+        "anchor": null
+      },
+      "source": {
+        "label": "Control Group P2",
+        "link": {
+          "label": "Control Group",
+          "title": "Control Group Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Over_Artifice_Triumphant_Player_Card_Icon.png",
+        "src": "/images/thumb/Over_Artifice_Triumphant_Player_Card_Icon.png/200px-Over_Artifice_Triumphant_Player_Card_Icon.png?7abc58"
+      }
+    },
+    {
+      "name": "Schema Laid Bare",
+      "page": {
+        "label": "Schema Laid Bare",
+        "title": "Schema Laid Bare",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "40",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Schema_Laid_Bare_Player_Card_Icon.png",
+        "src": "/images/thumb/Schema_Laid_Bare_Player_Card_Icon.png/200px-Schema_Laid_Bare_Player_Card_Icon.png?45eeb5"
+      }
+    },
+    {
+      "name": "Honored Heirloom",
+      "page": {
+        "label": "Honored Heirloom",
+        "title": "Honored Heirloom",
+        "anchor": null
+      },
+      "source": {
+        "label": "Halo: ODST P1",
+        "link": {
+          "label": "Halo: ODST",
+          "title": "Obedient Democracy Support Troopers Legendary Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Honored_Heirloom_Player_Card_Icon.png",
+        "src": "/images/thumb/Honored_Heirloom_Player_Card_Icon.png/200px-Honored_Heirloom_Player_Card_Icon.png?e33446"
+      }
+    },
+    {
+      "name": "Eye of the Clandestine",
+      "page": {
+        "label": "Eye of the Clandestine",
+        "title": "Eye of the Clandestine",
+        "anchor": null
+      },
+      "source": {
+        "label": "Halo: ODST P2",
+        "link": {
+          "label": "Halo: ODST",
+          "title": "Obedient Democracy Support Troopers Legendary Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Eye_of_the_Clandestine_Player_Card_Icon.png",
+        "src": "/images/thumb/Eye_of_the_Clandestine_Player_Card_Icon.png/200px-Eye_of_the_Clandestine_Player_Card_Icon.png?4f9056"
+      }
+    },
+    {
+      "name": "Eternal Corona",
+      "page": {
+        "label": "Eternal Corona",
+        "title": "Eternal Corona",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "40",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Eternal_Corona_Player_Card_Icon.png",
+        "src": "/images/thumb/Eternal_Corona_Player_Card_Icon.png/200px-Eternal_Corona_Player_Card_Icon.png?136af7"
+      }
+    },
+    {
+      "name": "Rightful Occupier",
+      "page": {
+        "label": "Rightful Occupier",
+        "title": "Rightful Occupier",
+        "anchor": null
+      },
+      "source": {
+        "label": "Dust Devils P1",
+        "link": {
+          "label": "Dust Devils",
+          "title": "Dust Devils Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Rightful_Occupier_Player_Card_Icon.png",
+        "src": "/images/thumb/Rightful_Occupier_Player_Card_Icon.png/200px-Rightful_Occupier_Player_Card_Icon.png?49fad8"
+      }
+    },
+    {
+      "name": "Windswept Wayfinder",
+      "page": {
+        "label": "Windswept Wayfinder",
+        "title": "Windswept Wayfinder",
+        "anchor": null
+      },
+      "source": {
+        "label": "Dust Devils P2",
+        "link": {
+          "label": "Dust Devils",
+          "title": "Dust Devils Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Windswept_Wayfinder_Player_Card_Icon.png",
+        "src": "/images/thumb/Windswept_Wayfinder_Player_Card_Icon.png/200px-Windswept_Wayfinder_Player_Card_Icon.png?77e079"
+      }
+    },
+    {
+      "name": "De-Forester's Sailcloth",
+      "page": {
+        "label": "De-Forester's Sailcloth",
+        "title": "De-Forester's Sailcloth",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "40",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "De-Forester's_Sailcloth_Player_Card_Icon.png",
+        "src": "/images/thumb/De-Forester%27s_Sailcloth_Player_Card_Icon.png/200px-De-Forester%27s_Sailcloth_Player_Card_Icon.png?b02781"
+      }
+    },
+    {
+      "name": "Mark of the Constrictor",
+      "page": {
+        "label": "Mark of the Constrictor",
+        "title": "Mark of the Constrictor",
+        "anchor": null
+      },
+      "source": {
+        "label": "Python Commandos P1",
+        "link": {
+          "label": "Python Commandos",
+          "title": "Python Commandos Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Mark_of_the_Constrictor_Player_Card_Icon.png",
+        "src": "/images/thumb/Mark_of_the_Constrictor_Player_Card_Icon.png/200px-Mark_of_the_Constrictor_Player_Card_Icon.png?7f5996"
+      }
+    },
+    {
+      "name": "Foe Rent Asunder",
+      "page": {
+        "label": "Foe Rent Asunder",
+        "title": "Foe Rent Asunder",
+        "anchor": null
+      },
+      "source": {
+        "label": "Python Commandos P2",
+        "link": {
+          "label": "Python Commandos",
+          "title": "Python Commandos Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Foe_Rent_Asunder_Player_Card_Icon.png",
+        "src": "/images/thumb/Foe_Rent_Asunder_Player_Card_Icon.png/200px-Foe_Rent_Asunder_Player_Card_Icon.png?ea9a22"
+      }
+    },
+    {
+      "name": "Gilded Quill",
+      "page": {
+        "label": "Gilded Quill",
+        "title": "Gilded Quill",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Gilded_Quill_Player_Card_Icon.png",
+        "src": "/images/thumb/Gilded_Quill_Player_Card_Icon.png/200px-Gilded_Quill_Player_Card_Icon.png?94da4a"
+      }
+    },
+    {
+      "name": "Pillar of the Abyss",
+      "page": {
+        "label": "Pillar of the Abyss",
+        "title": "Pillar of the Abyss",
+        "anchor": null
+      },
+      "source": {
+        "label": "Redacted Regiment P1",
+        "link": {
+          "label": "Redacted Regiment",
+          "title": "Redacted Regiment Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Pillar_of_the_Abyss_Player_Card_Icon.png",
+        "src": "/images/thumb/Pillar_of_the_Abyss_Player_Card_Icon.png/200px-Pillar_of_the_Abyss_Player_Card_Icon.png?3397ff"
+      }
+    },
+    {
+      "name": "Triangulation Veil",
+      "page": {
+        "label": "Triangulation Veil",
+        "title": "Triangulation Veil",
+        "anchor": null
+      },
+      "source": {
+        "label": "Redacted Regiment P2",
+        "link": {
+          "label": "Redacted Regiment",
+          "title": "Redacted Regiment Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Triangulation_Veil_Player_Card_Icon.png",
+        "src": "/images/thumb/Triangulation_Veil_Player_Card_Icon.png/200px-Triangulation_Veil_Player_Card_Icon.png?175ed2"
+      }
+    },
+    {
+      "name": "Rags of the Fashionable",
+      "page": {
+        "label": "Rags of the Fashionable",
+        "title": "Rags of the Fashionable",
+        "anchor": null
+      },
+      "source": {
+        "label": "Siege Breakers P1",
+        "link": {
+          "label": "Siege Breakers",
+          "title": "Siege Breakers Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Rags_of_The_Fashionable_Player_Card_Icon.png",
+        "src": "/images/thumb/Rags_of_The_Fashionable_Player_Card_Icon.png/200px-Rags_of_The_Fashionable_Player_Card_Icon.png?5cb903"
+      }
+    },
+    {
+      "name": "Wedgeful Tricorn",
+      "page": {
+        "label": "Wedgeful Tricorn",
+        "title": "Wedgeful Tricorn",
+        "anchor": null
+      },
+      "source": {
+        "label": "Siege Breakers P2",
+        "link": {
+          "label": "Siege Breakers",
+          "title": "Siege Breakers Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Wedgeful_Tricorn_Player_Card_Icon.png",
+        "src": "/images/thumb/Wedgeful_Tricorn_Player_Card_Icon.png/200px-Wedgeful_Tricorn_Player_Card_Icon.png?13d4f5"
+      }
+    },
+    {
+      "name": "Thundering Hooves of Loyalty",
+      "page": {
+        "label": "Thundering Hooves of Loyalty",
+        "title": "Thundering Hooves of Loyalty",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Thundering_Hooves_of_Loyalty_Player_Card_Icon.png",
+        "src": "/images/thumb/Thundering_Hooves_of_Loyalty_Player_Card_Icon.png/200px-Thundering_Hooves_of_Loyalty_Player_Card_Icon.png?61906d"
+      }
+    },
+    {
+      "name": "Testament to Attrition",
+      "page": {
+        "label": "Testament to Attrition",
+        "title": "Testament to Attrition",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Testament_to_Attrition_Player_Card_Icon.png",
+        "src": "/images/thumb/Testament_to_Attrition_Player_Card_Icon.png/200px-Testament_to_Attrition_Player_Card_Icon.png?74188d"
+      }
+    },
+    {
+      "name": "Dignity of Toil",
+      "page": {
+        "label": "Dignity of Toil",
+        "title": "Dignity of Toil",
+        "anchor": null
+      },
+      "source": {
+        "label": "Entrenched Division P1",
+        "link": {
+          "label": "Entrenched Division",
+          "title": "Entrenched Division Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Dignity_of_Toil_Player_Card_Icon.png",
+        "src": "/images/thumb/Dignity_of_Toil_Player_Card_Icon.png/200px-Dignity_of_Toil_Player_Card_Icon.png?bb1fa8"
+      }
+    },
+    {
+      "name": "Crest of the Unsullied",
+      "page": {
+        "label": "Crest of the Unsullied",
+        "title": "Crest of the Unsullied",
+        "anchor": null
+      },
+      "source": {
+        "label": "Entrenched Division P2",
+        "link": {
+          "label": "Entrenched Division",
+          "title": "Entrenched Division Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "6",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Crest_of_the_Unsullied_Player_Card_Icon.png",
+        "src": "/images/thumb/Crest_of_the_Unsullied_Player_Card_Icon.png/200px-Crest_of_the_Unsullied_Player_Card_Icon.png?88c9d0"
+      }
+    },
+    {
+      "name": "Diagram of the Noblest Payload",
+      "page": {
+        "label": "Diagram of the Noblest Payload",
+        "title": "Diagram of the Noblest Payload",
+        "anchor": null
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "super_credits"
+      },
+      "image": {
+        "file": "Diagram_of_the_Noblest_Payload_Player_Card_Icon.png",
+        "src": "/images/thumb/Diagram_of_the_Noblest_Payload_Player_Card_Icon.png/200px-Diagram_of_the_Noblest_Payload_Player_Card_Icon.png?2d6158"
+      }
+    },
+    {
+      "name": "Free-Spirited Spangles",
+      "page": {
+        "label": "Free-Spirited Spangles",
+        "title": "Free-Spirited Spangles",
+        "anchor": null
+      },
+      "source": {
+        "label": "Exo Experts P1",
+        "link": {
+          "label": "Exo Experts",
+          "title": "Exo Experts Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": "Page 1"
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Free_Spirited_Spangles_Player_Card_Icon.png",
+        "src": "/images/thumb/Free_Spirited_Spangles_Player_Card_Icon.png/200px-Free_Spirited_Spangles_Player_Card_Icon.png?cbadb4"
+      }
+    },
+    {
+      "name": "Watchful Compatriot",
+      "page": {
+        "label": "Watchful Compatriot",
+        "title": "Watchful Compatriot",
+        "anchor": null
+      },
+      "source": {
+        "label": "Exo Experts P2",
+        "link": {
+          "label": "Exo Experts",
+          "title": "Exo Experts Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": "Page 2"
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Watchful_Compatriot_Player_Card_Icon.png",
+        "src": "/images/thumb/Watchful_Compatriot_Player_Card_Icon.png/200px-Watchful_Compatriot_Player_Card_Icon.png?9246df"
+      }
+    },
+    {
+      "name": "Camo Cloak",
+      "page": {
+        "label": "Camo Cloak",
+        "title": "Camo Cloak",
+        "anchor": null
+      },
+      "source": {
+        "label": "Castellan’s Creed",
+        "link": {
+          "label": "Castellan’s Creed",
+          "title": "Castellan’s Creed Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "Camo_Cloak_Player_Card.png",
+        "src": "/images/thumb/Camo_Cloak_Player_Card.png/200px-Camo_Cloak_Player_Card.png?43cecb"
+      }
+    },
+    {
+      "name": "City Fighter's Resolve",
+      "page": {
+        "label": "City Fighter's Resolve",
+        "title": "City Fighter's Resolve",
+        "anchor": null
+      },
+      "source": {
+        "label": "Castellan’s Creed",
+        "link": {
+          "label": "Castellan’s Creed",
+          "title": "Castellan’s Creed Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "7",
+        "currency": "medals"
+      },
+      "image": {
+        "file": "City_Fighter's_Resolve_Player_Card.png",
+        "src": "/images/thumb/City_Fighter%27s_Resolve_Player_Card.png/200px-City_Fighter%27s_Resolve_Player_Card.png?ee8c0e"
+      }
+    }
+  ],
+  "emotes": [
+    {
+      "name": "Casual Salute",
+      "page": {
+        "label": "Casual Salute",
+        "title": "Casual Salute",
+        "anchor": null
+      },
+      "cost": {
+        "text": "/",
+        "currency": null
+      },
+      "source": {
+        "label": "Starter Equipment",
+        "link": null,
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Casual_Salute_Emote_Icon.png",
+        "src": "/images/thumb/Casual_Salute_Emote_Icon.png/128px-Casual_Salute_Emote_Icon.png?9dc2c1"
+      }
+    },
+    {
+      "name": "Salute",
+      "page": {
+        "label": "Salute",
+        "title": "Salute",
+        "anchor": null
+      },
+      "cost": {
+        "text": "/",
+        "currency": null
+      },
+      "source": {
+        "label": "Starter Equipment",
+        "link": null,
+        "pageMarker": null
+      },
+      "emote": "❌",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Salute_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Salute_Victory_Pose_Icon.png/128px-Salute_Victory_Pose_Icon.png?f5164a"
+      }
+    },
+    {
+      "name": "Clapping",
+      "page": {
+        "label": "Clapping",
+        "title": "Clapping",
+        "anchor": null
+      },
+      "cost": {
+        "text": "1",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "❌",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Clapping_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Clapping_Victory_Pose_Icon.png/128px-Clapping_Victory_Pose_Icon.png?2421fa"
+      }
+    },
+    {
+      "name": "Finger Guns",
+      "page": {
+        "label": "Finger Guns",
+        "title": "Finger Guns",
+        "anchor": null
+      },
+      "cost": {
+        "text": "2",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Finger_Guns_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Finger_Guns_Victory_Pose_Icon.png/128px-Finger_Guns_Victory_Pose_Icon.png?d5d94c"
+      }
+    },
+    {
+      "name": "Explosive Handshake",
+      "page": {
+        "label": "Explosive Handshake",
+        "title": "Explosive Handshake",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Explosive_Handshake_Emote_Icon.png",
+        "src": "/images/thumb/Explosive_Handshake_Emote_Icon.png/128px-Explosive_Handshake_Emote_Icon.png?f402f3"
+      }
+    },
+    {
+      "name": "Hug",
+      "page": {
+        "label": "Hug",
+        "title": "Hug",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_4"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Hug_Emote_Icon.png",
+        "src": "/images/thumb/Hug_Emote_Icon.png/128px-Hug_Emote_Icon.png?4613a3"
+      }
+    },
+    {
+      "name": "High-Five",
+      "page": {
+        "label": "High-Five",
+        "title": "High-Five",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_5"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "High-Five_Emote_Icon.png",
+        "src": "/images/thumb/High-Five_Emote_Icon.png/128px-High-Five_Emote_Icon.png?dfb584"
+      }
+    },
+    {
+      "name": "Flex",
+      "page": {
+        "label": "Flex",
+        "title": "Flex",
+        "anchor": null
+      },
+      "cost": {
+        "text": "10",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_6"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Flex_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Flex_Victory_Pose_Icon.png/128px-Flex_Victory_Pose_Icon.png?2afeeb"
+      }
+    },
+    {
+      "name": "Scout Handshake",
+      "page": {
+        "label": "Scout Handshake",
+        "title": "Scout Handshake",
+        "anchor": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_7"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Scout_Handshake_Emote_Icon.png",
+        "src": "/images/thumb/Scout_Handshake_Emote_Icon.png/128px-Scout_Handshake_Emote_Icon.png?ecc1ca"
+      }
+    },
+    {
+      "name": "Rock Paper Scissors",
+      "page": {
+        "label": "Rock Paper Scissors",
+        "title": "Rock Paper Scissors",
+        "anchor": null
+      },
+      "cost": {
+        "text": "50",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_8"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Rock_Paper_Scissors_Emote_Icon.png",
+        "src": "/images/thumb/Rock_Paper_Scissors_Emote_Icon.png/128px-Rock_Paper_Scissors_Emote_Icon.png?911459"
+      }
+    },
+    {
+      "name": "Loosen Up",
+      "page": {
+        "label": "Loosen Up",
+        "title": "Loosen Up",
+        "anchor": null
+      },
+      "cost": {
+        "text": "30",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_9"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Loosen_Up_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Loosen_Up_Victory_Pose_Icon.png/128px-Loosen_Up_Victory_Pose_Icon.png?abda89"
+      }
+    },
+    {
+      "name": "Big Whoop",
+      "page": {
+        "label": "Big Whoop",
+        "title": "Big Whoop",
+        "anchor": null
+      },
+      "cost": {
+        "text": "50",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Helldivers Mobilize",
+        "link": {
+          "label": "Helldivers Mobilize",
+          "title": "Helldivers Mobilize Warbond",
+          "anchor": "Page_10"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Big_Whoop_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Big_Whoop_Victory_Pose_Icon.png/128px-Big_Whoop_Victory_Pose_Icon.png?4250bc"
+      }
+    },
+    {
+      "name": "Super Person",
+      "page": {
+        "label": "Super Person",
+        "title": "Super Person",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Steeled Veterans",
+        "link": {
+          "label": "Steeled Veterans",
+          "title": "Steeled Veterans Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Super_Person_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Super_Person_Victory_Pose_Icon.png/128px-Super_Person_Victory_Pose_Icon.png?8adc35"
+      }
+    },
+    {
+      "name": "Roll 'Em",
+      "page": {
+        "label": "Roll 'Em",
+        "title": "Roll 'Em",
+        "anchor": null
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Steeled Veterans",
+        "link": {
+          "label": "Steeled Veterans",
+          "title": "Steeled Veterans Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Roll_'Em_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Roll_%27Em_Victory_Pose_Icon.png/128px-Roll_%27Em_Victory_Pose_Icon.png?2961f8"
+      }
+    },
+    {
+      "name": "You're Next",
+      "page": {
+        "label": "You're Next",
+        "title": "You're Next",
+        "anchor": null
+      },
+      "cost": {
+        "text": "32",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Steeled Veterans",
+        "link": {
+          "label": "Steeled Veterans",
+          "title": "Steeled Veterans Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "You're_Next_Victory_Pose_Icon.png",
+        "src": "/images/thumb/You%27re_Next_Victory_Pose_Icon.png/128px-You%27re_Next_Victory_Pose_Icon.png?593fbd"
+      }
+    },
+    {
+      "name": "Head Tap",
+      "page": {
+        "label": "Head Tap",
+        "title": "Head Tap",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Cutting Edge",
+        "link": {
+          "label": "Cutting Edge",
+          "title": "Cutting Edge Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Head_Tap_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Head_Tap_Victory_Pose_Icon.png/128px-Head_Tap_Victory_Pose_Icon.png?ea2ac5"
+      }
+    },
+    {
+      "name": "Shotgun Show",
+      "page": {
+        "label": "Shotgun Show",
+        "title": "Shotgun Show",
+        "anchor": null
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Cutting Edge",
+        "link": {
+          "label": "Cutting Edge",
+          "title": "Cutting Edge Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Shotgun_Show_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Shotgun_Show_Victory_Pose_Icon.png/128px-Shotgun_Show_Victory_Pose_Icon.png?68f5e9"
+      }
+    },
+    {
+      "name": "Presentable",
+      "page": {
+        "label": "Presentable",
+        "title": "Presentable",
+        "anchor": null
+      },
+      "cost": {
+        "text": "32",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Cutting Edge",
+        "link": {
+          "label": "Cutting Edge",
+          "title": "Cutting Edge Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Presentable_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Presentable_Victory_Pose_Icon.png/128px-Presentable_Victory_Pose_Icon.png?cdda6f"
+      }
+    },
+    {
+      "name": "Squat",
+      "page": {
+        "label": "Squat",
+        "title": "Squat",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Democratic Detonation",
+        "link": {
+          "label": "Democratic Detonation",
+          "title": "Democratic Detonation Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Squat_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Squat_Victory_Pose_Icon.png/128px-Squat_Victory_Pose_Icon.png?ffddf4"
+      }
+    },
+    {
+      "name": "Courtly Bow",
+      "page": {
+        "label": "Courtly Bow",
+        "title": "Courtly Bow",
+        "anchor": null
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Democratic Detonation",
+        "link": {
+          "label": "Democratic Detonation",
+          "title": "Democratic Detonation Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Courtly_Bow_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Courtly_Bow_Victory_Pose_Icon.png/128px-Courtly_Bow_Victory_Pose_Icon.png?d80c5c"
+      }
+    },
+    {
+      "name": "Boxer",
+      "page": {
+        "label": "Boxer",
+        "title": "Boxer",
+        "anchor": null
+      },
+      "cost": {
+        "text": "32",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Democratic Detonation",
+        "link": {
+          "label": "Democratic Detonation",
+          "title": "Democratic Detonation Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Boxer_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Boxer_Victory_Pose_Icon.png/128px-Boxer_Victory_Pose_Icon.png?5ba5ff"
+      }
+    },
+    {
+      "name": "Mime Instrumentation",
+      "page": {
+        "label": "Mime Instrumentation",
+        "title": "Mime Instrumentation",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Polar Patriots",
+        "link": {
+          "label": "Polar Patriots",
+          "title": "Polar Patriots Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Mime_Instrumentation_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Mime_Instrumentation_Victory_Pose_Icon.png/128px-Mime_Instrumentation_Victory_Pose_Icon.png?e41a3b"
+      }
+    },
+    {
+      "name": "Call the Helldivers",
+      "page": {
+        "label": "Call the Helldivers",
+        "title": "Call the Helldivers",
+        "anchor": null
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Polar Patriots",
+        "link": {
+          "label": "Polar Patriots",
+          "title": "Polar Patriots Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Call_the_Helldivers_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Call_the_Helldivers_Victory_Pose_Icon.png/128px-Call_the_Helldivers_Victory_Pose_Icon.png?de6605"
+      }
+    },
+    {
+      "name": "Distribute Ballots",
+      "page": {
+        "label": "Distribute Ballots",
+        "title": "Distribute Ballots",
+        "anchor": null
+      },
+      "cost": {
+        "text": "32",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Polar Patriots",
+        "link": {
+          "label": "Polar Patriots",
+          "title": "Polar Patriots Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Distribute_Ballots_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Distribute_Ballots_Victory_Pose_Icon.png/128px-Distribute_Ballots_Victory_Pose_Icon.png?504152"
+      }
+    },
+    {
+      "name": "Welcome Adoration",
+      "page": {
+        "label": "Welcome Adoration",
+        "title": "Welcome Adoration",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Viper Commandos",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Welcome_Adoration_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Welcome_Adoration_Victory_Pose_Icon.png/128px-Welcome_Adoration_Victory_Pose_Icon.png?a7660c"
+      }
+    },
+    {
+      "name": "Guns of Liberty",
+      "page": {
+        "label": "Guns of Liberty",
+        "title": "Guns of Liberty",
+        "anchor": null
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Viper Commandos",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Guns_of_Liberty_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Guns_of_Liberty_Victory_Pose_Icon.png/128px-Guns_of_Liberty_Victory_Pose_Icon.png?efb452"
+      }
+    },
+    {
+      "name": "Test of Conviction",
+      "page": {
+        "label": "Test of Conviction",
+        "title": "Test of Conviction",
+        "anchor": null
+      },
+      "cost": {
+        "text": "70",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Viper Commandos",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Test_of_Conviction_Emote_Icon.png",
+        "src": "/images/thumb/Test_of_Conviction_Emote_Icon.png/128px-Test_of_Conviction_Emote_Icon.png?700b89"
+      }
+    },
+    {
+      "name": "Big Stretch",
+      "page": {
+        "label": "Big Stretch",
+        "title": "Big Stretch",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Freedom's Flame",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Big_Stretch_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Big_Stretch_Victory_Pose_Icon.png/128px-Big_Stretch_Victory_Pose_Icon.png?c4e172"
+      }
+    },
+    {
+      "name": "Deep Reflection",
+      "page": {
+        "label": "Deep Reflection",
+        "title": "Deep Reflection",
+        "anchor": null
+      },
+      "cost": {
+        "text": "15",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Freedom's Flame",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Deep_Reflection_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Deep_Reflection_Victory_Pose_Icon.png/128px-Deep_Reflection_Victory_Pose_Icon.png?9ad45b"
+      }
+    },
+    {
+      "name": "Thoracic Collision Exultation Maneuver",
+      "page": {
+        "label": "Thoracic Collision Exultation Maneuver",
+        "title": "Thoracic Collision Exultation Maneuver",
+        "anchor": null
+      },
+      "cost": {
+        "text": "35",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Freedom's Flame",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png",
+        "src": "/images/thumb/Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png/128px-Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png?c39bb1"
+      }
+    },
+    {
+      "name": "Ew",
+      "page": {
+        "label": "Ew",
+        "title": "Ew",
+        "anchor": null
+      },
+      "cost": {
+        "text": "8",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Chemical Agents",
+        "link": {
+          "label": "Chemical Agents",
+          "title": "Chemical Agents Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Ew_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Ew_Victory_Pose_Icon.png/128px-Ew_Victory_Pose_Icon.png?a42d28"
+      }
+    },
+    {
+      "name": "Natural Gas Extraction",
+      "page": {
+        "label": "Natural Gas Extraction",
+        "title": "Natural Gas Extraction",
+        "anchor": null
+      },
+      "cost": {
+        "text": "70",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Chemical Agents",
+        "link": {
+          "label": "Chemical Agents",
+          "title": "Chemical Agents Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Scout_Handshake_Emote_Icon.png",
+        "src": "/images/thumb/Scout_Handshake_Emote_Icon.png/128px-Scout_Handshake_Emote_Icon.png?ecc1ca"
+      }
+    },
+    {
+      "name": "At Ease",
+      "page": {
+        "label": "At Ease",
+        "title": "At Ease",
+        "anchor": null
+      },
+      "cost": {
+        "text": "50",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Truth Enforcers",
+        "link": {
+          "label": "Truth Enforcers",
+          "title": "Truth Enforcers Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "At_Ease_Emote_Icon.png",
+        "src": "/images/thumb/At_Ease_Emote_Icon.png/128px-At_Ease_Emote_Icon.png?224da9"
+      }
+    },
+    {
+      "name": "This Is Democracy",
+      "page": {
+        "label": "This Is Democracy",
+        "title": "This Is Democracy",
+        "anchor": null
+      },
+      "cost": {
+        "text": "50",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Urban Legends",
+        "link": {
+          "label": "Urban Legends",
+          "title": "Urban Legends Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "This_Is_Democracy_Emote_Icon.png",
+        "src": "/images/thumb/This_Is_Democracy_Emote_Icon.png/128px-This_Is_Democracy_Emote_Icon.png?3220e9"
+      }
+    },
+    {
+      "name": "Raise Weapon",
+      "page": {
+        "label": "Raise Weapon",
+        "title": "Raise Weapon",
+        "anchor": null
+      },
+      "cost": {
+        "text": "55",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Servants of Freedom",
+        "link": {
+          "label": "Servants of Freedom",
+          "title": "Servants of Freedom Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Raise_Weapon_Emote_Icon.png",
+        "src": "/images/thumb/Raise_Weapon_Emote_Icon.png/128px-Raise_Weapon_Emote_Icon.png?7ee441"
+      }
+    },
+    {
+      "name": "Draw!",
+      "page": {
+        "label": "Draw!",
+        "title": "Draw!",
+        "anchor": null
+      },
+      "cost": {
+        "text": "250",
+        "currency": "super_credits"
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Draw!_Emote_Icon.png",
+        "src": "/images/thumb/Draw%21_Emote_Icon.png/128px-Draw%21_Emote_Icon.png?8ec919"
+      }
+    },
+    {
+      "name": "Tip Hat",
+      "page": {
+        "label": "Tip Hat",
+        "title": "Tip Hat",
+        "anchor": null
+      },
+      "cost": {
+        "text": "55",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Borderline Justice",
+        "link": {
+          "label": "Borderline Justice",
+          "title": "Borderline Justice Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Tip_Hat_Emote_Icon.png",
+        "src": "/images/thumb/Tip_Hat_Emote_Icon.png/128px-Tip_Hat_Emote_Icon.png?288211"
+      }
+    },
+    {
+      "name": "Lockstep",
+      "page": {
+        "label": "Lockstep",
+        "title": "Lockstep",
+        "anchor": null
+      },
+      "cost": {
+        "text": "55",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Masters of Ceremony",
+        "link": {
+          "label": "Masters of Ceremony",
+          "title": "Masters of Ceremony Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Lockstep_Emote_Icon.png",
+        "src": "/images/thumb/Lockstep_Emote_Icon.png/128px-Lockstep_Emote_Icon.png?7def31"
+      }
+    },
+    {
+      "name": "Signal: Hold",
+      "page": {
+        "label": "Signal: Hold",
+        "title": "Signal: Hold",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Force of Law",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": "Page_1"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Signal_Hold_Emote_Icon.png",
+        "src": "/images/thumb/Signal_Hold_Emote_Icon.png/128px-Signal_Hold_Emote_Icon.png?bfdabc"
+      }
+    },
+    {
+      "name": "Signal: Silence",
+      "page": {
+        "label": "Signal: Silence",
+        "title": "Signal: Silence",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Force of Law",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": "Page_2"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Signal_Silence_Emote_Icon.png",
+        "src": "/images/thumb/Signal_Silence_Emote_Icon.png/128px-Signal_Silence_Emote_Icon.png?8ad8b8"
+      }
+    },
+    {
+      "name": "Signal: Group Up",
+      "page": {
+        "label": "Signal: Group Up",
+        "title": "Signal: Group Up",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Force of Law",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Signal_Group_Up_Emote_Icon.png",
+        "src": "/images/thumb/Signal_Group_Up_Emote_Icon.png/128px-Signal_Group_Up_Emote_Icon.png?4606df"
+      }
+    },
+    {
+      "name": "Enthusiastic Mirth",
+      "page": {
+        "label": "Enthusiastic Mirth",
+        "title": "Enthusiastic Mirth",
+        "anchor": null
+      },
+      "cost": {
+        "text": "250",
+        "currency": "super_credits"
+      },
+      "source": {
+        "label": "Superstore",
+        "link": {
+          "label": "Superstore",
+          "title": "Superstore",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Enthusiastic_Mirth_Emote_Icon.png",
+        "src": "/images/thumb/Enthusiastic_Mirth_Emote_Icon.png/128px-Enthusiastic_Mirth_Emote_Icon.png?a83407"
+      }
+    },
+    {
+      "name": "Protect Eardrums",
+      "page": {
+        "label": "Protect Eardrums",
+        "title": "Protect Eardrums",
+        "anchor": null
+      },
+      "cost": {
+        "text": "50",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Control Group",
+        "link": {
+          "label": "Control Group",
+          "title": "Control Group Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Protect_Eardrums_Emote_Icon.png",
+        "src": "/images/thumb/Protect_Eardrums_Emote_Icon.png/128px-Protect_Eardrums_Emote_Icon.png?1c894a"
+      }
+    },
+    {
+      "name": "Raider's Cheer",
+      "page": {
+        "label": "Raider's Cheer",
+        "title": "Raider's Cheer",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Dust Devils",
+        "link": {
+          "label": "Dust Devils",
+          "title": "Dust Devils Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Raider's_Cheer_Emote_Icon.png",
+        "src": "/images/thumb/Raider%27s_Cheer_Emote_Icon.png/128px-Raider%27s_Cheer_Emote_Icon.png?f81eda"
+      }
+    },
+    {
+      "name": "Front-Leaning Rest Position",
+      "page": {
+        "label": "Front-Leaning Rest Position",
+        "title": "Front-Leaning Rest Position",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Python Commandos",
+        "link": {
+          "label": "Python Commandos",
+          "title": "Python Commandos Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Front-Leaning_Rest_Position_Emote_Icon.png",
+        "src": "/images/thumb/Front-Leaning_Rest_Position_Emote_Icon.png/128px-Front-Leaning_Rest_Position_Emote_Icon.png?f76cc7"
+      }
+    },
+    {
+      "name": "Target Sighted",
+      "page": {
+        "label": "Target Sighted",
+        "title": "Target Sighted",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Redacted Regiment",
+        "link": {
+          "label": "Redacted Regiment",
+          "title": "Redacted Regiment Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Target_Sighted_Victory_Pose_Icon.png",
+        "src": "/images/thumb/Target_Sighted_Victory_Pose_Icon.png/128px-Target_Sighted_Victory_Pose_Icon.png?a27b82"
+      }
+    },
+    {
+      "name": "Display of Brawn",
+      "page": {
+        "label": "Display of Brawn",
+        "title": "Display of Brawn",
+        "anchor": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Siege Breakers",
+        "link": {
+          "label": "Siege Breakers",
+          "title": "Siege Breakers Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "✅",
+      "icon": {
+        "file": "Display_of_Brawn_Emote_Icon.png",
+        "src": "/images/thumb/Display_of_Brawn_Emote_Icon.png/128px-Display_of_Brawn_Emote_Icon.png?5e4719"
+      }
+    },
+    {
+      "name": "Diplomatic Handshake",
+      "page": {
+        "label": "Diplomatic Handshake",
+        "title": "Diplomatic Handshake",
+        "anchor": null
+      },
+      "cost": {
+        "text": "55",
+        "currency": "medals"
+      },
+      "source": {
+        "label": "Entrenched Division",
+        "link": {
+          "label": "Entrenched Division",
+          "title": "Entrenched Division Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "emote": "✅",
+      "victoryPose": "❌",
+      "icon": {
+        "file": "Diplomatic_Handshake_Emote_Icon.png",
+        "src": "/images/thumb/Diplomatic_Handshake_Emote_Icon.png/128px-Diplomatic_Handshake_Emote_Icon.png?7050f9"
+      }
+    }
+  ],
+  "vehiclePatterns": [
+    {
+      "name": "Standard",
+      "page": {
+        "label": "Standard",
+        "title": "Standard Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "",
+          "currency": null
+        },
+        "hellpod": {
+          "text": "",
+          "currency": null
+        },
+        "exosuit": {
+          "text": "",
+          "currency": null
+        },
+        "vehicle": {
+          "text": "",
+          "currency": null
+        }
+      },
+      "source": {
+        "label": "Starter Equipment",
+        "link": null,
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Standard_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Standard_Hellpod_Pattern_Icon.png/128px-Standard_Hellpod_Pattern_Icon.png?8cbcfa"
+      }
+    },
+    {
+      "name": "Undergrowth",
+      "page": {
+        "label": "Undergrowth",
+        "title": "Undergrowth Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Viper Commandos",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Undergrowth_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Undergrowth_Hellpod_Pattern_Icon.png/128px-Undergrowth_Hellpod_Pattern_Icon.png?5b23ae"
+      }
+    },
+    {
+      "name": "Safety Orange",
+      "page": {
+        "label": "Safety Orange",
+        "title": "Safety Orange Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "25",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "10",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "40",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Freedom's Flame",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Safety_Orange_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Safety_Orange_Hellpod_Pattern_Icon.png/128px-Safety_Orange_Hellpod_Pattern_Icon.png?ca63f8"
+      }
+    },
+    {
+      "name": "Mustard",
+      "page": {
+        "label": "Mustard",
+        "title": "Mustard Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Chemical Agents",
+        "link": {
+          "label": "Chemical Agents",
+          "title": "Chemical Agents Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Mustard_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Mustard_Hellpod_Pattern_Icon.png/128px-Mustard_Hellpod_Pattern_Icon.png?514f4e"
+      }
+    },
+    {
+      "name": "Inconspicuous Black",
+      "page": {
+        "label": "Inconspicuous Black",
+        "title": "Inconspicuous Black Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "10",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Truth Enforcers",
+        "link": {
+          "label": "Truth Enforcers",
+          "title": "Truth Enforcers Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Inconspicuous_Black_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Inconspicuous_Black_Hellpod_Pattern_Icon.png/128px-Inconspicuous_Black_Hellpod_Pattern_Icon.png?b1c08c"
+      }
+    },
+    {
+      "name": "Concrete Jungle",
+      "page": {
+        "label": "Concrete Jungle",
+        "title": "Concrete Jungle Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Urban Legends",
+        "link": {
+          "label": "Urban Legends",
+          "title": "Urban Legends Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Concrete_Jungle_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Concrete_Jungle_Hellpod_Pattern_Icon.png/128px-Concrete_Jungle_Hellpod_Pattern_Icon.png?11f0f8"
+      }
+    },
+    {
+      "name": "True Blue",
+      "page": {
+        "label": "True Blue",
+        "title": "True Blue Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Force of Law",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "True_Blue_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/True_Blue_Hellpod_Pattern_Icon.png/128px-True_Blue_Hellpod_Pattern_Icon.png?bcaf16"
+      }
+    },
+    {
+      "name": "Mean Green",
+      "page": {
+        "label": "Mean Green",
+        "title": "Mean Green Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Halo: ODST",
+        "link": {
+          "label": "Halo: ODST",
+          "title": "Obedient Democracy Support Troopers Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Mean_Green_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Mean_Green_Hellpod_Pattern_Icon.png/128px-Mean_Green_Hellpod_Pattern_Icon.png?354a7e"
+      }
+    },
+    {
+      "name": "Rattlesnake",
+      "page": {
+        "label": "Rattlesnake",
+        "title": "Rattlesnake Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Dust Devils",
+        "link": {
+          "label": "Dust Devils",
+          "title": "Dust Devils Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Rattlesnake_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Rattlesnake_Hellpod_Pattern_Icon.png/128px-Rattlesnake_Hellpod_Pattern_Icon.png?f999a1"
+      }
+    },
+    {
+      "name": "Chameleon Camo",
+      "page": {
+        "label": "Chameleon Camo",
+        "title": "Chameleon Camo Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Python Commandos",
+        "link": {
+          "label": "Python Commandos",
+          "title": "Python Commandos Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Chameleon_Camo_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Chameleon_Camo_Hellpod_Pattern_Icon.png/128px-Chameleon_Camo_Hellpod_Pattern_Icon.png?c63650"
+      }
+    },
+    {
+      "name": "Extrasolar Ash",
+      "page": {
+        "label": "Extrasolar Ash",
+        "title": "Extrasolar Ash Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Righteous Revenants",
+        "link": {
+          "label": "Righteous Revenants",
+          "title": "Righteous Revenants Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Extrasolar_Ash_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Extrasolar_Ash_Hellpod_Pattern_Icon.png/128px-Extrasolar_Ash_Hellpod_Pattern_Icon.png?14e579"
+      }
+    },
+    {
+      "name": "Churned Earth",
+      "page": {
+        "label": "Churned Earth",
+        "title": "Churned Earth Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Siege Breakers",
+        "link": {
+          "label": "Siege Breakers",
+          "title": "Siege Breakers Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Churned_Earth_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Churned_Earth_Hellpod_Pattern_Icon.png/128px-Churned_Earth_Hellpod_Pattern_Icon.png?dc9c31"
+      }
+    },
+    {
+      "name": "Heritage Olive",
+      "page": {
+        "label": "Heritage Olive",
+        "title": "Heritage Olive Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "55",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Entrenched Division",
+        "link": {
+          "label": "Entrenched Division",
+          "title": "Entrenched Division Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Heritage_Olive_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Heritage_Olive_Hellpod_Pattern_Icon.png/128px-Heritage_Olive_Hellpod_Pattern_Icon.png?3c6303"
+      }
+    },
+    {
+      "name": "Mobile White",
+      "page": {
+        "label": "Mobile White",
+        "title": "Mobile White Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Exo Experts",
+        "link": {
+          "label": "Exo Experts",
+          "title": "Exo Experts Premium Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Mobile_White_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Mobile_White_Hellpod_Pattern_Icon.png/128px-Mobile_White_Hellpod_Pattern_Icon.png?c372ac"
+      }
+    },
+    {
+      "name": "Castellans Green",
+      "page": {
+        "label": "Castellans Green",
+        "title": "Castellans Green Pattern",
+        "anchor": null
+      },
+      "costs": {
+        "shuttle": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "hellpod": {
+          "text": "20",
+          "currency": "medals"
+        },
+        "exosuit": {
+          "text": "50",
+          "currency": "medals"
+        },
+        "vehicle": {
+          "text": "55",
+          "currency": "medals"
+        }
+      },
+      "source": {
+        "label": "Castellan's Creed",
+        "link": {
+          "label": "Castellan's Creed",
+          "title": "Castellan’s Creed Legendary Warbond",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "icon": {
+        "file": "Castellans_Green_Hellpod_Pattern_Icon.png",
+        "src": "/images/thumb/Castellans_Green_Hellpod_Pattern_Icon.png/128px-Castellans_Green_Hellpod_Pattern_Icon.png?516664"
+      }
+    }
+  ],
+  "weaponPatterns": [
+    {
+      "name": "Default",
+      "cost": {
+        "text": "0",
+        "currency": "requisition"
+      },
+      "levelNeeded": "0",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Primary_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Primary_Render.png/250px-AR-23P_Liberator_Penetrator_Primary_Render.png?82edd5"
+      }
+    },
+    {
+      "name": "Helldiver",
+      "cost": {
+        "text": "0",
+        "currency": "requisition"
+      },
+      "levelNeeded": "0",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png?88153c"
+      }
+    },
+    {
+      "name": "Arctic",
+      "cost": {
+        "text": "3,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "5",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png?16b0e7"
+      }
+    },
+    {
+      "name": "Arctic Camo",
+      "cost": {
+        "text": "3,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "5",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png?293370"
+      }
+    },
+    {
+      "name": "Desert",
+      "cost": {
+        "text": "5,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "10",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png?7bd563"
+      }
+    },
+    {
+      "name": "Desert Camo",
+      "cost": {
+        "text": "5,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "10",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png?b94f72"
+      }
+    },
+    {
+      "name": "Forest",
+      "cost": {
+        "text": "7,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "15",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png?2f7313"
+      }
+    },
+    {
+      "name": "Forest Camo",
+      "cost": {
+        "text": "7,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "15",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png?dd432a"
+      }
+    },
+    {
+      "name": "Urban",
+      "cost": {
+        "text": "13,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "20",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png?afc313"
+      }
+    },
+    {
+      "name": "Urban Camo",
+      "cost": {
+        "text": "13,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "20",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png?a60f44"
+      }
+    },
+    {
+      "name": "Venus",
+      "cost": {
+        "text": "13,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "25",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png?b0140a"
+      }
+    },
+    {
+      "name": "Night",
+      "cost": {
+        "text": "13,000",
+        "currency": "requisition"
+      },
+      "levelNeeded": "25",
+      "image": {
+        "file": "AR-23P_Liberator_Penetrator_Night_Pattern_Render.png",
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Night_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Night_Pattern_Render.png?d737e0"
+      }
+    }
+  ],
+  "rankTitles": [
+    {
+      "name": "Cadet",
+      "page": {
+        "label": "Cadet",
+        "title": "Cadet",
+        "anchor": null
+      },
+      "level": "1",
+      "icon": {
+        "file": "Level_1_Cadet_Rank_Icon.svg",
+        "src": "/images/Level_1_Cadet_Rank_Icon.svg?816477"
+      }
+    },
+    {
+      "name": "Space Cadet",
+      "page": {
+        "label": "Space Cadet",
+        "title": "Space Cadet",
+        "anchor": null
+      },
+      "level": "5",
+      "icon": {
+        "file": "Level_5_Space_Cadet_Rank_Icon.svg",
+        "src": "/images/Level_5_Space_Cadet_Rank_Icon.svg?68fe5d"
+      }
+    },
+    {
+      "name": "Sergeant",
+      "page": {
+        "label": "Sergeant",
+        "title": "Sergeant",
+        "anchor": null
+      },
+      "level": "10",
+      "icon": {
+        "file": "Level_10_Sergeant_Rank_Icon.svg",
+        "src": "/images/Level_10_Sergeant_Rank_Icon.svg?7cf0ad"
+      }
+    },
+    {
+      "name": "Master Sergeant",
+      "page": {
+        "label": "Master Sergeant",
+        "title": "Master Sergeant",
+        "anchor": null
+      },
+      "level": "15",
+      "icon": {
+        "file": "Level_15_Master_Sergeant_Rank_Icon.svg",
+        "src": "/images/Level_15_Master_Sergeant_Rank_Icon.svg?910950"
+      }
+    },
+    {
+      "name": "Chief",
+      "page": {
+        "label": "Chief",
+        "title": "Chief",
+        "anchor": null
+      },
+      "level": "20",
+      "icon": {
+        "file": "Level_20_Chief_Rank_Icon.svg",
+        "src": "/images/Level_20_Chief_Rank_Icon.svg?15394a"
+      }
+    },
+    {
+      "name": "Space Chief Prime",
+      "page": {
+        "label": "Space Chief Prime",
+        "title": "Space Chief Prime",
+        "anchor": null
+      },
+      "level": "25",
+      "icon": {
+        "file": "Level_25_Space_Chief_Prime_Rank_Icon.svg",
+        "src": "/images/Level_25_Space_Chief_Prime_Rank_Icon.svg?b4633c"
+      }
+    },
+    {
+      "name": "Death Captain",
+      "page": {
+        "label": "Death Captain",
+        "title": "Death Captain",
+        "anchor": null
+      },
+      "level": "30",
+      "icon": {
+        "file": "Level_30_Death_Captain_Rank_Icon.svg",
+        "src": "/images/Level_30_Death_Captain_Rank_Icon.svg?3037bf"
+      }
+    },
+    {
+      "name": "Marshal",
+      "page": {
+        "label": "Marshal",
+        "title": "Marshal",
+        "anchor": null
+      },
+      "level": "35",
+      "icon": {
+        "file": "Level_35_Marshal_Rank_Icon.svg",
+        "src": "/images/Level_35_Marshal_Rank_Icon.svg?d5cbdd"
+      }
+    },
+    {
+      "name": "Star Marshal",
+      "page": {
+        "label": "Star Marshal",
+        "title": "Star Marshal",
+        "anchor": null
+      },
+      "level": "40",
+      "icon": {
+        "file": "Level_40_Star_Marshal_Rank_Icon.svg",
+        "src": "/images/Level_40_Star_Marshal_Rank_Icon.svg?56e8d4"
+      }
+    },
+    {
+      "name": "Admiral",
+      "page": {
+        "label": "Admiral",
+        "title": "Admiral",
+        "anchor": null
+      },
+      "level": "45",
+      "icon": {
+        "file": "Level_45_Admiral_Rank_Icon.svg",
+        "src": "/images/Level_45_Admiral_Rank_Icon.svg?3845e7"
+      }
+    },
+    {
+      "name": "Skull Admiral",
+      "page": {
+        "label": "Skull Admiral",
+        "title": "Skull Admiral",
+        "anchor": null
+      },
+      "level": "50",
+      "icon": {
+        "file": "Level_50_Skull_Admiral_Rank_Icon.svg",
+        "src": "/images/Level_50_Skull_Admiral_Rank_Icon.svg?b0b268"
+      }
+    },
+    {
+      "name": "Fleet Admiral",
+      "page": {
+        "label": "Fleet Admiral",
+        "title": "Fleet Admiral",
+        "anchor": null
+      },
+      "level": "60",
+      "icon": {
+        "file": "Level_60_Fleet_Admiral_Rank_Icon.svg",
+        "src": "/images/Level_60_Fleet_Admiral_Rank_Icon.svg?59b683"
+      }
+    },
+    {
+      "name": "Admirable Admiral",
+      "page": {
+        "label": "Admirable Admiral",
+        "title": "Admirable Admiral",
+        "anchor": null
+      },
+      "level": "70",
+      "icon": {
+        "file": "Level_70_Admirable_Admiral_Rank_Icon.svg",
+        "src": "/images/Level_70_Admirable_Admiral_Rank_Icon.svg?7531fa"
+      }
+    },
+    {
+      "name": "Commander",
+      "page": {
+        "label": "Commander",
+        "title": "Commander",
+        "anchor": null
+      },
+      "level": "80",
+      "icon": {
+        "file": "Level_80_Commander_Rank_Icon.svg",
+        "src": "/images/Level_80_Commander_Rank_Icon.svg?e6eadf"
+      }
+    },
+    {
+      "name": "Galactic Commander",
+      "page": {
+        "label": "Galactic Commander",
+        "title": "Galactic Commander",
+        "anchor": null
+      },
+      "level": "90",
+      "icon": {
+        "file": "Level_90_Galactic_Commander_Rank_Icon.svg",
+        "src": "/images/Level_90_Galactic_Commander_Rank_Icon.svg?286795"
+      }
+    },
+    {
+      "name": "Hell Commander",
+      "page": {
+        "label": "Hell Commander",
+        "title": "Hell Commander",
+        "anchor": null
+      },
+      "level": "100",
+      "icon": {
+        "file": "Level_100_Hell_Commander_Rank_Icon.svg",
+        "src": "/images/Level_100_Hell_Commander_Rank_Icon.svg?dc5553"
+      }
+    },
+    {
+      "name": "General",
+      "page": {
+        "label": "General",
+        "title": "General",
+        "anchor": null
+      },
+      "level": "110",
+      "icon": {
+        "file": "Level_110_General_Rank_Icon.svg",
+        "src": "/images/Level_110_General_Rank_Icon.svg?2549b4"
+      }
+    },
+    {
+      "name": "5-Star General",
+      "page": {
+        "label": "5-Star General",
+        "title": "5-Star General",
+        "anchor": null
+      },
+      "level": "120",
+      "icon": {
+        "file": "Level_120_5-Star_General_Rank_Icon.svg",
+        "src": "/images/Level_120_5-Star_General_Rank_Icon.svg?77d24b"
+      }
+    },
+    {
+      "name": "10-Star General",
+      "page": {
+        "label": "10-Star General",
+        "title": "10-Star General",
+        "anchor": null
+      },
+      "level": "130",
+      "icon": {
+        "file": "Level_130_10-Star_General_Rank_Icon.svg",
+        "src": "/images/Level_130_10-Star_General_Rank_Icon.svg?c20bfe"
+      }
+    },
+    {
+      "name": "Private",
+      "page": {
+        "label": "Private",
+        "title": "Private",
+        "anchor": null
+      },
+      "level": "140",
+      "icon": {
+        "file": "Level_140_Private_Rank_Icon.svg",
+        "src": "/images/Level_140_Private_Rank_Icon.svg?27e5db"
+      }
+    },
+    {
+      "name": "Super Private",
+      "page": {
+        "label": "Super Private",
+        "title": "Super Private",
+        "anchor": null
+      },
+      "level": "150",
+      "icon": {
+        "file": "Level_150_Super_Private_Rank_Icon.svg",
+        "src": "/images/Level_150_Super_Private_Rank_Icon.svg?b41190"
+      }
+    },
+    {
+      "name": "5-Star Super Private",
+      "page": {
+        "label": "5-Star Super Private",
+        "title": "5-Star Super Private",
+        "anchor": null
+      },
+      "level": "160",
+      "icon": {
+        "file": "Level_160_5-Star_Super_Private_Rank_Icon.svg",
+        "src": "/images/Level_160_5-Star_Super_Private_Rank_Icon.svg?477ea2"
+      }
+    },
+    {
+      "name": "10-Star Super Private",
+      "page": {
+        "label": "10-Star Super Private",
+        "title": "10-Star Super Private",
+        "anchor": null
+      },
+      "level": "170",
+      "icon": {
+        "file": "Level_170_10-Star_Super_Private_Rank_Icon.svg",
+        "src": "/images/Level_170_10-Star_Super_Private_Rank_Icon.svg?201218"
+      }
+    },
+    {
+      "name": "Ranger",
+      "page": {
+        "label": "Ranger",
+        "title": "Ranger",
+        "anchor": null
+      },
+      "level": "180",
+      "icon": {
+        "file": "Level_180_Ranger_Rank_Icon.svg",
+        "src": "/images/Level_180_Ranger_Rank_Icon.svg?49e700"
+      }
+    },
+    {
+      "name": "Ranger, Eagle Class",
+      "page": {
+        "label": "Ranger, Eagle Class",
+        "title": "Ranger, Eagle Class",
+        "anchor": null
+      },
+      "level": "190",
+      "icon": {
+        "file": "Level_190_Ranger,_Eagle_Class_Rank_Icon.svg",
+        "src": "/images/Level_190_Ranger%2C_Eagle_Class_Rank_Icon.svg?885e58"
+      }
+    },
+    {
+      "name": "Ranger, Bald Eagle Class",
+      "page": {
+        "label": "Ranger, Bald Eagle Class",
+        "title": "Ranger, Bald Eagle Class",
+        "anchor": null
+      },
+      "level": "200",
+      "icon": {
+        "file": "Level_200_Ranger,_Bald_Eagle_Class_Rank_Icon.svg",
+        "src": "/images/Level_200_Ranger%2C_Bald_Eagle_Class_Rank_Icon.svg?8818e8"
+      }
+    },
+    {
+      "name": "Divemaster",
+      "page": {
+        "label": "Divemaster",
+        "title": "Divemaster",
+        "anchor": null
+      },
+      "level": "210",
+      "icon": {
+        "file": "Level_210_Divemaster_Rank_Icon.svg",
+        "src": "/images/Level_210_Divemaster_Rank_Icon.svg?1b0917"
+      }
+    },
+    {
+      "name": "First Divemaster",
+      "page": {
+        "label": "First Divemaster",
+        "title": "First Divemaster",
+        "anchor": null
+      },
+      "level": "220",
+      "icon": {
+        "file": "Level_220_First_Divemaster_Rank_Icon.svg",
+        "src": "/images/Level_220_First_Divemaster_Rank_Icon.svg?269050"
+      }
+    },
+    {
+      "name": "Divemaster Major",
+      "page": {
+        "label": "Divemaster Major",
+        "title": "Divemaster Major",
+        "anchor": null
+      },
+      "level": "230",
+      "icon": {
+        "file": "Level_230_Divemaster_Major_Rank_Icon.svg",
+        "src": "/images/Level_230_Divemaster_Major_Rank_Icon.svg?c9c0a5"
+      }
+    },
+    {
+      "name": "Command Divemaster Major",
+      "page": {
+        "label": "Command Divemaster Major",
+        "title": "Command Divemaster Major",
+        "anchor": null
+      },
+      "level": "240",
+      "icon": {
+        "file": "Level_240_Command_Divemaster_Major_Rank_Icon.svg",
+        "src": "/images/Level_240_Command_Divemaster_Major_Rank_Icon.svg?213cef"
+      }
+    },
+    {
+      "name": "Master Divemaster",
+      "page": {
+        "label": "Master Divemaster",
+        "title": "Master Divemaster",
+        "anchor": null
+      },
+      "level": "250",
+      "icon": {
+        "file": "Level_250_Master_Divemaster_Rank_Icon.svg",
+        "src": "/images/Level_250_Master_Divemaster_Rank_Icon.svg?b31fd7"
+      }
+    },
+    {
+      "name": "Master Divemaster Major Omega",
+      "page": {
+        "label": "Master Divemaster Major Omega",
+        "title": "Master Divemaster Major Omega",
+        "anchor": null
+      },
+      "level": "260",
+      "icon": {
+        "file": "Level_260_Master_Divemaster_Major_Omega_Rank_Icon.svg",
+        "src": "/images/Level_260_Master_Divemaster_Major_Omega_Rank_Icon.svg?3234f6"
+      }
+    },
+    {
+      "name": "Max Rank",
+      "page": {
+        "label": "Max Rank",
+        "title": "Max Rank",
+        "anchor": null
+      },
+      "level": "270",
+      "icon": {
+        "file": "Level_270_Max_Rank_Rank_Icon.svg",
+        "src": "/images/Level_270_Max_Rank_Rank_Icon.svg?3e811b"
+      }
+    },
+    {
+      "name": "Max Rank Infinity",
+      "page": {
+        "label": "Max Rank Infinity",
+        "title": "Max Rank Infinity",
+        "anchor": null
+      },
+      "level": "280",
+      "icon": {
+        "file": "Level_280_Max_Rank_Infinity_Rank_Icon.svg",
+        "src": "/images/Level_280_Max_Rank_Infinity_Rank_Icon.svg?b1f518"
+      }
+    },
+    {
+      "name": "Max Rank Infinity +1",
+      "page": {
+        "label": "Max Rank Infinity +1",
+        "title": "Max Rank Infinity +1",
+        "anchor": null
+      },
+      "level": "290",
+      "icon": {
+        "file": "Level_290_Max_Rank_Infinity_+1_Rank_Icon.svg",
+        "src": "/images/Level_290_Max_Rank_Infinity_%2B1_Rank_Icon.svg?31fed9"
+      }
+    },
+    {
+      "name": "Rank 300",
+      "page": {
+        "label": "Rank 300",
+        "title": "Rank 300",
+        "anchor": null
+      },
+      "level": "300",
+      "icon": {
+        "file": "Level_300_Rank_300_Rank_Icon.svg",
+        "src": "/images/Level_300_Rank_300_Rank_Icon.svg?c50cbf"
+      }
+    }
+  ],
+  "acquirableTitles": [
+    {
+      "name": "Super Citizen",
+      "page": {
+        "label": "Super Citizen",
+        "title": "Super Citizen",
+        "anchor": null
+      },
+      "source": {
+        "label": "Super Citizen Edition",
+        "link": {
+          "label": "Super Citizen Edition",
+          "title": "Super Citizen Edition",
+          "anchor": null
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "💲20",
+        "currency": "usd"
+      },
+      "icon": {
+        "file": "Super_Citizen_Title_Icon.svg",
+        "src": "/images/Super_Citizen_Title_Icon.svg?82982c"
+      }
+    },
+    {
+      "name": "Viper Commando",
+      "page": {
+        "label": "Viper Commando",
+        "title": "Viper Commando",
+        "anchor": null
+      },
+      "source": {
+        "label": "Viper Commandos",
+        "link": {
+          "label": "Viper Commandos",
+          "title": "Viper Commandos Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Viper_Commando_Title_Icon.svg",
+        "src": "/images/Viper_Commando_Title_Icon.svg?2d0d41"
+      }
+    },
+    {
+      "name": "Fire Safety Officer",
+      "page": {
+        "label": "Fire Safety Officer",
+        "title": "Fire Safety Officer",
+        "anchor": null
+      },
+      "source": {
+        "label": "Freedom's Flame",
+        "link": {
+          "label": "Freedom's Flame",
+          "title": "Freedom's Flame Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Fire_Safety_Officer_Title_Icon.svg",
+        "src": "/images/Fire_Safety_Officer_Title_Icon.svg?21fdcb"
+      }
+    },
+    {
+      "name": "Expert Exterminator",
+      "page": {
+        "label": "Expert Exterminator",
+        "title": "Expert Exterminator",
+        "anchor": null
+      },
+      "source": {
+        "label": "Chemical Agents",
+        "link": {
+          "label": "Chemical Agents",
+          "title": "Chemical Agents Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Expert_Exterminator_Title_Icon.svg",
+        "src": "/images/Expert_Exterminator_Title_Icon.svg?3aefe8"
+      }
+    },
+    {
+      "name": "Free of Thought",
+      "page": {
+        "label": "Free of Thought",
+        "title": "Free of Thought",
+        "anchor": null
+      },
+      "source": {
+        "label": "Truth Enforcers",
+        "link": {
+          "label": "Truth Enforcers",
+          "title": "Truth Enforcers Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Free_of_Thought_Title_Icon.svg",
+        "src": "/images/Free_of_Thought_Title_Icon.svg?f14b60"
+      }
+    },
+    {
+      "name": "Super Pedestrian",
+      "page": {
+        "label": "Super Pedestrian",
+        "title": "Super Pedestrian",
+        "anchor": null
+      },
+      "source": {
+        "label": "Urban Legends",
+        "link": {
+          "label": "Urban Legends",
+          "title": "Urban Legends Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Super_Pedestrian_Title_Icon.svg",
+        "src": "/images/Super_Pedestrian_Title_Icon.svg?d4d029"
+      }
+    },
+    {
+      "name": "Assault Infantry",
+      "page": {
+        "label": "Assault Infantry",
+        "title": "Assault Infantry",
+        "anchor": null
+      },
+      "source": {
+        "label": "Righteous Revenants",
+        "link": {
+          "label": "Righteous Revenants",
+          "title": "Helldivers 2 x Killzone Legendary Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Assault_Infantry_Title_Icon.svg",
+        "src": "/images/Assault_Infantry_Title_Icon.svg?7a942c"
+      }
+    },
+    {
+      "name": "Servant of Freedom",
+      "page": {
+        "label": "Servant of Freedom",
+        "title": "Servant of Freedom",
+        "anchor": null
+      },
+      "source": {
+        "label": "Servants of Freedom",
+        "link": {
+          "label": "Servants of Freedom",
+          "title": "Servants of Freedom Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "25",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Servant_of_Freedom_Title_Icon.svg",
+        "src": "/images/Servant_of_Freedom_Title_Icon.svg?2f4522"
+      }
+    },
+    {
+      "name": "Super Sheriff",
+      "page": {
+        "label": "Super Sheriff",
+        "title": "Super Sheriff",
+        "anchor": null
+      },
+      "source": {
+        "label": "Borderline Justice",
+        "link": {
+          "label": "Borderline Justice",
+          "title": "Borderline Justice Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "25",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Super_Sheriff_Title_Icon.svg",
+        "src": "/images/Super_Sheriff_Title_Icon.svg?54ecfa"
+      }
+    },
+    {
+      "name": "Decorated Hero",
+      "page": {
+        "label": "Decorated Hero",
+        "title": "Decorated Hero",
+        "anchor": null
+      },
+      "source": {
+        "label": "Masters of Ceremony",
+        "link": {
+          "label": "Masters of Ceremony",
+          "title": "Masters of Ceremony Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "25",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Decorated_Hero_Title_Icon.svg",
+        "src": "/images/Decorated_Hero_Title_Icon.svg?634738"
+      }
+    },
+    {
+      "name": "Extra Judicial",
+      "page": {
+        "label": "Extra Judicial",
+        "title": "Extra Judicial",
+        "anchor": null
+      },
+      "source": {
+        "label": "Force of Law",
+        "link": {
+          "label": "Force of Law",
+          "title": "Force of Law Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Extra_Judicial_Title_Icon.svg",
+        "src": "/images/Extra_Judicial_Title_Icon.svg?72bac3"
+      }
+    },
+    {
+      "name": "Exemplary Subject",
+      "page": {
+        "label": "Exemplary Subject",
+        "title": "Exemplary Subject",
+        "anchor": null
+      },
+      "source": {
+        "label": "Control Group",
+        "link": {
+          "label": "Control Group",
+          "title": "Control Group Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Exemplary_Subject_Title_Icon.svg",
+        "src": "/images/Exemplary_Subject_Title_Icon.svg?a83495"
+      }
+    },
+    {
+      "name": "Rookie",
+      "page": {
+        "label": "Rookie",
+        "title": "Rookie",
+        "anchor": null
+      },
+      "source": {
+        "label": "Halo: ODST",
+        "link": {
+          "label": "Halo: ODST",
+          "title": "Obedient Democracy Support Troopers Legendary Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Rookie_Title_Icon.svg",
+        "src": "/images/Rookie_Title_Icon.svg?780492"
+      }
+    },
+    {
+      "name": "Burier of Heads",
+      "page": {
+        "label": "Burier of Heads",
+        "title": "Burier of Heads",
+        "anchor": null
+      },
+      "source": {
+        "label": "Dust Devils",
+        "link": {
+          "label": "Dust Devils",
+          "title": "Dust Devils Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Burier_of_Heads_Title_Icon.svg",
+        "src": "/images/Burier_of_Heads_Title_Icon.svg?e83ca0"
+      }
+    },
+    {
+      "name": "Python Commando",
+      "page": {
+        "label": "Python Commando",
+        "title": "Python Commando",
+        "anchor": null
+      },
+      "source": {
+        "label": "Python Commandos",
+        "link": {
+          "label": "Python Commandos",
+          "title": "Python Commandos Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Python_Commando_Title_Icon.svg",
+        "src": "/images/Python_Commando_Title_Icon.svg?807cf7"
+      }
+    },
+    {
+      "name": "[Redacted]",
+      "page": {
+        "label": "[Redacted]",
+        "title": "Redacted",
+        "anchor": null
+      },
+      "source": {
+        "label": "Redacted Regiment",
+        "link": {
+          "label": "Redacted Regiment",
+          "title": "Redacted Regiment Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Redacted_Title_Icon.svg",
+        "src": "/images/Redacted_Title_Icon.svg?b40be7"
+      }
+    },
+    {
+      "name": "Bunker Buster",
+      "page": {
+        "label": "Bunker Buster",
+        "title": "Bunker Buster",
+        "anchor": null
+      },
+      "source": {
+        "label": "Siege Breakers",
+        "link": {
+          "label": "Siege Breakers",
+          "title": "Siege Breakers Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Bunker_Buster_Title_Icon.svg",
+        "src": "/images/Bunker_Buster_Title_Icon.svg?7d51bb"
+      }
+    },
+    {
+      "name": "Mudskipper",
+      "page": {
+        "label": "Mudskipper",
+        "title": "Mudskipper",
+        "anchor": null
+      },
+      "source": {
+        "label": "Entrenched Division",
+        "link": {
+          "label": "Entrenched Division",
+          "title": "Entrenched Division Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Mudskipper_Title_Icon.svg",
+        "src": "/images/Mudskipper_Title_Icon.svg?d75286"
+      }
+    },
+    {
+      "name": "Exosuit Certified",
+      "page": {
+        "label": "Exosuit Certified",
+        "title": "Exosuit Certified",
+        "anchor": null
+      },
+      "source": {
+        "label": "Exo Experts",
+        "link": {
+          "label": "Exo Experts",
+          "title": "Exo Experts Premium Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Exosuit_Certified_Title_Icon.svg",
+        "src": "/images/Exosuit_Certified_Title_Icon.svg?9df1ee"
+      }
+    },
+    {
+      "name": "Still Standing",
+      "page": {
+        "label": "Still Standing",
+        "title": "Still Standing",
+        "anchor": null
+      },
+      "source": {
+        "label": "Castellan’s Creed",
+        "link": {
+          "label": "Castellan’s Creed",
+          "title": "Castellan’s Creed Legendary Warbond",
+          "anchor": "Page_3"
+        },
+        "pageMarker": null
+      },
+      "cost": {
+        "text": "20",
+        "currency": "medals"
+      },
+      "icon": {
+        "file": "Still_Standing_Title_Icon.png",
+        "src": "/images/thumb/Still_Standing_Title_Icon.png/60px-Still_Standing_Title_Icon.png?7870b4"
+      }
+    }
+  ]
+}

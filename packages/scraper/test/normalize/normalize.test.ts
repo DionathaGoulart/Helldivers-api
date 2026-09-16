@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { NormalizeError } from "../../src/errors.ts";
+import { parseFlag, parseLevel } from "../../src/normalize/cosmetics.ts";
 import { parseCost } from "../../src/normalize/costs.ts";
 import { parseNumber } from "../../src/normalize/numbers.ts";
 import {
@@ -24,6 +25,19 @@ describe("parseNumber", () => {
 
   it.each(["", "15 Medals", "∞", "1.2.3"])("rejects %j", (text) => {
     expect(() => parseNumber(text, PAGE)).toThrow(NormalizeError);
+  });
+});
+
+describe("cosmetics cells", () => {
+  it("reads emote flags and fails on anything else", () => {
+    expect([parseFlag("✅", PAGE), parseFlag(" ❌ ", PAGE)]).toEqual([true, false]);
+    expect(() => parseFlag("Yes", PAGE)).toThrow(NormalizeError);
+  });
+
+  it("reads whole non-negative levels", () => {
+    expect([parseLevel("0", PAGE), parseLevel("300", PAGE)]).toEqual([0, 300]);
+    expect(() => parseLevel("2.5", PAGE)).toThrow(NormalizeError);
+    expect(() => parseLevel("Level 5", PAGE)).toThrow(NormalizeError);
   });
 });
 

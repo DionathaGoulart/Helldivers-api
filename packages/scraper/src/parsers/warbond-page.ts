@@ -64,19 +64,30 @@ export function parseWarbondPage(html: string, { url }: { url: string }): RawWar
   return parseRaw(RawWarbondPage, { title: readCanonicalTitle($, url), pages }, url, "h3 Page N");
 }
 
+const sameName = (a: string, b: string) =>
+  a.replaceAll("’", "'").replace(/\s+/g, " ").trim() ===
+  b.replaceAll("’", "'").replace(/\s+/g, " ").trim();
+
 /**
  * Rule 3 fallback (arch §5.5): the one page whose table links to `title` as `wikiType`, or
  * as any type when `wikiType` is null (weapon rows say "Assault Rifle", "Explosive Primary"…).
+ * `name` also matches the row name, for rows linking the same page (rule 10: pattern variants
+ * `Castellans Green Hellpod` / `… Shuttle` all link `Castellans Green Pattern`), and stands in
+ * for the link on rows without one (titles such as `Still Standing`).
  */
 export function findItem(
   warbond: RawWarbondPage,
   title: string,
   wikiType: string | null,
+  name: string | null = null,
 ): { page: number; item: RawWarbondItem } | null {
   const found = warbond.pages.flatMap((page) =>
     page.items
       .filter(
-        (item) => item.link?.title === title && (wikiType === null || item.wikiType === wikiType),
+        (item) =>
+          (item.link ? item.link.title === title : name !== null) &&
+          (wikiType === null || item.wikiType === wikiType) &&
+          (name === null || sameName(item.name, name)),
       )
       .map((item) => ({ page: page.number, item })),
   );
@@ -88,6 +99,7 @@ export function findItemPage(
   warbond: RawWarbondPage,
   title: string,
   wikiType: string | null,
+  name: string | null = null,
 ): number | null {
-  return findItem(warbond, title, wikiType)?.page ?? null;
+  return findItem(warbond, title, wikiType, name)?.page ?? null;
 }

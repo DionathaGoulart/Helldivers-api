@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { findItemPage, parseWarbondPage } from "../../src/parsers/warbond-page.ts";
+import { findItem, findItemPage, parseWarbondPage } from "../../src/parsers/warbond-page.ts";
 import { fixture } from "../fixtures.ts";
 
 describe("warbond-page parser (page tables)", async () => {
@@ -46,5 +46,21 @@ describe("warbond-page parser (page tables)", async () => {
     expect(findItemPage(mobilize, "Hellpod Space Optimization", "Booster")).toBe(3);
     expect(findItemPage(redacted, "Concealed Insertion", "Cape")).toBeNull();
     expect(findItemPage(redacted, "Nope", "Booster")).toBeNull();
+  });
+
+  it("tells rows linking the same page apart by name (rule 10 pattern variants)", async () => {
+    const page = await fixture("Castellan’s Creed Legendary Warbond");
+    const creed = parseWarbondPage(page.html, { url: page.url });
+    const title = "Castellans Green Pattern";
+    expect(findItem(creed, title, "Pattern")).toBeNull(); // four rows on three pages
+    expect(findItemPage(creed, title, "Pattern", "Castellans Green Shuttle")).toBe(2);
+    expect(findItem(creed, title, "Pattern", "Castellans  Green Exosuit")).toMatchObject({
+      page: 3,
+      item: { name: "Castellans Green Exosuit", cost: { text: "50", currency: "medals" } },
+    });
+    expect(findItem(creed, title, "Pattern", "Castellans Green Tank")).toBeNull();
+    // Title rows link nothing: only a name finds them.
+    expect(findItemPage(creed, "Still Standing", "Title")).toBeNull();
+    expect(findItemPage(creed, "Still Standing", "Title", "Still Standing")).toBe(3);
   });
 });
