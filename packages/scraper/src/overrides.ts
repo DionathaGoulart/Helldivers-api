@@ -7,10 +7,16 @@ import { z } from "zod";
 
 export const WarbondAliases = z.record(z.string().min(1), Id);
 export const SourceLabels = z.record(z.string().min(1), SourceType);
+/** Armor set id → its cape (null: no cape, whatever the evidence says) and why (rule 6). */
+export const ArmorSetOverrides = z.record(
+  Id,
+  z.strictObject({ capeId: Id.nullable(), evidence: z.string().min(1) }),
+);
 
 export interface Overrides {
   warbondAliases: z.infer<typeof WarbondAliases>;
   sourceLabels: z.infer<typeof SourceLabels>;
+  armorSets: z.infer<typeof ArmorSetOverrides>;
 }
 
 export const overridesDir = (dataDir: string) => join(dataDir, "overrides");
@@ -42,5 +48,6 @@ export async function readOverrides(dataDir: string): Promise<Overrides> {
   return {
     warbondAliases: await readOverride(join(dir, "warbond-aliases.json"), WarbondAliases, {}),
     sourceLabels: await readOverride(join(dir, "source-labels.json"), SourceLabels, {}),
+    armorSets: await readOverride(join(dir, "armor-sets.json"), ArmorSetOverrides, {}),
   };
 }
