@@ -1,15 +1,20 @@
+import type { Cheerio } from "cheerio";
+import type { Element } from "domhandler";
 import { z } from "zod";
 import { ParseError, parseRaw } from "../errors.ts";
 import { detectCurrency } from "../wiki/currency.ts";
+import { readDruid } from "../wiki/druid.ts";
 import { loadHtml, textOf } from "../wiki/html.ts";
 import { firstArticleLink } from "../wiki/links.ts";
-import { readCanonicalTitle } from "../wiki/page.ts";
+import { readCanonicalTitle, readCategories, readLead } from "../wiki/page.ts";
 import { findInSection, readSections } from "../wiki/sections.ts";
 import { cellAt, columnIndexes, readWikitable } from "../wiki/wikitable.ts";
-import { RawCost, RawLink } from "./raw.ts";
+import { RawCost, RawImage, RawLink } from "./raw.ts";
 
-// `/wiki/<Name>_Warbond`: `h3 "Page N"` → `table.wikitable` `Icon | Item | Type | Cost`.
-// Phase 2 only needs the page tables (rule 3 page fallback); Phase 3f adds the infobox.
+// `/wiki/<Name>_Warbond` (arch §4.3): DRUID `date`, `cost`, `credit-claim`, `all-pages`,
+// `all-items` and the cover; `h3 "Page N"` → `table.wikitable` `Icon | Item | Type | Cost`.
+// Item pipelines read only the page tables (rule 3 page fallback); the warbonds pipeline reads
+// everything. An unreleased warbond (Ironclad Democracy, 2026-09-16) has no medal totals yet.
 
 export const RawWarbondItem = z.object({
   name: z.string().min(1),
@@ -19,7 +24,16 @@ export const RawWarbondItem = z.object({
 });
 
 export const RawWarbondPage = z.object({
-  title: z.string().min(1),
+  title: z.string().min(1), // canonical page title
+  name: z.string().min(1), // DRUID title, "Helldivers Mobilize!"
+  lead: z.string().min(1).nullable(),
+  categories: z.array(z.string()),
+  image: RawImage.nullable(), // cover
+  releaseDate: z.string().min(1), // "August 12th, 2026"
+  cost: RawCost, // "1,000 Super Credits", "Free"
+  creditsClaimable: RawCost, // "300 Super Credits", "None"
+  medalsAllPages: RawCost.nullable(),
+  medalsAllItems: RawCost.nullable(),
   pages: z
     .array(z.object({ number: z.number().int().positive(), items: z.array(RawWarbondItem).min(1) }))
     .min(1),
@@ -30,8 +44,18 @@ export type RawWarbondPage = z.infer<typeof RawWarbondPage>;
 
 const COLUMNS = ["Icon", "Item", "Type", "Cost"] as const;
 
+const rawCost = (cell: Cheerio<Element>) => ({
+  text: textOf(cell),
+  currency: detectCurrency(cell),
+});
+
 export function parseWarbondPage(html: string, { url }: { url: string }): RawWarbondPage {
   const $ = loadHtml(html);
+  const druid = readDruid($, url);
+  const row = (key: string) => {
+    const found = druid.rows.get(key);
+    return found ? rawCost(found.data) : null;
+  };
   const pages = readSections($, 3).flatMap((section) => {
     const number = /^Page (\d+)$/.exec(section.title)?.[1];
     if (!number) {
@@ -49,19 +73,35 @@ export function parseWarbondPage(html: string, { url }: { url: string }): RawWar
       .filter((row) => row.cells.length === COLUMNS.length)
       .map((row) => {
         const cell = (name: (typeof COLUMNS)[number]) => cellAt(row, column[name], url, selector);
-        const cost = cell("Cost");
         return {
           name: textOf(cell("Item")),
           link: firstArticleLink(cell("Item")),
           wikiType: textOf(cell("Type")),
-          cost: { text: textOf(cost), currency: detectCurrency(cost) },
+          cost: rawCost(cell("Cost")),
         };
       })
       .filter((item) => item.name !== "");
     return [{ number: Number(number), items }];
   });
 
-  return parseRaw(RawWarbondPage, { title: readCanonicalTitle($, url), pages }, url, "h3 Page N");
+  return parseRaw(
+    RawWarbondPage,
+    {
+      title: readCanonicalTitle($, url),
+      name: druid.title,
+      lead: readLead($),
+      categories: readCategories($),
+      image: druid.image,
+      releaseDate: row("date")?.text,
+      cost: row("cost"),
+      creditsClaimable: row("credit-claim"),
+      medalsAllPages: row("all-pages"),
+      medalsAllItems: row("all-items"),
+      pages,
+    },
+    url,
+    ".druid-infobox, h3 Page N",
+  );
 }
 
 const sameName = (a: string, b: string) =>
