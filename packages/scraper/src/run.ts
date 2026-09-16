@@ -13,6 +13,7 @@ import { linkSetParts } from "./link/armor-sets.ts";
 import { linkPassiveArmors } from "./link/passives.ts";
 import { linkCapeCards } from "./link/player-cards.ts";
 import { linkTraitHolders } from "./link/traits.ts";
+import { linkWarbondCosts } from "./link/warbond-items.ts";
 import type { Logger } from "./log.ts";
 import { WarbondResolver } from "./normalize/warbonds.ts";
 import { idLockPath, readOverrides } from "./overrides.ts";
@@ -135,8 +136,13 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       report.warnings.push(...result.warnings);
       next = withCollection(next, result.collection, result.entities as never);
     }
-    // 6. Link: back-references over the merged dataset.
+    // 6. Link: back-references and warbond prices (rule 1) over the merged dataset.
     next = linkCapeCards(linkPassiveArmors(linkSetParts(linkTraitHolders(next))));
+    const costs = linkWarbondCosts(next, {
+      scraped: results.some((result) => result.collection === "warbonds"),
+    });
+    next = costs.dataset;
+    report.warnings.push(...costs.warnings);
     report.counts = results.map(({ collection, entities }) => ({
       collection,
       before: current.collections[collection]?.length ?? 0,
@@ -166,7 +172,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const conflicts = mergeConflicts(
       current.extraFiles.get(CONFLICTS_FILE),
       results.map((result) => result.collection),
-      results.flatMap((result) => result.conflicts),
+      [...results.flatMap((result) => result.conflicts), ...costs.conflicts],
     );
     if (conflicts) {
       extraFiles.set(CONFLICTS_FILE, conflicts);
@@ -209,8 +215,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     }
 
     // 8. Schema, layout and integrity of exactly what would be written.
-    const knownIds = next.warbonds ? {} : { warbonds: new Set(overrides.warbondStubs) };
-    const problems = validateDataset(files, { knownIds });
+    const problems = validateDataset(files);
     if (problems.length > 0) {
       throw new RunFailure(
         "invalid-data",

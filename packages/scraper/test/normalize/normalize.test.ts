@@ -6,6 +6,7 @@ import { parseNumber } from "../../src/normalize/numbers.ts";
 import {
   normalizeWarbondLabel,
   pageFromAnchor,
+  parseReleaseDate,
   WarbondResolver,
   warbondIdFromTitle,
 } from "../../src/normalize/warbonds.ts";
@@ -100,6 +101,19 @@ describe("warbonds", () => {
     ["Boosters", null],
   ])("id from title %s → %s", (title, id) => {
     expect(warbondIdFromTitle(title)).toBe(id);
+  });
+
+  it.each([
+    ["August 12th, 2026", "2026-08-12"],
+    ["August 08, 2024", "2024-08-08"],
+    ["October 31, 2024", "2024-10-31"],
+    ["March 1st, 2025", "2025-03-01"],
+  ])("release date %s → %s", (text, date) => {
+    expect(parseReleaseDate(text, PAGE)).toBe(date);
+  });
+
+  it.each(["February 30th, 2024", "Aug 1, 2024", "TBA"])("rejects release date %s", (text) => {
+    expect(() => parseReleaseDate(text, PAGE)).toThrow(NormalizeError);
   });
 
   it("normalizes labels and anchors", () => {

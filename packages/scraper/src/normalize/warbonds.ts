@@ -7,9 +7,15 @@ import { NormalizeError } from "../errors.ts";
 
 const TITLE_SUFFIX = /\s+(?:(?:Standard|Premium|Legendary)\s+)?Warbond$/i;
 
+/** `Castellan's Creed Legendary Warbond` → `Castellan's Creed`; null for other pages. */
+export function warbondStem(title: string): string | null {
+  return TITLE_SUFFIX.test(title) ? title.replace(TITLE_SUFFIX, "") : null;
+}
+
 /** `Castellan's Creed Legendary Warbond` → `castellans-creed`; null for other pages. */
 export function warbondIdFromTitle(title: string): Id | null {
-  return TITLE_SUFFIX.test(title) ? slugify(title.replace(TITLE_SUFFIX, "")) : null;
+  const stem = warbondStem(title);
+  return stem === null ? null : slugify(stem);
 }
 
 /** `Castellan’s Creed P1` → `Castellan's Creed` (curly apostrophe, page marker). */
@@ -55,4 +61,30 @@ export class WarbondResolver {
       "unknown warbond; map it in data/overrides/warbond-aliases.json",
     );
   }
+}
+
+const MONTHS = [
+  "January",
+  "February",
+  "March",
+  "April",
+  "May",
+  "June",
+  "July",
+  "August",
+  "September",
+  "October",
+  "November",
+  "December",
+];
+
+/** Infobox release dates: `August 12th, 2026`, `August 08, 2024`, `October 31, 2024` → ISO date. */
+export function parseReleaseDate(text: string, page: string): string {
+  const match = /^([A-Z][a-z]+) (\d{1,2})(?:st|nd|rd|th)?, (\d{4})$/.exec(text.trim());
+  const month = MONTHS.indexOf(match?.[1] ?? "");
+  const date = new Date(Date.UTC(Number(match?.[3]), month, Number(match?.[2])));
+  if (!match || month === -1 || date.getUTCDate() !== Number(match[2])) {
+    throw new NormalizeError(page, text, "expected a date like `August 12th, 2026`");
+  }
+  return date.toISOString().slice(0, 10);
 }

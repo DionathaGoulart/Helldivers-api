@@ -1,11 +1,13 @@
-import { copyFile, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import { copyFile, cp, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join, relative } from "node:path";
-import { type Collection, validateDataset } from "@hd2/schemas";
+import { type Collection, Collection as Collections, validateDataset } from "@hd2/schemas";
 import { readDatasetFiles } from "@hd2/schemas/node";
 import * as cheerio from "cheerio";
-import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from "vitest";
+import { PIPELINES, selectPipelines } from "../src/collections/index.ts";
 import { silentLogger } from "../src/log.ts";
+import type { RunReport } from "../src/publish/report.ts";
 import { runScrape } from "../src/run.ts";
 import { FixtureSource, type WikiPage, type WikiSource } from "../src/source.ts";
 import { FIXTURES_DIR } from "./fixtures.ts";
@@ -13,7 +15,7 @@ import { FIXTURES_DIR } from "./fixtures.ts";
 // E2E offline (arch §11): fixtures → data/v1 in a temporary DATA_DIR.
 
 const repoOverrides = join(import.meta.dirname, "..", "..", "..", "data", "overrides");
-const INPUT_OVERRIDES = ["warbond-aliases.json", "source-labels.json", "warbond-stubs.json"];
+const INPUT_OVERRIDES = ["warbond-aliases.json", "source-labels.json"];
 
 /** Fixture source whose Boosters index lost some rows. */
 class DroppingSource implements WikiSource {
@@ -39,16 +41,21 @@ class DroppingSource implements WikiSource {
   }
 }
 
+async function emptyDataDir(): Promise<string> {
+  const root = await mkdtemp(join(tmpdir(), "hd2-run-"));
+  await mkdir(join(root, "data", "overrides"), { recursive: true });
+  for (const file of INPUT_OVERRIDES) {
+    await copyFile(join(repoOverrides, file), join(root, "data", "overrides", file));
+  }
+  return root;
+}
+
 let dir: string;
 let dataDir: string;
 
 beforeEach(async () => {
-  dir = await mkdtemp(join(tmpdir(), "hd2-run-"));
+  dir = await emptyDataDir();
   dataDir = join(dir, "data");
-  await mkdir(join(dataDir, "overrides"), { recursive: true });
-  for (const file of INPUT_OVERRIDES) {
-    await copyFile(join(repoOverrides, file), join(dataDir, "overrides", file));
-  }
 });
 afterEach(async () => {
   await rm(dir, { recursive: true, force: true });
@@ -59,9 +66,10 @@ const run = (
   source: WikiSource = new FixtureSource(FIXTURES_DIR),
   allowDrop = false,
   only: Collection[] | null = null,
+  into = dataDir,
 ) =>
   runScrape({
-    dataDir,
+    dataDir: into,
     source,
     http: null,
     only,
@@ -84,10 +92,31 @@ async function readTree(root: string): Promise<Record<string, string>> {
   return tree;
 }
 
-// A full run reads ~480 fixture pages.
-describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
-  it("publishes every scraped collection equal to the golden snapshots", async () => {
-    const report = await run("2026-09-15T21:07:00.123Z");
+// A full run reads ~500 fixture pages, so it runs once: the tests that change a published
+// dataset start from a copy of it (warbond sources need the warbonds collection).
+let baselineDir: string;
+let baseline: RunReport;
+
+beforeAll(async () => {
+  baselineDir = await emptyDataDir();
+  baseline = await run(
+    "2026-09-15T21:07:00.123Z",
+    undefined,
+    false,
+    null,
+    join(baselineDir, "data"),
+  );
+}, 300_000);
+afterAll(async () => {
+  await rm(baselineDir, { recursive: true, force: true });
+});
+
+const fromBaseline = () => cp(join(baselineDir, "data"), dataDir, { recursive: true });
+
+describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
+  it("publishes every collection equal to the golden snapshots", async () => {
+    const report = baseline;
+    const dataDir = join(baselineDir, "data");
 
     expect(report.failure).toBeNull();
     expect(report).toMatchObject({ ok: true, changed: true, mode: "offline" });
@@ -105,10 +134,12 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       { collection: "emotes", before: 0, after: 48 },
       { collection: "patterns", before: 0, after: 27 },
       { collection: "titles", before: 0, after: 56 },
+      { collection: "warbonds", before: 0, after: 25 },
     ]);
     // Unreleased Ironclad Democracy items (their passive, costs, stats and descriptions, the two
-    // player cards missing from the Cosmetics grid), the Source-less CQC-73 Entrenchment Tool and
-    // one cape page without an Armory quote.
+    // player cards missing from the Cosmetics grid, the cosmetics and boosters only its warbond
+    // page lists), the Source-less CQC-73 Entrenchment Tool, one cape page without an Armory
+    // quote, an emote only the Exo Experts page lists and page tables that do not add up.
     expect(report.warnings).toEqual([
       "passives: Blunt-Force Mitigation is not listed on Armor Passives; read https://helldivers.wiki.gg/wiki/Blunt-Force_Mitigation",
       'weapons/ar-11-arbitrator: cost not announced ("? Medals")',
@@ -135,16 +166,23 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       "capes/shroud-of-the-juggernaut: no Armory description on https://helldivers.wiki.gg/wiki/Shroud_of_the_Juggernaut",
       'player-cards/standard-of-rapid-evacuation: cost not announced ("Medals")',
       'player-cards/shroud-of-the-juggernaut: cost not announced ("Medals")',
+      'warbonds/exo-experts: "Thumb of Approval" (Emote) matches no entity',
+      'warbonds/ironclad-democracy: "Verdant Camouflage" (Pattern) matches no entity',
+      'warbonds/ironclad-democracy: "Integrated Extinguishers" (Booster) matches no entity',
+      'warbonds/ironclad-democracy: "Glacial Polymer" (Pattern) matches no entity',
+      'warbonds/ironclad-democracy: "Helmet Durability Check" (Emote) matches no entity',
+      'warbonds/ironclad-democracy: "Surplus EAT Allocation" (Booster) matches no entity',
+      'warbonds/ironclad-democracy: "Executive Onyx" (Pattern) matches no entity',
+      'warbonds/ironclad-democracy: "Treadhead" (Title) matches no entity',
+      "warbonds/ironclad-democracy: 20 item costs not announced",
+      "warbonds/entrenched-division: page tables add up to 892 medals, All Items Unlocked says 888",
     ]);
     expect(report.changes.every((change) => change.kind === "added")).toBe(true);
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
 
     const { files, issues } = await readDatasetFiles(join(dataDir, "v1"));
     expect(issues).toEqual([]);
-    const stubs = JSON.parse(
-      await readFile(join(dataDir, "overrides", "warbond-stubs.json"), "utf8"),
-    );
-    expect(validateDataset(files, { knownIds: { warbonds: new Set(stubs) } })).toEqual([]);
+    expect(validateDataset(files)).toEqual([]);
     // meta + changelog + conflicts, then one list and one file per entity for each collection.
     expect(files.size).toBe(
       3 +
@@ -160,7 +198,8 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
         (1 + 76) +
         (1 + 48) +
         (1 + 27) +
-        (1 + 56),
+        (1 + 56) +
+        (1 + 25),
     );
     expect(files.get("meta.json")).toMatchObject({ generatedAt: "2026-09-15T21:07:00Z" });
 
@@ -178,6 +217,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       "emotes",
       "patterns",
       "titles",
+      "warbonds",
     ];
     for (const collection of collections) {
       const list = (files.get(`${collection}.json`) as { data: unknown[] }).data;
@@ -304,7 +344,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     });
 
     // TG-8 Sharpshooter armor and helmet equal arch §5.4 except the image. The helmet keeps its
-    // page cost (30); the warbond table's 39 is resolved with the warbonds (plan 3g).
+    // page cost (30): the warbond table's 39 loses by rule 1 (below).
     for (const collection of ["armors", "helmets"]) {
       const example = JSON.parse(
         await readFile(
@@ -413,6 +453,47 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       data: { source: { warbondId: "righteous-revenants", page: 3 } },
     });
 
+    // Castellan's Creed equals arch §5.4 except the image, the TG-8 helmet at 30 (rule 1).
+    expect(files.get("warbonds/castellans-creed.json")).toEqual({
+      meta: expect.anything(),
+      data: withoutImages(await readExample("warbonds.castellans-creed")),
+    });
+    // Rows linking a redirect (LAS-16 Trident → LAS-13 Trident) or with curly quotes resolve.
+    const refs = (id: string) =>
+      (
+        files.get(`warbonds/${id}.json`) as { data: { pages: { items: { ref: unknown }[] }[] } }
+      ).data.pages.flatMap((page) => page.items.map((item) => item.ref));
+    expect(refs("siege-breakers")).toContainEqual({
+      collection: "weapons",
+      id: "las-13-trident",
+      variant: null,
+    });
+    expect(refs("chemical-agents")).toContainEqual({
+      collection: "stratagems",
+      id: "ax-tx-13-dog-breath",
+      variant: null,
+    });
+    expect(files.get("warbonds/helldivers-mobilize.json")).toMatchObject({
+      data: {
+        name: "Helldivers Mobilize!",
+        aliases: ["Helldivers Mobilize"],
+        type: "standard",
+        cost: { currency: "super_credits", amount: 0 },
+        superCreditsClaimable: 750,
+        medalsAllItems: 2015,
+      },
+    });
+    expect(files.get("warbonds/obedient-democracy-support-troopers.json")).toMatchObject({
+      data: { aliases: ["Halo: ODST"] },
+    });
+    expect(files.get("warbonds/ironclad-democracy.json")).toMatchObject({
+      data: { releaseDate: "2026-09-22", medalsAllPages: null, medalsAllItems: null },
+    });
+    // Rule 1: Control Group's tables add up only with Protect Eardrums at 55, so the emote takes it.
+    expect(files.get("emotes/protect-eardrums.json")).toMatchObject({
+      data: { source: { warbondId: "control-group", page: 3, cost: { amount: 55 } } },
+    });
+
     // Civilian weapons: SG-88 equals arch §5.4 except the image, the table-keyed `statsRaw` and
     // the maintenance flag the audit did not capture; the CQC-72 page is named Trench Shovel in
     // game and mentions CQC-73's warbond.
@@ -445,8 +526,69 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     });
 
     const conflicts = (
-      files.get("reports/conflicts.json") as { conflicts: { id: string; field: string }[] }
+      files.get("reports/conflicts.json") as {
+        conflicts: { collection: string; id: string; field: string }[];
+      }
     ).conflicts;
+    expect(conflicts.filter((conflict) => conflict.collection === "warbonds")).toEqual([
+      {
+        collection: "warbonds",
+        id: "castellans-creed",
+        field: "pages[0].items[2].cost",
+        rule: 1,
+        chosen: { currency: "medals", amount: 30 },
+        candidates: [
+          {
+            page: "https://helldivers.wiki.gg/wiki/Castellan's_Creed_Legendary_Warbond",
+            location: "Page 1 › TG-8 Sharpshooter",
+            value: { currency: "medals", amount: 39 },
+          },
+          {
+            page: "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+            location: "helmets/tg-8-sharpshooter › source",
+            value: { currency: "medals", amount: 30 },
+          },
+        ],
+      },
+      {
+        collection: "warbonds",
+        id: "control-group",
+        field: "pages[2].items[3].cost",
+        rule: 1,
+        chosen: { currency: "medals", amount: 55 },
+        candidates: [
+          {
+            page: "https://helldivers.wiki.gg/wiki/Control_Group_Premium_Warbond",
+            location: "Page 3 › Protect Eardrums",
+            value: { currency: "medals", amount: 55 },
+          },
+          {
+            page: "https://helldivers.wiki.gg/wiki/Protect_Eardrums",
+            location: "emotes/protect-eardrums › source",
+            value: { currency: "medals", amount: 50 },
+          },
+        ],
+      },
+      {
+        collection: "warbonds",
+        id: "entrenched-division",
+        field: "medalsAllItems",
+        rule: 1,
+        chosen: 888,
+        candidates: [
+          {
+            page: "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
+            location: "infobox › All Items Unlocked",
+            value: 888,
+          },
+          {
+            page: "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
+            location: "page tables › sum",
+            value: 892,
+          },
+        ],
+      },
+    ]);
     // Rule 10: the warbond table places Castellans Green Exosuit on page 3, its page tab on 1.
     expect(conflicts.filter((conflict) => conflict.id === "castellans-green")).toEqual([
       {
@@ -534,6 +676,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       ["emotes", 48],
       ["patterns", 27],
       ["titles", 56],
+      ["warbonds", 25],
     ] as const) {
       expect(Object.keys(lock[collection]), collection).toHaveLength(count);
     }
@@ -541,10 +684,11 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(lock.patterns["Castellans Green Pattern"]).toBe("castellans-green");
     expect(lock.patterns["Cosmetics#Patterns/Arctic"]).toBe("arctic");
     expect(lock.titles.Redacted).toBe("redacted");
+    expect(lock.warbonds["Helldivers Mobilize Warbond"]).toBe("helldivers-mobilize");
   });
 
   it("changes nothing on a second run with the same pages", async () => {
-    await run("2026-09-15T21:07:00Z");
+    await fromBaseline();
     const before = await readTree(dataDir);
 
     const report = await run("2026-09-16T21:07:00Z");
@@ -553,7 +697,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
   });
 
   it("fails with count-drop when 3 of 18 rows disappear and leaves data untouched", async () => {
-    await run("2026-09-15T21:07:00Z", undefined, false, ["boosters"]);
+    await fromBaseline();
     const before = await readTree(dataDir);
 
     const report = await run(
@@ -567,14 +711,24 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(await readTree(dataDir)).toEqual(before);
   });
 
+  // A removal needs the warbonds too: their rows would still refer to the removed booster.
   it("publishes a removal when 1 of 18 rows disappears", async () => {
-    await run("2026-09-15T21:07:00Z", undefined, false, ["boosters"]);
-    const report = await run("2026-09-16T21:07:00Z", new DroppingSource(["Stun Pods"]), false, [
-      "boosters",
-    ]);
+    await fromBaseline();
+    const report = await run("2026-09-16T21:07:00Z", new DroppingSource(["Stun Pods"]));
 
     expect(report).toMatchObject({ ok: true, changed: true });
-    expect(report.changes).toEqual([{ collection: "boosters", id: "stun-pods", kind: "removed" }]);
+    expect(report.warnings.filter((warning) => !baseline.warnings.includes(warning))).toEqual([
+      'warbonds/force-of-law: "Stun Pods" (Booster) matches no entity',
+    ]);
+    expect(report.changes).toEqual([
+      {
+        collection: "warbonds",
+        id: "force-of-law",
+        kind: "changed",
+        paths: ["pages[1].items[1].ref"],
+      },
+      { collection: "boosters", id: "stun-pods", kind: "removed" },
+    ]);
     const changelog = JSON.parse(await readFile(join(dataDir, "v1", "changelog.json"), "utf8"));
     expect(changelog.data.map((entry: { date: string }) => entry.date)).toEqual([
       "2026-09-16",
@@ -583,7 +737,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
   });
 
   it("keeps the cape ⇄ player card pairs on a capes-only run", async () => {
-    await run("2026-09-15T21:07:00Z");
+    await fromBaseline();
     const before = await readTree(dataDir);
 
     const report = await run("2026-09-16T21:07:00Z", undefined, false, ["capes"]);
@@ -591,8 +745,17 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(await readTree(dataDir)).toEqual(before);
   });
 
+  it("keeps rule 1 prices on an emotes-only run", async () => {
+    await fromBaseline();
+    const before = await readTree(dataDir);
+
+    const report = await run("2026-09-16T21:07:00Z", undefined, false, ["emotes"]);
+    expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
+    expect(await readTree(dataDir)).toEqual(before);
+  });
+
   it("refreshes weapon trait back-references on a weapons-only run", async () => {
-    await run("2026-09-15T21:07:00Z", undefined, false, ["weapon-traits", "weapons"]);
+    await fromBaseline();
     const lap = join(dataDir, "v1", "weapon-traits", "light-armor-penetrating.json");
     const before = await readFile(lap, "utf8");
     const published = JSON.parse(before);
@@ -629,24 +792,12 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(report.failure).toEqual({ kind: "error", messages: [message] });
   });
 
-  it("refuses a collection that is not scraped yet", async () => {
-    const report = await runScrape({
-      dataDir,
-      source: new FixtureSource(FIXTURES_DIR),
-      http: null,
-      only: ["warbonds"],
-      allowDrop: false,
-      fullRefresh: false,
-      baseUrl: "https://helldivers.wiki.gg",
-      userAgent: "test",
-      now: () => new Date("2026-09-15T21:07:00Z"),
-      logger: silentLogger,
-    });
-    expect(report.failure).toEqual({
-      kind: "error",
-      messages: [
-        "warbonds is not scraped yet (available: boosters, passives, weapon-traits, weapons, stratagems, armors, helmets, capes, armor-sets, player-cards, emotes, patterns, titles)",
-      ],
-    });
+  it("scrapes every collection, dependencies first", () => {
+    expect(PIPELINES.map((pipeline) => pipeline.collection).sort()).toEqual(
+      [...Collections.options].sort(),
+    );
+    expect(
+      selectPipelines(["warbonds", "weapons", "weapon-traits"]).map((p) => p.collection),
+    ).toEqual(["weapon-traits", "weapons", "warbonds"]);
   });
 });
