@@ -1,9 +1,12 @@
 {
   "Bridge": "requisition",
   "Celestial Fence": "event",
+  "Census Thunder": "event",
+  "Counterdissident Hammer": "event",
   "Engineering Bay": "requisition",
   "Hangar": "requisition",
   "Liberty Day": "event",
+  "N/A": "other",
   "Orbital Cannons": "requisition",
   "Patriotic Administration Center": "requisition",
   "Pre-Order Bonus": "pre_order",

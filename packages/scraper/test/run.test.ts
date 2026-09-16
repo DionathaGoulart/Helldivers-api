@@ -84,8 +84,9 @@ async function readTree(root: string): Promise<Record<string, string>> {
   return tree;
 }
 
-describe("pnpm scrape --offline", () => {
-  it("publishes boosters, passives, weapon traits and weapons equal to the golden snapshots", async () => {
+// Each run reads ~250 fixture pages.
+describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
+  it("publishes boosters, passives, weapon traits, weapons and stratagems equal to the golden snapshots", async () => {
     const report = await run("2026-09-15T21:07:00.123Z");
 
     expect(report.failure).toBeNull();
@@ -95,6 +96,7 @@ describe("pnpm scrape --offline", () => {
       { collection: "passives", before: 0, after: 30 },
       { collection: "weapon-traits", before: 0, after: 28 },
       { collection: "weapons", before: 0, after: 102 },
+      { collection: "stratagems", before: 0, after: 114 },
     ]);
     // Unreleased Ironclad Democracy weapons and the Source-less CQC-73 Entrenchment Tool.
     expect(report.warnings).toEqual([
@@ -120,10 +122,10 @@ describe("pnpm scrape --offline", () => {
     );
     expect(validateDataset(files, { knownIds: { warbonds: new Set(stubs) } })).toEqual([]);
     // meta + changelog + conflicts, then one list and one file per entity for each collection.
-    expect(files.size).toBe(3 + (1 + 18) + (1 + 30) + (1 + 28) + (1 + 102));
+    expect(files.size).toBe(3 + (1 + 18) + (1 + 30) + (1 + 28) + (1 + 102) + (1 + 114));
     expect(files.get("meta.json")).toMatchObject({ generatedAt: "2026-09-15T21:07:00Z" });
 
-    for (const collection of ["boosters", "passives", "weapon-traits", "weapons"]) {
+    for (const collection of ["boosters", "passives", "weapon-traits", "weapons", "stratagems"]) {
       const list = (files.get(`${collection}.json`) as { data: unknown[] }).data;
       await expect(`${JSON.stringify(list, null, 2)}\n`).toMatchFileSnapshot(
         `./__snapshots__/${collection}.offline.json`,
@@ -146,7 +148,7 @@ describe("pnpm scrape --offline", () => {
           url: "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
         },
         weaponIds: expect.arrayContaining(["ar-23-liberator", "sg-8-punisher"]),
-        stratagemIds: [],
+        stratagemIds: expect.arrayContaining(["ax-las-5-rover"]),
       },
     });
 
@@ -178,9 +180,102 @@ describe("pnpm scrape --offline", () => {
       },
     });
 
+    // Orbital Precision Strike equals arch §5.4 except the image; table rows of `statsRaw` are
+    // keyed by table title. MG-43 Machine Gun equals the fields the audit captured.
+    const stratagem = async (id: string) => ({
+      example: JSON.parse(
+        await readFile(
+          join(import.meta.dirname, `../../schemas/test/examples/stratagems.${id}.json`),
+          "utf8",
+        ),
+      ),
+      data: (files.get(`stratagems/${id}.json`) as { data: Record<string, unknown> }).data,
+    });
+    const ops = await stratagem("orbital-precision-strike");
+    const { statsRaw: opsRaw, shipModules, attacks, ...opsRest } = ops.data;
+    expect(opsRest).toEqual({
+      ...ops.example,
+      image: null,
+      statsRaw: undefined,
+      shipModules: undefined,
+      attacks: undefined,
+    });
+    expect(shipModules).toHaveLength(5);
+    expect(
+      (attacks as { name: string; kind: string }[]).map(({ name, kind }) => ({ name, kind })),
+    ).toEqual(
+      ops.example.attacks.map(({ name, kind }: { name: string; kind: string }) => ({ name, kind })),
+    );
+    expect(opsRaw).toMatchObject(
+      Object.fromEntries(
+        Object.entries(ops.example.statsRaw).map(([key, value]) => [
+          `Orbital Precision Strike › ${key}`,
+          value,
+        ]),
+      ),
+    );
+    const mg43 = await stratagem("mg-43-machine-gun");
+    const captured = [
+      "id",
+      "name",
+      "permitType",
+      "availability",
+      "category",
+      "kind",
+      "traitIds",
+      "code",
+      "cooldownS",
+      "callInTimeS",
+      "callInTimeUpgradedS",
+      "uses",
+      "unlockLevel",
+      "supportWeapon",
+      "backpack",
+      "source",
+    ];
+    for (const field of captured) {
+      expect(mg43.data[field], field).toEqual(mg43.example[field]);
+    }
+    expect(files.get("stratagems/40-k-meltagun.json")).toMatchObject({
+      data: { source: { warbondId: "castellans-creed", page: 3, cost: { amount: 110 } } },
+    });
+    expect(files.get("stratagems/reinforce.json")).toMatchObject({
+      data: {
+        permitType: "mission",
+        availability: "mission",
+        kind: "mission",
+        source: { type: "other", label: "", cost: null },
+      },
+    });
+
     const conflicts = (
       files.get("reports/conflicts.json") as { conflicts: { id: string; field: string }[] }
     ).conflicts;
+    expect(conflicts).toContainEqual({
+      collection: "stratagems",
+      id: "b-1-supply-pack",
+      field: "callInTimeS",
+      rule: 2,
+      chosen: 5,
+      candidates: [
+        {
+          page: "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack",
+          location: "General › Call-in Time",
+          value: 9.75,
+        },
+        {
+          page: "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack",
+          location: "B-1 Supply Pack › Call-in Time",
+          value: 5,
+        },
+      ],
+    });
+    expect(conflicts).toContainEqual(
+      expect.objectContaining({
+        id: "mg-43-machine-gun",
+        field: "supportWeapon.magazinesFromSupply",
+      }),
+    );
     expect(conflicts).toContainEqual({
       collection: "weapons",
       id: "ar-23-liberator",
@@ -210,6 +305,8 @@ describe("pnpm scrape --offline", () => {
     expect(lock["weapon-traits"]["Equipment Traits#Anti-Tank"]).toBe("anti-tank");
     expect(Object.keys(lock.weapons)).toHaveLength(102);
     expect(lock.weapons["AR/GL-21 One-Two"]).toBe("ar-gl-21-one-two");
+    expect(Object.keys(lock.stratagems)).toHaveLength(114);
+    expect(lock.stratagems["A/MG-43 Machine Gun Sentry"]).toBe("a-mg-43-machine-gun-sentry");
   });
 
   it("changes nothing on a second run with the same pages", async () => {
@@ -288,7 +385,7 @@ describe("pnpm scrape --offline", () => {
       dataDir,
       source: new FixtureSource(FIXTURES_DIR),
       http: null,
-      only: ["stratagems"],
+      only: ["armors"],
       allowDrop: false,
       fullRefresh: false,
       baseUrl: "https://helldivers.wiki.gg",
@@ -299,7 +396,7 @@ describe("pnpm scrape --offline", () => {
     expect(report.failure).toEqual({
       kind: "error",
       messages: [
-        "stratagems is not scraped yet (available: boosters, passives, weapon-traits, weapons)",
+        "armors is not scraped yet (available: boosters, passives, weapon-traits, weapons, stratagems)",
       ],
     });
   });
