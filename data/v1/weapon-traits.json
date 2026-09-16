@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.fe2c0e0d",
-    "generatedAt": "2026-09-16T13:37:00Z",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
     "count": 28,
     "source": {
       "name": "The Helldivers Wiki",
@@ -28,7 +28,44 @@
         "p-33-missile-pistol",
         "tm-1-lure-mine"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "40-k-meltagun",
+        "a-ac-8-autocannon-sentry",
+        "a-mls-4x-rocket-sentry",
+        "arc-3-arc-thrower",
+        "ax-arc-3-k-9",
+        "b-100-portable-hellbomb",
+        "b-md-c4-pack",
+        "cqc-20-breaching-hammer",
+        "cqc-9-defoliation-tool",
+        "e-at-12-anti-tank-emplacement",
+        "eagle-110mm-rocket-pods",
+        "eagle-500kg-bomb",
+        "eagle-airstrike",
+        "eagle-strafing-run",
+        "eat-17-expendable-anti-tank",
+        "eat-411-leveller",
+        "exo-45-patriot-exosuit",
+        "exo-49-emancipator-exosuit",
+        "exo-51-lumberer-exosuit",
+        "faf-14-spear",
+        "gr-8-recoilless-rifle",
+        "las-99-quasar-cannon",
+        "md-17-anti-tank-mines",
+        "mls-4x-commando",
+        "ms-11-solo-silo",
+        "orbital-120mm-he-barrage",
+        "orbital-380mm-he-barrage",
+        "orbital-ems-strike",
+        "orbital-laser",
+        "orbital-precision-strike",
+        "orbital-railcannon-strike",
+        "orbital-walking-barrage",
+        "rs-422-railgun",
+        "s-11-speargun",
+        "sta-x3-wasp-launcher",
+        "td-220-bastion-mk-xvi"
+      ]
     },
     {
       "id": "arc",
@@ -46,7 +83,12 @@
         "arc-12-blitzer",
         "g-31-arc"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-arc-3-tesla-tower",
+        "arc-3-arc-thrower",
+        "ax-arc-3-k-9",
+        "gl-52-de-escalator"
+      ]
     },
     {
       "id": "backpack",
@@ -61,7 +103,31 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "ac-8-autocannon",
+        "ax-ar-23-guard-dog",
+        "ax-arc-3-k-9",
+        "ax-flam-75-hot-dog",
+        "ax-las-5-rover",
+        "ax-tx-13-dog-breath",
+        "b-1-supply-pack",
+        "b-100-portable-hellbomb",
+        "b-flam-80-cremator",
+        "b-md-c4-pack",
+        "dark-fluid-vessel",
+        "faf-14-spear",
+        "gl-28-belt-fed-grenade-launcher",
+        "gr-8-recoilless-rifle",
+        "lift-182-warp-pack",
+        "lift-850-jump-pack",
+        "lift-860-hover-pack",
+        "m-1000-maxigun",
+        "rl-77-airburst-rocket-launcher",
+        "sh-20-ballistic-shield-backpack",
+        "sh-32-shield-generator-pack",
+        "sh-51-directional-shield",
+        "sta-x3-wasp-launcher"
+      ]
     },
     {
       "id": "beam",
@@ -79,7 +145,12 @@
         "las-5-scythe",
         "las-7-dagger"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-las-98-laser-sentry",
+        "ax-las-5-rover",
+        "las-98-laser-cannon",
+        "orbital-laser"
+      ]
     },
     {
       "id": "caustic",
@@ -97,7 +168,15 @@
         "g-4-gas",
         "p-35-re-educator"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-gm-17-gas-mortar-sentry",
+        "ax-tx-13-dog-breath",
+        "eagle-gas-airstrike",
+        "md-8-gas-mines",
+        "orbital-gas-strike",
+        "s-11-speargun",
+        "tx-41-sterilizer"
+      ]
     },
     {
       "id": "chargeup",
@@ -115,7 +194,13 @@
         "plas-101-purifier",
         "plas-15-loyalist"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "40-k-meltagun",
+        "arc-3-arc-thrower",
+        "las-99-quasar-cannon",
+        "plas-45-epoch",
+        "rs-422-railgun"
+      ]
     },
     {
       "id": "eagle",
@@ -130,7 +215,16 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "eagle-110mm-rocket-pods",
+        "eagle-500kg-bomb",
+        "eagle-airstrike",
+        "eagle-cluster-bomb",
+        "eagle-gas-airstrike",
+        "eagle-napalm-airstrike",
+        "eagle-smoke-strike",
+        "eagle-strafing-run"
+      ]
     },
     {
       "id": "expendable",
@@ -145,7 +239,14 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "eat-17-expendable-anti-tank",
+        "eat-411-leveller",
+        "eat-700-expendable-napalm",
+        "mgx-42-bullet-storm",
+        "mls-4x-commando",
+        "ms-11-solo-silo"
+      ]
     },
     {
       "id": "explosive",
@@ -193,7 +294,43 @@
         "ted-63-dynamite",
         "tm-1-lure-mine"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-m-12-mortar-sentry",
+        "a-m-23-ems-mortar-sentry",
+        "a-mls-4x-rocket-sentry",
+        "b-100-portable-hellbomb",
+        "cqc-20-breaching-hammer",
+        "e-gl-21-grenadier-battlement",
+        "eagle-110mm-rocket-pods",
+        "eagle-500kg-bomb",
+        "eagle-airstrike",
+        "eagle-cluster-bomb",
+        "eagle-gas-airstrike",
+        "eagle-napalm-airstrike",
+        "eagle-smoke-strike",
+        "exo-45-patriot-exosuit",
+        "exo-49-emancipator-exosuit",
+        "exo-51-lumberer-exosuit",
+        "gl-21-grenade-launcher",
+        "gl-28-belt-fed-grenade-launcher",
+        "gl-52-de-escalator",
+        "md-17-anti-tank-mines",
+        "md-6-anti-personnel-minefield",
+        "md-8-gas-mines",
+        "md-i4-incendiary-mines",
+        "ms-11-solo-silo",
+        "orbital-120mm-he-barrage",
+        "orbital-380mm-he-barrage",
+        "orbital-airburst-strike",
+        "orbital-gas-strike",
+        "orbital-gatling-barrage",
+        "orbital-napalm-barrage",
+        "orbital-precision-strike",
+        "orbital-smoke-strike",
+        "orbital-walking-barrage",
+        "plas-45-epoch",
+        "td-220-bastion-mk-xvi"
+      ]
     },
     {
       "id": "guided",
@@ -213,7 +350,10 @@
         "p-33-missile-pistol",
         "p-92-warrant"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "faf-14-spear",
+        "sta-x3-wasp-launcher"
+      ]
     },
     {
       "id": "heat",
@@ -235,7 +375,10 @@
         "las-58-talon",
         "las-7-dagger"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-las-98-laser-sentry",
+        "las-98-laser-cannon"
+      ]
     },
     {
       "id": "heavy-armor-penetrating",
@@ -260,7 +403,21 @@
         "r-36-eruptor",
         "ted-63-dynamite"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-las-98-laser-sentry",
+        "ac-8-autocannon",
+        "apw-1-anti-materiel-rifle",
+        "e-mg-101-hmg-emplacement",
+        "exo-55-breakthrough-exosuit",
+        "gl-28-belt-fed-grenade-launcher",
+        "gl-52-de-escalator",
+        "las-98-laser-cannon",
+        "m-102-gunner-frv",
+        "mg-206-heavy-machine-gun",
+        "orbital-gatling-barrage",
+        "plas-45-epoch",
+        "td-220-bastion-mk-xvi"
+      ]
     },
     {
       "id": "hellpod",
@@ -275,7 +432,44 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-ac-8-autocannon-sentry",
+        "a-arc-3-tesla-tower",
+        "a-flam-40-flame-sentry",
+        "a-g-16-gatling-sentry",
+        "a-gm-17-gas-mortar-sentry",
+        "a-las-98-laser-sentry",
+        "a-m-12-mortar-sentry",
+        "a-m-23-ems-mortar-sentry",
+        "a-mg-43-machine-gun-sentry",
+        "a-mls-4x-rocket-sentry",
+        "ax-ar-23-guard-dog",
+        "ax-arc-3-k-9",
+        "ax-flam-75-hot-dog",
+        "ax-las-5-rover",
+        "ax-tx-13-dog-breath",
+        "b-1-supply-pack",
+        "b-100-portable-hellbomb",
+        "b-flam-80-cremator",
+        "dark-fluid-vessel",
+        "e-at-12-anti-tank-emplacement",
+        "e-gl-21-grenadier-battlement",
+        "e-mg-101-hmg-emplacement",
+        "flam-40-flamethrower",
+        "fx-12-shield-generator-relay",
+        "las-98-laser-cannon",
+        "lift-182-warp-pack",
+        "lift-850-jump-pack",
+        "lift-860-hover-pack",
+        "md-17-anti-tank-mines",
+        "md-6-anti-personnel-minefield",
+        "md-8-gas-mines",
+        "md-i4-incendiary-mines",
+        "sh-20-ballistic-shield-backpack",
+        "sh-32-shield-generator-pack",
+        "sh-51-directional-shield",
+        "tactical-video-camera"
+      ]
     },
     {
       "id": "incendiary",
@@ -302,7 +496,18 @@
         "sg-451-cookout",
         "smg-flam-34-stoker"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-flam-40-flame-sentry",
+        "ax-flam-75-hot-dog",
+        "b-flam-80-cremator",
+        "eagle-napalm-airstrike",
+        "eat-700-expendable-napalm",
+        "exo-51-lumberer-exosuit",
+        "flam-40-flamethrower",
+        "m-104-incinerator-frv",
+        "md-i4-incendiary-mines",
+        "orbital-napalm-barrage"
+      ]
     },
     {
       "id": "light-armor-penetrating",
@@ -352,7 +557,11 @@
         "sta-52-assault-rifle",
         "vg-70-variable"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "ax-las-5-rover",
+        "m-105-stalwart",
+        "mgx-42-bullet-storm"
+      ]
     },
     {
       "id": "medium-armor-penetrating",
@@ -402,7 +611,23 @@
         "smg-203-gallant",
         "smg-32-reprimand"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-g-16-gatling-sentry",
+        "a-m-12-mortar-sentry",
+        "a-mg-43-machine-gun-sentry",
+        "ax-ar-23-guard-dog",
+        "cqc-1-one-true-flag",
+        "e-gl-21-grenadier-battlement",
+        "eagle-cluster-bomb",
+        "exo-45-patriot-exosuit",
+        "gl-21-grenade-launcher",
+        "m-1000-maxigun",
+        "m-103-supply-frv",
+        "md-6-anti-personnel-minefield",
+        "mg-43-machine-gun",
+        "orbital-airburst-strike",
+        "rl-77-airburst-rocket-launcher"
+      ]
     },
     {
       "id": "melee",
@@ -424,7 +649,11 @@
         "cqc-5-combat-hatchet",
         "cqc-73-entrenchment-tool"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "cqc-1-one-true-flag",
+        "cqc-20-breaching-hammer",
+        "cqc-9-defoliation-tool"
+      ]
     },
     {
       "id": "one-handed",
@@ -473,7 +702,9 @@
         "smg-flam-34-stoker",
         "sta-11-smg"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "cqc-1-one-true-flag"
+      ]
     },
     {
       "id": "orbital",
@@ -488,7 +719,20 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "orbital-120mm-he-barrage",
+        "orbital-380mm-he-barrage",
+        "orbital-airburst-strike",
+        "orbital-ems-strike",
+        "orbital-gas-strike",
+        "orbital-gatling-barrage",
+        "orbital-laser",
+        "orbital-napalm-barrage",
+        "orbital-precision-strike",
+        "orbital-railcannon-strike",
+        "orbital-smoke-strike",
+        "orbital-walking-barrage"
+      ]
     },
     {
       "id": "rounds-reload",
@@ -534,7 +778,18 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-ac-8-autocannon-sentry",
+        "a-arc-3-tesla-tower",
+        "a-flam-40-flame-sentry",
+        "a-g-16-gatling-sentry",
+        "a-gm-17-gas-mortar-sentry",
+        "a-las-98-laser-sentry",
+        "a-m-12-mortar-sentry",
+        "a-m-23-ems-mortar-sentry",
+        "a-mg-43-machine-gun-sentry",
+        "a-mls-4x-rocket-sentry"
+      ]
     },
     {
       "id": "stationary-reload",
@@ -549,7 +804,16 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "ac-8-autocannon",
+        "faf-14-spear",
+        "gr-8-recoilless-rifle",
+        "mg-206-heavy-machine-gun",
+        "mg-43-machine-gun",
+        "plas-45-epoch",
+        "rl-77-airburst-rocket-launcher",
+        "sta-x3-wasp-launcher"
+      ]
     },
     {
       "id": "sticky",
@@ -569,7 +833,9 @@
         "g-sh-39-shield",
         "tm-1-lure-mine"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "b-md-c4-pack"
+      ]
     },
     {
       "id": "stimulative",
@@ -607,7 +873,10 @@
         "g-109-urchin",
         "g-23-stun"
       ],
-      "stratagemIds": []
+      "stratagemIds": [
+        "a-m-23-ems-mortar-sentry",
+        "orbital-ems-strike"
+      ]
     },
     {
       "id": "support-weapon",
@@ -622,7 +891,41 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "40-k-meltagun",
+        "ac-8-autocannon",
+        "apw-1-anti-materiel-rifle",
+        "arc-3-arc-thrower",
+        "b-flam-80-cremator",
+        "b-md-c4-pack",
+        "cqc-1-one-true-flag",
+        "cqc-20-breaching-hammer",
+        "cqc-9-defoliation-tool",
+        "eat-17-expendable-anti-tank",
+        "eat-411-leveller",
+        "eat-700-expendable-napalm",
+        "faf-14-spear",
+        "flam-40-flamethrower",
+        "gl-21-grenade-launcher",
+        "gl-28-belt-fed-grenade-launcher",
+        "gl-52-de-escalator",
+        "gr-8-recoilless-rifle",
+        "las-98-laser-cannon",
+        "las-99-quasar-cannon",
+        "m-1000-maxigun",
+        "m-105-stalwart",
+        "mg-206-heavy-machine-gun",
+        "mg-43-machine-gun",
+        "mgx-42-bullet-storm",
+        "mls-4x-commando",
+        "ms-11-solo-silo",
+        "plas-45-epoch",
+        "rl-77-airburst-rocket-launcher",
+        "rs-422-railgun",
+        "s-11-speargun",
+        "sta-x3-wasp-launcher",
+        "tx-41-sterilizer"
+      ]
     },
     {
       "id": "suppressed",
@@ -657,7 +960,16 @@
         "flags": []
       },
       "weaponIds": [],
-      "stratagemIds": []
+      "stratagemIds": [
+        "exo-45-patriot-exosuit",
+        "exo-49-emancipator-exosuit",
+        "exo-51-lumberer-exosuit",
+        "exo-55-breakthrough-exosuit",
+        "m-102-gunner-frv",
+        "m-103-supply-frv",
+        "m-104-incinerator-frv",
+        "td-220-bastion-mk-xvi"
+      ]
     }
   ]
 }

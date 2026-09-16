@@ -1,0 +1,330 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "seaf-artillery",
+    "slug": "seaf-artillery",
+    "name": "SEAF Artillery",
+    "aliases": [],
+    "description": "SEAF Artillery is a generic Optional Objective consisting of a large, stationary artillery platform. To complete the objective, Helldivers must activate the artillery, load five shells into it and then connect it to their Super Destroyer. Upon completion, all Helldivers in the mission gain access to five uses of the SEAF Artillery stratagem.",
+    "image": null,
+    "wiki": {
+      "title": "SEAF Artillery",
+      "url": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "right",
+      "up",
+      "up",
+      "down"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": 5,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "SEAF Gun Explosive",
+        "kind": "projectile",
+        "damage": {
+          "standard": 4000,
+          "durable": 4000,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 1000,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "SEAF Gun Explosive",
+        "kind": "explosion",
+        "damage": {
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 4,
+          "outerRadiusM": 12,
+          "shockwaveRadiusM": 18
+        },
+        "forces": {
+          "demolition": 50,
+          "stagger": 70,
+          "push": 60
+        }
+      },
+      {
+        "name": "SEAF Gun High Yield Explosive",
+        "kind": "explosion",
+        "damage": {
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 6.7,
+          "outerRadiusM": 20,
+          "shockwaveRadiusM": 30
+        },
+        "forces": {
+          "demolition": 50,
+          "stagger": 100,
+          "push": 40
+        }
+      },
+      {
+        "name": "SEAF Gun Mini Nuke",
+        "kind": "explosion",
+        "damage": {
+          "standard": 10000,
+          "durable": 10000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_vi",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 17,
+          "outerRadiusM": 25,
+          "shockwaveRadiusM": 45
+        },
+        "forces": {
+          "demolition": 60,
+          "stagger": 50,
+          "push": 100
+        }
+      },
+      {
+        "name": "SEAF Gun Smoke",
+        "kind": "explosion",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 13,
+          "outerRadiusM": 13,
+          "shockwaveRadiusM": 0
+        },
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      },
+      {
+        "name": "SEAF Gun EMP",
+        "kind": "explosion",
+        "damage": {
+          "standard": 0,
+          "durable": 0,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 13,
+          "shockwaveRadiusM": 20
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 10,
+          "push": 40
+        }
+      },
+      {
+        "name": "SEAF Gun Napalm",
+        "kind": "explosion",
+        "damage": {
+          "standard": 250,
+          "durable": 250,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1.6,
+          "outerRadiusM": 13,
+          "shockwaveRadiusM": 20
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "Unknown seconds",
+      "General › Uses": "5",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds",
+      "SEAF Gun Explosive › Projectile › Mass": "70 kg",
+      "SEAF Gun Explosive › Projectile › Initial Velocity": "300 m/s",
+      "SEAF Gun Explosive › Projectile › Drag Factor": "50%",
+      "SEAF Gun Explosive › Projectile › Gravity Factor": "1000%",
+      "SEAF Gun Explosive › Projectile › Penetration Slowdown": "25%",
+      "SEAF Gun Explosive › Damage › Standard": "4000 Damage",
+      "SEAF Gun Explosive › Damage › vs. Durable": "4000 Damage",
+      "SEAF Gun Explosive › Penetration › Direct": "Anti-Tank IV",
+      "SEAF Gun Explosive › Penetration › Slight Angle": "Anti-Tank III",
+      "SEAF Gun Explosive › Penetration › Large Angle": "Anti-Tank II",
+      "SEAF Gun Explosive › Penetration › Extreme Angle": "Anti-Tank II",
+      "SEAF Gun Explosive › Special Effects › Demolition Force": "50",
+      "SEAF Gun Explosive › Special Effects › Stagger Force": "50",
+      "SEAF Gun Explosive › Special Effects › Push Force": "20",
+      "SEAF Gun Explosive › Area of Effect › Inner Radius": "4 m",
+      "SEAF Gun Explosive › Area of Effect › Outer Radius": "12 m",
+      "SEAF Gun Explosive › Area of Effect › Shockwave Radius": "18 m",
+      "SEAF Gun Explosive › Damage › Inner Radius": "1500 Explosion",
+      "SEAF Gun Explosive › Damage › Inner Durable": "1500 Explosion",
+      "SEAF Gun Explosive › Damage › Outer Radius": "1499 - 0",
+      "SEAF Gun Explosive › Damage › Outer Durable": "1499 - 0",
+      "SEAF Gun Explosive › Penetration › Direct (2)": "Anti-Tank II",
+      "SEAF Gun Explosive › AoE Effect › Demolition Force": "50",
+      "SEAF Gun Explosive › AoE Effect › Stagger Force": "70",
+      "SEAF Gun Explosive › AoE Effect › Push Force": "60",
+      "SEAF Gun High Yield Explosive › Area of Effect › Inner Radius": "6.7 m",
+      "SEAF Gun High Yield Explosive › Area of Effect › Outer Radius": "20 m",
+      "SEAF Gun High Yield Explosive › Area of Effect › Shockwave Radius": "30 m",
+      "SEAF Gun High Yield Explosive › Damage › Inner Radius": "1500 Explosion",
+      "SEAF Gun High Yield Explosive › Damage › Inner Durable": "1500 Explosion",
+      "SEAF Gun High Yield Explosive › Damage › Outer Radius": "1499 - 0",
+      "SEAF Gun High Yield Explosive › Damage › Outer Durable": "1499 - 0",
+      "SEAF Gun High Yield Explosive › Penetration › Direct": "Anti-Tank II",
+      "SEAF Gun High Yield Explosive › AoE Effect › Demolition Force": "50",
+      "SEAF Gun High Yield Explosive › AoE Effect › Stagger Force": "100",
+      "SEAF Gun High Yield Explosive › AoE Effect › Push Force": "40",
+      "SEAF Gun Mini Nuke › Area of Effect › Inner Radius": "17 m",
+      "SEAF Gun Mini Nuke › Area of Effect › Outer Radius": "25 m",
+      "SEAF Gun Mini Nuke › Area of Effect › Shockwave Radius": "45 m",
+      "SEAF Gun Mini Nuke › Damage › Inner Radius": "10000 Explosion",
+      "SEAF Gun Mini Nuke › Damage › Inner Durable": "10000 Explosion",
+      "SEAF Gun Mini Nuke › Damage › Outer Radius": "9999 - 0",
+      "SEAF Gun Mini Nuke › Damage › Outer Durable": "9999 - 0",
+      "SEAF Gun Mini Nuke › Penetration › Direct": "Anti-Tank VI",
+      "SEAF Gun Mini Nuke › AoE Effect › Demolition Force": "60",
+      "SEAF Gun Mini Nuke › AoE Effect › Stagger Force": "50",
+      "SEAF Gun Mini Nuke › AoE Effect › Push Force": "100",
+      "SEAF Gun Smoke › Area of Effect › Inner Radius": "13 m",
+      "SEAF Gun Smoke › Area of Effect › Outer Radius": "13 m",
+      "SEAF Gun Smoke › Area of Effect › Shockwave Radius": "0 m",
+      "SEAF Gun EMP › Area of Effect › Inner Radius": "1 m",
+      "SEAF Gun EMP › Area of Effect › Outer Radius": "13 m",
+      "SEAF Gun EMP › Area of Effect › Shockwave Radius": "20 m",
+      "SEAF Gun EMP › Damage › Inner Radius": "0 Explosion",
+      "SEAF Gun EMP › Damage › Inner Durable": "0 Explosion",
+      "SEAF Gun EMP › Penetration › Direct": "Heavy",
+      "SEAF Gun EMP › AoE Effect › Status": "Stun Medium",
+      "SEAF Gun EMP › AoE Effect › Status (2)": "Stun Medium",
+      "SEAF Gun EMP › AoE Effect › Status Strength": "100",
+      "SEAF Gun EMP › AoE Effect › Demolition Force": "30",
+      "SEAF Gun EMP › AoE Effect › Stagger Force": "10",
+      "SEAF Gun EMP › AoE Effect › Push Force": "40",
+      "SEAF Gun Napalm › Area of Effect › Inner Radius": "1.6 m",
+      "SEAF Gun Napalm › Area of Effect › Outer Radius": "13 m",
+      "SEAF Gun Napalm › Area of Effect › Shockwave Radius": "20 m",
+      "SEAF Gun Napalm › Damage › Damage Element": "Fire",
+      "SEAF Gun Napalm › Damage › Inner Radius": "250 Fire",
+      "SEAF Gun Napalm › Damage › Inner Durable": "250 Fire",
+      "SEAF Gun Napalm › Damage › Outer Radius": "249 - 0",
+      "SEAF Gun Napalm › Damage › Outer Durable": "249 - 0",
+      "SEAF Gun Napalm › Penetration › Direct": "Medium",
+      "SEAF Gun Napalm › AoE Effect › Status": "Fire",
+      "SEAF Gun Napalm › AoE Effect › Status (2)": "Fire",
+      "SEAF Gun Napalm › AoE Effect › Status Strength": "100",
+      "SEAF Gun Napalm › AoE Effect › Second Status": "BurningHeavy",
+      "SEAF Gun Napalm › AoE Effect › Status Strength (2)": "50",
+      "SEAF Gun Napalm › AoE Effect › Demolition Force": "30",
+      "SEAF Gun Napalm › AoE Effect › Stagger Force": "50",
+      "SEAF Gun Napalm › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

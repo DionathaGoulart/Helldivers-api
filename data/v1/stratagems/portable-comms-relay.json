@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "portable-comms-relay",
+    "slug": "portable-comms-relay",
+    "name": "Portable Comms Relay",
+    "aliases": [],
+    "description": "The Portable Comms Relay Stratagem is only available during one of the Infiltrate Illuminate Lair Mission's Objective, and is used to deposit the Tactical Video Camera and upload its data.",
+    "image": null,
+    "wiki": {
+      "title": "Portable Comms Relay",
+      "url": "https://helldivers.wiki.gg/wiki/Portable_Comms_Relay",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "up",
+      "up",
+      "down",
+      "down",
+      "left",
+      "left",
+      "down"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": 10,
+    "callInTimeUpgradedS": null,
+    "uses": 1,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "10 seconds",
+      "General › Uses": "1",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

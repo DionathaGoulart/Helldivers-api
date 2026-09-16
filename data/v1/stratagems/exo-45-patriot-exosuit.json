@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "exo-45-patriot-exosuit",
+    "slug": "exo-45-patriot-exosuit",
+    "name": "EXO-45 Patriot Exosuit",
+    "aliases": [],
+    "description": "The EXO-45 Patriot Exosuit is an Exosuit Stratagem featuring a rocket pod on the left hand and a minigun on the right.",
+    "image": null,
+    "wiki": {
+      "title": "EXO-45 Patriot Exosuit",
+      "url": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "robotics_workshop",
+    "kind": "vehicle",
+    "traitIds": [
+      "explosive",
+      "vehicle",
+      "anti-tank",
+      "medium-armor-penetrating"
+    ],
+    "code": [
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "down"
+    ],
+    "cooldownS": 420,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 399
+      },
+      {
+        "label": "With DSS Boost",
+        "seconds": 273
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 252
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": 3,
+    "unlockLevel": 25,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time from all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "8x60mm FULL METAL JACKET P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 23,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "very_light"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 11,
+          "initialVelocityMps": 820,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 12
+        }
+      },
+      {
+        "name": "70mm MISSILE P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1250,
+          "durable": 1250,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 2500,
+          "initialVelocityMps": 200,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 85
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 40,
+          "push": 25
+        }
+      },
+      {
+        "name": "70mm MISSILE P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 400,
+          "durable": 400,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 2,
+          "shockwaveRadiusM": 4
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 60,
+          "push": 70
+        }
+      },
+      {
+        "name": "Exosuit Stomp",
+        "kind": "other",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 20,
+          "push": 20
+        }
+      },
+      {
+        "name": "Exosuit Destruction",
+        "kind": "explosion",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 0.6,
+          "outerRadiusM": 7,
+          "shockwaveRadiusM": 10
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Explosive • Vehicle • Anti-Tank • Medium Armor Penetrating",
+      "Base Cooldown": "420s",
+      "Unlock Level": "25",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "3",
+      "General › Cooldown › Standard": "420 seconds",
+      "General › Cooldown › With Morale Augmentation": "399 seconds",
+      "General › Cooldown › With DSS Boost": "273 seconds",
+      "General › Cooldown › With All Upgrades": "252 seconds",
+      "Patriot Exosuit › Cooldown": "420 s",
+      "Patriot Exosuit › Uses": "3",
+      "Patriot Exosuit › Main Health": "1800",
+      "Patriot Exosuit › Main Armor": "Heavy",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Main Health": "800",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Main Armor": "Medium",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Fire Rate": "1200 rpm",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Recoil": "5",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Horizontal Recoil": "5",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Vertical Recoil": "5",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Spread": "↔[50.00] ↕[50.00]",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Sway": "1",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Ergonomics": "65",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Capacity": "1350",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › 8x60mm FULL METAL JACKET P1": "Projectile",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Main Health": "800",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Main Armor": "Medium",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Fire Rate": "90 rpm",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Recoil": "6.25",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Horizontal Recoil": "2.5",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Vertical Recoil": "10",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Spread": "↔[10.00] ↕[10.00]",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Sway": "1",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Ergonomics": "65",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Capacity": "14",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Barrels": "x 14",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › 70mm MISSILE P": "Projectile",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › 70mm MISSILE P IE": "Explosion",
+      "8x60mm FULL METAL JACKET P1 › Projectile › Mass": "11 g",
+      "8x60mm FULL METAL JACKET P1 › Projectile › Initial Velocity": "820 m/s",
+      "8x60mm FULL METAL JACKET P1 › Projectile › Drag Factor": "30%",
+      "8x60mm FULL METAL JACKET P1 › Projectile › Gravity Factor": "100%",
+      "8x60mm FULL METAL JACKET P1 › Projectile › Penetration Slowdown": "25%",
+      "8x60mm FULL METAL JACKET P1 › Damage › Standard": "90 Ballistic",
+      "8x60mm FULL METAL JACKET P1 › Damage › vs. Durable": "23 Ballistic",
+      "8x60mm FULL METAL JACKET P1 › Penetration › Direct": "Medium",
+      "8x60mm FULL METAL JACKET P1 › Penetration › Slight Angle": "Medium",
+      "8x60mm FULL METAL JACKET P1 › Penetration › Large Angle": "Medium",
+      "8x60mm FULL METAL JACKET P1 › Penetration › Extreme Angle": "Very Light",
+      "8x60mm FULL METAL JACKET P1 › Special Effects › Demolition Force": "10",
+      "8x60mm FULL METAL JACKET P1 › Special Effects › Stagger Force": "20",
+      "8x60mm FULL METAL JACKET P1 › Special Effects › Push Force": "12",
+      "70mm MISSILE P › Projectile › Mass": "2.5 kg",
+      "70mm MISSILE P › Projectile › Initial Velocity": "200 m/s",
+      "70mm MISSILE P › Projectile › Drag Factor": "0%",
+      "70mm MISSILE P › Projectile › Gravity Factor": "0%",
+      "70mm MISSILE P › Projectile › Lifetime": "15 sec",
+      "70mm MISSILE P › Projectile › Penetration Slowdown": "85%",
+      "70mm MISSILE P › Projectile › Explosion On Impact": "70mm MISSILE_P_IE",
+      "70mm MISSILE P › Damage › Standard": "1250 Ballistic",
+      "70mm MISSILE P › Damage › vs. Durable": "1250 Ballistic",
+      "70mm MISSILE P › Penetration › Direct": "Anti-Tank II",
+      "70mm MISSILE P › Penetration › Slight Angle": "Anti-Tank II",
+      "70mm MISSILE P › Penetration › Large Angle": "Anti-Tank I",
+      "70mm MISSILE P › Penetration › Extreme Angle": "Unarmored",
+      "70mm MISSILE P › Special Effects › Demolition Force": "30",
+      "70mm MISSILE P › Special Effects › Stagger Force": "40",
+      "70mm MISSILE P › Special Effects › Push Force": "25",
+      "70mm MISSILE P IE › Area of Effect › Inner Radius": "1 m",
+      "70mm MISSILE P IE › Area of Effect › Outer Radius": "2 m",
+      "70mm MISSILE P IE › Area of Effect › Shockwave Radius": "4 m",
+      "70mm MISSILE P IE › Damage › Damage Element": "None",
+      "70mm MISSILE P IE › Damage › Inner Radius": "400 Explosion",
+      "70mm MISSILE P IE › Damage › Inner Durable": "400 Explosion",
+      "70mm MISSILE P IE › Damage › Outer Radius": "399 - 0",
+      "70mm MISSILE P IE › Damage › Outer Durable": "399 - 0",
+      "70mm MISSILE P IE › Penetration › Direct": "Medium",
+      "70mm MISSILE P IE › AoE Effect › Demolition Force": "30",
+      "70mm MISSILE P IE › AoE Effect › Stagger Force": "60",
+      "70mm MISSILE P IE › AoE Effect › Push Force": "70",
+      "Exosuit Stomp › Damage › Standard": "200 Damage",
+      "Exosuit Stomp › Damage › vs. Durable": "200 Damage",
+      "Exosuit Stomp › Penetration › Direct": "Heavy",
+      "Exosuit Stomp › Penetration › Slight Angle": "Unarmored",
+      "Exosuit Stomp › Penetration › Large Angle": "Unarmored",
+      "Exosuit Stomp › Penetration › Extreme Angle": "Unarmored",
+      "Exosuit Stomp › Special Effects › Demolition Force": "30",
+      "Exosuit Stomp › Special Effects › Stagger Force": "20",
+      "Exosuit Stomp › Special Effects › Push Force": "20",
+      "Exosuit Destruction › Area of Effect › Inner Radius": "0.6 m",
+      "Exosuit Destruction › Area of Effect › Outer Radius": "7 m",
+      "Exosuit Destruction › Area of Effect › Shockwave Radius": "10 m",
+      "Exosuit Destruction › Damage › Inner Radius": "200 Explosion",
+      "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
+      "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
+      "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
+      "Exosuit Destruction › Penetration › Direct": "Medium",
+      "Exosuit Destruction › AoE Effect › Demolition Force": "30",
+      "Exosuit Destruction › AoE Effect › Stagger Force": "50",
+      "Exosuit Destruction › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Robotics Workshop",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 20000
+      },
+      "rotating": null
+    }
+  }
+}

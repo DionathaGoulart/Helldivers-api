@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "a-arc-3-tesla-tower",
+    "slug": "a-arc-3-tesla-tower",
+    "name": "A/ARC-3 Tesla Tower",
+    "aliases": [],
+    "description": "The A/ARC-3 Tesla Tower is a Sentry that sends electric arcs toward all entities within 20 meters.",
+    "image": null,
+    "wiki": {
+      "title": "A/ARC-3 Tesla Tower",
+      "url": "https://helldivers.wiki.gg/wiki/A/ARC-3_Tesla_Tower",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "defensive",
+    "availability": "loadout",
+    "category": "bridge",
+    "kind": "sentry",
+    "traitIds": [
+      "hellpod",
+      "sentry",
+      "arc"
+    ],
+    "code": [
+      "down",
+      "up",
+      "right",
+      "up",
+      "left",
+      "right"
+    ],
+    "cooldownS": 120,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 114
+      },
+      {
+        "label": "With Synthetic Supplementation",
+        "seconds": 108
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 102.6
+      }
+    ],
+    "callInTimeS": 3,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 15,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Synthetic Supplementation",
+        "effect": "Reduces cooldown time for Sentry, Emplacement, and Resupply stratagems by 10%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Advanced Construction",
+        "effect": "Increases health of Sentry stratagems by 50%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Rapid Launch System",
+        "effect": "Removes deployment time for Emplacement stratagems."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Circuit Expansion",
+        "effect": "Lightning arcs, fired from weapons and turrets, jump to two additional enemies."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Blast Absorption",
+        "effect": "Sentries take 50% less damage from explosions."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "Tesla Turret Arc",
+        "kind": "arc",
+        "damage": {
+          "standard": 600,
+          "durable": 600,
+          "type": "Arc"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 20,
+          "stagger": 20,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Defensive",
+      "Traits": "Hellpod • Sentry • Arc",
+      "Base Cooldown": "120s",
+      "Unlock Level": "15",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "120 seconds",
+      "General › Cooldown › With Morale Augmentation": "114 seconds",
+      "General › Cooldown › With Synthetic Supplementation": "108 seconds",
+      "General › Cooldown › With All Upgrades": "102.6 seconds",
+      "General › Health › Standard": "600",
+      "General › Health › Upgraded": "900",
+      "A/ARC-3 Tesla Tower › Main Health": "600",
+      "A/ARC-3 Tesla Tower › Main Armor": "Very Light",
+      "A/ARC-3 Tesla Tower › Ergonomics": "65",
+      "A/ARC-3 Tesla Tower › Cooldown": "120 sec",
+      "A/ARC-3 Tesla Tower › Call-in Time": "3 s",
+      "A/ARC-3 Tesla Tower › Attacks › Tesla Turret Arc": "Arc",
+      "Tesla Turret Arc › Arc › Arc Range": "20 m",
+      "Tesla Turret Arc › Arc › Arc Velocity": "2000 m/s",
+      "Tesla Turret Arc › Arc › Arc Aim Angle": "180 °",
+      "Tesla Turret Arc › Damage › Element": "Arc",
+      "Tesla Turret Arc › Damage › Standard": "600 Arc",
+      "Tesla Turret Arc › Damage › vs. Durable": "600 Arc",
+      "Tesla Turret Arc › Penetration › Direct": "Heavy",
+      "Tesla Turret Arc › Penetration › Slight Angle": "Heavy",
+      "Tesla Turret Arc › Penetration › Large Angle": "Heavy",
+      "Tesla Turret Arc › Penetration › Extreme Angle": "Unarmored",
+      "Tesla Turret Arc › Special Effects › Status": "Stun Small",
+      "Tesla Turret Arc › Special Effects › Status Strength": "8",
+      "Tesla Turret Arc › Special Effects › Demolition Force": "20",
+      "Tesla Turret Arc › Special Effects › Stagger Force": "20",
+      "Tesla Turret Arc › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Bridge",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 8000
+      },
+      "rotating": null
+    }
+  }
+}

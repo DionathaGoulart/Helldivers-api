@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "m-103-supply-frv",
+    "slug": "m-103-supply-frv",
+    "name": "M-103 Supply FRV",
+    "aliases": [],
+    "description": "The M-103 Supply FRV is a Stratagem that deploys a four-wheeled ground vehicle, equipped with supplies and an automatic turret.",
+    "image": null,
+    "wiki": {
+      "title": "M-103 Supply FRV",
+      "url": "https://helldivers.wiki.gg/wiki/M-103_Supply_FRV",
+      "flags": [
+        "potentially_outdated",
+        "broken_file_links"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "vehicle",
+    "traitIds": [
+      "vehicle",
+      "medium-armor-penetrating"
+    ],
+    "code": [
+      "left",
+      "down",
+      "left",
+      "left",
+      "down",
+      "up",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "5.5x50mm PENETRATOR P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 65,
+          "durable": 15,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 4.5,
+          "initialVelocityMps": 1000,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Vehicle • Medium Armor Penetrating",
+      "Base Cooldown": "480s",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "SUPPLY FRV › Cooldown": "480 s",
+      "SUPPLY FRV › Uses": "∞",
+      "SUPPLY FRV › Main Health": "2400",
+      "SUPPLY FRV › Main Armor": "Medium",
+      "SUPPLY FRV › SWP SUPPLY FRV › Fire Rate": "640 rpm",
+      "SUPPLY FRV › SWP SUPPLY FRV › Recoil": "3.25",
+      "SUPPLY FRV › SWP SUPPLY FRV › Horizontal Recoil": "5",
+      "SUPPLY FRV › SWP SUPPLY FRV › Vertical Recoil": "1.5",
+      "SUPPLY FRV › SWP SUPPLY FRV › Spread": "↔[10.00] ↕[10.00]",
+      "SUPPLY FRV › SWP SUPPLY FRV › Sway": "1",
+      "SUPPLY FRV › SWP SUPPLY FRV › Ergonomics": "65",
+      "SUPPLY FRV › SWP SUPPLY FRV › Capacity": "120",
+      "SUPPLY FRV › SWP SUPPLY FRV › 5.5x50mm PENETRATOR P": "Projectile",
+      "5.5x50mm PENETRATOR P › Projectile › Mass": "4.5 g",
+      "5.5x50mm PENETRATOR P › Projectile › Initial Velocity": "1000 m/s",
+      "5.5x50mm PENETRATOR P › Projectile › Drag Factor": "30%",
+      "5.5x50mm PENETRATOR P › Projectile › Gravity Factor": "100%",
+      "5.5x50mm PENETRATOR P › Projectile › Penetration Slowdown": "25%",
+      "5.5x50mm PENETRATOR P › Damage › Standard": "65 Ballistic",
+      "5.5x50mm PENETRATOR P › Damage › vs. Durable": "15 Ballistic",
+      "5.5x50mm PENETRATOR P › Penetration › Direct": "Medium",
+      "5.5x50mm PENETRATOR P › Penetration › Slight Angle": "Medium",
+      "5.5x50mm PENETRATOR P › Penetration › Large Angle": "Medium",
+      "5.5x50mm PENETRATOR P › Penetration › Extreme Angle": "Unarmored",
+      "5.5x50mm PENETRATOR P › Special Effects › Demolition Force": "10",
+      "5.5x50mm PENETRATOR P › Special Effects › Stagger Force": "10",
+      "5.5x50mm PENETRATOR P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "event",
+      "label": "Census Thunder",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

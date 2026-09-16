@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eagle-rearm",
+    "slug": "eagle-rearm",
+    "name": "Eagle Rearm",
+    "aliases": [],
+    "description": "The Eagle Rearm Stratagem is used to send the Eagle back to the Super Destroyer to replenish its munitions. It is only available when the helldiver doesn't have their maximum capacity of eagle stratagems loaded in Eagle 1.",
+    "image": null,
+    "wiki": {
+      "title": "Eagle Rearm",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle_Rearm",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "mission",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "up",
+      "up",
+      "left",
+      "up",
+      "right"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": 0,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "0 seconds",
+      "General › Rearm Time › Standard": "150 seconds",
+      "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+      "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+      "General › Uses": "INF",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

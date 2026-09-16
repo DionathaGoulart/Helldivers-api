@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "a-mls-4x-rocket-sentry",
+    "slug": "a-mls-4x-rocket-sentry",
+    "name": "A/MLS-4X Rocket Sentry",
+    "aliases": [],
+    "description": "The A/MLS-4X Rocket Sentry is a defensive stratagem that fires powerful rockets in succession. After firing 16 rockets, it performs a short reload animation before it can continue to fire.",
+    "image": null,
+    "wiki": {
+      "title": "A/MLS-4X Rocket Sentry",
+      "url": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "defensive",
+    "availability": "loadout",
+    "category": "robotics_workshop",
+    "kind": "sentry",
+    "traitIds": [
+      "hellpod",
+      "explosive",
+      "sentry",
+      "anti-tank"
+    ],
+    "code": [
+      "down",
+      "up",
+      "right",
+      "right",
+      "left"
+    ],
+    "cooldownS": 150,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 142.5
+      },
+      {
+        "label": "With Synthetic Supplementation",
+        "seconds": 135
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 128.25
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 15,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Synthetic Supplementation",
+        "effect": "Reduces cooldown for Sentry, Emplacement, and Resupply stratagems by 10%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Advanced Construction",
+        "effect": "Increases the health of Sentry stratagems by 50%."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Dynamic Tracking",
+        "effect": "Removes deployment time for Sentry stratagems."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Shock Absorption Gel",
+        "effect": "Increases ammo for all Sentry stratagems by 50%."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "High-Quality Lubricant",
+        "effect": "Increases the rotation speed of Sentry stratagems."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Blast Absorption",
+        "effect": "Sentries take 50% less damage from explosions."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "70mm STANDARD ROCKET P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 525,
+          "durable": 525,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 6000,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 10,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 10
+        }
+      },
+      {
+        "name": "70mm STANDARD ROCKET P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 4,
+          "shockwaveRadiusM": 6
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 30,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Defensive",
+      "Traits": "Hellpod • Explosive • Sentry • Anti-Tank",
+      "Base Cooldown": "150s",
+      "Unlock Level": "15",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "150 seconds",
+      "General › Cooldown › With Morale Augmentation": "142.5 seconds",
+      "General › Cooldown › With Synthetic Supplementation": "135 seconds",
+      "General › Cooldown › With All Upgrades": "128.25 seconds",
+      "Sentry › Ammo › Standard": "32",
+      "Sentry › Ammo › Upgraded": "40*",
+      "Sentry › Turn Rate › Standard": "32 °/s",
+      "Sentry › Turn Rate › Upgraded": "48 °/s",
+      "Sentry › Health › Standard": "400",
+      "Sentry › Health › Upgraded": "600",
+      "ROCKET SENTRY › Cooldown": "150 s",
+      "ROCKET SENTRY › Uses": "∞",
+      "ROCKET SENTRY › Main Health": "400",
+      "ROCKET SENTRY › Main Armor": "Light",
+      "ROCKET SENTRY › Horizontal Turn Speed": "40",
+      "ROCKET SENTRY › Vertical Turn Speed": "40",
+      "ROCKET SENTRY › Lifetime": "150 sec",
+      "ROCKET SENTRY › Vertical Limit": "(-45.00) (90.00)",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Main Health": "400",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Main Armor": "Light",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Fire Rate": "90 rpm",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Recoil": "6.25",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Horizontal Recoil": "2.5",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Vertical Recoil": "10",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Spread": "↔[5.00] ↕[15.00]",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Sway": "1",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Ergonomics": "65",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Capacity": "16",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › Barrels": "x 16",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › 70mm STANDARD ROCKET P": "Projectile",
+      "ROCKET SENTRY › SWP ROCKET SENTRY › 70mm STANDARD ROCKET P IE": "Explosion",
+      "70mm STANDARD ROCKET P › Projectile › Mass": "6 kg",
+      "70mm STANDARD ROCKET P › Projectile › Initial Velocity": "100 m/s",
+      "70mm STANDARD ROCKET P › Projectile › Drag Factor": "0%",
+      "70mm STANDARD ROCKET P › Projectile › Gravity Factor": "10%",
+      "70mm STANDARD ROCKET P › Projectile › Penetration Slowdown": "25%",
+      "70mm STANDARD ROCKET P › Projectile › Explosion On Impact": "70mm STANDARD ROCKET_P_IE",
+      "70mm STANDARD ROCKET P › Damage › Standard": "525 Damage",
+      "70mm STANDARD ROCKET P › Damage › vs. Durable": "525 Damage",
+      "70mm STANDARD ROCKET P › Penetration › Direct": "Anti-Tank I",
+      "70mm STANDARD ROCKET P › Penetration › Slight Angle": "Anti-Tank I",
+      "70mm STANDARD ROCKET P › Penetration › Large Angle": "Anti-Tank I",
+      "70mm STANDARD ROCKET P › Penetration › Extreme Angle": "Unarmored",
+      "70mm STANDARD ROCKET P › Special Effects › Demolition Force": "30",
+      "70mm STANDARD ROCKET P › Special Effects › Stagger Force": "35",
+      "70mm STANDARD ROCKET P › Special Effects › Push Force": "10",
+      "70mm STANDARD ROCKET P IE › Area of Effect › Inner Radius": "1 m",
+      "70mm STANDARD ROCKET P IE › Area of Effect › Outer Radius": "4 m",
+      "70mm STANDARD ROCKET P IE › Area of Effect › Shockwave Radius": "6 m",
+      "70mm STANDARD ROCKET P IE › Damage › Damage Element": "None",
+      "70mm STANDARD ROCKET P IE › Damage › Inner Radius": "150 Explosion",
+      "70mm STANDARD ROCKET P IE › Damage › Inner Durable": "150 Explosion",
+      "70mm STANDARD ROCKET P IE › Damage › Outer Radius": "149 - 0",
+      "70mm STANDARD ROCKET P IE › Damage › Outer Durable": "149 - 0",
+      "70mm STANDARD ROCKET P IE › Penetration › Direct": "Medium",
+      "70mm STANDARD ROCKET P IE › AoE Effect › Demolition Force": "30",
+      "70mm STANDARD ROCKET P IE › AoE Effect › Stagger Force": "30",
+      "70mm STANDARD ROCKET P IE › AoE Effect › Push Force": "10"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Robotics Workshop",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 7500
+      },
+      "rotating": null
+    }
+  }
+}

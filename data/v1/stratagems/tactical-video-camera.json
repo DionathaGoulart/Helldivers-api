@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tactical-video-camera",
+    "slug": "tactical-video-camera",
+    "name": "Tactical Video Camera",
+    "aliases": [],
+    "description": "The Tactical Video Camera Stratagem is an objective critical stratagem that is a Primary Objective of the Commando: Acquire Evidence mission and is used in one of the potential objectives in Infiltrate Illuminate Lair.",
+    "image": null,
+    "wiki": {
+      "title": "Tactical Video Camera",
+      "url": "https://helldivers.wiki.gg/wiki/Tactical_Video_Camera",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [
+      "hellpod"
+    ],
+    "code": [
+      "right",
+      "down",
+      "down",
+      "up",
+      "left",
+      "left",
+      "up"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": null,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod",
+      "Base Cooldown": "0s"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

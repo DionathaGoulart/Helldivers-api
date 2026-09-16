@@ -1,0 +1,240 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "td-220-bastion-mk-xvi",
+    "slug": "td-220-bastion-mk-xvi",
+    "name": "TD-220 Bastion MK XVI",
+    "aliases": [],
+    "description": "The TD-220 Bastion MK XVI is a Stratagem that deploys a tracked ground vehicle armed with a 120mm HV cannon and a heavy coaxial MG.",
+    "image": null,
+    "wiki": {
+      "title": "TD-220 Bastion MK XVI",
+      "url": "https://helldivers.wiki.gg/wiki/TD-220_Bastion_MK_XVI",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "hangar",
+    "kind": "vehicle",
+    "traitIds": [
+      "vehicle",
+      "explosive",
+      "anti-tank",
+      "heavy-armor-penetrating"
+    ],
+    "code": [
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "down",
+      "up",
+      "down",
+      "up"
+    ],
+    "cooldownS": 780,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 741
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": 30,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "120mm HE CANNON ROUND P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 3500,
+          "durable": 3500,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 5000,
+          "initialVelocityMps": 400,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 40,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "120mm HE CANNON ROUND P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 750,
+          "durable": 750,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3.29999995,
+          "outerRadiusM": 10,
+          "shockwaveRadiusM": 11
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 70,
+          "push": 40
+        }
+      },
+      {
+        "name": "12.5mm BCHP RIFLE ROUNDS P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 52,
+          "initialVelocityMps": 980,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 15,
+          "stagger": 25,
+          "push": 20
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Vehicle • Explosive • Anti-Tank • Heavy Armor Penetrating",
+      "Base Cooldown": "780s",
+      "Unlock Level": "30",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "780 seconds",
+      "General › Cooldown › With Morale Augmentation": "741 seconds",
+      "BASTION MK XVI › Cooldown": "780 s",
+      "BASTION MK XVI › Uses": "∞",
+      "BASTION MK XVI › Main Health": "8000",
+      "BASTION MK XVI › Main Armor": "Heavy",
+      "BASTION MK XVI › SWP BASTION MK XVI › Main Health": "100000",
+      "BASTION MK XVI › SWP BASTION MK XVI › Main Armor": "Heavy",
+      "BASTION MK XVI › SWP BASTION MK XVI › Fire Rate": "12 rpm",
+      "BASTION MK XVI › SWP BASTION MK XVI › Recoil": "6.25",
+      "BASTION MK XVI › SWP BASTION MK XVI › Horizontal Recoil": "2.5",
+      "BASTION MK XVI › SWP BASTION MK XVI › Vertical Recoil": "10",
+      "BASTION MK XVI › SWP BASTION MK XVI › Spread": "↔[10.00] ↕[10.00]",
+      "BASTION MK XVI › SWP BASTION MK XVI › Sway": "0",
+      "BASTION MK XVI › SWP BASTION MK XVI › Ergonomics": "65",
+      "BASTION MK XVI › SWP BASTION MK XVI › Capacity": "1",
+      "BASTION MK XVI › SWP BASTION MK XVI › 120mm HE CANNON ROUND P": "Projectile",
+      "BASTION MK XVI › SWP BASTION MK XVI › 120mm HE CANNON ROUND P IE": "Explosion",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Fire Rate": "600 rpm",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Recoil": "6.25",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Horizontal Recoil": "5",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Vertical Recoil": "7.5",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Spread": "↔[30.00] ↕[30.00]",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Sway": "0",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Ergonomics": "65",
+      "BASTION MK XVI › SWP BASTION MK XVIII › Capacity": "2000",
+      "BASTION MK XVI › SWP BASTION MK XVIII › 12.5mm BCHP RIFLE ROUNDS P": "Projectile",
+      "120mm HE CANNON ROUND P › Projectile › Mass": "5 kg",
+      "120mm HE CANNON ROUND P › Projectile › Initial Velocity": "400 m/s",
+      "120mm HE CANNON ROUND P › Projectile › Drag Factor": "0%",
+      "120mm HE CANNON ROUND P › Projectile › Gravity Factor": "100%",
+      "120mm HE CANNON ROUND P › Projectile › Penetration Slowdown": "25%",
+      "120mm HE CANNON ROUND P › Projectile › Explosion On Impact": "120mm HE CANNON ROUND_P_IE",
+      "120mm HE CANNON ROUND P › Damage › Standard": "3500 Ballistic",
+      "120mm HE CANNON ROUND P › Damage › vs. Durable": "3500 Ballistic",
+      "120mm HE CANNON ROUND P › Penetration › Direct": "Anti-Tank IV",
+      "120mm HE CANNON ROUND P › Penetration › Slight Angle": "Anti-Tank III",
+      "120mm HE CANNON ROUND P › Penetration › Large Angle": "Anti-Tank II",
+      "120mm HE CANNON ROUND P › Penetration › Extreme Angle": "Anti-Tank II",
+      "120mm HE CANNON ROUND P › Special Effects › Demolition Force": "40",
+      "120mm HE CANNON ROUND P › Special Effects › Stagger Force": "50",
+      "120mm HE CANNON ROUND P › Special Effects › Push Force": "20",
+      "120mm HE CANNON ROUND P IE › Area of Effect › Inner Radius": "3.29999995 m",
+      "120mm HE CANNON ROUND P IE › Area of Effect › Outer Radius": "10 m",
+      "120mm HE CANNON ROUND P IE › Area of Effect › Shockwave Radius": "11 m",
+      "120mm HE CANNON ROUND P IE › Damage › Damage Element": "None",
+      "120mm HE CANNON ROUND P IE › Damage › Inner Radius": "750 Explosion",
+      "120mm HE CANNON ROUND P IE › Damage › Inner Durable": "750 Explosion",
+      "120mm HE CANNON ROUND P IE › Damage › Outer Radius": "749 - 0",
+      "120mm HE CANNON ROUND P IE › Damage › Outer Durable": "749 - 0",
+      "120mm HE CANNON ROUND P IE › Penetration › Direct": "Anti-Tank I",
+      "120mm HE CANNON ROUND P IE › AoE Effect › Demolition Force": "40",
+      "120mm HE CANNON ROUND P IE › AoE Effect › Stagger Force": "70",
+      "120mm HE CANNON ROUND P IE › AoE Effect › Push Force": "40",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Mass": "52 g",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Initial Velocity": "980 m/s",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Drag Factor": "30%",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Gravity Factor": "100%",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Penetration Slowdown": "25%",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › Standard": "150 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › vs. Durable": "35 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Direct": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Slight Angle": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Large Angle": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Extreme Angle": "Unarmored",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Demolition Force": "15",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Stagger Force": "25",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Push Force": "20"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Hangar",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 35000
+      },
+      "rotating": null
+    }
+  }
+}

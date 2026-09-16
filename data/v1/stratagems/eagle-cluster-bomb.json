@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eagle-cluster-bomb",
+    "slug": "eagle-cluster-bomb",
+    "name": "Eagle Cluster Bomb",
+    "aliases": [],
+    "description": "The Eagle Cluster Bomb is an offensive stratagem that calls in a carpet bomb on the area.",
+    "image": null,
+    "wiki": {
+      "title": "Eagle Cluster Bomb",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle_Cluster_Bomb",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": "hangar",
+    "kind": "eagle",
+    "traitIds": [
+      "explosive",
+      "eagle",
+      "medium-armor-penetrating"
+    ],
+    "code": [
+      "up",
+      "right",
+      "down",
+      "down",
+      "right"
+    ],
+    "cooldownS": 15,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 14.25
+      },
+      {
+        "label": "With Liquid-Ventilated Cockpit",
+        "seconds": 7.5
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 6.75
+      }
+    ],
+    "callInTimeS": 4.1,
+    "callInTimeUpgradedS": null,
+    "uses": 4,
+    "unlockLevel": 3,
+    "shipModules": [
+      {
+        "department": "hangar",
+        "module": "Liquid-Ventilated Cockpit",
+        "effect": "Eagle stratagem cooldown reduced by 50%."
+      },
+      {
+        "department": "hangar",
+        "module": "Pit Crew Hazard Pay",
+        "effect": "Reduces Eagle Rearm time by 20%."
+      },
+      {
+        "department": "hangar",
+        "module": "Expanded Weapons Bay",
+        "effect": "Increases the number of Eagle uses per Rearm by 1."
+      },
+      {
+        "department": "hangar",
+        "module": "XXL Weapons Bay",
+        "effect": "Eagle Stratagems that drop multiple drop will drop 1 additional bomb(s)."
+      },
+      {
+        "department": "hangar",
+        "module": "Advanced Crew Training",
+        "effect": "Eagle Rearm cooldown further reduced by 10% if called in while Eagle uses still remain."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "100KG CLUSTER BOMB P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": "anti_tank_iii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 40,
+          "stagger": 20,
+          "push": 15
+        }
+      },
+      {
+        "name": "100KG CLUSTER BOMB P E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 2,
+          "shockwaveRadiusM": 10
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P4",
+        "kind": "projectile",
+        "damage": {
+          "standard": 20,
+          "durable": 2,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "unarmored",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 50,
+          "initialVelocityMps": 30,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P4 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Offensive",
+      "Traits": "Explosive • Eagle • Medium Armor Penetrating",
+      "Base Cooldown": "15s",
+      "Unlock Level": "3",
+      "General › Call-in Time": "4.1 seconds",
+      "General › Rearm Time › Standard": "150 seconds",
+      "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+      "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+      "General › Uses › Standard": "4",
+      "General › Uses › Upgraded": "5",
+      "General › Cooldown › Standard": "15 seconds",
+      "General › Cooldown › With Morale Augmentation": "14.25 seconds",
+      "General › Cooldown › With Liquid-Ventilated Cockpit": "7.5 seconds",
+      "General › Cooldown › With All Upgrades": "6.75 seconds",
+      "Eagle Cluster Bomb › Cooldown": "15 s",
+      "Eagle Cluster Bomb › Uses": "4",
+      "Eagle Cluster Bomb › Main Health": "100",
+      "Eagle Cluster Bomb › Main Armor": "Unarmored",
+      "Eagle Cluster Bomb › Attacks › 100KG CLUSTER BOMB P": "Projectile",
+      "Eagle Cluster Bomb › Attacks › 100KG CLUSTER BOMB P E": "Explosion",
+      "Eagle Cluster Bomb › Attacks › CLUSTER BOMB P4": "Projectile",
+      "Eagle Cluster Bomb › Attacks › CLUSTER BOMB P4 IE": "Explosion",
+      "100KG CLUSTER BOMB P › Projectile › Mass": "100 g",
+      "100KG CLUSTER BOMB P › Projectile › Initial Velocity": "300 m/s",
+      "100KG CLUSTER BOMB P › Projectile › Drag Factor": "50%",
+      "100KG CLUSTER BOMB P › Projectile › Gravity Factor": "100%",
+      "100KG CLUSTER BOMB P › Projectile › Lifetime": "0.349999994 sec",
+      "100KG CLUSTER BOMB P › Projectile › Penetration Slowdown": "25%",
+      "100KG CLUSTER BOMB P › Projectile › Explode After": "100KG CLUSTER BOMB_P_E",
+      "100KG CLUSTER BOMB P › Damage › Standard": "1500 Damage",
+      "100KG CLUSTER BOMB P › Damage › vs. Durable": "1500 Damage",
+      "100KG CLUSTER BOMB P › Penetration › Direct": "Anti-Tank III",
+      "100KG CLUSTER BOMB P › Penetration › Slight Angle": "Anti-Tank III",
+      "100KG CLUSTER BOMB P › Penetration › Large Angle": "Anti-Tank III",
+      "100KG CLUSTER BOMB P › Penetration › Extreme Angle": "Anti-Tank III",
+      "100KG CLUSTER BOMB P › Special Effects › Demolition Force": "40",
+      "100KG CLUSTER BOMB P › Special Effects › Stagger Force": "20",
+      "100KG CLUSTER BOMB P › Special Effects › Push Force": "15",
+      "100KG CLUSTER BOMB P E › Area of Effect › Inner Radius": "1 m",
+      "100KG CLUSTER BOMB P E › Area of Effect › Outer Radius": "2 m",
+      "100KG CLUSTER BOMB P E › Area of Effect › Shockwave Radius": "10 m",
+      "100KG CLUSTER BOMB P E › Area of Effect › Shrapnel Count": "8",
+      "100KG CLUSTER BOMB P E › Area of Effect › Shrapnel": "CLUSTER BOMB_P4",
+      "100KG CLUSTER BOMB P E › Damage › Damage Element": "None",
+      "100KG CLUSTER BOMB P E › Damage › Inner Radius": "350 Explosion",
+      "100KG CLUSTER BOMB P E › Damage › Inner Durable": "350 Explosion",
+      "100KG CLUSTER BOMB P E › Damage › Outer Radius": "349 - 0",
+      "100KG CLUSTER BOMB P E › Damage › Outer Durable": "349 - 0",
+      "100KG CLUSTER BOMB P E › Penetration › Direct": "Medium",
+      "100KG CLUSTER BOMB P E › AoE Effect › Demolition Force": "30",
+      "100KG CLUSTER BOMB P E › AoE Effect › Stagger Force": "50",
+      "100KG CLUSTER BOMB P E › AoE Effect › Push Force": "40",
+      "CLUSTER BOMB P4 › Projectile › Mass": "50 g",
+      "CLUSTER BOMB P4 › Projectile › Initial Velocity": "30 m/s",
+      "CLUSTER BOMB P4 › Projectile › Drag Factor": "50%",
+      "CLUSTER BOMB P4 › Projectile › Gravity Factor": "100%",
+      "CLUSTER BOMB P4 › Projectile › Penetration Slowdown": "25%",
+      "CLUSTER BOMB P4 › Projectile › Explosion On Impact": "CLUSTER BOMB_P4_IE",
+      "CLUSTER BOMB P4 › Damage › Standard": "20 Damage",
+      "CLUSTER BOMB P4 › Damage › vs. Durable": "2 Damage",
+      "CLUSTER BOMB P4 › Penetration › Direct": "Unarmored",
+      "CLUSTER BOMB P4 › Penetration › Slight Angle": "Unarmored",
+      "CLUSTER BOMB P4 › Penetration › Large Angle": "Unarmored",
+      "CLUSTER BOMB P4 › Penetration › Extreme Angle": "Unarmored",
+      "CLUSTER BOMB P4 › Special Effects › Demolition Force": "10",
+      "CLUSTER BOMB P4 › Special Effects › Stagger Force": "30",
+      "CLUSTER BOMB P4 › Special Effects › Push Force": "10",
+      "CLUSTER BOMB P4 IE › Area of Effect › Inner Radius": "3 m",
+      "CLUSTER BOMB P4 IE › Area of Effect › Outer Radius": "6 m",
+      "CLUSTER BOMB P4 IE › Area of Effect › Shockwave Radius": "8 m",
+      "CLUSTER BOMB P4 IE › Damage › Damage Element": "None",
+      "CLUSTER BOMB P4 IE › Damage › Inner Radius": "350 Explosion",
+      "CLUSTER BOMB P4 IE › Damage › Inner Durable": "350 Explosion",
+      "CLUSTER BOMB P4 IE › Damage › Outer Radius": "349 - 0",
+      "CLUSTER BOMB P4 IE › Damage › Outer Durable": "349 - 0",
+      "CLUSTER BOMB P4 IE › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P4 IE › AoE Effect › Demolition Force": "30",
+      "CLUSTER BOMB P4 IE › AoE Effect › Stagger Force": "50",
+      "CLUSTER BOMB P4 IE › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Hangar",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 4000
+      },
+      "rotating": null
+    }
+  }
+}

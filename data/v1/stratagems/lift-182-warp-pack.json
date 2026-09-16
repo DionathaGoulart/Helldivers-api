@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "lift-182-warp-pack",
+    "slug": "lift-182-warp-pack",
+    "name": "LIFT-182 Warp Pack",
+    "aliases": [],
+    "description": "The Warp Pack significantly increases the wearer's mobility. When activated, the Helldiver is able to warp through terrain and enemies, potentially killing them in the process.",
+    "image": null,
+    "wiki": {
+      "title": "LIFT-182 Warp Pack",
+      "url": "https://helldivers.wiki.gg/wiki/LIFT-182_Warp_Pack",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "backpack",
+    "traitIds": [
+      "hellpod",
+      "backpack"
+    ],
+    "code": [
+      "down",
+      "left",
+      "right",
+      "down",
+      "left",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      },
+      {
+        "label": "With Hand Carts",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
+      }
+    ],
+    "callInTimeS": 5,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Hand Carts",
+        "effect": "Decreases cooldown for all Backpack stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": {
+      "health": 200,
+      "armor": "light",
+      "capacity": null
+    },
+    "attacks": [
+      {
+        "name": "Explosion Warp",
+        "kind": "explosion",
+        "damage": {
+          "standard": 1000,
+          "durable": 1000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1.4,
+          "outerRadiusM": 1.5,
+          "shockwaveRadiusM": 2
+        },
+        "forces": {
+          "demolition": 20,
+          "stagger": 25,
+          "push": 20
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack",
+      "Base Cooldown": "480s",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Hand Carts": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
+      "LIFT-182 Warp Pack › Main Health": "200",
+      "LIFT-182 Warp Pack › Main Armor": "Light",
+      "LIFT-182 Warp Pack › Cooldown": "480 sec",
+      "LIFT-182 Warp Pack › Call-in Time": "5 s",
+      "LIFT-182 Warp Pack › Attacks › Explosion Warp": "Explosion",
+      "Explosion Warp › Area of Effect › Inner Radius": "1.4 m",
+      "Explosion Warp › Area of Effect › Outer Radius": "1.5 m",
+      "Explosion Warp › Area of Effect › Shockwave Radius": "2 m",
+      "Explosion Warp › Damage › Inner Radius": "1000 Explosion",
+      "Explosion Warp › Damage › Inner Durable": "1000 Explosion",
+      "Explosion Warp › Damage › Outer Radius": "999 - 0",
+      "Explosion Warp › Damage › Outer Durable": "999 - 0",
+      "Explosion Warp › Penetration › Direct": "Heavy",
+      "Explosion Warp › Penetration › Slight Angle": "Heavy",
+      "Explosion Warp › Penetration › Large Angle": "Heavy",
+      "Explosion Warp › AoE Effect › Demolition Force": "20",
+      "Explosion Warp › AoE Effect › Stagger Force": "25",
+      "Explosion Warp › AoE Effect › Push Force": "20"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P3",
+      "warbondId": "control-group",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 110
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "prospecting-drill",
+    "slug": "prospecting-drill",
+    "name": "Prospecting Drill",
+    "aliases": [],
+    "description": "The Prospecting Drill Stratagem is only available during the Conduct Geological Survey Mission and is used to start the Main Objective.",
+    "image": null,
+    "wiki": {
+      "title": "Prospecting Drill",
+      "url": "https://helldivers.wiki.gg/wiki/Prospecting_Drill",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "down",
+      "down",
+      "left",
+      "right",
+      "down",
+      "down"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": 10,
+    "callInTimeUpgradedS": null,
+    "uses": 1,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "10 seconds",
+      "General › Uses": "1",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

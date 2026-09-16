@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "nux-223-hellbomb",
+    "slug": "nux-223-hellbomb",
+    "name": "Hellbomb",
+    "aliases": [
+      "NUX-223 Hellbomb"
+    ],
+    "description": "Helldivers must enter the following sequence in order to call down this special Stratagem during a mission:",
+    "image": null,
+    "wiki": {
+      "title": "NUX-223 Hellbomb",
+      "url": "https://helldivers.wiki.gg/wiki/NUX-223_Hellbomb",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "down",
+      "up",
+      "right",
+      "down",
+      "up"
+    ],
+    "cooldownS": 30,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 28.5
+      }
+    ],
+    "callInTimeS": 5,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "Hellbomb",
+        "kind": "explosion",
+        "damage": {
+          "standard": 10000,
+          "durable": 10000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_vi",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 17,
+          "outerRadiusM": 25,
+          "shockwaveRadiusM": 45
+        },
+        "forces": {
+          "demolition": 60,
+          "stagger": 50,
+          "push": 100
+        }
+      }
+    ],
+    "statsRaw": {
+      "Base Cooldown": "30s",
+      "General › Call-in Time": "10 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "30 seconds",
+      "General › Cooldown › With Morale Augmentation": "28.5 seconds",
+      "NUX-223 Hellbomb › Main Health": "350",
+      "NUX-223 Hellbomb › Main Armor": "Light",
+      "NUX-223 Hellbomb › Cooldown": "30 sec",
+      "NUX-223 Hellbomb › Call-in Time": "5 s",
+      "NUX-223 Hellbomb › Attacks › Hellbomb": "Explosion",
+      "Hellbomb › Area of Effect › Inner Radius": "17 m",
+      "Hellbomb › Area of Effect › Outer Radius": "25 m",
+      "Hellbomb › Area of Effect › Shockwave Radius": "45 m",
+      "Hellbomb › Damage › Inner Radius": "10000 Explosion",
+      "Hellbomb › Damage › Inner Durable": "10000 Explosion",
+      "Hellbomb › Damage › Outer Radius": "9999 - 0",
+      "Hellbomb › Damage › Outer Durable": "9999 - 0",
+      "Hellbomb › Penetration › Direct": "Anti-Tank VI",
+      "Hellbomb › AoE Effect › Demolition Force": "60",
+      "Hellbomb › AoE Effect › Stagger Force": "50",
+      "Hellbomb › AoE Effect › Push Force": "100"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

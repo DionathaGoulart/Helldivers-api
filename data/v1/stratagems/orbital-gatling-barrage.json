@@ -1,0 +1,254 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "orbital-gatling-barrage",
+    "slug": "orbital-gatling-barrage",
+    "name": "Orbital Gatling Barrage",
+    "aliases": [],
+    "description": "The Orbital Gatling Barrage or OGB for short is an offensive stratagem that delivers a devastating barrage of 23mm rounds from above.",
+    "image": null,
+    "wiki": {
+      "title": "Orbital Gatling Barrage",
+      "url": "https://helldivers.wiki.gg/wiki/Orbital_Gatling_Barrage",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": "orbital_cannons",
+    "kind": "orbital",
+    "traitIds": [
+      "explosive",
+      "orbital",
+      "heavy-armor-penetrating"
+    ],
+    "code": [
+      "right",
+      "down",
+      "left",
+      "up",
+      "up"
+    ],
+    "cooldownS": 70,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 66.5
+      },
+      {
+        "label": "With Zero-G Breech Loading",
+        "seconds": 63
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 59.85
+      }
+    ],
+    "callInTimeS": 3.05,
+    "callInTimeUpgradedS": 2.05,
+    "uses": "unlimited",
+    "unlockLevel": 1,
+    "shipModules": [
+      {
+        "department": "orbital_cannons",
+        "module": "Exploding Shrapnel",
+        "effect": "Reduces damage fall from center of explosions caused by orbital Stratagems."
+      },
+      {
+        "department": "orbital_cannons",
+        "module": "More Guns",
+        "effect": "Barrage orbitals fire 1 additional salvo(s) per barrage."
+      },
+      {
+        "department": "orbital_cannons",
+        "module": "Zero-G Breech Loading",
+        "effect": "Orbital stratagem cooldown time reduced by 10%."
+      },
+      {
+        "department": "orbital_cannons",
+        "module": "High-Density Explosives",
+        "effect": "Increases the damage radius on explosions caused by orbital Stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Targeting Software Upgrade",
+        "effect": "1-second reduction in call-in time for all Orbital Stratagems."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "23mm HE CANNON P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 350,
+          "durable": 200,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 400,
+          "initialVelocityMps": 1050,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 3
+        }
+      },
+      {
+        "name": "23mm HE CANNON P1 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1.5,
+          "outerRadiusM": 4.5,
+          "shockwaveRadiusM": 6.5
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 5
+        }
+      },
+      {
+        "name": "23mm HE CANNON P2",
+        "kind": "projectile",
+        "damage": {
+          "standard": 350,
+          "durable": 200,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 400,
+          "initialVelocityMps": 1050,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 3
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Offensive",
+      "Traits": "Explosive • Orbital • Heavy Armor Penetrating",
+      "Base Cooldown": "70s",
+      "Unlock Level": "1",
+      "General › Call-in Time › Standard": "3.05 seconds",
+      "General › Call-in Time › Upgraded": "2.05 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "70 seconds",
+      "General › Cooldown › With Morale Augmentation": "66.5 seconds",
+      "General › Cooldown › With Zero-G Breech Loading": "63 seconds",
+      "General › Cooldown › With All Upgrades": "59.85 seconds",
+      "ORBITAL GATLING BARRAGE › Cooldown": "70 s",
+      "ORBITAL GATLING BARRAGE › Uses": "∞",
+      "ORBITAL GATLING BARRAGE › Bombs": "60",
+      "ORBITAL GATLING BARRAGE › Salvos": "4",
+      "ORBITAL GATLING BARRAGE › Bombardment Area Size": "7 m",
+      "ORBITAL GATLING BARRAGE › Attacks › 23mm HE CANNON P1": "Projectile",
+      "ORBITAL GATLING BARRAGE › Attacks › 23mm HE CANNON P2": "Projectile",
+      "ORBITAL GATLING BARRAGE › Attacks › 23mm HE CANNON P1 IE": "Explosion",
+      "23mm HE CANNON P1 › Projectile › Mass": "400 g",
+      "23mm HE CANNON P1 › Projectile › Initial Velocity": "1050 m/s",
+      "23mm HE CANNON P1 › Projectile › Drag Factor": "30%",
+      "23mm HE CANNON P1 › Projectile › Gravity Factor": "100%",
+      "23mm HE CANNON P1 › Projectile › Penetration Slowdown": "25%",
+      "23mm HE CANNON P1 › Projectile › Explosion On Impact": "23mm HE CANNON_P1_IE",
+      "23mm HE CANNON P1 › Damage › Standard": "350 Ballistic",
+      "23mm HE CANNON P1 › Damage › vs. Durable": "200 Ballistic",
+      "23mm HE CANNON P1 › Penetration › Direct": "Anti-Tank I",
+      "23mm HE CANNON P1 › Penetration › Slight Angle": "Anti-Tank I",
+      "23mm HE CANNON P1 › Penetration › Large Angle": "Heavy",
+      "23mm HE CANNON P1 › Penetration › Extreme Angle": "Unarmored",
+      "23mm HE CANNON P1 › Special Effects › Demolition Force": "30",
+      "23mm HE CANNON P1 › Special Effects › Stagger Force": "35",
+      "23mm HE CANNON P1 › Special Effects › Push Force": "3",
+      "23mm HE CANNON P1 IE › Area of Effect › Inner Radius": "1.5 m",
+      "23mm HE CANNON P1 IE › Area of Effect › Outer Radius": "4.5 m",
+      "23mm HE CANNON P1 IE › Area of Effect › Shockwave Radius": "6.5 m",
+      "23mm HE CANNON P1 IE › Damage › Damage Element": "None",
+      "23mm HE CANNON P1 IE › Damage › Inner Radius": "350 Explosion",
+      "23mm HE CANNON P1 IE › Damage › Inner Durable": "350 Explosion",
+      "23mm HE CANNON P1 IE › Damage › Outer Radius": "349 - 0",
+      "23mm HE CANNON P1 IE › Damage › Outer Durable": "349 - 0",
+      "23mm HE CANNON P1 IE › Penetration › Direct": "Medium",
+      "23mm HE CANNON P1 IE › AoE Effect › Demolition Force": "30",
+      "23mm HE CANNON P1 IE › AoE Effect › Stagger Force": "35",
+      "23mm HE CANNON P1 IE › AoE Effect › Push Force": "5",
+      "23mm HE CANNON P2 › Projectile › Mass": "400 g",
+      "23mm HE CANNON P2 › Projectile › Initial Velocity": "1050 m/s",
+      "23mm HE CANNON P2 › Projectile › Drag Factor": "30%",
+      "23mm HE CANNON P2 › Projectile › Gravity Factor": "100%",
+      "23mm HE CANNON P2 › Projectile › Penetration Slowdown": "25%",
+      "23mm HE CANNON P2 › Damage › Standard": "350 Ballistic",
+      "23mm HE CANNON P2 › Damage › vs. Durable": "200 Ballistic",
+      "23mm HE CANNON P2 › Penetration › Direct": "Anti-Tank I",
+      "23mm HE CANNON P2 › Penetration › Slight Angle": "Anti-Tank I",
+      "23mm HE CANNON P2 › Penetration › Large Angle": "Heavy",
+      "23mm HE CANNON P2 › Penetration › Extreme Angle": "Unarmored",
+      "23mm HE CANNON P2 › Special Effects › Demolition Force": "30",
+      "23mm HE CANNON P2 › Special Effects › Stagger Force": "35",
+      "23mm HE CANNON P2 › Special Effects › Push Force": "3"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Orbital Cannons",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 1500
+      },
+      "rotating": null
+    }
+  }
+}

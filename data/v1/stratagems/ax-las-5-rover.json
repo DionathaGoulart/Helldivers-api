@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ax-las-5-rover",
+    "slug": "ax-las-5-rover",
+    "name": "AX/LAS-5 Rover",
+    "aliases": [],
+    "description": "The AX/LAS-5 Rover is a backpack Stratagem that provides fire support fire to the player.",
+    "image": null,
+    "wiki": {
+      "title": "AX/LAS-5 Rover",
+      "url": "https://helldivers.wiki.gg/wiki/AX/LAS-5_Rover",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "engineering_bay",
+    "kind": "backpack",
+    "traitIds": [
+      "hellpod",
+      "backpack",
+      "light-armor-penetrating",
+      "beam"
+    ],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "up",
+      "right",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      },
+      {
+        "label": "With Hand Carts",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
+      }
+    ],
+    "callInTimeS": 9.75,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": 10,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Hand Carts",
+        "effect": "Decreases cooldown for all Backpack stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": {
+      "health": 100,
+      "armor": "very_light",
+      "capacity": null
+    },
+    "attacks": [
+      {
+        "name": "AX/LAS-5 ROVER B",
+        "kind": "beam",
+        "damage": {
+          "standard": 200,
+          "durable": 40,
+          "type": "Laser"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack • Light Armor Penetrating • Beam",
+      "Base Cooldown": "480s",
+      "Unlock Level": "10",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Hand Carts": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
+      "AX/LAS-5 ROVER › Main Health": "100",
+      "AX/LAS-5 ROVER › Main Armor": "Very Light",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Recoil": "1",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Horizontal Recoil": "1.5",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Vertical Recoil": "0.5",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Spread": "↔[10.00] ↕[10.00]",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Sway": "1",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Ergonomics": "65",
+      "AX/LAS-5 ROVER › Heat Data › Overheats at": "200 °C",
+      "AX/LAS-5 ROVER › Heat Data › Warmup": "0.2 sec",
+      "AX/LAS-5 ROVER › Heat Data › Heat Per Shot": "2 °C",
+      "AX/LAS-5 ROVER › Heat Data › Cool Per Sec": "75 - 50 - 37.5",
+      "AX/LAS-5 ROVER › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
+      "AX/LAS-5 ROVER › Heat Data › Beam Fire Rate": "60 rpm",
+      "AX/LAS-5 ROVER › Attacks › AX/LAS-5 ROVER B": "Beam",
+      "AX/LAS-5 ROVER › Attacks › Fire": "status",
+      "AX/LAS-5 ROVER B › Beam › Beam Range": "1000 m",
+      "AX/LAS-5 ROVER B › Damage › Standard": "200 Laser",
+      "AX/LAS-5 ROVER B › Damage › vs. Durable": "40 Laser",
+      "AX/LAS-5 ROVER B › Penetration › Direct": "Light",
+      "AX/LAS-5 ROVER B › Penetration › Slight Angle": "Light",
+      "AX/LAS-5 ROVER B › Penetration › Large Angle": "Light",
+      "AX/LAS-5 ROVER B › Penetration › Extreme Angle": "Unarmored",
+      "AX/LAS-5 ROVER B › Special Effects › Status": "Fire",
+      "AX/LAS-5 ROVER B › Special Effects › Status Strength": "1",
+      "AX/LAS-5 ROVER B › Special Effects › Demolition Force": "10",
+      "AX/LAS-5 ROVER B › Special Effects › Stagger Force": "0",
+      "AX/LAS-5 ROVER B › Special Effects › Push Force": "0",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Engineering Bay",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 7500
+      },
+      "rotating": null
+    }
+  }
+}

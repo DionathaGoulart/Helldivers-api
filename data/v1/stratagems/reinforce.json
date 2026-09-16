@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "reinforce",
+    "slug": "reinforce",
+    "name": "Reinforce",
+    "aliases": [],
+    "description": "The Reinforcement is a standard-issue Stratagem, available to all Helldivers regardless of rank. However, it is only active if a member of the squad has died and reinforcement tickets are not depleted.",
+    "image": null,
+    "wiki": {
+      "title": "Reinforce",
+      "url": "https://helldivers.wiki.gg/wiki/Reinforce",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "mission",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "up",
+      "down",
+      "right",
+      "left",
+      "up"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "Unknown seconds",
+      "General › Uses": "INF",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cqc-1-one-true-flag",
+    "slug": "cqc-1-one-true-flag",
+    "name": "CQC-1 One True Flag",
+    "aliases": [],
+    "description": "The One True Flag is a Melee Support Weapon. Attacking will thrust the One True Flag at a moderately fast speed. Helldivers equipped with the flag will cause enemies to prioritize them over other Helldivers.",
+    "image": null,
+    "wiki": {
+      "title": "CQC-1 One True Flag",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-1_One_True_Flag",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "medium-armor-penetrating",
+      "melee",
+      "one-handed"
+    ],
+    "code": [
+      "down",
+      "left",
+      "right",
+      "right",
+      "up"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": null,
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "One True Flag",
+        "kind": "melee",
+        "damage": {
+          "standard": 200,
+          "durable": 100,
+          "type": "Melee"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Medium Armor Penetrating • Melee • One Handed",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Melee",
+      "Standard Damage": "200 Melee",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "117 rpm",
+      "Capacity": "N/A",
+      "Ergonomics": "0",
+      "Recoil": "8",
+      "CQC-1 One True Flag › Fire Rate": "117 rpm",
+      "CQC-1 One True Flag › Recoil": "8",
+      "CQC-1 One True Flag › Ergonomics": "0",
+      "CQC-1 One True Flag › Attacks › One True Flag": "Damage",
+      "One True Flag › Damage › Element": "Melee",
+      "One True Flag › Damage › Standard": "200 Melee",
+      "One True Flag › Damage › vs. Durable": "100 Melee",
+      "One True Flag › Penetration › Direct": "Medium",
+      "One True Flag › Penetration › Slight Angle": "Unarmored",
+      "One True Flag › Penetration › Large Angle": "Unarmored",
+      "One True Flag › Penetration › Extreme Angle": "Unarmored",
+      "One True Flag › Special Effects › Status": "Stun Large",
+      "One True Flag › Special Effects › Status Strength": "5",
+      "One True Flag › Special Effects › Demolition Force": "10",
+      "One True Flag › Special Effects › Stagger Force": "35",
+      "One True Flag › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P3",
+      "warbondId": "masters-of-ceremony",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 110
+      },
+      "rotating": null
+    }
+  }
+}

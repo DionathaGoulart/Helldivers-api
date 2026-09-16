@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "call-in-super-destroyer",
+    "slug": "call-in-super-destroyer",
+    "name": "Call In Super Destroyer",
+    "aliases": [],
+    "description": "The Call In Super Destroyer Stratagem is a used to call in a Helldiver's Super Destroyer for 1 minute during Commando Missions. It is only available 10 seconds after the super destroyer has left after its initial minute of being on the map.",
+    "image": null,
+    "wiki": {
+      "title": "Call In Super Destroyer",
+      "url": "https://helldivers.wiki.gg/wiki/Call_In_Super_Destroyer",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "mission",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "up",
+      "up",
+      "down",
+      "down",
+      "left",
+      "right",
+      "left",
+      "right"
+    ],
+    "cooldownS": null,
+    "cooldownVariants": [],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": null,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "N/A"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

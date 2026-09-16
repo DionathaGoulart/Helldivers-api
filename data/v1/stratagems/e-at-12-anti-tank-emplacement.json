@@ -1,0 +1,192 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "e-at-12-anti-tank-emplacement",
+    "slug": "e-at-12-anti-tank-emplacement",
+    "name": "E/AT-12 Anti-Tank Emplacement",
+    "aliases": [],
+    "description": "The Anti-Tank Emplacement, shortened to AT Emplacement or ATE, is a Stratagem that deploys a heavy anti-tank cannon.",
+    "image": null,
+    "wiki": {
+      "title": "E/AT-12 Anti-Tank Emplacement",
+      "url": "https://helldivers.wiki.gg/wiki/E/AT-12_Anti-Tank_Emplacement",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "defensive",
+    "availability": "loadout",
+    "category": null,
+    "kind": "emplacement",
+    "traitIds": [
+      "hellpod",
+      "anti-tank"
+    ],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "right",
+      "right",
+      "right"
+    ],
+    "cooldownS": 180,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 171
+      },
+      {
+        "label": "With Synthetic Supplementation",
+        "seconds": 162
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 153.9
+      }
+    ],
+    "callInTimeS": 3,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Synthetic Supplementation",
+        "effect": "Reduces cooldown time for Sentry, Emplacement, and Resupply stratagems by 10%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Rapid Launch System",
+        "effect": "Removes deployment time for Emplacement stratagems."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "ET Cannon 75mm APHE",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1300,
+          "durable": 1300,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "medium"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 6500,
+          "initialVelocityMps": 625,
+          "dragFactorPct": 75,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 25
+        }
+      },
+      {
+        "name": "ET APHE 75mm",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 60,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Defensive",
+      "Traits": "Hellpod • Anti-Tank",
+      "Base Cooldown": "180s",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "180 seconds",
+      "General › Cooldown › With Morale Augmentation": "171 seconds",
+      "General › Cooldown › With Synthetic Supplementation": "162 seconds",
+      "General › Cooldown › With All Upgrades": "153.9 seconds",
+      "E/AT-12 Anti-Tank Emplacement › Main Health": "300",
+      "E/AT-12 Anti-Tank Emplacement › Main Armor": "Light",
+      "E/AT-12 Anti-Tank Emplacement › Ergonomics": "65",
+      "E/AT-12 Anti-Tank Emplacement › Cooldown": "180 sec",
+      "E/AT-12 Anti-Tank Emplacement › Call-in Time": "3 s",
+      "E/AT-12 Anti-Tank Emplacement › Attacks › ET Cannon 75mm APHE": "Projectile",
+      "E/AT-12 Anti-Tank Emplacement › Attacks › ET APHE 75mm": "Explosion",
+      "ET Cannon 75mm APHE › Projectile › Mass": "6.5 kg",
+      "ET Cannon 75mm APHE › Projectile › Initial Velocity": "625 m/s",
+      "ET Cannon 75mm APHE › Projectile › Drag Factor": "75%",
+      "ET Cannon 75mm APHE › Projectile › Gravity Factor": "100%",
+      "ET Cannon 75mm APHE › Projectile › Penetration Slowdown": "25%",
+      "ET Cannon 75mm APHE › Damage › Standard": "1300 Damage",
+      "ET Cannon 75mm APHE › Damage › vs. Durable": "1300 Damage",
+      "ET Cannon 75mm APHE › Penetration › Direct": "Anti-Tank II",
+      "ET Cannon 75mm APHE › Penetration › Slight Angle": "Anti-Tank II",
+      "ET Cannon 75mm APHE › Penetration › Large Angle": "Anti-Tank II",
+      "ET Cannon 75mm APHE › Penetration › Extreme Angle": "Medium",
+      "ET Cannon 75mm APHE › Special Effects › Demolition Force": "30",
+      "ET Cannon 75mm APHE › Special Effects › Stagger Force": "50",
+      "ET Cannon 75mm APHE › Special Effects › Push Force": "25",
+      "ET APHE 75mm › Area of Effect › Inner Radius": "3 m",
+      "ET APHE 75mm › Area of Effect › Outer Radius": "6 m",
+      "ET APHE 75mm › Area of Effect › Shockwave Radius": "7 m",
+      "ET APHE 75mm › Damage › Inner Radius": "150 Explosion",
+      "ET APHE 75mm › Damage › Inner Durable": "150 Explosion",
+      "ET APHE 75mm › Damage › Outer Radius": "149 - 0",
+      "ET APHE 75mm › Damage › Outer Durable": "149 - 0",
+      "ET APHE 75mm › Penetration › Direct": "Medium",
+      "ET APHE 75mm › AoE Effect › Demolition Force": "30",
+      "ET APHE 75mm › AoE Effect › Stagger Force": "60",
+      "ET APHE 75mm › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P3",
+      "warbondId": "urban-legends",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 110
+      },
+      "rotating": null
+    }
+  }
+}

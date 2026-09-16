@@ -1,0 +1,469 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rl-77-airburst-rocket-launcher",
+    "slug": "rl-77-airburst-rocket-launcher",
+    "name": "RL-77 Airburst Rocket Launcher",
+    "aliases": [],
+    "description": "The RL-77 Airburst Rocket Launcher, also known as the ABRL, is a Support Weapon that fires a cluster rocket designed for neutralizing several light-medium enemies with a single shot.",
+    "image": null,
+    "wiki": {
+      "title": "RL-77 Airburst Rocket Launcher",
+      "url": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "patriotic_administration_center",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "backpack",
+      "medium-armor-penetrating",
+      "stationary-reload"
+    ],
+    "code": [
+      "down",
+      "up",
+      "up",
+      "left",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 15,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapons launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "other"
+      ],
+      "fireRateRpm": [
+        600
+      ],
+      "dps": [],
+      "capacity": 1,
+      "spareMagazines": 5,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 3,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 77.5,
+      "horizontalRecoil": 45,
+      "verticalRecoil": 110,
+      "spread": {
+        "horizontal": 4,
+        "vertical": 4
+      },
+      "sway": 1,
+      "ergonomics": 10,
+      "reloadKind": "stationary",
+      "reloadTimeS": 5.1,
+      "reloadTimeUpgradedS": 4.6,
+      "tacticalReloadTimeS": null
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "20mm FLAK ROUNDS P2",
+        "kind": "projectile",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 3300,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      },
+      {
+        "name": "20mm FLAK ROUNDS P2 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 25,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 25,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 400,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 25,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P1 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 500,
+          "durable": 500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 4,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 20,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P2",
+        "kind": "projectile",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 3300,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P2 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 25,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P3",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 25,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 400,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 25,
+          "stagger": 25,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Backpack • Medium Armor Penetrating • Stationary Reload",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Rocket Launcher",
+      "Firing Modes": "Cluster • Flak",
+      "Standard Damage": "350 Ballistic (Rocket) / 150 Explosion 150 Ballistic(Bomblets / 500 Explosion x25)",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "16 rpm",
+      "Capacity": "1",
+      "Spare Rounds": "5 (Backpack)",
+      "Supply Box Refill": "3",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "10",
+      "Reload Time": "5.1s / 4.6s (Upgraded) / 1.8s (Assisted)",
+      "Unlock Level": "15",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Fire Rate": "600 rpm",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Recoil": "77.5",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Horizontal Recoil": "45",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Vertical Recoil": "110",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Spread": "↔[4.00] ↕[4.00]",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Sway": "1",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Ergonomics": "10",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Capacity": "1",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Spare Rounds": "5",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Starting Rounds": "5",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Rounds from Supply": "3",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Rounds from Ammo Box": "1",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › 20mm FLAK ROUNDS P2": "Projectile",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › CLUSTER BOMB P2": "Projectile",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › 20mm FLAK ROUNDS P2 IE": "Explosion",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › CLUSTER BOMB P2 IE": "Explosion",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › CLUSTER BOMB P1": "Projectile",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › CLUSTER BOMB P3": "Projectile",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Attacks › CLUSTER BOMB P1 IE": "Explosion",
+      "20mm FLAK ROUNDS P2 › Projectile › Mass": "3.3 kg",
+      "20mm FLAK ROUNDS P2 › Projectile › Initial Velocity": "250 m/s",
+      "20mm FLAK ROUNDS P2 › Projectile › Drag Factor": "30%",
+      "20mm FLAK ROUNDS P2 › Projectile › Gravity Factor": "100%",
+      "20mm FLAK ROUNDS P2 › Projectile › Lifetime": "1.5 sec",
+      "20mm FLAK ROUNDS P2 › Projectile › Penetration Slowdown": "25%",
+      "20mm FLAK ROUNDS P2 › Projectile › Explosion On Impact": "20mm FLAK ROUNDS_P2_IE",
+      "20mm FLAK ROUNDS P2 › Projectile › Explode After": "20mm FLAK ROUNDS_P2_IE",
+      "20mm FLAK ROUNDS P2 › Damage › Standard": "350 Ballistic",
+      "20mm FLAK ROUNDS P2 › Damage › vs. Durable": "350 Ballistic",
+      "20mm FLAK ROUNDS P2 › Penetration › Direct": "Medium",
+      "20mm FLAK ROUNDS P2 › Penetration › Slight Angle": "Medium",
+      "20mm FLAK ROUNDS P2 › Penetration › Large Angle": "Medium",
+      "20mm FLAK ROUNDS P2 › Penetration › Extreme Angle": "Unarmored",
+      "20mm FLAK ROUNDS P2 › Special Effects › Demolition Force": "30",
+      "20mm FLAK ROUNDS P2 › Special Effects › Stagger Force": "50",
+      "20mm FLAK ROUNDS P2 › Special Effects › Push Force": "40",
+      "20mm FLAK ROUNDS P2 IE › Area of Effect › Inner Radius": "3 m",
+      "20mm FLAK ROUNDS P2 IE › Area of Effect › Outer Radius": "5 m",
+      "20mm FLAK ROUNDS P2 IE › Area of Effect › Shockwave Radius": "7 m",
+      "20mm FLAK ROUNDS P2 IE › Area of Effect › Shrapnel Count": "25",
+      "20mm FLAK ROUNDS P2 IE › Area of Effect › Shrapnel": "CLUSTER BOMB_P1",
+      "20mm FLAK ROUNDS P2 IE › Damage › Damage Element": "None",
+      "20mm FLAK ROUNDS P2 IE › Damage › Inner Radius": "150 Explosion",
+      "20mm FLAK ROUNDS P2 IE › Damage › Inner Durable": "150 Explosion",
+      "20mm FLAK ROUNDS P2 IE › Damage › Outer Radius": "149 - 0",
+      "20mm FLAK ROUNDS P2 IE › Damage › Outer Durable": "149 - 0",
+      "20mm FLAK ROUNDS P2 IE › Penetration › Direct": "Medium",
+      "20mm FLAK ROUNDS P2 IE › Penetration › Slight Angle": "Medium",
+      "20mm FLAK ROUNDS P2 IE › Penetration › Large Angle": "Medium",
+      "20mm FLAK ROUNDS P2 IE › AoE Effect › Demolition Force": "25",
+      "20mm FLAK ROUNDS P2 IE › AoE Effect › Stagger Force": "25",
+      "20mm FLAK ROUNDS P2 IE › AoE Effect › Push Force": "40",
+      "CLUSTER BOMB P1 › Projectile › Mass": "100 g",
+      "CLUSTER BOMB P1 › Projectile › Initial Velocity": "25 m/s",
+      "CLUSTER BOMB P1 › Projectile › Drag Factor": "50%",
+      "CLUSTER BOMB P1 › Projectile › Gravity Factor": "400%",
+      "CLUSTER BOMB P1 › Projectile › Lifetime": "0.800000012 sec",
+      "CLUSTER BOMB P1 › Projectile › Penetration Slowdown": "25%",
+      "CLUSTER BOMB P1 › Projectile › Explosion On Impact": "CLUSTER BOMB_P1_IE",
+      "CLUSTER BOMB P1 › Projectile › Explode After": "CLUSTER BOMB_P1_IE",
+      "CLUSTER BOMB P1 › Damage › Standard": "150 Ballistic",
+      "CLUSTER BOMB P1 › Damage › vs. Durable": "150 Ballistic",
+      "CLUSTER BOMB P1 › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P1 › Penetration › Slight Angle": "Medium",
+      "CLUSTER BOMB P1 › Penetration › Large Angle": "Medium",
+      "CLUSTER BOMB P1 › Penetration › Extreme Angle": "Unarmored",
+      "CLUSTER BOMB P1 › Special Effects › Demolition Force": "25",
+      "CLUSTER BOMB P1 › Special Effects › Stagger Force": "25",
+      "CLUSTER BOMB P1 › Special Effects › Push Force": "40",
+      "CLUSTER BOMB P1 IE › Area of Effect › Inner Radius": "4 m",
+      "CLUSTER BOMB P1 IE › Area of Effect › Outer Radius": "6 m",
+      "CLUSTER BOMB P1 IE › Area of Effect › Shockwave Radius": "8 m",
+      "CLUSTER BOMB P1 IE › Damage › Damage Element": "None",
+      "CLUSTER BOMB P1 IE › Damage › Inner Radius": "500 Explosion",
+      "CLUSTER BOMB P1 IE › Damage › Inner Durable": "500 Explosion",
+      "CLUSTER BOMB P1 IE › Damage › Outer Radius": "499 - 0",
+      "CLUSTER BOMB P1 IE › Damage › Outer Durable": "499 - 0",
+      "CLUSTER BOMB P1 IE › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P1 IE › AoE Effect › Demolition Force": "20",
+      "CLUSTER BOMB P1 IE › AoE Effect › Stagger Force": "25",
+      "CLUSTER BOMB P1 IE › AoE Effect › Push Force": "40",
+      "CLUSTER BOMB P2 › Projectile › Mass": "3.3 kg",
+      "CLUSTER BOMB P2 › Projectile › Initial Velocity": "250 m/s",
+      "CLUSTER BOMB P2 › Projectile › Drag Factor": "30%",
+      "CLUSTER BOMB P2 › Projectile › Gravity Factor": "100%",
+      "CLUSTER BOMB P2 › Projectile › Lifetime": "0.25 sec",
+      "CLUSTER BOMB P2 › Projectile › Penetration Slowdown": "25%",
+      "CLUSTER BOMB P2 › Projectile › Explosion On Impact": "CLUSTER BOMB_P2_IE",
+      "CLUSTER BOMB P2 › Projectile › Explode After": "CLUSTER BOMB_P2_IE",
+      "CLUSTER BOMB P2 › Damage › Standard": "350 Ballistic",
+      "CLUSTER BOMB P2 › Damage › vs. Durable": "350 Ballistic",
+      "CLUSTER BOMB P2 › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P2 › Penetration › Slight Angle": "Medium",
+      "CLUSTER BOMB P2 › Penetration › Large Angle": "Medium",
+      "CLUSTER BOMB P2 › Penetration › Extreme Angle": "Unarmored",
+      "CLUSTER BOMB P2 › Special Effects › Demolition Force": "30",
+      "CLUSTER BOMB P2 › Special Effects › Stagger Force": "50",
+      "CLUSTER BOMB P2 › Special Effects › Push Force": "40",
+      "CLUSTER BOMB P2 IE › Area of Effect › Inner Radius": "3 m",
+      "CLUSTER BOMB P2 IE › Area of Effect › Outer Radius": "5 m",
+      "CLUSTER BOMB P2 IE › Area of Effect › Shockwave Radius": "7 m",
+      "CLUSTER BOMB P2 IE › Area of Effect › Shrapnel Count": "25",
+      "CLUSTER BOMB P2 IE › Area of Effect › Shrapnel": "CLUSTER BOMB_P3",
+      "CLUSTER BOMB P2 IE › Damage › Damage Element": "None",
+      "CLUSTER BOMB P2 IE › Damage › Inner Radius": "150 Explosion",
+      "CLUSTER BOMB P2 IE › Damage › Inner Durable": "150 Explosion",
+      "CLUSTER BOMB P2 IE › Damage › Outer Radius": "149 - 0",
+      "CLUSTER BOMB P2 IE › Damage › Outer Durable": "149 - 0",
+      "CLUSTER BOMB P2 IE › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P2 IE › Penetration › Slight Angle": "Medium",
+      "CLUSTER BOMB P2 IE › Penetration › Large Angle": "Medium",
+      "CLUSTER BOMB P2 IE › AoE Effect › Demolition Force": "25",
+      "CLUSTER BOMB P2 IE › AoE Effect › Stagger Force": "25",
+      "CLUSTER BOMB P2 IE › AoE Effect › Push Force": "40",
+      "CLUSTER BOMB P3 › Projectile › Mass": "100 g",
+      "CLUSTER BOMB P3 › Projectile › Initial Velocity": "25 m/s",
+      "CLUSTER BOMB P3 › Projectile › Drag Factor": "50%",
+      "CLUSTER BOMB P3 › Projectile › Gravity Factor": "400%",
+      "CLUSTER BOMB P3 › Projectile › Penetration Slowdown": "25%",
+      "CLUSTER BOMB P3 › Projectile › Explosion On Impact": "CLUSTER BOMB_P1_IE",
+      "CLUSTER BOMB P3 › Projectile › Explode After": "CLUSTER BOMB_P1_IE",
+      "CLUSTER BOMB P3 › Damage › Standard": "150 Ballistic",
+      "CLUSTER BOMB P3 › Damage › vs. Durable": "150 Ballistic",
+      "CLUSTER BOMB P3 › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P3 › Penetration › Slight Angle": "Medium",
+      "CLUSTER BOMB P3 › Penetration › Large Angle": "Medium",
+      "CLUSTER BOMB P3 › Penetration › Extreme Angle": "Unarmored",
+      "CLUSTER BOMB P3 › Special Effects › Demolition Force": "25",
+      "CLUSTER BOMB P3 › Special Effects › Stagger Force": "25",
+      "CLUSTER BOMB P3 › Special Effects › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Patriotic Administration Center",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 8000
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.fe2c0e0d",
-    "generatedAt": "2026-09-16T13:37:00Z",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -33,6 +33,17 @@
       "sg-451-cookout",
       "smg-flam-34-stoker"
     ],
-    "stratagemIds": []
+    "stratagemIds": [
+      "a-flam-40-flame-sentry",
+      "ax-flam-75-hot-dog",
+      "b-flam-80-cremator",
+      "eagle-napalm-airstrike",
+      "eat-700-expendable-napalm",
+      "exo-51-lumberer-exosuit",
+      "flam-40-flamethrower",
+      "m-104-incinerator-frv",
+      "md-i4-incendiary-mines",
+      "orbital-napalm-barrage"
+    ]
   }
 }

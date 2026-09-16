@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sh-32-shield-generator-pack",
+    "slug": "sh-32-shield-generator-pack",
+    "name": "SH-32 Shield Generator Pack",
+    "aliases": [],
+    "description": "The SH-32 Shield Generator Pack, also known as the Shield Pack, is a backpack stratagem that protects the wearer from most damage and environmental effects.",
+    "image": null,
+    "wiki": {
+      "title": "SH-32 Shield Generator Pack",
+      "url": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "engineering_bay",
+    "kind": "backpack",
+    "traitIds": [
+      "hellpod",
+      "backpack"
+    ],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "right",
+      "left",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      },
+      {
+        "label": "With Hand Carts",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
+      }
+    ],
+    "callInTimeS": 9.75,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": 20,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Hand Carts",
+        "effect": "Decreases cooldown for all Backpack stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": {
+      "health": 200,
+      "armor": "unarmored",
+      "capacity": null
+    },
+    "attacks": [],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack",
+      "Base Cooldown": "480s",
+      "Unlock Level": "20",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Hand Carts": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
+      "SHIELD GENERATOR PACK › Cooldown": "480 s",
+      "SHIELD GENERATOR PACK › Uses": "∞",
+      "SHIELD GENERATOR PACK › Main Health": "200",
+      "SHIELD GENERATOR PACK › Main Armor": "Unarmored"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Engineering Bay",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 10000
+      },
+      "rotating": null
+    }
+  }
+}

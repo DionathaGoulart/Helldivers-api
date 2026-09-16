@@ -1,0 +1,249 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "gl-21-grenade-launcher",
+    "slug": "gl-21-grenade-launcher",
+    "name": "GL-21 Grenade Launcher",
+    "aliases": [],
+    "description": "The Grenade Launcher is a Stratagem that calls down a Support Weapon capable of rapidly firing grenades, inflicting large amounts of splash damage.",
+    "image": null,
+    "wiki": {
+      "title": "GL-21 Grenade Launcher",
+      "url": "https://helldivers.wiki.gg/wiki/GL-21_Grenade_Launcher",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "engineering_bay",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "explosive",
+      "medium-armor-penetrating"
+    ],
+    "code": [
+      "down",
+      "left",
+      "up",
+      "left",
+      "down"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 5,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Donation Access Licence",
+        "effect": "Support Weapons deploy with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Support Weapon stratagem cooldown reduced by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapon stratagems launch immediately once when called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "semi",
+        "auto"
+      ],
+      "fireRateRpm": [
+        160
+      ],
+      "dps": [
+        1066.67
+      ],
+      "capacity": 10,
+      "spareMagazines": 3,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 3,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 123.75,
+      "horizontalRecoil": 115,
+      "verticalRecoil": 132.5,
+      "spread": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "sway": 1,
+      "ergonomics": 25,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3.55,
+      "reloadTimeUpgradedS": 3.2,
+      "tacticalReloadTimeS": 3
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "40mm HE GRENADE P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 0,
+          "durable": 0,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 50,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "40mm HE GRENADE P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 400,
+          "durable": 400,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3.5,
+          "outerRadiusM": 7.5,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Explosive • Medium Armor Penetrating",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Heavy Explosives",
+      "Firing Modes": "Semi • Auto",
+      "Standard Damage": "400 Explosion",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "160 RPM",
+      "DPS": "1066.67",
+      "Capacity": "10",
+      "Spare Mags": "3 Magazines",
+      "Ergonomics": "25",
+      "Reload Time": "3.55s / 3.2s (Upgraded)",
+      "Tactical Reload Time": "3s / 2.7s (Upgraded)",
+      "Unlock Level": "5",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "GL-21 GRENADE LAUNCHER › Fire Rate": "160 rpm",
+      "GL-21 GRENADE LAUNCHER › Recoil": "123.75",
+      "GL-21 GRENADE LAUNCHER › Horizontal Recoil": "115",
+      "GL-21 GRENADE LAUNCHER › Vertical Recoil": "132.5",
+      "GL-21 GRENADE LAUNCHER › Spread": "↔[20.00] ↕[20.00]",
+      "GL-21 GRENADE LAUNCHER › Sway": "1",
+      "GL-21 GRENADE LAUNCHER › Ergonomics": "25",
+      "GL-21 GRENADE LAUNCHER › Capacity": "10",
+      "GL-21 GRENADE LAUNCHER › Spare Magazines": "3",
+      "GL-21 GRENADE LAUNCHER › Starting Magazines": "2",
+      "GL-21 GRENADE LAUNCHER › Mags from Supply": "3",
+      "GL-21 GRENADE LAUNCHER › Mags from Ammo Box": "1",
+      "GL-21 GRENADE LAUNCHER › Attacks › 40mm HE GRENADE P": "Projectile",
+      "GL-21 GRENADE LAUNCHER › Attacks › 40mm HE GRENADE P IE": "Explosion",
+      "40mm HE GRENADE P › Projectile › Mass": "50 g",
+      "40mm HE GRENADE P › Projectile › Initial Velocity": "100 m/s",
+      "40mm HE GRENADE P › Projectile › Drag Factor": "120%",
+      "40mm HE GRENADE P › Projectile › Gravity Factor": "100%",
+      "40mm HE GRENADE P › Projectile › Penetration Slowdown": "25%",
+      "40mm HE GRENADE P › Projectile › Explosion On Impact": "40mm HE GRENADE_P_IE",
+      "40mm HE GRENADE P › Projectile › Explode After": "40mm HE GRENADE_P_IE",
+      "40mm HE GRENADE P › Damage › Standard": "0 Ballistic",
+      "40mm HE GRENADE P › Damage › vs. Durable": "0 Ballistic",
+      "40mm HE GRENADE P › Penetration › Direct": "Heavy",
+      "40mm HE GRENADE P › Penetration › Slight Angle": "Heavy",
+      "40mm HE GRENADE P › Penetration › Large Angle": "Heavy",
+      "40mm HE GRENADE P › Penetration › Extreme Angle": "Unarmored",
+      "40mm HE GRENADE P › Special Effects › Demolition Force": "10",
+      "40mm HE GRENADE P › Special Effects › Stagger Force": "30",
+      "40mm HE GRENADE P › Special Effects › Push Force": "10",
+      "40mm HE GRENADE P IE › Area of Effect › Inner Radius": "3.5 m",
+      "40mm HE GRENADE P IE › Area of Effect › Outer Radius": "7.5 m",
+      "40mm HE GRENADE P IE › Area of Effect › Shockwave Radius": "8 m",
+      "40mm HE GRENADE P IE › Damage › Damage Element": "None",
+      "40mm HE GRENADE P IE › Damage › Inner Radius": "400 Explosion",
+      "40mm HE GRENADE P IE › Damage › Inner Durable": "400 Explosion",
+      "40mm HE GRENADE P IE › Damage › Outer Radius": "399 - 0",
+      "40mm HE GRENADE P IE › Damage › Outer Durable": "399 - 0",
+      "40mm HE GRENADE P IE › Penetration › Direct": "Medium",
+      "40mm HE GRENADE P IE › AoE Effect › Demolition Force": "30",
+      "40mm HE GRENADE P IE › AoE Effect › Stagger Force": "25",
+      "40mm HE GRENADE P IE › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Engineering Bay",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 6000
+      },
+      "rotating": null
+    }
+  }
+}

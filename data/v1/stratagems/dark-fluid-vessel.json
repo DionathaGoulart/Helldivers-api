@@ -1,0 +1,72 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dark-fluid-vessel",
+    "slug": "dark-fluid-vessel",
+    "name": "Dark Fluid Vessel",
+    "aliases": [],
+    "description": "The Dark Fluid Vessel Stratagem allows Helldivers to call down a Hellpod containing a Dark Fluid Vessel, which is a backpack containing Dark Fluid. It is event-exclusive, only available in the Deploy Dark Fluid mission. It is intended to be inserted into the Tectonic Drill to progress the mission.",
+    "image": null,
+    "wiki": {
+      "title": "Dark Fluid Vessel",
+      "url": "https://helldivers.wiki.gg/wiki/Dark_Fluid_Vessel",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [
+      "hellpod",
+      "backpack"
+    ],
+    "code": [
+      "up",
+      "left",
+      "right",
+      "down",
+      "up",
+      "up"
+    ],
+    "cooldownS": 30,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 28.5
+      }
+    ],
+    "callInTimeS": 10,
+    "callInTimeUpgradedS": null,
+    "uses": 12,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack",
+      "Base Cooldown": "30s",
+      "General › Call-in Time": "10 seconds",
+      "General › Uses": "12",
+      "General › Cooldown › Standard": "30 seconds",
+      "General › Cooldown › With Morale Augmentation": "28.5 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

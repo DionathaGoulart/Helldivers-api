@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.fe2c0e0d",
-    "generatedAt": "2026-09-16T13:37:00Z",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -54,6 +54,42 @@
       "ted-63-dynamite",
       "tm-1-lure-mine"
     ],
-    "stratagemIds": []
+    "stratagemIds": [
+      "a-m-12-mortar-sentry",
+      "a-m-23-ems-mortar-sentry",
+      "a-mls-4x-rocket-sentry",
+      "b-100-portable-hellbomb",
+      "cqc-20-breaching-hammer",
+      "e-gl-21-grenadier-battlement",
+      "eagle-110mm-rocket-pods",
+      "eagle-500kg-bomb",
+      "eagle-airstrike",
+      "eagle-cluster-bomb",
+      "eagle-gas-airstrike",
+      "eagle-napalm-airstrike",
+      "eagle-smoke-strike",
+      "exo-45-patriot-exosuit",
+      "exo-49-emancipator-exosuit",
+      "exo-51-lumberer-exosuit",
+      "gl-21-grenade-launcher",
+      "gl-28-belt-fed-grenade-launcher",
+      "gl-52-de-escalator",
+      "md-17-anti-tank-mines",
+      "md-6-anti-personnel-minefield",
+      "md-8-gas-mines",
+      "md-i4-incendiary-mines",
+      "ms-11-solo-silo",
+      "orbital-120mm-he-barrage",
+      "orbital-380mm-he-barrage",
+      "orbital-airburst-strike",
+      "orbital-gas-strike",
+      "orbital-gatling-barrage",
+      "orbital-napalm-barrage",
+      "orbital-precision-strike",
+      "orbital-smoke-strike",
+      "orbital-walking-barrage",
+      "plas-45-epoch",
+      "td-220-bastion-mk-xvi"
+    ]
   }
 }

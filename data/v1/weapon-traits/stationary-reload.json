@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.fe2c0e0d",
-    "generatedAt": "2026-09-16T13:37:00Z",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -21,6 +21,15 @@
       "flags": []
     },
     "weaponIds": [],
-    "stratagemIds": []
+    "stratagemIds": [
+      "ac-8-autocannon",
+      "faf-14-spear",
+      "gr-8-recoilless-rifle",
+      "mg-206-heavy-machine-gun",
+      "mg-43-machine-gun",
+      "plas-45-epoch",
+      "rl-77-airburst-rocket-launcher",
+      "sta-x3-wasp-launcher"
+    ]
   }
 }

@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "reinforcement-pods",
+    "slug": "reinforcement-pods",
+    "name": "Link Hellpods to Destroyer",
+    "aliases": [
+      "Reinforcement Pods"
+    ],
+    "description": "Reinforcement Pods is a Commando Mission exclusive Optional Objective in Helldivers 2. Helldivers are tasked with activating them, granting additional reinforcements to use while the Super Destroyer is away.",
+    "image": null,
+    "wiki": {
+      "title": "Reinforcement Pods",
+      "url": "https://helldivers.wiki.gg/wiki/Reinforcement_Pods",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "left",
+      "right",
+      "up",
+      "up",
+      "up"
+    ],
+    "cooldownS": null,
+    "cooldownVariants": [],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": null,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "N/A"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

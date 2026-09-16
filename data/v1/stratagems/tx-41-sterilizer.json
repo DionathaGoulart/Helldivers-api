@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tx-41-sterilizer",
+    "slug": "tx-41-sterilizer",
+    "name": "TX-41 Sterilizer",
+    "aliases": [],
+    "description": "The Sterilizer is a Support Weapon Stratagem that sprays a caustic gas which slows and blinds enemies.",
+    "image": null,
+    "wiki": {
+      "title": "TX-41 Sterilizer",
+      "url": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "caustic"
+    ],
+    "code": [
+      "down",
+      "left",
+      "up",
+      "down",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Donation Access Licence",
+        "effect": "Support Weapons deploy with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapons launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [],
+      "fireRateRpm": [],
+      "dps": [],
+      "capacity": 125,
+      "spareMagazines": 4,
+      "startingMagazines": 3,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 1.25,
+      "horizontalRecoil": 0,
+      "verticalRecoil": 2.5,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 20,
+      "reloadKind": "magazine",
+      "reloadTimeS": 4,
+      "reloadTimeUpgradedS": 3.6,
+      "tacticalReloadTimeS": 4
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "TX-41 STERILIZER S",
+        "kind": "spray",
+        "damage": {
+          "standard": 1,
+          "durable": 1,
+          "type": "Gas"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 5,
+          "stagger": 10,
+          "push": 5
+        }
+      },
+      {
+        "name": "Gas Confusion Var2",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      },
+      {
+        "name": "Gas Var2",
+        "kind": "status",
+        "damage": {
+          "standard": 25,
+          "durable": 25,
+          "type": "Gas"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Caustic",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Heavy Weapons",
+      "Standard Damage": "30 DPS Gas",
+      "Armor Penetration": "Tank I",
+      "Capacity": "100",
+      "Spare Mags": "4 Magazines",
+      "Supply Box Refill": "4",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "20",
+      "Reload Time": "4s / 3.6s (Upgraded)",
+      "Tactical Reload Time": "4s / 3.6s (Upgraded)",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "TX-41 STERILIZER › Recoil": "1.25",
+      "TX-41 STERILIZER › Horizontal Recoil": "0",
+      "TX-41 STERILIZER › Vertical Recoil": "2.5",
+      "TX-41 STERILIZER › Spread": "↔[10.00] ↕[10.00]",
+      "TX-41 STERILIZER › Sway": "1",
+      "TX-41 STERILIZER › Ergonomics": "20",
+      "TX-41 STERILIZER › Capacity": "125",
+      "TX-41 STERILIZER › Spare Magazines": "4",
+      "TX-41 STERILIZER › Starting Magazines": "3",
+      "TX-41 STERILIZER › Mags from Supply": "6",
+      "TX-41 STERILIZER › Mags from Ammo Box": "3",
+      "TX-41 STERILIZER › Attacks › TX-41 STERILIZER S": "Spray",
+      "TX-41 STERILIZER › Attacks › Gas Confusion Var2": "status",
+      "TX-41 STERILIZER › Attacks › Gas Var2": "status",
+      "TX-41 STERILIZER S › Damage › Element": "Gas",
+      "TX-41 STERILIZER S › Damage › Standard": "1 Gas",
+      "TX-41 STERILIZER S › Damage › vs. Durable": "1 Gas",
+      "TX-41 STERILIZER S › Penetration › Direct": "Anti-Tank I",
+      "TX-41 STERILIZER S › Penetration › Slight Angle": "Anti-Tank I",
+      "TX-41 STERILIZER S › Penetration › Large Angle": "Anti-Tank I",
+      "TX-41 STERILIZER S › Penetration › Extreme Angle": "Unarmored",
+      "TX-41 STERILIZER S › Special Effects › Status": "Gas_Var2",
+      "TX-41 STERILIZER S › Special Effects › Status Strength": "0.5",
+      "TX-41 STERILIZER S › Special Effects › Second Status": "Gas_Confusion_Var2",
+      "TX-41 STERILIZER S › Special Effects › Status Strength (2)": "0.5",
+      "TX-41 STERILIZER S › Special Effects › Demolition Force": "5",
+      "TX-41 STERILIZER S › Special Effects › Stagger Force": "10",
+      "TX-41 STERILIZER S › Special Effects › Push Force": "5",
+      "Gas Confusion Var2 › Status › Status Duration": "9 sec",
+      "Gas Var2 › Status › Status Duration": "10 sec",
+      "Gas Var2 › Damage › Element": "Gas",
+      "Gas Var2 › Damage › Standard": "25 Gas",
+      "Gas Var2 › Damage › vs. Durable": "25 Gas",
+      "Gas Var2 › Penetration › Direct": "Anti-Tank II",
+      "Gas Var2 › Penetration › Slight Angle": "Anti-Tank II",
+      "Gas Var2 › Penetration › Large Angle": "Anti-Tank II",
+      "Gas Var2 › Penetration › Extreme Angle": "Unarmored",
+      "Gas Var2 › Special Effects › Demolition Force": "0",
+      "Gas Var2 › Special Effects › Stagger Force": "0",
+      "Gas Var2 › Special Effects › Push Force": "0"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents P2",
+      "warbondId": "chemical-agents",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 85
+      },
+      "rotating": null
+    }
+  }
+}

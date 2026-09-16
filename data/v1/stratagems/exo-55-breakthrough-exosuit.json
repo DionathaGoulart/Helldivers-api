@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "exo-55-breakthrough-exosuit",
+    "slug": "exo-55-breakthrough-exosuit",
+    "name": "EXO-55 Breakthrough Exosuit",
+    "aliases": [],
+    "description": "The EXO-55 Breakthrough Exosuit is an Exosuit Stratagem featuring a heavy flak cannon on the right arm and a massive ballistic shield on the left.",
+    "image": null,
+    "wiki": {
+      "title": "EXO-55 Breakthrough Exosuit",
+      "url": "https://helldivers.wiki.gg/wiki/EXO-55_Breakthrough_Exosuit",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "vehicle",
+    "traitIds": [
+      "vehicle",
+      "heavy-armor-penetrating"
+    ],
+    "code": [
+      "left",
+      "down",
+      "right",
+      "left",
+      "right",
+      "down",
+      "up"
+    ],
+    "cooldownS": 420,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 399
+      },
+      {
+        "label": "With DSS Boost",
+        "seconds": 273
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 252
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": 3,
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time from all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 30,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 40,
+          "massG": 6,
+          "initialVelocityMps": 385,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 20,
+          "stagger": 40,
+          "push": 30
+        }
+      },
+      {
+        "name": "Shield Bash",
+        "kind": "other",
+        "damage": {
+          "standard": 500,
+          "durable": 500,
+          "type": "Melee"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 45,
+          "push": 20
+        }
+      },
+      {
+        "name": "Exosuit Stomp",
+        "kind": "other",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 20,
+          "push": 20
+        }
+      },
+      {
+        "name": "Exosuit Destruction",
+        "kind": "explosion",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 0.6,
+          "outerRadiusM": 7,
+          "shockwaveRadiusM": 10
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Vehicle • Heavy Armor Penetrating",
+      "Base Cooldown": "420s",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "3",
+      "General › Cooldown › Standard": "420 seconds",
+      "General › Cooldown › With Morale Augmentation": "399 seconds",
+      "General › Cooldown › With DSS Boost": "273 seconds",
+      "General › Cooldown › With All Upgrades": "252 seconds",
+      "BREAKTHROUGH › Cooldown": "420 s",
+      "BREAKTHROUGH › Uses": "3",
+      "BREAKTHROUGH › Main Health": "1800",
+      "BREAKTHROUGH › Main Armor": "Heavy",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Main Health": "800",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Main Armor": "Medium",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Fire Rate": "180 rpm",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Recoil": "80",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Horizontal Recoil": "60",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Vertical Recoil": "100",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Spread": "↔[200.00] ↕[200.00]",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Sway": "0",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Ergonomics": "65",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › Capacity": "6",
+      "BREAKTHROUGH › BREAKTHROUGH SCATTERGUN › P": "Projectile",
+      "P › Projectile › Pellets": "x 40",
+      "P › Projectile › Mass": "6 g",
+      "P › Projectile › Initial Velocity": "385 m/s",
+      "P › Projectile › Drag Factor": "120%",
+      "P › Projectile › Gravity Factor": "100%",
+      "P › Projectile › Penetration Slowdown": "25%",
+      "P › Damage › Standard": "90 Damage",
+      "P › Damage › vs. Durable": "30 Damage",
+      "P › Penetration › Direct": "Heavy",
+      "P › Penetration › Slight Angle": "Heavy",
+      "P › Penetration › Large Angle": "Heavy",
+      "P › Penetration › Extreme Angle": "Unarmored",
+      "P › Special Effects › Demolition Force": "20",
+      "P › Special Effects › Stagger Force": "40",
+      "P › Special Effects › Push Force": "30",
+      "Shield Bash › Damage › Standard": "500 Melee",
+      "Shield Bash › Damage › vs. Durable": "500 Melee",
+      "Shield Bash › Penetration › Direct": "Heavy",
+      "Shield Bash › Penetration › Slight Angle": "Unarmored",
+      "Shield Bash › Penetration › Large Angle": "Unarmored",
+      "Shield Bash › Penetration › Extreme Angle": "Unarmored",
+      "Shield Bash › Special Effects › Demolition Force": "30-40",
+      "Shield Bash › Special Effects › Stagger Force": "45",
+      "Shield Bash › Special Effects › Push Force": "20",
+      "Exosuit Stomp › Damage › Standard": "200 Damage",
+      "Exosuit Stomp › Damage › vs. Durable": "200 Damage",
+      "Exosuit Stomp › Penetration › Direct": "Heavy",
+      "Exosuit Stomp › Penetration › Slight Angle": "Unarmored",
+      "Exosuit Stomp › Penetration › Large Angle": "Unarmored",
+      "Exosuit Stomp › Penetration › Extreme Angle": "Unarmored",
+      "Exosuit Stomp › Special Effects › Demolition Force": "30",
+      "Exosuit Stomp › Special Effects › Stagger Force": "20",
+      "Exosuit Stomp › Special Effects › Push Force": "20",
+      "Exosuit Destruction › Area of Effect › Inner Radius": "0.6 m",
+      "Exosuit Destruction › Area of Effect › Outer Radius": "7 m",
+      "Exosuit Destruction › Area of Effect › Shockwave Radius": "10 m",
+      "Exosuit Destruction › Damage › Inner Radius": "200 Explosion",
+      "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
+      "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
+      "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
+      "Exosuit Destruction › Penetration › Direct": "Medium",
+      "Exosuit Destruction › AoE Effect › Demolition Force": "30",
+      "Exosuit Destruction › AoE Effect › Stagger Force": "50",
+      "Exosuit Destruction › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P3",
+      "warbondId": "exo-experts",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

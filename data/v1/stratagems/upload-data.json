@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "upload-data",
+    "slug": "upload-data",
+    "name": "Upload Data",
+    "aliases": [],
+    "description": "The Upload Data Stratagem is used to start the data upload process. It's only available while near the Escape Pod from the Upload Escape Pod Data Objective.",
+    "image": null,
+    "wiki": {
+      "title": "Upload Data",
+      "url": "https://helldivers.wiki.gg/wiki/Upload_Data",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "left",
+      "right",
+      "up",
+      "up",
+      "up"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": 4,
+    "callInTimeUpgradedS": null,
+    "uses": 1,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "4 seconds",
+      "General › Uses": "1",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

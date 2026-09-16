@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sta-x3-wasp-launcher",
+    "slug": "sta-x3-wasp-launcher",
+    "name": "StA-X3 W.A.S.P. Launcher",
+    "aliases": [],
+    "description": "The StA-X3 W.A.S.P. Launcher, or simply W.A.S.P., is an anti-tank multiple micro missile launcher Support Weapon with homing capability and two variable firing modes. It is a part of the Helldivers x Killzone crossover.",
+    "image": null,
+    "wiki": {
+      "title": "StA-X3 W.A.S.P. Launcher",
+      "url": "https://helldivers.wiki.gg/wiki/StA-X3_W.A.S.P._Launcher",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "patriotic_administration_center",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "anti-tank",
+      "backpack",
+      "stationary-reload",
+      "guided"
+    ],
+    "code": [
+      "down",
+      "down",
+      "up",
+      "down",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 20,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply Stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "burst",
+        "other"
+      ],
+      "fireRateRpm": [
+        500
+      ],
+      "dps": [
+        6666.66
+      ],
+      "capacity": 7,
+      "spareMagazines": 5,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 3,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 6.25,
+      "horizontalRecoil": 2.5,
+      "verticalRecoil": 10,
+      "spread": {
+        "horizontal": 0,
+        "vertical": 0
+      },
+      "sway": 1,
+      "ergonomics": 10,
+      "reloadKind": "stationary",
+      "reloadTimeS": 4.9,
+      "reloadTimeUpgradedS": 4.4,
+      "tacticalReloadTimeS": 4.9
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "Artillery P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 20,
+          "durable": 2,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "unarmored",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 11,
+          "initialVelocityMps": 500,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "Artillery P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 600,
+          "durable": 600,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 50
+        }
+      },
+      {
+        "name": "Burst P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 11,
+          "initialVelocityMps": 500,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 25
+        }
+      },
+      {
+        "name": "Burst P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 600,
+          "durable": 600,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.5,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 50
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Anti-Tank • Backpack • Stationary Reload • Guided",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Missiles",
+      "Firing Modes": "Burst • Artillery",
+      "Standard Damage": "200 Projectile / 600 Explosion",
+      "Armor Penetration": "Anti-Tank II (Projectile) / Medium (Explosion)",
+      "Fire Rate": "500 rpm",
+      "DPS": "6,666.66",
+      "Capacity": "7",
+      "Spare Mags": "5 Magazines",
+      "Supply Box Refill": "3",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "10",
+      "Recoil": "6",
+      "Reload Time": "4.9s / 4.4s (Upgraded) / 3.33s (Assisted)",
+      "Tactical Reload Time": "4.9s / 4.4s (Upgraded)",
+      "Unlock Level": "20",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "STA-X3 W.A.S.P. LAUNCHER › Fire Rate": "500 rpm",
+      "STA-X3 W.A.S.P. LAUNCHER › Recoil": "6.25",
+      "STA-X3 W.A.S.P. LAUNCHER › Horizontal Recoil": "2.5",
+      "STA-X3 W.A.S.P. LAUNCHER › Vertical Recoil": "10",
+      "STA-X3 W.A.S.P. LAUNCHER › Spread": "↔[0.00] ↕[0.00]",
+      "STA-X3 W.A.S.P. LAUNCHER › Sway": "1",
+      "STA-X3 W.A.S.P. LAUNCHER › Ergonomics": "10",
+      "STA-X3 W.A.S.P. LAUNCHER › Capacity": "7",
+      "STA-X3 W.A.S.P. LAUNCHER › Spare Magazines": "5",
+      "STA-X3 W.A.S.P. LAUNCHER › Starting Magazines": "5",
+      "STA-X3 W.A.S.P. LAUNCHER › Mags from Supply": "3",
+      "STA-X3 W.A.S.P. LAUNCHER › Mags from Ammo Box": "1",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Artillery P": "Projectile",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Burst P": "Projectile",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Artillery P IE": "Explosion",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Burst P IE": "Explosion",
+      "Artillery P › Projectile › Mass": "11 g",
+      "Artillery P › Projectile › Initial Velocity": "500 m/s",
+      "Artillery P › Projectile › Drag Factor": "0%",
+      "Artillery P › Projectile › Gravity Factor": "0%",
+      "Artillery P › Projectile › Penetration Slowdown": "25%",
+      "Artillery P › Projectile › Explosion On Impact": "Artillery_P_IE",
+      "Artillery P › Damage › Standard": "20 Ballistic",
+      "Artillery P › Damage › vs. Durable": "2 Ballistic",
+      "Artillery P › Penetration › Direct": "Unarmored",
+      "Artillery P › Penetration › Slight Angle": "Unarmored",
+      "Artillery P › Penetration › Large Angle": "Unarmored",
+      "Artillery P › Penetration › Extreme Angle": "Unarmored",
+      "Artillery P › Special Effects › Demolition Force": "10",
+      "Artillery P › Special Effects › Stagger Force": "30",
+      "Artillery P › Special Effects › Push Force": "10",
+      "Artillery P IE › Area of Effect › Inner Radius": "3 m",
+      "Artillery P IE › Area of Effect › Outer Radius": "5 m",
+      "Artillery P IE › Area of Effect › Shockwave Radius": "7 m",
+      "Artillery P IE › Area of Effect › Shrapnel Count": "7",
+      "Artillery P IE › Area of Effect › Shrapnel": "Burst_P",
+      "Artillery P IE › Damage › Damage Element": "None",
+      "Artillery P IE › Damage › Inner Radius": "600 Explosion",
+      "Artillery P IE › Damage › Inner Durable": "600 Explosion",
+      "Artillery P IE › Damage › Outer Radius": "599 - 0",
+      "Artillery P IE › Damage › Outer Durable": "599 - 0",
+      "Artillery P IE › Penetration › Direct": "Medium",
+      "Artillery P IE › AoE Effect › Demolition Force": "30",
+      "Artillery P IE › AoE Effect › Stagger Force": "25",
+      "Artillery P IE › AoE Effect › Push Force": "50",
+      "Burst P › Projectile › Mass": "11 g",
+      "Burst P › Projectile › Initial Velocity": "500 m/s",
+      "Burst P › Projectile › Drag Factor": "0%",
+      "Burst P › Projectile › Gravity Factor": "0%",
+      "Burst P › Projectile › Penetration Slowdown": "25%",
+      "Burst P › Projectile › Explosion On Impact": "Burst_P_IE",
+      "Burst P › Damage › Standard": "200 Ballistic",
+      "Burst P › Damage › vs. Durable": "200 Ballistic",
+      "Burst P › Penetration › Direct": "Anti-Tank II",
+      "Burst P › Penetration › Slight Angle": "Anti-Tank II",
+      "Burst P › Penetration › Large Angle": "Anti-Tank II",
+      "Burst P › Penetration › Extreme Angle": "Anti-Tank II",
+      "Burst P › Special Effects › Demolition Force": "30",
+      "Burst P › Special Effects › Stagger Force": "35",
+      "Burst P › Special Effects › Push Force": "25",
+      "Burst P IE › Area of Effect › Inner Radius": "2.5 m",
+      "Burst P IE › Area of Effect › Outer Radius": "5 m",
+      "Burst P IE › Area of Effect › Shockwave Radius": "7 m",
+      "Burst P IE › Damage › Damage Element": "None",
+      "Burst P IE › Damage › Inner Radius": "600 Explosion",
+      "Burst P IE › Damage › Inner Durable": "600 Explosion",
+      "Burst P IE › Damage › Outer Radius": "599 - 0",
+      "Burst P IE › Damage › Outer Durable": "599 - 0",
+      "Burst P IE › Penetration › Direct": "Medium",
+      "Burst P IE › AoE Effect › Demolition Force": "30",
+      "Burst P IE › AoE Effect › Stagger Force": "25",
+      "Burst P IE › AoE Effect › Push Force": "50"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Patriotic Administration Center",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 12000
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ax-arc-3-k-9",
+    "slug": "ax-arc-3-k-9",
+    "name": "AX/ARC-3 K-9",
+    "aliases": [],
+    "description": "The AX/ARC-3 K-9 is a backpack Stratagem that provides support to the player by automatically targeting enemies with its mounted arc thrower.",
+    "image": null,
+    "wiki": {
+      "title": "AX/ARC-3 K-9",
+      "url": "https://helldivers.wiki.gg/wiki/AX/ARC-3_K-9",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "backpack",
+    "traitIds": [
+      "hellpod",
+      "backpack",
+      "anti-tank",
+      "arc"
+    ],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "up",
+      "right",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      },
+      {
+        "label": "With Hand Carts",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
+      }
+    ],
+    "callInTimeS": 9.75,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Hand Carts",
+        "effect": "Decreases cooldown for all Backpack stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": {
+      "health": 100,
+      "armor": "very_light",
+      "capacity": null
+    },
+    "attacks": [
+      {
+        "name": "AX/ARC-3 K-9 A",
+        "kind": "arc",
+        "damage": {
+          "standard": 250,
+          "durable": 45,
+          "type": "Arc"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 25
+        }
+      },
+      {
+        "name": "Stun Small",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack • Anti-Tank • Arc",
+      "Base Cooldown": "480s",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Hand Carts": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
+      "AX/ARC-3 K-9 › Main Health": "100",
+      "AX/ARC-3 K-9 › Main Armor": "Very Light",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Recoil": "45",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Horizontal Recoil": "30",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Vertical Recoil": "60",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Spread": "↔[1.00] ↕[1.00]",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Sway": "1",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Ergonomics": "65",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Capacity": "100",
+      "AX/ARC-3 K-9 › Attacks › AX/ARC-3 K-9 A": "Arc",
+      "AX/ARC-3 K-9 › Attacks › Stun Small": "status",
+      "AX/ARC-3 K-9 A › Arc › Arc Range": "55 m",
+      "AX/ARC-3 K-9 A › Arc › Arc Velocity": "300 m/s",
+      "AX/ARC-3 K-9 A › Damage › Element": "Arc",
+      "AX/ARC-3 K-9 A › Damage › Standard": "250 Arc",
+      "AX/ARC-3 K-9 A › Damage › vs. Durable": "45 Arc",
+      "AX/ARC-3 K-9 A › Penetration › Direct": "Anti-Tank III",
+      "AX/ARC-3 K-9 A › Penetration › Slight Angle": "Anti-Tank III",
+      "AX/ARC-3 K-9 A › Penetration › Large Angle": "Anti-Tank III",
+      "AX/ARC-3 K-9 A › Penetration › Extreme Angle": "Unarmored",
+      "AX/ARC-3 K-9 A › Special Effects › Status": "Stun Small",
+      "AX/ARC-3 K-9 A › Special Effects › Status Strength": "8",
+      "AX/ARC-3 K-9 A › Special Effects › Demolition Force": "10",
+      "AX/ARC-3 K-9 A › Special Effects › Stagger Force": "30",
+      "AX/ARC-3 K-9 A › Special Effects › Push Force": "25",
+      "Stun Small › Status › Status Duration": "1.5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P3",
+      "warbondId": "force-of-law",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 110
+      },
+      "rotating": null
+    }
+  }
+}

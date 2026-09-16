@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.fe2c0e0d",
-    "generatedAt": "2026-09-16T13:37:00Z",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -28,6 +28,9 @@
       "las-58-talon",
       "las-7-dagger"
     ],
-    "stratagemIds": []
+    "stratagemIds": [
+      "a-las-98-laser-sentry",
+      "las-98-laser-cannon"
+    ]
   }
 }

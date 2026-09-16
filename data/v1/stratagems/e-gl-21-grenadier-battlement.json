@@ -1,0 +1,203 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "e-gl-21-grenadier-battlement",
+    "slug": "e-gl-21-grenadier-battlement",
+    "name": "E/GL-21 Grenadier Battlement",
+    "aliases": [],
+    "description": "The Grenadier Battlement is an Stratagem that deploys ballistic cover with a mounted Grenade Launcher.",
+    "image": null,
+    "wiki": {
+      "title": "E/GL-21 Grenadier Battlement",
+      "url": "https://helldivers.wiki.gg/wiki/E/GL-21_Grenadier_Battlement",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "defensive",
+    "availability": "loadout",
+    "category": "bridge",
+    "kind": "emplacement",
+    "traitIds": [
+      "hellpod",
+      "explosive",
+      "medium-armor-penetrating"
+    ],
+    "code": [
+      "down",
+      "right",
+      "down",
+      "left",
+      "right"
+    ],
+    "cooldownS": 120,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 114
+      },
+      {
+        "label": "With Synthetic Supplementation",
+        "seconds": 108
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 102
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 15,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Synthetic Supplementation",
+        "effect": "Reduces cooldown time for Sentry, Emplacement, and Resupply stratagems by 10%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Rapid Launch System",
+        "effect": "Removes deployment time for Emplacement stratagems."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "40mm HE GRENADE P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 0,
+          "durable": 0,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 50,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "40mm HE GRENADE P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 400,
+          "durable": 400,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3.5,
+          "outerRadiusM": 7.5,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Defensive",
+      "Traits": "Hellpod • Explosive • Medium Armor Penetrating",
+      "Base Cooldown": "120s",
+      "Unlock Level": "15",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "120 seconds",
+      "General › Cooldown › With Morale Augmentation": "114 seconds",
+      "General › Cooldown › With Synthetic Supplementation": "108 seconds",
+      "General › Cooldown › With All Upgrades": "102 seconds",
+      "GRENADIER BATTLEMENT › Cooldown": "120 s",
+      "GRENADIER BATTLEMENT › Uses": "∞",
+      "GRENADIER BATTLEMENT › Main Health": "3000",
+      "GRENADIER BATTLEMENT › Main Armor": "Heavy",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Fire Rate": "160 rpm",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Recoil": "25",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Horizontal Recoil": "22.5",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Vertical Recoil": "27.5",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Spread": "↔[20.00] ↕[20.00]",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Sway": "1",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Ergonomics": "25",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › Capacity": "60",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › 40mm HE GRENADE P": "Projectile",
+      "GRENADIER BATTLEMENT › SWP GRENADIER BATTLEMENT › 40mm HE GRENADE P IE": "Explosion",
+      "40mm HE GRENADE P › Projectile › Mass": "50 g",
+      "40mm HE GRENADE P › Projectile › Initial Velocity": "100 m/s",
+      "40mm HE GRENADE P › Projectile › Drag Factor": "120%",
+      "40mm HE GRENADE P › Projectile › Gravity Factor": "100%",
+      "40mm HE GRENADE P › Projectile › Penetration Slowdown": "25%",
+      "40mm HE GRENADE P › Projectile › Explosion On Impact": "40mm HE GRENADE_P_IE",
+      "40mm HE GRENADE P › Projectile › Explode After": "40mm HE GRENADE_P_IE",
+      "40mm HE GRENADE P › Damage › Standard": "0 Ballistic",
+      "40mm HE GRENADE P › Damage › vs. Durable": "0 Ballistic",
+      "40mm HE GRENADE P › Penetration › Direct": "Heavy",
+      "40mm HE GRENADE P › Penetration › Slight Angle": "Heavy",
+      "40mm HE GRENADE P › Penetration › Large Angle": "Heavy",
+      "40mm HE GRENADE P › Penetration › Extreme Angle": "Unarmored",
+      "40mm HE GRENADE P › Special Effects › Demolition Force": "10",
+      "40mm HE GRENADE P › Special Effects › Stagger Force": "30",
+      "40mm HE GRENADE P › Special Effects › Push Force": "10",
+      "40mm HE GRENADE P IE › Area of Effect › Inner Radius": "3.5 m",
+      "40mm HE GRENADE P IE › Area of Effect › Outer Radius": "7.5 m",
+      "40mm HE GRENADE P IE › Area of Effect › Shockwave Radius": "8 m",
+      "40mm HE GRENADE P IE › Damage › Damage Element": "None",
+      "40mm HE GRENADE P IE › Damage › Inner Radius": "400 Explosion",
+      "40mm HE GRENADE P IE › Damage › Inner Durable": "400 Explosion",
+      "40mm HE GRENADE P IE › Damage › Outer Radius": "399 - 0",
+      "40mm HE GRENADE P IE › Damage › Outer Durable": "399 - 0",
+      "40mm HE GRENADE P IE › Penetration › Direct": "Medium",
+      "40mm HE GRENADE P IE › AoE Effect › Demolition Force": "30",
+      "40mm HE GRENADE P IE › AoE Effect › Stagger Force": "25",
+      "40mm HE GRENADE P IE › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Bridge",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 10000
+      },
+      "rotating": null
+    }
+  }
+}

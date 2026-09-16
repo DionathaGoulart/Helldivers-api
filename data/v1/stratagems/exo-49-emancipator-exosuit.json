@@ -1,0 +1,277 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "exo-49-emancipator-exosuit",
+    "slug": "exo-49-emancipator-exosuit",
+    "name": "EXO-49 Emancipator Exosuit",
+    "aliases": [],
+    "description": "The EXO-49 Emancipator Exosuit is an Exosuit Stratagem featuring 2 dual autocannons as armaments.",
+    "image": null,
+    "wiki": {
+      "title": "EXO-49 Emancipator Exosuit",
+      "url": "https://helldivers.wiki.gg/wiki/EXO-49_Emancipator_Exosuit",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "robotics_workshop",
+    "kind": "vehicle",
+    "traitIds": [
+      "explosive",
+      "vehicle",
+      "anti-tank"
+    ],
+    "code": [
+      "left",
+      "down",
+      "right",
+      "up",
+      "left",
+      "down",
+      "up"
+    ],
+    "cooldownS": 420,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 399
+      },
+      {
+        "label": "With DSS Boost",
+        "seconds": 273
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 252
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": 3,
+    "unlockLevel": 25,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "30mm APHE CANNON P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 300,
+          "durable": 150,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 900,
+          "initialVelocityMps": 1021,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "30mm APHE CANNON P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1.5,
+          "outerRadiusM": 4.5,
+          "shockwaveRadiusM": 6
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 40,
+          "push": 40
+        }
+      },
+      {
+        "name": "Exosuit Stomp",
+        "kind": "other",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 20,
+          "push": 20
+        }
+      },
+      {
+        "name": "Exosuit Destruction",
+        "kind": "explosion",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 0.6,
+          "outerRadiusM": 7,
+          "shockwaveRadiusM": 10
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Explosive • Vehicle • Anti-Tank",
+      "Base Cooldown": "420s",
+      "Unlock Level": "25",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "3",
+      "General › Cooldown › Standard": "420 seconds",
+      "General › Cooldown › With Morale Augmentation": "399 seconds",
+      "General › Cooldown › With DSS Boost": "273 seconds",
+      "General › Cooldown › With All Upgrades": "252 seconds",
+      "Emancipator Exosuit › Cooldown": "420 s",
+      "Emancipator Exosuit › Uses": "3",
+      "Emancipator Exosuit › Main Health": "1800",
+      "Emancipator Exosuit › Main Armor": "Heavy",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Main Health": "800",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Main Armor": "Medium",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Fire Rate": "175 rpm",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Recoil": "15.5",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Horizontal Recoil": "11",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Vertical Recoil": "20",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Spread": "↔[10.00] ↕[10.00]",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Sway": "1",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Ergonomics": "65",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Capacity": "100",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › Barrels": "x 2",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › 30mm APHE CANNON P": "Projectile",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT LEFT AUTOCANNON › 30mm APHE CANNON P IE": "Explosion",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Main Health": "800",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Main Armor": "Medium",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Fire Rate": "175 rpm",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Recoil": "15.5",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Horizontal Recoil": "11",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Vertical Recoil": "20",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Spread": "↔[10.00] ↕[10.00]",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Sway": "1",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Ergonomics": "65",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Capacity": "100",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › Barrels": "x 2",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › 30mm APHE CANNON P": "Projectile",
+      "Emancipator Exosuit › EMANCIPATOR EXOSUIT RIGHT AUTOCANNON › 30mm APHE CANNON P IE": "Explosion",
+      "30mm APHE CANNON P › Projectile › Mass": "900 g",
+      "30mm APHE CANNON P › Projectile › Initial Velocity": "1021 m/s",
+      "30mm APHE CANNON P › Projectile › Drag Factor": "30%",
+      "30mm APHE CANNON P › Projectile › Gravity Factor": "100%",
+      "30mm APHE CANNON P › Projectile › Penetration Slowdown": "25%",
+      "30mm APHE CANNON P › Projectile › Explosion On Impact": "30mm APHE CANNON_P_IE",
+      "30mm APHE CANNON P › Damage › Standard": "300 Damage",
+      "30mm APHE CANNON P › Damage › vs. Durable": "150 Damage",
+      "30mm APHE CANNON P › Penetration › Direct": "Anti-Tank I",
+      "30mm APHE CANNON P › Penetration › Slight Angle": "Anti-Tank I",
+      "30mm APHE CANNON P › Penetration › Large Angle": "Anti-Tank I",
+      "30mm APHE CANNON P › Penetration › Extreme Angle": "Unarmored",
+      "30mm APHE CANNON P › Special Effects › Demolition Force": "30",
+      "30mm APHE CANNON P › Special Effects › Stagger Force": "30",
+      "30mm APHE CANNON P › Special Effects › Push Force": "10",
+      "30mm APHE CANNON P IE › Area of Effect › Inner Radius": "1.5 m",
+      "30mm APHE CANNON P IE › Area of Effect › Outer Radius": "4.5 m",
+      "30mm APHE CANNON P IE › Area of Effect › Shockwave Radius": "6 m",
+      "30mm APHE CANNON P IE › Damage › Damage Element": "None",
+      "30mm APHE CANNON P IE › Damage › Inner Radius": "150 Explosion",
+      "30mm APHE CANNON P IE › Damage › Inner Durable": "150 Explosion",
+      "30mm APHE CANNON P IE › Damage › Outer Radius": "149 - 0",
+      "30mm APHE CANNON P IE › Damage › Outer Durable": "149 - 0",
+      "30mm APHE CANNON P IE › Penetration › Direct": "Medium",
+      "30mm APHE CANNON P IE › AoE Effect › Demolition Force": "30",
+      "30mm APHE CANNON P IE › AoE Effect › Stagger Force": "40",
+      "30mm APHE CANNON P IE › AoE Effect › Push Force": "40",
+      "Exosuit Stomp › Damage › Standard": "200 Damage",
+      "Exosuit Stomp › Damage › vs. Durable": "200 Damage",
+      "Exosuit Stomp › Penetration › Direct": "Heavy",
+      "Exosuit Stomp › Penetration › Slight Angle": "Unarmored",
+      "Exosuit Stomp › Penetration › Large Angle": "Unarmored",
+      "Exosuit Stomp › Penetration › Extreme Angle": "Unarmored",
+      "Exosuit Stomp › Special Effects › Demolition Force": "30",
+      "Exosuit Stomp › Special Effects › Stagger Force": "20",
+      "Exosuit Stomp › Special Effects › Push Force": "20",
+      "Exosuit Destruction › Area of Effect › Inner Radius": "0.6 m",
+      "Exosuit Destruction › Area of Effect › Outer Radius": "7 m",
+      "Exosuit Destruction › Area of Effect › Shockwave Radius": "10 m",
+      "Exosuit Destruction › Damage › Inner Radius": "200 Explosion",
+      "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
+      "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
+      "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
+      "Exosuit Destruction › Penetration › Direct": "Medium",
+      "Exosuit Destruction › AoE Effect › Demolition Force": "30",
+      "Exosuit Destruction › AoE Effect › Stagger Force": "50",
+      "Exosuit Destruction › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Robotics Workshop",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 20000
+      },
+      "rotating": null
+    }
+  }
+}

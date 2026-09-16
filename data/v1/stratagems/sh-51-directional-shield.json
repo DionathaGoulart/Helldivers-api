@@ -1,0 +1,109 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sh-51-directional-shield",
+    "slug": "sh-51-directional-shield",
+    "name": "SH-51 Directional Shield",
+    "aliases": [],
+    "description": "The Directional Shield is a Backpack Stratagem that projects a wide energy shield in front of the wielder when using a One-Handed weapon.",
+    "image": null,
+    "wiki": {
+      "title": "SH-51 Directional Shield",
+      "url": "https://helldivers.wiki.gg/wiki/SH-51_Directional_Shield",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "backpack",
+    "traitIds": [
+      "hellpod",
+      "backpack"
+    ],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "right",
+      "up",
+      "up"
+    ],
+    "cooldownS": 300,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 285
+      },
+      {
+        "label": "With Hand Carts",
+        "seconds": 270
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 256.5
+      }
+    ],
+    "callInTimeS": 9.75,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Hand Carts",
+        "effect": "Decreases cooldown for all Backpack stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": {
+      "health": 400,
+      "armor": "heavy",
+      "capacity": null
+    },
+    "attacks": [],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack",
+      "Base Cooldown": "300s",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "300 seconds",
+      "General › Cooldown › With Morale Augmentation": "285 seconds",
+      "General › Cooldown › With Hand Carts": "270 seconds",
+      "General › Cooldown › With All Upgrades": "256.5 seconds",
+      "SH-51 Directional Shield › Main Health": "400",
+      "SH-51 Directional Shield › Main Armor": "Heavy",
+      "SH-51 Directional Shield › Shield Capacity": "1000",
+      "SH-51 Directional Shield › Shield Regen": "300 shield/s",
+      "SH-51 Directional Shield › Shield Regen Delay": "3 s",
+      "SH-51 Directional Shield › Shield Broken Delay": "6 s",
+      "SH-51 Directional Shield › Shield Radius": "0 m"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P1",
+      "warbondId": "urban-legends",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eagle-strafing-run",
+    "slug": "eagle-strafing-run",
+    "name": "Eagle Strafing Run",
+    "aliases": [],
+    "description": "The Eagle Strafing Run is an offensive stratagem that calls the Eagle in to fire a barrage of anti-tank, high-explosive shells, parallel to the player.",
+    "image": null,
+    "wiki": {
+      "title": "Eagle Strafing Run",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle_Strafing_Run",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": "hangar",
+    "kind": "eagle",
+    "traitIds": [
+      "eagle",
+      "anti-tank"
+    ],
+    "code": [
+      "up",
+      "right",
+      "right"
+    ],
+    "cooldownS": 15,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 14.25
+      },
+      {
+        "label": "With Liquid-Ventilated Cockpit",
+        "seconds": 7.5
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 6.75
+      }
+    ],
+    "callInTimeS": 2.4,
+    "callInTimeUpgradedS": null,
+    "uses": 4,
+    "unlockLevel": 1,
+    "shipModules": [
+      {
+        "department": "hangar",
+        "module": "Liquid-Ventilated Cockpit",
+        "effect": "Reduces Eagle stratagem cooldown time by 50%."
+      },
+      {
+        "department": "hangar",
+        "module": "Pit Crew Hazard Pay",
+        "effect": "Reduces Eagle Rearm time by 20%."
+      },
+      {
+        "department": "hangar",
+        "module": "Expanded Weapons Bay",
+        "effect": "Increases the number of Eagle stratagem uses per Rearm by 1."
+      },
+      {
+        "department": "hangar",
+        "module": "Advanced Crew Training",
+        "effect": "Eagle Rearm further reduced by 10% if called in while Eagle uses still remain."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "23mm HE CANNON P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 350,
+          "durable": 200,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 400,
+          "initialVelocityMps": 1050,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 3
+        }
+      },
+      {
+        "name": "23mm HE CANNON P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.5,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 6.5
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 5
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Offensive",
+      "Traits": "Eagle • Anti-Tank",
+      "Base Cooldown": "15s",
+      "Unlock Level": "1",
+      "General › Call-in Time": "2.4 seconds",
+      "General › Rearm Time › Standard": "150 seconds",
+      "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+      "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+      "General › Uses › Standard": "4",
+      "General › Uses › Upgraded": "5",
+      "General › Cooldown › Standard": "15 seconds",
+      "General › Cooldown › With Morale Augmentation": "14.25 seconds",
+      "General › Cooldown › With Liquid-Ventilated Cockpit": "7.5 seconds",
+      "General › Cooldown › With All Upgrades": "6.75 seconds",
+      "Eagle Strafing Run › Cooldown": "15 s",
+      "Eagle Strafing Run › Uses": "4",
+      "Eagle Strafing Run › Main Health": "100",
+      "Eagle Strafing Run › Main Armor": "Unarmored",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Main Health": "100",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Main Armor": "Unarmored",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Fire Rate": "4000 rpm",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Recoil": "0",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Horizontal Recoil": "0",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Vertical Recoil": "0",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Spread": "↔[10.00] ↕[10.00]",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Sway": "1",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Ergonomics": "65",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Capacity": "2000",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › 23mm HE CANNON P": "Projectile",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › 23mm HE CANNON P IE": "Explosion",
+      "23mm HE CANNON P › Projectile › Mass": "400 g",
+      "23mm HE CANNON P › Projectile › Initial Velocity": "1050 m/s",
+      "23mm HE CANNON P › Projectile › Drag Factor": "30%",
+      "23mm HE CANNON P › Projectile › Gravity Factor": "100%",
+      "23mm HE CANNON P › Projectile › Penetration Slowdown": "25%",
+      "23mm HE CANNON P › Projectile › Explosion On Impact": "23mm HE CANNON_P_IE",
+      "23mm HE CANNON P › Damage › Standard": "350 Ballistic",
+      "23mm HE CANNON P › Damage › vs. Durable": "200 Ballistic",
+      "23mm HE CANNON P › Penetration › Direct": "Anti-Tank I",
+      "23mm HE CANNON P › Penetration › Slight Angle": "Anti-Tank I",
+      "23mm HE CANNON P › Penetration › Large Angle": "Heavy",
+      "23mm HE CANNON P › Penetration › Extreme Angle": "Unarmored",
+      "23mm HE CANNON P › Special Effects › Demolition Force": "30",
+      "23mm HE CANNON P › Special Effects › Stagger Force": "35",
+      "23mm HE CANNON P › Special Effects › Push Force": "3",
+      "23mm HE CANNON P IE › Area of Effect › Inner Radius": "2.5 m",
+      "23mm HE CANNON P IE › Area of Effect › Outer Radius": "5 m",
+      "23mm HE CANNON P IE › Area of Effect › Shockwave Radius": "6.5 m",
+      "23mm HE CANNON P IE › Damage › Damage Element": "None",
+      "23mm HE CANNON P IE › Damage › Inner Radius": "350 Explosion",
+      "23mm HE CANNON P IE › Damage › Inner Durable": "350 Explosion",
+      "23mm HE CANNON P IE › Damage › Outer Radius": "349 - 0",
+      "23mm HE CANNON P IE › Damage › Outer Durable": "349 - 0",
+      "23mm HE CANNON P IE › Penetration › Direct": "Medium",
+      "23mm HE CANNON P IE › AoE Effect › Demolition Force": "30",
+      "23mm HE CANNON P IE › AoE Effect › Stagger Force": "35",
+      "23mm HE CANNON P IE › AoE Effect › Push Force": "5"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Hangar",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 1500
+      },
+      "rotating": null
+    }
+  }
+}

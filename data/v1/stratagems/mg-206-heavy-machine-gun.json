@@ -1,0 +1,210 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "mg-206-heavy-machine-gun",
+    "slug": "mg-206-heavy-machine-gun",
+    "name": "MG-206 Heavy Machine Gun",
+    "aliases": [
+      "HMG"
+    ],
+    "description": "The MG-206 Heavy Machine Gun (abbreviated as HMG) is a Stratagem which calls a Support Weapon capable of firing heavy armor-penetrating rounds.",
+    "image": null,
+    "wiki": {
+      "title": "MG-206 Heavy Machine Gun",
+      "url": "https://helldivers.wiki.gg/wiki/MG-206_Heavy_Machine_Gun",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "patriotic_administration_center",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "heavy-armor-penetrating",
+      "stationary-reload"
+    ],
+    "code": [
+      "down",
+      "left",
+      "up",
+      "down",
+      "down"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 12,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Donation Access License",
+        "effect": "Support Weapons deploy with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapons launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "auto"
+      ],
+      "fireRateRpm": [
+        450,
+        600,
+        750
+      ],
+      "dps": [
+        1125,
+        1500,
+        1875
+      ],
+      "capacity": 100,
+      "spareMagazines": 2,
+      "startingMagazines": 1,
+      "magazinesFromSupply": 2,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 43.75,
+      "horizontalRecoil": 32.5,
+      "verticalRecoil": 55,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 1,
+      "ergonomics": 0,
+      "reloadKind": "stationary",
+      "reloadTimeS": 5.55,
+      "reloadTimeUpgradedS": 5,
+      "tacticalReloadTimeS": 3.9
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "12.5mm BCHP RIFLE ROUNDS P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 52,
+          "initialVelocityMps": 980,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 15,
+          "stagger": 25,
+          "push": 20
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Heavy Armor Penetrating • Stationary Reload",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Heavy Weapons",
+      "Firing Modes": "Auto",
+      "Standard Damage": "150 Ballistic",
+      "Armor Penetration": "Heavy",
+      "Fire Rate": "450rpm • 600rpm • 750rpm",
+      "DPS": "1,125 • 1,500 • 1,875",
+      "Capacity": "100",
+      "Spare Mags": "2 Magazines",
+      "Supply Box Refill": "2",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "0",
+      "Reload Time": "5.55s / 5s (Upgraded)",
+      "Tactical Reload Time": "3.9s / 3.5s (Upgraded)",
+      "Unlock Level": "12",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "MG-206 HEAVY MACHINE GUN › Fire Rate": "600 rpm",
+      "MG-206 HEAVY MACHINE GUN › Recoil": "43.75",
+      "MG-206 HEAVY MACHINE GUN › Horizontal Recoil": "32.5",
+      "MG-206 HEAVY MACHINE GUN › Vertical Recoil": "55",
+      "MG-206 HEAVY MACHINE GUN › Spread": "↔[5.00] ↕[5.00]",
+      "MG-206 HEAVY MACHINE GUN › Sway": "1",
+      "MG-206 HEAVY MACHINE GUN › Ergonomics": "0",
+      "MG-206 HEAVY MACHINE GUN › Capacity": "100",
+      "MG-206 HEAVY MACHINE GUN › Spare Magazines": "2",
+      "MG-206 HEAVY MACHINE GUN › Starting Magazines": "1",
+      "MG-206 HEAVY MACHINE GUN › Mags from Supply": "2",
+      "MG-206 HEAVY MACHINE GUN › Mags from Ammo Box": "1",
+      "MG-206 HEAVY MACHINE GUN › Attacks › 12.5mm BCHP RIFLE ROUNDS P": "Projectile",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Mass": "52 g",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Initial Velocity": "980 m/s",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Drag Factor": "30%",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Gravity Factor": "100%",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Penetration Slowdown": "25%",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › Standard": "150 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › vs. Durable": "35 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Direct": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Slight Angle": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Large Angle": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Extreme Angle": "Unarmored",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Demolition Force": "15",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Stagger Force": "25",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Push Force": "20"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Patriotic Administration Center",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 6000
+      },
+      "rotating": null
+    }
+  }
+}

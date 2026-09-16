@@ -1,0 +1,386 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "plas-45-epoch",
+    "slug": "plas-45-epoch",
+    "name": "PLAS-45 Epoch",
+    "aliases": [],
+    "description": "The PLAS-45 Epoch is an energy-based plasma Support Weapon Stratagem with Heavy armor penetration that scales armor penetration and damage.",
+    "image": null,
+    "wiki": {
+      "title": "PLAS-45 Epoch",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-45_Epoch",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "explosive",
+      "heavy-armor-penetrating",
+      "stationary-reload",
+      "chargeup"
+    ],
+    "code": [
+      "down",
+      "left",
+      "up",
+      "left",
+      "right"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Donation Access License",
+        "effect": "Support Weapons deploy with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduce reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [],
+      "fireRateRpm": [
+        600
+      ],
+      "dps": [
+        1600
+      ],
+      "capacity": 3,
+      "spareMagazines": 4,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 2,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 36.25,
+      "horizontalRecoil": 17.5,
+      "verticalRecoil": 55,
+      "spread": {
+        "horizontal": 30,
+        "vertical": 30
+      },
+      "sway": 1,
+      "ergonomics": 25,
+      "reloadKind": "stationary",
+      "reloadTimeS": 5.15,
+      "reloadTimeUpgradedS": 4.65,
+      "tacticalReloadTimeS": 5.15
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "LARGE PLASMA BOLT P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 400,
+          "durable": 200,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "heavy"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 10,
+          "gravityFactorPct": 200,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 15
+        }
+      },
+      {
+        "name": "LARGE PLASMA BOLT P1 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 500,
+          "durable": 500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.29999995,
+          "outerRadiusM": 3,
+          "shockwaveRadiusM": 4
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 7
+        }
+      },
+      {
+        "name": "LARGE PLASMA BOLT P2",
+        "kind": "projectile",
+        "damage": {
+          "standard": 800,
+          "durable": 400,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "anti_tank_i"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 10,
+          "gravityFactorPct": 200,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 15
+        }
+      },
+      {
+        "name": "LARGE PLASMA BOLT P2 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 800,
+          "durable": 800,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 4,
+          "shockwaveRadiusM": 5
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 30
+        }
+      },
+      {
+        "name": "PLAS-45 EPOCH Overcharge E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 800,
+          "durable": 800,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 4,
+          "shockwaveRadiusM": 5
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Explosive • Heavy Armor Penetrating • Stationary Reload • Chargeup",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Heavy Weapons",
+      "Standard Damage": "400 Uncharged Bolt / 500 Uncharged Explosion Explosion 800 Charged Bolt / 800 Charged Explosion Explosion",
+      "Armor Penetration": "Anti-Tank I",
+      "Fire Rate": "600 rpm",
+      "DPS": "1,600",
+      "Capacity": "3",
+      "Spare Mags": "4 Magazines",
+      "Supply Box Refill": "2",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "25",
+      "Reload Time": "5.15s / 4.65s (Upgraded)",
+      "Tactical Reload Time": "5.15s / 4.65s (Upgraded)",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "PLAS-45 EPOCH › Fire Rate": "600 rpm",
+      "PLAS-45 EPOCH › Recoil": "36.25",
+      "PLAS-45 EPOCH › Horizontal Recoil": "17.5",
+      "PLAS-45 EPOCH › Vertical Recoil": "55",
+      "PLAS-45 EPOCH › Spread": "↔[30.00] ↕[30.00]",
+      "PLAS-45 EPOCH › Sway": "1",
+      "PLAS-45 EPOCH › Ergonomics": "25",
+      "PLAS-45 EPOCH › Capacity": "3",
+      "PLAS-45 EPOCH › Spare Magazines": "4",
+      "PLAS-45 EPOCH › Starting Magazines": "2",
+      "PLAS-45 EPOCH › Mags from Supply": "2",
+      "PLAS-45 EPOCH › Mags from Ammo Box": "1",
+      "PLAS-45 EPOCH › Charge › at (1.00)s": "LARGE PLASMA BOLT_P1× 1.00 dmg",
+      "PLAS-45 EPOCH › Charge › at (2.50)s": "LARGE PLASMA BOLT_P2× 1.94 dmg",
+      "PLAS-45 EPOCH › Charge › at (2.60)s": "LARGE PLASMA BOLT_P2× 2.00 dmg",
+      "PLAS-45 EPOCH › Charge › Speed Mult Range": "(1.00) (1.00)",
+      "PLAS-45 EPOCH › Charge › Distance Mult Range": "(0.70) (1.40)",
+      "PLAS-45 EPOCH › Charge › Damage Mult Range": "(1.00) (2.00)",
+      "PLAS-45 EPOCH › Attacks › LARGE PLASMA BOLT P1": "Projectile",
+      "PLAS-45 EPOCH › Attacks › LARGE PLASMA BOLT P2": "Projectile",
+      "PLAS-45 EPOCH › Attacks › PLAS-45 EPOCH Overcharge E": "Explosion",
+      "PLAS-45 EPOCH › Attacks › LARGE PLASMA BOLT P1 IE": "Explosion",
+      "PLAS-45 EPOCH › Attacks › LARGE PLASMA BOLT P2 IE": "Explosion",
+      "LARGE PLASMA BOLT P1 › Projectile › Mass": "100 g",
+      "LARGE PLASMA BOLT P1 › Projectile › Initial Velocity": "250 m/s",
+      "LARGE PLASMA BOLT P1 › Projectile › Drag Factor": "10%",
+      "LARGE PLASMA BOLT P1 › Projectile › Gravity Factor": "200%",
+      "LARGE PLASMA BOLT P1 › Projectile › Lifetime": "0.600000024 sec",
+      "LARGE PLASMA BOLT P1 › Projectile › Penetration Slowdown": "35%",
+      "LARGE PLASMA BOLT P1 › Projectile › Explosion On Impact": "LARGE PLASMA BOLT_P1_IE",
+      "LARGE PLASMA BOLT P1 › Projectile › Explode After": "LARGE PLASMA BOLT_P1_IE",
+      "LARGE PLASMA BOLT P1 › Damage › Standard": "400 Ballistic",
+      "LARGE PLASMA BOLT P1 › Damage › vs. Durable": "200 Ballistic",
+      "LARGE PLASMA BOLT P1 › Penetration › Direct": "Heavy",
+      "LARGE PLASMA BOLT P1 › Penetration › Slight Angle": "Heavy",
+      "LARGE PLASMA BOLT P1 › Penetration › Large Angle": "Heavy",
+      "LARGE PLASMA BOLT P1 › Penetration › Extreme Angle": "Heavy",
+      "LARGE PLASMA BOLT P1 › Special Effects › Demolition Force": "10",
+      "LARGE PLASMA BOLT P1 › Special Effects › Stagger Force": "30",
+      "LARGE PLASMA BOLT P1 › Special Effects › Push Force": "15",
+      "LARGE PLASMA BOLT P1 IE › Area of Effect › Inner Radius": "2.29999995 m",
+      "LARGE PLASMA BOLT P1 IE › Area of Effect › Outer Radius": "3 m",
+      "LARGE PLASMA BOLT P1 IE › Area of Effect › Shockwave Radius": "4 m",
+      "LARGE PLASMA BOLT P1 IE › Damage › Damage Element": "None",
+      "LARGE PLASMA BOLT P1 IE › Damage › Inner Radius": "500 Explosion",
+      "LARGE PLASMA BOLT P1 IE › Damage › Inner Durable": "500 Explosion",
+      "LARGE PLASMA BOLT P1 IE › Damage › Outer Radius": "499 - 0",
+      "LARGE PLASMA BOLT P1 IE › Damage › Outer Durable": "499 - 0",
+      "LARGE PLASMA BOLT P1 IE › Penetration › Direct": "Heavy",
+      "LARGE PLASMA BOLT P1 IE › Penetration › Slight Angle": "Heavy",
+      "LARGE PLASMA BOLT P1 IE › Penetration › Large Angle": "Heavy",
+      "LARGE PLASMA BOLT P1 IE › AoE Effect › Demolition Force": "10",
+      "LARGE PLASMA BOLT P1 IE › AoE Effect › Stagger Force": "20",
+      "LARGE PLASMA BOLT P1 IE › AoE Effect › Push Force": "7",
+      "LARGE PLASMA BOLT P2 › Projectile › Mass": "100 g",
+      "LARGE PLASMA BOLT P2 › Projectile › Initial Velocity": "250 m/s",
+      "LARGE PLASMA BOLT P2 › Projectile › Drag Factor": "10%",
+      "LARGE PLASMA BOLT P2 › Projectile › Gravity Factor": "200%",
+      "LARGE PLASMA BOLT P2 › Projectile › Lifetime": "0.600000024 sec",
+      "LARGE PLASMA BOLT P2 › Projectile › Penetration Slowdown": "35%",
+      "LARGE PLASMA BOLT P2 › Projectile › Explosion On Impact": "LARGE PLASMA BOLT_P2_IE",
+      "LARGE PLASMA BOLT P2 › Projectile › Explode After": "LARGE PLASMA BOLT_P2_IE",
+      "LARGE PLASMA BOLT P2 › Damage › Standard": "800 Ballistic",
+      "LARGE PLASMA BOLT P2 › Damage › vs. Durable": "400 Ballistic",
+      "LARGE PLASMA BOLT P2 › Penetration › Direct": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 › Penetration › Slight Angle": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 › Penetration › Large Angle": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 › Penetration › Extreme Angle": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 › Special Effects › Demolition Force": "10",
+      "LARGE PLASMA BOLT P2 › Special Effects › Stagger Force": "30",
+      "LARGE PLASMA BOLT P2 › Special Effects › Push Force": "15",
+      "LARGE PLASMA BOLT P2 IE › Area of Effect › Inner Radius": "3 m",
+      "LARGE PLASMA BOLT P2 IE › Area of Effect › Outer Radius": "4 m",
+      "LARGE PLASMA BOLT P2 IE › Area of Effect › Shockwave Radius": "5 m",
+      "LARGE PLASMA BOLT P2 IE › Damage › Damage Element": "None",
+      "LARGE PLASMA BOLT P2 IE › Damage › Inner Radius": "800 Explosion",
+      "LARGE PLASMA BOLT P2 IE › Damage › Inner Durable": "800 Explosion",
+      "LARGE PLASMA BOLT P2 IE › Damage › Outer Radius": "799 - 0",
+      "LARGE PLASMA BOLT P2 IE › Damage › Outer Durable": "799 - 0",
+      "LARGE PLASMA BOLT P2 IE › Penetration › Direct": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 IE › Penetration › Slight Angle": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 IE › Penetration › Large Angle": "Anti-Tank I",
+      "LARGE PLASMA BOLT P2 IE › AoE Effect › Demolition Force": "30",
+      "LARGE PLASMA BOLT P2 IE › AoE Effect › Stagger Force": "35",
+      "LARGE PLASMA BOLT P2 IE › AoE Effect › Push Force": "30",
+      "PLAS-45 EPOCH Overcharge E › Area of Effect › Inner Radius": "3 m",
+      "PLAS-45 EPOCH Overcharge E › Area of Effect › Outer Radius": "4 m",
+      "PLAS-45 EPOCH Overcharge E › Area of Effect › Shockwave Radius": "5 m",
+      "PLAS-45 EPOCH Overcharge E › Damage › Damage Element": "None",
+      "PLAS-45 EPOCH Overcharge E › Damage › Inner Radius": "800 Explosion",
+      "PLAS-45 EPOCH Overcharge E › Damage › Inner Durable": "800 Explosion",
+      "PLAS-45 EPOCH Overcharge E › Damage › Outer Radius": "799 - 0",
+      "PLAS-45 EPOCH Overcharge E › Damage › Outer Durable": "799 - 0",
+      "PLAS-45 EPOCH Overcharge E › Penetration › Direct": "Anti-Tank I",
+      "PLAS-45 EPOCH Overcharge E › Penetration › Slight Angle": "Anti-Tank I",
+      "PLAS-45 EPOCH Overcharge E › Penetration › Large Angle": "Anti-Tank I",
+      "PLAS-45 EPOCH Overcharge E › AoE Effect › Demolition Force": "30",
+      "PLAS-45 EPOCH Overcharge E › AoE Effect › Stagger Force": "35",
+      "PLAS-45 EPOCH Overcharge E › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P1",
+      "warbondId": "control-group",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  }
+}

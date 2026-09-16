@@ -1,0 +1,328 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "gr-8-recoilless-rifle",
+    "slug": "gr-8-recoilless-rifle",
+    "name": "GR-8 Recoilless Rifle",
+    "aliases": [
+      "RR"
+    ],
+    "description": "The GR-8 Recoilless Rifle (abbreviated as RR) is a reloadable anti-tank Support Weapon Stratagem with a programmable anti-personnel HE shell option.",
+    "image": null,
+    "wiki": {
+      "title": "GR-8 Recoilless Rifle",
+      "url": "https://helldivers.wiki.gg/wiki/GR-8_Recoilless_Rifle",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "patriotic_administration_center",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "backpack",
+      "anti-tank",
+      "stationary-reload"
+    ],
+    "code": [
+      "down",
+      "left",
+      "right",
+      "right",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 5,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "semi",
+        "other"
+      ],
+      "fireRateRpm": [
+        600
+      ],
+      "dps": [],
+      "capacity": 1,
+      "spareMagazines": 5,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 3,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 77.5,
+      "horizontalRecoil": 45,
+      "verticalRecoil": 110,
+      "spread": {
+        "horizontal": 4,
+        "vertical": 4
+      },
+      "sway": 1,
+      "ergonomics": 10,
+      "reloadKind": "stationary",
+      "reloadTimeS": 6.1,
+      "reloadTimeUpgradedS": 5.5,
+      "tacticalReloadTimeS": null
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "85mm HEAT GRENADE P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 3200,
+          "durable": 3200,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "medium"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 3300,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 25
+        }
+      },
+      {
+        "name": "85mm HEAT GRENADE P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1.5,
+          "outerRadiusM": 3,
+          "shockwaveRadiusM": 6
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      },
+      {
+        "name": "85mm HIGH-EXPLOSIVE GRENADE P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 750,
+          "durable": 750,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 3300,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 85
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 25
+        }
+      },
+      {
+        "name": "85mm HIGH-EXPLOSIVE GRENADE P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 800,
+          "durable": 800,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 7.5,
+          "shockwaveRadiusM": 12
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 60,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Backpack • Anti-Tank • Stationary Reload",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Anti-Tank",
+      "Firing Modes": "Semi • HEAT • HE",
+      "Standard Damage": "3,200 Projectile (HEAT) / 150 Explosion 750 Projectile (HE) / 800 Explosion",
+      "Armor Penetration": "Anti-Tank II (HEAT) / Medium Anti-Tank I (HE) / Heavy",
+      "Fire Rate": "600 rpm",
+      "Capacity": "1",
+      "Spare Shells": "5 (Backpack)",
+      "Supply Box Refill": "3",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "10",
+      "Reload Time": "6.1s / 5.5s (Upgraded) / 1.7s (Assisted)",
+      "Unlock Level": "5",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "GR-8 RECOILLESS RIFLE › Fire Rate": "600 rpm",
+      "GR-8 RECOILLESS RIFLE › Recoil": "77.5",
+      "GR-8 RECOILLESS RIFLE › Horizontal Recoil": "45",
+      "GR-8 RECOILLESS RIFLE › Vertical Recoil": "110",
+      "GR-8 RECOILLESS RIFLE › Spread": "↔[4.00] ↕[4.00]",
+      "GR-8 RECOILLESS RIFLE › Sway": "1",
+      "GR-8 RECOILLESS RIFLE › Ergonomics": "10",
+      "GR-8 RECOILLESS RIFLE › Capacity": "1",
+      "GR-8 RECOILLESS RIFLE › Spare Rounds": "5",
+      "GR-8 RECOILLESS RIFLE › Starting Rounds": "5",
+      "GR-8 RECOILLESS RIFLE › Rounds from Supply": "3",
+      "GR-8 RECOILLESS RIFLE › Rounds from Ammo Box": "1",
+      "GR-8 RECOILLESS RIFLE › Attacks › 85mm HEAT GRENADE P": "Projectile",
+      "GR-8 RECOILLESS RIFLE › Attacks › 85mm HIGH-EXPLOSIVE GRENADE P": "Projectile",
+      "GR-8 RECOILLESS RIFLE › Attacks › 85mm HEAT GRENADE P IE": "Explosion",
+      "GR-8 RECOILLESS RIFLE › Attacks › 85mm HIGH-EXPLOSIVE GRENADE P IE": "Explosion",
+      "85mm HEAT GRENADE P › Projectile › Mass": "3.3 kg",
+      "85mm HEAT GRENADE P › Projectile › Initial Velocity": "250 m/s",
+      "85mm HEAT GRENADE P › Projectile › Drag Factor": "30%",
+      "85mm HEAT GRENADE P › Projectile › Gravity Factor": "100%",
+      "85mm HEAT GRENADE P › Projectile › Penetration Slowdown": "25%",
+      "85mm HEAT GRENADE P › Projectile › Explosion On Impact": "85mm HEAT GRENADE_P_IE",
+      "85mm HEAT GRENADE P › Damage › Standard": "3200 Ballistic",
+      "85mm HEAT GRENADE P › Damage › vs. Durable": "3200 Ballistic",
+      "85mm HEAT GRENADE P › Penetration › Direct": "Anti-Tank II",
+      "85mm HEAT GRENADE P › Penetration › Slight Angle": "Anti-Tank II",
+      "85mm HEAT GRENADE P › Penetration › Large Angle": "Anti-Tank II",
+      "85mm HEAT GRENADE P › Penetration › Extreme Angle": "Medium",
+      "85mm HEAT GRENADE P › Special Effects › Demolition Force": "30",
+      "85mm HEAT GRENADE P › Special Effects › Stagger Force": "50",
+      "85mm HEAT GRENADE P › Special Effects › Push Force": "25",
+      "85mm HEAT GRENADE P IE › Area of Effect › Inner Radius": "1.5 m",
+      "85mm HEAT GRENADE P IE › Area of Effect › Outer Radius": "3 m",
+      "85mm HEAT GRENADE P IE › Area of Effect › Shockwave Radius": "6 m",
+      "85mm HEAT GRENADE P IE › Damage › Damage Element": "None",
+      "85mm HEAT GRENADE P IE › Damage › Inner Radius": "150 Explosion",
+      "85mm HEAT GRENADE P IE › Damage › Inner Durable": "150 Explosion",
+      "85mm HEAT GRENADE P IE › Damage › Outer Radius": "149 - 0",
+      "85mm HEAT GRENADE P IE › Damage › Outer Durable": "149 - 0",
+      "85mm HEAT GRENADE P IE › Penetration › Direct": "Medium",
+      "85mm HEAT GRENADE P IE › AoE Effect › Demolition Force": "30",
+      "85mm HEAT GRENADE P IE › AoE Effect › Stagger Force": "50",
+      "85mm HEAT GRENADE P IE › AoE Effect › Push Force": "40",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Projectile › Mass": "3.3 kg",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Projectile › Initial Velocity": "250 m/s",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Projectile › Drag Factor": "0%",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Projectile › Gravity Factor": "100%",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Projectile › Penetration Slowdown": "85%",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Projectile › Explosion On Impact": "85mm HIGH-EXPLOSIVE GRENADE_P_IE",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Damage › Standard": "750 Ballistic",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Damage › vs. Durable": "750 Ballistic",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Penetration › Direct": "Anti-Tank I",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Penetration › Slight Angle": "Anti-Tank I",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Penetration › Large Angle": "Anti-Tank I",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Penetration › Extreme Angle": "Unarmored",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Special Effects › Demolition Force": "30",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Special Effects › Stagger Force": "50",
+      "85mm HIGH-EXPLOSIVE GRENADE P › Special Effects › Push Force": "25",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Area of Effect › Inner Radius": "3 m",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Area of Effect › Outer Radius": "7.5 m",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Area of Effect › Shockwave Radius": "12 m",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Damage › Damage Element": "None",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Damage › Inner Radius": "800 Explosion",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Damage › Inner Durable": "800 Explosion",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Damage › Outer Radius": "799 - 0",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Damage › Outer Durable": "799 - 0",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › Penetration › Direct": "Heavy",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › AoE Effect › Demolition Force": "30",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › AoE Effect › Stagger Force": "60",
+      "85mm HIGH-EXPLOSIVE GRENADE P IE › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Patriotic Administration Center",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 6000
+      },
+      "rotating": null
+    }
+  }
+}

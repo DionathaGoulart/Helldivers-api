@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "m-105-stalwart",
+    "slug": "m-105-stalwart",
+    "name": "M-105 Stalwart",
+    "aliases": [],
+    "description": "The Stalwart is a Stratagem which calls down a Support Weapon which specializes in disposing of large quantities of lightly armored targets.",
+    "image": null,
+    "wiki": {
+      "title": "M-105 Stalwart",
+      "url": "https://helldivers.wiki.gg/wiki/M-105_Stalwart",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "patriotic_administration_center",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "light-armor-penetrating"
+    ],
+    "code": [
+      "down",
+      "left",
+      "down",
+      "up",
+      "up",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 1,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Donation Access License",
+        "effect": "Support Weapons deploy with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapons launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "auto"
+      ],
+      "fireRateRpm": [
+        700,
+        850,
+        1150
+      ],
+      "dps": [
+        1050,
+        1275,
+        1725
+      ],
+      "capacity": 250,
+      "spareMagazines": 3,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 2,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 15,
+      "horizontalRecoil": 12.5,
+      "verticalRecoil": 17.5,
+      "spread": {
+        "horizontal": 6,
+        "vertical": 6
+      },
+      "sway": 1,
+      "ergonomics": 40,
+      "reloadKind": "magazine",
+      "reloadTimeS": 5.9,
+      "reloadTimeUpgradedS": 5.33,
+      "tacticalReloadTimeS": 4.4
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "5.5x50mm FULL METAL JACKET P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 22,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 4.5,
+          "initialVelocityMps": 900,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Light Armor Penetrating",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Heavy Weapons",
+      "Firing Modes": "Auto",
+      "Standard Damage": "90 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "700rpm • 850rpm • 1150rpm",
+      "DPS": "1,050 • 1,275 • 1,725",
+      "Capacity": "250",
+      "Spare Mags": "3 Magazines",
+      "Ergonomics": "40",
+      "Reload Time": "5.9s / 5.33s (Upgraded)",
+      "Tactical Reload Time": "4.4s / 4s (Upgraded)",
+      "Unlock Level": "1",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "M-105 STALWART › Fire Rate": "850 rpm",
+      "M-105 STALWART › Recoil": "15",
+      "M-105 STALWART › Horizontal Recoil": "12.5",
+      "M-105 STALWART › Vertical Recoil": "17.5",
+      "M-105 STALWART › Spread": "↔[6.00] ↕[6.00]",
+      "M-105 STALWART › Sway": "1",
+      "M-105 STALWART › Ergonomics": "40",
+      "M-105 STALWART › Capacity": "250",
+      "M-105 STALWART › Spare Magazines": "3",
+      "M-105 STALWART › Starting Magazines": "2",
+      "M-105 STALWART › Mags from Supply": "2",
+      "M-105 STALWART › Mags from Ammo Box": "1",
+      "M-105 STALWART › Attacks › 5.5x50mm FULL METAL JACKET P": "Projectile",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Mass": "4.5 g",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Initial Velocity": "900 m/s",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Drag Factor": "30%",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Gravity Factor": "100%",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Penetration Slowdown": "25%",
+      "5.5x50mm FULL METAL JACKET P › Damage › Standard": "90 Ballistic",
+      "5.5x50mm FULL METAL JACKET P › Damage › vs. Durable": "22 Ballistic",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Direct": "Light",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Slight Angle": "Light",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Large Angle": "Light",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Extreme Angle": "Unarmored",
+      "5.5x50mm FULL METAL JACKET P › Special Effects › Demolition Force": "10",
+      "5.5x50mm FULL METAL JACKET P › Special Effects › Stagger Force": "15",
+      "5.5x50mm FULL METAL JACKET P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Patriotic Administration Center",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 3500
+      },
+      "rotating": null
+    }
+  }
+}

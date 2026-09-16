@@ -1,0 +1,212 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eagle-airstrike",
+    "slug": "eagle-airstrike",
+    "name": "Eagle Airstrike",
+    "aliases": [],
+    "description": "The Eagle Airstrike is an offensive stratagem that unleashes a powerful bombardment of six bombs in a straight line.",
+    "image": null,
+    "wiki": {
+      "title": "Eagle Airstrike",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle_Airstrike",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": "hangar",
+    "kind": "eagle",
+    "traitIds": [
+      "explosive",
+      "eagle",
+      "anti-tank"
+    ],
+    "code": [
+      "up",
+      "right",
+      "down",
+      "right"
+    ],
+    "cooldownS": 15,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 8
+      },
+      {
+        "label": "With Liquid-Ventilated Cockpit",
+        "seconds": 7
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 7
+      }
+    ],
+    "callInTimeS": 0,
+    "callInTimeUpgradedS": null,
+    "uses": 2,
+    "unlockLevel": 1,
+    "shipModules": [
+      {
+        "department": "hangar",
+        "module": "Liquid-Ventilated Cockpit",
+        "effect": "Eagle stratagem cooldown reduced by 50%."
+      },
+      {
+        "department": "hangar",
+        "module": "Pit Crew Hazard Pay",
+        "effect": "Reduces Eagle Rearm time by 20%."
+      },
+      {
+        "department": "hangar",
+        "module": "Expanded Weapons Bay",
+        "effect": "Increases the number of Eagle stratagem uses per Rearm by 1."
+      },
+      {
+        "department": "hangar",
+        "module": "XXL Weapons Bay",
+        "effect": "Eagle stratagems that drop multiple bombs will drop 1 additional bomb(s)."
+      },
+      {
+        "department": "hangar",
+        "module": "Advanced Crew Training",
+        "effect": "Eagle Rearm cooldown further reduced by 10% if called in while Eagle uses still remain."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "Bomb 100kg",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": "anti_tank_iii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 500,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 40,
+          "stagger": 20,
+          "push": 15
+        }
+      },
+      {
+        "name": "Eagle Bomb 100kg",
+        "kind": "explosion",
+        "damage": {
+          "standard": 800,
+          "durable": 800,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 5,
+          "outerRadiusM": 10,
+          "shockwaveRadiusM": 14
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 50,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Offensive",
+      "Traits": "Explosive • Eagle • Anti-Tank",
+      "Base Cooldown": "15s",
+      "Unlock Level": "1",
+      "General › Call-in Time": "4.1 seconds",
+      "General › Rearm Time › Standard": "150 seconds",
+      "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+      "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+      "General › Uses › Standard": "2",
+      "General › Uses › Upgraded": "3",
+      "General › Cooldown › Standard": "15 seconds",
+      "General › Cooldown › With Morale Augmentation": "8 seconds",
+      "General › Cooldown › With Liquid-Ventilated Cockpit": "7 seconds",
+      "General › Cooldown › With All Upgrades": "7 seconds",
+      "Eagle Airstrike › Main Health": "100",
+      "Eagle Airstrike › Main Armor": "Unarmored",
+      "Eagle Airstrike › Ergonomics": "65",
+      "Eagle Airstrike › Total Uses": "2",
+      "Eagle Airstrike › Cooldown": "15 sec",
+      "Eagle Airstrike › Call-in Time": "0 s",
+      "Eagle Airstrike › Capacity": "6",
+      "Eagle Airstrike › Attacks › Bomb 100kg": "Projectile",
+      "Eagle Airstrike › Attacks › Eagle Bomb 100kg": "Explosion",
+      "Bomb 100kg › Projectile › Mass": "100 g",
+      "Bomb 100kg › Projectile › Initial Velocity": "500 m/s",
+      "Bomb 100kg › Projectile › Drag Factor": "50%",
+      "Bomb 100kg › Projectile › Gravity Factor": "100%",
+      "Bomb 100kg › Projectile › Penetration Slowdown": "25%",
+      "Bomb 100kg › Damage › Standard": "1500 Damage",
+      "Bomb 100kg › Damage › vs. Durable": "1500 Damage",
+      "Bomb 100kg › Penetration › Direct": "Anti-Tank III",
+      "Bomb 100kg › Penetration › Slight Angle": "Anti-Tank III",
+      "Bomb 100kg › Penetration › Large Angle": "Anti-Tank III",
+      "Bomb 100kg › Penetration › Extreme Angle": "Anti-Tank III",
+      "Bomb 100kg › Special Effects › Demolition Force": "40",
+      "Bomb 100kg › Special Effects › Stagger Force": "20",
+      "Bomb 100kg › Special Effects › Push Force": "15",
+      "Eagle Bomb 100kg › Area of Effect › Inner Radius": "5 m",
+      "Eagle Bomb 100kg › Area of Effect › Outer Radius": "10 m",
+      "Eagle Bomb 100kg › Area of Effect › Shockwave Radius": "14 m",
+      "Eagle Bomb 100kg › Damage › Inner Radius": "800 Explosion",
+      "Eagle Bomb 100kg › Damage › Inner Durable": "800 Explosion",
+      "Eagle Bomb 100kg › Damage › Outer Radius": "799 - 0",
+      "Eagle Bomb 100kg › Damage › Outer Durable": "799 - 0",
+      "Eagle Bomb 100kg › Penetration › Direct": "Anti-Tank I",
+      "Eagle Bomb 100kg › AoE Effect › Demolition Force": "40",
+      "Eagle Bomb 100kg › AoE Effect › Stagger Force": "50",
+      "Eagle Bomb 100kg › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Hangar",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 4000
+      },
+      "rotating": null
+    }
+  }
+}

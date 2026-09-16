@@ -1,0 +1,229 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "las-98-laser-cannon",
+    "slug": "las-98-laser-cannon",
+    "name": "LAS-98 Laser Cannon",
+    "aliases": [],
+    "description": "The Laser Cannon is a heat-based support weapon that fires a sustained beam of energy that penetrates heavy armor and can ignite targets.",
+    "image": null,
+    "wiki": {
+      "title": "LAS-98 Laser Cannon",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-98_Laser_Cannon",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "engineering_bay",
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "hellpod",
+      "heavy-armor-penetrating",
+      "heat",
+      "beam"
+    ],
+    "code": [
+      "down",
+      "left",
+      "down",
+      "up",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 5,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Donation Access License",
+        "effect": "Support Weapons deploy with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill the Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Payroll Management System",
+        "effect": "Reduces reload time for all support weapons by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [],
+      "fireRateRpm": [],
+      "dps": [],
+      "capacity": null,
+      "spareMagazines": 2,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 0,
+      "horizontalRecoil": 0,
+      "verticalRecoil": 0,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 45,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3.65,
+      "reloadTimeUpgradedS": 3.3,
+      "tacticalReloadTimeS": 5.1
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "LAS-98 LASER CANNON B",
+        "kind": "beam",
+        "damage": {
+          "standard": 350,
+          "durable": 200,
+          "type": "Laser"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "heavy"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 20,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Hellpod • Heavy Armor Penetrating • Heat • Beam",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Heavy Energy-Based",
+      "Standard Damage": "350 DPS Laser / 100 DPS Fire",
+      "Armor Penetration": "Heavy",
+      "Capacity": "12.5s",
+      "Spare Mags": "2 Magazines",
+      "Ergonomics": "45",
+      "Reload Time": "3.65s / 3.3s (Upgraded)",
+      "Tactical Reload Time": "5.1s / 4.6s (Upgraded)",
+      "Unlock Level": "5",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "LAS-98 LASER CANNON › Recoil": "0",
+      "LAS-98 LASER CANNON › Horizontal Recoil": "0",
+      "LAS-98 LASER CANNON › Vertical Recoil": "0",
+      "LAS-98 LASER CANNON › Spread": "↔[10.00] ↕[10.00]",
+      "LAS-98 LASER CANNON › Sway": "1",
+      "LAS-98 LASER CANNON › Ergonomics": "45",
+      "LAS-98 LASER CANNON › Spare Magazines": "2",
+      "LAS-98 LASER CANNON › Starting Magazines": "2",
+      "LAS-98 LASER CANNON › Mags from Supply": "6",
+      "LAS-98 LASER CANNON › Mags from Ammo Box": "3",
+      "LAS-98 LASER CANNON › Heat Data › Overheats at": "100 °C",
+      "LAS-98 LASER CANNON › Heat Data › Warmup": "0.5 sec",
+      "LAS-98 LASER CANNON › Heat Data › Heat Per Second": "8 °C",
+      "LAS-98 LASER CANNON › Heat Data › Cool Per Sec": "7.5 - 5 - 3.8",
+      "LAS-98 LASER CANNON › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
+      "LAS-98 LASER CANNON › Heat Data › Beam Fire Rate": "60 rpm",
+      "LAS-98 LASER CANNON › Attacks › LAS-98 LASER CANNON B": "Beam",
+      "LAS-98 LASER CANNON › Attacks › Fire": "status",
+      "LAS-98 LASER CANNON B › Beam › Beam Range": "1000 m",
+      "LAS-98 LASER CANNON B › Damage › Standard": "350 Laser",
+      "LAS-98 LASER CANNON B › Damage › vs. Durable": "200 Laser",
+      "LAS-98 LASER CANNON B › Penetration › Direct": "Heavy",
+      "LAS-98 LASER CANNON B › Penetration › Slight Angle": "Heavy",
+      "LAS-98 LASER CANNON B › Penetration › Large Angle": "Heavy",
+      "LAS-98 LASER CANNON B › Penetration › Extreme Angle": "Heavy",
+      "LAS-98 LASER CANNON B › Special Effects › Status": "Fire",
+      "LAS-98 LASER CANNON B › Special Effects › Status Strength": "1.5",
+      "LAS-98 LASER CANNON B › Special Effects › Demolition Force": "20",
+      "LAS-98 LASER CANNON B › Special Effects › Stagger Force": "0",
+      "LAS-98 LASER CANNON B › Special Effects › Push Force": "0",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Engineering Bay",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 4000
+      },
+      "rotating": null
+    }
+  }
+}

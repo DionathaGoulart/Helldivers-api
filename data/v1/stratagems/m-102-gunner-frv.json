@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "m-102-gunner-frv",
+    "slug": "m-102-gunner-frv",
+    "name": "M-102 Gunner FRV",
+    "aliases": [],
+    "description": "The M-102 Gunner FRV is a Stratagem that deploys a four-wheeled ground vehicle with a mounted MG-206 Heavy Machine Gun.",
+    "image": null,
+    "wiki": {
+      "title": "M-102 Gunner FRV",
+      "url": "https://helldivers.wiki.gg/wiki/M-102_Gunner_FRV",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": "hangar",
+    "kind": "vehicle",
+    "traitIds": [
+      "vehicle",
+      "heavy-armor-penetrating"
+    ],
+    "code": [
+      "left",
+      "down",
+      "right",
+      "down",
+      "right",
+      "down",
+      "up"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": 25,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "12.5mm BCHP RIFLE ROUNDS P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 52,
+          "initialVelocityMps": 980,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 15,
+          "stagger": 25,
+          "push": 20
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Vehicle • Heavy Armor Penetrating",
+      "Base Cooldown": "480s",
+      "Unlock Level": "25",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "GUNNER FRV › Cooldown": "480 s",
+      "GUNNER FRV › Uses": "∞",
+      "GUNNER FRV › Main Health": "2400",
+      "GUNNER FRV › Main Armor": "Medium",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Fire Rate": "600 rpm",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Recoil": "20.5",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Horizontal Recoil": "11",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Vertical Recoil": "30",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Spread": "↔[5.00] ↕[5.00]",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Sway": "1",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Ergonomics": "30",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Capacity": "100",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Spare Magazines": "4",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › 12.5mm BCHP RIFLE ROUNDS P": "Projectile",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Mass": "52 g",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Initial Velocity": "980 m/s",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Drag Factor": "30%",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Gravity Factor": "100%",
+      "12.5mm BCHP RIFLE ROUNDS P › Projectile › Penetration Slowdown": "25%",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › Standard": "150 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › vs. Durable": "35 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Direct": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Slight Angle": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Large Angle": "Heavy",
+      "12.5mm BCHP RIFLE ROUNDS P › Penetration › Extreme Angle": "Unarmored",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Demolition Force": "15",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Stagger Force": "25",
+      "12.5mm BCHP RIFLE ROUNDS P › Special Effects › Push Force": "20"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Hangar",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 25000
+      },
+      "rotating": null
+    }
+  }
+}

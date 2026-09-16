@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sssd-delivery",
+    "slug": "sssd-delivery",
+    "name": "SSSD Delivery",
+    "aliases": [],
+    "description": "The SSSD Delivery Stratagem allows Helldivers to call down a Hellpod containing an SSSD Hard Drive. Described as the peak of secure data storage, these drives are used by Helldivers for everything from transfer of patriotic data to the sabotage of enemy mainframes.",
+    "image": null,
+    "wiki": {
+      "title": "SSSD Delivery",
+      "url": "https://helldivers.wiki.gg/wiki/SSSD_Delivery",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "objective",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "down",
+      "down",
+      "down",
+      "down",
+      "down",
+      "up",
+      "up"
+    ],
+    "cooldownS": 0,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 0
+      }
+    ],
+    "callInTimeS": 4,
+    "callInTimeUpgradedS": null,
+    "uses": 1,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "0s",
+      "General › Call-in Time": "4 seconds",
+      "General › Uses": "1",
+      "General › Cooldown › Standard": "0 seconds",
+      "General › Cooldown › With Morale Augmentation": "0 seconds"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

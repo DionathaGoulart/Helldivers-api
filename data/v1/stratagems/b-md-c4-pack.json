@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "b-md-c4-pack",
+    "slug": "b-md-c4-pack",
+    "name": "B/MD C4 Pack",
+    "aliases": [],
+    "description": "The B/MD C4 Pack is a Support Weapon Stratagem backpack filled with bricks of C4 that can be remotely detonated sequentially or all at once.",
+    "image": null,
+    "wiki": {
+      "title": "B/MD C4 Pack",
+      "url": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "support_weapon",
+    "traitIds": [
+      "support-weapon",
+      "backpack",
+      "anti-tank",
+      "sticky"
+    ],
+    "code": [
+      "down",
+      "right",
+      "up",
+      "up",
+      "right",
+      "up"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 9.75,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Streamlined Request Process",
+        "effect": "Decreases Support Weapon stratagem cooldown by 10%."
+      },
+      {
+        "department": "patriotic_administration_center",
+        "module": "Superior Packing Methodology",
+        "effect": "Resupply stratagem boxes refill Support Weapons with the maximum number of carriable magazines."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Streamlined Launch Process",
+        "effect": "All Support Weapons launch immediately once called in, reducing overall deployment time."
+      }
+    ],
+    "supportWeapon": {
+      "firingModes": [
+        "other"
+      ],
+      "fireRateRpm": [],
+      "dps": [],
+      "capacity": 1,
+      "spareMagazines": 6,
+      "startingMagazines": 1,
+      "magazinesFromSupply": 1,
+      "magazinesFromAmmoBox": 1,
+      "recoil": null,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
+      "spread": null,
+      "sway": null,
+      "ergonomics": null,
+      "reloadKind": "magazine",
+      "reloadTimeS": 1.1,
+      "reloadTimeUpgradedS": 1,
+      "tacticalReloadTimeS": null
+    },
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "B/MD C4 PACK E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 2000,
+          "durable": 2000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": "anti_tank_iii"
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 7,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 30,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Support Weapon • Backpack • Anti-Tank • Sticky",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Weapon Type": "Anti-Tank",
+      "Firing Modes": "Deploy • Detonate",
+      "Standard Damage": "2000 Explosion",
+      "Armor Penetration": "Anti-Tank III",
+      "Capacity": "1",
+      "Spare Rounds": "6",
+      "Supply Box Refill": "3",
+      "Ammo Box Refill": "1",
+      "Reload Time": "1.1s / 1s (Upgraded)",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "B/MD C4 Pack › Main Health": "10",
+      "B/MD C4 Pack › Main Armor": "Unarmored",
+      "B/MD C4 Pack › Mags from Supply": "1",
+      "B/MD C4 Pack › Mags from Ammo Box": "1",
+      "B/MD C4 Pack › Max Rounds": "1",
+      "B/MD C4 Pack › Starting Rounds": "1",
+      "B/MD C4 Pack › Attacks › B/MD C4 PACK E": "Explosion",
+      "B/MD C4 PACK E › Area of Effect › Inner Radius": "3 m",
+      "B/MD C4 PACK E › Area of Effect › Outer Radius": "7 m",
+      "B/MD C4 PACK E › Area of Effect › Shockwave Radius": "8 m",
+      "B/MD C4 PACK E › Damage › Damage Element": "None",
+      "B/MD C4 PACK E › Damage › Inner Radius": "2000 Explosion",
+      "B/MD C4 PACK E › Damage › Inner Durable": "2000 Explosion",
+      "B/MD C4 PACK E › Damage › Outer Radius": "1999 - 0",
+      "B/MD C4 PACK E › Damage › Outer Durable": "1999 - 0",
+      "B/MD C4 PACK E › Penetration › Direct": "Anti-Tank III",
+      "B/MD C4 PACK E › Penetration › Slight Angle": "Anti-Tank III",
+      "B/MD C4 PACK E › Penetration › Large Angle": "Anti-Tank III",
+      "B/MD C4 PACK E › Penetration › Extreme Angle": "Anti-Tank III",
+      "B/MD C4 PACK E › AoE Effect › Demolition Force": "40",
+      "B/MD C4 PACK E › AoE Effect › Stagger Force": "30",
+      "B/MD C4 PACK E › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P3",
+      "warbondId": "redacted-regiment",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 110
+      },
+      "rotating": null
+    }
+  }
+}

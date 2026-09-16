@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "orbital-illumination-flare",
+    "slug": "orbital-illumination-flare",
+    "name": "Orbital Illumination Flare",
+    "aliases": [],
+    "description": "The Orbital Illumination Flare is a deprecated Stratagem that was never able to be used in-game.",
+    "image": null,
+    "wiki": {
+      "title": "Orbital Illumination Flare",
+      "url": "https://helldivers.wiki.gg/wiki/Orbital_Illumination_Flare",
+      "flags": []
+    },
+    "permitType": "mission",
+    "availability": "unavailable",
+    "category": null,
+    "kind": "mission",
+    "traitIds": [],
+    "code": [
+      "right",
+      "right",
+      "left",
+      "left"
+    ],
+    "cooldownS": null,
+    "cooldownVariants": [],
+    "callInTimeS": null,
+    "callInTimeUpgradedS": null,
+    "uses": null,
+    "unlockLevel": null,
+    "shipModules": [],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Base Cooldown": "N/A"
+    },
+    "source": {
+      "type": "other",
+      "label": "",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

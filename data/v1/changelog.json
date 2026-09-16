@@ -1,15 +1,796 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.fe2c0e0d",
-    "generatedAt": "2026-09-16T13:37:00Z",
-    "count": 3,
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "count": 4,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-16.d45c8501",
+      "date": "2026-09-16",
+      "summary": {
+        "added": 114,
+        "changed": 25,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "40-k-meltagun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-ac-8-autocannon-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-arc-3-tesla-tower",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-flam-40-flame-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-g-16-gatling-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-gm-17-gas-mortar-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-las-98-laser-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-12-mortar-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-23-ems-mortar-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mg-43-machine-gun-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mls-4x-rocket-sentry",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ac-8-autocannon",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "activate-e-711-extraction-drill",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "apw-1-anti-materiel-rifle",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "aquifer-drill",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "arc-3-arc-thrower",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-ar-23-guard-dog",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-arc-3-k-9",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-flam-75-hot-dog",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-las-5-rover",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-tx-13-dog-breath",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-1-supply-pack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-100-portable-hellbomb",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-flam-80-cremator",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-md-c4-pack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "call-in-super-destroyer",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "cargo-container",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-1-one-true-flag",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-20-breaching-hammer",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-9-defoliation-tool",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "dark-fluid-vessel",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-at-12-anti-tank-emplacement",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-gl-21-grenadier-battlement",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-mg-101-hmg-emplacement",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-110mm-rocket-pods",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-500kg-bomb",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-airstrike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-cluster-bomb",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-gas-airstrike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-napalm-airstrike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-rearm",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-smoke-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-strafing-run",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-17-expendable-anti-tank",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-411-leveller",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-700-expendable-napalm",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-45-patriot-exosuit",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-49-emancipator-exosuit",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-51-lumberer-exosuit",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-55-breakthrough-exosuit",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "faf-14-spear",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "flam-40-flamethrower",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "fx-12-shield-generator-relay",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-21-grenade-launcher",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-28-belt-fed-grenade-launcher",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-52-de-escalator",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "gr-8-recoilless-rifle",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "hive-breaker-drill",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-98-laser-cannon",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-99-quasar-cannon",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-182-warp-pack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-850-jump-pack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-860-hover-pack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-1000-maxigun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-102-gunner-frv",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-103-supply-frv",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-104-incinerator-frv",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-105-stalwart",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-17-anti-tank-mines",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-6-anti-personnel-minefield",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-8-gas-mines",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-i4-incendiary-mines",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "mg-206-heavy-machine-gun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "mg-43-machine-gun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "mgx-42-bullet-storm",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "mls-4x-commando",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "ms-11-solo-silo",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "nux-223-hellbomb",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-120mm-he-barrage",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-380mm-he-barrage",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-airburst-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-ems-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gas-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gatling-barrage",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-illumination-flare",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-laser",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-napalm-barrage",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-precision-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-railcannon-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-smoke-strike",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-walking-barrage",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "plas-45-epoch",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "portable-comms-relay",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "prospecting-drill",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "reinforce",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "reinforcement-pods",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "resupply",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "rs-422-railgun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "s-11-speargun",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "seaf-artillery",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "seismic-probe",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-20-ballistic-shield-backpack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-32-shield-generator-pack",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-51-directional-shield",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "sos-beacon",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "sssd-delivery",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "sta-x3-wasp-launcher",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "super-earth-flag",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "tactical-video-camera",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-220-bastion-mk-xvi",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "tectonic-drill",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "tx-41-sterilizer",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "upload-data",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "anti-tank",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "arc",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "backpack",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "beam",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "caustic",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "chargeup",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "eagle",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "expendable",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "explosive",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "guided",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heat",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heavy-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "hellpod",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "incendiary",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "light-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "medium-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "melee",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "one-handed",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "orbital",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sentry",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stationary-reload",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sticky",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stun",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "support-weapon",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "vehicle",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-16.fe2c0e0d",
       "date": "2026-09-16",

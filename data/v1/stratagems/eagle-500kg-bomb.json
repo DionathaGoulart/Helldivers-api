@@ -1,0 +1,247 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eagle-500kg-bomb",
+    "slug": "eagle-500kg-bomb",
+    "name": "Eagle 500kg Bomb",
+    "aliases": [],
+    "description": "The Eagle 500kg Bomb, also known as the 500kg, is an offensive stratagem which drops an anti-tank bomb that embeds itself in the ground before exploding.",
+    "image": null,
+    "wiki": {
+      "title": "Eagle 500kg Bomb",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle_500kg_Bomb",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": "hangar",
+    "kind": "eagle",
+    "traitIds": [
+      "explosive",
+      "eagle",
+      "anti-tank"
+    ],
+    "code": [
+      "up",
+      "right",
+      "down",
+      "down",
+      "down"
+    ],
+    "cooldownS": 15,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 14.25
+      },
+      {
+        "label": "With Liquid-Ventilated Cockpit",
+        "seconds": 7.5
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 6.75
+      }
+    ],
+    "callInTimeS": 3.45,
+    "callInTimeUpgradedS": null,
+    "uses": 1,
+    "unlockLevel": 15,
+    "shipModules": [
+      {
+        "department": "hangar",
+        "module": "Liquid-Ventilated Cockpit",
+        "effect": "Eagle stratagem cooldown reduced by 50%."
+      },
+      {
+        "department": "hangar",
+        "module": "Pit Crew Hazard Pay",
+        "effect": "Reduces Eagle Rearm time by 20%."
+      },
+      {
+        "department": "hangar",
+        "module": "Expanded Weapons Bay",
+        "effect": "Increases the number of Eagle stratagem uses per Rearm by 1."
+      },
+      {
+        "department": "hangar",
+        "module": "Advanced Crew Training",
+        "effect": "Eagle Rearm further reduced by 10% if called in while Eagle uses still remain."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "500kg BOMB P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 2000,
+          "durable": 2000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": "anti_tank_iii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 500,
+          "initialVelocityMps": 500,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
+          "stagger": 20,
+          "push": 15
+        }
+      },
+      {
+        "name": "500kg BOMB P E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 10,
+          "outerRadiusM": 25,
+          "shockwaveRadiusM": 35
+        },
+        "forces": {
+          "demolition": 50,
+          "stagger": 100,
+          "push": 40
+        }
+      },
+      {
+        "name": "500kg BOMB P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 3,
+          "shockwaveRadiusM": 6
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 10,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Offense",
+      "Traits": "Explosive • Eagle • Anti-Tank",
+      "Base Cooldown": "15s",
+      "Unlock Level": "15",
+      "General › Call-in Time": "3.45 seconds",
+      "General › Rearm Time › Standard": "150 seconds",
+      "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+      "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+      "General › Uses › Standard": "1",
+      "General › Uses › Upgraded": "2",
+      "General › Cooldown › Standard": "15 seconds",
+      "General › Cooldown › With Morale Augmentation": "14.25 seconds",
+      "General › Cooldown › With Liquid-Ventilated Cockpit": "7.5 seconds",
+      "General › Cooldown › With All Upgrades": "6.75 seconds",
+      "Eagle 500kg Bomb › Cooldown": "15 s",
+      "Eagle 500kg Bomb › Uses": "1",
+      "Eagle 500kg Bomb › Main Health": "100",
+      "Eagle 500kg Bomb › Main Armor": "Unarmored",
+      "Eagle 500kg Bomb › Attacks › 500kg BOMB P": "Projectile",
+      "Eagle 500kg Bomb › Attacks › 500kg BOMB P E": "Explosion",
+      "Eagle 500kg Bomb › Attacks › 500kg BOMB P IE": "Explosion",
+      "500kg BOMB P › Projectile › Mass": "500 g",
+      "500kg BOMB P › Projectile › Initial Velocity": "500 m/s",
+      "500kg BOMB P › Projectile › Drag Factor": "50%",
+      "500kg BOMB P › Projectile › Gravity Factor": "100%",
+      "500kg BOMB P › Projectile › Penetration Slowdown": "25%",
+      "500kg BOMB P › Projectile › Explosion On Impact": "500kg BOMB_P_IE",
+      "500kg BOMB P › Projectile › Explode After": "500kg BOMB_P_E",
+      "500kg BOMB P › Damage › Standard": "2000 Ballistic",
+      "500kg BOMB P › Damage › vs. Durable": "2000 Ballistic",
+      "500kg BOMB P › Penetration › Direct": "Anti-Tank III",
+      "500kg BOMB P › Penetration › Slight Angle": "Anti-Tank III",
+      "500kg BOMB P › Penetration › Large Angle": "Anti-Tank III",
+      "500kg BOMB P › Penetration › Extreme Angle": "Anti-Tank III",
+      "500kg BOMB P › Special Effects › Demolition Force": "50",
+      "500kg BOMB P › Special Effects › Stagger Force": "20",
+      "500kg BOMB P › Special Effects › Push Force": "15",
+      "500kg BOMB P E › Area of Effect › Inner Radius": "10 m",
+      "500kg BOMB P E › Area of Effect › Outer Radius": "25 m",
+      "500kg BOMB P E › Area of Effect › Shockwave Radius": "35 m",
+      "500kg BOMB P E › Damage › Damage Element": "None",
+      "500kg BOMB P E › Damage › Inner Radius": "1500 Explosion",
+      "500kg BOMB P E › Damage › Inner Durable": "1500 Explosion",
+      "500kg BOMB P E › Damage › Outer Radius": "1499 - 0",
+      "500kg BOMB P E › Damage › Outer Durable": "1499 - 0",
+      "500kg BOMB P E › Penetration › Direct": "Anti-Tank II",
+      "500kg BOMB P E › AoE Effect › Demolition Force": "50",
+      "500kg BOMB P E › AoE Effect › Stagger Force": "100",
+      "500kg BOMB P E › AoE Effect › Push Force": "40",
+      "500kg BOMB P IE › Area of Effect › Inner Radius": "1 m",
+      "500kg BOMB P IE › Area of Effect › Outer Radius": "3 m",
+      "500kg BOMB P IE › Area of Effect › Shockwave Radius": "6 m",
+      "500kg BOMB P IE › Damage › Damage Element": "None",
+      "500kg BOMB P IE › Damage › Inner Radius": "100 Explosion",
+      "500kg BOMB P IE › Damage › Inner Durable": "100 Explosion",
+      "500kg BOMB P IE › Damage › Outer Radius": "99 - 0",
+      "500kg BOMB P IE › Damage › Outer Durable": "99 - 0",
+      "500kg BOMB P IE › Penetration › Direct": "Medium",
+      "500kg BOMB P IE › AoE Effect › Demolition Force": "40",
+      "500kg BOMB P IE › AoE Effect › Stagger Force": "10",
+      "500kg BOMB P IE › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Hangar",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 10000
+      },
+      "rotating": null
+    }
+  }
+}

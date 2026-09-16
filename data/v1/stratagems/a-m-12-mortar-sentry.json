@@ -1,0 +1,239 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "a-m-12-mortar-sentry",
+    "slug": "a-m-12-mortar-sentry",
+    "name": "A/M-12 Mortar Sentry",
+    "aliases": [],
+    "description": "The A/M-12 Mortar Sentry is a very powerful defensive stratagem able to destroy enemies from range, and behind cover.",
+    "image": null,
+    "wiki": {
+      "title": "A/M-12 Mortar Sentry",
+      "url": "https://helldivers.wiki.gg/wiki/A/M-12_Mortar_Sentry",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "defensive",
+    "availability": "loadout",
+    "category": "robotics_workshop",
+    "kind": "sentry",
+    "traitIds": [
+      "hellpod",
+      "explosive",
+      "sentry",
+      "medium-armor-penetrating"
+    ],
+    "code": [
+      "down",
+      "up",
+      "right",
+      "right",
+      "down"
+    ],
+    "cooldownS": 180,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 171
+      },
+      {
+        "label": "With Synthetic Supplementation",
+        "seconds": 162
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 153.9
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
+    "unlockLevel": 8,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Synthetic Supplementation",
+        "effect": "Reduces cooldown time for Sentry stratagems by 10%."
+      },
+      {
+        "department": "engineering_bay",
+        "module": "Advanced Construction",
+        "effect": "Increases the health of the Sentry stratagems by 50%."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Dynamic Tracking",
+        "effect": "Removes deployment time for Sentry stratagems."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Shock Absorption Gel",
+        "effect": "Increases ammo for all Sentry stratagems by 50%."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "High-Quality Lubricant",
+        "effect": "Increases the rotation speed of the Sentry stratagems."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Blast Absorption",
+        "effect": "Sentries takes 50% less damage from explosions."
+      },
+      {
+        "department": "robotics_workshop",
+        "module": "Cross-Platform Compatibility",
+        "effect": "Mortar Sentries prioritize fire at marked targets."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [
+      {
+        "name": "40mm HE MORTAR P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 20,
+          "durable": 2,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "unarmored",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 25,
+          "gravityFactorPct": 600,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "40mm HE MORTAR P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 400,
+          "durable": 400,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 9,
+          "shockwaveRadiusM": 13
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 35,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Defensive",
+      "Traits": "Hellpod • Explosive • Sentry • Medium Armor Penetrating",
+      "Base Cooldown": "180s",
+      "Unlock Level": "8",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "180 seconds",
+      "General › Cooldown › With Morale Augmentation": "171 seconds",
+      "General › Cooldown › With Synthetic Supplementation": "162 seconds",
+      "General › Cooldown › With All Upgrades": "153.9 seconds",
+      "Sentry › Fire Rate": "~32 RPM",
+      "Sentry › Ammo › Standard": "36",
+      "Sentry › Ammo › Upgraded": "54",
+      "Sentry › Health › Standard": "400",
+      "Sentry › Health › Upgraded": "600",
+      "Mortar Sentry › Cooldown": "180 s",
+      "Mortar Sentry › Uses": "∞",
+      "Mortar Sentry › Main Health": "400",
+      "Mortar Sentry › Main Armor": "Light",
+      "Mortar Sentry › Horizontal Turn Speed": "55",
+      "Mortar Sentry › Vertical Turn Speed": "55",
+      "Mortar Sentry › Lifetime": "180 sec",
+      "Mortar Sentry › Vertical Limit": "(35.00) (89.00)",
+      "Mortar Sentry › SWP MORTAR SENTRY › Main Health": "400",
+      "Mortar Sentry › SWP MORTAR SENTRY › Main Armor": "Light",
+      "Mortar Sentry › SWP MORTAR SENTRY › Fire Rate": "60 rpm",
+      "Mortar Sentry › SWP MORTAR SENTRY › Recoil": "6.25",
+      "Mortar Sentry › SWP MORTAR SENTRY › Horizontal Recoil": "2.5",
+      "Mortar Sentry › SWP MORTAR SENTRY › Vertical Recoil": "10",
+      "Mortar Sentry › SWP MORTAR SENTRY › Spread": "↔[50.00] ↕[100.00]",
+      "Mortar Sentry › SWP MORTAR SENTRY › Sway": "1",
+      "Mortar Sentry › SWP MORTAR SENTRY › Ergonomics": "65",
+      "Mortar Sentry › SWP MORTAR SENTRY › Capacity": "36",
+      "Mortar Sentry › SWP MORTAR SENTRY › 40mm HE MORTAR P": "Projectile",
+      "Mortar Sentry › SWP MORTAR SENTRY › 40mm HE MORTAR P IE": "Explosion",
+      "40mm HE MORTAR P › Projectile › Mass": "70 kg",
+      "40mm HE MORTAR P › Projectile › Initial Velocity": "100 m/s",
+      "40mm HE MORTAR P › Projectile › Drag Factor": "25%",
+      "40mm HE MORTAR P › Projectile › Gravity Factor": "600%",
+      "40mm HE MORTAR P › Projectile › Penetration Slowdown": "25%",
+      "40mm HE MORTAR P › Projectile › Explosion On Impact": "40mm HE MORTAR_P_IE",
+      "40mm HE MORTAR P › Damage › Standard": "20 Damage",
+      "40mm HE MORTAR P › Damage › vs. Durable": "2 Damage",
+      "40mm HE MORTAR P › Penetration › Direct": "Unarmored",
+      "40mm HE MORTAR P › Penetration › Slight Angle": "Unarmored",
+      "40mm HE MORTAR P › Penetration › Large Angle": "Unarmored",
+      "40mm HE MORTAR P › Penetration › Extreme Angle": "Unarmored",
+      "40mm HE MORTAR P › Special Effects › Demolition Force": "10",
+      "40mm HE MORTAR P › Special Effects › Stagger Force": "30",
+      "40mm HE MORTAR P › Special Effects › Push Force": "10",
+      "40mm HE MORTAR P IE › Area of Effect › Inner Radius": "3 m",
+      "40mm HE MORTAR P IE › Area of Effect › Outer Radius": "9 m",
+      "40mm HE MORTAR P IE › Area of Effect › Shockwave Radius": "13 m",
+      "40mm HE MORTAR P IE › Damage › Damage Element": "None",
+      "40mm HE MORTAR P IE › Damage › Inner Radius": "400 Explosion",
+      "40mm HE MORTAR P IE › Damage › Inner Durable": "400 Explosion",
+      "40mm HE MORTAR P IE › Damage › Outer Radius": "399 - 0",
+      "40mm HE MORTAR P IE › Damage › Outer Durable": "399 - 0",
+      "40mm HE MORTAR P IE › Penetration › Direct": "Medium",
+      "40mm HE MORTAR P IE › AoE Effect › Demolition Force": "30",
+      "40mm HE MORTAR P IE › AoE Effect › Stagger Force": "35",
+      "40mm HE MORTAR P IE › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "requisition",
+      "label": "Robotics Workshop",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 7000
+      },
+      "rotating": null
+    }
+  }
+}

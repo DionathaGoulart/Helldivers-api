@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d45c8501",
+    "generatedAt": "2026-09-16T14:42:18Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ax-flam-75-hot-dog",
+    "slug": "ax-flam-75-hot-dog",
+    "name": "AX/FLAM-75 Hot Dog",
+    "aliases": [],
+    "description": "The AX/FLAM-75 Hot Dog is a backpack Stratagem that provides support to the player by automatically targeting enemies and setting them on fire with its mounted flamethrower.",
+    "image": null,
+    "wiki": {
+      "title": "AX/FLAM-75 Hot Dog",
+      "url": "https://helldivers.wiki.gg/wiki/AX/FLAM-75_Hot_Dog",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "backpack",
+    "traitIds": [
+      "hellpod",
+      "backpack",
+      "incendiary"
+    ],
+    "code": [
+      "down",
+      "up",
+      "left",
+      "up",
+      "left",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      },
+      {
+        "label": "With Hand Carts",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
+      }
+    ],
+    "callInTimeS": 9.75,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "patriotic_administration_center",
+        "module": "Hand Carts",
+        "effect": "Decreases cooldown for all Backpack stratagems by 10%."
+      },
+      {
+        "department": "bridge",
+        "module": "Enhanced Combustion",
+        "effect": "Fire damage from Stratagems increased by 25%."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": {
+      "health": 100,
+      "armor": "very_light",
+      "capacity": null
+    },
+    "attacks": [
+      {
+        "name": "AX/FLAM-75 HOT DOG S",
+        "kind": "spray",
+        "damage": {
+          "standard": 2,
+          "durable": 2,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 5,
+          "push": 5
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Fire Panic",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      },
+      {
+        "name": "FlamerSlowed",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Hellpod • Backpack • Incendiary",
+      "Base Cooldown": "480s",
+      "General › Call-in Time": "9.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Hand Carts": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
+      "AX/FLAM-75 HOT DOG › Main Health": "100",
+      "AX/FLAM-75 HOT DOG › Main Armor": "Very Light",
+      "AX/FLAM-75 HOT DOG › Mags from Supply": "6",
+      "AX/FLAM-75 HOT DOG › Mags from Ammo Box": "3",
+      "AX/FLAM-75 HOT DOG › Max Rounds": "6",
+      "AX/FLAM-75 HOT DOG › Starting Rounds": "6",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Recoil": "0",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Horizontal Recoil": "0",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Vertical Recoil": "0",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Spread": "↔[10.00] ↕[10.00]",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Sway": "1",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Ergonomics": "65",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Capacity": "80",
+      "AX/FLAM-75 HOT DOG › Attacks › AX/FLAM-75 HOT DOG S": "Spray",
+      "AX/FLAM-75 HOT DOG › Attacks › Fire": "status",
+      "AX/FLAM-75 HOT DOG › Attacks › Fire Panic": "status",
+      "AX/FLAM-75 HOT DOG › Attacks › FlamerSlowed": "status",
+      "AX/FLAM-75 HOT DOG S › Damage › Element": "Fire",
+      "AX/FLAM-75 HOT DOG S › Damage › Standard": "2 Fire",
+      "AX/FLAM-75 HOT DOG S › Damage › vs. Durable": "2 Fire",
+      "AX/FLAM-75 HOT DOG S › Penetration › Direct": "Heavy",
+      "AX/FLAM-75 HOT DOG S › Penetration › Slight Angle": "Heavy",
+      "AX/FLAM-75 HOT DOG S › Penetration › Large Angle": "Heavy",
+      "AX/FLAM-75 HOT DOG S › Penetration › Extreme Angle": "Unarmored",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Status": "Fire",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Status Strength": "2",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Second Status": "Fire_Panic",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Status Strength (2)": "3",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Third Status": "FlamerSlowed",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Status Strength (3)": "1",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Demolition Force": "10",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Stagger Force": "5",
+      "AX/FLAM-75 HOT DOG S › Special Effects › Push Force": "5",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0",
+      "Fire Panic › Status › Status Duration": "1 sec",
+      "FlamerSlowed › Status › Status Duration": "0.5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P1",
+      "warbondId": "python-commandos",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  }
+}
