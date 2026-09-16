@@ -11,6 +11,7 @@ import {
   readLead,
 } from "../../src/wiki/page.ts";
 import { findInSection, readSections } from "../../src/wiki/sections.ts";
+import { readCodeArrows } from "../../src/wiki/stratagem-code.ts";
 import { ownElements, readTabberPanels } from "../../src/wiki/tabber.ts";
 import { columnIndexes, readWikitable } from "../../src/wiki/wikitable.ts";
 import { article } from "../fixtures.ts";
@@ -244,5 +245,32 @@ describe("readDruid", () => {
     expect(() =>
       readDruid(loadHtml(infobox(`<div class="druid-title">X</div>${twice}${twice}`)), "page"),
     ).toThrow("duplicate row");
+  });
+
+  it("picks one of several infoboxes by container", () => {
+    const $$ = loadHtml(
+      article(
+        '<div class="druid-infobox druid-container"><div class="druid-title">Objective</div></div>' +
+          '<div class="druid-infobox druid-container druid-container-stratagem"><div class="druid-title">Link Hellpods</div></div>',
+      ),
+    );
+    expect(readDruid($$, "page", "stratagem")).toMatchObject({
+      container: "stratagem",
+      title: "Link Hellpods",
+    });
+    expect(() => readDruid($$, "page")).toThrow("expected 1 infobox, found 2");
+    expect(() => readDruid($$, "page", "armor")).toThrow("expected 1 infobox, found 0");
+  });
+});
+
+describe("readCodeArrows", () => {
+  it("reads arrow icons in order and fails on another icon", () => {
+    const arrow = (name: string) =>
+      `<span class="Stratagemcodeicon"><img alt="Stratagem Arrow ${name}.svg" src="/images/Stratagem_Arrow_${name}.svg"></span>`;
+    const $ = loadHtml(
+      `<p id="ok">${arrow("Right")}${arrow("Up")}</p><p id="bad">${arrow("Sideways Left")}</p>`,
+    );
+    expect(readCodeArrows($, $("#ok"), "page", "#ok")).toEqual(["Right", "Up"]);
+    expect(() => readCodeArrows($, $("#bad"), "page", "#bad")).toThrow(ParseError);
   });
 });

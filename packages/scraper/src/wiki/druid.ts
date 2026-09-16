@@ -27,13 +27,19 @@ export interface Druid {
   rows: ReadonlyMap<string, DruidRow>;
 }
 
-export function readDruid($: CheerioAPI, page: string): Druid {
-  const boxes = $(INFOBOX);
+/**
+ * The page's infobox. Mission objective pages add a second one for the objective itself
+ * (Reinforcement Pods, SEAF Artillery); `container` then picks `.druid-container-<container>`.
+ */
+export function readDruid($: CheerioAPI, page: string, container: string | null = null): Druid {
+  let boxes = $(INFOBOX);
+  if (boxes.length > 1 && container) {
+    boxes = boxes.filter(`.druid-container-${container}`);
+  }
   if (boxes.length !== 1) {
     throw new ParseError(page, INFOBOX, `expected 1 infobox, found ${boxes.length}`);
   }
   const box = boxes.first();
-  const container = /\bdruid-container-(\S+)/.exec(box.attr("class") ?? "")?.[1] ?? null;
   const title = textOf(box.find(".druid-title").first());
   if (!title) {
     throw new ParseError(page, `${INFOBOX} .druid-title`, "empty title");
@@ -71,7 +77,13 @@ export function readDruid($: CheerioAPI, page: string): Druid {
     });
   }
 
-  return { container, title, image: firstImage(box.find(".druid-main-image").first()), tabs, rows };
+  return {
+    container: /\bdruid-container-(\S+)/.exec(box.attr("class") ?? "")?.[1] ?? null,
+    title,
+    image: firstImage(box.find(".druid-main-image").first()),
+    tabs,
+    rows,
+  };
 }
 
 /** A row's data for one tab; rows that do not vary by tab apply to every tab. */
