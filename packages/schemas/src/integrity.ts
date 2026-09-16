@@ -199,10 +199,7 @@ export function checkIntegrity(dataset: Dataset, options: IntegrityOptions = {})
         `${field}.page`,
         `warbonds/${warbond.id} page ${source.page} does not list ${what}`,
       );
-    } else if (
-      listed.cost.currency !== source.cost?.currency ||
-      listed.cost.amount !== source.cost.amount
-    ) {
+    } else if (formatCost(listed.cost) !== formatCost(source.cost)) {
       report(
         collection,
         id,

@@ -226,6 +226,21 @@ describe("checkIntegrity", () => {
         },
       ]);
     });
+
+    it("accepts a cost not announced on either side, and only on both", () => {
+      const dataset = loadDataset();
+      const { source } = entity(dataset, "helmets", "tg-8-sharpshooter");
+      source.cost = null;
+
+      expect(checkIntegrity(dataset).map((issue) => issue.message)).toEqual([
+        "warbonds/castellans-creed page 1 lists helmets/tg-8-sharpshooter for 30 medals, source says no cost",
+      ]);
+
+      const listed = entity(dataset, "warbonds", "castellans-creed").pages[0]?.items[2];
+      if (!listed) throw new Error("missing castellans-creed page 1 item 3");
+      listed.cost = null;
+      expect(checkIntegrity(dataset)).toEqual([]);
+    });
   });
 
   describe("back-references", () => {

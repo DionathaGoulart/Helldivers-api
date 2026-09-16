@@ -25,7 +25,7 @@ export const WarbondItem = z.object({
       variant: PatternTarget.nullable(), // patterns only
     })
     .nullable(), // null = currency rows ("100 Super Credits")
-  cost: Cost, // medals; resolved value (arch §5.5)
+  cost: Cost.nullable(), // medals; resolved value (arch §5.5); null = not announced yet
 });
 
 export const Warbond = z.object({
@@ -34,8 +34,8 @@ export const Warbond = z.object({
   releaseDate: z.iso.date(),
   cost: Cost, // super_credits; 0 for standard
   superCreditsClaimable: z.number().int().nonnegative(),
-  medalsAllPages: z.number().int().nonnegative(),
-  medalsAllItems: z.number().int().nonnegative(),
+  medalsAllPages: z.number().int().nonnegative().nullable(), // null = not announced yet
+  medalsAllItems: z.number().int().nonnegative().nullable(),
   pages: z
     .array(
       z.object({
