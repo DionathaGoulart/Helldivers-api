@@ -35,6 +35,7 @@ describe("numbers", () => {
     ["~592", 592],
     ["1,029.16", 1029.16],
     ["700 (0-25% heat)", 700],
+    ["30-40", 30],
     ["N/A", null],
     ["∞", null],
   ])("decimal %j → %j", (value, expected) => {
@@ -61,6 +62,7 @@ describe("numbers", () => {
     ["90 seconds", 90],
     ["Impact", null],
     ["Proximity", null],
+    ["Unknown seconds", null],
   ])("seconds %j → %j", (value, expected) => {
     expect(parseSeconds(value, PAGE)).toBe(expected);
   });
@@ -81,6 +83,8 @@ describe("numbers", () => {
 
   it("reads measures, spread and damage", () => {
     expect(parseMeasure("4.5 g", "g", PAGE)).toBe(4.5);
+    expect(parseMeasure("30 kg", "g", PAGE)).toBe(30000);
+    expect(parseMeasure("0.07 kg", "g", PAGE)).toBe(70);
     expect(parseMeasure("900 m/s", "m/s", PAGE)).toBe(900);
     expect(parseMeasure("30%", "%", PAGE)).toBe(30);
     expect(parseMeasure("2.25 m", "m", PAGE)).toBe(2.25);
@@ -127,6 +131,8 @@ describe("enums", () => {
     ]);
     expect(parseFiringModes(["4mm • 10g"], PAGE)).toEqual(["other"]);
     expect(parseFiringModes(["Bolt-Action"], PAGE)).toEqual(["other"]);
+    expect(parseFiringModes(["Semi • Laser-guided • Dumb-Fire"], PAGE)).toEqual(["semi", "other"]);
+    expect(parseFiringModes(["Semi • HEAT • HE"], PAGE)).toEqual(["semi", "other"]);
     expect(parseFiringModes(["None"], PAGE)).toEqual([]);
     expect(() => parseFiringModes(["Laser Guided"], PAGE)).toThrow("unknown firing mode");
     expect(() => parseFiringModes(["constructor"], PAGE)).toThrow("unknown firing mode");

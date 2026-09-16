@@ -35,9 +35,9 @@ function match(value: string, pattern: string, page: string, hint: string): numb
   return parseNumber(found[1], page);
 }
 
-/** `65`, `~592`, `1,029.16`, `700 (0-25% heat)`. */
+/** `65`, `~592`, `1,029.16`, `700 (0-25% heat)`; a range such as `30-40` gives its lower bound. */
 export function parseDecimal(value: string, page: string): number | null {
-  return match(value, "", page, "not a number");
+  return match(value, String.raw`(?:\s*-\s*${NUMBER})?`, page, "not a number");
 }
 
 export const firstDecimal = (lines: readonly string[], page: string) =>
@@ -63,9 +63,9 @@ export function parseCount(value: string, page: string): number | null {
 export const firstCount = (lines: readonly string[], page: string) =>
   parseCount(first(lines), page);
 
-/** `3s`, `2.5s(40mm)`, `0.2 sec`, `90 seconds`; fuse kinds such as `Impact` give null. */
+/** `3s`, `2.5s(40mm)`, `0.2 sec`, `90 seconds`; fuse kinds (`Impact`) and `Unknown seconds` give null. */
 export function parseSeconds(value: string, page: string): number | null {
-  if (/^(?:impact|proximity)$/i.test(value)) {
+  if (/^(?:impact|proximity|unknown(?:\s+seconds)?)$/i.test(value)) {
     return null;
   }
   return match(value, String.raw`\s*(?:s|secs?|seconds?)`, page, "not a duration");
@@ -97,8 +97,13 @@ export function parseList(
   });
 }
 
-/** `4.5 g`, `900 m/s`, `30%`, `2.25 m`, `x 9`. */
+/** `4.5 g`, `30 kg` (→ 30000 g), `900 m/s`, `30%`, `2.25 m`, `x 9`. */
 export function parseMeasure(value: string, unit: "g" | "m/s" | "%" | "m" | "x", page: string) {
+  const kilograms =
+    unit === "g" ? new RegExp(String.raw`^(${NUMBER})\s*kg$`).exec(value)?.[1] : null;
+  if (kilograms) {
+    return Number((parseNumber(kilograms, page) * 1000).toFixed(6));
+  }
   if (unit === "x") {
     const count = /^x\s*(\d+)$/i.exec(value)?.[1];
     if (!count) {
@@ -157,8 +162,10 @@ export function parseYesNo(value: string, page: string): boolean | null {
   throw new NormalizeError(page, value, "expected Yes or No");
 }
 
-// Firing mode labels seen on weapon pages (2026-09-16). Actions (`Bolt-Action`), guidance
-// and ammo types (`40mm`, `10g`) are modes the enum does not name: `other`.
+// Firing mode labels seen on weapon and support weapon pages (2026-09-16). Actions
+// (`Bolt-Action`), guidance (`Laser-guided`), ammo types (`40mm`, `HEAT`, `Flak`), railgun
+// safety (`Safe`, `Unsafe`), `Artillery` and the C4 pack's `Deploy` / `Detonate` are modes the
+// enum does not name: `other`.
 const FIRING_MODES: Readonly<Record<string, FiringMode | null>> = {
   auto: "auto",
   automatic: "auto",
@@ -175,7 +182,19 @@ const FIRING_MODES: Readonly<Record<string, FiringMode | null>> = {
   "pump-action": "other",
   guided: "other",
   "non-guided": "other",
+  "laser-guided": "other",
+  "dumb-fire": "other",
   total: "other",
+  heat: "other",
+  he: "other",
+  aphet: "other",
+  flak: "other",
+  cluster: "other",
+  safe: "other",
+  unsafe: "other",
+  artillery: "other",
+  deploy: "other",
+  detonate: "other",
   none: null,
 };
 
