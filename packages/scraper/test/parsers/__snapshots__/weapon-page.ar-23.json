@@ -1,0 +1,436 @@
+{
+  "title": "AR-23 Liberator",
+  "name": "AR-23 Liberator",
+  "container": "weapon",
+  "lead": "The AR-23 Liberator is a Primary Assault Rifle, available for all Helldivers.",
+  "categories": [
+    "Potentially Outdated Pages",
+    "Weapons",
+    "Primary Weapons",
+    "Assault Rifles",
+    "Starter Loadout",
+    "Pages using DynamicPageList3 parser function",
+    "Pages with Breadcrumbs",
+    "Pages with DRUID infoboxes",
+    "Pages with navboxes"
+  ],
+  "image": {
+    "file": "AR-23_Liberator_Primary_Render.png",
+    "src": "/images/thumb/AR-23_Liberator_Primary_Render.png/600px-AR-23_Liberator_Primary_Render.png?97e7bb"
+  },
+  "infobox": [
+    {
+      "text": "Primary Weapons",
+      "lines": [
+        "Primary Weapons"
+      ],
+      "key": "weapon_category",
+      "label": "Weapon Category",
+      "links": []
+    },
+    {
+      "text": "Assault Rifles",
+      "lines": [
+        "Assault Rifles"
+      ],
+      "key": "weapon_type",
+      "label": "Weapon Type",
+      "links": []
+    },
+    {
+      "text": "Auto • Semi • Burst",
+      "lines": [
+        "Auto • Semi • Burst"
+      ],
+      "key": "firing_modes",
+      "label": "Firing Modes",
+      "links": []
+    },
+    {
+      "text": "Light Armor Penetrating",
+      "lines": [
+        "Light Armor Penetrating"
+      ],
+      "key": "weapon_traits",
+      "label": "Traits",
+      "links": [
+        {
+          "label": "Light Armor Penetrating",
+          "title": "Equipment Traits",
+          "anchor": "Light_Armor_Penetrating"
+        }
+      ]
+    },
+    {
+      "text": "90 Ballistic",
+      "lines": [
+        "90 Ballistic"
+      ],
+      "key": "damage",
+      "label": "Standard Damage",
+      "links": [
+        {
+          "label": "90 Ballistic",
+          "title": "Damage",
+          "anchor": "Damage_Types"
+        }
+      ]
+    },
+    {
+      "text": "Light",
+      "lines": [
+        "Light"
+      ],
+      "key": "penetration",
+      "label": "Armor Penetration",
+      "links": [
+        {
+          "label": "Light",
+          "title": "Damage",
+          "anchor": "Armor_Penetration_&_Armor_Values"
+        }
+      ]
+    },
+    {
+      "text": "640 rpm",
+      "lines": [
+        "640 rpm"
+      ],
+      "key": "fire_rate",
+      "label": "Fire Rate",
+      "links": []
+    },
+    {
+      "text": "960",
+      "lines": [
+        "960"
+      ],
+      "key": "dps",
+      "label": "DPS",
+      "links": []
+    },
+    {
+      "text": "45",
+      "lines": [
+        "45"
+      ],
+      "key": "capacity",
+      "label": "Capacity",
+      "links": []
+    },
+    {
+      "text": "8",
+      "lines": [
+        "8"
+      ],
+      "key": "spare_mags",
+      "label": "Spare Mags",
+      "links": []
+    },
+    {
+      "text": "65",
+      "lines": [
+        "65"
+      ],
+      "key": "ergonomics",
+      "label": "Ergonomics",
+      "links": []
+    },
+    {
+      "text": "14",
+      "lines": [
+        "14"
+      ],
+      "key": "recoil",
+      "label": "Recoil",
+      "links": []
+    },
+    {
+      "text": "3s",
+      "lines": [
+        "3s"
+      ],
+      "key": "reload_time",
+      "label": "Reload Time",
+      "links": []
+    },
+    {
+      "text": "Starter Equipment",
+      "lines": [
+        "Starter Equipment"
+      ],
+      "key": "source",
+      "label": "Source",
+      "links": []
+    }
+  ],
+  "source": {
+    "label": "Starter Equipment",
+    "link": null,
+    "pageMarker": null
+  },
+  "cost": null,
+  "procurement": [],
+  "tables": [
+    {
+      "kind": "weapon",
+      "id": null,
+      "title": "AR-23 LIBERATOR",
+      "sections": [
+        {
+          "title": null,
+          "rows": [
+            {
+              "text": "640 rpm",
+              "lines": [
+                "640 rpm"
+              ],
+              "label": "Fire Rate",
+              "target": null
+            },
+            {
+              "text": "10.5",
+              "lines": [
+                "10.5"
+              ],
+              "label": "Recoil",
+              "target": null
+            },
+            {
+              "text": "6",
+              "lines": [
+                "6"
+              ],
+              "label": "Horizontal Recoil",
+              "target": null
+            },
+            {
+              "text": "15",
+              "lines": [
+                "15"
+              ],
+              "label": "Vertical Recoil",
+              "target": null
+            },
+            {
+              "text": "↔[2.00] ↕[2.00]",
+              "lines": [
+                "↔[2.00] ↕[2.00]"
+              ],
+              "label": "Spread",
+              "target": null
+            },
+            {
+              "text": "1",
+              "lines": [
+                "1"
+              ],
+              "label": "Sway",
+              "target": null
+            },
+            {
+              "text": "65",
+              "lines": [
+                "65"
+              ],
+              "label": "Ergonomics",
+              "target": null
+            },
+            {
+              "text": "45",
+              "lines": [
+                "45"
+              ],
+              "label": "Capacity",
+              "target": null
+            },
+            {
+              "text": "8",
+              "lines": [
+                "8"
+              ],
+              "label": "Spare Magazines",
+              "target": null
+            },
+            {
+              "text": "6",
+              "lines": [
+                "6"
+              ],
+              "label": "Starting Magazines",
+              "target": null
+            },
+            {
+              "text": "8",
+              "lines": [
+                "8"
+              ],
+              "label": "Mags from Supply",
+              "target": null
+            },
+            {
+              "text": "4",
+              "lines": [
+                "4"
+              ],
+              "label": "Mags from Ammo Box",
+              "target": null
+            }
+          ]
+        },
+        {
+          "title": "Attacks",
+          "rows": [
+            {
+              "text": "Projectile",
+              "lines": [
+                "Projectile"
+              ],
+              "label": "5.5x50mm FULL METAL JACKET P",
+              "target": "55x50mm_FULL_METAL_JACKET_P"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "kind": "projectile",
+      "id": "55x50mm_FULL_METAL_JACKET_P",
+      "title": "5.5x50mm FULL METAL JACKET P",
+      "sections": [
+        {
+          "title": "Projectile",
+          "rows": [
+            {
+              "text": "4.5 g",
+              "lines": [
+                "4.5 g"
+              ],
+              "label": "Mass",
+              "target": null
+            },
+            {
+              "text": "900 m/s",
+              "lines": [
+                "900 m/s"
+              ],
+              "label": "Initial Velocity",
+              "target": null
+            },
+            {
+              "text": "30%",
+              "lines": [
+                "30%"
+              ],
+              "label": "Drag Factor",
+              "target": null
+            },
+            {
+              "text": "100%",
+              "lines": [
+                "100%"
+              ],
+              "label": "Gravity Factor",
+              "target": null
+            },
+            {
+              "text": "25%",
+              "lines": [
+                "25%"
+              ],
+              "label": "Penetration Slowdown",
+              "target": null
+            }
+          ]
+        },
+        {
+          "title": "Damage",
+          "rows": [
+            {
+              "text": "90 Ballistic",
+              "lines": [
+                "90 Ballistic"
+              ],
+              "label": "Standard",
+              "target": null
+            },
+            {
+              "text": "22 Ballistic",
+              "lines": [
+                "22 Ballistic"
+              ],
+              "label": "vs. Durable",
+              "target": null
+            }
+          ]
+        },
+        {
+          "title": "Penetration",
+          "rows": [
+            {
+              "text": "Light",
+              "lines": [
+                "Light"
+              ],
+              "label": "Direct",
+              "target": null
+            },
+            {
+              "text": "Light",
+              "lines": [
+                "Light"
+              ],
+              "label": "Slight Angle",
+              "target": null
+            },
+            {
+              "text": "Light",
+              "lines": [
+                "Light"
+              ],
+              "label": "Large Angle",
+              "target": null
+            },
+            {
+              "text": "Unarmored",
+              "lines": [
+                "Unarmored"
+              ],
+              "label": "Extreme Angle",
+              "target": null
+            }
+          ]
+        },
+        {
+          "title": "Special Effects",
+          "rows": [
+            {
+              "text": "10",
+              "lines": [
+                "10"
+              ],
+              "label": "Demolition Force",
+              "target": null
+            },
+            {
+              "text": "15",
+              "lines": [
+                "15"
+              ],
+              "label": "Stagger Force",
+              "target": null
+            },
+            {
+              "text": "10",
+              "lines": [
+                "10"
+              ],
+              "label": "Push Force",
+              "target": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

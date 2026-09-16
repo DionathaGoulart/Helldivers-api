@@ -1,0 +1,1430 @@
+[
+  {
+    "name": "AR-23 Liberator",
+    "page": {
+      "label": "AR-23 Liberator",
+      "title": "AR-23 Liberator",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-23_Liberator_Primary_Render.png",
+      "src": "/images/AR-23_Liberator_Primary_Render.png?97e7bb"
+    }
+  },
+  {
+    "name": "AR-23P Liberator Penetrator",
+    "page": {
+      "label": "AR-23P Liberator Penetrator",
+      "title": "AR-23P Liberator Penetrator",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-23P_Liberator_Penetrator_Primary_Render.png",
+      "src": "/images/AR-23P_Liberator_Penetrator_Primary_Render.png?82edd5"
+    }
+  },
+  {
+    "name": "AR-23C Liberator Concussive",
+    "page": {
+      "label": "AR-23C Liberator Concussive",
+      "title": "AR-23C Liberator Concussive",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-23C_Liberator_Concussive_Primary_Render.png",
+      "src": "/images/AR-23C_Liberator_Concussive_Primary_Render.png?71f573"
+    }
+  },
+  {
+    "name": "BR-14 Adjudicator",
+    "page": {
+      "label": "BR-14 Adjudicator",
+      "title": "BR-14 Adjudicator",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "BR-14_Adjudicator_Primary_Render.png",
+      "src": "/images/BR-14_Adjudicator_Primary_Render.png?e74a3d"
+    }
+  },
+  {
+    "name": "AR-61 Tenderizer",
+    "page": {
+      "label": "AR-61 Tenderizer",
+      "title": "AR-61 Tenderizer",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-61_Tenderizer_Primary_Render.png",
+      "src": "/images/AR-61_Tenderizer_Primary_Render.png?7278b4"
+    }
+  },
+  {
+    "name": "AR-23A Liberator Carbine",
+    "page": {
+      "label": "AR-23A Liberator Carbine",
+      "title": "AR-23A Liberator Carbine",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-23A_Liberator_Carbine_Primary_Render.png",
+      "src": "/images/AR-23A_Liberator_Carbine_Primary_Render.png?4b36e2"
+    }
+  },
+  {
+    "name": "StA-52 Assault Rifle",
+    "page": {
+      "label": "StA-52 Assault Rifle",
+      "title": "StA-52 Assault Rifle",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "StA-52_Assault_Rifle_Primary_Render.png",
+      "src": "/images/StA-52_Assault_Rifle_Primary_Render.png?94bd97"
+    }
+  },
+  {
+    "name": "AR-32 Pacifier",
+    "page": {
+      "label": "AR-32 Pacifier",
+      "title": "AR-32 Pacifier",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-32_Pacifier_Primary_Render.png",
+      "src": "/images/AR-32_Pacifier_Primary_Render.png?94e4a0"
+    }
+  },
+  {
+    "name": "MA5C Assault Rifle",
+    "page": {
+      "label": "MA5C Assault Rifle",
+      "title": "MA5C Assault Rifle",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "MA5C_Assault_Rifle_Primary_Render.png",
+      "src": "/images/MA5C_Assault_Rifle_Primary_Render.png?ed9b79"
+    }
+  },
+  {
+    "name": "AR-2 Coyote",
+    "page": {
+      "label": "AR-2 Coyote",
+      "title": "AR-2 Coyote",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-2_Coyote_Primary_Render.png",
+      "src": "/images/AR-2_Coyote_Primary_Render.png?5fee45"
+    }
+  },
+  {
+    "name": "AR/GL-21 One-Two",
+    "page": {
+      "label": "AR/GL-21 One-Two",
+      "title": "AR/GL-21 One-Two",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-GL-21_One_Two_Primary_Render.png",
+      "src": "/images/AR-GL-21_One_Two_Primary_Render.png?4bfb7d"
+    }
+  },
+  {
+    "name": "AR-59 Suppressor",
+    "page": {
+      "label": "AR-59 Suppressor",
+      "title": "AR-59 Suppressor",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-59_Suppressor_Primary_Render.png",
+      "src": "/images/AR-59_Suppressor_Primary_Render.png?1fe2a4"
+    }
+  },
+  {
+    "name": "AR-11 Arbitrator",
+    "page": {
+      "label": "AR-11 Arbitrator",
+      "title": "AR-11 Arbitrator",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Assault Rifle",
+    "image": {
+      "file": "AR-11_Arbitrator_Primary_Render.png",
+      "src": "/images/AR-11_Arbitrator_Primary_Render.png?128b20"
+    }
+  },
+  {
+    "name": "R-63 Diligence",
+    "page": {
+      "label": "R-63 Diligence",
+      "title": "R-63 Diligence",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-63_Diligence_Primary_Render.png",
+      "src": "/images/R-63_Diligence_Primary_Render.png?69ed5c"
+    }
+  },
+  {
+    "name": "R-63CS Diligence Counter Sniper",
+    "page": {
+      "label": "R-63CS Diligence Counter Sniper",
+      "title": "R-63CS Diligence Counter Sniper",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-63CS_Diligence_Counter_Sniper_Primary_Render.png",
+      "src": "/images/R-63CS_Diligence_Counter_Sniper_Primary_Render.png?3ff844"
+    }
+  },
+  {
+    "name": "R-2124 Constitution",
+    "page": {
+      "label": "R-2124 Constitution",
+      "title": "R-2124 Constitution",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-2124_Constitution_Primary_Render.png",
+      "src": "/images/R-2124_Constitution_Primary_Render.png?5afe2d"
+    }
+  },
+  {
+    "name": "R-6 Deadeye",
+    "page": {
+      "label": "R-6 Deadeye",
+      "title": "R-6 Deadeye",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-6_Deadeye_Primary_Render.png",
+      "src": "/images/R-6_Deadeye_Primary_Render.png?85d99d"
+    }
+  },
+  {
+    "name": "R-2 Amendment",
+    "page": {
+      "label": "R-2 Amendment",
+      "title": "R-2 Amendment",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-2_Amendment_Primary_Render.png",
+      "src": "/images/R-2_Amendment_Primary_Render.png?804c0c"
+    }
+  },
+  {
+    "name": "R-72 Censor",
+    "page": {
+      "label": "R-72 Censor",
+      "title": "R-72 Censor",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-72_Censor_Primary_Render.png",
+      "src": "/images/R-72_Censor_Primary_Render.png?27d671"
+    }
+  },
+  {
+    "name": "R-4 Hyena",
+    "page": {
+      "label": "R-4 Hyena",
+      "title": "R-4 Hyena",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Marksman Rifle",
+    "image": {
+      "file": "R-4_Hyena_Primary_Render.png",
+      "src": "/images/R-4_Hyena_Primary_Render.png?f84f0d"
+    }
+  },
+  {
+    "name": "MP-98 Knight",
+    "page": {
+      "label": "MP-98 Knight",
+      "title": "MP-98 Knight",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "MP-98_Knight_Primary_Render.png",
+      "src": "/images/MP-98_Knight_Primary_Render.png?4573f0"
+    }
+  },
+  {
+    "name": "SMG-37 Defender",
+    "page": {
+      "label": "SMG-37 Defender",
+      "title": "SMG-37 Defender",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "SMG-37_Defender_Primary_Render.png",
+      "src": "/images/SMG-37_Defender_Primary_Render.png?b3da92"
+    }
+  },
+  {
+    "name": "SMG-72 Pummeler",
+    "page": {
+      "label": "SMG-72 Pummeler",
+      "title": "SMG-72 Pummeler",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "SMG-72_Pummeler_Primary_Render.png",
+      "src": "/images/SMG-72_Pummeler_Primary_Render.png?2acd0e"
+    }
+  },
+  {
+    "name": "SMG-32 Reprimand",
+    "page": {
+      "label": "SMG-32 Reprimand",
+      "title": "SMG-32 Reprimand",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "SMG-32_Reprimand_Primary_Render.png",
+      "src": "/images/SMG-32_Reprimand_Primary_Render.png?19d16d"
+    }
+  },
+  {
+    "name": "StA-11 SMG",
+    "page": {
+      "label": "StA-11 SMG",
+      "title": "StA-11 SMG",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "StA-11_SMG_Primary_Render.png",
+      "src": "/images/StA-11_SMG_Primary_Render.png?bd19ee"
+    }
+  },
+  {
+    "name": "M7S SMG",
+    "page": {
+      "label": "M7S SMG",
+      "title": "M7S SMG",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "M7S_SMG_Primary_Render.png",
+      "src": "/images/M7S_SMG_Primary_Render.png?80963e"
+    }
+  },
+  {
+    "name": "SMG/FLAM-34 Stoker",
+    "page": {
+      "label": "SMG/FLAM-34 Stoker",
+      "title": "SMG/FLAM-34 Stoker",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "SMGFLAM-34_Stoker_Primary_Render.png",
+      "src": "/images/SMGFLAM-34_Stoker_Primary_Render.png?4d9973"
+    }
+  },
+  {
+    "name": "SMG-203 Gallant",
+    "page": {
+      "label": "SMG-203 Gallant",
+      "title": "SMG-203 Gallant",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Submachine Gun",
+    "image": {
+      "file": "SMG-203_Gallant_Primary_Render.png",
+      "src": "/images/SMG-203_Gallant_Primary_Render.png?2fac86"
+    }
+  },
+  {
+    "name": "SG-8 Punisher",
+    "page": {
+      "label": "SG-8 Punisher",
+      "title": "SG-8 Punisher",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-8_Punisher_Primary_Render.png",
+      "src": "/images/SG-8_Punisher_Primary_Render.png?c43067"
+    }
+  },
+  {
+    "name": "SG-225 Breaker",
+    "page": {
+      "label": "SG-225 Breaker",
+      "title": "SG-225 Breaker",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-225_Breaker_Primary_Render.png",
+      "src": "/images/SG-225_Breaker_Primary_Render.png?2c7fc4"
+    }
+  },
+  {
+    "name": "SG-8S Slugger",
+    "page": {
+      "label": "SG-8S Slugger",
+      "title": "SG-8S Slugger",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-8S_Slugger_Primary_Render.png",
+      "src": "/images/SG-8S_Slugger_Primary_Render.png?6296ba"
+    }
+  },
+  {
+    "name": "SG-225SP Breaker Spray&Pray",
+    "page": {
+      "label": "SG-225SP Breaker Spray&Pray",
+      "title": "SG-225SP Breaker Spray&Pray",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-225SP_Breaker_Spray&Pray_Primary_Render.png",
+      "src": "/images/SG-225SP_Breaker_Spray%26Pray_Primary_Render.png?e050a4"
+    }
+  },
+  {
+    "name": "SG-225IE Breaker Incendiary",
+    "page": {
+      "label": "SG-225IE Breaker Incendiary",
+      "title": "SG-225IE Breaker Incendiary",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-225IE_Breaker_Incendiary_Primary_Render.png",
+      "src": "/images/SG-225IE_Breaker_Incendiary_Primary_Render.png?29206c"
+    }
+  },
+  {
+    "name": "SG-451 Cookout",
+    "page": {
+      "label": "SG-451 Cookout",
+      "title": "SG-451 Cookout",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-451_Cookout_Primary_Render.png",
+      "src": "/images/SG-451_Cookout_Primary_Render.png?a1febd"
+    }
+  },
+  {
+    "name": "SG-20 Halt",
+    "page": {
+      "label": "SG-20 Halt",
+      "title": "SG-20 Halt",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-20_Halt_Primary_Render.png",
+      "src": "/images/SG-20_Halt_Primary_Render.png?baf775"
+    }
+  },
+  {
+    "name": "DBS-2 Double Freedom",
+    "page": {
+      "label": "DBS-2 Double Freedom",
+      "title": "DBS-2 Double Freedom",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "DBS-2_Shotgun_Primary_Render.png",
+      "src": "/images/DBS-2_Shotgun_Primary_Render.png?fd2b05"
+    }
+  },
+  {
+    "name": "M90A Shotgun",
+    "page": {
+      "label": "M90A Shotgun",
+      "title": "M90A Shotgun",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "M90A_Shotgun_Primary_Render.png",
+      "src": "/images/M90A_Shotgun_Primary_Render.png?d8aadb"
+    }
+  },
+  {
+    "name": "SG-97 Sweeper",
+    "page": {
+      "label": "SG-97 Sweeper",
+      "title": "SG-97 Sweeper",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Shotgun",
+    "image": {
+      "file": "SG-97_Shotgun_Primary_Render.png",
+      "src": "/images/SG-97_Shotgun_Primary_Render.png?255318"
+    }
+  },
+  {
+    "name": "R-36 Eruptor",
+    "page": {
+      "label": "R-36 Eruptor",
+      "title": "R-36 Eruptor",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Explosive",
+    "image": {
+      "file": "R-36_Eruptor_Primary_Render.png",
+      "src": "/images/R-36_Eruptor_Primary_Render.png?2c6f66"
+    }
+  },
+  {
+    "name": "CB-9 Exploding Crossbow",
+    "page": {
+      "label": "CB-9 Exploding Crossbow",
+      "title": "CB-9 Exploding Crossbow",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Explosive",
+    "image": {
+      "file": "CB-9_Exploding_Crossbow_Primary_Render.png",
+      "src": "/images/CB-9_Exploding_Crossbow_Primary_Render.png?1aa01f"
+    }
+  },
+  {
+    "name": "GL-15 Evictor",
+    "page": {
+      "label": "GL-15 Evictor",
+      "title": "GL-15 Evictor",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Explosive",
+    "image": {
+      "file": "GL-15_Evictor_Primary_Render.png",
+      "src": "/images/GL-15_Evictor_Primary_Render.png?30f515"
+    }
+  },
+  {
+    "name": "LAS-5 Scythe",
+    "page": {
+      "label": "LAS-5 Scythe",
+      "title": "LAS-5 Scythe",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "LAS-5_Scythe_Primary_Render.png",
+      "src": "/images/LAS-5_Scythe_Primary_Render.png?fd3c7d"
+    }
+  },
+  {
+    "name": "PLAS-1 Scorcher",
+    "page": {
+      "label": "PLAS-1 Scorcher",
+      "title": "PLAS-1 Scorcher",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "PLAS-1_Scorcher_Primary_Render.png",
+      "src": "/images/PLAS-1_Scorcher_Primary_Render.png?732708"
+    }
+  },
+  {
+    "name": "LAS-16 Sickle",
+    "page": {
+      "label": "LAS-16 Sickle",
+      "title": "LAS-16 Sickle",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "LAS-16_Sickle_Primary_Render.png",
+      "src": "/images/LAS-16_Sickle_Primary_Render.png?43d245"
+    }
+  },
+  {
+    "name": "SG-8P Punisher Plasma",
+    "page": {
+      "label": "SG-8P Punisher Plasma",
+      "title": "SG-8P Punisher Plasma",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "SG-8P_Punisher_Plasma_Primary_Render.png",
+      "src": "/images/SG-8P_Punisher_Plasma_Primary_Render.png?1c38be"
+    }
+  },
+  {
+    "name": "ARC-12 Blitzer",
+    "page": {
+      "label": "ARC-12 Blitzer",
+      "title": "ARC-12 Blitzer",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "ARC-12_Blitzer_Primary_Render.png",
+      "src": "/images/ARC-12_Blitzer_Primary_Render.png?acfea4"
+    }
+  },
+  {
+    "name": "PLAS-101 Purifier",
+    "page": {
+      "label": "PLAS-101 Purifier",
+      "title": "PLAS-101 Purifier",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "PLAS-101_Purifier_Primary_Render.png",
+      "src": "/images/PLAS-101_Purifier_Primary_Render.png?c08896"
+    }
+  },
+  {
+    "name": "PLAS-39 Accelerator Rifle",
+    "page": {
+      "label": "PLAS-39 Accelerator Rifle",
+      "title": "PLAS-39 Accelerator Rifle",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "PLAS-39_Accelerator_Rifle_Primary_Render.png",
+      "src": "/images/PLAS-39_Accelerator_Rifle_Primary_Render.png?a8ff98"
+    }
+  },
+  {
+    "name": "LAS-17 Double-Edge Sickle",
+    "page": {
+      "label": "LAS-17 Double-Edge Sickle",
+      "title": "LAS-17 Double-Edge Sickle",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "LAS-17_Double-Edge_Sickle_Primary_Render.png",
+      "src": "/images/LAS-17_Double-Edge_Sickle_Primary_Render.png?c64fae"
+    }
+  },
+  {
+    "name": "LAS-13 Trident",
+    "page": {
+      "label": "LAS-13 Trident",
+      "title": "LAS-13 Trident",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "LAS-13_Trident_Primary_Render.png",
+      "src": "/images/LAS-13_Trident_Primary_Render.png?615ace"
+    }
+  },
+  {
+    "name": "R/40-K Hot-Shot Marksman Rifle",
+    "page": {
+      "label": "R/40-K Hot-Shot Marksman Rifle",
+      "title": "R/40-K Hot-Shot Marksman Rifle",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Energy-Based",
+    "image": {
+      "file": "R-40-K_Hot-Shot_Primary_Render.png",
+      "src": "/images/R-40-K_Hot-Shot_Primary_Render.png?b312a5"
+    }
+  },
+  {
+    "name": "JAR-5 Dominator",
+    "page": {
+      "label": "JAR-5 Dominator",
+      "title": "JAR-5 Dominator",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Special",
+    "image": {
+      "file": "JAR-5_Dominator_Primary_Render.png",
+      "src": "/images/JAR-5_Dominator_Primary_Render.png?81a672"
+    }
+  },
+  {
+    "name": "FLAM-66 Torcher",
+    "page": {
+      "label": "FLAM-66 Torcher",
+      "title": "FLAM-66 Torcher",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Special",
+    "image": {
+      "file": "FLAM-66_Torcher_Primary_Render.png",
+      "src": "/images/FLAM-66_Torcher_Primary_Render.png?e719cd"
+    }
+  },
+  {
+    "name": "VG-70 Variable",
+    "page": {
+      "label": "VG-70 Variable",
+      "title": "VG-70 Variable",
+      "anchor": null
+    },
+    "category": "Primary",
+    "subcategory": "Special",
+    "image": {
+      "file": "VG-70_Variable_Primary_Render.png",
+      "src": "/images/VG-70_Variable_Primary_Render.png?8e909c"
+    }
+  },
+  {
+    "name": "P-2 Peacemaker",
+    "page": {
+      "label": "P-2 Peacemaker",
+      "title": "P-2 Peacemaker",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "P-2_Peacemaker_Secondary_Render.png",
+      "src": "/images/P-2_Peacemaker_Secondary_Render.png?946d17"
+    }
+  },
+  {
+    "name": "P-19 Redeemer",
+    "page": {
+      "label": "P-19 Redeemer",
+      "title": "P-19 Redeemer",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "P-19_Redeemer_Secondary_Render.png",
+      "src": "/images/P-19_Redeemer_Secondary_Render.png?cf1205"
+    }
+  },
+  {
+    "name": "P-4 Senator",
+    "page": {
+      "label": "P-4 Senator",
+      "title": "P-4 Senator",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "P-4_Senator_Secondary_Render.png",
+      "src": "/images/P-4_Senator_Secondary_Render.png?34d42a"
+    }
+  },
+  {
+    "name": "P-113 Verdict",
+    "page": {
+      "label": "P-113 Verdict",
+      "title": "P-113 Verdict",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "P-113_Verdict_Secondary_Render.png",
+      "src": "/images/P-113_Verdict_Secondary_Render.png?2bc2c6"
+    }
+  },
+  {
+    "name": "P-92 Warrant",
+    "page": {
+      "label": "P-92 Warrant",
+      "title": "P-92 Warrant",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "P-92_Warrant_Secondary_Render.png",
+      "src": "/images/P-92_Warrant_Secondary_Render.png?ac350b"
+    }
+  },
+  {
+    "name": "M6C/SOCOM Pistol",
+    "page": {
+      "label": "M6C/SOCOM Pistol",
+      "title": "M6C/SOCOM Pistol",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "M6C-SOCOM_Pistol_Secondary_Render.png",
+      "src": "/images/M6C-SOCOM_Pistol_Secondary_Render.png?82f58b"
+    }
+  },
+  {
+    "name": "P-69 Veto",
+    "page": {
+      "label": "P-69 Veto",
+      "title": "P-69 Veto",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Pistol",
+    "image": {
+      "file": "P-69_Veto_Secondary_Render.png",
+      "src": "/images/P-69_Veto_Secondary_Render.png?3983fe"
+    }
+  },
+  {
+    "name": "CQC-19 Stun Lance",
+    "page": {
+      "label": "CQC-19 Stun Lance",
+      "title": "CQC-19 Stun Lance",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Melee",
+    "image": {
+      "file": "CQC-19_Stun_Lance_Secondary_Render.png",
+      "src": "/images/CQC-19_Stun_Lance_Secondary_Render.png?9a9709"
+    }
+  },
+  {
+    "name": "CQC-30 Stun Baton",
+    "page": {
+      "label": "CQC-30 Stun Baton",
+      "title": "CQC-30 Stun Baton",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Melee",
+    "image": {
+      "file": "CQC-30_Stun_Baton_Secondary_Render.png",
+      "src": "/images/CQC-30_Stun_Baton_Secondary_Render.png?5b701f"
+    }
+  },
+  {
+    "name": "CQC-5 Combat Hatchet",
+    "page": {
+      "label": "CQC-5 Combat Hatchet",
+      "title": "CQC-5 Combat Hatchet",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Melee",
+    "image": {
+      "file": "CQC-5_Combat_Hatchet_Secondary_Render.png",
+      "src": "/images/CQC-5_Combat_Hatchet_Secondary_Render.png?eb83de"
+    }
+  },
+  {
+    "name": "CQC-2 Saber",
+    "page": {
+      "label": "CQC-2 Saber",
+      "title": "CQC-2 Saber",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Melee",
+    "image": {
+      "file": "CQC-2_Saber_Secondary_Render.png",
+      "src": "/images/CQC-2_Saber_Secondary_Render.png?459c5b"
+    }
+  },
+  {
+    "name": "CQC-42 Machete",
+    "page": {
+      "label": "CQC-42 Machete",
+      "title": "CQC-42 Machete",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Melee",
+    "image": {
+      "file": "CQC-42_Machete_Secondary_Render.png",
+      "src": "/images/CQC-42_Machete_Secondary_Render.png?25973a"
+    }
+  },
+  {
+    "name": "CQC-73 Entrenchment Tool",
+    "page": {
+      "label": "CQC-73 Entrenchment Tool",
+      "title": "CQC-73 Entrenchment Tool",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Melee",
+    "image": {
+      "file": "CQC-73_Entrenchment_Tool_Secondary_Render.png",
+      "src": "/images/CQC-73_Entrenchment_Tool_Secondary_Render.png?349204"
+    }
+  },
+  {
+    "name": "LAS-7 Dagger",
+    "page": {
+      "label": "LAS-7 Dagger",
+      "title": "LAS-7 Dagger",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "LAS-7_Dagger_Secondary_Render.png",
+      "src": "/images/LAS-7_Dagger_Secondary_Render.png?bcfb59"
+    }
+  },
+  {
+    "name": "GP-31 Grenade Pistol",
+    "page": {
+      "label": "GP-31 Grenade Pistol",
+      "title": "GP-31 Grenade Pistol",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "GP-31_Grenade_Pistol_Secondary_Render.png",
+      "src": "/images/GP-31_Grenade_Pistol_Secondary_Render.png?4f6aba"
+    }
+  },
+  {
+    "name": "SG-22 Bushwhacker",
+    "page": {
+      "label": "SG-22 Bushwhacker",
+      "title": "SG-22 Bushwhacker",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "SG-22_Bushwhacker_Secondary_Render.png",
+      "src": "/images/SG-22_Bushwhacker_Secondary_Render.png?96bab5"
+    }
+  },
+  {
+    "name": "P-72 Crisper",
+    "page": {
+      "label": "P-72 Crisper",
+      "title": "P-72 Crisper",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "P-72_Crisper_Secondary_Render.png",
+      "src": "/images/P-72_Crisper_Secondary_Render.png?849008"
+    }
+  },
+  {
+    "name": "P-11 Stim Pistol",
+    "page": {
+      "label": "P-11 Stim Pistol",
+      "title": "P-11 Stim Pistol",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "P-11_Stim_Pistol_Secondary_Render.png",
+      "src": "/images/P-11_Stim_Pistol_Secondary_Render.png?9d252e"
+    }
+  },
+  {
+    "name": "PLAS-15 Loyalist",
+    "page": {
+      "label": "PLAS-15 Loyalist",
+      "title": "PLAS-15 Loyalist",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "PLAS-15_Loyalist_Secondary_Render.png",
+      "src": "/images/PLAS-15_Loyalist_Secondary_Render.png?fd5d4b"
+    }
+  },
+  {
+    "name": "GP-20 Ultimatum",
+    "page": {
+      "label": "GP-20 Ultimatum",
+      "title": "GP-20 Ultimatum",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "GP-20_Ultimatum_Secondary_Render.png",
+      "src": "/images/GP-20_Ultimatum_Secondary_Render.png?3d51dc"
+    }
+  },
+  {
+    "name": "LAS-58 Talon",
+    "page": {
+      "label": "LAS-58 Talon",
+      "title": "LAS-58 Talon",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "LAS-58_Talon_Secondary_Render.png",
+      "src": "/images/LAS-58_Talon_Secondary_Render.png?8621df"
+    }
+  },
+  {
+    "name": "P-35 Re-Educator",
+    "page": {
+      "label": "P-35 Re-Educator",
+      "title": "P-35 Re-Educator",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "P-35_Re-Educator_Secondary_Render.png",
+      "src": "/images/P-35_Re-Educator_Secondary_Render.png?9ac5c7"
+    }
+  },
+  {
+    "name": "P-33 Missile Pistol",
+    "page": {
+      "label": "P-33 Missile Pistol",
+      "title": "P-33 Missile Pistol",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "P-33_Missile_Pistol_Secondary_Render.png",
+      "src": "/images/P-33_Missile_Pistol_Secondary_Render.png?a1e58d"
+    }
+  },
+  {
+    "name": "P/40-K Bolt Pistol",
+    "page": {
+      "label": "P/40-K Bolt Pistol",
+      "title": "P/40-K Bolt Pistol",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "P-40-K_Bolt_Pistol_Secondary_Render.png",
+      "src": "/images/P-40-K_Bolt_Pistol_Secondary_Render.png?b09f63"
+    }
+  },
+  {
+    "name": "P-34 Breacher",
+    "page": {
+      "label": "P-34 Breacher",
+      "title": "P-34 Breacher",
+      "anchor": null
+    },
+    "category": "Secondary",
+    "subcategory": "Special",
+    "image": {
+      "file": "P-34_Breacher_Secondary_Render.png",
+      "src": "/images/P-34_Breacher_Secondary_Render.png?afe23e"
+    }
+  },
+  {
+    "name": "G-12 High Explosive",
+    "page": {
+      "label": "G-12 High Explosive",
+      "title": "G-12 High Explosive",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Standard",
+    "image": {
+      "file": "G-12_High_Explosive_Throwable_Render.png",
+      "src": "/images/G-12_High_Explosive_Throwable_Render.png?5b3049"
+    }
+  },
+  {
+    "name": "G-6 Frag",
+    "page": {
+      "label": "G-6 Frag",
+      "title": "G-6 Frag",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Standard",
+    "image": {
+      "file": "G-6_Frag_Throwable_Render.png",
+      "src": "/images/G-6_Frag_Throwable_Render.png?3a5ba5"
+    }
+  },
+  {
+    "name": "G-10 Incendiary",
+    "page": {
+      "label": "G-10 Incendiary",
+      "title": "G-10 Incendiary",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Standard",
+    "image": {
+      "file": "G-10_Incendiary_Throwable_Render.png",
+      "src": "/images/G-10_Incendiary_Throwable_Render.png?fa03cb"
+    }
+  },
+  {
+    "name": "TED-63 Dynamite",
+    "page": {
+      "label": "TED-63 Dynamite",
+      "title": "TED-63 Dynamite",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Standard",
+    "image": {
+      "file": "TED-63_Dynamite_Throwable_Render.png",
+      "src": "/images/TED-63_Dynamite_Throwable_Render.png?e607be"
+    }
+  },
+  {
+    "name": "G-7 Pineapple",
+    "page": {
+      "label": "G-7 Pineapple",
+      "title": "G-7 Pineapple",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Standard",
+    "image": {
+      "file": "G-7_Pineapple_Throwable_Render.png",
+      "src": "/images/G-7_Pineapple_Throwable_Render.png?c70d05"
+    }
+  },
+  {
+    "name": "G-16 Impact",
+    "page": {
+      "label": "G-16 Impact",
+      "title": "G-16 Impact",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-16_Impact_Throwable_Render.png",
+      "src": "/images/G-16_Impact_Throwable_Render.png?6e6bc3"
+    }
+  },
+  {
+    "name": "G-3 Smoke",
+    "page": {
+      "label": "G-3 Smoke",
+      "title": "G-3 Smoke",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-3_Smoke_Throwable_Render.png",
+      "src": "/images/G-3_Smoke_Throwable_Render.png?4ff7f7"
+    }
+  },
+  {
+    "name": "G-23 Stun",
+    "page": {
+      "label": "G-23 Stun",
+      "title": "G-23 Stun",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-23_Stun_Throwable_Render.png",
+      "src": "/images/G-23_Stun_Throwable_Render.png?674d41"
+    }
+  },
+  {
+    "name": "G-123 Thermite",
+    "page": {
+      "label": "G-123 Thermite",
+      "title": "G-123 Thermite",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-123_Thermite_Throwable_Render.png",
+      "src": "/images/G-123_Thermite_Throwable_Render.png?1dc4e1"
+    }
+  },
+  {
+    "name": "G-13 Incendiary Impact",
+    "page": {
+      "label": "G-13 Incendiary Impact",
+      "title": "G-13 Incendiary Impact",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-13_Incendiary_Impact_Throwable_Render.png",
+      "src": "/images/G-13_Incendiary_Impact_Throwable_Render.png?103c4a"
+    }
+  },
+  {
+    "name": "K-2 Throwing Knife",
+    "page": {
+      "label": "K-2 Throwing Knife",
+      "title": "K-2 Throwing Knife",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "K-2_Throwing_Knife_Throwable_Render.png",
+      "src": "/images/K-2_Throwing_Knife_Throwable_Render.png?4b7c6a"
+    }
+  },
+  {
+    "name": "G-4 Gas",
+    "page": {
+      "label": "G-4 Gas",
+      "title": "G-4 Gas",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-4_Gas_Throwable_Render.png",
+      "src": "/images/G-4_Gas_Throwable_Render.png?5edf98"
+    }
+  },
+  {
+    "name": "G-50 Seeker",
+    "page": {
+      "label": "G-50 Seeker",
+      "title": "G-50 Seeker",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-50_Seeker_Throwable_Render.png",
+      "src": "/images/G-50_Seeker_Throwable_Render.png?1eba17"
+    }
+  },
+  {
+    "name": "G-142 Pyrotech",
+    "page": {
+      "label": "G-142 Pyrotech",
+      "title": "G-142 Pyrotech",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-142_Pyrotech_Throwable_Render.png",
+      "src": "/images/G-142_Pyrotech_Throwable_Render.png?d77fbb"
+    }
+  },
+  {
+    "name": "G-109 Urchin",
+    "page": {
+      "label": "G-109 Urchin",
+      "title": "G-109 Urchin",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-109_Urchin_Throwable_Render.png",
+      "src": "/images/G-109_Urchin_Throwable_Render.png?6556ae"
+    }
+  },
+  {
+    "name": "G-31 Arc",
+    "page": {
+      "label": "G-31 Arc",
+      "title": "G-31 Arc",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-31_ARC_Throwable_Render.png",
+      "src": "/images/G-31_ARC_Throwable_Render.png?3ad7a2"
+    }
+  },
+  {
+    "name": "TM-1 Lure Mine",
+    "page": {
+      "label": "TM-1 Lure Mine",
+      "title": "TM-1 Lure Mine",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "TM-1_Lure_Mine_Throwable_Render.png",
+      "src": "/images/TM-1_Lure_Mine_Throwable_Render.png?42e657"
+    }
+  },
+  {
+    "name": "G-89 Smokescreen",
+    "page": {
+      "label": "G-89 Smokescreen",
+      "title": "G-89 Smokescreen",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-89_Smokescreen_Throwable_Render.png",
+      "src": "/images/G-89_Smokescreen_Throwable_Render.png?bf4187"
+    }
+  },
+  {
+    "name": "G/SH-39 Shield",
+    "page": {
+      "label": "G/SH-39 Shield",
+      "title": "G/SH-39 Shield",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-SH-39_Shield_Throwable_Render.png",
+      "src": "/images/G-SH-39_Shield_Throwable_Render.png?153510"
+    }
+  },
+  {
+    "name": "G-48 Giga Grenade",
+    "page": {
+      "label": "G-48 Giga Grenade",
+      "title": "G-48 Giga Grenade",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-48_Giga_Grenade_Throwable_Render.png",
+      "src": "/images/G-48_Giga_Grenade_Throwable_Render.png?f00d38"
+    }
+  },
+  {
+    "name": "G/40-K Melta Mine",
+    "page": {
+      "label": "G/40-K Melta Mine",
+      "title": "G/40-K Melta Mine",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-40-K_Melta_Mine_Throwable_Render.png",
+      "src": "/images/G-40-K_Melta_Mine_Throwable_Render.png?6bdf5e"
+    }
+  },
+  {
+    "name": "G-60 Anti-Tank Seeker",
+    "page": {
+      "label": "G-60 Anti-Tank Seeker",
+      "title": "G-60 Anti-Tank Seeker",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-60_Anti-Tank_Seeker_Throwable_Render.png",
+      "src": "/images/G-60_Anti-Tank_Seeker_Throwable_Render.png?4cc152"
+    }
+  },
+  {
+    "name": "G-8 Immolation",
+    "page": {
+      "label": "G-8 Immolation",
+      "title": "G-8 Immolation",
+      "anchor": null
+    },
+    "category": "Throwable",
+    "subcategory": "Special",
+    "image": {
+      "file": "G-8_Immolation_Throwable_Render.png",
+      "src": "/images/G-8_Immolation_Throwable_Render.png?337e36"
+    }
+  }
+]
