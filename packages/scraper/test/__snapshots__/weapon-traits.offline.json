@@ -11,7 +11,12 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Anti-Tank",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "g-123-thermite",
+      "g-40-k-melta-mine",
+      "p-33-missile-pistol",
+      "tm-1-lure-mine"
+    ],
     "stratagemIds": []
   },
   {
@@ -26,7 +31,10 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Arc",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "arc-12-blitzer",
+      "g-31-arc"
+    ],
     "stratagemIds": []
   },
   {
@@ -56,7 +64,10 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Beam",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "las-5-scythe",
+      "las-7-dagger"
+    ],
     "stratagemIds": []
   },
   {
@@ -71,7 +82,10 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Caustic",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "g-4-gas",
+      "p-35-re-educator"
+    ],
     "stratagemIds": []
   },
   {
@@ -86,7 +100,10 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Chargeup",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "plas-101-purifier",
+      "plas-15-loyalist"
+    ],
     "stratagemIds": []
   },
   {
@@ -131,7 +148,40 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Explosive",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-gl-21-one-two",
+      "cb-9-exploding-crossbow",
+      "g-10-incendiary",
+      "g-12-high-explosive",
+      "g-13-incendiary-impact",
+      "g-142-pyrotech",
+      "g-16-impact",
+      "g-23-stun",
+      "g-3-smoke",
+      "g-31-arc",
+      "g-4-gas",
+      "g-48-giga-grenade",
+      "g-50-seeker",
+      "g-6-frag",
+      "g-60-anti-tank-seeker",
+      "g-7-pineapple",
+      "g-8-immolation",
+      "g-89-smokescreen",
+      "gl-15-evictor",
+      "gp-20-ultimatum",
+      "gp-31-grenade-pistol",
+      "p-33-missile-pistol",
+      "p-34-breacher",
+      "p-40-k-bolt-pistol",
+      "plas-1-scorcher",
+      "plas-101-purifier",
+      "plas-15-loyalist",
+      "plas-39-accelerator-rifle",
+      "r-36-eruptor",
+      "sg-8p-punisher-plasma",
+      "ted-63-dynamite",
+      "tm-1-lure-mine"
+    ],
     "stratagemIds": []
   },
   {
@@ -146,7 +196,12 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Guided",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "g-50-seeker",
+      "g-60-anti-tank-seeker",
+      "p-33-missile-pistol",
+      "p-92-warrant"
+    ],
     "stratagemIds": []
   },
   {
@@ -161,7 +216,14 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heat",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "las-13-trident",
+      "las-16-sickle",
+      "las-17-double-edge-sickle",
+      "las-5-scythe",
+      "las-58-talon",
+      "las-7-dagger"
+    ],
     "stratagemIds": []
   },
   {
@@ -176,7 +238,17 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heavy_Armor_Penetrating",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "g-12-high-explosive",
+      "g-16-impact",
+      "g-50-seeker",
+      "las-17-double-edge-sickle",
+      "p-35-re-educator",
+      "p-4-senator",
+      "p-40-k-bolt-pistol",
+      "r-36-eruptor",
+      "ted-63-dynamite"
+    ],
     "stratagemIds": []
   },
   {
@@ -206,7 +278,19 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Incendiary",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-2-coyote",
+      "flam-66-torcher",
+      "g-10-incendiary",
+      "g-13-incendiary-impact",
+      "g-142-pyrotech",
+      "g-8-immolation",
+      "p-72-crisper",
+      "r-4-hyena",
+      "sg-225ie-breaker-incendiary",
+      "sg-451-cookout",
+      "smg-flam-34-stoker"
+    ],
     "stratagemIds": []
   },
   {
@@ -221,7 +305,42 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-23-liberator",
+      "ar-23a-liberator-carbine",
+      "ar-23c-liberator-concussive",
+      "ar-59-suppressor",
+      "ar-61-tenderizer",
+      "ar-gl-21-one-two",
+      "las-13-trident",
+      "las-16-sickle",
+      "las-17-double-edge-sickle",
+      "las-5-scythe",
+      "las-7-dagger",
+      "m6c-socom-pistol",
+      "m7s-smg",
+      "m90a-shotgun",
+      "mp-98-knight",
+      "p-19-redeemer",
+      "p-2-peacemaker",
+      "plas-1-scorcher",
+      "r-2-amendment",
+      "r-63-diligence",
+      "r-72-censor",
+      "sg-20-halt",
+      "sg-22-bushwhacker",
+      "sg-225-breaker",
+      "sg-225ie-breaker-incendiary",
+      "sg-225sp-breaker-spray-pray",
+      "sg-451-cookout",
+      "sg-8-punisher",
+      "smg-37-defender",
+      "smg-72-pummeler",
+      "smg-flam-34-stoker",
+      "sta-11-smg",
+      "sta-52-assault-rifle",
+      "vg-70-variable"
+    ],
     "stratagemIds": []
   },
   {
@@ -236,7 +355,42 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Medium_Armor_Penetrating",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-2-coyote",
+      "ar-23p-liberator-penetrator",
+      "ar-32-pacifier",
+      "arc-12-blitzer",
+      "br-14-adjudicator",
+      "cqc-19-stun-lance",
+      "cqc-2-saber",
+      "cqc-30-stun-baton",
+      "cqc-42-machete",
+      "cqc-5-combat-hatchet",
+      "dbs-2-double-freedom",
+      "g-6-frag",
+      "jar-5-dominator",
+      "k-2-throwing-knife",
+      "las-17-double-edge-sickle",
+      "las-58-talon",
+      "ma5c-assault-rifle",
+      "p-113-verdict",
+      "p-33-missile-pistol",
+      "p-69-veto",
+      "p-92-warrant",
+      "plas-101-purifier",
+      "plas-15-loyalist",
+      "plas-39-accelerator-rifle",
+      "r-2124-constitution",
+      "r-4-hyena",
+      "r-40-k-hot-shot-marksman-rifle",
+      "r-6-deadeye",
+      "r-63cs-diligence-counter-sniper",
+      "sg-20-halt",
+      "sg-8s-slugger",
+      "sg-97-sweeper",
+      "smg-203-gallant",
+      "smg-32-reprimand"
+    ],
     "stratagemIds": []
   },
   {
@@ -251,7 +405,14 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Melee",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "cqc-19-stun-lance",
+      "cqc-2-saber",
+      "cqc-30-stun-baton",
+      "cqc-42-machete",
+      "cqc-5-combat-hatchet",
+      "cqc-73-entrenchment-tool"
+    ],
     "stratagemIds": []
   },
   {
@@ -266,7 +427,41 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#One_Handed",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "cb-9-exploding-crossbow",
+      "cqc-19-stun-lance",
+      "cqc-2-saber",
+      "cqc-30-stun-baton",
+      "cqc-42-machete",
+      "cqc-5-combat-hatchet",
+      "cqc-73-entrenchment-tool",
+      "gp-20-ultimatum",
+      "gp-31-grenade-pistol",
+      "las-58-talon",
+      "las-7-dagger",
+      "m6c-socom-pistol",
+      "m7s-smg",
+      "mp-98-knight",
+      "p-11-stim-pistol",
+      "p-113-verdict",
+      "p-19-redeemer",
+      "p-2-peacemaker",
+      "p-33-missile-pistol",
+      "p-34-breacher",
+      "p-35-re-educator",
+      "p-4-senator",
+      "p-40-k-bolt-pistol",
+      "p-69-veto",
+      "p-72-crisper",
+      "p-92-warrant",
+      "plas-15-loyalist",
+      "sg-22-bushwhacker",
+      "smg-203-gallant",
+      "smg-37-defender",
+      "smg-72-pummeler",
+      "smg-flam-34-stoker",
+      "sta-11-smg"
+    ],
     "stratagemIds": []
   },
   {
@@ -296,7 +491,23 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Rounds_Reload",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-11-arbitrator",
+      "dbs-2-double-freedom",
+      "gl-15-evictor",
+      "m90a-shotgun",
+      "p-11-stim-pistol",
+      "p-4-senator",
+      "p-69-veto",
+      "r-2124-constitution",
+      "r-6-deadeye",
+      "sg-20-halt",
+      "sg-22-bushwhacker",
+      "sg-451-cookout",
+      "sg-8-punisher",
+      "sg-8s-slugger",
+      "sg-97-sweeper"
+    ],
     "stratagemIds": []
   },
   {
@@ -341,7 +552,12 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Sticky",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "g-109-urchin",
+      "g-123-thermite",
+      "g-sh-39-shield",
+      "tm-1-lure-mine"
+    ],
     "stratagemIds": []
   },
   {
@@ -356,7 +572,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stimulative",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "p-11-stim-pistol"
+    ],
     "stratagemIds": []
   },
   {
@@ -371,7 +589,13 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stun",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-32-pacifier",
+      "cqc-19-stun-lance",
+      "cqc-30-stun-baton",
+      "g-109-urchin",
+      "g-23-stun"
+    ],
     "stratagemIds": []
   },
   {
@@ -401,7 +625,12 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Suppressed",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-59-suppressor",
+      "m6c-socom-pistol",
+      "m7s-smg",
+      "r-72-censor"
+    ],
     "stratagemIds": []
   },
   {

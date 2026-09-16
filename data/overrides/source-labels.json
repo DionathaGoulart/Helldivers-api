@@ -1,7 +1,9 @@
 {
   "Bridge": "requisition",
+  "Celestial Fence": "event",
   "Engineering Bay": "requisition",
   "Hangar": "requisition",
+  "Liberty Day": "event",
   "Orbital Cannons": "requisition",
   "Patriotic Administration Center": "requisition",
   "Pre-Order Bonus": "pre_order",
