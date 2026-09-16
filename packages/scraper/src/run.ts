@@ -12,6 +12,7 @@ import { checkRobots, parseRobots, RobotsChangedError } from "./http/robots.ts";
 import { linkSetParts } from "./link/armor-sets.ts";
 import { linkPassiveArmors } from "./link/passives.ts";
 import { linkCapeCards } from "./link/player-cards.ts";
+import { scrapeKeepingIds } from "./link/renames.ts";
 import { checkTraitTables, linkTraitHolders } from "./link/traits.ts";
 import { linkWarbondCosts } from "./link/warbond-items.ts";
 import type { Logger } from "./log.ts";
@@ -115,28 +116,48 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
 
     // Inputs: overrides, id lock and the dataset currently published.
     const overrides = await readOverrides(dataDir);
-    const idLock: IdLock = await readIdLock(idLockPath(dataDir));
-    const lockBefore = idLock.serialize();
+    const locked = await readIdLock(idLockPath(dataDir));
+    const lockBefore = locked.serialize();
     const current = await readCurrentDataset(join(dataDir, "v1"));
     const warbonds = new WarbondResolver({ aliases: overrides.warbondAliases });
 
-    // 2–5. Discover, fetch, parse, normalize.
-    const results: ScrapeResult[] = [];
-    let next = current.collections;
-    for (const pipeline of pipelines) {
-      logger.info("collection start", { collection: pipeline.collection });
-      const result = await pipeline.scrape({
-        source,
-        overrides,
-        idLock,
-        warbonds,
-        logger,
-        dataset: next,
-      });
-      results.push(result);
-      report.warnings.push(...result.warnings);
-      next = withCollection(next, result.collection, result.entities as never);
+    // 2–5. Discover, fetch, parse, normalize; again when a renamed page would change an id (rule 8).
+    const scrapeAll = async (idLock: IdLock) => {
+      const results: ScrapeResult[] = [];
+      let dataset = current.collections;
+      for (const pipeline of pipelines) {
+        logger.info("collection start", { collection: pipeline.collection });
+        const result = await pipeline.scrape({
+          source,
+          overrides,
+          idLock,
+          warbonds,
+          logger,
+          dataset,
+        });
+        results.push(result);
+        dataset = withCollection(dataset, result.collection, result.entities as never);
+      }
+      return { results, dataset };
+    };
+    const { output, idLock, renames } = await scrapeKeepingIds(
+      source,
+      locked.toJSON(),
+      current.collections,
+      scrapeAll,
+    );
+    const { results } = output;
+    let next = output.dataset;
+    for (const rename of renames) {
+      logger.info("id kept after a rename", { ...rename });
     }
+    report.warnings.push(
+      ...renames.map(
+        ({ collection, id, from, to }) =>
+          `${collection}/${id}: "${from}" was renamed to "${to}"; the id is kept`,
+      ),
+      ...results.flatMap((result) => result.warnings),
+    );
     // 6. Link: back-references and warbond prices (rule 1) over the merged dataset.
     const scraped = new Set(results.map((result) => result.collection));
     next = linkCapeCards(linkPassiveArmors(linkSetParts(linkTraitHolders(next))));

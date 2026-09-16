@@ -1,4 +1,14 @@
-import { copyFile, cp, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
+import {
+  copyFile,
+  cp,
+  mkdir,
+  mkdtemp,
+  readdir,
+  readFile,
+  rename,
+  rm,
+  writeFile,
+} from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join, relative } from "node:path";
 import {
@@ -43,6 +53,22 @@ class DroppingSource implements WikiSource {
       .filter((_, tr) => this.dropped.includes($(tr).children("td").eq(1).text().trim()))
       .remove();
     return { ...page, html: $.html() };
+  }
+}
+
+/** Fixture source on which one page title redirects to another fixture. */
+class RenamedSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+
+  constructor(readonly redirects: Readonly<Record<string, string>>) {}
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  page(title: string): Promise<WikiPage> {
+    return this.#inner.page(this.redirects[title] ?? title);
   }
 }
 
@@ -833,6 +859,40 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       kind: "error",
       messages: ['data/overrides/armor-sets.json: "tg-9-sharpshooter" is not an armor set'],
     });
+  });
+
+  it("keeps the published id of a renamed page", async () => {
+    await fromBaseline();
+    // Published before the wiki renamed "Hellpod Space Optimisation" to "…Optimization".
+    const [OLD, NEW] = ["hellpod-space-optimisation", "hellpod-space-optimization"];
+    const v1 = join(dataDir, "v1");
+    for (const entry of await readdir(v1, { recursive: true, withFileTypes: true })) {
+      if (entry.isFile()) {
+        const path = join(entry.parentPath, entry.name);
+        const text = await readFile(path, "utf8");
+        await writeFile(path, text.replaceAll(`"id": "${NEW}"`, `"id": "${OLD}"`));
+      }
+    }
+    await rename(join(v1, "boosters", `${NEW}.json`), join(v1, "boosters", `${OLD}.json`));
+    const lockPath = join(dataDir, "overrides", "ids.lock.json");
+    const lock = JSON.parse(await readFile(lockPath, "utf8"));
+    delete lock.boosters["Hellpod Space Optimization"];
+    lock.boosters["Hellpod Space Optimisation"] = OLD;
+    await writeFile(lockPath, JSON.stringify(lock));
+    const before = await readTree(v1);
+
+    const source = new RenamedSource({
+      "Hellpod Space Optimisation": "Hellpod Space Optimization",
+    });
+    const report = await run("2026-09-16T21:07:00Z", source, false, ["boosters"]);
+    expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
+    expect(report.warnings).toContain(
+      `boosters/${OLD}: "Hellpod Space Optimisation" was renamed to "Hellpod Space Optimization"; the id is kept`,
+    );
+    expect(await readTree(v1)).toEqual(before);
+    const locked = JSON.parse(await readFile(lockPath, "utf8")).boosters;
+    expect(locked["Hellpod Space Optimisation"]).toBe(OLD);
+    expect(locked["Hellpod Space Optimization"]).toBe(OLD);
   });
 
   it("keeps rule 1 prices on an emotes-only run", async () => {
