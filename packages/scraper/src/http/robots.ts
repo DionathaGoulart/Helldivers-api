@@ -47,11 +47,12 @@ export function parseRobots(robotsUrl: string, text: string, userAgent: string):
 }
 
 export interface PreflightOptions {
-  expectedSignals: readonly string[];
+  /** Every reviewed Content-Signal set; the page's set must equal one of them. */
+  acceptedSignals: readonly (readonly string[])[];
   plannedUrls: readonly string[];
 }
 
-/** Step 1 of the pipeline (arch §6.1): planned paths allowed and Content-Signal unchanged. */
+/** Step 1 of the pipeline (arch §6.1): planned paths allowed and Content-Signal a reviewed set. */
 export function checkRobots(policy: RobotsPolicy, options: PreflightOptions): void {
   const reasons: string[] = [];
   for (const url of options.plannedUrls) {
@@ -59,10 +60,13 @@ export function checkRobots(policy: RobotsPolicy, options: PreflightOptions): vo
       reasons.push(`${url} is disallowed`);
     }
   }
-  const expected = [...options.expectedSignals].map(normalizeContentSignal).sort();
-  if (expected.join("\n") !== policy.contentSignals.join("\n")) {
+  const accepted = options.acceptedSignals.map((set) =>
+    [...new Set(set.map(normalizeContentSignal).filter(Boolean))].sort(),
+  );
+  const actual = policy.contentSignals.join("\n");
+  if (!accepted.some((set) => set.join("\n") === actual)) {
     reasons.push(
-      `Content-Signal is ${JSON.stringify(policy.contentSignals)}, expected ${JSON.stringify(expected)}`,
+      `Content-Signal is ${JSON.stringify(policy.contentSignals)}, expected one of ${JSON.stringify(accepted)}`,
     );
   }
   if (reasons.length > 0) {

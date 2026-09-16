@@ -41,22 +41,40 @@ describe("robots", () => {
     ).toEqual(["ai-train=no,search=yes,use=reference"]);
   });
 
-  it("passes the preflight when paths are allowed and the signal is unchanged", () => {
+  const accepted = [["search=yes,ai-train=no,use=reference"], []];
+  const boosters = ["https://helldivers.wiki.gg/wiki/Boosters"];
+
+  it("passes the preflight when paths are allowed and the signal set was reviewed", () => {
     expect(() =>
-      checkRobots(policy, {
-        expectedSignals: ["search=yes,ai-train=no,use=reference"],
-        plannedUrls: ["https://helldivers.wiki.gg/wiki/Boosters"],
-      }),
+      checkRobots(policy, { acceptedSignals: accepted, plannedUrls: boosters }),
+    ).not.toThrow();
+    // The managed block that carries the signal disappeared on 2026-09-16 (arch §4.1).
+    const unsigned = parseRobots(
+      "https://helldivers.wiki.gg/robots.txt",
+      ROBOTS.replace(/^Content-Signal:.*$/m, ""),
+      UA,
+    );
+    expect(unsigned.contentSignals).toEqual([]);
+    expect(() =>
+      checkRobots(unsigned, { acceptedSignals: accepted, plannedUrls: boosters }),
     ).not.toThrow();
   });
 
-  it("fails the preflight on a disallowed path or a changed signal", () => {
+  it("fails the preflight on a disallowed path or an unreviewed signal", () => {
     const run = () =>
       checkRobots(policy, {
-        expectedSignals: ["search=yes,ai-train=yes,use=reference"],
+        acceptedSignals: [["search=yes,ai-train=yes,use=reference"], []],
         plannedUrls: ["https://helldivers.wiki.gg/index.php"],
       });
     expect(run).toThrow(RobotsChangedError);
     expect(run).toThrow(/index\.php is disallowed; Content-Signal is/);
+    const stricter = parseRobots(
+      "https://helldivers.wiki.gg/robots.txt",
+      ROBOTS.replace("use=reference", "use=reference, ai-input=no"),
+      UA,
+    );
+    expect(() =>
+      checkRobots(stricter, { acceptedSignals: accepted, plannedUrls: boosters }),
+    ).toThrow(/Content-Signal is \["ai-input=no,ai-train=no,search=yes,use=reference"\]/);
   });
 });

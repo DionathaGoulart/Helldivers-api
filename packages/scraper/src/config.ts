@@ -5,8 +5,12 @@ import { z } from "zod";
 export const DEFAULT_USER_AGENT =
   "helldivers2-api-scraper (+https://github.com/DionathaGoulart/Helldivers-api)";
 
-// robots.txt `Content-Signal` observed on 2026-09-15 (arch §4.1). A change fails the preflight.
-export const EXPECTED_CONTENT_SIGNALS: readonly string[] = ["search=yes,ai-train=no,use=reference"];
+// robots.txt `Content-Signal` sets reviewed so far (arch §4.1); any other set fails the preflight.
+// 2026-09-15: Cloudflare's managed block with the signal. 2026-09-16: block gone, no signal.
+export const ACCEPTED_CONTENT_SIGNALS: readonly (readonly string[])[] = [
+  ["search=yes,ai-train=no,use=reference"],
+  [],
+];
 
 // Workflow inputs arrive as "true" / "false", or "" on scheduled runs.
 const Flag = z

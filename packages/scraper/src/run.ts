@@ -4,7 +4,7 @@ import { validateDataset } from "@hd2/schemas";
 import { readIdLock, writeIdLock } from "@hd2/schemas/node";
 import { selectPipelines } from "./collections/index.ts";
 import type { ScrapeResult } from "./collections/types.ts";
-import { EXPECTED_CONTENT_SIGNALS } from "./config.ts";
+import { ACCEPTED_CONTENT_SIGNALS } from "./config.ts";
 import { NormalizeError, ParseError } from "./errors.ts";
 import { BlockedError } from "./http/block-detect.ts";
 import type { HttpClient } from "./http/client.ts";
@@ -98,7 +98,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       options.userAgent,
     );
     checkRobots(policy, {
-      expectedSignals: EXPECTED_CONTENT_SIGNALS,
+      acceptedSignals: ACCEPTED_CONTENT_SIGNALS,
       plannedUrls: pipelines.flatMap((pipeline) =>
         pipeline.indexPages.map((title) => wikiUrl(title)),
       ),

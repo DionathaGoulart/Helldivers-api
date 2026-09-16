@@ -3,7 +3,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { parseArgs } from "node:util";
 import { z } from "zod";
-import { EXPECTED_CONTENT_SIGNALS, ScraperEnv } from "../src/config.ts";
+import { ACCEPTED_CONTENT_SIGNALS, ScraperEnv } from "../src/config.ts";
 import { HttpCache } from "../src/http/cache.ts";
 import { HttpClient } from "../src/http/client.ts";
 import { DEFAULT_PACING } from "../src/http/queue.ts";
@@ -62,7 +62,7 @@ const policy = parseRobots(
   env.SCRAPER_USER_AGENT,
 );
 checkRobots(policy, {
-  expectedSignals: EXPECTED_CONTENT_SIGNALS,
+  acceptedSignals: ACCEPTED_CONTENT_SIGNALS,
   plannedUrls: titles.map((title) => wikiUrl(title)),
 });
 http.useRobots(policy);
