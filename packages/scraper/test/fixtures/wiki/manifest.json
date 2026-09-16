@@ -1,5 +1,82 @@
 {
   "pages": {
+    "AR-11 Arbitrator": {
+      "file": "AR-11_Arbitrator.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
+      "fetchedAt": "2026-09-16T13:17:41.964Z",
+      "lastModified": "Wed, 16 Sep 2026 05:09:48 GMT",
+      "wgRevisionId": 135587
+    },
+    "AR-2 Coyote": {
+      "file": "AR-2_Coyote.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
+      "fetchedAt": "2026-09-16T13:17:29.488Z",
+      "lastModified": "Sun, 13 Sep 2026 17:36:09 GMT",
+      "wgRevisionId": 135307
+    },
+    "AR-23 Liberator": {
+      "file": "AR-23_Liberator.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+      "fetchedAt": "2026-09-16T13:16:54.203Z",
+      "lastModified": "Fri, 04 Sep 2026 01:12:32 GMT",
+      "wgRevisionId": 133890
+    },
+    "AR-23A Liberator Carbine": {
+      "file": "AR-23A_Liberator_Carbine.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
+      "fetchedAt": "2026-09-16T13:17:15.042Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129325
+    },
+    "AR-23C Liberator Concussive": {
+      "file": "AR-23C_Liberator_Concussive.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
+      "fetchedAt": "2026-09-16T13:17:02.673Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129324
+    },
+    "AR-23P Liberator Penetrator": {
+      "file": "AR-23P_Liberator_Penetrator.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-23P_Liberator_Penetrator",
+      "fetchedAt": "2026-09-16T13:16:58.731Z",
+      "lastModified": "Sat, 29 Aug 2026 17:15:00 GMT",
+      "wgRevisionId": 132927
+    },
+    "AR-32 Pacifier": {
+      "file": "AR-32_Pacifier.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
+      "fetchedAt": "2026-09-16T13:17:21.980Z",
+      "lastModified": "Mon, 31 Aug 2026 18:34:01 GMT",
+      "wgRevisionId": 133278
+    },
+    "AR-59 Suppressor": {
+      "file": "AR-59_Suppressor.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-59_Suppressor",
+      "fetchedAt": "2026-09-16T13:17:37.844Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129791
+    },
+    "AR-61 Tenderizer": {
+      "file": "AR-61_Tenderizer.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR-61_Tenderizer",
+      "fetchedAt": "2026-09-16T13:17:10.638Z",
+      "lastModified": "Mon, 31 Aug 2026 18:01:54 GMT",
+      "wgRevisionId": 133274
+    },
+    "AR/GL-21 One-Two": {
+      "file": "AR%2FGL-21_One-Two.html",
+      "url": "https://helldivers.wiki.gg/wiki/AR/GL-21_One-Two",
+      "fetchedAt": "2026-09-16T13:17:34.114Z",
+      "lastModified": "Thu, 10 Sep 2026 17:31:29 GMT",
+      "wgRevisionId": 135017
+    },
+    "ARC-12 Blitzer": {
+      "file": "ARC-12_Blitzer.html",
+      "url": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
+      "fetchedAt": "2026-09-16T13:19:48.532Z",
+      "lastModified": "Mon, 07 Sep 2026 20:28:01 GMT",
+      "wgRevisionId": 134707
+    },
     "Armed Resupply Pods": {
       "file": "Armed_Resupply_Pods.html",
       "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
@@ -14,12 +91,75 @@
       "lastModified": "Wed, 02 Sep 2026 19:59:53 GMT",
       "wgRevisionId": 133669
     },
+    "BR-14 Adjudicator": {
+      "file": "BR-14_Adjudicator.html",
+      "url": "https://helldivers.wiki.gg/wiki/BR-14_Adjudicator",
+      "fetchedAt": "2026-09-16T13:17:07.027Z",
+      "lastModified": "Sun, 13 Sep 2026 17:43:16 GMT",
+      "wgRevisionId": 135308
+    },
     "Boosters": {
       "file": "Boosters.html",
       "url": "https://helldivers.wiki.gg/wiki/Boosters",
       "fetchedAt": "2026-09-15T15:29:11.324Z",
       "lastModified": "Tue, 15 Sep 2026 15:09:45 GMT",
       "wgRevisionId": 120428
+    },
+    "CB-9 Exploding Crossbow": {
+      "file": "CB-9_Exploding_Crossbow.html",
+      "url": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
+      "fetchedAt": "2026-09-16T13:19:25.487Z",
+      "lastModified": "Sun, 06 Sep 2026 08:28:39 GMT",
+      "wgRevisionId": 134265
+    },
+    "CQC-19 Stun Lance": {
+      "file": "CQC-19_Stun_Lance.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-19_Stun_Lance",
+      "fetchedAt": "2026-09-16T13:20:47.934Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 127322
+    },
+    "CQC-2 Saber": {
+      "file": "CQC-2_Saber.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-2_Saber",
+      "fetchedAt": "2026-09-16T13:20:59.319Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126722
+    },
+    "CQC-30 Stun Baton": {
+      "file": "CQC-30_Stun_Baton.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-30_Stun_Baton",
+      "fetchedAt": "2026-09-16T13:20:51.940Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 127321
+    },
+    "CQC-42 Machete": {
+      "file": "CQC-42_Machete.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-42_Machete",
+      "fetchedAt": "2026-09-16T13:21:03.248Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126720
+    },
+    "CQC-5 Combat Hatchet": {
+      "file": "CQC-5_Combat_Hatchet.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-5_Combat_Hatchet",
+      "fetchedAt": "2026-09-16T13:20:55.383Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 127323
+    },
+    "CQC-73 Entrenchment Tool": {
+      "file": "CQC-73_Entrenchment_Tool.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-73_Entrenchment_Tool",
+      "fetchedAt": "2026-09-16T13:21:07.011Z",
+      "lastModified": "Tue, 08 Sep 2026 20:49:59 GMT",
+      "wgRevisionId": 134813
+    },
+    "Castellan’s Creed Legendary Warbond": {
+      "file": "Castellan%E2%80%99s_Creed_Legendary_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Castellan%E2%80%99s_Creed_Legendary_Warbond",
+      "fetchedAt": "2026-09-16T13:26:30.059Z",
+      "lastModified": "Fri, 11 Sep 2026 16:54:29 GMT",
+      "wgRevisionId": 135144
     },
     "Concealed Insertion": {
       "file": "Concealed_Insertion.html",
@@ -28,12 +168,26 @@
       "lastModified": "Tue, 11 Aug 2026 04:13:48 GMT",
       "wgRevisionId": 110637
     },
+    "DBS-2 Double Freedom": {
+      "file": "DBS-2_Double_Freedom.html",
+      "url": "https://helldivers.wiki.gg/wiki/DBS-2_Double_Freedom",
+      "fetchedAt": "2026-09-16T13:19:09.676Z",
+      "lastModified": "Thu, 03 Sep 2026 20:01:07 GMT",
+      "wgRevisionId": 133864
+    },
     "Dead Sprint": {
       "file": "Dead_Sprint.html",
       "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
       "fetchedAt": "2026-09-15T15:06:31.282Z",
       "lastModified": "Fri, 04 Sep 2026 10:24:54 GMT",
       "wgRevisionId": 133905
+    },
+    "Entrenched Division Premium Warbond": {
+      "file": "Entrenched_Division_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
+      "fetchedAt": "2026-09-16T13:26:36.917Z",
+      "lastModified": "Wed, 09 Sep 2026 02:23:44 GMT",
+      "wgRevisionId": 134847
     },
     "Equipment Traits": {
       "file": "Equipment_Traits.html",
@@ -56,6 +210,13 @@
       "lastModified": "Fri, 14 Aug 2026 19:46:07 GMT",
       "wgRevisionId": 110629
     },
+    "FLAM-66 Torcher": {
+      "file": "FLAM-66_Torcher.html",
+      "url": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
+      "fetchedAt": "2026-09-16T13:20:16.689Z",
+      "lastModified": "Sun, 13 Sep 2026 20:51:01 GMT",
+      "wgRevisionId": 135338
+    },
     "Firebomb Hellpods": {
       "file": "Firebomb_Hellpods.html",
       "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
@@ -69,6 +230,167 @@
       "fetchedAt": "2026-09-15T15:06:08.613Z",
       "lastModified": "Fri, 14 Aug 2026 19:27:09 GMT",
       "wgRevisionId": 91117
+    },
+    "G-10 Incendiary": {
+      "file": "G-10_Incendiary.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-10_Incendiary",
+      "fetchedAt": "2026-09-16T13:22:05.311Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 123870
+    },
+    "G-109 Urchin": {
+      "file": "G-109_Urchin.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-109_Urchin",
+      "fetchedAt": "2026-09-16T13:22:52.985Z",
+      "lastModified": "Sat, 05 Sep 2026 07:06:39 GMT",
+      "wgRevisionId": 134064
+    },
+    "G-12 High Explosive": {
+      "file": "G-12_High_Explosive.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-12_High_Explosive",
+      "fetchedAt": "2026-09-16T13:21:56.600Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126141
+    },
+    "G-123 Thermite": {
+      "file": "G-123_Thermite.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-123_Thermite",
+      "fetchedAt": "2026-09-16T13:22:27.395Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126403
+    },
+    "G-13 Incendiary Impact": {
+      "file": "G-13_Incendiary_Impact.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-13_Incendiary_Impact",
+      "fetchedAt": "2026-09-16T13:22:31.590Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 128954
+    },
+    "G-142 Pyrotech": {
+      "file": "G-142_Pyrotech.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-142_Pyrotech",
+      "fetchedAt": "2026-09-16T13:22:48.989Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 125762
+    },
+    "G-16 Impact": {
+      "file": "G-16_Impact.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-16_Impact",
+      "fetchedAt": "2026-09-16T13:22:15.869Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126328
+    },
+    "G-23 Stun": {
+      "file": "G-23_Stun.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-23_Stun",
+      "fetchedAt": "2026-09-16T13:22:22.922Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126725
+    },
+    "G-3 Smoke": {
+      "file": "G-3_Smoke.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-3_Smoke",
+      "fetchedAt": "2026-09-16T13:22:19.263Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 120276
+    },
+    "G-31 Arc": {
+      "file": "G-31_Arc.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-31_Arc",
+      "fetchedAt": "2026-09-16T13:22:57.190Z",
+      "lastModified": "Mon, 24 Aug 2026 13:52:21 GMT",
+      "wgRevisionId": 132452
+    },
+    "G-4 Gas": {
+      "file": "G-4_Gas.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-4_Gas",
+      "fetchedAt": "2026-09-16T13:22:39.772Z",
+      "lastModified": "Sat, 05 Sep 2026 07:07:28 GMT",
+      "wgRevisionId": 134066
+    },
+    "G-48 Giga Grenade": {
+      "file": "G-48_Giga_Grenade.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-48_Giga_Grenade",
+      "fetchedAt": "2026-09-16T13:23:13.314Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129943
+    },
+    "G-50 Seeker": {
+      "file": "G-50_Seeker.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-50_Seeker",
+      "fetchedAt": "2026-09-16T13:22:44.371Z",
+      "lastModified": "Tue, 15 Sep 2026 18:37:53 GMT",
+      "wgRevisionId": 135535
+    },
+    "G-6 Frag": {
+      "file": "G-6_Frag.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-6_Frag",
+      "fetchedAt": "2026-09-16T13:22:01.024Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 126327
+    },
+    "G-60 Anti-Tank Seeker": {
+      "file": "G-60_Anti-Tank_Seeker.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-60_Anti-Tank_Seeker",
+      "fetchedAt": "2026-09-16T13:24:21.969Z",
+      "lastModified": "Wed, 16 Sep 2026 06:49:02 GMT",
+      "wgRevisionId": 135596
+    },
+    "G-7 Pineapple": {
+      "file": "G-7_Pineapple.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-7_Pineapple",
+      "fetchedAt": "2026-09-16T13:22:12.545Z",
+      "lastModified": "Sat, 05 Sep 2026 07:06:33 GMT",
+      "wgRevisionId": 134063
+    },
+    "G-8 Immolation": {
+      "file": "G-8_Immolation.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-8_Immolation",
+      "fetchedAt": "2026-09-16T13:24:26.349Z",
+      "lastModified": "Wed, 16 Sep 2026 06:36:25 GMT",
+      "wgRevisionId": 135592
+    },
+    "G-89 Smokescreen": {
+      "file": "G-89_Smokescreen.html",
+      "url": "https://helldivers.wiki.gg/wiki/G-89_Smokescreen",
+      "fetchedAt": "2026-09-16T13:23:05.272Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 120279
+    },
+    "G/40-K Melta Mine": {
+      "file": "G%2F40-K_Melta_Mine.html",
+      "url": "https://helldivers.wiki.gg/wiki/G/40-K_Melta_Mine",
+      "fetchedAt": "2026-09-16T13:24:17.447Z",
+      "lastModified": "Sun, 13 Sep 2026 21:09:27 GMT",
+      "wgRevisionId": 135340
+    },
+    "G/SH-39 Shield": {
+      "file": "G%2FSH-39_Shield.html",
+      "url": "https://helldivers.wiki.gg/wiki/G/SH-39_Shield",
+      "fetchedAt": "2026-09-16T13:23:09.897Z",
+      "lastModified": "Thu, 03 Sep 2026 16:41:28 GMT",
+      "wgRevisionId": 133828
+    },
+    "GL-15 Evictor": {
+      "file": "GL-15_Evictor.html",
+      "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
+      "fetchedAt": "2026-09-16T13:19:28.906Z",
+      "lastModified": "Wed, 16 Sep 2026 06:45:56 GMT",
+      "wgRevisionId": 135595
+    },
+    "GP-20 Ultimatum": {
+      "file": "GP-20_Ultimatum.html",
+      "url": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
+      "fetchedAt": "2026-09-16T13:21:34.559Z",
+      "lastModified": "Tue, 01 Sep 2026 14:44:03 GMT",
+      "wgRevisionId": 133409
+    },
+    "GP-31 Grenade Pistol": {
+      "file": "GP-31_Grenade_Pistol.html",
+      "url": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
+      "fetchedAt": "2026-09-16T13:21:14.419Z",
+      "lastModified": "Mon, 31 Aug 2026 21:28:28 GMT",
+      "wgRevisionId": 133318
     },
     "Helldivers Mobilize Warbond": {
       "file": "Helldivers_Mobilize_Warbond.html",
@@ -91,12 +413,110 @@
       "lastModified": "Tue, 11 Aug 2026 05:31:50 GMT",
       "wgRevisionId": 79059
     },
+    "Ironclad Democracy Premium Warbond": {
+      "file": "Ironclad_Democracy_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+      "fetchedAt": "2026-09-16T13:26:33.145Z",
+      "lastModified": "Wed, 16 Sep 2026 07:24:37 GMT",
+      "wgRevisionId": 135597
+    },
+    "JAR-5 Dominator": {
+      "file": "JAR-5_Dominator.html",
+      "url": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
+      "fetchedAt": "2026-09-16T13:20:13.242Z",
+      "lastModified": "Sun, 13 Sep 2026 18:22:09 GMT",
+      "wgRevisionId": 135324
+    },
+    "K-2 Throwing Knife": {
+      "file": "K-2_Throwing_Knife.html",
+      "url": "https://helldivers.wiki.gg/wiki/K-2_Throwing_Knife",
+      "fetchedAt": "2026-09-16T13:22:35.164Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 120451
+    },
+    "LAS-13 Trident": {
+      "file": "LAS-13_Trident.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+      "fetchedAt": "2026-09-16T13:20:05.341Z",
+      "lastModified": "Thu, 10 Sep 2026 15:16:47 GMT",
+      "wgRevisionId": 135007
+    },
+    "LAS-16 Sickle": {
+      "file": "LAS-16_Sickle.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+      "fetchedAt": "2026-09-16T13:19:41.224Z",
+      "lastModified": "Wed, 09 Sep 2026 20:52:14 GMT",
+      "wgRevisionId": 134896
+    },
+    "LAS-17 Double-Edge Sickle": {
+      "file": "LAS-17_Double-Edge_Sickle.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+      "fetchedAt": "2026-09-16T13:20:01.429Z",
+      "lastModified": "Mon, 07 Sep 2026 22:34:43 GMT",
+      "wgRevisionId": 134729
+    },
+    "LAS-5 Scythe": {
+      "file": "LAS-5_Scythe.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+      "fetchedAt": "2026-09-16T13:19:32.956Z",
+      "lastModified": "Wed, 09 Sep 2026 21:10:46 GMT",
+      "wgRevisionId": 134898
+    },
+    "LAS-58 Talon": {
+      "file": "LAS-58_Talon.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
+      "fetchedAt": "2026-09-16T13:21:38.596Z",
+      "lastModified": "Mon, 31 Aug 2026 21:10:49 GMT",
+      "wgRevisionId": 133312
+    },
+    "LAS-7 Dagger": {
+      "file": "LAS-7_Dagger.html",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
+      "fetchedAt": "2026-09-16T13:21:10.518Z",
+      "lastModified": "Wed, 09 Sep 2026 21:06:01 GMT",
+      "wgRevisionId": 134897
+    },
     "Localization Confusion": {
       "file": "Localization_Confusion.html",
       "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
       "fetchedAt": "2026-09-15T15:06:12.873Z",
       "lastModified": "Tue, 11 Aug 2026 03:59:31 GMT",
       "wgRevisionId": 110628
+    },
+    "M6C/SOCOM Pistol": {
+      "file": "M6C%2FSOCOM_Pistol.html",
+      "url": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
+      "fetchedAt": "2026-09-16T13:20:40.822Z",
+      "lastModified": "Thu, 03 Sep 2026 16:37:45 GMT",
+      "wgRevisionId": 133822
+    },
+    "M7S SMG": {
+      "file": "M7S_SMG.html",
+      "url": "https://helldivers.wiki.gg/wiki/M7S_SMG",
+      "fetchedAt": "2026-09-16T13:18:30.997Z",
+      "lastModified": "Tue, 01 Sep 2026 13:58:15 GMT",
+      "wgRevisionId": 133390
+    },
+    "M90A Shotgun": {
+      "file": "M90A_Shotgun.html",
+      "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
+      "fetchedAt": "2026-09-16T13:19:13.120Z",
+      "lastModified": "Thu, 03 Sep 2026 20:19:38 GMT",
+      "wgRevisionId": 133867
+    },
+    "MA5C Assault Rifle": {
+      "file": "MA5C_Assault_Rifle.html",
+      "url": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
+      "fetchedAt": "2026-09-16T13:17:25.893Z",
+      "lastModified": "Tue, 25 Aug 2026 21:19:20 GMT",
+      "wgRevisionId": 132636
+    },
+    "MP-98 Knight": {
+      "file": "MP-98_Knight.html",
+      "url": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
+      "fetchedAt": "2026-09-16T13:18:10.721Z",
+      "lastModified": "Thu, 10 Sep 2026 01:07:41 GMT",
+      "wgRevisionId": 134925
     },
     "Motivational Shocks": {
       "file": "Motivational_Shocks.html",
@@ -112,12 +532,292 @@
       "lastModified": "Fri, 14 Aug 2026 19:28:05 GMT",
       "wgRevisionId": 101394
     },
+    "P-11 Stim Pistol": {
+      "file": "P-11_Stim_Pistol.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol",
+      "fetchedAt": "2026-09-16T13:21:26.962Z",
+      "lastModified": "Mon, 31 Aug 2026 18:40:39 GMT",
+      "wgRevisionId": 133281
+    },
+    "P-113 Verdict": {
+      "file": "P-113_Verdict.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
+      "fetchedAt": "2026-09-16T13:20:34.225Z",
+      "lastModified": "Sun, 13 Sep 2026 18:10:18 GMT",
+      "wgRevisionId": 135322
+    },
+    "P-19 Redeemer": {
+      "file": "P-19_Redeemer.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
+      "fetchedAt": "2026-09-16T13:20:26.401Z",
+      "lastModified": "Sun, 13 Sep 2026 18:02:59 GMT",
+      "wgRevisionId": 135318
+    },
+    "P-2 Peacemaker": {
+      "file": "P-2_Peacemaker.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
+      "fetchedAt": "2026-09-16T13:20:23.115Z",
+      "lastModified": "Sat, 22 Aug 2026 22:06:41 GMT",
+      "wgRevisionId": 132079
+    },
+    "P-33 Missile Pistol": {
+      "file": "P-33_Missile_Pistol.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",
+      "fetchedAt": "2026-09-16T13:21:45.312Z",
+      "lastModified": "Sat, 12 Sep 2026 20:53:08 GMT",
+      "wgRevisionId": 135278
+    },
+    "P-34 Breacher": {
+      "file": "P-34_Breacher.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
+      "fetchedAt": "2026-09-16T13:21:52.939Z",
+      "lastModified": "Tue, 15 Sep 2026 15:15:51 GMT",
+      "wgRevisionId": 135427
+    },
+    "P-35 Re-Educator": {
+      "file": "P-35_Re-Educator.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-35_Re-Educator",
+      "fetchedAt": "2026-09-16T13:21:41.674Z",
+      "lastModified": "Thu, 03 Sep 2026 14:15:04 GMT",
+      "wgRevisionId": 133801
+    },
+    "P-4 Senator": {
+      "file": "P-4_Senator.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-4_Senator",
+      "fetchedAt": "2026-09-16T13:20:30.573Z",
+      "lastModified": "Tue, 15 Sep 2026 13:22:10 GMT",
+      "wgRevisionId": 135319
+    },
+    "P-69 Veto": {
+      "file": "P-69_Veto.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-69_Veto",
+      "fetchedAt": "2026-09-16T13:20:44.492Z",
+      "lastModified": "Mon, 31 Aug 2026 17:59:34 GMT",
+      "wgRevisionId": 133273
+    },
+    "P-72 Crisper": {
+      "file": "P-72_Crisper.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+      "fetchedAt": "2026-09-16T13:21:23.315Z",
+      "lastModified": "Sun, 13 Sep 2026 20:57:14 GMT",
+      "wgRevisionId": 135339
+    },
+    "P-92 Warrant": {
+      "file": "P-92_Warrant.html",
+      "url": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
+      "fetchedAt": "2026-09-16T13:20:37.372Z",
+      "lastModified": "Sun, 13 Sep 2026 18:18:31 GMT",
+      "wgRevisionId": 135323
+    },
+    "P/40-K Bolt Pistol": {
+      "file": "P%2F40-K_Bolt_Pistol.html",
+      "url": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+      "fetchedAt": "2026-09-16T13:21:49.558Z",
+      "lastModified": "Tue, 08 Sep 2026 07:37:53 GMT",
+      "wgRevisionId": 134787
+    },
+    "PLAS-1 Scorcher": {
+      "file": "PLAS-1_Scorcher.html",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
+      "fetchedAt": "2026-09-16T13:19:37.376Z",
+      "lastModified": "Sat, 12 Sep 2026 02:26:34 GMT",
+      "wgRevisionId": 135171
+    },
+    "PLAS-101 Purifier": {
+      "file": "PLAS-101_Purifier.html",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
+      "fetchedAt": "2026-09-16T13:19:52.496Z",
+      "lastModified": "Thu, 10 Sep 2026 17:03:41 GMT",
+      "wgRevisionId": 135016
+    },
+    "PLAS-15 Loyalist": {
+      "file": "PLAS-15_Loyalist.html",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+      "fetchedAt": "2026-09-16T13:21:30.132Z",
+      "lastModified": "Wed, 02 Sep 2026 03:28:27 GMT",
+      "wgRevisionId": 133710
+    },
+    "PLAS-39 Accelerator Rifle": {
+      "file": "PLAS-39_Accelerator_Rifle.html",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
+      "fetchedAt": "2026-09-16T13:19:57.000Z",
+      "lastModified": "Mon, 07 Sep 2026 20:18:22 GMT",
+      "wgRevisionId": 134705
+    },
+    "R-2 Amendment": {
+      "file": "R-2_Amendment.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
+      "fetchedAt": "2026-09-16T13:17:59.612Z",
+      "lastModified": "Tue, 15 Sep 2026 20:13:27 GMT",
+      "wgRevisionId": 135566
+    },
+    "R-2124 Constitution": {
+      "file": "R-2124_Constitution.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
+      "fetchedAt": "2026-09-16T13:17:52.613Z",
+      "lastModified": "Sun, 13 Sep 2026 19:04:25 GMT",
+      "wgRevisionId": 135330
+    },
+    "R-36 Eruptor": {
+      "file": "R-36_Eruptor.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
+      "fetchedAt": "2026-09-16T13:19:21.467Z",
+      "lastModified": "Thu, 10 Sep 2026 23:52:39 GMT",
+      "wgRevisionId": 135041
+    },
+    "R-4 Hyena": {
+      "file": "R-4_Hyena.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
+      "fetchedAt": "2026-09-16T13:18:06.059Z",
+      "lastModified": "Sun, 30 Aug 2026 02:40:58 GMT",
+      "wgRevisionId": 133040
+    },
+    "R-6 Deadeye": {
+      "file": "R-6_Deadeye.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
+      "fetchedAt": "2026-09-16T13:17:56.049Z",
+      "lastModified": "Mon, 31 Aug 2026 21:06:37 GMT",
+      "wgRevisionId": 133310
+    },
+    "R-63 Diligence": {
+      "file": "R-63_Diligence.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
+      "fetchedAt": "2026-09-16T13:17:45.533Z",
+      "lastModified": "Mon, 31 Aug 2026 21:21:08 GMT",
+      "wgRevisionId": 133313
+    },
+    "R-63CS Diligence Counter Sniper": {
+      "file": "R-63CS_Diligence_Counter_Sniper.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+      "fetchedAt": "2026-09-16T13:17:49.100Z",
+      "lastModified": "Mon, 31 Aug 2026 21:26:58 GMT",
+      "wgRevisionId": 133316
+    },
+    "R-72 Censor": {
+      "file": "R-72_Censor.html",
+      "url": "https://helldivers.wiki.gg/wiki/R-72_Censor",
+      "fetchedAt": "2026-09-16T13:18:02.975Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129336
+    },
+    "R/40-K Hot-Shot Marksman Rifle": {
+      "file": "R%2F40-K_Hot-Shot_Marksman_Rifle.html",
+      "url": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
+      "fetchedAt": "2026-09-16T13:20:09.041Z",
+      "lastModified": "Tue, 08 Sep 2026 08:14:45 GMT",
+      "wgRevisionId": 134790
+    },
     "Redacted Regiment Premium Warbond": {
       "file": "Redacted_Regiment_Premium_Warbond.html",
       "url": "https://helldivers.wiki.gg/wiki/Redacted_Regiment_Premium_Warbond",
       "fetchedAt": "2026-09-15T15:06:55.760Z",
       "lastModified": "Wed, 09 Sep 2026 02:22:40 GMT",
       "wgRevisionId": 134845
+    },
+    "SG-20 Halt": {
+      "file": "SG-20_Halt.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
+      "fetchedAt": "2026-09-16T13:19:06.290Z",
+      "lastModified": "Sat, 12 Sep 2026 18:23:02 GMT",
+      "wgRevisionId": 135273
+    },
+    "SG-22 Bushwhacker": {
+      "file": "SG-22_Bushwhacker.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
+      "fetchedAt": "2026-09-16T13:21:18.685Z",
+      "lastModified": "Mon, 31 Aug 2026 20:34:53 GMT",
+      "wgRevisionId": 133295
+    },
+    "SG-225 Breaker": {
+      "file": "SG-225_Breaker.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
+      "fetchedAt": "2026-09-16T13:18:46.900Z",
+      "lastModified": "Thu, 03 Sep 2026 23:58:49 GMT",
+      "wgRevisionId": 133876
+    },
+    "SG-225IE Breaker Incendiary": {
+      "file": "SG-225IE_Breaker_Incendiary.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-225IE_Breaker_Incendiary",
+      "fetchedAt": "2026-09-16T13:18:58.217Z",
+      "lastModified": "Fri, 04 Sep 2026 00:19:09 GMT",
+      "wgRevisionId": 133887
+    },
+    "SG-225SP Breaker Spray&Pray": {
+      "file": "SG-225SP_Breaker_Spray%26Pray.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
+      "fetchedAt": "2026-09-16T13:18:54.653Z",
+      "lastModified": "Fri, 04 Sep 2026 00:12:19 GMT",
+      "wgRevisionId": 133883
+    },
+    "SG-451 Cookout": {
+      "file": "SG-451_Cookout.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-451_Cookout",
+      "fetchedAt": "2026-09-16T13:19:01.808Z",
+      "lastModified": "Thu, 03 Sep 2026 17:55:48 GMT",
+      "wgRevisionId": 133854
+    },
+    "SG-8 Punisher": {
+      "file": "SG-8_Punisher.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
+      "fetchedAt": "2026-09-16T13:18:42.352Z",
+      "lastModified": "Wed, 02 Sep 2026 03:25:15 GMT",
+      "wgRevisionId": 133709
+    },
+    "SG-8P Punisher Plasma": {
+      "file": "SG-8P_Punisher_Plasma.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
+      "fetchedAt": "2026-09-16T13:19:45.160Z",
+      "lastModified": "Mon, 07 Sep 2026 19:56:25 GMT",
+      "wgRevisionId": 134702
+    },
+    "SG-8S Slugger": {
+      "file": "SG-8S_Slugger.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
+      "fetchedAt": "2026-09-16T13:18:50.817Z",
+      "lastModified": "Thu, 03 Sep 2026 17:25:27 GMT",
+      "wgRevisionId": 133843
+    },
+    "SG-97 Sweeper": {
+      "file": "SG-97_Sweeper.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-97_Sweeper",
+      "fetchedAt": "2026-09-16T13:19:17.416Z",
+      "lastModified": "Thu, 03 Sep 2026 18:14:03 GMT",
+      "wgRevisionId": 133858
+    },
+    "SMG-203 Gallant": {
+      "file": "SMG-203_Gallant.html",
+      "url": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
+      "fetchedAt": "2026-09-16T13:18:38.642Z",
+      "lastModified": "Sun, 23 Aug 2026 18:30:06 GMT",
+      "wgRevisionId": 132314
+    },
+    "SMG-32 Reprimand": {
+      "file": "SMG-32_Reprimand.html",
+      "url": "https://helldivers.wiki.gg/wiki/SMG-32_Reprimand",
+      "fetchedAt": "2026-09-16T13:18:23.114Z",
+      "lastModified": "Sun, 13 Sep 2026 18:08:58 GMT",
+      "wgRevisionId": 135321
+    },
+    "SMG-37 Defender": {
+      "file": "SMG-37_Defender.html",
+      "url": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
+      "fetchedAt": "2026-09-16T13:18:15.300Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129341
+    },
+    "SMG-72 Pummeler": {
+      "file": "SMG-72_Pummeler.html",
+      "url": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
+      "fetchedAt": "2026-09-16T13:18:19.543Z",
+      "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
+      "wgRevisionId": 129340
+    },
+    "SMG/FLAM-34 Stoker": {
+      "file": "SMG%2FFLAM-34_Stoker.html",
+      "url": "https://helldivers.wiki.gg/wiki/SMG/FLAM-34_Stoker",
+      "fetchedAt": "2026-09-16T13:18:34.954Z",
+      "lastModified": "Sun, 13 Sep 2026 21:10:32 GMT",
+      "wgRevisionId": 135341
     },
     "Sample Extricator": {
       "file": "Sample_Extricator.html",
@@ -133,6 +833,20 @@
       "lastModified": "Tue, 11 Aug 2026 04:21:38 GMT",
       "wgRevisionId": 110635
     },
+    "StA-11 SMG": {
+      "file": "StA-11_SMG.html",
+      "url": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
+      "fetchedAt": "2026-09-16T13:18:26.468Z",
+      "lastModified": "Mon, 31 Aug 2026 16:27:44 GMT",
+      "wgRevisionId": 133262
+    },
+    "StA-52 Assault Rifle": {
+      "file": "StA-52_Assault_Rifle.html",
+      "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+      "fetchedAt": "2026-09-16T13:17:18.695Z",
+      "lastModified": "Tue, 25 Aug 2026 21:35:03 GMT",
+      "wgRevisionId": 132640
+    },
     "Stamina Enhancement": {
       "file": "Stamina_Enhancement.html",
       "url": "https://helldivers.wiki.gg/wiki/Stamina_Enhancement",
@@ -147,6 +861,20 @@
       "lastModified": "Sun, 30 Aug 2026 14:19:06 GMT",
       "wgRevisionId": 133150
     },
+    "TED-63 Dynamite": {
+      "file": "TED-63_Dynamite.html",
+      "url": "https://helldivers.wiki.gg/wiki/TED-63_Dynamite",
+      "fetchedAt": "2026-09-16T13:22:08.812Z",
+      "lastModified": "Wed, 19 Aug 2026 12:36:14 GMT",
+      "wgRevisionId": 130417
+    },
+    "TM-1 Lure Mine": {
+      "file": "TM-1_Lure_Mine.html",
+      "url": "https://helldivers.wiki.gg/wiki/TM-1_Lure_Mine",
+      "fetchedAt": "2026-09-16T13:23:01.636Z",
+      "lastModified": "Sun, 23 Aug 2026 18:48:29 GMT",
+      "wgRevisionId": 132328
+    },
     "UAV Recon Booster": {
       "file": "UAV_Recon_Booster.html",
       "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
@@ -154,12 +882,26 @@
       "lastModified": "Tue, 15 Sep 2026 15:09:45 GMT",
       "wgRevisionId": 79056
     },
+    "VG-70 Variable": {
+      "file": "VG-70_Variable.html",
+      "url": "https://helldivers.wiki.gg/wiki/VG-70_Variable",
+      "fetchedAt": "2026-09-16T13:20:19.947Z",
+      "lastModified": "Tue, 08 Sep 2026 00:11:39 GMT",
+      "wgRevisionId": 134747
+    },
     "Vitality Enhancement": {
       "file": "Vitality_Enhancement.html",
       "url": "https://helldivers.wiki.gg/wiki/Vitality_Enhancement",
       "fetchedAt": "2026-09-15T15:05:49.670Z",
       "lastModified": "Sun, 13 Sep 2026 09:44:38 GMT",
       "wgRevisionId": 135291
+    },
+    "Weapons": {
+      "file": "Weapons.html",
+      "url": "https://helldivers.wiki.gg/wiki/Weapons",
+      "fetchedAt": "2026-09-16T13:16:10.045Z",
+      "lastModified": "Wed, 16 Sep 2026 06:37:59 GMT",
+      "wgRevisionId": 135593
     }
   }
 }
