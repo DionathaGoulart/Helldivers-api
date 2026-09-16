@@ -9,6 +9,8 @@ import { NormalizeError, ParseError } from "./errors.ts";
 import { BlockedError } from "./http/block-detect.ts";
 import type { HttpClient } from "./http/client.ts";
 import { checkRobots, parseRobots, RobotsChangedError } from "./http/robots.ts";
+import { linkSetParts } from "./link/armor-sets.ts";
+import { linkPassiveArmors } from "./link/passives.ts";
 import { linkTraitHolders } from "./link/traits.ts";
 import type { Logger } from "./log.ts";
 import { WarbondResolver } from "./normalize/warbonds.ts";
@@ -139,7 +141,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       next = withCollection(next, result.collection, result.entities as never);
     }
     // 6. Link: back-references over the merged dataset.
-    next = linkTraitHolders(next);
+    next = linkPassiveArmors(linkSetParts(linkTraitHolders(next)));
     report.counts = results.map(({ collection, entities }) => ({
       collection,
       before: current.collections[collection]?.length ?? 0,
