@@ -41,6 +41,30 @@ export class OnlineSource implements WikiSource {
   }
 }
 
+/** Serves each page once per run: armors and helmets share their pages (arch §4.3). */
+export class MemoSource implements WikiSource {
+  readonly offline: boolean;
+  readonly #pages = new Map<string, Promise<WikiPage>>();
+
+  constructor(readonly inner: WikiSource) {
+    this.offline = inner.offline;
+  }
+
+  robotsTxt(): Promise<string> {
+    return this.inner.robotsTxt();
+  }
+
+  page(title: string): Promise<WikiPage> {
+    const normalized = normalizeTitle(title);
+    let page = this.#pages.get(normalized);
+    if (!page) {
+      page = this.inner.page(normalized);
+      this.#pages.set(normalized, page);
+    }
+    return page;
+  }
+}
+
 export class MissingFixtureError extends Error {
   constructor(readonly title: string) {
     super(

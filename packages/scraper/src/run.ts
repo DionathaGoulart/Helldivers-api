@@ -27,7 +27,7 @@ import { diffDatasets } from "./publish/diff.ts";
 import { checkGuardrails, type GuardrailCheck } from "./publish/guardrails.ts";
 import type { FailureKind, RunReport } from "./publish/report.ts";
 import { writeDataset } from "./publish/write.ts";
-import { MissingFixtureError, type WikiSource } from "./source.ts";
+import { MemoSource, MissingFixtureError, type WikiSource } from "./source.ts";
 import { wikiUrl } from "./wiki/title.ts";
 
 // arch §6.1: preflight → scrape → guardrails → validate → stage + swap. All or nothing (ADR-005).
@@ -73,7 +73,8 @@ function classify(error: unknown): RunFailure {
 const GUARDRAIL_PRIORITY: readonly GuardrailCheck[] = ["empty", "count-drop", "index-coverage"];
 
 export async function runScrape(options: RunOptions): Promise<RunReport> {
-  const { dataDir, source, logger } = options;
+  const { dataDir, logger } = options;
+  const source = new MemoSource(options.source);
   const started = options.now();
   const report: RunReport = {
     ok: false,
