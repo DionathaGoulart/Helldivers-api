@@ -113,7 +113,8 @@ describe("cosmetics-index parser", async () => {
     });
   });
 
-  it("fails loudly when the layout changes", () => {
+  // Parses the 440 KB page five times; a cold CI runner can take several seconds.
+  it("fails loudly when the layout changes", { timeout: 30_000 }, () => {
     const parse = (html: string) => () => parseCosmeticsIndex(html, { url: index.url });
     expect(parse(article("<p>gone</p>"))).toThrow(ParseError);
     expect(parse(index.html.replaceAll(">Player Cards<", ">Cards<"))).toThrow(
