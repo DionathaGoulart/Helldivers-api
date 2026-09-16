@@ -3,6 +3,7 @@ import { ParseError } from "../../src/errors.ts";
 import { detectCurrency } from "../../src/wiki/currency.ts";
 import { druidData, readDruid } from "../../src/wiki/druid.ts";
 import { linesOf, loadHtml, textOf } from "../../src/wiki/html.ts";
+import { readItemBoxes } from "../../src/wiki/itemgrid.ts";
 import { fileFromSrc, firstArticleLink, firstImage } from "../../src/wiki/links.ts";
 import {
   flagsFromCategories,
@@ -237,6 +238,24 @@ describe("readDruid", () => {
     expect(textOf(druidData(source, "Helmet") ?? $([]))).toBe("Castellan's Creed P1");
   });
 
+  it("reads the main image of each tab", () => {
+    const tabbed = readDruid(
+      loadHtml(
+        infobox(`
+          <div class="druid-title">TG-8 Sharpshooter</div>
+          <div class="druid-main-images-file" data-druid-tab-key="Body Armor"><img src="/images/TG-8_Armor.png?1"></div>
+          <div class="druid-main-images-file" data-druid-tab-key="Helmet"><img src="/images/TG-8_Helmet.png?2"></div>`),
+      ),
+      "page",
+    );
+    expect(tabbed.image).toBeNull();
+    expect(Object.fromEntries(tabbed.tabImages)).toEqual({
+      "Body Armor": { file: "TG-8_Armor.png", src: "/images/TG-8_Armor.png?1" },
+      Helmet: { file: "TG-8_Helmet.png", src: "/images/TG-8_Helmet.png?2" },
+    });
+    expect(druid.tabImages.size).toBe(0);
+  });
+
   it("fails without exactly one infobox or with a duplicate row", () => {
     expect(() => readDruid(loadHtml(article("<p>x</p>")), "page")).toThrow(
       "expected 1 infobox, found 0",
@@ -260,6 +279,65 @@ describe("readDruid", () => {
     });
     expect(() => readDruid($$, "page")).toThrow("expected 1 infobox, found 2");
     expect(() => readDruid($$, "page", "armor")).toThrow("expected 1 infobox, found 0");
+  });
+});
+
+describe("readItemBoxes", () => {
+  const box = (caption: string) =>
+    `<div class="hd2-itembox"><span class="hd2-itembox-img"><a href="/wiki/Liberty%27s_Herald"><img src="/images/thumb/Herald.png/200px-Herald.png?b9"></a></span><span class="hd2-title"><a href="/wiki/Liberty%27s_Herald">Liberty's Herald</a></span><span>${caption}</span></div>`;
+  const read = (...captions: string[]) => {
+    const $ = loadHtml(article(captions.map(box).join("")));
+    return readItemBoxes($, $(".hd2-itembox"));
+  };
+  const medals = (amount: string) =>
+    `<span class="Currencyicons"><span class="Medalicon"><a href="/wiki/Medal"><img src="/images/Medal.svg?6"></a></span> ${amount}</span>`;
+
+  it("splits the caption into source and cost at the first bar", () => {
+    const [herald] = read(
+      `<a href="/wiki/Helldivers_Mobilize_Warbond#Page_2">Helldivers Mobilize!</a> <small><span class="explain" title="Page 2">P2</span></small> | ${medals("3")}`,
+    );
+    expect(herald).toEqual({
+      name: "Liberty's Herald",
+      page: { label: "Liberty's Herald", title: "Liberty's Herald", anchor: null },
+      image: { file: "Herald.png", src: "/images/thumb/Herald.png/200px-Herald.png?b9" },
+      source: {
+        label: "Helldivers Mobilize! P2",
+        link: {
+          label: "Helldivers Mobilize!",
+          title: "Helldivers Mobilize Warbond",
+          anchor: "Page_2",
+        },
+        pageMarker: "Page 2",
+      },
+      cost: { text: "3", currency: "medals" },
+    });
+  });
+
+  it("reads plain sources, missing costs and cost links apart from the source", () => {
+    const [preOrder, dlc, unannounced, empty] = read(
+      'Pre-Order Bonus | <span class="explain" title="Exclusive">❌</span>',
+      '<a href="/wiki/Downloadable_Content">Downloadable Content</a>',
+      `<a href="/wiki/Ironclad_Democracy_Premium_Warbond">Ironclad Democracy</a> | ${medals("")} <a href="/wiki/Medal">Medals</a>`,
+      "",
+    );
+    expect(preOrder).toMatchObject({
+      source: { label: "Pre-Order Bonus", link: null, pageMarker: null },
+      cost: { text: "❌", currency: null },
+    });
+    expect(dlc).toMatchObject({
+      source: { label: "Downloadable Content", link: { title: "Downloadable Content" } },
+      cost: null,
+    });
+    expect(unannounced).toMatchObject({
+      source: {
+        label: "Ironclad Democracy",
+        link: { title: "Ironclad Democracy Premium Warbond" },
+      },
+      cost: { text: "Medals", currency: "medals" },
+    });
+    expect(empty).toMatchObject({ source: null, cost: null });
+    const [escaped] = read("Salt &amp; &lt;Pepper&gt; | ❌");
+    expect(escaped?.source?.label).toBe("Salt & <Pepper>");
   });
 });
 

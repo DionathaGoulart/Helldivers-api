@@ -24,6 +24,7 @@ export interface Druid {
   title: string; // `.druid-title`, the in-game name
   image: ImageRef | null; // first `.druid-main-image` picture
   tabs: string[]; // `data-druid-tab-key` values, in order
+  tabImages: ReadonlyMap<string, ImageRef>; // `.druid-main-images-file` picture of each tab
   rows: ReadonlyMap<string, DruidRow>;
 }
 
@@ -54,6 +55,14 @@ export function readDruid($: CheerioAPI, page: string, container: string | null 
     ),
   ];
 
+  const tabImages = new Map<string, ImageRef>();
+  for (const file of box.find(".druid-main-images-file[data-druid-tab-key]").toArray()) {
+    const image = firstImage($(file));
+    if (image) {
+      tabImages.set($(file).attr("data-druid-tab-key") ?? "", image);
+    }
+  }
+
   const rows = new Map<string, DruidRow>();
   for (const element of box.find(".druid-row").toArray()) {
     const row = $(element);
@@ -82,6 +91,7 @@ export function readDruid($: CheerioAPI, page: string, container: string | null 
     title,
     image: firstImage(box.find(".druid-main-image").first()),
     tabs,
+    tabImages,
     rows,
   };
 }
