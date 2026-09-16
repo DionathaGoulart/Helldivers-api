@@ -12,11 +12,12 @@ import { checkRobots, parseRobots, RobotsChangedError } from "./http/robots.ts";
 import { linkSetParts } from "./link/armor-sets.ts";
 import { linkPassiveArmors } from "./link/passives.ts";
 import { linkCapeCards } from "./link/player-cards.ts";
-import { linkTraitHolders } from "./link/traits.ts";
+import { checkTraitTables, linkTraitHolders } from "./link/traits.ts";
 import { linkWarbondCosts } from "./link/warbond-items.ts";
 import type { Logger } from "./log.ts";
 import { WarbondResolver } from "./normalize/warbonds.ts";
 import { idLockPath, readOverrides } from "./overrides.ts";
+import { EQUIPMENT_TRAITS_INDEX, parseEquipmentTraits } from "./parsers/equipment-traits.ts";
 import { archiveEntries, buildEntry, prependEntry } from "./publish/changelog.ts";
 import { CONFLICTS_FILE, mergeConflicts } from "./publish/conflicts.ts";
 import {
@@ -137,12 +138,17 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       next = withCollection(next, result.collection, result.entities as never);
     }
     // 6. Link: back-references and warbond prices (rule 1) over the merged dataset.
+    const scraped = new Set(results.map((result) => result.collection));
     next = linkCapeCards(linkPassiveArmors(linkSetParts(linkTraitHolders(next))));
-    const costs = linkWarbondCosts(next, {
-      scraped: results.some((result) => result.collection === "warbonds"),
-    });
+    const costs = linkWarbondCosts(next, { scraped: scraped.has("warbonds") });
     next = costs.dataset;
     report.warnings.push(...costs.warnings);
+    // Rule 7: trait tables vs item pages, whenever either side was scraped.
+    if (scraped.has("weapon-traits") || scraped.has("weapons") || scraped.has("stratagems")) {
+      const traits = await source.page(EQUIPMENT_TRAITS_INDEX);
+      const tables = parseEquipmentTraits(traits.html, { url: traits.url });
+      report.warnings.push(...checkTraitTables(next, tables));
+    }
     report.counts = results.map(({ collection, entities }) => ({
       collection,
       before: current.collections[collection]?.length ?? 0,

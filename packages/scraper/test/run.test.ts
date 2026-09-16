@@ -144,7 +144,8 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     // Unreleased Ironclad Democracy items (their passive, costs, stats and descriptions, the two
     // player cards missing from the Cosmetics grid, the cosmetics and boosters only its warbond
     // page lists), the Source-less CQC-73 Entrenchment Tool, one cape page without an Armory
-    // quote, an emote only the Exo Experts page lists and page tables that do not add up.
+    // quote, an emote only the Exo Experts page lists, page tables that do not add up and the
+    // traits of unreleased weapons the Equipment Traits tables do not list yet (rule 7).
     expect(report.warnings).toEqual([
       "passives: Blunt-Force Mitigation is not listed on Armor Passives; read https://helldivers.wiki.gg/wiki/Blunt-Force_Mitigation",
       'weapons/ar-11-arbitrator: cost not announced ("? Medals")',
@@ -181,6 +182,11 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       'warbonds/ironclad-democracy: "Treadhead" (Title) matches no entity',
       "warbonds/ironclad-democracy: 20 item costs not announced",
       "warbonds/entrenched-division: page tables add up to 892 medals, All Items Unlocked says 888",
+      "weapons/ar-11-arbitrator: traits not listed on Equipment Traits: rounds-reload",
+      "weapons/g-60-anti-tank-seeker: traits not listed on Equipment Traits: explosive, guided",
+      "weapons/g-8-immolation: traits not listed on Equipment Traits: incendiary, explosive",
+      "weapons/gl-15-evictor: traits not listed on Equipment Traits: explosive, rounds-reload",
+      "weapons/p-34-breacher: traits not listed on Equipment Traits: explosive, one-handed",
     ]);
     expect(report.changes.every((change) => change.kind === "added")).toBe(true);
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
