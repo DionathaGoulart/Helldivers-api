@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sg-8s-slugger",
+    "slug": "sg-8s-slugger",
+    "name": "SG-8S Slugger",
+    "aliases": [],
+    "description": "The SG-8S Slugger is a Primary Shotgun, a variant of the standard Punisher that fires Medium armor penetrating slugs, as opposed to buckshot. This means the shotgun acts more like a rifle, firing a single projectile per shot.",
+    "image": null,
+    "wiki": {
+      "title": "SG-8S Slugger",
+      "url": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        80
+      ],
+      "dps": [
+        440
+      ],
+      "capacity": 16,
+      "spareMagazines": 60,
+      "startingMagazines": 32,
+      "magazinesFromSupply": 60,
+      "magazinesFromAmmoBox": 30,
+      "recoil": 82.5,
+      "horizontalRecoil": 45,
+      "verticalRecoil": 120,
+      "spread": {
+        "horizontal": 6,
+        "vertical": 6
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 6.45,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "10g RIFLED SLUGS P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 330,
+          "durable": 90,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 50,
+          "initialVelocityMps": 390,
+          "dragFactorPct": 200,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 35
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Semi",
+      "Traits": "Medium Armor Penetrating • Rounds Reload",
+      "Standard Damage": "330 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "80 rpm",
+      "DPS": "440",
+      "Capacity": "16",
+      "Spare Shells": "60",
+      "Supply Box Refill": "60",
+      "Ammo Box Refill": "30",
+      "Ergonomics": "65",
+      "Recoil": "120",
+      "Rounds Reload Full Time": "6.45s",
+      "Reload Time For One Round": "1.25s (Empty) / 0.4s (Partial)",
+      "Reload Time for >1 Round": "0.33s",
+      "SG-8S SLUGGER › Fire Rate": "80 rpm",
+      "SG-8S SLUGGER › Recoil": "82.5",
+      "SG-8S SLUGGER › Horizontal Recoil": "45",
+      "SG-8S SLUGGER › Vertical Recoil": "120",
+      "SG-8S SLUGGER › Spread": "↔[6.00] ↕[6.00]",
+      "SG-8S SLUGGER › Sway": "1",
+      "SG-8S SLUGGER › Ergonomics": "65",
+      "SG-8S SLUGGER › Capacity": "16",
+      "SG-8S SLUGGER › Spare Rounds": "60",
+      "SG-8S SLUGGER › Starting Rounds": "32",
+      "SG-8S SLUGGER › Rounds from Supply": "60",
+      "SG-8S SLUGGER › Rounds from Ammo Box": "30",
+      "SG-8S SLUGGER › Attacks › 10g RIFLED SLUGS P": "Projectile",
+      "10g RIFLED SLUGS P › Projectile › Mass": "50 g",
+      "10g RIFLED SLUGS P › Projectile › Initial Velocity": "390 m/s",
+      "10g RIFLED SLUGS P › Projectile › Drag Factor": "200%",
+      "10g RIFLED SLUGS P › Projectile › Gravity Factor": "100%",
+      "10g RIFLED SLUGS P › Projectile › Penetration Slowdown": "25%",
+      "10g RIFLED SLUGS P › Damage › Standard": "330 Ballistic",
+      "10g RIFLED SLUGS P › Damage › vs. Durable": "90 Ballistic",
+      "10g RIFLED SLUGS P › Penetration › Direct": "Medium",
+      "10g RIFLED SLUGS P › Penetration › Slight Angle": "Medium",
+      "10g RIFLED SLUGS P › Penetration › Large Angle": "Medium",
+      "10g RIFLED SLUGS P › Penetration › Extreme Angle": "Unarmored",
+      "10g RIFLED SLUGS P › Special Effects › Demolition Force": "10",
+      "10g RIFLED SLUGS P › Special Effects › Stagger Force": "30",
+      "10g RIFLED SLUGS P › Special Effects › Push Force": "35"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P8",
+      "warbondId": "helldivers-mobilize",
+      "page": 8,
+      "cost": {
+        "currency": "medals",
+        "amount": 60
+      },
+      "rotating": null
+    }
+  }
+}

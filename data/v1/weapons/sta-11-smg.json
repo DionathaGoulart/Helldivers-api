@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sta-11-smg",
+    "slug": "sta-11-smg",
+    "name": "StA-11 SMG",
+    "aliases": [],
+    "description": "The StA-11 SMG is a Primary Submachine Gun with an extremely high rate of fire. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
+    "image": null,
+    "wiki": {
+      "title": "StA-11 SMG",
+      "url": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "submachine_gun",
+    "traitIds": [
+      "light-armor-penetrating",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto"
+      ],
+      "fireRateRpm": [
+        1050
+      ],
+      "dps": [
+        1575
+      ],
+      "capacity": 48,
+      "spareMagazines": 7,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 7,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 11.25,
+      "horizontalRecoil": 7.5,
+      "verticalRecoil": 15,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 0.7,
+      "ergonomics": 80,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.6,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.7
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "9x20mm FULL METAL JACKET P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 18,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 7,
+          "initialVelocityMps": 375,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 5
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Submachine Guns",
+      "Firing Modes": "Auto",
+      "Traits": "Light Armor Penetrating • One Handed",
+      "Standard Damage": "90 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "1050 rpm",
+      "DPS": "1,575",
+      "Capacity": "48",
+      "Spare Mags": "7",
+      "Supply Box Refill": "7",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "80",
+      "Recoil": "13",
+      "Reload Time": "2.6s",
+      "Tactical Reload Time": "1.7s",
+      "STA-11 SMG › Fire Rate": "1050 rpm",
+      "STA-11 SMG › Recoil": "11.25",
+      "STA-11 SMG › Horizontal Recoil": "7.5",
+      "STA-11 SMG › Vertical Recoil": "15",
+      "STA-11 SMG › Spread": "↔[5.00] ↕[5.00]",
+      "STA-11 SMG › Sway": "0.7",
+      "STA-11 SMG › Ergonomics": "80",
+      "STA-11 SMG › Capacity": "48",
+      "STA-11 SMG › Spare Magazines": "7",
+      "STA-11 SMG › Starting Magazines": "5",
+      "STA-11 SMG › Mags from Supply": "7",
+      "STA-11 SMG › Mags from Ammo Box": "3",
+      "STA-11 SMG › Attacks › 9x20mm FULL METAL JACKET P": "Projectile",
+      "9x20mm FULL METAL JACKET P › Projectile › Mass": "7 g",
+      "9x20mm FULL METAL JACKET P › Projectile › Initial Velocity": "375 m/s",
+      "9x20mm FULL METAL JACKET P › Projectile › Drag Factor": "120%",
+      "9x20mm FULL METAL JACKET P › Projectile › Gravity Factor": "100%",
+      "9x20mm FULL METAL JACKET P › Projectile › Penetration Slowdown": "25%",
+      "9x20mm FULL METAL JACKET P › Damage › Standard": "90 Ballistic",
+      "9x20mm FULL METAL JACKET P › Damage › vs. Durable": "18 Ballistic",
+      "9x20mm FULL METAL JACKET P › Penetration › Direct": "Light",
+      "9x20mm FULL METAL JACKET P › Penetration › Slight Angle": "Light",
+      "9x20mm FULL METAL JACKET P › Penetration › Large Angle": "Light",
+      "9x20mm FULL METAL JACKET P › Penetration › Extreme Angle": "Unarmored",
+      "9x20mm FULL METAL JACKET P › Special Effects › Demolition Force": "10",
+      "9x20mm FULL METAL JACKET P › Special Effects › Stagger Force": "10",
+      "9x20mm FULL METAL JACKET P › Special Effects › Push Force": "5"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P3",
+      "warbondId": "righteous-revenants",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

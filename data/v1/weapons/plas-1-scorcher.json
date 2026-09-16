@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "plas-1-scorcher",
+    "slug": "plas-1-scorcher",
+    "name": "PLAS-1 Scorcher",
+    "aliases": [],
+    "description": "The PLAS-1 Scorcher is a Primary Energy-Based weapon that fires explosive energy projectiles.",
+    "image": null,
+    "wiki": {
+      "title": "PLAS-1 Scorcher",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "energy_based",
+    "traitIds": [
+      "light-armor-penetrating",
+      "explosive"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "auto"
+      ],
+      "fireRateRpm": [
+        350
+      ],
+      "dps": [
+        1166
+      ],
+      "capacity": 20,
+      "spareMagazines": 5,
+      "startingMagazines": 3,
+      "magazinesFromSupply": 5,
+      "magazinesFromAmmoBox": 2,
+      "recoil": 15.5,
+      "horizontalRecoil": 11,
+      "verticalRecoil": 20,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2.5
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "MEDIUM PLASMA BOLT P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 100,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 25,
+          "initialVelocityMps": 550,
+          "dragFactorPct": 150,
+          "gravityFactorPct": 50,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      },
+      {
+        "name": "MEDIUM PLASMA BOLT P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 2,
+          "shockwaveRadiusM": 2
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 7
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Energy-Based",
+      "Firing Modes": "Semi • Auto",
+      "Traits": "Light Armor Penetrating • Explosive",
+      "Standard Damage": "100 Ballistic / 100 Explosion",
+      "Armor Penetration": "Light (Projectile) / Medium (Explosion)",
+      "Fire Rate": "350 rpm",
+      "DPS": "1,166",
+      "Capacity": "20",
+      "Spare Mags": "5",
+      "Supply Box Refill": "5",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "65",
+      "Recoil": "20",
+      "Reload Time": "2.5s",
+      "Tactical Reload Time": "2.5s",
+      "PLAS-1 SCORCHER › Fire Rate": "350 rpm",
+      "PLAS-1 SCORCHER › Recoil": "15.5",
+      "PLAS-1 SCORCHER › Horizontal Recoil": "11",
+      "PLAS-1 SCORCHER › Vertical Recoil": "20",
+      "PLAS-1 SCORCHER › Spread": "↔[10.00] ↕[10.00]",
+      "PLAS-1 SCORCHER › Sway": "1",
+      "PLAS-1 SCORCHER › Ergonomics": "65",
+      "PLAS-1 SCORCHER › Capacity": "20",
+      "PLAS-1 SCORCHER › Spare Magazines": "5",
+      "PLAS-1 SCORCHER › Starting Magazines": "3",
+      "PLAS-1 SCORCHER › Mags from Supply": "5",
+      "PLAS-1 SCORCHER › Mags from Ammo Box": "2",
+      "PLAS-1 SCORCHER › Attacks › MEDIUM PLASMA BOLT P": "Projectile",
+      "PLAS-1 SCORCHER › Attacks › MEDIUM PLASMA BOLT P IE": "Explosion",
+      "MEDIUM PLASMA BOLT P › Projectile › Mass": "25 g",
+      "MEDIUM PLASMA BOLT P › Projectile › Initial Velocity": "550 m/s",
+      "MEDIUM PLASMA BOLT P › Projectile › Drag Factor": "150%",
+      "MEDIUM PLASMA BOLT P › Projectile › Gravity Factor": "50%",
+      "MEDIUM PLASMA BOLT P › Projectile › Penetration Slowdown": "35%",
+      "MEDIUM PLASMA BOLT P › Projectile › Explosion On Impact": "MEDIUM PLASMA BOLT_P_IE",
+      "MEDIUM PLASMA BOLT P › Damage › Standard": "100 Ballistic",
+      "MEDIUM PLASMA BOLT P › Damage › vs. Durable": "50 Ballistic",
+      "MEDIUM PLASMA BOLT P › Penetration › Direct": "Light",
+      "MEDIUM PLASMA BOLT P › Penetration › Slight Angle": "Light",
+      "MEDIUM PLASMA BOLT P › Penetration › Large Angle": "Light",
+      "MEDIUM PLASMA BOLT P › Penetration › Extreme Angle": "Unarmored",
+      "MEDIUM PLASMA BOLT P › Special Effects › Demolition Force": "10",
+      "MEDIUM PLASMA BOLT P › Special Effects › Stagger Force": "20",
+      "MEDIUM PLASMA BOLT P › Special Effects › Push Force": "10",
+      "MEDIUM PLASMA BOLT P IE › Area of Effect › Inner Radius": "1 m",
+      "MEDIUM PLASMA BOLT P IE › Area of Effect › Outer Radius": "2 m",
+      "MEDIUM PLASMA BOLT P IE › Area of Effect › Shockwave Radius": "2 m",
+      "MEDIUM PLASMA BOLT P IE › Damage › Damage Element": "None",
+      "MEDIUM PLASMA BOLT P IE › Damage › Inner Radius": "100 Explosion",
+      "MEDIUM PLASMA BOLT P IE › Damage › Inner Durable": "100 Explosion",
+      "MEDIUM PLASMA BOLT P IE › Damage › Outer Radius": "99 - 0",
+      "MEDIUM PLASMA BOLT P IE › Damage › Outer Durable": "99 - 0",
+      "MEDIUM PLASMA BOLT P IE › Penetration › Direct": "Medium",
+      "MEDIUM PLASMA BOLT P IE › AoE Effect › Demolition Force": "10",
+      "MEDIUM PLASMA BOLT P IE › AoE Effect › Stagger Force": "10",
+      "MEDIUM PLASMA BOLT P IE › AoE Effect › Push Force": "7"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P10",
+      "warbondId": "helldivers-mobilize",
+      "page": 10,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  }
+}

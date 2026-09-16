@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.7c155d29",
-    "generatedAt": "2026-09-15T15:42:33Z",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -20,7 +20,40 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Explosive",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-gl-21-one-two",
+      "cb-9-exploding-crossbow",
+      "g-10-incendiary",
+      "g-12-high-explosive",
+      "g-13-incendiary-impact",
+      "g-142-pyrotech",
+      "g-16-impact",
+      "g-23-stun",
+      "g-3-smoke",
+      "g-31-arc",
+      "g-4-gas",
+      "g-48-giga-grenade",
+      "g-50-seeker",
+      "g-6-frag",
+      "g-60-anti-tank-seeker",
+      "g-7-pineapple",
+      "g-8-immolation",
+      "g-89-smokescreen",
+      "gl-15-evictor",
+      "gp-20-ultimatum",
+      "gp-31-grenade-pistol",
+      "p-33-missile-pistol",
+      "p-34-breacher",
+      "p-40-k-bolt-pistol",
+      "plas-1-scorcher",
+      "plas-101-purifier",
+      "plas-15-loyalist",
+      "plas-39-accelerator-rifle",
+      "r-36-eruptor",
+      "sg-8p-punisher-plasma",
+      "ted-63-dynamite",
+      "tm-1-lure-mine"
+    ],
     "stratagemIds": []
   }
 }

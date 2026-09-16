@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "las-13-trident",
+    "slug": "las-13-trident",
+    "name": "LAS-13 Trident",
+    "aliases": [],
+    "description": "The LAS-13 Trident is a Primary Energy-Based shotgun in Helldivers 2. It fires multiple beams per shot and ammunition capacity is only limited by heat accumulation within the weapon.",
+    "image": null,
+    "wiki": {
+      "title": "LAS-13 Trident",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "energy_based",
+    "traitIds": [
+      "heat",
+      "light-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto"
+      ],
+      "fireRateRpm": [
+        300
+      ],
+      "dps": [
+        1800
+      ],
+      "capacity": null,
+      "spareMagazines": 3,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 4.25,
+      "horizontalRecoil": 1.5,
+      "verticalRecoil": 7,
+      "spread": {
+        "horizontal": 200,
+        "vertical": 50
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.9,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 3.67
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "LAS-13 TRIDENT B",
+        "kind": "beam",
+        "damage": {
+          "standard": 60,
+          "durable": 6,
+          "type": "Laser"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Energy-Based",
+      "Firing Modes": "Auto",
+      "Traits": "Heat • Light Armor Penetrating",
+      "Standard Damage": "360 Laser",
+      "Armor Penetration": "Light",
+      "Fire Rate": "300 rpm",
+      "DPS": "1,800",
+      "Capacity": "2s (10)",
+      "Spare Mags": "3",
+      "Supply Box Refill": "3",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "65",
+      "Recoil": "4",
+      "Reload Time": "2.9s",
+      "Tactical Reload Time": "3.67s",
+      "LAS-13 TRIDENT › Recoil": "4.25",
+      "LAS-13 TRIDENT › Horizontal Recoil": "1.5",
+      "LAS-13 TRIDENT › Vertical Recoil": "7",
+      "LAS-13 TRIDENT › Spread": "↔[200.00] ↕[50.00]",
+      "LAS-13 TRIDENT › Sway": "1",
+      "LAS-13 TRIDENT › Ergonomics": "65",
+      "LAS-13 TRIDENT › Spare Magazines": "3",
+      "LAS-13 TRIDENT › Starting Magazines": "2",
+      "LAS-13 TRIDENT › Mags from Supply": "6",
+      "LAS-13 TRIDENT › Mags from Ammo Box": "3",
+      "LAS-13 TRIDENT › Heat Data › Overheats at": "100 °C",
+      "LAS-13 TRIDENT › Heat Data › Warmup": "0 sec",
+      "LAS-13 TRIDENT › Heat Data › Heat Per Shot": "10 °C",
+      "LAS-13 TRIDENT › Heat Data › Cool Per Sec": "22.5 - 15 - 11.2",
+      "LAS-13 TRIDENT › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
+      "LAS-13 TRIDENT › Heat Data › Beam Fire Rate": "300 rpm",
+      "LAS-13 TRIDENT › Heat Data › Barrels": "x 3",
+      "LAS-13 TRIDENT › Heat Data › Beams": "x 6",
+      "LAS-13 TRIDENT › Attacks › LAS-13 TRIDENT B": "Beam",
+      "LAS-13 TRIDENT B › Beam › Beam Range": "200 m",
+      "LAS-13 TRIDENT B › Damage › Standard": "60 Laser",
+      "LAS-13 TRIDENT B › Damage › vs. Durable": "6 Laser",
+      "LAS-13 TRIDENT B › Penetration › Direct": "Light",
+      "LAS-13 TRIDENT B › Penetration › Slight Angle": "Light",
+      "LAS-13 TRIDENT B › Penetration › Large Angle": "Light",
+      "LAS-13 TRIDENT B › Penetration › Extreme Angle": "Unarmored",
+      "LAS-13 TRIDENT B › Special Effects › Demolition Force": "10",
+      "LAS-13 TRIDENT B › Special Effects › Stagger Force": "10",
+      "LAS-13 TRIDENT B › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers P1",
+      "warbondId": "siege-breakers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "r-4-hyena",
+    "slug": "r-4-hyena",
+    "name": "R-4 Hyena",
+    "aliases": [],
+    "description": "The R-4 Hyena is a Primary Marksman Rifle similar to the R-63CS Diligence Counter Sniper, trading magazine count, fire rate, and handling for greater firepower and incendiary rounds.",
+    "image": null,
+    "wiki": {
+      "title": "R-4 Hyena",
+      "url": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "marksman_rifle",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "incendiary"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        190
+      ],
+      "dps": [
+        696.67
+      ],
+      "capacity": 15,
+      "spareMagazines": 5,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 5,
+      "magazinesFromAmmoBox": 2,
+      "recoil": 65,
+      "horizontalRecoil": 40,
+      "verticalRecoil": 90,
+      "spread": {
+        "horizontal": 0.5,
+        "vertical": 0.5
+      },
+      "sway": 1,
+      "ergonomics": 30,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "9x70mm FULL METAL JACKET P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 220,
+          "durable": 45,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 20,
+          "initialVelocityMps": 950,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 14
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Marksman Rifles",
+      "Firing Modes": "Semi",
+      "Traits": "Medium Armor Penetrating • Incendiary",
+      "Standard Damage": "220 Ballistic / 100 DPS Fire",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "190 rpm",
+      "DPS": "696.67",
+      "Capacity": "15",
+      "Spare Mags": "5 Magazines",
+      "Supply Box Refill": "5",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "30",
+      "Recoil": "54",
+      "Reload Time": "2.5s",
+      "R-4 HYENA › Fire Rate": "190 rpm",
+      "R-4 HYENA › Recoil": "65",
+      "R-4 HYENA › Horizontal Recoil": "40",
+      "R-4 HYENA › Vertical Recoil": "90",
+      "R-4 HYENA › Spread": "↔[0.50] ↕[0.50]",
+      "R-4 HYENA › Sway": "1",
+      "R-4 HYENA › Ergonomics": "30",
+      "R-4 HYENA › Capacity": "15",
+      "R-4 HYENA › Spare Magazines": "5",
+      "R-4 HYENA › Starting Magazines": "4",
+      "R-4 HYENA › Mags from Supply": "5",
+      "R-4 HYENA › Mags from Ammo Box": "2",
+      "R-4 HYENA › Attacks › 9x70mm FULL METAL JACKET P1": "Projectile",
+      "R-4 HYENA › Attacks › Fire": "status",
+      "9x70mm FULL METAL JACKET P1 › Projectile › Mass": "20 g",
+      "9x70mm FULL METAL JACKET P1 › Projectile › Initial Velocity": "950 m/s",
+      "9x70mm FULL METAL JACKET P1 › Projectile › Drag Factor": "30%",
+      "9x70mm FULL METAL JACKET P1 › Projectile › Gravity Factor": "100%",
+      "9x70mm FULL METAL JACKET P1 › Projectile › Penetration Slowdown": "25%",
+      "9x70mm FULL METAL JACKET P1 › Damage › Standard": "220 Ballistic",
+      "9x70mm FULL METAL JACKET P1 › Damage › vs. Durable": "45 Ballistic",
+      "9x70mm FULL METAL JACKET P1 › Penetration › Direct": "Medium",
+      "9x70mm FULL METAL JACKET P1 › Penetration › Slight Angle": "Medium",
+      "9x70mm FULL METAL JACKET P1 › Penetration › Large Angle": "Medium",
+      "9x70mm FULL METAL JACKET P1 › Penetration › Extreme Angle": "Unarmored",
+      "9x70mm FULL METAL JACKET P1 › Special Effects › Status": "Fire",
+      "9x70mm FULL METAL JACKET P1 › Special Effects › Status Strength": "3",
+      "9x70mm FULL METAL JACKET P1 › Special Effects › Demolition Force": "10",
+      "9x70mm FULL METAL JACKET P1 › Special Effects › Stagger Force": "20",
+      "9x70mm FULL METAL JACKET P1 › Special Effects › Push Force": "14",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0"
+    },
+    "source": {
+      "type": "event",
+      "label": "Celestial Fence",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

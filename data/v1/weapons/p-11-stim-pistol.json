@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "p-11-stim-pistol",
+    "slug": "p-11-stim-pistol",
+    "name": "P-11 Stim Pistol",
+    "aliases": [],
+    "description": "The P-11 Stim Pistol is a Secondary Special weapon that fires healing Stim rounds.",
+    "image": null,
+    "wiki": {
+      "title": "P-11 Stim Pistol",
+      "url": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "one-handed",
+      "rounds-reload",
+      "stimulative"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        70
+      ],
+      "dps": [],
+      "capacity": 6,
+      "spareMagazines": 24,
+      "startingMagazines": 18,
+      "magazinesFromSupply": 18,
+      "magazinesFromAmmoBox": 9,
+      "recoil": 5.5,
+      "horizontalRecoil": 3.5,
+      "verticalRecoil": 7.5,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 1,
+      "ergonomics": 100,
+      "reloadKind": "rounds",
+      "reloadTimeS": 2.66,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "P-11 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 1,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 10,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 100
+        },
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Firing Modes": "Semi",
+      "Traits": "One Handed • Rounds Reload • Stimulative",
+      "Standard Damage": "0 Ballistic",
+      "Armor Penetration": "No Hitbox",
+      "Fire Rate": "70 rpm",
+      "Capacity": "6",
+      "Spare Rounds": "24",
+      "Ergonomics": "100",
+      "Recoil": "6",
+      "Reload Time": "2.66s",
+      "Reload Time For One Round": "2s",
+      "Reload Time for >1 Round": "0.75s",
+      "P-11 STIM PISTOL › Fire Rate": "70 rpm",
+      "P-11 STIM PISTOL › Recoil": "5.5",
+      "P-11 STIM PISTOL › Horizontal Recoil": "3.5",
+      "P-11 STIM PISTOL › Vertical Recoil": "7.5",
+      "P-11 STIM PISTOL › Spread": "↔[5.00] ↕[5.00]",
+      "P-11 STIM PISTOL › Sway": "1",
+      "P-11 STIM PISTOL › Ergonomics": "100",
+      "P-11 STIM PISTOL › Capacity": "6",
+      "P-11 STIM PISTOL › Spare Rounds": "24",
+      "P-11 STIM PISTOL › Starting Rounds": "18",
+      "P-11 STIM PISTOL › Rounds from Supply": "18",
+      "P-11 STIM PISTOL › Rounds from Ammo Box": "9",
+      "P-11 STIM PISTOL › Attacks › P-11 P": "Projectile",
+      "P-11 P › Projectile › Mass": "1 g",
+      "P-11 P › Projectile › Initial Velocity": "300 m/s",
+      "P-11 P › Projectile › Drag Factor": "10%",
+      "P-11 P › Projectile › Gravity Factor": "100%",
+      "P-11 P › Projectile › Penetration Slowdown": "100%"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents P3",
+      "warbondId": "chemical-agents",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 80
+      },
+      "rotating": null
+    }
+  }
+}

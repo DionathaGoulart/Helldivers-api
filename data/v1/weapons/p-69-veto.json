@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "p-69-veto",
+    "slug": "p-69-veto",
+    "name": "P-69 Veto",
+    "aliases": [],
+    "description": "The P-69 Veto is a Secondary Pistol with an internal magazine and jet-assisted rounds, able to inflict high stagger to enemies.",
+    "image": null,
+    "wiki": {
+      "title": "P-69 Veto",
+      "url": "https://helldivers.wiki.gg/wiki/P-69_Veto",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "pistol",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "one-handed",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        750
+      ],
+      "dps": [
+        1312.5
+      ],
+      "capacity": 12,
+      "spareMagazines": 90,
+      "startingMagazines": 52,
+      "magazinesFromSupply": 90,
+      "magazinesFromAmmoBox": 45,
+      "recoil": 30,
+      "horizontalRecoil": 12.5,
+      "verticalRecoil": 47.5,
+      "spread": {
+        "horizontal": 8,
+        "vertical": 8
+      },
+      "sway": 1,
+      "ergonomics": 100,
+      "reloadKind": "rounds",
+      "reloadTimeS": 3.3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "15x100mm STANDARD ROCKET P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 105,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 7,
+          "initialVelocityMps": 375,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 30,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 15
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Pistols",
+      "Firing Modes": "Semi",
+      "Traits": "Medium Armor Penetrating • One Handed • Rounds Reload",
+      "Standard Damage": "105 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "750 rpm",
+      "DPS": "1,312.5",
+      "Capacity": "12",
+      "Spare Rounds": "90",
+      "Supply Box Refill": "90",
+      "Ammo Box Refill": "45",
+      "Ergonomics": "100",
+      "Recoil": "30",
+      "Rounds Reload Full Time": "3.3s",
+      "Reload Time For One Round": "1.45s (Empty) / 2.1s (Partial)",
+      "Reload Time for >1 Round": "1.85s",
+      "P-69 VETO › Fire Rate": "750 rpm",
+      "P-69 VETO › Recoil": "30",
+      "P-69 VETO › Horizontal Recoil": "12.5",
+      "P-69 VETO › Vertical Recoil": "47.5",
+      "P-69 VETO › Spread": "↔[8.00] ↕[8.00]",
+      "P-69 VETO › Sway": "1",
+      "P-69 VETO › Ergonomics": "100",
+      "P-69 VETO › Capacity": "12",
+      "P-69 VETO › Spare Rounds": "90",
+      "P-69 VETO › Starting Rounds": "52",
+      "P-69 VETO › Rounds from Supply": "90",
+      "P-69 VETO › Rounds from Ammo Box": "45",
+      "P-69 VETO › Attacks › 15x100mm STANDARD ROCKET P1": "Projectile",
+      "15x100mm STANDARD ROCKET P1 › Projectile › Mass": "7 g",
+      "15x100mm STANDARD ROCKET P1 › Projectile › Initial Velocity": "375 m/s",
+      "15x100mm STANDARD ROCKET P1 › Projectile › Drag Factor": "0%",
+      "15x100mm STANDARD ROCKET P1 › Projectile › Gravity Factor": "30%",
+      "15x100mm STANDARD ROCKET P1 › Projectile › Penetration Slowdown": "25%",
+      "15x100mm STANDARD ROCKET P1 › Damage › Standard": "105 Ballistic",
+      "15x100mm STANDARD ROCKET P1 › Damage › vs. Durable": "35 Ballistic",
+      "15x100mm STANDARD ROCKET P1 › Penetration › Direct": "Medium",
+      "15x100mm STANDARD ROCKET P1 › Penetration › Slight Angle": "Medium",
+      "15x100mm STANDARD ROCKET P1 › Penetration › Large Angle": "Medium",
+      "15x100mm STANDARD ROCKET P1 › Penetration › Extreme Angle": "Unarmored",
+      "15x100mm STANDARD ROCKET P1 › Special Effects › Demolition Force": "10",
+      "15x100mm STANDARD ROCKET P1 › Special Effects › Stagger Force": "35",
+      "15x100mm STANDARD ROCKET P1 › Special Effects › Push Force": "15"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P3",
+      "warbondId": "entrenched-division",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

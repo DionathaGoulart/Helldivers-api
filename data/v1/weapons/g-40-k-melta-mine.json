@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-40-k-melta-mine",
+    "slug": "g-40-k-melta-mine",
+    "name": "G/40-K Melta Mine",
+    "aliases": [],
+    "description": "The G/40-K Melta Mine is a Standard Throwable that deploys a proximity mine which, when detonated, releases a large column of superheated thermal energy before exploding.",
+    "image": null,
+    "wiki": {
+      "title": "G/40-K Melta Mine",
+      "url": "https://helldivers.wiki.gg/wiki/G/40-K_Melta_Mine",
+      "flags": [
+        "potentially_outdated",
+        "broken_file_links"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "anti-tank"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 4,
+      "startingCount": 3,
+      "fromSupply": 2,
+      "fuseTimeS": null,
+      "cookable": false
+    },
+    "attacks": [
+      {
+        "name": "G/40-K MELTA MINE E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 2000,
+          "durable": 2000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.5,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 15
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 40,
+          "push": 40
+        }
+      },
+      {
+        "name": "FLAMEWALL",
+        "kind": "other",
+        "damage": {
+          "standard": 600,
+          "durable": 600,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "anti_tank_iii",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_iii",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 40,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "2,000 Explosion / 600 Flamewall (x2)",
+      "Penetration": "Anti-Tank III",
+      "Outer Radius": "6m",
+      "Cookable": "No",
+      "Fuse Time": "Proximity",
+      "Capacity": "4",
+      "Trait(s)": "Anti-Tank",
+      "G/40-K Melta Mine › Main Health": "150",
+      "G/40-K Melta Mine › Main Armor": "Unarmored",
+      "G/40-K Melta Mine › Throwables from Supply": "2",
+      "G/40-K Melta Mine › Max Rounds": "4",
+      "G/40-K Melta Mine › Starting Rounds": "3",
+      "G/40-K Melta Mine › Attacks › G/40-K MELTA MINE E": "Explosion",
+      "G/40-K Melta Mine › Attacks › FLAMEWALL": "Damage",
+      "G/40-K MELTA MINE E › Area of Effect › Inner Radius": "2.5 m",
+      "G/40-K MELTA MINE E › Area of Effect › Outer Radius": "6 m",
+      "G/40-K MELTA MINE E › Area of Effect › Shockwave Radius": "15 m",
+      "G/40-K MELTA MINE E › Damage › Damage Element": "None",
+      "G/40-K MELTA MINE E › Damage › Inner Radius": "2000 Explosion",
+      "G/40-K MELTA MINE E › Damage › Inner Durable": "2000 Explosion",
+      "G/40-K MELTA MINE E › Damage › Outer Radius": "1999 - 0",
+      "G/40-K MELTA MINE E › Damage › Outer Durable": "1999 - 0",
+      "G/40-K MELTA MINE E › Penetration › Direct": "Anti-Tank III",
+      "G/40-K MELTA MINE E › Penetration › Slight Angle": "Anti-Tank III",
+      "G/40-K MELTA MINE E › Penetration › Large Angle": "Anti-Tank III",
+      "G/40-K MELTA MINE E › AoE Effect › Demolition Force": "40",
+      "G/40-K MELTA MINE E › AoE Effect › Stagger Force": "40",
+      "G/40-K MELTA MINE E › AoE Effect › Push Force": "40",
+      "FLAMEWALL › Damage › Element": "Fire",
+      "FLAMEWALL › Damage › Standard": "600 Fire",
+      "FLAMEWALL › Damage › vs. Durable": "600 Fire",
+      "FLAMEWALL › Penetration › Direct": "Anti-Tank III",
+      "FLAMEWALL › Penetration › Slight Angle": "Anti-Tank III",
+      "FLAMEWALL › Penetration › Large Angle": "Anti-Tank III",
+      "FLAMEWALL › Penetration › Extreme Angle": "Unarmored",
+      "FLAMEWALL › Special Effects › Demolition Force": "10",
+      "FLAMEWALL › Special Effects › Stagger Force": "40",
+      "FLAMEWALL › Special Effects › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Castellan’s Creed",
+      "warbondId": "castellans-creed",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

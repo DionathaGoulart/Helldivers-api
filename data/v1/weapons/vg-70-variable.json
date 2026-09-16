@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "vg-70-variable",
+    "slug": "vg-70-variable",
+    "name": "VG-70 Variable",
+    "aliases": [],
+    "description": "VG-70 Variable is a Primary Special weapon. It is a seven-barrelled volley gun with three different firing modes: Auto, Volley, and Total, as well as variable rpm options.",
+    "image": null,
+    "wiki": {
+      "title": "VG-70 Variable",
+      "url": "https://helldivers.wiki.gg/wiki/VG-70_Variable",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "special",
+    "traitIds": [
+      "light-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "other",
+        "volley",
+        "auto"
+      ],
+      "fireRateRpm": [
+        300,
+        550,
+        750
+      ],
+      "dps": [
+        425,
+        779.16,
+        1062.5
+      ],
+      "capacity": 49,
+      "spareMagazines": 7,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 7,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 6.75,
+      "horizontalRecoil": 4.5,
+      "verticalRecoil": 9,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 1,
+      "ergonomics": 25,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3.58,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 3.58
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "VG-70 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 85,
+          "durable": 23,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 7,
+          "initialVelocityMps": 320,
+          "dragFactorPct": 60,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 4
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Special",
+      "Firing Modes": "Total • Volley • Auto",
+      "Traits": "Light Armor Penetrating",
+      "Standard Damage": "85 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "300 rpm • 550 rpm • 750rpm",
+      "DPS": "425 • 779.16 • 1,062.5",
+      "Capacity": "49",
+      "Spare Mags": "7",
+      "Supply Box Refill": "7",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "25",
+      "Recoil": "7",
+      "Reload Time": "3.58s",
+      "Tactical Reload Time": "3.58s",
+      "VG-70 VARIABLE › Fire Rate": "550 rpm",
+      "VG-70 VARIABLE › Recoil": "6.75",
+      "VG-70 VARIABLE › Horizontal Recoil": "4.5",
+      "VG-70 VARIABLE › Vertical Recoil": "9",
+      "VG-70 VARIABLE › Spread": "↔[5.00] ↕[5.00]",
+      "VG-70 VARIABLE › Sway": "1",
+      "VG-70 VARIABLE › Ergonomics": "25",
+      "VG-70 VARIABLE › Capacity": "49",
+      "VG-70 VARIABLE › Spare Magazines": "7",
+      "VG-70 VARIABLE › Starting Magazines": "6",
+      "VG-70 VARIABLE › Mags from Supply": "7",
+      "VG-70 VARIABLE › Mags from Ammo Box": "3",
+      "VG-70 VARIABLE › Barrels": "x 7",
+      "VG-70 VARIABLE › Attacks › VG-70 P": "Projectile",
+      "VG-70 P › Projectile › Mass": "7 g",
+      "VG-70 P › Projectile › Initial Velocity": "320 m/s",
+      "VG-70 P › Projectile › Drag Factor": "60%",
+      "VG-70 P › Projectile › Gravity Factor": "100%",
+      "VG-70 P › Projectile › Penetration Slowdown": "25%",
+      "VG-70 P › Damage › Standard": "85 Ballistic",
+      "VG-70 P › Damage › vs. Durable": "23 Ballistic",
+      "VG-70 P › Penetration › Direct": "Light",
+      "VG-70 P › Penetration › Slight Angle": "Light",
+      "VG-70 P › Penetration › Large Angle": "Light",
+      "VG-70 P › Penetration › Extreme Angle": "Unarmored",
+      "VG-70 P › Special Effects › Demolition Force": "10",
+      "VG-70 P › Special Effects › Stagger Force": "10",
+      "VG-70 P › Special Effects › Push Force": "4"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P1",
+      "warbondId": "control-group",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

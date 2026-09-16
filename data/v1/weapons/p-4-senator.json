@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "p-4-senator",
+    "slug": "p-4-senator",
+    "name": "P-4 Senator",
+    "aliases": [],
+    "description": "The P-4 Senator is a Secondary Pistol that can penetrate heavy armor and deals a very high amount of damage per shot.",
+    "image": null,
+    "wiki": {
+      "title": "P-4 Senator",
+      "url": "https://helldivers.wiki.gg/wiki/P-4_Senator",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "pistol",
+    "traitIds": [
+      "heavy-armor-penetrating",
+      "one-handed",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        200
+      ],
+      "dps": [
+        749.99
+      ],
+      "capacity": 6,
+      "spareMagazines": 40,
+      "startingMagazines": 32,
+      "magazinesFromSupply": 40,
+      "magazinesFromAmmoBox": 20,
+      "recoil": 30.75,
+      "horizontalRecoil": 11.5,
+      "verticalRecoil": 50,
+      "spread": {
+        "horizontal": 8,
+        "vertical": 8
+      },
+      "sway": 1,
+      "ergonomics": 75,
+      "reloadKind": "rounds",
+      "reloadTimeS": 2.3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "13x40mm FULL METAL JACKET P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 225,
+          "durable": 75,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 15,
+          "initialVelocityMps": 550,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Pistols",
+      "Firing Modes": "Semi",
+      "Traits": "Heavy Armor Penetrating • One Handed • Rounds Reload",
+      "Standard Damage": "225 Ballistic",
+      "Armor Penetration": "Heavy",
+      "Fire Rate": "200 rpm",
+      "DPS": "749.99",
+      "Capacity": "6",
+      "Spare Rounds": "40",
+      "Supply Box Refill": "40",
+      "Ammo Box Refill": "20",
+      "Ergonomics": "75",
+      "Recoil": "43",
+      "Reload Time": "2.3s",
+      "Reload Time For One Round": "1.45s",
+      "Reload Time for >1 Round": "0.65s",
+      "P-4 SENATOR › Fire Rate": "200 rpm",
+      "P-4 SENATOR › Recoil": "30.75",
+      "P-4 SENATOR › Horizontal Recoil": "11.5",
+      "P-4 SENATOR › Vertical Recoil": "50",
+      "P-4 SENATOR › Spread": "↔[8.00] ↕[8.00]",
+      "P-4 SENATOR › Sway": "1",
+      "P-4 SENATOR › Ergonomics": "75",
+      "P-4 SENATOR › Capacity": "6",
+      "P-4 SENATOR › Spare Rounds": "40",
+      "P-4 SENATOR › Starting Rounds": "32",
+      "P-4 SENATOR › Rounds from Supply": "40",
+      "P-4 SENATOR › Rounds from Ammo Box": "20",
+      "P-4 SENATOR › Attacks › 13x40mm FULL METAL JACKET P": "Projectile",
+      "13x40mm FULL METAL JACKET P › Projectile › Mass": "15 g",
+      "13x40mm FULL METAL JACKET P › Projectile › Initial Velocity": "550 m/s",
+      "13x40mm FULL METAL JACKET P › Projectile › Drag Factor": "120%",
+      "13x40mm FULL METAL JACKET P › Projectile › Gravity Factor": "100%",
+      "13x40mm FULL METAL JACKET P › Projectile › Penetration Slowdown": "25%",
+      "13x40mm FULL METAL JACKET P › Damage › Standard": "225 Ballistic",
+      "13x40mm FULL METAL JACKET P › Damage › vs. Durable": "75 Ballistic",
+      "13x40mm FULL METAL JACKET P › Penetration › Direct": "Heavy",
+      "13x40mm FULL METAL JACKET P › Penetration › Slight Angle": "Heavy",
+      "13x40mm FULL METAL JACKET P › Penetration › Large Angle": "Heavy",
+      "13x40mm FULL METAL JACKET P › Penetration › Extreme Angle": "Unarmored",
+      "13x40mm FULL METAL JACKET P › Special Effects › Demolition Force": "10",
+      "13x40mm FULL METAL JACKET P › Special Effects › Stagger Force": "20",
+      "13x40mm FULL METAL JACKET P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P1",
+      "warbondId": "steeled-veterans",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 15
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sg-22-bushwhacker",
+    "slug": "sg-22-bushwhacker",
+    "name": "SG-22 Bushwhacker",
+    "aliases": [],
+    "description": "The SG-22 Bushwhacker is Secondary Special triple-barreled shotgun.",
+    "image": null,
+    "wiki": {
+      "title": "SG-22 Bushwhacker",
+      "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "light-armor-penetrating",
+      "one-handed",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "volley"
+      ],
+      "fireRateRpm": [
+        650
+      ],
+      "dps": [
+        1215
+      ],
+      "capacity": 3,
+      "spareMagazines": 30,
+      "startingMagazines": 30,
+      "magazinesFromSupply": 30,
+      "magazinesFromAmmoBox": 15,
+      "recoil": 107.5,
+      "horizontalRecoil": 45,
+      "verticalRecoil": 170,
+      "spread": {
+        "horizontal": 200,
+        "vertical": 150
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 1.75,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "BUCKSHOT P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 45,
+          "durable": 12,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 9,
+          "massG": 6,
+          "initialVelocityMps": 385,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Firing Modes": "Semi • All Barrel",
+      "Traits": "Light Armor Penetrating • One Handed • Rounds Reload",
+      "Standard Damage": "405 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "650 rpm",
+      "DPS": "1,215",
+      "Capacity": "3",
+      "Spare Rounds": "30",
+      "Ergonomics": "65",
+      "Recoil": "170",
+      "Rounds Reload Full Time": "1.75s",
+      "Reload Time For One Round": "1.1s",
+      "Reload Time for >1 Round": "0.3s",
+      "SG-22 BUSHWHACKER › Fire Rate": "650 rpm",
+      "SG-22 BUSHWHACKER › Recoil": "107.5",
+      "SG-22 BUSHWHACKER › Horizontal Recoil": "45",
+      "SG-22 BUSHWHACKER › Vertical Recoil": "170",
+      "SG-22 BUSHWHACKER › Spread": "↔[200.00] ↕[150.00]",
+      "SG-22 BUSHWHACKER › Sway": "1",
+      "SG-22 BUSHWHACKER › Ergonomics": "65",
+      "SG-22 BUSHWHACKER › Capacity": "3",
+      "SG-22 BUSHWHACKER › Spare Rounds": "30",
+      "SG-22 BUSHWHACKER › Starting Rounds": "30",
+      "SG-22 BUSHWHACKER › Rounds from Supply": "30",
+      "SG-22 BUSHWHACKER › Rounds from Ammo Box": "15",
+      "SG-22 BUSHWHACKER › Barrels": "x 3",
+      "SG-22 BUSHWHACKER › Attacks › BUCKSHOT P1": "Projectile",
+      "BUCKSHOT P1 › Projectile › Pellets": "x 9",
+      "BUCKSHOT P1 › Projectile › Mass": "6 g",
+      "BUCKSHOT P1 › Projectile › Initial Velocity": "385 m/s",
+      "BUCKSHOT P1 › Projectile › Drag Factor": "50%",
+      "BUCKSHOT P1 › Projectile › Gravity Factor": "100%",
+      "BUCKSHOT P1 › Projectile › Penetration Slowdown": "25%",
+      "BUCKSHOT P1 › Damage › Standard": "45 Ballistic",
+      "BUCKSHOT P1 › Damage › vs. Durable": "12 Ballistic",
+      "BUCKSHOT P1 › Penetration › Direct": "Light",
+      "BUCKSHOT P1 › Penetration › Slight Angle": "Light",
+      "BUCKSHOT P1 › Penetration › Large Angle": "Light",
+      "BUCKSHOT P1 › Penetration › Extreme Angle": "Unarmored",
+      "BUCKSHOT P1 › Special Effects › Demolition Force": "10",
+      "BUCKSHOT P1 › Special Effects › Stagger Force": "35",
+      "BUCKSHOT P1 › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P2",
+      "warbondId": "viper-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

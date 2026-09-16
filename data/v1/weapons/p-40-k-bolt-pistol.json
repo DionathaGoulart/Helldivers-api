@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "p-40-k-bolt-pistol",
+    "slug": "p-40-k-bolt-pistol",
+    "name": "P/40-K Bolt Pistol",
+    "aliases": [],
+    "description": "The P/40-K Bolt Pistol is a Secondary Pistol that fires large caliber rounds with massive recoil.",
+    "image": null,
+    "wiki": {
+      "title": "P/40-K Bolt Pistol",
+      "url": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "heavy-armor-penetrating",
+      "explosive",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        150
+      ],
+      "dps": [
+        1250
+      ],
+      "capacity": 6,
+      "spareMagazines": 4,
+      "startingMagazines": 3,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 325,
+      "horizontalRecoil": 150,
+      "verticalRecoil": 500,
+      "spread": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "sway": 1,
+      "ergonomics": 30,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.45,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.3
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "P/40-K P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 325,
+          "durable": 115,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 350,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 30,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 20,
+          "stagger": 35,
+          "push": 15
+        }
+      },
+      {
+        "name": "P/40-K P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 175,
+          "durable": 175,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 3.5,
+          "shockwaveRadiusM": 5
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 5
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Firing Modes": "Semi",
+      "Traits": "Heavy Armor Penetrating • Explosive • One Handed",
+      "Standard Damage": "325 Ballistic / 175 Explosion",
+      "Armor Penetration": "Heavy (Projectile) / Medium (Explosion)",
+      "Fire Rate": "150 rpm",
+      "DPS": "1,250",
+      "Capacity": "6",
+      "Spare Mags": "4",
+      "Supply Box Refill": "4",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "30",
+      "Recoil": "325",
+      "Reload Time": "2.45s",
+      "Tactical Reload Time": "1.3s",
+      "P/40-K BOLT PISTOL › Fire Rate": "150 rpm",
+      "P/40-K BOLT PISTOL › Recoil": "325",
+      "P/40-K BOLT PISTOL › Horizontal Recoil": "150",
+      "P/40-K BOLT PISTOL › Vertical Recoil": "500",
+      "P/40-K BOLT PISTOL › Spread": "↔[2.00] ↕[2.00]",
+      "P/40-K BOLT PISTOL › Sway": "1",
+      "P/40-K BOLT PISTOL › Ergonomics": "30",
+      "P/40-K BOLT PISTOL › Capacity": "6",
+      "P/40-K BOLT PISTOL › Spare Magazines": "4",
+      "P/40-K BOLT PISTOL › Starting Magazines": "3",
+      "P/40-K BOLT PISTOL › Mags from Supply": "6",
+      "P/40-K BOLT PISTOL › Mags from Ammo Box": "3",
+      "P/40-K BOLT PISTOL › Attacks › P/40-K P": "Projectile",
+      "P/40-K BOLT PISTOL › Attacks › P/40-K P IE": "Explosion",
+      "P/40-K P › Projectile › Mass": "100 g",
+      "P/40-K P › Projectile › Initial Velocity": "350 m/s",
+      "P/40-K P › Projectile › Drag Factor": "0%",
+      "P/40-K P › Projectile › Gravity Factor": "30%",
+      "P/40-K P › Projectile › Lifetime": "0.600000024 sec",
+      "P/40-K P › Projectile › Penetration Slowdown": "25%",
+      "P/40-K P › Projectile › Explosion On Impact": "P/40-K_P_IE",
+      "P/40-K P › Damage › Standard": "325 Ballistic",
+      "P/40-K P › Damage › vs. Durable": "115 Ballistic",
+      "P/40-K P › Penetration › Direct": "Heavy",
+      "P/40-K P › Penetration › Slight Angle": "Heavy",
+      "P/40-K P › Penetration › Large Angle": "Heavy",
+      "P/40-K P › Penetration › Extreme Angle": "Unarmored",
+      "P/40-K P › Special Effects › Demolition Force": "20",
+      "P/40-K P › Special Effects › Stagger Force": "35",
+      "P/40-K P › Special Effects › Push Force": "15",
+      "P/40-K P IE › Area of Effect › Inner Radius": "1 m",
+      "P/40-K P IE › Area of Effect › Outer Radius": "3.5 m",
+      "P/40-K P IE › Area of Effect › Shockwave Radius": "5 m",
+      "P/40-K P IE › Damage › Damage Element": "None",
+      "P/40-K P IE › Damage › Inner Radius": "175 Explosion",
+      "P/40-K P IE › Damage › Inner Durable": "175 Explosion",
+      "P/40-K P IE › Damage › Outer Radius": "174 - 0",
+      "P/40-K P IE › Damage › Outer Durable": "174 - 0",
+      "P/40-K P IE › Penetration › Direct": "Medium",
+      "P/40-K P IE › AoE Effect › Demolition Force": "10",
+      "P/40-K P IE › AoE Effect › Stagger Force": "35",
+      "P/40-K P IE › AoE Effect › Push Force": "5"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Castellan’s Creed",
+      "warbondId": "castellans-creed",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

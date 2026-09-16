@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ar-11-arbitrator",
+    "slug": "ar-11-arbitrator",
+    "name": "AR-11 Arbitrator",
+    "aliases": [],
+    "description": "The AR-11 Arbitrator is a Primary Assault Rifle equipped with an underbarrel shotgun.",
+    "image": null,
+    "wiki": {
+      "title": "AR-11 Arbitrator",
+      "url": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "other"
+      ],
+      "fireRateRpm": [],
+      "dps": [],
+      "capacity": 45,
+      "spareMagazines": null,
+      "startingMagazines": null,
+      "magazinesFromSupply": null,
+      "magazinesFromAmmoBox": null,
+      "recoil": null,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
+      "spread": null,
+      "sway": null,
+      "ergonomics": null,
+      "reloadKind": "rounds",
+      "reloadTimeS": null,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "4mm • 10g",
+      "Traits": "Rounds Reload",
+      "Standard Damage": "? Ballistic (4mm) / ? Ballistic (10g)",
+      "Capacity": "45 (4mm) / 4 (10g)"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Ironclad Democracy",
+      "warbondId": "ironclad-democracy",
+      "page": 1,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "las-17-double-edge-sickle",
+    "slug": "las-17-double-edge-sickle",
+    "name": "LAS-17 Double-Edge Sickle",
+    "aliases": [],
+    "description": "The LAS-17 Double-Edge Sickle is a Primary Energy-Based weapon that operates like an assault rifle, shooting targets with a barrage of laser pulses but will damage the user after prolonged firing.",
+    "image": null,
+    "wiki": {
+      "title": "LAS-17 Double-Edge Sickle",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "energy_based",
+    "traitIds": [
+      "light-armor-penetrating",
+      "medium-armor-penetrating",
+      "heavy-armor-penetrating",
+      "heat"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto"
+      ],
+      "fireRateRpm": [
+        700
+      ],
+      "dps": [
+        700,
+        641.67,
+        816.67
+      ],
+      "capacity": null,
+      "spareMagazines": 3,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 1.75,
+      "horizontalRecoil": 1.5,
+      "verticalRecoil": 2,
+      "spread": {
+        "horizontal": 20,
+        "vertical": 20
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "none",
+      "reloadTimeS": null,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2.83
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "LASER P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 60,
+          "durable": 6,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 12,
+          "initialVelocityMps": 1300,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      },
+      {
+        "name": "LASER P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 55,
+          "durable": 5,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 12,
+          "initialVelocityMps": 1300,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      },
+      {
+        "name": "LASER P2",
+        "kind": "projectile",
+        "damage": {
+          "standard": 70,
+          "durable": 7,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 12,
+          "initialVelocityMps": 1300,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      },
+      {
+        "name": "LASER P3",
+        "kind": "projectile",
+        "damage": {
+          "standard": 70,
+          "durable": 7,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 12,
+          "initialVelocityMps": 1300,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Energy-Based",
+      "Firing Modes": "Automatic",
+      "Traits": "Light Armor Penetrating • Medium Armor Penetrating • Heavy Armor Penetrating • Heat",
+      "Standard Damage": "55-70 Projectile",
+      "Armor Penetration": "Heavy",
+      "Fire Rate": "700 rpm",
+      "DPS": "700 (0-25% heat) • 641.67 (26-50% heat) • 816.67 (51-100% heat)",
+      "Capacity": "15s (175) (Fires Indefinitely)",
+      "Spare Mags": "3",
+      "Supply Box Refill": "3",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "65",
+      "Recoil": "2",
+      "Tactical Reload Time": "2.83s",
+      "LAS-17 DOUBLE-EDGE SICKLE › Fire Rate": "700 rpm",
+      "LAS-17 DOUBLE-EDGE SICKLE › Recoil": "1.75",
+      "LAS-17 DOUBLE-EDGE SICKLE › Horizontal Recoil": "1.5",
+      "LAS-17 DOUBLE-EDGE SICKLE › Vertical Recoil": "2",
+      "LAS-17 DOUBLE-EDGE SICKLE › Spread": "↔[20.00] ↕[20.00]",
+      "LAS-17 DOUBLE-EDGE SICKLE › Sway": "1",
+      "LAS-17 DOUBLE-EDGE SICKLE › Ergonomics": "65",
+      "LAS-17 DOUBLE-EDGE SICKLE › Spare Magazines": "3",
+      "LAS-17 DOUBLE-EDGE SICKLE › Starting Magazines": "2",
+      "LAS-17 DOUBLE-EDGE SICKLE › Mags from Supply": "6",
+      "LAS-17 DOUBLE-EDGE SICKLE › Mags from Ammo Box": "3",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Overheats at": "200 °C",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.5 sec",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Heat Per Shot": "1.14999998 °C",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cool Per Sec": "12 - 8 - 6",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
+      "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LASER P": "Projectile",
+      "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LASER P1": "Projectile",
+      "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LASER P2": "Projectile",
+      "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LASER P3": "Projectile",
+      "LASER P › Projectile › Mass": "12 g",
+      "LASER P › Projectile › Initial Velocity": "1300 m/s",
+      "LASER P › Projectile › Drag Factor": "0%",
+      "LASER P › Projectile › Gravity Factor": "0%",
+      "LASER P › Projectile › Lifetime": "6 sec",
+      "LASER P › Projectile › Penetration Slowdown": "25%",
+      "LASER P › Damage › Standard": "60 Ballistic",
+      "LASER P › Damage › vs. Durable": "6 Ballistic",
+      "LASER P › Penetration › Direct": "Light",
+      "LASER P › Penetration › Slight Angle": "Light",
+      "LASER P › Penetration › Large Angle": "Light",
+      "LASER P › Penetration › Extreme Angle": "Unarmored",
+      "LASER P › Special Effects › Demolition Force": "10",
+      "LASER P › Special Effects › Stagger Force": "10",
+      "LASER P › Special Effects › Push Force": "10",
+      "LASER P1 › Projectile › Mass": "12 g",
+      "LASER P1 › Projectile › Initial Velocity": "1300 m/s",
+      "LASER P1 › Projectile › Drag Factor": "0%",
+      "LASER P1 › Projectile › Gravity Factor": "0%",
+      "LASER P1 › Projectile › Lifetime": "6 sec",
+      "LASER P1 › Projectile › Penetration Slowdown": "25%",
+      "LASER P1 › Damage › Standard": "55 Ballistic",
+      "LASER P1 › Damage › vs. Durable": "5 Ballistic",
+      "LASER P1 › Penetration › Direct": "Medium",
+      "LASER P1 › Penetration › Slight Angle": "Medium",
+      "LASER P1 › Penetration › Large Angle": "Medium",
+      "LASER P1 › Penetration › Extreme Angle": "Unarmored",
+      "LASER P1 › Special Effects › Demolition Force": "10",
+      "LASER P1 › Special Effects › Stagger Force": "10",
+      "LASER P1 › Special Effects › Push Force": "10",
+      "LASER P2 › Projectile › Mass": "12 g",
+      "LASER P2 › Projectile › Initial Velocity": "1300 m/s",
+      "LASER P2 › Projectile › Drag Factor": "0%",
+      "LASER P2 › Projectile › Gravity Factor": "0%",
+      "LASER P2 › Projectile › Lifetime": "6 sec",
+      "LASER P2 › Projectile › Penetration Slowdown": "25%",
+      "LASER P2 › Damage › Standard": "70 Ballistic",
+      "LASER P2 › Damage › vs. Durable": "7 Ballistic",
+      "LASER P2 › Penetration › Direct": "Medium",
+      "LASER P2 › Penetration › Slight Angle": "Medium",
+      "LASER P2 › Penetration › Large Angle": "Medium",
+      "LASER P2 › Penetration › Extreme Angle": "Unarmored",
+      "LASER P2 › Special Effects › Demolition Force": "10",
+      "LASER P2 › Special Effects › Stagger Force": "10",
+      "LASER P2 › Special Effects › Push Force": "10",
+      "LASER P3 › Projectile › Mass": "12 g",
+      "LASER P3 › Projectile › Initial Velocity": "1300 m/s",
+      "LASER P3 › Projectile › Drag Factor": "0%",
+      "LASER P3 › Projectile › Gravity Factor": "0%",
+      "LASER P3 › Projectile › Lifetime": "6 sec",
+      "LASER P3 › Projectile › Penetration Slowdown": "25%",
+      "LASER P3 › Damage › Standard": "70 Ballistic",
+      "LASER P3 › Damage › vs. Durable": "7 Ballistic",
+      "LASER P3 › Penetration › Direct": "Heavy",
+      "LASER P3 › Penetration › Slight Angle": "Heavy",
+      "LASER P3 › Penetration › Large Angle": "Heavy",
+      "LASER P3 › Penetration › Extreme Angle": "Unarmored",
+      "LASER P3 › Special Effects › Demolition Force": "10",
+      "LASER P3 › Special Effects › Stagger Force": "10",
+      "LASER P3 › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Servants of Freedom P1",
+      "warbondId": "servants-of-freedom",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

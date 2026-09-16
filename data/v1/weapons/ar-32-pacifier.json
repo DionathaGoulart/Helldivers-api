@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ar-32-pacifier",
+    "slug": "ar-32-pacifier",
+    "name": "AR-32 Pacifier",
+    "aliases": [],
+    "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly low damage output.",
+    "image": null,
+    "wiki": {
+      "title": "AR-32 Pacifier",
+      "url": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "stun"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi",
+        "burst"
+      ],
+      "fireRateRpm": [
+        700
+      ],
+      "dps": [
+        641.66
+      ],
+      "capacity": 40,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 17.5,
+      "horizontalRecoil": 12.5,
+      "verticalRecoil": 22.5,
+      "spread": {
+        "horizontal": 4,
+        "vertical": 4
+      },
+      "sway": 1,
+      "ergonomics": 60,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.85
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "AR-32 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 55,
+          "durable": 10,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 4.5,
+          "initialVelocityMps": 900,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 10
+        }
+      },
+      {
+        "name": "Stun Medium",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "• Auto / • Semi / • Burst",
+      "Traits": "Medium Armor Penetrating • Stun",
+      "Standard Damage": "55 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "700",
+      "DPS": "641.66",
+      "Capacity": "40",
+      "Spare Mags": "8",
+      "Ergonomics": "60",
+      "Recoil": "18",
+      "Reload Time": "3s",
+      "Tactical Reload Time": "1.85s",
+      "AR-32 PACIFIER › Fire Rate": "700 rpm",
+      "AR-32 PACIFIER › Recoil": "17.5",
+      "AR-32 PACIFIER › Horizontal Recoil": "12.5",
+      "AR-32 PACIFIER › Vertical Recoil": "22.5",
+      "AR-32 PACIFIER › Spread": "↔[4.00] ↕[4.00]",
+      "AR-32 PACIFIER › Sway": "1",
+      "AR-32 PACIFIER › Ergonomics": "60",
+      "AR-32 PACIFIER › Capacity": "40",
+      "AR-32 PACIFIER › Spare Magazines": "8",
+      "AR-32 PACIFIER › Starting Magazines": "6",
+      "AR-32 PACIFIER › Mags from Supply": "8",
+      "AR-32 PACIFIER › Mags from Ammo Box": "4",
+      "AR-32 PACIFIER › Attacks › AR-32 P": "Projectile",
+      "AR-32 PACIFIER › Attacks › Stun Medium": "status",
+      "AR-32 P › Projectile › Mass": "4.5 g",
+      "AR-32 P › Projectile › Initial Velocity": "900 m/s",
+      "AR-32 P › Projectile › Drag Factor": "30%",
+      "AR-32 P › Projectile › Gravity Factor": "100%",
+      "AR-32 P › Projectile › Penetration Slowdown": "25%",
+      "AR-32 P › Damage › Standard": "55 Ballistic",
+      "AR-32 P › Damage › vs. Durable": "10 Ballistic",
+      "AR-32 P › Penetration › Direct": "Medium",
+      "AR-32 P › Penetration › Slight Angle": "Medium",
+      "AR-32 P › Penetration › Large Angle": "Medium",
+      "AR-32 P › Penetration › Extreme Angle": "Unarmored",
+      "AR-32 P › Special Effects › Status": "Stun Medium",
+      "AR-32 P › Special Effects › Status Strength": "2",
+      "AR-32 P › Special Effects › Demolition Force": "10",
+      "AR-32 P › Special Effects › Stagger Force": "15",
+      "AR-32 P › Special Effects › Push Force": "10",
+      "Stun Medium › Status › Status Duration": "3 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P1",
+      "warbondId": "force-of-law",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

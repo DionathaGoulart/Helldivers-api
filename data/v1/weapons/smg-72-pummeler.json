@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "smg-72-pummeler",
+    "slug": "smg-72-pummeler",
+    "name": "SMG-72 Pummeler",
+    "aliases": [],
+    "description": "The SMG-72 Pummeler is a Primary Submachine Gun that fires concussive rounds that can stun enemies.",
+    "image": null,
+    "wiki": {
+      "title": "SMG-72 Pummeler",
+      "url": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "submachine_gun",
+    "traitIds": [
+      "light-armor-penetrating",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "burst",
+        "semi"
+      ],
+      "fireRateRpm": [
+        475
+      ],
+      "dps": [
+        672.91
+      ],
+      "capacity": 45,
+      "spareMagazines": 7,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 7,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 8.75,
+      "horizontalRecoil": 7.5,
+      "verticalRecoil": 10,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 1,
+      "ergonomics": 90,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.8,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "SMG-72 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 85,
+          "durable": 17,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 15,
+          "initialVelocityMps": 210,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 5
+        }
+      },
+      {
+        "name": "Stun Medium",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Submachine Guns",
+      "Firing Modes": "Auto • Burst • Semi",
+      "Traits": "Light Armor Penetrating • One Handed",
+      "Standard Damage": "85 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "475 rpm",
+      "DPS": "672.91",
+      "Capacity": "45",
+      "Spare Mags": "7",
+      "Supply Box Refill": "7",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "90",
+      "Recoil": "10",
+      "Reload Time": "2.8s",
+      "SMG-72 PUMMELER › Fire Rate": "475 rpm",
+      "SMG-72 PUMMELER › Recoil": "8.75",
+      "SMG-72 PUMMELER › Horizontal Recoil": "7.5",
+      "SMG-72 PUMMELER › Vertical Recoil": "10",
+      "SMG-72 PUMMELER › Spread": "↔[5.00] ↕[5.00]",
+      "SMG-72 PUMMELER › Sway": "1",
+      "SMG-72 PUMMELER › Ergonomics": "90",
+      "SMG-72 PUMMELER › Capacity": "45",
+      "SMG-72 PUMMELER › Spare Magazines": "7",
+      "SMG-72 PUMMELER › Starting Magazines": "5",
+      "SMG-72 PUMMELER › Mags from Supply": "7",
+      "SMG-72 PUMMELER › Mags from Ammo Box": "3",
+      "SMG-72 PUMMELER › Attacks › SMG-72 P": "Projectile",
+      "SMG-72 PUMMELER › Attacks › Stun Medium": "status",
+      "SMG-72 P › Projectile › Mass": "15 g",
+      "SMG-72 P › Projectile › Initial Velocity": "210 m/s",
+      "SMG-72 P › Projectile › Drag Factor": "120%",
+      "SMG-72 P › Projectile › Gravity Factor": "100%",
+      "SMG-72 P › Projectile › Penetration Slowdown": "25%",
+      "SMG-72 P › Damage › Standard": "85 Ballistic",
+      "SMG-72 P › Damage › vs. Durable": "17 Ballistic",
+      "SMG-72 P › Penetration › Direct": "Light",
+      "SMG-72 P › Penetration › Slight Angle": "Light",
+      "SMG-72 P › Penetration › Large Angle": "Light",
+      "SMG-72 P › Penetration › Extreme Angle": "Unarmored",
+      "SMG-72 P › Special Effects › Status": "Stun Medium",
+      "SMG-72 P › Special Effects › Status Strength": "2",
+      "SMG-72 P › Special Effects › Demolition Force": "10",
+      "SMG-72 P › Special Effects › Stagger Force": "15",
+      "SMG-72 P › Special Effects › Push Force": "5",
+      "Stun Medium › Status › Status Duration": "3 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P2",
+      "warbondId": "polar-patriots",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 60
+      },
+      "rotating": null
+    }
+  }
+}

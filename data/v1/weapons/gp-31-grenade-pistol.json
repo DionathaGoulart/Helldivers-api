@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "gp-31-grenade-pistol",
+    "slug": "gp-31-grenade-pistol",
+    "name": "GP-31 Grenade Pistol",
+    "aliases": [],
+    "description": "The GP-31 Grenade Pistol is a Secondary Special single-shot weapon that fires a powerful grenades at a medium range.",
+    "image": null,
+    "wiki": {
+      "title": "GP-31 Grenade Pistol",
+      "url": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "one-handed",
+      "explosive"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [
+        900
+      ],
+      "dps": [],
+      "capacity": 1,
+      "spareMagazines": 6,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 4,
+      "magazinesFromAmmoBox": 2,
+      "recoil": 30.75,
+      "horizontalRecoil": 11.5,
+      "verticalRecoil": 50,
+      "spread": {
+        "horizontal": 30,
+        "vertical": 30
+      },
+      "sway": 1,
+      "ergonomics": 95,
+      "reloadKind": "magazine",
+      "reloadTimeS": 1.72,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "40mm HEAT GRENADE P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 250,
+          "durable": 250,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 50,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 40,
+          "push": 10
+        }
+      },
+      {
+        "name": "40mm HEAT GRENADE P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 400,
+          "durable": 400,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.25,
+          "outerRadiusM": 6.5,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Traits": "One Handed • Explosive",
+      "Standard Damage": "250 Projectile / 400 Explosion",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "900 rpm",
+      "Capacity": "1",
+      "Spare Rounds": "6",
+      "Supply Box Refill": "4",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "95",
+      "Recoil": "43",
+      "Reload Time": "1.72s",
+      "GP-31 GRENADE PISTOL › Fire Rate": "900 rpm",
+      "GP-31 GRENADE PISTOL › Recoil": "30.75",
+      "GP-31 GRENADE PISTOL › Horizontal Recoil": "11.5",
+      "GP-31 GRENADE PISTOL › Vertical Recoil": "50",
+      "GP-31 GRENADE PISTOL › Spread": "↔[30.00] ↕[30.00]",
+      "GP-31 GRENADE PISTOL › Sway": "1",
+      "GP-31 GRENADE PISTOL › Ergonomics": "95",
+      "GP-31 GRENADE PISTOL › Capacity": "1",
+      "GP-31 GRENADE PISTOL › Spare Rounds": "6",
+      "GP-31 GRENADE PISTOL › Starting Rounds": "4",
+      "GP-31 GRENADE PISTOL › Rounds from Supply": "4",
+      "GP-31 GRENADE PISTOL › Rounds from Ammo Box": "2",
+      "GP-31 GRENADE PISTOL › Attacks › 40mm HEAT GRENADE P": "Projectile",
+      "GP-31 GRENADE PISTOL › Attacks › 40mm HEAT GRENADE P IE": "Explosion",
+      "40mm HEAT GRENADE P › Projectile › Mass": "50 g",
+      "40mm HEAT GRENADE P › Projectile › Initial Velocity": "100 m/s",
+      "40mm HEAT GRENADE P › Projectile › Drag Factor": "120%",
+      "40mm HEAT GRENADE P › Projectile › Gravity Factor": "100%",
+      "40mm HEAT GRENADE P › Projectile › Penetration Slowdown": "25%",
+      "40mm HEAT GRENADE P › Projectile › Explosion On Impact": "40mm HEAT GRENADE_P_IE",
+      "40mm HEAT GRENADE P › Projectile › Explode After": "40mm HEAT GRENADE_P_IE",
+      "40mm HEAT GRENADE P › Damage › Standard": "250 Ballistic",
+      "40mm HEAT GRENADE P › Damage › vs. Durable": "250 Ballistic",
+      "40mm HEAT GRENADE P › Penetration › Direct": "Medium",
+      "40mm HEAT GRENADE P › Penetration › Slight Angle": "Medium",
+      "40mm HEAT GRENADE P › Penetration › Large Angle": "Medium",
+      "40mm HEAT GRENADE P › Penetration › Extreme Angle": "Unarmored",
+      "40mm HEAT GRENADE P › Special Effects › Demolition Force": "30",
+      "40mm HEAT GRENADE P › Special Effects › Stagger Force": "40",
+      "40mm HEAT GRENADE P › Special Effects › Push Force": "10",
+      "40mm HEAT GRENADE P IE › Area of Effect › Inner Radius": "2.25 m",
+      "40mm HEAT GRENADE P IE › Area of Effect › Outer Radius": "6.5 m",
+      "40mm HEAT GRENADE P IE › Area of Effect › Shockwave Radius": "8 m",
+      "40mm HEAT GRENADE P IE › Damage › Damage Element": "None",
+      "40mm HEAT GRENADE P IE › Damage › Inner Radius": "400 Explosion",
+      "40mm HEAT GRENADE P IE › Damage › Inner Durable": "400 Explosion",
+      "40mm HEAT GRENADE P IE › Damage › Outer Radius": "399 - 0",
+      "40mm HEAT GRENADE P IE › Damage › Outer Durable": "399 - 0",
+      "40mm HEAT GRENADE P IE › Penetration › Direct": "Medium",
+      "40mm HEAT GRENADE P IE › AoE Effect › Demolition Force": "30",
+      "40mm HEAT GRENADE P IE › AoE Effect › Stagger Force": "25",
+      "40mm HEAT GRENADE P IE › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P3",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 60
+      },
+      "rotating": null
+    }
+  }
+}

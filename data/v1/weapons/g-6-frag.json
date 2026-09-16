@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-6-frag",
+    "slug": "g-6-frag",
+    "name": "G-6 Frag",
+    "aliases": [],
+    "description": "The G-6 Frag is a Standard Throwable with a large explosive radius, producing shrapnel that can deal additional damage.",
+    "image": null,
+    "wiki": {
+      "title": "G-6 Frag",
+      "url": "https://helldivers.wiki.gg/wiki/G-6_Frag",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "standard",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "explosive"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 6,
+      "startingCount": 4,
+      "fromSupply": 4,
+      "fuseTimeS": 2.4,
+      "cookable": true
+    },
+    "attacks": [
+      {
+        "name": "G-6 FRAG E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 500,
+          "durable": 500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 4,
+          "outerRadiusM": 10,
+          "shockwaveRadiusM": 14
+        },
+        "forces": {
+          "demolition": 20,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "SHRAPNEL P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 110,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 30,
+          "dragFactorPct": 40,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 20
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "500 Explosion / 110 Shrapnel (x35)",
+      "Penetration": "Medium",
+      "Outer Radius": "10 m",
+      "Cookable": "Yes",
+      "Fuse Time": "2.4s",
+      "Capacity": "6",
+      "Trait(s)": "Medium Armor Penetrating • Explosive",
+      "G-6 FRAG › Throwables from Supply": "4",
+      "G-6 FRAG › Max Rounds": "6",
+      "G-6 FRAG › Starting Rounds": "4",
+      "G-6 FRAG › Attacks › G-6 FRAG E": "Explosion",
+      "G-6 FRAG › Attacks › SHRAPNEL P": "Projectile",
+      "G-6 FRAG E › Area of Effect › Inner Radius": "4 m",
+      "G-6 FRAG E › Area of Effect › Outer Radius": "10 m",
+      "G-6 FRAG E › Area of Effect › Shockwave Radius": "14 m",
+      "G-6 FRAG E › Area of Effect › Shrapnel Count": "35",
+      "G-6 FRAG E › Area of Effect › Shrapnel": "SHRAPNEL_P",
+      "G-6 FRAG E › Damage › Damage Element": "None",
+      "G-6 FRAG E › Damage › Inner Radius": "500 Explosion",
+      "G-6 FRAG E › Damage › Inner Durable": "500 Explosion",
+      "G-6 FRAG E › Damage › Outer Radius": "499 - 0",
+      "G-6 FRAG E › Damage › Outer Durable": "499 - 0",
+      "G-6 FRAG E › Penetration › Direct": "Medium",
+      "G-6 FRAG E › AoE Effect › Demolition Force": "20",
+      "G-6 FRAG E › AoE Effect › Stagger Force": "25",
+      "G-6 FRAG E › AoE Effect › Push Force": "40",
+      "SHRAPNEL P › Projectile › Mass": "100 g",
+      "SHRAPNEL P › Projectile › Initial Velocity": "30 m/s",
+      "SHRAPNEL P › Projectile › Drag Factor": "40%",
+      "SHRAPNEL P › Projectile › Gravity Factor": "100%",
+      "SHRAPNEL P › Projectile › Penetration Slowdown": "25%",
+      "SHRAPNEL P › Damage › Standard": "110 Ballistic",
+      "SHRAPNEL P › Damage › vs. Durable": "35 Ballistic",
+      "SHRAPNEL P › Penetration › Direct": "Medium",
+      "SHRAPNEL P › Penetration › Slight Angle": "Medium",
+      "SHRAPNEL P › Penetration › Large Angle": "Light",
+      "SHRAPNEL P › Penetration › Extreme Angle": "Unarmored",
+      "SHRAPNEL P › Special Effects › Demolition Force": "10",
+      "SHRAPNEL P › Special Effects › Stagger Force": "10",
+      "SHRAPNEL P › Special Effects › Push Force": "20"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P1",
+      "warbondId": "helldivers-mobilize",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ar-59-suppressor",
+    "slug": "ar-59-suppressor",
+    "name": "AR-59 Suppressor",
+    "aliases": [],
+    "description": "The AR-59 Suppressor is a Primary Assault Rifle, equipped with a suppressor for silent takedowns, especially suited to Stealth playstyles.",
+    "image": null,
+    "wiki": {
+      "title": "AR-59 Suppressor",
+      "url": "https://helldivers.wiki.gg/wiki/AR-59_Suppressor",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "light-armor-penetrating",
+      "suppressed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "auto"
+      ],
+      "fireRateRpm": [
+        850
+      ],
+      "dps": [
+        1133.34
+      ],
+      "capacity": 45,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 13.25,
+      "horizontalRecoil": 6.5,
+      "verticalRecoil": 20,
+      "spread": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "sway": 1,
+      "ergonomics": 60,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "5.5x50mm SUBSONIC P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 80,
+          "durable": 20,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 4.5,
+          "initialVelocityMps": 330,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 120,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "Semi • Auto",
+      "Traits": "Light Armor Penetrating • Suppressed",
+      "Standard Damage": "80 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "850 rpm",
+      "DPS": "1,133.34",
+      "Capacity": "45",
+      "Spare Mags": "8",
+      "Ergonomics": "60",
+      "Recoil": "13",
+      "Reload Time": "3s",
+      "AR-59 SUPPRESSOR › Fire Rate": "850 rpm",
+      "AR-59 SUPPRESSOR › Recoil": "13.25",
+      "AR-59 SUPPRESSOR › Horizontal Recoil": "6.5",
+      "AR-59 SUPPRESSOR › Vertical Recoil": "20",
+      "AR-59 SUPPRESSOR › Spread": "↔[2.00] ↕[2.00]",
+      "AR-59 SUPPRESSOR › Sway": "1",
+      "AR-59 SUPPRESSOR › Ergonomics": "60",
+      "AR-59 SUPPRESSOR › Capacity": "45",
+      "AR-59 SUPPRESSOR › Spare Magazines": "8",
+      "AR-59 SUPPRESSOR › Starting Magazines": "6",
+      "AR-59 SUPPRESSOR › Mags from Supply": "8",
+      "AR-59 SUPPRESSOR › Mags from Ammo Box": "4",
+      "AR-59 SUPPRESSOR › Attacks › 5.5x50mm SUBSONIC P": "Projectile",
+      "5.5x50mm SUBSONIC P › Projectile › Mass": "4.5 g",
+      "5.5x50mm SUBSONIC P › Projectile › Initial Velocity": "330 m/s",
+      "5.5x50mm SUBSONIC P › Projectile › Drag Factor": "30%",
+      "5.5x50mm SUBSONIC P › Projectile › Gravity Factor": "120%",
+      "5.5x50mm SUBSONIC P › Projectile › Penetration Slowdown": "25%",
+      "5.5x50mm SUBSONIC P › Damage › Standard": "80 Ballistic",
+      "5.5x50mm SUBSONIC P › Damage › vs. Durable": "20 Ballistic",
+      "5.5x50mm SUBSONIC P › Penetration › Direct": "Light",
+      "5.5x50mm SUBSONIC P › Penetration › Slight Angle": "Light",
+      "5.5x50mm SUBSONIC P › Penetration › Large Angle": "Light",
+      "5.5x50mm SUBSONIC P › Penetration › Extreme Angle": "Unarmored",
+      "5.5x50mm SUBSONIC P › Special Effects › Demolition Force": "10",
+      "5.5x50mm SUBSONIC P › Special Effects › Stagger Force": "10",
+      "5.5x50mm SUBSONIC P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P2",
+      "warbondId": "redacted-regiment",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

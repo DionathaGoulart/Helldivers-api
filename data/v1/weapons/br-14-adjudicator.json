@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "br-14-adjudicator",
+    "slug": "br-14-adjudicator",
+    "name": "BR-14 Adjudicator",
+    "aliases": [],
+    "description": "The BR-14 Adjudicator is a Primary Assault Rifle. It fires Medium armor penetrating rounds with high damage, but has a restricted magazine size and moderate recoil.",
+    "image": null,
+    "wiki": {
+      "title": "BR-14 Adjudicator",
+      "url": "https://helldivers.wiki.gg/wiki/BR-14_Adjudicator",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "medium-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "auto"
+      ],
+      "fireRateRpm": [
+        550
+      ],
+      "dps": [
+        870.83
+      ],
+      "capacity": 30,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 27,
+      "horizontalRecoil": 11.5,
+      "verticalRecoil": 42.5,
+      "spread": {
+        "horizontal": 1,
+        "vertical": 1
+      },
+      "sway": 1,
+      "ergonomics": 40,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.85
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "8x60mm FULL METAL JACKET P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 95,
+          "durable": 23,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "very_light"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 11,
+          "initialVelocityMps": 820,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 12
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "Semi • Auto",
+      "Traits": "Medium Armor Penetrating",
+      "Standard Damage": "95 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "550 rpm",
+      "DPS": "870.83",
+      "Capacity": "30",
+      "Spare Mags": "8",
+      "Ergonomics": "40",
+      "Recoil": "24",
+      "Reload Time": "3s",
+      "Tactical Reload Time": "1.85s",
+      "BR-14 ADJUDICATOR › Fire Rate": "550 rpm",
+      "BR-14 ADJUDICATOR › Recoil": "27",
+      "BR-14 ADJUDICATOR › Horizontal Recoil": "11.5",
+      "BR-14 ADJUDICATOR › Vertical Recoil": "42.5",
+      "BR-14 ADJUDICATOR › Spread": "↔[1.00] ↕[1.00]",
+      "BR-14 ADJUDICATOR › Sway": "1",
+      "BR-14 ADJUDICATOR › Ergonomics": "40",
+      "BR-14 ADJUDICATOR › Capacity": "30",
+      "BR-14 ADJUDICATOR › Spare Magazines": "8",
+      "BR-14 ADJUDICATOR › Starting Magazines": "6",
+      "BR-14 ADJUDICATOR › Mags from Supply": "8",
+      "BR-14 ADJUDICATOR › Mags from Ammo Box": "4",
+      "BR-14 ADJUDICATOR › Attacks › 8x60mm FULL METAL JACKET P": "Projectile",
+      "8x60mm FULL METAL JACKET P › Projectile › Mass": "11 g",
+      "8x60mm FULL METAL JACKET P › Projectile › Initial Velocity": "820 m/s",
+      "8x60mm FULL METAL JACKET P › Projectile › Drag Factor": "30%",
+      "8x60mm FULL METAL JACKET P › Projectile › Gravity Factor": "100%",
+      "8x60mm FULL METAL JACKET P › Projectile › Penetration Slowdown": "25%",
+      "8x60mm FULL METAL JACKET P › Damage › Standard": "95 Ballistic",
+      "8x60mm FULL METAL JACKET P › Damage › vs. Durable": "23 Ballistic",
+      "8x60mm FULL METAL JACKET P › Penetration › Direct": "Medium",
+      "8x60mm FULL METAL JACKET P › Penetration › Slight Angle": "Medium",
+      "8x60mm FULL METAL JACKET P › Penetration › Large Angle": "Medium",
+      "8x60mm FULL METAL JACKET P › Penetration › Extreme Angle": "Very Light",
+      "8x60mm FULL METAL JACKET P › Special Effects › Demolition Force": "10",
+      "8x60mm FULL METAL JACKET P › Special Effects › Stagger Force": "15",
+      "8x60mm FULL METAL JACKET P › Special Effects › Push Force": "12"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P1",
+      "warbondId": "democratic-detonation",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

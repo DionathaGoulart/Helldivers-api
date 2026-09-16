@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cqc-2-saber",
+    "slug": "cqc-2-saber",
+    "name": "CQC-2 Saber",
+    "aliases": [],
+    "description": "The CQC-2 Saber is a Melee Secondary Weapon. Attacking will rapidly swing the saber in a short range.",
+    "image": null,
+    "wiki": {
+      "title": "CQC-2 Saber",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-2_Saber",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "melee",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "one-handed",
+      "melee"
+    ],
+    "firearm": null,
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "Saber",
+        "kind": "melee",
+        "damage": {
+          "standard": 188,
+          "durable": 98,
+          "type": "Melee"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Melee",
+      "Traits": "Medium Armor Penetrating • One Handed • Melee",
+      "Standard Damage": "188 Melee",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "150",
+      "Capacity": "N/A",
+      "Ergonomics": "0",
+      "Recoil": "6",
+      "CQC-2 Saber › Fire Rate": "150 rpm",
+      "CQC-2 Saber › Recoil": "6",
+      "CQC-2 Saber › Ergonomics": "0",
+      "CQC-2 Saber › Attacks › Saber": "Damage",
+      "Saber › Damage › Element": "Melee",
+      "Saber › Damage › Standard": "188 Melee",
+      "Saber › Damage › vs. Durable": "98 Melee",
+      "Saber › Penetration › Direct": "Medium",
+      "Saber › Penetration › Slight Angle": "Unarmored",
+      "Saber › Penetration › Large Angle": "Unarmored",
+      "Saber › Penetration › Extreme Angle": "Unarmored",
+      "Saber › Special Effects › Demolition Force": "10",
+      "Saber › Special Effects › Stagger Force": "25",
+      "Saber › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P2",
+      "warbondId": "masters-of-ceremony",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

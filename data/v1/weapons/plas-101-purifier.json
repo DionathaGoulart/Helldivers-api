@@ -1,0 +1,278 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "plas-101-purifier",
+    "slug": "plas-101-purifier",
+    "name": "PLAS-101 Purifier",
+    "aliases": [],
+    "description": "The PLAS-101 Purifier is a Primary Energy-Based weapon that can fire variable-charge bolts of gas.",
+    "image": null,
+    "wiki": {
+      "title": "PLAS-101 Purifier",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "energy_based",
+    "traitIds": [
+      "chargeup",
+      "explosive",
+      "medium-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [
+        1000
+      ],
+      "dps": [
+        2916
+      ],
+      "capacity": 15,
+      "spareMagazines": 6,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 15.5,
+      "horizontalRecoil": 11,
+      "verticalRecoil": 20,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2.5
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "PLAS-101 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 100,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 25,
+          "initialVelocityMps": 350,
+          "dragFactorPct": 150,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      },
+      {
+        "name": "PLAS-101 P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 75,
+          "durable": 75,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 2,
+          "shockwaveRadiusM": 2
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 7
+        }
+      },
+      {
+        "name": "PLAS-101 CHARGED P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 200,
+          "durable": 100,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 25,
+          "initialVelocityMps": 550,
+          "dragFactorPct": 150,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      },
+      {
+        "name": "PLAS-101 CHARGED P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 300,
+          "durable": 300,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.9000001,
+          "outerRadiusM": 3,
+          "shockwaveRadiusM": 4
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Energy-Based",
+      "Traits": "Chargeup • Explosive • Medium Armor Penetrating",
+      "Standard Damage": "100 Uncharged Bolt / 75 Uncharged Explosion / 200 Charged Bolt / 300 Charged Explosion",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "1,000 rpm",
+      "DPS": "2916",
+      "Capacity": "15",
+      "Spare Mags": "6",
+      "Supply Box Refill": "6",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "65",
+      "Recoil": "20",
+      "Reload Time": "2.5s",
+      "Tactical Reload Time": "2.5s",
+      "PLAS-101 PURIFIER › Fire Rate": "1000 rpm",
+      "PLAS-101 PURIFIER › Recoil": "15.5",
+      "PLAS-101 PURIFIER › Horizontal Recoil": "11",
+      "PLAS-101 PURIFIER › Vertical Recoil": "20",
+      "PLAS-101 PURIFIER › Spread": "↔[10.00] ↕[10.00]",
+      "PLAS-101 PURIFIER › Sway": "1",
+      "PLAS-101 PURIFIER › Ergonomics": "65",
+      "PLAS-101 PURIFIER › Capacity": "15",
+      "PLAS-101 PURIFIER › Spare Magazines": "6",
+      "PLAS-101 PURIFIER › Starting Magazines": "4",
+      "PLAS-101 PURIFIER › Mags from Supply": "6",
+      "PLAS-101 PURIFIER › Mags from Ammo Box": "3",
+      "PLAS-101 PURIFIER › Charge › at (0.10)s": "PLAS-101_P× 0.50 dmg",
+      "PLAS-101 PURIFIER › Charge › at (1.00)s": "PLAS-101_Charged_P× 1.00 dmg",
+      "PLAS-101 PURIFIER › Charge › Speed Mult Range": "(1.00) (1.00)",
+      "PLAS-101 PURIFIER › Charge › Distance Mult Range": "(0.70) (1.40)",
+      "PLAS-101 PURIFIER › Charge › Damage Mult Range": "(0.50) (1.00)",
+      "PLAS-101 PURIFIER › Attacks › PLAS-101 P": "Projectile",
+      "PLAS-101 PURIFIER › Attacks › PLAS-101 CHARGED P": "Projectile",
+      "PLAS-101 PURIFIER › Attacks › PLAS-101 P IE": "Explosion",
+      "PLAS-101 PURIFIER › Attacks › PLAS-101 CHARGED P IE": "Explosion",
+      "PLAS-101 P › Projectile › Mass": "25 g",
+      "PLAS-101 P › Projectile › Initial Velocity": "350 m/s",
+      "PLAS-101 P › Projectile › Drag Factor": "150%",
+      "PLAS-101 P › Projectile › Gravity Factor": "100%",
+      "PLAS-101 P › Projectile › Penetration Slowdown": "35%",
+      "PLAS-101 P › Projectile › Explosion On Impact": "PLAS-101_P_IE",
+      "PLAS-101 P › Damage › Standard": "100 Ballistic",
+      "PLAS-101 P › Damage › vs. Durable": "50 Ballistic",
+      "PLAS-101 P › Penetration › Direct": "Medium",
+      "PLAS-101 P › Penetration › Slight Angle": "Medium",
+      "PLAS-101 P › Penetration › Large Angle": "Medium",
+      "PLAS-101 P › Penetration › Extreme Angle": "Unarmored",
+      "PLAS-101 P › Special Effects › Demolition Force": "10",
+      "PLAS-101 P › Special Effects › Stagger Force": "20",
+      "PLAS-101 P › Special Effects › Push Force": "10",
+      "PLAS-101 P IE › Area of Effect › Inner Radius": "1 m",
+      "PLAS-101 P IE › Area of Effect › Outer Radius": "2 m",
+      "PLAS-101 P IE › Area of Effect › Shockwave Radius": "2 m",
+      "PLAS-101 P IE › Damage › Damage Element": "None",
+      "PLAS-101 P IE › Damage › Inner Radius": "75 Explosion",
+      "PLAS-101 P IE › Damage › Inner Durable": "75 Explosion",
+      "PLAS-101 P IE › Damage › Outer Radius": "74 - 0",
+      "PLAS-101 P IE › Damage › Outer Durable": "74 - 0",
+      "PLAS-101 P IE › Penetration › Direct": "Medium",
+      "PLAS-101 P IE › AoE Effect › Demolition Force": "10",
+      "PLAS-101 P IE › AoE Effect › Stagger Force": "10",
+      "PLAS-101 P IE › AoE Effect › Push Force": "7",
+      "PLAS-101 CHARGED P › Projectile › Mass": "25 g",
+      "PLAS-101 CHARGED P › Projectile › Initial Velocity": "550 m/s",
+      "PLAS-101 CHARGED P › Projectile › Drag Factor": "150%",
+      "PLAS-101 CHARGED P › Projectile › Gravity Factor": "100%",
+      "PLAS-101 CHARGED P › Projectile › Penetration Slowdown": "35%",
+      "PLAS-101 CHARGED P › Projectile › Explosion On Impact": "PLAS-101_Charged_P_IE",
+      "PLAS-101 CHARGED P › Damage › Standard": "200 Ballistic",
+      "PLAS-101 CHARGED P › Damage › vs. Durable": "100 Ballistic",
+      "PLAS-101 CHARGED P › Penetration › Direct": "Medium",
+      "PLAS-101 CHARGED P › Penetration › Slight Angle": "Medium",
+      "PLAS-101 CHARGED P › Penetration › Large Angle": "Medium",
+      "PLAS-101 CHARGED P › Penetration › Extreme Angle": "Unarmored",
+      "PLAS-101 CHARGED P › Special Effects › Demolition Force": "10",
+      "PLAS-101 CHARGED P › Special Effects › Stagger Force": "20",
+      "PLAS-101 CHARGED P › Special Effects › Push Force": "10",
+      "PLAS-101 CHARGED P IE › Area of Effect › Inner Radius": "2.9000001 m",
+      "PLAS-101 CHARGED P IE › Area of Effect › Outer Radius": "3 m",
+      "PLAS-101 CHARGED P IE › Area of Effect › Shockwave Radius": "4 m",
+      "PLAS-101 CHARGED P IE › Damage › Damage Element": "None",
+      "PLAS-101 CHARGED P IE › Damage › Inner Radius": "300 Explosion",
+      "PLAS-101 CHARGED P IE › Damage › Inner Durable": "300 Explosion",
+      "PLAS-101 CHARGED P IE › Damage › Outer Radius": "299 - 0",
+      "PLAS-101 CHARGED P IE › Damage › Outer Durable": "299 - 0",
+      "PLAS-101 CHARGED P IE › Penetration › Direct": "Medium",
+      "PLAS-101 CHARGED P IE › Penetration › Slight Angle": "Medium",
+      "PLAS-101 CHARGED P IE › Penetration › Large Angle": "Medium",
+      "PLAS-101 CHARGED P IE › AoE Effect › Demolition Force": "10",
+      "PLAS-101 CHARGED P IE › AoE Effect › Stagger Force": "35",
+      "PLAS-101 CHARGED P IE › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P3",
+      "warbondId": "polar-patriots",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 80
+      },
+      "rotating": null
+    }
+  }
+}

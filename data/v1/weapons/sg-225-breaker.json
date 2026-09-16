@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sg-225-breaker",
+    "slug": "sg-225-breaker",
+    "name": "SG-225 Breaker",
+    "aliases": [],
+    "description": "The SG-225 Breaker is a fully-automatic, mag-fed Primary Shotgun that is able to dish out tremendous amounts of damage in a short period of time.",
+    "image": null,
+    "wiki": {
+      "title": "SG-225 Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "light-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi"
+      ],
+      "fireRateRpm": [
+        300
+      ],
+      "dps": [
+        1650
+      ],
+      "capacity": 16,
+      "spareMagazines": 7,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 7,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 43.25,
+      "horizontalRecoil": 29,
+      "verticalRecoil": 57.5,
+      "spread": {
+        "horizontal": 100,
+        "vertical": 100
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "12g BUCKSHOT P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 30,
+          "durable": 6,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 11,
+          "massG": 4,
+          "initialVelocityMps": 360,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 80
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Auto • Semi",
+      "Traits": "Light Armor Penetrating",
+      "Standard Damage": "330 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "300 rpm",
+      "DPS": "1,650",
+      "Capacity": "16",
+      "Spare Mags": "7",
+      "Supply Box Refill": "7",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "65",
+      "Recoil": "55",
+      "Reload Time": "2.5s",
+      "SG-225 BREAKER › Fire Rate": "300 rpm",
+      "SG-225 BREAKER › Recoil": "43.25",
+      "SG-225 BREAKER › Horizontal Recoil": "29",
+      "SG-225 BREAKER › Vertical Recoil": "57.5",
+      "SG-225 BREAKER › Spread": "↔[100.00] ↕[100.00]",
+      "SG-225 BREAKER › Sway": "1",
+      "SG-225 BREAKER › Ergonomics": "65",
+      "SG-225 BREAKER › Capacity": "16",
+      "SG-225 BREAKER › Spare Magazines": "7",
+      "SG-225 BREAKER › Starting Magazines": "5",
+      "SG-225 BREAKER › Mags from Supply": "7",
+      "SG-225 BREAKER › Mags from Ammo Box": "3",
+      "SG-225 BREAKER › Attacks › 12g BUCKSHOT P": "Projectile",
+      "12g BUCKSHOT P › Projectile › Pellets": "x 11",
+      "12g BUCKSHOT P › Projectile › Mass": "4 g",
+      "12g BUCKSHOT P › Projectile › Initial Velocity": "360 m/s",
+      "12g BUCKSHOT P › Projectile › Drag Factor": "50%",
+      "12g BUCKSHOT P › Projectile › Gravity Factor": "100%",
+      "12g BUCKSHOT P › Projectile › Penetration Slowdown": "80%",
+      "12g BUCKSHOT P › Damage › Standard": "30 Ballistic",
+      "12g BUCKSHOT P › Damage › vs. Durable": "6 Ballistic",
+      "12g BUCKSHOT P › Penetration › Direct": "Light",
+      "12g BUCKSHOT P › Penetration › Slight Angle": "Light",
+      "12g BUCKSHOT P › Penetration › Large Angle": "Light",
+      "12g BUCKSHOT P › Penetration › Extreme Angle": "Unarmored",
+      "12g BUCKSHOT P › Special Effects › Demolition Force": "10",
+      "12g BUCKSHOT P › Special Effects › Stagger Force": "15",
+      "12g BUCKSHOT P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P4",
+      "warbondId": "helldivers-mobilize",
+      "page": 4,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

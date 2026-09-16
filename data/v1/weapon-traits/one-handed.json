@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.7c155d29",
-    "generatedAt": "2026-09-15T15:42:33Z",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -20,7 +20,41 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#One_Handed",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "cb-9-exploding-crossbow",
+      "cqc-19-stun-lance",
+      "cqc-2-saber",
+      "cqc-30-stun-baton",
+      "cqc-42-machete",
+      "cqc-5-combat-hatchet",
+      "cqc-73-entrenchment-tool",
+      "gp-20-ultimatum",
+      "gp-31-grenade-pistol",
+      "las-58-talon",
+      "las-7-dagger",
+      "m6c-socom-pistol",
+      "m7s-smg",
+      "mp-98-knight",
+      "p-11-stim-pistol",
+      "p-113-verdict",
+      "p-19-redeemer",
+      "p-2-peacemaker",
+      "p-33-missile-pistol",
+      "p-34-breacher",
+      "p-35-re-educator",
+      "p-4-senator",
+      "p-40-k-bolt-pistol",
+      "p-69-veto",
+      "p-72-crisper",
+      "p-92-warrant",
+      "plas-15-loyalist",
+      "sg-22-bushwhacker",
+      "smg-203-gallant",
+      "smg-37-defender",
+      "smg-72-pummeler",
+      "smg-flam-34-stoker",
+      "sta-11-smg"
+    ],
     "stratagemIds": []
   }
 }

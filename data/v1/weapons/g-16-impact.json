@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-16-impact",
+    "slug": "g-16-impact",
+    "name": "G-16 Impact",
+    "aliases": [],
+    "description": "The G-16 Impact is a Special Throwable that explodes on impact with a surface or entity.",
+    "image": null,
+    "wiki": {
+      "title": "G-16 Impact",
+      "url": "https://helldivers.wiki.gg/wiki/G-16_Impact",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "heavy-armor-penetrating",
+      "explosive"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 5,
+      "startingCount": 4,
+      "fromSupply": 3,
+      "fuseTimeS": null,
+      "cookable": false
+    },
+    "attacks": [
+      {
+        "name": "G-16 IMPACT E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 400,
+          "durable": 400,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.5,
+          "outerRadiusM": 7,
+          "shockwaveRadiusM": 8
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 30,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "400 Explosion",
+      "Penetration": "Heavy",
+      "Outer Radius": "7",
+      "Cookable": "No",
+      "Fuse Time": "Impact",
+      "Capacity": "5",
+      "Trait(s)": "Heavy Armor Penetrating • Explosive",
+      "G-16 IMPACT › Throwables from Supply": "3",
+      "G-16 IMPACT › Max Rounds": "5",
+      "G-16 IMPACT › Starting Rounds": "4",
+      "G-16 IMPACT › Attacks › G-16 IMPACT E": "Explosion",
+      "G-16 IMPACT E › Area of Effect › Inner Radius": "2.5 m",
+      "G-16 IMPACT E › Area of Effect › Outer Radius": "7 m",
+      "G-16 IMPACT E › Area of Effect › Shockwave Radius": "8 m",
+      "G-16 IMPACT E › Damage › Damage Element": "None",
+      "G-16 IMPACT E › Damage › Inner Radius": "400 Explosion",
+      "G-16 IMPACT E › Damage › Inner Durable": "400 Explosion",
+      "G-16 IMPACT E › Damage › Outer Radius": "399 - 0",
+      "G-16 IMPACT E › Damage › Outer Durable": "399 - 0",
+      "G-16 IMPACT E › Penetration › Direct": "Heavy",
+      "G-16 IMPACT E › AoE Effect › Demolition Force": "30",
+      "G-16 IMPACT E › AoE Effect › Stagger Force": "30",
+      "G-16 IMPACT E › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P5",
+      "warbondId": "helldivers-mobilize",
+      "page": 5,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

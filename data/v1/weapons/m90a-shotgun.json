@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "m90a-shotgun",
+    "slug": "m90a-shotgun",
+    "name": "M90A Shotgun",
+    "aliases": [],
+    "description": "The M90A Shotgun is a Primary Shotgun, able to inflict extremely high damage per round in exchange for a significantly reduced magazine size.",
+    "image": null,
+    "wiki": {
+      "title": "M90A Shotgun",
+      "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "light-armor-penetrating",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        80
+      ],
+      "dps": [
+        806.67
+      ],
+      "capacity": 6,
+      "spareMagazines": 44,
+      "startingMagazines": 24,
+      "magazinesFromSupply": 44,
+      "magazinesFromAmmoBox": 22,
+      "recoil": 82.5,
+      "horizontalRecoil": 45,
+      "verticalRecoil": 120,
+      "spread": {
+        "horizontal": 120,
+        "vertical": 100
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 3.6,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "BUCKSHOT P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 55,
+          "durable": 20,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 11,
+          "massG": 6,
+          "initialVelocityMps": 385,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Semi",
+      "Traits": "Light Armor Penetrating • Rounds Reload",
+      "Standard Damage": "605 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "80 rpm",
+      "DPS": "806.67",
+      "Capacity": "6",
+      "Spare Shells": "44",
+      "Supply Box Refill": "44",
+      "Ammo Box Refill": "22",
+      "Ergonomics": "65",
+      "Recoil": "83",
+      "Rounds Reload Full Time": "3.6s",
+      "Reload Time For One Round": "1.5s (Empty) / 0.45s (Partial)",
+      "Reload Time for >1 Round": "0.4s",
+      "M90A SHOTGUN › Fire Rate": "80 rpm",
+      "M90A SHOTGUN › Recoil": "82.5",
+      "M90A SHOTGUN › Horizontal Recoil": "45",
+      "M90A SHOTGUN › Vertical Recoil": "120",
+      "M90A SHOTGUN › Spread": "↔[120.00] ↕[100.00]",
+      "M90A SHOTGUN › Sway": "1",
+      "M90A SHOTGUN › Ergonomics": "65",
+      "M90A SHOTGUN › Capacity": "6",
+      "M90A SHOTGUN › Spare Rounds": "44",
+      "M90A SHOTGUN › Starting Rounds": "24",
+      "M90A SHOTGUN › Rounds from Supply": "44",
+      "M90A SHOTGUN › Rounds from Ammo Box": "22",
+      "M90A SHOTGUN › Attacks › BUCKSHOT P": "Projectile",
+      "BUCKSHOT P › Projectile › Pellets": "x 11",
+      "BUCKSHOT P › Projectile › Mass": "6 g",
+      "BUCKSHOT P › Projectile › Initial Velocity": "385 m/s",
+      "BUCKSHOT P › Projectile › Drag Factor": "50%",
+      "BUCKSHOT P › Projectile › Gravity Factor": "100%",
+      "BUCKSHOT P › Projectile › Penetration Slowdown": "25%",
+      "BUCKSHOT P › Damage › Standard": "55 Ballistic",
+      "BUCKSHOT P › Damage › vs. Durable": "20 Ballistic",
+      "BUCKSHOT P › Penetration › Direct": "Light",
+      "BUCKSHOT P › Penetration › Slight Angle": "Light",
+      "BUCKSHOT P › Penetration › Large Angle": "Light",
+      "BUCKSHOT P › Penetration › Extreme Angle": "Unarmored",
+      "BUCKSHOT P › Special Effects › Demolition Force": "10",
+      "BUCKSHOT P › Special Effects › Stagger Force": "35",
+      "BUCKSHOT P › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P3",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

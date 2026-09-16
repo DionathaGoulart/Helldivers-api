@@ -1,0 +1,361 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "plas-15-loyalist",
+    "slug": "plas-15-loyalist",
+    "name": "PLAS-15 Loyalist",
+    "aliases": [],
+    "description": "The PLAS-15 Loyalist is a Secondary Special pistol that fires explosive plasma projectiles.",
+    "image": null,
+    "wiki": {
+      "title": "PLAS-15 Loyalist",
+      "url": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "one-handed",
+      "explosive",
+      "chargeup"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [
+        1000
+      ],
+      "dps": [],
+      "capacity": 8,
+      "spareMagazines": 5,
+      "startingMagazines": 3,
+      "magazinesFromSupply": 5,
+      "magazinesFromAmmoBox": 2,
+      "recoil": 6.25,
+      "horizontalRecoil": 2.5,
+      "verticalRecoil": 10,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 95,
+      "reloadKind": "magazine",
+      "reloadTimeS": 1.9,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.9
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "SMALL PLASMA BOLT P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 100,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 10,
+          "initialVelocityMps": 550,
+          "dragFactorPct": 100,
+          "gravityFactorPct": 50,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      },
+      {
+        "name": "SMALL PLASMA BOLT P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 25,
+          "durable": 25,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 0.75,
+          "outerRadiusM": 1.5,
+          "shockwaveRadiusM": 2
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 5
+        }
+      },
+      {
+        "name": "SMALL PLASMA BOLT P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 75,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 25,
+          "initialVelocityMps": 550,
+          "dragFactorPct": 150,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      },
+      {
+        "name": "SMALL PLASMA BOLT P1 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 75,
+          "durable": 75,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 2,
+          "shockwaveRadiusM": 2
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 7
+        }
+      },
+      {
+        "name": "SMALL PLASMA BOLT P2",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 75,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 25,
+          "initialVelocityMps": 350,
+          "dragFactorPct": 150,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 35
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 10
+        }
+      },
+      {
+        "name": "SMALL PLASMA BOLT P2 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 225,
+          "durable": 225,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.9000001,
+          "outerRadiusM": 3,
+          "shockwaveRadiusM": 4
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Traits": "Medium Armor Penetrating • One Handed • Explosive • Chargeup",
+      "Standard Damage": "75-150 Ballistic / 75-225 Explosion",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "1000 rpm",
+      "Capacity": "8",
+      "Spare Mags": "5",
+      "Supply Box Refill": "5",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "95",
+      "Recoil": "8",
+      "Reload Time": "1.9s",
+      "Tactical Reload Time": "1.9s",
+      "PLAS-15 LOYALIST › Fire Rate": "1000 rpm",
+      "PLAS-15 LOYALIST › Recoil": "6.25",
+      "PLAS-15 LOYALIST › Horizontal Recoil": "2.5",
+      "PLAS-15 LOYALIST › Vertical Recoil": "10",
+      "PLAS-15 LOYALIST › Spread": "↔[10.00] ↕[10.00]",
+      "PLAS-15 LOYALIST › Sway": "1",
+      "PLAS-15 LOYALIST › Ergonomics": "95",
+      "PLAS-15 LOYALIST › Capacity": "8",
+      "PLAS-15 LOYALIST › Spare Magazines": "5",
+      "PLAS-15 LOYALIST › Starting Magazines": "3",
+      "PLAS-15 LOYALIST › Mags from Supply": "5",
+      "PLAS-15 LOYALIST › Mags from Ammo Box": "2",
+      "PLAS-15 LOYALIST › Charge › at (0.01)s": "SMALL PLASMA BOLT_P1× 0.50 dmg",
+      "PLAS-15 LOYALIST › Charge › at (1.00)s": "SMALL PLASMA BOLT_P2× 0.67 dmg",
+      "PLAS-15 LOYALIST › Charge › at (3.00)s": "SMALL PLASMA BOLT_P2× 1.00 dmg",
+      "PLAS-15 LOYALIST › Charge › Speed Mult Range": "(1.00) (1.00)",
+      "PLAS-15 LOYALIST › Charge › Distance Mult Range": "(0.70) (1.40)",
+      "PLAS-15 LOYALIST › Charge › Damage Mult Range": "(0.50) (1.00)",
+      "PLAS-15 LOYALIST › Attacks › SMALL PLASMA BOLT P": "Projectile",
+      "PLAS-15 LOYALIST › Attacks › SMALL PLASMA BOLT P1": "Projectile",
+      "PLAS-15 LOYALIST › Attacks › SMALL PLASMA BOLT P2": "Projectile",
+      "PLAS-15 LOYALIST › Attacks › SMALL PLASMA BOLT P1 IE": "Explosion",
+      "PLAS-15 LOYALIST › Attacks › SMALL PLASMA BOLT P2 IE": "Explosion",
+      "PLAS-15 LOYALIST › Attacks › SMALL PLASMA BOLT P IE": "Explosion",
+      "SMALL PLASMA BOLT P › Projectile › Mass": "10 g",
+      "SMALL PLASMA BOLT P › Projectile › Initial Velocity": "550 m/s",
+      "SMALL PLASMA BOLT P › Projectile › Drag Factor": "100%",
+      "SMALL PLASMA BOLT P › Projectile › Gravity Factor": "50%",
+      "SMALL PLASMA BOLT P › Projectile › Penetration Slowdown": "35%",
+      "SMALL PLASMA BOLT P › Projectile › Explosion On Impact": "SMALL PLASMA BOLT_P_IE",
+      "SMALL PLASMA BOLT P › Damage › Standard": "100 Ballistic",
+      "SMALL PLASMA BOLT P › Damage › vs. Durable": "50 Ballistic",
+      "SMALL PLASMA BOLT P › Penetration › Direct": "Light",
+      "SMALL PLASMA BOLT P › Penetration › Slight Angle": "Light",
+      "SMALL PLASMA BOLT P › Penetration › Large Angle": "Light",
+      "SMALL PLASMA BOLT P › Penetration › Extreme Angle": "Unarmored",
+      "SMALL PLASMA BOLT P › Special Effects › Demolition Force": "10",
+      "SMALL PLASMA BOLT P › Special Effects › Stagger Force": "20",
+      "SMALL PLASMA BOLT P › Special Effects › Push Force": "10",
+      "SMALL PLASMA BOLT P IE › Area of Effect › Inner Radius": "0.75 m",
+      "SMALL PLASMA BOLT P IE › Area of Effect › Outer Radius": "1.5 m",
+      "SMALL PLASMA BOLT P IE › Area of Effect › Shockwave Radius": "2 m",
+      "SMALL PLASMA BOLT P IE › Damage › Damage Element": "None",
+      "SMALL PLASMA BOLT P IE › Damage › Inner Radius": "25 Explosion",
+      "SMALL PLASMA BOLT P IE › Damage › Inner Durable": "25 Explosion",
+      "SMALL PLASMA BOLT P IE › Damage › Outer Radius": "24 - 0",
+      "SMALL PLASMA BOLT P IE › Damage › Outer Durable": "24 - 0",
+      "SMALL PLASMA BOLT P IE › Penetration › Direct": "Medium",
+      "SMALL PLASMA BOLT P IE › AoE Effect › Demolition Force": "10",
+      "SMALL PLASMA BOLT P IE › AoE Effect › Stagger Force": "10",
+      "SMALL PLASMA BOLT P IE › AoE Effect › Push Force": "5",
+      "SMALL PLASMA BOLT P1 › Projectile › Mass": "25 g",
+      "SMALL PLASMA BOLT P1 › Projectile › Initial Velocity": "550 m/s",
+      "SMALL PLASMA BOLT P1 › Projectile › Drag Factor": "150%",
+      "SMALL PLASMA BOLT P1 › Projectile › Gravity Factor": "100%",
+      "SMALL PLASMA BOLT P1 › Projectile › Penetration Slowdown": "35%",
+      "SMALL PLASMA BOLT P1 › Projectile › Explosion On Impact": "SMALL PLASMA BOLT_P1_IE",
+      "SMALL PLASMA BOLT P1 › Damage › Standard": "150 Ballistic",
+      "SMALL PLASMA BOLT P1 › Damage › vs. Durable": "75 Ballistic",
+      "SMALL PLASMA BOLT P1 › Penetration › Direct": "Medium",
+      "SMALL PLASMA BOLT P1 › Penetration › Slight Angle": "Medium",
+      "SMALL PLASMA BOLT P1 › Penetration › Large Angle": "Medium",
+      "SMALL PLASMA BOLT P1 › Penetration › Extreme Angle": "Unarmored",
+      "SMALL PLASMA BOLT P1 › Special Effects › Demolition Force": "10",
+      "SMALL PLASMA BOLT P1 › Special Effects › Stagger Force": "20",
+      "SMALL PLASMA BOLT P1 › Special Effects › Push Force": "10",
+      "SMALL PLASMA BOLT P1 IE › Area of Effect › Inner Radius": "1 m",
+      "SMALL PLASMA BOLT P1 IE › Area of Effect › Outer Radius": "2 m",
+      "SMALL PLASMA BOLT P1 IE › Area of Effect › Shockwave Radius": "2 m",
+      "SMALL PLASMA BOLT P1 IE › Damage › Damage Element": "None",
+      "SMALL PLASMA BOLT P1 IE › Damage › Inner Radius": "75 Explosion",
+      "SMALL PLASMA BOLT P1 IE › Damage › Inner Durable": "75 Explosion",
+      "SMALL PLASMA BOLT P1 IE › Damage › Outer Radius": "74 - 0",
+      "SMALL PLASMA BOLT P1 IE › Damage › Outer Durable": "74 - 0",
+      "SMALL PLASMA BOLT P1 IE › Penetration › Direct": "Medium",
+      "SMALL PLASMA BOLT P1 IE › AoE Effect › Demolition Force": "10",
+      "SMALL PLASMA BOLT P1 IE › AoE Effect › Stagger Force": "10",
+      "SMALL PLASMA BOLT P1 IE › AoE Effect › Push Force": "7",
+      "SMALL PLASMA BOLT P2 › Projectile › Mass": "25 g",
+      "SMALL PLASMA BOLT P2 › Projectile › Initial Velocity": "350 m/s",
+      "SMALL PLASMA BOLT P2 › Projectile › Drag Factor": "150%",
+      "SMALL PLASMA BOLT P2 › Projectile › Gravity Factor": "100%",
+      "SMALL PLASMA BOLT P2 › Projectile › Penetration Slowdown": "35%",
+      "SMALL PLASMA BOLT P2 › Projectile › Explosion On Impact": "SMALL PLASMA BOLT_P2_IE",
+      "SMALL PLASMA BOLT P2 › Damage › Standard": "150 Ballistic",
+      "SMALL PLASMA BOLT P2 › Damage › vs. Durable": "75 Ballistic",
+      "SMALL PLASMA BOLT P2 › Penetration › Direct": "Medium",
+      "SMALL PLASMA BOLT P2 › Penetration › Slight Angle": "Medium",
+      "SMALL PLASMA BOLT P2 › Penetration › Large Angle": "Medium",
+      "SMALL PLASMA BOLT P2 › Penetration › Extreme Angle": "Unarmored",
+      "SMALL PLASMA BOLT P2 › Special Effects › Demolition Force": "10",
+      "SMALL PLASMA BOLT P2 › Special Effects › Stagger Force": "20",
+      "SMALL PLASMA BOLT P2 › Special Effects › Push Force": "10",
+      "SMALL PLASMA BOLT P2 IE › Area of Effect › Inner Radius": "2.9000001 m",
+      "SMALL PLASMA BOLT P2 IE › Area of Effect › Outer Radius": "3 m",
+      "SMALL PLASMA BOLT P2 IE › Area of Effect › Shockwave Radius": "4 m",
+      "SMALL PLASMA BOLT P2 IE › Damage › Damage Element": "None",
+      "SMALL PLASMA BOLT P2 IE › Damage › Inner Radius": "225 Explosion",
+      "SMALL PLASMA BOLT P2 IE › Damage › Inner Durable": "225 Explosion",
+      "SMALL PLASMA BOLT P2 IE › Damage › Outer Radius": "224 - 0",
+      "SMALL PLASMA BOLT P2 IE › Damage › Outer Durable": "224 - 0",
+      "SMALL PLASMA BOLT P2 IE › Penetration › Direct": "Medium",
+      "SMALL PLASMA BOLT P2 IE › Penetration › Slight Angle": "Medium",
+      "SMALL PLASMA BOLT P2 IE › Penetration › Large Angle": "Medium",
+      "SMALL PLASMA BOLT P2 IE › AoE Effect › Demolition Force": "10",
+      "SMALL PLASMA BOLT P2 IE › AoE Effect › Stagger Force": "35",
+      "SMALL PLASMA BOLT P2 IE › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Truth Enforcers P3",
+      "warbondId": "truth-enforcers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

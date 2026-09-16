@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sta-52-assault-rifle",
+    "slug": "sta-52-assault-rifle",
+    "name": "StA-52 Assault Rifle",
+    "aliases": [],
+    "description": "The StA-52 Assault Rifle is a Primary Assault Rifle with a drum magazine. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
+    "image": null,
+    "wiki": {
+      "title": "StA-52 Assault Rifle",
+      "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "light-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi"
+      ],
+      "fireRateRpm": [
+        790
+      ],
+      "dps": [
+        1185
+      ],
+      "capacity": 56,
+      "spareMagazines": 6,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 14,
+      "horizontalRecoil": 8,
+      "verticalRecoil": 20,
+      "spread": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "sway": 1,
+      "ergonomics": 55,
+      "reloadKind": "magazine",
+      "reloadTimeS": 4.2,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2.5
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "5.5x50mm FULL METAL JACKET P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 22,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 4.5,
+          "initialVelocityMps": 900,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "Auto • Semi",
+      "Traits": "Light Armor Penetrating",
+      "Standard Damage": "90 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "790 rpm",
+      "DPS": "1,185",
+      "Capacity": "56",
+      "Spare Mags": "6",
+      "Supply Box Refill": "6",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "55",
+      "Recoil": "14",
+      "Reload Time": "4.2s",
+      "Tactical Reload Time": "2.5s",
+      "STA-52 ASSAULT RIFLE › Fire Rate": "790 rpm",
+      "STA-52 ASSAULT RIFLE › Recoil": "14",
+      "STA-52 ASSAULT RIFLE › Horizontal Recoil": "8",
+      "STA-52 ASSAULT RIFLE › Vertical Recoil": "20",
+      "STA-52 ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
+      "STA-52 ASSAULT RIFLE › Sway": "1",
+      "STA-52 ASSAULT RIFLE › Ergonomics": "55",
+      "STA-52 ASSAULT RIFLE › Capacity": "56",
+      "STA-52 ASSAULT RIFLE › Spare Magazines": "6",
+      "STA-52 ASSAULT RIFLE › Starting Magazines": "4",
+      "STA-52 ASSAULT RIFLE › Mags from Supply": "6",
+      "STA-52 ASSAULT RIFLE › Mags from Ammo Box": "3",
+      "STA-52 ASSAULT RIFLE › Attacks › 5.5x50mm FULL METAL JACKET P": "Projectile",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Mass": "4.5 g",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Initial Velocity": "900 m/s",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Drag Factor": "30%",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Gravity Factor": "100%",
+      "5.5x50mm FULL METAL JACKET P › Projectile › Penetration Slowdown": "25%",
+      "5.5x50mm FULL METAL JACKET P › Damage › Standard": "90 Ballistic",
+      "5.5x50mm FULL METAL JACKET P › Damage › vs. Durable": "22 Ballistic",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Direct": "Light",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Slight Angle": "Light",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Large Angle": "Light",
+      "5.5x50mm FULL METAL JACKET P › Penetration › Extreme Angle": "Unarmored",
+      "5.5x50mm FULL METAL JACKET P › Special Effects › Demolition Force": "10",
+      "5.5x50mm FULL METAL JACKET P › Special Effects › Stagger Force": "15",
+      "5.5x50mm FULL METAL JACKET P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P1",
+      "warbondId": "righteous-revenants",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

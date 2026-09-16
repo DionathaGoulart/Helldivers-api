@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sg-225sp-breaker-spray-pray",
+    "slug": "sg-225sp-breaker-spray-pray",
+    "name": "SG-225SP Breaker Spray&Pray",
+    "aliases": [],
+    "description": "The SG-225SP Breaker Spray&Pray is a fully-automatic Primary Shotgun, a variant of the standard Breaker that fires a wide and mostly horizontal spread of birdshot pellets.",
+    "image": null,
+    "wiki": {
+      "title": "SG-225SP Breaker Spray&Pray",
+      "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "light-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi"
+      ],
+      "fireRateRpm": [
+        330
+      ],
+      "dps": [
+        1320
+      ],
+      "capacity": 26,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 40,
+      "horizontalRecoil": 35,
+      "verticalRecoil": 45,
+      "spread": {
+        "horizontal": 200,
+        "vertical": 200
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "12g BIRDSHOT P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 15,
+          "durable": 4,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 16,
+          "massG": 1,
+          "initialVelocityMps": 250,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 80
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 3,
+          "push": 1
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Auto • Semi",
+      "Traits": "Light Armor Penetrating",
+      "Standard Damage": "240 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "330 rpm",
+      "DPS": "1,320",
+      "Capacity": "26",
+      "Spare Mags": "8",
+      "Supply Box Refill": "8",
+      "Ammo Box Refill": "4",
+      "Ergonomics": "65",
+      "Recoil": "45",
+      "Reload Time": "3s",
+      "SG-225SP BREAKER SPRAY&PRAY › Fire Rate": "330 rpm",
+      "SG-225SP BREAKER SPRAY&PRAY › Recoil": "40",
+      "SG-225SP BREAKER SPRAY&PRAY › Horizontal Recoil": "35",
+      "SG-225SP BREAKER SPRAY&PRAY › Vertical Recoil": "45",
+      "SG-225SP BREAKER SPRAY&PRAY › Spread": "↔[200.00] ↕[200.00]",
+      "SG-225SP BREAKER SPRAY&PRAY › Sway": "1",
+      "SG-225SP BREAKER SPRAY&PRAY › Ergonomics": "65",
+      "SG-225SP BREAKER SPRAY&PRAY › Capacity": "26",
+      "SG-225SP BREAKER SPRAY&PRAY › Spare Magazines": "8",
+      "SG-225SP BREAKER SPRAY&PRAY › Starting Magazines": "6",
+      "SG-225SP BREAKER SPRAY&PRAY › Mags from Supply": "8",
+      "SG-225SP BREAKER SPRAY&PRAY › Mags from Ammo Box": "4",
+      "SG-225SP BREAKER SPRAY&PRAY › Attacks › 12g BIRDSHOT P": "Projectile",
+      "12g BIRDSHOT P › Projectile › Pellets": "x 16",
+      "12g BIRDSHOT P › Projectile › Mass": "1 g",
+      "12g BIRDSHOT P › Projectile › Initial Velocity": "250 m/s",
+      "12g BIRDSHOT P › Projectile › Drag Factor": "50%",
+      "12g BIRDSHOT P › Projectile › Gravity Factor": "100%",
+      "12g BIRDSHOT P › Projectile › Penetration Slowdown": "80%",
+      "12g BIRDSHOT P › Damage › Standard": "15 Ballistic",
+      "12g BIRDSHOT P › Damage › vs. Durable": "4 Ballistic",
+      "12g BIRDSHOT P › Penetration › Direct": "Light",
+      "12g BIRDSHOT P › Penetration › Slight Angle": "Light",
+      "12g BIRDSHOT P › Penetration › Large Angle": "Light",
+      "12g BIRDSHOT P › Penetration › Extreme Angle": "Unarmored",
+      "12g BIRDSHOT P › Special Effects › Demolition Force": "10",
+      "12g BIRDSHOT P › Special Effects › Stagger Force": "3",
+      "12g BIRDSHOT P › Special Effects › Push Force": "1"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P9",
+      "warbondId": "helldivers-mobilize",
+      "page": 9,
+      "cost": {
+        "currency": "medals",
+        "amount": 60
+      },
+      "rotating": null
+    }
+  }
+}

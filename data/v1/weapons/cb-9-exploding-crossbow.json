@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cb-9-exploding-crossbow",
+    "slug": "cb-9-exploding-crossbow",
+    "name": "CB-9 Exploding Crossbow",
+    "aliases": [],
+    "description": "The CB-9 Exploding Crossbow is a Primary Explosive weapon. It fires explosive-tipped crossbow bolts that deal damage in an area.",
+    "image": null,
+    "wiki": {
+      "title": "CB-9 Exploding Crossbow",
+      "url": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "explosive",
+    "traitIds": [
+      "explosive",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [
+        50
+      ],
+      "dps": [
+        516
+      ],
+      "capacity": 5,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 26.25,
+      "horizontalRecoil": 17.5,
+      "verticalRecoil": 35,
+      "spread": {
+        "horizontal": 0.5,
+        "vertical": 0.5
+      },
+      "sway": 1,
+      "ergonomics": 45,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3.33,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 3.33
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "CB-9 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 270,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 100,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 100,
+          "gravityFactorPct": 50,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "CB-9 P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 350,
+          "durable": 350,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 20,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Explosives",
+      "Traits": "Explosive • One Handed",
+      "Standard Damage": "270 Projectile / 350 Explosion",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "50 rpm",
+      "DPS": "516",
+      "Capacity": "5",
+      "Spare Mags": "8 Clips",
+      "Ergonomics": "45",
+      "Recoil": "35",
+      "Reload Time": "3.33s",
+      "Tactical Reload Time": "3.33s",
+      "CB-9 EXPLODING CROSSBOW › Fire Rate": "50 rpm",
+      "CB-9 EXPLODING CROSSBOW › Recoil": "26.25",
+      "CB-9 EXPLODING CROSSBOW › Horizontal Recoil": "17.5",
+      "CB-9 EXPLODING CROSSBOW › Vertical Recoil": "35",
+      "CB-9 EXPLODING CROSSBOW › Spread": "↔[0.50] ↕[0.50]",
+      "CB-9 EXPLODING CROSSBOW › Sway": "1",
+      "CB-9 EXPLODING CROSSBOW › Ergonomics": "45",
+      "CB-9 EXPLODING CROSSBOW › Capacity": "5",
+      "CB-9 EXPLODING CROSSBOW › Spare Magazines": "8",
+      "CB-9 EXPLODING CROSSBOW › Starting Magazines": "6",
+      "CB-9 EXPLODING CROSSBOW › Mags from Supply": "8",
+      "CB-9 EXPLODING CROSSBOW › Mags from Ammo Box": "4",
+      "CB-9 EXPLODING CROSSBOW › Attacks › CB-9 P": "Projectile",
+      "CB-9 EXPLODING CROSSBOW › Attacks › CB-9 P IE": "Explosion",
+      "CB-9 P › Projectile › Mass": "100 g",
+      "CB-9 P › Projectile › Initial Velocity": "100 m/s",
+      "CB-9 P › Projectile › Drag Factor": "100%",
+      "CB-9 P › Projectile › Gravity Factor": "50%",
+      "CB-9 P › Projectile › Penetration Slowdown": "25%",
+      "CB-9 P › Projectile › Explosion On Impact": "CB-9_P_IE",
+      "CB-9 P › Damage › Standard": "270 Ballistic",
+      "CB-9 P › Damage › vs. Durable": "50 Ballistic",
+      "CB-9 P › Penetration › Direct": "Medium",
+      "CB-9 P › Penetration › Slight Angle": "Medium",
+      "CB-9 P › Penetration › Large Angle": "Medium",
+      "CB-9 P › Penetration › Extreme Angle": "Unarmored",
+      "CB-9 P › Special Effects › Demolition Force": "30",
+      "CB-9 P › Special Effects › Stagger Force": "30",
+      "CB-9 P › Special Effects › Push Force": "10",
+      "CB-9 P IE › Area of Effect › Inner Radius": "3 m",
+      "CB-9 P IE › Area of Effect › Outer Radius": "6 m",
+      "CB-9 P IE › Area of Effect › Shockwave Radius": "7 m",
+      "CB-9 P IE › Damage › Damage Element": "None",
+      "CB-9 P IE › Damage › Inner Radius": "350 Explosion",
+      "CB-9 P IE › Damage › Inner Durable": "350 Explosion",
+      "CB-9 P IE › Damage › Outer Radius": "349 - 0",
+      "CB-9 P IE › Damage › Outer Durable": "349 - 0",
+      "CB-9 P IE › Penetration › Direct": "Medium",
+      "CB-9 P IE › Penetration › Slight Angle": "Medium",
+      "CB-9 P IE › Penetration › Large Angle": "Medium",
+      "CB-9 P IE › AoE Effect › Demolition Force": "20",
+      "CB-9 P IE › AoE Effect › Stagger Force": "25",
+      "CB-9 P IE › AoE Effect › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P3",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 80
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sg-97-sweeper",
+    "slug": "sg-97-sweeper",
+    "name": "SG-97 Sweeper",
+    "aliases": [],
+    "description": "The SG-97 Sweeper is a Primary Shotgun with Medium armor penetrating flechettes, able to inflict high damage per round in exchange for a significantly reduced magazine size. It is affixed with a bayonet, improving melee damage and range.",
+    "image": null,
+    "wiki": {
+      "title": "SG-97 Sweeper",
+      "url": "https://helldivers.wiki.gg/wiki/SG-97_Sweeper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto"
+      ],
+      "fireRateRpm": [
+        150
+      ],
+      "dps": [
+        1260
+      ],
+      "capacity": 7,
+      "spareMagazines": 70,
+      "startingMagazines": 46,
+      "magazinesFromSupply": 70,
+      "magazinesFromAmmoBox": 35,
+      "recoil": 76.25,
+      "horizontalRecoil": 57.5,
+      "verticalRecoil": 95,
+      "spread": {
+        "horizontal": 125,
+        "vertical": 105
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 4,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "SG-97 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 42,
+          "durable": 11,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 12,
+          "massG": 10,
+          "initialVelocityMps": 385,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 20
+        }
+      },
+      {
+        "name": "Bayonet Melee",
+        "kind": "melee",
+        "damage": {
+          "standard": 165,
+          "durable": 83,
+          "type": "Melee"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Auto",
+      "Traits": "Medium Armor Penetrating • Rounds Reload",
+      "Standard Damage": "504 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "150 rpm",
+      "DPS": "1,260",
+      "Capacity": "7",
+      "Spare Shells": "70",
+      "Supply Box Refill": "70",
+      "Ammo Box Refill": "35",
+      "Ergonomics": "65",
+      "Recoil": "76",
+      "Rounds Reload Full Time": "4s",
+      "Reload Time For One Round": "1.5s (Empty) / 0.43s (Partial)",
+      "Reload Time for >1 Round": "0.43s",
+      "SG-97 SWEEPER › Fire Rate": "150 rpm",
+      "SG-97 SWEEPER › Recoil": "76.25",
+      "SG-97 SWEEPER › Horizontal Recoil": "57.5",
+      "SG-97 SWEEPER › Vertical Recoil": "95",
+      "SG-97 SWEEPER › Spread": "↔[125.00] ↕[105.00]",
+      "SG-97 SWEEPER › Sway": "1",
+      "SG-97 SWEEPER › Ergonomics": "65",
+      "SG-97 SWEEPER › Capacity": "7",
+      "SG-97 SWEEPER › Spare Rounds": "70",
+      "SG-97 SWEEPER › Starting Rounds": "46",
+      "SG-97 SWEEPER › Rounds from Supply": "70",
+      "SG-97 SWEEPER › Rounds from Ammo Box": "35",
+      "SG-97 SWEEPER › Attacks › SG-97 P": "Projectile",
+      "SG-97 P › Projectile › Pellets": "x 12",
+      "SG-97 P › Projectile › Mass": "10 g",
+      "SG-97 P › Projectile › Initial Velocity": "385 m/s",
+      "SG-97 P › Projectile › Drag Factor": "30%",
+      "SG-97 P › Projectile › Gravity Factor": "100%",
+      "SG-97 P › Projectile › Penetration Slowdown": "25%",
+      "SG-97 P › Damage › Standard": "42 Ballistic",
+      "SG-97 P › Damage › vs. Durable": "11 Ballistic",
+      "SG-97 P › Penetration › Direct": "Medium",
+      "SG-97 P › Penetration › Slight Angle": "Medium",
+      "SG-97 P › Penetration › Large Angle": "Medium",
+      "SG-97 P › Penetration › Extreme Angle": "Unarmored",
+      "SG-97 P › Special Effects › Demolition Force": "10",
+      "SG-97 P › Special Effects › Stagger Force": "20",
+      "SG-97 P › Special Effects › Push Force": "20",
+      "Bayonet Melee › Damage › Element": "Melee",
+      "Bayonet Melee › Damage › Standard": "165 Melee",
+      "Bayonet Melee › Damage › vs. Durable": "83 Melee",
+      "Bayonet Melee › Penetration › Direct": "Medium",
+      "Bayonet Melee › Penetration › Slight Angle": "Unarmored",
+      "Bayonet Melee › Penetration › Large Angle": "Unarmored",
+      "Bayonet Melee › Penetration › Extreme Angle": "Unarmored",
+      "Bayonet Melee › Special Effects › Demolition Force": "10",
+      "Bayonet Melee › Special Effects › Stagger Force": "25",
+      "Bayonet Melee › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 400
+      },
+      "rotating": false
+    }
+  }
+}

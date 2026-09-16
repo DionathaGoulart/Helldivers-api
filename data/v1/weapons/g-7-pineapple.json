@@ -1,0 +1,190 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-7-pineapple",
+    "slug": "g-7-pineapple",
+    "name": "G-7 Pineapple",
+    "aliases": [],
+    "description": "The G-7 Pineapple is a Standard Throwable that explodes into several bomblets with shrapnel, able to inflict damage over a large area.",
+    "image": null,
+    "wiki": {
+      "title": "G-7 Pineapple",
+      "url": "https://helldivers.wiki.gg/wiki/G-7_Pineapple",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "standard",
+    "traitIds": [
+      "explosive"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 5,
+      "startingCount": 4,
+      "fromSupply": 3,
+      "fuseTimeS": 2.4,
+      "cookable": true
+    },
+    "attacks": [
+      {
+        "name": "G-7 PINEAPPLE E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 300,
+          "durable": 300,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 4,
+          "outerRadiusM": 10,
+          "shockwaveRadiusM": 14
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 300,
+          "durable": 300,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 150,
+          "initialVelocityMps": 25,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 400,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 40
+        }
+      },
+      {
+        "name": "CLUSTER BOMB P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2.5,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 14
+        },
+        "forces": {
+          "demolition": 20,
+          "stagger": 25,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "300 Explosion (Grenade) / 300 Ballistic (Bomblets / 100 Explosion x18)",
+      "Penetration": "Medium",
+      "Outer Radius": "10m",
+      "Cookable": "Yes",
+      "Fuse Time": "2.4s",
+      "Capacity": "5",
+      "Trait(s)": "Explosive",
+      "G-7 PINEAPPLE › Throwables from Supply": "3",
+      "G-7 PINEAPPLE › Max Rounds": "5",
+      "G-7 PINEAPPLE › Starting Rounds": "4",
+      "G-7 PINEAPPLE › Attacks › G-7 PINEAPPLE E": "Explosion",
+      "G-7 PINEAPPLE › Attacks › CLUSTER BOMB P": "Projectile",
+      "G-7 PINEAPPLE › Attacks › CLUSTER BOMB P IE": "Explosion",
+      "G-7 PINEAPPLE E › Area of Effect › Inner Radius": "4 m",
+      "G-7 PINEAPPLE E › Area of Effect › Outer Radius": "10 m",
+      "G-7 PINEAPPLE E › Area of Effect › Shockwave Radius": "14 m",
+      "G-7 PINEAPPLE E › Area of Effect › Shrapnel Count": "18",
+      "G-7 PINEAPPLE E › Area of Effect › Shrapnel": "CLUSTER BOMB_P",
+      "G-7 PINEAPPLE E › Damage › Damage Element": "None",
+      "G-7 PINEAPPLE E › Damage › Inner Radius": "300 Explosion",
+      "G-7 PINEAPPLE E › Damage › Inner Durable": "300 Explosion",
+      "G-7 PINEAPPLE E › Damage › Outer Radius": "299 - 0",
+      "G-7 PINEAPPLE E › Damage › Outer Durable": "299 - 0",
+      "G-7 PINEAPPLE E › Penetration › Direct": "Medium",
+      "G-7 PINEAPPLE E › AoE Effect › Demolition Force": "30",
+      "G-7 PINEAPPLE E › AoE Effect › Stagger Force": "25",
+      "G-7 PINEAPPLE E › AoE Effect › Push Force": "40",
+      "CLUSTER BOMB P › Projectile › Mass": "150 g",
+      "CLUSTER BOMB P › Projectile › Initial Velocity": "25 m/s",
+      "CLUSTER BOMB P › Projectile › Drag Factor": "50%",
+      "CLUSTER BOMB P › Projectile › Gravity Factor": "400%",
+      "CLUSTER BOMB P › Projectile › Penetration Slowdown": "25%",
+      "CLUSTER BOMB P › Projectile › Explosion On Impact": "CLUSTER BOMB_P_IE",
+      "CLUSTER BOMB P › Projectile › Explode After": "CLUSTER BOMB_P_IE",
+      "CLUSTER BOMB P › Damage › Standard": "300 Ballistic",
+      "CLUSTER BOMB P › Damage › vs. Durable": "300 Ballistic",
+      "CLUSTER BOMB P › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P › Penetration › Slight Angle": "Unarmored",
+      "CLUSTER BOMB P › Penetration › Large Angle": "Unarmored",
+      "CLUSTER BOMB P › Penetration › Extreme Angle": "Unarmored",
+      "CLUSTER BOMB P › Special Effects › Demolition Force": "30",
+      "CLUSTER BOMB P › Special Effects › Stagger Force": "25",
+      "CLUSTER BOMB P › Special Effects › Push Force": "40",
+      "CLUSTER BOMB P IE › Area of Effect › Inner Radius": "2.5 m",
+      "CLUSTER BOMB P IE › Area of Effect › Outer Radius": "5 m",
+      "CLUSTER BOMB P IE › Area of Effect › Shockwave Radius": "14 m",
+      "CLUSTER BOMB P IE › Damage › Damage Element": "None",
+      "CLUSTER BOMB P IE › Damage › Inner Radius": "100 Explosion",
+      "CLUSTER BOMB P IE › Damage › Inner Durable": "100 Explosion",
+      "CLUSTER BOMB P IE › Damage › Outer Radius": "99 - 0",
+      "CLUSTER BOMB P IE › Damage › Outer Durable": "99 - 0",
+      "CLUSTER BOMB P IE › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P IE › AoE Effect › Demolition Force": "20",
+      "CLUSTER BOMB P IE › AoE Effect › Stagger Force": "25",
+      "CLUSTER BOMB P IE › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Dust Devils P3",
+      "warbondId": "dust-devils",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

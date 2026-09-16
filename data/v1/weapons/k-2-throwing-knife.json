@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "k-2-throwing-knife",
+    "slug": "k-2-throwing-knife",
+    "name": "K-2 Throwing Knife",
+    "aliases": [],
+    "description": "The K-2 Throwing Knife is a Special Throwable that can be used for silent takedowns, especially suited to Stealth playstyles.",
+    "image": null,
+    "wiki": {
+      "title": "K-2 Throwing Knife",
+      "url": "https://helldivers.wiki.gg/wiki/K-2_Throwing_Knife",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "medium-armor-penetrating"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 20,
+      "startingCount": 10,
+      "fromSupply": 20,
+      "fuseTimeS": null,
+      "cookable": false
+    },
+    "attacks": [
+      {
+        "name": "K-2 THROWING KNIFE_dm",
+        "kind": "other",
+        "damage": {
+          "standard": 300,
+          "durable": 150,
+          "type": "Damage"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "medium"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 5
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "300 Ballistic",
+      "Penetration": "Medium",
+      "Outer Radius": "N/A",
+      "Cookable": "No",
+      "Fuse Time": "N/A",
+      "Capacity": "20",
+      "Trait(s)": "Medium Armor Penetrating",
+      "K-2 THROWING KNIFE › Throwables from Supply": "20",
+      "K-2 THROWING KNIFE › Max Rounds": "20",
+      "K-2 THROWING KNIFE › Starting Rounds": "10",
+      "K-2 THROWING KNIFE › Attacks › K-2 THROWING KNIFE_dm": "Damage",
+      "K-2 THROWING KNIFE_dm › Damage › Standard": "300 Damage",
+      "K-2 THROWING KNIFE_dm › Damage › vs. Durable": "150 Damage",
+      "K-2 THROWING KNIFE_dm › Penetration › Direct": "Medium",
+      "K-2 THROWING KNIFE_dm › Penetration › Slight Angle": "Medium",
+      "K-2 THROWING KNIFE_dm › Penetration › Large Angle": "Medium",
+      "K-2 THROWING KNIFE_dm › Penetration › Extreme Angle": "Medium",
+      "K-2 THROWING KNIFE_dm › Special Effects › Demolition Force": "10",
+      "K-2 THROWING KNIFE_dm › Special Effects › Stagger Force": "35",
+      "K-2 THROWING KNIFE_dm › Special Effects › Push Force": "5"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P3",
+      "warbondId": "viper-commandos",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 60
+      },
+      "rotating": null
+    }
+  }
+}

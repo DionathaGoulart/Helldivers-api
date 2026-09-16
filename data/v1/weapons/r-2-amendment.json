@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "r-2-amendment",
+    "slug": "r-2-amendment",
+    "name": "R-2 Amendment",
+    "aliases": [],
+    "description": "The R-2 Amendment is a Primary Marksman Rifle that can fire in semi-automatic or three-round bursts modes. It is affixed with a bayonet, improving melee damage and range.",
+    "image": null,
+    "wiki": {
+      "title": "R-2 Amendment",
+      "url": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "marksman_rifle",
+    "traitIds": [
+      "light-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "burst"
+      ],
+      "fireRateRpm": [
+        480
+      ],
+      "dps": [
+        1600
+      ],
+      "capacity": 20,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 28.75,
+      "horizontalRecoil": 17.5,
+      "verticalRecoil": 40,
+      "spread": {
+        "horizontal": 0.1,
+        "vertical": 0.1
+      },
+      "sway": 1,
+      "ergonomics": 50,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2.8
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "R-2 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 200,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 20,
+          "initialVelocityMps": 850,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 14
+        }
+      },
+      {
+        "name": "Bayonet Melee",
+        "kind": "melee",
+        "damage": {
+          "standard": 165,
+          "durable": 83,
+          "type": "Melee"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Marksman Rifles",
+      "Firing Modes": "Semi • Burst",
+      "Traits": "Light Armor Penetrating",
+      "Standard Damage": "200 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "480 rpm",
+      "DPS": "1,600",
+      "Capacity": "20",
+      "Spare Mags": "8 Magazines",
+      "Ergonomics": "50",
+      "Recoil": "20",
+      "Reload Time": "3.5s",
+      "Tactical Reload Time": "2.8s",
+      "R-2 AMENDMENT › Fire Rate": "480 rpm",
+      "R-2 AMENDMENT › Recoil": "28.75",
+      "R-2 AMENDMENT › Horizontal Recoil": "17.5",
+      "R-2 AMENDMENT › Vertical Recoil": "40",
+      "R-2 AMENDMENT › Spread": "↔[0.10] ↕[0.10]",
+      "R-2 AMENDMENT › Sway": "1",
+      "R-2 AMENDMENT › Ergonomics": "50",
+      "R-2 AMENDMENT › Capacity": "20",
+      "R-2 AMENDMENT › Spare Magazines": "8",
+      "R-2 AMENDMENT › Starting Magazines": "6",
+      "R-2 AMENDMENT › Mags from Supply": "8",
+      "R-2 AMENDMENT › Mags from Ammo Box": "4",
+      "R-2 AMENDMENT › Attacks › R-2 P": "Projectile",
+      "R-2 P › Projectile › Mass": "20 g",
+      "R-2 P › Projectile › Initial Velocity": "850 m/s",
+      "R-2 P › Projectile › Drag Factor": "30%",
+      "R-2 P › Projectile › Gravity Factor": "100%",
+      "R-2 P › Projectile › Penetration Slowdown": "25%",
+      "R-2 P › Damage › Standard": "200 Ballistic",
+      "R-2 P › Damage › vs. Durable": "50 Ballistic",
+      "R-2 P › Penetration › Direct": "Light",
+      "R-2 P › Penetration › Slight Angle": "Light",
+      "R-2 P › Penetration › Large Angle": "Light",
+      "R-2 P › Penetration › Extreme Angle": "Unarmored",
+      "R-2 P › Special Effects › Demolition Force": "10",
+      "R-2 P › Special Effects › Stagger Force": "20",
+      "R-2 P › Special Effects › Push Force": "14",
+      "Bayonet Melee › Damage › Element": "Melee",
+      "Bayonet Melee › Damage › Standard": "165 Melee",
+      "Bayonet Melee › Damage › vs. Durable": "83 Melee",
+      "Bayonet Melee › Penetration › Direct": "Medium",
+      "Bayonet Melee › Penetration › Slight Angle": "Unarmored",
+      "Bayonet Melee › Penetration › Large Angle": "Unarmored",
+      "Bayonet Melee › Penetration › Extreme Angle": "Unarmored",
+      "Bayonet Melee › Special Effects › Demolition Force": "10",
+      "Bayonet Melee › Special Effects › Stagger Force": "25",
+      "Bayonet Melee › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P1",
+      "warbondId": "masters-of-ceremony",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

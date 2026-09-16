@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "r-2124-constitution",
+    "slug": "r-2124-constitution",
+    "name": "R-2124 Constitution",
+    "aliases": [],
+    "description": "The R-2124 Constitution is a bolt-action Primary Marksman Rifle reminiscent of pre-Democratic rifles. It is affixed with a bayonet, improving melee damage and range.",
+    "image": null,
+    "wiki": {
+      "title": "R-2124 Constitution",
+      "url": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "marksman_rifle",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "other"
+      ],
+      "fireRateRpm": [
+        60
+      ],
+      "dps": [
+        180
+      ],
+      "capacity": 5,
+      "spareMagazines": 100,
+      "startingMagazines": 60,
+      "magazinesFromSupply": 100,
+      "magazinesFromAmmoBox": 50,
+      "recoil": 30,
+      "horizontalRecoil": 17.5,
+      "verticalRecoil": 42.5,
+      "spread": {
+        "horizontal": 0.1,
+        "vertical": 0.1
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 1.3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "R-2124 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 180,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 20,
+          "initialVelocityMps": 850,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 14
+        }
+      },
+      {
+        "name": "Bayonet Melee",
+        "kind": "melee",
+        "damage": {
+          "standard": 165,
+          "durable": 83,
+          "type": "Melee"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 25,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Marksman Rifles",
+      "Firing Modes": "Bolt-Action",
+      "Traits": "Medium Armor Penetrating • Rounds Reload",
+      "Standard Damage": "180 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "60 rpm",
+      "DPS": "180",
+      "Capacity": "5",
+      "Spare Rounds": "100",
+      "Supply Box Refill": "100",
+      "Ammo Box Refill": "50",
+      "Ergonomics": "65",
+      "Recoil": "15",
+      "Reload Time": "1.3s",
+      "Reload Time For One Round": "0.95s",
+      "Reload Time for >1 Round": "0.3s",
+      "R-2124 CONSTITUTION › Fire Rate": "60 rpm",
+      "R-2124 CONSTITUTION › Recoil": "30",
+      "R-2124 CONSTITUTION › Horizontal Recoil": "17.5",
+      "R-2124 CONSTITUTION › Vertical Recoil": "42.5",
+      "R-2124 CONSTITUTION › Spread": "↔[0.10] ↕[0.10]",
+      "R-2124 CONSTITUTION › Sway": "1",
+      "R-2124 CONSTITUTION › Ergonomics": "65",
+      "R-2124 CONSTITUTION › Capacity": "5",
+      "R-2124 CONSTITUTION › Spare Rounds": "100",
+      "R-2124 CONSTITUTION › Starting Rounds": "60",
+      "R-2124 CONSTITUTION › Rounds from Supply": "100",
+      "R-2124 CONSTITUTION › Rounds from Ammo Box": "50",
+      "R-2124 CONSTITUTION › Attacks › R-2124 P": "Projectile",
+      "R-2124 P › Projectile › Mass": "20 g",
+      "R-2124 P › Projectile › Initial Velocity": "850 m/s",
+      "R-2124 P › Projectile › Drag Factor": "30%",
+      "R-2124 P › Projectile › Gravity Factor": "100%",
+      "R-2124 P › Projectile › Penetration Slowdown": "25%",
+      "R-2124 P › Damage › Standard": "180 Ballistic",
+      "R-2124 P › Damage › vs. Durable": "50 Ballistic",
+      "R-2124 P › Penetration › Direct": "Medium",
+      "R-2124 P › Penetration › Slight Angle": "Medium",
+      "R-2124 P › Penetration › Large Angle": "Medium",
+      "R-2124 P › Penetration › Extreme Angle": "Unarmored",
+      "R-2124 P › Special Effects › Demolition Force": "10",
+      "R-2124 P › Special Effects › Stagger Force": "20",
+      "R-2124 P › Special Effects › Push Force": "14",
+      "Bayonet Melee › Damage › Element": "Melee",
+      "Bayonet Melee › Damage › Standard": "165 Melee",
+      "Bayonet Melee › Damage › vs. Durable": "83 Melee",
+      "Bayonet Melee › Penetration › Direct": "Medium",
+      "Bayonet Melee › Penetration › Slight Angle": "Unarmored",
+      "Bayonet Melee › Penetration › Large Angle": "Unarmored",
+      "Bayonet Melee › Penetration › Extreme Angle": "Unarmored",
+      "Bayonet Melee › Special Effects › Demolition Force": "10",
+      "Bayonet Melee › Special Effects › Stagger Force": "25",
+      "Bayonet Melee › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "event",
+      "label": "Liberty Day",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

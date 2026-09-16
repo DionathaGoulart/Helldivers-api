@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "smg-203-gallant",
+    "slug": "smg-203-gallant",
+    "name": "SMG-203 Gallant",
+    "aliases": [],
+    "description": "The SMG-203 Gallant is a variant of the MP-98 Knight that sacrifices damage in exchange for Medium armor penetration.",
+    "image": null,
+    "wiki": {
+      "title": "SMG-203 Gallant",
+      "url": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
+      "flags": [
+        "potentially_outdated",
+        "broken_file_links"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "submachine_gun",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi",
+        "burst"
+      ],
+      "fireRateRpm": [
+        1380
+      ],
+      "dps": [
+        1495
+      ],
+      "capacity": 50,
+      "spareMagazines": 7,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 7,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 14.875,
+      "horizontalRecoil": 8.75,
+      "verticalRecoil": 21,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 1,
+      "ergonomics": 80,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "9x20mm HIGH VELOCITY P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 65,
+          "durable": 13,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 7,
+          "initialVelocityMps": 450,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 4
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Submachine Guns",
+      "Firing Modes": "Auto • Semi • Burst",
+      "Traits": "Medium Armor Penetrating • One Handed",
+      "Standard Damage": "65 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "1,380 rpm",
+      "DPS": "1,495",
+      "Capacity": "50",
+      "Spare Mags": "7",
+      "Supply Box Refill": "7",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "75",
+      "Recoil": "15",
+      "Reload Time": "2.5s",
+      "SMG-203 GALLANT › Fire Rate": "1380 rpm",
+      "SMG-203 GALLANT › Recoil": "14.875",
+      "SMG-203 GALLANT › Horizontal Recoil": "8.75",
+      "SMG-203 GALLANT › Vertical Recoil": "21",
+      "SMG-203 GALLANT › Spread": "↔[5.00] ↕[5.00]",
+      "SMG-203 GALLANT › Sway": "1",
+      "SMG-203 GALLANT › Ergonomics": "80",
+      "SMG-203 GALLANT › Capacity": "50",
+      "SMG-203 GALLANT › Spare Magazines": "7",
+      "SMG-203 GALLANT › Starting Magazines": "5",
+      "SMG-203 GALLANT › Mags from Supply": "7",
+      "SMG-203 GALLANT › Mags from Ammo Box": "3",
+      "SMG-203 GALLANT › Attacks › 9x20mm HIGH VELOCITY P": "Projectile",
+      "9x20mm HIGH VELOCITY P › Projectile › Mass": "7 g",
+      "9x20mm HIGH VELOCITY P › Projectile › Initial Velocity": "450 m/s",
+      "9x20mm HIGH VELOCITY P › Projectile › Drag Factor": "120%",
+      "9x20mm HIGH VELOCITY P › Projectile › Gravity Factor": "100%",
+      "9x20mm HIGH VELOCITY P › Projectile › Penetration Slowdown": "25%",
+      "9x20mm HIGH VELOCITY P › Damage › Standard": "65 Ballistic",
+      "9x20mm HIGH VELOCITY P › Damage › vs. Durable": "13 Ballistic",
+      "9x20mm HIGH VELOCITY P › Penetration › Direct": "Medium",
+      "9x20mm HIGH VELOCITY P › Penetration › Slight Angle": "Medium",
+      "9x20mm HIGH VELOCITY P › Penetration › Large Angle": "Medium",
+      "9x20mm HIGH VELOCITY P › Penetration › Extreme Angle": "Unarmored",
+      "9x20mm HIGH VELOCITY P › Special Effects › Demolition Force": "10",
+      "9x20mm HIGH VELOCITY P › Special Effects › Stagger Force": "10",
+      "9x20mm HIGH VELOCITY P › Special Effects › Push Force": "4"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P1",
+      "warbondId": "exo-experts",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.7c155d29",
-    "generatedAt": "2026-09-15T15:42:33Z",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -20,7 +20,23 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Rounds_Reload",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-11-arbitrator",
+      "dbs-2-double-freedom",
+      "gl-15-evictor",
+      "m90a-shotgun",
+      "p-11-stim-pistol",
+      "p-4-senator",
+      "p-69-veto",
+      "r-2124-constitution",
+      "r-6-deadeye",
+      "sg-20-halt",
+      "sg-22-bushwhacker",
+      "sg-451-cookout",
+      "sg-8-punisher",
+      "sg-8s-slugger",
+      "sg-97-sweeper"
+    ],
     "stratagemIds": []
   }
 }

@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "r-72-censor",
+    "slug": "r-72-censor",
+    "name": "R-72 Censor",
+    "aliases": [],
+    "description": "The R-72 Censor is a Primary Marksman Rifle equipped with a suppressor for silent takedowns, specially suited for Stealth playstyles.",
+    "image": null,
+    "wiki": {
+      "title": "R-72 Censor",
+      "url": "https://helldivers.wiki.gg/wiki/R-72_Censor",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "marksman_rifle",
+    "traitIds": [
+      "light-armor-penetrating",
+      "suppressed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        400
+      ],
+      "dps": [
+        1100
+      ],
+      "capacity": 20,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 12.5,
+      "horizontalRecoil": 10,
+      "verticalRecoil": 15,
+      "spread": {
+        "horizontal": 0.5,
+        "vertical": 0.5
+      },
+      "sway": 1,
+      "ergonomics": 60,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "8x60mm SUBSONIC P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 165,
+          "durable": 45,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 20,
+          "initialVelocityMps": 330,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 14
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Marksman Rifles",
+      "Firing Modes": "Semi",
+      "Traits": "Light Armor Penetrating • Suppressed",
+      "Standard Damage": "165 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "400 rpm",
+      "DPS": "1,100",
+      "Capacity": "20",
+      "Spare Mags": "8",
+      "Supply Box Refill": "8",
+      "Ammo Box Refill": "4",
+      "Ergonomics": "60",
+      "Recoil": "13",
+      "Reload Time": "2.5s",
+      "R-72 CENSOR › Fire Rate": "400 rpm",
+      "R-72 CENSOR › Recoil": "12.5",
+      "R-72 CENSOR › Horizontal Recoil": "10",
+      "R-72 CENSOR › Vertical Recoil": "15",
+      "R-72 CENSOR › Spread": "↔[0.50] ↕[0.50]",
+      "R-72 CENSOR › Sway": "1",
+      "R-72 CENSOR › Ergonomics": "60",
+      "R-72 CENSOR › Capacity": "20",
+      "R-72 CENSOR › Spare Magazines": "8",
+      "R-72 CENSOR › Starting Magazines": "6",
+      "R-72 CENSOR › Mags from Supply": "8",
+      "R-72 CENSOR › Mags from Ammo Box": "4",
+      "R-72 CENSOR › Attacks › 8x60mm SUBSONIC P": "Projectile",
+      "8x60mm SUBSONIC P › Projectile › Mass": "20 g",
+      "8x60mm SUBSONIC P › Projectile › Initial Velocity": "330 m/s",
+      "8x60mm SUBSONIC P › Projectile › Drag Factor": "30%",
+      "8x60mm SUBSONIC P › Projectile › Gravity Factor": "100%",
+      "8x60mm SUBSONIC P › Projectile › Penetration Slowdown": "25%",
+      "8x60mm SUBSONIC P › Damage › Standard": "165 Ballistic",
+      "8x60mm SUBSONIC P › Damage › vs. Durable": "45 Ballistic",
+      "8x60mm SUBSONIC P › Penetration › Direct": "Light",
+      "8x60mm SUBSONIC P › Penetration › Slight Angle": "Light",
+      "8x60mm SUBSONIC P › Penetration › Large Angle": "Light",
+      "8x60mm SUBSONIC P › Penetration › Extreme Angle": "Unarmored",
+      "8x60mm SUBSONIC P › Special Effects › Demolition Force": "10",
+      "8x60mm SUBSONIC P › Special Effects › Stagger Force": "20",
+      "8x60mm SUBSONIC P › Special Effects › Push Force": "14"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P1",
+      "warbondId": "redacted-regiment",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

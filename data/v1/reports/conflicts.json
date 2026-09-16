@@ -1,0 +1,1562 @@
+{
+  "conflicts": [
+    {
+      "collection": "weapons",
+      "id": "ar-2-coyote",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 19.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
+          "location": "infobox › Recoil",
+          "value": 17
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
+          "location": "AR-2 COYOTE › Recoil",
+          "value": 19.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-23-liberator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 10.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+          "location": "infobox › Recoil",
+          "value": 14
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+          "location": "AR-23 LIBERATOR › Recoil",
+          "value": 10.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-23a-liberator-carbine",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 18,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
+          "location": "infobox › Recoil",
+          "value": 26
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
+          "location": "AR-23A LIBERATOR CARBINE › Recoil",
+          "value": 18
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-23c-liberator-concussive",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 22.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
+          "location": "infobox › Recoil",
+          "value": 28
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
+          "location": "AR-23C LIBERATOR CONCUSSIVE › Recoil",
+          "value": 22.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-23p-liberator-penetrator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 14.125,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23P_Liberator_Penetrator",
+          "location": "infobox › Recoil",
+          "value": 12
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23P_Liberator_Penetrator",
+          "location": "AR-23P LIBERATOR PENETRATOR › Recoil",
+          "value": 14.125
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-32-pacifier",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 17.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
+          "location": "infobox › Recoil",
+          "value": 18
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
+          "location": "AR-32 PACIFIER › Recoil",
+          "value": 17.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-59-suppressor",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 13.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-59_Suppressor",
+          "location": "infobox › Recoil",
+          "value": 13
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-59_Suppressor",
+          "location": "AR-59 SUPPRESSOR › Recoil",
+          "value": 13.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-61-tenderizer",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 8,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-61_Tenderizer",
+          "location": "infobox › Recoil",
+          "value": 10
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-61_Tenderizer",
+          "location": "AR-61 TENDERIZER › Recoil",
+          "value": 8
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ar-gl-21-one-two",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 13.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR/GL-21_One-Two",
+          "location": "infobox › Recoil",
+          "value": 13
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR/GL-21_One-Two",
+          "location": "AR/GL-21 ONE-TWO › Recoil",
+          "value": 13.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "arc-12-blitzer",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 45,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
+          "location": "infobox › Recoil",
+          "value": 60
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
+          "location": "ARC-12 BLITZER › Recoil",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "br-14-adjudicator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 27,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/BR-14_Adjudicator",
+          "location": "infobox › Recoil",
+          "value": 24
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/BR-14_Adjudicator",
+          "location": "BR-14 ADJUDICATOR › Recoil",
+          "value": 27
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "cb-9-exploding-crossbow",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 26.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
+          "location": "infobox › Recoil",
+          "value": 35
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
+          "location": "CB-9 EXPLODING CROSSBOW › Recoil",
+          "value": 26.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "dbs-2-double-freedom",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 162.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/DBS-2_Double_Freedom",
+          "location": "infobox › Recoil",
+          "value": 163
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/DBS-2_Double_Freedom",
+          "location": "DBS-2 DOUBLE FREEDOM › Recoil",
+          "value": 162.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "flam-66-torcher",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 0.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
+          "location": "infobox › Recoil",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
+          "location": "FLAM-66 TORCHER › Recoil",
+          "value": 0.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "gp-20-ultimatum",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 30.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
+          "location": "infobox › Recoil",
+          "value": 43
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
+          "location": "GP-20 ULTIMATUM › Recoil",
+          "value": 30.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "gp-31-grenade-pistol",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 30.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
+          "location": "infobox › Recoil",
+          "value": 43
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
+          "location": "GP-31 GRENADE PISTOL › Recoil",
+          "value": 30.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "jar-5-dominator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 57.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
+          "location": "infobox › Recoil",
+          "value": 75
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
+          "location": "JAR-5 DOMINATOR › Recoil",
+          "value": 57.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-13-trident",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+          "location": "infobox › Ammo Box Refill",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+          "location": "LAS-13 TRIDENT › Mags from Ammo Box",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-13-trident",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+          "location": "infobox › Supply Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+          "location": "LAS-13 TRIDENT › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-13-trident",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 4.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+          "location": "infobox › Recoil",
+          "value": 4
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
+          "location": "LAS-13 TRIDENT › Recoil",
+          "value": 4.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-16-sickle",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+          "location": "infobox › Ammo Box Refill",
+          "value": 1
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+          "location": "LAS-16 SICKLE › Mags from Ammo Box",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-16-sickle",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+          "location": "infobox › Supply Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+          "location": "LAS-16 SICKLE › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-16-sickle",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 1.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+          "location": "infobox › Recoil",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
+          "location": "LAS-16 SICKLE › Recoil",
+          "value": 1.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-17-double-edge-sickle",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+          "location": "infobox › Supply Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+          "location": "LAS-17 DOUBLE-EDGE SICKLE › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-17-double-edge-sickle",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 1.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+          "location": "infobox › Recoil",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
+          "location": "LAS-17 DOUBLE-EDGE SICKLE › Recoil",
+          "value": 1.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-5-scythe",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+          "location": "infobox › Ammo Box Refill",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+          "location": "LAS-5 SCYTHE › Mags from Ammo Box",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-5-scythe",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+          "location": "infobox › Supply Box Refill",
+          "value": 4
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+          "location": "LAS-5 SCYTHE › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-58-talon",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
+          "location": "infobox › Supply Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
+          "location": "LAS-58 TALON › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-58-talon",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 1.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
+          "location": "infobox › Recoil",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
+          "location": "LAS-58 TALON › Recoil",
+          "value": 1.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-7-dagger",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
+          "location": "infobox › Ammo Box Refill",
+          "value": 1
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
+          "location": "LAS-7 DAGGER › Mags from Ammo Box",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-7-dagger",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
+          "location": "infobox › Supply Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
+          "location": "LAS-7 DAGGER › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "m6c-socom-pistol",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 19.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
+          "location": "infobox › Recoil",
+          "value": 20
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
+          "location": "M6C/SOCOM PISTOL › Recoil",
+          "value": 19.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "m7s-smg",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 8.375,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/M7S_SMG",
+          "location": "infobox › Recoil",
+          "value": 8
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/M7S_SMG",
+          "location": "M7S SMG › Recoil",
+          "value": 8.375
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "m90a-shotgun",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 82.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
+          "location": "infobox › Recoil",
+          "value": 83
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
+          "location": "M90A SHOTGUN › Recoil",
+          "value": 82.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "ma5c-assault-rifle",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 18.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
+          "location": "infobox › Recoil",
+          "value": 19
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
+          "location": "MA5C ASSAULT RIFLE › Recoil",
+          "value": 18.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "mp-98-knight",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 11.875,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
+          "location": "infobox › Recoil",
+          "value": 15
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
+          "location": "MP-98 KNIGHT › Recoil",
+          "value": 11.875
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-11-stim-pistol",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 5.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol",
+          "location": "infobox › Recoil",
+          "value": 6
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol",
+          "location": "P-11 STIM PISTOL › Recoil",
+          "value": 5.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-113-verdict",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 31.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
+          "location": "infobox › Recoil",
+          "value": 31
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
+          "location": "P-113 VERDICT › Recoil",
+          "value": 31.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-19-redeemer",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 13.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
+          "location": "infobox › Recoil",
+          "value": 15
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
+          "location": "P-19 REDEEMER › Recoil",
+          "value": 13.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-2-peacemaker",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 19.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
+          "location": "infobox › Recoil",
+          "value": 23
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
+          "location": "P-2 PEACEMAKER › Recoil",
+          "value": 19.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-33-missile-pistol",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 312.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",
+          "location": "infobox › Recoil",
+          "value": 313
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",
+          "location": "P-33 MISSILE PISTOL › Recoil",
+          "value": 312.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-4-senator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 30.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-4_Senator",
+          "location": "infobox › Recoil",
+          "value": 43
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-4_Senator",
+          "location": "P-4 SENATOR › Recoil",
+          "value": 30.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-40-k-bolt-pistol",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+          "location": "infobox › Ammo Box Refill",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+          "location": "P/40-K BOLT PISTOL › Mags from Ammo Box",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-40-k-bolt-pistol",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+          "location": "infobox › Supply Box Refill",
+          "value": 4
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
+          "location": "P/40-K BOLT PISTOL › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-72-crisper",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+          "location": "infobox › Ammo Box Refill",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+          "location": "P-72 CRISPER › Mags from Ammo Box",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-72-crisper",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+          "location": "infobox › Supply Box Refill",
+          "value": 4
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+          "location": "P-72 CRISPER › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-72-crisper",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 1.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+          "location": "infobox › Recoil",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+          "location": "P-72 CRISPER › Recoil",
+          "value": 1.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-92-warrant",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 31.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
+          "location": "infobox › Recoil",
+          "value": 31
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
+          "location": "P-92 WARRANT › Recoil",
+          "value": 31.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-92-warrant",
+      "field": "firearm.spareMagazines",
+      "rule": 2,
+      "chosen": 7,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
+          "location": "infobox › Spare Mags",
+          "value": 8
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
+          "location": "P-92 WARRANT › Spare Magazines",
+          "value": 7
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "plas-1-scorcher",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 15.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
+          "location": "infobox › Recoil",
+          "value": 20
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
+          "location": "PLAS-1 SCORCHER › Recoil",
+          "value": 15.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "plas-101-purifier",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 15.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
+          "location": "infobox › Recoil",
+          "value": 20
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
+          "location": "PLAS-101 PURIFIER › Recoil",
+          "value": 15.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "plas-15-loyalist",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 2,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+          "location": "infobox › Ammo Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+          "location": "PLAS-15 LOYALIST › Mags from Ammo Box",
+          "value": 2
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "plas-15-loyalist",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 6.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+          "location": "infobox › Recoil",
+          "value": 8
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
+          "location": "PLAS-15 LOYALIST › Recoil",
+          "value": 6.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "plas-39-accelerator-rifle",
+      "field": "firearm.spareMagazines",
+      "rule": 2,
+      "chosen": 12,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
+          "location": "infobox › Spare Mags",
+          "value": 8
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
+          "location": "PLAS-39 ACCELERATOR RIFLE › Spare Magazines",
+          "value": 12
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-2-amendment",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 28.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
+          "location": "infobox › Recoil",
+          "value": 20
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
+          "location": "R-2 AMENDMENT › Recoil",
+          "value": 28.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-2124-constitution",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 30,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
+          "location": "infobox › Recoil",
+          "value": 15
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
+          "location": "R-2124 CONSTITUTION › Recoil",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-36-eruptor",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 57.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
+          "location": "infobox › Recoil",
+          "value": 75
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
+          "location": "R-36 ERUPTOR › Recoil",
+          "value": 57.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-4-hyena",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 65,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
+          "location": "infobox › Recoil",
+          "value": 54
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
+          "location": "R-4 HYENA › Recoil",
+          "value": 65
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-40-k-hot-shot-marksman-rifle",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 18.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
+          "location": "infobox › Recoil",
+          "value": 19
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
+          "location": "R/40-K HOT-SHOT MARKSMAN RIFLE › Recoil",
+          "value": 18.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-6-deadeye",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 82.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
+          "location": "infobox › Recoil",
+          "value": 120
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
+          "location": "R-6 DEADEYE › Recoil",
+          "value": 82.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-63-diligence",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 26.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
+          "location": "infobox › Recoil",
+          "value": 35
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
+          "location": "R-63 DILIGENCE › Recoil",
+          "value": 26.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-63cs-diligence-counter-sniper",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 40,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+          "location": "infobox › Recoil",
+          "value": 53
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+          "location": "R-63CS DILIGENCE COUNTER SNIPER › Recoil",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-72-censor",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 12.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-72_Censor",
+          "location": "infobox › Recoil",
+          "value": 13
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-72_Censor",
+          "location": "R-72 CENSOR › Recoil",
+          "value": 12.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-20-halt",
+      "field": "firearm.capacity",
+      "rule": 2,
+      "chosen": 16,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
+          "location": "infobox › Capacity",
+          "value": 8
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
+          "location": "SG-20 HALT › Capacity",
+          "value": 16
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-20-halt",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 82.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
+          "location": "infobox › Recoil",
+          "value": 120
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
+          "location": "SG-20 HALT › Recoil",
+          "value": 82.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-22-bushwhacker",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 107.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
+          "location": "infobox › Recoil",
+          "value": 170
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
+          "location": "SG-22 BUSHWHACKER › Recoil",
+          "value": 107.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-225-breaker",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 43.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
+          "location": "infobox › Recoil",
+          "value": 55
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
+          "location": "SG-225 BREAKER › Recoil",
+          "value": 43.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-225ie-breaker-incendiary",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 32.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-225IE_Breaker_Incendiary",
+          "location": "infobox › Recoil",
+          "value": 41
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-225IE_Breaker_Incendiary",
+          "location": "SG-225IE BREAKER INCENDIARY › Recoil",
+          "value": 32.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-225sp-breaker-spray-pray",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 40,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
+          "location": "infobox › Recoil",
+          "value": 45
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
+          "location": "SG-225SP BREAKER SPRAY&PRAY › Recoil",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-451-cookout",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 71.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-451_Cookout",
+          "location": "infobox › Recoil",
+          "value": 100
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-451_Cookout",
+          "location": "SG-451 COOKOUT › Recoil",
+          "value": 71.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-8-punisher",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 82.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
+          "location": "infobox › Recoil",
+          "value": 120
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
+          "location": "SG-8 PUNISHER › Recoil",
+          "value": 82.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-8p-punisher-plasma",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 77.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
+          "location": "infobox › Recoil",
+          "value": 110
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
+          "location": "SG-8P PUNISHER PLASMA › Recoil",
+          "value": 77.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-8s-slugger",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 82.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
+          "location": "infobox › Recoil",
+          "value": 120
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
+          "location": "SG-8S SLUGGER › Recoil",
+          "value": 82.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sg-97-sweeper",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 76.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-97_Sweeper",
+          "location": "infobox › Recoil",
+          "value": 76
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SG-97_Sweeper",
+          "location": "SG-97 SWEEPER › Recoil",
+          "value": 76.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "smg-203-gallant",
+      "field": "firearm.ergonomics",
+      "rule": 2,
+      "chosen": 80,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
+          "location": "infobox › Ergonomics",
+          "value": 75
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
+          "location": "SMG-203 GALLANT › Ergonomics",
+          "value": 80
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "smg-203-gallant",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 14.875,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
+          "location": "infobox › Recoil",
+          "value": 15
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
+          "location": "SMG-203 GALLANT › Recoil",
+          "value": 14.875
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "smg-32-reprimand",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 31.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-32_Reprimand",
+          "location": "infobox › Recoil",
+          "value": 32
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-32_Reprimand",
+          "location": "SMG-32 REPRIMAND › Recoil",
+          "value": 31.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "smg-37-defender",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 8.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
+          "location": "infobox › Recoil",
+          "value": 10
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
+          "location": "SMG-37 DEFENDER › Recoil",
+          "value": 8.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "smg-72-pummeler",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 8.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
+          "location": "infobox › Recoil",
+          "value": 10
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
+          "location": "SMG-72 PUMMELER › Recoil",
+          "value": 8.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "smg-flam-34-stoker",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 8.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG/FLAM-34_Stoker",
+          "location": "infobox › Recoil",
+          "value": 9
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SMG/FLAM-34_Stoker",
+          "location": "SMG/FLAM-34 STOKER › Recoil",
+          "value": 8.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sta-11-smg",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 11.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
+          "location": "infobox › Recoil",
+          "value": 13
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
+          "location": "STA-11 SMG › Recoil",
+          "value": 11.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "vg-70-variable",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 6.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/VG-70_Variable",
+          "location": "infobox › Recoil",
+          "value": 7
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/VG-70_Variable",
+          "location": "VG-70 VARIABLE › Recoil",
+          "value": 6.75
+        }
+      ]
+    }
+  ]
+}

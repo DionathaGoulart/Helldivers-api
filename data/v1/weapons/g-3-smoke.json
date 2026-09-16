@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-3-smoke",
+    "slug": "g-3-smoke",
+    "name": "G-3 Smoke",
+    "aliases": [],
+    "description": "The G-3 Smoke is a Special Throwable that is used to create a temporary smoke screen to obscure Helldivers.",
+    "image": null,
+    "wiki": {
+      "title": "G-3 Smoke",
+      "url": "https://helldivers.wiki.gg/wiki/G-3_Smoke",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "explosive"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 5,
+      "startingCount": 4,
+      "fromSupply": 3,
+      "fuseTimeS": 2.4,
+      "cookable": true
+    },
+    "attacks": [
+      {
+        "name": "G-3 SMOKE E",
+        "kind": "explosion",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 8,
+          "outerRadiusM": 8,
+          "shockwaveRadiusM": 0
+        },
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "0",
+      "Penetration": "No Hitbox",
+      "Outer Radius": "8m",
+      "Cookable": "Yes",
+      "Fuse Time": "2.4s",
+      "Capacity": "5",
+      "Trait(s)": "Explosive",
+      "G-3 SMOKE › Throwables from Supply": "3",
+      "G-3 SMOKE › Max Rounds": "5",
+      "G-3 SMOKE › Starting Rounds": "4",
+      "G-3 SMOKE › Attacks › G-3 SMOKE E": "Explosion",
+      "G-3 SMOKE E › Area of Effect › Inner Radius": "8 m",
+      "G-3 SMOKE E › Area of Effect › Outer Radius": "8 m",
+      "G-3 SMOKE E › Area of Effect › Shockwave Radius": "0 m",
+      "G-3 SMOKE E › Area of Effect › AoE Duration": "30 s"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P8",
+      "warbondId": "helldivers-mobilize",
+      "page": 8,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

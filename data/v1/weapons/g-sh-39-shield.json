@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-sh-39-shield",
+    "slug": "g-sh-39-shield",
+    "name": "G/SH-39 Shield",
+    "aliases": [],
+    "description": "The G/SH-39 Shield is a Special Throwable that projects a small bubble shield with 360° coverage to block incoming projectiles.",
+    "image": null,
+    "wiki": {
+      "title": "G/SH-39 Shield",
+      "url": "https://helldivers.wiki.gg/wiki/G/SH-39_Shield",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "sticky"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 4,
+      "startingCount": 3,
+      "fromSupply": 2,
+      "fuseTimeS": 0,
+      "cookable": true
+    },
+    "attacks": [],
+    "statsRaw": {
+      "Damage": "0 Explosion",
+      "Penetration": "No Hitbox",
+      "Outer Radius": "1.8m",
+      "Cookable": "Yes",
+      "Fuse Time": "0s",
+      "Capacity": "4",
+      "Trait(s)": "Sticky",
+      "G/SH-39 SHIELD › Throwables from Supply": "2",
+      "G/SH-39 SHIELD › Max Rounds": "4",
+      "G/SH-39 SHIELD › Starting Rounds": "3",
+      "G/SH-39 SHIELD › Shield Capacity": "1000",
+      "G/SH-39 SHIELD › Shield Regen": "0 shield/s",
+      "G/SH-39 SHIELD › Shield Regen Delay": "20 s",
+      "G/SH-39 SHIELD › Shield Broken Delay": "20 s",
+      "G/SH-39 SHIELD › Shield Radius": "1.79999995 m"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers P3",
+      "warbondId": "siege-breakers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

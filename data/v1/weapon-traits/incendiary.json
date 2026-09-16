@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.7c155d29",
-    "generatedAt": "2026-09-15T15:42:33Z",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -20,7 +20,19 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Incendiary",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-2-coyote",
+      "flam-66-torcher",
+      "g-10-incendiary",
+      "g-13-incendiary-impact",
+      "g-142-pyrotech",
+      "g-8-immolation",
+      "p-72-crisper",
+      "r-4-hyena",
+      "sg-225ie-breaker-incendiary",
+      "sg-451-cookout",
+      "smg-flam-34-stoker"
+    ],
     "stratagemIds": []
   }
 }

@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "r-6-deadeye",
+    "slug": "r-6-deadeye",
+    "name": "R-6 Deadeye",
+    "aliases": [],
+    "description": "The R-6 Deadeye is a lever-action Primary Marksman Rifle that trades rate-of-fire for Medium armor penetration, high damage and stagger force, requiring users to aim well and hit their targets the first time.",
+    "image": null,
+    "wiki": {
+      "title": "R-6 Deadeye",
+      "url": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "marksman_rifle",
+    "traitIds": [
+      "rounds-reload",
+      "medium-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "other"
+      ],
+      "fireRateRpm": [
+        100
+      ],
+      "dps": [
+        500
+      ],
+      "capacity": 8,
+      "spareMagazines": 60,
+      "startingMagazines": 32,
+      "magazinesFromSupply": 60,
+      "magazinesFromAmmoBox": 30,
+      "recoil": 82.5,
+      "horizontalRecoil": 45,
+      "verticalRecoil": 120,
+      "spread": {
+        "horizontal": 0.1,
+        "vertical": 0.1
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 6.4,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "R-6 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 300,
+          "durable": 100,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 20,
+          "initialVelocityMps": 850,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 35
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Marksman Rifles",
+      "Firing Modes": "Lever-Action",
+      "Traits": "Rounds Reload • Medium Armor Penetrating",
+      "Standard Damage": "300 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "100 rpm",
+      "DPS": "500",
+      "Capacity": "8",
+      "Spare Rounds": "60",
+      "Supply Box Refill": "60",
+      "Ammo Box Refill": "30",
+      "Ergonomics": "65",
+      "Recoil": "120",
+      "Rounds Reload Full Time": "6.4s",
+      "Reload Time For One Round": "2.3s (Empty) / 1.4s (Partial)",
+      "Reload Time for >1 Round": "0.6s",
+      "R-6 DEADEYE › Fire Rate": "100 rpm",
+      "R-6 DEADEYE › Recoil": "82.5",
+      "R-6 DEADEYE › Horizontal Recoil": "45",
+      "R-6 DEADEYE › Vertical Recoil": "120",
+      "R-6 DEADEYE › Spread": "↔[0.10] ↕[0.10]",
+      "R-6 DEADEYE › Sway": "1",
+      "R-6 DEADEYE › Ergonomics": "65",
+      "R-6 DEADEYE › Capacity": "8",
+      "R-6 DEADEYE › Spare Rounds": "60",
+      "R-6 DEADEYE › Starting Rounds": "32",
+      "R-6 DEADEYE › Rounds from Supply": "60",
+      "R-6 DEADEYE › Rounds from Ammo Box": "30",
+      "R-6 DEADEYE › Attacks › R-6 P": "Projectile",
+      "R-6 P › Projectile › Mass": "20 g",
+      "R-6 P › Projectile › Initial Velocity": "850 m/s",
+      "R-6 P › Projectile › Drag Factor": "30%",
+      "R-6 P › Projectile › Gravity Factor": "100%",
+      "R-6 P › Projectile › Penetration Slowdown": "25%",
+      "R-6 P › Damage › Standard": "300 Ballistic",
+      "R-6 P › Damage › vs. Durable": "100 Ballistic",
+      "R-6 P › Penetration › Direct": "Medium",
+      "R-6 P › Penetration › Slight Angle": "Medium",
+      "R-6 P › Penetration › Large Angle": "Medium",
+      "R-6 P › Penetration › Extreme Angle": "Unarmored",
+      "R-6 P › Special Effects › Demolition Force": "10",
+      "R-6 P › Special Effects › Stagger Force": "30",
+      "R-6 P › Special Effects › Push Force": "35"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Borderline Justice P1",
+      "warbondId": "borderline-justice",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

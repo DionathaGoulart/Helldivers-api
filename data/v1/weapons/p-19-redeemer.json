@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "p-19-redeemer",
+    "slug": "p-19-redeemer",
+    "name": "P-19 Redeemer",
+    "aliases": [],
+    "description": "The P-19 Redeemer is a semi-automatic and fully-automatic hybrid Secondary Pistol.",
+    "image": null,
+    "wiki": {
+      "title": "P-19 Redeemer",
+      "url": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "pistol",
+    "traitIds": [
+      "light-armor-penetrating",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi"
+      ],
+      "fireRateRpm": [
+        1100
+      ],
+      "dps": [
+        1283.33
+      ],
+      "capacity": 31,
+      "spareMagazines": 6,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 13.75,
+      "horizontalRecoil": 12.5,
+      "verticalRecoil": 15,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 95,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.15,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.4
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "9x20mm FULL METAL JACKET P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 70,
+          "durable": 12,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 7,
+          "initialVelocityMps": 375,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 4
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Pistols",
+      "Firing Modes": "Auto • Semi",
+      "Traits": "Light Armor Penetrating • One Handed",
+      "Standard Damage": "70 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "1,100 rpm",
+      "DPS": "1,283.33",
+      "Capacity": "31",
+      "Spare Mags": "6",
+      "Ergonomics": "95",
+      "Recoil": "15",
+      "Reload Time": "2.15s",
+      "Tactical Reload Time": "1.4s",
+      "P-19 REDEEMER › Fire Rate": "1100 rpm",
+      "P-19 REDEEMER › Recoil": "13.75",
+      "P-19 REDEEMER › Horizontal Recoil": "12.5",
+      "P-19 REDEEMER › Vertical Recoil": "15",
+      "P-19 REDEEMER › Spread": "↔[10.00] ↕[10.00]",
+      "P-19 REDEEMER › Sway": "1",
+      "P-19 REDEEMER › Ergonomics": "95",
+      "P-19 REDEEMER › Capacity": "31",
+      "P-19 REDEEMER › Spare Magazines": "6",
+      "P-19 REDEEMER › Starting Magazines": "4",
+      "P-19 REDEEMER › Mags from Supply": "6",
+      "P-19 REDEEMER › Mags from Ammo Box": "3",
+      "P-19 REDEEMER › Attacks › 9x20mm FULL METAL JACKET P1": "Projectile",
+      "9x20mm FULL METAL JACKET P1 › Projectile › Mass": "7 g",
+      "9x20mm FULL METAL JACKET P1 › Projectile › Initial Velocity": "375 m/s",
+      "9x20mm FULL METAL JACKET P1 › Projectile › Drag Factor": "120%",
+      "9x20mm FULL METAL JACKET P1 › Projectile › Gravity Factor": "100%",
+      "9x20mm FULL METAL JACKET P1 › Projectile › Penetration Slowdown": "25%",
+      "9x20mm FULL METAL JACKET P1 › Damage › Standard": "70 Ballistic",
+      "9x20mm FULL METAL JACKET P1 › Damage › vs. Durable": "12 Ballistic",
+      "9x20mm FULL METAL JACKET P1 › Penetration › Direct": "Light",
+      "9x20mm FULL METAL JACKET P1 › Penetration › Slight Angle": "Light",
+      "9x20mm FULL METAL JACKET P1 › Penetration › Large Angle": "Light",
+      "9x20mm FULL METAL JACKET P1 › Penetration › Extreme Angle": "Unarmored",
+      "9x20mm FULL METAL JACKET P1 › Special Effects › Demolition Force": "10",
+      "9x20mm FULL METAL JACKET P1 › Special Effects › Stagger Force": "10",
+      "9x20mm FULL METAL JACKET P1 › Special Effects › Push Force": "4"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P2",
+      "warbondId": "helldivers-mobilize",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ar-23p-liberator-penetrator",
+    "slug": "ar-23p-liberator-penetrator",
+    "name": "AR-23P Liberator Penetrator",
+    "aliases": [],
+    "description": "The AR-23P Liberator Penetrator is a Primary Assault Rifle, a variant of the standard Liberator with increased armor-piercing capabilities.",
+    "image": null,
+    "wiki": {
+      "title": "AR-23P Liberator Penetrator",
+      "url": "https://helldivers.wiki.gg/wiki/AR-23P_Liberator_Penetrator",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "medium-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "burst",
+        "auto"
+      ],
+      "fireRateRpm": [
+        640
+      ],
+      "dps": [
+        693.33
+      ],
+      "capacity": 45,
+      "spareMagazines": 8,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 14.125,
+      "horizontalRecoil": 9.5,
+      "verticalRecoil": 18.75,
+      "spread": {
+        "horizontal": 1,
+        "vertical": 1
+      },
+      "sway": 1,
+      "ergonomics": 59,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "5.5x50mm PENETRATOR P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 65,
+          "durable": 15,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 4.5,
+          "initialVelocityMps": 1000,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "Semi • Burst • Full",
+      "Traits": "Medium Armor Penetrating",
+      "Standard Damage": "65 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "640 rpm",
+      "DPS": "693.33",
+      "Capacity": "45",
+      "Spare Mags": "8",
+      "Ergonomics": "59",
+      "Recoil": "12",
+      "Reload Time": "3s",
+      "AR-23P LIBERATOR PENETRATOR › Fire Rate": "640 rpm",
+      "AR-23P LIBERATOR PENETRATOR › Recoil": "14.125",
+      "AR-23P LIBERATOR PENETRATOR › Horizontal Recoil": "9.5",
+      "AR-23P LIBERATOR PENETRATOR › Vertical Recoil": "18.75",
+      "AR-23P LIBERATOR PENETRATOR › Spread": "↔[1.00] ↕[1.00]",
+      "AR-23P LIBERATOR PENETRATOR › Sway": "1",
+      "AR-23P LIBERATOR PENETRATOR › Ergonomics": "59",
+      "AR-23P LIBERATOR PENETRATOR › Capacity": "45",
+      "AR-23P LIBERATOR PENETRATOR › Spare Magazines": "8",
+      "AR-23P LIBERATOR PENETRATOR › Starting Magazines": "6",
+      "AR-23P LIBERATOR PENETRATOR › Mags from Supply": "8",
+      "AR-23P LIBERATOR PENETRATOR › Mags from Ammo Box": "4",
+      "AR-23P LIBERATOR PENETRATOR › Attacks › 5.5x50mm PENETRATOR P": "Projectile",
+      "5.5x50mm PENETRATOR P › Projectile › Mass": "4.5 g",
+      "5.5x50mm PENETRATOR P › Projectile › Initial Velocity": "1000 m/s",
+      "5.5x50mm PENETRATOR P › Projectile › Drag Factor": "30%",
+      "5.5x50mm PENETRATOR P › Projectile › Gravity Factor": "100%",
+      "5.5x50mm PENETRATOR P › Projectile › Penetration Slowdown": "25%",
+      "5.5x50mm PENETRATOR P › Damage › Standard": "65 Ballistic",
+      "5.5x50mm PENETRATOR P › Damage › vs. Durable": "15 Ballistic",
+      "5.5x50mm PENETRATOR P › Penetration › Direct": "Medium",
+      "5.5x50mm PENETRATOR P › Penetration › Slight Angle": "Medium",
+      "5.5x50mm PENETRATOR P › Penetration › Large Angle": "Medium",
+      "5.5x50mm PENETRATOR P › Penetration › Extreme Angle": "Unarmored",
+      "5.5x50mm PENETRATOR P › Special Effects › Demolition Force": "10",
+      "5.5x50mm PENETRATOR P › Special Effects › Stagger Force": "10",
+      "5.5x50mm PENETRATOR P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize P6",
+      "warbondId": "helldivers-mobilize",
+      "page": 6,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

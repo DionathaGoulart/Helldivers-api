@@ -1,0 +1,107 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-48-giga-grenade",
+    "slug": "g-48-giga-grenade",
+    "name": "G-48 Giga Grenade",
+    "aliases": [],
+    "description": "The G-48 Giga Grenade is a Special Throwable with a wide and high damaging explosion, at the cost of less than usual grenade capacity.",
+    "image": null,
+    "wiki": {
+      "title": "G-48 Giga Grenade",
+      "url": "https://helldivers.wiki.gg/wiki/G-48_Giga_Grenade",
+      "flags": [
+        "potentially_outdated",
+        "broken_file_links"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "explosive"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 2,
+      "startingCount": 2,
+      "fromSupply": 2,
+      "fuseTimeS": null,
+      "cookable": false
+    },
+    "attacks": [
+      {
+        "name": "G-48 GIGA GRENADE E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 2000,
+          "durable": 2000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "heavy"
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2,
+          "outerRadiusM": 12,
+          "shockwaveRadiusM": 16
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 40,
+          "push": 40
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "2,000 Explosion",
+      "Penetration": "Anti-Tank I",
+      "Outer Radius": "12m",
+      "Cookable": "No",
+      "Fuse Time": "Impact",
+      "Capacity": "2",
+      "Trait(s)": "Explosive",
+      "G-48 GIGA GRENADE › Throwables from Supply": "2",
+      "G-48 GIGA GRENADE › Max Rounds": "2",
+      "G-48 GIGA GRENADE › Starting Rounds": "2",
+      "G-48 GIGA GRENADE › Attacks › G-48 GIGA GRENADE E": "Explosion",
+      "G-48 GIGA GRENADE E › Area of Effect › Inner Radius": "2 m",
+      "G-48 GIGA GRENADE E › Area of Effect › Outer Radius": "12 m",
+      "G-48 GIGA GRENADE E › Area of Effect › Shockwave Radius": "16 m",
+      "G-48 GIGA GRENADE E › Damage › Damage Element": "None",
+      "G-48 GIGA GRENADE E › Damage › Inner Radius": "2000 Explosion",
+      "G-48 GIGA GRENADE E › Damage › Inner Durable": "2000 Explosion",
+      "G-48 GIGA GRENADE E › Damage › Outer Radius": "1999 - 0",
+      "G-48 GIGA GRENADE E › Damage › Outer Durable": "1999 - 0",
+      "G-48 GIGA GRENADE E › Penetration › Direct": "Anti-Tank I",
+      "G-48 GIGA GRENADE E › Penetration › Slight Angle": "Anti-Tank I",
+      "G-48 GIGA GRENADE E › Penetration › Large Angle": "Anti-Tank I",
+      "G-48 GIGA GRENADE E › Penetration › Extreme Angle": "Heavy",
+      "G-48 GIGA GRENADE E › AoE Effect › Demolition Force": "40",
+      "G-48 GIGA GRENADE E › AoE Effect › Stagger Force": "40",
+      "G-48 GIGA GRENADE E › AoE Effect › Push Force": "40"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P2",
+      "warbondId": "entrenched-division",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

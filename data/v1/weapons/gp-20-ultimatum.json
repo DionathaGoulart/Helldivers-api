@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "gp-20-ultimatum",
+    "slug": "gp-20-ultimatum",
+    "name": "GP-20 Ultimatum",
+    "aliases": [],
+    "description": "The Ultimatum is a Secondary Special, powerful single-shot weapon that fires extremely destructive explosive rounds.",
+    "image": null,
+    "wiki": {
+      "title": "GP-20 Ultimatum",
+      "url": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "one-handed",
+      "explosive"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [
+        900
+      ],
+      "dps": [],
+      "capacity": 1,
+      "spareMagazines": 1,
+      "startingMagazines": 0,
+      "magazinesFromSupply": 1,
+      "magazinesFromAmmoBox": 1,
+      "recoil": 30.75,
+      "horizontalRecoil": 11.5,
+      "verticalRecoil": 50,
+      "spread": {
+        "horizontal": 50,
+        "vertical": 50
+      },
+      "sway": 1,
+      "ergonomics": 35,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "GP-20 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1000,
+          "durable": 1000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 500,
+          "initialVelocityMps": 20,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 40,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "GP-20 P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 2000,
+          "durable": 2000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2,
+          "outerRadiusM": 12,
+          "shockwaveRadiusM": 25
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 70,
+          "push": 60
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Traits": "One Handed • Explosive",
+      "Standard Damage": "1,000 Projectile / 2,000 Explosion",
+      "Armor Penetration": "Anti-Tank II",
+      "Fire Rate": "900 rpm",
+      "Capacity": "1",
+      "Spare Rounds": "1",
+      "Supply Box Refill": "1",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "35",
+      "Recoil": "43",
+      "Reload Time": "3s",
+      "GP-20 ULTIMATUM › Fire Rate": "900 rpm",
+      "GP-20 ULTIMATUM › Recoil": "30.75",
+      "GP-20 ULTIMATUM › Horizontal Recoil": "11.5",
+      "GP-20 ULTIMATUM › Vertical Recoil": "50",
+      "GP-20 ULTIMATUM › Spread": "↔[50.00] ↕[50.00]",
+      "GP-20 ULTIMATUM › Sway": "1",
+      "GP-20 ULTIMATUM › Ergonomics": "35",
+      "GP-20 ULTIMATUM › Capacity": "1",
+      "GP-20 ULTIMATUM › Spare Magazines": "1",
+      "GP-20 ULTIMATUM › Starting Magazines": "0",
+      "GP-20 ULTIMATUM › Mags from Supply": "1",
+      "GP-20 ULTIMATUM › Mags from Ammo Box": "1",
+      "GP-20 ULTIMATUM › Attacks › GP-20 P": "Projectile",
+      "GP-20 ULTIMATUM › Attacks › GP-20 P IE": "Explosion",
+      "GP-20 P › Projectile › Mass": "500 g",
+      "GP-20 P › Projectile › Initial Velocity": "20 m/s",
+      "GP-20 P › Projectile › Drag Factor": "50%",
+      "GP-20 P › Projectile › Gravity Factor": "100%",
+      "GP-20 P › Projectile › Penetration Slowdown": "25%",
+      "GP-20 P › Projectile › Explosion On Impact": "GP-20_P_IE",
+      "GP-20 P › Damage › Standard": "1000 Ballistic",
+      "GP-20 P › Damage › vs. Durable": "1000 Ballistic",
+      "GP-20 P › Penetration › Direct": "Anti-Tank II",
+      "GP-20 P › Penetration › Slight Angle": "Anti-Tank II",
+      "GP-20 P › Penetration › Large Angle": "Anti-Tank II",
+      "GP-20 P › Penetration › Extreme Angle": "Anti-Tank II",
+      "GP-20 P › Special Effects › Demolition Force": "40",
+      "GP-20 P › Special Effects › Stagger Force": "50",
+      "GP-20 P › Special Effects › Push Force": "20",
+      "GP-20 P IE › Area of Effect › Inner Radius": "2 m",
+      "GP-20 P IE › Area of Effect › Outer Radius": "12 m",
+      "GP-20 P IE › Area of Effect › Shockwave Radius": "25 m",
+      "GP-20 P IE › Damage › Damage Element": "None",
+      "GP-20 P IE › Damage › Inner Radius": "2000 Explosion",
+      "GP-20 P IE › Damage › Inner Durable": "2000 Explosion",
+      "GP-20 P IE › Damage › Outer Radius": "1999 - 0",
+      "GP-20 P IE › Damage › Outer Durable": "1999 - 0",
+      "GP-20 P IE › Penetration › Direct": "Anti-Tank II",
+      "GP-20 P IE › AoE Effect › Demolition Force": "40",
+      "GP-20 P IE › AoE Effect › Stagger Force": "70",
+      "GP-20 P IE › AoE Effect › Push Force": "60"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Servants of Freedom P2",
+      "warbondId": "servants-of-freedom",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

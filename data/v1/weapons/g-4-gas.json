@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-4-gas",
+    "slug": "g-4-gas",
+    "name": "G-4 Gas",
+    "aliases": [],
+    "description": "The G-4 Gas (or Gas Grenade) is a Special Throwable that releases a cloud of Gas alongside a minuscule explosion.",
+    "image": null,
+    "wiki": {
+      "title": "G-4 Gas",
+      "url": "https://helldivers.wiki.gg/wiki/G-4_Gas",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "caustic",
+      "explosive"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 4,
+      "startingCount": 3,
+      "fromSupply": 2,
+      "fuseTimeS": 2.9,
+      "cookable": true
+    },
+    "attacks": [
+      {
+        "name": "G-4 GAS E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 3,
+          "durable": 3,
+          "type": "Gas"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2,
+          "outerRadiusM": 7,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 10,
+          "push": 10
+        }
+      },
+      {
+        "name": "Gas",
+        "kind": "status",
+        "damage": {
+          "standard": 25,
+          "durable": 25,
+          "type": "Gas"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Gas Confusion",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "3 Gas (Explosion) / 25 DPS Gas",
+      "Penetration": "Tank II",
+      "Outer Radius": "7",
+      "Cookable": "Yes",
+      "Fuse Time": "2.9s",
+      "Capacity": "4",
+      "Trait(s)": "Caustic • Explosive",
+      "G-4 GAS › Throwables from Supply": "2",
+      "G-4 GAS › Max Rounds": "4",
+      "G-4 GAS › Starting Rounds": "3",
+      "G-4 GAS › Attacks › G-4 GAS E": "Explosion",
+      "G-4 GAS › Attacks › Gas": "status",
+      "G-4 GAS › Attacks › Gas Confusion": "status",
+      "G-4 GAS E › Area of Effect › Inner Radius": "2 m",
+      "G-4 GAS E › Area of Effect › Outer Radius": "7 m",
+      "G-4 GAS E › Area of Effect › Shockwave Radius": "7 m",
+      "G-4 GAS E › Area of Effect › AoE Duration": "15 s",
+      "G-4 GAS E › Damage › Damage Element": "Gas",
+      "G-4 GAS E › Damage › Inner Radius": "3 Gas",
+      "G-4 GAS E › Damage › Inner Durable": "3 Gas",
+      "G-4 GAS E › Damage › Outer Radius": "2 - 0",
+      "G-4 GAS E › Damage › Outer Durable": "2 - 0",
+      "G-4 GAS E › Penetration › Direct": "Anti-Tank II",
+      "G-4 GAS E › AoE Effect › Status": "Gas",
+      "G-4 GAS E › AoE Effect › Status Strength": "100",
+      "G-4 GAS E › AoE Effect › Second Status": "Gas_Confusion",
+      "G-4 GAS E › AoE Effect › Status Strength (2)": "100",
+      "G-4 GAS E › AoE Effect › Demolition Force": "30",
+      "G-4 GAS E › AoE Effect › Stagger Force": "10",
+      "G-4 GAS E › AoE Effect › Push Force": "10",
+      "Gas › Status › Status Duration": "6 sec",
+      "Gas › Damage › Element": "Gas",
+      "Gas › Damage › Standard": "25 Gas",
+      "Gas › Damage › vs. Durable": "25 Gas",
+      "Gas › Penetration › Direct": "Anti-Tank II",
+      "Gas › Penetration › Slight Angle": "Anti-Tank II",
+      "Gas › Penetration › Large Angle": "Anti-Tank II",
+      "Gas › Penetration › Extreme Angle": "Unarmored",
+      "Gas › Special Effects › Demolition Force": "0",
+      "Gas › Special Effects › Stagger Force": "0",
+      "Gas › Special Effects › Push Force": "0",
+      "Gas Confusion › Status › Status Duration": "5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents P1",
+      "warbondId": "chemical-agents",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "las-5-scythe",
+    "slug": "las-5-scythe",
+    "name": "LAS-5 Scythe",
+    "aliases": [],
+    "description": "The LAS-5 Scythe is a Primary Energy-Based laser rifle with infinite ammo. The weapons ammunition capacity is only limited by heat accumulation within the weapon.",
+    "image": null,
+    "wiki": {
+      "title": "LAS-5 Scythe",
+      "url": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "energy_based",
+    "traitIds": [
+      "light-armor-penetrating",
+      "beam",
+      "heat"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [],
+      "dps": [],
+      "capacity": null,
+      "spareMagazines": 4,
+      "startingMagazines": 3,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 0,
+      "horizontalRecoil": 0,
+      "verticalRecoil": 0,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": null
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "LAS-5 SCYTHE B",
+        "kind": "beam",
+        "damage": {
+          "standard": 350,
+          "durable": 70,
+          "type": "Laser"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Energy-Based",
+      "Traits": "Light Armor Penetrating • Beam • Heat",
+      "Standard Damage": "350 DPS Laser 100 DPS Fire",
+      "Armor Penetration": "Light",
+      "Capacity": "8s",
+      "Spare Mags": "4",
+      "Supply Box Refill": "4",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "65",
+      "Recoil": "0",
+      "Reload Time": "3s",
+      "LAS-5 SCYTHE › Recoil": "0",
+      "LAS-5 SCYTHE › Horizontal Recoil": "0",
+      "LAS-5 SCYTHE › Vertical Recoil": "0",
+      "LAS-5 SCYTHE › Spread": "↔[10.00] ↕[10.00]",
+      "LAS-5 SCYTHE › Sway": "1",
+      "LAS-5 SCYTHE › Ergonomics": "65",
+      "LAS-5 SCYTHE › Spare Magazines": "4",
+      "LAS-5 SCYTHE › Starting Magazines": "3",
+      "LAS-5 SCYTHE › Mags from Supply": "6",
+      "LAS-5 SCYTHE › Mags from Ammo Box": "3",
+      "LAS-5 SCYTHE › Heat Data › Overheats at": "100 °C",
+      "LAS-5 SCYTHE › Heat Data › Warmup": "0.2 sec",
+      "LAS-5 SCYTHE › Heat Data › Heat Per Second": "12.5 °C",
+      "LAS-5 SCYTHE › Heat Data › Cool Per Sec": "12.8 - 8.5 - 6.4",
+      "LAS-5 SCYTHE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
+      "LAS-5 SCYTHE › Heat Data › Beam Fire Rate": "60 rpm",
+      "LAS-5 SCYTHE › Attacks › LAS-5 SCYTHE B": "Beam",
+      "LAS-5 SCYTHE › Attacks › Fire": "status",
+      "LAS-5 SCYTHE B › Beam › Beam Range": "1000 m",
+      "LAS-5 SCYTHE B › Damage › Standard": "350 Laser",
+      "LAS-5 SCYTHE B › Damage › vs. Durable": "70 Laser",
+      "LAS-5 SCYTHE B › Penetration › Direct": "Light",
+      "LAS-5 SCYTHE B › Penetration › Slight Angle": "Light",
+      "LAS-5 SCYTHE B › Penetration › Large Angle": "Light",
+      "LAS-5 SCYTHE B › Penetration › Extreme Angle": "Unarmored",
+      "LAS-5 SCYTHE B › Special Effects › Status": "Fire",
+      "LAS-5 SCYTHE B › Special Effects › Status Strength": "1",
+      "LAS-5 SCYTHE B › Special Effects › Demolition Force": "10",
+      "LAS-5 SCYTHE B › Special Effects › Stagger Force": "0",
+      "LAS-5 SCYTHE B › Special Effects › Push Force": "0",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P5",
+      "warbondId": "helldivers-mobilize",
+      "page": 5,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

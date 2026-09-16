@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "r-63cs-diligence-counter-sniper",
+    "slug": "r-63cs-diligence-counter-sniper",
+    "name": "R-63CS Diligence Counter Sniper",
+    "aliases": [],
+    "description": "The R-63CS Diligence Counter Sniper is a Primary Marksman Rifle similar to the R-63 Diligence, trading magazine size and handling for greater firepower that can damage Medium armor.",
+    "image": null,
+    "wiki": {
+      "title": "R-63CS Diligence Counter Sniper",
+      "url": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "marksman_rifle",
+    "traitIds": [
+      "medium-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        350
+      ],
+      "dps": [
+        1166.67
+      ],
+      "capacity": 15,
+      "spareMagazines": 6,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 40,
+      "horizontalRecoil": 27.5,
+      "verticalRecoil": 52.5,
+      "spread": {
+        "horizontal": 0.5,
+        "vertical": 0.5
+      },
+      "sway": 0.8,
+      "ergonomics": 35,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.9
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "9x70mm HIGH VELOCITY P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 200,
+          "durable": 50,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 20,
+          "initialVelocityMps": 940,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 20,
+          "push": 14
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Marksman Rifles",
+      "Firing Modes": "Semi",
+      "Traits": "Medium Armor Penetrating",
+      "Standard Damage": "200 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "350 rpm",
+      "DPS": "1,166.67",
+      "Capacity": "15",
+      "Spare Mags": "6",
+      "Supply Box Refill": "6",
+      "Ammo Box Refill": "3",
+      "Ergonomics": "35",
+      "Recoil": "53",
+      "Reload Time": "3s",
+      "Tactical Reload Time": "1.9s",
+      "R-63CS DILIGENCE COUNTER SNIPER › Fire Rate": "350 rpm",
+      "R-63CS DILIGENCE COUNTER SNIPER › Recoil": "40",
+      "R-63CS DILIGENCE COUNTER SNIPER › Horizontal Recoil": "27.5",
+      "R-63CS DILIGENCE COUNTER SNIPER › Vertical Recoil": "52.5",
+      "R-63CS DILIGENCE COUNTER SNIPER › Spread": "↔[0.50] ↕[0.50]",
+      "R-63CS DILIGENCE COUNTER SNIPER › Sway": "0.8",
+      "R-63CS DILIGENCE COUNTER SNIPER › Ergonomics": "35",
+      "R-63CS DILIGENCE COUNTER SNIPER › Capacity": "15",
+      "R-63CS DILIGENCE COUNTER SNIPER › Spare Magazines": "6",
+      "R-63CS DILIGENCE COUNTER SNIPER › Starting Magazines": "4",
+      "R-63CS DILIGENCE COUNTER SNIPER › Mags from Supply": "6",
+      "R-63CS DILIGENCE COUNTER SNIPER › Mags from Ammo Box": "3",
+      "R-63CS DILIGENCE COUNTER SNIPER › Attacks › 9x70mm HIGH VELOCITY P": "Projectile",
+      "9x70mm HIGH VELOCITY P › Projectile › Mass": "20 g",
+      "9x70mm HIGH VELOCITY P › Projectile › Initial Velocity": "940 m/s",
+      "9x70mm HIGH VELOCITY P › Projectile › Drag Factor": "30%",
+      "9x70mm HIGH VELOCITY P › Projectile › Gravity Factor": "100%",
+      "9x70mm HIGH VELOCITY P › Projectile › Penetration Slowdown": "25%",
+      "9x70mm HIGH VELOCITY P › Damage › Standard": "200 Ballistic",
+      "9x70mm HIGH VELOCITY P › Damage › vs. Durable": "50 Ballistic",
+      "9x70mm HIGH VELOCITY P › Penetration › Direct": "Medium",
+      "9x70mm HIGH VELOCITY P › Penetration › Slight Angle": "Medium",
+      "9x70mm HIGH VELOCITY P › Penetration › Large Angle": "Medium",
+      "9x70mm HIGH VELOCITY P › Penetration › Extreme Angle": "Unarmored",
+      "9x70mm HIGH VELOCITY P › Special Effects › Demolition Force": "10",
+      "9x70mm HIGH VELOCITY P › Special Effects › Stagger Force": "20",
+      "9x70mm HIGH VELOCITY P › Special Effects › Push Force": "14"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P7",
+      "warbondId": "helldivers-mobilize",
+      "page": 7,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

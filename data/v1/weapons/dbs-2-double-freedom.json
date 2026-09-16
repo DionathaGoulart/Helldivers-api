@@ -1,0 +1,151 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dbs-2-double-freedom",
+    "slug": "dbs-2-double-freedom",
+    "name": "DBS-2 Double Freedom",
+    "aliases": [],
+    "description": "The DBS-2 Double Freedom is a double-barreled Primary Shotgun, compensating its limited capacity with massive stopping power.",
+    "image": null,
+    "wiki": {
+      "title": "DBS-2 Double Freedom",
+      "url": "https://helldivers.wiki.gg/wiki/DBS-2_Double_Freedom",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "shotgun",
+    "traitIds": [
+      "medium-armor-penetrating",
+      "rounds-reload"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        650
+      ],
+      "dps": [
+        1680
+      ],
+      "capacity": 2,
+      "spareMagazines": 40,
+      "startingMagazines": 22,
+      "magazinesFromSupply": 40,
+      "magazinesFromAmmoBox": 20,
+      "recoil": 162.5,
+      "horizontalRecoil": 65,
+      "verticalRecoil": 260,
+      "spread": {
+        "horizontal": 150,
+        "vertical": 120
+      },
+      "sway": 1,
+      "ergonomics": 65,
+      "reloadKind": "rounds",
+      "reloadTimeS": 1.9,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.9
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "DBS-2 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 70,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": 12,
+          "massG": 6,
+          "initialVelocityMps": 385,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 35,
+          "push": 30
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Shotguns",
+      "Firing Modes": "Semi",
+      "Traits": "Medium Armor Penetrating • Rounds Reload",
+      "Standard Damage": "840 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "650 rpm",
+      "DPS": "1,680",
+      "Capacity": "2",
+      "Spare Shells": "40",
+      "Supply Box Refill": "40",
+      "Ammo Box Refill": "20",
+      "Ergonomics": "65",
+      "Recoil": "163",
+      "Reload Time": "1.9s",
+      "Tactical Reload Time": "1.9s",
+      "DBS-2 DOUBLE FREEDOM › Fire Rate": "650 rpm",
+      "DBS-2 DOUBLE FREEDOM › Recoil": "162.5",
+      "DBS-2 DOUBLE FREEDOM › Horizontal Recoil": "65",
+      "DBS-2 DOUBLE FREEDOM › Vertical Recoil": "260",
+      "DBS-2 DOUBLE FREEDOM › Spread": "↔[150.00] ↕[120.00]",
+      "DBS-2 DOUBLE FREEDOM › Sway": "1",
+      "DBS-2 DOUBLE FREEDOM › Ergonomics": "65",
+      "DBS-2 DOUBLE FREEDOM › Capacity": "2",
+      "DBS-2 DOUBLE FREEDOM › Spare Rounds": "40",
+      "DBS-2 DOUBLE FREEDOM › Starting Rounds": "22",
+      "DBS-2 DOUBLE FREEDOM › Rounds from Supply": "40",
+      "DBS-2 DOUBLE FREEDOM › Rounds from Ammo Box": "20",
+      "DBS-2 DOUBLE FREEDOM › Barrels": "x 2",
+      "DBS-2 DOUBLE FREEDOM › Attacks › DBS-2 P": "Projectile",
+      "DBS-2 P › Projectile › Pellets": "x 12",
+      "DBS-2 P › Projectile › Mass": "6 g",
+      "DBS-2 P › Projectile › Initial Velocity": "385 m/s",
+      "DBS-2 P › Projectile › Drag Factor": "50%",
+      "DBS-2 P › Projectile › Gravity Factor": "100%",
+      "DBS-2 P › Projectile › Penetration Slowdown": "25%",
+      "DBS-2 P › Damage › Standard": "70 Ballistic",
+      "DBS-2 P › Damage › vs. Durable": "35 Ballistic",
+      "DBS-2 P › Penetration › Direct": "Medium",
+      "DBS-2 P › Penetration › Slight Angle": "Medium",
+      "DBS-2 P › Penetration › Large Angle": "Medium",
+      "DBS-2 P › Penetration › Extreme Angle": "Unarmored",
+      "DBS-2 P › Special Effects › Demolition Force": "10",
+      "DBS-2 P › Special Effects › Stagger Force": "35",
+      "DBS-2 P › Special Effects › Push Force": "30"
+    },
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 400
+      },
+      "rotating": false
+    }
+  }
+}

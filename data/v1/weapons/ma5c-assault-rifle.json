@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ma5c-assault-rifle",
+    "slug": "ma5c-assault-rifle",
+    "name": "MA5C Assault Rifle",
+    "aliases": [],
+    "description": "The MA5C Assault Rifle is a Primary Assault Rifle. It has an attached electronics suite that provides information on rounds remaining in the magazine and compass heading.",
+    "image": null,
+    "wiki": {
+      "title": "MA5C Assault Rifle",
+      "url": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "assault_rifle",
+    "traitIds": [
+      "medium-armor-penetrating"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi",
+        "burst",
+        "auto"
+      ],
+      "fireRateRpm": [
+        640
+      ],
+      "dps": [
+        960
+      ],
+      "capacity": 32,
+      "spareMagazines": 8,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 8,
+      "magazinesFromAmmoBox": 4,
+      "recoil": 18.5,
+      "horizontalRecoil": 12,
+      "verticalRecoil": 25,
+      "spread": {
+        "horizontal": 2,
+        "vertical": 2
+      },
+      "sway": 1,
+      "ergonomics": 60,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3.15,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "MA5C P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 16,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": "medium",
+          "largeAngle": "medium",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 11,
+          "initialVelocityMps": 820,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Assault Rifles",
+      "Firing Modes": "Semi • Burst • Full",
+      "Traits": "Medium Armor Penetrating",
+      "Standard Damage": "90 Ballistic",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "640 rpm",
+      "DPS": "960",
+      "Capacity": "32",
+      "Spare Mags": "8",
+      "Ergonomics": "60",
+      "Recoil": "19",
+      "Reload Time": "3.15s",
+      "Tactical Reload Time": "2s",
+      "MA5C ASSAULT RIFLE › Fire Rate": "640 rpm",
+      "MA5C ASSAULT RIFLE › Recoil": "18.5",
+      "MA5C ASSAULT RIFLE › Horizontal Recoil": "12",
+      "MA5C ASSAULT RIFLE › Vertical Recoil": "25",
+      "MA5C ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
+      "MA5C ASSAULT RIFLE › Sway": "1",
+      "MA5C ASSAULT RIFLE › Ergonomics": "60",
+      "MA5C ASSAULT RIFLE › Capacity": "32",
+      "MA5C ASSAULT RIFLE › Spare Magazines": "8",
+      "MA5C ASSAULT RIFLE › Starting Magazines": "5",
+      "MA5C ASSAULT RIFLE › Mags from Supply": "8",
+      "MA5C ASSAULT RIFLE › Mags from Ammo Box": "4",
+      "MA5C ASSAULT RIFLE › Attacks › MA5C P": "Projectile",
+      "MA5C P › Projectile › Mass": "11 g",
+      "MA5C P › Projectile › Initial Velocity": "820 m/s",
+      "MA5C P › Projectile › Drag Factor": "30%",
+      "MA5C P › Projectile › Gravity Factor": "100%",
+      "MA5C P › Projectile › Penetration Slowdown": "25%",
+      "MA5C P › Damage › Standard": "90 Ballistic",
+      "MA5C P › Damage › vs. Durable": "16 Ballistic",
+      "MA5C P › Penetration › Direct": "Medium",
+      "MA5C P › Penetration › Slight Angle": "Medium",
+      "MA5C P › Penetration › Large Angle": "Medium",
+      "MA5C P › Penetration › Extreme Angle": "Unarmored",
+      "MA5C P › Special Effects › Demolition Force": "10",
+      "MA5C P › Special Effects › Stagger Force": "15",
+      "MA5C P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

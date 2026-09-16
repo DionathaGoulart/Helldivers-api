@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "m6c-socom-pistol",
+    "slug": "m6c-socom-pistol",
+    "name": "M6C/SOCOM Pistol",
+    "aliases": [],
+    "description": "The M6C/SOCOM Pistol is a Secondary Pistol with a suppressor and relatively high damage for silent takedowns, especially suited to Stealth playstyles. Part of Helldivers 2 x Halo: ODST crossover.",
+    "image": null,
+    "wiki": {
+      "title": "M6C/SOCOM Pistol",
+      "url": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "pistol",
+    "traitIds": [
+      "light-armor-penetrating",
+      "one-handed",
+      "suppressed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "semi"
+      ],
+      "fireRateRpm": [
+        900
+      ],
+      "dps": [
+        1875
+      ],
+      "capacity": 12,
+      "spareMagazines": 10,
+      "startingMagazines": 6,
+      "magazinesFromSupply": 10,
+      "magazinesFromAmmoBox": 5,
+      "recoil": 19.5,
+      "horizontalRecoil": 11.5,
+      "verticalRecoil": 27.5,
+      "spread": {
+        "horizontal": 10,
+        "vertical": 10
+      },
+      "sway": 1,
+      "ergonomics": 100,
+      "reloadKind": "magazine",
+      "reloadTimeS": 1.5,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 1.2
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "M6C/SOCOM P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 125,
+          "durable": 28,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 15,
+          "initialVelocityMps": 285,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 15,
+          "push": 10
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Pistols",
+      "Firing Modes": "Semi",
+      "Traits": "Light Armor Penetrating • One Handed • Suppressed",
+      "Standard Damage": "125 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "900 rpm",
+      "DPS": "1,875",
+      "Capacity": "12",
+      "Spare Mags": "10",
+      "Ergonomics": "100",
+      "Recoil": "20",
+      "Reload Time": "1.5s",
+      "Tactical Reload Time": "1.2s",
+      "M6C/SOCOM PISTOL › Fire Rate": "900 rpm",
+      "M6C/SOCOM PISTOL › Recoil": "19.5",
+      "M6C/SOCOM PISTOL › Horizontal Recoil": "11.5",
+      "M6C/SOCOM PISTOL › Vertical Recoil": "27.5",
+      "M6C/SOCOM PISTOL › Spread": "↔[10.00] ↕[10.00]",
+      "M6C/SOCOM PISTOL › Sway": "1",
+      "M6C/SOCOM PISTOL › Ergonomics": "100",
+      "M6C/SOCOM PISTOL › Capacity": "12",
+      "M6C/SOCOM PISTOL › Spare Magazines": "10",
+      "M6C/SOCOM PISTOL › Starting Magazines": "6",
+      "M6C/SOCOM PISTOL › Mags from Supply": "10",
+      "M6C/SOCOM PISTOL › Mags from Ammo Box": "5",
+      "M6C/SOCOM PISTOL › Attacks › M6C/SOCOM P": "Projectile",
+      "M6C/SOCOM P › Projectile › Mass": "15 g",
+      "M6C/SOCOM P › Projectile › Initial Velocity": "285 m/s",
+      "M6C/SOCOM P › Projectile › Drag Factor": "120%",
+      "M6C/SOCOM P › Projectile › Gravity Factor": "100%",
+      "M6C/SOCOM P › Projectile › Penetration Slowdown": "25%",
+      "M6C/SOCOM P › Damage › Standard": "125 Ballistic",
+      "M6C/SOCOM P › Damage › vs. Durable": "28 Ballistic",
+      "M6C/SOCOM P › Penetration › Direct": "Light",
+      "M6C/SOCOM P › Penetration › Slight Angle": "Light",
+      "M6C/SOCOM P › Penetration › Large Angle": "Light",
+      "M6C/SOCOM P › Penetration › Extreme Angle": "Unarmored",
+      "M6C/SOCOM P › Special Effects › Demolition Force": "10",
+      "M6C/SOCOM P › Special Effects › Stagger Force": "15",
+      "M6C/SOCOM P › Special Effects › Push Force": "10"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P3",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  }
+}

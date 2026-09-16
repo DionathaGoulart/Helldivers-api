@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-31-arc",
+    "slug": "g-31-arc",
+    "name": "G-31 Arc",
+    "aliases": [],
+    "description": "The G-31 Arc is a Special Throwable that fires arcs in a similar manner to the De-Escalator.",
+    "image": null,
+    "wiki": {
+      "title": "G-31 Arc",
+      "url": "https://helldivers.wiki.gg/wiki/G-31_Arc",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "explosive",
+      "arc"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 5,
+      "startingCount": 3,
+      "fromSupply": 3,
+      "fuseTimeS": 3,
+      "cookable": false
+    },
+    "attacks": [
+      {
+        "name": "G-31 ARC E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 0,
+          "durable": 0,
+          "type": "Arc"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 10,
+          "shockwaveRadiusM": 15
+        },
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "G-31 ARC E A",
+        "kind": "arc",
+        "damage": {
+          "standard": 100,
+          "durable": 70,
+          "type": "Arc"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 20,
+          "stagger": 35,
+          "push": 10
+        }
+      },
+      {
+        "name": "Stun Small",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "100 Arc (x10)",
+      "Penetration": "Heavy",
+      "Outer Radius": "10m",
+      "Cookable": "No",
+      "Fuse Time": "3s",
+      "Capacity": "5",
+      "Trait(s)": "Explosive • Arc",
+      "G-31 ARC › Throwables from Supply": "3",
+      "G-31 ARC › Max Rounds": "5",
+      "G-31 ARC › Starting Rounds": "3",
+      "G-31 ARC › Attacks › G-31 ARC E": "Explosion",
+      "G-31 ARC › Attacks › G-31 ARC E A": "Arc",
+      "G-31 ARC › Attacks › Stun Small": "status",
+      "G-31 ARC E › Area of Effect › Inner Radius": "1 m",
+      "G-31 ARC E › Area of Effect › Outer Radius": "10 m",
+      "G-31 ARC E › Area of Effect › Shockwave Radius": "15 m",
+      "G-31 ARC E › Area of Effect › Arc": "G-31 ARC_E_A",
+      "G-31 ARC E › Damage › Damage Element": "Arc",
+      "G-31 ARC E › Damage › Inner Radius": "0 Arc",
+      "G-31 ARC E › Damage › Inner Durable": "0 Arc",
+      "G-31 ARC E › Penetration › Direct": "Anti-Tank II",
+      "G-31 ARC E › AoE Effect › Demolition Force": "0",
+      "G-31 ARC E › AoE Effect › Stagger Force": "0",
+      "G-31 ARC E › AoE Effect › Push Force": "0",
+      "G-31 ARC E A › Arc › Arc Range": "10 m",
+      "G-31 ARC E A › Arc › Arc Velocity": "2000 m/s",
+      "G-31 ARC E A › Damage › Element": "Arc",
+      "G-31 ARC E A › Damage › Standard": "100 Arc",
+      "G-31 ARC E A › Damage › vs. Durable": "70 Arc",
+      "G-31 ARC E A › Penetration › Direct": "Heavy",
+      "G-31 ARC E A › Penetration › Slight Angle": "Heavy",
+      "G-31 ARC E A › Penetration › Large Angle": "Heavy",
+      "G-31 ARC E A › Penetration › Extreme Angle": "Unarmored",
+      "G-31 ARC E A › Special Effects › Status": "Stun Small",
+      "G-31 ARC E A › Special Effects › Status Strength": "8",
+      "G-31 ARC E A › Special Effects › Demolition Force": "20",
+      "G-31 ARC E A › Special Effects › Stagger Force": "35",
+      "G-31 ARC E A › Special Effects › Push Force": "10",
+      "Stun Small › Status › Status Duration": "1.5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P3",
+      "warbondId": "control-group",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

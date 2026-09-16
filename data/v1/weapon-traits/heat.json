@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.7c155d29",
-    "generatedAt": "2026-09-15T15:42:33Z",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -20,7 +20,14 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heat",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "las-13-trident",
+      "las-16-sickle",
+      "las-17-double-edge-sickle",
+      "las-5-scythe",
+      "las-58-talon",
+      "las-7-dagger"
+    ],
     "stratagemIds": []
   }
 }

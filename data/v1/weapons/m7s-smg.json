@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "m7s-smg",
+    "slug": "m7s-smg",
+    "name": "M7S SMG",
+    "aliases": [],
+    "description": "The M7S SMG is a Primary Submachine Gun with a moderate rate of fire and suppressor for silent takedowns, especially suited to Stealth playstyles. Part of Helldivers 2 x Halo: ODST crossover.",
+    "image": null,
+    "wiki": {
+      "title": "M7S SMG",
+      "url": "https://helldivers.wiki.gg/wiki/M7S_SMG",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "primary",
+    "subcategory": "submachine_gun",
+    "traitIds": [
+      "light-armor-penetrating",
+      "one-handed",
+      "suppressed"
+    ],
+    "firearm": {
+      "firingModes": [
+        "auto",
+        "semi",
+        "burst"
+      ],
+      "fireRateRpm": [
+        872
+      ],
+      "dps": [
+        1308
+      ],
+      "capacity": 48,
+      "spareMagazines": 7,
+      "startingMagazines": 5,
+      "magazinesFromSupply": 7,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 8.375,
+      "horizontalRecoil": 4.75,
+      "verticalRecoil": 12,
+      "spread": {
+        "horizontal": 5,
+        "vertical": 5
+      },
+      "sway": 1,
+      "ergonomics": 90,
+      "reloadKind": "magazine",
+      "reloadTimeS": 3,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "M7S P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 90,
+          "durable": 18,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "light",
+          "slightAngle": "light",
+          "largeAngle": "light",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 7,
+          "initialVelocityMps": 320,
+          "dragFactorPct": 120,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 10,
+          "push": 5
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Primary Weapons",
+      "Weapon Type": "Submachine Guns",
+      "Firing Modes": "Full • Semi • Burst",
+      "Traits": "Light Armor Penetrating • One Handed • Suppressed",
+      "Standard Damage": "90 Ballistic",
+      "Armor Penetration": "Light",
+      "Fire Rate": "872 rpm",
+      "DPS": "1,308",
+      "Capacity": "48",
+      "Spare Mags": "7",
+      "Ergonomics": "90",
+      "Recoil": "8",
+      "Reload Time": "3s",
+      "Tactical Reload Time": "2s",
+      "M7S SMG › Fire Rate": "872 rpm",
+      "M7S SMG › Recoil": "8.375",
+      "M7S SMG › Horizontal Recoil": "4.75",
+      "M7S SMG › Vertical Recoil": "12",
+      "M7S SMG › Spread": "↔[5.00] ↕[5.00]",
+      "M7S SMG › Sway": "1",
+      "M7S SMG › Ergonomics": "90",
+      "M7S SMG › Capacity": "48",
+      "M7S SMG › Spare Magazines": "7",
+      "M7S SMG › Starting Magazines": "5",
+      "M7S SMG › Mags from Supply": "7",
+      "M7S SMG › Mags from Ammo Box": "3",
+      "M7S SMG › Attacks › M7S P": "Projectile",
+      "M7S P › Projectile › Mass": "7 g",
+      "M7S P › Projectile › Initial Velocity": "320 m/s",
+      "M7S P › Projectile › Drag Factor": "120%",
+      "M7S P › Projectile › Gravity Factor": "100%",
+      "M7S P › Projectile › Penetration Slowdown": "25%",
+      "M7S P › Damage › Standard": "90 Ballistic",
+      "M7S P › Damage › vs. Durable": "18 Ballistic",
+      "M7S P › Penetration › Direct": "Light",
+      "M7S P › Penetration › Slight Angle": "Light",
+      "M7S P › Penetration › Large Angle": "Light",
+      "M7S P › Penetration › Extreme Angle": "Unarmored",
+      "M7S P › Special Effects › Demolition Force": "10",
+      "M7S P › Special Effects › Stagger Force": "10",
+      "M7S P › Special Effects › Push Force": "5"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P2",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}

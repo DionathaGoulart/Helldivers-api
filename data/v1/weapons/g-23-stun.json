@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-23-stun",
+    "slug": "g-23-stun",
+    "name": "G-23 Stun",
+    "aliases": [],
+    "description": "The G-23 Stun is a Special Throwable that creates a non-lethal explosion, stunning enemies and slowing Helldivers.",
+    "image": null,
+    "wiki": {
+      "title": "G-23 Stun",
+      "url": "https://helldivers.wiki.gg/wiki/G-23_Stun",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "explosive",
+      "stun"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 5,
+      "startingCount": 4,
+      "fromSupply": 3,
+      "fuseTimeS": 1.8,
+      "cookable": true
+    },
+    "attacks": [
+      {
+        "name": "G-23 STUN E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 0,
+          "durable": 0,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 10,
+          "shockwaveRadiusM": 15
+        },
+        "forces": {
+          "demolition": 0,
+          "stagger": 50,
+          "push": 0
+        }
+      },
+      {
+        "name": "Stun Large",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "0",
+      "Penetration": "Tank II",
+      "Outer Radius": "10",
+      "Cookable": "Yes",
+      "Fuse Time": "1.8s",
+      "Capacity": "5",
+      "Trait(s)": "Explosive • Stun",
+      "G-23 STUN › Throwables from Supply": "3",
+      "G-23 STUN › Max Rounds": "5",
+      "G-23 STUN › Starting Rounds": "4",
+      "G-23 STUN › Attacks › G-23 STUN E": "Explosion",
+      "G-23 STUN › Attacks › Stun Large": "status",
+      "G-23 STUN E › Area of Effect › Inner Radius": "1 m",
+      "G-23 STUN E › Area of Effect › Outer Radius": "10 m",
+      "G-23 STUN E › Area of Effect › Shockwave Radius": "15 m",
+      "G-23 STUN E › Damage › Damage Element": "None",
+      "G-23 STUN E › Damage › Inner Radius": "0 Explosion",
+      "G-23 STUN E › Damage › Inner Durable": "0 Explosion",
+      "G-23 STUN E › Penetration › Direct": "Anti-Tank II",
+      "G-23 STUN E › AoE Effect › Status": "Stun Large",
+      "G-23 STUN E › AoE Effect › Status Strength": "25",
+      "G-23 STUN E › AoE Effect › Demolition Force": "0",
+      "G-23 STUN E › AoE Effect › Stagger Force": "50",
+      "G-23 STUN E › AoE Effect › Push Force": "0",
+      "Stun Large › Status › Status Duration": "5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P2",
+      "warbondId": "cutting-edge",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-15.7c155d29",
-    "generatedAt": "2026-09-15T15:42:33Z",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -20,7 +20,42 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "ar-23-liberator",
+      "ar-23a-liberator-carbine",
+      "ar-23c-liberator-concussive",
+      "ar-59-suppressor",
+      "ar-61-tenderizer",
+      "ar-gl-21-one-two",
+      "las-13-trident",
+      "las-16-sickle",
+      "las-17-double-edge-sickle",
+      "las-5-scythe",
+      "las-7-dagger",
+      "m6c-socom-pistol",
+      "m7s-smg",
+      "m90a-shotgun",
+      "mp-98-knight",
+      "p-19-redeemer",
+      "p-2-peacemaker",
+      "plas-1-scorcher",
+      "r-2-amendment",
+      "r-63-diligence",
+      "r-72-censor",
+      "sg-20-halt",
+      "sg-22-bushwhacker",
+      "sg-225-breaker",
+      "sg-225ie-breaker-incendiary",
+      "sg-225sp-breaker-spray-pray",
+      "sg-451-cookout",
+      "sg-8-punisher",
+      "smg-37-defender",
+      "smg-72-pummeler",
+      "smg-flam-34-stoker",
+      "sta-11-smg",
+      "sta-52-assault-rifle",
+      "vg-70-variable"
+    ],
     "stratagemIds": []
   }
 }

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-109-urchin",
+    "slug": "g-109-urchin",
+    "name": "G-109 Urchin",
+    "aliases": [],
+    "description": "The G-109 Urchin is a Special Throwable that can stick and inflict stun to a single target after a delay.",
+    "image": null,
+    "wiki": {
+      "title": "G-109 Urchin",
+      "url": "https://helldivers.wiki.gg/wiki/G-109_Urchin",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "sticky",
+      "stun"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": 5,
+      "startingCount": 4,
+      "fromSupply": 3,
+      "fuseTimeS": 2.9,
+      "cookable": false
+    },
+    "attacks": [
+      {
+        "name": "G-109 URCHIN E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 0,
+          "durable": 0,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 2,
+          "outerRadiusM": 4,
+          "shockwaveRadiusM": 1
+        },
+        "forces": {
+          "demolition": 0,
+          "stagger": 50,
+          "push": 0
+        }
+      },
+      {
+        "name": "Stun Large",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Damage": "0",
+      "Penetration": "Tank II",
+      "Outer Radius": "4m",
+      "Cookable": "No",
+      "Fuse Time": "2.9s",
+      "Capacity": "5",
+      "Trait(s)": "Sticky • Stun",
+      "G-109 URCHIN › Throwables from Supply": "3",
+      "G-109 URCHIN › Max Rounds": "5",
+      "G-109 URCHIN › Starting Rounds": "4",
+      "G-109 URCHIN › Attacks › G-109 URCHIN E": "Explosion",
+      "G-109 URCHIN › Attacks › Stun Large": "status",
+      "G-109 URCHIN E › Area of Effect › Inner Radius": "2 m",
+      "G-109 URCHIN E › Area of Effect › Outer Radius": "4 m",
+      "G-109 URCHIN E › Area of Effect › Shockwave Radius": "1 m",
+      "G-109 URCHIN E › Damage › Damage Element": "None",
+      "G-109 URCHIN E › Damage › Inner Radius": "0 Explosion",
+      "G-109 URCHIN E › Damage › Inner Durable": "0 Explosion",
+      "G-109 URCHIN E › Penetration › Direct": "Anti-Tank II",
+      "G-109 URCHIN E › AoE Effect › Status": "Stun Large",
+      "G-109 URCHIN E › AoE Effect › Status Strength": "10",
+      "G-109 URCHIN E › AoE Effect › Demolition Force": "0",
+      "G-109 URCHIN E › AoE Effect › Stagger Force": "50",
+      "G-109 URCHIN E › AoE Effect › Push Force": "0",
+      "Stun Large › Status › Status Duration": "5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P3",
+      "warbondId": "force-of-law",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 65
+      },
+      "rotating": null
+    }
+  }
+}

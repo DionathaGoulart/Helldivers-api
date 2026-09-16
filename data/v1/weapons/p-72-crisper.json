@@ -1,0 +1,216 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.fe2c0e0d",
+    "generatedAt": "2026-09-16T13:37:00Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "p-72-crisper",
+    "slug": "p-72-crisper",
+    "name": "P-72 Crisper",
+    "aliases": [],
+    "description": "The P-72 Crisper is a Secondary Special handheld flamethrower that can be wielded in one hand.",
+    "image": null,
+    "wiki": {
+      "title": "P-72 Crisper",
+      "url": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "category": "secondary",
+    "subcategory": "special",
+    "traitIds": [
+      "incendiary",
+      "one-handed"
+    ],
+    "firearm": {
+      "firingModes": [],
+      "fireRateRpm": [],
+      "dps": [],
+      "capacity": 50,
+      "spareMagazines": 4,
+      "startingMagazines": 2,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 1.5,
+      "horizontalRecoil": 1.5,
+      "verticalRecoil": 1.5,
+      "spread": {
+        "horizontal": 1,
+        "vertical": 1
+      },
+      "sway": 1,
+      "ergonomics": 95,
+      "reloadKind": "magazine",
+      "reloadTimeS": 2.35,
+      "reloadTimeUpgradedS": null,
+      "tacticalReloadTimeS": 2.35
+    },
+    "throwable": null,
+    "attacks": [
+      {
+        "name": "P-72 CRISPER S",
+        "kind": "spray",
+        "damage": {
+          "standard": 2,
+          "durable": 2,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 5,
+          "push": 5
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Fire Panic",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      },
+      {
+        "name": "FlamerSlowed",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      }
+    ],
+    "statsRaw": {
+      "Weapon Category": "Secondary Weapons",
+      "Weapon Type": "Special",
+      "Traits": "Incendiary • One Handed",
+      "Standard Damage": "150 DPS Fire",
+      "Armor Penetration": "Heavy",
+      "Capacity": "50",
+      "Spare Mags": "4",
+      "Supply Box Refill": "4",
+      "Ammo Box Refill": "2",
+      "Ergonomics": "95",
+      "Recoil": "3",
+      "Reload Time": "2.35s",
+      "Tactical Reload Time": "2.35s",
+      "P-72 CRISPER › Recoil": "1.5",
+      "P-72 CRISPER › Horizontal Recoil": "1.5",
+      "P-72 CRISPER › Vertical Recoil": "1.5",
+      "P-72 CRISPER › Spread": "↔[1.00] ↕[1.00]",
+      "P-72 CRISPER › Sway": "1",
+      "P-72 CRISPER › Ergonomics": "95",
+      "P-72 CRISPER › Capacity": "50",
+      "P-72 CRISPER › Spare Magazines": "4",
+      "P-72 CRISPER › Starting Magazines": "2",
+      "P-72 CRISPER › Mags from Supply": "6",
+      "P-72 CRISPER › Mags from Ammo Box": "3",
+      "P-72 CRISPER › Attacks › P-72 CRISPER S": "Spray",
+      "P-72 CRISPER › Attacks › Fire": "status",
+      "P-72 CRISPER › Attacks › Fire Panic": "status",
+      "P-72 CRISPER › Attacks › FlamerSlowed": "status",
+      "P-72 CRISPER S › Damage › Element": "Fire",
+      "P-72 CRISPER S › Damage › Standard": "2 Fire",
+      "P-72 CRISPER S › Damage › vs. Durable": "2 Fire",
+      "P-72 CRISPER S › Penetration › Direct": "Heavy",
+      "P-72 CRISPER S › Penetration › Slight Angle": "Heavy",
+      "P-72 CRISPER S › Penetration › Large Angle": "Heavy",
+      "P-72 CRISPER S › Penetration › Extreme Angle": "Unarmored",
+      "P-72 CRISPER S › Special Effects › Status": "Fire",
+      "P-72 CRISPER S › Special Effects › Status Strength": "2",
+      "P-72 CRISPER S › Special Effects › Second Status": "FlamerSlowed",
+      "P-72 CRISPER S › Special Effects › Status Strength (2)": "0.5",
+      "P-72 CRISPER S › Special Effects › Third Status": "Fire_Panic",
+      "P-72 CRISPER S › Special Effects › Status Strength (3)": "2",
+      "P-72 CRISPER S › Special Effects › Demolition Force": "10",
+      "P-72 CRISPER S › Special Effects › Stagger Force": "5",
+      "P-72 CRISPER S › Special Effects › Push Force": "5",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0",
+      "Fire Panic › Status › Status Duration": "1 sec",
+      "FlamerSlowed › Status › Status Duration": "0.5 sec"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Freedom's Flame P3",
+      "warbondId": "freedoms-flame",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}
