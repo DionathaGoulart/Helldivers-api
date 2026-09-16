@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 import { ParseError } from "../../src/errors.ts";
-import { ARMOR_PASSIVES_INDEX, parseArmorPassives } from "../../src/parsers/armor-passives.ts";
+import {
+  ARMOR_PASSIVES_INDEX,
+  parseArmorPassivePage,
+  parseArmorPassives,
+} from "../../src/parsers/armor-passives.ts";
 import { article, fixture } from "../fixtures.ts";
 
 const json = (value: unknown) => `${JSON.stringify(value, null, 2)}\n`;
@@ -46,5 +50,31 @@ describe("armor-passives parser", async () => {
       '<div class="armor-passive-panel"><div class="armor-passive-header"><a href="/wiki/Scout">Scout</a></div></div>',
     );
     expect(() => parseArmorPassives(noDescription, { url: index.url })).toThrow(ParseError);
+  });
+});
+
+describe("armor passive page parser", () => {
+  it("reads the panel of a passive's own page, linked by its canonical title", async () => {
+    const page = await fixture("Blunt-Force Mitigation");
+    expect(parseArmorPassivePage(page.html, { url: page.url })).toEqual({
+      name: "Blunt-Force Mitigation",
+      page: { label: "Blunt-Force Mitigation", title: "Blunt-Force Mitigation", anchor: null },
+      icon: {
+        file: "Blunt-Force_Mitigation_Armor_Passive_Icon.png",
+        src: "/images/Blunt-Force_Mitigation_Armor_Passive_Icon.png?b53dde",
+      },
+      description:
+        "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",
+      effects: [
+        "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",
+      ],
+    });
+  });
+
+  it("needs exactly one panel", async () => {
+    const index = await fixture(ARMOR_PASSIVES_INDEX);
+    expect(() => parseArmorPassivePage(index.html, { url: index.url })).toThrow(
+      "expected 1 passive panel, found 30",
+    );
   });
 });
