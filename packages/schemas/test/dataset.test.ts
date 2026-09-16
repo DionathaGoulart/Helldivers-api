@@ -186,6 +186,34 @@ describe("validateDataset", () => {
     ]);
   });
 
+  it("checks that conflicts name existing entities in a stable order", () => {
+    const files = load();
+    const [conflict] = (files.get("reports/conflicts.json") as { conflicts: unknown[] }).conflicts;
+    edit(
+      files,
+      "reports/conflicts.json",
+      ["conflicts"],
+      [
+        conflict,
+        mutate(conflict, ["id"], "ar-99-missing"),
+        mutate(conflict, ["field"], "firearm.capacity"),
+      ],
+    );
+
+    expect(validateDataset(files)).toEqual([
+      {
+        file: "reports/conflicts.json",
+        path: "conflicts[1].id",
+        message: "weapons/ar-99-missing does not exist",
+      },
+      {
+        file: "reports/conflicts.json",
+        path: "conflicts[2]",
+        message: "sort by collection, id and field",
+      },
+    ]);
+  });
+
   it("requires the newest changelog entry to describe this dataset", () => {
     const files = load();
     edit(files, "changelog.json", ["data", 0, "dataVersion"], "2026-09-14.0d15ea5e");
@@ -239,7 +267,7 @@ describe("pnpm validate:data", () => {
     const tsx = join(repoDir, "node_modules", ".bin", "tsx");
 
     const ok = await run(tsx, [script, "dataset"], options);
-    expect(ok.stdout).toMatch(/^validate:data ok · 54 files · dataset$/m);
+    expect(ok.stdout).toMatch(/^validate:data ok · 55 files · dataset$/m);
 
     const itemPath = join(workDir, "dataset", "armors", "tg-8-sharpshooter.json");
     const item = await readFile(itemPath, "utf8");

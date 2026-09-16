@@ -4,7 +4,7 @@ import { Collection } from "./common.ts";
 import { ChangelogEntry, DatasetManifest, Item, List, type Meta } from "./envelope.ts";
 import { checkIntegrity, type Dataset, type IntegrityOptions } from "./integrity.ts";
 import { jsonSchemaFiles } from "./json-schema.ts";
-import { ImageManifest } from "./reports.ts";
+import { ConflictReport, ImageManifest } from "./reports.ts";
 
 // Validates a `data/v1` tree held in memory (relative POSIX path → parsed JSON):
 //   meta.json · changelog.json · <collection>.json · <collection>/<id>.json
@@ -254,6 +254,26 @@ export function validateDataset(
   if (files.has("reports/images.json")) {
     const images = parse("reports/images.json", ImageManifest);
     imageUrls = new Set(images?.images.map((image) => image.url));
+  }
+  // Conflicts name existing entities, in a stable order.
+  if (files.has("reports/conflicts.json")) {
+    const report = parse("reports/conflicts.json", ConflictReport);
+    const key = (c: { collection: string; id: string; field: string }) =>
+      `${c.collection}\0${c.id}\0${c.field}`;
+    report?.conflicts.forEach((conflict, i) => {
+      const previous = report.conflicts[i - 1];
+      if (previous && key(previous) > key(conflict)) {
+        add("reports/conflicts.json", `conflicts[${i}]`, "sort by collection, id and field");
+      }
+      const list = dataset[conflict.collection];
+      if (entitiesValid && list && !list.some((entity) => entity.id === conflict.id)) {
+        add(
+          "reports/conflicts.json",
+          `conflicts[${i}].id`,
+          `${conflict.collection}/${conflict.id} does not exist`,
+        );
+      }
+    });
   }
   if (entitiesValid) {
     const hasImages = JSON.stringify(Object.values(dataset)).includes('"url":"/images/');

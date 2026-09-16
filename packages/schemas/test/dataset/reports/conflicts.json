@@ -1,0 +1,23 @@
+{
+  "conflicts": [
+    {
+      "collection": "weapons",
+      "id": "ar-23-liberator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 10.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+          "location": "infobox › Recoil",
+          "value": 14
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
+          "location": "AR-23 LIBERATOR › Recoil",
+          "value": 10.5
+        }
+      ]
+    }
+  ]
+}
