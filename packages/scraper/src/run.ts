@@ -116,13 +116,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const idLock: IdLock = await readIdLock(idLockPath(dataDir));
     const lockBefore = idLock.serialize();
     const current = await readCurrentDataset(join(dataDir, "v1"));
-    const warbonds = new WarbondResolver({
-      knownIds: new Set([
-        ...(current.collections.warbonds ?? []).map((warbond) => warbond.id),
-        ...overrides.warbondStubs,
-      ]),
-      aliases: overrides.warbondAliases,
-    });
+    const warbonds = new WarbondResolver({ aliases: overrides.warbondAliases });
 
     // 2–5. Discover, fetch, parse, normalize.
     const results: ScrapeResult[] = [];

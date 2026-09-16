@@ -110,14 +110,14 @@ describe("warbonds", () => {
   });
 
   const resolver = new WarbondResolver({
-    knownIds: new Set(["helldivers-mobilize", "castellans-creed"]),
     aliases: {
       "Helldivers Mobilize!": "helldivers-mobilize",
       "Castellan’s Creed": "castellans-creed",
+      "Righteous Revenants": "righteous-revenants",
     },
   });
 
-  it("resolves by href target first, then by alias", () => {
+  it("resolves by alias first, then by href target", () => {
     expect(resolver.resolve({ title: "Helldivers Mobilize Warbond" }, "whatever", PAGE)).toBe(
       "helldivers-mobilize",
     );
@@ -125,12 +125,24 @@ describe("warbonds", () => {
     expect(resolver.resolve({ title: "Castellans Creed" }, "Castellan's Creed P2", PAGE)).toBe(
       "castellans-creed",
     );
+    // A link through a redirect is re-pointed by the alias of its label.
+    expect(
+      resolver.resolve(
+        { title: "Helldivers 2 x Killzone Legendary Warbond" },
+        "Righteous Revenants P3",
+        PAGE,
+      ),
+    ).toBe("righteous-revenants");
+    // Ids are not checked here: integrity fails on a warbond the collection lacks.
+    expect(
+      resolver.resolve({ title: "Urban Legends Premium Warbond" }, "Urban Legends", PAGE),
+    ).toBe("urban-legends");
   });
 
-  it("fails on an unknown warbond", () => {
-    expect(() =>
-      resolver.resolve({ title: "Urban Legends Premium Warbond" }, "Urban Legends", PAGE),
-    ).toThrow("id urban-legends not a known warbond");
+  it("fails on a label without alias or warbond link", () => {
+    expect(() => resolver.resolve({ title: "Superstore" }, "Superstore", PAGE)).toThrow(
+      "unknown warbond; map it in data/overrides/warbond-aliases.json",
+    );
     expect(() => resolver.resolve(null, "Halo: ODST", PAGE)).toThrow(NormalizeError);
   });
 });

@@ -156,7 +156,6 @@ describe("classifySource", () => {
   const PAGE = "https://helldivers.wiki.gg/wiki/AR-23_Liberator";
   const options = {
     warbonds: new WarbondResolver({
-      knownIds: new Set(["python-commandos", "castellans-creed", "helldivers-mobilize"]),
       aliases: { "Helldivers Mobilize!": "helldivers-mobilize" },
     }),
     sourceLabels: { "Starter Equipment": "default", Superstore: "superstore" } as const,

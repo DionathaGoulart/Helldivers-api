@@ -1,7 +1,9 @@
 import { type Id, slugify } from "@hd2/schemas";
 import { NormalizeError } from "../errors.ts";
 
-// Warbond resolution, arch §5.5 rule 3: href target → alias table → fail.
+// Warbond resolution, arch §5.5 rule 3: alias table → href target → fail. Aliases come first so
+// a link through a redirect (`Helldivers 2 x Killzone Legendary Warbond`) can be re-pointed. The
+// ids are not checked here: integrity fails on a warbond id the warbonds collection lacks.
 
 const TITLE_SUFFIX = /\s+(?:(?:Standard|Premium|Legendary)\s+)?Warbond$/i;
 
@@ -26,35 +28,31 @@ export function pageFromAnchor(anchor: string | null): number | null {
 }
 
 export interface WarbondResolverOptions {
-  knownIds: ReadonlySet<Id>;
   aliases: Readonly<Record<string, Id>>; // `data/overrides/warbond-aliases.json`
 }
 
 export class WarbondResolver {
-  readonly #knownIds: ReadonlySet<Id>;
   readonly #aliases: ReadonlyMap<string, Id>;
 
   constructor(options: WarbondResolverOptions) {
-    this.#knownIds = options.knownIds;
     this.#aliases = new Map(
       Object.entries(options.aliases).map(([label, id]) => [normalizeWarbondLabel(label), id]),
     );
   }
 
   resolve(link: { title: string } | null, label: string, page: string): Id {
-    const fromTitle = link ? warbondIdFromTitle(link.title) : null;
-    if (fromTitle && this.#knownIds.has(fromTitle)) {
-      return fromTitle;
-    }
     const alias = this.#aliases.get(normalizeWarbondLabel(label));
-    if (alias && this.#knownIds.has(alias)) {
+    if (alias) {
       return alias;
     }
-    const tried = [fromTitle && `id ${fromTitle}`, alias && `alias ${alias}`].filter(Boolean);
+    const fromTitle = link ? warbondIdFromTitle(link.title) : null;
+    if (fromTitle) {
+      return fromTitle;
+    }
     throw new NormalizeError(
       page,
       label,
-      `unknown warbond${tried.length ? ` (${tried.join(", ")} not a known warbond)` : ""}; map it in data/overrides/warbond-aliases.json`,
+      "unknown warbond; map it in data/overrides/warbond-aliases.json",
     );
   }
 }
