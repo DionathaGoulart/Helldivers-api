@@ -15,6 +15,7 @@ export interface ItemSourceInput {
   cost: RawCost | null; // the item page's cost row
   titles: readonly string[]; // titles a warbond page table may link the item by
   wikiType?: string; // warbond table type when rows of other types link the same page ("Helmet")
+  itemName?: string; // warbond row name when rows of one type link the same page (rule 10)
   page: string; // item page URL
   fallbackCurrency?: Currency; // requisition columns that only say `Free`
   note: (message: string) => void;
@@ -58,7 +59,7 @@ export function itemSourceResolver({ source, overrides, warbonds }: ScrapeContex
       const warbond = await warbondPage(cell.link.title);
       let listed: ReturnType<typeof findItem> = null;
       for (const title of input.titles) {
-        listed ??= findItem(warbond, title, input.wikiType ?? null);
+        listed ??= findItem(warbond, title, input.wikiType ?? null, input.itemName ?? null);
       }
       if (!listed) {
         throw new NormalizeError(page, cell.label, `no page lists it on ${cell.link.title}`);

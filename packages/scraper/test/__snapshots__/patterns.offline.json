@@ -1,0 +1,1531 @@
+[
+  {
+    "id": "arctic",
+    "slug": "arctic",
+    "name": "Arctic",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 5,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 3000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "arctic-camo",
+    "slug": "arctic-camo",
+    "name": "Arctic Camo",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 5,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 3000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "castellans-green",
+    "slug": "castellans-green",
+    "name": "Castellans Green",
+    "aliases": [],
+    "description": "Castellans Green patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Castellans Green Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
+      "flags": [
+        "stub"
+      ]
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Castellan's Creed",
+          "warbondId": "castellans-creed",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Castellan's Creed",
+          "warbondId": "castellans-creed",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Castellan's Creed",
+          "warbondId": "castellans-creed",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Castellan's Creed",
+          "warbondId": "castellans-creed",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "chameleon-camo",
+    "slug": "chameleon-camo",
+    "name": "Chameleon Camo",
+    "aliases": [],
+    "description": "Chameleon Camo patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Chameleon Camo Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Chameleon_Camo_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Python Commandos",
+          "warbondId": "python-commandos",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Python Commandos",
+          "warbondId": "python-commandos",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Python Commandos",
+          "warbondId": "python-commandos",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Python Commandos",
+          "warbondId": "python-commandos",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "churned-earth",
+    "slug": "churned-earth",
+    "name": "Churned Earth",
+    "aliases": [],
+    "description": "Churned Earth patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Churned Earth Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Churned_Earth_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Siege Breakers",
+          "warbondId": "siege-breakers",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Siege Breakers",
+          "warbondId": "siege-breakers",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Siege Breakers",
+          "warbondId": "siege-breakers",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Siege Breakers",
+          "warbondId": "siege-breakers",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "concrete-jungle",
+    "slug": "concrete-jungle",
+    "name": "Concrete Jungle",
+    "aliases": [],
+    "description": "Concrete Jungle patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Concrete Jungle Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Concrete_Jungle_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Urban Legends",
+          "warbondId": "urban-legends",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Urban Legends",
+          "warbondId": "urban-legends",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Urban Legends",
+          "warbondId": "urban-legends",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Urban Legends",
+          "warbondId": "urban-legends",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "default",
+    "slug": "default",
+    "name": "Default",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 0,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 0
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "desert",
+    "slug": "desert",
+    "name": "Desert",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 10,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 5000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "desert-camo",
+    "slug": "desert-camo",
+    "name": "Desert Camo",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 10,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 5000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "extrasolar-ash",
+    "slug": "extrasolar-ash",
+    "name": "Extrasolar Ash",
+    "aliases": [],
+    "description": "Extrasolar Ash patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Extrasolar Ash Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Extrasolar_Ash_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Righteous Revenants",
+          "warbondId": "righteous-revenants",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Righteous Revenants",
+          "warbondId": "righteous-revenants",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Righteous Revenants",
+          "warbondId": "righteous-revenants",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Righteous Revenants",
+          "warbondId": "righteous-revenants",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "forest",
+    "slug": "forest",
+    "name": "Forest",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 15,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 7000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "forest-camo",
+    "slug": "forest-camo",
+    "name": "Forest Camo",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 15,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 7000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "helldiver",
+    "slug": "helldiver",
+    "name": "Helldiver",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 0,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 0
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "heritage-olive",
+    "slug": "heritage-olive",
+    "name": "Heritage Olive",
+    "aliases": [],
+    "description": "Heritage Olive patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Heritage Olive Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Heritage_Olive_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Entrenched Division",
+          "warbondId": "entrenched-division",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Entrenched Division",
+          "warbondId": "entrenched-division",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Entrenched Division",
+          "warbondId": "entrenched-division",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Entrenched Division",
+          "warbondId": "entrenched-division",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "inconspicuous-black",
+    "slug": "inconspicuous-black",
+    "name": "Inconspicuous Black",
+    "aliases": [],
+    "description": "Inconspicuous Black patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Inconspicuous Black Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Inconspicuous_Black_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Truth Enforcers",
+          "warbondId": "truth-enforcers",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 10
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Truth Enforcers",
+          "warbondId": "truth-enforcers",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Truth Enforcers",
+          "warbondId": "truth-enforcers",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Truth Enforcers",
+          "warbondId": "truth-enforcers",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "mean-green",
+    "slug": "mean-green",
+    "name": "Mean Green",
+    "aliases": [],
+    "description": "Mean Green patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Mean Green Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Mean_Green_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Halo: ODST",
+          "warbondId": "obedient-democracy-support-troopers",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Halo: ODST",
+          "warbondId": "obedient-democracy-support-troopers",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Halo: ODST",
+          "warbondId": "obedient-democracy-support-troopers",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Halo: ODST",
+          "warbondId": "obedient-democracy-support-troopers",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "mobile-white",
+    "slug": "mobile-white",
+    "name": "Mobile White",
+    "aliases": [],
+    "description": "Mobile White patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Mobile White Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Mobile_White_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Exo Experts",
+          "warbondId": "exo-experts",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Exo Experts",
+          "warbondId": "exo-experts",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Exo Experts",
+          "warbondId": "exo-experts",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Exo Experts",
+          "warbondId": "exo-experts",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "mustard",
+    "slug": "mustard",
+    "name": "Mustard",
+    "aliases": [],
+    "description": "Mustard patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Mustard Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Mustard_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Chemical Agents",
+          "warbondId": "chemical-agents",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Chemical Agents",
+          "warbondId": "chemical-agents",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Chemical Agents",
+          "warbondId": "chemical-agents",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Chemical Agents",
+          "warbondId": "chemical-agents",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "night",
+    "slug": "night",
+    "name": "Night",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 25,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 13000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "rattlesnake",
+    "slug": "rattlesnake",
+    "name": "Rattlesnake",
+    "aliases": [],
+    "description": "Rattlesnake patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Rattlesnake Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Rattlesnake_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Dust Devils",
+          "warbondId": "dust-devils",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Dust Devils",
+          "warbondId": "dust-devils",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Dust Devils",
+          "warbondId": "dust-devils",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Dust Devils",
+          "warbondId": "dust-devils",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "safety-orange",
+    "slug": "safety-orange",
+    "name": "Safety Orange",
+    "aliases": [],
+    "description": "Safety Orange patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Safety Orange Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Safety_Orange_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Freedom's Flame",
+          "warbondId": "freedoms-flame",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 10
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Freedom's Flame",
+          "warbondId": "freedoms-flame",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 25
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Freedom's Flame",
+          "warbondId": "freedoms-flame",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 40
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Freedom's Flame",
+          "warbondId": "freedoms-flame",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "standard",
+    "slug": "standard",
+    "name": "Standard",
+    "aliases": [],
+    "description": "Standard patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Standard Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Standard_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "default",
+          "label": "Starter Equipment",
+          "warbondId": null,
+          "page": null,
+          "cost": null,
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "true-blue",
+    "slug": "true-blue",
+    "name": "True Blue",
+    "aliases": [],
+    "description": "True Blue patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "True Blue Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/True_Blue_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Force of Law",
+          "warbondId": "force-of-law",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Force of Law",
+          "warbondId": "force-of-law",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Force of Law",
+          "warbondId": "force-of-law",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Force of Law",
+          "warbondId": "force-of-law",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "undergrowth",
+    "slug": "undergrowth",
+    "name": "Undergrowth",
+    "aliases": [],
+    "description": "Undergrowth patterns are selectable wraps for your various vehicles.",
+    "image": null,
+    "wiki": {
+      "title": "Undergrowth Pattern",
+      "url": "https://helldivers.wiki.gg/wiki/Undergrowth_Pattern",
+      "flags": []
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "hellpod",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Viper Commandos",
+          "warbondId": "viper-commandos",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "shuttle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Viper Commandos",
+          "warbondId": "viper-commandos",
+          "page": 2,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "exosuit",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Viper Commandos",
+          "warbondId": "viper-commandos",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 50
+          },
+          "rotating": null
+        }
+      },
+      {
+        "target": "vehicle",
+        "image": null,
+        "source": {
+          "type": "warbond",
+          "label": "Viper Commandos",
+          "warbondId": "viper-commandos",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "urban",
+    "slug": "urban",
+    "name": "Urban",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 20,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 13000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "urban-camo",
+    "slug": "urban-camo",
+    "name": "Urban Camo",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 20,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 13000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  },
+  {
+    "id": "venus",
+    "slug": "venus",
+    "name": "Venus",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cosmetics",
+      "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
+      "flags": []
+    },
+    "scope": "weapon",
+    "unlockLevel": 25,
+    "variants": [
+      {
+        "target": "weapon",
+        "image": null,
+        "source": {
+          "type": "requisition",
+          "label": "Requisition Slips",
+          "warbondId": null,
+          "page": null,
+          "cost": {
+            "currency": "requisition",
+            "amount": 13000
+          },
+          "rotating": null
+        }
+      }
+    ]
+  }
+]

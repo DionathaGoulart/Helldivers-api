@@ -84,7 +84,7 @@ async function readTree(root: string): Promise<Record<string, string>> {
   return tree;
 }
 
-// A full run reads ~450 fixture pages.
+// A full run reads ~480 fixture pages.
 describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
   it("publishes every scraped collection equal to the golden snapshots", async () => {
     const report = await run("2026-09-15T21:07:00.123Z");
@@ -101,9 +101,14 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       { collection: "helmets", before: 0, after: 110 },
       { collection: "capes", before: 0, after: 89 },
       { collection: "armor-sets", before: 0, after: 109 },
+      { collection: "player-cards", before: 0, after: 76 },
+      { collection: "emotes", before: 0, after: 48 },
+      { collection: "patterns", before: 0, after: 27 },
+      { collection: "titles", before: 0, after: 56 },
     ]);
-    // Unreleased Ironclad Democracy items (their passive, costs, stats and descriptions), the
-    // Source-less CQC-73 Entrenchment Tool and one cape page without an Armory quote.
+    // Unreleased Ironclad Democracy items (their passive, costs, stats and descriptions, the two
+    // player cards missing from the Cosmetics grid), the Source-less CQC-73 Entrenchment Tool and
+    // one cape page without an Armory quote.
     expect(report.warnings).toEqual([
       "passives: Blunt-Force Mitigation is not listed on Armor Passives; read https://helldivers.wiki.gg/wiki/Blunt-Force_Mitigation",
       'weapons/ar-11-arbitrator: cost not announced ("? Medals")',
@@ -128,6 +133,8 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       "capes/standard-of-rapid-evacuation: no Armory description on https://helldivers.wiki.gg/wiki/Standard_of_Rapid_Evacuation",
       'capes/shroud-of-the-juggernaut: cost not announced ("Medals")',
       "capes/shroud-of-the-juggernaut: no Armory description on https://helldivers.wiki.gg/wiki/Shroud_of_the_Juggernaut",
+      'player-cards/standard-of-rapid-evacuation: cost not announced ("Medals")',
+      'player-cards/shroud-of-the-juggernaut: cost not announced ("Medals")',
     ]);
     expect(report.changes.every((change) => change.kind === "added")).toBe(true);
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
@@ -149,7 +156,11 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
         (1 + 109) +
         (1 + 110) +
         (1 + 89) +
-        (1 + 109),
+        (1 + 109) +
+        (1 + 76) +
+        (1 + 48) +
+        (1 + 27) +
+        (1 + 56),
     );
     expect(files.get("meta.json")).toMatchObject({ generatedAt: "2026-09-15T21:07:00Z" });
 
@@ -163,6 +174,10 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       "helmets",
       "capes",
       "armor-sets",
+      "player-cards",
+      "emotes",
+      "patterns",
+      "titles",
     ];
     for (const collection of collections) {
       const list = (files.get(`${collection}.json`) as { data: unknown[] }).data;
@@ -318,13 +333,13 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
         source: { type: "event", label: "Void Piercer", cost: null },
       },
     });
-    // Capes: the page gives no page number, so the warbond table does (rule 3); sets and player
-    // cards are linked in plan 3g and 3e.
+    // Capes: the page gives no page number, so the warbond table does (rule 3); sets are linked
+    // in plan 3g, the player card of the same page by the link step (rule 9).
     expect(files.get("capes/city-fighters-resolve.json")).toMatchObject({
       data: {
         description: expect.stringMatching(/^The Helldivers are all that stand between/),
         setIds: [],
-        playerCardId: null,
+        playerCardId: "city-fighters-resolve",
         source: {
           warbondId: "castellans-creed",
           page: 2,
@@ -344,9 +359,8 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       data: { armorIds: ["bfm-16-tanker", "bfm-220-ironclad"] },
     });
 
-    // Civilian weapons: SG-88 equals arch §5.4 except the image, the table-keyed `statsRaw` and
-    // the maintenance flag the audit did not capture; the CQC-72 page is named Trench Shovel in
-    // game and mentions CQC-73's warbond.
+    // Cosmetics equal arch §5.4 except images (Phase 4). The Castellans Green page lead has since
+    // been split from its acquisition paragraph, and the Sergeant row links its own page.
     const readExample = async (name: string) =>
       JSON.parse(
         await readFile(
@@ -354,6 +368,54 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
           "utf8",
         ),
       );
+    const withoutImages = (value: unknown): unknown =>
+      JSON.parse(JSON.stringify(value), (key, inner) => (key === "image" ? null : inner));
+    for (const name of [
+      "player-cards.city-fighters-resolve",
+      "emotes.clapping",
+      "patterns.arctic",
+      "titles.viper-commando",
+      "titles.sergeant",
+    ]) {
+      const [collection, id] = name.split(".");
+      expect(files.get(`${collection}/${id}.json`), name).toEqual({
+        meta: expect.anything(),
+        data: withoutImages(await readExample(name)),
+      });
+    }
+    expect(files.get("patterns/castellans-green.json")).toEqual({
+      meta: expect.anything(),
+      data: {
+        ...(withoutImages(await readExample("patterns.castellans-green")) as object),
+        description: "Castellans Green patterns are selectable wraps for your various vehicles.",
+      },
+    });
+    expect(files.get("player-cards/solid-black.json")).toMatchObject({
+      data: {
+        wiki: { title: "Solid Black", flags: [] },
+        pairedCapeId: null,
+        source: { type: "default", label: "Starter Equipment", cost: null },
+      },
+    });
+    expect(files.get("patterns/standard.json")).toMatchObject({
+      data: {
+        variants: ["hellpod", "shuttle", "exosuit", "vehicle"].map((target) => ({
+          target,
+          image: null,
+          source: { type: "default", label: "Starter Equipment", cost: null },
+        })),
+      },
+    });
+    expect(files.get("titles/super-citizen.json")).toMatchObject({
+      data: { source: { type: "edition", cost: { currency: "usd", amount: 20 } } },
+    });
+    expect(files.get("titles/assault-infantry.json")).toMatchObject({
+      data: { source: { warbondId: "righteous-revenants", page: 3 } },
+    });
+
+    // Civilian weapons: SG-88 equals arch §5.4 except the image, the table-keyed `statsRaw` and
+    // the maintenance flag the audit did not capture; the CQC-72 page is named Trench Shovel in
+    // game and mentions CQC-73's warbond.
     const sg88 = await readExample("weapons.sg-88-break-action-shotgun");
     const { statsRaw: sg88Raw, ...sg88Rest } = (
       files.get("weapons/sg-88-break-action-shotgun.json") as { data: Record<string, unknown> }
@@ -378,10 +440,35 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
         source: { type: "other", label: "Minor Places of Interest", cost: null },
       },
     });
+    expect(files.get("stratagems/aquifer-drill.json")).toMatchObject({
+      data: { wiki: { flags: ["stub"] } },
+    });
 
     const conflicts = (
       files.get("reports/conflicts.json") as { conflicts: { id: string; field: string }[] }
     ).conflicts;
+    // Rule 10: the warbond table places Castellans Green Exosuit on page 3, its page tab on 1.
+    expect(conflicts.filter((conflict) => conflict.id === "castellans-green")).toEqual([
+      {
+        collection: "patterns",
+        id: "castellans-green",
+        field: "variants[2].source.page",
+        rule: 10,
+        chosen: 3,
+        candidates: [
+          {
+            page: "https://helldivers.wiki.gg/wiki/Castellan%E2%80%99s_Creed_Legendary_Warbond",
+            location: "Page 3 › Castellans Green Exosuit",
+            value: 3,
+          },
+          {
+            page: "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
+            location: "infobox › Exosuit › Source",
+            value: 1,
+          },
+        ],
+      },
+    ]);
     expect(conflicts).toContainEqual({
       collection: "stratagems",
       id: "b-1-supply-pack",
@@ -443,10 +530,17 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       ["helmets", 110],
       ["capes", 89],
       ["armor-sets", 109],
+      ["player-cards", 76],
+      ["emotes", 48],
+      ["patterns", 27],
+      ["titles", 56],
     ] as const) {
       expect(Object.keys(lock[collection]), collection).toHaveLength(count);
     }
     expect(lock.capes["Cloak of Posterity's Gratitude"]).toBe("cloak-of-posteritys-gratitude");
+    expect(lock.patterns["Castellans Green Pattern"]).toBe("castellans-green");
+    expect(lock.patterns["Cosmetics#Patterns/Arctic"]).toBe("arctic");
+    expect(lock.titles.Redacted).toBe("redacted");
   });
 
   it("changes nothing on a second run with the same pages", async () => {
@@ -488,6 +582,15 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     ]);
   });
 
+  it("keeps the cape ⇄ player card pairs on a capes-only run", async () => {
+    await run("2026-09-15T21:07:00Z");
+    const before = await readTree(dataDir);
+
+    const report = await run("2026-09-16T21:07:00Z", undefined, false, ["capes"]);
+    expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
+    expect(await readTree(dataDir)).toEqual(before);
+  });
+
   it("refreshes weapon trait back-references on a weapons-only run", async () => {
     await run("2026-09-15T21:07:00Z", undefined, false, ["weapon-traits", "weapons"]);
     const lap = join(dataDir, "v1", "weapon-traits", "light-armor-penetrating.json");
@@ -520,6 +623,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     [["weapons"], "weapons need the weapon-traits collection: scrape weapon-traits first"],
     [["armors"], "armors need the passives collection: scrape passives first"],
     [["armor-sets"], "armor-sets need the armors and helmets collections: scrape them first"],
+    [["player-cards"], "player-cards need the capes collection: scrape capes first"],
   ] as const)("needs the collections %j resolves against", async (only, message) => {
     const report = await run("2026-09-15T21:07:00Z", undefined, false, [...only]);
     expect(report.failure).toEqual({ kind: "error", messages: [message] });
@@ -541,7 +645,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(report.failure).toEqual({
       kind: "error",
       messages: [
-        "warbonds is not scraped yet (available: boosters, passives, weapon-traits, weapons, stratagems, armors, helmets, capes, armor-sets)",
+        "warbonds is not scraped yet (available: boosters, passives, weapon-traits, weapons, stratagems, armors, helmets, capes, armor-sets, player-cards, emotes, patterns, titles)",
       ],
     });
   });

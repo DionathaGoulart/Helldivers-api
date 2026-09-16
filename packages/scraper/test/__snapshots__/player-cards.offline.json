@@ -1,41 +1,17 @@
 [
   {
-    "id": "against-the-tyrant-cloud",
-    "slug": "against-the-tyrant-cloud",
-    "name": "Against the Tyrant Cloud",
-    "aliases": [],
-    "description": "No oppressive murk, no fascist penumbra, no dictatorial haze and no unfree emanation; no tyrannical Gloom shall ever stand a chance against the searing light of Helldiver fire.",
-    "image": null,
-    "wiki": {
-      "title": "Against the Tyrant Cloud",
-      "url": "https://helldivers.wiki.gg/wiki/Against_the_Tyrant_Cloud",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Oshaune",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
-    }
-  },
-  {
     "id": "agent-of-oblivion",
     "slug": "agent-of-oblivion",
     "name": "Agent of Oblivion",
     "aliases": [],
-    "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's “Greener Galaxy” campaign.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Agent of Oblivion",
       "url": "https://helldivers.wiki.gg/wiki/Agent_of_Oblivion",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "agent-of-oblivion",
+    "pairedCapeId": "agent-of-oblivion",
     "source": {
       "type": "warbond",
       "label": "Cutting Edge P3",
@@ -43,7 +19,7 @@
       "page": 3,
       "cost": {
         "currency": "medals",
-        "amount": 30
+        "amount": 16
       },
       "rotating": null
     }
@@ -53,15 +29,14 @@
     "slug": "badge-of-order",
     "name": "Badge of Order",
     "aliases": [],
-    "description": "This sigil reaffirms the Helldiver's pledge to protect Managed Democracy, serve Managed Democracy, and uphold Managed Democracy.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Badge of Order",
       "url": "https://helldivers.wiki.gg/wiki/Badge_of_Order",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "badge-of-order",
+    "pairedCapeId": "badge-of-order",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -69,7 +44,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 100
+        "amount": 35
       },
       "rotating": false
     }
@@ -79,15 +54,14 @@
     "slug": "bastion-of-integrity",
     "name": "Bastion of Integrity",
     "aliases": [],
-    "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aerial recovery crews.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Bastion of Integrity",
       "url": "https://helldivers.wiki.gg/wiki/Bastion_of_Integrity",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "bastion-of-integrity",
+    "pairedCapeId": "bastion-of-integrity",
     "source": {
       "type": "warbond",
       "label": "Steeled Veterans P3",
@@ -95,7 +69,7 @@
       "page": 3,
       "cost": {
         "currency": "medals",
-        "amount": 20
+        "amount": 16
       },
       "rotating": null
     }
@@ -105,15 +79,14 @@
     "slug": "blazing-samaritan",
     "name": "Blazing Samaritan",
     "aliases": [],
-    "description": "Emblazoned with the red, white, and green of the 676th Democracy Regiment, who made their final stand on the slopes of Justice Hill.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Blazing Samaritan",
       "url": "https://helldivers.wiki.gg/wiki/Blazing_Samaritan",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "blazing-samaritan",
+    "pairedCapeId": "blazing-samaritan",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P9",
@@ -121,7 +94,7 @@
       "page": 9,
       "cost": {
         "currency": "medals",
-        "amount": 30
+        "amount": 15
       },
       "rotating": null
     }
@@ -131,864 +104,18 @@
     "slug": "botslayer",
     "name": "Botslayer",
     "aliases": [],
-    "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Botslayer",
       "url": "https://helldivers.wiki.gg/wiki/Botslayer",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "botslayer",
+    "pairedCapeId": "botslayer",
     "source": {
       "type": "warbond",
       "label": "Cutting Edge P1",
       "warbondId": "cutting-edge",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "camo-cloak",
-    "slug": "camo-cloak",
-    "name": "Camo Cloak",
-    "aliases": [],
-    "description": "The horrors of Tyranny are manifold, their minions many, but they are naught before Democracy's twin swords: overwhelming firepower, and those trained to unquestioningly wield it.",
-    "image": null,
-    "wiki": {
-      "title": "Camo Cloak",
-      "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "camo-cloak",
-    "source": {
-      "type": "warbond",
-      "label": "Castellan’s Creed",
-      "warbondId": "castellans-creed",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "city-fighters-resolve",
-    "slug": "city-fighters-resolve",
-    "name": "City Fighter's Resolve",
-    "aliases": [],
-    "description": "The Helldivers are all that stand between Democracy and the Fascist Hordes. Trained since birth in the art of Defensive Warfare, they meet mindless legions with the steady aim of one who has seen countless battles. - Excerpt from the journal of a Charan Democracy Officer, ca. 2082 SE",
-    "image": null,
-    "wiki": {
-      "title": "City Fighter's Resolve",
-      "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "city-fighters-resolve",
-    "source": {
-      "type": "warbond",
-      "label": "Castellan’s Creed",
-      "warbondId": "castellans-creed",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 25
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "cloak-of-posteritys-gratitude",
-    "slug": "cloak-of-posteritys-gratitude",
-    "name": "Cloak of Posterity's Gratitude",
-    "aliases": [],
-    "description": "A representation of the thankfulness of those infinite descendants whose liberated existence we strive to ensure.",
-    "image": null,
-    "wiki": {
-      "title": "Cloak of Posterity's Gratitude",
-      "url": "https://helldivers.wiki.gg/wiki/Cloak_of_Posterity's_Gratitude",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "cloak-of-posteritys-gratitude",
-    "source": {
-      "type": "warbond",
-      "label": "Steeled Veterans P2",
-      "warbondId": "steeled-veterans",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 16
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "conductor-of-brilliance",
-    "slug": "conductor-of-brilliance",
-    "name": "Conductor of Brilliance",
-    "aliases": [],
-    "description": "The embroidered pattern uses aluminium from Automaton motherboards, granting the once-wretched metals a new and noble purpose.",
-    "image": null,
-    "wiki": {
-      "title": "Conductor of Brilliance",
-      "url": "https://helldivers.wiki.gg/wiki/Conductor_of_Brilliance",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "conductor-of-brilliance",
-    "source": {
-      "type": "warbond",
-      "label": "Control Group P1",
-      "warbondId": "control-group",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "cover-of-darkness",
-    "slug": "cover-of-darkness",
-    "name": "Cover of Darkness",
-    "aliases": [],
-    "description": "When children have trouble sleeping, tucking them in under this cape reminds them that they are never alone, for Liberty's unseen defenders are always watching over them.",
-    "image": null,
-    "wiki": {
-      "title": "Cover of Darkness",
-      "url": "https://helldivers.wiki.gg/wiki/Cover_of_Darkness",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "cover-of-darkness",
-    "source": {
-      "type": "superstore",
-      "label": "Superstore",
-      "warbondId": null,
-      "page": null,
-      "cost": {
-        "currency": "super_credits",
-        "amount": 250
-      },
-      "rotating": false
-    }
-  },
-  {
-    "id": "crest-of-the-unsullied",
-    "slug": "crest-of-the-unsullied",
-    "name": "Crest of the Unsullied",
-    "aliases": [],
-    "description": "With sharp geometric angles to symbolize the rigid chain of command, this cape embodies the sanctity and moral fortitude of unblemished leadership over the mud-caked warriors they direct.",
-    "image": null,
-    "wiki": {
-      "title": "Crest of the Unsullied",
-      "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "crest-of-the-unsullied",
-    "source": {
-      "type": "warbond",
-      "label": "Entrenched Division P2",
-      "warbondId": "entrenched-division",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 25
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "cresting-honor",
-    "slug": "cresting-honor",
-    "name": "Cresting Honor",
-    "aliases": [],
-    "description": "The yellow is the exact shade of the Ministry of Unity's ‘Golden Gate’, leading to the Chamber of Unanimous Decision.",
-    "image": null,
-    "wiki": {
-      "title": "Cresting Honor",
-      "url": "https://helldivers.wiki.gg/wiki/Cresting_Honor",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "cresting-honor",
-    "source": {
-      "type": "warbond",
-      "label": "Helldivers Mobilize! P7",
-      "warbondId": "helldivers-mobilize",
-      "page": 7,
-      "cost": {
-        "currency": "medals",
-        "amount": 15
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "de-foresters-sailcloth",
-    "slug": "de-foresters-sailcloth",
-    "name": "De-Forester's Sailcloth",
-    "aliases": [],
-    "description": "This convenient cape can double as ground insulation, warming blanket, or camp roofing to the enterprising defoliator.",
-    "image": null,
-    "wiki": {
-      "title": "De-Forester's Sailcloth",
-      "url": "https://helldivers.wiki.gg/wiki/De-Forester's_Sailcloth",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "de-foresters-sailcloth",
-    "source": {
-      "type": "superstore",
-      "label": "Superstore",
-      "warbondId": null,
-      "page": null,
-      "cost": {
-        "currency": "super_credits",
-        "amount": 120
-      },
-      "rotating": false
-    }
-  },
-  {
-    "id": "defender-of-our-dream",
-    "slug": "defender-of-our-dream",
-    "name": "Defender of Our Dream",
-    "aliases": [],
-    "description": "Commemorating the New Stockholm treaty on prisoners of war, this cape celebrates the right of all enemy combatants to a swift and merciful execution.",
-    "image": null,
-    "wiki": {
-      "title": "Defender of Our Dream",
-      "url": "https://helldivers.wiki.gg/wiki/Defender_of_Our_Dream",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "defender-of-our-dream",
-    "source": {
-      "type": "warbond",
-      "label": "Righteous Revenants P2",
-      "warbondId": "righteous-revenants",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 25
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "diagram-of-the-noblest-payload",
-    "slug": "diagram-of-the-noblest-payload",
-    "name": "Diagram of the Noblest Payload",
-    "aliases": [],
-    "description": "Rendering the Helldiver's to the battlefield in splendorous foil, this cape illustrates that in any successful military machinery, heroic humans are the most vital piece.",
-    "image": null,
-    "wiki": {
-      "title": "Diagram of the Noblest Payload",
-      "url": "https://helldivers.wiki.gg/wiki/Diagram_of_the_Noblest_Payload",
-      "flags": [
-        "broken_file_links"
-      ]
-    },
-    "setIds": [],
-    "playerCardId": "diagram-of-the-noblest-payload",
-    "source": {
-      "type": "superstore",
-      "label": "Superstore",
-      "warbondId": null,
-      "page": null,
-      "cost": {
-        "currency": "super_credits",
-        "amount": 100
-      },
-      "rotating": false
-    }
-  },
-  {
-    "id": "dignity-of-toil",
-    "slug": "dignity-of-toil",
-    "name": "Dignity of Toil",
-    "aliases": [],
-    "description": "Woven from coarse, industrial fibers designed to absorb sweat and oil, this cape features a spade emblem to honor Super Earth's groundbreakers, who ensure Liberty's light finds its way through any planet's crust.",
-    "image": null,
-    "wiki": {
-      "title": "Dignity of Toil",
-      "url": "https://helldivers.wiki.gg/wiki/Dignity_of_Toil",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "dignity-of-toil",
-    "source": {
-      "type": "warbond",
-      "label": "Entrenched Division P1",
-      "warbondId": "entrenched-division",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "dissidents-nightmare",
-    "slug": "dissidents-nightmare",
-    "name": "Dissident's Nightmare",
-    "aliases": [],
-    "description": "After extensive testing in Patriotic Rehabilitation Centers, this design was proved most terrifying to dissent-afflicted individuals.",
-    "image": null,
-    "wiki": {
-      "title": "Dissident's Nightmare",
-      "url": "https://helldivers.wiki.gg/wiki/Dissident's_Nightmare",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "dissidents-nightmare",
-    "source": {
-      "type": "warbond",
-      "label": "Polar Patriots P1",
-      "warbondId": "polar-patriots",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "drape-of-glory",
-    "slug": "drape-of-glory",
-    "name": "Drape of Glory",
-    "aliases": [],
-    "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic.",
-    "image": null,
-    "wiki": {
-      "title": "Drape of Glory",
-      "url": "https://helldivers.wiki.gg/wiki/Drape_of_Glory",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "warbond",
-      "label": "Steeled Veterans P2",
-      "warbondId": "steeled-veterans",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 16
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "eagles-fury",
-    "slug": "eagles-fury",
-    "name": "Eagle's Fury",
-    "aliases": [],
-    "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes.",
-    "image": null,
-    "wiki": {
-      "title": "Eagle's Fury",
-      "url": "https://helldivers.wiki.gg/wiki/Eagle's_Fury",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "eagles-fury",
-    "source": {
-      "type": "warbond",
-      "label": "Democratic Detonation P2",
-      "warbondId": "democratic-detonation",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 20
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "emblem-of-freedom",
-    "slug": "emblem-of-freedom",
-    "name": "Emblem of Freedom",
-    "aliases": [],
-    "description": "Created to honor the great Freedom Chant of 2-14, in which over 10,000 loyal citizens united as one to express their undying respect for Freedom.",
-    "image": null,
-    "wiki": {
-      "title": "Emblem of Freedom",
-      "url": "https://helldivers.wiki.gg/wiki/Emblem_of_Freedom",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Social Media MO",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
-    }
-  },
-  {
-    "id": "eternal-corona",
-    "slug": "eternal-corona",
-    "name": "Eternal Corona",
-    "aliases": [],
-    "description": "Featuring an ancient sun symbol and a distressed look, this cape reminds us that the light of Liberty is everlasting, and will keep shining even when we ourselves have become tattered and frayed.",
-    "image": null,
-    "wiki": {
-      "title": "Eternal Corona",
-      "url": "https://helldivers.wiki.gg/wiki/Eternal_Corona",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "eternal-corona",
-    "source": {
-      "type": "superstore",
-      "label": "Superstore",
-      "warbondId": null,
-      "page": null,
-      "cost": {
-        "currency": "super_credits",
-        "amount": 120
-      },
-      "rotating": false
-    }
-  },
-  {
-    "id": "executioners-canopy",
-    "slug": "executioners-canopy",
-    "name": "Executioner's Canopy",
-    "aliases": [],
-    "description": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
-    "image": null,
-    "wiki": {
-      "title": "Executioner's Canopy",
-      "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "executioners-canopy",
-    "source": {
-      "type": "warbond",
-      "label": "Viper Commandos P2",
-      "warbondId": "viper-commandos",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 20
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "eye-of-freedom",
-    "slug": "eye-of-freedom",
-    "name": "Eye of Freedom",
-    "aliases": [],
-    "description": "A mark of stalwart loyalty bestowed only to those who have proved themselves worthy through unquestioning dedication.",
-    "image": null,
-    "wiki": {
-      "title": "Eye of Freedom",
-      "url": "https://helldivers.wiki.gg/wiki/Eye_of_Freedom",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Anniversary Gift",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
-    }
-  },
-  {
-    "id": "eye-of-liberty",
-    "slug": "eye-of-liberty",
-    "name": "Eye of Liberty",
-    "aliases": [],
-    "description": "Let the Second Anniversary of the Second Galactic War be witnessed by the lidless eye of Liberty, that ever-watchful orb which provides safety through its ceaseless surveillance.",
-    "image": null,
-    "wiki": {
-      "title": "Eye of Liberty",
-      "url": "https://helldivers.wiki.gg/wiki/Eye_of_Liberty",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Anniversary Gift",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
-    }
-  },
-  {
-    "id": "eye-of-the-clandestine",
-    "slug": "eye-of-the-clandestine",
-    "name": "Eye of the Clandestine",
-    "aliases": [],
-    "description": "Those who serve Liberty from the shadows often elect to stay anonymous, moving like traceless specters through the night. May they watch over us always.",
-    "image": null,
-    "wiki": {
-      "title": "Eye of the Clandestine",
-      "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "eye-of-the-clandestine",
-    "source": {
-      "type": "warbond",
-      "label": "Halo: ODST P2",
-      "warbondId": "obedient-democracy-support-troopers",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 25
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "fallen-heros-vengeance",
-    "slug": "fallen-heros-vengeance",
-    "name": "Fallen Hero's Vengeance",
-    "aliases": [],
-    "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them.",
-    "image": null,
-    "wiki": {
-      "title": "Fallen Hero's Vengeance",
-      "url": "https://helldivers.wiki.gg/wiki/Fallen_Hero's_Vengeance",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Malevelon Creek Memorial Day",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
-    }
-  },
-  {
-    "id": "federations-embrace",
-    "slug": "federations-embrace",
-    "name": "Federation's Embrace",
-    "aliases": [],
-    "description": "When donning the One True Flag, one must face the direction of Super Earth, recite the Super Earth Anthem, and salute one's own image in the nearest reflective surface. Wrongful discarding of this cape is a capital offense.",
-    "image": null,
-    "wiki": {
-      "title": "Federation's Embrace",
-      "url": "https://helldivers.wiki.gg/wiki/Federation's_Embrace",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "federations-embrace",
-    "source": {
-      "type": "warbond",
-      "label": "Masters of Ceremony P1",
-      "warbondId": "masters-of-ceremony",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "foe-rent-asunder",
-    "slug": "foe-rent-asunder",
-    "name": "Foe Rent Asunder",
-    "aliases": [],
-    "description": "This ancient, likely allegorical, illustration of Might triumphing over the Anguiform is seen by scholars as a symbol of humankind's supremacy in the art of violence.",
-    "image": null,
-    "wiki": {
-      "title": "Foe Rent Asunder",
-      "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "foe-rent-asunder",
-    "source": {
-      "type": "warbond",
-      "label": "Python Commandos P2",
-      "warbondId": "python-commandos",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 25
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "foesmasher",
-    "slug": "foesmasher",
-    "name": "Foesmasher",
-    "aliases": [],
-    "description": "Durable, waterproof, and thermally-lined, surplus units of this cape are favored by domestic campers, to make tents.",
-    "image": null,
-    "wiki": {
-      "title": "Foesmasher",
-      "url": "https://helldivers.wiki.gg/wiki/Foesmasher",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "default",
-      "label": "Starter Equipment",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
-    }
-  },
-  {
-    "id": "fre-liberam",
-    "slug": "fre-liberam",
-    "name": "Fre Liberam",
-    "aliases": [],
-    "description": "Each purchase of this cape comes with a complimentary will and testament amendment form, which guarantees the soon-to-be-deceased a prominent spot on the Wall of Martyrs.",
-    "image": null,
-    "wiki": {
-      "title": "Fre Liberam",
-      "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "fre-liberam",
-    "source": {
-      "type": "warbond",
-      "label": "Servants of Freedom P1",
-      "warbondId": "servants-of-freedom",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "free-spirited-spangles",
-    "slug": "free-spirited-spangles",
-    "name": "Free-Spirited Spangles",
-    "aliases": [],
-    "description": "A tribute to the mischief-makers and mavericks, those trailblazers who dutifully execute their orders with universally-endearing panache. The star-crossed trail calls to mind the special kind of Freedom that can only be achieved by going very fast in very expensive state-owned vehicles.",
-    "image": null,
-    "wiki": {
-      "title": "Free-Spirited Spangles",
-      "url": "https://helldivers.wiki.gg/wiki/Free-Spirited_Spangles",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "free-spirited-spangles",
-    "source": {
-      "type": "warbond",
-      "label": "Exo Experts P1",
-      "warbondId": "exo-experts",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "freedoms-tapestry",
-    "slug": "freedoms-tapestry",
-    "name": "Freedom's Tapestry",
-    "aliases": [],
-    "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets.",
-    "image": null,
-    "wiki": {
-      "title": "Freedom's Tapestry",
-      "url": "https://helldivers.wiki.gg/wiki/Freedom's_Tapestry",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "freedoms-tapestry",
-    "source": {
-      "type": "warbond",
-      "label": "Democratic Detonation P3",
-      "warbondId": "democratic-detonation",
-      "page": 3,
-      "cost": {
-        "currency": "medals",
-        "amount": 30
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "gilded-quill",
-    "slug": "gilded-quill",
-    "name": "Gilded Quill",
-    "aliases": [],
-    "description": "The golden, piercing quills symbolise the deadly and poetic Justice delivered to seditious oppositionists. Silent sanctions, delivered with unerring precision and incontestable deniability.",
-    "image": null,
-    "wiki": {
-      "title": "Gilded Quill",
-      "url": "https://helldivers.wiki.gg/wiki/Gilded_Quill",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "gilded-quill",
-    "source": {
-      "type": "superstore",
-      "label": "Superstore",
-      "warbondId": null,
-      "page": null,
-      "cost": {
-        "currency": "super_credits",
-        "amount": 100
-      },
-      "rotating": false
-    }
-  },
-  {
-    "id": "harbinger-of-true-equality",
-    "slug": "harbinger-of-true-equality",
-    "name": "Harbinger of True Equality",
-    "aliases": [],
-    "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead.",
-    "image": null,
-    "wiki": {
-      "title": "Harbinger of True Equality",
-      "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "harbinger-of-true-equality",
-    "source": {
-      "type": "warbond",
-      "label": "Democratic Detonation P1",
-      "warbondId": "democratic-detonation",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "holder-of-the-yellow-line",
-    "slug": "holder-of-the-yellow-line",
-    "name": "Holder of the Yellow Line",
-    "aliases": [],
-    "description": "Since ancient times, the yellow line has symbolized an uncrossable boundary. To don this cape is to draw that line between tyranny and liberty, between alien monstrosities and Super Earth property, and never yield the right of way.",
-    "image": null,
-    "wiki": {
-      "title": "Holder of the Yellow Line",
-      "url": "https://helldivers.wiki.gg/wiki/Holder_of_the_Yellow_Line",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "holder-of-the-yellow-line",
-    "source": {
-      "type": "warbond",
-      "label": "Urban Legends P2",
-      "warbondId": "urban-legends",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 20
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "honored-heirloom",
-    "slug": "honored-heirloom",
-    "name": "Honored Heirloom",
-    "aliases": [],
-    "description": "Should the wearer of this cape perish at the hands of Freedom's enemies, it is customary to pass the cape on to their bravest child during the funeral, inspiring the next generation to take up arms.",
-    "image": null,
-    "wiki": {
-      "title": "Honored Heirloom",
-      "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "honored-heirloom",
-    "source": {
-      "type": "warbond",
-      "label": "Halo: ODST P1",
-      "warbondId": "obedient-democracy-support-troopers",
-      "page": 1,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "humble-regalia",
-    "slug": "humble-regalia",
-    "name": "Humble Regalia",
-    "aliases": [],
-    "description": "This modest cape has been worn by those guarding the Chamber of Unanimous Decision since time immemorial.",
-    "image": null,
-    "wiki": {
-      "title": "Humble Regalia",
-      "url": "https://helldivers.wiki.gg/wiki/Humble_Regalia",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "humble-regalia",
-    "source": {
-      "type": "warbond",
-      "label": "Masters of Ceremony P2",
-      "warbondId": "masters-of-ceremony",
-      "page": 2,
-      "cost": {
-        "currency": "medals",
-        "amount": 8
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "independence-bringer",
-    "slug": "independence-bringer",
-    "name": "Independence Bringer",
-    "aliases": [],
-    "description": "This cape's cropped length symbolizes the brevity of galactic conflicts, thanks to the efficiency of the Helldivers.",
-    "image": null,
-    "wiki": {
-      "title": "Independence Bringer",
-      "url": "https://helldivers.wiki.gg/wiki/Independence_Bringer",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": "independence-bringer",
-    "source": {
-      "type": "warbond",
-      "label": "Helldivers Mobilize! P1",
-      "warbondId": "helldivers-mobilize",
       "page": 1,
       "cost": {
         "currency": "medals",
@@ -998,25 +125,679 @@
     }
   },
   {
-    "id": "ingress-81",
-    "slug": "ingress-81",
-    "name": "Ingress-81",
+    "id": "camo-cloak",
+    "slug": "camo-cloak",
+    "name": "Camo Cloak",
     "aliases": [],
-    "description": "This cape reminds us that even faced with the abyssal darkness of space, nothing can stand against our human ingenuity, our powers of collaboration, or our sheer overwhelming numbers.",
+    "description": null,
     "image": null,
     "wiki": {
-      "title": "Ingress-81",
-      "url": "https://helldivers.wiki.gg/wiki/Ingress-81",
+      "title": "Camo Cloak",
+      "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": null,
+    "pairedCapeId": "camo-cloak",
     "source": {
-      "type": "event",
-      "label": "Station-81",
+      "type": "warbond",
+      "label": "Castellan’s Creed",
+      "warbondId": "castellans-creed",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "city-fighters-resolve",
+    "slug": "city-fighters-resolve",
+    "name": "City Fighter's Resolve",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "City Fighter's Resolve",
+      "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
+      "flags": []
+    },
+    "pairedCapeId": "city-fighters-resolve",
+    "source": {
+      "type": "warbond",
+      "label": "Castellan’s Creed",
+      "warbondId": "castellans-creed",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cloak-of-posteritys-gratitude",
+    "slug": "cloak-of-posteritys-gratitude",
+    "name": "Cloak of Posterity's Gratitude",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cloak of Posterity's Gratitude",
+      "url": "https://helldivers.wiki.gg/wiki/Cloak_of_Posterity's_Gratitude",
+      "flags": []
+    },
+    "pairedCapeId": "cloak-of-posteritys-gratitude",
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P2",
+      "warbondId": "steeled-veterans",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "conductor-of-brilliance",
+    "slug": "conductor-of-brilliance",
+    "name": "Conductor of Brilliance",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Conductor of Brilliance",
+      "url": "https://helldivers.wiki.gg/wiki/Conductor_of_Brilliance",
+      "flags": []
+    },
+    "pairedCapeId": "conductor-of-brilliance",
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P1",
+      "warbondId": "control-group",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cover-of-darkness",
+    "slug": "cover-of-darkness",
+    "name": "Cover of Darkness",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cover of Darkness",
+      "url": "https://helldivers.wiki.gg/wiki/Cover_of_Darkness",
+      "flags": []
+    },
+    "pairedCapeId": "cover-of-darkness",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
       "warbondId": null,
       "page": null,
-      "cost": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "crest-of-the-unsullied",
+    "slug": "crest-of-the-unsullied",
+    "name": "Crest of the Unsullied",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Crest of the Unsullied",
+      "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
+      "flags": []
+    },
+    "pairedCapeId": "crest-of-the-unsullied",
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P2",
+      "warbondId": "entrenched-division",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 6
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cresting-honor",
+    "slug": "cresting-honor",
+    "name": "Cresting Honor",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Cresting Honor",
+      "url": "https://helldivers.wiki.gg/wiki/Cresting_Honor",
+      "flags": []
+    },
+    "pairedCapeId": "cresting-honor",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P7",
+      "warbondId": "helldivers-mobilize",
+      "page": 7,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "de-foresters-sailcloth",
+    "slug": "de-foresters-sailcloth",
+    "name": "De-Forester's Sailcloth",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "De-Forester's Sailcloth",
+      "url": "https://helldivers.wiki.gg/wiki/De-Forester's_Sailcloth",
+      "flags": []
+    },
+    "pairedCapeId": "de-foresters-sailcloth",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 40
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "defender-of-our-dream",
+    "slug": "defender-of-our-dream",
+    "name": "Defender of Our Dream",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Defender of Our Dream",
+      "url": "https://helldivers.wiki.gg/wiki/Defender_of_Our_Dream",
+      "flags": []
+    },
+    "pairedCapeId": "defender-of-our-dream",
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P2",
+      "warbondId": "righteous-revenants",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "diagram-of-the-noblest-payload",
+    "slug": "diagram-of-the-noblest-payload",
+    "name": "Diagram of the Noblest Payload",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Diagram of the Noblest Payload",
+      "url": "https://helldivers.wiki.gg/wiki/Diagram_of_the_Noblest_Payload",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "pairedCapeId": "diagram-of-the-noblest-payload",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 35
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "dignity-of-toil",
+    "slug": "dignity-of-toil",
+    "name": "Dignity of Toil",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Dignity of Toil",
+      "url": "https://helldivers.wiki.gg/wiki/Dignity_of_Toil",
+      "flags": []
+    },
+    "pairedCapeId": "dignity-of-toil",
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P1",
+      "warbondId": "entrenched-division",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "dissidents-nightmare",
+    "slug": "dissidents-nightmare",
+    "name": "Dissident's Nightmare",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Dissident's Nightmare",
+      "url": "https://helldivers.wiki.gg/wiki/Dissident's_Nightmare",
+      "flags": []
+    },
+    "pairedCapeId": "dissidents-nightmare",
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P1",
+      "warbondId": "polar-patriots",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "eagles-fury",
+    "slug": "eagles-fury",
+    "name": "Eagle's Fury",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Eagle's Fury",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle's_Fury",
+      "flags": []
+    },
+    "pairedCapeId": "eagles-fury",
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P2",
+      "warbondId": "democratic-detonation",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "eternal-corona",
+    "slug": "eternal-corona",
+    "name": "Eternal Corona",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Eternal Corona",
+      "url": "https://helldivers.wiki.gg/wiki/Eternal_Corona",
+      "flags": []
+    },
+    "pairedCapeId": "eternal-corona",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 40
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "executioners-canopy",
+    "slug": "executioners-canopy",
+    "name": "Executioner's Canopy",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Executioner's Canopy",
+      "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",
+      "flags": []
+    },
+    "pairedCapeId": "executioners-canopy",
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P2",
+      "warbondId": "viper-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "eye-of-the-clandestine",
+    "slug": "eye-of-the-clandestine",
+    "name": "Eye of the Clandestine",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Eye of the Clandestine",
+      "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",
+      "flags": []
+    },
+    "pairedCapeId": "eye-of-the-clandestine",
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P2",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "federations-embrace",
+    "slug": "federations-embrace",
+    "name": "Federation's Embrace",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Federation's Embrace",
+      "url": "https://helldivers.wiki.gg/wiki/Federation's_Embrace",
+      "flags": []
+    },
+    "pairedCapeId": "federations-embrace",
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P1",
+      "warbondId": "masters-of-ceremony",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "foe-rent-asunder",
+    "slug": "foe-rent-asunder",
+    "name": "Foe Rent Asunder",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Foe Rent Asunder",
+      "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
+      "flags": []
+    },
+    "pairedCapeId": "foe-rent-asunder",
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P2",
+      "warbondId": "python-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "fre-liberam",
+    "slug": "fre-liberam",
+    "name": "Fre Liberam",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Fre Liberam",
+      "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",
+      "flags": []
+    },
+    "pairedCapeId": "fre-liberam",
+    "source": {
+      "type": "warbond",
+      "label": "Servants of Freedom P1",
+      "warbondId": "servants-of-freedom",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "free-spirited-spangles",
+    "slug": "free-spirited-spangles",
+    "name": "Free-Spirited Spangles",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Free-Spirited Spangles",
+      "url": "https://helldivers.wiki.gg/wiki/Free-Spirited_Spangles",
+      "flags": []
+    },
+    "pairedCapeId": "free-spirited-spangles",
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P1",
+      "warbondId": "exo-experts",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "freedoms-tapestry",
+    "slug": "freedoms-tapestry",
+    "name": "Freedom's Tapestry",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Freedom's Tapestry",
+      "url": "https://helldivers.wiki.gg/wiki/Freedom's_Tapestry",
+      "flags": []
+    },
+    "pairedCapeId": "freedoms-tapestry",
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P3",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 16
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "gilded-quill",
+    "slug": "gilded-quill",
+    "name": "Gilded Quill",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Gilded Quill",
+      "url": "https://helldivers.wiki.gg/wiki/Gilded_Quill",
+      "flags": []
+    },
+    "pairedCapeId": "gilded-quill",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 35
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "harbinger-of-true-equality",
+    "slug": "harbinger-of-true-equality",
+    "name": "Harbinger of True Equality",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Harbinger of True Equality",
+      "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
+      "flags": []
+    },
+    "pairedCapeId": "harbinger-of-true-equality",
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P1",
+      "warbondId": "democratic-detonation",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "holder-of-the-yellow-line",
+    "slug": "holder-of-the-yellow-line",
+    "name": "Holder of the Yellow Line",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Holder of the Yellow Line",
+      "url": "https://helldivers.wiki.gg/wiki/Holder_of_the_Yellow_Line",
+      "flags": []
+    },
+    "pairedCapeId": "holder-of-the-yellow-line",
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P2",
+      "warbondId": "urban-legends",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "honored-heirloom",
+    "slug": "honored-heirloom",
+    "name": "Honored Heirloom",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Honored Heirloom",
+      "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
+      "flags": []
+    },
+    "pairedCapeId": "honored-heirloom",
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "humble-regalia",
+    "slug": "humble-regalia",
+    "name": "Humble Regalia",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Humble Regalia",
+      "url": "https://helldivers.wiki.gg/wiki/Humble_Regalia",
+      "flags": []
+    },
+    "pairedCapeId": "humble-regalia",
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P2",
+      "warbondId": "masters-of-ceremony",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "independence-bringer",
+    "slug": "independence-bringer",
+    "name": "Independence Bringer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Independence Bringer",
+      "url": "https://helldivers.wiki.gg/wiki/Independence_Bringer",
+      "flags": []
+    },
+    "pairedCapeId": "independence-bringer",
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P1",
+      "warbondId": "helldivers-mobilize",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 1
+      },
       "rotating": null
     }
   },
@@ -1025,15 +806,14 @@
     "slug": "judgment-day",
     "name": "Judgment Day",
     "aliases": [],
-    "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak up on those wearing this cape.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Judgment Day",
       "url": "https://helldivers.wiki.gg/wiki/Judgment_Day",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "judgment-day",
+    "pairedCapeId": "judgment-day",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P6",
@@ -1041,7 +821,7 @@
       "page": 6,
       "cost": {
         "currency": "medals",
-        "amount": 15
+        "amount": 6
       },
       "rotating": null
     }
@@ -1051,15 +831,14 @@
     "slug": "libertys-herald",
     "name": "Liberty's Herald",
     "aliases": [],
-    "description": "The two stripes serve as a reminder of the two pillars of successful military campaigns: attack, and further attack.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Liberty's Herald",
       "url": "https://helldivers.wiki.gg/wiki/Liberty's_Herald",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "libertys-herald",
+    "pairedCapeId": "libertys-herald",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P2",
@@ -1067,7 +846,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 3
+        "amount": 1
       },
       "rotating": null
     }
@@ -1077,15 +856,14 @@
     "slug": "light-of-eternal-liberty",
     "name": "Light of Eternal Liberty",
     "aliases": [],
-    "description": "The unimpeachable justice of this cape's design is said to blind the enemies of Freedom with its glorious light.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Light of Eternal Liberty",
       "url": "https://helldivers.wiki.gg/wiki/Light_of_Eternal_Liberty",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "light-of-eternal-liberty",
+    "pairedCapeId": "light-of-eternal-liberty",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P10",
@@ -1093,7 +871,7 @@
       "page": 10,
       "cost": {
         "currency": "medals",
-        "amount": 40
+        "amount": 20
       },
       "rotating": null
     }
@@ -1103,15 +881,14 @@
     "slug": "mantle-of-true-citizenship",
     "name": "Mantle of True Citizenship",
     "aliases": [],
-    "description": "The featherlight construction belies the heavy burden this cape entails—to live the Creed of the True Citizen.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Mantle of True Citizenship",
       "url": "https://helldivers.wiki.gg/wiki/Mantle_of_True_Citizenship",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "mantle-of-true-citizenship",
+    "pairedCapeId": "mantle-of-true-citizenship",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P8",
@@ -1119,7 +896,7 @@
       "page": 8,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 10
       },
       "rotating": null
     }
@@ -1129,15 +906,14 @@
     "slug": "mark-of-the-constrictor",
     "name": "Mark of the Constrictor",
     "aliases": [],
-    "description": "Marks the most Free of the Free, those who will seize tyranny by the neck and squeeze until no oppression remains.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Mark of the Constrictor",
       "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Constrictor",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "mark-of-the-constrictor",
+    "pairedCapeId": "mark-of-the-constrictor",
     "source": {
       "type": "warbond",
       "label": "Python Commandos P1",
@@ -1145,7 +921,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1155,15 +931,14 @@
     "slug": "mark-of-the-crimson-fang",
     "name": "Mark of the Crimson Fang",
     "aliases": [],
-    "description": "Marks the most obedient of the obedient, those who will strike headlong at the veins of Tyranny and administer the sweet antidote of Freedom.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Mark of the Crimson Fang",
       "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Crimson_Fang",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "mark-of-the-crimson-fang",
+    "pairedCapeId": "mark-of-the-crimson-fang",
     "source": {
       "type": "warbond",
       "label": "Viper Commandos P1",
@@ -1171,7 +946,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1181,15 +956,14 @@
     "slug": "martyris-rex",
     "name": "Martyris Rex",
     "aliases": [],
-    "description": "It is said that only the truly Democratic can lift this cape to their shoulders.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Martyris Rex",
       "url": "https://helldivers.wiki.gg/wiki/Martyris_Rex",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "martyris-rex",
+    "pairedCapeId": "martyris-rex",
     "source": {
       "type": "warbond",
       "label": "Cutting Edge P2",
@@ -1197,7 +971,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 20
+        "amount": 5
       },
       "rotating": null
     }
@@ -1207,15 +981,14 @@
     "slug": "mirandas-legacy",
     "name": "Miranda's Legacy",
     "aliases": [],
-    "description": "Although Super Citizen Miranda's true identity has been lost to time, most legal historians agree that she was once a patron of highly-efficient interrogation techniques.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Miranda's Legacy",
       "url": "https://helldivers.wiki.gg/wiki/Miranda's_Legacy",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "mirandas-legacy",
+    "pairedCapeId": "mirandas-legacy",
     "source": {
       "type": "warbond",
       "label": "Force of Law P1",
@@ -1223,7 +996,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1233,15 +1006,14 @@
     "slug": "mother-eagles-wings",
     "name": "Mother Eagle's Wings",
     "aliases": [],
-    "description": "Those taken under the wings of the Law can rest easy knowing that their transgressions will soon be laid bare, their harms amended, and their citizenship safely sequestered.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Mother Eagle's Wings",
       "url": "https://helldivers.wiki.gg/wiki/Mother_Eagle's_Wings",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "mother-eagles-wings",
+    "pairedCapeId": "mother-eagles-wings",
     "source": {
       "type": "warbond",
       "label": "Force of Law P2",
@@ -1249,7 +1021,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
@@ -1259,15 +1031,14 @@
     "slug": "order-of-the-venerated-ballot",
     "name": "Order of the Venerated Ballot",
     "aliases": [],
-    "description": "Adorned with the insignia of the Order of the Venerated Ballot, a Ministry-sanctioned Patriot's Club for citizens who pledge themselves to preserving the sanctity of voting.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Order of the Venerated Ballot",
       "url": "https://helldivers.wiki.gg/wiki/Order_of_the_Venerated_Ballot",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "order-of-the-venerated-ballot",
+    "pairedCapeId": "order-of-the-venerated-ballot",
     "source": {
       "type": "warbond",
       "label": "Polar Patriots P3",
@@ -1275,7 +1046,7 @@
       "page": 3,
       "cost": {
         "currency": "medals",
-        "amount": 30
+        "amount": 16
       },
       "rotating": null
     }
@@ -1285,15 +1056,14 @@
     "slug": "over-artifice-triumphant",
     "name": "Over Artifice Triumphant",
     "aliases": [],
-    "description": "Humanity's intellect shines brighter than all other, piercing even the treacherous darkness that spawned the Automatons' pseude-sentience; the darkness known as computer science",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Over Artifice Triumphant",
       "url": "https://helldivers.wiki.gg/wiki/Over_Artifice_Triumphant",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "over-artifice-triumphant",
+    "pairedCapeId": "over-artifice-triumphant",
     "source": {
       "type": "warbond",
       "label": "Control Group P2",
@@ -1301,7 +1071,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
@@ -1311,15 +1081,14 @@
     "slug": "patient-zeros-remembrance",
     "name": "Patient Zero's Remembrance",
     "aliases": [],
-    "description": "With this cape we honor the bio-warfare pioneers of Division Zero, conscripted from quarantine zones and hospices to spread their Carcino-Plague on the battlefield.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Patient Zero's Remembrance",
       "url": "https://helldivers.wiki.gg/wiki/Patient_Zero's_Remembrance",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "patient-zeros-remembrance",
+    "pairedCapeId": "patient-zeros-remembrance",
     "source": {
       "type": "warbond",
       "label": "Chemical Agents P2",
@@ -1327,7 +1096,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 20
+        "amount": 5
       },
       "rotating": null
     }
@@ -1337,15 +1106,14 @@
     "slug": "per-democrasum",
     "name": "Per Democrasum",
     "aliases": [],
-    "description": "This cape honors the Eagle pilots who would follow a Stratagem beacon into the very jaws of tyranny, even when the beacon's placement seems inscrutable to the non-Helldiver mind.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Per Democrasum",
       "url": "https://helldivers.wiki.gg/wiki/Per_Democrasum",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "per-democrasum",
+    "pairedCapeId": "per-democrasum",
     "source": {
       "type": "warbond",
       "label": "Servants of Freedom P2",
@@ -1353,7 +1121,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
@@ -1363,15 +1131,14 @@
     "slug": "pillar-of-the-abyss",
     "name": "Pillar of the Abyss",
     "aliases": [],
-    "description": "A cape inspired by hypothetical covert operatives—pillars of Democratic order, operating in the hostile abyss where Liberty's light cannot yet reach.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Pillar of the Abyss",
       "url": "https://helldivers.wiki.gg/wiki/Pillar_of_the_Abyss",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "pillar-of-the-abyss",
+    "pairedCapeId": "pillar-of-the-abyss",
     "source": {
       "type": "warbond",
       "label": "Redacted Regiment P1",
@@ -1379,31 +1146,8 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
-      "rotating": null
-    }
-  },
-  {
-    "id": "pillars-of-freedom",
-    "slug": "pillars-of-freedom",
-    "name": "Pillars of Freedom",
-    "aliases": [],
-    "description": "Woven in honor of our loyal Helldivers, whose hearts' blood is the foundation on which Super Earth is built.",
-    "image": null,
-    "wiki": {
-      "title": "Pillars of Freedom",
-      "url": "https://helldivers.wiki.gg/wiki/Pillars_of_Freedom",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Ministry of Prosperity",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
       "rotating": null
     }
   },
@@ -1412,15 +1156,14 @@
     "slug": "pinions-of-everlasting-glory",
     "name": "Pinions of Everlasting Glory",
     "aliases": [],
-    "description": "All but ensures ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Pinions of Everlasting Glory",
       "url": "https://helldivers.wiki.gg/wiki/Pinions_of_Everlasting_Glory",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "pinions-of-everlasting-glory",
+    "pairedCapeId": "pinions-of-everlasting-glory",
     "source": {
       "type": "warbond",
       "label": "Polar Patriots P2",
@@ -1428,7 +1171,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 20
+        "amount": 5
       },
       "rotating": null
     }
@@ -1438,15 +1181,14 @@
     "slug": "pride-of-the-whistleblower",
     "name": "Pride of the Whistleblower",
     "aliases": [],
-    "description": "Granted to the Truth Enforcers' Informant of the Month, this tasteful cape conjures images of dissident blood on asphalt.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Pride of the Whistleblower",
       "url": "https://helldivers.wiki.gg/wiki/Pride_of_the_Whistleblower",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "pride-of-the-whistleblower",
+    "pairedCapeId": "pride-of-the-whistleblower",
     "source": {
       "type": "warbond",
       "label": "Truth Enforcers P2",
@@ -1454,7 +1196,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 20
+        "amount": 5
       },
       "rotating": null
     }
@@ -1464,15 +1206,14 @@
     "slug": "proof-of-faultless-virtue",
     "name": "Proof of Faultless Virtue",
     "aliases": [],
-    "description": "This cape signifies that its wearer thinks, feels and acts correctly at all times, and thus bears the responsibility to educate and re-educate their fellow citizen.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Proof of Faultless Virtue",
       "url": "https://helldivers.wiki.gg/wiki/Proof_of_Faultless_Virtue",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "proof-of-faultless-virtue",
+    "pairedCapeId": "proof-of-faultless-virtue",
     "source": {
       "type": "warbond",
       "label": "Truth Enforcers P3",
@@ -1480,31 +1221,8 @@
       "page": 3,
       "cost": {
         "currency": "medals",
-        "amount": 30
+        "amount": 15
       },
-      "rotating": null
-    }
-  },
-  {
-    "id": "protector-of-the-heart",
-    "slug": "protector-of-the-heart",
-    "name": "Protector of the Heart",
-    "aliases": [],
-    "description": "When the Illuminate threatened Super Earth, the very Heart of Democracy, the Helldivers answered the call.",
-    "image": null,
-    "wiki": {
-      "title": "Protector of the Heart",
-      "url": "https://helldivers.wiki.gg/wiki/Protector_of_the_Heart",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Heart of Democracy",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
       "rotating": null
     }
   },
@@ -1513,15 +1231,14 @@
     "slug": "purifying-eclipse",
     "name": "Purifying Eclipse",
     "aliases": [],
-    "description": "A tribute to the liberation of Choepessa IV in the First Galactic War, in which so much orbital ordnance was detonated that its sun was occluded by ash for an entire lunar cycle.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Purifying Eclipse",
       "url": "https://helldivers.wiki.gg/wiki/Purifying_Eclipse",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "purifying-eclipse",
+    "pairedCapeId": "purifying-eclipse",
     "source": {
       "type": "warbond",
       "label": "Freedom's Flame P1",
@@ -1529,7 +1246,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1539,15 +1256,14 @@
     "slug": "rags-of-the-fashionable",
     "name": "Rags of the Fashionable",
     "aliases": [],
-    "description": "Gently stonewashed by experienced hands, this luxury cape exudes the essence of state-approved attitude.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Rags of the Fashionable",
       "url": "https://helldivers.wiki.gg/wiki/Rags_of_the_Fashionable",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "rags-of-the-fashionable",
+    "pairedCapeId": "rags-of-the-fashionable",
     "source": {
       "type": "warbond",
       "label": "Siege Breakers P1",
@@ -1555,7 +1271,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1565,15 +1281,14 @@
     "slug": "reaper-of-bounties",
     "name": "Reaper of Bounties",
     "aliases": [],
-    "description": "This cape recalls the popular folk tale of the “Freedomslingers”: re-educated dissidents, seeking redemption on the Federation's Borderline, hunting dangerous thought-traitors in exchange for ballot bounties.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Reaper of Bounties",
       "url": "https://helldivers.wiki.gg/wiki/Reaper_of_Bounties",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "reaper-of-bounties",
+    "pairedCapeId": "reaper-of-bounties",
     "source": {
       "type": "warbond",
       "label": "Borderline Justice P1",
@@ -1581,7 +1296,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1591,15 +1306,14 @@
     "slug": "rebar-resolve",
     "name": "Rebar Resolve",
     "aliases": [],
-    "description": "Inside the collar is embroidered: “Wherever I may plant my shield, know that I will never yield,” and “machine washable.”",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Rebar Resolve",
       "url": "https://helldivers.wiki.gg/wiki/Rebar_Resolve",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "rebar-resolve",
+    "pairedCapeId": "rebar-resolve",
     "source": {
       "type": "warbond",
       "label": "Urban Legends P1",
@@ -1607,31 +1321,8 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
-      "rotating": null
-    }
-  },
-  {
-    "id": "reckonings-cheer",
-    "slug": "reckonings-cheer",
-    "name": "Reckoning's Cheer",
-    "aliases": [],
-    "description": "When facing the enemies of Freedom this Reckoningtide, keep up the festive spirit by recalling the opening line of A Vengeant Carol: \"They'll soon be dead, to begin with.\"",
-    "image": null,
-    "wiki": {
-      "title": "Reckoning's Cheer",
-      "url": "https://helldivers.wiki.gg/wiki/Reckoning's_Cheer",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Festival of Reckoning",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
       "rotating": null
     }
   },
@@ -1640,15 +1331,14 @@
     "slug": "rightful-occupier",
     "name": "Rightful Occupier",
     "aliases": [],
-    "description": "Painted by visionary artist Silas Garm during an intense fever, this symbol represents Humanity's great Galactic endeavor: the blood-soaked dawn of Lasting Peace.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Rightful Occupier",
       "url": "https://helldivers.wiki.gg/wiki/Rightful_Occupier",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "rightful-occupier",
+    "pairedCapeId": "rightful-occupier",
     "source": {
       "type": "warbond",
       "label": "Dust Devils P1",
@@ -1656,7 +1346,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1666,15 +1356,14 @@
     "slug": "schema-laid-bare",
     "name": "Schema Laid Bare",
     "aliases": [],
-    "description": "This cape depicts the inner workings of a medical device submitted to the Ministry of Science 70 years ago, and is bound to clear their patent approval process any day now.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Schema Laid Bare",
       "url": "https://helldivers.wiki.gg/wiki/Schema_Laid_Bare",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "schema-laid-bare",
+    "pairedCapeId": "schema-laid-bare",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -1682,7 +1371,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 120
+        "amount": 40
       },
       "rotating": false
     }
@@ -1692,15 +1381,14 @@
     "slug": "seal-of-general-consensus",
     "name": "Seal of General Consensus",
     "aliases": [],
-    "description": "Made famous by the SEAF commander of the same name, this seal reminds us that only perfect Unity can ensure perfect Freedom.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Seal of General Consensus",
       "url": "https://helldivers.wiki.gg/wiki/Seal_of_General_Consensus",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "seal-of-general-consensus",
+    "pairedCapeId": "seal-of-general-consensus",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -1708,7 +1396,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 250
+        "amount": 75
       },
       "rotating": false
     }
@@ -1718,7 +1406,7 @@
     "slug": "shroud-of-the-juggernaut",
     "name": "Shroud of the Juggernaut",
     "aliases": [],
-    "description": "Shroud of the Juggernaut is a cape and a player card in Helldivers 2.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Shroud of the Juggernaut",
@@ -1727,8 +1415,7 @@
         "broken_file_links"
       ]
     },
-    "setIds": [],
-    "playerCardId": "shroud-of-the-juggernaut",
+    "pairedCapeId": "shroud-of-the-juggernaut",
     "source": {
       "type": "warbond",
       "label": "Ironclad Democracy",
@@ -1739,11 +1426,33 @@
     }
   },
   {
+    "id": "solid-black",
+    "slug": "solid-black",
+    "name": "Solid Black",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "Solid Black",
+      "url": "https://helldivers.wiki.gg/wiki/Solid_Black",
+      "flags": []
+    },
+    "pairedCapeId": null,
+    "source": {
+      "type": "default",
+      "label": "Starter Equipment",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
     "id": "standard-of-rapid-evacuation",
     "slug": "standard-of-rapid-evacuation",
     "name": "Standard of Rapid Evacuation",
     "aliases": [],
-    "description": "Standard of Rapid Evacuation is a cape and a player card in Helldivers 2.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Standard of Rapid Evacuation",
@@ -1752,8 +1461,7 @@
         "broken_file_links"
       ]
     },
-    "setIds": [],
-    "playerCardId": "standard-of-rapid-evacuation",
+    "pairedCapeId": "standard-of-rapid-evacuation",
     "source": {
       "type": "warbond",
       "label": "Ironclad Democracy",
@@ -1768,15 +1476,14 @@
     "slug": "standard-of-safe-distance",
     "name": "Standard of Safe Distance",
     "aliases": [],
-    "description": "By reminding Chemical Agents of proper distancing rules, this extraordinary innovation in cape design ensures that they never cause another unfortunate outbreak of Carcino-Plague.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Standard of Safe Distance",
       "url": "https://helldivers.wiki.gg/wiki/Standard_of_Safe_Distance",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "standard-of-safe-distance",
+    "pairedCapeId": "standard-of-safe-distance",
     "source": {
       "type": "warbond",
       "label": "Chemical Agents P1",
@@ -1784,7 +1491,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1794,15 +1501,14 @@
     "slug": "stars-and-suffrage",
     "name": "Stars and Suffrage",
     "aliases": [],
-    "description": "A symbol of Super Earth's Astral Promise: that every star shall one day illuminate throngs of joyous voters.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Stars and Suffrage",
       "url": "https://helldivers.wiki.gg/wiki/Stars_and_Suffrage",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "stars-and-suffrage",
+    "pairedCapeId": "stars-and-suffrage",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P4",
@@ -1810,7 +1516,7 @@
       "page": 4,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1820,15 +1526,14 @@
     "slug": "stone-wrought-perseverance",
     "name": "Stone-Wrought Perseverance",
     "aliases": [],
-    "description": "When wearers stand shoulder to shoulder, this cape shows them as they truly are: an unbreakable defense, keeping Freedom safe behind an impregnable wall.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Stone-Wrought Perseverance",
       "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "stone-wrought-perseverance",
+    "pairedCapeId": "stone-wrought-perseverance",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -1836,7 +1541,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 100
+        "amount": 35
       },
       "rotating": false
     }
@@ -1846,15 +1551,14 @@
     "slug": "strength-in-our-arms",
     "name": "Strength in Our Arms",
     "aliases": [],
-    "description": "The symbol on this cape represents the pillars of freedom: duty, obedience, and loyalty.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Strength in Our Arms",
       "url": "https://helldivers.wiki.gg/wiki/Strength_in_Our_Arms",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "strength-in-our-arms",
+    "pairedCapeId": "strength-in-our-arms",
     "source": {
       "type": "warbond",
       "label": "Righteous Revenants P1",
@@ -1862,7 +1566,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -1872,15 +1576,14 @@
     "slug": "testament-to-attrition",
     "name": "Testament to Attrition",
     "aliases": [],
-    "description": "Salvaged from a deep-storage vault, this well-ventilated cape symbolizes tenacious survival. Its visible scars bestow immediate veteran status, reminding all onlookers that the spirit of tireless service is immortal.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Testament to Attrition",
       "url": "https://helldivers.wiki.gg/wiki/Testament_to_Attrition",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "testament-to-attrition",
+    "pairedCapeId": "testament-to-attrition",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -1888,7 +1591,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 100
+        "amount": 35
       },
       "rotating": false
     }
@@ -1898,15 +1601,14 @@
     "slug": "the-breach",
     "name": "The Breach",
     "aliases": [],
-    "description": "As documented in the bestselling graphic novel “The Breach,” the final mission of the 361st “Freedom's Flame” saw the storied unit deploy straight into the heart of a Supervolcano, sacrificing themselves to trigger an eruption and wipe out a massive Terminid swarm.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "The Breach",
       "url": "https://helldivers.wiki.gg/wiki/The_Breach",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "the-breach",
+    "pairedCapeId": "the-breach",
     "source": {
       "type": "warbond",
       "label": "Freedom's Flame P2",
@@ -1914,7 +1616,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 20
+        "amount": 5
       },
       "rotating": null
     }
@@ -1924,15 +1626,14 @@
     "slug": "thundering-hooves-of-loyalty",
     "name": "Thundering Hooves of Loyalty",
     "aliases": [],
-    "description": "No dissident or alien, no creature big or small, can ever hope to stand against the furious stampede of Managed Democracy.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Thundering Hooves of Loyalty",
       "url": "https://helldivers.wiki.gg/wiki/Thundering_Hooves_of_Loyalty",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "thundering-hooves-of-loyalty",
+    "pairedCapeId": "thundering-hooves-of-loyalty",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -1940,7 +1641,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 100
+        "amount": 35
       },
       "rotating": false
     }
@@ -1950,15 +1651,14 @@
     "slug": "tideturner",
     "name": "Tideturner",
     "aliases": [],
-    "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Tideturner",
       "url": "https://helldivers.wiki.gg/wiki/Tideturner",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "tideturner",
+    "pairedCapeId": "tideturner",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P3",
@@ -1966,7 +1666,7 @@
       "page": 3,
       "cost": {
         "currency": "medals",
-        "amount": 5
+        "amount": 2
       },
       "rotating": null
     }
@@ -1976,15 +1676,14 @@
     "slug": "triangulation-veil",
     "name": "Triangulation Veil",
     "aliases": [],
-    "description": "This vision-disruptive pattern cloaks the silent crusaders whose untraceable deeds are a pure expression of true Freedom: freedom from accountability.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Triangulation Veil",
       "url": "https://helldivers.wiki.gg/wiki/Triangulation_Veil",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "triangulation-veil",
+    "pairedCapeId": "triangulation-veil",
     "source": {
       "type": "warbond",
       "label": "Redacted Regiment P2",
@@ -1992,7 +1691,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
@@ -2002,15 +1701,14 @@
     "slug": "tyrant-hunter",
     "name": "Tyrant Hunter",
     "aliases": [],
-    "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Tyrant Hunter",
       "url": "https://helldivers.wiki.gg/wiki/Tyrant_Hunter",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "tyrant-hunter",
+    "pairedCapeId": "tyrant-hunter",
     "source": {
       "type": "warbond",
       "label": "Steeled Veterans P1",
@@ -2018,7 +1716,7 @@
       "page": 1,
       "cost": {
         "currency": "medals",
-        "amount": 8
+        "amount": 2
       },
       "rotating": null
     }
@@ -2028,15 +1726,14 @@
     "slug": "unblemished-allegiance",
     "name": "Unblemished Allegiance",
     "aliases": [],
-    "description": "A choir of patriotic schoolchildren sings the Super Earth anthem to each cape as the final step in its production.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Unblemished Allegiance",
       "url": "https://helldivers.wiki.gg/wiki/Unblemished_Allegiance",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "unblemished-allegiance",
+    "pairedCapeId": "unblemished-allegiance",
     "source": {
       "type": "warbond",
       "label": "Helldivers Mobilize! P5",
@@ -2044,31 +1741,8 @@
       "page": 5,
       "cost": {
         "currency": "medals",
-        "amount": 12
+        "amount": 4
       },
-      "rotating": null
-    }
-  },
-  {
-    "id": "united-in-equality",
-    "slug": "united-in-equality",
-    "name": "United in Equality",
-    "aliases": [],
-    "description": "To honor the heartfelt siblinghood of the heroes who stood together, bled together, and laid down their lives together in defense of Equality-On-Sea, all Helldivers are awarded one (1) commemorative polyester cape.",
-    "image": null,
-    "wiki": {
-      "title": "United in Equality",
-      "url": "https://helldivers.wiki.gg/wiki/United_in_Equality",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Major Order A3-5-6",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
       "rotating": null
     }
   },
@@ -2077,15 +1751,14 @@
     "slug": "veil-of-the-valorous-vagabond",
     "name": "Veil of the Valorous Vagabond",
     "aliases": [],
-    "description": "Legend tells of the unnamed Helldiver, wandering the edges of Super Earth's reach, delivering Democracy and leveling lawlessness wherever the tumbleweeds lead. Wear this, and keep the legend alive.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Veil of the Valorous Vagabond",
       "url": "https://helldivers.wiki.gg/wiki/Veil_of_the_Valorous_Vagabond",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "veil-of-the-valorous-vagabond",
+    "pairedCapeId": "veil-of-the-valorous-vagabond",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -2093,32 +1766,9 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 120
+        "amount": 40
       },
       "rotating": false
-    }
-  },
-  {
-    "id": "veridical-ideology",
-    "slug": "veridical-ideology",
-    "name": "Veridical Ideology",
-    "aliases": [],
-    "description": "This cape celebrates the one Veridical Ideology—Managed Democracy—a truth so self evident, it requires no proof beyond the unwavering obedience of its champions.",
-    "image": null,
-    "wiki": {
-      "title": "Veridical Ideology",
-      "url": "https://helldivers.wiki.gg/wiki/Veridical_Ideology",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "event",
-      "label": "Liberty Day",
-      "warbondId": null,
-      "page": null,
-      "cost": null,
-      "rotating": null
     }
   },
   {
@@ -2126,15 +1776,14 @@
     "slug": "vision-of-freedom",
     "name": "Vision of Freedom",
     "aliases": [],
-    "description": "Artists and sculptors have made countless attempts at depicting the face of Liberty, but the truth is that any citizen can see it—they need only requisition a mirror.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Vision of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Vision_of_Freedom",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "vision-of-freedom",
+    "pairedCapeId": "vision-of-freedom",
     "source": {
       "type": "superstore",
       "label": "Superstore",
@@ -2142,7 +1791,7 @@
       "page": null,
       "cost": {
         "currency": "super_credits",
-        "amount": 100
+        "amount": 35
       },
       "rotating": false
     }
@@ -2152,15 +1801,14 @@
     "slug": "watchful-compatriot",
     "name": "Watchful Compatriot",
     "aliases": [],
-    "description": "Watchful Compatriot is a cape and a player card in Helldivers 2.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Watchful Compatriot",
       "url": "https://helldivers.wiki.gg/wiki/Watchful_Compatriot",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "watchful-compatriot",
+    "pairedCapeId": "watchful-compatriot",
     "source": {
       "type": "warbond",
       "label": "Exo Experts P2",
@@ -2168,7 +1816,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
@@ -2178,15 +1826,14 @@
     "slug": "way-of-the-bandolier",
     "name": "Way of the Bandolier",
     "aliases": [],
-    "description": "The dauntless pioneers of the Great Expansion, facing the un-Democratic unknown, adopted the Way of the Bandolier. With the gusto of their covering fire making up for their modest accuracy, they strived to be perfectly aligned in their shared values, and ready to serve when called upon by the machine gun of civic duty.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Way of the Bandolier",
       "url": "https://helldivers.wiki.gg/wiki/Way_of_the_Bandolier",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "way-of-the-bandolier",
+    "pairedCapeId": "way-of-the-bandolier",
     "source": {
       "type": "warbond",
       "label": "Borderline Justice P2",
@@ -2194,7 +1841,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
@@ -2204,15 +1851,14 @@
     "slug": "wedgeful-tricorn",
     "name": "Wedgeful Tricorn",
     "aliases": [],
-    "description": "Designed in homage to the triangle—the most immovable of shapes—this cape digs its heels into eye of the observer, leaving a lasting impression.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Wedgeful Tricorn",
       "url": "https://helldivers.wiki.gg/wiki/Wedgeful_Tricorn",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "wedgeful-tricorn",
+    "pairedCapeId": "wedgeful-tricorn",
     "source": {
       "type": "warbond",
       "label": "Siege Breakers P2",
@@ -2220,33 +1866,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
-      },
-      "rotating": null
-    }
-  },
-  {
-    "id": "will-of-the-people",
-    "slug": "will-of-the-people",
-    "name": "Will of the People",
-    "aliases": [],
-    "description": "Contains a grain of sand from Super Earth—so its bearers carry a small piece of Liberty with them, wherever they go.",
-    "image": null,
-    "wiki": {
-      "title": "Will of the People",
-      "url": "https://helldivers.wiki.gg/wiki/Will_of_the_People",
-      "flags": []
-    },
-    "setIds": [],
-    "playerCardId": null,
-    "source": {
-      "type": "edition",
-      "label": "Super Citizen Edition",
-      "warbondId": null,
-      "page": null,
-      "cost": {
-        "currency": "usd",
-        "amount": 20
+        "amount": 7
       },
       "rotating": null
     }
@@ -2256,15 +1876,14 @@
     "slug": "windswept-wayfinder",
     "name": "Windswept Wayfinder",
     "aliases": [],
-    "description": "It is well-documented that soldiers raised on harsh planets have an advantage when fighting in similar environments; this insight is foundational to the Democratic Youth Scouts Exchange Program.",
+    "description": null,
     "image": null,
     "wiki": {
       "title": "Windswept Wayfinder",
       "url": "https://helldivers.wiki.gg/wiki/Windswept_Wayfinder",
       "flags": []
     },
-    "setIds": [],
-    "playerCardId": "windswept-wayfinder",
+    "pairedCapeId": "windswept-wayfinder",
     "source": {
       "type": "warbond",
       "label": "Dust Devils P2",
@@ -2272,7 +1891,7 @@
       "page": 2,
       "cost": {
         "currency": "medals",
-        "amount": 25
+        "amount": 7
       },
       "rotating": null
     }
