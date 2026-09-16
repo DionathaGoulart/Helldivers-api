@@ -17,9 +17,9 @@ import { weaponsPipeline } from "./weapons.ts";
 
 // Collections scraped so far (plan §4–§5); a full run runs all of them in this order.
 // Reference collections come before the entities that resolve against them (weapon traits
-// before weapons and stratagems, passives before armors), armor sets come after the armors and
-// helmets they are built from, player cards after the capes they pair with, and warbonds after
-// every item collection their page tables refer to.
+// before weapons and stratagems, passives before armors), player cards after the capes they pair
+// with, warbonds after every item collection their page tables refer to, and armor sets last:
+// they are built from the armors and helmets and take capes from the warbond pages (rule 6).
 export const PIPELINES: readonly CollectionPipeline[] = [
   boostersPipeline,
   passivesPipeline,
@@ -29,12 +29,12 @@ export const PIPELINES: readonly CollectionPipeline[] = [
   armorsPipeline,
   helmetsPipeline,
   capesPipeline,
-  armorSetsPipeline,
   playerCardsPipeline,
   emotesPipeline,
   patternsPipeline,
   titlesPipeline,
   warbondsPipeline,
+  armorSetsPipeline,
 ];
 
 /** The pipelines of `only`, in run order (dependencies first), or all of them. */

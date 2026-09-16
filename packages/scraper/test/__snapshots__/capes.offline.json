@@ -34,7 +34,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Agent_of_Oblivion",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ex-00-prototype-x"
+    ],
     "playerCardId": "agent-of-oblivion",
     "source": {
       "type": "warbond",
@@ -60,7 +62,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Badge_of_Order",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "bp-77-grand-juror"
+    ],
     "playerCardId": "badge-of-order",
     "source": {
       "type": "superstore",
@@ -86,7 +90,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Bastion_of_Integrity",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sa-32-dynamo"
+    ],
     "playerCardId": "bastion-of-integrity",
     "source": {
       "type": "warbond",
@@ -112,7 +118,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Blazing_Samaritan",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cm-14-physician"
+    ],
     "playerCardId": "blazing-samaritan",
     "source": {
       "type": "warbond",
@@ -138,7 +146,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Botslayer",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ex-03-prototype-3"
+    ],
     "playerCardId": "botslayer",
     "source": {
       "type": "warbond",
@@ -164,7 +174,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "tg-8-sharpshooter"
+    ],
     "playerCardId": "camo-cloak",
     "source": {
       "type": "warbond",
@@ -190,7 +202,9 @@
       "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "tg-122-demo-trooper"
+    ],
     "playerCardId": "city-fighters-resolve",
     "source": {
       "type": "warbond",
@@ -242,7 +256,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Conductor_of_Brilliance",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ad-26-bleeding-edge"
+    ],
     "playerCardId": "conductor-of-brilliance",
     "source": {
       "type": "warbond",
@@ -268,7 +284,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Cover_of_Darkness",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "uf-84-doubt-killer"
+    ],
     "playerCardId": "cover-of-darkness",
     "source": {
       "type": "superstore",
@@ -294,7 +312,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cph-26-commandant"
+    ],
     "playerCardId": "crest-of-the-unsullied",
     "source": {
       "type": "warbond",
@@ -320,7 +340,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Cresting_Honor",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sc-30-trailblazer-scout"
+    ],
     "playerCardId": "cresting-honor",
     "source": {
       "type": "warbond",
@@ -346,7 +368,9 @@
       "url": "https://helldivers.wiki.gg/wiki/De-Forester's_Sailcloth",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "rs-6-fiend-destroyer"
+    ],
     "playerCardId": "de-foresters-sailcloth",
     "source": {
       "type": "superstore",
@@ -372,7 +396,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Defender_of_Our_Dream",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ac-2-obedient"
+    ],
     "playerCardId": "defender-of-our-dream",
     "source": {
       "type": "warbond",
@@ -400,7 +426,9 @@
         "broken_file_links"
       ]
     },
-    "setIds": [],
+    "setIds": [
+      "o-44-bonded-pilot"
+    ],
     "playerCardId": "diagram-of-the-noblest-payload",
     "source": {
       "type": "superstore",
@@ -426,7 +454,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Dignity_of_Toil",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cpg-48-sapper"
+    ],
     "playerCardId": "dignity-of-toil",
     "source": {
       "type": "warbond",
@@ -452,7 +482,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Dissident's_Nightmare",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cw-36-winter-warrior"
+    ],
     "playerCardId": "dissidents-nightmare",
     "source": {
       "type": "warbond",
@@ -504,7 +536,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Eagle's_Fury",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ce-07-demolition-specialist"
+    ],
     "playerCardId": "eagles-fury",
     "source": {
       "type": "warbond",
@@ -553,7 +587,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Eternal_Corona",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ds-10-big-game-hunter"
+    ],
     "playerCardId": "eternal-corona",
     "source": {
       "type": "superstore",
@@ -579,7 +615,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ph-202-twigsnapper"
+    ],
     "playerCardId": "executioners-canopy",
     "source": {
       "type": "warbond",
@@ -651,7 +689,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "a-35-recon"
+    ],
     "playerCardId": "eye-of-the-clandestine",
     "source": {
       "type": "warbond",
@@ -700,7 +740,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Federation's_Embrace",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "re-2310-honorary-guard"
+    ],
     "playerCardId": "federations-embrace",
     "source": {
       "type": "warbond",
@@ -726,7 +768,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "rs-40-beast-of-prey"
+    ],
     "playerCardId": "foe-rent-asunder",
     "source": {
       "type": "warbond",
@@ -775,7 +819,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ie-3-martyr"
+    ],
     "playerCardId": "fre-liberam",
     "source": {
       "type": "warbond",
@@ -801,7 +847,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Free-Spirited_Spangles",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "o-3-free-spirit"
+    ],
     "playerCardId": "free-spirited-spangles",
     "source": {
       "type": "warbond",
@@ -827,7 +875,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Freedom's_Tapestry",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "fs-55-devastator"
+    ],
     "playerCardId": "freedoms-tapestry",
     "source": {
       "type": "warbond",
@@ -853,7 +903,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Gilded_Quill",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "rs-100-sanctioner"
+    ],
     "playerCardId": "gilded-quill",
     "source": {
       "type": "superstore",
@@ -879,7 +931,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ce-27-ground-breaker"
+    ],
     "playerCardId": "harbinger-of-true-equality",
     "source": {
       "type": "warbond",
@@ -905,7 +959,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Holder_of_the_Yellow_Line",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sr-18-roadblock"
+    ],
     "playerCardId": "holder-of-the-yellow-line",
     "source": {
       "type": "warbond",
@@ -931,7 +987,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "a-9-helljumper"
+    ],
     "playerCardId": "honored-heirloom",
     "source": {
       "type": "warbond",
@@ -957,7 +1015,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Humble_Regalia",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "re-1861-parade-commander"
+    ],
     "playerCardId": "humble-regalia",
     "source": {
       "type": "warbond",
@@ -983,7 +1043,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Independence_Bringer",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sc-34-infiltrator"
+    ],
     "playerCardId": "independence-bringer",
     "source": {
       "type": "warbond",
@@ -1032,7 +1094,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Judgment_Day",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "fs-23-battle-master"
+    ],
     "playerCardId": "judgment-day",
     "source": {
       "type": "warbond",
@@ -1058,7 +1122,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Liberty's_Herald",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "fs-05-marksman"
+    ],
     "playerCardId": "libertys-herald",
     "source": {
       "type": "warbond",
@@ -1084,7 +1150,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Light_of_Eternal_Liberty",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "dp-11-champion-of-the-people"
+    ],
     "playerCardId": "light-of-eternal-liberty",
     "source": {
       "type": "warbond",
@@ -1110,7 +1178,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Mantle_of_True_Citizenship",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sa-04-combat-technician"
+    ],
     "playerCardId": "mantle-of-true-citizenship",
     "source": {
       "type": "warbond",
@@ -1136,7 +1206,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Constrictor",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "rs-20-constrictor"
+    ],
     "playerCardId": "mark-of-the-constrictor",
     "source": {
       "type": "warbond",
@@ -1162,7 +1234,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Crimson_Fang",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ph-9-predator"
+    ],
     "playerCardId": "mark-of-the-crimson-fang",
     "source": {
       "type": "warbond",
@@ -1188,7 +1262,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Martyris_Rex",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ex-16-prototype-16"
+    ],
     "playerCardId": "martyris-rex",
     "source": {
       "type": "warbond",
@@ -1214,7 +1290,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Miranda's_Legacy",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "bp-20-correct-officer"
+    ],
     "playerCardId": "mirandas-legacy",
     "source": {
       "type": "warbond",
@@ -1240,7 +1318,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Mother_Eagle's_Wings",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "bp-32-jackboot"
+    ],
     "playerCardId": "mother-eagles-wings",
     "source": {
       "type": "warbond",
@@ -1266,7 +1346,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Order_of_the_Venerated_Ballot",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cw-4-arctic-ranger"
+    ],
     "playerCardId": "order-of-the-venerated-ballot",
     "source": {
       "type": "warbond",
@@ -1292,7 +1374,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Over_Artifice_Triumphant",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ad-49-apollonian"
+    ],
     "playerCardId": "over-artifice-triumphant",
     "source": {
       "type": "warbond",
@@ -1318,7 +1402,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Patient_Zero's_Remembrance",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "af-02-haz-master"
+    ],
     "playerCardId": "patient-zeros-remembrance",
     "source": {
       "type": "warbond",
@@ -1344,7 +1430,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Per_Democrasum",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ie-12-righteous"
+    ],
     "playerCardId": "per-democrasum",
     "source": {
       "type": "warbond",
@@ -1370,7 +1458,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Pillar_of_the_Abyss",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "rs-89-shadow-paragon"
+    ],
     "playerCardId": "pillar-of-the-abyss",
     "source": {
       "type": "warbond",
@@ -1419,7 +1509,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Pinions_of_Everlasting_Glory",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cw-22-kodiak"
+    ],
     "playerCardId": "pinions-of-everlasting-glory",
     "source": {
       "type": "warbond",
@@ -1445,7 +1537,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Pride_of_the_Whistleblower",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "uf-50-bloodhound"
+    ],
     "playerCardId": "pride-of-the-whistleblower",
     "source": {
       "type": "warbond",
@@ -1471,7 +1565,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Proof_of_Faultless_Virtue",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "uf-16-inspector"
+    ],
     "playerCardId": "proof-of-faultless-virtue",
     "source": {
       "type": "warbond",
@@ -1520,7 +1616,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Purifying_Eclipse",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "i-09-heatseeker"
+    ],
     "playerCardId": "purifying-eclipse",
     "source": {
       "type": "warbond",
@@ -1546,7 +1644,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Rags_of_the_Fashionable",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sa-7-headfirst"
+    ],
     "playerCardId": "rags-of-the-fashionable",
     "source": {
       "type": "warbond",
@@ -1572,7 +1672,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Reaper_of_Bounties",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "gs-17-frontier-marshal"
+    ],
     "playerCardId": "reaper-of-bounties",
     "source": {
       "type": "warbond",
@@ -1598,7 +1700,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Rebar_Resolve",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sr-24-street-scout"
+    ],
     "playerCardId": "rebar-resolve",
     "source": {
       "type": "warbond",
@@ -1647,7 +1751,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Rightful_Occupier",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ds-42-federations-blade"
+    ],
     "playerCardId": "rightful-occupier",
     "source": {
       "type": "warbond",
@@ -1673,7 +1779,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Schema_Laid_Bare",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ad-11-livewire"
+    ],
     "playerCardId": "schema-laid-bare",
     "source": {
       "type": "superstore",
@@ -1699,7 +1807,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Seal_of_General_Consensus",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "re-824-bearer-of-the-standard"
+    ],
     "playerCardId": "seal-of-general-consensus",
     "source": {
       "type": "superstore",
@@ -1727,7 +1837,9 @@
         "broken_file_links"
       ]
     },
-    "setIds": [],
+    "setIds": [
+      "bfm-220-ironclad"
+    ],
     "playerCardId": "shroud-of-the-juggernaut",
     "source": {
       "type": "warbond",
@@ -1752,7 +1864,9 @@
         "broken_file_links"
       ]
     },
-    "setIds": [],
+    "setIds": [
+      "bfm-16-tanker"
+    ],
     "playerCardId": "standard-of-rapid-evacuation",
     "source": {
       "type": "warbond",
@@ -1775,7 +1889,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Standard_of_Safe_Distance",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "af-50-noxious-ranger"
+    ],
     "playerCardId": "standard-of-safe-distance",
     "source": {
       "type": "warbond",
@@ -1801,7 +1917,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Stars_and_Suffrage",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cm-09-bonesnapper"
+    ],
     "playerCardId": "stars-and-suffrage",
     "source": {
       "type": "warbond",
@@ -1827,7 +1945,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sr-64-cinderblock"
+    ],
     "playerCardId": "stone-wrought-perseverance",
     "source": {
       "type": "superstore",
@@ -1853,7 +1973,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Strength_in_Our_Arms",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ac-1-dutiful"
+    ],
     "playerCardId": "strength-in-our-arms",
     "source": {
       "type": "warbond",
@@ -1879,7 +2001,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Testament_to_Attrition",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "cpr-80-bulwark"
+    ],
     "playerCardId": "testament-to-attrition",
     "source": {
       "type": "superstore",
@@ -1905,7 +2029,9 @@
       "url": "https://helldivers.wiki.gg/wiki/The_Breach",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "i-102-draconaught"
+    ],
     "playerCardId": "the-breach",
     "source": {
       "type": "warbond",
@@ -1931,7 +2057,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Thundering_Hooves_of_Loyalty",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "dp-8-mountain-scaled"
+    ],
     "playerCardId": "thundering-hooves-of-loyalty",
     "source": {
       "type": "superstore",
@@ -1957,7 +2085,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Tideturner",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ce-35-trench-engineer"
+    ],
     "playerCardId": "tideturner",
     "source": {
       "type": "warbond",
@@ -1983,7 +2113,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Triangulation_Veil",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "rs-67-null-cipher"
+    ],
     "playerCardId": "triangulation-veil",
     "source": {
       "type": "warbond",
@@ -2009,7 +2141,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Tyrant_Hunter",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sa-25-steel-trooper"
+    ],
     "playerCardId": "tyrant-hunter",
     "source": {
       "type": "warbond",
@@ -2035,7 +2169,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Unblemished_Allegiance",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "dp-40-hero-of-the-federation"
+    ],
     "playerCardId": "unblemished-allegiance",
     "source": {
       "type": "warbond",
@@ -2084,7 +2220,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Veil_of_the_Valorous_Vagabond",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "gs-11-democracys-deputy"
+    ],
     "playerCardId": "veil-of-the-valorous-vagabond",
     "source": {
       "type": "superstore",
@@ -2133,7 +2271,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Vision_of_Freedom",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ie-57-hell-bent"
+    ],
     "playerCardId": "vision-of-freedom",
     "source": {
       "type": "superstore",
@@ -2159,7 +2299,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Watchful_Compatriot",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "o-2-heavy-operator"
+    ],
     "playerCardId": "watchful-compatriot",
     "source": {
       "type": "warbond",
@@ -2185,7 +2327,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Way_of_the_Bandolier",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "gs-66-lawmaker"
+    ],
     "playerCardId": "way-of-the-bandolier",
     "source": {
       "type": "warbond",
@@ -2211,7 +2355,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Wedgeful_Tricorn",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "sa-8-ram"
+    ],
     "playerCardId": "wedgeful-tricorn",
     "source": {
       "type": "warbond",
@@ -2263,7 +2409,9 @@
       "url": "https://helldivers.wiki.gg/wiki/Windswept_Wayfinder",
       "flags": []
     },
-    "setIds": [],
+    "setIds": [
+      "ds-191-scorpion"
+    ],
     "playerCardId": "windswept-wayfinder",
     "source": {
       "type": "warbond",

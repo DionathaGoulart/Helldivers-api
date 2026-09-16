@@ -1,7 +1,12 @@
 import { copyFile, cp, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join, relative } from "node:path";
-import { type Collection, Collection as Collections, validateDataset } from "@hd2/schemas";
+import {
+  type ArmorSet,
+  type Collection,
+  Collection as Collections,
+  validateDataset,
+} from "@hd2/schemas";
 import { readDatasetFiles } from "@hd2/schemas/node";
 import * as cheerio from "cheerio";
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from "vitest";
@@ -15,7 +20,7 @@ import { FIXTURES_DIR } from "./fixtures.ts";
 // E2E offline (arch §11): fixtures → data/v1 in a temporary DATA_DIR.
 
 const repoOverrides = join(import.meta.dirname, "..", "..", "..", "data", "overrides");
-const INPUT_OVERRIDES = ["warbond-aliases.json", "source-labels.json"];
+const INPUT_OVERRIDES = ["warbond-aliases.json", "source-labels.json", "armor-sets.json"];
 
 /** Fixture source whose Boosters index lost some rows. */
 class DroppingSource implements WikiSource {
@@ -129,12 +134,12 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       { collection: "armors", before: 0, after: 109 },
       { collection: "helmets", before: 0, after: 110 },
       { collection: "capes", before: 0, after: 89 },
-      { collection: "armor-sets", before: 0, after: 109 },
       { collection: "player-cards", before: 0, after: 76 },
       { collection: "emotes", before: 0, after: 48 },
       { collection: "patterns", before: 0, after: 27 },
       { collection: "titles", before: 0, after: 56 },
       { collection: "warbonds", before: 0, after: 25 },
+      { collection: "armor-sets", before: 0, after: 109 },
     ]);
     // Unreleased Ironclad Democracy items (their passive, costs, stats and descriptions, the two
     // player cards missing from the Cosmetics grid, the cosmetics and boosters only its warbond
@@ -212,12 +217,12 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       "armors",
       "helmets",
       "capes",
-      "armor-sets",
       "player-cards",
       "emotes",
       "patterns",
       "titles",
       "warbonds",
+      "armor-sets",
     ];
     for (const collection of collections) {
       const list = (files.get(`${collection}.json`) as { data: unknown[] }).data;
@@ -373,12 +378,12 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
         source: { type: "event", label: "Void Piercer", cost: null },
       },
     });
-    // Capes: the page gives no page number, so the warbond table does (rule 3); sets are linked
-    // in plan 3g, the player card of the same page by the link step (rule 9).
+    // Capes: the page gives no page number, so the warbond table does (rule 3); the set comes
+    // from the same warbond page (rule 6), the player card of the same page from rule 9.
     expect(files.get("capes/city-fighters-resolve.json")).toMatchObject({
       data: {
         description: expect.stringMatching(/^The Helldivers are all that stand between/),
-        setIds: [],
+        setIds: ["tg-122-demo-trooper"],
         playerCardId: "city-fighters-resolve",
         source: {
           warbondId: "castellans-creed",
@@ -387,13 +392,37 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
         },
       },
     });
-    expect(files.get("armor-sets/tg-8-sharpshooter.json")).toMatchObject({
+    // Rule 6: TG-8 Sharpshooter equals arch §5.4 (warbond page), O-44 Bonded Pilot takes the cape
+    // of its Superstore tab; 13 sets from the Superstore and 61 from warbond pages.
+    expect(files.get("armor-sets/tg-8-sharpshooter.json")).toEqual({
+      meta: expect.anything(),
+      data: JSON.parse(
+        await readFile(
+          join(
+            import.meta.dirname,
+            "../../schemas/test/examples/armor-sets.tg-8-sharpshooter.json",
+          ),
+          "utf8",
+        ),
+      ),
+    });
+    expect(files.get("armor-sets/o-44-bonded-pilot.json")).toMatchObject({
       data: {
-        armorId: "tg-8-sharpshooter",
-        helmetId: "tg-8-sharpshooter",
-        capeId: null,
-        capeLink: null,
+        capeId: "diagram-of-the-noblest-payload",
+        capeLink: {
+          method: "superstore_set",
+          evidence:
+            "Superstore page 1 (Exo Experts) stocks exactly one armor (O-44 Bonded Pilot) and one cape (Diagram of the Noblest Payload)",
+        },
       },
+    });
+    const methods = (files.get("armor-sets.json") as { data: ArmorSet[] }).data.map(
+      (set) => set.capeLink?.method ?? null,
+    );
+    expect(methods.filter((method) => method === "superstore_set")).toHaveLength(13);
+    expect(methods.filter((method) => method === "warbond_page")).toHaveLength(61);
+    expect(files.get("armor-sets/sa-12-servo-assisted.json")).toMatchObject({
+      data: { capeId: null, capeLink: null }, // two capes on Steeled Veterans page 2
     });
     expect(files.get("passives/blunt-force-mitigation.json")).toMatchObject({
       data: { armorIds: ["bfm-16-tanker", "bfm-220-ironclad"] },
@@ -745,6 +774,61 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     expect(await readTree(dataDir)).toEqual(before);
   });
 
+  it("lets data/overrides/armor-sets.json set or remove a cape", async () => {
+    await fromBaseline();
+    await writeFile(
+      join(dataDir, "overrides", "armor-sets.json"),
+      JSON.stringify({
+        "tg-8-sharpshooter": { capeId: null, evidence: "not sold as a set" },
+        "b-01-tactical": { capeId: "camo-cloak", evidence: "worn together in the trailer" },
+      }),
+    );
+
+    const report = await run("2026-09-16T21:07:00Z", undefined, false, ["armor-sets"]);
+    expect(report.failure).toBeNull();
+    expect(report.changes).toEqual([
+      { collection: "capes", id: "camo-cloak", kind: "changed", paths: ["setIds[0]"] },
+      {
+        collection: "armor-sets",
+        id: "b-01-tactical",
+        kind: "changed",
+        paths: ["capeId", "capeLink"],
+      },
+      {
+        collection: "armor-sets",
+        id: "tg-8-sharpshooter",
+        kind: "changed",
+        paths: ["capeId", "capeLink"],
+      },
+    ]);
+    const set = (id: string) =>
+      readFile(join(dataDir, "v1", "armor-sets", `${id}.json`), "utf8").then(
+        (text) => JSON.parse(text).data,
+      );
+    expect(await set("b-01-tactical")).toMatchObject({
+      capeId: "camo-cloak",
+      capeLink: { method: "override", evidence: "worn together in the trailer" },
+    });
+    expect(await set("tg-8-sharpshooter")).toMatchObject({ capeId: null, capeLink: null });
+    const cloak = JSON.parse(
+      await readFile(join(dataDir, "v1", "capes", "camo-cloak.json"), "utf8"),
+    );
+    expect(cloak.data.setIds).toEqual(["b-01-tactical"]);
+  });
+
+  it("fails on an armor set override that names nothing", async () => {
+    await fromBaseline();
+    await writeFile(
+      join(dataDir, "overrides", "armor-sets.json"),
+      JSON.stringify({ "tg-9-sharpshooter": { capeId: "camo-cloak", evidence: "typo" } }),
+    );
+    const report = await run("2026-09-16T21:07:00Z", undefined, false, ["armor-sets"]);
+    expect(report.failure).toEqual({
+      kind: "error",
+      messages: ['data/overrides/armor-sets.json: "tg-9-sharpshooter" is not an armor set'],
+    });
+  });
+
   it("keeps rule 1 prices on an emotes-only run", async () => {
     await fromBaseline();
     const before = await readTree(dataDir);
@@ -785,7 +869,10 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
   it.each([
     [["weapons"], "weapons need the weapon-traits collection: scrape weapon-traits first"],
     [["armors"], "armors need the passives collection: scrape passives first"],
-    [["armor-sets"], "armor-sets need the armors and helmets collections: scrape them first"],
+    [
+      ["armor-sets"],
+      "armor-sets need the armors, helmets, capes and warbonds collections: scrape them first",
+    ],
     [["player-cards"], "player-cards need the capes collection: scrape capes first"],
   ] as const)("needs the collections %j resolves against", async (only, message) => {
     const report = await run("2026-09-15T21:07:00Z", undefined, false, [...only]);
