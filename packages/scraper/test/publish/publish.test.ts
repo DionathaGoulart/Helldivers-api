@@ -1,7 +1,7 @@
 import { mkdtemp, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
-import type { Change } from "@hd2/schemas";
+import type { Change, Conflict } from "@hd2/schemas";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import {
   archiveEntries,
@@ -9,6 +9,7 @@ import {
   MAX_CHANGELOG_ENTRIES,
   prependEntry,
 } from "../../src/publish/changelog.ts";
+import { mergeConflicts } from "../../src/publish/conflicts.ts";
 import { diffPaths } from "../../src/publish/diff.ts";
 import { checkGuardrails } from "../../src/publish/guardrails.ts";
 import { type RunReport, renderCommitMessage, renderSummary } from "../../src/publish/report.ts";
@@ -113,6 +114,51 @@ describe("changelog", () => {
     await archiveEntries(dir, archived); // idempotent
     const file = JSON.parse(await readFile(join(dir, "changelog", "2025.json"), "utf8"));
     expect(file).toEqual(archived);
+  });
+});
+
+describe("conflicts report", () => {
+  const conflict = (collection: Conflict["collection"], id: string, field: string): Conflict => ({
+    collection,
+    id,
+    field,
+    rule: 2,
+    chosen: 10.5,
+    candidates: [
+      { page: "https://helldivers.wiki.gg/wiki/X", location: "infobox › Recoil", value: 14 },
+      { page: "https://helldivers.wiki.gg/wiki/X", location: "X › Recoil", value: 10.5 },
+    ],
+  });
+
+  it("replaces the conflicts of scraped collections, keeps the rest and sorts them", () => {
+    const previous = {
+      conflicts: [
+        conflict("stratagems", "mg-43", "supportWeapon.recoil"),
+        conflict("weapons", "old", "firearm.recoil"),
+      ],
+    };
+    const merged = mergeConflicts(
+      previous,
+      ["weapons"],
+      [
+        conflict("weapons", "sg-8-punisher", "firearm.recoil"),
+        conflict("weapons", "ar-23-liberator", "firearm.recoil"),
+        conflict("weapons", "ar-23-liberator", "firearm.capacity"),
+      ],
+    );
+    expect(merged?.conflicts.map((c) => `${c.collection}/${c.id}:${c.field}`)).toEqual([
+      "stratagems/mg-43:supportWeapon.recoil",
+      "weapons/ar-23-liberator:firearm.capacity",
+      "weapons/ar-23-liberator:firearm.recoil",
+      "weapons/sg-8-punisher:firearm.recoil",
+    ]);
+  });
+
+  it("returns null when nothing conflicts", () => {
+    expect(mergeConflicts(undefined, ["weapons"], [])).toBeNull();
+    expect(
+      mergeConflicts({ conflicts: [conflict("weapons", "a", "b")] }, ["weapons"], []),
+    ).toBeNull();
   });
 });
 

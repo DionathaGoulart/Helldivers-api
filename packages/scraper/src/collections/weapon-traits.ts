@@ -61,6 +61,7 @@ export const weaponTraitsPipeline: CollectionPipeline<"weapon-traits"> = {
       entities,
       indexCount: page.listed.length,
       warnings,
+      conflicts: [],
     };
   },
 };

@@ -36,6 +36,12 @@ export const passivesPipeline: CollectionPipeline<"passives"> = {
     });
 
     logger.info("collection parsed", { collection: "passives", count: entities.length });
-    return { collection: "passives", entities, indexCount: rows.length, warnings: [] };
+    return {
+      collection: "passives",
+      entities,
+      indexCount: rows.length,
+      warnings: [],
+      conflicts: [],
+    };
   },
 };

@@ -9,10 +9,12 @@ import { NormalizeError, ParseError } from "./errors.ts";
 import { BlockedError } from "./http/block-detect.ts";
 import type { HttpClient } from "./http/client.ts";
 import { checkRobots, parseRobots, RobotsChangedError } from "./http/robots.ts";
+import { linkTraitHolders } from "./link/traits.ts";
 import type { Logger } from "./log.ts";
 import { WarbondResolver } from "./normalize/warbonds.ts";
 import { idLockPath, readOverrides } from "./overrides.ts";
 import { archiveEntries, buildEntry, prependEntry } from "./publish/changelog.ts";
+import { CONFLICTS_FILE, mergeConflicts } from "./publish/conflicts.ts";
 import {
   datasetHash,
   isoDate,
@@ -123,11 +125,20 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     let next = current.collections;
     for (const pipeline of pipelines) {
       logger.info("collection start", { collection: pipeline.collection });
-      const result = await pipeline.scrape({ source, overrides, idLock, warbonds, logger });
+      const result = await pipeline.scrape({
+        source,
+        overrides,
+        idLock,
+        warbonds,
+        logger,
+        dataset: next,
+      });
       results.push(result);
       report.warnings.push(...result.warnings);
       next = withCollection(next, result.collection, result.entities as never);
     }
+    // 6. Link: back-references over the merged dataset.
+    next = linkTraitHolders(next);
     report.counts = results.map(({ collection, entities }) => ({
       collection,
       before: current.collections[collection]?.length ?? 0,
@@ -152,10 +163,25 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       );
     }
 
+    // Reports carried over, with this run's conflicts in place of the scraped collections' ones.
+    const extraFiles = new Map(current.extraFiles);
+    const conflicts = mergeConflicts(
+      current.extraFiles.get(CONFLICTS_FILE),
+      results.map((result) => result.collection),
+      results.flatMap((result) => result.conflicts),
+    );
+    if (conflicts) {
+      extraFiles.set(CONFLICTS_FILE, conflicts);
+    } else {
+      extraFiles.delete(CONFLICTS_FILE);
+    }
+
     // 10. Diff; unchanged data keeps its dataVersion, so nothing is rewritten.
     report.changes = diffDatasets(current.collections, next);
     const unchanged =
-      current.manifest !== null && datasetHash(next) === datasetHash(current.collections);
+      current.manifest !== null &&
+      datasetHash(next) === datasetHash(current.collections) &&
+      JSON.stringify(conflicts) === JSON.stringify(current.extraFiles.get(CONFLICTS_FILE) ?? null);
     let files: Map<string, unknown>;
     let archived: ReturnType<typeof prependEntry>["archived"] = [];
     if (unchanged && current.manifest) {
@@ -165,7 +191,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
         generatedAt: current.manifest.generatedAt,
         collections: next,
         changelog: current.changelog,
-        extraFiles: current.extraFiles,
+        extraFiles,
       });
     } else {
       const dataVersion = `${report.date}.${datasetHash(next)}`;
@@ -180,7 +206,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
         generatedAt: isoSeconds(started),
         collections: next,
         changelog: changelog.kept,
-        extraFiles: current.extraFiles,
+        extraFiles,
       });
     }
 

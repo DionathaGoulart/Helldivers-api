@@ -85,6 +85,6 @@ export const boostersPipeline: CollectionPipeline<"boosters"> = {
     }
 
     logger.info("collection parsed", { collection: "boosters", count: entities.length });
-    return { collection: "boosters", entities, indexCount: rows.length, warnings };
+    return { collection: "boosters", entities, indexCount: rows.length, warnings, conflicts: [] };
   },
 };
