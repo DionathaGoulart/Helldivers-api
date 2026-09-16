@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -22,7 +22,9 @@
         "broken_file_links"
       ]
     },
-    "setIds": [],
+    "setIds": [
+      "o-44-bonded-pilot"
+    ],
     "playerCardId": "diagram-of-the-noblest-payload",
     "source": {
       "type": "superstore",

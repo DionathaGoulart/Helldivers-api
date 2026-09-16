@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "ie-12-righteous",
     "helmetId": "ie-12-righteous",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "per-democrasum",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "servants-of-freedom page 2 lists exactly one armor (IE-12 Righteous) and one cape (Per Democrasum)"
+    }
   }
 }

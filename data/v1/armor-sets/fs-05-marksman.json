@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "fs-05-marksman",
     "helmetId": "fs-05-marksman",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "libertys-herald",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "helldivers-mobilize page 2 lists exactly one armor (FS-05 Marksman) and one cape (Liberty's Herald)"
+    }
   }
 }

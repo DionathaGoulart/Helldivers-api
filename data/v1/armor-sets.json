@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "count": 109,
     "source": {
       "name": "The Helldivers Wiki",
@@ -23,8 +23,11 @@
       },
       "armorId": "a-35-recon",
       "helmetId": "a-35-recon",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "eye-of-the-clandestine",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "obedient-democracy-support-troopers page 2 lists exactly one armor (A-35 Recon) and one cape (Eye of the Clandestine)"
+      }
     },
     {
       "id": "a-9-helljumper",
@@ -39,8 +42,11 @@
       },
       "armorId": "a-9-helljumper",
       "helmetId": "a-9-helljumper",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "honored-heirloom",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "obedient-democracy-support-troopers page 1 lists exactly one armor (A-9 Helljumper) and one cape (Honored Heirloom)"
+      }
     },
     {
       "id": "ac-1-dutiful",
@@ -53,8 +59,11 @@
       },
       "armorId": "ac-1-dutiful",
       "helmetId": "ac-1-dutiful",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "strength-in-our-arms",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "righteous-revenants page 1 lists exactly one armor (AC-1 Dutiful) and one cape (Strength in Our Arms)"
+      }
     },
     {
       "id": "ac-2-obedient",
@@ -67,8 +76,11 @@
       },
       "armorId": "ac-2-obedient",
       "helmetId": "ac-2-obedient",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "defender-of-our-dream",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "righteous-revenants page 2 lists exactly one armor (AC-2 Obedient) and one cape (Defender of Our Dream)"
+      }
     },
     {
       "id": "ad-11-livewire",
@@ -83,8 +95,11 @@
       },
       "armorId": "ad-11-livewire",
       "helmetId": "ad-11-livewire",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "schema-laid-bare",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 6 (Control Group) stocks exactly one armor (AD-11 Livewire) and one cape (Schema Laid Bare)"
+      }
     },
     {
       "id": "ad-26-bleeding-edge",
@@ -99,8 +114,11 @@
       },
       "armorId": "ad-26-bleeding-edge",
       "helmetId": "ad-26-bleeding-edge",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "conductor-of-brilliance",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "control-group page 1 lists exactly one armor (AD-26 Bleeding Edge) and one cape (Conductor of Brilliance)"
+      }
     },
     {
       "id": "ad-49-apollonian",
@@ -115,8 +133,11 @@
       },
       "armorId": "ad-49-apollonian",
       "helmetId": "ad-49-apollonian",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "over-artifice-triumphant",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "control-group page 2 lists exactly one armor (AD-49 Apollonian) and one cape (Over Artifice Triumphant)"
+      }
     },
     {
       "id": "af-02-haz-master",
@@ -129,8 +150,11 @@
       },
       "armorId": "af-02-haz-master",
       "helmetId": "af-02-haz-master",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "patient-zeros-remembrance",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "chemical-agents page 2 lists exactly one armor (AF-02 Haz-Master) and one cape (Patient Zero's Remembrance)"
+      }
     },
     {
       "id": "af-50-noxious-ranger",
@@ -143,8 +167,11 @@
       },
       "armorId": "af-50-noxious-ranger",
       "helmetId": "af-50-noxious-ranger",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "standard-of-safe-distance",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "chemical-agents page 1 lists exactly one armor (AF-50 Noxious Ranger) and one cape (Standard of Safe Distance)"
+      }
     },
     {
       "id": "af-52-lockdown",
@@ -257,8 +284,11 @@
       },
       "armorId": "bfm-16-tanker",
       "helmetId": "bfm-16-tanker",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "standard-of-rapid-evacuation",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "ironclad-democracy page 1 lists exactly one armor (BFM-16 Tanker) and one cape (Standard of Rapid Evacuation)"
+      }
     },
     {
       "id": "bfm-220-ironclad",
@@ -273,8 +303,11 @@
       },
       "armorId": "bfm-220-ironclad",
       "helmetId": "bfm-220-ironclad",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "shroud-of-the-juggernaut",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "ironclad-democracy page 2 lists exactly one armor (BFM-220 Ironclad) and one cape (Shroud of the Juggernaut)"
+      }
     },
     {
       "id": "bp-20-correct-officer",
@@ -289,8 +322,11 @@
       },
       "armorId": "bp-20-correct-officer",
       "helmetId": "bp-20-correct-officer",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "mirandas-legacy",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "force-of-law page 1 lists exactly one armor (BP-20 Correct Officer) and one cape (Miranda's Legacy)"
+      }
     },
     {
       "id": "bp-32-jackboot",
@@ -305,8 +341,11 @@
       },
       "armorId": "bp-32-jackboot",
       "helmetId": "bp-32-jackboot",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "mother-eagles-wings",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "force-of-law page 2 lists exactly one armor (BP-32 Jackboot) and one cape (Mother Eagle's Wings)"
+      }
     },
     {
       "id": "bp-77-grand-juror",
@@ -321,8 +360,11 @@
       },
       "armorId": "bp-77-grand-juror",
       "helmetId": "bp-77-grand-juror",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "badge-of-order",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 7 (Force of Law) stocks exactly one armor (BP-77 Grand Juror) and one cape (Badge of Order)"
+      }
     },
     {
       "id": "ce-07-demolition-specialist",
@@ -335,8 +377,11 @@
       },
       "armorId": "ce-07-demolition-specialist",
       "helmetId": "ce-07-demolition-specialist",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "eagles-fury",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "democratic-detonation page 2 lists exactly one armor (CE-07 Demolition Specialist) and one cape (Eagle's Fury)"
+      }
     },
     {
       "id": "ce-101-guerilla-gorilla",
@@ -363,8 +408,11 @@
       },
       "armorId": "ce-27-ground-breaker",
       "helmetId": "ce-27-ground-breaker",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "harbinger-of-true-equality",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "democratic-detonation page 1 lists exactly one armor (CE-27 Ground Breaker) and one cape (Harbinger of True Equality)"
+      }
     },
     {
       "id": "ce-35-trench-engineer",
@@ -377,8 +425,11 @@
       },
       "armorId": "ce-35-trench-engineer",
       "helmetId": "ce-35-trench-engineer",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "tideturner",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 3 lists exactly one armor (CE-35 Trench Engineer) and one cape (Tideturner)"
+      }
     },
     {
       "id": "ce-64-grenadier",
@@ -447,8 +498,11 @@
       },
       "armorId": "cm-09-bonesnapper",
       "helmetId": "cm-09-bonesnapper",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "stars-and-suffrage",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 4 lists exactly one armor (CM-09 Bonesnapper) and one cape (The Cape of Stars and Suffrage)"
+      }
     },
     {
       "id": "cm-10-clinician",
@@ -475,8 +529,11 @@
       },
       "armorId": "cm-14-physician",
       "helmetId": "cm-14-physician",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "blazing-samaritan",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 9 lists exactly one armor (CM-14 Physician) and one cape (Blazing Samaritan)"
+      }
     },
     {
       "id": "cm-17-butcher",
@@ -519,8 +576,11 @@
       },
       "armorId": "cpg-48-sapper",
       "helmetId": "cpg-48-sapper",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "dignity-of-toil",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "entrenched-division page 1 lists exactly one armor (CPG-48 Sapper) and one cape (Dignity of Toil)"
+      }
     },
     {
       "id": "cph-26-commandant",
@@ -535,8 +595,11 @@
       },
       "armorId": "cph-26-commandant",
       "helmetId": "cph-26-commandant",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "crest-of-the-unsullied",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "entrenched-division page 2 lists exactly one armor (CPH-26 Commandant) and one cape (Crest of the Unsullied)"
+      }
     },
     {
       "id": "cpr-80-bulwark",
@@ -551,8 +614,11 @@
       },
       "armorId": "cpr-80-bulwark",
       "helmetId": "cpr-80-bulwark",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "testament-to-attrition",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 2 (Entrenched Division) stocks exactly one armor (CPR-80 Bulwark) and one cape (Testament to Attrition)"
+      }
     },
     {
       "id": "cw-22-kodiak",
@@ -565,8 +631,11 @@
       },
       "armorId": "cw-22-kodiak",
       "helmetId": "cw-22-kodiak",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "pinions-of-everlasting-glory",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "polar-patriots page 2 lists exactly one armor (CW-22 Kodiak) and one cape (Pinions of Everlasting Glory)"
+      }
     },
     {
       "id": "cw-36-winter-warrior",
@@ -579,8 +648,11 @@
       },
       "armorId": "cw-36-winter-warrior",
       "helmetId": "cw-36-winter-warrior",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "dissidents-nightmare",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "polar-patriots page 1 lists exactly one armor (CW-36 Winter Warrior) and one cape (Dissident's Nightmare)"
+      }
     },
     {
       "id": "cw-4-arctic-ranger",
@@ -593,8 +665,11 @@
       },
       "armorId": "cw-4-arctic-ranger",
       "helmetId": "cw-4-arctic-ranger",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "order-of-the-venerated-ballot",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "polar-patriots page 3 lists exactly one armor (CW-4 Arctic Ranger) and one cape (Order of the Venerated Ballot)"
+      }
     },
     {
       "id": "cw-9-white-wolf",
@@ -635,8 +710,11 @@
       },
       "armorId": "dp-11-champion-of-the-people",
       "helmetId": "dp-11-champion-of-the-people",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "light-of-eternal-liberty",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 10 lists exactly one armor (DP-11 Champion of the People) and one cape (Light of Eternal Liberty)"
+      }
     },
     {
       "id": "dp-40-hero-of-the-federation",
@@ -649,8 +727,11 @@
       },
       "armorId": "dp-40-hero-of-the-federation",
       "helmetId": "dp-40-hero-of-the-federation",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "unblemished-allegiance",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 5 lists exactly one armor (DP-40 Hero of the Federation) and one cape (Unblemished Allegiance)"
+      }
     },
     {
       "id": "dp-53-savior-of-the-free",
@@ -679,8 +760,11 @@
       },
       "armorId": "dp-8-mountain-scaled",
       "helmetId": "dp-8-mountain-scaled",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "thundering-hooves-of-loyalty",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 9 (War Horses) stocks exactly one armor (DP-8 Mountain-Scaled) and one cape (Thundering Hooves of Loyalty)"
+      }
     },
     {
       "id": "ds-10-big-game-hunter",
@@ -695,8 +779,11 @@
       },
       "armorId": "ds-10-big-game-hunter",
       "helmetId": "ds-10-big-game-hunter",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "eternal-corona",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 5 (Dust Devils) stocks exactly one armor (DS-10 Big Game Hunter) and one cape (Eternal Corona)"
+      }
     },
     {
       "id": "ds-191-scorpion",
@@ -711,8 +798,11 @@
       },
       "armorId": "ds-191-scorpion",
       "helmetId": "ds-191-scorpion",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "windswept-wayfinder",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "dust-devils page 2 lists exactly one armor (DS-191 Scorpion) and one cape (Windswept Wayfinder)"
+      }
     },
     {
       "id": "ds-42-federations-blade",
@@ -727,8 +817,11 @@
       },
       "armorId": "ds-42-federations-blade",
       "helmetId": "ds-42-federations-blade",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "rightful-occupier",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "dust-devils page 1 lists exactly one armor (DS-42 Federation's Blade) and one cape (Rightful Occupier)"
+      }
     },
     {
       "id": "ex-00-prototype-x",
@@ -741,8 +834,11 @@
       },
       "armorId": "ex-00-prototype-x",
       "helmetId": "ex-00-prototype-x",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "agent-of-oblivion",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "cutting-edge page 3 lists exactly one armor (EX-00 Prototype X) and one cape (Agent of Oblivion)"
+      }
     },
     {
       "id": "ex-03-prototype-3",
@@ -755,8 +851,11 @@
       },
       "armorId": "ex-03-prototype-3",
       "helmetId": "ex-03-prototype-3",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "botslayer",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "cutting-edge page 1 lists exactly one armor (EX-03 Prototype 3) and one cape (Botslayer)"
+      }
     },
     {
       "id": "ex-16-prototype-16",
@@ -769,8 +868,11 @@
       },
       "armorId": "ex-16-prototype-16",
       "helmetId": "ex-16-prototype-16",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "martyris-rex",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "cutting-edge page 2 lists exactly one armor (EX-16 Prototype 16) and one cape (Martyris Rex)"
+      }
     },
     {
       "id": "fs-05-marksman",
@@ -783,8 +885,11 @@
       },
       "armorId": "fs-05-marksman",
       "helmetId": "fs-05-marksman",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "libertys-herald",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 2 lists exactly one armor (FS-05 Marksman) and one cape (Liberty's Herald)"
+      }
     },
     {
       "id": "fs-11-executioner",
@@ -811,8 +916,11 @@
       },
       "armorId": "fs-23-battle-master",
       "helmetId": "fs-23-battle-master",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "judgment-day",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 6 lists exactly one armor (FS-23 Battle Master) and one cape (Judgment Day)"
+      }
     },
     {
       "id": "fs-34-exterminator",
@@ -867,8 +975,11 @@
       },
       "armorId": "fs-55-devastator",
       "helmetId": "fs-55-devastator",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "freedoms-tapestry",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "democratic-detonation page 3 lists exactly one armor (FS-55 Devastator) and one cape (Freedom's Tapestry)"
+      }
     },
     {
       "id": "fs-61-dreadnought",
@@ -895,8 +1006,11 @@
       },
       "armorId": "gs-11-democracys-deputy",
       "helmetId": "gs-11-democracys-deputy",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "veil-of-the-valorous-vagabond",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 10 (Borderline Justice) stocks exactly one armor (GS-11 Democracy's Deputy) and one cape (Veil of the Valorous Vagabond)"
+      }
     },
     {
       "id": "gs-17-frontier-marshal",
@@ -909,8 +1023,11 @@
       },
       "armorId": "gs-17-frontier-marshal",
       "helmetId": "gs-17-frontier-marshal",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "reaper-of-bounties",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "borderline-justice page 1 lists exactly one armor (GS-17 Frontier Marshal) and one cape (Reaper of Bounties)"
+      }
     },
     {
       "id": "gs-66-lawmaker",
@@ -923,8 +1040,11 @@
       },
       "armorId": "gs-66-lawmaker",
       "helmetId": "gs-66-lawmaker",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "way-of-the-bandolier",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "borderline-justice page 2 lists exactly one armor (GS-66 Lawmaker) and one cape (Way of the Bandolier)"
+      }
     },
     {
       "id": "i-09-heatseeker",
@@ -937,8 +1057,11 @@
       },
       "armorId": "i-09-heatseeker",
       "helmetId": "i-09-heatseeker",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "purifying-eclipse",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "freedoms-flame page 1 lists exactly one armor (I-09 Heatseeker) and one cape (Purifying Eclipse)"
+      }
     },
     {
       "id": "i-102-draconaught",
@@ -951,8 +1074,11 @@
       },
       "armorId": "i-102-draconaught",
       "helmetId": "i-102-draconaught",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "the-breach",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "freedoms-flame page 2 lists exactly one armor (I-102 Draconaught) and one cape (The Breach)"
+      }
     },
     {
       "id": "i-44-salamander",
@@ -993,8 +1119,11 @@
       },
       "armorId": "ie-12-righteous",
       "helmetId": "ie-12-righteous",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "per-democrasum",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "servants-of-freedom page 2 lists exactly one armor (IE-12 Righteous) and one cape (Per Democrasum)"
+      }
     },
     {
       "id": "ie-3-martyr",
@@ -1007,8 +1136,11 @@
       },
       "armorId": "ie-3-martyr",
       "helmetId": "ie-3-martyr",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "fre-liberam",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "servants-of-freedom page 1 lists exactly one armor (IE-3 Martyr) and one cape (Fre Liberam)"
+      }
     },
     {
       "id": "ie-57-hell-bent",
@@ -1021,8 +1153,11 @@
       },
       "armorId": "ie-57-hell-bent",
       "helmetId": "ie-57-hell-bent",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "vision-of-freedom",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 11 (Servants of Freedom) stocks exactly one armor (IE-57 Hell-Bent) and one cape (Vision of Freedom)"
+      }
     },
     {
       "id": "kdm-500-outrider",
@@ -1049,8 +1184,11 @@
       },
       "armorId": "o-2-heavy-operator",
       "helmetId": "o-2-heavy-operator",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "watchful-compatriot",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "exo-experts page 2 lists exactly one armor (O-2 Heavy Operator) and one cape (Watchful Compatriot)"
+      }
     },
     {
       "id": "o-3-free-spirit",
@@ -1063,8 +1201,11 @@
       },
       "armorId": "o-3-free-spirit",
       "helmetId": "o-3-free-spirit",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "free-spirited-spangles",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "exo-experts page 1 lists exactly one armor (O-3 Free Spirit) and one cape (Free-Spirited Spangles)"
+      }
     },
     {
       "id": "o-44-bonded-pilot",
@@ -1077,8 +1218,11 @@
       },
       "armorId": "o-44-bonded-pilot",
       "helmetId": "o-44-bonded-pilot",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "diagram-of-the-noblest-payload",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 1 (Exo Experts) stocks exactly one armor (O-44 Bonded Pilot) and one cape (Diagram of the Noblest Payload)"
+      }
     },
     {
       "id": "ph-202-twigsnapper",
@@ -1091,8 +1235,11 @@
       },
       "armorId": "ph-202-twigsnapper",
       "helmetId": "ph-202-twigsnapper",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "executioners-canopy",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "viper-commandos page 2 lists exactly one armor (PH-202 Twigsnapper) and one cape (Executioner's Canopy)"
+      }
     },
     {
       "id": "ph-56-jaguar",
@@ -1119,8 +1266,11 @@
       },
       "armorId": "ph-9-predator",
       "helmetId": "ph-9-predator",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "mark-of-the-crimson-fang",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "viper-commandos page 1 lists exactly one armor (PH-9 Predator) and one cape (Mark of the Crimson Fang)"
+      }
     },
     {
       "id": "re-1861-parade-commander",
@@ -1133,8 +1283,11 @@
       },
       "armorId": "re-1861-parade-commander",
       "helmetId": "re-1861-parade-commander",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "humble-regalia",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "masters-of-ceremony page 2 lists exactly one armor (RE-1861 Parade Commander) and one cape (Humble Regalia)"
+      }
     },
     {
       "id": "re-2310-honorary-guard",
@@ -1147,8 +1300,11 @@
       },
       "armorId": "re-2310-honorary-guard",
       "helmetId": "re-2310-honorary-guard",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "federations-embrace",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "masters-of-ceremony page 1 lists exactly one armor (RE-2310 Honorary Guard) and one cape (Federation's Embrace)"
+      }
     },
     {
       "id": "re-824-bearer-of-the-standard",
@@ -1161,8 +1317,11 @@
       },
       "armorId": "re-824-bearer-of-the-standard",
       "helmetId": "re-824-bearer-of-the-standard",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "seal-of-general-consensus",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 8 (Masters of Ceremony) stocks exactly one armor (RE-824 Bearer of the Standard) and one cape (Seal of General Consensus)"
+      }
     },
     {
       "id": "rs-100-sanctioner",
@@ -1175,8 +1334,11 @@
       },
       "armorId": "rs-100-sanctioner",
       "helmetId": "rs-100-sanctioner",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "gilded-quill",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 3 (Redacted Regiment) stocks exactly one armor (RS-100 Sanctioner) and one cape (Gilded Quill)"
+      }
     },
     {
       "id": "rs-20-constrictor",
@@ -1189,8 +1351,11 @@
       },
       "armorId": "rs-20-constrictor",
       "helmetId": "rs-20-constrictor",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "mark-of-the-constrictor",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "python-commandos page 1 lists exactly one armor (RS-20 Constrictor) and one cape (Mark of the Constrictor)"
+      }
     },
     {
       "id": "rs-40-beast-of-prey",
@@ -1203,8 +1368,11 @@
       },
       "armorId": "rs-40-beast-of-prey",
       "helmetId": "rs-40-beast-of-prey",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "foe-rent-asunder",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "python-commandos page 2 lists exactly one armor (RS-40 Beast of Prey) and one cape (Foe Rent Asunder)"
+      }
     },
     {
       "id": "rs-6-fiend-destroyer",
@@ -1217,8 +1385,11 @@
       },
       "armorId": "rs-6-fiend-destroyer",
       "helmetId": "rs-6-fiend-destroyer",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "de-foresters-sailcloth",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 4 (Python Commandos) stocks exactly one armor (RS-6 Fiend Destroyer) and one cape (De-Forester's Sailcloth)"
+      }
     },
     {
       "id": "rs-67-null-cipher",
@@ -1231,8 +1402,11 @@
       },
       "armorId": "rs-67-null-cipher",
       "helmetId": "rs-67-null-cipher",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "triangulation-veil",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "redacted-regiment page 2 lists exactly one armor (RS-67 Null Cipher) and one cape (Triangulation Veil)"
+      }
     },
     {
       "id": "rs-89-shadow-paragon",
@@ -1245,8 +1419,11 @@
       },
       "armorId": "rs-89-shadow-paragon",
       "helmetId": "rs-89-shadow-paragon",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "pillar-of-the-abyss",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "redacted-regiment page 1 lists exactly one armor (RS-89 Shadow Paragon) and one cape (Pillar of the Abyss)"
+      }
     },
     {
       "id": "sa-04-combat-technician",
@@ -1259,8 +1436,11 @@
       },
       "armorId": "sa-04-combat-technician",
       "helmetId": "sa-04-combat-technician",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "mantle-of-true-citizenship",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 8 lists exactly one armor (SA-04 Combat Technician) and one cape (Mantle of True Citizenship)"
+      }
     },
     {
       "id": "sa-12-servo-assisted",
@@ -1287,8 +1467,11 @@
       },
       "armorId": "sa-25-steel-trooper",
       "helmetId": "sa-25-steel-trooper",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "tyrant-hunter",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "steeled-veterans page 1 lists exactly one armor (SA-25 Steel Trooper) and one cape (Tyrant Hunter)"
+      }
     },
     {
       "id": "sa-32-dynamo",
@@ -1301,8 +1484,11 @@
       },
       "armorId": "sa-32-dynamo",
       "helmetId": "sa-32-dynamo",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "bastion-of-integrity",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "steeled-veterans page 3 lists exactly one armor (SA-32 Dynamo) and one cape (Bastion of Integrity)"
+      }
     },
     {
       "id": "sa-7-headfirst",
@@ -1315,8 +1501,11 @@
       },
       "armorId": "sa-7-headfirst",
       "helmetId": "sa-7-headfirst",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "rags-of-the-fashionable",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "siege-breakers page 1 lists exactly one armor (SA-7 Headfirst) and one cape (Rags of the Fashionable)"
+      }
     },
     {
       "id": "sa-8-ram",
@@ -1329,8 +1518,11 @@
       },
       "armorId": "sa-8-ram",
       "helmetId": "sa-8-ram",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "wedgeful-tricorn",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "siege-breakers page 2 lists exactly one armor (SA-8 Ram) and one cape (Wedgeful Tricorn)"
+      }
     },
     {
       "id": "sc-15-drone-master",
@@ -1357,8 +1549,11 @@
       },
       "armorId": "sc-30-trailblazer-scout",
       "helmetId": "sc-30-trailblazer-scout",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "cresting-honor",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 7 lists exactly one armor (SC-30 Trailblazer Scout) and one cape (Cresting Honor)"
+      }
     },
     {
       "id": "sc-34-infiltrator",
@@ -1371,8 +1566,11 @@
       },
       "armorId": "sc-34-infiltrator",
       "helmetId": "sc-34-infiltrator",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "independence-bringer",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "helldivers-mobilize page 1 lists exactly one armor (SC-34 Infiltrator) and one cape (Independence Bringer)"
+      }
     },
     {
       "id": "sc-37-legionnaire",
@@ -1399,8 +1597,11 @@
       },
       "armorId": "sr-18-roadblock",
       "helmetId": "sr-18-roadblock",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "holder-of-the-yellow-line",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "urban-legends page 2 lists exactly one armor (SR-18 Roadblock) and one cape (Holder of the Yellow Line)"
+      }
     },
     {
       "id": "sr-24-street-scout",
@@ -1413,8 +1614,11 @@
       },
       "armorId": "sr-24-street-scout",
       "helmetId": "sr-24-street-scout",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "rebar-resolve",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "urban-legends page 1 lists exactly one armor (SR-24 Street Scout) and one cape (Greatcloak of Rebar Resolve)"
+      }
     },
     {
       "id": "sr-64-cinderblock",
@@ -1427,8 +1631,11 @@
       },
       "armorId": "sr-64-cinderblock",
       "helmetId": "sr-64-cinderblock",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "stone-wrought-perseverance",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 12 (Urban Legends) stocks exactly one armor (SR-64 Cinderblock) and one cape (Stone-Wrought Perseverance)"
+      }
     },
     {
       "id": "tg-122-demo-trooper",
@@ -1441,8 +1648,11 @@
       },
       "armorId": "tg-122-demo-trooper",
       "helmetId": "tg-122-demo-trooper",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "city-fighters-resolve",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "castellans-creed page 2 lists exactly one armor (TG-122 Demo-Trooper) and one cape (City Fighter's Resolve)"
+      }
     },
     {
       "id": "tg-8-sharpshooter",
@@ -1455,8 +1665,11 @@
       },
       "armorId": "tg-8-sharpshooter",
       "helmetId": "tg-8-sharpshooter",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "camo-cloak",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "castellans-creed page 1 lists exactly one armor (TG-8 Sharpshooter) and one cape (Camo Cloak)"
+      }
     },
     {
       "id": "tr-117-alpha-commander",
@@ -1539,8 +1752,11 @@
       },
       "armorId": "uf-16-inspector",
       "helmetId": "uf-16-inspector",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "proof-of-faultless-virtue",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "truth-enforcers page 3 lists exactly one armor (UF-16 Inspector) and one cape (Proof of Faultless Virtue)"
+      }
     },
     {
       "id": "uf-50-bloodhound",
@@ -1553,8 +1769,11 @@
       },
       "armorId": "uf-50-bloodhound",
       "helmetId": "uf-50-bloodhound",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "pride-of-the-whistleblower",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "truth-enforcers page 2 lists exactly one armor (UF-50 Bloodhound) and one cape (Pride of the Whistleblower)"
+      }
     },
     {
       "id": "uf-84-doubt-killer",
@@ -1567,8 +1786,11 @@
       },
       "armorId": "uf-84-doubt-killer",
       "helmetId": "uf-84-doubt-killer",
-      "capeId": null,
-      "capeLink": null
+      "capeId": "cover-of-darkness",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 13 (Truth Enforcers) stocks exactly one armor (UF-84 Doubt Killer) and one cape (Cover of Darkness)"
+      }
     }
   ]
 }

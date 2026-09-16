@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "dp-11-champion-of-the-people",
     "helmetId": "dp-11-champion-of-the-people",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "light-of-eternal-liberty",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "helldivers-mobilize page 10 lists exactly one armor (DP-11 Champion of the People) and one cape (Light of Eternal Liberty)"
+    }
   }
 }

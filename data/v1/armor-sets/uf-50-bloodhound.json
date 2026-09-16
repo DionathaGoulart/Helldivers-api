@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "uf-50-bloodhound",
     "helmetId": "uf-50-bloodhound",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "pride-of-the-whistleblower",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "truth-enforcers page 2 lists exactly one armor (UF-50 Bloodhound) and one cape (Pride of the Whistleblower)"
+    }
   }
 }

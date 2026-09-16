@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -21,7 +21,10 @@
     },
     "armorId": "ds-42-federations-blade",
     "helmetId": "ds-42-federations-blade",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "rightful-occupier",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "dust-devils page 1 lists exactly one armor (DS-42 Federation's Blade) and one cape (Rightful Occupier)"
+    }
   }
 }

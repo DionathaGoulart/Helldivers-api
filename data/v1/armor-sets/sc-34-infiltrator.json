@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "sc-34-infiltrator",
     "helmetId": "sc-34-infiltrator",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "independence-bringer",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "helldivers-mobilize page 1 lists exactly one armor (SC-34 Infiltrator) and one cape (Independence Bringer)"
+    }
   }
 }

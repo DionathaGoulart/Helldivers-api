@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "ex-00-prototype-x",
     "helmetId": "ex-00-prototype-x",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "agent-of-oblivion",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "cutting-edge page 3 lists exactly one armor (EX-00 Prototype X) and one cape (Agent of Oblivion)"
+    }
   }
 }

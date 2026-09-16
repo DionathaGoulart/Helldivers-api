@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,10 @@
     },
     "armorId": "rs-40-beast-of-prey",
     "helmetId": "rs-40-beast-of-prey",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "foe-rent-asunder",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "python-commandos page 2 lists exactly one armor (RS-40 Beast of Prey) and one cape (Foe Rent Asunder)"
+    }
   }
 }

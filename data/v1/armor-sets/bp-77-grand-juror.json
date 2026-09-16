@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -21,7 +21,10 @@
     },
     "armorId": "bp-77-grand-juror",
     "helmetId": "bp-77-grand-juror",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "badge-of-order",
+    "capeLink": {
+      "method": "superstore_set",
+      "evidence": "Superstore page 7 (Force of Law) stocks exactly one armor (BP-77 Grand Juror) and one cape (Badge of Order)"
+    }
   }
 }

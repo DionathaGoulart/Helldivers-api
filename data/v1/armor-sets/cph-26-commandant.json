@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.9c55d5f1",
-    "generatedAt": "2026-09-16T18:25:04Z",
+    "dataVersion": "2026-09-16.2b461706",
+    "generatedAt": "2026-09-16T19:38:44Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -21,7 +21,10 @@
     },
     "armorId": "cph-26-commandant",
     "helmetId": "cph-26-commandant",
-    "capeId": null,
-    "capeLink": null
+    "capeId": "crest-of-the-unsullied",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "entrenched-division page 2 lists exactly one armor (CPH-26 Commandant) and one cape (Crest of the Unsullied)"
+    }
   }
 }
