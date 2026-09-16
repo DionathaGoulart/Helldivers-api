@@ -14,7 +14,11 @@ export function detectCurrency(cell: Cheerio<AnyNode>): Currency | null {
   if (cell.find("span.explain[title='USD']").length > 0) {
     return "usd";
   }
-  if (/\brequisition slips?\b/i.test(textOf(cell))) {
+  // `4000 Requisition Slips`, or the slip icon alone (Cosmetics weapon patterns).
+  if (
+    /\brequisition slips?\b/i.test(textOf(cell)) ||
+    cell.find("img[src*='/Requisition_Slip.svg']").length > 0
+  ) {
     return "requisition";
   }
   return null;

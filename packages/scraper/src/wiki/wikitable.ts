@@ -69,6 +69,19 @@ export function columnIndexes<const Name extends string>(
   return indexes;
 }
 
+/** The row with each cell repeated `colspan` times, so cells line up with the headers. */
+export function expandColspans(row: WikitableRow): WikitableRow {
+  return {
+    ...row,
+    cells: row.cells.flatMap((cell) =>
+      Array.from(
+        { length: Math.max(1, Number.parseInt(cell.attr("colspan") ?? "1", 10) || 1) },
+        () => cell,
+      ),
+    ),
+  };
+}
+
 export function cellAt(
   row: WikitableRow,
   index: number,

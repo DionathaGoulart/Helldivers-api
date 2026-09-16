@@ -39,6 +39,7 @@ export function readCategories($: CheerioAPI): string[] {
 const FLAG_BY_CATEGORY: Readonly<Record<string, WikiFlag>> = {
   "Potentially Outdated Pages": "potentially_outdated",
   "Pages with broken file links": "broken_file_links",
+  Stubs: "stub", // confirmed on Castellans Green Pattern (plan 3e)
 };
 
 /** Maintenance categories → `wiki.flags`, in enum order (arch §4.5). */

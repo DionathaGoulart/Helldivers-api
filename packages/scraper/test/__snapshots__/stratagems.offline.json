@@ -3157,7 +3157,9 @@
     "wiki": {
       "title": "Aquifer Drill",
       "url": "https://helldivers.wiki.gg/wiki/Aquifer_Drill",
-      "flags": []
+      "flags": [
+        "stub"
+      ]
     },
     "permitType": "mission",
     "availability": "objective",
@@ -18120,7 +18122,9 @@
     "wiki": {
       "title": "Portable Comms Relay",
       "url": "https://helldivers.wiki.gg/wiki/Portable_Comms_Relay",
-      "flags": []
+      "flags": [
+        "stub"
+      ]
     },
     "permitType": "mission",
     "availability": "objective",

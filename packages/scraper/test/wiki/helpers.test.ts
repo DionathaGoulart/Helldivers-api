@@ -14,7 +14,7 @@ import {
 import { findInSection, readSections } from "../../src/wiki/sections.ts";
 import { readCodeArrows } from "../../src/wiki/stratagem-code.ts";
 import { ownElements, readTabberPanels } from "../../src/wiki/tabber.ts";
-import { columnIndexes, readWikitable } from "../../src/wiki/wikitable.ts";
+import { columnIndexes, expandColspans, readWikitable } from "../../src/wiki/wikitable.ts";
 import { article } from "../fixtures.ts";
 
 describe("text", () => {
@@ -52,6 +52,17 @@ describe("readWikitable", () => {
     expect(columnIndexes(table, ["Cost", "Name"], "page", "#t")).toEqual({ Cost: 1, Name: 0 });
     expect(() => columnIndexes(table, ["Price"], "page", "#t")).toThrow(ParseError);
   });
+
+  it("repeats colspan cells so they line up with the headers", () => {
+    const $$ = loadHtml(`<table class="wikitable" id="s"><tbody>
+      <tr><th>Icon</th><th>Shuttle</th><th>Hellpod</th><th>Acquisition</th></tr>
+      <tr><td>i</td><td colspan="2"></td><td>Starter Equipment</td></tr>
+    </tbody></table>`);
+    const [row] = readWikitable($$, $$("#s")).rows;
+    expect(row?.cells).toHaveLength(3);
+    const expanded = row ? expandColspans(row) : null;
+    expect(expanded?.cells.map((cell) => textOf(cell))).toEqual(["i", "", "", "Starter Equipment"]);
+  });
 });
 
 describe("detectCurrency", () => {
@@ -63,6 +74,10 @@ describe("detectCurrency", () => {
     ['<img src="/images/thumb/Super_Credit.png/51px-Super_Credit.png?2"> 100', "super_credits"],
     ['<span class="explain" title="USD">💲</span>20', "usd"],
     ["4000 Requisition Slips", "requisition"],
+    [
+      '<a title="Requisition Slips"><img alt="Requisition Slips" src="/images/Requisition_Slip.svg?b"></a> 3,000',
+      "requisition",
+    ],
     ["Free", null],
   ])("%s → %s", (cell, currency) => {
     const $ = loadHtml(`<div id="c">${cell}</div>`);
@@ -128,6 +143,7 @@ describe("page facts", () => {
       "broken_file_links",
     ]);
     expect(flagsFromCategories(["Boosters", "Pages With Empty Sections"])).toEqual([]);
+    expect(flagsFromCategories(["Stubs", "Patterns"])).toEqual(["stub"]);
   });
 
   it("fails without a canonical link", () => {
