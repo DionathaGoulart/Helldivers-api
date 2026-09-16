@@ -1,0 +1,105 @@
+import type { Cost, Currency, Id, Source, WeaponTrait } from "@hd2/schemas";
+import { NormalizeError } from "../errors.ts";
+import { parseCost } from "../normalize/costs.ts";
+import { classifySource, type RawSourceCell } from "../normalize/sources.ts";
+import type { RawCost, RawLink } from "../parsers/raw.ts";
+import { findItem, parseWarbondPage, type RawWarbondPage } from "../parsers/warbond-page.ts";
+import { wikiUrl } from "../wiki/title.ts";
+import type { ScrapeContext } from "./types.ts";
+
+// Acquisition and traits shared by item pipelines (weapons, stratagems): the `Source` of an
+// item page (arch §5.5 rule 3) and its `Equipment Traits` links.
+
+export interface ItemSourceInput {
+  cell: RawSourceCell;
+  cost: RawCost | null; // the item page's cost row
+  titles: readonly string[]; // titles a warbond page table may link the item by
+  page: string; // item page URL
+  fallbackCurrency?: Currency; // requisition columns that only say `Free`
+  note: (message: string) => void;
+}
+
+/** Resolves item sources, reading each warbond page once per run. */
+export function itemSourceResolver({ source, overrides, warbonds }: ScrapeContext) {
+  const warbondPages = new Map<string, RawWarbondPage>();
+  const warbondPage = async (title: string) => {
+    let warbond = warbondPages.get(title);
+    if (!warbond) {
+      const page = await source.page(title);
+      warbond = parseWarbondPage(page.html, { url: page.url });
+      warbondPages.set(title, warbond);
+    }
+    return warbond;
+  };
+
+  return async function resolveSource(input: ItemSourceInput): Promise<Source> {
+    const { cell, page, note } = input;
+    const kind = classifySource(cell, {
+      warbonds,
+      sourceLabels: overrides.sourceLabels,
+      page,
+    });
+    const options = input.fallbackCurrency ? { fallbackCurrency: input.fallbackCurrency } : {};
+    const readCost = (rawCost: RawCost | null, url: string): Cost | null => {
+      if (!rawCost) return null;
+      if (!/\d/.test(rawCost.text) && rawCost.currency) {
+        note(`cost not announced (${JSON.stringify(rawCost.text)})`);
+        return null;
+      }
+      return parseCost(rawCost, url, options);
+    };
+
+    let cost = readCost(input.cost, page);
+    let sourcePage = kind.page;
+    if (kind.type === "warbond" && (sourcePage === null || !input.cost) && cell.link) {
+      // Rule 3: the warbond page table that lists the item gives the page (and the cost when
+      // the item page has none).
+      const warbond = await warbondPage(cell.link.title);
+      let listed: ReturnType<typeof findItem> = null;
+      for (const title of input.titles) {
+        listed ??= findItem(warbond, title, null);
+      }
+      if (!listed) {
+        throw new NormalizeError(page, cell.label, `no page lists it on ${cell.link.title}`);
+      }
+      sourcePage ??= listed.page;
+      if (!input.cost) {
+        cost = readCost(listed.item.cost, wikiUrl(warbond.title));
+      }
+    }
+
+    return {
+      type: kind.type,
+      label: cell.label,
+      warbondId: kind.warbondId,
+      page: sourcePage,
+      cost,
+      rotating: kind.type === "superstore" ? false : null, // arch §4.5: no rotation left
+    };
+  };
+}
+
+/** Trait links (`/wiki/Equipment_Traits#<anchor>`) → weapon-trait ids; the collection must be scraped first. */
+export function traitResolver(
+  traits: readonly WeaponTrait[] | undefined,
+  collection: "weapons" | "stratagems",
+) {
+  if (!traits) {
+    throw new Error(`${collection} need the weapon-traits collection: scrape weapon-traits first`);
+  }
+  const byAnchor = new Map(
+    traits.map((trait) => [decodeURIComponent(new URL(trait.wiki.url).hash.slice(1)), trait.id]),
+  );
+  return (links: readonly RawLink[], page: string): Id[] => [
+    ...new Set(
+      links.map((link) => {
+        const trait =
+          link.title === "Equipment Traits" && link.anchor ? byAnchor.get(link.anchor) : null;
+        if (!trait) {
+          throw new NormalizeError(page, link.label, "unknown equipment trait");
+        }
+        return trait;
+      }),
+    ),
+  ];
+}

@@ -1,16 +1,14 @@
-import { type Conflict, type Cost, type Id, slugify, Weapon } from "@hd2/schemas";
+import { type Conflict, slugify, Weapon } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
-import { parseCost } from "../normalize/costs.ts";
-import { classifySource, type RawSourceCell } from "../normalize/sources.ts";
+import type { RawSourceCell } from "../normalize/sources.ts";
 import { warbondIdFromTitle } from "../normalize/warbonds.ts";
 import { normalizeWeaponStats } from "../normalize/weapons.ts";
-import type { RawCost } from "../parsers/raw.ts";
-import { findItem, parseWarbondPage, type RawWarbondPage } from "../parsers/warbond-page.ts";
 import { parseWeaponPage } from "../parsers/weapon-page.ts";
 import { parseWeaponsIndex, WEAPONS_INDEX } from "../parsers/weapons-index.ts";
 import { flagsFromCategories } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
+import { itemSourceResolver, traitResolver } from "./item-source.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
 
 // `/wiki/Weapons` tabs (category, subcategory) + every weapon page: DRUID infobox, detailed
@@ -36,30 +34,15 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
   collection: "weapons",
   indexPages: [WEAPONS_INDEX],
 
-  async scrape({ source, overrides, idLock, warbonds, logger, dataset }: ScrapeContext) {
-    const traits = dataset["weapon-traits"];
-    if (!traits) {
-      throw new Error("weapons need the weapon-traits collection: scrape weapon-traits first");
-    }
-    const traitByAnchor = new Map(
-      traits.map((trait) => [decodeURIComponent(new URL(trait.wiki.url).hash.slice(1)), trait.id]),
-    );
+  async scrape(context: ScrapeContext) {
+    const { source, idLock, logger, dataset } = context;
+    const resolveTraits = traitResolver(dataset["weapon-traits"], "weapons");
+    const resolveSource = itemSourceResolver(context);
 
     const index = await source.page(WEAPONS_INDEX);
     const rows = parseWeaponsIndex(index.html, { url: index.url });
     const warnings: string[] = [];
     const conflicts: Conflict[] = [];
-
-    const warbondPages = new Map<string, RawWarbondPage>();
-    const warbondPage = async (title: string) => {
-      let warbond = warbondPages.get(title);
-      if (!warbond) {
-        const page = await source.page(title);
-        warbond = parseWarbondPage(page.html, { url: page.url });
-        warbondPages.set(title, warbond);
-      }
-      return warbond;
-    };
 
     const entities: Weapon[] = [];
     for (const row of rows) {
@@ -75,14 +58,7 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
       const category = row.category.toLowerCase() as Weapon["category"];
 
       const traitRow = raw.infobox.find((infoboxRow) => TRAIT_ROWS.includes(infoboxRow.key));
-      const traitIds = (traitRow?.links ?? []).map((link) => {
-        const trait =
-          link.title === "Equipment Traits" && link.anchor ? traitByAnchor.get(link.anchor) : null;
-        if (!trait) {
-          throw new NormalizeError(page.url, link.label, "unknown weapon trait");
-        }
-        return trait;
-      });
+      const traitIds = resolveTraits(traitRow?.links ?? [], page.url);
 
       // Source: the infobox cell, else the first warbond linked from "Procurement".
       let cell: RawSourceCell | null = raw.source;
@@ -98,36 +74,13 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
         cell = { label: link.label, link, pageMarker: null };
         note(`source read from the Procurement section (${link.title})`);
       }
-      const kind = classifySource(cell, {
-        warbonds,
-        sourceLabels: overrides.sourceLabels,
+      const itemSource = await resolveSource({
+        cell,
+        cost: raw.cost,
+        titles: [raw.title, row.page.title],
         page: page.url,
+        note,
       });
-
-      const readCost = (rawCost: RawCost | null, url: string): Cost | null => {
-        if (!rawCost) return null;
-        if (!/\d/.test(rawCost.text) && rawCost.currency) {
-          note(`cost not announced (${JSON.stringify(rawCost.text)})`);
-          return null;
-        }
-        return parseCost(rawCost, url);
-      };
-      let cost = readCost(raw.cost, page.url);
-      let sourcePage = kind.page;
-      if (kind.type === "warbond" && (sourcePage === null || !raw.cost) && cell.link) {
-        // Rule 3: the warbond page table that lists the weapon gives the page (and the cost
-        // when the weapon page has none).
-        const warbond = await warbondPage(cell.link.title);
-        const listed =
-          findItem(warbond, raw.title, null) ?? findItem(warbond, row.page.title, null);
-        if (!listed) {
-          throw new NormalizeError(page.url, raw.name, `no page lists it on ${cell.link.title}`);
-        }
-        sourcePage ??= listed.page;
-        if (!raw.cost) {
-          cost = readCost(listed.item.cost, wikiUrl(warbond.title));
-        }
-      }
 
       const stats = normalizeWeaponStats(raw, { page: page.url, category, subcategory, traitIds });
       for (const conflict of stats.conflicts) {
@@ -153,19 +106,12 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
         },
         category,
         subcategory,
-        traitIds: [...new Set<Id>(traitIds)],
+        traitIds,
         firearm: stats.firearm,
         throwable: stats.throwable,
         attacks: stats.attacks,
         statsRaw: stats.statsRaw,
-        source: {
-          type: kind.type,
-          label: cell.label,
-          warbondId: kind.warbondId,
-          page: sourcePage,
-          cost,
-          rotating: kind.type === "superstore" ? false : null, // arch §4.5: no rotation left
-        },
+        source: itemSource,
       };
       const weapon = Weapon.safeParse(draft);
       if (!weapon.success) {

@@ -25,9 +25,9 @@ import {
   upgradedSeconds,
 } from "./stats.ts";
 
-// Weapon page → typed stats (arch §5.3 `FirearmStats`, `ThrowableStats`, `Attack`), the raw
-// bag and rule 2 conflicts (arch §5.5): the detailed table wins for scalars, the infobox wins
-// when it carries more values; both originals stay in `statsRaw`.
+// Weapon and stratagem pages → typed stats (arch §5.3 `FirearmStats`, `ThrowableStats`,
+// `Attack`), the raw bag and rule 2 conflicts (arch §5.5): the detailed table wins for scalars,
+// the infobox wins when it carries more values; both originals stay in `statsRaw`.
 
 export interface StatConflict {
   field: string; // "firearm.recoil"
@@ -44,12 +44,25 @@ export interface WeaponStats {
   conflicts: StatConflict[];
 }
 
-const SEP = " › ";
+export const SEP = " › ";
 
 const valueText = (lines: readonly string[], text: string) =>
   lines.length > 1 ? lines.join(" / ") : text;
 
-function readStatsRaw(raw: RawWeaponPage): Record<string, string> {
+/** A page with a DRUID infobox and detailed statistics tables: weapons and stratagems. */
+export type StatPage = Pick<RawWeaponPage, "name" | "infobox" | "tables">;
+
+// Infobox rows typed elsewhere: the acquisition (source, cost) and the stratagem code arrows.
+const UNTYPED_ROWS = new Set(["source", "cost", "unlock_cost", "stratagem_code"]);
+
+/**
+ * Every infobox row, extra row (a stratagem's `General` table) and stat table row as
+ * label → text (arch §5.1 `statsRaw`).
+ */
+export function readStatsRaw(
+  raw: StatPage,
+  extraRows: readonly { path: readonly string[]; text: string }[] = [],
+): Record<string, string> {
   const bag: Record<string, string> = {};
   const put = (key: string, value: string) => {
     let unique = key;
@@ -59,9 +72,12 @@ function readStatsRaw(raw: RawWeaponPage): Record<string, string> {
     bag[unique] = value;
   };
   for (const row of raw.infobox) {
-    if (row.key !== "source" && row.key !== "cost") {
+    if (!UNTYPED_ROWS.has(row.key)) {
       put(row.label, valueText(row.lines, row.text));
     }
+  }
+  for (const row of extraRows) {
+    put(row.path.join(SEP), row.text);
   }
   for (const table of raw.tables) {
     const title = table.title ?? table.id ?? raw.name;
@@ -75,31 +91,91 @@ function readStatsRaw(raw: RawWeaponPage): Record<string, string> {
   return bag;
 }
 
-interface Candidate<T> {
+export interface Candidate<T> {
   location: string;
   value: T;
 }
 
-class Resolver {
-  readonly conflicts: StatConflict[] = [];
+type Scalar = number | string | { horizontal: number; vertical: number };
 
-  /** Rule 2 for scalars: the table wins when it has a value. */
-  scalar<T extends number | { horizontal: number; vertical: number }>(
-    field: string,
-    infobox: Candidate<T | null> | null,
-    table: Candidate<T | null> | null,
-  ): T | null {
-    const chosen = table?.value ?? infobox?.value ?? null;
-    if (
-      infobox?.value != null &&
-      table?.value != null &&
-      JSON.stringify(infobox.value) !== JSON.stringify(table.value)
-    ) {
+/**
+ * Reads a page's infobox rows and the main section of its weapon table, resolving values
+ * found in both with rule 2 and recording the conflicts.
+ */
+export class StatReader {
+  readonly conflicts: StatConflict[] = [];
+  readonly weaponTable: RawStatTable | null;
+  readonly tableTitle: string;
+
+  constructor(
+    readonly raw: StatPage,
+    readonly page: string,
+  ) {
+    const weaponTables = raw.tables.filter((table) => table.kind === "weapon");
+    if (weaponTables.length > 1) {
+      throw new NormalizeError(
+        page,
+        raw.name,
+        `expected 1 weapon stats table, found ${weaponTables.length}`,
+      );
+    }
+    this.weaponTable = weaponTables[0] ?? null;
+    this.tableTitle = this.weaponTable?.title ?? raw.name;
+  }
+
+  infobox(...keys: string[]): RawInfoboxRow | null {
+    for (const key of keys) {
+      const row = this.raw.infobox.find((candidate) => candidate.key === key);
+      if (row) return row;
+    }
+    return null;
+  }
+
+  /** Main mode rows only: extra modes (`Underbarrel …`) and `Attacks` live in later sections. */
+  tableRow(...labels: string[]): RawStatRow | null {
+    const main = this.weaponTable?.sections.find((section) => section.title === null);
+    for (const label of labels) {
+      const row = main?.rows.find((candidate) => candidate.label === label);
+      if (row) return row;
+    }
+    return null;
+  }
+
+  fromInfobox<T>(
+    parse: (lines: readonly string[], page: string) => T,
+    ...keys: string[]
+  ): Candidate<T> | null {
+    const row = this.infobox(...keys);
+    return row
+      ? { location: `infobox${SEP}${row.label}`, value: parse(row.lines, this.page) }
+      : null;
+  }
+
+  fromTable<T>(
+    parse: (value: string, page: string) => T,
+    ...labels: string[]
+  ): Candidate<T> | null {
+    const row = this.tableRow(...labels);
+    return row
+      ? { location: `${this.tableTitle}${SEP}${row.label}`, value: parse(row.text, this.page) }
+      : null;
+  }
+
+  /**
+   * Rule 2 for scalars. Candidates go from the least to the most detailed source (infobox,
+   * then table); the most detailed one with a value wins.
+   */
+  scalar<T extends Scalar>(field: string, ...candidates: (Candidate<T | null> | null)[]): T | null {
+    const present = candidates.filter(
+      (candidate): candidate is Candidate<T> => candidate?.value != null,
+    );
+    const chosen = present.at(-1)?.value ?? null;
+    if (new Set(present.map((candidate) => JSON.stringify(candidate.value))).size > 1) {
       this.conflicts.push({
         field,
         rule: 2,
         chosen: chosen as ConflictValue,
-        candidates: [infobox as Candidate<ConflictValue>, table as Candidate<ConflictValue>],
+        candidates: present as Candidate<ConflictValue>[],
       });
     }
     return chosen;
@@ -129,6 +205,102 @@ class Resolver {
   }
 }
 
+/** `FirearmStats` of a weapon, or of the support weapon a stratagem calls (`field` prefixes conflicts). */
+export function readFirearm(
+  reader: StatReader,
+  field: "firearm" | "supportWeapon",
+  traitIds: readonly Id[],
+): FirearmStats {
+  const { page } = reader;
+  const reloadTimeS = reader.scalar(
+    `${field}.reloadTimeS`,
+    reader.fromInfobox(firstSeconds, "reload_time", "rounds_reload_full_time"),
+    reader.fromTable(parseSeconds, "Reload Time"),
+  );
+  const traits = new Set(traitIds);
+  return {
+    firingModes: parseFiringModes(reader.infobox("firing_modes")?.lines ?? [], page),
+    fireRateRpm: reader.list(
+      `${field}.fireRateRpm`,
+      reader.fromInfobox((lines, p) => parseList(lines, parseRpm, p), "fire_rate"),
+      reader.fromTable((value, p) => parseList([value], parseRpm, p), "Fire Rate"),
+    ),
+    dps: parseList(reader.infobox("dps")?.lines ?? [], parseDecimal, page),
+    capacity: reader.scalar(
+      `${field}.capacity`,
+      reader.fromInfobox(firstCount, "capacity"),
+      reader.fromTable(parseCount, "Capacity"),
+    ),
+    spareMagazines: reader.scalar(
+      `${field}.spareMagazines`,
+      reader.fromInfobox(firstCount, "spare_mags", "spare_rounds", "spare_shells"),
+      reader.fromTable(parseCount, "Spare Magazines", "Spare Rounds"),
+    ),
+    startingMagazines:
+      reader.fromTable(parseCount, "Starting Magazines", "Starting Rounds")?.value ?? null,
+    magazinesFromSupply: reader.scalar(
+      `${field}.magazinesFromSupply`,
+      reader.fromInfobox(firstCount, "supply_box_refill"),
+      reader.fromTable(parseCount, "Mags from Supply", "Rounds from Supply"),
+    ),
+    magazinesFromAmmoBox: reader.scalar(
+      `${field}.magazinesFromAmmoBox`,
+      reader.fromInfobox(firstCount, "ammo_box_refill"),
+      reader.fromTable(parseCount, "Mags from Ammo Box", "Rounds from Ammo Box"),
+    ),
+    recoil: reader.scalar(
+      `${field}.recoil`,
+      reader.fromInfobox(firstDecimal, "recoil"),
+      reader.fromTable(parseDecimal, "Recoil"),
+    ),
+    horizontalRecoil: reader.fromTable(parseDecimal, "Horizontal Recoil")?.value ?? null,
+    verticalRecoil: reader.fromTable(parseDecimal, "Vertical Recoil")?.value ?? null,
+    spread: reader.fromTable(parseSpread, "Spread")?.value ?? null,
+    sway: reader.fromTable(parseDecimal, "Sway")?.value ?? null,
+    ergonomics: reader.scalar(
+      `${field}.ergonomics`,
+      reader.fromInfobox(firstDecimal, "ergonomics"),
+      reader.fromTable(parseDecimal, "Ergonomics"),
+    ),
+    reloadKind: traits.has("rounds-reload")
+      ? "rounds"
+      : traits.has("stationary-reload")
+        ? "stationary"
+        : reloadTimeS
+          ? "magazine"
+          : "none",
+    reloadTimeS,
+    reloadTimeUpgradedS: upgradedSeconds(reader.infobox("reload_time")?.lines ?? [], page),
+    tacticalReloadTimeS: reader.scalar(
+      `${field}.tacticalReloadTimeS`,
+      reader.fromInfobox(firstSeconds, "tac_reload_time"),
+      reader.fromTable(parseSeconds, "Tactical Reload"),
+    ),
+  };
+}
+
+function readThrowable(reader: StatReader): ThrowableStats {
+  const cookable = statValues(reader.infobox("cookable")?.lines ?? [])[0];
+  return {
+    capacity: reader.scalar(
+      "throwable.capacity",
+      reader.fromInfobox(firstCount, "capacity"),
+      reader.fromTable(parseCount, "Max Rounds"),
+    ),
+    startingCount: reader.fromTable(parseCount, "Starting Rounds")?.value ?? null,
+    fromSupply: reader.fromTable(parseCount, "Throwables from Supply")?.value ?? null,
+    fuseTimeS: reader.fromInfobox(firstSeconds, "fuse")?.value ?? null,
+    cookable: cookable === undefined ? null : parseYesNo(cookable, reader.page),
+  };
+}
+
+/** One `Attack` per stat table other than the weapon table, in page order. */
+export function readAttacks(raw: StatPage, page: string): Attack[] {
+  return raw.tables
+    .filter((table) => table.kind !== "weapon")
+    .map((table) => normalizeAttack(table, page));
+}
+
 export interface WeaponStatsOptions {
   page: string; // page URL, for errors
   category: Weapon["category"];
@@ -138,147 +310,14 @@ export interface WeaponStatsOptions {
 
 export function normalizeWeaponStats(raw: RawWeaponPage, options: WeaponStatsOptions): WeaponStats {
   const { page } = options;
-  const resolver = new Resolver();
-
-  const weaponTables = raw.tables.filter((table) => table.kind === "weapon");
-  if (weaponTables.length > 1) {
-    throw new NormalizeError(
-      page,
-      raw.name,
-      `expected 1 weapon stats table, found ${weaponTables.length}`,
-    );
-  }
-  const weaponTable = weaponTables[0] ?? null;
-  const tableTitle = weaponTable?.title ?? raw.name;
-
-  const infobox = (...keys: string[]): RawInfoboxRow | null => {
-    for (const key of keys) {
-      const row = raw.infobox.find((candidate) => candidate.key === key);
-      if (row) return row;
-    }
-    return null;
-  };
-  // Main mode rows only: extra modes (`Underbarrel …`) and `Attacks` live in later sections.
-  const tableRow = (...labels: string[]): RawStatRow | null => {
-    const main = weaponTable?.sections.find((section) => section.title === null);
-    for (const label of labels) {
-      const row = main?.rows.find((candidate) => candidate.label === label);
-      if (row) return row;
-    }
-    return null;
-  };
-
-  const fromInfobox = <T>(
-    parse: (lines: readonly string[], page: string) => T,
-    ...keys: string[]
-  ): Candidate<T> | null => {
-    const row = infobox(...keys);
-    return row ? { location: `infobox${SEP}${row.label}`, value: parse(row.lines, page) } : null;
-  };
-  const fromTable = <T>(
-    parse: (value: string, page: string) => T,
-    ...labels: string[]
-  ): Candidate<T> | null => {
-    const row = tableRow(...labels);
-    return row
-      ? { location: `${tableTitle}${SEP}${row.label}`, value: parse(row.text, page) }
-      : null;
-  };
-
-  let firearm: FirearmStats | null = null;
+  const reader = new StatReader(raw, page);
   const armed = options.category !== "throwable" && options.subcategory !== "melee";
-  if (armed) {
-    const reloadTimeS = resolver.scalar(
-      "firearm.reloadTimeS",
-      fromInfobox(firstSeconds, "reload_time", "rounds_reload_full_time"),
-      fromTable(parseSeconds, "Reload Time"),
-    );
-    const traits = new Set(options.traitIds);
-    firearm = {
-      firingModes: parseFiringModes(infobox("firing_modes")?.lines ?? [], page),
-      fireRateRpm: resolver.list(
-        "firearm.fireRateRpm",
-        fromInfobox((lines, p) => parseList(lines, parseRpm, p), "fire_rate"),
-        fromTable((value, p) => parseList([value], parseRpm, p), "Fire Rate"),
-      ),
-      dps: parseList(infobox("dps")?.lines ?? [], parseDecimal, page),
-      capacity: resolver.scalar(
-        "firearm.capacity",
-        fromInfobox(firstCount, "capacity"),
-        fromTable(parseCount, "Capacity"),
-      ),
-      spareMagazines: resolver.scalar(
-        "firearm.spareMagazines",
-        fromInfobox(firstCount, "spare_mags", "spare_rounds", "spare_shells"),
-        fromTable(parseCount, "Spare Magazines", "Spare Rounds"),
-      ),
-      startingMagazines:
-        fromTable(parseCount, "Starting Magazines", "Starting Rounds")?.value ?? null,
-      magazinesFromSupply: resolver.scalar(
-        "firearm.magazinesFromSupply",
-        fromInfobox(firstCount, "supply_box_refill"),
-        fromTable(parseCount, "Mags from Supply", "Rounds from Supply"),
-      ),
-      magazinesFromAmmoBox: resolver.scalar(
-        "firearm.magazinesFromAmmoBox",
-        fromInfobox(firstCount, "ammo_box_refill"),
-        fromTable(parseCount, "Mags from Ammo Box", "Rounds from Ammo Box"),
-      ),
-      recoil: resolver.scalar(
-        "firearm.recoil",
-        fromInfobox(firstDecimal, "recoil"),
-        fromTable(parseDecimal, "Recoil"),
-      ),
-      horizontalRecoil: fromTable(parseDecimal, "Horizontal Recoil")?.value ?? null,
-      verticalRecoil: fromTable(parseDecimal, "Vertical Recoil")?.value ?? null,
-      spread: fromTable(parseSpread, "Spread")?.value ?? null,
-      sway: fromTable(parseDecimal, "Sway")?.value ?? null,
-      ergonomics: resolver.scalar(
-        "firearm.ergonomics",
-        fromInfobox(firstDecimal, "ergonomics"),
-        fromTable(parseDecimal, "Ergonomics"),
-      ),
-      reloadKind: traits.has("rounds-reload")
-        ? "rounds"
-        : traits.has("stationary-reload")
-          ? "stationary"
-          : reloadTimeS
-            ? "magazine"
-            : "none",
-      reloadTimeS,
-      reloadTimeUpgradedS: upgradedSeconds(infobox("reload_time")?.lines ?? [], page),
-      tacticalReloadTimeS: resolver.scalar(
-        "firearm.tacticalReloadTimeS",
-        fromInfobox(firstSeconds, "tac_reload_time"),
-        fromTable(parseSeconds, "Tactical Reload"),
-      ),
-    };
-  }
-
-  let throwable: ThrowableStats | null = null;
-  if (options.category === "throwable") {
-    const cookable = statValues(infobox("cookable")?.lines ?? [])[0];
-    throwable = {
-      capacity: resolver.scalar(
-        "throwable.capacity",
-        fromInfobox(firstCount, "capacity"),
-        fromTable(parseCount, "Max Rounds"),
-      ),
-      startingCount: fromTable(parseCount, "Starting Rounds")?.value ?? null,
-      fromSupply: fromTable(parseCount, "Throwables from Supply")?.value ?? null,
-      fuseTimeS: fromInfobox(firstSeconds, "fuse")?.value ?? null,
-      cookable: cookable === undefined ? null : parseYesNo(cookable, page),
-    };
-  }
-
   return {
-    firearm,
-    throwable,
-    attacks: raw.tables
-      .filter((table) => table.kind !== "weapon")
-      .map((table) => normalizeAttack(table, page)),
+    firearm: armed ? readFirearm(reader, "firearm", options.traitIds) : null,
+    throwable: options.category === "throwable" ? readThrowable(reader) : null,
+    attacks: readAttacks(raw, page),
     statsRaw: readStatsRaw(raw),
-    conflicts: resolver.conflicts,
+    conflicts: reader.conflicts,
   };
 }
 

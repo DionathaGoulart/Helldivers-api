@@ -76,11 +76,11 @@ export type RawWeaponPage = z.infer<typeof RawWeaponPage>;
 
 const TABLES = "#mw-content-text table.wikitable[class*='attack-data-table-']";
 
-function rawText(node: Cheerio<Element>): RawText {
+export function rawText(node: Cheerio<Element>): RawText {
   return { text: textOf(node), lines: linesOf(node) };
 }
 
-function articleLinks($: CheerioAPI, node: Cheerio<Element>): RawLink[] {
+export function articleLinks($: CheerioAPI, node: Cheerio<Element>): RawLink[] {
   return node
     .find("a[href]")
     .toArray()
@@ -93,7 +93,7 @@ function articleLinks($: CheerioAPI, node: Cheerio<Element>): RawLink[] {
 
 // Stat tables do not fit `readWikitable`: the header row is optional (G/40-K Melta Mine starts
 // with data rows), so only a leading all-`th` row is the title and later ones open sections.
-function readTables($: CheerioAPI, url: string): RawStatTable[] {
+export function readTables($: CheerioAPI, url: string): RawStatTable[] {
   return $(TABLES)
     .toArray()
     .map((element, i) => {
