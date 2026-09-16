@@ -1,0 +1,3784 @@
+[
+  {
+    "name": "Orbital Precision Strike",
+    "page": {
+      "label": "Orbital Precision Strike",
+      "title": "Orbital Precision Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "90s",
+    "cost": {
+      "text": "Free",
+      "currency": null
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Precision_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Precision_Strike_Stratagem_Icon_Background.svg?e78550"
+    }
+  },
+  {
+    "name": "Orbital Gatling Barrage",
+    "page": {
+      "label": "Orbital Gatling Barrage",
+      "title": "Orbital Gatling Barrage",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Down",
+      "Left",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "70s",
+    "cost": {
+      "text": "1500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg?f73d52"
+    }
+  },
+  {
+    "name": "Orbital Gas Strike",
+    "page": {
+      "label": "Orbital Gas Strike",
+      "title": "Orbital Gas Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "75s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Gas_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Gas_Strike_Stratagem_Icon_Background.svg?668a1e"
+    }
+  },
+  {
+    "name": "Orbital 120mm HE Barrage",
+    "page": {
+      "label": "Orbital 120mm HE Barrage",
+      "title": "Orbital 120mm HE Barrage",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Down",
+      "Left",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg?17de59"
+    }
+  },
+  {
+    "name": "Orbital Airburst Strike",
+    "page": {
+      "label": "Orbital Airburst Strike",
+      "title": "Orbital Airburst Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Right"
+    ],
+    "cooldown": "100s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Airburst_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Airburst_Strike_Stratagem_Icon_Background.svg?c77894"
+    }
+  },
+  {
+    "name": "Orbital Smoke Strike",
+    "page": {
+      "label": "Orbital Smoke Strike",
+      "title": "Orbital Smoke Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "75s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "8",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Smoke_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Smoke_Strike_Stratagem_Icon_Background.svg?a05463"
+    }
+  },
+  {
+    "name": "Orbital EMS Strike",
+    "page": {
+      "label": "Orbital EMS Strike",
+      "title": "Orbital EMS Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Left",
+      "Down"
+    ],
+    "cooldown": "75s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_EMS_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_EMS_Strike_Stratagem_Icon_Background.svg?5e3ef9"
+    }
+  },
+  {
+    "name": "Orbital 380mm HE Barrage",
+    "page": {
+      "label": "Orbital 380mm HE Barrage",
+      "title": "Orbital 380mm HE Barrage",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Down",
+      "Up",
+      "Up",
+      "Left",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "240s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "8",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg?eb3f95"
+    }
+  },
+  {
+    "name": "Orbital Walking Barrage",
+    "page": {
+      "label": "Orbital Walking Barrage",
+      "title": "Orbital Walking Barrage",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Down",
+      "Right",
+      "Down",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "240s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Walking_Barrage_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Walking_Barrage_Stratagem_Icon_Background.svg?cb3bf0"
+    }
+  },
+  {
+    "name": "Orbital Laser",
+    "page": {
+      "label": "Orbital Laser",
+      "title": "Orbital Laser",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Down",
+      "Up",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "300s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Laser_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Laser_Stratagem_Icon_Background.svg?ae2ad3"
+    }
+  },
+  {
+    "name": "Orbital Napalm Barrage",
+    "page": {
+      "label": "Orbital Napalm Barrage",
+      "title": "Orbital Napalm Barrage",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Right",
+      "Down",
+      "Left",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "240s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "18",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg?be78c4"
+    }
+  },
+  {
+    "name": "Orbital Railcannon Strike",
+    "page": {
+      "label": "Orbital Railcannon Strike",
+      "title": "Orbital Railcannon Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Orbital Strikes",
+    "label": null,
+    "code": [
+      "Right",
+      "Up",
+      "Down",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Orbital Cannons",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg?ee9232"
+    }
+  },
+  {
+    "name": "Eagle Gas Airstrike",
+    "page": {
+      "label": "Eagle Gas Airstrike",
+      "title": "Eagle Gas Airstrike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "N/A",
+      "currency": null
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Counterdissident Hammer",
+      "link": {
+        "label": "Counterdissident Hammer",
+        "title": "Campaigns",
+        "anchor": "Counterdissident_Hammer"
+      },
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg?e47dc1"
+    }
+  },
+  {
+    "name": "Eagle Strafing Run",
+    "page": {
+      "label": "Eagle Strafing Run",
+      "title": "Eagle Strafing Run",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Right"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "1500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_Strafing_Run_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Strafing_Run_Stratagem_Icon_Background.svg?fe286e"
+    }
+  },
+  {
+    "name": "Eagle Airstrike",
+    "page": {
+      "label": "Eagle Airstrike",
+      "title": "Eagle Airstrike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_Airstrike_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Airstrike_Stratagem_Icon_Background.svg?b497fe"
+    }
+  },
+  {
+    "name": "Eagle Cluster Bomb",
+    "page": {
+      "label": "Eagle Cluster Bomb",
+      "title": "Eagle Cluster Bomb",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Down",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "3",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg?b730d4"
+    }
+  },
+  {
+    "name": "Eagle Smoke Strike",
+    "page": {
+      "label": "Eagle Smoke Strike",
+      "title": "Eagle Smoke Strike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Up",
+      "Down"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "8",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_Smoke_Strike_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Smoke_Strike_Stratagem_Icon_Background.svg?159f1f"
+    }
+  },
+  {
+    "name": "Eagle Napalm Airstrike",
+    "page": {
+      "label": "Eagle Napalm Airstrike",
+      "title": "Eagle Napalm Airstrike",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "5000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg?735c8b"
+    }
+  },
+  {
+    "name": "Eagle 110mm Rocket Pods",
+    "page": {
+      "label": "Eagle 110mm Rocket Pods",
+      "title": "Eagle 110mm Rocket Pods",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Up",
+      "Left"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg?2e218a"
+    }
+  },
+  {
+    "name": "Eagle 500kg Bomb",
+    "page": {
+      "label": "Eagle 500kg Bomb",
+      "title": "Eagle 500kg Bomb",
+      "anchor": null
+    },
+    "permit": "Offensive Permit",
+    "group": "Eagle Strikes",
+    "label": null,
+    "code": [
+      "Up",
+      "Right",
+      "Down",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "15s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Eagle_500kg_Bomb_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_500kg_Bomb_Stratagem_Icon_Background.svg?48a0f3"
+    }
+  },
+  {
+    "name": "MG-43 Machine Gun",
+    "page": {
+      "label": "MG-43 Machine Gun",
+      "title": "MG-43 Machine Gun",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "Free",
+      "currency": null
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Machine_Gun_Stratagem_Icon_Background.svg",
+      "src": "/images/Machine_Gun_Stratagem_Icon_Background.svg?35fc07"
+    }
+  },
+  {
+    "name": "EAT-17 Expendable Anti-Tank",
+    "page": {
+      "label": "EAT-17 Expendable Anti-Tank",
+      "title": "EAT-17 Expendable Anti-Tank",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Left",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "70s",
+    "cost": {
+      "text": "3000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "3",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Expendable_Anti-Tank_Stratagem_Icon_Background.svg",
+      "src": "/images/Expendable_Anti-Tank_Stratagem_Icon_Background.svg?d52ad8"
+    }
+  },
+  {
+    "name": "M-105 Stalwart",
+    "page": {
+      "label": "M-105 Stalwart",
+      "title": "M-105 Stalwart",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Up",
+      "Up",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "3500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Stalwart_Stratagem_Icon_Background.svg",
+      "src": "/images/Stalwart_Stratagem_Icon_Background.svg?89f988"
+    }
+  },
+  {
+    "name": "LAS-98 Laser Cannon",
+    "page": {
+      "label": "LAS-98 Laser Cannon",
+      "title": "LAS-98 Laser Cannon",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Up",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Laser_Cannon_Stratagem_Icon_Background.svg",
+      "src": "/images/Laser_Cannon_Stratagem_Icon_Background.svg?21b5f6"
+    }
+  },
+  {
+    "name": "APW-1 Anti-Materiel Rifle",
+    "page": {
+      "label": "APW-1 Anti-Materiel Rifle",
+      "title": "APW-1 Anti-Materiel Rifle",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "5000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Anti-Materiel_Rifle_Stratagem_Icon_Background.svg",
+      "src": "/images/Anti-Materiel_Rifle_Stratagem_Icon_Background.svg?37652d"
+    }
+  },
+  {
+    "name": "GR-8 Recoilless Rifle",
+    "page": {
+      "label": "GR-8 Recoilless Rifle",
+      "title": "GR-8 Recoilless Rifle",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Right",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Recoilless_Rifle_Stratagem_Icon_Background.svg",
+      "src": "/images/Recoilless_Rifle_Stratagem_Icon_Background.svg?aaa0b7"
+    }
+  },
+  {
+    "name": "GL-21 Grenade Launcher",
+    "page": {
+      "label": "GL-21 Grenade Launcher",
+      "title": "GL-21 Grenade Launcher",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Left",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Grenade_Launcher_Stratagem_Icon_Background.svg",
+      "src": "/images/Grenade_Launcher_Stratagem_Icon_Background.svg?168a60"
+    }
+  },
+  {
+    "name": "FLAM-40 Flamethrower",
+    "page": {
+      "label": "FLAM-40 Flamethrower",
+      "title": "FLAM-40 Flamethrower",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Flamethrower_Stratagem_Icon_Background.svg",
+      "src": "/images/Flamethrower_Stratagem_Icon_Background.svg?648ed8"
+    }
+  },
+  {
+    "name": "MG-206 Heavy Machine Gun",
+    "page": {
+      "label": "MG-206 Heavy Machine Gun",
+      "title": "MG-206 Heavy Machine Gun",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "12",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Heavy_Machine_Gun_Stratagem_Icon_Background.svg",
+      "src": "/images/Heavy_Machine_Gun_Stratagem_Icon_Background.svg?7f60eb"
+    }
+  },
+  {
+    "name": "AC-8 Autocannon",
+    "page": {
+      "label": "AC-8 Autocannon",
+      "title": "AC-8 Autocannon",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Up",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "7000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Autocannon_Stratagem_Icon_Background.svg",
+      "src": "/images/Autocannon_Stratagem_Icon_Background.svg?556cf5"
+    }
+  },
+  {
+    "name": "ARC-3 Arc Thrower",
+    "page": {
+      "label": "ARC-3 Arc Thrower",
+      "title": "ARC-3 Arc Thrower",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Down",
+      "Up",
+      "Left",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "7000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Arc_Thrower_Stratagem_Icon_Background.svg",
+      "src": "/images/Arc_Thrower_Stratagem_Icon_Background.svg?5909af"
+    }
+  },
+  {
+    "name": "LAS-99 Quasar Cannon",
+    "page": {
+      "label": "LAS-99 Quasar Cannon",
+      "title": "LAS-99 Quasar Cannon",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Up",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "18",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Quasar_Cannon_Stratagem_Icon_Background.svg",
+      "src": "/images/Quasar_Cannon_Stratagem_Icon_Background.svg?559764"
+    }
+  },
+  {
+    "name": "RL-77 Airburst Rocket Launcher",
+    "page": {
+      "label": "RL-77 Airburst Rocket Launcher",
+      "title": "RL-77 Airburst Rocket Launcher",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Up",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "8000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg",
+      "src": "/images/Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg?6755a7"
+    }
+  },
+  {
+    "name": "MLS-4X Commando",
+    "page": {
+      "label": "MLS-4X Commando",
+      "title": "MLS-4X Commando",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "8000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Commando_Stratagem_Icon_Background.svg",
+      "src": "/images/Commando_Stratagem_Icon_Background.svg?6ea896"
+    }
+  },
+  {
+    "name": "FAF-14 Spear",
+    "page": {
+      "label": "FAF-14 Spear",
+      "title": "FAF-14 Spear",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Up",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "9000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Spear_Stratagem_Icon_Background.svg",
+      "src": "/images/Spear_Stratagem_Icon_Background.svg?3f7623"
+    }
+  },
+  {
+    "name": "RS-422 Railgun",
+    "page": {
+      "label": "RS-422 Railgun",
+      "title": "RS-422 Railgun",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Down",
+      "Up",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Railgun_Stratagem_Icon_Background.svg",
+      "src": "/images/Railgun_Stratagem_Icon_Background.svg?7030a2"
+    }
+  },
+  {
+    "name": "StA-X3 W.A.S.P. Launcher",
+    "page": {
+      "label": "StA-X3 W.A.S.P. Launcher",
+      "title": "StA-X3 W.A.S.P. Launcher",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Up",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "12000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Patriotic Administration Center",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "W.A.S.P._Launcher_Stratagem_Icon_Background.svg",
+      "src": "/images/W.A.S.P._Launcher_Stratagem_Icon_Background.svg?a33ba8"
+    }
+  },
+  {
+    "name": "CQC-20 Breaching Hammer",
+    "page": {
+      "label": "CQC-20 Breaching Hammer",
+      "title": "CQC-20 Breaching Hammer",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Left",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "75 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Siege Breakers P1",
+      "link": {
+        "label": "Siege Breakers",
+        "title": "Siege Breakers Premium Warbond",
+        "anchor": "Page_1"
+      },
+      "pageMarker": "Page 1"
+    },
+    "icon": {
+      "file": "Breaching_Hammer_Stratagem_Icon_Background.svg",
+      "src": "/images/Breaching_Hammer_Stratagem_Icon_Background.svg?65dd9b"
+    }
+  },
+  {
+    "name": "PLAS-45 Epoch",
+    "page": {
+      "label": "PLAS-45 Epoch",
+      "title": "PLAS-45 Epoch",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "75 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Control Group P1",
+      "link": {
+        "label": "Control Group",
+        "title": "Control Group Premium Warbond",
+        "anchor": "Page_1"
+      },
+      "pageMarker": "Page 1"
+    },
+    "icon": {
+      "file": "Epoch_Stratagem_Icon_Background.svg",
+      "src": "/images/Epoch_Stratagem_Icon_Background.svg?bfe6b1"
+    }
+  },
+  {
+    "name": "MGX-42 Bullet Storm",
+    "page": {
+      "label": "MGX-42 Bullet Storm",
+      "title": "MGX-42 Bullet Storm",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Right",
+      "Up",
+      "Left"
+    ],
+    "cooldown": "70s",
+    "cost": {
+      "text": "75 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Exo Experts P1",
+      "link": {
+        "label": "Exo Experts",
+        "title": "Exo Experts Premium Warbond",
+        "anchor": "Page_1"
+      },
+      "pageMarker": "Page 1"
+    },
+    "icon": {
+      "file": "Bullet_Storm_Stratagem_Icon_Background.svg",
+      "src": "/images/Bullet_Storm_Stratagem_Icon_Background.svg?97328f"
+    }
+  },
+  {
+    "name": "S-11 Speargun",
+    "page": {
+      "label": "S-11 Speargun",
+      "title": "S-11 Speargun",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Down",
+      "Left",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Dust Devils P2",
+      "link": {
+        "label": "Dust Devils",
+        "title": "Dust Devils Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Speargun_Stratagem_Icon_Background.svg",
+      "src": "/images/Speargun_Stratagem_Icon_Background.svg?2f0be9"
+    }
+  },
+  {
+    "name": "CQC-9 Defoliation Tool",
+    "page": {
+      "label": "CQC-9 Defoliation Tool",
+      "title": "CQC-9 Defoliation Tool",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Python Commandos P2",
+      "link": {
+        "label": "Python Commandos",
+        "title": "Python Commandos Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Defoliation_Tool_Stratagem_Icon_Background.svg",
+      "src": "/images/Defoliation_Tool_Stratagem_Icon_Background.svg?418556"
+    }
+  },
+  {
+    "name": "GL-52 De-Escalator",
+    "page": {
+      "label": "GL-52 De-Escalator",
+      "title": "GL-52 De-Escalator",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Up",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Force of Law P2",
+      "link": {
+        "label": "Force of Law",
+        "title": "Force of Law Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "De-Escalator_Stratagem_Icon_Background.svg",
+      "src": "/images/De-Escalator_Stratagem_Icon_Background.svg?7a9dca"
+    }
+  },
+  {
+    "name": "EAT-700 Expendable Napalm",
+    "page": {
+      "label": "EAT-700 Expendable Napalm",
+      "title": "EAT-700 Expendable Napalm",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Left",
+      "Up",
+      "Left"
+    ],
+    "cooldown": "140s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Dust Devils P2",
+      "link": {
+        "label": "Dust Devils",
+        "title": "Dust Devils Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Expendable_Napalm_Stratagem_Icon_Background.svg",
+      "src": "/images/Expendable_Napalm_Stratagem_Icon_Background.svg?117778"
+    }
+  },
+  {
+    "name": "TX-41 Sterilizer",
+    "page": {
+      "label": "TX-41 Sterilizer",
+      "title": "TX-41 Sterilizer",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Down",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Chemical Agents P2",
+      "link": {
+        "label": "Chemical Agents",
+        "title": "Chemical Agents Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Sterilizer_Stratagem_Icon_Background.svg",
+      "src": "/images/Sterilizer_Stratagem_Icon_Background.svg?a42db7"
+    }
+  },
+  {
+    "name": "EAT-411 Leveller",
+    "page": {
+      "label": "EAT-411 Leveller",
+      "title": "EAT-411 Leveller",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Left",
+      "Up",
+      "Down"
+    ],
+    "cooldown": "140s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Siege Breakers P2",
+      "link": {
+        "label": "Siege Breakers",
+        "title": "Siege Breakers Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Leveller_Stratagem_Icon_Background.svg",
+      "src": "/images/Leveller_Stratagem_Icon_Background.svg?8f0c64"
+    }
+  },
+  {
+    "name": "GL-28 Belt-Fed Grenade Launcher",
+    "page": {
+      "label": "GL-28 Belt-Fed Grenade Launcher",
+      "title": "GL-28 Belt-Fed Grenade Launcher",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Left",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Siege Breakers P3",
+      "link": {
+        "label": "Siege Breakers",
+        "title": "Siege Breakers Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg",
+      "src": "/images/Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg?4c99f1"
+    }
+  },
+  {
+    "name": "B/MD C4 Pack",
+    "page": {
+      "label": "B/MD C4 Pack",
+      "title": "B/MD C4 Pack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Up",
+      "Up",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Redacted Regiment P3",
+      "link": {
+        "label": "Redacted Regiment",
+        "title": "Redacted Regiment Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "C4_Pack_Stratagem_Icon_Background.svg",
+      "src": "/images/C4_Pack_Stratagem_Icon_Background.svg?bfb8f2"
+    }
+  },
+  {
+    "name": "MS-11 Solo Silo",
+    "page": {
+      "label": "MS-11 Solo Silo",
+      "title": "MS-11 Solo Silo",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Dust Devils P3",
+      "link": {
+        "label": "Dust Devils",
+        "title": "Dust Devils Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Solo_Silo_Stratagem_Icon_Background.svg",
+      "src": "/images/Solo_Silo_Stratagem_Icon_Background.svg?69f961"
+    }
+  },
+  {
+    "name": "B/FLAM-80 Cremator",
+    "page": {
+      "label": "B/FLAM-80 Cremator",
+      "title": "B/FLAM-80 Cremator",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Right",
+      "Down",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Entrenched Division P3",
+      "link": {
+        "label": "Entrenched Division",
+        "title": "Entrenched Division Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Cremator_Stratagem_Icon_Background.svg",
+      "src": "/images/Cremator_Stratagem_Icon_Background.svg?ce54a7"
+    }
+  },
+  {
+    "name": "M-1000 Maxigun",
+    "page": {
+      "label": "M-1000 Maxigun",
+      "title": "M-1000 Maxigun",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Down",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Python Commandos P3",
+      "link": {
+        "label": "Python Commandos",
+        "title": "Python Commandos Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Maxigun_Stratagem_Icon_Background.svg",
+      "src": "/images/Maxigun_Stratagem_Icon_Background.svg?d08884"
+    }
+  },
+  {
+    "name": "CQC-1 One True Flag",
+    "page": {
+      "label": "CQC-1 One True Flag",
+      "title": "CQC-1 One True Flag",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Masters of Ceremony P3",
+      "link": {
+        "label": "Masters of Ceremony",
+        "title": "Masters of Ceremony Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "One_True_Flag_Stratagem_Icon_Background.svg",
+      "src": "/images/One_True_Flag_Stratagem_Icon_Background.svg?e919be"
+    }
+  },
+  {
+    "name": "40-K Meltagun",
+    "page": {
+      "label": "40-K Meltagun",
+      "title": "40-K Meltagun",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Support Weapons",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Left",
+      "Left",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Castellan’s Creed",
+      "link": {
+        "label": "Castellan’s Creed",
+        "title": "Castellan’s Creed Legendary Warbond",
+        "anchor": null
+      },
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Meltagun_Stratagem_Icon_Background.svg",
+      "src": "/images/Meltagun_Stratagem_Icon_Background.svg?c412fb"
+    }
+  },
+  {
+    "name": "B-1 Supply Pack",
+    "page": {
+      "label": "B-1 Supply Pack",
+      "title": "B-1 Supply Pack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Up",
+      "Up",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Supply_Pack_Stratagem_Icon_Background.svg",
+      "src": "/images/Supply_Pack_Stratagem_Icon_Background.svg?6f6c53"
+    }
+  },
+  {
+    "name": "LIFT-850 Jump Pack",
+    "page": {
+      "label": "LIFT-850 Jump Pack",
+      "title": "LIFT-850 Jump Pack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Up",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "8",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Jump_Pack_Stratagem_Icon_Background.svg",
+      "src": "/images/Jump_Pack_Stratagem_Icon_Background.svg?464278"
+    }
+  },
+  {
+    "name": "SH-20 Ballistic Shield Backpack",
+    "page": {
+      "label": "SH-20 Ballistic Shield Backpack",
+      "title": "SH-20 Ballistic Shield Backpack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Down",
+      "Down",
+      "Up",
+      "Left"
+    ],
+    "cooldown": "240s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "12",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg",
+      "src": "/images/Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg?6697d4"
+    }
+  },
+  {
+    "name": "AX/AR-23 Guard Dog",
+    "page": {
+      "label": "AX/AR-23 Guard Dog",
+      "title": "AX/AR-23 Guard Dog",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Up",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Guard_Dog_Stratagem_Icon_Background.svg",
+      "src": "/images/Guard_Dog_Stratagem_Icon_Background.svg?eb2b15"
+    }
+  },
+  {
+    "name": "AX/LAS-5 Rover",
+    "page": {
+      "label": "AX/LAS-5 Rover",
+      "title": "AX/LAS-5 Rover",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Up",
+      "Right",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Rover_Stratagem_Icon_Background.svg",
+      "src": "/images/Rover_Stratagem_Icon_Background.svg?12ad26"
+    }
+  },
+  {
+    "name": "SH-32 Shield Generator Pack",
+    "page": {
+      "label": "SH-32 Shield Generator Pack",
+      "title": "SH-32 Shield Generator Pack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Right",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Shield_Generator_Pack_Stratagem_Icon_Background.svg",
+      "src": "/images/Shield_Generator_Pack_Stratagem_Icon_Background.svg?2f4980"
+    }
+  },
+  {
+    "name": "SH-51 Directional Shield",
+    "page": {
+      "label": "SH-51 Directional Shield",
+      "title": "SH-51 Directional Shield",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Right",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "300s",
+    "cost": {
+      "text": "75 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Urban Legends P1",
+      "link": {
+        "label": "Urban Legends",
+        "title": "Urban Legends Premium Warbond",
+        "anchor": "Page_1"
+      },
+      "pageMarker": "Page 1"
+    },
+    "icon": {
+      "file": "Directional_Shield_Stratagem_Icon_Background.svg",
+      "src": "/images/Directional_Shield_Stratagem_Icon_Background.svg?a0bd68"
+    }
+  },
+  {
+    "name": "AX/FLAM-75 Hot Dog",
+    "page": {
+      "label": "AX/FLAM-75 Hot Dog",
+      "title": "AX/FLAM-75 Hot Dog",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Up",
+      "Left",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "75 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Python Commandos P1",
+      "link": {
+        "label": "Python Commandos",
+        "title": "Python Commandos Premium Warbond",
+        "anchor": "Page_1"
+      },
+      "pageMarker": "Page 1"
+    },
+    "icon": {
+      "file": "Hot_Dog_Stratagem_Icon_Background.svg",
+      "src": "/images/Hot_Dog_Stratagem_Icon_Background.svg?c8e42d"
+    }
+  },
+  {
+    "name": "B-100 Portable Hellbomb",
+    "page": {
+      "label": "B-100 Portable Hellbomb",
+      "title": "B-100 Portable Hellbomb",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Up",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "300s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Servants of Freedom P3",
+      "link": {
+        "label": "Servants of Freedom",
+        "title": "Servants of Freedom Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Portable_Hellbomb_Stratagem_Icon_Background.svg",
+      "src": "/images/Portable_Hellbomb_Stratagem_Icon_Background.svg?e8bd76"
+    }
+  },
+  {
+    "name": "AX/ARC-3 K-9",
+    "page": {
+      "label": "AX/ARC-3 K-9",
+      "title": "AX/ARC-3 K-9",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Up",
+      "Right",
+      "Left"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Force of Law P3",
+      "link": {
+        "label": "Force of Law",
+        "title": "Force of Law Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "K-9_Stratagem_Icon_Background.svg",
+      "src": "/images/K-9_Stratagem_Icon_Background.svg?3ed7fe"
+    }
+  },
+  {
+    "name": "LIFT-860 Hover Pack",
+    "page": {
+      "label": "LIFT-860 Hover Pack",
+      "title": "LIFT-860 Hover Pack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Up",
+      "Down",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Borderline Justice P3",
+      "link": {
+        "label": "Borderline Justice",
+        "title": "Borderline Justice Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Hover_Pack_Stratagem_Icon_Background.svg",
+      "src": "/images/Hover_Pack_Stratagem_Icon_Background.svg?63fe63"
+    }
+  },
+  {
+    "name": "AX/TX-13 Dog Breath",
+    "page": {
+      "label": "AX/TX-13 Dog Breath",
+      "title": "AX/TX-13 Dog Breath",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Up",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Chemical Agents P3",
+      "link": {
+        "label": "Chemical Agents",
+        "title": "Chemical Agents Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Dog_Breath_Stratagem_Icon_Background.svg",
+      "src": "/images/Dog_Breath_Stratagem_Icon_Background.svg?b93a24"
+    }
+  },
+  {
+    "name": "LIFT-182 Warp Pack",
+    "page": {
+      "label": "LIFT-182 Warp Pack",
+      "title": "LIFT-182 Warp Pack",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Backpacks",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Right",
+      "Down",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Control Group P3",
+      "link": {
+        "label": "Control Group",
+        "title": "Control Group Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Warp_Pack_Stratagem_Icon_Background.svg",
+      "src": "/images/Warp_Pack_Stratagem_Icon_Background.svg?b27510"
+    }
+  },
+  {
+    "name": "M-103 Supply FRV",
+    "page": {
+      "label": "M-103 Supply FRV",
+      "title": "M-103 Supply FRV",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Left",
+      "Left",
+      "Down",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "N/A",
+      "currency": null
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Census Thunder",
+      "link": {
+        "label": "Census Thunder",
+        "title": "Campaigns",
+        "anchor": "Census_Thunder"
+      },
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Supply_FRV_Stratagem_Icon_Background.svg",
+      "src": "/images/Supply_FRV_Stratagem_Icon_Background.svg?415445"
+    }
+  },
+  {
+    "name": "M-104 Incinerator FRV",
+    "page": {
+      "label": "M-104 Incinerator FRV",
+      "title": "M-104 Incinerator FRV",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Left",
+      "Down",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "N/A",
+      "currency": null
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "N/A",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Incinerator_FRV_Stratagem_Icon_Background.svg",
+      "src": "/images/Incinerator_FRV_Stratagem_Icon_Background.svg?f5764f"
+    }
+  },
+  {
+    "name": "EXO-49 Emancipator Exosuit",
+    "page": {
+      "label": "EXO-49 Emancipator Exosuit",
+      "title": "EXO-49 Emancipator Exosuit",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Up",
+      "Left",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "420s",
+    "cost": {
+      "text": "20000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "25",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Emancipator_Exosuit_Stratagem_Icon_Background.svg",
+      "src": "/images/Emancipator_Exosuit_Stratagem_Icon_Background.svg?336419"
+    }
+  },
+  {
+    "name": "EXO-45 Patriot Exosuit",
+    "page": {
+      "label": "EXO-45 Patriot Exosuit",
+      "title": "EXO-45 Patriot Exosuit",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Up",
+      "Left",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "420s",
+    "cost": {
+      "text": "20000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "25",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Patriot_Exosuit_Stratagem_Icon_Background.svg",
+      "src": "/images/Patriot_Exosuit_Stratagem_Icon_Background.svg?3fa7de"
+    }
+  },
+  {
+    "name": "M-102 Gunner FRV",
+    "page": {
+      "label": "M-102 Gunner FRV",
+      "title": "M-102 Gunner FRV",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Down",
+      "Right",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "480s",
+    "cost": {
+      "text": "25000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "25",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Fast_Recon_Vehicle_Stratagem_Icon_Background.svg",
+      "src": "/images/Fast_Recon_Vehicle_Stratagem_Icon_Background.svg?d9bba1"
+    }
+  },
+  {
+    "name": "TD-220 Bastion MK XVI",
+    "page": {
+      "label": "TD-220 Bastion MK XVI",
+      "title": "TD-220 Bastion MK XVI",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Down",
+      "Left",
+      "Down",
+      "Up",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "780s",
+    "cost": {
+      "text": "35000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "30",
+    "source": {
+      "label": "Hangar",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Bastion_MK_XVI_Stratagem_Icon_Background.svg",
+      "src": "/images/Bastion_MK_XVI_Stratagem_Icon_Background.svg?9de952"
+    }
+  },
+  {
+    "name": "EXO-55 Breakthrough Exosuit",
+    "page": {
+      "label": "EXO-55 Breakthrough Exosuit",
+      "title": "EXO-55 Breakthrough Exosuit",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Left",
+      "Right",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "420s",
+    "cost": {
+      "text": "50 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Exo Experts P3",
+      "link": {
+        "label": "Exo Experts",
+        "title": "Exo Experts Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Breakthrough_Exosuit_Stratagem_Icon_Background.svg",
+      "src": "/images/Breakthrough_Exosuit_Stratagem_Icon_Background.svg?d9bc7c"
+    }
+  },
+  {
+    "name": "EXO-51 Lumberer Exosuit",
+    "page": {
+      "label": "EXO-51 Lumberer Exosuit",
+      "title": "EXO-51 Lumberer Exosuit",
+      "anchor": null
+    },
+    "permit": "Supply Permit",
+    "group": "Vehicles",
+    "label": null,
+    "code": [
+      "Left",
+      "Down",
+      "Right",
+      "Up",
+      "Right",
+      "Left",
+      "Up"
+    ],
+    "cooldown": "420s",
+    "cost": {
+      "text": "50 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Exo Experts P2",
+      "link": {
+        "label": "Exo Experts",
+        "title": "Exo Experts Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Lumberer_Exosuit_Stratagem_Icon_Background.svg",
+      "src": "/images/Lumberer_Exosuit_Stratagem_Icon_Background.svg?c3895f"
+    }
+  },
+  {
+    "name": "A/MG-43 Machine Gun Sentry",
+    "page": {
+      "label": "A/MG-43 Machine Gun Sentry",
+      "title": "A/MG-43 Machine Gun Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "90s",
+    "cost": {
+      "text": "1500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Machine_Gun_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Machine_Gun_Sentry_Stratagem_Icon_Background.svg?331c9d"
+    }
+  },
+  {
+    "name": "A/G-16 Gatling Sentry",
+    "page": {
+      "label": "A/G-16 Gatling Sentry",
+      "title": "A/G-16 Gatling Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Left"
+    ],
+    "cooldown": "150s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "5",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Gatling_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Gatling_Sentry_Stratagem_Icon_Background.svg?7ee8f3"
+    }
+  },
+  {
+    "name": "A/AC-8 Autocannon Sentry",
+    "page": {
+      "label": "A/AC-8 Autocannon Sentry",
+      "title": "A/AC-8 Autocannon Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Up",
+      "Left",
+      "Up"
+    ],
+    "cooldown": "150s",
+    "cost": {
+      "text": "6000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "13",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Autocannon_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Autocannon_Sentry_Stratagem_Icon_Background.svg?428b69"
+    }
+  },
+  {
+    "name": "A/M-12 Mortar Sentry",
+    "page": {
+      "label": "A/M-12 Mortar Sentry",
+      "title": "A/M-12 Mortar Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "7000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "8",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Mortar_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Mortar_Sentry_Stratagem_Icon_Background.svg?30dea2"
+    }
+  },
+  {
+    "name": "A/MLS-4X Rocket Sentry",
+    "page": {
+      "label": "A/MLS-4X Rocket Sentry",
+      "title": "A/MLS-4X Rocket Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Right",
+      "Left"
+    ],
+    "cooldown": "150s",
+    "cost": {
+      "text": "7500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Rocket_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Rocket_Sentry_Stratagem_Icon_Background.svg?1af08c"
+    }
+  },
+  {
+    "name": "A/ARC-3 Tesla Tower",
+    "page": {
+      "label": "A/ARC-3 Tesla Tower",
+      "title": "A/ARC-3 Tesla Tower",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Up",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "8000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Tesla_Tower_Stratagem_Icon_Background.svg",
+      "src": "/images/Tesla_Tower_Stratagem_Icon_Background.svg?a40a2e"
+    }
+  },
+  {
+    "name": "A/M-23 EMS Mortar Sentry",
+    "page": {
+      "label": "A/M-23 EMS Mortar Sentry",
+      "title": "A/M-23 EMS Mortar Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Down",
+      "Right"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "8000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Robotics Workshop",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "EMS_Mortar_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/EMS_Mortar_Sentry_Stratagem_Icon_Background.svg?202fdc"
+    }
+  },
+  {
+    "name": "A/LAS-98 Laser Sentry",
+    "page": {
+      "label": "A/LAS-98 Laser Sentry",
+      "title": "A/LAS-98 Laser Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Down",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "150s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Control Group P2",
+      "link": {
+        "label": "Control Group",
+        "title": "Control Group Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Laser_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Laser_Sentry_Stratagem_Icon_Background.svg?90ea4a"
+    }
+  },
+  {
+    "name": "A/FLAM-40 Flame Sentry",
+    "page": {
+      "label": "A/FLAM-40 Flame Sentry",
+      "title": "A/FLAM-40 Flame Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Down",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "100s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Urban Legends P2",
+      "link": {
+        "label": "Urban Legends",
+        "title": "Urban Legends Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Flame_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Flame_Sentry_Stratagem_Icon_Background.svg?9214db"
+    }
+  },
+  {
+    "name": "A/GM-17 Gas Mortar Sentry",
+    "page": {
+      "label": "A/GM-17 Gas Mortar Sentry",
+      "title": "A/GM-17 Gas Mortar Sentry",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Sentries",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Right",
+      "Down",
+      "Left"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "85 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Entrenched Division P2",
+      "link": {
+        "label": "Entrenched Division",
+        "title": "Entrenched Division Premium Warbond",
+        "anchor": "Page_2"
+      },
+      "pageMarker": "Page 2"
+    },
+    "icon": {
+      "file": "Gas_Mortar_Sentry_Stratagem_Icon_Background.svg",
+      "src": "/images/Gas_Mortar_Sentry_Stratagem_Icon_Background.svg?8948b9"
+    }
+  },
+  {
+    "name": "MD-6 Anti-Personnel Minefield",
+    "page": {
+      "label": "MD-6 Anti-Personnel Minefield",
+      "title": "MD-6 Anti-Personnel Minefield",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "1500 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "1",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Anti-Personnel_Minefield_Stratagem_Icon_Background.svg",
+      "src": "/images/Anti-Personnel_Minefield_Stratagem_Icon_Background.svg?ac79b4"
+    }
+  },
+  {
+    "name": "MD-I4 Incendiary Mines",
+    "page": {
+      "label": "MD-I4 Incendiary Mines",
+      "title": "MD-I4 Incendiary Mines",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Left",
+      "Down"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "4000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "8",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Incendiary_Mines_Stratagem_Icon_Background.svg",
+      "src": "/images/Incendiary_Mines_Stratagem_Icon_Background.svg?6c612f"
+    }
+  },
+  {
+    "name": "MD-17 Anti-Tank Mines",
+    "page": {
+      "label": "MD-17 Anti-Tank Mines",
+      "title": "MD-17 Anti-Tank Mines",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "7000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Anti-Tank_Mines_Stratagem_Icon_Background.svg",
+      "src": "/images/Anti-Tank_Mines_Stratagem_Icon_Background.svg?4573f2"
+    }
+  },
+  {
+    "name": "FX-12 Shield Generator Relay",
+    "page": {
+      "label": "FX-12 Shield Generator Relay",
+      "title": "FX-12 Shield Generator Relay",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Down",
+      "Left",
+      "Right",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "90s",
+    "cost": {
+      "text": "9000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Shield_Generator_Relay_Stratagem_Icon_Background.svg",
+      "src": "/images/Shield_Generator_Relay_Stratagem_Icon_Background.svg?8f5149"
+    }
+  },
+  {
+    "name": "E/MG-101 HMG Emplacement",
+    "page": {
+      "label": "E/MG-101 HMG Emplacement",
+      "title": "E/MG-101 HMG Emplacement",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Right",
+      "Right",
+      "Left"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "10",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "HMG_Emplacement_Stratagem_Icon_Background.svg",
+      "src": "/images/HMG_Emplacement_Stratagem_Icon_Background.svg?204f0f"
+    }
+  },
+  {
+    "name": "E/GL-21 Grenadier Battlement",
+    "page": {
+      "label": "E/GL-21 Grenadier Battlement",
+      "title": "E/GL-21 Grenadier Battlement",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Right",
+      "Down",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "10000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "15",
+    "source": {
+      "label": "Bridge",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Grenadier_Battlement_Stratagem_Icon_Background.svg",
+      "src": "/images/Grenadier_Battlement_Stratagem_Icon_Background.svg?80ed1c"
+    }
+  },
+  {
+    "name": "MD-8 Gas Mines",
+    "page": {
+      "label": "MD-8 Gas Mines",
+      "title": "MD-8 Gas Mines",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Left",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "120s",
+    "cost": {
+      "text": "12000 Requisition Slips",
+      "currency": "requisition"
+    },
+    "unlockLevel": "20",
+    "source": {
+      "label": "Engineering Bay",
+      "link": null,
+      "pageMarker": null
+    },
+    "icon": {
+      "file": "Gas_Mines_Stratagem_Icon_Background.svg",
+      "src": "/images/Gas_Mines_Stratagem_Icon_Background.svg?b10ef8"
+    }
+  },
+  {
+    "name": "E/AT-12 Anti-Tank Emplacement",
+    "page": {
+      "label": "E/AT-12 Anti-Tank Emplacement",
+      "title": "E/AT-12 Anti-Tank Emplacement",
+      "anchor": null
+    },
+    "permit": "Defensive Permit",
+    "group": "Emplacements",
+    "label": null,
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Right",
+      "Right",
+      "Right"
+    ],
+    "cooldown": "180s",
+    "cost": {
+      "text": "110 Medals",
+      "currency": "medals"
+    },
+    "unlockLevel": "N/A",
+    "source": {
+      "label": "Urban Legends P3",
+      "link": {
+        "label": "Urban Legends",
+        "title": "Urban Legends Premium Warbond",
+        "anchor": "Page_3"
+      },
+      "pageMarker": "Page 3"
+    },
+    "icon": {
+      "file": "Anti-Tank_Emplacement_Stratagem_Icon_Background.svg",
+      "src": "/images/Anti-Tank_Emplacement_Stratagem_Icon_Background.svg?d8adfc"
+    }
+  },
+  {
+    "name": "Eagle Rearm",
+    "page": {
+      "label": "Eagle Rearm",
+      "title": "Eagle Rearm",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Ship",
+    "code": [
+      "Up",
+      "Up",
+      "Left",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Eagle_Rearm_Stratagem_Icon_Background.svg",
+      "src": "/images/Eagle_Rearm_Stratagem_Icon_Background.svg?ddcd30"
+    }
+  },
+  {
+    "name": "Call In Super Destroyer",
+    "page": {
+      "label": "Call In Super Destroyer",
+      "title": "Call In Super Destroyer",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Ship",
+    "code": [
+      "Up",
+      "Up",
+      "Down",
+      "Down",
+      "Left",
+      "Right",
+      "Left",
+      "Right"
+    ],
+    "cooldown": "N/A",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Call_In_Super_Destroyer_Stratagem_Icon_Background.svg",
+      "src": "/images/Call_In_Super_Destroyer_Stratagem_Icon_Background.svg?f8ee42"
+    }
+  },
+  {
+    "name": "SoS Beacon",
+    "page": {
+      "label": "SoS Beacon",
+      "title": "SoS Beacon",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Ship",
+    "code": [
+      "Up",
+      "Down",
+      "Right",
+      "Up"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "SOS_Beacon_Stratagem_Icon_Background.svg",
+      "src": "/images/SOS_Beacon_Stratagem_Icon_Background.svg?390b65"
+    }
+  },
+  {
+    "name": "Resupply",
+    "page": {
+      "label": "Resupply",
+      "title": "Resupply",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Ship",
+    "code": [
+      "Down",
+      "Down",
+      "Up",
+      "Right"
+    ],
+    "cooldown": "180s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Resupply_Stratagem_Icon_Background.svg",
+      "src": "/images/Resupply_Stratagem_Icon_Background.svg?e011d4"
+    }
+  },
+  {
+    "name": "Reinforce",
+    "page": {
+      "label": "Reinforce",
+      "title": "Reinforce",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Ship",
+    "code": [
+      "Up",
+      "Down",
+      "Right",
+      "Left",
+      "Up"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Reinforce_Stratagem_Icon_Background.svg",
+      "src": "/images/Reinforce_Stratagem_Icon_Background.svg?c9d622"
+    }
+  },
+  {
+    "name": "Cargo Container",
+    "page": {
+      "label": "Cargo Container",
+      "title": "Cargo Container",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Up",
+      "Up",
+      "Down",
+      "Down",
+      "Right",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Cargo_Container_Stratagem_Icon_Background.svg",
+      "src": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b"
+    }
+  },
+  {
+    "name": "NUX-223 Hellbomb",
+    "page": {
+      "label": "NUX-223 Hellbomb",
+      "title": "NUX-223 Hellbomb",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Down",
+      "Up",
+      "Left",
+      "Down",
+      "Up",
+      "Right",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "30s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Hellbomb_Stratagem_Icon_Background.svg",
+      "src": "/images/Hellbomb_Stratagem_Icon_Background.svg?4be6bb"
+    }
+  },
+  {
+    "name": "Seismic Probe",
+    "page": {
+      "label": "Seismic Probe",
+      "title": "Seismic Probe",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Up",
+      "Up",
+      "Left",
+      "Right",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Seismic_Probe_Stratagem_Icon_Background.svg",
+      "src": "/images/Seismic_Probe_Stratagem_Icon_Background.svg?9631fa"
+    }
+  },
+  {
+    "name": "SSSD Delivery",
+    "page": {
+      "label": "SSSD Delivery",
+      "title": "SSSD Delivery",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Down",
+      "Down",
+      "Down",
+      "Down",
+      "Down",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Upload_Data_Stratagem_Icon_Background.svg",
+      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565"
+    }
+  },
+  {
+    "name": "Tectonic Drill",
+    "page": {
+      "label": "Tectonic Drill",
+      "title": "Tectonic Drill",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Up",
+      "Down",
+      "Up",
+      "Down",
+      "Up",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Drill_Stratagem_Icon_Background.svg",
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+    }
+  },
+  {
+    "name": "Upload Data",
+    "page": {
+      "label": "Upload Data",
+      "title": "Upload Data",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Left",
+      "Right",
+      "Up",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Upload_Data_Stratagem_Icon_Background.svg",
+      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565"
+    }
+  },
+  {
+    "name": "Reinforcement Pods",
+    "page": {
+      "label": "Reinforcement Pods",
+      "title": "Reinforcement Pods",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Left",
+      "Right",
+      "Up",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "N/A",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Upload_Data_Stratagem_Icon_Background.svg",
+      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565"
+    }
+  },
+  {
+    "name": "Aquifer Drill",
+    "page": {
+      "label": "Aquifer Drill",
+      "title": "Aquifer Drill",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Left",
+      "Left",
+      "Left",
+      "Up",
+      "Down",
+      "Right",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Drill_Stratagem_Icon_Background.svg",
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+    }
+  },
+  {
+    "name": "Portable Comms Relay",
+    "page": {
+      "label": "Portable Comms Relay",
+      "title": "Portable Comms Relay",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Up",
+      "Up",
+      "Down",
+      "Down",
+      "Left",
+      "Left",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Cargo_Container_Stratagem_Icon_Background.svg",
+      "src": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b"
+    }
+  },
+  {
+    "name": "Prospecting Drill",
+    "page": {
+      "label": "Prospecting Drill",
+      "title": "Prospecting Drill",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Down",
+      "Down",
+      "Left",
+      "Right",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Drill_Stratagem_Icon_Background.svg",
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+    }
+  },
+  {
+    "name": "Hive Breaker Drill",
+    "page": {
+      "label": "Hive Breaker Drill",
+      "title": "Hive Breaker Drill",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Left",
+      "Up",
+      "Down",
+      "Right",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Drill_Stratagem_Icon_Background.svg",
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+    }
+  },
+  {
+    "name": "Activate E-711 Extraction Drill",
+    "page": {
+      "label": "Activate E-711 Extraction Drill",
+      "title": "Activate E-711 Extraction Drill",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Down",
+      "Down",
+      "Left",
+      "Left",
+      "Down",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Drill_Stratagem_Icon_Background.svg",
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+    }
+  },
+  {
+    "name": "Dark Fluid Vessel",
+    "page": {
+      "label": "Dark Fluid Vessel",
+      "title": "Dark Fluid Vessel",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Up",
+      "Left",
+      "Right",
+      "Down",
+      "Up",
+      "Up"
+    ],
+    "cooldown": "30s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Dark_Fluid_Vessel_Stratagem_Icon_Background.svg",
+      "src": "/images/Dark_Fluid_Vessel_Stratagem_Icon_Background.svg?ce7771"
+    }
+  },
+  {
+    "name": "Super Earth Flag",
+    "page": {
+      "label": "Super Earth Flag",
+      "title": "Super Earth Flag",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Down",
+      "Up",
+      "Down",
+      "Up"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Super_Earth_Flag_Stratagem_Icon_Background.svg",
+      "src": "/images/Super_Earth_Flag_Stratagem_Icon_Background.svg?cb3975"
+    }
+  },
+  {
+    "name": "SEAF Artillery",
+    "page": {
+      "label": "SEAF Artillery",
+      "title": "SEAF Artillery",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Right",
+      "Up",
+      "Up",
+      "Down"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "SEAF_Artillery_Stratagem_Icon_Background.svg",
+      "src": "/images/SEAF_Artillery_Stratagem_Icon_Background.svg?f72d95"
+    }
+  },
+  {
+    "name": "Tactical Video Camera",
+    "page": {
+      "label": "Tactical Video Camera",
+      "title": "Tactical Video Camera",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Objective",
+    "code": [
+      "Right",
+      "Down",
+      "Down",
+      "Up",
+      "Left",
+      "Left",
+      "Up"
+    ],
+    "cooldown": "0s",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Placeholder.png",
+      "src": "/images/thumb/Placeholder.png/50px-Placeholder.png?4aae5f"
+    }
+  },
+  {
+    "name": "Orbital Illumination Flare",
+    "page": {
+      "label": "Orbital Illumination Flare",
+      "title": "Orbital Illumination Flare",
+      "anchor": null
+    },
+    "permit": "Other",
+    "group": "Mission Stratagems",
+    "label": "Unavailable",
+    "code": [
+      "Right",
+      "Right",
+      "Left",
+      "Left"
+    ],
+    "cooldown": "N/A",
+    "cost": null,
+    "unlockLevel": null,
+    "source": null,
+    "icon": {
+      "file": "Orbital_Illumination_Flare_Stratagem_Icon_Background.svg",
+      "src": "/images/Orbital_Illumination_Flare_Stratagem_Icon_Background.svg?eb95f9"
+    }
+  }
+]
