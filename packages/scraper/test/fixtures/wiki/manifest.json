@@ -651,6 +651,13 @@
       "lastModified": "Mon, 17 Aug 2026 12:16:42 GMT",
       "wgRevisionId": 127323
     },
+    "CQC-72 Entrenchment Tool": {
+      "file": "CQC-72_Entrenchment_Tool.html",
+      "url": "https://helldivers.wiki.gg/wiki/CQC-72_Entrenchment_Tool",
+      "fetchedAt": "2026-09-16T16:25:19.318Z",
+      "lastModified": "Mon, 24 Aug 2026 10:49:41 GMT",
+      "wgRevisionId": 132441
+    },
     "CQC-73 Entrenchment Tool": {
       "file": "CQC-73_Entrenchment_Tool.html",
       "url": "https://helldivers.wiki.gg/wiki/CQC-73_Entrenchment_Tool",
@@ -714,12 +721,40 @@
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129490
     },
+    "Castellans Green Pattern": {
+      "file": "Castellans_Green_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
+      "fetchedAt": "2026-09-16T16:26:18.560Z",
+      "lastModified": "Sun, 16 Aug 2026 14:12:56 GMT",
+      "wgRevisionId": 128587
+    },
     "Castellan’s Creed Legendary Warbond": {
       "file": "Castellan%E2%80%99s_Creed_Legendary_Warbond.html",
       "url": "https://helldivers.wiki.gg/wiki/Castellan%E2%80%99s_Creed_Legendary_Warbond",
       "fetchedAt": "2026-09-16T13:26:30.059Z",
       "lastModified": "Fri, 11 Sep 2026 16:54:29 GMT",
       "wgRevisionId": 135144
+    },
+    "Chameleon Camo Pattern": {
+      "file": "Chameleon_Camo_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Chameleon_Camo_Pattern",
+      "fetchedAt": "2026-09-16T16:25:59.242Z",
+      "lastModified": "Sun, 16 Aug 2026 15:14:25 GMT",
+      "wgRevisionId": 123926
+    },
+    "Chemical Agents Premium Warbond": {
+      "file": "Chemical_Agents_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Chemical_Agents_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:29.871Z",
+      "lastModified": "Wed, 09 Sep 2026 02:14:19 GMT",
+      "wgRevisionId": 134833
+    },
+    "Churned Earth Pattern": {
+      "file": "Churned_Earth_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Churned_Earth_Pattern",
+      "fetchedAt": "2026-09-16T16:26:07.534Z",
+      "lastModified": "Sun, 16 Aug 2026 16:13:28 GMT",
+      "wgRevisionId": 123901
     },
     "City Fighter's Resolve": {
       "file": "City_Fighter's_Resolve.html",
@@ -741,6 +776,13 @@
       "fetchedAt": "2026-09-15T15:06:51.292Z",
       "lastModified": "Tue, 11 Aug 2026 04:13:48 GMT",
       "wgRevisionId": 110637
+    },
+    "Concrete Jungle Pattern": {
+      "file": "Concrete_Jungle_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Concrete_Jungle_Pattern",
+      "fetchedAt": "2026-09-16T16:25:43.429Z",
+      "lastModified": "Sun, 16 Aug 2026 14:12:08 GMT",
+      "wgRevisionId": 123893
     },
     "Conductor of Brilliance": {
       "file": "Conductor_of_Brilliance.html",
@@ -895,6 +937,13 @@
       "fetchedAt": "2026-09-16T15:28:33.580Z",
       "lastModified": "Tue, 11 Aug 2026 04:38:02 GMT",
       "wgRevisionId": 124906
+    },
+    "Dust Devils Premium Warbond": {
+      "file": "Dust_Devils_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Dust_Devils_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:48.336Z",
+      "lastModified": "Wed, 09 Sep 2026 02:19:59 GMT",
+      "wgRevisionId": 134843
     },
     "E/AT-12 Anti-Tank Emplacement": {
       "file": "E%2FAT-12_Anti-Tank_Emplacement.html",
@@ -1092,6 +1141,13 @@
       "lastModified": "Mon, 17 Aug 2026 14:36:22 GMT",
       "wgRevisionId": 124908
     },
+    "Exo Experts Premium Warbond": {
+      "file": "Exo_Experts_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Exo_Experts_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:27:05.181Z",
+      "lastModified": "Wed, 09 Sep 2026 02:24:02 GMT",
+      "wgRevisionId": 134848
+    },
     "Experimental Infusion": {
       "file": "Experimental_Infusion.html",
       "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
@@ -1105,6 +1161,13 @@
       "fetchedAt": "2026-09-15T15:06:16.911Z",
       "lastModified": "Fri, 14 Aug 2026 19:46:07 GMT",
       "wgRevisionId": 110629
+    },
+    "Extrasolar Ash Pattern": {
+      "file": "Extrasolar_Ash_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Extrasolar_Ash_Pattern",
+      "fetchedAt": "2026-09-16T16:26:02.783Z",
+      "lastModified": "Sun, 16 Aug 2026 15:10:02 GMT",
+      "wgRevisionId": 123900
     },
     "Eye of Freedom": {
       "file": "Eye_of_Freedom.html",
@@ -1253,6 +1316,13 @@
       "lastModified": "Tue, 11 Aug 2026 05:05:01 GMT",
       "wgRevisionId": 127711
     },
+    "Force of Law Premium Warbond": {
+      "file": "Force_of_Law_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Force_of_Law_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:41.346Z",
+      "lastModified": "Wed, 09 Sep 2026 02:18:10 GMT",
+      "wgRevisionId": 134840
+    },
     "Fre Liberam": {
       "file": "Fre_Liberam.html",
       "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",
@@ -1266,6 +1336,13 @@
       "fetchedAt": "2026-09-16T15:33:01.223Z",
       "lastModified": "Tue, 11 Aug 2026 04:25:58 GMT",
       "wgRevisionId": 124913
+    },
+    "Freedom's Flame Premium Warbond": {
+      "file": "Freedom's_Flame_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Freedom's_Flame_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:26.301Z",
+      "lastModified": "Wed, 09 Sep 2026 02:13:24 GMT",
+      "wgRevisionId": 134832
     },
     "Freedom's Tapestry": {
       "file": "Freedom's_Tapestry.html",
@@ -1512,6 +1589,13 @@
       "lastModified": "Fri, 14 Aug 2026 02:56:29 GMT",
       "wgRevisionId": 107748
     },
+    "Heritage Olive Pattern": {
+      "file": "Heritage_Olive_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Heritage_Olive_Pattern",
+      "fetchedAt": "2026-09-16T16:26:11.636Z",
+      "lastModified": "Sun, 16 Aug 2026 14:25:06 GMT",
+      "wgRevisionId": 123897
+    },
     "Hive Breaker Drill": {
       "file": "Hive_Breaker_Drill.html",
       "url": "https://helldivers.wiki.gg/wiki/Hive_Breaker_Drill",
@@ -1595,6 +1679,13 @@
       "fetchedAt": "2026-09-16T15:17:17.192Z",
       "lastModified": "Sun, 13 Sep 2026 18:54:05 GMT",
       "wgRevisionId": 135329
+    },
+    "Inconspicuous Black Pattern": {
+      "file": "Inconspicuous_Black_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Inconspicuous_Black_Pattern",
+      "fetchedAt": "2026-09-16T16:25:38.848Z",
+      "lastModified": "Sun, 16 Aug 2026 14:18:30 GMT",
+      "wgRevisionId": 123892
     },
     "Increased Reinforcement Budget": {
       "file": "Increased_Reinforcement_Budget.html",
@@ -1911,12 +2002,26 @@
       "lastModified": "Tue, 11 Aug 2026 05:01:45 GMT",
       "wgRevisionId": 124926
     },
+    "Mean Green Pattern": {
+      "file": "Mean_Green_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Mean_Green_Pattern",
+      "fetchedAt": "2026-09-16T16:25:50.962Z",
+      "lastModified": "Sun, 16 Aug 2026 14:29:28 GMT",
+      "wgRevisionId": 123895
+    },
     "Miranda's Legacy": {
       "file": "Miranda's_Legacy.html",
       "url": "https://helldivers.wiki.gg/wiki/Miranda's_Legacy",
       "fetchedAt": "2026-09-16T15:31:03.835Z",
       "lastModified": "Mon, 17 Aug 2026 15:31:03 GMT",
       "wgRevisionId": 124927
+    },
+    "Mobile White Pattern": {
+      "file": "Mobile_White_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Mobile_White_Pattern",
+      "fetchedAt": "2026-09-16T16:26:14.836Z",
+      "lastModified": "Sun, 16 Aug 2026 14:49:23 GMT",
+      "wgRevisionId": 123896
     },
     "Mother Eagle's Wings": {
       "file": "Mother_Eagle's_Wings.html",
@@ -1938,6 +2043,13 @@
       "fetchedAt": "2026-09-15T15:06:02.266Z",
       "lastModified": "Fri, 14 Aug 2026 19:28:05 GMT",
       "wgRevisionId": 101394
+    },
+    "Mustard Pattern": {
+      "file": "Mustard_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Mustard_Pattern",
+      "fetchedAt": "2026-09-16T16:25:35.440Z",
+      "lastModified": "Sun, 16 Aug 2026 17:19:04 GMT",
+      "wgRevisionId": 123891
     },
     "NUX-223 Hellbomb": {
       "file": "NUX-223_Hellbomb.html",
@@ -1966,6 +2078,13 @@
       "fetchedAt": "2026-09-16T15:24:35.827Z",
       "lastModified": "Sun, 13 Sep 2026 01:39:29 GMT",
       "wgRevisionId": 135286
+    },
+    "Obedient Democracy Support Troopers Legendary Warbond": {
+      "file": "Obedient_Democracy_Support_Troopers_Legendary_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Obedient_Democracy_Support_Troopers_Legendary_Warbond",
+      "fetchedAt": "2026-09-16T16:26:44.818Z",
+      "lastModified": "Wed, 09 Sep 2026 02:19:27 GMT",
+      "wgRevisionId": 134842
     },
     "Orbital 120mm HE Barrage": {
       "file": "Orbital_120mm_HE_Barrage.html",
@@ -2289,6 +2408,13 @@
       "lastModified": "Tue, 11 Aug 2026 03:59:43 GMT",
       "wgRevisionId": 124937
     },
+    "Python Commandos Premium Warbond": {
+      "file": "Python_Commandos_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Python_Commandos_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:52.908Z",
+      "lastModified": "Wed, 09 Sep 2026 02:20:25 GMT",
+      "wgRevisionId": 134844
+    },
     "R-2 Amendment": {
       "file": "R-2_Amendment.html",
       "url": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
@@ -2436,6 +2562,13 @@
       "lastModified": "Tue, 11 Aug 2026 05:41:09 GMT",
       "wgRevisionId": 127717
     },
+    "Rattlesnake Pattern": {
+      "file": "Rattlesnake_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Rattlesnake_Pattern",
+      "fetchedAt": "2026-09-16T16:25:54.849Z",
+      "lastModified": "Sun, 16 Aug 2026 18:05:32 GMT",
+      "wgRevisionId": 123898
+    },
     "Reaper of Bounties": {
       "file": "Reaper_of_Bounties.html",
       "url": "https://helldivers.wiki.gg/wiki/Reaper_of_Bounties",
@@ -2484,6 +2617,13 @@
       "fetchedAt": "2026-09-16T14:19:16.430Z",
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 132212
+    },
+    "Righteous Revenants Legendary Warbond": {
+      "file": "Righteous_Revenants_Legendary_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Righteous_Revenants_Legendary_Warbond",
+      "fetchedAt": "2026-09-16T16:26:57.511Z",
+      "lastModified": "Wed, 09 Sep 2026 02:16:13 GMT",
+      "wgRevisionId": 134836
     },
     "Rightful Occupier": {
       "file": "Rightful_Occupier.html",
@@ -2625,6 +2765,13 @@
       "lastModified": "Wed, 02 Sep 2026 03:25:15 GMT",
       "wgRevisionId": 133709
     },
+    "SG-88 Break-Action Shotgun": {
+      "file": "SG-88_Break-Action_Shotgun.html",
+      "url": "https://helldivers.wiki.gg/wiki/SG-88_Break-Action_Shotgun",
+      "fetchedAt": "2026-09-16T16:25:14.949Z",
+      "lastModified": "Mon, 24 Aug 2026 12:28:23 GMT",
+      "wgRevisionId": 132448
+    },
     "SG-8P Punisher Plasma": {
       "file": "SG-8P_Punisher_Plasma.html",
       "url": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
@@ -2730,6 +2877,13 @@
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129621
     },
+    "Safety Orange Pattern": {
+      "file": "Safety_Orange_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Safety_Orange_Pattern",
+      "fetchedAt": "2026-09-16T16:25:30.929Z",
+      "lastModified": "Sun, 16 Aug 2026 16:30:38 GMT",
+      "wgRevisionId": 123890
+    },
     "Sample Extricator": {
       "file": "Sample_Extricator.html",
       "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
@@ -2779,6 +2933,13 @@
       "lastModified": "Tue, 15 Sep 2026 23:01:17 GMT",
       "wgRevisionId": 135577
     },
+    "Siege Breakers Premium Warbond": {
+      "file": "Siege_Breakers_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Siege_Breakers_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:27:01.884Z",
+      "lastModified": "Wed, 09 Sep 2026 02:23:07 GMT",
+      "wgRevisionId": 134846
+    },
     "SoS Beacon": {
       "file": "SoS_Beacon.html",
       "url": "https://helldivers.wiki.gg/wiki/SoS_Beacon",
@@ -2813,6 +2974,13 @@
       "fetchedAt": "2026-09-15T15:05:58.210Z",
       "lastModified": "Tue, 11 Aug 2026 04:00:50 GMT",
       "wgRevisionId": 122720
+    },
+    "Standard Pattern": {
+      "file": "Standard_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Standard_Pattern",
+      "fetchedAt": "2026-09-16T16:25:23.952Z",
+      "lastModified": "Sun, 16 Aug 2026 14:24:29 GMT",
+      "wgRevisionId": 123960
     },
     "Standard of Rapid Evacuation": {
       "file": "Standard_of_Rapid_Evacuation.html",
@@ -2996,6 +3164,20 @@
       "lastModified": "Fri, 21 Aug 2026 21:30:27 GMT",
       "wgRevisionId": 124947
     },
+    "True Blue Pattern": {
+      "file": "True_Blue_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/True_Blue_Pattern",
+      "fetchedAt": "2026-09-16T16:25:47.255Z",
+      "lastModified": "Sun, 16 Aug 2026 14:50:31 GMT",
+      "wgRevisionId": 123894
+    },
+    "Truth Enforcers Premium Warbond": {
+      "file": "Truth_Enforcers_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Truth_Enforcers_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:34.197Z",
+      "lastModified": "Sat, 12 Sep 2026 10:10:50 GMT",
+      "wgRevisionId": 135198
+    },
     "Tyrant Hunter": {
       "file": "Tyrant_Hunter.html",
       "url": "https://helldivers.wiki.gg/wiki/Tyrant_Hunter",
@@ -3038,6 +3220,13 @@
       "lastModified": "Tue, 11 Aug 2026 06:30:22 GMT",
       "wgRevisionId": 124949
     },
+    "Undergrowth Pattern": {
+      "file": "Undergrowth_Pattern.html",
+      "url": "https://helldivers.wiki.gg/wiki/Undergrowth_Pattern",
+      "fetchedAt": "2026-09-16T16:25:27.394Z",
+      "lastModified": "Sun, 16 Aug 2026 15:07:28 GMT",
+      "wgRevisionId": 128380
+    },
     "United in Equality": {
       "file": "United_in_Equality.html",
       "url": "https://helldivers.wiki.gg/wiki/United_in_Equality",
@@ -3051,6 +3240,13 @@
       "fetchedAt": "2026-09-16T14:19:43.051Z",
       "lastModified": "Fri, 04 Sep 2026 12:57:23 GMT",
       "wgRevisionId": 129624
+    },
+    "Urban Legends Premium Warbond": {
+      "file": "Urban_Legends_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Urban_Legends_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:37.778Z",
+      "lastModified": "Wed, 09 Sep 2026 02:15:39 GMT",
+      "wgRevisionId": 134835
     },
     "VG-70 Variable": {
       "file": "VG-70_Variable.html",
@@ -3072,6 +3268,13 @@
       "fetchedAt": "2026-09-16T15:31:52.725Z",
       "lastModified": "Tue, 11 Aug 2026 04:00:29 GMT",
       "wgRevisionId": 113329
+    },
+    "Viper Commandos Premium Warbond": {
+      "file": "Viper_Commandos_Premium_Warbond.html",
+      "url": "https://helldivers.wiki.gg/wiki/Viper_Commandos_Premium_Warbond",
+      "fetchedAt": "2026-09-16T16:26:22.812Z",
+      "lastModified": "Wed, 09 Sep 2026 02:12:40 GMT",
+      "wgRevisionId": 134831
     },
     "Vision of Freedom": {
       "file": "Vision_of_Freedom.html",
