@@ -5,7 +5,8 @@ export const FiringMode = z.enum(["auto", "semi", "burst", "volley", "charge", "
 
 export const Attack = z.object({
   name: z.string(), // "5.5x50mm FULL METAL JACKET P"
-  kind: z.enum(["projectile", "explosion", "beam", "arc", "melee", "other"]),
+  // One per wiki attack table (`attack-data-table-<kind>`); `status` = damage over time (Fire, Gas).
+  kind: z.enum(["projectile", "explosion", "beam", "arc", "spray", "status", "melee", "other"]),
   damage: z.object({
     standard: z.number().nullable(),
     durable: z.number().nullable(),

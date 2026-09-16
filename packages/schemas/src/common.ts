@@ -86,7 +86,9 @@ export const Base = {
   wiki: WikiRef,
 };
 
-export const Penetration = z.string().regex(/^(unarmored|light|medium|heavy|anti_tank_[ivx]+)$/);
+export const Penetration = z
+  .string()
+  .regex(/^(unarmored|very_light|light|medium|heavy|anti_tank_[ivx]+)$/);
 
 export const Department = z.enum([
   "patriotic_administration_center",

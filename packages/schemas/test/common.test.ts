@@ -80,7 +80,7 @@ describe("Source", () => {
 });
 
 describe("Penetration", () => {
-  it.each(["unarmored", "medium", "anti_tank_iii"])("accepts %s", (value) => {
+  it.each(["unarmored", "very_light", "medium", "anti_tank_iii"])("accepts %s", (value) => {
     expect(Penetration.safeParse(value).success).toBe(true);
   });
 
