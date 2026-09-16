@@ -1,6 +1,6 @@
 import type { Id, SourceType } from "@hd2/schemas";
 import { NormalizeError } from "../errors.ts";
-import type { RawLink } from "../parsers/raw.ts";
+import type { RawSourceCell } from "../parsers/raw.ts";
 import {
   normalizeWarbondLabel,
   pageFromAnchor,
@@ -11,11 +11,7 @@ import {
 // Item page `Source` cells (arch §4.5, §5.5 rule 3): a link to a warbond page, a label from
 // `data/overrides/source-labels.json`, or a warbond alias. Anything else fails the run.
 
-export interface RawSourceCell {
-  label: string; // "Python Commandos P1", "Starter Equipment"
-  link: RawLink | null;
-  pageMarker: string | null; // `small .explain[title]`, "Page 1"
-}
+export type { RawSourceCell };
 
 export type SourceKind =
   | { type: "warbond"; warbondId: Id; page: number | null } // page null: look it up (rule 3)
