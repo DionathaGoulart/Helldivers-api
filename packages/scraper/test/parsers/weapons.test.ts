@@ -12,11 +12,35 @@ describe("weapons-index parser", async () => {
   const rows = parseWeaponsIndex(index.html, { url: index.url });
   const count = (category: string) => rows.filter((row) => row.category === category).length;
 
-  it("reads every weapon tab of the fixture and skips the support weapon tabs", async () => {
-    expect([count("Primary"), count("Secondary"), count("Throwable")]).toEqual([54, 25, 23]);
+  it("reads every weapon tab of the fixture and skips the stratagem support weapon tabs", async () => {
+    expect([count("Primary"), count("Secondary"), count("Throwable"), count("Civilian")]).toEqual([
+      54, 25, 23, 2,
+    ]);
     expect(rows.some((row) => row.name === "MG-43 Machine Gun")).toBe(false);
-    expect(rows.some((row) => row.name === "SG-88 Break-Action Shotgun")).toBe(false);
     await expect(json(rows)).toMatchFileSnapshot("./__snapshots__/weapons-index.json");
+  });
+
+  it("reads the Civilian tab without a subcategory", () => {
+    expect(rows.filter((row) => row.category === "Civilian")).toEqual([
+      expect.objectContaining({
+        name: "SG-88 Break-Action Shotgun",
+        page: {
+          label: "SG-88 Break-Action Shotgun",
+          title: "SG-88 Break-Action Shotgun",
+          anchor: null,
+        },
+        subcategory: null,
+      }),
+      expect.objectContaining({
+        name: "CQC-72 Entrenchment Tool",
+        page: {
+          label: "CQC-72 Entrenchment Tool",
+          title: "CQC-72 Entrenchment Tool",
+          anchor: null,
+        },
+        subcategory: null,
+      }),
+    ]);
   });
 
   it("names subcategories by tab label, telling the three Special tabs apart by parent", () => {
@@ -48,6 +72,9 @@ describe("weapons-index parser", async () => {
     expect(
       parse(index.html.replaceAll('aria-controls="Throwable-0"', 'aria-controls="x"')),
     ).toThrow(ParseError);
+    expect(parse(index.html.replaceAll('aria-controls="Civilian-0"', 'aria-controls="x"'))).toThrow(
+      "tabber panel Civilian",
+    );
   });
 });
 

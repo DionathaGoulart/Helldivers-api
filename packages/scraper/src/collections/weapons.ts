@@ -2,7 +2,7 @@ import { type Conflict, slugify, Weapon } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
 import type { RawSourceCell } from "../normalize/sources.ts";
-import { warbondIdFromTitle } from "../normalize/warbonds.ts";
+import { normalizeWarbondLabel, warbondIdFromTitle } from "../normalize/warbonds.ts";
 import { normalizeWeaponStats } from "../normalize/weapons.ts";
 import { parseWeaponPage } from "../parsers/weapon-page.ts";
 import { parseWeaponsIndex, WEAPONS_INDEX } from "../parsers/weapons-index.ts";
@@ -13,7 +13,8 @@ import type { CollectionPipeline, ScrapeContext } from "./types.ts";
 
 // `/wiki/Weapons` tabs (category, subcategory) + every weapon page: DRUID infobox, detailed
 // statistics tables, traits and source (arch §4.3, §5.4). Traits resolve against the
-// weapon-traits collection, so that pipeline runs first.
+// weapon-traits collection, so that pipeline runs first. Civilian weapons (tab `Civilian`) take
+// their subcategory from the `Weapon Type` row and their source from the Procurement section.
 
 const SUBCATEGORY_TABS: Readonly<Record<string, Weapon["subcategory"]>> = {
   "Assault Rifle": "assault_rifle",
@@ -28,6 +29,12 @@ const SUBCATEGORY_TABS: Readonly<Record<string, Weapon["subcategory"]>> = {
   Standard: "standard",
 };
 
+// `Weapon Type` of the civilian pages (support weapons, so not the tab labels above).
+const CIVILIAN_WEAPON_TYPES: Readonly<Record<string, Weapon["subcategory"]>> = {
+  Shotguns: "shotgun",
+  Melee: "melee",
+};
+
 const TRAIT_ROWS = ["weapon_traits", "throwable_traits"];
 
 export const weaponsPipeline: CollectionPipeline<"weapons"> = {
@@ -35,7 +42,7 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
   indexPages: [WEAPONS_INDEX],
 
   async scrape(context: ScrapeContext) {
-    const { source, idLock, logger, dataset } = context;
+    const { source, idLock, logger, dataset, overrides } = context;
     const resolveTraits = traitResolver(dataset["weapon-traits"], "weapons");
     const resolveSource = itemSourceResolver(context);
 
@@ -51,18 +58,47 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
       const id = idLock.resolve("weapons", raw.title, raw.title);
       const note = (message: string) => warnings.push(`weapons/${id}: ${message}`);
 
-      const subcategory = SUBCATEGORY_TABS[row.subcategory];
-      if (!subcategory) {
-        throw new NormalizeError(index.url, row.subcategory, "unknown weapon subcategory tab");
-      }
       const category = row.category.toLowerCase() as Weapon["category"];
+      const civilian = category === "civilian";
+      let subcategory: Weapon["subcategory"] | undefined;
+      if (civilian) {
+        const type = raw.infobox.find((infoboxRow) => infoboxRow.key === "weapon_type")?.text ?? "";
+        subcategory = CIVILIAN_WEAPON_TYPES[type];
+        if (!subcategory) {
+          throw new NormalizeError(page.url, type, "unknown civilian weapon type");
+        }
+      } else {
+        subcategory = SUBCATEGORY_TABS[row.subcategory ?? ""];
+        if (!subcategory) {
+          throw new NormalizeError(
+            index.url,
+            row.subcategory ?? "",
+            "unknown weapon subcategory tab",
+          );
+        }
+      }
 
       const traitRow = raw.infobox.find((infoboxRow) => TRAIT_ROWS.includes(infoboxRow.key));
       const traitIds = resolveTraits(traitRow?.links ?? [], page.url);
 
-      // Source: the infobox cell, else the first warbond linked from "Procurement".
+      // Source: the infobox cell; civilian weapons: the first Procurement link with a known
+      // source label ("Minor Places of Interest"), never a warbond (CQC-72 mentions CQC-73's);
+      // else the first warbond linked from "Procurement".
       let cell: RawSourceCell | null = raw.source;
-      if (!cell) {
+      if (!cell && civilian) {
+        const labels = new Set(Object.keys(overrides.sourceLabels).map(normalizeWarbondLabel));
+        const link = raw.procurement.find((candidate) =>
+          labels.has(normalizeWarbondLabel(candidate.label)),
+        );
+        if (!link) {
+          throw new NormalizeError(
+            page.url,
+            raw.name,
+            "no Procurement link with a known source label; map it in data/overrides/source-labels.json",
+          );
+        }
+        cell = { label: link.label, link, pageMarker: null };
+      } else if (!cell) {
         const link = raw.procurement.find((candidate) => warbondIdFromTitle(candidate.title));
         if (!link) {
           throw new NormalizeError(

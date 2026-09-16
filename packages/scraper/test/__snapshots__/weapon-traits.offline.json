@@ -539,6 +539,7 @@
       "sg-225sp-breaker-spray-pray",
       "sg-451-cookout",
       "sg-8-punisher",
+      "sg-88-break-action-shotgun",
       "smg-37-defender",
       "smg-72-pummeler",
       "smg-flam-34-stoker",
@@ -636,6 +637,7 @@
       "cqc-30-stun-baton",
       "cqc-42-machete",
       "cqc-5-combat-hatchet",
+      "cqc-72-entrenchment-tool",
       "cqc-73-entrenchment-tool"
     ],
     "stratagemIds": [
@@ -663,6 +665,7 @@
       "cqc-30-stun-baton",
       "cqc-42-machete",
       "cqc-5-combat-hatchet",
+      "cqc-72-entrenchment-tool",
       "cqc-73-entrenchment-tool",
       "gp-20-ultimatum",
       "gp-31-grenade-pistol",
@@ -749,6 +752,7 @@
       "sg-22-bushwhacker",
       "sg-451-cookout",
       "sg-8-punisher",
+      "sg-88-break-action-shotgun",
       "sg-8s-slugger",
       "sg-97-sweeper"
     ],
@@ -879,7 +883,10 @@
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Support_Weapon",
       "flags": []
     },
-    "weaponIds": [],
+    "weaponIds": [
+      "cqc-72-entrenchment-tool",
+      "sg-88-break-action-shotgun"
+    ],
     "stratagemIds": [
       "40-k-meltagun",
       "ac-8-autocannon",

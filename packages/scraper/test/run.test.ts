@@ -95,7 +95,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       { collection: "boosters", before: 0, after: 18 },
       { collection: "passives", before: 0, after: 31 },
       { collection: "weapon-traits", before: 0, after: 28 },
-      { collection: "weapons", before: 0, after: 102 },
+      { collection: "weapons", before: 0, after: 104 },
       { collection: "stratagems", before: 0, after: 114 },
       { collection: "armors", before: 0, after: 109 },
       { collection: "helmets", before: 0, after: 110 },
@@ -144,7 +144,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
         (1 + 18) +
         (1 + 31) +
         (1 + 28) +
-        (1 + 102) +
+        (1 + 104) +
         (1 + 114) +
         (1 + 109) +
         (1 + 110) +
@@ -344,6 +344,41 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       data: { armorIds: ["bfm-16-tanker", "bfm-220-ironclad"] },
     });
 
+    // Civilian weapons: SG-88 equals arch §5.4 except the image, the table-keyed `statsRaw` and
+    // the maintenance flag the audit did not capture; the CQC-72 page is named Trench Shovel in
+    // game and mentions CQC-73's warbond.
+    const readExample = async (name: string) =>
+      JSON.parse(
+        await readFile(
+          join(import.meta.dirname, `../../schemas/test/examples/${name}.json`),
+          "utf8",
+        ),
+      );
+    const sg88 = await readExample("weapons.sg-88-break-action-shotgun");
+    const { statsRaw: sg88Raw, ...sg88Rest } = (
+      files.get("weapons/sg-88-break-action-shotgun.json") as { data: Record<string, unknown> }
+    ).data;
+    expect(sg88Rest).toEqual({
+      ...sg88,
+      statsRaw: undefined,
+      image: null,
+      wiki: { ...sg88.wiki, flags: ["potentially_outdated"] },
+    });
+    expect(sg88Raw).toMatchObject({
+      "Standard Damage": "585 Ballistic",
+      "SG-88 BREAK-ACTION SHOTGUN › Barrels": "x 2",
+    });
+    expect(files.get("weapons/cqc-72-entrenchment-tool.json")).toMatchObject({
+      data: {
+        name: "Trench Shovel",
+        aliases: ["CQC-72 Entrenchment Tool"],
+        category: "civilian",
+        subcategory: "melee",
+        firearm: null,
+        source: { type: "other", label: "Minor Places of Interest", cost: null },
+      },
+    });
+
     const conflicts = (
       files.get("reports/conflicts.json") as { conflicts: { id: string; field: string }[] }
     ).conflicts;
@@ -399,7 +434,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(lock.passives["Concussive Padding, Grenadier"]).toBe("concussive-padding-grenadier");
     expect(Object.keys(lock["weapon-traits"])).toHaveLength(28);
     expect(lock["weapon-traits"]["Equipment Traits#Anti-Tank"]).toBe("anti-tank");
-    expect(Object.keys(lock.weapons)).toHaveLength(102);
+    expect(Object.keys(lock.weapons)).toHaveLength(104);
     expect(lock.weapons["AR/GL-21 One-Two"]).toBe("ar-gl-21-one-two");
     expect(Object.keys(lock.stratagems)).toHaveLength(114);
     expect(lock.stratagems["A/MG-43 Machine Gun Sentry"]).toBe("a-mg-43-machine-gun-sentry");

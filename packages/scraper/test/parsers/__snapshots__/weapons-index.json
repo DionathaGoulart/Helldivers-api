@@ -1426,5 +1426,33 @@
       "file": "G-8_Immolation_Throwable_Render.png",
       "src": "/images/G-8_Immolation_Throwable_Render.png?337e36"
     }
+  },
+  {
+    "name": "SG-88 Break-Action Shotgun",
+    "page": {
+      "label": "SG-88 Break-Action Shotgun",
+      "title": "SG-88 Break-Action Shotgun",
+      "anchor": null
+    },
+    "category": "Civilian",
+    "subcategory": null,
+    "image": {
+      "file": "SG-88_Break-Action_Shotgun_Support_Render.png",
+      "src": "/images/SG-88_Break-Action_Shotgun_Support_Render.png?9db678"
+    }
+  },
+  {
+    "name": "CQC-72 Entrenchment Tool",
+    "page": {
+      "label": "CQC-72 Entrenchment Tool",
+      "title": "CQC-72 Entrenchment Tool",
+      "anchor": null
+    },
+    "category": "Civilian",
+    "subcategory": null,
+    "image": {
+      "file": "Entrenchment_Tool_Support_Render.png",
+      "src": "/images/Entrenchment_Tool_Support_Render.png?4f007a"
+    }
   }
 ]
