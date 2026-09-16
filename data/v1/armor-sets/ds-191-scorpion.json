@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ds-191-scorpion",
+    "slug": "ds-191-scorpion",
+    "name": "DS-191 Scorpion",
+    "wiki": {
+      "title": "DS-191 Scorpion",
+      "url": "https://helldivers.wiki.gg/wiki/DS-191_Scorpion",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ds-191-scorpion",
+    "helmetId": "ds-191-scorpion",
+    "capeId": null,
+    "capeLink": null
+  }
+}

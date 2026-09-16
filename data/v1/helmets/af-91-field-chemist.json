@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "af-91-field-chemist",
+    "slug": "af-91-field-chemist",
+    "name": "AF-91 Field Chemist",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AF-91 Field Chemist",
+      "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",
+      "flags": []
+    },
+    "setIds": [
+      "af-91-field-chemist"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  }
+}

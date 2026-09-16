@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "o-3-free-spirit",
+    "slug": "o-3-free-spirit",
+    "name": "O-3 Free Spirit",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "O-3 Free Spirit",
+      "url": "https://helldivers.wiki.gg/wiki/O-3_Free_Spirit",
+      "flags": []
+    },
+    "setIds": [
+      "o-3-free-spirit"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P1",
+      "warbondId": "exo-experts",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

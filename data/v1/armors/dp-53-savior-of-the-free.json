@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dp-53-savior-of-the-free",
+    "slug": "dp-53-savior-of-the-free",
+    "name": "DP-53 Savior of the Free",
+    "aliases": [],
+    "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
+    "image": null,
+    "wiki": {
+      "title": "DP-53 Savior of the Free",
+      "url": "https://helldivers.wiki.gg/wiki/DP-53_Savior_of_the_Free",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "democracy-protects",
+    "setIds": [
+      "dp-53-savior-of-the-free"
+    ],
+    "source": {
+      "type": "edition",
+      "label": "Super Citizen Edition",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "usd",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

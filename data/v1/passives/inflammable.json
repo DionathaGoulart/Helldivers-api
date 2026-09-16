@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -23,6 +23,11 @@
     "effects": [
       "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability."
     ],
-    "armorIds": []
+    "armorIds": [
+      "i-09-heatseeker",
+      "i-102-draconaught",
+      "i-44-salamander",
+      "i-92-fire-fighter"
+    ]
   }
 }

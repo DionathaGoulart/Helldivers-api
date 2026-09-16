@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "re-824-bearer-of-the-standard",
+    "slug": "re-824-bearer-of-the-standard",
+    "name": "RE-824 Bearer of the Standard",
+    "aliases": [],
+    "description": "Commonly replicated in stage adaptations of “Lady Liberty's Tower”, in which young Diver Beatrick dons this armor to slay Oppressio, the Tyrant Rex.",
+    "image": null,
+    "wiki": {
+      "title": "RE-824 Bearer of the Standard",
+      "url": "https://helldivers.wiki.gg/wiki/RE-824_Bearer_of_the_Standard",
+      "flags": []
+    },
+    "weight": "heavy",
+    "armorRating": 150,
+    "speed": 450,
+    "staminaRegen": 50,
+    "passiveId": "reinforced-epaulettes",
+    "setIds": [
+      "re-824-bearer-of-the-standard"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 400
+      },
+      "rotating": false
+    }
+  }
+}

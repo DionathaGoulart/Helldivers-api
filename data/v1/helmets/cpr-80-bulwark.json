@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cpr-80-bulwark",
+    "slug": "cpr-80-bulwark",
+    "name": "CPR-80 Bulwark",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CPR-80 Bulwark",
+      "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "cpr-80-bulwark"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  }
+}

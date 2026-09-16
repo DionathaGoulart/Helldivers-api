@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "camo-cloak",
+    "slug": "camo-cloak",
+    "name": "Camo Cloak",
+    "aliases": [],
+    "description": "The horrors of Tyranny are manifold, their minions many, but they are naught before Democracy's twin swords: overwhelming firepower, and those trained to unquestioningly wield it.",
+    "image": null,
+    "wiki": {
+      "title": "Camo Cloak",
+      "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Castellan’s Creed",
+      "warbondId": "castellans-creed",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

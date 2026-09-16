@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "crest-of-the-unsullied",
+    "slug": "crest-of-the-unsullied",
+    "name": "Crest of the Unsullied",
+    "aliases": [],
+    "description": "With sharp geometric angles to symbolize the rigid chain of command, this cape embodies the sanctity and moral fortitude of unblemished leadership over the mud-caked warriors they direct.",
+    "image": null,
+    "wiki": {
+      "title": "Crest of the Unsullied",
+      "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P2",
+      "warbondId": "entrenched-division",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

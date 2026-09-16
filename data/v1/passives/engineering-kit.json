@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,6 +24,17 @@
       "Further reduces recoil when crouching or prone by 30%.",
       "Increases initial inventory and holding capacity of throwables by +2."
     ],
-    "armorIds": []
+    "armorIds": [
+      "ce-07-demolition-specialist",
+      "ce-101-guerilla-gorilla",
+      "ce-27-ground-breaker",
+      "ce-35-trench-engineer",
+      "ce-64-grenadier",
+      "ce-67-titan",
+      "ce-74-breaker",
+      "ce-81-juggernaut",
+      "fs-37-ravager",
+      "sc-15-drone-master"
+    ]
   }
 }

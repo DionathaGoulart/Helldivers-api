@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "light-of-eternal-liberty",
+    "slug": "light-of-eternal-liberty",
+    "name": "Light of Eternal Liberty",
+    "aliases": [],
+    "description": "The unimpeachable justice of this cape's design is said to blind the enemies of Freedom with its glorious light.",
+    "image": null,
+    "wiki": {
+      "title": "Light of Eternal Liberty",
+      "url": "https://helldivers.wiki.gg/wiki/Light_of_Eternal_Liberty",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P10",
+      "warbondId": "helldivers-mobilize",
+      "page": 10,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

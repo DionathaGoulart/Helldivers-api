@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "pinions-of-everlasting-glory",
+    "slug": "pinions-of-everlasting-glory",
+    "name": "Pinions of Everlasting Glory",
+    "aliases": [],
+    "description": "All but ensures ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts.",
+    "image": null,
+    "wiki": {
+      "title": "Pinions of Everlasting Glory",
+      "url": "https://helldivers.wiki.gg/wiki/Pinions_of_Everlasting_Glory",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P2",
+      "warbondId": "polar-patriots",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

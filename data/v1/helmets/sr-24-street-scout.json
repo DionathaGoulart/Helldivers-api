@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sr-24-street-scout",
+    "slug": "sr-24-street-scout",
+    "name": "SR-24 Street Scout",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SR-24 Street Scout",
+      "url": "https://helldivers.wiki.gg/wiki/SR-24_Street_Scout",
+      "flags": []
+    },
+    "setIds": [
+      "sr-24-street-scout"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P1",
+      "warbondId": "urban-legends",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

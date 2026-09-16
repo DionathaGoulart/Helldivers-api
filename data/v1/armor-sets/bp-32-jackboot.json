@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "bp-32-jackboot",
+    "slug": "bp-32-jackboot",
+    "name": "BP-32 Jackboot",
+    "wiki": {
+      "title": "BP-32 Jackboot",
+      "url": "https://helldivers.wiki.gg/wiki/BP-32_Jackboot",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "bp-32-jackboot",
+    "helmetId": "bp-32-jackboot",
+    "capeId": null,
+    "capeLink": null
+  }
+}

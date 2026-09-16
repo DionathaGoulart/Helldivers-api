@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "botslayer",
+    "slug": "botslayer",
+    "name": "Botslayer",
+    "aliases": [],
+    "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it.",
+    "image": null,
+    "wiki": {
+      "title": "Botslayer",
+      "url": "https://helldivers.wiki.gg/wiki/Botslayer",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P1",
+      "warbondId": "cutting-edge",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

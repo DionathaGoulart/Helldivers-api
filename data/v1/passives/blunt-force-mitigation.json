@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "blunt-force-mitigation",
+    "slug": "blunt-force-mitigation",
+    "name": "Blunt-Force Mitigation",
+    "aliases": [],
+    "description": "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",
+    "image": null,
+    "wiki": {
+      "title": "Blunt-Force Mitigation",
+      "url": "https://helldivers.wiki.gg/wiki/Blunt-Force_Mitigation",
+      "flags": []
+    },
+    "effects": [
+      "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating."
+    ],
+    "armorIds": [
+      "bfm-16-tanker",
+      "bfm-220-ironclad"
+    ]
+  }
+}

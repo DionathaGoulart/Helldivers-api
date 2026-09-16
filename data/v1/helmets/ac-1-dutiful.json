@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ac-1-dutiful",
+    "slug": "ac-1-dutiful",
+    "name": "AC-1 Dutiful",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AC-1 Dutiful",
+      "url": "https://helldivers.wiki.gg/wiki/AC-1_Dutiful",
+      "flags": []
+    },
+    "setIds": [
+      "ac-1-dutiful"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P1",
+      "warbondId": "righteous-revenants",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

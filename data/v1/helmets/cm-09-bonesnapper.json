@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cm-09-bonesnapper",
+    "slug": "cm-09-bonesnapper",
+    "name": "CM-09 Bonesnapper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-09 Bonesnapper",
+      "url": "https://helldivers.wiki.gg/wiki/CM-09_Bonesnapper",
+      "flags": []
+    },
+    "setIds": [
+      "cm-09-bonesnapper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P4",
+      "warbondId": "helldivers-mobilize",
+      "page": 4,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  }
+}

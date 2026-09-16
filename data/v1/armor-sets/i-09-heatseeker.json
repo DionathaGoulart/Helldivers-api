@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "i-09-heatseeker",
+    "slug": "i-09-heatseeker",
+    "name": "I-09 Heatseeker",
+    "wiki": {
+      "title": "I-09 Heatseeker",
+      "url": "https://helldivers.wiki.gg/wiki/I-09_Heatseeker",
+      "flags": []
+    },
+    "armorId": "i-09-heatseeker",
+    "helmetId": "i-09-heatseeker",
+    "capeId": null,
+    "capeLink": null
+  }
+}

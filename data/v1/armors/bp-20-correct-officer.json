@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "bp-20-correct-officer",
+    "slug": "bp-20-correct-officer",
+    "name": "BP-20 Correct Officer",
+    "aliases": [],
+    "description": "A welcome sight in all Democratic neighborhoods, this armor inspires both civil pride and civic obedience.",
+    "image": null,
+    "wiki": {
+      "title": "BP-20 Correct Officer",
+      "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "ballistic-padding",
+    "setIds": [
+      "bp-20-correct-officer"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P1",
+      "warbondId": "force-of-law",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

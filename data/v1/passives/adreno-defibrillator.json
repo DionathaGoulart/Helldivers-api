@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,6 +25,10 @@
       "Increases stim effect duration by 2.0s.",
       "Provides 50% resistance to arc damage."
     ],
-    "armorIds": []
+    "armorIds": [
+      "ad-11-livewire",
+      "ad-26-bleeding-edge",
+      "ad-49-apollonian"
+    ]
   }
 }

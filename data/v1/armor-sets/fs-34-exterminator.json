@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-34-exterminator",
+    "slug": "fs-34-exterminator",
+    "name": "FS-34 Exterminator",
+    "wiki": {
+      "title": "FS-34 Exterminator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
+      "flags": []
+    },
+    "armorId": "fs-34-exterminator",
+    "helmetId": "fs-34-exterminator",
+    "capeId": null,
+    "capeLink": null
+  }
+}

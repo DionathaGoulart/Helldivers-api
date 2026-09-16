@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rs-6-fiend-destroyer",
+    "slug": "rs-6-fiend-destroyer",
+    "name": "RS-6 Fiend Destroyer",
+    "wiki": {
+      "title": "RS-6 Fiend Destroyer",
+      "url": "https://helldivers.wiki.gg/wiki/RS-6_Fiend_Destroyer",
+      "flags": []
+    },
+    "armorId": "rs-6-fiend-destroyer",
+    "helmetId": "rs-6-fiend-destroyer",
+    "capeId": null,
+    "capeLink": null
+  }
+}

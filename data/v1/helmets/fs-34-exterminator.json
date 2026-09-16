@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-34-exterminator",
+    "slug": "fs-34-exterminator",
+    "name": "FS-34 Exterminator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-34 Exterminator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
+      "flags": []
+    },
+    "setIds": [
+      "fs-34-exterminator"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 200
+      },
+      "rotating": false
+    }
+  }
+}

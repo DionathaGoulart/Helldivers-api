@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "bp-20-correct-officer",
+    "slug": "bp-20-correct-officer",
+    "name": "BP-20 Correct Officer",
+    "wiki": {
+      "title": "BP-20 Correct Officer",
+      "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "bp-20-correct-officer",
+    "helmetId": "bp-20-correct-officer",
+    "capeId": null,
+    "capeLink": null
+  }
+}

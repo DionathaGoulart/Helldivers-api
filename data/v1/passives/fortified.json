@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,6 +24,15 @@
       "Further reduces recoil when crouching or prone by 30%.",
       "Provides 50% resistance to explosive damage."
     ],
-    "armorIds": []
+    "armorIds": [
+      "b-24-enforcer",
+      "cw-22-kodiak",
+      "fs-05-marksman",
+      "fs-11-executioner",
+      "fs-23-battle-master",
+      "fs-34-exterminator",
+      "fs-38-eradicator",
+      "fs-55-devastator"
+    ]
   }
 }

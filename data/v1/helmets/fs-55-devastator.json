@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-55-devastator",
+    "slug": "fs-55-devastator",
+    "name": "FS-55 Devastator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-55 Devastator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",
+      "flags": []
+    },
+    "setIds": [
+      "fs-55-devastator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P3",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 48
+      },
+      "rotating": null
+    }
+  }
+}

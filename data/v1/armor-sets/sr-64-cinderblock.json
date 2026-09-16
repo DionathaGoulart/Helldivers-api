@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sr-64-cinderblock",
+    "slug": "sr-64-cinderblock",
+    "name": "SR-64 Cinderblock",
+    "wiki": {
+      "title": "SR-64 Cinderblock",
+      "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",
+      "flags": []
+    },
+    "armorId": "sr-64-cinderblock",
+    "helmetId": "sr-64-cinderblock",
+    "capeId": null,
+    "capeLink": null
+  }
+}

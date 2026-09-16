@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "seal-of-general-consensus",
+    "slug": "seal-of-general-consensus",
+    "name": "Seal of General Consensus",
+    "aliases": [],
+    "description": "Made famous by the SEAF commander of the same name, this seal reminds us that only perfect Unity can ensure perfect Freedom.",
+    "image": null,
+    "wiki": {
+      "title": "Seal of General Consensus",
+      "url": "https://helldivers.wiki.gg/wiki/Seal_of_General_Consensus",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  }
+}

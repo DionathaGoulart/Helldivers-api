@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "martyris-rex",
+    "slug": "martyris-rex",
+    "name": "Martyris Rex",
+    "aliases": [],
+    "description": "It is said that only the truly Democratic can lift this cape to their shoulders.",
+    "image": null,
+    "wiki": {
+      "title": "Martyris Rex",
+      "url": "https://helldivers.wiki.gg/wiki/Martyris_Rex",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P2",
+      "warbondId": "cutting-edge",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

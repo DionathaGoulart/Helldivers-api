@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
-    "count": 30,
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "count": 31,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,7 +25,10 @@
       "effects": [
         "Provides 50% resistance to fire, gas, acid, and electrical damage."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ac-1-dutiful",
+        "ac-2-obedient"
+      ]
     },
     {
       "id": "adreno-defibrillator",
@@ -44,7 +47,11 @@
         "Increases stim effect duration by 2.0s.",
         "Provides 50% resistance to arc damage."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ad-11-livewire",
+        "ad-26-bleeding-edge",
+        "ad-49-apollonian"
+      ]
     },
     {
       "id": "advanced-filtration",
@@ -61,7 +68,12 @@
       "effects": [
         "Provides 80% resistance to gas damage and effects."
       ],
-      "armorIds": []
+      "armorIds": [
+        "af-02-haz-master",
+        "af-50-noxious-ranger",
+        "af-52-lockdown",
+        "af-91-field-chemist"
+      ]
     },
     {
       "id": "ballistic-padding",
@@ -80,7 +92,31 @@
         "Provides 25% resistance to explosive damage.",
         "Prevents all damage from bleeding if chest hemorrhages."
       ],
-      "armorIds": []
+      "armorIds": [
+        "bp-20-correct-officer",
+        "bp-32-jackboot",
+        "bp-77-grand-juror"
+      ]
+    },
+    {
+      "id": "blunt-force-mitigation",
+      "slug": "blunt-force-mitigation",
+      "name": "Blunt-Force Mitigation",
+      "aliases": [],
+      "description": "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",
+      "image": null,
+      "wiki": {
+        "title": "Blunt-Force Mitigation",
+        "url": "https://helldivers.wiki.gg/wiki/Blunt-Force_Mitigation",
+        "flags": []
+      },
+      "effects": [
+        "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating."
+      ],
+      "armorIds": [
+        "bfm-16-tanker",
+        "bfm-220-ironclad"
+      ]
     },
     {
       "id": "concussive-padding-grenadier",
@@ -98,7 +134,9 @@
         "Provides 50% resistance to explosive damage.",
         "Increases initial inventory and holding capacity of throwables by +2."
       ],
-      "armorIds": []
+      "armorIds": [
+        "cpg-48-sapper"
+      ]
     },
     {
       "id": "concussive-padding-hazmat",
@@ -117,7 +155,9 @@
         "Provides 25% resistance to gas damage and effects.",
         "Sidearm recoil reduced by 30%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "cph-26-commandant"
+      ]
     },
     {
       "id": "concussive-padding-reinforced",
@@ -135,7 +175,9 @@
         "Provides 50% resistance to explosive damage.",
         "Provides a higher armor rating."
       ],
-      "armorIds": []
+      "armorIds": [
+        "cpr-80-bulwark"
+      ]
     },
     {
       "id": "democracy-protects",
@@ -153,7 +195,14 @@
         "50% chance to not die when taking lethal damage.",
         "Prevents all damage from bleeding if chest hemorrhages."
       ],
-      "armorIds": []
+      "armorIds": [
+        "b-22-model-citizen",
+        "dp-00-tactical",
+        "dp-11-champion-of-the-people",
+        "dp-40-hero-of-the-federation",
+        "dp-53-savior-of-the-free",
+        "tr-9-cavalier-of-democracy"
+      ]
     },
     {
       "id": "desert-stormer",
@@ -171,7 +220,11 @@
         "Provides 40% resistance to fire, gas, acid, and electrical damage.",
         "Increases throwing range by 20%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ds-10-big-game-hunter",
+        "ds-191-scorpion",
+        "ds-42-federations-blade"
+      ]
     },
     {
       "id": "electrical-conduit",
@@ -188,7 +241,11 @@
       "effects": [
         "Provides 95% resistance to arc damage."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ex-00-prototype-x",
+        "ex-03-prototype-3",
+        "ex-16-prototype-16"
+      ]
     },
     {
       "id": "engineering-kit",
@@ -206,7 +263,18 @@
         "Further reduces recoil when crouching or prone by 30%.",
         "Increases initial inventory and holding capacity of throwables by +2."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ce-07-demolition-specialist",
+        "ce-101-guerilla-gorilla",
+        "ce-27-ground-breaker",
+        "ce-35-trench-engineer",
+        "ce-64-grenadier",
+        "ce-67-titan",
+        "ce-74-breaker",
+        "ce-81-juggernaut",
+        "fs-37-ravager",
+        "sc-15-drone-master"
+      ]
     },
     {
       "id": "extra-padding",
@@ -223,7 +291,14 @@
       "effects": [
         "Provides a higher armor rating."
       ],
-      "armorIds": []
+      "armorIds": [
+        "b-01-tactical",
+        "b-08-light-gunner",
+        "b-27-fortified-commando",
+        "cw-9-white-wolf",
+        "tr-40-gold-eagle",
+        "tr-7-ambassador-of-the-brand"
+      ]
     },
     {
       "id": "feet-first",
@@ -242,7 +317,10 @@
         "Increases point-of-interest identification range by 30%.",
         "Provides immunity to leg injuries."
       ],
-      "armorIds": []
+      "armorIds": [
+        "a-35-recon",
+        "a-9-helljumper"
+      ]
     },
     {
       "id": "fortified",
@@ -260,7 +338,16 @@
         "Further reduces recoil when crouching or prone by 30%.",
         "Provides 50% resistance to explosive damage."
       ],
-      "armorIds": []
+      "armorIds": [
+        "b-24-enforcer",
+        "cw-22-kodiak",
+        "fs-05-marksman",
+        "fs-11-executioner",
+        "fs-23-battle-master",
+        "fs-34-exterminator",
+        "fs-38-eradicator",
+        "fs-55-devastator"
+      ]
     },
     {
       "id": "gunslinger",
@@ -279,7 +366,11 @@
         "Sidearm draw/holster speed increased by 50%.",
         "Sidearm recoil reduced by 70%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "gs-11-democracys-deputy",
+        "gs-17-frontier-marshal",
+        "gs-66-lawmaker"
+      ]
     },
     {
       "id": "inflammable",
@@ -296,7 +387,12 @@
       "effects": [
         "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability."
       ],
-      "armorIds": []
+      "armorIds": [
+        "i-09-heatseeker",
+        "i-102-draconaught",
+        "i-44-salamander",
+        "i-92-fire-fighter"
+      ]
     },
     {
       "id": "integrated-explosives",
@@ -314,7 +410,11 @@
         "Armor explodes 1.5s after the wearer dies.",
         "Increases initial inventory and holding capacity of throwables by +2."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ie-12-righteous",
+        "ie-3-martyr",
+        "ie-57-hell-bent"
+      ]
     },
     {
       "id": "kinetic-displacement-mitigation",
@@ -333,7 +433,9 @@
         "Gives the wearer a 50% chance to avoid grievous limb injury.",
         "Reduces damage taken from impact and collisions by 30%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "kdm-500-outrider"
+      ]
     },
     {
       "id": "med-kit",
@@ -351,7 +453,14 @@
         "Increases initial inventory and holding capacity of stims by +2.",
         "Increases stim effect duration by 2.0s."
       ],
-      "armorIds": []
+      "armorIds": [
+        "cm-09-bonesnapper",
+        "cm-10-clinician",
+        "cm-14-physician",
+        "cm-17-butcher",
+        "cm-21-trench-paramedic",
+        "tr-117-alpha-commander"
+      ]
     },
     {
       "id": "oxygenator",
@@ -369,7 +478,11 @@
         "Increases the wearer's walking speed and running speed.",
         "Increases the speed and duration of slides."
       ],
-      "armorIds": []
+      "armorIds": [
+        "o-2-heavy-operator",
+        "o-3-free-spirit",
+        "o-44-bonded-pilot"
+      ]
     },
     {
       "id": "peak-physique",
@@ -387,7 +500,11 @@
         "Increases melee damage by 40%.",
         "Improves weapons handling with less drag on weapon movement."
       ],
-      "armorIds": []
+      "armorIds": [
+        "ph-202-twigsnapper",
+        "ph-56-jaguar",
+        "ph-9-predator"
+      ]
     },
     {
       "id": "reduced-signature",
@@ -405,7 +522,11 @@
         "Wearer makes 50% less noise when moving.",
         "Reduces range at which enemies can detect the wearer by 40%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "rs-100-sanctioner",
+        "rs-67-null-cipher",
+        "rs-89-shadow-paragon"
+      ]
     },
     {
       "id": "reinforced-epaulettes",
@@ -424,7 +545,11 @@
         "Gives wearer a 50% chance to avoid grievous limb injury.",
         "Increases melee damage by 20%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "re-1861-parade-commander",
+        "re-2310-honorary-guard",
+        "re-824-bearer-of-the-standard"
+      ]
     },
     {
       "id": "rock-solid",
@@ -442,7 +567,11 @@
         "Increases melee damage by 40%.",
         "Bearer is more resistant to being knocked prone."
       ],
-      "armorIds": []
+      "armorIds": [
+        "rs-20-constrictor",
+        "rs-40-beast-of-prey",
+        "rs-6-fiend-destroyer"
+      ]
     },
     {
       "id": "scout",
@@ -460,7 +589,12 @@
         "Markers placed on the map will generate radar scans every 2.0s.",
         "Reduces range at which enemies can detect the wearer by 30%."
       ],
-      "armorIds": []
+      "armorIds": [
+        "cw-4-arctic-ranger",
+        "sa-04-combat-technician",
+        "sc-30-trailblazer-scout",
+        "sc-34-infiltrator"
+      ]
     },
     {
       "id": "servo-assisted",
@@ -478,7 +612,15 @@
         "Increases throwing range by 30%.",
         "Provides +50% limb health."
       ],
-      "armorIds": []
+      "armorIds": [
+        "cw-36-winter-warrior",
+        "fs-61-dreadnought",
+        "sa-12-servo-assisted",
+        "sa-25-steel-trooper",
+        "sa-32-dynamo",
+        "sc-37-legionnaire",
+        "tr-62-knight"
+      ]
     },
     {
       "id": "siege-ready",
@@ -496,7 +638,12 @@
         "Increases reload speed of primary weapons by 30%.",
         "Increases ammo capacity of all weapons by 20%. Does not affect weapon backpacks."
       ],
-      "armorIds": []
+      "armorIds": [
+        "dp-8-mountain-scaled",
+        "sr-18-roadblock",
+        "sr-24-street-scout",
+        "sr-64-cinderblock"
+      ]
     },
     {
       "id": "supplementary-adrenaline",
@@ -514,7 +661,10 @@
         "When the wearer takes damage, they regain some stamina.",
         "Provides a higher armor rating."
       ],
-      "armorIds": []
+      "armorIds": [
+        "sa-7-headfirst",
+        "sa-8-ram"
+      ]
     },
     {
       "id": "true-grit",
@@ -532,7 +682,10 @@
         "Increases reload speed of support weapons by 30%.",
         "Slightly increases weapon ergonomics to reduce drag on weapon movement."
       ],
-      "armorIds": []
+      "armorIds": [
+        "tg-122-demo-trooper",
+        "tg-8-sharpshooter"
+      ]
     },
     {
       "id": "unflinching",
@@ -551,7 +704,11 @@
         "Provides a higher armor rating.",
         "Markers placed on the map will generate radar scans every 2.0s."
       ],
-      "armorIds": []
+      "armorIds": [
+        "uf-16-inspector",
+        "uf-50-bloodhound",
+        "uf-84-doubt-killer"
+      ]
     }
   ]
 }

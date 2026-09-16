@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cm-14-physician",
+    "slug": "cm-14-physician",
+    "name": "CM-14 Physician",
+    "wiki": {
+      "title": "CM-14 Physician",
+      "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",
+      "flags": []
+    },
+    "armorId": "cm-14-physician",
+    "helmetId": "cm-14-physician",
+    "capeId": null,
+    "capeLink": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "b-01-tactical",
+    "slug": "b-01-tactical",
+    "name": "B-01 Tactical",
+    "aliases": [],
+    "description": "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
+    "image": null,
+    "wiki": {
+      "title": "B-01 Tactical",
+      "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 150,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "extra-padding",
+    "setIds": [
+      "b-01-tactical"
+    ],
+    "source": {
+      "type": "default",
+      "label": "Starter Equipment",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

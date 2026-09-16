@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "mother-eagles-wings",
+    "slug": "mother-eagles-wings",
+    "name": "Mother Eagle's Wings",
+    "aliases": [],
+    "description": "Those taken under the wings of the Law can rest easy knowing that their transgressions will soon be laid bare, their harms amended, and their citizenship safely sequestered.",
+    "image": null,
+    "wiki": {
+      "title": "Mother Eagle's Wings",
+      "url": "https://helldivers.wiki.gg/wiki/Mother_Eagle's_Wings",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P2",
+      "warbondId": "force-of-law",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

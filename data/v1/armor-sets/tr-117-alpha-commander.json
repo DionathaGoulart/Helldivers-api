@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tr-117-alpha-commander",
+    "slug": "tr-117-alpha-commander",
+    "name": "TR-117 Alpha Commander",
+    "wiki": {
+      "title": "TR-117 Alpha Commander",
+      "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
+      "flags": []
+    },
+    "armorId": "tr-117-alpha-commander",
+    "helmetId": "tr-117-alpha-commander",
+    "capeId": null,
+    "capeLink": null
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "i-44-salamander",
+    "slug": "i-44-salamander",
+    "name": "I-44 Salamander",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "I-44 Salamander",
+      "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
+      "flags": []
+    },
+    "setIds": [
+      "i-44-salamander"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  }
+}

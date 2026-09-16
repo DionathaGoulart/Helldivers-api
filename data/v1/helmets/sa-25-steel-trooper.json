@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sa-25-steel-trooper",
+    "slug": "sa-25-steel-trooper",
+    "name": "SA-25 Steel Trooper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-25 Steel Trooper",
+      "url": "https://helldivers.wiki.gg/wiki/SA-25_Steel_Trooper",
+      "flags": []
+    },
+    "setIds": [
+      "sa-25-steel-trooper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P1",
+      "warbondId": "steeled-veterans",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  }
+}

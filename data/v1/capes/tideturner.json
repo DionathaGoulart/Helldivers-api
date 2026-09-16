@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tideturner",
+    "slug": "tideturner",
+    "name": "Tideturner",
+    "aliases": [],
+    "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory.",
+    "image": null,
+    "wiki": {
+      "title": "Tideturner",
+      "url": "https://helldivers.wiki.gg/wiki/Tideturner",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P3",
+      "warbondId": "helldivers-mobilize",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

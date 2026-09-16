@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "independence-bringer",
+    "slug": "independence-bringer",
+    "name": "Independence Bringer",
+    "aliases": [],
+    "description": "This cape's cropped length symbolizes the brevity of galactic conflicts, thanks to the efficiency of the Helldivers.",
+    "image": null,
+    "wiki": {
+      "title": "Independence Bringer",
+      "url": "https://helldivers.wiki.gg/wiki/Independence_Bringer",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P1",
+      "warbondId": "helldivers-mobilize",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  }
+}

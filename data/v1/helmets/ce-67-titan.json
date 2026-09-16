@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ce-67-titan",
+    "slug": "ce-67-titan",
+    "name": "CE-67 Titan",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-67 Titan",
+      "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
+      "flags": []
+    },
+    "setIds": [
+      "ce-67-titan"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  }
+}

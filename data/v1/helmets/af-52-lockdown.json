@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "af-52-lockdown",
+    "slug": "af-52-lockdown",
+    "name": "AF-52 Lockdown",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AF-52 Lockdown",
+      "url": "https://helldivers.wiki.gg/wiki/AF-52_Lockdown",
+      "flags": []
+    },
+    "setIds": [
+      "af-52-lockdown"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-37-ravager",
+    "slug": "fs-37-ravager",
+    "name": "FS-37 Ravager",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-37 Ravager",
+      "url": "https://helldivers.wiki.gg/wiki/FS-37_Ravager",
+      "flags": []
+    },
+    "setIds": [
+      "fs-37-ravager"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  }
+}

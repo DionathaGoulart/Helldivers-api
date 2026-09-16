@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sa-8-ram",
+    "slug": "sa-8-ram",
+    "name": "SA-8 Ram",
+    "aliases": [],
+    "description": "The heavy plate used in this armor is sustainably sourced from the corpses of non-sentient Automaton, then processed by other, similarly non-sentient Automatons.",
+    "image": null,
+    "wiki": {
+      "title": "SA-8 Ram",
+      "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",
+      "flags": []
+    },
+    "weight": "heavy",
+    "armorRating": 175,
+    "speed": 450,
+    "staminaRegen": 50,
+    "passiveId": "supplementary-adrenaline",
+    "setIds": [
+      "sa-8-ram"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers P2",
+      "warbondId": "siege-breakers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 55
+      },
+      "rotating": null
+    }
+  }
+}

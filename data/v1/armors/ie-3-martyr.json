@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ie-3-martyr",
+    "slug": "ie-3-martyr",
+    "name": "IE-3 Martyr",
+    "aliases": [],
+    "description": "Modeled after the Statue of Mournful Liberty, who weeps over the existence of tyranny, this armor is worn by those who would give their lives to dry her tears.",
+    "image": null,
+    "wiki": {
+      "title": "IE-3 Martyr",
+      "url": "https://helldivers.wiki.gg/wiki/IE-3_Martyr",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "integrated-explosives",
+    "setIds": [
+      "ie-3-martyr"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Servants of Freedom P1",
+      "warbondId": "servants-of-freedom",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

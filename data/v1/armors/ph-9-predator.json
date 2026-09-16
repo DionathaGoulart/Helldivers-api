@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ph-9-predator",
+    "slug": "ph-9-predator",
+    "name": "PH-9 Predator",
+    "aliases": [],
+    "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
+    "image": null,
+    "wiki": {
+      "title": "PH-9 Predator",
+      "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
+      "flags": []
+    },
+    "weight": "light",
+    "armorRating": 50,
+    "speed": 550,
+    "staminaRegen": 125,
+    "passiveId": "peak-physique",
+    "setIds": [
+      "ph-9-predator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P1",
+      "warbondId": "viper-commandos",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  }
+}

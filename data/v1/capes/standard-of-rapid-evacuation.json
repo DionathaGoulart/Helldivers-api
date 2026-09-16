@@ -1,0 +1,36 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "standard-of-rapid-evacuation",
+    "slug": "standard-of-rapid-evacuation",
+    "name": "Standard of Rapid Evacuation",
+    "aliases": [],
+    "description": "Standard of Rapid Evacuation is a cape and a player card in Helldivers 2.",
+    "image": null,
+    "wiki": {
+      "title": "Standard of Rapid Evacuation",
+      "url": "https://helldivers.wiki.gg/wiki/Standard_of_Rapid_Evacuation",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Ironclad Democracy",
+      "warbondId": "ironclad-democracy",
+      "page": 1,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

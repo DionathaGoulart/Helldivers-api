@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cm-17-butcher",
+    "slug": "cm-17-butcher",
+    "name": "CM-17 Butcher",
+    "aliases": [],
+    "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
+    "image": null,
+    "wiki": {
+      "title": "CM-17 Butcher",
+      "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
+      "flags": []
+    },
+    "weight": "heavy",
+    "armorRating": 150,
+    "speed": 450,
+    "staminaRegen": 50,
+    "passiveId": "med-kit",
+    "setIds": [
+      "cm-17-butcher"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  }
+}

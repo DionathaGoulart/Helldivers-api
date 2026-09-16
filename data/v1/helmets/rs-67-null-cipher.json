@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rs-67-null-cipher",
+    "slug": "rs-67-null-cipher",
+    "name": "RS-67 Null Cipher",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-67 Null Cipher",
+      "url": "https://helldivers.wiki.gg/wiki/RS-67_Null_Cipher",
+      "flags": []
+    },
+    "setIds": [
+      "rs-67-null-cipher"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P2",
+      "warbondId": "redacted-regiment",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

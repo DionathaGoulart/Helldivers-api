@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dignity-of-toil",
+    "slug": "dignity-of-toil",
+    "name": "Dignity of Toil",
+    "aliases": [],
+    "description": "Woven from coarse, industrial fibers designed to absorb sweat and oil, this cape features a spade emblem to honor Super Earth's groundbreakers, who ensure Liberty's light finds its way through any planet's crust.",
+    "image": null,
+    "wiki": {
+      "title": "Dignity of Toil",
+      "url": "https://helldivers.wiki.gg/wiki/Dignity_of_Toil",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P1",
+      "warbondId": "entrenched-division",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

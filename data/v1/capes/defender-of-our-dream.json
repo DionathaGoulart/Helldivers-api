@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "defender-of-our-dream",
+    "slug": "defender-of-our-dream",
+    "name": "Defender of Our Dream",
+    "aliases": [],
+    "description": "Commemorating the New Stockholm treaty on prisoners of war, this cape celebrates the right of all enemy combatants to a swift and merciful execution.",
+    "image": null,
+    "wiki": {
+      "title": "Defender of Our Dream",
+      "url": "https://helldivers.wiki.gg/wiki/Defender_of_Our_Dream",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P2",
+      "warbondId": "righteous-revenants",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dp-11-champion-of-the-people",
+    "slug": "dp-11-champion-of-the-people",
+    "name": "DP-11 Champion of the People",
+    "aliases": [],
+    "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
+    "image": null,
+    "wiki": {
+      "title": "DP-11 Champion of the People",
+      "url": "https://helldivers.wiki.gg/wiki/DP-11_Champion_of_the_People",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "democracy-protects",
+    "setIds": [
+      "dp-11-champion-of-the-people"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P10",
+      "warbondId": "helldivers-mobilize",
+      "page": 10,
+      "cost": {
+        "currency": "medals",
+        "amount": 100
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "dp-40-hero-of-the-federation",
+    "slug": "dp-40-hero-of-the-federation",
+    "name": "DP-40 Hero of the Federation",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DP-40 Hero of the Federation",
+      "url": "https://helldivers.wiki.gg/wiki/DP-40_Hero_of_the_Federation",
+      "flags": []
+    },
+    "setIds": [
+      "dp-40-hero-of-the-federation"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P5",
+      "warbondId": "helldivers-mobilize",
+      "page": 5,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

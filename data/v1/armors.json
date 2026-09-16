@@ -1,0 +1,3503 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "count": 109,
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": [
+    {
+      "id": "a-35-recon",
+      "slug": "a-35-recon",
+      "name": "A-35 Recon",
+      "aliases": [],
+      "description": "Made famous by the Ministry of Intelligence's hide-and-seek-and-destroy champion of '52, this armor has been improved by removing excess shoulder protection.",
+      "image": null,
+      "wiki": {
+        "title": "A-35 Recon",
+        "url": "https://helldivers.wiki.gg/wiki/A-35_Recon",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "feet-first",
+      "setIds": [
+        "a-35-recon"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Halo: ODST P2",
+        "warbondId": "obedient-democracy-support-troopers",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "a-9-helljumper",
+      "slug": "a-9-helljumper",
+      "name": "A-9 Helljumper",
+      "aliases": [],
+      "description": "Debuted during the New Mombasa Armor Show, this sleek ensemble is sure to turn heads and blow minds.",
+      "image": null,
+      "wiki": {
+        "title": "A-9 Helljumper",
+        "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "feet-first",
+      "setIds": [
+        "a-9-helljumper"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Halo: ODST P1",
+        "warbondId": "obedient-democracy-support-troopers",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ac-1-dutiful",
+      "slug": "ac-1-dutiful",
+      "name": "AC-1 Dutiful",
+      "aliases": [],
+      "description": "The breathing apparatus built into this armor helps both soldiers and colonists thrive, even when assigned to planets with atmospheres rated “suboptimal,” “extreme,” and “character building.”",
+      "image": null,
+      "wiki": {
+        "title": "AC-1 Dutiful",
+        "url": "https://helldivers.wiki.gg/wiki/AC-1_Dutiful",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "acclimated",
+      "setIds": [
+        "ac-1-dutiful"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Righteous Revenants P1",
+        "warbondId": "righteous-revenants",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ac-2-obedient",
+      "slug": "ac-2-obedient",
+      "name": "AC-2 Obedient",
+      "aliases": [],
+      "description": "The muted colors and relaxed, high-mobility fit make it a favorite among long-distance snipers and hide-and-seek champions alike.",
+      "image": null,
+      "wiki": {
+        "title": "AC-2 Obedient",
+        "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "acclimated",
+      "setIds": [
+        "ac-2-obedient"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Righteous Revenants P2",
+        "warbondId": "righteous-revenants",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ad-11-livewire",
+      "slug": "ad-11-livewire",
+      "name": "AD-11 Livewire",
+      "aliases": [],
+      "description": "Part of a long line of experimental armor commonly seen on industrial engineering campuses, in the basements of select science aficionados, and around Super Destroyer Mega Garages.",
+      "image": null,
+      "wiki": {
+        "title": "AD-11 Livewire",
+        "url": "https://helldivers.wiki.gg/wiki/AD-11_Livewire",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "adreno-defibrillator",
+      "setIds": [
+        "ad-11-livewire"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 300
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ad-26-bleeding-edge",
+      "slug": "ad-26-bleeding-edge",
+      "name": "AD-26 Bleeding Edge",
+      "aliases": [],
+      "description": "Pushing the boundaries of bionic engineering, this armor collects and dispenses a number of vital fluids, several of which are soon to be declassified.",
+      "image": null,
+      "wiki": {
+        "title": "AD-26 Bleeding Edge",
+        "url": "https://helldivers.wiki.gg/wiki/AD-26_Bleeding_Edge",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "adreno-defibrillator",
+      "setIds": [
+        "ad-26-bleeding-edge"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Control Group P1",
+        "warbondId": "control-group",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ad-49-apollonian",
+      "slug": "ad-49-apollonian",
+      "name": "AD-49 Apollonian",
+      "aliases": [],
+      "description": "Equipped with the latest computational systems, subsystems, and supersystems, this armor is worth the equivalent of a small Megacity.",
+      "image": null,
+      "wiki": {
+        "title": "AD-49 Apollonian",
+        "url": "https://helldivers.wiki.gg/wiki/AD-49_Apollonian",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "adreno-defibrillator",
+      "setIds": [
+        "ad-49-apollonian"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Control Group P2",
+        "warbondId": "control-group",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "af-02-haz-master",
+      "slug": "af-02-haz-master",
+      "name": "AF-02 Haz-Master",
+      "aliases": [],
+      "description": "Developed by the Ministry of Science while investigating the phenomenon known as The Gloom, this armor is non-permeable and squeak resistant.",
+      "image": null,
+      "wiki": {
+        "title": "AF-02 Haz-Master",
+        "url": "https://helldivers.wiki.gg/wiki/AF-02_Haz-Master",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "advanced-filtration",
+      "setIds": [
+        "af-02-haz-master"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Chemical Agents P2",
+        "warbondId": "chemical-agents",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "af-50-noxious-ranger",
+      "slug": "af-50-noxious-ranger",
+      "name": "AF-50 Noxious Ranger",
+      "aliases": [],
+      "description": "“We fear not poison, fear not death; spite our foes with every breath.” From the beloved classic Hazard Pay: The Musical.",
+      "image": null,
+      "wiki": {
+        "title": "AF-50 Noxious Ranger",
+        "url": "https://helldivers.wiki.gg/wiki/AF-50_Noxious_Ranger",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "advanced-filtration",
+      "setIds": [
+        "af-50-noxious-ranger"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Chemical Agents P1",
+        "warbondId": "chemical-agents",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 40
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "af-52-lockdown",
+      "slug": "af-52-lockdown",
+      "name": "AF-52 Lockdown",
+      "aliases": [],
+      "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback.",
+      "image": null,
+      "wiki": {
+        "title": "AF-52 Lockdown",
+        "url": "https://helldivers.wiki.gg/wiki/AF-52_Lockdown",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "advanced-filtration",
+      "setIds": [
+        "af-52-lockdown"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 400
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "af-91-field-chemist",
+      "slug": "af-91-field-chemist",
+      "name": "AF-91 Field Chemist",
+      "aliases": [],
+      "description": "This armor, together with its friendly-faced helmet, is instantly recognizable from the beloved children's show “Jen Shriver the Science Diver.”",
+      "image": null,
+      "wiki": {
+        "title": "AF-91 Field Chemist",
+        "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "advanced-filtration",
+      "setIds": [
+        "af-91-field-chemist"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "b-01-tactical",
+      "slug": "b-01-tactical",
+      "name": "B-01 Tactical",
+      "aliases": [],
+      "description": "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
+      "image": null,
+      "wiki": {
+        "title": "B-01 Tactical",
+        "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 150,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "extra-padding",
+      "setIds": [
+        "b-01-tactical"
+      ],
+      "source": {
+        "type": "default",
+        "label": "Starter Equipment",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "b-08-light-gunner",
+      "slug": "b-08-light-gunner",
+      "name": "B-08 Light Gunner",
+      "aliases": [],
+      "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
+      "image": null,
+      "wiki": {
+        "title": "B-08 Light Gunner",
+        "url": "https://helldivers.wiki.gg/wiki/B-08_Light_Gunner",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 100,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "extra-padding",
+      "setIds": [
+        "b-08-light-gunner"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 150
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "b-22-model-citizen",
+      "slug": "b-22-model-citizen",
+      "name": "B-22 Model Citizen",
+      "aliases": [],
+      "description": "Gifted to Helldivers whose civilian lives were distinguished by exemplary citizenship, patriotism, and service to the Federation.",
+      "image": null,
+      "wiki": {
+        "title": "B-22 Model Citizen",
+        "url": "https://helldivers.wiki.gg/wiki/B-22_Model_Citizen",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "democracy-protects",
+      "setIds": [
+        "b-22-model-citizen"
+      ],
+      "source": {
+        "type": "event",
+        "label": "Anniversary Gift",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "b-24-enforcer",
+      "slug": "b-24-enforcer",
+      "name": "B-24 Enforcer",
+      "aliases": [],
+      "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
+      "image": null,
+      "wiki": {
+        "title": "B-24 Enforcer",
+        "url": "https://helldivers.wiki.gg/wiki/B-24_Enforcer",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 129,
+      "speed": 471,
+      "staminaRegen": 71,
+      "passiveId": "fortified",
+      "setIds": [
+        "b-24-enforcer"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 150
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "b-27-fortified-commando",
+      "slug": "b-27-fortified-commando",
+      "name": "B-27 Fortified Commando",
+      "aliases": [],
+      "description": "This armor set first appeared in the music video for the summer anthem ‘Our Love Is like Liberty (Indestructible)’.",
+      "image": null,
+      "wiki": {
+        "title": "B-27 Fortified Commando",
+        "url": "https://helldivers.wiki.gg/wiki/B-27_Fortified_Commando",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 200,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "extra-padding",
+      "setIds": [
+        "b-27-fortified-commando"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 400
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "bfm-16-tanker",
+      "slug": "bfm-16-tanker",
+      "name": "BFM-16 Tanker",
+      "aliases": [],
+      "description": "BFM-16 Tanker is a set of light armor in Helldivers 2.",
+      "image": null,
+      "wiki": {
+        "title": "BFM-16 Tanker",
+        "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "blunt-force-mitigation",
+      "setIds": [
+        "bfm-16-tanker"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Ironclad Democracy",
+        "warbondId": "ironclad-democracy",
+        "page": 1,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "bfm-220-ironclad",
+      "slug": "bfm-220-ironclad",
+      "name": "BFM-220 Ironclad",
+      "aliases": [],
+      "description": "BFM-220 Ironclad is a set of heavy armor in Helldivers 2.",
+      "image": null,
+      "wiki": {
+        "title": "BFM-220 Ironclad",
+        "url": "https://helldivers.wiki.gg/wiki/BFM-220_Ironclad",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "blunt-force-mitigation",
+      "setIds": [
+        "bfm-220-ironclad"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Ironclad Democracy",
+        "warbondId": "ironclad-democracy",
+        "page": 2,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "bp-20-correct-officer",
+      "slug": "bp-20-correct-officer",
+      "name": "BP-20 Correct Officer",
+      "aliases": [],
+      "description": "A welcome sight in all Democratic neighborhoods, this armor inspires both civil pride and civic obedience.",
+      "image": null,
+      "wiki": {
+        "title": "BP-20 Correct Officer",
+        "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "ballistic-padding",
+      "setIds": [
+        "bp-20-correct-officer"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Force of Law P1",
+        "warbondId": "force-of-law",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "bp-32-jackboot",
+      "slug": "bp-32-jackboot",
+      "name": "BP-32 Jackboot",
+      "aliases": [],
+      "description": "Named for Helldiver Jack Boote, who shut down 908 illegal broadcasts before retiring with honors.",
+      "image": null,
+      "wiki": {
+        "title": "BP-32 Jackboot",
+        "url": "https://helldivers.wiki.gg/wiki/BP-32_Jackboot",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "ballistic-padding",
+      "setIds": [
+        "bp-32-jackboot"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Force of Law P2",
+        "warbondId": "force-of-law",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "bp-77-grand-juror",
+      "slug": "bp-77-grand-juror",
+      "name": "BP-77 Grand Juror",
+      "aliases": [],
+      "description": "Each gilded detail is polished to perfection by re-educated dissidents, as part of the Lifelong Post-Infraction Atonement Program.",
+      "image": null,
+      "wiki": {
+        "title": "BP-77 Grand Juror",
+        "url": "https://helldivers.wiki.gg/wiki/BP-77_Grand_Juror",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "ballistic-padding",
+      "setIds": [
+        "bp-77-grand-juror"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ce-07-demolition-specialist",
+      "slug": "ce-07-demolition-specialist",
+      "name": "CE-07 Demolition Specialist",
+      "aliases": [],
+      "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in pressure, heat, and personal velocity.",
+      "image": null,
+      "wiki": {
+        "title": "CE-07 Demolition Specialist",
+        "url": "https://helldivers.wiki.gg/wiki/CE-07_Demolition_Specialist",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 64,
+      "speed": 536,
+      "staminaRegen": 118,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-07-demolition-specialist"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation P2",
+        "warbondId": "democratic-detonation",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ce-101-guerilla-gorilla",
+      "slug": "ce-101-guerilla-gorilla",
+      "name": "CE-101 Guerilla Gorilla",
+      "aliases": [],
+      "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
+      "image": null,
+      "wiki": {
+        "title": "CE-101 Guerilla Gorilla",
+        "url": "https://helldivers.wiki.gg/wiki/CE-101_Guerilla_Gorilla",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-101-guerilla-gorilla"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ce-27-ground-breaker",
+      "slug": "ce-27-ground-breaker",
+      "name": "CE-27 Ground Breaker",
+      "aliases": [],
+      "description": "“The ground is just another obstacle that hasn't yet been cleared.”—SGM Janet Jones, Excavation Corps Founder.",
+      "image": null,
+      "wiki": {
+        "title": "CE-27 Ground Breaker",
+        "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-27-ground-breaker"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation P1",
+        "warbondId": "democratic-detonation",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 18
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ce-35-trench-engineer",
+      "slug": "ce-35-trench-engineer",
+      "name": "CE-35 Trench Engineer",
+      "aliases": [],
+      "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
+      "image": null,
+      "wiki": {
+        "title": "CE-35 Trench Engineer",
+        "url": "https://helldivers.wiki.gg/wiki/CE-35_Trench_Engineer",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-35-trench-engineer"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P3",
+        "warbondId": "helldivers-mobilize",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 10
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ce-64-grenadier",
+      "slug": "ce-64-grenadier",
+      "name": "CE-64 Grenadier",
+      "aliases": [],
+      "description": "The set's classic advertising campaign “Have you tried a grenade?” has remained unchanged for over 70 years.",
+      "image": null,
+      "wiki": {
+        "title": "CE-64 Grenadier",
+        "url": "https://helldivers.wiki.gg/wiki/CE-64_Grenadier",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-64-grenadier"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 300
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ce-67-titan",
+      "slug": "ce-67-titan",
+      "name": "CE-67 Titan",
+      "aliases": [],
+      "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
+      "image": null,
+      "wiki": {
+        "title": "CE-67 Titan",
+        "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 79,
+      "speed": 521,
+      "staminaRegen": 111,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-67-titan"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 150
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ce-74-breaker",
+      "slug": "ce-74-breaker",
+      "name": "CE-74 Breaker",
+      "aliases": [],
+      "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
+      "image": null,
+      "wiki": {
+        "title": "CE-74 Breaker",
+        "url": "https://helldivers.wiki.gg/wiki/CE-74_Breaker",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-74-breaker"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ce-81-juggernaut",
+      "slug": "ce-81-juggernaut",
+      "name": "CE-81 Juggernaut",
+      "aliases": [],
+      "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
+      "image": null,
+      "wiki": {
+        "title": "CE-81 Juggernaut",
+        "url": "https://helldivers.wiki.gg/wiki/CE-81_Juggernaut",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "ce-81-juggernaut"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "cm-09-bonesnapper",
+      "slug": "cm-09-bonesnapper",
+      "name": "CM-09 Bonesnapper",
+      "aliases": [],
+      "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties.",
+      "image": null,
+      "wiki": {
+        "title": "CM-09 Bonesnapper",
+        "url": "https://helldivers.wiki.gg/wiki/CM-09_Bonesnapper",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "med-kit",
+      "setIds": [
+        "cm-09-bonesnapper"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P4",
+        "warbondId": "helldivers-mobilize",
+        "page": 4,
+        "cost": {
+          "currency": "medals",
+          "amount": 15
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cm-10-clinician",
+      "slug": "cm-10-clinician",
+      "name": "CM-10 Clinician",
+      "aliases": [],
+      "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
+      "image": null,
+      "wiki": {
+        "title": "CM-10 Clinician",
+        "url": "https://helldivers.wiki.gg/wiki/CM-10_Clinician",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "med-kit",
+      "setIds": [
+        "cm-10-clinician"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "cm-14-physician",
+      "slug": "cm-14-physician",
+      "name": "CM-14 Physician",
+      "aliases": [],
+      "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signal to all Helldivers that help is at hand.",
+      "image": null,
+      "wiki": {
+        "title": "CM-14 Physician",
+        "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "med-kit",
+      "setIds": [
+        "cm-14-physician"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P9",
+        "warbondId": "helldivers-mobilize",
+        "page": 9,
+        "cost": {
+          "currency": "medals",
+          "amount": 70
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cm-17-butcher",
+      "slug": "cm-17-butcher",
+      "name": "CM-17 Butcher",
+      "aliases": [],
+      "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
+      "image": null,
+      "wiki": {
+        "title": "CM-17 Butcher",
+        "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "med-kit",
+      "setIds": [
+        "cm-17-butcher"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "cm-21-trench-paramedic",
+      "slug": "cm-21-trench-paramedic",
+      "name": "CM-21 Trench Paramedic",
+      "aliases": [],
+      "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
+      "image": null,
+      "wiki": {
+        "title": "CM-21 Trench Paramedic",
+        "url": "https://helldivers.wiki.gg/wiki/CM-21_Trench_Paramedic",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 64,
+      "speed": 536,
+      "staminaRegen": 118,
+      "passiveId": "med-kit",
+      "setIds": [
+        "cm-21-trench-paramedic"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "cpg-48-sapper",
+      "slug": "cpg-48-sapper",
+      "name": "CPG-48 Sapper",
+      "aliases": [],
+      "description": "With extra capacity for storing throwable munitions, this armor ensure every enemy stronghold can be tactically ventilated, as per forceful de-fortification protocols.",
+      "image": null,
+      "wiki": {
+        "title": "CPG-48 Sapper",
+        "url": "https://helldivers.wiki.gg/wiki/CPG-48_Sapper",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "concussive-padding-grenadier",
+      "setIds": [
+        "cpg-48-sapper"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Entrenched Division P1",
+        "warbondId": "entrenched-division",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cph-26-commandant",
+      "slug": "cph-26-commandant",
+      "name": "CPH-26 Commandant",
+      "aliases": [],
+      "description": "Featuring a high collar scientifically designed to deflect mud, blood, and indirect non-lethal projectiles, this pristine armor bestows the authority to overcome close-quarters combat through a time-honored tradition: the delegation—or court-martialing—of subordinates.",
+      "image": null,
+      "wiki": {
+        "title": "CPH-26 Commandant",
+        "url": "https://helldivers.wiki.gg/wiki/CPH-26_Commandant",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "concussive-padding-hazmat",
+      "setIds": [
+        "cph-26-commandant"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Entrenched Division P2",
+        "warbondId": "entrenched-division",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cpr-80-bulwark",
+      "slug": "cpr-80-bulwark",
+      "name": "CPR-80 Bulwark",
+      "aliases": [],
+      "description": "This armour pays tribute to the immovable heroes of the front line—those who refuse to acknowledge incoming fire, and consider \"dodging\" to be an abstract concept akin to cowardice.",
+      "image": null,
+      "wiki": {
+        "title": "CPR-80 Bulwark",
+        "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "heavy",
+      "armorRating": 180,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "concussive-padding-reinforced",
+      "setIds": [
+        "cpr-80-bulwark"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "cw-22-kodiak",
+      "slug": "cw-22-kodiak",
+      "name": "CW-22 Kodiak",
+      "aliases": [],
+      "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the “Test Subjects for Super-Earth” Citizen Advancement Program.",
+      "image": null,
+      "wiki": {
+        "title": "CW-22 Kodiak",
+        "url": "https://helldivers.wiki.gg/wiki/CW-22_Kodiak",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "fortified",
+      "setIds": [
+        "cw-22-kodiak"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots P2",
+        "warbondId": "polar-patriots",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cw-36-winter-warrior",
+      "slug": "cw-36-winter-warrior",
+      "name": "CW-36 Winter Warrior",
+      "aliases": [],
+      "description": "Offering camouflage in snowy environments, surplus sets of this armor are used by nature photographers and keen hunters alike.",
+      "image": null,
+      "wiki": {
+        "title": "CW-36 Winter Warrior",
+        "url": "https://helldivers.wiki.gg/wiki/CW-36_Winter_Warrior",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "cw-36-winter-warrior"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots P1",
+        "warbondId": "polar-patriots",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 18
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cw-4-arctic-ranger",
+      "slug": "cw-4-arctic-ranger",
+      "name": "CW-4 Arctic Ranger",
+      "aliases": [],
+      "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
+      "image": null,
+      "wiki": {
+        "title": "CW-4 Arctic Ranger",
+        "url": "https://helldivers.wiki.gg/wiki/CW-4_Arctic_Ranger",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "scout",
+      "setIds": [
+        "cw-4-arctic-ranger"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Polar Patriots P3",
+        "warbondId": "polar-patriots",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 64
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "cw-9-white-wolf",
+      "slug": "cw-9-white-wolf",
+      "name": "CW-9 White Wolf",
+      "aliases": [],
+      "description": "The pattern used for this armor is the result of the Winter Camouflage Improvement Effort, which considered 136 entrants before determining the color white would best blend in with snow.",
+      "image": null,
+      "wiki": {
+        "title": "CW-9 White Wolf",
+        "url": "https://helldivers.wiki.gg/wiki/CW-9_White_Wolf",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 150,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "extra-padding",
+      "setIds": [
+        "cw-9-white-wolf"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 300
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "dp-00-tactical",
+      "slug": "dp-00-tactical",
+      "name": "DP-00 Tactical",
+      "aliases": [],
+      "description": "This classic armor set is recognized by every citizen: worn by the heroic Helldivers who battled and forever defeated the Terminids, Cyborgs, and Illuminate in the First Galactic War.",
+      "image": null,
+      "wiki": {
+        "title": "DP-00 Tactical",
+        "url": "https://helldivers.wiki.gg/wiki/DP-00_Tactical",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "democracy-protects",
+      "setIds": [
+        "dp-00-tactical"
+      ],
+      "source": {
+        "type": "event",
+        "label": "Liberty Day",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "dp-11-champion-of-the-people",
+      "slug": "dp-11-champion-of-the-people",
+      "name": "DP-11 Champion of the People",
+      "aliases": [],
+      "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
+      "image": null,
+      "wiki": {
+        "title": "DP-11 Champion of the People",
+        "url": "https://helldivers.wiki.gg/wiki/DP-11_Champion_of_the_People",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "democracy-protects",
+      "setIds": [
+        "dp-11-champion-of-the-people"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P10",
+        "warbondId": "helldivers-mobilize",
+        "page": 10,
+        "cost": {
+          "currency": "medals",
+          "amount": 100
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "dp-40-hero-of-the-federation",
+      "slug": "dp-40-hero-of-the-federation",
+      "name": "DP-40 Hero of the Federation",
+      "aliases": [],
+      "description": "Though originally intended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
+      "image": null,
+      "wiki": {
+        "title": "DP-40 Hero of the Federation",
+        "url": "https://helldivers.wiki.gg/wiki/DP-40_Hero_of_the_Federation",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "democracy-protects",
+      "setIds": [
+        "dp-40-hero-of-the-federation"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P5",
+        "warbondId": "helldivers-mobilize",
+        "page": 5,
+        "cost": {
+          "currency": "medals",
+          "amount": 25
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "dp-53-savior-of-the-free",
+      "slug": "dp-53-savior-of-the-free",
+      "name": "DP-53 Savior of the Free",
+      "aliases": [],
+      "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
+      "image": null,
+      "wiki": {
+        "title": "DP-53 Savior of the Free",
+        "url": "https://helldivers.wiki.gg/wiki/DP-53_Savior_of_the_Free",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "democracy-protects",
+      "setIds": [
+        "dp-53-savior-of-the-free"
+      ],
+      "source": {
+        "type": "edition",
+        "label": "Super Citizen Edition",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "usd",
+          "amount": 20
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "dp-8-mountain-scaled",
+      "slug": "dp-8-mountain-scaled",
+      "name": "DP-8 Mountain-Scaled",
+      "aliases": [],
+      "description": "This armor recalls the legendary heroes who scared a ravenous Hive Lord away from a colony village, using only the village's battery of patriotic fireworks.",
+      "image": null,
+      "wiki": {
+        "title": "DP-8 Mountain-Scaled",
+        "url": "https://helldivers.wiki.gg/wiki/DP-8_Mountain-Scaled",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "siege-ready",
+      "setIds": [
+        "dp-8-mountain-scaled"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ds-10-big-game-hunter",
+      "slug": "ds-10-big-game-hunter",
+      "name": "DS-10 Big Game Hunter",
+      "aliases": [],
+      "description": "With its rustic charm and huntsmanlike detailing, this armor evokes those heroic expansionists who braved the alien wilds and ushered in our current age of bio-uniformity.",
+      "image": null,
+      "wiki": {
+        "title": "DS-10 Big Game Hunter",
+        "url": "https://helldivers.wiki.gg/wiki/DS-10_Big_Game_Hunter",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "desert-stormer",
+      "setIds": [
+        "ds-10-big-game-hunter"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 300
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ds-191-scorpion",
+      "slug": "ds-191-scorpion",
+      "name": "DS-191 Scorpion",
+      "aliases": [],
+      "description": "This multi-layered protective armor keeps rough sand, spores, and other coarse granules from irritating the skin.",
+      "image": null,
+      "wiki": {
+        "title": "DS-191 Scorpion",
+        "url": "https://helldivers.wiki.gg/wiki/DS-191_Scorpion",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "desert-stormer",
+      "setIds": [
+        "ds-191-scorpion"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Dust Devils P2",
+        "warbondId": "dust-devils",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ds-42-federations-blade",
+      "slug": "ds-42-federations-blade",
+      "name": "DS-42 Federation's Blade",
+      "aliases": [],
+      "description": "This patriotic armor comes recommended by the Ministry of Expansion, empowering the wearer to re-seize from our enemies any territory that any human has laid claim to, at any point in time.",
+      "image": null,
+      "wiki": {
+        "title": "DS-42 Federation's Blade",
+        "url": "https://helldivers.wiki.gg/wiki/DS-42_Federation's_Blade",
+        "flags": [
+          "potentially_outdated"
+        ]
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "desert-stormer",
+      "setIds": [
+        "ds-42-federations-blade"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Dust Devils P1",
+        "warbondId": "dust-devils",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ex-00-prototype-x",
+      "slug": "ex-00-prototype-x",
+      "name": "EX-00 Prototype X",
+      "aliases": [],
+      "description": "The end result of several billion Super Credits and 12 years of research into creating “the Soldier of Tomorrow.”",
+      "image": null,
+      "wiki": {
+        "title": "EX-00 Prototype X",
+        "url": "https://helldivers.wiki.gg/wiki/EX-00_Prototype_X",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "electrical-conduit",
+      "setIds": [
+        "ex-00-prototype-x"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge P3",
+        "warbondId": "cutting-edge",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 64
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ex-03-prototype-3",
+      "slug": "ex-03-prototype-3",
+      "name": "EX-03 Prototype 3",
+      "aliases": [],
+      "description": "Because this prototype's wires operate at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
+      "image": null,
+      "wiki": {
+        "title": "EX-03 Prototype 3",
+        "url": "https://helldivers.wiki.gg/wiki/EX-03_Prototype_3",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "electrical-conduit",
+      "setIds": [
+        "ex-03-prototype-3"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge P1",
+        "warbondId": "cutting-edge",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 18
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ex-16-prototype-16",
+      "slug": "ex-16-prototype-16",
+      "name": "EX-16 Prototype 16",
+      "aliases": [],
+      "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vicinity of stapled paperwork.",
+      "image": null,
+      "wiki": {
+        "title": "EX-16 Prototype 16",
+        "url": "https://helldivers.wiki.gg/wiki/EX-16_Prototype_16",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "electrical-conduit",
+      "setIds": [
+        "ex-16-prototype-16"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Cutting Edge P2",
+        "warbondId": "cutting-edge",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "fs-05-marksman",
+      "slug": "fs-05-marksman",
+      "name": "FS-05 Marksman",
+      "aliases": [],
+      "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
+      "image": null,
+      "wiki": {
+        "title": "FS-05 Marksman",
+        "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "fortified",
+      "setIds": [
+        "fs-05-marksman"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P2",
+        "warbondId": "helldivers-mobilize",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 6
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "fs-11-executioner",
+      "slug": "fs-11-executioner",
+      "name": "FS-11 Executioner",
+      "aliases": [],
+      "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical “Lost My Heart to a Man in a Helmet.”",
+      "image": null,
+      "wiki": {
+        "title": "FS-11 Executioner",
+        "url": "https://helldivers.wiki.gg/wiki/FS-11_Executioner",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "fortified",
+      "setIds": [
+        "fs-11-executioner"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 150
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "fs-23-battle-master",
+      "slug": "fs-23-battle-master",
+      "name": "FS-23 Battle Master",
+      "aliases": [],
+      "description": "This aim-stabilizing armor found surprising secondary market success among alien birdwatching enthusiasts.",
+      "image": null,
+      "wiki": {
+        "title": "FS-23 Battle Master",
+        "url": "https://helldivers.wiki.gg/wiki/FS-23_Battle_Master",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "fortified",
+      "setIds": [
+        "fs-23-battle-master"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P6",
+        "warbondId": "helldivers-mobilize",
+        "page": 6,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "fs-34-exterminator",
+      "slug": "fs-34-exterminator",
+      "name": "FS-34 Exterminator",
+      "aliases": [],
+      "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing.",
+      "image": null,
+      "wiki": {
+        "title": "FS-34 Exterminator",
+        "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "fortified",
+      "setIds": [
+        "fs-34-exterminator"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 400
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "fs-37-ravager",
+      "slug": "fs-37-ravager",
+      "name": "FS-37 Ravager",
+      "aliases": [],
+      "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples, and cool rocks.",
+      "image": null,
+      "wiki": {
+        "title": "FS-37 Ravager",
+        "url": "https://helldivers.wiki.gg/wiki/FS-37_Ravager",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "fs-37-ravager"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "fs-38-eradicator",
+      "slug": "fs-38-eradicator",
+      "name": "FS-38 Eradicator",
+      "aliases": [],
+      "description": "First deployed in the mines of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
+      "image": null,
+      "wiki": {
+        "title": "FS-38 Eradicator",
+        "url": "https://helldivers.wiki.gg/wiki/FS-38_Eradicator",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "fortified",
+      "setIds": [
+        "fs-38-eradicator"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "fs-55-devastator",
+      "slug": "fs-55-devastator",
+      "name": "FS-55 Devastator",
+      "aliases": [],
+      "description": "Domestic versions of this armor enable colonial farmers to plant crops and mines side by side, safely.",
+      "image": null,
+      "wiki": {
+        "title": "FS-55 Devastator",
+        "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "fortified",
+      "setIds": [
+        "fs-55-devastator"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Democratic Detonation P3",
+        "warbondId": "democratic-detonation",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 64
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "fs-61-dreadnought",
+      "slug": "fs-61-dreadnought",
+      "name": "FS-61 Dreadnought",
+      "aliases": [],
+      "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
+      "image": null,
+      "wiki": {
+        "title": "FS-61 Dreadnought",
+        "url": "https://helldivers.wiki.gg/wiki/FS-61_Dreadnought",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "fs-61-dreadnought"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "gs-11-democracys-deputy",
+      "slug": "gs-11-democracys-deputy",
+      "name": "GS-11 Democracy's Deputy",
+      "aliases": [],
+      "description": "At the edge of the Federation, sometimes Democracy has only one representative.",
+      "image": null,
+      "wiki": {
+        "title": "GS-11 Democracy's Deputy",
+        "url": "https://helldivers.wiki.gg/wiki/GS-11_Democracy's_Deputy",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "gunslinger",
+      "setIds": [
+        "gs-11-democracys-deputy"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 300
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "gs-17-frontier-marshal",
+      "slug": "gs-17-frontier-marshal",
+      "name": "GS-17 Frontier Marshal",
+      "aliases": [],
+      "description": "Inspired by the trailblazing agents of the Super Earth Terraforming Company. These rugged adventurers surveyed hostile new planets during the post-GW1 Great Expansion era, preparing the untamed frontier for rapid and efficient assimilation.",
+      "image": null,
+      "wiki": {
+        "title": "GS-17 Frontier Marshal",
+        "url": "https://helldivers.wiki.gg/wiki/GS-17_Frontier_Marshal",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "gunslinger",
+      "setIds": [
+        "gs-17-frontier-marshal"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Borderline Justice P1",
+        "warbondId": "borderline-justice",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "gs-66-lawmaker",
+      "slug": "gs-66-lawmaker",
+      "name": "GS-66 Lawmaker",
+      "aliases": [],
+      "description": "Embodies the ethos of Manifest Democracy—that it is our voter-given responsibility to emancipate the savage, un-Liberated galaxy. To rest only when every planet is safe, civilized, and Free.",
+      "image": null,
+      "wiki": {
+        "title": "GS-66 Lawmaker",
+        "url": "https://helldivers.wiki.gg/wiki/GS-66_Lawmaker",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "gunslinger",
+      "setIds": [
+        "gs-66-lawmaker"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Borderline Justice P2",
+        "warbondId": "borderline-justice",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "i-09-heatseeker",
+      "slug": "i-09-heatseeker",
+      "name": "I-09 Heatseeker",
+      "aliases": [],
+      "description": "The burnished blood-red plates are forged in righteous fire, like the heroes they were wrought to protect.",
+      "image": null,
+      "wiki": {
+        "title": "I-09 Heatseeker",
+        "url": "https://helldivers.wiki.gg/wiki/I-09_Heatseeker",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "inflammable",
+      "setIds": [
+        "i-09-heatseeker"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Freedom's Flame P1",
+        "warbondId": "freedoms-flame",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 18
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "i-102-draconaught",
+      "slug": "i-102-draconaught",
+      "name": "I-102 Draconaught",
+      "aliases": [],
+      "description": "Completely sheathed in 14-cm silica fiber foam, except for a thin tube to the ear canal to enable hearing the satisfying screeches of Freedom's enemies as they burn.",
+      "image": null,
+      "wiki": {
+        "title": "I-102 Draconaught",
+        "url": "https://helldivers.wiki.gg/wiki/I-102_Draconaught",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "inflammable",
+      "setIds": [
+        "i-102-draconaught"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Freedom's Flame P2",
+        "warbondId": "freedoms-flame",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "i-44-salamander",
+      "slug": "i-44-salamander",
+      "name": "I-44 Salamander",
+      "aliases": [],
+      "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields.",
+      "image": null,
+      "wiki": {
+        "title": "I-44 Salamander",
+        "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "inflammable",
+      "setIds": [
+        "i-44-salamander"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "i-92-fire-fighter",
+      "slug": "i-92-fire-fighter",
+      "name": "I-92 Fire Fighter",
+      "aliases": [],
+      "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
+      "image": null,
+      "wiki": {
+        "title": "I-92 Fire Fighter",
+        "url": "https://helldivers.wiki.gg/wiki/I-92_Fire_Fighter",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "inflammable",
+      "setIds": [
+        "i-92-fire-fighter"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ie-12-righteous",
+      "slug": "ie-12-righteous",
+      "name": "IE-12 Righteous",
+      "aliases": [],
+      "description": "Modeled after the myriad Statues of Judicious Liberty, who keep a watchful eye on checkout lines, schoolyards, perpetual rehabilitation communities, and public confession theaters.",
+      "image": null,
+      "wiki": {
+        "title": "IE-12 Righteous",
+        "url": "https://helldivers.wiki.gg/wiki/IE-12_Righteous",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "integrated-explosives",
+      "setIds": [
+        "ie-12-righteous"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Servants of Freedom P2",
+        "warbondId": "servants-of-freedom",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ie-3-martyr",
+      "slug": "ie-3-martyr",
+      "name": "IE-3 Martyr",
+      "aliases": [],
+      "description": "Modeled after the Statue of Mournful Liberty, who weeps over the existence of tyranny, this armor is worn by those who would give their lives to dry her tears.",
+      "image": null,
+      "wiki": {
+        "title": "IE-3 Martyr",
+        "url": "https://helldivers.wiki.gg/wiki/IE-3_Martyr",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "integrated-explosives",
+      "setIds": [
+        "ie-3-martyr"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Servants of Freedom P1",
+        "warbondId": "servants-of-freedom",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ie-57-hell-bent",
+      "slug": "ie-57-hell-bent",
+      "name": "IE-57 Hell-Bent",
+      "aliases": [],
+      "description": "Assembled from pieces of recovered Helldiver armor and SEAF gear, for those who won't let a lack of full body protection keep them from the battlefront.",
+      "image": null,
+      "wiki": {
+        "title": "IE-57 Hell-Bent",
+        "url": "https://helldivers.wiki.gg/wiki/IE-57_Hell-Bent",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "integrated-explosives",
+      "setIds": [
+        "ie-57-hell-bent"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "kdm-500-outrider",
+      "slug": "kdm-500-outrider",
+      "name": "KDM-500 Outrider",
+      "aliases": [],
+      "description": "Ruggedized for extended operation beyond the reach of paved logistics. This armor's heavy plating is intended for the \"unpaving\" of hostile territory, providing a mobile bulkhead for Helldivers who don't know the meaning of \"environmental obstacles\".",
+      "image": null,
+      "wiki": {
+        "title": "KDM-500 Outrider",
+        "url": "https://helldivers.wiki.gg/wiki/KDM-500_Outrider",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "kinetic-displacement-mitigation",
+      "setIds": [
+        "kdm-500-outrider"
+      ],
+      "source": {
+        "type": "event",
+        "label": "Permanent Enclosure",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "o-2-heavy-operator",
+      "slug": "o-2-heavy-operator",
+      "name": "O-2 Heavy Operator",
+      "aliases": [],
+      "description": "This armor is the required uniform for many Super Earth Citizens operating heavy machinery. Long-time users will be delighted to learn that as of this year's Efficiency in Machine Operation Symposium and Gala, wearing this armor is no longer itself considered operating heavy machinery.",
+      "image": null,
+      "wiki": {
+        "title": "O-2 Heavy Operator",
+        "url": "https://helldivers.wiki.gg/wiki/O-2_Heavy_Operator",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "oxygenator",
+      "setIds": [
+        "o-2-heavy-operator"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Exo Experts P2",
+        "warbondId": "exo-experts",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "o-3-free-spirit",
+      "slug": "o-3-free-spirit",
+      "name": "O-3 Free Spirit",
+      "aliases": [],
+      "description": "The SteerComfort fit of this armor allows the wearer to feel every curve, bump, and jostle of their Exosuit, as if they were one single being.",
+      "image": null,
+      "wiki": {
+        "title": "O-3 Free Spirit",
+        "url": "https://helldivers.wiki.gg/wiki/O-3_Free_Spirit",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "oxygenator",
+      "setIds": [
+        "o-3-free-spirit"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Exo Experts P1",
+        "warbondId": "exo-experts",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "o-44-bonded-pilot",
+      "slug": "o-44-bonded-pilot",
+      "name": "O-44 Bonded Pilot",
+      "aliases": [],
+      "description": "This armor celebrates the wearer's close relationship to their Exosuit---as intimate as is possible without succumbing to cyborgry.",
+      "image": null,
+      "wiki": {
+        "title": "O-44 Bonded Pilot",
+        "url": "https://helldivers.wiki.gg/wiki/O-44_Bonded_Pilot",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "oxygenator",
+      "setIds": [
+        "o-44-bonded-pilot"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ph-202-twigsnapper",
+      "slug": "ph-202-twigsnapper",
+      "name": "PH-202 Twigsnapper",
+      "aliases": [],
+      "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
+      "image": null,
+      "wiki": {
+        "title": "PH-202 Twigsnapper",
+        "url": "https://helldivers.wiki.gg/wiki/PH-202_Twigsnapper",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "peak-physique",
+      "setIds": [
+        "ph-202-twigsnapper"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos P2",
+        "warbondId": "viper-commandos",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "ph-56-jaguar",
+      "slug": "ph-56-jaguar",
+      "name": "PH-56 Jaguar",
+      "aliases": [],
+      "description": "“Prowl like a jaguar, strike like a viper.”—Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series “Tales of the Viper Commandos.”",
+      "image": null,
+      "wiki": {
+        "title": "PH-56 Jaguar",
+        "url": "https://helldivers.wiki.gg/wiki/PH-56_Jaguar",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "peak-physique",
+      "setIds": [
+        "ph-56-jaguar"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 150
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "ph-9-predator",
+      "slug": "ph-9-predator",
+      "name": "PH-9 Predator",
+      "aliases": [],
+      "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
+      "image": null,
+      "wiki": {
+        "title": "PH-9 Predator",
+        "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "peak-physique",
+      "setIds": [
+        "ph-9-predator"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Viper Commandos P1",
+        "warbondId": "viper-commandos",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 40
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "re-1861-parade-commander",
+      "slug": "re-1861-parade-commander",
+      "name": "RE-1861 Parade Commander",
+      "aliases": [],
+      "description": "Awarded to those promoted to their point of greatest competency, and beyond.",
+      "image": null,
+      "wiki": {
+        "title": "RE-1861 Parade Commander",
+        "url": "https://helldivers.wiki.gg/wiki/RE-1861_Parade_Commander",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "reinforced-epaulettes",
+      "setIds": [
+        "re-1861-parade-commander"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Masters of Ceremony P2",
+        "warbondId": "masters-of-ceremony",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "re-2310-honorary-guard",
+      "slug": "re-2310-honorary-guard",
+      "name": "RE-2310 Honorary Guard",
+      "aliases": [],
+      "description": "This traditional armor has remained unchanged since time immemorial. Now with self-heated padding.",
+      "image": null,
+      "wiki": {
+        "title": "RE-2310 Honorary Guard",
+        "url": "https://helldivers.wiki.gg/wiki/RE-2310_Honorary_Guard",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "reinforced-epaulettes",
+      "setIds": [
+        "re-2310-honorary-guard"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Masters of Ceremony P1",
+        "warbondId": "masters-of-ceremony",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "re-824-bearer-of-the-standard",
+      "slug": "re-824-bearer-of-the-standard",
+      "name": "RE-824 Bearer of the Standard",
+      "aliases": [],
+      "description": "Commonly replicated in stage adaptations of “Lady Liberty's Tower”, in which young Diver Beatrick dons this armor to slay Oppressio, the Tyrant Rex.",
+      "image": null,
+      "wiki": {
+        "title": "RE-824 Bearer of the Standard",
+        "url": "https://helldivers.wiki.gg/wiki/RE-824_Bearer_of_the_Standard",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "reinforced-epaulettes",
+      "setIds": [
+        "re-824-bearer-of-the-standard"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 400
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "rs-100-sanctioner",
+      "slug": "rs-100-sanctioner",
+      "name": "RS-100 Sanctioner",
+      "aliases": [],
+      "description": "Armor inspired by the legend of the Sanctioner, a figure known only through a bizarrely unanimous patchwork of stifled whispers. As told, this fearsome, covert arbiter of primeval Justice delivered final, state-approved verdicts in the chaotic years before the Federation's founding.",
+      "image": null,
+      "wiki": {
+        "title": "RS-100 Sanctioner",
+        "url": "https://helldivers.wiki.gg/wiki/RS-100_Sanctioner",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "reduced-signature",
+      "setIds": [
+        "rs-100-sanctioner"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "rs-20-constrictor",
+      "slug": "rs-20-constrictor",
+      "name": "RS-20 Constrictor",
+      "aliases": [],
+      "description": "The official uniform of the League of Patriotic Arm Wrestlers, this armor's lycra base layer is supple and sweat-wicking for maximum flexing comfort.",
+      "image": null,
+      "wiki": {
+        "title": "RS-20 Constrictor",
+        "url": "https://helldivers.wiki.gg/wiki/RS-20_Constrictor",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "rock-solid",
+      "setIds": [
+        "rs-20-constrictor"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Python Commandos P1",
+        "warbondId": "python-commandos",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "rs-40-beast-of-prey",
+      "slug": "rs-40-beast-of-prey",
+      "name": "RS-40 Beast of Prey",
+      "aliases": [],
+      "description": "Evoking legendary Helldiver Ronald Mambo on the eve of his untimely disappearance, the striking silhouette projects power, burliness, and strength.",
+      "image": null,
+      "wiki": {
+        "title": "RS-40 Beast of Prey",
+        "url": "https://helldivers.wiki.gg/wiki/RS-40_Beast_of_Prey",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "rock-solid",
+      "setIds": [
+        "rs-40-beast-of-prey"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Python Commandos P2",
+        "warbondId": "python-commandos",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "rs-6-fiend-destroyer",
+      "slug": "rs-6-fiend-destroyer",
+      "name": "RS-6 Fiend Destroyer",
+      "aliases": [],
+      "description": "The understated color scheme and precision-molded armor plates make this armor a sensible choice for the Helldiver on the go.",
+      "image": null,
+      "wiki": {
+        "title": "RS-6 Fiend Destroyer",
+        "url": "https://helldivers.wiki.gg/wiki/RS-6_Fiend_Destroyer",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "rock-solid",
+      "setIds": [
+        "rs-6-fiend-destroyer"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 300
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "rs-67-null-cipher",
+      "slug": "rs-67-null-cipher",
+      "name": "RS-67 Null Cipher",
+      "aliases": [],
+      "description": "This armor, coated in radar-absorbent polymers and a null-signature heat baffle, reportedly turns its wearer into a sensor ghost—a claim attributed to individuals who, curiously, appear to have never existed.",
+      "image": null,
+      "wiki": {
+        "title": "RS-67 Null Cipher",
+        "url": "https://helldivers.wiki.gg/wiki/RS-67_Null_Cipher",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "reduced-signature",
+      "setIds": [
+        "rs-67-null-cipher"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Redacted Regiment P2",
+        "warbondId": "redacted-regiment",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "rs-89-shadow-paragon",
+      "slug": "rs-89-shadow-paragon",
+      "name": "RS-89 Shadow Paragon",
+      "aliases": [],
+      "description": "Armor befitting infiltrators of all caliber. Inspired by mythical Democracy-dispensers, whose meticulously undocumented operations remain an inspiration to all students of stealth.",
+      "image": null,
+      "wiki": {
+        "title": "RS-89 Shadow Paragon",
+        "url": "https://helldivers.wiki.gg/wiki/RS-89_Shadow_Paragon",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "reduced-signature",
+      "setIds": [
+        "rs-89-shadow-paragon"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Redacted Regiment P1",
+        "warbondId": "redacted-regiment",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sa-04-combat-technician",
+      "slug": "sa-04-combat-technician",
+      "name": "SA-04 Combat Technician",
+      "aliases": [],
+      "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
+      "image": null,
+      "wiki": {
+        "title": "SA-04 Combat Technician",
+        "url": "https://helldivers.wiki.gg/wiki/SA-04_Combat_Technician",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "scout",
+      "setIds": [
+        "sa-04-combat-technician"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P8",
+        "warbondId": "helldivers-mobilize",
+        "page": 8,
+        "cost": {
+          "currency": "medals",
+          "amount": 60
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sa-12-servo-assisted",
+      "slug": "sa-12-servo-assisted",
+      "name": "SA-12 Servo Assisted",
+      "aliases": [],
+      "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
+      "image": null,
+      "wiki": {
+        "title": "SA-12 Servo Assisted",
+        "url": "https://helldivers.wiki.gg/wiki/SA-12_Servo_Assisted",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "sa-12-servo-assisted"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans P2",
+        "warbondId": "steeled-veterans",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sa-25-steel-trooper",
+      "slug": "sa-25-steel-trooper",
+      "name": "SA-25 Steel Trooper",
+      "aliases": [],
+      "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
+      "image": null,
+      "wiki": {
+        "title": "SA-25 Steel Trooper",
+        "url": "https://helldivers.wiki.gg/wiki/SA-25_Steel_Trooper",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "sa-25-steel-trooper"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans P1",
+        "warbondId": "steeled-veterans",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 18
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sa-32-dynamo",
+      "slug": "sa-32-dynamo",
+      "name": "SA-32 Dynamo",
+      "aliases": [],
+      "description": "In mountainous colonies, domestic variants of this armor are used to throw weather monitoring equipment uphill.",
+      "image": null,
+      "wiki": {
+        "title": "SA-32 Dynamo",
+        "url": "https://helldivers.wiki.gg/wiki/SA-32_Dynamo",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "sa-32-dynamo"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Steeled Veterans P3",
+        "warbondId": "steeled-veterans",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 64
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sa-7-headfirst",
+      "slug": "sa-7-headfirst",
+      "name": "SA-7 Headfirst",
+      "aliases": [],
+      "description": "Disarmingly scrappy and viciously disarming, this armor is a staple of the Balayage FW/2185 collection \"Frontline Moxie\".",
+      "image": null,
+      "wiki": {
+        "title": "SA-7 Headfirst",
+        "url": "https://helldivers.wiki.gg/wiki/SA-7_Headfirst",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 125,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "supplementary-adrenaline",
+      "setIds": [
+        "sa-7-headfirst"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Siege Breakers P1",
+        "warbondId": "siege-breakers",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sa-8-ram",
+      "slug": "sa-8-ram",
+      "name": "SA-8 Ram",
+      "aliases": [],
+      "description": "The heavy plate used in this armor is sustainably sourced from the corpses of non-sentient Automaton, then processed by other, similarly non-sentient Automatons.",
+      "image": null,
+      "wiki": {
+        "title": "SA-8 Ram",
+        "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 175,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "supplementary-adrenaline",
+      "setIds": [
+        "sa-8-ram"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Siege Breakers P2",
+        "warbondId": "siege-breakers",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sc-15-drone-master",
+      "slug": "sc-15-drone-master",
+      "name": "SC-15 Drone Master",
+      "aliases": [],
+      "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
+      "image": null,
+      "wiki": {
+        "title": "SC-15 Drone Master",
+        "url": "https://helldivers.wiki.gg/wiki/SC-15_Drone_Master",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "engineering-kit",
+      "setIds": [
+        "sc-15-drone-master"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "sc-30-trailblazer-scout",
+      "slug": "sc-30-trailblazer-scout",
+      "name": "SC-30 Trailblazer Scout",
+      "aliases": [],
+      "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
+      "image": null,
+      "wiki": {
+        "title": "SC-30 Trailblazer Scout",
+        "url": "https://helldivers.wiki.gg/wiki/SC-30_Trailblazer_Scout",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "scout",
+      "setIds": [
+        "sc-30-trailblazer-scout"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P7",
+        "warbondId": "helldivers-mobilize",
+        "page": 7,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sc-34-infiltrator",
+      "slug": "sc-34-infiltrator",
+      "name": "SC-34 Infiltrator",
+      "aliases": [],
+      "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
+      "image": null,
+      "wiki": {
+        "title": "SC-34 Infiltrator",
+        "url": "https://helldivers.wiki.gg/wiki/SC-34_Infiltrator",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 70,
+      "speed": 530,
+      "staminaRegen": 115,
+      "passiveId": "scout",
+      "setIds": [
+        "sc-34-infiltrator"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Helldivers Mobilize! P1",
+        "warbondId": "helldivers-mobilize",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 3
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sc-37-legionnaire",
+      "slug": "sc-37-legionnaire",
+      "name": "SC-37 Legionnaire",
+      "aliases": [],
+      "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
+      "image": null,
+      "wiki": {
+        "title": "SC-37 Legionnaire",
+        "url": "https://helldivers.wiki.gg/wiki/SC-37_Legionnaire",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "sc-37-legionnaire"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 150
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "sr-18-roadblock",
+      "slug": "sr-18-roadblock",
+      "name": "SR-18 Roadblock",
+      "aliases": [],
+      "description": "The crest on this armor's shoulder shows friendlies that safety is near, and foes that they have reached the end of the road.",
+      "image": null,
+      "wiki": {
+        "title": "SR-18 Roadblock",
+        "url": "https://helldivers.wiki.gg/wiki/SR-18_Roadblock",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "siege-ready",
+      "setIds": [
+        "sr-18-roadblock"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Urban Legends P2",
+        "warbondId": "urban-legends",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sr-24-street-scout",
+      "slug": "sr-24-street-scout",
+      "name": "SR-24 Street Scout",
+      "aliases": [],
+      "description": "This armor's nostalgic color scheme brings to mind beloved trappings of colonial yesteryear: concrete frontier domiciles, slate-colored civilian jumpsuits, and Space Settlers' Pie.",
+      "image": null,
+      "wiki": {
+        "title": "SR-24 Street Scout",
+        "url": "https://helldivers.wiki.gg/wiki/SR-24_Street_Scout",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "siege-ready",
+      "setIds": [
+        "sr-24-street-scout"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Urban Legends P1",
+        "warbondId": "urban-legends",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 40
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "sr-64-cinderblock",
+      "slug": "sr-64-cinderblock",
+      "name": "SR-64 Cinderblock",
+      "aliases": [],
+      "description": "This armor uses repurposed metal from verified sources, such as vending machine packaging and Automaton scrap, making it a sustainable choice for the environmentally conscious Helldiver.",
+      "image": null,
+      "wiki": {
+        "title": "SR-64 Cinderblock",
+        "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "siege-ready",
+      "setIds": [
+        "sr-64-cinderblock"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
+      }
+    },
+    {
+      "id": "tg-122-demo-trooper",
+      "slug": "tg-122-demo-trooper",
+      "name": "TG-122 Demo-Trooper",
+      "aliases": [],
+      "description": "The design of the Demo-Trooper armor has been a corporate secret since ST Construction first issued it to the Charan National Guard in the early days of the Galactic Federation. Now, STC has contracted with the Ministry of Defense to issue the storied armor of its fallen homeworld to the Helldivers.",
+      "image": null,
+      "wiki": {
+        "title": "TG-122 Demo-Trooper",
+        "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "true-grit",
+      "setIds": [
+        "tg-122-demo-trooper"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed P2",
+        "warbondId": "castellans-creed",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "tg-8-sharpshooter",
+      "slug": "tg-8-sharpshooter",
+      "name": "TG-8 Sharpshooter",
+      "aliases": [],
+      "description": "\"Where lesser soldiers break, Helldivers obey. When Tyranny's horrors swarm, Helldivers obey. When death is certain, and hope and sense have fled, Helldivers obey.\" -- Last Lord Governor of Chara.",
+      "image": null,
+      "wiki": {
+        "title": "TG-8 Sharpshooter",
+        "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "true-grit",
+      "setIds": [
+        "tg-8-sharpshooter"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Castellan's Creed P1",
+        "warbondId": "castellans-creed",
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "tr-117-alpha-commander",
+      "slug": "tr-117-alpha-commander",
+      "name": "TR-117 Alpha Commander",
+      "aliases": [],
+      "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
+      "image": null,
+      "wiki": {
+        "title": "TR-117 Alpha Commander",
+        "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "med-kit",
+      "setIds": [
+        "tr-117-alpha-commander"
+      ],
+      "source": {
+        "type": "edition",
+        "label": "Downloadable Content",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "tr-40-gold-eagle",
+      "slug": "tr-40-gold-eagle",
+      "name": "TR-40 Gold Eagle",
+      "aliases": [],
+      "description": "This high-visibility armor allows its bearer to be easily seen through smoke, fog, and spewing viscera.",
+      "image": null,
+      "wiki": {
+        "title": "TR-40 Gold Eagle",
+        "url": "https://helldivers.wiki.gg/wiki/TR-40_Gold_Eagle",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 150,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "extra-padding",
+      "setIds": [
+        "tr-40-gold-eagle"
+      ],
+      "source": {
+        "type": "event",
+        "label": "Escalation of Freedom",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "tr-62-knight",
+      "slug": "tr-62-knight",
+      "name": "TR-62 Knight",
+      "aliases": [],
+      "description": "Crafted to deliver Justice to the darkest crevices of the galaxy.",
+      "image": null,
+      "wiki": {
+        "title": "TR-62 Knight",
+        "url": "https://helldivers.wiki.gg/wiki/TR-62_Knight",
+        "flags": []
+      },
+      "weight": "heavy",
+      "armorRating": 150,
+      "speed": 450,
+      "staminaRegen": 50,
+      "passiveId": "servo-assisted",
+      "setIds": [
+        "tr-62-knight"
+      ],
+      "source": {
+        "type": "pre_order",
+        "label": "Pre-Order Bonus",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "tr-7-ambassador-of-the-brand",
+      "slug": "tr-7-ambassador-of-the-brand",
+      "name": "TR-7 Ambassador of the Brand",
+      "aliases": [],
+      "description": "Promotional armor made by SUMY Corp. as part of a highly successful marketing campaign for frozen yogurt.",
+      "image": null,
+      "wiki": {
+        "title": "TR-7 Ambassador of the Brand",
+        "url": "https://helldivers.wiki.gg/wiki/TR-7_Ambassador_of_the_Brand",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 150,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "extra-padding",
+      "setIds": [
+        "tr-7-ambassador-of-the-brand"
+      ],
+      "source": {
+        "type": "pre_order",
+        "label": "Pre-Order Bonus",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "tr-9-cavalier-of-democracy",
+      "slug": "tr-9-cavalier-of-democracy",
+      "name": "TR-9 Cavalier of Democracy",
+      "aliases": [],
+      "description": "Bearers of this armor ride no equine mount, but are nonetheless borne to battle atop the trusty steed of Liberty.",
+      "image": null,
+      "wiki": {
+        "title": "TR-9 Cavalier of Democracy",
+        "url": "https://helldivers.wiki.gg/wiki/TR-9_Cavalier_of_Democracy",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "democracy-protects",
+      "setIds": [
+        "tr-9-cavalier-of-democracy"
+      ],
+      "source": {
+        "type": "pre_order",
+        "label": "Pre-Order Bonus",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "uf-16-inspector",
+      "slug": "uf-16-inspector",
+      "name": "UF-16 Inspector",
+      "aliases": [],
+      "description": "Made famous by the “Truth Enforcers: Enforcers of Truth” mystery novels, this armor calls to mind those paragons of patriotism who protect us from treasonous lies.",
+      "image": null,
+      "wiki": {
+        "title": "UF-16 Inspector",
+        "url": "https://helldivers.wiki.gg/wiki/UF-16_Inspector",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 75,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "unflinching",
+      "setIds": [
+        "uf-16-inspector"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Truth Enforcers P3",
+        "warbondId": "truth-enforcers",
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 65
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "uf-50-bloodhound",
+      "slug": "uf-50-bloodhound",
+      "name": "UF-50 Bloodhound",
+      "aliases": [],
+      "description": "Users are advised not to scratch at the lacquer, as the Red 20,000 pigment that gives this armor its signature sheen may be correlated with rapid DNA unspooling.",
+      "image": null,
+      "wiki": {
+        "title": "UF-50 Bloodhound",
+        "url": "https://helldivers.wiki.gg/wiki/UF-50_Bloodhound",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 125,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "unflinching",
+      "setIds": [
+        "uf-50-bloodhound"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Truth Enforcers P2",
+        "warbondId": "truth-enforcers",
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
+        "rotating": null
+      }
+    },
+    {
+      "id": "uf-84-doubt-killer",
+      "slug": "uf-84-doubt-killer",
+      "name": "UF-84 Doubt Killer",
+      "aliases": [],
+      "description": "Even among the most depraved of dissidents, the mere sight of this armor is enough to inspire a change of heart.",
+      "image": null,
+      "wiki": {
+        "title": "UF-84 Doubt Killer",
+        "url": "https://helldivers.wiki.gg/wiki/UF-84_Doubt_Killer",
+        "flags": []
+      },
+      "weight": "medium",
+      "armorRating": 125,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "unflinching",
+      "setIds": [
+        "uf-84-doubt-killer"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 400
+        },
+        "rotating": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rs-40-beast-of-prey",
+    "slug": "rs-40-beast-of-prey",
+    "name": "RS-40 Beast of Prey",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-40 Beast of Prey",
+      "url": "https://helldivers.wiki.gg/wiki/RS-40_Beast_of_Prey",
+      "flags": []
+    },
+    "setIds": [
+      "rs-40-beast-of-prey"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P2",
+      "warbondId": "python-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

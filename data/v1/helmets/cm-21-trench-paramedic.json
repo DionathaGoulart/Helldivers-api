@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cm-21-trench-paramedic",
+    "slug": "cm-21-trench-paramedic",
+    "name": "CM-21 Trench Paramedic",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-21 Trench Paramedic",
+      "url": "https://helldivers.wiki.gg/wiki/CM-21_Trench_Paramedic",
+      "flags": []
+    },
+    "setIds": [
+      "cm-21-trench-paramedic"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  }
+}

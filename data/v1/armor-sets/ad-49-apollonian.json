@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ad-49-apollonian",
+    "slug": "ad-49-apollonian",
+    "name": "AD-49 Apollonian",
+    "wiki": {
+      "title": "AD-49 Apollonian",
+      "url": "https://helldivers.wiki.gg/wiki/AD-49_Apollonian",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ad-49-apollonian",
+    "helmetId": "ad-49-apollonian",
+    "capeId": null,
+    "capeLink": null
+  }
+}

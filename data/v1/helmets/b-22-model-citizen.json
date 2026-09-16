@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "b-22-model-citizen",
+    "slug": "b-22-model-citizen",
+    "name": "B-22 Model Citizen",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "B-22 Model Citizen",
+      "url": "https://helldivers.wiki.gg/wiki/B-22_Model_Citizen",
+      "flags": []
+    },
+    "setIds": [
+      "b-22-model-citizen"
+    ],
+    "source": {
+      "type": "event",
+      "label": "Anniversary Gift",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

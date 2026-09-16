@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "re-2310-honorary-guard",
+    "slug": "re-2310-honorary-guard",
+    "name": "RE-2310 Honorary Guard",
+    "aliases": [],
+    "description": "This traditional armor has remained unchanged since time immemorial. Now with self-heated padding.",
+    "image": null,
+    "wiki": {
+      "title": "RE-2310 Honorary Guard",
+      "url": "https://helldivers.wiki.gg/wiki/RE-2310_Honorary_Guard",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "reinforced-epaulettes",
+    "setIds": [
+      "re-2310-honorary-guard"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P1",
+      "warbondId": "masters-of-ceremony",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

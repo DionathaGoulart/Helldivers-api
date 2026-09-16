@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,6 +24,14 @@
       "Increases throwing range by 30%.",
       "Provides +50% limb health."
     ],
-    "armorIds": []
+    "armorIds": [
+      "cw-36-winter-warrior",
+      "fs-61-dreadnought",
+      "sa-12-servo-assisted",
+      "sa-25-steel-trooper",
+      "sa-32-dynamo",
+      "sc-37-legionnaire",
+      "tr-62-knight"
+    ]
   }
 }

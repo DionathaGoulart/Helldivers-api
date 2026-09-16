@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "honored-heirloom",
+    "slug": "honored-heirloom",
+    "name": "Honored Heirloom",
+    "aliases": [],
+    "description": "Should the wearer of this cape perish at the hands of Freedom's enemies, it is customary to pass the cape on to their bravest child during the funeral, inspiring the next generation to take up arms.",
+    "image": null,
+    "wiki": {
+      "title": "Honored Heirloom",
+      "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

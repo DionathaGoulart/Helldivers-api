@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "strength-in-our-arms",
+    "slug": "strength-in-our-arms",
+    "name": "Strength in Our Arms",
+    "aliases": [],
+    "description": "The symbol on this cape represents the pillars of freedom: duty, obedience, and loyalty.",
+    "image": null,
+    "wiki": {
+      "title": "Strength in Our Arms",
+      "url": "https://helldivers.wiki.gg/wiki/Strength_in_Our_Arms",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P1",
+      "warbondId": "righteous-revenants",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

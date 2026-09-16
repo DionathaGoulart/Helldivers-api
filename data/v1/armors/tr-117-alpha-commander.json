@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tr-117-alpha-commander",
+    "slug": "tr-117-alpha-commander",
+    "name": "TR-117 Alpha Commander",
+    "aliases": [],
+    "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
+    "image": null,
+    "wiki": {
+      "title": "TR-117 Alpha Commander",
+      "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "med-kit",
+    "setIds": [
+      "tr-117-alpha-commander"
+    ],
+    "source": {
+      "type": "edition",
+      "label": "Downloadable Content",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

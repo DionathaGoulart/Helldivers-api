@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ds-10-big-game-hunter",
+    "slug": "ds-10-big-game-hunter",
+    "name": "DS-10 Big Game Hunter",
+    "aliases": [],
+    "description": "With its rustic charm and huntsmanlike detailing, this armor evokes those heroic expansionists who braved the alien wilds and ushered in our current age of bio-uniformity.",
+    "image": null,
+    "wiki": {
+      "title": "DS-10 Big Game Hunter",
+      "url": "https://helldivers.wiki.gg/wiki/DS-10_Big_Game_Hunter",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "weight": "light",
+    "armorRating": 50,
+    "speed": 550,
+    "staminaRegen": 125,
+    "passiveId": "desert-stormer",
+    "setIds": [
+      "ds-10-big-game-hunter"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 300
+      },
+      "rotating": false
+    }
+  }
+}

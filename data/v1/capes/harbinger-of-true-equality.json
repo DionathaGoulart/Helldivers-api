@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "harbinger-of-true-equality",
+    "slug": "harbinger-of-true-equality",
+    "name": "Harbinger of True Equality",
+    "aliases": [],
+    "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead.",
+    "image": null,
+    "wiki": {
+      "title": "Harbinger of True Equality",
+      "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P1",
+      "warbondId": "democratic-detonation",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

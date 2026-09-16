@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "federations-embrace",
+    "slug": "federations-embrace",
+    "name": "Federation's Embrace",
+    "aliases": [],
+    "description": "When donning the One True Flag, one must face the direction of Super Earth, recite the Super Earth Anthem, and salute one's own image in the nearest reflective surface. Wrongful discarding of this cape is a capital offense.",
+    "image": null,
+    "wiki": {
+      "title": "Federation's Embrace",
+      "url": "https://helldivers.wiki.gg/wiki/Federation's_Embrace",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P1",
+      "warbondId": "masters-of-ceremony",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

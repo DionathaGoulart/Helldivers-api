@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cw-36-winter-warrior",
+    "slug": "cw-36-winter-warrior",
+    "name": "CW-36 Winter Warrior",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CW-36 Winter Warrior",
+      "url": "https://helldivers.wiki.gg/wiki/CW-36_Winter_Warrior",
+      "flags": []
+    },
+    "setIds": [
+      "cw-36-winter-warrior"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P1",
+      "warbondId": "polar-patriots",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  }
+}

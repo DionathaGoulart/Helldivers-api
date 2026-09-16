@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cw-9-white-wolf",
+    "slug": "cw-9-white-wolf",
+    "name": "CW-9 White Wolf",
+    "aliases": [],
+    "description": "The pattern used for this armor is the result of the Winter Camouflage Improvement Effort, which considered 136 entrants before determining the color white would best blend in with snow.",
+    "image": null,
+    "wiki": {
+      "title": "CW-9 White Wolf",
+      "url": "https://helldivers.wiki.gg/wiki/CW-9_White_Wolf",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 150,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "extra-padding",
+    "setIds": [
+      "cw-9-white-wolf"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 300
+      },
+      "rotating": false
+    }
+  }
+}

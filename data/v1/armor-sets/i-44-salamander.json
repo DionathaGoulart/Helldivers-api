@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "i-44-salamander",
+    "slug": "i-44-salamander",
+    "name": "I-44 Salamander",
+    "wiki": {
+      "title": "I-44 Salamander",
+      "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
+      "flags": []
+    },
+    "armorId": "i-44-salamander",
+    "helmetId": "i-44-salamander",
+    "capeId": null,
+    "capeLink": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tr-9-cavalier-of-democracy",
+    "slug": "tr-9-cavalier-of-democracy",
+    "name": "TR-9 Cavalier of Democracy",
+    "aliases": [],
+    "description": "Bearers of this armor ride no equine mount, but are nonetheless borne to battle atop the trusty steed of Liberty.",
+    "image": null,
+    "wiki": {
+      "title": "TR-9 Cavalier of Democracy",
+      "url": "https://helldivers.wiki.gg/wiki/TR-9_Cavalier_of_Democracy",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "democracy-protects",
+    "setIds": [
+      "tr-9-cavalier-of-democracy"
+    ],
+    "source": {
+      "type": "pre_order",
+      "label": "Pre-Order Bonus",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

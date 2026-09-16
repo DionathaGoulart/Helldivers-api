@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ex-16-prototype-16",
+    "slug": "ex-16-prototype-16",
+    "name": "EX-16 Prototype 16",
+    "aliases": [],
+    "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vicinity of stapled paperwork.",
+    "image": null,
+    "wiki": {
+      "title": "EX-16 Prototype 16",
+      "url": "https://helldivers.wiki.gg/wiki/EX-16_Prototype_16",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "electrical-conduit",
+    "setIds": [
+      "ex-16-prototype-16"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P2",
+      "warbondId": "cutting-edge",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

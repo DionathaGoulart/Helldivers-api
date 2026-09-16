@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ce-67-titan",
+    "slug": "ce-67-titan",
+    "name": "CE-67 Titan",
+    "wiki": {
+      "title": "CE-67 Titan",
+      "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
+      "flags": []
+    },
+    "armorId": "ce-67-titan",
+    "helmetId": "ce-67-titan",
+    "capeId": null,
+    "capeLink": null
+  }
+}

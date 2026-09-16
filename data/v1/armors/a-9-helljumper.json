@@ -1,0 +1,45 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "a-9-helljumper",
+    "slug": "a-9-helljumper",
+    "name": "A-9 Helljumper",
+    "aliases": [],
+    "description": "Debuted during the New Mombasa Armor Show, this sleek ensemble is sure to turn heads and blow minds.",
+    "image": null,
+    "wiki": {
+      "title": "A-9 Helljumper",
+      "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "feet-first",
+    "setIds": [
+      "a-9-helljumper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

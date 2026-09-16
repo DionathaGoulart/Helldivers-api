@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ex-03-prototype-3",
+    "slug": "ex-03-prototype-3",
+    "name": "EX-03 Prototype 3",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "EX-03 Prototype 3",
+      "url": "https://helldivers.wiki.gg/wiki/EX-03_Prototype_3",
+      "flags": []
+    },
+    "setIds": [
+      "ex-03-prototype-3"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P1",
+      "warbondId": "cutting-edge",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  }
+}

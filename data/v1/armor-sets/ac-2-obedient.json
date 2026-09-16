@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ac-2-obedient",
+    "slug": "ac-2-obedient",
+    "name": "AC-2 Obedient",
+    "wiki": {
+      "title": "AC-2 Obedient",
+      "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
+      "flags": []
+    },
+    "armorId": "ac-2-obedient",
+    "helmetId": "ac-2-obedient",
+    "capeId": null,
+    "capeLink": null
+  }
+}

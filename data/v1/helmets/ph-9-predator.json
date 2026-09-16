@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ph-9-predator",
+    "slug": "ph-9-predator",
+    "name": "PH-9 Predator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "PH-9 Predator",
+      "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
+      "flags": []
+    },
+    "setIds": [
+      "ph-9-predator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P1",
+      "warbondId": "viper-commandos",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-11-executioner",
+    "slug": "fs-11-executioner",
+    "name": "FS-11 Executioner",
+    "aliases": [],
+    "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical “Lost My Heart to a Man in a Helmet.”",
+    "image": null,
+    "wiki": {
+      "title": "FS-11 Executioner",
+      "url": "https://helldivers.wiki.gg/wiki/FS-11_Executioner",
+      "flags": []
+    },
+    "weight": "heavy",
+    "armorRating": 150,
+    "speed": 450,
+    "staminaRegen": 50,
+    "passiveId": "fortified",
+    "setIds": [
+      "fs-11-executioner"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  }
+}

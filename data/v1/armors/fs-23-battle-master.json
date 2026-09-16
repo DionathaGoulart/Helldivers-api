@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-23-battle-master",
+    "slug": "fs-23-battle-master",
+    "name": "FS-23 Battle Master",
+    "aliases": [],
+    "description": "This aim-stabilizing armor found surprising secondary market success among alien birdwatching enthusiasts.",
+    "image": null,
+    "wiki": {
+      "title": "FS-23 Battle Master",
+      "url": "https://helldivers.wiki.gg/wiki/FS-23_Battle_Master",
+      "flags": []
+    },
+    "weight": "heavy",
+    "armorRating": 150,
+    "speed": 450,
+    "staminaRegen": 50,
+    "passiveId": "fortified",
+    "setIds": [
+      "fs-23-battle-master"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P6",
+      "warbondId": "helldivers-mobilize",
+      "page": 6,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

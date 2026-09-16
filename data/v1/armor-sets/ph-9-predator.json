@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ph-9-predator",
+    "slug": "ph-9-predator",
+    "name": "PH-9 Predator",
+    "wiki": {
+      "title": "PH-9 Predator",
+      "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
+      "flags": []
+    },
+    "armorId": "ph-9-predator",
+    "helmetId": "ph-9-predator",
+    "capeId": null,
+    "capeLink": null
+  }
+}

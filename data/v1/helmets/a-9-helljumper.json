@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "a-9-helljumper",
+    "slug": "a-9-helljumper",
+    "name": "A-9 Helljumper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "A-9 Helljumper",
+      "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "a-9-helljumper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

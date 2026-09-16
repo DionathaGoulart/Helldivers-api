@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "bastion-of-integrity",
+    "slug": "bastion-of-integrity",
+    "name": "Bastion of Integrity",
+    "aliases": [],
+    "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aerial recovery crews.",
+    "image": null,
+    "wiki": {
+      "title": "Bastion of Integrity",
+      "url": "https://helldivers.wiki.gg/wiki/Bastion_of_Integrity",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P3",
+      "warbondId": "steeled-veterans",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  }
+}

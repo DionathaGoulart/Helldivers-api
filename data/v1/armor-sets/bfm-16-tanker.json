@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "bfm-16-tanker",
+    "slug": "bfm-16-tanker",
+    "name": "BFM-16 Tanker",
+    "wiki": {
+      "title": "BFM-16 Tanker",
+      "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "bfm-16-tanker",
+    "helmetId": "bfm-16-tanker",
+    "capeId": null,
+    "capeLink": null
+  }
+}

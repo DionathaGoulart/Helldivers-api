@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ad-26-bleeding-edge",
+    "slug": "ad-26-bleeding-edge",
+    "name": "AD-26 Bleeding Edge",
+    "wiki": {
+      "title": "AD-26 Bleeding Edge",
+      "url": "https://helldivers.wiki.gg/wiki/AD-26_Bleeding_Edge",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ad-26-bleeding-edge",
+    "helmetId": "ad-26-bleeding-edge",
+    "capeId": null,
+    "capeLink": null
+  }
+}

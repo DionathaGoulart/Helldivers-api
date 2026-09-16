@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,6 +24,10 @@
       "Armor explodes 1.5s after the wearer dies.",
       "Increases initial inventory and holding capacity of throwables by +2."
     ],
-    "armorIds": []
+    "armorIds": [
+      "ie-12-righteous",
+      "ie-3-martyr",
+      "ie-57-hell-bent"
+    ]
   }
 }

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ce-27-ground-breaker",
+    "slug": "ce-27-ground-breaker",
+    "name": "CE-27 Ground Breaker",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-27 Ground Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
+      "flags": []
+    },
+    "setIds": [
+      "ce-27-ground-breaker"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P1",
+      "warbondId": "democratic-detonation",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  }
+}

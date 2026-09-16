@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "vision-of-freedom",
+    "slug": "vision-of-freedom",
+    "name": "Vision of Freedom",
+    "aliases": [],
+    "description": "Artists and sculptors have made countless attempts at depicting the face of Liberty, but the truth is that any citizen can see it—they need only requisition a mirror.",
+    "image": null,
+    "wiki": {
+      "title": "Vision of Freedom",
+      "url": "https://helldivers.wiki.gg/wiki/Vision_of_Freedom",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 100
+      },
+      "rotating": false
+    }
+  }
+}

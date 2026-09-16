@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cpg-48-sapper",
+    "slug": "cpg-48-sapper",
+    "name": "CPG-48 Sapper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CPG-48 Sapper",
+      "url": "https://helldivers.wiki.gg/wiki/CPG-48_Sapper",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "cpg-48-sapper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P1",
+      "warbondId": "entrenched-division",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "foe-rent-asunder",
+    "slug": "foe-rent-asunder",
+    "name": "Foe Rent Asunder",
+    "aliases": [],
+    "description": "This ancient, likely allegorical, illustration of Might triumphing over the Anguiform is seen by scholars as a symbol of humankind's supremacy in the art of violence.",
+    "image": null,
+    "wiki": {
+      "title": "Foe Rent Asunder",
+      "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P2",
+      "warbondId": "python-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  }
+}

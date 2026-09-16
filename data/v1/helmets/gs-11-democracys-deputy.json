@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "gs-11-democracys-deputy",
+    "slug": "gs-11-democracys-deputy",
+    "name": "GS-11 Democracy's Deputy",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "GS-11 Democracy's Deputy",
+      "url": "https://helldivers.wiki.gg/wiki/GS-11_Democracy's_Deputy",
+      "flags": []
+    },
+    "setIds": [
+      "gs-11-democracys-deputy"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  }
+}

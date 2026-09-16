@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sa-32-dynamo",
+    "slug": "sa-32-dynamo",
+    "name": "SA-32 Dynamo",
+    "aliases": [],
+    "description": "In mountainous colonies, domestic variants of this armor are used to throw weather monitoring equipment uphill.",
+    "image": null,
+    "wiki": {
+      "title": "SA-32 Dynamo",
+      "url": "https://helldivers.wiki.gg/wiki/SA-32_Dynamo",
+      "flags": []
+    },
+    "weight": "heavy",
+    "armorRating": 150,
+    "speed": 450,
+    "staminaRegen": 50,
+    "passiveId": "servo-assisted",
+    "setIds": [
+      "sa-32-dynamo"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P3",
+      "warbondId": "steeled-veterans",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 64
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "rs-89-shadow-paragon",
+    "slug": "rs-89-shadow-paragon",
+    "name": "RS-89 Shadow Paragon",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-89 Shadow Paragon",
+      "url": "https://helldivers.wiki.gg/wiki/RS-89_Shadow_Paragon",
+      "flags": []
+    },
+    "setIds": [
+      "rs-89-shadow-paragon"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P1",
+      "warbondId": "redacted-regiment",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  }
+}

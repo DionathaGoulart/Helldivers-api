@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ph-202-twigsnapper",
+    "slug": "ph-202-twigsnapper",
+    "name": "PH-202 Twigsnapper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "PH-202 Twigsnapper",
+      "url": "https://helldivers.wiki.gg/wiki/PH-202_Twigsnapper",
+      "flags": []
+    },
+    "setIds": [
+      "ph-202-twigsnapper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P2",
+      "warbondId": "viper-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  }
+}

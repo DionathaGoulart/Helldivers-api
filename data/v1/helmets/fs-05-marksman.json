@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-05-marksman",
+    "slug": "fs-05-marksman",
+    "name": "FS-05 Marksman",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-05 Marksman",
+      "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",
+      "flags": []
+    },
+    "setIds": [
+      "fs-05-marksman"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P2",
+      "warbondId": "helldivers-mobilize",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "af-02-haz-master",
+    "slug": "af-02-haz-master",
+    "name": "AF-02 Haz-Master",
+    "aliases": [],
+    "description": "Developed by the Ministry of Science while investigating the phenomenon known as The Gloom, this armor is non-permeable and squeak resistant.",
+    "image": null,
+    "wiki": {
+      "title": "AF-02 Haz-Master",
+      "url": "https://helldivers.wiki.gg/wiki/AF-02_Haz-Master",
+      "flags": []
+    },
+    "weight": "medium",
+    "armorRating": 100,
+    "speed": 500,
+    "staminaRegen": 100,
+    "passiveId": "advanced-filtration",
+    "setIds": [
+      "af-02-haz-master"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents P2",
+      "warbondId": "chemical-agents",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

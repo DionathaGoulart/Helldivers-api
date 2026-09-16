@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ce-27-ground-breaker",
+    "slug": "ce-27-ground-breaker",
+    "name": "CE-27 Ground Breaker",
+    "wiki": {
+      "title": "CE-27 Ground Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
+      "flags": []
+    },
+    "armorId": "ce-27-ground-breaker",
+    "helmetId": "ce-27-ground-breaker",
+    "capeId": null,
+    "capeLink": null
+  }
+}

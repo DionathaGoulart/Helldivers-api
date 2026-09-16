@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "kdm-500-outrider",
+    "slug": "kdm-500-outrider",
+    "name": "KDM-500 Outrider",
+    "wiki": {
+      "title": "KDM-500 Outrider",
+      "url": "https://helldivers.wiki.gg/wiki/KDM-500_Outrider",
+      "flags": []
+    },
+    "armorId": "kdm-500-outrider",
+    "helmetId": "kdm-500-outrider",
+    "capeId": null,
+    "capeLink": null
+  }
+}

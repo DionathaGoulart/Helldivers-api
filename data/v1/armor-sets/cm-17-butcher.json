@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cm-17-butcher",
+    "slug": "cm-17-butcher",
+    "name": "CM-17 Butcher",
+    "wiki": {
+      "title": "CM-17 Butcher",
+      "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
+      "flags": []
+    },
+    "armorId": "cm-17-butcher",
+    "helmetId": "cm-17-butcher",
+    "capeId": null,
+    "capeLink": null
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "fs-38-eradicator",
+    "slug": "fs-38-eradicator",
+    "name": "FS-38 Eradicator",
+    "aliases": [],
+    "description": "First deployed in the mines of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
+    "image": null,
+    "wiki": {
+      "title": "FS-38 Eradicator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-38_Eradicator",
+      "flags": []
+    },
+    "weight": "light",
+    "armorRating": 50,
+    "speed": 550,
+    "staminaRegen": 125,
+    "passiveId": "fortified",
+    "setIds": [
+      "fs-38-eradicator"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  }
+}

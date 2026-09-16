@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "reaper-of-bounties",
+    "slug": "reaper-of-bounties",
+    "name": "Reaper of Bounties",
+    "aliases": [],
+    "description": "This cape recalls the popular folk tale of the “Freedomslingers”: re-educated dissidents, seeking redemption on the Federation's Borderline, hunting dangerous thought-traitors in exchange for ballot bounties.",
+    "image": null,
+    "wiki": {
+      "title": "Reaper of Bounties",
+      "url": "https://helldivers.wiki.gg/wiki/Reaper_of_Bounties",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "warbond",
+      "label": "Borderline Justice P1",
+      "warbondId": "borderline-justice",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
+      "rotating": null
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "against-the-tyrant-cloud",
+    "slug": "against-the-tyrant-cloud",
+    "name": "Against the Tyrant Cloud",
+    "aliases": [],
+    "description": "No oppressive murk, no fascist penumbra, no dictatorial haze and no unfree emanation; no tyrannical Gloom shall ever stand a chance against the searing light of Helldiver fire.",
+    "image": null,
+    "wiki": {
+      "title": "Against the Tyrant Cloud",
+      "url": "https://helldivers.wiki.gg/wiki/Against_the_Tyrant_Cloud",
+      "flags": []
+    },
+    "setIds": [],
+    "playerCardId": null,
+    "source": {
+      "type": "event",
+      "label": "Oshaune",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.d45c8501",
-    "generatedAt": "2026-09-16T14:42:18Z",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,6 +24,13 @@
       "50% chance to not die when taking lethal damage.",
       "Prevents all damage from bleeding if chest hemorrhages."
     ],
-    "armorIds": []
+    "armorIds": [
+      "b-22-model-citizen",
+      "dp-00-tactical",
+      "dp-11-champion-of-the-people",
+      "dp-40-hero-of-the-federation",
+      "dp-53-savior-of-the-free",
+      "tr-9-cavalier-of-democracy"
+    ]
   }
 }

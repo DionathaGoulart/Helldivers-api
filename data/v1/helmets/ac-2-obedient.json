@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ac-2-obedient",
+    "slug": "ac-2-obedient",
+    "name": "AC-2 Obedient",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AC-2 Obedient",
+      "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
+      "flags": []
+    },
+    "setIds": [
+      "ac-2-obedient"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P2",
+      "warbondId": "righteous-revenants",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  }
+}

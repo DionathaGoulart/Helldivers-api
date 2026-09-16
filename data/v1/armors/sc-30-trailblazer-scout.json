@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.d8be02ac",
+    "generatedAt": "2026-09-16T15:42:09Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "sc-30-trailblazer-scout",
+    "slug": "sc-30-trailblazer-scout",
+    "name": "SC-30 Trailblazer Scout",
+    "aliases": [],
+    "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
+    "image": null,
+    "wiki": {
+      "title": "SC-30 Trailblazer Scout",
+      "url": "https://helldivers.wiki.gg/wiki/SC-30_Trailblazer_Scout",
+      "flags": []
+    },
+    "weight": "light",
+    "armorRating": 50,
+    "speed": 550,
+    "staminaRegen": 125,
+    "passiveId": "scout",
+    "setIds": [
+      "sc-30-trailblazer-scout"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P7",
+      "warbondId": "helldivers-mobilize",
+      "page": 7,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  }
+}
