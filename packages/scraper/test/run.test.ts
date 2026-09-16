@@ -84,22 +84,28 @@ async function readTree(root: string): Promise<Record<string, string>> {
   return tree;
 }
 
-// Each run reads ~250 fixture pages.
+// A full run reads ~450 fixture pages.
 describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
-  it("publishes boosters, passives, weapon traits, weapons and stratagems equal to the golden snapshots", async () => {
+  it("publishes every scraped collection equal to the golden snapshots", async () => {
     const report = await run("2026-09-15T21:07:00.123Z");
 
     expect(report.failure).toBeNull();
     expect(report).toMatchObject({ ok: true, changed: true, mode: "offline" });
     expect(report.counts).toEqual([
       { collection: "boosters", before: 0, after: 18 },
-      { collection: "passives", before: 0, after: 30 },
+      { collection: "passives", before: 0, after: 31 },
       { collection: "weapon-traits", before: 0, after: 28 },
       { collection: "weapons", before: 0, after: 102 },
       { collection: "stratagems", before: 0, after: 114 },
+      { collection: "armors", before: 0, after: 109 },
+      { collection: "helmets", before: 0, after: 110 },
+      { collection: "capes", before: 0, after: 89 },
+      { collection: "armor-sets", before: 0, after: 109 },
     ]);
-    // Unreleased Ironclad Democracy weapons and the Source-less CQC-73 Entrenchment Tool.
+    // Unreleased Ironclad Democracy items (their passive, costs, stats and descriptions), the
+    // Source-less CQC-73 Entrenchment Tool and one cape page without an Armory quote.
     expect(report.warnings).toEqual([
+      "passives: Blunt-Force Mitigation is not listed on Armor Passives; read https://helldivers.wiki.gg/wiki/Blunt-Force_Mitigation",
       'weapons/ar-11-arbitrator: cost not announced ("? Medals")',
       "weapons/ar-11-arbitrator: no detailed statistics tables on https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
       'weapons/gl-15-evictor: cost not announced ("Medals")',
@@ -111,6 +117,17 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       "weapons/g-60-anti-tank-seeker: no detailed statistics tables on https://helldivers.wiki.gg/wiki/G-60_Anti-Tank_Seeker",
       'weapons/g-8-immolation: cost not announced ("Medals")',
       "weapons/g-8-immolation: no detailed statistics tables on https://helldivers.wiki.gg/wiki/G-8_Immolation",
+      'armors/bfm-16-tanker: cost not announced ("Medals")',
+      "armors/bfm-16-tanker: no Armory description on https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
+      'armors/bfm-220-ironclad: cost not announced ("Medals")',
+      "armors/bfm-220-ironclad: no Armory description on https://helldivers.wiki.gg/wiki/BFM-220_Ironclad",
+      'helmets/bfm-220-ironclad: cost not announced ("Medals")',
+      'helmets/bfm-16-tanker: cost not announced ("Medals")',
+      "capes/watchful-compatriot: no Armory description on https://helldivers.wiki.gg/wiki/Watchful_Compatriot",
+      'capes/standard-of-rapid-evacuation: cost not announced ("Medals")',
+      "capes/standard-of-rapid-evacuation: no Armory description on https://helldivers.wiki.gg/wiki/Standard_of_Rapid_Evacuation",
+      'capes/shroud-of-the-juggernaut: cost not announced ("Medals")',
+      "capes/shroud-of-the-juggernaut: no Armory description on https://helldivers.wiki.gg/wiki/Shroud_of_the_Juggernaut",
     ]);
     expect(report.changes.every((change) => change.kind === "added")).toBe(true);
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
@@ -122,10 +139,32 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     );
     expect(validateDataset(files, { knownIds: { warbonds: new Set(stubs) } })).toEqual([]);
     // meta + changelog + conflicts, then one list and one file per entity for each collection.
-    expect(files.size).toBe(3 + (1 + 18) + (1 + 30) + (1 + 28) + (1 + 102) + (1 + 114));
+    expect(files.size).toBe(
+      3 +
+        (1 + 18) +
+        (1 + 31) +
+        (1 + 28) +
+        (1 + 102) +
+        (1 + 114) +
+        (1 + 109) +
+        (1 + 110) +
+        (1 + 89) +
+        (1 + 109),
+    );
     expect(files.get("meta.json")).toMatchObject({ generatedAt: "2026-09-15T21:07:00Z" });
 
-    for (const collection of ["boosters", "passives", "weapon-traits", "weapons", "stratagems"]) {
+    const collections = [
+      "boosters",
+      "passives",
+      "weapon-traits",
+      "weapons",
+      "stratagems",
+      "armors",
+      "helmets",
+      "capes",
+      "armor-sets",
+    ];
+    for (const collection of collections) {
       const list = (files.get(`${collection}.json`) as { data: unknown[] }).data;
       await expect(`${JSON.stringify(list, null, 2)}\n`).toMatchFileSnapshot(
         `./__snapshots__/${collection}.offline.json`,
@@ -138,6 +177,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
           "Increases reload speed of support weapons by 30%.",
           "Slightly increases weapon ergonomics to reduce drag on weapon movement.",
         ],
+        armorIds: ["tg-122-demo-trooper", "tg-8-sharpshooter"],
       },
     });
     expect(files.get("weapon-traits/light-armor-penetrating.json")).toMatchObject({
@@ -248,6 +288,62 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       },
     });
 
+    // TG-8 Sharpshooter armor and helmet equal arch §5.4 except the image. The helmet keeps its
+    // page cost (30); the warbond table's 39 is resolved with the warbonds (plan 3g).
+    for (const collection of ["armors", "helmets"]) {
+      const example = JSON.parse(
+        await readFile(
+          join(
+            import.meta.dirname,
+            `../../schemas/test/examples/${collection}.tg-8-sharpshooter.json`,
+          ),
+          "utf8",
+        ),
+      );
+      expect(files.get(`${collection}/tg-8-sharpshooter.json`)).toEqual({
+        meta: expect.anything(),
+        data: { ...example, image: null },
+      });
+    }
+    expect(files.get("armors/sc-37-legionnaire.json")).toMatchObject({
+      data: { weight: "light", armorRating: 50, speed: 550, staminaRegen: 125 },
+    });
+    expect(files.get("armors/cph-26-commandant.json")).toMatchObject({
+      data: { name: "CPH-26 Commandant", aliases: [] },
+    });
+    expect(files.get("helmets/ix-voidwalker.json")).toMatchObject({
+      data: {
+        description: expect.stringMatching(/^A helmet worn by the pioneering Helldivers/),
+        setIds: [],
+        source: { type: "event", label: "Void Piercer", cost: null },
+      },
+    });
+    // Capes: the page gives no page number, so the warbond table does (rule 3); sets and player
+    // cards are linked in plan 3g and 3e.
+    expect(files.get("capes/city-fighters-resolve.json")).toMatchObject({
+      data: {
+        description: expect.stringMatching(/^The Helldivers are all that stand between/),
+        setIds: [],
+        playerCardId: null,
+        source: {
+          warbondId: "castellans-creed",
+          page: 2,
+          cost: { currency: "medals", amount: 25 },
+        },
+      },
+    });
+    expect(files.get("armor-sets/tg-8-sharpshooter.json")).toMatchObject({
+      data: {
+        armorId: "tg-8-sharpshooter",
+        helmetId: "tg-8-sharpshooter",
+        capeId: null,
+        capeLink: null,
+      },
+    });
+    expect(files.get("passives/blunt-force-mitigation.json")).toMatchObject({
+      data: { armorIds: ["bfm-16-tanker", "bfm-220-ironclad"] },
+    });
+
     const conflicts = (
       files.get("reports/conflicts.json") as { conflicts: { id: string; field: string }[] }
     ).conflicts;
@@ -299,7 +395,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     const lock = JSON.parse(await readFile(join(dataDir, "overrides", "ids.lock.json"), "utf8"));
     expect(Object.keys(lock.boosters)).toHaveLength(18);
     expect(lock.boosters["Hellpod Space Optimization"]).toBe("hellpod-space-optimization");
-    expect(Object.keys(lock.passives)).toHaveLength(30);
+    expect(Object.keys(lock.passives)).toHaveLength(31);
     expect(lock.passives["Concussive Padding, Grenadier"]).toBe("concussive-padding-grenadier");
     expect(Object.keys(lock["weapon-traits"])).toHaveLength(28);
     expect(lock["weapon-traits"]["Equipment Traits#Anti-Tank"]).toBe("anti-tank");
@@ -307,6 +403,15 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(lock.weapons["AR/GL-21 One-Two"]).toBe("ar-gl-21-one-two");
     expect(Object.keys(lock.stratagems)).toHaveLength(114);
     expect(lock.stratagems["A/MG-43 Machine Gun Sentry"]).toBe("a-mg-43-machine-gun-sentry");
+    for (const [collection, count] of [
+      ["armors", 109],
+      ["helmets", 110],
+      ["capes", 89],
+      ["armor-sets", 109],
+    ] as const) {
+      expect(Object.keys(lock[collection]), collection).toHaveLength(count);
+    }
+    expect(lock.capes["Cloak of Posterity's Gratitude"]).toBe("cloak-of-posteritys-gratitude");
   });
 
   it("changes nothing on a second run with the same pages", async () => {
@@ -319,12 +424,14 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
   });
 
   it("fails with count-drop when 3 of 18 rows disappear and leaves data untouched", async () => {
-    await run("2026-09-15T21:07:00Z");
+    await run("2026-09-15T21:07:00Z", undefined, false, ["boosters"]);
     const before = await readTree(dataDir);
 
     const report = await run(
       "2026-09-16T21:07:00Z",
       new DroppingSource(["Stun Pods", "Dead Sprint", "Sample Scanner"]),
+      false,
+      ["boosters"],
     );
     expect(report.ok).toBe(false);
     expect(report.failure?.kind).toBe("count-drop");
@@ -332,8 +439,10 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
   });
 
   it("publishes a removal when 1 of 18 rows disappears", async () => {
-    await run("2026-09-15T21:07:00Z");
-    const report = await run("2026-09-16T21:07:00Z", new DroppingSource(["Stun Pods"]));
+    await run("2026-09-15T21:07:00Z", undefined, false, ["boosters"]);
+    const report = await run("2026-09-16T21:07:00Z", new DroppingSource(["Stun Pods"]), false, [
+      "boosters",
+    ]);
 
     expect(report).toMatchObject({ ok: true, changed: true });
     expect(report.changes).toEqual([{ collection: "boosters", id: "stun-pods", kind: "removed" }]);
@@ -345,7 +454,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
   });
 
   it("refreshes weapon trait back-references on a weapons-only run", async () => {
-    await run("2026-09-15T21:07:00Z");
+    await run("2026-09-15T21:07:00Z", undefined, false, ["weapon-traits", "weapons"]);
     const lap = join(dataDir, "v1", "weapon-traits", "light-armor-penetrating.json");
     const before = await readFile(lap, "utf8");
     const published = JSON.parse(before);
@@ -372,12 +481,13 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     );
   });
 
-  it("needs weapon traits before weapons", async () => {
-    const report = await run("2026-09-15T21:07:00Z", undefined, false, ["weapons"]);
-    expect(report.failure).toEqual({
-      kind: "error",
-      messages: ["weapons need the weapon-traits collection: scrape weapon-traits first"],
-    });
+  it.each([
+    [["weapons"], "weapons need the weapon-traits collection: scrape weapon-traits first"],
+    [["armors"], "armors need the passives collection: scrape passives first"],
+    [["armor-sets"], "armor-sets need the armors and helmets collections: scrape them first"],
+  ] as const)("needs the collections %j resolves against", async (only, message) => {
+    const report = await run("2026-09-15T21:07:00Z", undefined, false, [...only]);
+    expect(report.failure).toEqual({ kind: "error", messages: [message] });
   });
 
   it("refuses a collection that is not scraped yet", async () => {
@@ -385,7 +495,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
       dataDir,
       source: new FixtureSource(FIXTURES_DIR),
       http: null,
-      only: ["armors"],
+      only: ["warbonds"],
       allowDrop: false,
       fullRefresh: false,
       baseUrl: "https://helldivers.wiki.gg",
@@ -396,7 +506,7 @@ describe("pnpm scrape --offline", { timeout: 120_000 }, () => {
     expect(report.failure).toEqual({
       kind: "error",
       messages: [
-        "armors is not scraped yet (available: boosters, passives, weapon-traits, weapons, stratagems)",
+        "warbonds is not scraped yet (available: boosters, passives, weapon-traits, weapons, stratagems, armors, helmets, capes, armor-sets)",
       ],
     });
   });

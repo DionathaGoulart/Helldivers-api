@@ -1,0 +1,2968 @@
+[
+  {
+    "id": "a-35-recon",
+    "slug": "a-35-recon",
+    "name": "A-35 Recon",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "A-35 Recon",
+      "url": "https://helldivers.wiki.gg/wiki/A-35_Recon",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "a-35-recon"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P2",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "a-9-helljumper",
+    "slug": "a-9-helljumper",
+    "name": "A-9 Helljumper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "A-9 Helljumper",
+      "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "a-9-helljumper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Halo: ODST P1",
+      "warbondId": "obedient-democracy-support-troopers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ac-1-dutiful",
+    "slug": "ac-1-dutiful",
+    "name": "AC-1 Dutiful",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AC-1 Dutiful",
+      "url": "https://helldivers.wiki.gg/wiki/AC-1_Dutiful",
+      "flags": []
+    },
+    "setIds": [
+      "ac-1-dutiful"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P1",
+      "warbondId": "righteous-revenants",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ac-2-obedient",
+    "slug": "ac-2-obedient",
+    "name": "AC-2 Obedient",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AC-2 Obedient",
+      "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
+      "flags": []
+    },
+    "setIds": [
+      "ac-2-obedient"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Righteous Revenants P2",
+      "warbondId": "righteous-revenants",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ad-11-livewire",
+    "slug": "ad-11-livewire",
+    "name": "AD-11 Livewire",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AD-11 Livewire",
+      "url": "https://helldivers.wiki.gg/wiki/AD-11_Livewire",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "ad-11-livewire"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ad-26-bleeding-edge",
+    "slug": "ad-26-bleeding-edge",
+    "name": "AD-26 Bleeding Edge",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AD-26 Bleeding Edge",
+      "url": "https://helldivers.wiki.gg/wiki/AD-26_Bleeding_Edge",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "ad-26-bleeding-edge"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P1",
+      "warbondId": "control-group",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ad-49-apollonian",
+    "slug": "ad-49-apollonian",
+    "name": "AD-49 Apollonian",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AD-49 Apollonian",
+      "url": "https://helldivers.wiki.gg/wiki/AD-49_Apollonian",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "ad-49-apollonian"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Control Group P2",
+      "warbondId": "control-group",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "af-02-haz-master",
+    "slug": "af-02-haz-master",
+    "name": "AF-02 Haz-Master",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AF-02 Haz-Master",
+      "url": "https://helldivers.wiki.gg/wiki/AF-02_Haz-Master",
+      "flags": []
+    },
+    "setIds": [
+      "af-02-haz-master"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents P2",
+      "warbondId": "chemical-agents",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "af-50-noxious-ranger",
+    "slug": "af-50-noxious-ranger",
+    "name": "AF-50 Noxious Ranger",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AF-50 Noxious Ranger",
+      "url": "https://helldivers.wiki.gg/wiki/AF-50_Noxious_Ranger",
+      "flags": []
+    },
+    "setIds": [
+      "af-50-noxious-ranger"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Chemical Agents P1",
+      "warbondId": "chemical-agents",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "af-52-lockdown",
+    "slug": "af-52-lockdown",
+    "name": "AF-52 Lockdown",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AF-52 Lockdown",
+      "url": "https://helldivers.wiki.gg/wiki/AF-52_Lockdown",
+      "flags": []
+    },
+    "setIds": [
+      "af-52-lockdown"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "af-91-field-chemist",
+    "slug": "af-91-field-chemist",
+    "name": "AF-91 Field Chemist",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "AF-91 Field Chemist",
+      "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",
+      "flags": []
+    },
+    "setIds": [
+      "af-91-field-chemist"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "b-01-tactical",
+    "slug": "b-01-tactical",
+    "name": "B-01 Tactical",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "B-01 Tactical",
+      "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",
+      "flags": []
+    },
+    "setIds": [
+      "b-01-tactical"
+    ],
+    "source": {
+      "type": "default",
+      "label": "Starter Equipment",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "b-08-light-gunner",
+    "slug": "b-08-light-gunner",
+    "name": "B-08 Light Gunner",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "B-08 Light Gunner",
+      "url": "https://helldivers.wiki.gg/wiki/B-08_Light_Gunner",
+      "flags": []
+    },
+    "setIds": [
+      "b-08-light-gunner"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "b-22-model-citizen",
+    "slug": "b-22-model-citizen",
+    "name": "B-22 Model Citizen",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "B-22 Model Citizen",
+      "url": "https://helldivers.wiki.gg/wiki/B-22_Model_Citizen",
+      "flags": []
+    },
+    "setIds": [
+      "b-22-model-citizen"
+    ],
+    "source": {
+      "type": "event",
+      "label": "Anniversary Gift",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "b-24-enforcer",
+    "slug": "b-24-enforcer",
+    "name": "B-24 Enforcer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "B-24 Enforcer",
+      "url": "https://helldivers.wiki.gg/wiki/B-24_Enforcer",
+      "flags": []
+    },
+    "setIds": [
+      "b-24-enforcer"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "b-27-fortified-commando",
+    "slug": "b-27-fortified-commando",
+    "name": "B-27 Fortified Commando",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "B-27 Fortified Commando",
+      "url": "https://helldivers.wiki.gg/wiki/B-27_Fortified_Commando",
+      "flags": []
+    },
+    "setIds": [
+      "b-27-fortified-commando"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 200
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "bfm-16-tanker",
+    "slug": "bfm-16-tanker",
+    "name": "BFM-16 Tanker",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "BFM-16 Tanker",
+      "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "bfm-16-tanker"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Ironclad Democracy",
+      "warbondId": "ironclad-democracy",
+      "page": 1,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "bfm-220-ironclad",
+    "slug": "bfm-220-ironclad",
+    "name": "BFM-220 Ironclad",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "BFM-220 Ironclad",
+      "url": "https://helldivers.wiki.gg/wiki/BFM-220_Ironclad",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "bfm-220-ironclad"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Ironclad Democracy",
+      "warbondId": "ironclad-democracy",
+      "page": 2,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "bp-20-correct-officer",
+    "slug": "bp-20-correct-officer",
+    "name": "BP-20 Correct Officer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "BP-20 Correct Officer",
+      "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "bp-20-correct-officer"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P1",
+      "warbondId": "force-of-law",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "bp-32-jackboot",
+    "slug": "bp-32-jackboot",
+    "name": "BP-32 Jackboot",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "BP-32 Jackboot",
+      "url": "https://helldivers.wiki.gg/wiki/BP-32_Jackboot",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "bp-32-jackboot"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Force of Law P2",
+      "warbondId": "force-of-law",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "bp-77-grand-juror",
+    "slug": "bp-77-grand-juror",
+    "name": "BP-77 Grand Juror",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "BP-77 Grand Juror",
+      "url": "https://helldivers.wiki.gg/wiki/BP-77_Grand_Juror",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "bp-77-grand-juror"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ce-07-demolition-specialist",
+    "slug": "ce-07-demolition-specialist",
+    "name": "CE-07 Demolition Specialist",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-07 Demolition Specialist",
+      "url": "https://helldivers.wiki.gg/wiki/CE-07_Demolition_Specialist",
+      "flags": []
+    },
+    "setIds": [
+      "ce-07-demolition-specialist"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P2",
+      "warbondId": "democratic-detonation",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ce-101-guerilla-gorilla",
+    "slug": "ce-101-guerilla-gorilla",
+    "name": "CE-101 Guerilla Gorilla",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-101 Guerilla Gorilla",
+      "url": "https://helldivers.wiki.gg/wiki/CE-101_Guerilla_Gorilla",
+      "flags": []
+    },
+    "setIds": [
+      "ce-101-guerilla-gorilla"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ce-27-ground-breaker",
+    "slug": "ce-27-ground-breaker",
+    "name": "CE-27 Ground Breaker",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-27 Ground Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
+      "flags": []
+    },
+    "setIds": [
+      "ce-27-ground-breaker"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P1",
+      "warbondId": "democratic-detonation",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ce-35-trench-engineer",
+    "slug": "ce-35-trench-engineer",
+    "name": "CE-35 Trench Engineer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-35 Trench Engineer",
+      "url": "https://helldivers.wiki.gg/wiki/CE-35_Trench_Engineer",
+      "flags": []
+    },
+    "setIds": [
+      "ce-35-trench-engineer"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P3",
+      "warbondId": "helldivers-mobilize",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 7
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ce-64-grenadier",
+    "slug": "ce-64-grenadier",
+    "name": "CE-64 Grenadier",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-64 Grenadier",
+      "url": "https://helldivers.wiki.gg/wiki/CE-64_Grenadier",
+      "flags": []
+    },
+    "setIds": [
+      "ce-64-grenadier"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ce-67-titan",
+    "slug": "ce-67-titan",
+    "name": "CE-67 Titan",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-67 Titan",
+      "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
+      "flags": []
+    },
+    "setIds": [
+      "ce-67-titan"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ce-74-breaker",
+    "slug": "ce-74-breaker",
+    "name": "CE-74 Breaker",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-74 Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/CE-74_Breaker",
+      "flags": []
+    },
+    "setIds": [
+      "ce-74-breaker"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ce-81-juggernaut",
+    "slug": "ce-81-juggernaut",
+    "name": "CE-81 Juggernaut",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CE-81 Juggernaut",
+      "url": "https://helldivers.wiki.gg/wiki/CE-81_Juggernaut",
+      "flags": []
+    },
+    "setIds": [
+      "ce-81-juggernaut"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "cm-09-bonesnapper",
+    "slug": "cm-09-bonesnapper",
+    "name": "CM-09 Bonesnapper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-09 Bonesnapper",
+      "url": "https://helldivers.wiki.gg/wiki/CM-09_Bonesnapper",
+      "flags": []
+    },
+    "setIds": [
+      "cm-09-bonesnapper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P4",
+      "warbondId": "helldivers-mobilize",
+      "page": 4,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cm-10-clinician",
+    "slug": "cm-10-clinician",
+    "name": "CM-10 Clinician",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-10 Clinician",
+      "url": "https://helldivers.wiki.gg/wiki/CM-10_Clinician",
+      "flags": []
+    },
+    "setIds": [
+      "cm-10-clinician"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "cm-14-physician",
+    "slug": "cm-14-physician",
+    "name": "CM-14 Physician",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-14 Physician",
+      "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",
+      "flags": []
+    },
+    "setIds": [
+      "cm-14-physician"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P9",
+      "warbondId": "helldivers-mobilize",
+      "page": 9,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cm-17-butcher",
+    "slug": "cm-17-butcher",
+    "name": "CM-17 Butcher",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-17 Butcher",
+      "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
+      "flags": []
+    },
+    "setIds": [
+      "cm-17-butcher"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "cm-21-trench-paramedic",
+    "slug": "cm-21-trench-paramedic",
+    "name": "CM-21 Trench Paramedic",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CM-21 Trench Paramedic",
+      "url": "https://helldivers.wiki.gg/wiki/CM-21_Trench_Paramedic",
+      "flags": []
+    },
+    "setIds": [
+      "cm-21-trench-paramedic"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "cpg-48-sapper",
+    "slug": "cpg-48-sapper",
+    "name": "CPG-48 Sapper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CPG-48 Sapper",
+      "url": "https://helldivers.wiki.gg/wiki/CPG-48_Sapper",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "cpg-48-sapper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P1",
+      "warbondId": "entrenched-division",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cph-26-commandant",
+    "slug": "cph-26-commandant",
+    "name": "CPH-26 Commandant",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CPH-26 Commandant",
+      "url": "https://helldivers.wiki.gg/wiki/CPH-26_Commandant",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "cph-26-commandant"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Entrenched Division P2",
+      "warbondId": "entrenched-division",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cpr-80-bulwark",
+    "slug": "cpr-80-bulwark",
+    "name": "CPR-80 Bulwark",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CPR-80 Bulwark",
+      "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "cpr-80-bulwark"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "cw-22-kodiak",
+    "slug": "cw-22-kodiak",
+    "name": "CW-22 Kodiak",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CW-22 Kodiak",
+      "url": "https://helldivers.wiki.gg/wiki/CW-22_Kodiak",
+      "flags": []
+    },
+    "setIds": [
+      "cw-22-kodiak"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P2",
+      "warbondId": "polar-patriots",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cw-36-winter-warrior",
+    "slug": "cw-36-winter-warrior",
+    "name": "CW-36 Winter Warrior",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CW-36 Winter Warrior",
+      "url": "https://helldivers.wiki.gg/wiki/CW-36_Winter_Warrior",
+      "flags": []
+    },
+    "setIds": [
+      "cw-36-winter-warrior"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P1",
+      "warbondId": "polar-patriots",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cw-4-arctic-ranger",
+    "slug": "cw-4-arctic-ranger",
+    "name": "CW-4 Arctic Ranger",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CW-4 Arctic Ranger",
+      "url": "https://helldivers.wiki.gg/wiki/CW-4_Arctic_Ranger",
+      "flags": []
+    },
+    "setIds": [
+      "cw-4-arctic-ranger"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Polar Patriots P3",
+      "warbondId": "polar-patriots",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 48
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "cw-9-white-wolf",
+    "slug": "cw-9-white-wolf",
+    "name": "CW-9 White Wolf",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "CW-9 White Wolf",
+      "url": "https://helldivers.wiki.gg/wiki/CW-9_White_Wolf",
+      "flags": []
+    },
+    "setIds": [
+      "cw-9-white-wolf"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "dp-00-tactical",
+    "slug": "dp-00-tactical",
+    "name": "DP-00 Tactical",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DP-00 Tactical",
+      "url": "https://helldivers.wiki.gg/wiki/DP-00_Tactical",
+      "flags": []
+    },
+    "setIds": [
+      "dp-00-tactical"
+    ],
+    "source": {
+      "type": "event",
+      "label": "Liberty Day",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "dp-11-champion-of-the-people",
+    "slug": "dp-11-champion-of-the-people",
+    "name": "DP-11 Champion of the People",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DP-11 Champion of the People",
+      "url": "https://helldivers.wiki.gg/wiki/DP-11_Champion_of_the_People",
+      "flags": []
+    },
+    "setIds": [
+      "dp-11-champion-of-the-people"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P10",
+      "warbondId": "helldivers-mobilize",
+      "page": 10,
+      "cost": {
+        "currency": "medals",
+        "amount": 75
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "dp-40-hero-of-the-federation",
+    "slug": "dp-40-hero-of-the-federation",
+    "name": "DP-40 Hero of the Federation",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DP-40 Hero of the Federation",
+      "url": "https://helldivers.wiki.gg/wiki/DP-40_Hero_of_the_Federation",
+      "flags": []
+    },
+    "setIds": [
+      "dp-40-hero-of-the-federation"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P5",
+      "warbondId": "helldivers-mobilize",
+      "page": 5,
+      "cost": {
+        "currency": "medals",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "dp-53-savior-of-the-free",
+    "slug": "dp-53-savior-of-the-free",
+    "name": "DP-53 Savior of the Free",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DP-53 Savior of the Free",
+      "url": "https://helldivers.wiki.gg/wiki/DP-53_Savior_of_the_Free",
+      "flags": []
+    },
+    "setIds": [
+      "dp-53-savior-of-the-free"
+    ],
+    "source": {
+      "type": "edition",
+      "label": "Super Citizen Edition",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "usd",
+        "amount": 20
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "dp-8-mountain-scaled",
+    "slug": "dp-8-mountain-scaled",
+    "name": "DP-8 Mountain-Scaled",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DP-8 Mountain-Scaled",
+      "url": "https://helldivers.wiki.gg/wiki/DP-8_Mountain-Scaled",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "dp-8-mountain-scaled"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ds-10-big-game-hunter",
+    "slug": "ds-10-big-game-hunter",
+    "name": "DS-10 Big Game Hunter",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DS-10 Big Game Hunter",
+      "url": "https://helldivers.wiki.gg/wiki/DS-10_Big_Game_Hunter",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "ds-10-big-game-hunter"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ds-191-scorpion",
+    "slug": "ds-191-scorpion",
+    "name": "DS-191 Scorpion",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DS-191 Scorpion",
+      "url": "https://helldivers.wiki.gg/wiki/DS-191_Scorpion",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "ds-191-scorpion"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Dust Devils P2",
+      "warbondId": "dust-devils",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ds-42-federations-blade",
+    "slug": "ds-42-federations-blade",
+    "name": "DS-42 Federation's Blade",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "DS-42 Federation's Blade",
+      "url": "https://helldivers.wiki.gg/wiki/DS-42_Federation's_Blade",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "setIds": [
+      "ds-42-federations-blade"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Dust Devils P1",
+      "warbondId": "dust-devils",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ex-00-prototype-x",
+    "slug": "ex-00-prototype-x",
+    "name": "EX-00 Prototype X",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "EX-00 Prototype X",
+      "url": "https://helldivers.wiki.gg/wiki/EX-00_Prototype_X",
+      "flags": []
+    },
+    "setIds": [
+      "ex-00-prototype-x"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P3",
+      "warbondId": "cutting-edge",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 48
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ex-03-prototype-3",
+    "slug": "ex-03-prototype-3",
+    "name": "EX-03 Prototype 3",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "EX-03 Prototype 3",
+      "url": "https://helldivers.wiki.gg/wiki/EX-03_Prototype_3",
+      "flags": []
+    },
+    "setIds": [
+      "ex-03-prototype-3"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P1",
+      "warbondId": "cutting-edge",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ex-16-prototype-16",
+    "slug": "ex-16-prototype-16",
+    "name": "EX-16 Prototype 16",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "EX-16 Prototype 16",
+      "url": "https://helldivers.wiki.gg/wiki/EX-16_Prototype_16",
+      "flags": []
+    },
+    "setIds": [
+      "ex-16-prototype-16"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Cutting Edge P2",
+      "warbondId": "cutting-edge",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "fs-05-marksman",
+    "slug": "fs-05-marksman",
+    "name": "FS-05 Marksman",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-05 Marksman",
+      "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",
+      "flags": []
+    },
+    "setIds": [
+      "fs-05-marksman"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P2",
+      "warbondId": "helldivers-mobilize",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 5
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "fs-11-executioner",
+    "slug": "fs-11-executioner",
+    "name": "FS-11 Executioner",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-11 Executioner",
+      "url": "https://helldivers.wiki.gg/wiki/FS-11_Executioner",
+      "flags": []
+    },
+    "setIds": [
+      "fs-11-executioner"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "fs-23-battle-master",
+    "slug": "fs-23-battle-master",
+    "name": "FS-23 Battle Master",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-23 Battle Master",
+      "url": "https://helldivers.wiki.gg/wiki/FS-23_Battle_Master",
+      "flags": []
+    },
+    "setIds": [
+      "fs-23-battle-master"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P6",
+      "warbondId": "helldivers-mobilize",
+      "page": 6,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "fs-34-exterminator",
+    "slug": "fs-34-exterminator",
+    "name": "FS-34 Exterminator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-34 Exterminator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
+      "flags": []
+    },
+    "setIds": [
+      "fs-34-exterminator"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 200
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "fs-37-ravager",
+    "slug": "fs-37-ravager",
+    "name": "FS-37 Ravager",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-37 Ravager",
+      "url": "https://helldivers.wiki.gg/wiki/FS-37_Ravager",
+      "flags": []
+    },
+    "setIds": [
+      "fs-37-ravager"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "fs-38-eradicator",
+    "slug": "fs-38-eradicator",
+    "name": "FS-38 Eradicator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-38 Eradicator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-38_Eradicator",
+      "flags": []
+    },
+    "setIds": [
+      "fs-38-eradicator"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "fs-55-devastator",
+    "slug": "fs-55-devastator",
+    "name": "FS-55 Devastator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-55 Devastator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",
+      "flags": []
+    },
+    "setIds": [
+      "fs-55-devastator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Democratic Detonation P3",
+      "warbondId": "democratic-detonation",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 48
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "fs-61-dreadnought",
+    "slug": "fs-61-dreadnought",
+    "name": "FS-61 Dreadnought",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "FS-61 Dreadnought",
+      "url": "https://helldivers.wiki.gg/wiki/FS-61_Dreadnought",
+      "flags": []
+    },
+    "setIds": [
+      "fs-61-dreadnought"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "gs-11-democracys-deputy",
+    "slug": "gs-11-democracys-deputy",
+    "name": "GS-11 Democracy's Deputy",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "GS-11 Democracy's Deputy",
+      "url": "https://helldivers.wiki.gg/wiki/GS-11_Democracy's_Deputy",
+      "flags": []
+    },
+    "setIds": [
+      "gs-11-democracys-deputy"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "gs-17-frontier-marshal",
+    "slug": "gs-17-frontier-marshal",
+    "name": "GS-17 Frontier Marshal",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "GS-17 Frontier Marshal",
+      "url": "https://helldivers.wiki.gg/wiki/GS-17_Frontier_Marshal",
+      "flags": []
+    },
+    "setIds": [
+      "gs-17-frontier-marshal"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Borderline Justice P1",
+      "warbondId": "borderline-justice",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "gs-66-lawmaker",
+    "slug": "gs-66-lawmaker",
+    "name": "GS-66 Lawmaker",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "GS-66 Lawmaker",
+      "url": "https://helldivers.wiki.gg/wiki/GS-66_Lawmaker",
+      "flags": []
+    },
+    "setIds": [
+      "gs-66-lawmaker"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Borderline Justice P2",
+      "warbondId": "borderline-justice",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "i-09-heatseeker",
+    "slug": "i-09-heatseeker",
+    "name": "I-09 Heatseeker",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "I-09 Heatseeker",
+      "url": "https://helldivers.wiki.gg/wiki/I-09_Heatseeker",
+      "flags": []
+    },
+    "setIds": [
+      "i-09-heatseeker"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Freedom's Flame P1",
+      "warbondId": "freedoms-flame",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "i-102-draconaught",
+    "slug": "i-102-draconaught",
+    "name": "I-102 Draconaught",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "I-102 Draconaught",
+      "url": "https://helldivers.wiki.gg/wiki/I-102_Draconaught",
+      "flags": []
+    },
+    "setIds": [
+      "i-102-draconaught"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Freedom's Flame P2",
+      "warbondId": "freedoms-flame",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "i-44-salamander",
+    "slug": "i-44-salamander",
+    "name": "I-44 Salamander",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "I-44 Salamander",
+      "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
+      "flags": []
+    },
+    "setIds": [
+      "i-44-salamander"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "i-92-fire-fighter",
+    "slug": "i-92-fire-fighter",
+    "name": "I-92 Fire Fighter",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "I-92 Fire Fighter",
+      "url": "https://helldivers.wiki.gg/wiki/I-92_Fire_Fighter",
+      "flags": []
+    },
+    "setIds": [
+      "i-92-fire-fighter"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ie-12-righteous",
+    "slug": "ie-12-righteous",
+    "name": "IE-12 Righteous",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "IE-12 Righteous",
+      "url": "https://helldivers.wiki.gg/wiki/IE-12_Righteous",
+      "flags": []
+    },
+    "setIds": [
+      "ie-12-righteous"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Servants of Freedom P2",
+      "warbondId": "servants-of-freedom",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ie-3-martyr",
+    "slug": "ie-3-martyr",
+    "name": "IE-3 Martyr",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "IE-3 Martyr",
+      "url": "https://helldivers.wiki.gg/wiki/IE-3_Martyr",
+      "flags": []
+    },
+    "setIds": [
+      "ie-3-martyr"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Servants of Freedom P1",
+      "warbondId": "servants-of-freedom",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ie-57-hell-bent",
+    "slug": "ie-57-hell-bent",
+    "name": "IE-57 Hell-Bent",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "IE-57 Hell-Bent",
+      "url": "https://helldivers.wiki.gg/wiki/IE-57_Hell-Bent",
+      "flags": []
+    },
+    "setIds": [
+      "ie-57-hell-bent"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ix-voidwalker",
+    "slug": "ix-voidwalker",
+    "name": "IX-Voidwalker",
+    "aliases": [],
+    "description": "A helmet worn by the pioneering Helldivers who first ventured into the Void. Designed by Super Earth scientists with liberated Illuminate blueprints.",
+    "image": null,
+    "wiki": {
+      "title": "IX-Voidwalker",
+      "url": "https://helldivers.wiki.gg/wiki/IX-Voidwalker",
+      "flags": []
+    },
+    "setIds": [],
+    "source": {
+      "type": "event",
+      "label": "Void Piercer",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "kdm-500-outrider",
+    "slug": "kdm-500-outrider",
+    "name": "KDM-500 Outrider",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "KDM-500 Outrider",
+      "url": "https://helldivers.wiki.gg/wiki/KDM-500_Outrider",
+      "flags": []
+    },
+    "setIds": [
+      "kdm-500-outrider"
+    ],
+    "source": {
+      "type": "event",
+      "label": "Lightning Intercept",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "o-2-heavy-operator",
+    "slug": "o-2-heavy-operator",
+    "name": "O-2 Heavy Operator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "O-2 Heavy Operator",
+      "url": "https://helldivers.wiki.gg/wiki/O-2_Heavy_Operator",
+      "flags": []
+    },
+    "setIds": [
+      "o-2-heavy-operator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P2",
+      "warbondId": "exo-experts",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "o-3-free-spirit",
+    "slug": "o-3-free-spirit",
+    "name": "O-3 Free Spirit",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "O-3 Free Spirit",
+      "url": "https://helldivers.wiki.gg/wiki/O-3_Free_Spirit",
+      "flags": []
+    },
+    "setIds": [
+      "o-3-free-spirit"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Exo Experts P1",
+      "warbondId": "exo-experts",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "o-44-bonded-pilot",
+    "slug": "o-44-bonded-pilot",
+    "name": "O-44 Bonded Pilot",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "O-44 Bonded Pilot",
+      "url": "https://helldivers.wiki.gg/wiki/O-44_Bonded_Pilot",
+      "flags": []
+    },
+    "setIds": [
+      "o-44-bonded-pilot"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ph-202-twigsnapper",
+    "slug": "ph-202-twigsnapper",
+    "name": "PH-202 Twigsnapper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "PH-202 Twigsnapper",
+      "url": "https://helldivers.wiki.gg/wiki/PH-202_Twigsnapper",
+      "flags": []
+    },
+    "setIds": [
+      "ph-202-twigsnapper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P2",
+      "warbondId": "viper-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "ph-56-jaguar",
+    "slug": "ph-56-jaguar",
+    "name": "PH-56 Jaguar",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "PH-56 Jaguar",
+      "url": "https://helldivers.wiki.gg/wiki/PH-56_Jaguar",
+      "flags": []
+    },
+    "setIds": [
+      "ph-56-jaguar"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "ph-9-predator",
+    "slug": "ph-9-predator",
+    "name": "PH-9 Predator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "PH-9 Predator",
+      "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
+      "flags": []
+    },
+    "setIds": [
+      "ph-9-predator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Viper Commandos P1",
+      "warbondId": "viper-commandos",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "re-1861-parade-commander",
+    "slug": "re-1861-parade-commander",
+    "name": "RE-1861 Parade Commander",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RE-1861 Parade Commander",
+      "url": "https://helldivers.wiki.gg/wiki/RE-1861_Parade_Commander",
+      "flags": []
+    },
+    "setIds": [
+      "re-1861-parade-commander"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P2",
+      "warbondId": "masters-of-ceremony",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "re-2310-honorary-guard",
+    "slug": "re-2310-honorary-guard",
+    "name": "RE-2310 Honorary Guard",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RE-2310 Honorary Guard",
+      "url": "https://helldivers.wiki.gg/wiki/RE-2310_Honorary_Guard",
+      "flags": []
+    },
+    "setIds": [
+      "re-2310-honorary-guard"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Masters of Ceremony P1",
+      "warbondId": "masters-of-ceremony",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "re-824-bearer-of-the-standard",
+    "slug": "re-824-bearer-of-the-standard",
+    "name": "RE-824 Bearer of the Standard",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RE-824 Bearer of the Standard",
+      "url": "https://helldivers.wiki.gg/wiki/RE-824_Bearer_of_the_Standard",
+      "flags": []
+    },
+    "setIds": [
+      "re-824-bearer-of-the-standard"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 200
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "rs-100-sanctioner",
+    "slug": "rs-100-sanctioner",
+    "name": "RS-100 Sanctioner",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-100 Sanctioner",
+      "url": "https://helldivers.wiki.gg/wiki/RS-100_Sanctioner",
+      "flags": []
+    },
+    "setIds": [
+      "rs-100-sanctioner"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "rs-20-constrictor",
+    "slug": "rs-20-constrictor",
+    "name": "RS-20 Constrictor",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-20 Constrictor",
+      "url": "https://helldivers.wiki.gg/wiki/RS-20_Constrictor",
+      "flags": []
+    },
+    "setIds": [
+      "rs-20-constrictor"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P1",
+      "warbondId": "python-commandos",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "rs-40-beast-of-prey",
+    "slug": "rs-40-beast-of-prey",
+    "name": "RS-40 Beast of Prey",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-40 Beast of Prey",
+      "url": "https://helldivers.wiki.gg/wiki/RS-40_Beast_of_Prey",
+      "flags": []
+    },
+    "setIds": [
+      "rs-40-beast-of-prey"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Python Commandos P2",
+      "warbondId": "python-commandos",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "rs-6-fiend-destroyer",
+    "slug": "rs-6-fiend-destroyer",
+    "name": "RS-6 Fiend Destroyer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-6 Fiend Destroyer",
+      "url": "https://helldivers.wiki.gg/wiki/RS-6_Fiend_Destroyer",
+      "flags": []
+    },
+    "setIds": [
+      "rs-6-fiend-destroyer"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 150
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "rs-67-null-cipher",
+    "slug": "rs-67-null-cipher",
+    "name": "RS-67 Null Cipher",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-67 Null Cipher",
+      "url": "https://helldivers.wiki.gg/wiki/RS-67_Null_Cipher",
+      "flags": []
+    },
+    "setIds": [
+      "rs-67-null-cipher"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P2",
+      "warbondId": "redacted-regiment",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "rs-89-shadow-paragon",
+    "slug": "rs-89-shadow-paragon",
+    "name": "RS-89 Shadow Paragon",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "RS-89 Shadow Paragon",
+      "url": "https://helldivers.wiki.gg/wiki/RS-89_Shadow_Paragon",
+      "flags": []
+    },
+    "setIds": [
+      "rs-89-shadow-paragon"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Redacted Regiment P1",
+      "warbondId": "redacted-regiment",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sa-04-combat-technician",
+    "slug": "sa-04-combat-technician",
+    "name": "SA-04 Combat Technician",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-04 Combat Technician",
+      "url": "https://helldivers.wiki.gg/wiki/SA-04_Combat_Technician",
+      "flags": []
+    },
+    "setIds": [
+      "sa-04-combat-technician"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P8",
+      "warbondId": "helldivers-mobilize",
+      "page": 8,
+      "cost": {
+        "currency": "medals",
+        "amount": 40
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sa-12-servo-assisted",
+    "slug": "sa-12-servo-assisted",
+    "name": "SA-12 Servo Assisted",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-12 Servo Assisted",
+      "url": "https://helldivers.wiki.gg/wiki/SA-12_Servo_Assisted",
+      "flags": []
+    },
+    "setIds": [
+      "sa-12-servo-assisted"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P2",
+      "warbondId": "steeled-veterans",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sa-25-steel-trooper",
+    "slug": "sa-25-steel-trooper",
+    "name": "SA-25 Steel Trooper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-25 Steel Trooper",
+      "url": "https://helldivers.wiki.gg/wiki/SA-25_Steel_Trooper",
+      "flags": []
+    },
+    "setIds": [
+      "sa-25-steel-trooper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P1",
+      "warbondId": "steeled-veterans",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 12
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sa-32-dynamo",
+    "slug": "sa-32-dynamo",
+    "name": "SA-32 Dynamo",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-32 Dynamo",
+      "url": "https://helldivers.wiki.gg/wiki/SA-32_Dynamo",
+      "flags": []
+    },
+    "setIds": [
+      "sa-32-dynamo"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Steeled Veterans P3",
+      "warbondId": "steeled-veterans",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 48
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sa-7-headfirst",
+    "slug": "sa-7-headfirst",
+    "name": "SA-7 Headfirst",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-7 Headfirst",
+      "url": "https://helldivers.wiki.gg/wiki/SA-7_Headfirst",
+      "flags": []
+    },
+    "setIds": [
+      "sa-7-headfirst"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers P1",
+      "warbondId": "siege-breakers",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sa-8-ram",
+    "slug": "sa-8-ram",
+    "name": "SA-8 Ram",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SA-8 Ram",
+      "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",
+      "flags": []
+    },
+    "setIds": [
+      "sa-8-ram"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Siege Breakers P2",
+      "warbondId": "siege-breakers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sc-15-drone-master",
+    "slug": "sc-15-drone-master",
+    "name": "SC-15 Drone Master",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SC-15 Drone Master",
+      "url": "https://helldivers.wiki.gg/wiki/SC-15_Drone_Master",
+      "flags": []
+    },
+    "setIds": [
+      "sc-15-drone-master"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "sc-30-trailblazer-scout",
+    "slug": "sc-30-trailblazer-scout",
+    "name": "SC-30 Trailblazer Scout",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SC-30 Trailblazer Scout",
+      "url": "https://helldivers.wiki.gg/wiki/SC-30_Trailblazer_Scout",
+      "flags": []
+    },
+    "setIds": [
+      "sc-30-trailblazer-scout"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P7",
+      "warbondId": "helldivers-mobilize",
+      "page": 7,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sc-34-infiltrator",
+    "slug": "sc-34-infiltrator",
+    "name": "SC-34 Infiltrator",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SC-34 Infiltrator",
+      "url": "https://helldivers.wiki.gg/wiki/SC-34_Infiltrator",
+      "flags": []
+    },
+    "setIds": [
+      "sc-34-infiltrator"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Helldivers Mobilize! P1",
+      "warbondId": "helldivers-mobilize",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 2
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sc-37-legionnaire",
+    "slug": "sc-37-legionnaire",
+    "name": "SC-37 Legionnaire",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SC-37 Legionnaire",
+      "url": "https://helldivers.wiki.gg/wiki/SC-37_Legionnaire",
+      "flags": []
+    },
+    "setIds": [
+      "sc-37-legionnaire"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 75
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "sr-18-roadblock",
+    "slug": "sr-18-roadblock",
+    "name": "SR-18 Roadblock",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SR-18 Roadblock",
+      "url": "https://helldivers.wiki.gg/wiki/SR-18_Roadblock",
+      "flags": []
+    },
+    "setIds": [
+      "sr-18-roadblock"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P2",
+      "warbondId": "urban-legends",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sr-24-street-scout",
+    "slug": "sr-24-street-scout",
+    "name": "SR-24 Street Scout",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SR-24 Street Scout",
+      "url": "https://helldivers.wiki.gg/wiki/SR-24_Street_Scout",
+      "flags": []
+    },
+    "setIds": [
+      "sr-24-street-scout"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Urban Legends P1",
+      "warbondId": "urban-legends",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "sr-64-cinderblock",
+    "slug": "sr-64-cinderblock",
+    "name": "SR-64 Cinderblock",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "SR-64 Cinderblock",
+      "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",
+      "flags": []
+    },
+    "setIds": [
+      "sr-64-cinderblock"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 125
+      },
+      "rotating": false
+    }
+  },
+  {
+    "id": "tg-122-demo-trooper",
+    "slug": "tg-122-demo-trooper",
+    "name": "TG-122 Demo-Trooper",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TG-122 Demo-Trooper",
+      "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
+      "flags": []
+    },
+    "setIds": [
+      "tg-122-demo-trooper"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Castellan's Creed P2",
+      "warbondId": "castellans-creed",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "tg-8-sharpshooter",
+    "slug": "tg-8-sharpshooter",
+    "name": "TG-8 Sharpshooter",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TG-8 Sharpshooter",
+      "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+      "flags": []
+    },
+    "setIds": [
+      "tg-8-sharpshooter"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Castellan's Creed P1",
+      "warbondId": "castellans-creed",
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "tr-117-alpha-commander",
+    "slug": "tr-117-alpha-commander",
+    "name": "TR-117 Alpha Commander",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TR-117 Alpha Commander",
+      "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
+      "flags": []
+    },
+    "setIds": [
+      "tr-117-alpha-commander"
+    ],
+    "source": {
+      "type": "edition",
+      "label": "Downloadable Content",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "tr-40-gold-eagle",
+    "slug": "tr-40-gold-eagle",
+    "name": "TR-40 Gold Eagle",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TR-40 Gold Eagle",
+      "url": "https://helldivers.wiki.gg/wiki/TR-40_Gold_Eagle",
+      "flags": []
+    },
+    "setIds": [
+      "tr-40-gold-eagle"
+    ],
+    "source": {
+      "type": "event",
+      "label": "Escalation of Freedom",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "tr-62-knight",
+    "slug": "tr-62-knight",
+    "name": "TR-62 Knight",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TR-62 Knight",
+      "url": "https://helldivers.wiki.gg/wiki/TR-62_Knight",
+      "flags": []
+    },
+    "setIds": [
+      "tr-62-knight"
+    ],
+    "source": {
+      "type": "pre_order",
+      "label": "Pre-Order Bonus",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "tr-7-ambassador-of-the-brand",
+    "slug": "tr-7-ambassador-of-the-brand",
+    "name": "TR-7 Ambassador of the Brand",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TR-7 Ambassador of the Brand",
+      "url": "https://helldivers.wiki.gg/wiki/TR-7_Ambassador_of_the_Brand",
+      "flags": []
+    },
+    "setIds": [
+      "tr-7-ambassador-of-the-brand"
+    ],
+    "source": {
+      "type": "pre_order",
+      "label": "Pre-Order Bonus",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "tr-9-cavalier-of-democracy",
+    "slug": "tr-9-cavalier-of-democracy",
+    "name": "TR-9 Cavalier of Democracy",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "TR-9 Cavalier of Democracy",
+      "url": "https://helldivers.wiki.gg/wiki/TR-9_Cavalier_of_Democracy",
+      "flags": []
+    },
+    "setIds": [
+      "tr-9-cavalier-of-democracy"
+    ],
+    "source": {
+      "type": "pre_order",
+      "label": "Pre-Order Bonus",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  },
+  {
+    "id": "uf-16-inspector",
+    "slug": "uf-16-inspector",
+    "name": "UF-16 Inspector",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "UF-16 Inspector",
+      "url": "https://helldivers.wiki.gg/wiki/UF-16_Inspector",
+      "flags": []
+    },
+    "setIds": [
+      "uf-16-inspector"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Truth Enforcers P3",
+      "warbondId": "truth-enforcers",
+      "page": 3,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "uf-50-bloodhound",
+    "slug": "uf-50-bloodhound",
+    "name": "UF-50 Bloodhound",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "UF-50 Bloodhound",
+      "url": "https://helldivers.wiki.gg/wiki/UF-50_Bloodhound",
+      "flags": []
+    },
+    "setIds": [
+      "uf-50-bloodhound"
+    ],
+    "source": {
+      "type": "warbond",
+      "label": "Truth Enforcers P2",
+      "warbondId": "truth-enforcers",
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
+      "rotating": null
+    }
+  },
+  {
+    "id": "uf-84-doubt-killer",
+    "slug": "uf-84-doubt-killer",
+    "name": "UF-84 Doubt Killer",
+    "aliases": [],
+    "description": null,
+    "image": null,
+    "wiki": {
+      "title": "UF-84 Doubt Killer",
+      "url": "https://helldivers.wiki.gg/wiki/UF-84_Doubt_Killer",
+      "flags": []
+    },
+    "setIds": [
+      "uf-84-doubt-killer"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 200
+      },
+      "rotating": false
+    }
+  }
+]

@@ -1,4 +1,4 @@
-import type { Cost, Currency, Id, Source, WeaponTrait } from "@hd2/schemas";
+import type { Cost, Currency, Id, Passive, Source, WeaponTrait } from "@hd2/schemas";
 import { NormalizeError } from "../errors.ts";
 import { parseCost } from "../normalize/costs.ts";
 import { classifySource, type RawSourceCell } from "../normalize/sources.ts";
@@ -7,13 +7,14 @@ import { findItem, parseWarbondPage, type RawWarbondPage } from "../parsers/warb
 import { wikiUrl } from "../wiki/title.ts";
 import type { ScrapeContext } from "./types.ts";
 
-// Acquisition and traits shared by item pipelines (weapons, stratagems): the `Source` of an
-// item page (arch §5.5 rule 3) and its `Equipment Traits` links.
+// Acquisition and references shared by item pipelines: the `Source` of an item page (arch §5.5
+// rule 3), its `Equipment Traits` links (weapons, stratagems) and its passive (armors).
 
 export interface ItemSourceInput {
   cell: RawSourceCell;
   cost: RawCost | null; // the item page's cost row
   titles: readonly string[]; // titles a warbond page table may link the item by
+  wikiType?: string; // warbond table type when rows of other types link the same page ("Helmet")
   page: string; // item page URL
   fallbackCurrency?: Currency; // requisition columns that only say `Free`
   note: (message: string) => void;
@@ -57,7 +58,7 @@ export function itemSourceResolver({ source, overrides, warbonds }: ScrapeContex
       const warbond = await warbondPage(cell.link.title);
       let listed: ReturnType<typeof findItem> = null;
       for (const title of input.titles) {
-        listed ??= findItem(warbond, title, null);
+        listed ??= findItem(warbond, title, input.wikiType ?? null);
       }
       if (!listed) {
         throw new NormalizeError(page, cell.label, `no page lists it on ${cell.link.title}`);
@@ -102,4 +103,19 @@ export function traitResolver(
       }),
     ),
   ];
+}
+
+/** Passive links (`/wiki/True_Grit`) → passive ids; the collection must be scraped first. */
+export function passiveResolver(passives: readonly Passive[] | undefined) {
+  if (!passives) {
+    throw new Error("armors need the passives collection: scrape passives first");
+  }
+  const byTitle = new Map(passives.map((passive) => [passive.wiki.title, passive.id]));
+  return (link: RawLink, page: string): Id => {
+    const passive = byTitle.get(link.title);
+    if (!passive) {
+      throw new NormalizeError(page, link.label, "unknown armor passive");
+    }
+    return passive;
+  };
 }

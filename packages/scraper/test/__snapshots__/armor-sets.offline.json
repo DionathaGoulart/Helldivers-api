@@ -1,0 +1,1562 @@
+[
+  {
+    "id": "a-35-recon",
+    "slug": "a-35-recon",
+    "name": "A-35 Recon",
+    "wiki": {
+      "title": "A-35 Recon",
+      "url": "https://helldivers.wiki.gg/wiki/A-35_Recon",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "a-35-recon",
+    "helmetId": "a-35-recon",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "a-9-helljumper",
+    "slug": "a-9-helljumper",
+    "name": "A-9 Helljumper",
+    "wiki": {
+      "title": "A-9 Helljumper",
+      "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "a-9-helljumper",
+    "helmetId": "a-9-helljumper",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ac-1-dutiful",
+    "slug": "ac-1-dutiful",
+    "name": "AC-1 Dutiful",
+    "wiki": {
+      "title": "AC-1 Dutiful",
+      "url": "https://helldivers.wiki.gg/wiki/AC-1_Dutiful",
+      "flags": []
+    },
+    "armorId": "ac-1-dutiful",
+    "helmetId": "ac-1-dutiful",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ac-2-obedient",
+    "slug": "ac-2-obedient",
+    "name": "AC-2 Obedient",
+    "wiki": {
+      "title": "AC-2 Obedient",
+      "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
+      "flags": []
+    },
+    "armorId": "ac-2-obedient",
+    "helmetId": "ac-2-obedient",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ad-11-livewire",
+    "slug": "ad-11-livewire",
+    "name": "AD-11 Livewire",
+    "wiki": {
+      "title": "AD-11 Livewire",
+      "url": "https://helldivers.wiki.gg/wiki/AD-11_Livewire",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ad-11-livewire",
+    "helmetId": "ad-11-livewire",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ad-26-bleeding-edge",
+    "slug": "ad-26-bleeding-edge",
+    "name": "AD-26 Bleeding Edge",
+    "wiki": {
+      "title": "AD-26 Bleeding Edge",
+      "url": "https://helldivers.wiki.gg/wiki/AD-26_Bleeding_Edge",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ad-26-bleeding-edge",
+    "helmetId": "ad-26-bleeding-edge",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ad-49-apollonian",
+    "slug": "ad-49-apollonian",
+    "name": "AD-49 Apollonian",
+    "wiki": {
+      "title": "AD-49 Apollonian",
+      "url": "https://helldivers.wiki.gg/wiki/AD-49_Apollonian",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ad-49-apollonian",
+    "helmetId": "ad-49-apollonian",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "af-02-haz-master",
+    "slug": "af-02-haz-master",
+    "name": "AF-02 Haz-Master",
+    "wiki": {
+      "title": "AF-02 Haz-Master",
+      "url": "https://helldivers.wiki.gg/wiki/AF-02_Haz-Master",
+      "flags": []
+    },
+    "armorId": "af-02-haz-master",
+    "helmetId": "af-02-haz-master",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "af-50-noxious-ranger",
+    "slug": "af-50-noxious-ranger",
+    "name": "AF-50 Noxious Ranger",
+    "wiki": {
+      "title": "AF-50 Noxious Ranger",
+      "url": "https://helldivers.wiki.gg/wiki/AF-50_Noxious_Ranger",
+      "flags": []
+    },
+    "armorId": "af-50-noxious-ranger",
+    "helmetId": "af-50-noxious-ranger",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "af-52-lockdown",
+    "slug": "af-52-lockdown",
+    "name": "AF-52 Lockdown",
+    "wiki": {
+      "title": "AF-52 Lockdown",
+      "url": "https://helldivers.wiki.gg/wiki/AF-52_Lockdown",
+      "flags": []
+    },
+    "armorId": "af-52-lockdown",
+    "helmetId": "af-52-lockdown",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "af-91-field-chemist",
+    "slug": "af-91-field-chemist",
+    "name": "AF-91 Field Chemist",
+    "wiki": {
+      "title": "AF-91 Field Chemist",
+      "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",
+      "flags": []
+    },
+    "armorId": "af-91-field-chemist",
+    "helmetId": "af-91-field-chemist",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "b-01-tactical",
+    "slug": "b-01-tactical",
+    "name": "B-01 Tactical",
+    "wiki": {
+      "title": "B-01 Tactical",
+      "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",
+      "flags": []
+    },
+    "armorId": "b-01-tactical",
+    "helmetId": "b-01-tactical",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "b-08-light-gunner",
+    "slug": "b-08-light-gunner",
+    "name": "B-08 Light Gunner",
+    "wiki": {
+      "title": "B-08 Light Gunner",
+      "url": "https://helldivers.wiki.gg/wiki/B-08_Light_Gunner",
+      "flags": []
+    },
+    "armorId": "b-08-light-gunner",
+    "helmetId": "b-08-light-gunner",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "b-22-model-citizen",
+    "slug": "b-22-model-citizen",
+    "name": "B-22 Model Citizen",
+    "wiki": {
+      "title": "B-22 Model Citizen",
+      "url": "https://helldivers.wiki.gg/wiki/B-22_Model_Citizen",
+      "flags": []
+    },
+    "armorId": "b-22-model-citizen",
+    "helmetId": "b-22-model-citizen",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "b-24-enforcer",
+    "slug": "b-24-enforcer",
+    "name": "B-24 Enforcer",
+    "wiki": {
+      "title": "B-24 Enforcer",
+      "url": "https://helldivers.wiki.gg/wiki/B-24_Enforcer",
+      "flags": []
+    },
+    "armorId": "b-24-enforcer",
+    "helmetId": "b-24-enforcer",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "b-27-fortified-commando",
+    "slug": "b-27-fortified-commando",
+    "name": "B-27 Fortified Commando",
+    "wiki": {
+      "title": "B-27 Fortified Commando",
+      "url": "https://helldivers.wiki.gg/wiki/B-27_Fortified_Commando",
+      "flags": []
+    },
+    "armorId": "b-27-fortified-commando",
+    "helmetId": "b-27-fortified-commando",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "bfm-16-tanker",
+    "slug": "bfm-16-tanker",
+    "name": "BFM-16 Tanker",
+    "wiki": {
+      "title": "BFM-16 Tanker",
+      "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "bfm-16-tanker",
+    "helmetId": "bfm-16-tanker",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "bfm-220-ironclad",
+    "slug": "bfm-220-ironclad",
+    "name": "BFM-220 Ironclad",
+    "wiki": {
+      "title": "BFM-220 Ironclad",
+      "url": "https://helldivers.wiki.gg/wiki/BFM-220_Ironclad",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "bfm-220-ironclad",
+    "helmetId": "bfm-220-ironclad",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "bp-20-correct-officer",
+    "slug": "bp-20-correct-officer",
+    "name": "BP-20 Correct Officer",
+    "wiki": {
+      "title": "BP-20 Correct Officer",
+      "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "bp-20-correct-officer",
+    "helmetId": "bp-20-correct-officer",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "bp-32-jackboot",
+    "slug": "bp-32-jackboot",
+    "name": "BP-32 Jackboot",
+    "wiki": {
+      "title": "BP-32 Jackboot",
+      "url": "https://helldivers.wiki.gg/wiki/BP-32_Jackboot",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "bp-32-jackboot",
+    "helmetId": "bp-32-jackboot",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "bp-77-grand-juror",
+    "slug": "bp-77-grand-juror",
+    "name": "BP-77 Grand Juror",
+    "wiki": {
+      "title": "BP-77 Grand Juror",
+      "url": "https://helldivers.wiki.gg/wiki/BP-77_Grand_Juror",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "bp-77-grand-juror",
+    "helmetId": "bp-77-grand-juror",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-07-demolition-specialist",
+    "slug": "ce-07-demolition-specialist",
+    "name": "CE-07 Demolition Specialist",
+    "wiki": {
+      "title": "CE-07 Demolition Specialist",
+      "url": "https://helldivers.wiki.gg/wiki/CE-07_Demolition_Specialist",
+      "flags": []
+    },
+    "armorId": "ce-07-demolition-specialist",
+    "helmetId": "ce-07-demolition-specialist",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-101-guerilla-gorilla",
+    "slug": "ce-101-guerilla-gorilla",
+    "name": "CE-101 Guerilla Gorilla",
+    "wiki": {
+      "title": "CE-101 Guerilla Gorilla",
+      "url": "https://helldivers.wiki.gg/wiki/CE-101_Guerilla_Gorilla",
+      "flags": []
+    },
+    "armorId": "ce-101-guerilla-gorilla",
+    "helmetId": "ce-101-guerilla-gorilla",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-27-ground-breaker",
+    "slug": "ce-27-ground-breaker",
+    "name": "CE-27 Ground Breaker",
+    "wiki": {
+      "title": "CE-27 Ground Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
+      "flags": []
+    },
+    "armorId": "ce-27-ground-breaker",
+    "helmetId": "ce-27-ground-breaker",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-35-trench-engineer",
+    "slug": "ce-35-trench-engineer",
+    "name": "CE-35 Trench Engineer",
+    "wiki": {
+      "title": "CE-35 Trench Engineer",
+      "url": "https://helldivers.wiki.gg/wiki/CE-35_Trench_Engineer",
+      "flags": []
+    },
+    "armorId": "ce-35-trench-engineer",
+    "helmetId": "ce-35-trench-engineer",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-64-grenadier",
+    "slug": "ce-64-grenadier",
+    "name": "CE-64 Grenadier",
+    "wiki": {
+      "title": "CE-64 Grenadier",
+      "url": "https://helldivers.wiki.gg/wiki/CE-64_Grenadier",
+      "flags": []
+    },
+    "armorId": "ce-64-grenadier",
+    "helmetId": "ce-64-grenadier",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-67-titan",
+    "slug": "ce-67-titan",
+    "name": "CE-67 Titan",
+    "wiki": {
+      "title": "CE-67 Titan",
+      "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
+      "flags": []
+    },
+    "armorId": "ce-67-titan",
+    "helmetId": "ce-67-titan",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-74-breaker",
+    "slug": "ce-74-breaker",
+    "name": "CE-74 Breaker",
+    "wiki": {
+      "title": "CE-74 Breaker",
+      "url": "https://helldivers.wiki.gg/wiki/CE-74_Breaker",
+      "flags": []
+    },
+    "armorId": "ce-74-breaker",
+    "helmetId": "ce-74-breaker",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ce-81-juggernaut",
+    "slug": "ce-81-juggernaut",
+    "name": "CE-81 Juggernaut",
+    "wiki": {
+      "title": "CE-81 Juggernaut",
+      "url": "https://helldivers.wiki.gg/wiki/CE-81_Juggernaut",
+      "flags": []
+    },
+    "armorId": "ce-81-juggernaut",
+    "helmetId": "ce-81-juggernaut",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cm-09-bonesnapper",
+    "slug": "cm-09-bonesnapper",
+    "name": "CM-09 Bonesnapper",
+    "wiki": {
+      "title": "CM-09 Bonesnapper",
+      "url": "https://helldivers.wiki.gg/wiki/CM-09_Bonesnapper",
+      "flags": []
+    },
+    "armorId": "cm-09-bonesnapper",
+    "helmetId": "cm-09-bonesnapper",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cm-10-clinician",
+    "slug": "cm-10-clinician",
+    "name": "CM-10 Clinician",
+    "wiki": {
+      "title": "CM-10 Clinician",
+      "url": "https://helldivers.wiki.gg/wiki/CM-10_Clinician",
+      "flags": []
+    },
+    "armorId": "cm-10-clinician",
+    "helmetId": "cm-10-clinician",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cm-14-physician",
+    "slug": "cm-14-physician",
+    "name": "CM-14 Physician",
+    "wiki": {
+      "title": "CM-14 Physician",
+      "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",
+      "flags": []
+    },
+    "armorId": "cm-14-physician",
+    "helmetId": "cm-14-physician",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cm-17-butcher",
+    "slug": "cm-17-butcher",
+    "name": "CM-17 Butcher",
+    "wiki": {
+      "title": "CM-17 Butcher",
+      "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
+      "flags": []
+    },
+    "armorId": "cm-17-butcher",
+    "helmetId": "cm-17-butcher",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cm-21-trench-paramedic",
+    "slug": "cm-21-trench-paramedic",
+    "name": "CM-21 Trench Paramedic",
+    "wiki": {
+      "title": "CM-21 Trench Paramedic",
+      "url": "https://helldivers.wiki.gg/wiki/CM-21_Trench_Paramedic",
+      "flags": []
+    },
+    "armorId": "cm-21-trench-paramedic",
+    "helmetId": "cm-21-trench-paramedic",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cpg-48-sapper",
+    "slug": "cpg-48-sapper",
+    "name": "CPG-48 Sapper",
+    "wiki": {
+      "title": "CPG-48 Sapper",
+      "url": "https://helldivers.wiki.gg/wiki/CPG-48_Sapper",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "cpg-48-sapper",
+    "helmetId": "cpg-48-sapper",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cph-26-commandant",
+    "slug": "cph-26-commandant",
+    "name": "CPH-26 Commandant",
+    "wiki": {
+      "title": "CPH-26 Commandant",
+      "url": "https://helldivers.wiki.gg/wiki/CPH-26_Commandant",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "cph-26-commandant",
+    "helmetId": "cph-26-commandant",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cpr-80-bulwark",
+    "slug": "cpr-80-bulwark",
+    "name": "CPR-80 Bulwark",
+    "wiki": {
+      "title": "CPR-80 Bulwark",
+      "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "cpr-80-bulwark",
+    "helmetId": "cpr-80-bulwark",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cw-22-kodiak",
+    "slug": "cw-22-kodiak",
+    "name": "CW-22 Kodiak",
+    "wiki": {
+      "title": "CW-22 Kodiak",
+      "url": "https://helldivers.wiki.gg/wiki/CW-22_Kodiak",
+      "flags": []
+    },
+    "armorId": "cw-22-kodiak",
+    "helmetId": "cw-22-kodiak",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cw-36-winter-warrior",
+    "slug": "cw-36-winter-warrior",
+    "name": "CW-36 Winter Warrior",
+    "wiki": {
+      "title": "CW-36 Winter Warrior",
+      "url": "https://helldivers.wiki.gg/wiki/CW-36_Winter_Warrior",
+      "flags": []
+    },
+    "armorId": "cw-36-winter-warrior",
+    "helmetId": "cw-36-winter-warrior",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cw-4-arctic-ranger",
+    "slug": "cw-4-arctic-ranger",
+    "name": "CW-4 Arctic Ranger",
+    "wiki": {
+      "title": "CW-4 Arctic Ranger",
+      "url": "https://helldivers.wiki.gg/wiki/CW-4_Arctic_Ranger",
+      "flags": []
+    },
+    "armorId": "cw-4-arctic-ranger",
+    "helmetId": "cw-4-arctic-ranger",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "cw-9-white-wolf",
+    "slug": "cw-9-white-wolf",
+    "name": "CW-9 White Wolf",
+    "wiki": {
+      "title": "CW-9 White Wolf",
+      "url": "https://helldivers.wiki.gg/wiki/CW-9_White_Wolf",
+      "flags": []
+    },
+    "armorId": "cw-9-white-wolf",
+    "helmetId": "cw-9-white-wolf",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "dp-00-tactical",
+    "slug": "dp-00-tactical",
+    "name": "DP-00 Tactical",
+    "wiki": {
+      "title": "DP-00 Tactical",
+      "url": "https://helldivers.wiki.gg/wiki/DP-00_Tactical",
+      "flags": []
+    },
+    "armorId": "dp-00-tactical",
+    "helmetId": "dp-00-tactical",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "dp-11-champion-of-the-people",
+    "slug": "dp-11-champion-of-the-people",
+    "name": "DP-11 Champion of the People",
+    "wiki": {
+      "title": "DP-11 Champion of the People",
+      "url": "https://helldivers.wiki.gg/wiki/DP-11_Champion_of_the_People",
+      "flags": []
+    },
+    "armorId": "dp-11-champion-of-the-people",
+    "helmetId": "dp-11-champion-of-the-people",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "dp-40-hero-of-the-federation",
+    "slug": "dp-40-hero-of-the-federation",
+    "name": "DP-40 Hero of the Federation",
+    "wiki": {
+      "title": "DP-40 Hero of the Federation",
+      "url": "https://helldivers.wiki.gg/wiki/DP-40_Hero_of_the_Federation",
+      "flags": []
+    },
+    "armorId": "dp-40-hero-of-the-federation",
+    "helmetId": "dp-40-hero-of-the-federation",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "dp-53-savior-of-the-free",
+    "slug": "dp-53-savior-of-the-free",
+    "name": "DP-53 Savior of the Free",
+    "wiki": {
+      "title": "DP-53 Savior of the Free",
+      "url": "https://helldivers.wiki.gg/wiki/DP-53_Savior_of_the_Free",
+      "flags": []
+    },
+    "armorId": "dp-53-savior-of-the-free",
+    "helmetId": "dp-53-savior-of-the-free",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "dp-8-mountain-scaled",
+    "slug": "dp-8-mountain-scaled",
+    "name": "DP-8 Mountain-Scaled",
+    "wiki": {
+      "title": "DP-8 Mountain-Scaled",
+      "url": "https://helldivers.wiki.gg/wiki/DP-8_Mountain-Scaled",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "dp-8-mountain-scaled",
+    "helmetId": "dp-8-mountain-scaled",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ds-10-big-game-hunter",
+    "slug": "ds-10-big-game-hunter",
+    "name": "DS-10 Big Game Hunter",
+    "wiki": {
+      "title": "DS-10 Big Game Hunter",
+      "url": "https://helldivers.wiki.gg/wiki/DS-10_Big_Game_Hunter",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ds-10-big-game-hunter",
+    "helmetId": "ds-10-big-game-hunter",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ds-191-scorpion",
+    "slug": "ds-191-scorpion",
+    "name": "DS-191 Scorpion",
+    "wiki": {
+      "title": "DS-191 Scorpion",
+      "url": "https://helldivers.wiki.gg/wiki/DS-191_Scorpion",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ds-191-scorpion",
+    "helmetId": "ds-191-scorpion",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ds-42-federations-blade",
+    "slug": "ds-42-federations-blade",
+    "name": "DS-42 Federation's Blade",
+    "wiki": {
+      "title": "DS-42 Federation's Blade",
+      "url": "https://helldivers.wiki.gg/wiki/DS-42_Federation's_Blade",
+      "flags": [
+        "potentially_outdated"
+      ]
+    },
+    "armorId": "ds-42-federations-blade",
+    "helmetId": "ds-42-federations-blade",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ex-00-prototype-x",
+    "slug": "ex-00-prototype-x",
+    "name": "EX-00 Prototype X",
+    "wiki": {
+      "title": "EX-00 Prototype X",
+      "url": "https://helldivers.wiki.gg/wiki/EX-00_Prototype_X",
+      "flags": []
+    },
+    "armorId": "ex-00-prototype-x",
+    "helmetId": "ex-00-prototype-x",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ex-03-prototype-3",
+    "slug": "ex-03-prototype-3",
+    "name": "EX-03 Prototype 3",
+    "wiki": {
+      "title": "EX-03 Prototype 3",
+      "url": "https://helldivers.wiki.gg/wiki/EX-03_Prototype_3",
+      "flags": []
+    },
+    "armorId": "ex-03-prototype-3",
+    "helmetId": "ex-03-prototype-3",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ex-16-prototype-16",
+    "slug": "ex-16-prototype-16",
+    "name": "EX-16 Prototype 16",
+    "wiki": {
+      "title": "EX-16 Prototype 16",
+      "url": "https://helldivers.wiki.gg/wiki/EX-16_Prototype_16",
+      "flags": []
+    },
+    "armorId": "ex-16-prototype-16",
+    "helmetId": "ex-16-prototype-16",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-05-marksman",
+    "slug": "fs-05-marksman",
+    "name": "FS-05 Marksman",
+    "wiki": {
+      "title": "FS-05 Marksman",
+      "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",
+      "flags": []
+    },
+    "armorId": "fs-05-marksman",
+    "helmetId": "fs-05-marksman",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-11-executioner",
+    "slug": "fs-11-executioner",
+    "name": "FS-11 Executioner",
+    "wiki": {
+      "title": "FS-11 Executioner",
+      "url": "https://helldivers.wiki.gg/wiki/FS-11_Executioner",
+      "flags": []
+    },
+    "armorId": "fs-11-executioner",
+    "helmetId": "fs-11-executioner",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-23-battle-master",
+    "slug": "fs-23-battle-master",
+    "name": "FS-23 Battle Master",
+    "wiki": {
+      "title": "FS-23 Battle Master",
+      "url": "https://helldivers.wiki.gg/wiki/FS-23_Battle_Master",
+      "flags": []
+    },
+    "armorId": "fs-23-battle-master",
+    "helmetId": "fs-23-battle-master",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-34-exterminator",
+    "slug": "fs-34-exterminator",
+    "name": "FS-34 Exterminator",
+    "wiki": {
+      "title": "FS-34 Exterminator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
+      "flags": []
+    },
+    "armorId": "fs-34-exterminator",
+    "helmetId": "fs-34-exterminator",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-37-ravager",
+    "slug": "fs-37-ravager",
+    "name": "FS-37 Ravager",
+    "wiki": {
+      "title": "FS-37 Ravager",
+      "url": "https://helldivers.wiki.gg/wiki/FS-37_Ravager",
+      "flags": []
+    },
+    "armorId": "fs-37-ravager",
+    "helmetId": "fs-37-ravager",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-38-eradicator",
+    "slug": "fs-38-eradicator",
+    "name": "FS-38 Eradicator",
+    "wiki": {
+      "title": "FS-38 Eradicator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-38_Eradicator",
+      "flags": []
+    },
+    "armorId": "fs-38-eradicator",
+    "helmetId": "fs-38-eradicator",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-55-devastator",
+    "slug": "fs-55-devastator",
+    "name": "FS-55 Devastator",
+    "wiki": {
+      "title": "FS-55 Devastator",
+      "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",
+      "flags": []
+    },
+    "armorId": "fs-55-devastator",
+    "helmetId": "fs-55-devastator",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "fs-61-dreadnought",
+    "slug": "fs-61-dreadnought",
+    "name": "FS-61 Dreadnought",
+    "wiki": {
+      "title": "FS-61 Dreadnought",
+      "url": "https://helldivers.wiki.gg/wiki/FS-61_Dreadnought",
+      "flags": []
+    },
+    "armorId": "fs-61-dreadnought",
+    "helmetId": "fs-61-dreadnought",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "gs-11-democracys-deputy",
+    "slug": "gs-11-democracys-deputy",
+    "name": "GS-11 Democracy's Deputy",
+    "wiki": {
+      "title": "GS-11 Democracy's Deputy",
+      "url": "https://helldivers.wiki.gg/wiki/GS-11_Democracy's_Deputy",
+      "flags": []
+    },
+    "armorId": "gs-11-democracys-deputy",
+    "helmetId": "gs-11-democracys-deputy",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "gs-17-frontier-marshal",
+    "slug": "gs-17-frontier-marshal",
+    "name": "GS-17 Frontier Marshal",
+    "wiki": {
+      "title": "GS-17 Frontier Marshal",
+      "url": "https://helldivers.wiki.gg/wiki/GS-17_Frontier_Marshal",
+      "flags": []
+    },
+    "armorId": "gs-17-frontier-marshal",
+    "helmetId": "gs-17-frontier-marshal",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "gs-66-lawmaker",
+    "slug": "gs-66-lawmaker",
+    "name": "GS-66 Lawmaker",
+    "wiki": {
+      "title": "GS-66 Lawmaker",
+      "url": "https://helldivers.wiki.gg/wiki/GS-66_Lawmaker",
+      "flags": []
+    },
+    "armorId": "gs-66-lawmaker",
+    "helmetId": "gs-66-lawmaker",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "i-09-heatseeker",
+    "slug": "i-09-heatseeker",
+    "name": "I-09 Heatseeker",
+    "wiki": {
+      "title": "I-09 Heatseeker",
+      "url": "https://helldivers.wiki.gg/wiki/I-09_Heatseeker",
+      "flags": []
+    },
+    "armorId": "i-09-heatseeker",
+    "helmetId": "i-09-heatseeker",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "i-102-draconaught",
+    "slug": "i-102-draconaught",
+    "name": "I-102 Draconaught",
+    "wiki": {
+      "title": "I-102 Draconaught",
+      "url": "https://helldivers.wiki.gg/wiki/I-102_Draconaught",
+      "flags": []
+    },
+    "armorId": "i-102-draconaught",
+    "helmetId": "i-102-draconaught",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "i-44-salamander",
+    "slug": "i-44-salamander",
+    "name": "I-44 Salamander",
+    "wiki": {
+      "title": "I-44 Salamander",
+      "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
+      "flags": []
+    },
+    "armorId": "i-44-salamander",
+    "helmetId": "i-44-salamander",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "i-92-fire-fighter",
+    "slug": "i-92-fire-fighter",
+    "name": "I-92 Fire Fighter",
+    "wiki": {
+      "title": "I-92 Fire Fighter",
+      "url": "https://helldivers.wiki.gg/wiki/I-92_Fire_Fighter",
+      "flags": []
+    },
+    "armorId": "i-92-fire-fighter",
+    "helmetId": "i-92-fire-fighter",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ie-12-righteous",
+    "slug": "ie-12-righteous",
+    "name": "IE-12 Righteous",
+    "wiki": {
+      "title": "IE-12 Righteous",
+      "url": "https://helldivers.wiki.gg/wiki/IE-12_Righteous",
+      "flags": []
+    },
+    "armorId": "ie-12-righteous",
+    "helmetId": "ie-12-righteous",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ie-3-martyr",
+    "slug": "ie-3-martyr",
+    "name": "IE-3 Martyr",
+    "wiki": {
+      "title": "IE-3 Martyr",
+      "url": "https://helldivers.wiki.gg/wiki/IE-3_Martyr",
+      "flags": []
+    },
+    "armorId": "ie-3-martyr",
+    "helmetId": "ie-3-martyr",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ie-57-hell-bent",
+    "slug": "ie-57-hell-bent",
+    "name": "IE-57 Hell-Bent",
+    "wiki": {
+      "title": "IE-57 Hell-Bent",
+      "url": "https://helldivers.wiki.gg/wiki/IE-57_Hell-Bent",
+      "flags": []
+    },
+    "armorId": "ie-57-hell-bent",
+    "helmetId": "ie-57-hell-bent",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "kdm-500-outrider",
+    "slug": "kdm-500-outrider",
+    "name": "KDM-500 Outrider",
+    "wiki": {
+      "title": "KDM-500 Outrider",
+      "url": "https://helldivers.wiki.gg/wiki/KDM-500_Outrider",
+      "flags": []
+    },
+    "armorId": "kdm-500-outrider",
+    "helmetId": "kdm-500-outrider",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "o-2-heavy-operator",
+    "slug": "o-2-heavy-operator",
+    "name": "O-2 Heavy Operator",
+    "wiki": {
+      "title": "O-2 Heavy Operator",
+      "url": "https://helldivers.wiki.gg/wiki/O-2_Heavy_Operator",
+      "flags": []
+    },
+    "armorId": "o-2-heavy-operator",
+    "helmetId": "o-2-heavy-operator",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "o-3-free-spirit",
+    "slug": "o-3-free-spirit",
+    "name": "O-3 Free Spirit",
+    "wiki": {
+      "title": "O-3 Free Spirit",
+      "url": "https://helldivers.wiki.gg/wiki/O-3_Free_Spirit",
+      "flags": []
+    },
+    "armorId": "o-3-free-spirit",
+    "helmetId": "o-3-free-spirit",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "o-44-bonded-pilot",
+    "slug": "o-44-bonded-pilot",
+    "name": "O-44 Bonded Pilot",
+    "wiki": {
+      "title": "O-44 Bonded Pilot",
+      "url": "https://helldivers.wiki.gg/wiki/O-44_Bonded_Pilot",
+      "flags": []
+    },
+    "armorId": "o-44-bonded-pilot",
+    "helmetId": "o-44-bonded-pilot",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ph-202-twigsnapper",
+    "slug": "ph-202-twigsnapper",
+    "name": "PH-202 Twigsnapper",
+    "wiki": {
+      "title": "PH-202 Twigsnapper",
+      "url": "https://helldivers.wiki.gg/wiki/PH-202_Twigsnapper",
+      "flags": []
+    },
+    "armorId": "ph-202-twigsnapper",
+    "helmetId": "ph-202-twigsnapper",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ph-56-jaguar",
+    "slug": "ph-56-jaguar",
+    "name": "PH-56 Jaguar",
+    "wiki": {
+      "title": "PH-56 Jaguar",
+      "url": "https://helldivers.wiki.gg/wiki/PH-56_Jaguar",
+      "flags": []
+    },
+    "armorId": "ph-56-jaguar",
+    "helmetId": "ph-56-jaguar",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "ph-9-predator",
+    "slug": "ph-9-predator",
+    "name": "PH-9 Predator",
+    "wiki": {
+      "title": "PH-9 Predator",
+      "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
+      "flags": []
+    },
+    "armorId": "ph-9-predator",
+    "helmetId": "ph-9-predator",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "re-1861-parade-commander",
+    "slug": "re-1861-parade-commander",
+    "name": "RE-1861 Parade Commander",
+    "wiki": {
+      "title": "RE-1861 Parade Commander",
+      "url": "https://helldivers.wiki.gg/wiki/RE-1861_Parade_Commander",
+      "flags": []
+    },
+    "armorId": "re-1861-parade-commander",
+    "helmetId": "re-1861-parade-commander",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "re-2310-honorary-guard",
+    "slug": "re-2310-honorary-guard",
+    "name": "RE-2310 Honorary Guard",
+    "wiki": {
+      "title": "RE-2310 Honorary Guard",
+      "url": "https://helldivers.wiki.gg/wiki/RE-2310_Honorary_Guard",
+      "flags": []
+    },
+    "armorId": "re-2310-honorary-guard",
+    "helmetId": "re-2310-honorary-guard",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "re-824-bearer-of-the-standard",
+    "slug": "re-824-bearer-of-the-standard",
+    "name": "RE-824 Bearer of the Standard",
+    "wiki": {
+      "title": "RE-824 Bearer of the Standard",
+      "url": "https://helldivers.wiki.gg/wiki/RE-824_Bearer_of_the_Standard",
+      "flags": []
+    },
+    "armorId": "re-824-bearer-of-the-standard",
+    "helmetId": "re-824-bearer-of-the-standard",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "rs-100-sanctioner",
+    "slug": "rs-100-sanctioner",
+    "name": "RS-100 Sanctioner",
+    "wiki": {
+      "title": "RS-100 Sanctioner",
+      "url": "https://helldivers.wiki.gg/wiki/RS-100_Sanctioner",
+      "flags": []
+    },
+    "armorId": "rs-100-sanctioner",
+    "helmetId": "rs-100-sanctioner",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "rs-20-constrictor",
+    "slug": "rs-20-constrictor",
+    "name": "RS-20 Constrictor",
+    "wiki": {
+      "title": "RS-20 Constrictor",
+      "url": "https://helldivers.wiki.gg/wiki/RS-20_Constrictor",
+      "flags": []
+    },
+    "armorId": "rs-20-constrictor",
+    "helmetId": "rs-20-constrictor",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "rs-40-beast-of-prey",
+    "slug": "rs-40-beast-of-prey",
+    "name": "RS-40 Beast of Prey",
+    "wiki": {
+      "title": "RS-40 Beast of Prey",
+      "url": "https://helldivers.wiki.gg/wiki/RS-40_Beast_of_Prey",
+      "flags": []
+    },
+    "armorId": "rs-40-beast-of-prey",
+    "helmetId": "rs-40-beast-of-prey",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "rs-6-fiend-destroyer",
+    "slug": "rs-6-fiend-destroyer",
+    "name": "RS-6 Fiend Destroyer",
+    "wiki": {
+      "title": "RS-6 Fiend Destroyer",
+      "url": "https://helldivers.wiki.gg/wiki/RS-6_Fiend_Destroyer",
+      "flags": []
+    },
+    "armorId": "rs-6-fiend-destroyer",
+    "helmetId": "rs-6-fiend-destroyer",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "rs-67-null-cipher",
+    "slug": "rs-67-null-cipher",
+    "name": "RS-67 Null Cipher",
+    "wiki": {
+      "title": "RS-67 Null Cipher",
+      "url": "https://helldivers.wiki.gg/wiki/RS-67_Null_Cipher",
+      "flags": []
+    },
+    "armorId": "rs-67-null-cipher",
+    "helmetId": "rs-67-null-cipher",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "rs-89-shadow-paragon",
+    "slug": "rs-89-shadow-paragon",
+    "name": "RS-89 Shadow Paragon",
+    "wiki": {
+      "title": "RS-89 Shadow Paragon",
+      "url": "https://helldivers.wiki.gg/wiki/RS-89_Shadow_Paragon",
+      "flags": []
+    },
+    "armorId": "rs-89-shadow-paragon",
+    "helmetId": "rs-89-shadow-paragon",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sa-04-combat-technician",
+    "slug": "sa-04-combat-technician",
+    "name": "SA-04 Combat Technician",
+    "wiki": {
+      "title": "SA-04 Combat Technician",
+      "url": "https://helldivers.wiki.gg/wiki/SA-04_Combat_Technician",
+      "flags": []
+    },
+    "armorId": "sa-04-combat-technician",
+    "helmetId": "sa-04-combat-technician",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sa-12-servo-assisted",
+    "slug": "sa-12-servo-assisted",
+    "name": "SA-12 Servo Assisted",
+    "wiki": {
+      "title": "SA-12 Servo Assisted",
+      "url": "https://helldivers.wiki.gg/wiki/SA-12_Servo_Assisted",
+      "flags": []
+    },
+    "armorId": "sa-12-servo-assisted",
+    "helmetId": "sa-12-servo-assisted",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sa-25-steel-trooper",
+    "slug": "sa-25-steel-trooper",
+    "name": "SA-25 Steel Trooper",
+    "wiki": {
+      "title": "SA-25 Steel Trooper",
+      "url": "https://helldivers.wiki.gg/wiki/SA-25_Steel_Trooper",
+      "flags": []
+    },
+    "armorId": "sa-25-steel-trooper",
+    "helmetId": "sa-25-steel-trooper",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sa-32-dynamo",
+    "slug": "sa-32-dynamo",
+    "name": "SA-32 Dynamo",
+    "wiki": {
+      "title": "SA-32 Dynamo",
+      "url": "https://helldivers.wiki.gg/wiki/SA-32_Dynamo",
+      "flags": []
+    },
+    "armorId": "sa-32-dynamo",
+    "helmetId": "sa-32-dynamo",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sa-7-headfirst",
+    "slug": "sa-7-headfirst",
+    "name": "SA-7 Headfirst",
+    "wiki": {
+      "title": "SA-7 Headfirst",
+      "url": "https://helldivers.wiki.gg/wiki/SA-7_Headfirst",
+      "flags": []
+    },
+    "armorId": "sa-7-headfirst",
+    "helmetId": "sa-7-headfirst",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sa-8-ram",
+    "slug": "sa-8-ram",
+    "name": "SA-8 Ram",
+    "wiki": {
+      "title": "SA-8 Ram",
+      "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",
+      "flags": []
+    },
+    "armorId": "sa-8-ram",
+    "helmetId": "sa-8-ram",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sc-15-drone-master",
+    "slug": "sc-15-drone-master",
+    "name": "SC-15 Drone Master",
+    "wiki": {
+      "title": "SC-15 Drone Master",
+      "url": "https://helldivers.wiki.gg/wiki/SC-15_Drone_Master",
+      "flags": []
+    },
+    "armorId": "sc-15-drone-master",
+    "helmetId": "sc-15-drone-master",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sc-30-trailblazer-scout",
+    "slug": "sc-30-trailblazer-scout",
+    "name": "SC-30 Trailblazer Scout",
+    "wiki": {
+      "title": "SC-30 Trailblazer Scout",
+      "url": "https://helldivers.wiki.gg/wiki/SC-30_Trailblazer_Scout",
+      "flags": []
+    },
+    "armorId": "sc-30-trailblazer-scout",
+    "helmetId": "sc-30-trailblazer-scout",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sc-34-infiltrator",
+    "slug": "sc-34-infiltrator",
+    "name": "SC-34 Infiltrator",
+    "wiki": {
+      "title": "SC-34 Infiltrator",
+      "url": "https://helldivers.wiki.gg/wiki/SC-34_Infiltrator",
+      "flags": []
+    },
+    "armorId": "sc-34-infiltrator",
+    "helmetId": "sc-34-infiltrator",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sc-37-legionnaire",
+    "slug": "sc-37-legionnaire",
+    "name": "SC-37 Legionnaire",
+    "wiki": {
+      "title": "SC-37 Legionnaire",
+      "url": "https://helldivers.wiki.gg/wiki/SC-37_Legionnaire",
+      "flags": []
+    },
+    "armorId": "sc-37-legionnaire",
+    "helmetId": "sc-37-legionnaire",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sr-18-roadblock",
+    "slug": "sr-18-roadblock",
+    "name": "SR-18 Roadblock",
+    "wiki": {
+      "title": "SR-18 Roadblock",
+      "url": "https://helldivers.wiki.gg/wiki/SR-18_Roadblock",
+      "flags": []
+    },
+    "armorId": "sr-18-roadblock",
+    "helmetId": "sr-18-roadblock",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sr-24-street-scout",
+    "slug": "sr-24-street-scout",
+    "name": "SR-24 Street Scout",
+    "wiki": {
+      "title": "SR-24 Street Scout",
+      "url": "https://helldivers.wiki.gg/wiki/SR-24_Street_Scout",
+      "flags": []
+    },
+    "armorId": "sr-24-street-scout",
+    "helmetId": "sr-24-street-scout",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "sr-64-cinderblock",
+    "slug": "sr-64-cinderblock",
+    "name": "SR-64 Cinderblock",
+    "wiki": {
+      "title": "SR-64 Cinderblock",
+      "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",
+      "flags": []
+    },
+    "armorId": "sr-64-cinderblock",
+    "helmetId": "sr-64-cinderblock",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tg-122-demo-trooper",
+    "slug": "tg-122-demo-trooper",
+    "name": "TG-122 Demo-Trooper",
+    "wiki": {
+      "title": "TG-122 Demo-Trooper",
+      "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
+      "flags": []
+    },
+    "armorId": "tg-122-demo-trooper",
+    "helmetId": "tg-122-demo-trooper",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tg-8-sharpshooter",
+    "slug": "tg-8-sharpshooter",
+    "name": "TG-8 Sharpshooter",
+    "wiki": {
+      "title": "TG-8 Sharpshooter",
+      "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+      "flags": []
+    },
+    "armorId": "tg-8-sharpshooter",
+    "helmetId": "tg-8-sharpshooter",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tr-117-alpha-commander",
+    "slug": "tr-117-alpha-commander",
+    "name": "TR-117 Alpha Commander",
+    "wiki": {
+      "title": "TR-117 Alpha Commander",
+      "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
+      "flags": []
+    },
+    "armorId": "tr-117-alpha-commander",
+    "helmetId": "tr-117-alpha-commander",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tr-40-gold-eagle",
+    "slug": "tr-40-gold-eagle",
+    "name": "TR-40 Gold Eagle",
+    "wiki": {
+      "title": "TR-40 Gold Eagle",
+      "url": "https://helldivers.wiki.gg/wiki/TR-40_Gold_Eagle",
+      "flags": []
+    },
+    "armorId": "tr-40-gold-eagle",
+    "helmetId": "tr-40-gold-eagle",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tr-62-knight",
+    "slug": "tr-62-knight",
+    "name": "TR-62 Knight",
+    "wiki": {
+      "title": "TR-62 Knight",
+      "url": "https://helldivers.wiki.gg/wiki/TR-62_Knight",
+      "flags": []
+    },
+    "armorId": "tr-62-knight",
+    "helmetId": "tr-62-knight",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tr-7-ambassador-of-the-brand",
+    "slug": "tr-7-ambassador-of-the-brand",
+    "name": "TR-7 Ambassador of the Brand",
+    "wiki": {
+      "title": "TR-7 Ambassador of the Brand",
+      "url": "https://helldivers.wiki.gg/wiki/TR-7_Ambassador_of_the_Brand",
+      "flags": []
+    },
+    "armorId": "tr-7-ambassador-of-the-brand",
+    "helmetId": "tr-7-ambassador-of-the-brand",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "tr-9-cavalier-of-democracy",
+    "slug": "tr-9-cavalier-of-democracy",
+    "name": "TR-9 Cavalier of Democracy",
+    "wiki": {
+      "title": "TR-9 Cavalier of Democracy",
+      "url": "https://helldivers.wiki.gg/wiki/TR-9_Cavalier_of_Democracy",
+      "flags": []
+    },
+    "armorId": "tr-9-cavalier-of-democracy",
+    "helmetId": "tr-9-cavalier-of-democracy",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "uf-16-inspector",
+    "slug": "uf-16-inspector",
+    "name": "UF-16 Inspector",
+    "wiki": {
+      "title": "UF-16 Inspector",
+      "url": "https://helldivers.wiki.gg/wiki/UF-16_Inspector",
+      "flags": []
+    },
+    "armorId": "uf-16-inspector",
+    "helmetId": "uf-16-inspector",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "uf-50-bloodhound",
+    "slug": "uf-50-bloodhound",
+    "name": "UF-50 Bloodhound",
+    "wiki": {
+      "title": "UF-50 Bloodhound",
+      "url": "https://helldivers.wiki.gg/wiki/UF-50_Bloodhound",
+      "flags": []
+    },
+    "armorId": "uf-50-bloodhound",
+    "helmetId": "uf-50-bloodhound",
+    "capeId": null,
+    "capeLink": null
+  },
+  {
+    "id": "uf-84-doubt-killer",
+    "slug": "uf-84-doubt-killer",
+    "name": "UF-84 Doubt Killer",
+    "wiki": {
+      "title": "UF-84 Doubt Killer",
+      "url": "https://helldivers.wiki.gg/wiki/UF-84_Doubt_Killer",
+      "flags": []
+    },
+    "armorId": "uf-84-doubt-killer",
+    "helmetId": "uf-84-doubt-killer",
+    "capeId": null,
+    "capeLink": null
+  }
+]
