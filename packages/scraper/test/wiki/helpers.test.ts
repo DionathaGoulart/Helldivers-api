@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { ParseError } from "../../src/errors.ts";
 import { detectCurrency } from "../../src/wiki/currency.ts";
+import { druidData, readDruid } from "../../src/wiki/druid.ts";
 import { linesOf, loadHtml, textOf } from "../../src/wiki/html.ts";
 import { fileFromSrc, firstArticleLink, firstImage } from "../../src/wiki/links.ts";
 import {
@@ -10,6 +11,7 @@ import {
   readLead,
 } from "../../src/wiki/page.ts";
 import { findInSection, readSections } from "../../src/wiki/sections.ts";
+import { ownElements, readTabberPanels } from "../../src/wiki/tabber.ts";
 import { columnIndexes, readWikitable } from "../../src/wiki/wikitable.ts";
 import { article } from "../fixtures.ts";
 
@@ -155,5 +157,92 @@ describe("readSections", () => {
     ]);
     expect(sections[0]?.content.text()).toContain("note");
     expect(sections[1]?.content.text()).not.toContain("after");
+  });
+});
+
+describe("readTabberPanels", () => {
+  const tabber = (panels: [id: string, label: string, body: string][]) =>
+    `<div class="tabber"><header class="tabber__header"><nav class="tabber__tabs">${panels
+      .map(([id, label]) => `<a class="tabber__tab" aria-controls="${id}">${label}</a>`)
+      .join("")}</nav></header><section class="tabber__section">${panels
+      .map(([id, , body]) => `<article class="tabber__panel" id="${id}">${body}</article>`)
+      .join("")}</section></div>`;
+  const $ = loadHtml(
+    article(
+      tabber([
+        ["Primary-0", "Primary", tabber([["Special-0", "Special", "<i>a</i><i>b</i>"]])],
+        ["Secondary-0", "Secondary", `<i>own</i>${tabber([["Special-1", "Special", "<i>c</i>"]])}`],
+      ]),
+    ),
+  );
+  const panels = readTabberPanels($, $("#mw-content-text"));
+
+  it("identifies panels by their chain of tab labels, not by id", () => {
+    expect(panels.map(({ id, label, path }) => ({ id, label, path }))).toEqual([
+      { id: "Primary-0", label: "Primary", path: ["Primary"] },
+      { id: "Special-0", label: "Special", path: ["Primary", "Special"] },
+      { id: "Secondary-0", label: "Secondary", path: ["Secondary"] },
+      { id: "Special-1", label: "Special", path: ["Secondary", "Special"] },
+    ]);
+  });
+
+  it("finds elements owned by a panel, not by its nested panels", () => {
+    const text = (i: number) =>
+      ownElements($, panels[i] as (typeof panels)[number], "i")
+        .toArray()
+        .map((element) => $(element).text());
+    expect(text(0)).toEqual([]);
+    expect(text(1)).toEqual(["a", "b"]);
+    expect(text(2)).toEqual(["own"]);
+    expect(text(3)).toEqual(["c"]);
+  });
+});
+
+describe("readDruid", () => {
+  const infobox = (inner: string) =>
+    article(`<div class="druid-infobox druid-container druid-container-armor">${inner}</div>`);
+  const $ = loadHtml(
+    infobox(`
+      <div class="druid-title">TG-8 Sharpshooter</div>
+      <div class="druid-main-image"><a href="/wiki/File:TG-8.png"><img src="/images/thumb/TG-8.png/600px-TG-8.png?1a"></a></div>
+      <div class="druid-tab" data-druid-tab-key="Body Armor">Body Armor</div>
+      <div class="druid-tab" data-druid-tab-key="Helmet">Helmet</div>
+      <div class="druid-row druid-row-cost"><div class="druid-label">Cost</div><div class="druid-data">
+        <div class="druid-toggleable-data" data-druid-tab-key="Body Armor">45</div>
+        <div class="druid-toggleable-data" data-druid-tab-key="Helmet">30</div>
+      </div></div>
+      <div class="druid-row druid-row-source"><div class="druid-label">Source</div><div class="druid-data">Castellan's Creed <small>P1</small></div></div>`),
+  );
+  const druid = readDruid($, "page");
+
+  it("reads container, title, image, tabs and rows", () => {
+    expect(druid).toMatchObject({
+      container: "armor",
+      title: "TG-8 Sharpshooter",
+      image: { file: "TG-8.png", src: "/images/thumb/TG-8.png/600px-TG-8.png?1a" },
+      tabs: ["Body Armor", "Helmet"],
+    });
+    expect([...druid.rows.keys()]).toEqual(["cost", "source"]);
+    expect(druid.rows.get("cost")?.label).toBe("Cost");
+  });
+
+  it("splits tabbed rows instead of gluing their text", () => {
+    const cost = druid.rows.get("cost");
+    const source = druid.rows.get("source");
+    if (!cost || !source) throw new Error("missing rows");
+    expect(textOf(cost.data)).toBe("45 30");
+    expect(textOf(druidData(cost, "Helmet") ?? $([]))).toBe("30");
+    expect(druidData(cost)).toBeNull();
+    expect(textOf(druidData(source, "Helmet") ?? $([]))).toBe("Castellan's Creed P1");
+  });
+
+  it("fails without exactly one infobox or with a duplicate row", () => {
+    expect(() => readDruid(loadHtml(article("<p>x</p>")), "page")).toThrow(
+      "expected 1 infobox, found 0",
+    );
+    const twice = '<div class="druid-row druid-row-cost"><div class="druid-data">1</div></div>';
+    expect(() =>
+      readDruid(loadHtml(infobox(`<div class="druid-title">X</div>${twice}${twice}`)), "page"),
+    ).toThrow("duplicate row");
   });
 });
