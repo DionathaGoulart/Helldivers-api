@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "entrenched-division",
+    "slug": "entrenched-division",
+    "name": "Entrenched Division",
+    "aliases": [],
+    "description": "Entrenched Division is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Entrenched Division Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2026-03-17",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 370,
+    "medalsAllItems": 888,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "SMG/FLAM-34 Stoker",
+            "wikiType": "Primary Weapon",
+            "ref": {
+              "collection": "weapons",
+              "id": "smg-flam-34-stoker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "CPG-48 Sapper",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cpg-48-sapper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "CPG-48 Sapper",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cpg-48-sapper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Dignity of Toil",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "dignity-of-toil",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Dignity of Toil",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "dignity-of-toil",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Heritage Olive Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "heritage-olive",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "CQC-73 Entrenchment Tool",
+            "wikiType": "Secondary Weapon",
+            "ref": {
+              "collection": "weapons",
+              "id": "cqc-73-entrenchment-tool",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "CPH-26 Commandant",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cph-26-commandant",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "CPH-26 Commandant",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cph-26-commandant",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Crest of the Unsullied",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "crest-of-the-unsullied",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Crest of the Unsullied",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "crest-of-the-unsullied",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 6
+            }
+          },
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "G-48 Giga Grenade",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-48-giga-grenade",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "A/GM-17 Gas Mortar Sentry",
+            "wikiType": "Mortar",
+            "ref": {
+              "collection": "stratagems",
+              "id": "a-gm-17-gas-mortar-sentry",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 85
+            }
+          },
+          {
+            "name": "Heritage Olive Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "heritage-olive",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Heritage Olive Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "heritage-olive",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Heritage Olive Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "heritage-olive",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "P-69 Veto",
+            "wikiType": "Secondary Weapon",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-69-veto",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Mudskipper",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "mudskipper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Diplomatic Handshake",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "diplomatic-handshake",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "B/FLAM-80 Cremator",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "b-flam-80-cremator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

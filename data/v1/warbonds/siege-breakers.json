@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "siege-breakers",
+    "slug": "siege-breakers",
+    "name": "Siege Breakers",
+    "aliases": [],
+    "description": "Siege Breakers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Siege Breakers Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Siege_Breakers_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2026-02-03",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 375,
+    "medalsAllItems": 853,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "LAS-16 Trident",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "las-13-trident",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "SA-7 Headfirst",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sa-7-headfirst",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "SA-7 Headfirst",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sa-7-headfirst",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Rags of the Fashionable",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "rags-of-the-fashionable",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Rags of the Fashionable",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "rags-of-the-fashionable",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Churned Earth Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "churned-earth",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "CQC-20 Breaching Hammer",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "cqc-20-breaching-hammer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "EAT-411 Leveller",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "eat-411-leveller",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 85
+            }
+          },
+          {
+            "name": "Churned Earth Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "churned-earth",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Wedgeful Tricorn",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "wedgeful-tricorn",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SA-8 Ram",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sa-8-ram",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "SA-8 Ram",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sa-8-ram",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Wedgeful Tricorn",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "wedgeful-tricorn",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Churned Earth Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "churned-earth",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Bunker Buster",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "bunker-buster",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "GL-28 Belt-Fed Grenade Launcher",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "gl-28-belt-fed-grenade-launcher",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Display of Brawn",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "display-of-brawn",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "G/SH-39 Shield",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-sh-39-shield",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Churned Earth Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "churned-earth",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

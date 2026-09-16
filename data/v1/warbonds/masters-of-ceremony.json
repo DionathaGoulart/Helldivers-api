@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "masters-of-ceremony",
+    "slug": "masters-of-ceremony",
+    "name": "Masters of Ceremony",
+    "aliases": [],
+    "description": "Masters of Ceremony is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Masters of Ceremony Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Masters_of_Ceremony_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2025-05-15",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 230,
+    "medalsAllItems": 641,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "R-2 Amendment",
+            "wikiType": "Marksman Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "r-2-amendment",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "RE-2310 Honorary Guard",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "re-2310-honorary-guard",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "RE-2310 Honorary Guard",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "re-2310-honorary-guard",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Federation's Embrace",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "federations-embrace",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Federation's Embrace",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "federations-embrace",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "CQC-2 Saber",
+            "wikiType": "Melee",
+            "ref": {
+              "collection": "weapons",
+              "id": "cqc-2-saber",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "RE-1861 Parade Commander",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "re-1861-parade-commander",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "RE-1861 Parade Commander",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "re-1861-parade-commander",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Humble Regalia",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "humble-regalia",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Humble Regalia",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "humble-regalia",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Decorated Hero",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "decorated-hero",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Sample Scanner",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "sample-scanner",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "CQC-1 One True Flag",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "cqc-1-one-true-flag",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "G-142 Pyrotech",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-142-pyrotech",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Lockstep",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "lockstep",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

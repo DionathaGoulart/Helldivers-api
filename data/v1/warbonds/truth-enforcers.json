@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "truth-enforcers",
+    "slug": "truth-enforcers",
+    "name": "Truth Enforcers",
+    "aliases": [],
+    "description": "Truth Enforcers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Truth Enforcers Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Truth_Enforcers_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-10-31",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 250,
+    "medalsAllItems": 686,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Dead Sprint",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "dead-sprint",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "SG-20 Halt",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-20-halt",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Inconspicuous Black Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "inconspicuous-black",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          },
+          {
+            "name": "Inconspicuous Black Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "inconspicuous-black",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SMG-32 Reprimand",
+            "wikiType": "Submachine Gun",
+            "ref": {
+              "collection": "weapons",
+              "id": "smg-32-reprimand",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "UF-50 Bloodhound",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "uf-50-bloodhound",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "UF-50 Bloodhound",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "uf-50-bloodhound",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Pride of the Whistleblower",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "pride-of-the-whistleblower",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Pride of the Whistleblower",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "pride-of-the-whistleblower",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Inconspicuous Black Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "inconspicuous-black",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Free of Thought",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "free-of-thought",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "PLAS-15 Loyalist",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "plas-15-loyalist",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "UF-16 Inspector",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "uf-16-inspector",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "UF-16 Inspector",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "uf-16-inspector",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Proof of Faultless Virtue",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "proof-of-faultless-virtue",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Proof of Faultless Virtue",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "proof-of-faultless-virtue",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "At Ease",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "at-ease",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Inconspicuous Black Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "inconspicuous-black",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

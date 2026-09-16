@@ -1,0 +1,1087 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "helldivers-mobilize",
+    "slug": "helldivers-mobilize",
+    "name": "Helldivers Mobilize!",
+    "aliases": [
+      "Helldivers Mobilize"
+    ],
+    "description": "Helldivers Mobilize! is a Standard Warbond automatically available for free in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Helldivers Mobilize Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond",
+      "flags": []
+    },
+    "type": "standard",
+    "releaseDate": "2024-02-08",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 0
+    },
+    "superCreditsClaimable": 750,
+    "medalsAllPages": 1200,
+    "medalsAllItems": 2015,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 1
+            }
+          },
+          {
+            "name": "SG-8 Punisher",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-8-punisher",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 4
+            }
+          },
+          {
+            "name": "G-6 Frag",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-6-frag",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "SC-34 Infiltrator",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sc-34-infiltrator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "SC-34 Infiltrator",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sc-34-infiltrator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 3
+            }
+          },
+          {
+            "name": "Independence Bringer",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "independence-bringer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Independence Bringer",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "independence-bringer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 1
+            }
+          },
+          {
+            "name": "Clapping",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "clapping",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 1
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "R-63 Diligence",
+            "wikiType": "Marksman Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "r-63-diligence",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "P-19 Redeemer",
+            "wikiType": "Pistol",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-19-redeemer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "FS-05 Marksman",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "fs-05-marksman",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "FS-05 Marksman",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "fs-05-marksman",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 6
+            }
+          },
+          {
+            "name": "Liberty's Herald",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "libertys-herald",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 3
+            }
+          },
+          {
+            "name": "Liberty's Herald",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "libertys-herald",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 1
+            }
+          },
+          {
+            "name": "Finger Guns",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "finger-guns",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 3
+            }
+          },
+          {
+            "name": "Hellpod Space Optimization",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "hellpod-space-optimization",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "SMG-37 Defender",
+            "wikiType": "Submachine Gun",
+            "ref": {
+              "collection": "weapons",
+              "id": "smg-37-defender",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "CE-35 Trench Engineer",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ce-35-trench-engineer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "CE-35 Trench Engineer",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ce-35-trench-engineer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          },
+          {
+            "name": "Tideturner",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "tideturner",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Tideturner",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "tideturner",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Explosive Handshake",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "explosive-handshake",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 6
+            }
+          },
+          {
+            "name": "Vitality Enhancement",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "vitality-enhancement",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "SG-225 Breaker",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-225-breaker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "CM-09 Bonesnapper",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cm-09-bonesnapper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "CM-09 Bonesnapper",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cm-09-bonesnapper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "The Cape of Stars and Suffrage",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "stars-and-suffrage",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Stars and Suffrage",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "stars-and-suffrage",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Hug",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "hug",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          },
+          {
+            "name": "LAS-5 Scythe",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "las-5-scythe",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "G-16 Impact",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-16-impact",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "DP-40 Hero of the Federation",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "dp-40-hero-of-the-federation",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "DP-40 Hero of the Federation",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "dp-40-hero-of-the-federation",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Unblemished Allegiance",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "unblemished-allegiance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "Unblemished Allegiance",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "unblemished-allegiance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 4
+            }
+          },
+          {
+            "name": "High-Five",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "high-five",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "items": [
+          {
+            "name": "50 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "UAV Recon Booster",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "uav-recon-booster",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "AR-23P Liberator Penetrator",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ar-23p-liberator-penetrator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "FS-23 Battle Master",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "fs-23-battle-master",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "FS-23 Battle Master",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "fs-23-battle-master",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "Judgment Day",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "judgment-day",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "Judgment Day",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "judgment-day",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 6
+            }
+          },
+          {
+            "name": "Flex",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "flex",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "items": [
+          {
+            "name": "50 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "Stamina Enhancement",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "stamina-enhancement",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          },
+          {
+            "name": "R-63CS Diligence Counter Sniper",
+            "wikiType": "Marksman Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "r-63cs-diligence-counter-sniper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "SC-30 Trailblazer Scout",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sc-30-trailblazer-scout",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "SC-30 Trailblazer Scout",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sc-30-trailblazer-scout",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Cresting Honor",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "cresting-honor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "Cresting Honor",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "cresting-honor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Scout Handshake",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "scout-handshake",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "items": [
+          {
+            "name": "50 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "SG-8S Slugger",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-8s-slugger",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "G-3 Smoke",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-3-smoke",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "SA-04 Combat Technician",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sa-04-combat-technician",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "SA-04 Combat Technician",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sa-04-combat-technician",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "Mantle of True Citizenship",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "mantle-of-true-citizenship",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Mantle of True Citizenship",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "mantle-of-true-citizenship",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          },
+          {
+            "name": "Rock Paper Scissors",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "rock-paper-scissors",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "items": [
+          {
+            "name": "50 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Muscle Enhancement",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "muscle-enhancement",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 70
+            }
+          },
+          {
+            "name": "SG-225SP Breaker Spray&Pray",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-225sp-breaker-spray-pray",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "CM-14 Physician",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cm-14-physician",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "CM-14 Physician",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cm-14-physician",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 70
+            }
+          },
+          {
+            "name": "Blazing Samaritan",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "blazing-samaritan",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Blazing Samaritan",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "blazing-samaritan",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "Loosen Up",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "loosen-up",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          }
+        ]
+      },
+      {
+        "number": 10,
+        "items": [
+          {
+            "name": "50 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Increased Reinforcement Budget",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "increased-reinforcement-budget",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 150
+            }
+          },
+          {
+            "name": "PLAS-1 Scorcher",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "plas-1-scorcher",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          },
+          {
+            "name": "DP-11 Champion of the People",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "dp-11-champion-of-the-people",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          },
+          {
+            "name": "DP-11 Champion of the People",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "dp-11-champion-of-the-people",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 100
+            }
+          },
+          {
+            "name": "Light of Eternal Liberty",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "light-of-eternal-liberty",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "Light of Eternal Liberty",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "light-of-eternal-liberty",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Big Whoop",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "big-whoop",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

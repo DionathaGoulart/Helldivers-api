@@ -1,0 +1,324 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "chemical-agents",
+    "slug": "chemical-agents",
+    "name": "Chemical Agents",
+    "aliases": [],
+    "description": "Chemical Agents is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Chemical Agents Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Chemical_Agents_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-09-19",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 300,
+    "medalsAllItems": 814,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "G-4 Gas",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-4-gas",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "AF-50 Noxious Ranger",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "af-50-noxious-ranger",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "AF-50 Noxious Ranger",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "af-50-noxious-ranger",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "Standard of Safe Distance",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "standard-of-safe-distance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Standard of Safe Distance",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "standard-of-safe-distance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Ew",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "ew",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Mustard Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mustard",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "TX-41 Sterilizer",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "tx-41-sterilizer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 85
+            }
+          },
+          {
+            "name": "AF-02 Haz-Master",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "af-02-haz-master",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "AF-02 Haz-Master",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "af-02-haz-master",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Patient Zero's Remembrance",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "patient-zeros-remembrance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Patient Zero's Remembrance",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "patient-zeros-remembrance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Mustard Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mustard",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Expert Exterminator",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "expert-exterminator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "AX/TX-13 “Guard Dog” Dog Breath",
+            "wikiType": "Backpack",
+            "ref": {
+              "collection": "stratagems",
+              "id": "ax-tx-13-dog-breath",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "P-11 Stim Pistol",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-11-stim-pistol",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 80
+            }
+          },
+          {
+            "name": "Natural Gas Extraction",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "natural-gas-extraction",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 70
+            }
+          },
+          {
+            "name": "Mustard Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mustard",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Mustard Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mustard",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

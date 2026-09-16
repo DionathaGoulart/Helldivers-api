@@ -1,0 +1,258 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "righteous-revenants",
+    "slug": "righteous-revenants",
+    "name": "Righteous Revenants",
+    "aliases": [],
+    "description": "Righteous Revenants is a Legendary Warbond featuring the second version of the Helldivers 2 × Killzone crossover, available for 1,500 Super Credits in the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Righteous Revenants Legendary Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Righteous_Revenants_Legendary_Warbond",
+      "flags": []
+    },
+    "type": "legendary",
+    "releaseDate": "2025-12-18",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1500
+    },
+    "superCreditsClaimable": 0,
+    "medalsAllPages": 175,
+    "medalsAllItems": 562,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "Strength in Our Arms",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "strength-in-our-arms",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "AC-1 Dutiful",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ac-1-dutiful",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "AC-1 Dutiful",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ac-1-dutiful",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Strength in Our Arms",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "strength-in-our-arms",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "StA-52 Assault Rifle",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "sta-52-assault-rifle",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "Extrasolar Ash Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "extrasolar-ash",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "PLAS-39 Accelerator Rifle",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "plas-39-accelerator-rifle",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Extrasolar Ash Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "extrasolar-ash",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Defender of Our Dream",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "defender-of-our-dream",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "AC-2 Obedient",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ac-2-obedient",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "AC-2 Obedient",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ac-2-obedient",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Defender of Our Dream",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "defender-of-our-dream",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Assault Infantry",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "assault-infantry",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "StA-11 SMG",
+            "wikiType": "Submachine Gun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sta-11-smg",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Extrasolar Ash Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "extrasolar-ash",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Extrasolar Ash Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "extrasolar-ash",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

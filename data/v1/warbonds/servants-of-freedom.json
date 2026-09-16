@@ -1,0 +1,259 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "servants-of-freedom",
+    "slug": "servants-of-freedom",
+    "name": "Servants of Freedom",
+    "aliases": [],
+    "description": "Servants of Freedom is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Servants of Freedom Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Servants_of_Freedom_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2025-02-06",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 230,
+    "medalsAllItems": 598,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "LAS-17 Double-Edge Sickle",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "las-17-double-edge-sickle",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "IE-3 Martyr",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ie-3-martyr",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "IE-3 Martyr",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ie-3-martyr",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Fre Liberam",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "fre-liberam",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Fre Liberam",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "fre-liberam",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "GP-20 Ultimatum",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "gp-20-ultimatum",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "IE-12 Righteous",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ie-12-righteous",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "IE-12 Righteous",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ie-12-righteous",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Per Democrasum",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "per-democrasum",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Per Democrasum",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "per-democrasum",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Servant of Freedom",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "servant-of-freedom",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Portable Hellbomb",
+            "wikiType": "Backpack",
+            "ref": {
+              "collection": "stratagems",
+              "id": "b-100-portable-hellbomb",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "G-50 Seeker",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-50-seeker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Raise Weapon",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "raise-weapon",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

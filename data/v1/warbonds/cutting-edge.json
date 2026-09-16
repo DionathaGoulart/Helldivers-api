@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "cutting-edge",
+    "slug": "cutting-edge",
+    "name": "Cutting Edge",
+    "aliases": [],
+    "description": "Cutting Edge is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Cutting Edge Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Cutting_Edge_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-03-14",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 230,
+    "medalsAllItems": 672,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Localization Confusion",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "localization-confusion",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 18
+            }
+          },
+          {
+            "name": "LAS-16 Sickle",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "las-16-sickle",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "EX-03 Prototype 3",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ex-03-prototype-3",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "EX-03 Prototype 3",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ex-03-prototype-3",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 18
+            }
+          },
+          {
+            "name": "Botslayer",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "botslayer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Botslayer",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "botslayer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Head Tap",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "head-tap",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SG-8P Punisher Plasma",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-8p-punisher-plasma",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "G-23 Stun",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-23-stun",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "EX-16 Prototype 16",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ex-16-prototype-16",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "EX-16 Prototype 16",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ex-16-prototype-16",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Martyris Rex",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "martyris-rex",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Martyris Rex",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "martyris-rex",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Shotgun Show",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "shotgun-show",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "ARC-12 Blitzer",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "arc-12-blitzer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 80
+            }
+          },
+          {
+            "name": "LAS-7 Dagger",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "las-7-dagger",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "EX-00 Prototype X",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ex-00-prototype-x",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 48
+            }
+          },
+          {
+            "name": "EX-00 Prototype X",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ex-00-prototype-x",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 64
+            }
+          },
+          {
+            "name": "Agent of Oblivion",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "agent-of-oblivion",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Agent of Oblivion",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "agent-of-oblivion",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 16
+            }
+          },
+          {
+            "name": "Presentable",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "presentable",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

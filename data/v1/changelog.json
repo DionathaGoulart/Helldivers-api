@@ -1,15 +1,159 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.b0bbe09d",
-    "generatedAt": "2026-09-16T16:42:36Z",
-    "count": 6,
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "count": 7,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-16.9c55d5f1",
+      "date": "2026-09-16",
+      "summary": {
+        "added": 25,
+        "changed": 1,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "borderline-justice",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "castellans-creed",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "chemical-agents",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "control-group",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "cutting-edge",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "democratic-detonation",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "dust-devils",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "entrenched-division",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "exo-experts",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "force-of-law",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "freedoms-flame",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "helldivers-mobilize",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "ironclad-democracy",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "masters-of-ceremony",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "obedient-democracy-support-troopers",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "polar-patriots",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "python-commandos",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "redacted-regiment",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "righteous-revenants",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "servants-of-freedom",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "siege-breakers",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "steeled-veterans",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "truth-enforcers",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "urban-legends",
+          "kind": "added"
+        },
+        {
+          "collection": "warbonds",
+          "id": "viper-commandos",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "protect-eardrums",
+          "kind": "changed",
+          "paths": [
+            "source.cost.amount"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-16.b0bbe09d",
       "date": "2026-09-16",

@@ -1,0 +1,311 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "python-commandos",
+    "slug": "python-commandos",
+    "name": "Python Commandos",
+    "aliases": [],
+    "description": "Python Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Python Commandos Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Python_Commandos_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2025-12-02",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 205,
+    "medalsAllItems": 788,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "AR/GL-21 One-Two",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ar-gl-21-one-two",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "RS-20 Constrictor",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "rs-20-constrictor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "RS-20 Constrictor",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "rs-20-constrictor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Mark of the Constrictor",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "mark-of-the-constrictor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Mark of the Constrictor",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "mark-of-the-constrictor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Chameleon Camo Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "chameleon-camo",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "AX/FLAM-75 \"Guard Dog\" Hot Dog",
+            "wikiType": "Backpack Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "ax-flam-75-hot-dog",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "CQC-9 Defoliation Tool",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "cqc-9-defoliation-tool",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 85
+            }
+          },
+          {
+            "name": "RS-40 Beast of Prey",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "rs-40-beast-of-prey",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "RS-40 Beast of Prey",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "rs-40-beast-of-prey",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Foe Rent Asunder",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "foe-rent-asunder",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Foe Rent Asunder",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "foe-rent-asunder",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Chameleon Camo Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "chameleon-camo",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Python Commando",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "python-commando",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "M-1000 Maxigun",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "m-1000-maxigun",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "Front-Leaning Rest Position",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "front-leaning-rest-position",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Chameleon Camo Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "chameleon-camo",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Chameleon Camo Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "chameleon-camo",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "control-group",
+    "slug": "control-group",
+    "name": "Control Group",
+    "aliases": [],
+    "description": "Control Group is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Control Group Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Control_Group_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2025-07-17",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 320,
+    "medalsAllItems": 713,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "PLAS-45 Epoch",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "plas-45-epoch",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          },
+          {
+            "name": "VG-70 Variable",
+            "wikiType": "Special Primary",
+            "ref": {
+              "collection": "weapons",
+              "id": "vg-70-variable",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "AD-26 Bleeding Edge",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ad-26-bleeding-edge",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "AD-26 Bleeding Edge",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ad-26-bleeding-edge",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Conductor of Brilliance",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "conductor-of-brilliance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Conductor of Brilliance",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "conductor-of-brilliance",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "A/LAS-98 Laser Sentry",
+            "wikiType": "Sentry",
+            "ref": {
+              "collection": "stratagems",
+              "id": "a-las-98-laser-sentry",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 85
+            }
+          },
+          {
+            "name": "AD-49 Apollonian",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ad-49-apollonian",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "AD-49 Apollonian",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ad-49-apollonian",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Over Artifice Triumphant",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "over-artifice-triumphant",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Over Artifice Triumphant",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "over-artifice-triumphant",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "LIFT-182 Warp Pack",
+            "wikiType": "Backpack",
+            "ref": {
+              "collection": "stratagems",
+              "id": "lift-182-warp-pack",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "G-31 Arc",
+            "wikiType": "Special Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-31-arc",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Protect Eardrums",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "protect-eardrums",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Exemplary Subject",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "exemplary-subject",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "viper-commandos",
+    "slug": "viper-commandos",
+    "name": "Viper Commandos",
+    "aliases": [],
+    "description": "Viper Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Viper Commandos Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Viper_Commandos_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-06-13",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 275,
+    "medalsAllItems": 734,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "AR-23A Liberator Carbine",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ar-23a-liberator-carbine",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "PH-9 Predator",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ph-9-predator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "PH-9 Predator",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ph-9-predator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "Mark of the Crimson Fang",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "mark-of-the-crimson-fang",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Mark of the Crimson Fang",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "mark-of-the-crimson-fang",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Welcome Adoration",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "welcome-adoration",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Undergrowth Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "undergrowth",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SG-22 Bushwhacker",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-22-bushwhacker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "PH-202 Twigsnapper",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ph-202-twigsnapper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "PH-202 Twigsnapper",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ph-202-twigsnapper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Executioner's Canopy",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "executioners-canopy",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Executioner's Canopy",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "executioners-canopy",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Guns of Liberty",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "guns-of-liberty",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "Undergrowth Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "undergrowth",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Experimental Infusion",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "experimental-infusion",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 80
+            }
+          },
+          {
+            "name": "Viper Commando",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "viper-commando",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "K-2 Throwing Knife",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "k-2-throwing-knife",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "Test of Conviction",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "test-of-conviction",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 70
+            }
+          },
+          {
+            "name": "Undergrowth Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "undergrowth",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Undergrowth Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "undergrowth",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

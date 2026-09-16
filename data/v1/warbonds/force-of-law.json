@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "force-of-law",
+    "slug": "force-of-law",
+    "name": "Force of Law",
+    "aliases": [],
+    "description": "Force of Law is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Force of Law Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Force_of_Law_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2025-06-12",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 390,
+    "medalsAllItems": 873,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "AR-32 Pacifier",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ar-32-pacifier",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "BP-20 Correct Officer",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "bp-20-correct-officer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "BP-20 Correct Officer",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "bp-20-correct-officer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Miranda's Legacy",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "mirandas-legacy",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Miranda's Legacy",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "mirandas-legacy",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Signal: Hold",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "signal-hold",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "True Blue Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "true-blue",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "Stun Pods",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "stun-pods",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "GL-52 De-Escalator",
+            "wikiType": "Support Weapon",
+            "ref": {
+              "collection": "stratagems",
+              "id": "gl-52-de-escalator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 85
+            }
+          },
+          {
+            "name": "BP-32 Jackboot",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "bp-32-jackboot",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "BP-32 Jackboot",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "bp-32-jackboot",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Mother Eagle's Wings",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "mother-eagles-wings",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Mother Eagle's Wings",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "mother-eagles-wings",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Signal: Silence",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "signal-silence",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "True Blue Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "true-blue",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Extra Judicial",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "extra-judicial",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "AX/ARC-3 K-9",
+            "wikiType": "Backpack",
+            "ref": {
+              "collection": "stratagems",
+              "id": "ax-arc-3-k-9",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 110
+            }
+          },
+          {
+            "name": "G-109 Urchin",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-109-urchin",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "Signal: Group Up",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "signal-group-up",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "True Blue Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "true-blue",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "True Blue Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "true-blue",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

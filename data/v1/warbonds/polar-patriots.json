@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "polar-patriots",
+    "slug": "polar-patriots",
+    "name": "Polar Patriots",
+    "aliases": [],
+    "description": "Polar Patriots is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Polar Patriots Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Polar_Patriots_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-05-09",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 230,
+    "medalsAllItems": 669,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Motivational Shocks",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "motivational-shocks",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "AR-61 Tenderizer",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ar-61-tenderizer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "CW-36 Winter Warrior",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cw-36-winter-warrior",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "CW-36 Winter Warrior",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cw-36-winter-warrior",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 18
+            }
+          },
+          {
+            "name": "Dissident's Nightmare",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "dissidents-nightmare",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Dissident's Nightmare",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "dissidents-nightmare",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Mime Instrumentation",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "mime-instrumentation",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SMG-72 Pummeler",
+            "wikiType": "Submachine Gun",
+            "ref": {
+              "collection": "weapons",
+              "id": "smg-72-pummeler",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "G-13 Incendiary Impact",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-13-incendiary-impact",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "CW-22 Kodiak",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cw-22-kodiak",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "CW-22 Kodiak",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cw-22-kodiak",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Pinions of Everlasting Glory",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "pinions-of-everlasting-glory",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Pinions of Everlasting Glory",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "pinions-of-everlasting-glory",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Call the Helldivers",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "call-the-helldivers",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "PLAS-101 Purifier",
+            "wikiType": "Energy-Based",
+            "ref": {
+              "collection": "weapons",
+              "id": "plas-101-purifier",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 80
+            }
+          },
+          {
+            "name": "P-113 Verdict",
+            "wikiType": "Pistol",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-113-verdict",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "CW-4 Arctic Ranger",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "cw-4-arctic-ranger",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 48
+            }
+          },
+          {
+            "name": "CW-4 Arctic Ranger",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "cw-4-arctic-ranger",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 64
+            }
+          },
+          {
+            "name": "Order of the Venerated Ballot",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "order-of-the-venerated-ballot",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Order of the Venerated Ballot",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "order-of-the-venerated-ballot",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 16
+            }
+          },
+          {
+            "name": "Distribute Ballots",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "distribute-ballots",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

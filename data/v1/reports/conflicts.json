@@ -532,6 +532,81 @@
       ]
     },
     {
+      "collection": "warbonds",
+      "id": "castellans-creed",
+      "field": "pages[0].items[2].cost",
+      "rule": 1,
+      "chosen": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Castellan's_Creed_Legendary_Warbond",
+          "location": "Page 1 › TG-8 Sharpshooter",
+          "value": {
+            "currency": "medals",
+            "amount": 39
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
+          "location": "helmets/tg-8-sharpshooter › source",
+          "value": {
+            "currency": "medals",
+            "amount": 30
+          }
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "control-group",
+      "field": "pages[2].items[3].cost",
+      "rule": 1,
+      "chosen": {
+        "currency": "medals",
+        "amount": 55
+      },
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Control_Group_Premium_Warbond",
+          "location": "Page 3 › Protect Eardrums",
+          "value": {
+            "currency": "medals",
+            "amount": 55
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Protect_Eardrums",
+          "location": "emotes/protect-eardrums › source",
+          "value": {
+            "currency": "medals",
+            "amount": 50
+          }
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "entrenched-division",
+      "field": "medalsAllItems",
+      "rule": 1,
+      "chosen": 888,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
+          "location": "infobox › All Items Unlocked",
+          "value": 888
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
+          "location": "page tables › sum",
+          "value": 892
+        }
+      ]
+    },
+    {
       "collection": "weapons",
       "id": "ar-2-coyote",
       "field": "firearm.recoil",

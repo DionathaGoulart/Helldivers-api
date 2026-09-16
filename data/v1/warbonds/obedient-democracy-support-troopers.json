@@ -1,0 +1,273 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "obedient-democracy-support-troopers",
+    "slug": "obedient-democracy-support-troopers",
+    "name": "Obedient Democracy Support Troopers",
+    "aliases": [
+      "Halo: ODST"
+    ],
+    "description": "Obedient Democracy Support Troopers (ODST) is a Legendary Warbond featuring a crossover between Helldivers 2 and Halo 3: ODST, available for 1,500 Super Credits in the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Obedient Democracy Support Troopers Legendary Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Obedient_Democracy_Support_Troopers_Legendary_Warbond",
+      "flags": []
+    },
+    "type": "legendary",
+    "releaseDate": "2025-08-26",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1500
+    },
+    "superCreditsClaimable": 0,
+    "medalsAllPages": 280,
+    "medalsAllItems": 637,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "MA5C Assault Rifle",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ma5c-assault-rifle",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "A-9 Helljumper",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "a-9-helljumper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "A-9 Helljumper",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "a-9-helljumper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Honored Heirloom",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "honored-heirloom",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Honored Heirloom",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "honored-heirloom",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Mean Green Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mean-green",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "M7S SMG",
+            "wikiType": "Submachine Gun",
+            "ref": {
+              "collection": "weapons",
+              "id": "m7s-smg",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "A-35 Recon",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "a-35-recon",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "A-35 Recon",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "a-35-recon",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "Eye of the Clandestine",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "eye-of-the-clandestine",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "Eye of the Clandestine",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "eye-of-the-clandestine",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "Mean Green Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mean-green",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "Rookie",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "rookie",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "M90A Shotgun",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "m90a-shotgun",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
+          },
+          {
+            "name": "M6C/SOCOM Pistol",
+            "wikiType": "Pistol",
+            "ref": {
+              "collection": "weapons",
+              "id": "m6c-socom-pistol",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          },
+          {
+            "name": "Mean Green Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mean-green",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
+          },
+          {
+            "name": "Mean Green Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "mean-green",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

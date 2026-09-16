@@ -1,0 +1,350 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "democratic-detonation",
+    "slug": "democratic-detonation",
+    "name": "Democratic Detonation",
+    "aliases": [],
+    "description": "Democratic Detonation is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Democratic Detonation Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Democratic_Detonation_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-04-11",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 230,
+    "medalsAllItems": 699,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "BR-14 Adjudicator",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "br-14-adjudicator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "G-123 Thermite",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-123-thermite",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "CE-27 Ground Breaker",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ce-27-ground-breaker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "CE-27 Ground Breaker",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ce-27-ground-breaker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 18
+            }
+          },
+          {
+            "name": "Harbinger of True Equality",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "harbinger-of-true-equality",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Harbinger of True Equality",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "harbinger-of-true-equality",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Squat",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "squat",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "Expert Extraction Pilot",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "expert-extraction-pilot",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          },
+          {
+            "name": "R-36 Eruptor",
+            "wikiType": "Explosive",
+            "ref": {
+              "collection": "weapons",
+              "id": "r-36-eruptor",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "CE-07 Demolition Specialist",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "ce-07-demolition-specialist",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "CE-07 Demolition Specialist",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "ce-07-demolition-specialist",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Eagle's Fury",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "eagles-fury",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Eagle's Fury",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "eagles-fury",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Courtly Bow",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "courtly-bow",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "CB-9 Exploding Crossbow",
+            "wikiType": "Explosive",
+            "ref": {
+              "collection": "weapons",
+              "id": "cb-9-exploding-crossbow",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 80
+            }
+          },
+          {
+            "name": "GP-31 Grenade Pistol",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "gp-31-grenade-pistol",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "FS-55 Devastator",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "fs-55-devastator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 48
+            }
+          },
+          {
+            "name": "FS-55 Devastator",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "fs-55-devastator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 64
+            }
+          },
+          {
+            "name": "Freedom's Tapestry",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "freedoms-tapestry",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
+          },
+          {
+            "name": "Freedom's Tapestry",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "freedoms-tapestry",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 16
+            }
+          },
+          {
+            "name": "Boxer",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "boxer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,363 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "steeled-veterans",
+    "slug": "steeled-veterans",
+    "name": "Steeled Veterans",
+    "aliases": [],
+    "description": "Steeled Veterans is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Steeled Veterans Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Steeled_Veterans_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-02-08",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 200,
+    "medalsAllItems": 686,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "AR-23C Liberator Concussive",
+            "wikiType": "Assault Rifle",
+            "ref": {
+              "collection": "weapons",
+              "id": "ar-23c-liberator-concussive",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "P-4 Senator",
+            "wikiType": "Pistol",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-4-senator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "SA-25 Steel Trooper",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sa-25-steel-trooper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SA-25 Steel Trooper",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sa-25-steel-trooper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 18
+            }
+          },
+          {
+            "name": "Tyrant Hunter",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "tyrant-hunter",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Tyrant Hunter",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "tyrant-hunter",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Super Person",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "super-person",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "SG-225IE Breaker Incendiary",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-225ie-breaker-incendiary",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "G-10 Incendiary",
+            "wikiType": "Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-10-incendiary",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          },
+          {
+            "name": "SA-12 Servo Assisted",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sa-12-servo-assisted",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "SA-12 Servo Assisted",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sa-12-servo-assisted",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Cloak of Posterity's Gratitude",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "cloak-of-posteritys-gratitude",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 16
+            }
+          },
+          {
+            "name": "Cloak of Posterity's Gratitude",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "cloak-of-posteritys-gratitude",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Drape of Glory",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "drape-of-glory",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 16
+            }
+          },
+          {
+            "name": "Roll 'Em",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "roll-em",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Flexible Reinforcement Budget",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "flexible-reinforcement-budget",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 75
+            }
+          },
+          {
+            "name": "JAR-5 Dominator",
+            "wikiType": "Special Primary",
+            "ref": {
+              "collection": "weapons",
+              "id": "jar-5-dominator",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 80
+            }
+          },
+          {
+            "name": "SA-32 Dynamo",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "sa-32-dynamo",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 48
+            }
+          },
+          {
+            "name": "SA-32 Dynamo",
+            "wikiType": "Heavy Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "sa-32-dynamo",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 64
+            }
+          },
+          {
+            "name": "Bastion of Integrity",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "bastion-of-integrity",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "Bastion of Integrity",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "bastion-of-integrity",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 16
+            }
+          },
+          {
+            "name": "You're Next",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "youre-next",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

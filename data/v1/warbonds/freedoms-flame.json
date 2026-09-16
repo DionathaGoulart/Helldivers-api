@@ -1,0 +1,337 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-16.9c55d5f1",
+    "generatedAt": "2026-09-16T18:25:04Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "freedoms-flame",
+    "slug": "freedoms-flame",
+    "name": "Freedom's Flame",
+    "aliases": [],
+    "description": "Freedom's Flame is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
+    "image": null,
+    "wiki": {
+      "title": "Freedom's Flame Premium Warbond",
+      "url": "https://helldivers.wiki.gg/wiki/Freedom's_Flame_Premium_Warbond",
+      "flags": []
+    },
+    "type": "premium",
+    "releaseDate": "2024-08-08",
+    "cost": {
+      "currency": "super_credits",
+      "amount": 1000
+    },
+    "superCreditsClaimable": 300,
+    "medalsAllPages": 230,
+    "medalsAllItems": 569,
+    "pages": [
+      {
+        "number": 1,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
+          },
+          {
+            "name": "SG-451 Cookout",
+            "wikiType": "Shotgun",
+            "ref": {
+              "collection": "weapons",
+              "id": "sg-451-cookout",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "I-09 Heatseeker",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "i-09-heatseeker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "I-09 Heatseeker",
+            "wikiType": "Light Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "i-09-heatseeker",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 18
+            }
+          },
+          {
+            "name": "Purifying Eclipse",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "purifying-eclipse",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Purifying Eclipse",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "purifying-eclipse",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
+          },
+          {
+            "name": "Big Stretch",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "big-stretch",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
+          },
+          {
+            "name": "Safety Orange Hellpod",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "safety-orange",
+              "variant": "hellpod"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 10
+            }
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 12
+            }
+          },
+          {
+            "name": "FLAM-66 Torcher",
+            "wikiType": "Special Primary",
+            "ref": {
+              "collection": "weapons",
+              "id": "flam-66-torcher",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "I-102 Draconaught",
+            "wikiType": "Helmet",
+            "ref": {
+              "collection": "helmets",
+              "id": "i-102-draconaught",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "I-102 Draconaught",
+            "wikiType": "Medium Armor",
+            "ref": {
+              "collection": "armors",
+              "id": "i-102-draconaught",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "The Breach",
+            "wikiType": "Cape",
+            "ref": {
+              "collection": "capes",
+              "id": "the-breach",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "The Breach",
+            "wikiType": "Player Card",
+            "ref": {
+              "collection": "player-cards",
+              "id": "the-breach",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 5
+            }
+          },
+          {
+            "name": "Deep Reflection",
+            "wikiType": "Victory Pose",
+            "ref": {
+              "collection": "emotes",
+              "id": "deep-reflection",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 15
+            }
+          },
+          {
+            "name": "Safety Orange Shuttle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "safety-orange",
+              "variant": "shuttle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "items": [
+          {
+            "name": "100 Super Credits",
+            "wikiType": "Currency",
+            "ref": null,
+            "cost": {
+              "currency": "medals",
+              "amount": 32
+            }
+          },
+          {
+            "name": "Firebomb Hellpods",
+            "wikiType": "Booster",
+            "ref": {
+              "collection": "boosters",
+              "id": "firebomb-hellpods",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 60
+            }
+          },
+          {
+            "name": "Fire Safety Officer",
+            "wikiType": "Title",
+            "ref": {
+              "collection": "titles",
+              "id": "fire-safety-officer",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "P-72 Crisper",
+            "wikiType": "Special Secondary",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-72-crisper",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
+          },
+          {
+            "name": "Thoracic Collision Exultation Maneuver",
+            "wikiType": "Emote",
+            "ref": {
+              "collection": "emotes",
+              "id": "thoracic-collision-exultation-maneuver",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
+          },
+          {
+            "name": "Safety Orange Exosuit",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "safety-orange",
+              "variant": "exosuit"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 40
+            }
+          },
+          {
+            "name": "Safety Orange Vehicle",
+            "wikiType": "Pattern",
+            "ref": {
+              "collection": "patterns",
+              "id": "safety-orange",
+              "variant": "vehicle"
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
