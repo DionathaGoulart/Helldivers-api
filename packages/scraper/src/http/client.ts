@@ -31,15 +31,21 @@ export class DisallowedUrlError extends Error {
   }
 }
 
-/** Only `/wiki/<Title>`, `/images/…` and `/robots.txt` on the wiki host, never a query (arch §0.5). */
+// Wiki file URLs carry a hex version suffix (`/images/A.png?97e7bb`), the only query ever sent.
+const IMAGE_VERSION = /^\?[a-f0-9]{1,32}$/;
+
+/**
+ * Only `/wiki/<Title>`, `/images/…` and `/robots.txt` on the wiki host (arch §0.5), never a
+ * query except the version suffix of an image.
+ */
 export function assertFetchable(url: URL, base: URL): void {
   if (url.origin !== base.origin) {
     throw new DisallowedUrlError(url.href, `not on ${base.origin}`);
   }
-  if (url.search !== "") {
+  const path = decodeURIComponent(url.pathname);
+  if (url.search !== "" && !(path.startsWith("/images/") && IMAGE_VERSION.test(url.search))) {
     throw new DisallowedUrlError(url.href, "query strings are never fetched");
   }
-  const path = decodeURIComponent(url.pathname);
   const allowed =
     path === "/robots.txt" ||
     path.startsWith("/images/") ||
@@ -59,6 +65,11 @@ export interface HttpClientOptions {
   fetch?: (request: Request) => Promise<Response>;
   clock?: Clock;
   logger?: Logger;
+}
+
+export interface GetOptions {
+  /** The URL names immutable bytes (a versioned image): a cached body is reused without a request. */
+  immutable?: boolean;
 }
 
 export interface HttpResult {
@@ -123,7 +134,7 @@ export class HttpClient {
     pacing.delayMs = Math.max(pacing.delayMs, policy.crawlDelayMs);
   }
 
-  async get(target: string): Promise<HttpResult> {
+  async get(target: string, options: GetOptions = {}): Promise<HttpResult> {
     const url = new URL(target, this.#base);
     url.hash = "";
     assertFetchable(url, this.#base);
@@ -132,6 +143,15 @@ export class HttpClient {
     }
 
     const cached = this.#options.cache ? await this.#options.cache.get(url.href) : null;
+    if (cached && options.immutable) {
+      return {
+        url: url.href,
+        status: 304,
+        body: cached.body,
+        fromCache: true,
+        lastModified: cached.lastModified,
+      };
+    }
     const headers = new Headers({
       "user-agent": this.#options.userAgent,
       accept: url.pathname.startsWith("/images/") ? "image/*" : "text/html, text/plain;q=0.9",

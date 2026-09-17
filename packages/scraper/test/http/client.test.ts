@@ -147,7 +147,29 @@ describe("HttpClient", () => {
     await expect(http.get("/wiki/Boosters")).rejects.toThrow("no #mw-content-text");
   });
 
+  it("fetches versioned images and reuses a cached immutable body without a request", async () => {
+    const png = new Response(new Uint8Array([137, 80, 78, 71]), {
+      status: 200,
+      headers: { "content-type": "image/png", etag: '"i1"' },
+    });
+    const first = client([png]);
+    const path = "/images/thumb/A.png/512px-A.png?97e7bb";
+    await first.http.get(path, { immutable: true });
+    expect(first.requests[0]?.url).toBe(`${BASE}${path}`);
+    expect(first.requests[0]?.headers.get("accept")).toBe("image/*");
+
+    const second = client([]);
+    const result = await second.http.get(path, { immutable: true });
+    expect(result).toMatchObject({ status: 304, fromCache: true });
+    expect([...result.body]).toEqual([137, 80, 78, 71]);
+    expect(second.requests).toHaveLength(0);
+    expect(second.http.stats.requests).toBe(0);
+  });
+
   it.each([
+    "/images/A.png?action=raw",
+    "/images/A.png?97E7BB",
+    "/wiki/Boosters?97e7bb",
     "/api.php?action=parse",
     "/index.php?title=Boosters",
     "/wiki/Boosters?redirect=no",
