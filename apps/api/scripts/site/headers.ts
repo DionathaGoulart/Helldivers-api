@@ -3,6 +3,7 @@ import { Collection } from "@hd2/schemas";
 // Pages config files (arch §8.1, §8.2, §8.4). `_headers` never applies to Functions.
 
 export const STATIC_CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=3600";
+export const FONT_CACHE_CONTROL = "public, max-age=604800, stale-while-revalidate=86400";
 
 /**
  * Rules matching one path are merged and a header set twice is joined with a comma, so CORS and
@@ -18,6 +19,10 @@ export function renderHeaders(dataVersion: string): string {
     `  Cache-Control: ${STATIC_CACHE_CONTROL}`,
     "  Access-Control-Expose-Headers: ETag, X-Data-Version",
     `  X-Data-Version: ${dataVersion}`,
+    "",
+    // The font files change only with the package; a week of cache costs one revalidation.
+    "/fonts/*",
+    `  Cache-Control: ${FONT_CACHE_CONTROL}`,
     "",
   ].join("\n");
 }

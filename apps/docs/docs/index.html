@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reference · Helldivers 2 Data API</title>
+    <meta
+      name="description"
+      content="Every route of the Helldivers 2 Data API, generated from /v1/openapi.json: lists, items, facets, CSV, query, search and images."
+    />
+    <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/app.js" defer></script>
+    <style>
+      /* The reference fills the viewport below the site header. */
+      .reference {
+        min-height: 70vh;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="icon-btn skip-link" href="#reference">Skip to reference</a>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+
+    <header class="screen-pad site-header">
+      <p class="screen-kicker"><span class="sigil">&gt;</span> REFERENCE</p>
+      <nav class="header-actions" aria-label="Site">
+        <a class="icon-btn" href="/">Home</a>
+        <a class="icon-btn" href="/docs/errors">Errors</a>
+        <a class="icon-btn" href="/v1/openapi.json">openapi.json</a>
+        <button class="icon-btn" type="button" id="theme-toggle">
+          Theme: <span id="theme-name">rose</span>
+        </button>
+      </nav>
+    </header>
+
+    <div id="reference" class="reference" tabindex="-1">
+      <p class="screen-pad micro terminal-cursor" id="reference-loading">Loading reference</p>
+      <div id="scalar"></div>
+    </div>
+
+    <!-- Scalar pinned by version and by hash (arch §9); it reads the generated document. -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@scalar/api-reference@1.69.0/dist/browser/standalone.js"
+      integrity="sha384-UL+pt9bcR3hCuzEybA1bAyu6yv9qkzJuYCP5N+HZPOo9ZkUXcMflxqBjC1vfDzfe"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="/docs/reference.js" defer></script>
+  </body>
+</html>

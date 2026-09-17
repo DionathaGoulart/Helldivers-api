@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Errors · Helldivers 2 Data API</title>
+    <meta
+      name="description"
+      content="Every problem type the Helldivers 2 Data API returns, what causes it and how to fix the request."
+    />
+    <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="icon-btn skip-link" href="#main">Skip to content</a>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+
+    <header class="screen-pad site-header">
+      <p class="screen-kicker"><span class="sigil">&gt;</span> ERRORS</p>
+      <nav class="header-actions" aria-label="Site">
+        <a class="icon-btn" href="/">Home</a>
+        <a class="icon-btn" href="/docs/">Reference</a>
+        <button class="icon-btn" type="button" id="theme-toggle">
+          Theme: <span id="theme-name">rose</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main" class="page screen-pad stack animate-enter">
+      <section class="hero stack">
+        <h1 class="screen-title">Problem types</h1>
+        <p class="lede">
+          Errors are
+          <a href="https://www.rfc-editor.org/rfc/rfc9457.html">RFC 9457</a> problem details, sent
+          as <code>application/problem+json</code> and never cached. The <code>type</code> of a
+          response links straight to its section on this page.
+        </p>
+        <pre><code>{
+  "type": "https://helldivers-api.pages.dev/docs/errors#invalid-filter-value",
+  "title": "Invalid filter value",
+  "status": 400,
+  "detail": "category: `primray` is not a valid value. Allowed: primary, secondary, throwable.",
+  "instance": "/v1/query/weapons?category=primray"
+}</code></pre>
+        <p class="hint">
+          Read <code>detail</code> — it names the parameter and the values that would work.
+          <code>instance</code> is the path and query that failed. Static files (a missing item, a
+          typo in a collection name) answer with the 404 page of the static host instead.
+        </p>
+      </section>
+
+      <section class="panel" id="unknown-parameter">
+        <div class="window-bar">
+          <span class="window-bar-title">400 · UNKNOWN-PARAMETER</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            The query string carries a name the route does not define, usually a typo
+            (<code>?categorie=primary</code>) or a filter that belongs to another collection.
+          </p>
+          <p class="hint">
+            Fix: drop the parameter. Each collection lists its filters in the
+            <a href="/docs/">reference</a>; every route also accepts <code>q</code>,
+            <code>sort</code>, <code>fields</code>, <code>page</code> and <code>limit</code>.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="invalid-filter-value">
+        <div class="window-bar">
+          <span class="window-bar-title">400 · INVALID-FILTER-VALUE</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            The filter exists but the value does not: a category that is not in the enum, or an id
+            (warbond, trait, passive, armor set) that no entity has.
+          </p>
+          <p class="hint">
+            Fix: <code>detail</code> lists the allowed values for an enum, or points at the file to
+            read for ids, for example <a href="/v1/warbonds.json">/v1/warbonds.json</a>. Values are
+            the ones in the data (<code>support_weapon</code>, not <code>support-weapon</code>);
+            only facet file names are kebab-cased.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="invalid-parameter">
+        <div class="window-bar">
+          <span class="window-bar-title">400 · INVALID-PARAMETER</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            A common parameter is out of range or malformed: <code>page</code> below 1,
+            <code>limit</code> above 100 (50 on <code>/v1/search</code>), an unknown
+            <code>sort</code> key or <code>fields</code> name, a <code>q</code> shorter than two
+            characters, an unknown collection in <code>collections</code>, or one of them repeated.
+          </p>
+          <p class="hint">
+            Fix: paging and sorting defaults are <code>page=1</code>, <code>limit=50</code>,
+            <code>sort=id</code>. A filter may be repeated — the values are OR-ed — but
+            <code>q</code>, <code>sort</code>, <code>fields</code>, <code>page</code> and
+            <code>limit</code> may appear only once.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="not-found">
+        <div class="window-bar">
+          <span class="window-bar-title">404 · NOT-FOUND</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            The dynamic route does not exist: an unknown collection under
+            <code>/v1/query/</code>, a path that is not a route at all, or an image URL that is not
+            a published key.
+          </p>
+          <p class="hint">
+            Fix: collection names are in <a href="/v1/meta.json">/v1/meta.json</a>. Image URLs come
+            from an entity's <code>image.url</code> and are content-hashed — never build one by
+            hand.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="method-not-allowed">
+        <div class="window-bar">
+          <span class="window-bar-title">405 · METHOD-NOT-ALLOWED</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            The API is read-only. Only <code>GET</code>, <code>HEAD</code> and
+            <code>OPTIONS</code> are answered; the response repeats them in <code>Allow</code>.
+          </p>
+          <p class="hint">Fix: use <code>GET</code>.</p>
+        </div>
+      </section>
+
+      <section class="panel" id="internal-error">
+        <div class="window-bar">
+          <span class="window-bar-title">500 · INTERNAL-ERROR</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            Something failed inside the Function — most often a data file that could not be read.
+            Nothing is cached, so the next request may well succeed.
+          </p>
+          <p class="hint">
+            Fix: retry once. If it persists,
+            <a href="https://github.com/DionathaGoulart/Helldivers-api/issues">open an issue</a>
+            with the <code>instance</code>, the time and the <code>cf-ray</code> header.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="image-backend-error">
+        <div class="window-bar">
+          <span class="window-bar-title">502 · IMAGE-BACKEND-ERROR</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            <code>/images/*</code> reached the private bucket and got an error or a timeout back.
+            The failure is never cached.
+          </p>
+          <p class="hint">
+            Fix: retry later. A successful image is cached at the edge and
+            <code>immutable</code>, so this only hits the first request for a key in a region.
+          </p>
+        </div>
+      </section>
+
+      <section class="panel" id="images-unavailable">
+        <div class="window-bar">
+          <span class="window-bar-title">503 · IMAGES-UNAVAILABLE</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            This deployment has no image storage configured — a local
+            <code>wrangler pages dev</code> without the read key, for instance. Data routes work as
+            usual.
+          </p>
+          <p class="hint">
+            Fix: set <code>B2_READ_KEY_ID</code> and <code>B2_READ_APP_KEY</code> in
+            <code>.dev.vars</code>, or skip images (<code>pnpm smoke --skip-images</code>).
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="screen-pad site-footer">
+      <p class="micro">
+        Data from <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a> ·
+        <a href="https://github.com/DionathaGoulart/Helldivers-api">source</a> ·
+        <a href="/v1/openapi.json">openapi.json</a>
+      </p>
+    </footer>
+  </body>
+</html>

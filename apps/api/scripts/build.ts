@@ -1,5 +1,6 @@
 import { cp, mkdir, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { basename, dirname, join, relative, resolve, sep } from "node:path";
+import { fileURLToPath } from "node:url";
 import { validateDataset } from "@hd2/schemas";
 import { readDatasetFiles } from "@hd2/schemas/node";
 import { bundleWorker } from "./site/bundle.ts";
@@ -14,6 +15,15 @@ const rootDir = join(appDir, "..", "..");
 const distDir = join(appDir, "dist");
 const docsDir = join(appDir, "..", "docs");
 const dataDir = join(resolve(rootDir, process.env.DATA_DIR ?? "data"), "v1");
+
+// Self-hosted docs font (styleguide §3): the latin subsets of the variable family, copied out of
+// the package so `apps/docs` stays free of binaries and the page loads no third-party font.
+const FONT_FILES = [
+  "jetbrains-mono-latin-wght-normal.woff2",
+  "jetbrains-mono-latin-ext-wght-normal.woff2",
+  "jetbrains-mono-latin-wght-italic.woff2",
+  "jetbrains-mono-latin-ext-wght-italic.woff2",
+];
 
 const fail = (lines: string[]) => {
   for (const line of lines.slice(0, 50)) console.error(`build: ${line}`);
@@ -39,6 +49,13 @@ await cp(dataDir, join(distDir, "v1"), {
   recursive: true,
   filter: (path) => !basename(path).startsWith("."),
 });
+await mkdir(join(distDir, "fonts"), { recursive: true });
+for (const file of FONT_FILES) {
+  const source = fileURLToPath(
+    import.meta.resolve(`@fontsource-variable/jetbrains-mono/files/${file}`),
+  );
+  await cp(source, join(distDir, "fonts", file));
+}
 for (const [path, text] of site.files) {
   const target = join(distDir, path);
   await mkdir(dirname(target), { recursive: true });

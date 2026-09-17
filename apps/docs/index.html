@@ -4,13 +4,261 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Helldivers 2 Data API</title>
+    <meta
+      name="description"
+      content="Free, public, read-only JSON API with the Helldivers 2 catalog: weapons, stratagems, armor, warbonds and cosmetics, built from The Helldivers Wiki."
+    />
+    <link rel="icon" href="data:," />
+    <!-- Theme before paint (styleguide §0.2): default rose, prefers-color-scheme on a first visit. -->
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/app.js" defer></script>
   </head>
   <body>
-    <h1>Helldivers 2 Data API</h1>
-    <p>
-      Work in progress. Free, public, read-only JSON API built from
-      <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a>.
-    </p>
-    <p><a href="https://github.com/DionathaGoulart/Helldivers-api">Source on GitHub</a></p>
+    <a class="icon-btn skip-link" href="#main">Skip to content</a>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+
+    <header class="screen-pad site-header">
+      <p class="screen-kicker"><span class="sigil">&gt;</span> HELLDIVERS 2 DATA API</p>
+      <nav class="header-actions" aria-label="Site">
+        <a class="icon-btn" href="/docs/">Reference</a>
+        <a class="icon-btn" href="https://github.com/DionathaGoulart/Helldivers-api">GitHub</a>
+        <button class="icon-btn" type="button" id="theme-toggle">
+          Theme: <span id="theme-name">rose</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main" class="page screen-pad stack animate-enter">
+      <section class="hero stack">
+        <h1 class="screen-title">Every weapon, stratagem and warbond as JSON</h1>
+        <p class="lede">
+          Free, public and read-only. No key, no rate limit, CORS open to every origin. The catalog
+          is scraped from
+          <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a> once a day and published as
+          static files on Cloudflare.
+        </p>
+        <p class="micro" id="status" aria-live="polite">
+          <span class="terminal-cursor">Loading dataset</span>
+        </p>
+        <div class="cta-row">
+          <a class="btn-goodchat" href="/docs/">Open docs</a>
+          <a class="btn-goodchat-outline" href="/v1/weapons/ar-23-liberator.json">See an item</a>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="quickstart-title">
+        <div class="window-bar">
+          <span class="window-bar-title" id="quickstart-title">QUICKSTART.SH</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p class="section-label"><span class="sigil">&gt;</span> One request, no setup</p>
+          <pre><code>curl https://helldivers-api.pages.dev/v1/weapons/ar-23-liberator.json</code></pre>
+
+          <p class="section-label"><span class="sigil">&gt;</span> JavaScript</p>
+          <pre><code>const res = await fetch(
+  "https://helldivers-api.pages.dev/v1/query/weapons?category=primary&amp;trait=light-armor-penetrating",
+);
+const { meta, data } = await res.json();
+console.log(meta.total, data[0].name);</code></pre>
+
+          <p class="section-label"><span class="sigil">&gt;</span> Google Sheets</p>
+          <pre><code>=IMPORTDATA("https://helldivers-api.pages.dev/v1/stratagems.csv")</code></pre>
+
+          <p class="hint">
+            Every collection is also a CSV. Prefer the static lists and the
+            <code>by-*</code> facets; <code>/v1/query/*</code> is for filters they do not cover.
+          </p>
+          <p>
+            <a
+              class="icon-btn"
+              href="https://fetch.usebruno.com?url=https://helldivers-api.pages.dev/v1/openapi.json&amp;type=openapi"
+              >Fetch in Bruno</a
+            >
+            <span class="hint">Opens the API client with one folder per tag.</span>
+          </p>
+        </div>
+      </section>
+
+      <section class="stack" aria-labelledby="collections-title">
+        <h2 class="section-label" id="collections-title">
+          <span class="sigil">&gt;</span> Collections
+        </h2>
+        <div class="card-grid" id="collections">
+          <!-- One card per collection (arch §8.2); the counts come from /v1/meta.json. -->
+          <a class="panel card-link" href="/v1/warbonds.json" data-collection="warbonds">
+            <span class="window-bar"
+              ><span class="window-bar-title">WARBONDS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> warbonds</span>
+          </a>
+          <a class="panel card-link" href="/v1/weapons.json" data-collection="weapons">
+            <span class="window-bar"
+              ><span class="window-bar-title">WEAPONS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> weapons</span>
+          </a>
+          <a class="panel card-link" href="/v1/stratagems.json" data-collection="stratagems">
+            <span class="window-bar"
+              ><span class="window-bar-title">STRATAGEMS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> stratagems</span>
+          </a>
+          <a class="panel card-link" href="/v1/armors.json" data-collection="armors">
+            <span class="window-bar"
+              ><span class="window-bar-title">ARMORS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> armors</span>
+          </a>
+          <a class="panel card-link" href="/v1/helmets.json" data-collection="helmets">
+            <span class="window-bar"
+              ><span class="window-bar-title">HELMETS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> helmets</span>
+          </a>
+          <a class="panel card-link" href="/v1/capes.json" data-collection="capes">
+            <span class="window-bar"
+              ><span class="window-bar-title">CAPES.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> capes</span>
+          </a>
+          <a class="panel card-link" href="/v1/armor-sets.json" data-collection="armor-sets">
+            <span class="window-bar"
+              ><span class="window-bar-title">ARMOR-SETS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> armor sets</span>
+          </a>
+          <a class="panel card-link" href="/v1/boosters.json" data-collection="boosters">
+            <span class="window-bar"
+              ><span class="window-bar-title">BOOSTERS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> boosters</span>
+          </a>
+          <a class="panel card-link" href="/v1/passives.json" data-collection="passives">
+            <span class="window-bar"
+              ><span class="window-bar-title">PASSIVES.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> armor passives</span>
+          </a>
+          <a class="panel card-link" href="/v1/weapon-traits.json" data-collection="weapon-traits">
+            <span class="window-bar"
+              ><span class="window-bar-title">WEAPON-TRAITS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> equipment traits</span>
+          </a>
+          <a class="panel card-link" href="/v1/player-cards.json" data-collection="player-cards">
+            <span class="window-bar"
+              ><span class="window-bar-title">PLAYER-CARDS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> player cards</span>
+          </a>
+          <a class="panel card-link" href="/v1/emotes.json" data-collection="emotes">
+            <span class="window-bar"
+              ><span class="window-bar-title">EMOTES.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> emotes and poses</span>
+          </a>
+          <a class="panel card-link" href="/v1/patterns.json" data-collection="patterns">
+            <span class="window-bar"
+              ><span class="window-bar-title">PATTERNS.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> patterns</span>
+          </a>
+          <a class="panel card-link" href="/v1/titles.json" data-collection="titles">
+            <span class="window-bar"
+              ><span class="window-bar-title">TITLES.JSON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <span class="card-body"><span class="stat-value" data-count>—</span> titles</span>
+          </a>
+        </div>
+        <p class="hint">
+          Each collection answers <code>/v1/&lt;collection&gt;.json</code>,
+          <code>/v1/&lt;collection&gt;/&lt;id&gt;.json</code>, <code>.csv</code>, facets such as
+          <code>/v1/weapons/by-warbond/steeled-veterans.json</code> and a JSON Schema under
+          <code>/v1/schemas/</code>.
+        </p>
+      </section>
+
+      <section class="panel" aria-labelledby="caching-title">
+        <div class="window-bar">
+          <span class="window-bar-title" id="caching-title">CACHING.TXT</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <ul class="notes">
+            <li>
+              Every response carries an <code>ETag</code>. Send <code>If-None-Match</code> and take
+              the <code>304</code> — it costs you nothing and keeps the API free for everybody.
+            </li>
+            <li>
+              <code>image.url</code> is content-hashed and served
+              <code>immutable</code>: cache it forever, and re-read the entity to notice a new
+              picture.
+            </li>
+            <li>
+              Static lists, items and facets are plain files. Reach for
+              <code>/v1/query/*</code> only when a filter combination has no file.
+            </li>
+            <li>
+              <code>X-Data-Version</code> names the dataset a response was built from; the same
+              value is in <code>meta.dataVersion</code> and in
+              <a href="/v1/changelog.json">the changelog</a>.
+            </li>
+            <li>
+              Enums are open: a new warbond can add a value. Ignore what you do not know instead of
+              failing.
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="screen-pad site-footer">
+      <p class="micro">
+        Data from <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a> · unofficial, not
+        affiliated with Arrowhead Game Studios ·
+        <a href="https://github.com/DionathaGoulart/Helldivers-api">source</a> ·
+        <a href="/docs/errors">errors</a> · <a href="/v1/openapi.json">openapi.json</a>
+      </p>
+    </footer>
   </body>
 </html>

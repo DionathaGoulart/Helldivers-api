@@ -4,13 +4,36 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Not found · Helldivers 2 Data API</title>
+    <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="stylesheet" href="/theme.css" />
   </head>
   <body>
-    <h1>404 · Not found</h1>
-    <p>
-      No file at this URL. Lists and items end in <code>.json</code>, for example
-      <a href="/v1/weapons.json">/v1/weapons.json</a>. See <a href="/v1/meta.json">/v1/meta.json</a>
-      for every collection.
-    </p>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+    <main id="main" class="page screen-pad stack animate-enter">
+      <section class="hero stack">
+        <p class="screen-kicker"><span class="sigil">&gt;</span> 404</p>
+        <h1 class="screen-title">No file at this URL</h1>
+        <p class="lede">
+          Lists and items end in <code>.json</code>, for example
+          <a href="/v1/weapons.json">/v1/weapons.json</a> or
+          <a href="/v1/weapons/ar-23-liberator.json">/v1/weapons/ar-23-liberator.json</a>. Every
+          collection and its URLs are in <a href="/v1/meta.json">/v1/meta.json</a>.
+        </p>
+        <div class="cta-row">
+          <a class="btn-goodchat" href="/">Home</a>
+          <a class="btn-goodchat-outline" href="/docs/">Reference</a>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
