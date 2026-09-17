@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: API reference
+    url: https://helldivers-api.pages.dev/docs/
+    about: Endpoints, filters and the error catalog — check here before filing a bug.
+  - name: Report a vulnerability
+    url: https://github.com/DionathaGoulart/Helldivers-api/security/advisories/new
+    about: Private reporting for anything in SECURITY.md. Please do not open a public issue.
+  - name: The Helldivers Wiki
+    url: https://helldivers.wiki.gg
+    about: The source of all data. If the wiki is wrong, fix it there — this API mirrors it.

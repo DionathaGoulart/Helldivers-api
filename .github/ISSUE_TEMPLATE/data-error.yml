@@ -1,0 +1,71 @@
+name: Data error
+description: A field in the API disagrees with the wiki
+title: "[data] "
+labels: ["data-error"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for checking the data. One item per issue, please — separate reports are easier to
+        fix and to close.
+
+        If the **wiki** is the one that is wrong, fix the wiki instead: this API is a mirror of it
+        and the next daily run would undo any manual correction here.
+  - type: input
+    id: api-url
+    attributes:
+      label: API URL
+      description: The endpoint that returns the wrong value.
+      placeholder: https://helldivers-api.pages.dev/v1/weapons/ar-23-liberator.json
+    validations:
+      required: true
+  - type: input
+    id: field
+    attributes:
+      label: Field
+      description: The path inside the item, as it appears in the JSON.
+      placeholder: stats.recoil
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: What the API returns
+      placeholder: "14"
+    validations:
+      required: true
+  - type: input
+    id: expected
+    attributes:
+      label: What it should return
+      placeholder: "10.5"
+    validations:
+      required: true
+  - type: input
+    id: wiki-url
+    attributes:
+      label: Wiki URL
+      description: The page, and the section or table, that proves it.
+      placeholder: https://helldivers.wiki.gg/wiki/AR-23_Liberator#Statistics
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: |
+        Useful if the two wiki tables disagree with each other, if the item is missing entirely, or
+        if several items share the problem. Check
+        [`/v1/reports/conflicts.json`](https://helldivers-api.pages.dev/v1/reports/conflicts.json)
+        first — a known contradiction may already be recorded there with the reason it was resolved
+        that way.
+    validations:
+      required: false
+  - type: input
+    id: data-version
+    attributes:
+      label: dataVersion
+      description: From `meta.json`, or the `X-Data-Version` response header.
+      placeholder: 2026-09-17.2d3c0c72
+    validations:
+      required: false
