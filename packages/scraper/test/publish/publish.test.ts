@@ -178,6 +178,17 @@ describe("reports", () => {
     warnings: [],
     failure: null,
     http: { requests: 20, notModified: 19, bytes: 60_000, retries: 0, pauses: 0 },
+    images: {
+      requested: 18,
+      reused: 17,
+      fetched: 1,
+      uploaded: 1,
+      failed: 0,
+      deleted: 0,
+      images: 18,
+      orphans: 1,
+      bytes: 90_000,
+    },
     durationMs: 83_000,
   };
 
@@ -192,6 +203,9 @@ describe("reports", () => {
     expect(summary).toContain("## Scrape 2026-09-15 · ok");
     expect(summary).toContain("| boosters | 17 | 18 | +1 ~1 -0 |");
     expect(summary).toContain("Requests 20 · 304 19 (95 %) · 58.6 KB · retries 0 · pauses 0");
+    expect(summary).toContain(
+      "Images fetched 1 · uploaded 1 · reused 17 · failed 0 · orphans 1 (deleted 0) · 18 images, 87.9 KB",
+    );
     expect(summary).toContain("- `boosters/dead-sprint` changed: `source.cost.amount`");
     expect(renderSummary({ ...report, changed: false, changes: [] })).toContain("No changes");
   });

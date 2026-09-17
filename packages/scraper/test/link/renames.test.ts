@@ -42,6 +42,7 @@ const result = (...ids: string[]): ScrapeResult => ({
   indexCount: ids.length,
   warnings: [],
   conflicts: [],
+  images: [],
 });
 
 describe("findRenames", () => {

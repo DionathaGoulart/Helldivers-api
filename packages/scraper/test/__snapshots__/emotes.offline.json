@@ -5,7 +5,12 @@
     "name": "At Ease",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/at-ease.6ed0a936.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "At_Ease_Emote_Icon.png"
+    },
     "wiki": {
       "title": "At Ease",
       "url": "https://helldivers.wiki.gg/wiki/At_Ease",
@@ -31,7 +36,12 @@
     "name": "Big Stretch",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/big-stretch.d483d66d.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Big_Stretch_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Big Stretch",
       "url": "https://helldivers.wiki.gg/wiki/Big_Stretch",
@@ -57,7 +67,12 @@
     "name": "Big Whoop",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/big-whoop.ae2b94ac.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Big_Whoop_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Big Whoop",
       "url": "https://helldivers.wiki.gg/wiki/Big_Whoop",
@@ -83,7 +98,12 @@
     "name": "Boxer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/boxer.7998edd9.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Boxer_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Boxer",
       "url": "https://helldivers.wiki.gg/wiki/Boxer",
@@ -109,7 +129,12 @@
     "name": "Call the Helldivers",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/call-the-helldivers.e27684aa.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Call_the_Helldivers_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Call the Helldivers",
       "url": "https://helldivers.wiki.gg/wiki/Call_the_Helldivers",
@@ -135,7 +160,12 @@
     "name": "Casual Salute",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/casual-salute.98bf1fdd.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Casual_Salute_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Casual Salute",
       "url": "https://helldivers.wiki.gg/wiki/Casual_Salute",
@@ -158,7 +188,12 @@
     "name": "Clapping",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/clapping.4d8dce80.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Clapping_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Clapping",
       "url": "https://helldivers.wiki.gg/wiki/Clapping",
@@ -184,7 +219,12 @@
     "name": "Courtly Bow",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/courtly-bow.a9623071.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Courtly_Bow_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Courtly Bow",
       "url": "https://helldivers.wiki.gg/wiki/Courtly_Bow",
@@ -210,7 +250,12 @@
     "name": "Deep Reflection",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/deep-reflection.137b9b4c.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Deep_Reflection_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Deep Reflection",
       "url": "https://helldivers.wiki.gg/wiki/Deep_Reflection",
@@ -236,7 +281,12 @@
     "name": "Diplomatic Handshake",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/diplomatic-handshake.4d6f448e.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Diplomatic_Handshake_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Diplomatic Handshake",
       "url": "https://helldivers.wiki.gg/wiki/Diplomatic_Handshake",
@@ -262,7 +312,12 @@
     "name": "Display of Brawn",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/display-of-brawn.0b52cb99.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Display_of_Brawn_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Display of Brawn",
       "url": "https://helldivers.wiki.gg/wiki/Display_of_Brawn",
@@ -288,7 +343,12 @@
     "name": "Distribute Ballots",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/distribute-ballots.c0b73d02.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Distribute_Ballots_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Distribute Ballots",
       "url": "https://helldivers.wiki.gg/wiki/Distribute_Ballots",
@@ -314,7 +374,12 @@
     "name": "Draw!",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/draw.fe26c4ce.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Draw!_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Draw!",
       "url": "https://helldivers.wiki.gg/wiki/Draw!",
@@ -340,7 +405,12 @@
     "name": "Enthusiastic Mirth",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/enthusiastic-mirth.925ff6cc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Enthusiastic_Mirth_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Enthusiastic Mirth",
       "url": "https://helldivers.wiki.gg/wiki/Enthusiastic_Mirth",
@@ -366,7 +436,12 @@
     "name": "Ew",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/ew.c912b0a0.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Ew_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Ew",
       "url": "https://helldivers.wiki.gg/wiki/Ew",
@@ -392,7 +467,12 @@
     "name": "Explosive Handshake",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/explosive-handshake.017a59bc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Explosive_Handshake_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Explosive Handshake",
       "url": "https://helldivers.wiki.gg/wiki/Explosive_Handshake",
@@ -418,7 +498,12 @@
     "name": "Finger Guns",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/finger-guns.6dc71c1e.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Finger_Guns_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Finger Guns",
       "url": "https://helldivers.wiki.gg/wiki/Finger_Guns",
@@ -444,7 +529,12 @@
     "name": "Flex",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/flex.391e19f2.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Flex_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Flex",
       "url": "https://helldivers.wiki.gg/wiki/Flex",
@@ -470,7 +560,12 @@
     "name": "Front-Leaning Rest Position",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/front-leaning-rest-position.9c7f1ceb.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Front-Leaning_Rest_Position_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Front-Leaning Rest Position",
       "url": "https://helldivers.wiki.gg/wiki/Front-Leaning_Rest_Position",
@@ -496,7 +591,12 @@
     "name": "Guns of Liberty",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/guns-of-liberty.bda02572.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Guns_of_Liberty_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Guns of Liberty",
       "url": "https://helldivers.wiki.gg/wiki/Guns_of_Liberty",
@@ -522,7 +622,12 @@
     "name": "Head Tap",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/head-tap.fd43a7ca.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Head_Tap_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Head Tap",
       "url": "https://helldivers.wiki.gg/wiki/Head_Tap",
@@ -548,7 +653,12 @@
     "name": "High-Five",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/high-five.969ba725.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "High-Five_Emote_Icon.png"
+    },
     "wiki": {
       "title": "High-Five",
       "url": "https://helldivers.wiki.gg/wiki/High-Five",
@@ -574,7 +684,12 @@
     "name": "Hug",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/hug.ae978429.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Hug_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Hug",
       "url": "https://helldivers.wiki.gg/wiki/Hug",
@@ -600,7 +715,12 @@
     "name": "Lockstep",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/lockstep.7d23888f.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Lockstep_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Lockstep",
       "url": "https://helldivers.wiki.gg/wiki/Lockstep",
@@ -626,7 +746,12 @@
     "name": "Loosen Up",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/loosen-up.955c019c.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Loosen_Up_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Loosen Up",
       "url": "https://helldivers.wiki.gg/wiki/Loosen_Up",
@@ -652,7 +777,12 @@
     "name": "Mime Instrumentation",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/mime-instrumentation.9f0d96d4.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Mime_Instrumentation_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Mime Instrumentation",
       "url": "https://helldivers.wiki.gg/wiki/Mime_Instrumentation",
@@ -678,7 +808,12 @@
     "name": "Natural Gas Extraction",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/natural-gas-extraction.5a04d27d.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Scout_Handshake_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Natural Gas Extraction",
       "url": "https://helldivers.wiki.gg/wiki/Natural_Gas_Extraction",
@@ -704,7 +839,12 @@
     "name": "Presentable",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/presentable.24e9517b.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Presentable_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Presentable",
       "url": "https://helldivers.wiki.gg/wiki/Presentable",
@@ -730,7 +870,12 @@
     "name": "Protect Eardrums",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/protect-eardrums.5c387359.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Protect_Eardrums_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Protect Eardrums",
       "url": "https://helldivers.wiki.gg/wiki/Protect_Eardrums",
@@ -756,7 +901,12 @@
     "name": "Raider's Cheer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/raiders-cheer.2e5212fc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Raider's_Cheer_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Raider's Cheer",
       "url": "https://helldivers.wiki.gg/wiki/Raider's_Cheer",
@@ -782,7 +932,12 @@
     "name": "Raise Weapon",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/raise-weapon.1cf02eb0.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Raise_Weapon_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Raise Weapon",
       "url": "https://helldivers.wiki.gg/wiki/Raise_Weapon",
@@ -808,7 +963,12 @@
     "name": "Rock Paper Scissors",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/rock-paper-scissors.fa7a5944.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Rock_Paper_Scissors_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Rock Paper Scissors",
       "url": "https://helldivers.wiki.gg/wiki/Rock_Paper_Scissors",
@@ -834,7 +994,12 @@
     "name": "Roll 'Em",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/roll-em.6ef586b5.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Roll_'Em_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Roll 'Em",
       "url": "https://helldivers.wiki.gg/wiki/Roll_'Em",
@@ -860,7 +1025,12 @@
     "name": "Salute",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/salute.c8549942.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Salute_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Salute",
       "url": "https://helldivers.wiki.gg/wiki/Salute",
@@ -883,7 +1053,12 @@
     "name": "Scout Handshake",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/scout-handshake.5a04d27d.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Scout_Handshake_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Scout Handshake",
       "url": "https://helldivers.wiki.gg/wiki/Scout_Handshake",
@@ -909,7 +1084,12 @@
     "name": "Shotgun Show",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/shotgun-show.d7d8ef8b.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Shotgun_Show_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Shotgun Show",
       "url": "https://helldivers.wiki.gg/wiki/Shotgun_Show",
@@ -935,7 +1115,12 @@
     "name": "Signal: Group Up",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/signal-group-up.e62c0adf.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Signal_Group_Up_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Signal: Group Up",
       "url": "https://helldivers.wiki.gg/wiki/Signal:_Group_Up",
@@ -961,7 +1146,12 @@
     "name": "Signal: Hold",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/signal-hold.6d4d1dcc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Signal_Hold_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Signal: Hold",
       "url": "https://helldivers.wiki.gg/wiki/Signal:_Hold",
@@ -987,7 +1177,12 @@
     "name": "Signal: Silence",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/signal-silence.9f633a0c.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Signal_Silence_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Signal: Silence",
       "url": "https://helldivers.wiki.gg/wiki/Signal:_Silence",
@@ -1013,7 +1208,12 @@
     "name": "Squat",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/squat.b65c8617.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Squat_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Squat",
       "url": "https://helldivers.wiki.gg/wiki/Squat",
@@ -1039,7 +1239,12 @@
     "name": "Super Person",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/super-person.d0405fe4.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Super_Person_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Super Person",
       "url": "https://helldivers.wiki.gg/wiki/Super_Person",
@@ -1065,7 +1270,12 @@
     "name": "Target Sighted",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/target-sighted.a7447686.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Target_Sighted_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Target Sighted",
       "url": "https://helldivers.wiki.gg/wiki/Target_Sighted",
@@ -1091,7 +1301,12 @@
     "name": "Test of Conviction",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/test-of-conviction.9a8f4b89.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Test_of_Conviction_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Test of Conviction",
       "url": "https://helldivers.wiki.gg/wiki/Test_of_Conviction",
@@ -1117,7 +1332,12 @@
     "name": "This Is Democracy",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/this-is-democracy.7429d06d.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "This_Is_Democracy_Emote_Icon.png"
+    },
     "wiki": {
       "title": "This Is Democracy",
       "url": "https://helldivers.wiki.gg/wiki/This_Is_Democracy",
@@ -1143,7 +1363,12 @@
     "name": "Thoracic Collision Exultation Maneuver",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/thoracic-collision-exultation-maneuver.12abfab5.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Thoracic Collision Exultation Maneuver",
       "url": "https://helldivers.wiki.gg/wiki/Thoracic_Collision_Exultation_Maneuver",
@@ -1169,7 +1394,12 @@
     "name": "Tip Hat",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/tip-hat.facac16f.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Tip_Hat_Emote_Icon.png"
+    },
     "wiki": {
       "title": "Tip Hat",
       "url": "https://helldivers.wiki.gg/wiki/Tip_Hat",
@@ -1195,7 +1425,12 @@
     "name": "Welcome Adoration",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/welcome-adoration.18598001.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Welcome_Adoration_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "Welcome Adoration",
       "url": "https://helldivers.wiki.gg/wiki/Welcome_Adoration",
@@ -1221,7 +1456,12 @@
     "name": "You're Next",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/emotes/youre-next.313e9f2f.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "You're_Next_Victory_Pose_Icon.png"
+    },
     "wiki": {
       "title": "You're Next",
       "url": "https://helldivers.wiki.gg/wiki/You're_Next",

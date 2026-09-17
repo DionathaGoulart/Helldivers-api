@@ -7,6 +7,9 @@ import { ScraperEnv } from "./config.ts";
 import { HttpCache } from "./http/cache.ts";
 import { HttpClient } from "./http/client.ts";
 import { DEFAULT_PACING } from "./http/queue.ts";
+import { B2Store } from "./images/b2.ts";
+import { WikiImageFetcher } from "./images/download.ts";
+import { sharpEncoder } from "./images/encode.ts";
 import { jsonLogger } from "./log.ts";
 import { writeReports } from "./publish/report.ts";
 import { runScrape } from "./run.ts";
@@ -60,12 +63,35 @@ const http = values.offline
       logger,
     });
 
+// Online runs upload images; offline runs only reuse data/v1/reports/images.json.
+const { B2_S3_ENDPOINT, B2_BUCKET, B2_WRITE_KEY_ID, B2_WRITE_APP_KEY } = env.data;
+if (http && !(B2_S3_ENDPOINT && B2_BUCKET && B2_WRITE_KEY_ID && B2_WRITE_APP_KEY)) {
+  console.error(
+    "scrape: online runs upload images: set B2_S3_ENDPOINT, B2_BUCKET, B2_WRITE_KEY_ID and B2_WRITE_APP_KEY (.env)",
+  );
+  process.exit(1);
+}
+const images =
+  http && B2_S3_ENDPOINT && B2_BUCKET && B2_WRITE_KEY_ID && B2_WRITE_APP_KEY
+    ? {
+        fetcher: new WikiImageFetcher(http),
+        encoder: sharpEncoder,
+        store: new B2Store({
+          endpoint: B2_S3_ENDPOINT,
+          bucket: B2_BUCKET,
+          keyId: B2_WRITE_KEY_ID,
+          appKey: B2_WRITE_APP_KEY,
+        }),
+      }
+    : null;
+
 const report = await runScrape({
   dataDir: resolve(cwd, env.data.DATA_DIR),
   source: http
     ? new OnlineSource(http)
     : new FixtureSource(join(root, "packages", "scraper", "test", "fixtures", "wiki")),
   http,
+  images,
   only: only.data.length > 0 ? only.data : null,
   allowDrop: values["allow-drop"] || env.data.SCRAPER_ALLOW_DROP,
   fullRefresh,
@@ -84,5 +110,6 @@ logger.info("scrape done", {
   failure: report.failure?.kind ?? null,
   requests: report.http?.requests ?? 0,
   notModified: report.http?.notModified ?? 0,
+  imagesUploaded: report.images?.uploaded ?? 0,
 });
 process.exitCode = report.ok ? 0 : 1;

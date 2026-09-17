@@ -5,7 +5,12 @@
     "name": "A-35 Recon",
     "aliases": [],
     "description": "Made famous by the Ministry of Intelligence's hide-and-seek-and-destroy champion of '52, this armor has been improved by removing excess shoulder protection.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/a-35-recon.4556db34.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "A-35_Recon_Armor_Render.png"
+    },
     "wiki": {
       "title": "A-35 Recon",
       "url": "https://helldivers.wiki.gg/wiki/A-35_Recon",
@@ -39,7 +44,12 @@
     "name": "A-9 Helljumper",
     "aliases": [],
     "description": "Debuted during the New Mombasa Armor Show, this sleek ensemble is sure to turn heads and blow minds.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/a-9-helljumper.14876730.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "A-9_Helljumper_Armor_Render.png"
+    },
     "wiki": {
       "title": "A-9 Helljumper",
       "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
@@ -73,7 +83,12 @@
     "name": "AC-1 Dutiful",
     "aliases": [],
     "description": "The breathing apparatus built into this armor helps both soldiers and colonists thrive, even when assigned to planets with atmospheres rated “suboptimal,” “extreme,” and “character building.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ac-1-dutiful.a0a3c95d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AC-1_Dutiful_Armor_Render.png"
+    },
     "wiki": {
       "title": "AC-1 Dutiful",
       "url": "https://helldivers.wiki.gg/wiki/AC-1_Dutiful",
@@ -105,7 +120,12 @@
     "name": "AC-2 Obedient",
     "aliases": [],
     "description": "The muted colors and relaxed, high-mobility fit make it a favorite among long-distance snipers and hide-and-seek champions alike.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ac-2-obedient.51858139.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AC-2_Obedient_Armor_Render.png"
+    },
     "wiki": {
       "title": "AC-2 Obedient",
       "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
@@ -137,7 +157,12 @@
     "name": "AD-11 Livewire",
     "aliases": [],
     "description": "Part of a long line of experimental armor commonly seen on industrial engineering campuses, in the basements of select science aficionados, and around Super Destroyer Mega Garages.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ad-11-livewire.5a3de8c4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AD-11_Livewire_Armor_Render.png"
+    },
     "wiki": {
       "title": "AD-11 Livewire",
       "url": "https://helldivers.wiki.gg/wiki/AD-11_Livewire",
@@ -171,7 +196,12 @@
     "name": "AD-26 Bleeding Edge",
     "aliases": [],
     "description": "Pushing the boundaries of bionic engineering, this armor collects and dispenses a number of vital fluids, several of which are soon to be declassified.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ad-26-bleeding-edge.3d38d1b0.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AD-26_Bleeding_Edge_Armor_Render.png"
+    },
     "wiki": {
       "title": "AD-26 Bleeding Edge",
       "url": "https://helldivers.wiki.gg/wiki/AD-26_Bleeding_Edge",
@@ -205,7 +235,12 @@
     "name": "AD-49 Apollonian",
     "aliases": [],
     "description": "Equipped with the latest computational systems, subsystems, and supersystems, this armor is worth the equivalent of a small Megacity.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ad-49-apollonian.bfc6d894.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AD-49_Apollonian_Armor_Render.png"
+    },
     "wiki": {
       "title": "AD-49 Apollonian",
       "url": "https://helldivers.wiki.gg/wiki/AD-49_Apollonian",
@@ -239,7 +274,12 @@
     "name": "AF-02 Haz-Master",
     "aliases": [],
     "description": "Developed by the Ministry of Science while investigating the phenomenon known as The Gloom, this armor is non-permeable and squeak resistant.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/af-02-haz-master.0ee7fab7.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-02_Haz-Master_Armor_Render.png"
+    },
     "wiki": {
       "title": "AF-02 Haz-Master",
       "url": "https://helldivers.wiki.gg/wiki/AF-02_Haz-Master",
@@ -271,7 +311,12 @@
     "name": "AF-50 Noxious Ranger",
     "aliases": [],
     "description": "“We fear not poison, fear not death; spite our foes with every breath.” From the beloved classic Hazard Pay: The Musical.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/af-50-noxious-ranger.e11905f1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-50_Noxious_Ranger_Armor_Render.png"
+    },
     "wiki": {
       "title": "AF-50 Noxious Ranger",
       "url": "https://helldivers.wiki.gg/wiki/AF-50_Noxious_Ranger",
@@ -303,7 +348,12 @@
     "name": "AF-52 Lockdown",
     "aliases": [],
     "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/af-52-lockdown.19fed9b3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-52_Lockdown_Armor_Render.png"
+    },
     "wiki": {
       "title": "AF-52 Lockdown",
       "url": "https://helldivers.wiki.gg/wiki/AF-52_Lockdown",
@@ -335,7 +385,12 @@
     "name": "AF-91 Field Chemist",
     "aliases": [],
     "description": "This armor, together with its friendly-faced helmet, is instantly recognizable from the beloved children's show “Jen Shriver the Science Diver.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/af-91-field-chemist.760cef41.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-91_Field_Chemist_Armor_Render.png"
+    },
     "wiki": {
       "title": "AF-91 Field Chemist",
       "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",
@@ -367,7 +422,12 @@
     "name": "B-01 Tactical",
     "aliases": [],
     "description": "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/b-01-tactical.63ba775a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-01_Tactical_v1_Armor_Render.png"
+    },
     "wiki": {
       "title": "B-01 Tactical",
       "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",
@@ -396,7 +456,12 @@
     "name": "B-08 Light Gunner",
     "aliases": [],
     "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/b-08-light-gunner.1bcba30c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-08_Light_Gunner_Armor_Render.png"
+    },
     "wiki": {
       "title": "B-08 Light Gunner",
       "url": "https://helldivers.wiki.gg/wiki/B-08_Light_Gunner",
@@ -428,7 +493,12 @@
     "name": "B-22 Model Citizen",
     "aliases": [],
     "description": "Gifted to Helldivers whose civilian lives were distinguished by exemplary citizenship, patriotism, and service to the Federation.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/b-22-model-citizen.a9ae75fd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-22_Model_Citizen_Armor_Render.png"
+    },
     "wiki": {
       "title": "B-22 Model Citizen",
       "url": "https://helldivers.wiki.gg/wiki/B-22_Model_Citizen",
@@ -457,7 +527,12 @@
     "name": "B-24 Enforcer",
     "aliases": [],
     "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/b-24-enforcer.b68c06fe.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-24_Enforcer_Body_Icon.png"
+    },
     "wiki": {
       "title": "B-24 Enforcer",
       "url": "https://helldivers.wiki.gg/wiki/B-24_Enforcer",
@@ -489,7 +564,12 @@
     "name": "B-27 Fortified Commando",
     "aliases": [],
     "description": "This armor set first appeared in the music video for the summer anthem ‘Our Love Is like Liberty (Indestructible)’.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/b-27-fortified-commando.af89386f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-27_Fortified_Commando_Armor_Render.png"
+    },
     "wiki": {
       "title": "B-27 Fortified Commando",
       "url": "https://helldivers.wiki.gg/wiki/B-27_Fortified_Commando",
@@ -521,7 +601,12 @@
     "name": "BFM-16 Tanker",
     "aliases": [],
     "description": "BFM-16 Tanker is a set of light armor in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/bfm-16-tanker.9a7f2958.webp",
+      "width": 213,
+      "height": 512,
+      "wikiFile": "BFM-16_Tanker_Armor_Render.png"
+    },
     "wiki": {
       "title": "BFM-16 Tanker",
       "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
@@ -552,7 +637,12 @@
     "name": "BFM-220 Ironclad",
     "aliases": [],
     "description": "BFM-220 Ironclad is a set of heavy armor in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/bfm-220-ironclad.479b0452.webp",
+      "width": 248,
+      "height": 512,
+      "wikiFile": "BFM-220_Ironclad_Armor_Render.png"
+    },
     "wiki": {
       "title": "BFM-220 Ironclad",
       "url": "https://helldivers.wiki.gg/wiki/BFM-220_Ironclad",
@@ -583,7 +673,12 @@
     "name": "BP-20 Correct Officer",
     "aliases": [],
     "description": "A welcome sight in all Democratic neighborhoods, this armor inspires both civil pride and civic obedience.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/bp-20-correct-officer.16ac2883.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "BP-20_Correct_Officer_Armor_Render.png"
+    },
     "wiki": {
       "title": "BP-20 Correct Officer",
       "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
@@ -617,7 +712,12 @@
     "name": "BP-32 Jackboot",
     "aliases": [],
     "description": "Named for Helldiver Jack Boote, who shut down 908 illegal broadcasts before retiring with honors.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/bp-32-jackboot.52a8a1ed.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "BP-32_Jackboot_Armor_Render.png"
+    },
     "wiki": {
       "title": "BP-32 Jackboot",
       "url": "https://helldivers.wiki.gg/wiki/BP-32_Jackboot",
@@ -651,7 +751,12 @@
     "name": "BP-77 Grand Juror",
     "aliases": [],
     "description": "Each gilded detail is polished to perfection by re-educated dissidents, as part of the Lifelong Post-Infraction Atonement Program.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/bp-77-grand-juror.b76ff14b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "BP-77_Grand_Juror_Armor_Render.png"
+    },
     "wiki": {
       "title": "BP-77 Grand Juror",
       "url": "https://helldivers.wiki.gg/wiki/BP-77_Grand_Juror",
@@ -685,7 +790,12 @@
     "name": "CE-07 Demolition Specialist",
     "aliases": [],
     "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in pressure, heat, and personal velocity.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-07-demolition-specialist.1e120b04.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-07_Demolition_Specialist_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-07 Demolition Specialist",
       "url": "https://helldivers.wiki.gg/wiki/CE-07_Demolition_Specialist",
@@ -717,7 +827,12 @@
     "name": "CE-101 Guerilla Gorilla",
     "aliases": [],
     "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-101-guerilla-gorilla.e18bd829.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-101_Guerilla_Gorilla_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-101 Guerilla Gorilla",
       "url": "https://helldivers.wiki.gg/wiki/CE-101_Guerilla_Gorilla",
@@ -749,7 +864,12 @@
     "name": "CE-27 Ground Breaker",
     "aliases": [],
     "description": "“The ground is just another obstacle that hasn't yet been cleared.”—SGM Janet Jones, Excavation Corps Founder.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-27-ground-breaker.c49d2ba0.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-27_Ground_Breaker_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-27 Ground Breaker",
       "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
@@ -781,7 +901,12 @@
     "name": "CE-35 Trench Engineer",
     "aliases": [],
     "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-35-trench-engineer.7204bfc4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-35_Trench_Engineer_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-35 Trench Engineer",
       "url": "https://helldivers.wiki.gg/wiki/CE-35_Trench_Engineer",
@@ -813,7 +938,12 @@
     "name": "CE-64 Grenadier",
     "aliases": [],
     "description": "The set's classic advertising campaign “Have you tried a grenade?” has remained unchanged for over 70 years.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-64-grenadier.46ceaa70.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-64_Grenadier_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-64 Grenadier",
       "url": "https://helldivers.wiki.gg/wiki/CE-64_Grenadier",
@@ -845,7 +975,12 @@
     "name": "CE-67 Titan",
     "aliases": [],
     "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-67-titan.f5cc8631.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-67_Titan_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-67 Titan",
       "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
@@ -877,7 +1012,12 @@
     "name": "CE-74 Breaker",
     "aliases": [],
     "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-74-breaker.3c2b5a03.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-74_Breaker_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-74 Breaker",
       "url": "https://helldivers.wiki.gg/wiki/CE-74_Breaker",
@@ -909,7 +1049,12 @@
     "name": "CE-81 Juggernaut",
     "aliases": [],
     "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-81-juggernaut.6638e2a0.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-81_Juggernaut_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-81 Juggernaut",
       "url": "https://helldivers.wiki.gg/wiki/CE-81_Juggernaut",
@@ -941,7 +1086,12 @@
     "name": "CM-09 Bonesnapper",
     "aliases": [],
     "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cm-09-bonesnapper.3be59b57.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-09_Bonesnapper_Armor_Render.png"
+    },
     "wiki": {
       "title": "CM-09 Bonesnapper",
       "url": "https://helldivers.wiki.gg/wiki/CM-09_Bonesnapper",
@@ -973,7 +1123,12 @@
     "name": "CM-10 Clinician",
     "aliases": [],
     "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cm-10-clinician.dde56e62.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-10_Clinician_Armor_Render.png"
+    },
     "wiki": {
       "title": "CM-10 Clinician",
       "url": "https://helldivers.wiki.gg/wiki/CM-10_Clinician",
@@ -1005,7 +1160,12 @@
     "name": "CM-14 Physician",
     "aliases": [],
     "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signal to all Helldivers that help is at hand.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cm-14-physician.5e1ce70b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-14_Physician_Armor_Render.png"
+    },
     "wiki": {
       "title": "CM-14 Physician",
       "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",
@@ -1037,7 +1197,12 @@
     "name": "CM-17 Butcher",
     "aliases": [],
     "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cm-17-butcher.b9e44738.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-17_Butcher_Body_Icon.png"
+    },
     "wiki": {
       "title": "CM-17 Butcher",
       "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
@@ -1069,7 +1234,12 @@
     "name": "CM-21 Trench Paramedic",
     "aliases": [],
     "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cm-21-trench-paramedic.73f1fa2f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-21_Trench_Paramedic_Armor_Render.png"
+    },
     "wiki": {
       "title": "CM-21 Trench Paramedic",
       "url": "https://helldivers.wiki.gg/wiki/CM-21_Trench_Paramedic",
@@ -1101,7 +1271,12 @@
     "name": "CPG-48 Sapper",
     "aliases": [],
     "description": "With extra capacity for storing throwable munitions, this armor ensure every enemy stronghold can be tactically ventilated, as per forceful de-fortification protocols.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cpg-48-sapper.eb13cc1c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPG-48_Sapper_Armor_Render.png"
+    },
     "wiki": {
       "title": "CPG-48 Sapper",
       "url": "https://helldivers.wiki.gg/wiki/CPG-48_Sapper",
@@ -1135,7 +1310,12 @@
     "name": "CPH-26 Commandant",
     "aliases": [],
     "description": "Featuring a high collar scientifically designed to deflect mud, blood, and indirect non-lethal projectiles, this pristine armor bestows the authority to overcome close-quarters combat through a time-honored tradition: the delegation—or court-martialing—of subordinates.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cph-26-commandant.3b6a69b8.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPH-26_Commandant_Armor_Render.png"
+    },
     "wiki": {
       "title": "CPH-26 Commandant",
       "url": "https://helldivers.wiki.gg/wiki/CPH-26_Commandant",
@@ -1169,7 +1349,12 @@
     "name": "CPR-80 Bulwark",
     "aliases": [],
     "description": "This armour pays tribute to the immovable heroes of the front line—those who refuse to acknowledge incoming fire, and consider \"dodging\" to be an abstract concept akin to cowardice.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cpr-80-bulwark.3a49c88a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPR-80_Bulwark_Armor_Render.png"
+    },
     "wiki": {
       "title": "CPR-80 Bulwark",
       "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",
@@ -1203,7 +1388,12 @@
     "name": "CW-22 Kodiak",
     "aliases": [],
     "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the “Test Subjects for Super-Earth” Citizen Advancement Program.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cw-22-kodiak.254d3f47.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-22_Kodiak_Armor_Render.png"
+    },
     "wiki": {
       "title": "CW-22 Kodiak",
       "url": "https://helldivers.wiki.gg/wiki/CW-22_Kodiak",
@@ -1235,7 +1425,12 @@
     "name": "CW-36 Winter Warrior",
     "aliases": [],
     "description": "Offering camouflage in snowy environments, surplus sets of this armor are used by nature photographers and keen hunters alike.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cw-36-winter-warrior.8992492a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-36_Winter_Warrior_Armor_Render.png"
+    },
     "wiki": {
       "title": "CW-36 Winter Warrior",
       "url": "https://helldivers.wiki.gg/wiki/CW-36_Winter_Warrior",
@@ -1267,7 +1462,12 @@
     "name": "CW-4 Arctic Ranger",
     "aliases": [],
     "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cw-4-arctic-ranger.adcbfd1f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-4_Arctic_Ranger_Armor_Render.png"
+    },
     "wiki": {
       "title": "CW-4 Arctic Ranger",
       "url": "https://helldivers.wiki.gg/wiki/CW-4_Arctic_Ranger",
@@ -1299,7 +1499,12 @@
     "name": "CW-9 White Wolf",
     "aliases": [],
     "description": "The pattern used for this armor is the result of the Winter Camouflage Improvement Effort, which considered 136 entrants before determining the color white would best blend in with snow.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cw-9-white-wolf.231fe4d4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-9_White_Wolf_Armor_Render.png"
+    },
     "wiki": {
       "title": "CW-9 White Wolf",
       "url": "https://helldivers.wiki.gg/wiki/CW-9_White_Wolf",
@@ -1331,7 +1536,12 @@
     "name": "DP-00 Tactical",
     "aliases": [],
     "description": "This classic armor set is recognized by every citizen: worn by the heroic Helldivers who battled and forever defeated the Terminids, Cyborgs, and Illuminate in the First Galactic War.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/dp-00-tactical.dd5dec0b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-00_Tactical_Armor_Render.png"
+    },
     "wiki": {
       "title": "DP-00 Tactical",
       "url": "https://helldivers.wiki.gg/wiki/DP-00_Tactical",
@@ -1360,7 +1570,12 @@
     "name": "DP-11 Champion of the People",
     "aliases": [],
     "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/dp-11-champion-of-the-people.8ff6cf18.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-11_Champion_of_the_People_Armor_Render.png"
+    },
     "wiki": {
       "title": "DP-11 Champion of the People",
       "url": "https://helldivers.wiki.gg/wiki/DP-11_Champion_of_the_People",
@@ -1392,7 +1607,12 @@
     "name": "DP-40 Hero of the Federation",
     "aliases": [],
     "description": "Though originally intended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/dp-40-hero-of-the-federation.dde3d5e1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-40_Hero_of_the_Federation_Armor_Render.png"
+    },
     "wiki": {
       "title": "DP-40 Hero of the Federation",
       "url": "https://helldivers.wiki.gg/wiki/DP-40_Hero_of_the_Federation",
@@ -1424,7 +1644,12 @@
     "name": "DP-53 Savior of the Free",
     "aliases": [],
     "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/dp-53-savior-of-the-free.68f64d85.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-53_Savior_of_the_Free_Armor_Render.png"
+    },
     "wiki": {
       "title": "DP-53 Savior of the Free",
       "url": "https://helldivers.wiki.gg/wiki/DP-53_Savior_of_the_Free",
@@ -1456,7 +1681,12 @@
     "name": "DP-8 Mountain-Scaled",
     "aliases": [],
     "description": "This armor recalls the legendary heroes who scared a ravenous Hive Lord away from a colony village, using only the village's battery of patriotic fireworks.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/dp-8-mountain-scaled.9b80e665.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-8_Mountain-Scaled_Armor_Render.png"
+    },
     "wiki": {
       "title": "DP-8 Mountain-Scaled",
       "url": "https://helldivers.wiki.gg/wiki/DP-8_Mountain-Scaled",
@@ -1490,7 +1720,12 @@
     "name": "DS-10 Big Game Hunter",
     "aliases": [],
     "description": "With its rustic charm and huntsmanlike detailing, this armor evokes those heroic expansionists who braved the alien wilds and ushered in our current age of bio-uniformity.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ds-10-big-game-hunter.dc54e9ff.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DS-10_Big_Game_Hunter_Armor_Render.png"
+    },
     "wiki": {
       "title": "DS-10 Big Game Hunter",
       "url": "https://helldivers.wiki.gg/wiki/DS-10_Big_Game_Hunter",
@@ -1524,7 +1759,12 @@
     "name": "DS-191 Scorpion",
     "aliases": [],
     "description": "This multi-layered protective armor keeps rough sand, spores, and other coarse granules from irritating the skin.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ds-191-scorpion.4d2a8f6f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DS-191_Scorpion_Armor_Render.png"
+    },
     "wiki": {
       "title": "DS-191 Scorpion",
       "url": "https://helldivers.wiki.gg/wiki/DS-191_Scorpion",
@@ -1558,7 +1798,12 @@
     "name": "DS-42 Federation's Blade",
     "aliases": [],
     "description": "This patriotic armor comes recommended by the Ministry of Expansion, empowering the wearer to re-seize from our enemies any territory that any human has laid claim to, at any point in time.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ds-42-federations-blade.ca5211e2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DS-42_Federation's_Blade_Armor_Render.png"
+    },
     "wiki": {
       "title": "DS-42 Federation's Blade",
       "url": "https://helldivers.wiki.gg/wiki/DS-42_Federation's_Blade",
@@ -1592,7 +1837,12 @@
     "name": "EX-00 Prototype X",
     "aliases": [],
     "description": "The end result of several billion Super Credits and 12 years of research into creating “the Soldier of Tomorrow.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ex-00-prototype-x.08da50b8.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-00_Prototype_X_Armor_Render.png"
+    },
     "wiki": {
       "title": "EX-00 Prototype X",
       "url": "https://helldivers.wiki.gg/wiki/EX-00_Prototype_X",
@@ -1624,7 +1874,12 @@
     "name": "EX-03 Prototype 3",
     "aliases": [],
     "description": "Because this prototype's wires operate at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ex-03-prototype-3.5292128d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-03_Prototype_3_Armor_Render.png"
+    },
     "wiki": {
       "title": "EX-03 Prototype 3",
       "url": "https://helldivers.wiki.gg/wiki/EX-03_Prototype_3",
@@ -1656,7 +1911,12 @@
     "name": "EX-16 Prototype 16",
     "aliases": [],
     "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vicinity of stapled paperwork.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ex-16-prototype-16.865a03a2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-16_Prototype_16_Armor_Render.png"
+    },
     "wiki": {
       "title": "EX-16 Prototype 16",
       "url": "https://helldivers.wiki.gg/wiki/EX-16_Prototype_16",
@@ -1688,7 +1948,12 @@
     "name": "FS-05 Marksman",
     "aliases": [],
     "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-05-marksman.894779b5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-05_Marksman_Body_Icon.png"
+    },
     "wiki": {
       "title": "FS-05 Marksman",
       "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",
@@ -1720,7 +1985,12 @@
     "name": "FS-11 Executioner",
     "aliases": [],
     "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical “Lost My Heart to a Man in a Helmet.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-11-executioner.4f5423a4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-11_Executioner_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-11 Executioner",
       "url": "https://helldivers.wiki.gg/wiki/FS-11_Executioner",
@@ -1752,7 +2022,12 @@
     "name": "FS-23 Battle Master",
     "aliases": [],
     "description": "This aim-stabilizing armor found surprising secondary market success among alien birdwatching enthusiasts.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-23-battle-master.43ee9476.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-23_Battle_Master_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-23 Battle Master",
       "url": "https://helldivers.wiki.gg/wiki/FS-23_Battle_Master",
@@ -1784,7 +2059,12 @@
     "name": "FS-34 Exterminator",
     "aliases": [],
     "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-34-exterminator.ac3900e1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-34_Exterminator_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-34 Exterminator",
       "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
@@ -1816,7 +2096,12 @@
     "name": "FS-37 Ravager",
     "aliases": [],
     "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples, and cool rocks.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-37-ravager.998963e3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-37_Ravager_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-37 Ravager",
       "url": "https://helldivers.wiki.gg/wiki/FS-37_Ravager",
@@ -1848,7 +2133,12 @@
     "name": "FS-38 Eradicator",
     "aliases": [],
     "description": "First deployed in the mines of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-38-eradicator.cf55140d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-38_Eradicator_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-38 Eradicator",
       "url": "https://helldivers.wiki.gg/wiki/FS-38_Eradicator",
@@ -1880,7 +2170,12 @@
     "name": "FS-55 Devastator",
     "aliases": [],
     "description": "Domestic versions of this armor enable colonial farmers to plant crops and mines side by side, safely.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-55-devastator.3d6a64c4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-55_Devastator_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-55 Devastator",
       "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",
@@ -1912,7 +2207,12 @@
     "name": "FS-61 Dreadnought",
     "aliases": [],
     "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-61-dreadnought.984c9ec6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-61_Dreadnought_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-61 Dreadnought",
       "url": "https://helldivers.wiki.gg/wiki/FS-61_Dreadnought",
@@ -1944,7 +2244,12 @@
     "name": "GS-11 Democracy's Deputy",
     "aliases": [],
     "description": "At the edge of the Federation, sometimes Democracy has only one representative.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/gs-11-democracys-deputy.cdf626e7.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "GS-11_Democracy's_Deputy_Armor_Render.png"
+    },
     "wiki": {
       "title": "GS-11 Democracy's Deputy",
       "url": "https://helldivers.wiki.gg/wiki/GS-11_Democracy's_Deputy",
@@ -1976,7 +2281,12 @@
     "name": "GS-17 Frontier Marshal",
     "aliases": [],
     "description": "Inspired by the trailblazing agents of the Super Earth Terraforming Company. These rugged adventurers surveyed hostile new planets during the post-GW1 Great Expansion era, preparing the untamed frontier for rapid and efficient assimilation.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/gs-17-frontier-marshal.dd1832ed.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "GS-17_Frontier_Marshal_Armor_Render.png"
+    },
     "wiki": {
       "title": "GS-17 Frontier Marshal",
       "url": "https://helldivers.wiki.gg/wiki/GS-17_Frontier_Marshal",
@@ -2008,7 +2318,12 @@
     "name": "GS-66 Lawmaker",
     "aliases": [],
     "description": "Embodies the ethos of Manifest Democracy—that it is our voter-given responsibility to emancipate the savage, un-Liberated galaxy. To rest only when every planet is safe, civilized, and Free.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/gs-66-lawmaker.1669d283.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "GS-66_Lawmaker_Armor_Render.png"
+    },
     "wiki": {
       "title": "GS-66 Lawmaker",
       "url": "https://helldivers.wiki.gg/wiki/GS-66_Lawmaker",
@@ -2040,7 +2355,12 @@
     "name": "I-09 Heatseeker",
     "aliases": [],
     "description": "The burnished blood-red plates are forged in righteous fire, like the heroes they were wrought to protect.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/i-09-heatseeker.6789a44e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-09_Heatseeker_Armor_Render.png"
+    },
     "wiki": {
       "title": "I-09 Heatseeker",
       "url": "https://helldivers.wiki.gg/wiki/I-09_Heatseeker",
@@ -2072,7 +2392,12 @@
     "name": "I-102 Draconaught",
     "aliases": [],
     "description": "Completely sheathed in 14-cm silica fiber foam, except for a thin tube to the ear canal to enable hearing the satisfying screeches of Freedom's enemies as they burn.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/i-102-draconaught.ad395482.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-102_Draconaught_Armor_Render.png"
+    },
     "wiki": {
       "title": "I-102 Draconaught",
       "url": "https://helldivers.wiki.gg/wiki/I-102_Draconaught",
@@ -2104,7 +2429,12 @@
     "name": "I-44 Salamander",
     "aliases": [],
     "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/i-44-salamander.01be69e3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-44_Salamander_Armor_Render.png"
+    },
     "wiki": {
       "title": "I-44 Salamander",
       "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
@@ -2136,7 +2466,12 @@
     "name": "I-92 Fire Fighter",
     "aliases": [],
     "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/i-92-fire-fighter.18782142.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-92_Fire_Fighter_Armor_Render.png"
+    },
     "wiki": {
       "title": "I-92 Fire Fighter",
       "url": "https://helldivers.wiki.gg/wiki/I-92_Fire_Fighter",
@@ -2168,7 +2503,12 @@
     "name": "IE-12 Righteous",
     "aliases": [],
     "description": "Modeled after the myriad Statues of Judicious Liberty, who keep a watchful eye on checkout lines, schoolyards, perpetual rehabilitation communities, and public confession theaters.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ie-12-righteous.3fab0182.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IE-12_Righteous_Armor_Render.png"
+    },
     "wiki": {
       "title": "IE-12 Righteous",
       "url": "https://helldivers.wiki.gg/wiki/IE-12_Righteous",
@@ -2200,7 +2540,12 @@
     "name": "IE-3 Martyr",
     "aliases": [],
     "description": "Modeled after the Statue of Mournful Liberty, who weeps over the existence of tyranny, this armor is worn by those who would give their lives to dry her tears.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ie-3-martyr.47a6d8f6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IE-3_Martyr_Armor_Render.png"
+    },
     "wiki": {
       "title": "IE-3 Martyr",
       "url": "https://helldivers.wiki.gg/wiki/IE-3_Martyr",
@@ -2232,7 +2577,12 @@
     "name": "IE-57 Hell-Bent",
     "aliases": [],
     "description": "Assembled from pieces of recovered Helldiver armor and SEAF gear, for those who won't let a lack of full body protection keep them from the battlefront.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ie-57-hell-bent.f499d69b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IE-57_Hell-Bent_Armor_Render.png"
+    },
     "wiki": {
       "title": "IE-57 Hell-Bent",
       "url": "https://helldivers.wiki.gg/wiki/IE-57_Hell-Bent",
@@ -2264,7 +2614,12 @@
     "name": "KDM-500 Outrider",
     "aliases": [],
     "description": "Ruggedized for extended operation beyond the reach of paved logistics. This armor's heavy plating is intended for the \"unpaving\" of hostile territory, providing a mobile bulkhead for Helldivers who don't know the meaning of \"environmental obstacles\".",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/kdm-500-outrider.bcb57167.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "KDM-500_Outrider_Armor_Render.png"
+    },
     "wiki": {
       "title": "KDM-500 Outrider",
       "url": "https://helldivers.wiki.gg/wiki/KDM-500_Outrider",
@@ -2293,7 +2648,12 @@
     "name": "O-2 Heavy Operator",
     "aliases": [],
     "description": "This armor is the required uniform for many Super Earth Citizens operating heavy machinery. Long-time users will be delighted to learn that as of this year's Efficiency in Machine Operation Symposium and Gala, wearing this armor is no longer itself considered operating heavy machinery.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/o-2-heavy-operator.35a746aa.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "O-2_Heavy_Operator_Armor_Render.png"
+    },
     "wiki": {
       "title": "O-2 Heavy Operator",
       "url": "https://helldivers.wiki.gg/wiki/O-2_Heavy_Operator",
@@ -2325,7 +2685,12 @@
     "name": "O-3 Free Spirit",
     "aliases": [],
     "description": "The SteerComfort fit of this armor allows the wearer to feel every curve, bump, and jostle of their Exosuit, as if they were one single being.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/o-3-free-spirit.f56d4e99.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "O-3_Free_Spirit_Armor_Render.png"
+    },
     "wiki": {
       "title": "O-3 Free Spirit",
       "url": "https://helldivers.wiki.gg/wiki/O-3_Free_Spirit",
@@ -2357,7 +2722,12 @@
     "name": "O-44 Bonded Pilot",
     "aliases": [],
     "description": "This armor celebrates the wearer's close relationship to their Exosuit---as intimate as is possible without succumbing to cyborgry.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/o-44-bonded-pilot.556a560f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "O-44_Bonded_Pilot_Armor_Render.png"
+    },
     "wiki": {
       "title": "O-44 Bonded Pilot",
       "url": "https://helldivers.wiki.gg/wiki/O-44_Bonded_Pilot",
@@ -2389,7 +2759,12 @@
     "name": "PH-202 Twigsnapper",
     "aliases": [],
     "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ph-202-twigsnapper.2e5aeddd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "PH-202_Twigsnapper_Armor_Render.png"
+    },
     "wiki": {
       "title": "PH-202 Twigsnapper",
       "url": "https://helldivers.wiki.gg/wiki/PH-202_Twigsnapper",
@@ -2421,7 +2796,12 @@
     "name": "PH-56 Jaguar",
     "aliases": [],
     "description": "“Prowl like a jaguar, strike like a viper.”—Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series “Tales of the Viper Commandos.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ph-56-jaguar.bf58e834.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "PH-56_Jaguar_Armor_Render.png"
+    },
     "wiki": {
       "title": "PH-56 Jaguar",
       "url": "https://helldivers.wiki.gg/wiki/PH-56_Jaguar",
@@ -2453,7 +2833,12 @@
     "name": "PH-9 Predator",
     "aliases": [],
     "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ph-9-predator.eac1d693.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "PH-9_Predator_Armor_Render.png"
+    },
     "wiki": {
       "title": "PH-9 Predator",
       "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
@@ -2485,7 +2870,12 @@
     "name": "RE-1861 Parade Commander",
     "aliases": [],
     "description": "Awarded to those promoted to their point of greatest competency, and beyond.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/re-1861-parade-commander.448d0b21.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RE-1861_Parade_Commander_Armor_Render.png"
+    },
     "wiki": {
       "title": "RE-1861 Parade Commander",
       "url": "https://helldivers.wiki.gg/wiki/RE-1861_Parade_Commander",
@@ -2517,7 +2907,12 @@
     "name": "RE-2310 Honorary Guard",
     "aliases": [],
     "description": "This traditional armor has remained unchanged since time immemorial. Now with self-heated padding.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/re-2310-honorary-guard.8d5be5cf.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RE-2310_Honorary_Guard_Armor_Render.png"
+    },
     "wiki": {
       "title": "RE-2310 Honorary Guard",
       "url": "https://helldivers.wiki.gg/wiki/RE-2310_Honorary_Guard",
@@ -2549,7 +2944,12 @@
     "name": "RE-824 Bearer of the Standard",
     "aliases": [],
     "description": "Commonly replicated in stage adaptations of “Lady Liberty's Tower”, in which young Diver Beatrick dons this armor to slay Oppressio, the Tyrant Rex.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/re-824-bearer-of-the-standard.2d4c5097.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RE-824_Bearer_of_the_Standard_Armor_Render.png"
+    },
     "wiki": {
       "title": "RE-824 Bearer of the Standard",
       "url": "https://helldivers.wiki.gg/wiki/RE-824_Bearer_of_the_Standard",
@@ -2581,7 +2981,12 @@
     "name": "RS-100 Sanctioner",
     "aliases": [],
     "description": "Armor inspired by the legend of the Sanctioner, a figure known only through a bizarrely unanimous patchwork of stifled whispers. As told, this fearsome, covert arbiter of primeval Justice delivered final, state-approved verdicts in the chaotic years before the Federation's founding.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/rs-100-sanctioner.bbfbca37.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-100_Sanctioner_Armor_Render.png"
+    },
     "wiki": {
       "title": "RS-100 Sanctioner",
       "url": "https://helldivers.wiki.gg/wiki/RS-100_Sanctioner",
@@ -2613,7 +3018,12 @@
     "name": "RS-20 Constrictor",
     "aliases": [],
     "description": "The official uniform of the League of Patriotic Arm Wrestlers, this armor's lycra base layer is supple and sweat-wicking for maximum flexing comfort.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/rs-20-constrictor.700f292a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-20_Constrictor_Armor_Render.png"
+    },
     "wiki": {
       "title": "RS-20 Constrictor",
       "url": "https://helldivers.wiki.gg/wiki/RS-20_Constrictor",
@@ -2645,7 +3055,12 @@
     "name": "RS-40 Beast of Prey",
     "aliases": [],
     "description": "Evoking legendary Helldiver Ronald Mambo on the eve of his untimely disappearance, the striking silhouette projects power, burliness, and strength.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/rs-40-beast-of-prey.2c35a7cc.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-40_Beast_of_Prey_Armor_Render.png"
+    },
     "wiki": {
       "title": "RS-40 Beast of Prey",
       "url": "https://helldivers.wiki.gg/wiki/RS-40_Beast_of_Prey",
@@ -2677,7 +3092,12 @@
     "name": "RS-6 Fiend Destroyer",
     "aliases": [],
     "description": "The understated color scheme and precision-molded armor plates make this armor a sensible choice for the Helldiver on the go.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/rs-6-fiend-destroyer.54ed2611.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-6_Fiend_Destroyer_Armor_Render.png"
+    },
     "wiki": {
       "title": "RS-6 Fiend Destroyer",
       "url": "https://helldivers.wiki.gg/wiki/RS-6_Fiend_Destroyer",
@@ -2709,7 +3129,12 @@
     "name": "RS-67 Null Cipher",
     "aliases": [],
     "description": "This armor, coated in radar-absorbent polymers and a null-signature heat baffle, reportedly turns its wearer into a sensor ghost—a claim attributed to individuals who, curiously, appear to have never existed.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/rs-67-null-cipher.6b2a3c22.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-67_Null_Cipher_Armor_Render.png"
+    },
     "wiki": {
       "title": "RS-67 Null Cipher",
       "url": "https://helldivers.wiki.gg/wiki/RS-67_Null_Cipher",
@@ -2741,7 +3166,12 @@
     "name": "RS-89 Shadow Paragon",
     "aliases": [],
     "description": "Armor befitting infiltrators of all caliber. Inspired by mythical Democracy-dispensers, whose meticulously undocumented operations remain an inspiration to all students of stealth.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/rs-89-shadow-paragon.37074823.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-89_Shadow_Paragon_Armor_Render.png"
+    },
     "wiki": {
       "title": "RS-89 Shadow Paragon",
       "url": "https://helldivers.wiki.gg/wiki/RS-89_Shadow_Paragon",
@@ -2773,7 +3203,12 @@
     "name": "SA-04 Combat Technician",
     "aliases": [],
     "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-04-combat-technician.bf19a43e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-04_Combat_Technician_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-04 Combat Technician",
       "url": "https://helldivers.wiki.gg/wiki/SA-04_Combat_Technician",
@@ -2805,7 +3240,12 @@
     "name": "SA-12 Servo Assisted",
     "aliases": [],
     "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-12-servo-assisted.67290475.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-12_Servo_Assisted_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-12 Servo Assisted",
       "url": "https://helldivers.wiki.gg/wiki/SA-12_Servo_Assisted",
@@ -2837,7 +3277,12 @@
     "name": "SA-25 Steel Trooper",
     "aliases": [],
     "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-25-steel-trooper.66fa74c5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-25_Steel_Trooper_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-25 Steel Trooper",
       "url": "https://helldivers.wiki.gg/wiki/SA-25_Steel_Trooper",
@@ -2869,7 +3314,12 @@
     "name": "SA-32 Dynamo",
     "aliases": [],
     "description": "In mountainous colonies, domestic variants of this armor are used to throw weather monitoring equipment uphill.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-32-dynamo.de987b6a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-32_Dynamo_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-32 Dynamo",
       "url": "https://helldivers.wiki.gg/wiki/SA-32_Dynamo",
@@ -2901,7 +3351,12 @@
     "name": "SA-7 Headfirst",
     "aliases": [],
     "description": "Disarmingly scrappy and viciously disarming, this armor is a staple of the Balayage FW/2185 collection \"Frontline Moxie\".",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-7-headfirst.39812bb3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-7_Headfirst_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-7 Headfirst",
       "url": "https://helldivers.wiki.gg/wiki/SA-7_Headfirst",
@@ -2933,7 +3388,12 @@
     "name": "SA-8 Ram",
     "aliases": [],
     "description": "The heavy plate used in this armor is sustainably sourced from the corpses of non-sentient Automaton, then processed by other, similarly non-sentient Automatons.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-8-ram.4988f2d6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-8_Ram_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-8 Ram",
       "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",
@@ -2965,7 +3425,12 @@
     "name": "SC-15 Drone Master",
     "aliases": [],
     "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sc-15-drone-master.69243775.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-15_Drone_Master_Armor_Render.png"
+    },
     "wiki": {
       "title": "SC-15 Drone Master",
       "url": "https://helldivers.wiki.gg/wiki/SC-15_Drone_Master",
@@ -2997,7 +3462,12 @@
     "name": "SC-30 Trailblazer Scout",
     "aliases": [],
     "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sc-30-trailblazer-scout.90af34f2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-30_Trailblazer_Scout_Armor_Render.png"
+    },
     "wiki": {
       "title": "SC-30 Trailblazer Scout",
       "url": "https://helldivers.wiki.gg/wiki/SC-30_Trailblazer_Scout",
@@ -3029,7 +3499,12 @@
     "name": "SC-34 Infiltrator",
     "aliases": [],
     "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sc-34-infiltrator.70687c21.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-34_Infiltrator_Armor_Render.png"
+    },
     "wiki": {
       "title": "SC-34 Infiltrator",
       "url": "https://helldivers.wiki.gg/wiki/SC-34_Infiltrator",
@@ -3061,7 +3536,12 @@
     "name": "SC-37 Legionnaire",
     "aliases": [],
     "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sc-37-legionnaire.f2a810c7.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-37_Legionnaire_Armor_Render.png"
+    },
     "wiki": {
       "title": "SC-37 Legionnaire",
       "url": "https://helldivers.wiki.gg/wiki/SC-37_Legionnaire",
@@ -3093,7 +3573,12 @@
     "name": "SR-18 Roadblock",
     "aliases": [],
     "description": "The crest on this armor's shoulder shows friendlies that safety is near, and foes that they have reached the end of the road.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sr-18-roadblock.2b943825.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-18_Roadblock_Armor_Render.png"
+    },
     "wiki": {
       "title": "SR-18 Roadblock",
       "url": "https://helldivers.wiki.gg/wiki/SR-18_Roadblock",
@@ -3125,7 +3610,12 @@
     "name": "SR-24 Street Scout",
     "aliases": [],
     "description": "This armor's nostalgic color scheme brings to mind beloved trappings of colonial yesteryear: concrete frontier domiciles, slate-colored civilian jumpsuits, and Space Settlers' Pie.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sr-24-street-scout.14066416.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-24_Street_Scout_Armor_Render.png"
+    },
     "wiki": {
       "title": "SR-24 Street Scout",
       "url": "https://helldivers.wiki.gg/wiki/SR-24_Street_Scout",
@@ -3157,7 +3647,12 @@
     "name": "SR-64 Cinderblock",
     "aliases": [],
     "description": "This armor uses repurposed metal from verified sources, such as vending machine packaging and Automaton scrap, making it a sustainable choice for the environmentally conscious Helldiver.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sr-64-cinderblock.8fdd2540.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-64_Cinderblock_Armor_Render.png"
+    },
     "wiki": {
       "title": "SR-64 Cinderblock",
       "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",
@@ -3189,7 +3684,12 @@
     "name": "TG-122 Demo-Trooper",
     "aliases": [],
     "description": "The design of the Demo-Trooper armor has been a corporate secret since ST Construction first issued it to the Charan National Guard in the early days of the Galactic Federation. Now, STC has contracted with the Ministry of Defense to issue the storied armor of its fallen homeworld to the Helldivers.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tg-122-demo-trooper.8cf6b3c6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TG-122_Demo-Trooper_Armor_Render.png"
+    },
     "wiki": {
       "title": "TG-122 Demo-Trooper",
       "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
@@ -3221,7 +3721,12 @@
     "name": "TG-8 Sharpshooter",
     "aliases": [],
     "description": "\"Where lesser soldiers break, Helldivers obey. When Tyranny's horrors swarm, Helldivers obey. When death is certain, and hope and sense have fled, Helldivers obey.\" -- Last Lord Governor of Chara.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tg-8-sharpshooter.2bd8aff2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TG-8_Sharpshooter_Armor_Render.png"
+    },
     "wiki": {
       "title": "TG-8 Sharpshooter",
       "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
@@ -3253,7 +3758,12 @@
     "name": "TR-117 Alpha Commander",
     "aliases": [],
     "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tr-117-alpha-commander.1369b085.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-117_Alpha_Commander_Armor_Render.png"
+    },
     "wiki": {
       "title": "TR-117 Alpha Commander",
       "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
@@ -3282,7 +3792,12 @@
     "name": "TR-40 Gold Eagle",
     "aliases": [],
     "description": "This high-visibility armor allows its bearer to be easily seen through smoke, fog, and spewing viscera.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tr-40-gold-eagle.35f16982.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-40_Gold_Eagle_Armor_Render.png"
+    },
     "wiki": {
       "title": "TR-40 Gold Eagle",
       "url": "https://helldivers.wiki.gg/wiki/TR-40_Gold_Eagle",
@@ -3311,7 +3826,12 @@
     "name": "TR-62 Knight",
     "aliases": [],
     "description": "Crafted to deliver Justice to the darkest crevices of the galaxy.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tr-62-knight.d6ecf621.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-62_Knight_Armor_Render.png"
+    },
     "wiki": {
       "title": "TR-62 Knight",
       "url": "https://helldivers.wiki.gg/wiki/TR-62_Knight",
@@ -3340,7 +3860,12 @@
     "name": "TR-7 Ambassador of the Brand",
     "aliases": [],
     "description": "Promotional armor made by SUMY Corp. as part of a highly successful marketing campaign for frozen yogurt.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tr-7-ambassador-of-the-brand.d4a387fa.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-7_Ambassador_of_the_Brand_Armor_Render.png"
+    },
     "wiki": {
       "title": "TR-7 Ambassador of the Brand",
       "url": "https://helldivers.wiki.gg/wiki/TR-7_Ambassador_of_the_Brand",
@@ -3369,7 +3894,12 @@
     "name": "TR-9 Cavalier of Democracy",
     "aliases": [],
     "description": "Bearers of this armor ride no equine mount, but are nonetheless borne to battle atop the trusty steed of Liberty.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/tr-9-cavalier-of-democracy.762f8bae.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-9_Cavalier_of_Democracy_Armor_Render.png"
+    },
     "wiki": {
       "title": "TR-9 Cavalier of Democracy",
       "url": "https://helldivers.wiki.gg/wiki/TR-9_Cavalier_of_Democracy",
@@ -3398,7 +3928,12 @@
     "name": "UF-16 Inspector",
     "aliases": [],
     "description": "Made famous by the “Truth Enforcers: Enforcers of Truth” mystery novels, this armor calls to mind those paragons of patriotism who protect us from treasonous lies.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/uf-16-inspector.503fb7ee.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "UF-16_Inspector_Armor_Render.png"
+    },
     "wiki": {
       "title": "UF-16 Inspector",
       "url": "https://helldivers.wiki.gg/wiki/UF-16_Inspector",
@@ -3430,7 +3965,12 @@
     "name": "UF-50 Bloodhound",
     "aliases": [],
     "description": "Users are advised not to scratch at the lacquer, as the Red 20,000 pigment that gives this armor its signature sheen may be correlated with rapid DNA unspooling.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/uf-50-bloodhound.69561499.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "UF-50_Bloodhound_Armor_Render.png"
+    },
     "wiki": {
       "title": "UF-50 Bloodhound",
       "url": "https://helldivers.wiki.gg/wiki/UF-50_Bloodhound",
@@ -3462,7 +4002,12 @@
     "name": "UF-84 Doubt Killer",
     "aliases": [],
     "description": "Even among the most depraved of dissidents, the mere sight of this armor is enough to inspire a change of heart.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/uf-84-doubt-killer.754c11b4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "UF-84_Doubt_Killer_Armor_Render.png"
+    },
     "wiki": {
       "title": "UF-84 Doubt Killer",
       "url": "https://helldivers.wiki.gg/wiki/UF-84_Doubt_Killer",

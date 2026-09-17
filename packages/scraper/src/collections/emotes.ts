@@ -1,6 +1,7 @@
 import { Emote, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { parseFlag } from "../normalize/cosmetics.ts";
 import { COSMETICS_INDEX, parseCosmeticsIndex } from "../parsers/cosmetics-index.ts";
 import { wikiUrl } from "../wiki/title.ts";
@@ -24,6 +25,7 @@ export const emotesPipeline: CollectionPipeline<"emotes"> = {
     const rows = parseCosmeticsIndex(index.html, { url: index.url }).emotes;
 
     const entities: Emote[] = [];
+    const images: ImageRequest[] = [];
     for (const row of rows) {
       const title = row.page.title;
       const id = idLock.resolve("emotes", title, row.name);
@@ -33,7 +35,7 @@ export const emotesPipeline: CollectionPipeline<"emotes"> = {
         name: row.name,
         aliases: [title].filter((t) => t !== row.name),
         description: null, // index-only (rule 11)
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: { title, url: wikiUrl(title), flags: [] },
         emote: parseFlag(row.emote, index.url),
         victoryPose: parseFlag(row.victoryPose, index.url),
@@ -51,9 +53,17 @@ export const emotesPipeline: CollectionPipeline<"emotes"> = {
         throw new NormalizeError(index.url, row.name, z.prettifyError(emote.error));
       }
       entities.push(emote.data);
+      if (row.icon) images.push({ id, variant: null, image: row.icon });
     }
 
     logger.info("collection parsed", { collection: "emotes", count: entities.length });
-    return { collection: "emotes", entities, indexCount: rows.length, warnings, conflicts: [] };
+    return {
+      collection: "emotes",
+      entities,
+      indexCount: rows.length,
+      warnings,
+      conflicts: [],
+      images,
+    };
   },
 };

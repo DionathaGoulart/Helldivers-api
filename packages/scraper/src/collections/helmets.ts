@@ -1,6 +1,7 @@
 import { Helmet, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { armoryName } from "../normalize/armory.ts";
 import { ARMOR_INDEX, parseArmorIndex } from "../parsers/armor-index.ts";
 import { armoryTab, parseArmorPage } from "../parsers/armor-page.ts";
@@ -27,6 +28,7 @@ export const helmetsPipeline: CollectionPipeline<"helmets"> = {
     const warnings: string[] = [];
 
     const entities: Helmet[] = [];
+    const images: ImageRequest[] = [];
     for (const box of boxes) {
       const page = await source.page(box.page.title);
       const raw = parseArmorPage(page.html, { url: page.url });
@@ -58,7 +60,7 @@ export const helmetsPipeline: CollectionPipeline<"helmets"> = {
         name,
         aliases: [...new Set([box.page.title, raw.title])].filter((t) => t !== name).sort(),
         description: standalone ? (raw.armoryDescription ?? raw.lead) : null,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: raw.title,
           url: wikiUrl(raw.title),
@@ -73,9 +75,18 @@ export const helmetsPipeline: CollectionPipeline<"helmets"> = {
         throw new NormalizeError(page.url, raw.name, z.prettifyError(helmet.error));
       }
       entities.push(helmet.data);
+      const image = tab.image ?? box.image;
+      if (image) images.push({ id, variant: null, image });
     }
 
     logger.info("collection parsed", { collection: "helmets", count: entities.length });
-    return { collection: "helmets", entities, indexCount: boxes.length, warnings, conflicts: [] };
+    return {
+      collection: "helmets",
+      entities,
+      indexCount: boxes.length,
+      warnings,
+      conflicts: [],
+      images,
+    };
   },
 };

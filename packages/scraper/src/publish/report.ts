@@ -2,6 +2,7 @@ import { mkdir, rm, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import type { Change, Collection } from "@hd2/schemas";
 import type { HttpStats } from "../http/client.ts";
+import type { ImageStats } from "../images/attach.ts";
 
 // `.reports/summary.md` (job summary) and `.reports/commit-message.txt` (arch §6.6).
 
@@ -13,6 +14,7 @@ export type FailureKind =
   | "count-drop"
   | "index-coverage"
   | "invalid-data"
+  | "images"
   | "error";
 
 export interface RunReport {
@@ -27,6 +29,7 @@ export interface RunReport {
   warnings: string[];
   failure: { kind: FailureKind; messages: string[] } | null;
   http: HttpStats | null;
+  images: ImageStats | null; // null when the run failed before step 7
   durationMs: number;
 }
 
@@ -83,6 +86,13 @@ export function renderSummary(report: RunReport): string {
     `${requests} · full refresh ${report.fullRefresh ? "yes" : "no"} · ${formatDuration(report.durationMs)}`,
     "",
   );
+  const images = report.images;
+  if (images) {
+    lines.push(
+      `Images fetched ${images.fetched} · uploaded ${images.uploaded} · reused ${images.reused} · failed ${images.failed} · orphans ${images.orphans} (deleted ${images.deleted}) · ${images.images} images, ${formatBytes(images.bytes)}`,
+      "",
+    );
+  }
 
   if (report.changes.length > 0) {
     lines.push(

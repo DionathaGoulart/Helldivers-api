@@ -1,6 +1,7 @@
 import { type Conflict, slugify, Weapon } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import type { RawSourceCell } from "../normalize/sources.ts";
 import { normalizeWarbondLabel, warbondIdFromTitle } from "../normalize/warbonds.ts";
 import { normalizeWeaponStats } from "../normalize/weapons.ts";
@@ -52,6 +53,7 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
     const conflicts: Conflict[] = [];
 
     const entities: Weapon[] = [];
+    const images: ImageRequest[] = [];
     for (const row of rows) {
       const page = await source.page(row.page.title);
       const raw = parseWeaponPage(page.html, { url: page.url });
@@ -134,7 +136,7 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
         name: raw.name,
         aliases: [...new Set([row.page.title, raw.title])].filter((t) => t !== raw.name).sort(),
         description: raw.lead,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: raw.title,
           url: wikiUrl(raw.title),
@@ -156,9 +158,18 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
       if (raw.lead === null) note(`no description on ${page.url}`);
       if (raw.tables.length === 0) note(`no detailed statistics tables on ${page.url}`);
       entities.push(weapon.data);
+      const image = raw.image ?? row.image;
+      if (image) images.push({ id, variant: null, image });
     }
 
     logger.info("collection parsed", { collection: "weapons", count: entities.length });
-    return { collection: "weapons", entities, indexCount: rows.length, warnings, conflicts };
+    return {
+      collection: "weapons",
+      entities,
+      indexCount: rows.length,
+      warnings,
+      conflicts,
+      images,
+    };
   },
 };

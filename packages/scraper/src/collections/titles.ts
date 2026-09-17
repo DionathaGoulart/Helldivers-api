@@ -1,6 +1,7 @@
 import { slugify, Title } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { parseLevel } from "../normalize/cosmetics.ts";
 import { COSMETICS_INDEX, parseCosmeticsIndex } from "../parsers/cosmetics-index.ts";
 import type { RawLink } from "../parsers/raw.ts";
@@ -30,9 +31,10 @@ export const titlesPipeline: CollectionPipeline<"titles"> = {
       name,
       aliases: [page.title].filter((title) => title !== name),
       description: null, // index-only (rule 11)
-      image: null, // images arrive in Phase 4
+      image: null, // attached in step 7
       wiki: { title: page.title, url: wikiUrl(page.title), flags: [] },
     });
+    const images: ImageRequest[] = [];
     const drafts: { name: string; draft: unknown }[] = rankTitles.map((row) => {
       const level = parseLevel(row.level, index.url);
       const draft = {
@@ -69,11 +71,14 @@ export const titlesPipeline: CollectionPipeline<"titles"> = {
       drafts.push({ name: row.name, draft });
     }
 
-    const entities = drafts.map(({ name, draft }) => {
+    const icons = [...rankTitles, ...acquirableTitles].map((row) => row.icon);
+    const entities = drafts.map(({ name, draft }, i) => {
       const title = Title.safeParse(draft);
       if (!title.success) {
         throw new NormalizeError(index.url, name, z.prettifyError(title.error));
       }
+      const icon = icons[i];
+      if (icon) images.push({ id: title.data.id, variant: null, image: icon });
       return title.data;
     });
 
@@ -84,6 +89,7 @@ export const titlesPipeline: CollectionPipeline<"titles"> = {
       indexCount: rankTitles.length + acquirableTitles.length,
       warnings,
       conflicts: [],
+      images,
     };
   },
 };

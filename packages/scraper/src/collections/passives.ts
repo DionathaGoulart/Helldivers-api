@@ -48,7 +48,7 @@ export const passivesPipeline: CollectionPipeline<"passives"> = {
         name: row.name,
         aliases: [row.page.title].filter((title) => title !== row.name),
         description: row.description,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: { title: row.page.title, url: wikiUrl(row.page.title), flags: [] },
         effects: row.effects,
         armorIds: [], // inverse of armor.passiveId, filled by the link step
@@ -67,6 +67,10 @@ export const passivesPipeline: CollectionPipeline<"passives"> = {
       indexCount: rows.length,
       warnings,
       conflicts: [],
+      images: rows.flatMap((row, i) => {
+        const id = entities[i]?.id;
+        return row.icon && id ? [{ id, variant: null, image: row.icon }] : [];
+      }),
     };
   },
 };

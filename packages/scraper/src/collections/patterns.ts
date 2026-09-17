@@ -1,6 +1,7 @@
 import { type Conflict, Pattern, type Source, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { parseLevel } from "../normalize/cosmetics.ts";
 import { parseCost } from "../normalize/costs.ts";
 import { pageFromMarker } from "../normalize/sources.ts";
@@ -45,6 +46,7 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
     const cosmetics = parseCosmeticsIndex(index.html, { url: index.url });
 
     const drafts: { name: string; url: string; draft: unknown }[] = [];
+    const images: ImageRequest[] = [];
     for (const row of cosmetics.vehiclePatterns) {
       const page = await source.page(row.page.title);
       const raw = parsePatternPage(page.html, { url: page.url });
@@ -105,6 +107,9 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
           });
         }
         variants.push({ target, image: null, source: variantSource });
+        // The Cosmetics icon is the Hellpod variant.
+        const image = tab?.image ?? (target === "hellpod" ? row.icon : null);
+        if (image) images.push({ id, variant: target, image });
       }
 
       drafts.push({
@@ -116,7 +121,7 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
           name: raw.name,
           aliases: [row.name].filter((name) => name !== raw.name),
           description: raw.lead,
-          image: null, // images arrive in Phase 4
+          image: null, // the first variant image, attached in step 7
           wiki: {
             title: raw.title,
             url: wikiUrl(raw.title),
@@ -134,17 +139,19 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
       if (cost?.currency !== "requisition") {
         throw new NormalizeError(index.url, row.cost.text, "weapon pattern cost is not in slips");
       }
+      // No page and no row anchor: locked as `Cosmetics#Patterns/<name>`.
+      const id = idLock.resolve("patterns", `${cosmetics.title}#Patterns/${row.name}`, row.name);
+      if (row.image) images.push({ id, variant: "weapon", image: row.image });
       drafts.push({
         name: row.name,
         url: index.url,
         draft: {
-          // No page and no row anchor: locked as `Cosmetics#Patterns/<name>`.
-          id: idLock.resolve("patterns", `${cosmetics.title}#Patterns/${row.name}`, row.name),
+          id,
           slug: slugify(row.name),
           name: row.name,
           aliases: [],
           description: null, // index-only (rule 11)
-          image: null, // images arrive in Phase 4
+          image: null, // the variant image, attached in step 7
           wiki: {
             title: cosmetics.title,
             url: wikiUrl(cosmetics.title, "Patterns"),
@@ -185,6 +192,7 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
       indexCount: cosmetics.vehiclePatterns.length + cosmetics.weaponPatterns.length,
       warnings,
       conflicts,
+      images,
     };
   },
 };

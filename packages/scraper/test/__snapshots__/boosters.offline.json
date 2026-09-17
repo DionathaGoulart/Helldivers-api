@@ -5,7 +5,12 @@
     "name": "Armed Resupply Pods",
     "aliases": [],
     "description": "The Armed Resupply Pods are a Booster in Helldivers 2. When equipped, all Resupply Pods come mounted with an automated custom AR-23P Liberator Penetrator lasting until ran out of bullets or the pod itself getting demolished.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/armed-resupply-pods.d00c1516.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Armed_Resupply_Pods_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Armed Resupply Pods",
       "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
@@ -30,7 +35,12 @@
     "name": "Concealed Insertion",
     "aliases": [],
     "description": "Concealed Insertion is a Booster in Helldivers 2. When equipped, Hellpods emits smoke on impact.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/concealed-insertion.d9977910.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Concealed_Insertion_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Concealed Insertion",
       "url": "https://helldivers.wiki.gg/wiki/Concealed_Insertion",
@@ -55,7 +65,12 @@
     "name": "Dead Sprint",
     "aliases": [],
     "description": "Dead Sprint is a Booster in Helldivers 2. When equipped, all Helldivers will be able to keep sprinting after they're exhausted, though it will eat though your HP.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/dead-sprint.d4dc02bd.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Dead_Sprint_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Dead Sprint",
       "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
@@ -80,7 +95,12 @@
     "name": "Experimental Infusion",
     "aliases": [],
     "description": "Experimental Infusion is a Booster in Helldivers 2. When equipped, all Helldivers will use a special Stim, which increases the movement speed and reduces damage taken, in addition to the standard properties of a Stim.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/experimental-infusion.7c9832a7.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Experimental_Infusion_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Experimental Infusion",
       "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
@@ -105,7 +125,12 @@
     "name": "Expert Extraction Pilot",
     "aliases": [],
     "description": "Expert Extraction Pilot is a Booster in Helldivers 2. When equipped, the extraction timer will be decreased, allowing for the Helldivers' squad to extract from a mission at a quicker rate. This booster does not affect missions where the Extraction Shuttle is immediately called in and lands after a mission is completed.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/expert-extraction-pilot.f9562e24.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Expert_Extraction_Pilot_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Expert Extraction Pilot",
       "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",
@@ -130,7 +155,12 @@
     "name": "Firebomb Hellpods",
     "aliases": [],
     "description": "Firebomb Hellpods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will detonate upon impact with the surface. Due to the nature of the booster, and its potential damage, notify all squadmates of its use in order to minimize friendly fire.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/firebomb-hellpods.444e35b5.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Firebomb_Hellpods_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Firebomb Hellpods",
       "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
@@ -155,7 +185,12 @@
     "name": "Flexible Reinforcement Budget",
     "aliases": [],
     "description": "Flexible Reinforcement Budget is a Booster in Helldivers 2. When equipped, the timer to gain reinforcements will be reduced. This effect only activates when there are no more reinforcements readily available.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/flexible-reinforcement-budget.5afdc293.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Flexible_Reinforcement_Budget_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Flexible Reinforcement Budget",
       "url": "https://helldivers.wiki.gg/wiki/Flexible_Reinforcement_Budget",
@@ -180,7 +215,12 @@
     "name": "Hellpod Space Optimization",
     "aliases": [],
     "description": "Hellpod Space Optimization is a Booster in Helldivers 2. When equipped, all Helldivers in a squad will come out of their Hellpod (either initial deployment or being reinforced) fully stocked with Ammo, Grenades, and Stims. Depending on their equipped armor, their max number of equipment will vary.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/hellpod-space-optimization.c188acce.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Hellpod_Space_Optimization_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Hellpod Space Optimization",
       "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
@@ -205,7 +245,12 @@
     "name": "Increased Reinforcement Budget",
     "aliases": [],
     "description": "Increased Reinforcement Budget is a Booster in Helldivers 2. When equipped, the amount of reinforcements is increased, allowing for greater number of reinforcements to be called in greater succession.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/increased-reinforcement-budget.1f2cfd8b.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Increased_Reinforcement_Budget_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Increased Reinforcement Budget",
       "url": "https://helldivers.wiki.gg/wiki/Increased_Reinforcement_Budget",
@@ -230,7 +275,12 @@
     "name": "Localization Confusion",
     "aliases": [],
     "description": "Localization Confusion is a Booster in Helldivers 2. When equipped, the time between the call for spawned enemy encounters/reinforcements (in the form of Bug Breaches, or Incoming Dropships) will be increased. This increased time gives Helldivers more breathing room, allowing them to react more to the incoming enemies.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/localization-confusion.32c84842.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Localization_Confusion_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Localization Confusion",
       "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
@@ -255,7 +305,12 @@
     "name": "Motivational Shocks",
     "aliases": [],
     "description": "Motivational Shocks is a Booster in Helldivers 2. When equipped, all Helldivers are able to recover faster after being slowed by certain attacks. While it does mitigate most attacks that slow down movement, it does not mitigate all of them.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/motivational-shocks.73ed082e.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Motivational_Shocks_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Motivational Shocks",
       "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
@@ -280,7 +335,12 @@
     "name": "Muscle Enhancement",
     "aliases": [],
     "description": "Muscle Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will move faster in more difficult terrain and environmental effects.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/muscle-enhancement.f215cedc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Muscle_Enhancement_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Muscle Enhancement",
       "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
@@ -305,7 +365,12 @@
     "name": "Sample Extricator",
     "aliases": [],
     "description": "Sample Extricator is a Booster in Helldivers 2. When equipped, all Large Enemies will have a chance of dropping Common samples upon death. The amount varies, but the amount dropped per mission is capped at 10.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/sample-extricator.8bdcda09.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Sample_Extricator_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Sample Extricator",
       "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
@@ -330,7 +395,12 @@
     "name": "Sample Scanner",
     "aliases": [],
     "description": "Sample Scanner is a Booster in Helldivers 2. The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up. It affects all sample rarities.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/sample-scanner.f2788edf.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Sample_Scanner_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Sample Scanner",
       "url": "https://helldivers.wiki.gg/wiki/Sample_Scanner",
@@ -355,7 +425,12 @@
     "name": "Stamina Enhancement",
     "aliases": [],
     "description": "Stamina Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will have increased max stamina and stamina recovery, allowing for longer sprinting times, and more physically-taxing movements.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/stamina-enhancement.84793aef.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Stamina_Enhancement_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Stamina Enhancement",
       "url": "https://helldivers.wiki.gg/wiki/Stamina_Enhancement",
@@ -380,7 +455,12 @@
     "name": "Stun Pods",
     "aliases": [],
     "description": "Stun Pods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will stun nearby enemies upon impact with the surface.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/stun-pods.16dd98c4.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Stun_Pods_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Stun Pods",
       "url": "https://helldivers.wiki.gg/wiki/Stun_Pods",
@@ -405,7 +485,12 @@
     "name": "UAV Recon Booster",
     "aliases": [],
     "description": "UAV Recon Booster is a Booster in Helldivers 2. When equipped, all Helldivers will have increased effective radar range, allowing for easier recon of terrain.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/uav-recon-booster.9a708f53.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "UAV_Recon_Booster_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "UAV Recon Booster",
       "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
@@ -432,7 +517,12 @@
     "name": "Vitality Enhancement",
     "aliases": [],
     "description": "Vitality Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will be more resistant to damage and injury.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/vitality-enhancement.e972f561.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Vitality_Enhancement_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Vitality Enhancement",
       "url": "https://helldivers.wiki.gg/wiki/Vitality_Enhancement",

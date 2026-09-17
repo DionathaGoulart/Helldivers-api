@@ -9,6 +9,7 @@ import {
 } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { checkSuperstoreSources } from "../link/superstore.ts";
 import { type WarbondRef, WarbondRefIndex } from "../link/warbond-items.ts";
 import { parseCost } from "../normalize/costs.ts";
@@ -61,6 +62,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
     const sources = sourcesOf(dataset);
 
     const entities: Warbond[] = [];
+    const images: ImageRequest[] = [];
     for (const row of rows) {
       const page = await source.page(row.page.title);
       const raw = parseWarbondPage(page.html, { url: page.url });
@@ -156,7 +158,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
           .filter((alias) => alias && alias !== raw.name && alias !== raw.title)
           .sort(),
         description: raw.lead,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: raw.title,
           url: wikiUrl(raw.title),
@@ -179,6 +181,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
         note(`no description on ${page.url}`);
       }
       entities.push(warbond.data);
+      if (raw.image) images.push({ id, variant: null, image: raw.image });
     }
 
     const store = await source.page(SUPERSTORE);
@@ -187,6 +190,13 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
     );
 
     logger.info("collection parsed", { collection: "warbonds", count: entities.length });
-    return { collection: "warbonds", entities, indexCount: rows.length, warnings, conflicts: [] };
+    return {
+      collection: "warbonds",
+      entities,
+      indexCount: rows.length,
+      warnings,
+      conflicts: [],
+      images,
+    };
   },
 };

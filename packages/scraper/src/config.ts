@@ -29,6 +29,11 @@ export const ScraperEnv = z.object({
   SCRAPER_FULL_REFRESH: Flag.default(false),
   SCRAPER_ALLOW_DROP: Flag.default(false),
   SCRAPER_ONLY: z.string().default(""),
+  // Private B2 bucket with the write key; required by online runs (arch §6.5).
+  B2_S3_ENDPOINT: z.url({ protocol: /^https$/ }).optional(),
+  B2_BUCKET: z.string().min(1).optional(),
+  B2_WRITE_KEY_ID: z.string().min(1).optional(),
+  B2_WRITE_APP_KEY: z.string().min(1).optional(),
 });
 
 export type ScraperEnv = z.infer<typeof ScraperEnv>;

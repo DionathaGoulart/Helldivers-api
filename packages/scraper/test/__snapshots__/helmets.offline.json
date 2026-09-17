@@ -5,7 +5,12 @@
     "name": "A-35 Recon",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/a-35-recon.51297745.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "A-35_Recon_Helmet_Render.png"
+    },
     "wiki": {
       "title": "A-35 Recon",
       "url": "https://helldivers.wiki.gg/wiki/A-35_Recon",
@@ -34,7 +39,12 @@
     "name": "A-9 Helljumper",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/a-9-helljumper.a4ee2063.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "A-9_Helljumper_Helmet_Render.png"
+    },
     "wiki": {
       "title": "A-9 Helljumper",
       "url": "https://helldivers.wiki.gg/wiki/A-9_Helljumper",
@@ -63,7 +73,12 @@
     "name": "AC-1 Dutiful",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ac-1-dutiful.c9f73e48.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AC-1_Dutiful_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AC-1 Dutiful",
       "url": "https://helldivers.wiki.gg/wiki/AC-1_Dutiful",
@@ -90,7 +105,12 @@
     "name": "AC-2 Obedient",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ac-2-obedient.3c7e23c3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AC-2_Obedient_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AC-2 Obedient",
       "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",
@@ -117,7 +137,12 @@
     "name": "AD-11 Livewire",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ad-11-livewire.c617629a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AD-11_Livewire_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AD-11 Livewire",
       "url": "https://helldivers.wiki.gg/wiki/AD-11_Livewire",
@@ -146,7 +171,12 @@
     "name": "AD-26 Bleeding Edge",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ad-26-bleeding-edge.84513543.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AD-26_Bleeding_Edge_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AD-26 Bleeding Edge",
       "url": "https://helldivers.wiki.gg/wiki/AD-26_Bleeding_Edge",
@@ -175,7 +205,12 @@
     "name": "AD-49 Apollonian",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ad-49-apollonian.64735a60.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AD-49_Apollonian_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AD-49 Apollonian",
       "url": "https://helldivers.wiki.gg/wiki/AD-49_Apollonian",
@@ -204,7 +239,12 @@
     "name": "AF-02 Haz-Master",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/af-02-haz-master.e4605a32.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-02_Haz-Master_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AF-02 Haz-Master",
       "url": "https://helldivers.wiki.gg/wiki/AF-02_Haz-Master",
@@ -231,7 +271,12 @@
     "name": "AF-50 Noxious Ranger",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/af-50-noxious-ranger.30cc79ea.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-50_Noxious_Ranger_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AF-50 Noxious Ranger",
       "url": "https://helldivers.wiki.gg/wiki/AF-50_Noxious_Ranger",
@@ -258,7 +303,12 @@
     "name": "AF-52 Lockdown",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/af-52-lockdown.4b56ec59.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-52_Lockdown_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AF-52 Lockdown",
       "url": "https://helldivers.wiki.gg/wiki/AF-52_Lockdown",
@@ -285,7 +335,12 @@
     "name": "AF-91 Field Chemist",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/af-91-field-chemist.60b99360.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-91_Field_Chemist_Helmet_Render.png"
+    },
     "wiki": {
       "title": "AF-91 Field Chemist",
       "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",
@@ -312,7 +367,12 @@
     "name": "B-01 Tactical",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/b-01-tactical.5e9aa2fe.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-01_Tactical_v1_Helmet_Render.png"
+    },
     "wiki": {
       "title": "B-01 Tactical",
       "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",
@@ -336,7 +396,12 @@
     "name": "B-08 Light Gunner",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/b-08-light-gunner.b0c72001.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-08_Light_Gunner_Helmet_Render.png"
+    },
     "wiki": {
       "title": "B-08 Light Gunner",
       "url": "https://helldivers.wiki.gg/wiki/B-08_Light_Gunner",
@@ -363,7 +428,12 @@
     "name": "B-22 Model Citizen",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/b-22-model-citizen.d8feabdc.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-22_Model_Citizen_Helmet_Render.png"
+    },
     "wiki": {
       "title": "B-22 Model Citizen",
       "url": "https://helldivers.wiki.gg/wiki/B-22_Model_Citizen",
@@ -387,7 +457,12 @@
     "name": "B-24 Enforcer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/b-24-enforcer.1bdb7553.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-24_Enforcer_Helmet_Icon.png"
+    },
     "wiki": {
       "title": "B-24 Enforcer",
       "url": "https://helldivers.wiki.gg/wiki/B-24_Enforcer",
@@ -414,7 +489,12 @@
     "name": "B-27 Fortified Commando",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/b-27-fortified-commando.d4d7ea6e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "B-27_Fortified_Commando_Helmet_Render.png"
+    },
     "wiki": {
       "title": "B-27 Fortified Commando",
       "url": "https://helldivers.wiki.gg/wiki/B-27_Fortified_Commando",
@@ -441,7 +521,12 @@
     "name": "BFM-16 Tanker",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/bfm-16-tanker.8267f358.webp",
+      "width": 230,
+      "height": 230,
+      "wikiFile": "BFM-16_Tanker_Helmet_Render.png"
+    },
     "wiki": {
       "title": "BFM-16 Tanker",
       "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
@@ -467,7 +552,12 @@
     "name": "BFM-220 Ironclad",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/bfm-220-ironclad.7fe1aa12.webp",
+      "width": 230,
+      "height": 230,
+      "wikiFile": "BFM-220_Ironclad_Helmet_Render.png"
+    },
     "wiki": {
       "title": "BFM-220 Ironclad",
       "url": "https://helldivers.wiki.gg/wiki/BFM-220_Ironclad",
@@ -493,7 +583,12 @@
     "name": "BP-20 Correct Officer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/bp-20-correct-officer.be7487de.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "BP-20_Correct_Officer_Helmet_Render.png"
+    },
     "wiki": {
       "title": "BP-20 Correct Officer",
       "url": "https://helldivers.wiki.gg/wiki/BP-20_Correct_Officer",
@@ -522,7 +617,12 @@
     "name": "BP-32 Jackboot",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/bp-32-jackboot.2c935415.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "BP-32_Jackboot_Helmet_Render.png"
+    },
     "wiki": {
       "title": "BP-32 Jackboot",
       "url": "https://helldivers.wiki.gg/wiki/BP-32_Jackboot",
@@ -551,7 +651,12 @@
     "name": "BP-77 Grand Juror",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/bp-77-grand-juror.cf5d2ab9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "BP-77_Grand_Juror_Helmet_Render.png"
+    },
     "wiki": {
       "title": "BP-77 Grand Juror",
       "url": "https://helldivers.wiki.gg/wiki/BP-77_Grand_Juror",
@@ -580,7 +685,12 @@
     "name": "CE-07 Demolition Specialist",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-07-demolition-specialist.2ac0c188.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-07_Demolition_Specialist_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-07 Demolition Specialist",
       "url": "https://helldivers.wiki.gg/wiki/CE-07_Demolition_Specialist",
@@ -607,7 +717,12 @@
     "name": "CE-101 Guerilla Gorilla",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-101-guerilla-gorilla.d5132502.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-101_Guerilla_Gorilla_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-101 Guerilla Gorilla",
       "url": "https://helldivers.wiki.gg/wiki/CE-101_Guerilla_Gorilla",
@@ -634,7 +749,12 @@
     "name": "CE-27 Ground Breaker",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-27-ground-breaker.812faccf.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-27_Ground_Breaker_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-27 Ground Breaker",
       "url": "https://helldivers.wiki.gg/wiki/CE-27_Ground_Breaker",
@@ -661,7 +781,12 @@
     "name": "CE-35 Trench Engineer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-35-trench-engineer.49ab6b73.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-35_Trench_Engineer_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-35 Trench Engineer",
       "url": "https://helldivers.wiki.gg/wiki/CE-35_Trench_Engineer",
@@ -688,7 +813,12 @@
     "name": "CE-64 Grenadier",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-64-grenadier.e025067c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-64_Grenadier_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-64 Grenadier",
       "url": "https://helldivers.wiki.gg/wiki/CE-64_Grenadier",
@@ -715,7 +845,12 @@
     "name": "CE-67 Titan",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-67-titan.48ac1420.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-67_Titan_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-67 Titan",
       "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",
@@ -742,7 +877,12 @@
     "name": "CE-74 Breaker",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-74-breaker.ec6e5c37.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-74_Breaker_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-74 Breaker",
       "url": "https://helldivers.wiki.gg/wiki/CE-74_Breaker",
@@ -769,7 +909,12 @@
     "name": "CE-81 Juggernaut",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-81-juggernaut.136e37d9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-81_Juggernaut_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-81 Juggernaut",
       "url": "https://helldivers.wiki.gg/wiki/CE-81_Juggernaut",
@@ -796,7 +941,12 @@
     "name": "CM-09 Bonesnapper",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cm-09-bonesnapper.cd84787f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-09_Bonesnapper_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CM-09 Bonesnapper",
       "url": "https://helldivers.wiki.gg/wiki/CM-09_Bonesnapper",
@@ -823,7 +973,12 @@
     "name": "CM-10 Clinician",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cm-10-clinician.459b6fdd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-10_Clinician_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CM-10 Clinician",
       "url": "https://helldivers.wiki.gg/wiki/CM-10_Clinician",
@@ -850,7 +1005,12 @@
     "name": "CM-14 Physician",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cm-14-physician.48e991ae.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-14_Physician_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CM-14 Physician",
       "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",
@@ -877,7 +1037,12 @@
     "name": "CM-17 Butcher",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cm-17-butcher.67758cce.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-17_Butcher_Helmet_Icon.png"
+    },
     "wiki": {
       "title": "CM-17 Butcher",
       "url": "https://helldivers.wiki.gg/wiki/CM-17_Butcher",
@@ -904,7 +1069,12 @@
     "name": "CM-21 Trench Paramedic",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cm-21-trench-paramedic.48a414cb.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-21_Trench_Paramedic_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CM-21 Trench Paramedic",
       "url": "https://helldivers.wiki.gg/wiki/CM-21_Trench_Paramedic",
@@ -931,7 +1101,12 @@
     "name": "CPG-48 Sapper",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cpg-48-sapper.91904629.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPG-48_Sapper_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CPG-48 Sapper",
       "url": "https://helldivers.wiki.gg/wiki/CPG-48_Sapper",
@@ -960,7 +1135,12 @@
     "name": "CPH-26 Commandant",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cph-26-commandant.41e6509c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPH-26_Commandant_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CPH-26 Commandant",
       "url": "https://helldivers.wiki.gg/wiki/CPH-26_Commandant",
@@ -989,7 +1169,12 @@
     "name": "CPR-80 Bulwark",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cpr-80-bulwark.6352b6fb.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPR-80_Bulwark_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CPR-80 Bulwark",
       "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",
@@ -1018,7 +1203,12 @@
     "name": "CW-22 Kodiak",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cw-22-kodiak.243adb43.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-22_Kodiak_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CW-22 Kodiak",
       "url": "https://helldivers.wiki.gg/wiki/CW-22_Kodiak",
@@ -1045,7 +1235,12 @@
     "name": "CW-36 Winter Warrior",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cw-36-winter-warrior.6e32ce77.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-36_Winter_Warrior_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CW-36 Winter Warrior",
       "url": "https://helldivers.wiki.gg/wiki/CW-36_Winter_Warrior",
@@ -1072,7 +1267,12 @@
     "name": "CW-4 Arctic Ranger",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cw-4-arctic-ranger.f7c9d6ce.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-4_Arctic_Ranger_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CW-4 Arctic Ranger",
       "url": "https://helldivers.wiki.gg/wiki/CW-4_Arctic_Ranger",
@@ -1099,7 +1299,12 @@
     "name": "CW-9 White Wolf",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/cw-9-white-wolf.951c8927.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CW-9_White_Wolf_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CW-9 White Wolf",
       "url": "https://helldivers.wiki.gg/wiki/CW-9_White_Wolf",
@@ -1126,7 +1331,12 @@
     "name": "DP-00 Tactical",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/dp-00-tactical.71310e06.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-00_Tactical_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DP-00 Tactical",
       "url": "https://helldivers.wiki.gg/wiki/DP-00_Tactical",
@@ -1150,7 +1360,12 @@
     "name": "DP-11 Champion of the People",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/dp-11-champion-of-the-people.f831a920.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-11_Champion_of_the_People_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DP-11 Champion of the People",
       "url": "https://helldivers.wiki.gg/wiki/DP-11_Champion_of_the_People",
@@ -1177,7 +1392,12 @@
     "name": "DP-40 Hero of the Federation",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/dp-40-hero-of-the-federation.58ccf10d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-40_Hero_of_the_Federation_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DP-40 Hero of the Federation",
       "url": "https://helldivers.wiki.gg/wiki/DP-40_Hero_of_the_Federation",
@@ -1204,7 +1424,12 @@
     "name": "DP-53 Savior of the Free",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/dp-53-savior-of-the-free.99f44d2d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-53_Savior_of_the_Free_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DP-53 Savior of the Free",
       "url": "https://helldivers.wiki.gg/wiki/DP-53_Savior_of_the_Free",
@@ -1231,7 +1456,12 @@
     "name": "DP-8 Mountain-Scaled",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/dp-8-mountain-scaled.cbb20fae.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-8_Mountain-Scaled_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DP-8 Mountain-Scaled",
       "url": "https://helldivers.wiki.gg/wiki/DP-8_Mountain-Scaled",
@@ -1260,7 +1490,12 @@
     "name": "DS-10 Big Game Hunter",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ds-10-big-game-hunter.929722f6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DS-10_Big_Game_Hunter_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DS-10 Big Game Hunter",
       "url": "https://helldivers.wiki.gg/wiki/DS-10_Big_Game_Hunter",
@@ -1289,7 +1524,12 @@
     "name": "DS-191 Scorpion",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ds-191-scorpion.938f9a8f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DS-191_Scorpion_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DS-191 Scorpion",
       "url": "https://helldivers.wiki.gg/wiki/DS-191_Scorpion",
@@ -1318,7 +1558,12 @@
     "name": "DS-42 Federation's Blade",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ds-42-federations-blade.7bf49faf.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DS-42_Federation's_Blade_Helmet_Render.png"
+    },
     "wiki": {
       "title": "DS-42 Federation's Blade",
       "url": "https://helldivers.wiki.gg/wiki/DS-42_Federation's_Blade",
@@ -1347,7 +1592,12 @@
     "name": "EX-00 Prototype X",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ex-00-prototype-x.59a5ab4d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-00_Prototype_X_Helmet_Render.png"
+    },
     "wiki": {
       "title": "EX-00 Prototype X",
       "url": "https://helldivers.wiki.gg/wiki/EX-00_Prototype_X",
@@ -1374,7 +1624,12 @@
     "name": "EX-03 Prototype 3",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ex-03-prototype-3.e5820bef.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-03_Prototype_3_Helmet_Render.png"
+    },
     "wiki": {
       "title": "EX-03 Prototype 3",
       "url": "https://helldivers.wiki.gg/wiki/EX-03_Prototype_3",
@@ -1401,7 +1656,12 @@
     "name": "EX-16 Prototype 16",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ex-16-prototype-16.c10ce079.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-16_Prototype_16_Helmet_Render.png"
+    },
     "wiki": {
       "title": "EX-16 Prototype 16",
       "url": "https://helldivers.wiki.gg/wiki/EX-16_Prototype_16",
@@ -1428,7 +1688,12 @@
     "name": "FS-05 Marksman",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-05-marksman.f8af8520.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-05_Marksman_Helmet_Icon.png"
+    },
     "wiki": {
       "title": "FS-05 Marksman",
       "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",
@@ -1455,7 +1720,12 @@
     "name": "FS-11 Executioner",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-11-executioner.7e5a3938.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-11_Executioner_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-11 Executioner",
       "url": "https://helldivers.wiki.gg/wiki/FS-11_Executioner",
@@ -1482,7 +1752,12 @@
     "name": "FS-23 Battle Master",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-23-battle-master.13dd0f7a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-23_Battle_Master_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-23 Battle Master",
       "url": "https://helldivers.wiki.gg/wiki/FS-23_Battle_Master",
@@ -1509,7 +1784,12 @@
     "name": "FS-34 Exterminator",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-34-exterminator.2c814eb2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-34_Exterminator_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-34 Exterminator",
       "url": "https://helldivers.wiki.gg/wiki/FS-34_Exterminator",
@@ -1536,7 +1816,12 @@
     "name": "FS-37 Ravager",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-37-ravager.b5a1c175.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-37_Ravager_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-37 Ravager",
       "url": "https://helldivers.wiki.gg/wiki/FS-37_Ravager",
@@ -1563,7 +1848,12 @@
     "name": "FS-38 Eradicator",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-38-eradicator.7a90c6e6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-38_Eradicator_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-38 Eradicator",
       "url": "https://helldivers.wiki.gg/wiki/FS-38_Eradicator",
@@ -1590,7 +1880,12 @@
     "name": "FS-55 Devastator",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-55-devastator.b3ba9343.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-55_Devastator_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-55 Devastator",
       "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",
@@ -1617,7 +1912,12 @@
     "name": "FS-61 Dreadnought",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/fs-61-dreadnought.0b7bfbe1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-61_Dreadnought_Helmet_Render.png"
+    },
     "wiki": {
       "title": "FS-61 Dreadnought",
       "url": "https://helldivers.wiki.gg/wiki/FS-61_Dreadnought",
@@ -1644,7 +1944,12 @@
     "name": "GS-11 Democracy's Deputy",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/gs-11-democracys-deputy.ab1a7a20.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "GS-11_Democracy's_Deputy_Helmet_Render.png"
+    },
     "wiki": {
       "title": "GS-11 Democracy's Deputy",
       "url": "https://helldivers.wiki.gg/wiki/GS-11_Democracy's_Deputy",
@@ -1671,7 +1976,12 @@
     "name": "GS-17 Frontier Marshal",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/gs-17-frontier-marshal.6084311d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "GS-17_Frontier_Marshal_Helmet_Render.png"
+    },
     "wiki": {
       "title": "GS-17 Frontier Marshal",
       "url": "https://helldivers.wiki.gg/wiki/GS-17_Frontier_Marshal",
@@ -1698,7 +2008,12 @@
     "name": "GS-66 Lawmaker",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/gs-66-lawmaker.b260692e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "GS-66_Lawmaker_Helmet_Render.png"
+    },
     "wiki": {
       "title": "GS-66 Lawmaker",
       "url": "https://helldivers.wiki.gg/wiki/GS-66_Lawmaker",
@@ -1725,7 +2040,12 @@
     "name": "I-09 Heatseeker",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/i-09-heatseeker.8973c858.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-09_Heatseeker_Helmet_Render.png"
+    },
     "wiki": {
       "title": "I-09 Heatseeker",
       "url": "https://helldivers.wiki.gg/wiki/I-09_Heatseeker",
@@ -1752,7 +2072,12 @@
     "name": "I-102 Draconaught",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/i-102-draconaught.460b5036.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-102_Draconaught_Helmet_Render.png"
+    },
     "wiki": {
       "title": "I-102 Draconaught",
       "url": "https://helldivers.wiki.gg/wiki/I-102_Draconaught",
@@ -1779,7 +2104,12 @@
     "name": "I-44 Salamander",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/i-44-salamander.e7e1b894.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-44_Salamander_Helmet_Render.png"
+    },
     "wiki": {
       "title": "I-44 Salamander",
       "url": "https://helldivers.wiki.gg/wiki/I-44_Salamander",
@@ -1806,7 +2136,12 @@
     "name": "I-92 Fire Fighter",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/i-92-fire-fighter.bd79fd84.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "I-92_Fire_Fighter_Helmet_Render.png"
+    },
     "wiki": {
       "title": "I-92 Fire Fighter",
       "url": "https://helldivers.wiki.gg/wiki/I-92_Fire_Fighter",
@@ -1833,7 +2168,12 @@
     "name": "IE-12 Righteous",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ie-12-righteous.ff126c9a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IE-12_Righteous_Helmet_Render.png"
+    },
     "wiki": {
       "title": "IE-12 Righteous",
       "url": "https://helldivers.wiki.gg/wiki/IE-12_Righteous",
@@ -1860,7 +2200,12 @@
     "name": "IE-3 Martyr",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ie-3-martyr.162eea6c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IE-3_Martyr_Helmet_Render.png"
+    },
     "wiki": {
       "title": "IE-3 Martyr",
       "url": "https://helldivers.wiki.gg/wiki/IE-3_Martyr",
@@ -1887,7 +2232,12 @@
     "name": "IE-57 Hell-Bent",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ie-57-hell-bent.433c78e7.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IE-57_Hell-Bent_Helmet_Render.png"
+    },
     "wiki": {
       "title": "IE-57 Hell-Bent",
       "url": "https://helldivers.wiki.gg/wiki/IE-57_Hell-Bent",
@@ -1914,7 +2264,12 @@
     "name": "IX-Voidwalker",
     "aliases": [],
     "description": "A helmet worn by the pioneering Helldivers who first ventured into the Void. Designed by Super Earth scientists with liberated Illuminate blueprints.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ix-voidwalker.50296147.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "IX-Voidwalker_Helmet_Render.png"
+    },
     "wiki": {
       "title": "IX-Voidwalker",
       "url": "https://helldivers.wiki.gg/wiki/IX-Voidwalker",
@@ -1936,7 +2291,12 @@
     "name": "KDM-500 Outrider",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/kdm-500-outrider.40cec3e6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "KDM-500_Outrider_Helmet_Render.png"
+    },
     "wiki": {
       "title": "KDM-500 Outrider",
       "url": "https://helldivers.wiki.gg/wiki/KDM-500_Outrider",
@@ -1960,7 +2320,12 @@
     "name": "O-2 Heavy Operator",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/o-2-heavy-operator.6e51bec9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "O-2_Heavy_Operator_Helmet_Render.png"
+    },
     "wiki": {
       "title": "O-2 Heavy Operator",
       "url": "https://helldivers.wiki.gg/wiki/O-2_Heavy_Operator",
@@ -1987,7 +2352,12 @@
     "name": "O-3 Free Spirit",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/o-3-free-spirit.9742ee33.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "O-3_Free_Spirit_Helmet_Render.png"
+    },
     "wiki": {
       "title": "O-3 Free Spirit",
       "url": "https://helldivers.wiki.gg/wiki/O-3_Free_Spirit",
@@ -2014,7 +2384,12 @@
     "name": "O-44 Bonded Pilot",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/o-44-bonded-pilot.6a1b2ef6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "O-44_Bonded_Pilot_Helmet_Render.png"
+    },
     "wiki": {
       "title": "O-44 Bonded Pilot",
       "url": "https://helldivers.wiki.gg/wiki/O-44_Bonded_Pilot",
@@ -2041,7 +2416,12 @@
     "name": "PH-202 Twigsnapper",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ph-202-twigsnapper.5e05c1c6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "PH-202_Twigsnapper_Helmet_Render.png"
+    },
     "wiki": {
       "title": "PH-202 Twigsnapper",
       "url": "https://helldivers.wiki.gg/wiki/PH-202_Twigsnapper",
@@ -2068,7 +2448,12 @@
     "name": "PH-56 Jaguar",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ph-56-jaguar.9f828c03.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "PH-56_Jaguar_Helmet_Render.png"
+    },
     "wiki": {
       "title": "PH-56 Jaguar",
       "url": "https://helldivers.wiki.gg/wiki/PH-56_Jaguar",
@@ -2095,7 +2480,12 @@
     "name": "PH-9 Predator",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ph-9-predator.114247d9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "PH-9_Predator_Helmet_Render.png"
+    },
     "wiki": {
       "title": "PH-9 Predator",
       "url": "https://helldivers.wiki.gg/wiki/PH-9_Predator",
@@ -2122,7 +2512,12 @@
     "name": "RE-1861 Parade Commander",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/re-1861-parade-commander.83e33472.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RE-1861_Parade_Commander_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RE-1861 Parade Commander",
       "url": "https://helldivers.wiki.gg/wiki/RE-1861_Parade_Commander",
@@ -2149,7 +2544,12 @@
     "name": "RE-2310 Honorary Guard",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/re-2310-honorary-guard.e4906eab.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RE-2310_Honorary_Guard_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RE-2310 Honorary Guard",
       "url": "https://helldivers.wiki.gg/wiki/RE-2310_Honorary_Guard",
@@ -2176,7 +2576,12 @@
     "name": "RE-824 Bearer of the Standard",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/re-824-bearer-of-the-standard.912aad5c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RE-824_Bearer_of_the_Standard_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RE-824 Bearer of the Standard",
       "url": "https://helldivers.wiki.gg/wiki/RE-824_Bearer_of_the_Standard",
@@ -2203,7 +2608,12 @@
     "name": "RS-100 Sanctioner",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/rs-100-sanctioner.0a1b9b0a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-100_Sanctioner_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RS-100 Sanctioner",
       "url": "https://helldivers.wiki.gg/wiki/RS-100_Sanctioner",
@@ -2230,7 +2640,12 @@
     "name": "RS-20 Constrictor",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/rs-20-constrictor.33a72af6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-20_Constrictor_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RS-20 Constrictor",
       "url": "https://helldivers.wiki.gg/wiki/RS-20_Constrictor",
@@ -2257,7 +2672,12 @@
     "name": "RS-40 Beast of Prey",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/rs-40-beast-of-prey.29b95095.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-40_Beast_of_Prey_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RS-40 Beast of Prey",
       "url": "https://helldivers.wiki.gg/wiki/RS-40_Beast_of_Prey",
@@ -2284,7 +2704,12 @@
     "name": "RS-6 Fiend Destroyer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/rs-6-fiend-destroyer.12265273.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-6_Fiend_Destroyer_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RS-6 Fiend Destroyer",
       "url": "https://helldivers.wiki.gg/wiki/RS-6_Fiend_Destroyer",
@@ -2311,7 +2736,12 @@
     "name": "RS-67 Null Cipher",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/rs-67-null-cipher.5bddb1e1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-67_Null_Cipher_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RS-67 Null Cipher",
       "url": "https://helldivers.wiki.gg/wiki/RS-67_Null_Cipher",
@@ -2338,7 +2768,12 @@
     "name": "RS-89 Shadow Paragon",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/rs-89-shadow-paragon.4ba2cdd4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "RS-89_Shadow_Paragon_Helmet_Render.png"
+    },
     "wiki": {
       "title": "RS-89 Shadow Paragon",
       "url": "https://helldivers.wiki.gg/wiki/RS-89_Shadow_Paragon",
@@ -2365,7 +2800,12 @@
     "name": "SA-04 Combat Technician",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sa-04-combat-technician.d16314f4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-04_Combat_Technician_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SA-04 Combat Technician",
       "url": "https://helldivers.wiki.gg/wiki/SA-04_Combat_Technician",
@@ -2392,7 +2832,12 @@
     "name": "SA-12 Servo Assisted",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sa-12-servo-assisted.1a629990.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-12_Servo_Assisted_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SA-12 Servo Assisted",
       "url": "https://helldivers.wiki.gg/wiki/SA-12_Servo_Assisted",
@@ -2419,7 +2864,12 @@
     "name": "SA-25 Steel Trooper",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sa-25-steel-trooper.a2ba82a2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-25_Steel_Trooper_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SA-25 Steel Trooper",
       "url": "https://helldivers.wiki.gg/wiki/SA-25_Steel_Trooper",
@@ -2446,7 +2896,12 @@
     "name": "SA-32 Dynamo",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sa-32-dynamo.982ea4b5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-32_Dynamo_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SA-32 Dynamo",
       "url": "https://helldivers.wiki.gg/wiki/SA-32_Dynamo",
@@ -2473,7 +2928,12 @@
     "name": "SA-7 Headfirst",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sa-7-headfirst.b11c466d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-7_Headfirst_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SA-7 Headfirst",
       "url": "https://helldivers.wiki.gg/wiki/SA-7_Headfirst",
@@ -2500,7 +2960,12 @@
     "name": "SA-8 Ram",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sa-8-ram.8dad3709.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-8_Ram_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SA-8 Ram",
       "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",
@@ -2527,7 +2992,12 @@
     "name": "SC-15 Drone Master",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sc-15-drone-master.e179b937.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-15_Drone_Master_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SC-15 Drone Master",
       "url": "https://helldivers.wiki.gg/wiki/SC-15_Drone_Master",
@@ -2554,7 +3024,12 @@
     "name": "SC-30 Trailblazer Scout",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sc-30-trailblazer-scout.1462583f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-30_Trailblazer_Scout_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SC-30 Trailblazer Scout",
       "url": "https://helldivers.wiki.gg/wiki/SC-30_Trailblazer_Scout",
@@ -2581,7 +3056,12 @@
     "name": "SC-34 Infiltrator",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sc-34-infiltrator.d01963f7.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-34_Infiltrator_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SC-34 Infiltrator",
       "url": "https://helldivers.wiki.gg/wiki/SC-34_Infiltrator",
@@ -2608,7 +3088,12 @@
     "name": "SC-37 Legionnaire",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sc-37-legionnaire.32d7117a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SC-37_Legionnaire_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SC-37 Legionnaire",
       "url": "https://helldivers.wiki.gg/wiki/SC-37_Legionnaire",
@@ -2635,7 +3120,12 @@
     "name": "SR-18 Roadblock",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sr-18-roadblock.c16b98ab.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-18_Roadblock_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SR-18 Roadblock",
       "url": "https://helldivers.wiki.gg/wiki/SR-18_Roadblock",
@@ -2662,7 +3152,12 @@
     "name": "SR-24 Street Scout",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sr-24-street-scout.00f432c9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-24_Street_Scout_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SR-24 Street Scout",
       "url": "https://helldivers.wiki.gg/wiki/SR-24_Street_Scout",
@@ -2689,7 +3184,12 @@
     "name": "SR-64 Cinderblock",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/sr-64-cinderblock.460db803.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-64_Cinderblock_Helmet_Render.png"
+    },
     "wiki": {
       "title": "SR-64 Cinderblock",
       "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",
@@ -2716,7 +3216,12 @@
     "name": "TG-122 Demo-Trooper",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tg-122-demo-trooper.6e219abe.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TG-122_Demo-Trooper_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TG-122 Demo-Trooper",
       "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
@@ -2743,7 +3248,12 @@
     "name": "TG-8 Sharpshooter",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tg-8-sharpshooter.029ed9aa.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TG-8_Sharpshooter_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TG-8 Sharpshooter",
       "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",
@@ -2770,7 +3280,12 @@
     "name": "TR-117 Alpha Commander",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tr-117-alpha-commander.0de999e6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-117_Alpha_Commander_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TR-117 Alpha Commander",
       "url": "https://helldivers.wiki.gg/wiki/TR-117_Alpha_Commander",
@@ -2794,7 +3309,12 @@
     "name": "TR-40 Gold Eagle",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tr-40-gold-eagle.d76ac4a4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-40_Gold_Eagle_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TR-40 Gold Eagle",
       "url": "https://helldivers.wiki.gg/wiki/TR-40_Gold_Eagle",
@@ -2818,7 +3338,12 @@
     "name": "TR-62 Knight",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tr-62-knight.99070520.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-62_Knight_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TR-62 Knight",
       "url": "https://helldivers.wiki.gg/wiki/TR-62_Knight",
@@ -2842,7 +3367,12 @@
     "name": "TR-7 Ambassador of the Brand",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.0dda1efd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-7_Ambassador_of_the_Brand_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TR-7 Ambassador of the Brand",
       "url": "https://helldivers.wiki.gg/wiki/TR-7_Ambassador_of_the_Brand",
@@ -2866,7 +3396,12 @@
     "name": "TR-9 Cavalier of Democracy",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.f27a11c2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "TR-9_Cavalier_of_Democracy_Helmet_Render.png"
+    },
     "wiki": {
       "title": "TR-9 Cavalier of Democracy",
       "url": "https://helldivers.wiki.gg/wiki/TR-9_Cavalier_of_Democracy",
@@ -2890,7 +3425,12 @@
     "name": "UF-16 Inspector",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/uf-16-inspector.789afade.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "UF-16_Inspector_Helmet_Render.png"
+    },
     "wiki": {
       "title": "UF-16 Inspector",
       "url": "https://helldivers.wiki.gg/wiki/UF-16_Inspector",
@@ -2917,7 +3457,12 @@
     "name": "UF-50 Bloodhound",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/uf-50-bloodhound.a6e6a034.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "UF-50_Bloodhound_Helmet_Render.png"
+    },
     "wiki": {
       "title": "UF-50 Bloodhound",
       "url": "https://helldivers.wiki.gg/wiki/UF-50_Bloodhound",
@@ -2944,7 +3489,12 @@
     "name": "UF-84 Doubt Killer",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/uf-84-doubt-killer.b586229d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "UF-84_Doubt_Killer_Helmet_Render.png"
+    },
     "wiki": {
       "title": "UF-84 Doubt Killer",
       "url": "https://helldivers.wiki.gg/wiki/UF-84_Doubt_Killer",

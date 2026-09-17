@@ -1,6 +1,6 @@
 import { join } from "node:path";
 import type { Collection, IdLock } from "@hd2/schemas";
-import { validateDataset } from "@hd2/schemas";
+import { ImageManifest, validateDataset } from "@hd2/schemas";
 import { readIdLock, writeIdLock } from "@hd2/schemas/node";
 import { selectPipelines } from "./collections/index.ts";
 import type { ScrapeResult } from "./collections/types.ts";
@@ -9,6 +9,13 @@ import { NormalizeError, ParseError } from "./errors.ts";
 import { BlockedError } from "./http/block-detect.ts";
 import type { HttpClient } from "./http/client.ts";
 import { checkRobots, parseRobots, RobotsChangedError } from "./http/robots.ts";
+import {
+  attachImages,
+  type ImageBackend,
+  ImageFailureError,
+  type ImageRequest,
+} from "./images/attach.ts";
+import { COLLECTION_RENDITION } from "./images/rendition.ts";
 import { linkSetParts } from "./link/armor-sets.ts";
 import { linkPassiveArmors } from "./link/passives.ts";
 import { linkCapeCards } from "./link/player-cards.ts";
@@ -42,6 +49,7 @@ export interface RunOptions {
   dataDir: string; // holds v1/ and overrides/
   source: WikiSource;
   http: HttpClient | null; // online runs: robots policy and request stats
+  images: ImageBackend | null; // null: reuse reports/images.json only (offline runs)
   only: readonly Collection[] | null;
   allowDrop: boolean;
   fullRefresh: boolean;
@@ -66,6 +74,9 @@ function classify(error: unknown): RunFailure {
   const message = error instanceof Error ? error.message : String(error);
   if (error instanceof RobotsChangedError) return new RunFailure("robots-changed", error.reasons);
   if (error instanceof BlockedError) return new RunFailure("blocked", [message]);
+  if (error instanceof ImageFailureError) {
+    return new RunFailure("images", [message, ...error.failures]);
+  }
   if (
     error instanceof ParseError ||
     error instanceof NormalizeError ||
@@ -77,6 +88,7 @@ function classify(error: unknown): RunFailure {
 }
 
 const GUARDRAIL_PRIORITY: readonly GuardrailCheck[] = ["empty", "count-drop", "index-coverage"];
+const IMAGES_FILE = "reports/images.json";
 
 export async function runScrape(options: RunOptions): Promise<RunReport> {
   const { dataDir, logger } = options;
@@ -94,6 +106,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     warnings: [],
     failure: null,
     http: null,
+    images: null,
     durationMs: 0,
   };
 
@@ -194,8 +207,33 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       );
     }
 
+    // 7. Images: pictures of the scraped collections, the upload manifest and its orphans.
+    const images = await attachImages({
+      dataset: next,
+      published: current.collections,
+      requests: new Map(
+        results
+          .filter((result) => COLLECTION_RENDITION[result.collection])
+          .map((result): [Collection, ImageRequest[]] => [result.collection, result.images]),
+      ),
+      previous: current.extraFiles.has(IMAGES_FILE)
+        ? ImageManifest.parse(current.extraFiles.get(IMAGES_FILE))
+        : null,
+      backend: options.images,
+      date: report.date,
+      logger,
+    });
+    next = images.dataset;
+    report.warnings.push(...images.warnings);
+    report.images = images.stats;
+
     // Reports carried over, with this run's conflicts in place of the scraped collections' ones.
     const extraFiles = new Map(current.extraFiles);
+    if (images.manifest) {
+      extraFiles.set(IMAGES_FILE, images.manifest);
+    } else {
+      extraFiles.delete(IMAGES_FILE);
+    }
     const conflicts = mergeConflicts(
       current.extraFiles.get(CONFLICTS_FILE),
       results.map((result) => result.collection),
@@ -212,7 +250,10 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const unchanged =
       current.manifest !== null &&
       datasetHash(next) === datasetHash(current.collections) &&
-      JSON.stringify(conflicts) === JSON.stringify(current.extraFiles.get(CONFLICTS_FILE) ?? null);
+      JSON.stringify(conflicts) ===
+        JSON.stringify(current.extraFiles.get(CONFLICTS_FILE) ?? null) &&
+      JSON.stringify(images.manifest) ===
+        JSON.stringify(current.extraFiles.get(IMAGES_FILE) ?? null);
     let files: Map<string, unknown>;
     let archived: ReturnType<typeof prependEntry>["archived"] = [];
     if (unchanged && current.manifest) {

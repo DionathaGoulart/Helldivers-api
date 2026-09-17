@@ -1,6 +1,7 @@
 import { PlayerCard, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { armoryName } from "../normalize/armory.ts";
 import { ARMOR_INDEX, parseArmorIndex, type RawItemBox } from "../parsers/armor-index.ts";
 import { parseArmorPage, type RawArmoryPage } from "../parsers/armor-page.ts";
@@ -66,6 +67,7 @@ export const playerCardsPipeline: CollectionPipeline<"player-cards"> = {
     }
 
     const entities: PlayerCard[] = [];
+    const images: ImageRequest[] = [];
     for (const { title, box, page } of entries) {
       const tab = page?.raw.tabs.find((candidate) => candidate.name === TAB) ?? null;
       const pageTitle = page?.raw.title ?? title;
@@ -109,7 +111,7 @@ export const playerCardsPipeline: CollectionPipeline<"player-cards"> = {
           .filter((t) => t !== name)
           .sort(),
         description: null, // the page's Armory quote describes the cape
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: pageTitle,
           url: wikiUrl(pageTitle),
@@ -123,6 +125,8 @@ export const playerCardsPipeline: CollectionPipeline<"player-cards"> = {
         throw new NormalizeError(url, name, z.prettifyError(card.error));
       }
       entities.push(card.data);
+      const image = tab?.image ?? box?.image ?? null;
+      if (image) images.push({ id, variant: null, image });
     }
 
     logger.info("collection parsed", { collection: "player-cards", count: entities.length });
@@ -132,6 +136,7 @@ export const playerCardsPipeline: CollectionPipeline<"player-cards"> = {
       indexCount: entries.length,
       warnings,
       conflicts: [],
+      images,
     };
   },
 };

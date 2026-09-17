@@ -1,6 +1,7 @@
 import { type Conflict, type Source, Stratagem, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { parseNumber } from "../normalize/numbers.ts";
 import {
   kindFromCategories,
@@ -47,6 +48,7 @@ export const stratagemsPipeline: CollectionPipeline<"stratagems"> = {
     const conflicts: Conflict[] = [];
 
     const entities: Stratagem[] = [];
+    const images: ImageRequest[] = [];
     for (const row of rows) {
       const page = await source.page(row.page.title);
       const raw = parseStratagemPage(page.html, { url: page.url });
@@ -98,7 +100,7 @@ export const stratagemsPipeline: CollectionPipeline<"stratagems"> = {
           .filter((alias) => alias !== raw.name)
           .sort(),
         description: raw.lead,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: raw.title,
           url: wikiUrl(raw.title),
@@ -134,9 +136,18 @@ export const stratagemsPipeline: CollectionPipeline<"stratagems"> = {
       }
       if (raw.lead === null) note(`no description on ${page.url}`);
       entities.push(stratagem.data);
+      const image = raw.image ?? row.icon;
+      if (image) images.push({ id, variant: null, image });
     }
 
     logger.info("collection parsed", { collection: "stratagems", count: entities.length });
-    return { collection: "stratagems", entities, indexCount: rows.length, warnings, conflicts };
+    return {
+      collection: "stratagems",
+      entities,
+      indexCount: rows.length,
+      warnings,
+      conflicts,
+      images,
+    };
   },
 };

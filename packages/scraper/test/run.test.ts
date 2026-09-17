@@ -15,17 +15,20 @@ import {
   type ArmorSet,
   type Collection,
   Collection as Collections,
+  type Image,
   validateDataset,
 } from "@hd2/schemas";
 import { readDatasetFiles } from "@hd2/schemas/node";
 import * as cheerio from "cheerio";
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { PIPELINES, selectPipelines } from "../src/collections/index.ts";
+import type { ImageBackend } from "../src/images/attach.ts";
 import { silentLogger } from "../src/log.ts";
 import type { RunReport } from "../src/publish/report.ts";
 import { runScrape } from "../src/run.ts";
 import { FixtureSource, type WikiPage, type WikiSource } from "../src/source.ts";
 import { FIXTURES_DIR } from "./fixtures.ts";
+import { fakeBackend } from "./images/fake-backend.ts";
 
 // E2E offline (arch §11): fixtures → data/v1 in a temporary DATA_DIR.
 
@@ -72,6 +75,40 @@ class RenamedSource implements WikiSource {
   }
 }
 
+/** Fixture source on which some wiki files were uploaded again: their version suffix changed. */
+class ReuploadedSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+  readonly #pattern: RegExp;
+
+  constructor(files: readonly string[]) {
+    const names = files.map((file) =>
+      file.replaceAll("'", "%27").replace(/[.*+?^${}()|[\]\\]/g, "\\$&"),
+    );
+    this.#pattern = new RegExp(
+      `(/images/(?:thumb/)?(?:${names.join("|")})(?:/[^"?\\s]*)?\\?)([a-f0-9]+)`,
+      "g",
+    );
+  }
+
+  static version(old: string): string {
+    return [...old].map((digit) => (15 - Number.parseInt(digit, 16)).toString(16)).join("");
+  }
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  async page(title: string): Promise<WikiPage> {
+    const page = await this.#inner.page(title);
+    const html = page.html.replace(
+      this.#pattern,
+      (_match, head: string, version: string) => `${head}${ReuploadedSource.version(version)}`,
+    );
+    return { ...page, html };
+  }
+}
+
 async function emptyDataDir(): Promise<string> {
   const root = await mkdtemp(join(tmpdir(), "hd2-run-"));
   await mkdir(join(root, "data", "overrides"), { recursive: true });
@@ -98,11 +135,13 @@ const run = (
   allowDrop = false,
   only: Collection[] | null = null,
   into = dataDir,
+  images: ImageBackend | null = fakeBackend(),
 ) =>
   runScrape({
     dataDir: into,
     source,
     http: null,
+    images,
     only,
     allowDrop,
     fullRefresh: false,
@@ -143,6 +182,14 @@ afterAll(async () => {
 });
 
 const fromBaseline = () => cp(join(baselineDir, "data"), dataDir, { recursive: true });
+
+/** Image keys with their content hash replaced: the examples carry placeholder hashes. */
+const hashless = (value: unknown): unknown =>
+  JSON.parse(JSON.stringify(value), (key, inner) =>
+    key === "url" && typeof inner === "string"
+      ? inner.replace(/\.[a-f0-9]{8}\.webp$/, ".<hash8>.webp")
+      : inner,
+  );
 
 describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
   it("publishes every collection equal to the golden snapshots", async () => {
@@ -213,16 +260,31 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       "weapons/g-8-immolation: traits not listed on Equipment Traits: incendiary, explosive",
       "weapons/gl-15-evictor: traits not listed on Equipment Traits: explosive, rounds-reload",
       "weapons/p-34-breacher: traits not listed on Equipment Traits: explosive, one-handed",
+      // The two unreleased player cards have neither a Player Card picture nor a Cosmetics box.
+      "player-cards/shroud-of-the-juggernaut: no image on the wiki",
+      "player-cards/standard-of-rapid-evacuation: no image on the wiki",
     ]);
     expect(report.changes.every((change) => change.kind === "added")).toBe(true);
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
+    // Every picture uploaded once; 11 wiki files serve two entities (shared passive icons…).
+    expect(report.images).toEqual({
+      requested: 850,
+      reused: 0,
+      fetched: 839,
+      uploaded: 850,
+      failed: 0,
+      deleted: 0,
+      images: 850,
+      orphans: 0,
+      bytes: expect.any(Number),
+    });
 
     const { files, issues } = await readDatasetFiles(join(dataDir, "v1"));
     expect(issues).toEqual([]);
     expect(validateDataset(files)).toEqual([]);
-    // meta + changelog + conflicts, then one list and one file per entity for each collection.
+    // meta + changelog + conflicts + images, then one list and one file per entity per collection.
     expect(files.size).toBe(
-      3 +
+      4 +
         (1 + 18) +
         (1 + 31) +
         (1 + 28) +
@@ -284,7 +346,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       },
     });
 
-    // AR-23 Liberator equals arch §5.4 except the image, which arrives in Phase 4.
+    // AR-23 Liberator equals arch §5.4, image key hash aside.
     const example = JSON.parse(
       await readFile(
         join(import.meta.dirname, "../../schemas/test/examples/weapons.ar-23-liberator.json"),
@@ -295,7 +357,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       files.get("weapons/ar-23-liberator.json") as { data: Record<string, unknown> }
     ).data;
     const { statsRaw, ...rest } = liberator;
-    expect(rest).toEqual({ ...example, statsRaw: undefined, image: null, wiki: example.wiki });
+    expect(hashless(rest)).toEqual(hashless({ ...example, statsRaw: undefined }));
     expect(statsRaw).toMatchObject(example.statsRaw);
     expect(files.get("weapons/r-40-k-hot-shot-marksman-rifle.json")).toMatchObject({
       data: { source: { warbondId: "castellans-creed", page: 1, cost: { amount: 35 } } },
@@ -312,7 +374,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       },
     });
 
-    // Orbital Precision Strike equals arch §5.4 except the image; table rows of `statsRaw` are
+    // Orbital Precision Strike equals arch §5.4 (image hash aside); table rows of `statsRaw` are
     // keyed by table title. MG-43 Machine Gun equals the fields the audit captured.
     const stratagem = async (id: string) => ({
       example: JSON.parse(
@@ -325,13 +387,9 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     });
     const ops = await stratagem("orbital-precision-strike");
     const { statsRaw: opsRaw, shipModules, attacks, ...opsRest } = ops.data;
-    expect(opsRest).toEqual({
-      ...ops.example,
-      image: null,
-      statsRaw: undefined,
-      shipModules: undefined,
-      attacks: undefined,
-    });
+    expect(hashless(opsRest)).toEqual(
+      hashless({ ...ops.example, statsRaw: undefined, shipModules: undefined, attacks: undefined }),
+    );
     expect(shipModules).toHaveLength(5);
     expect(
       (attacks as { name: string; kind: string }[]).map(({ name, kind }) => ({ name, kind })),
@@ -380,7 +438,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       },
     });
 
-    // TG-8 Sharpshooter armor and helmet equal arch §5.4 except the image. The helmet keeps its
+    // TG-8 Sharpshooter armor and helmet equal arch §5.4 (image hash aside). The helmet keeps its
     // page cost (30): the warbond table's 39 loses by rule 1 (below).
     for (const collection of ["armors", "helmets"]) {
       const example = JSON.parse(
@@ -392,10 +450,9 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
           "utf8",
         ),
       );
-      expect(files.get(`${collection}/tg-8-sharpshooter.json`)).toEqual({
-        meta: expect.anything(),
-        data: { ...example, image: null },
-      });
+      expect(
+        hashless((files.get(`${collection}/tg-8-sharpshooter.json`) as { data: unknown }).data),
+      ).toEqual(hashless(example));
     }
     expect(files.get("armors/sc-37-legionnaire.json")).toMatchObject({
       data: { weight: "light", armorRating: 50, speed: 550, staminaRegen: 125 },
@@ -460,7 +517,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       data: { armorIds: ["bfm-16-tanker", "bfm-220-ironclad"] },
     });
 
-    // Cosmetics equal arch §5.4 except images (Phase 4). The Castellans Green page lead has since
+    // Cosmetics equal arch §5.4 (image hashes aside). The Castellans Green page lead has since
     // been split from its acquisition paragraph, and the Sergeant row links its own page.
     const readExample = async (name: string) =>
       JSON.parse(
@@ -469,8 +526,6 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
           "utf8",
         ),
       );
-    const withoutImages = (value: unknown): unknown =>
-      JSON.parse(JSON.stringify(value), (key, inner) => (key === "image" ? null : inner));
     for (const name of [
       "player-cards.city-fighters-resolve",
       "emotes.clapping",
@@ -479,18 +534,19 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       "titles.sergeant",
     ]) {
       const [collection, id] = name.split(".");
-      expect(files.get(`${collection}/${id}.json`), name).toEqual({
-        meta: expect.anything(),
-        data: withoutImages(await readExample(name)),
-      });
+      expect(
+        hashless((files.get(`${collection}/${id}.json`) as { data: unknown }).data),
+        name,
+      ).toEqual(hashless(await readExample(name)));
     }
-    expect(files.get("patterns/castellans-green.json")).toEqual({
-      meta: expect.anything(),
-      data: {
-        ...(withoutImages(await readExample("patterns.castellans-green")) as object),
+    expect(
+      hashless((files.get("patterns/castellans-green.json") as { data: unknown }).data),
+    ).toEqual(
+      hashless({
+        ...(await readExample("patterns.castellans-green")),
         description: "Castellans Green patterns are selectable wraps for your various vehicles.",
-      },
-    });
+      }),
+    );
     expect(files.get("player-cards/solid-black.json")).toMatchObject({
       data: {
         wiki: { title: "Solid Black", flags: [] },
@@ -502,7 +558,9 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       data: {
         variants: ["hellpod", "shuttle", "exosuit", "vehicle"].map((target) => ({
           target,
-          image: null,
+          image: expect.objectContaining({
+            url: expect.stringMatching(new RegExp(`^/images/v1/patterns/standard-${target}\\.`)),
+          }),
           source: { type: "default", label: "Starter Equipment", cost: null },
         })),
       },
@@ -514,11 +572,10 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       data: { source: { warbondId: "righteous-revenants", page: 3 } },
     });
 
-    // Castellan's Creed equals arch §5.4 except the image, the TG-8 helmet at 30 (rule 1).
-    expect(files.get("warbonds/castellans-creed.json")).toEqual({
-      meta: expect.anything(),
-      data: withoutImages(await readExample("warbonds.castellans-creed")),
-    });
+    // Castellan's Creed equals arch §5.4 (image hash aside), the TG-8 helmet at 30 (rule 1).
+    expect(
+      hashless((files.get("warbonds/castellans-creed.json") as { data: unknown }).data),
+    ).toEqual(hashless(await readExample("warbonds.castellans-creed")));
     // Rows linking a redirect (LAS-16 Trident → LAS-13 Trident) or with curly quotes resolve.
     const refs = (id: string) =>
       (
@@ -555,19 +612,20 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       data: { source: { warbondId: "control-group", page: 3, cost: { amount: 55 } } },
     });
 
-    // Civilian weapons: SG-88 equals arch §5.4 except the image, the table-keyed `statsRaw` and
+    // Civilian weapons: SG-88 equals arch §5.4 except the image hash, the table-keyed `statsRaw` and
     // the maintenance flag the audit did not capture; the CQC-72 page is named Trench Shovel in
     // game and mentions CQC-73's warbond.
     const sg88 = await readExample("weapons.sg-88-break-action-shotgun");
     const { statsRaw: sg88Raw, ...sg88Rest } = (
       files.get("weapons/sg-88-break-action-shotgun.json") as { data: Record<string, unknown> }
     ).data;
-    expect(sg88Rest).toEqual({
-      ...sg88,
-      statsRaw: undefined,
-      image: null,
-      wiki: { ...sg88.wiki, flags: ["potentially_outdated"] },
-    });
+    expect(hashless(sg88Rest)).toEqual(
+      hashless({
+        ...sg88,
+        statsRaw: undefined,
+        wiki: { ...sg88.wiki, flags: ["potentially_outdated"] },
+      }),
+    );
     expect(sg88Raw).toMatchObject({
       "Standard Damage": "585 Ballistic",
       "SG-88 BREAK-ACTION SHOTGUN › Barrels": "x 2",
@@ -751,10 +809,156 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
   it("changes nothing on a second run with the same pages", async () => {
     await fromBaseline();
     const before = await readTree(dataDir);
+    const images = fakeBackend();
 
-    const report = await run("2026-09-16T21:07:00Z");
+    const report = await run("2026-09-16T21:07:00Z", undefined, false, null, dataDir, images);
     expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
+    // No wiki image request and no B2 call: every picture is in the manifest.
+    expect(report.images).toMatchObject({ requested: 850, reused: 850, fetched: 0, uploaded: 0 });
+    expect(images.fetched).toEqual([]);
+    expect(images.store.calls).toEqual([]);
     expect(await readTree(dataDir)).toEqual(before);
+  });
+
+  describe("images", () => {
+    const ICON = "Hellpod_Space_Optimization_Booster_Icon.svg";
+    const readJson = async (path: string) =>
+      JSON.parse(await readFile(join(dataDir, "v1", path), "utf8"));
+    const boosterImage = async () =>
+      (await readJson("boosters/hellpod-space-optimization.json")).data.image;
+
+    it("downloads and uploads only a picture whose wiki file has a new version", async () => {
+      await fromBaseline();
+      const old = await boosterImage();
+      const images = fakeBackend();
+
+      const report = await run(
+        "2026-09-16T21:07:00Z",
+        new ReuploadedSource([ICON]),
+        false,
+        ["boosters"],
+        dataDir,
+        images,
+      );
+      // A new key for the same wiki file is not a change for clients, but a new data version.
+      expect(report).toMatchObject({ ok: true, changed: true, changes: [] });
+      expect(report.images).toMatchObject({
+        requested: 18,
+        reused: 17,
+        fetched: 1,
+        uploaded: 1,
+        orphans: 1,
+      });
+      const version = ReuploadedSource.version("7aa15a");
+      expect(images.fetched).toEqual([`/images/${ICON}?${version}`]);
+      const image = await boosterImage();
+      expect(image).toMatchObject({ width: 256, height: 256, wikiFile: ICON });
+      expect(image.url).not.toBe(old.url);
+      expect(images.store.calls).toEqual([
+        `HEAD ${image.url.slice(1)}`,
+        `PUT ${image.url.slice(1)}`,
+      ]);
+      const manifest = await readJson("reports/images.json");
+      expect(manifest.images).toContainEqual({
+        ...image,
+        version,
+        rendition: "icon",
+        bytes: expect.any(Number),
+      });
+      expect(manifest.orphans).toEqual([{ url: old.url, since: "2026-09-16" }]);
+    });
+
+    it("deletes a superseded key from B2 30 days after it left the manifest", async () => {
+      await fromBaseline();
+      const old = await boosterImage();
+      const source = new ReuploadedSource([ICON]);
+      await run("2026-09-16T21:07:00Z", source, false, ["boosters"], dataDir, fakeBackend());
+
+      const early = fakeBackend();
+      const day29 = await run("2026-10-15T21:07:00Z", source, false, ["boosters"], dataDir, early);
+      expect(day29).toMatchObject({ ok: true, changed: false });
+      expect(early.store.calls).toEqual([]);
+
+      const due = fakeBackend();
+      const day30 = await run("2026-10-16T21:07:00Z", source, false, ["boosters"], dataDir, due);
+      expect(day30).toMatchObject({ ok: true, changed: true, changes: [] });
+      expect(day30.images).toMatchObject({ deleted: 1, orphans: 0 });
+      expect(due.store.calls).toEqual([`DELETE ${old.url.slice(1)}`]);
+      expect((await readJson("reports/images.json")).orphans).toEqual([]);
+    });
+
+    it("reuses the manifest offline and keeps the published image of a changed picture", async () => {
+      await fromBaseline();
+      const before = await readTree(dataDir);
+
+      const report = await run(
+        "2026-09-16T21:07:00Z",
+        new ReuploadedSource([ICON]),
+        false,
+        ["boosters"],
+        dataDir,
+        null,
+      );
+      expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
+      expect(report.images).toMatchObject({ requested: 18, reused: 17, fetched: 0, uploaded: 0 });
+      expect(report.warnings).toContain(
+        "images: 1 of 18 pictures need a download, which offline runs skip: published images are kept, new entities get none",
+      );
+      expect(await readTree(dataDir)).toEqual(before);
+    });
+
+    it("keeps published images when up to 5 % of pictures fail and fails above that", async () => {
+      await fromBaseline();
+      const weapons = (await readJson("weapons.json")).data as { id: string; image: Image }[];
+      const source = new ReuploadedSource(weapons.map((weapon) => weapon.image.wikiFile));
+      const broken = weapons.slice(0, 6);
+      const before = await readTree(dataDir);
+
+      // 6 of 104 (5.8 %): 4 downloads and 2 uploads fail.
+      const failing = (count: number) => {
+        const images = fakeBackend((path) =>
+          broken
+            .slice(0, Math.min(count, 4))
+            .some((weapon) => path.includes(weapon.image.wikiFile)),
+        );
+        const uploads = broken.slice(4, count).map((weapon) => `images/v1/weapons/${weapon.id}.`);
+        images.store.failPut = (key) => uploads.some((prefix) => key.startsWith(prefix));
+        return images;
+      };
+      const failed = await run(
+        "2026-09-16T21:07:00Z",
+        source,
+        false,
+        ["weapons"],
+        dataDir,
+        failing(6),
+      );
+      expect(failed.failure?.kind).toBe("images");
+      expect(failed.failure?.messages[0]).toBe("6 images failed");
+      expect(await readTree(dataDir)).toEqual(before);
+
+      // 5 of 104 (4.8 %): published, those five keep their published image.
+      const report = await run(
+        "2026-09-16T21:07:00Z",
+        source,
+        false,
+        ["weapons"],
+        dataDir,
+        failing(5),
+      );
+      expect(report).toMatchObject({ ok: true, changed: true, changes: [] });
+      expect(report.images).toMatchObject({ requested: 104, failed: 5 });
+      for (const weapon of broken.slice(0, 5)) {
+        expect((await readJson(`weapons/${weapon.id}.json`)).data.image).toEqual(weapon.image);
+        expect(report.warnings).toContainEqual(
+          expect.stringMatching(
+            new RegExp(
+              `^weapons/${weapon.id}: image .* failed \\(.*\\); kept the published image$`,
+            ),
+          ),
+        );
+      }
+    });
   });
 
   it("fails with count-drop when 3 of 18 rows disappear and leaves data untouched", async () => {
@@ -794,6 +998,13 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     expect(changelog.data.map((entry: { date: string }) => entry.date)).toEqual([
       "2026-09-16",
       "2026-09-15",
+    ]);
+    // Its image is no longer referenced: an orphan, deleted from B2 after 30 days.
+    const manifest = JSON.parse(
+      await readFile(join(dataDir, "v1", "reports", "images.json"), "utf8"),
+    );
+    expect(manifest.orphans).toEqual([
+      { url: expect.stringMatching(/^\/images\/v1\/boosters\/stun-pods\./), since: "2026-09-16" },
     ]);
   });
 
@@ -870,7 +1081,12 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       if (entry.isFile()) {
         const path = join(entry.parentPath, entry.name);
         const text = await readFile(path, "utf8");
-        await writeFile(path, text.replaceAll(`"id": "${NEW}"`, `"id": "${OLD}"`));
+        await writeFile(
+          path,
+          text
+            .replaceAll(`"id": "${NEW}"`, `"id": "${OLD}"`)
+            .replaceAll(`/images/v1/boosters/${NEW}.`, `/images/v1/boosters/${OLD}.`),
+        );
       }
     }
     await rename(join(v1, "boosters", `${NEW}.json`), join(v1, "boosters", `${OLD}.json`));

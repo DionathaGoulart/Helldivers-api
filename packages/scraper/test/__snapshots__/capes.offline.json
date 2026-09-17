@@ -5,7 +5,12 @@
     "name": "Against the Tyrant Cloud",
     "aliases": [],
     "description": "No oppressive murk, no fascist penumbra, no dictatorial haze and no unfree emanation; no tyrannical Gloom shall ever stand a chance against the searing light of Helldiver fire.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/against-the-tyrant-cloud.85bc89c5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Against_the_Tyrant_Cloud_Cape_Render.png"
+    },
     "wiki": {
       "title": "Against the Tyrant Cloud",
       "url": "https://helldivers.wiki.gg/wiki/Against_the_Tyrant_Cloud",
@@ -28,7 +33,12 @@
     "name": "Agent of Oblivion",
     "aliases": [],
     "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's “Greener Galaxy” campaign.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/agent-of-oblivion.a8cf596d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Agent_of_Oblivion_Cape_Render.png"
+    },
     "wiki": {
       "title": "Agent of Oblivion",
       "url": "https://helldivers.wiki.gg/wiki/Agent_of_Oblivion",
@@ -56,7 +66,12 @@
     "name": "Badge of Order",
     "aliases": [],
     "description": "This sigil reaffirms the Helldiver's pledge to protect Managed Democracy, serve Managed Democracy, and uphold Managed Democracy.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/badge-of-order.1533ee73.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Badge_of_Order_Cape_Render.png"
+    },
     "wiki": {
       "title": "Badge of Order",
       "url": "https://helldivers.wiki.gg/wiki/Badge_of_Order",
@@ -84,7 +99,12 @@
     "name": "Bastion of Integrity",
     "aliases": [],
     "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aerial recovery crews.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/bastion-of-integrity.e906efbd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Bastion_of_Integrity_Cape_Render.png"
+    },
     "wiki": {
       "title": "Bastion of Integrity",
       "url": "https://helldivers.wiki.gg/wiki/Bastion_of_Integrity",
@@ -112,7 +132,12 @@
     "name": "Blazing Samaritan",
     "aliases": [],
     "description": "Emblazoned with the red, white, and green of the 676th Democracy Regiment, who made their final stand on the slopes of Justice Hill.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/blazing-samaritan.88e8e226.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Blazing_Samaritan_Cape_Render.png"
+    },
     "wiki": {
       "title": "Blazing Samaritan",
       "url": "https://helldivers.wiki.gg/wiki/Blazing_Samaritan",
@@ -140,7 +165,12 @@
     "name": "Botslayer",
     "aliases": [],
     "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/botslayer.4bf0bf7f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Botslayer_Cape_Render.png"
+    },
     "wiki": {
       "title": "Botslayer",
       "url": "https://helldivers.wiki.gg/wiki/Botslayer",
@@ -168,7 +198,12 @@
     "name": "Camo Cloak",
     "aliases": [],
     "description": "The horrors of Tyranny are manifold, their minions many, but they are naught before Democracy's twin swords: overwhelming firepower, and those trained to unquestioningly wield it.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/camo-cloak.497d595b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Camo_Cloak_Cape_Icon.png"
+    },
     "wiki": {
       "title": "Camo Cloak",
       "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
@@ -196,7 +231,12 @@
     "name": "City Fighter's Resolve",
     "aliases": [],
     "description": "The Helldivers are all that stand between Democracy and the Fascist Hordes. Trained since birth in the art of Defensive Warfare, they meet mindless legions with the steady aim of one who has seen countless battles. - Excerpt from the journal of a Charan Democracy Officer, ca. 2082 SE",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/city-fighters-resolve.1ddd45c1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "City_Fighter's_Resolve_Cape_Render.png"
+    },
     "wiki": {
       "title": "City Fighter's Resolve",
       "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
@@ -224,7 +264,12 @@
     "name": "Cloak of Posterity's Gratitude",
     "aliases": [],
     "description": "A representation of the thankfulness of those infinite descendants whose liberated existence we strive to ensure.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/cloak-of-posteritys-gratitude.08d01d5c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Cloak_of_Posterity's_Gratitude_Cape_Armory.png"
+    },
     "wiki": {
       "title": "Cloak of Posterity's Gratitude",
       "url": "https://helldivers.wiki.gg/wiki/Cloak_of_Posterity's_Gratitude",
@@ -250,7 +295,12 @@
     "name": "Conductor of Brilliance",
     "aliases": [],
     "description": "The embroidered pattern uses aluminium from Automaton motherboards, granting the once-wretched metals a new and noble purpose.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/conductor-of-brilliance.40325a37.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Conductor_of_Brilliance_Cape_Render.png"
+    },
     "wiki": {
       "title": "Conductor of Brilliance",
       "url": "https://helldivers.wiki.gg/wiki/Conductor_of_Brilliance",
@@ -278,7 +328,12 @@
     "name": "Cover of Darkness",
     "aliases": [],
     "description": "When children have trouble sleeping, tucking them in under this cape reminds them that they are never alone, for Liberty's unseen defenders are always watching over them.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/cover-of-darkness.0c7f6445.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Cover_of_Darkness_Cape_Render.png"
+    },
     "wiki": {
       "title": "Cover of Darkness",
       "url": "https://helldivers.wiki.gg/wiki/Cover_of_Darkness",
@@ -306,7 +361,12 @@
     "name": "Crest of the Unsullied",
     "aliases": [],
     "description": "With sharp geometric angles to symbolize the rigid chain of command, this cape embodies the sanctity and moral fortitude of unblemished leadership over the mud-caked warriors they direct.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/crest-of-the-unsullied.31832a18.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Crest_of_the_Unsullied_Cape_Render.png"
+    },
     "wiki": {
       "title": "Crest of the Unsullied",
       "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
@@ -334,7 +394,12 @@
     "name": "Cresting Honor",
     "aliases": [],
     "description": "The yellow is the exact shade of the Ministry of Unity's ‘Golden Gate’, leading to the Chamber of Unanimous Decision.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/cresting-honor.47dee768.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Cresting_Honor_Cape_Render.png"
+    },
     "wiki": {
       "title": "Cresting Honor",
       "url": "https://helldivers.wiki.gg/wiki/Cresting_Honor",
@@ -362,7 +427,12 @@
     "name": "De-Forester's Sailcloth",
     "aliases": [],
     "description": "This convenient cape can double as ground insulation, warming blanket, or camp roofing to the enterprising defoliator.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/de-foresters-sailcloth.0ed27e2b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "De-Forester's_Sailcloth_Cape_Render.png"
+    },
     "wiki": {
       "title": "De-Forester's Sailcloth",
       "url": "https://helldivers.wiki.gg/wiki/De-Forester's_Sailcloth",
@@ -390,7 +460,12 @@
     "name": "Defender of Our Dream",
     "aliases": [],
     "description": "Commemorating the New Stockholm treaty on prisoners of war, this cape celebrates the right of all enemy combatants to a swift and merciful execution.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/defender-of-our-dream.33c24904.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Defender_of_Our_Dream_Cape_Render.png"
+    },
     "wiki": {
       "title": "Defender of Our Dream",
       "url": "https://helldivers.wiki.gg/wiki/Defender_of_Our_Dream",
@@ -418,7 +493,12 @@
     "name": "Diagram of the Noblest Payload",
     "aliases": [],
     "description": "Rendering the Helldiver's to the battlefield in splendorous foil, this cape illustrates that in any successful military machinery, heroic humans are the most vital piece.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/diagram-of-the-noblest-payload.043adac9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Diagram_of_the_Noblest_Payload_Cape_Render.png"
+    },
     "wiki": {
       "title": "Diagram of the Noblest Payload",
       "url": "https://helldivers.wiki.gg/wiki/Diagram_of_the_Noblest_Payload",
@@ -448,7 +528,12 @@
     "name": "Dignity of Toil",
     "aliases": [],
     "description": "Woven from coarse, industrial fibers designed to absorb sweat and oil, this cape features a spade emblem to honor Super Earth's groundbreakers, who ensure Liberty's light finds its way through any planet's crust.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/dignity-of-toil.6eaaff10.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Dignity_of_Toil_Cape_Render.png"
+    },
     "wiki": {
       "title": "Dignity of Toil",
       "url": "https://helldivers.wiki.gg/wiki/Dignity_of_Toil",
@@ -476,7 +561,12 @@
     "name": "Dissident's Nightmare",
     "aliases": [],
     "description": "After extensive testing in Patriotic Rehabilitation Centers, this design was proved most terrifying to dissent-afflicted individuals.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/dissidents-nightmare.f9132016.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Dissident's_Nightmare_Cape_Armory.png"
+    },
     "wiki": {
       "title": "Dissident's Nightmare",
       "url": "https://helldivers.wiki.gg/wiki/Dissident's_Nightmare",
@@ -504,7 +594,12 @@
     "name": "Drape of Glory",
     "aliases": [],
     "description": "Research suggests that Helldivers wearing this cape are seen as 17% more patriotic.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/drape-of-glory.40071e9b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Drape_of_Glory_Cape_Render.png"
+    },
     "wiki": {
       "title": "Drape of Glory",
       "url": "https://helldivers.wiki.gg/wiki/Drape_of_Glory",
@@ -530,7 +625,12 @@
     "name": "Eagle's Fury",
     "aliases": [],
     "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eagles-fury.5020cdd4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eagle's_Fury_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eagle's Fury",
       "url": "https://helldivers.wiki.gg/wiki/Eagle's_Fury",
@@ -558,7 +658,12 @@
     "name": "Emblem of Freedom",
     "aliases": [],
     "description": "Created to honor the great Freedom Chant of 2-14, in which over 10,000 loyal citizens united as one to express their undying respect for Freedom.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/emblem-of-freedom.a7381689.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Emblem_of_Freedom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Emblem of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Emblem_of_Freedom",
@@ -581,7 +686,12 @@
     "name": "Eternal Corona",
     "aliases": [],
     "description": "Featuring an ancient sun symbol and a distressed look, this cape reminds us that the light of Liberty is everlasting, and will keep shining even when we ourselves have become tattered and frayed.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eternal-corona.0fee7a1b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eternal_Corona_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eternal Corona",
       "url": "https://helldivers.wiki.gg/wiki/Eternal_Corona",
@@ -609,7 +719,12 @@
     "name": "Executioner's Canopy",
     "aliases": [],
     "description": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/executioners-canopy.6d378b39.webp",
+      "width": 492,
+      "height": 491,
+      "wikiFile": "Executioner's_Canopy_Cape_Armory.png"
+    },
     "wiki": {
       "title": "Executioner's Canopy",
       "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",
@@ -637,7 +752,12 @@
     "name": "Eye of Freedom",
     "aliases": [],
     "description": "A mark of stalwart loyalty bestowed only to those who have proved themselves worthy through unquestioning dedication.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eye-of-freedom.bcde0b2e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eye_of_Freedom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eye of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Eye_of_Freedom",
@@ -660,7 +780,12 @@
     "name": "Eye of Liberty",
     "aliases": [],
     "description": "Let the Second Anniversary of the Second Galactic War be witnessed by the lidless eye of Liberty, that ever-watchful orb which provides safety through its ceaseless surveillance.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eye-of-liberty.cc93970d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eye_of_Liberty_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eye of Liberty",
       "url": "https://helldivers.wiki.gg/wiki/Eye_of_Liberty",
@@ -683,7 +808,12 @@
     "name": "Eye of the Clandestine",
     "aliases": [],
     "description": "Those who serve Liberty from the shadows often elect to stay anonymous, moving like traceless specters through the night. May they watch over us always.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eye-of-the-clandestine.9e61cbe1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eye_of_the_Clandestine_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eye of the Clandestine",
       "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",
@@ -711,7 +841,12 @@
     "name": "Fallen Hero's Vengeance",
     "aliases": [],
     "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/fallen-heros-vengeance.041c9aba.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Fallen_Hero's_Vengeance_Cape_Render.png"
+    },
     "wiki": {
       "title": "Fallen Hero's Vengeance",
       "url": "https://helldivers.wiki.gg/wiki/Fallen_Hero's_Vengeance",
@@ -734,7 +869,12 @@
     "name": "Federation's Embrace",
     "aliases": [],
     "description": "When donning the One True Flag, one must face the direction of Super Earth, recite the Super Earth Anthem, and salute one's own image in the nearest reflective surface. Wrongful discarding of this cape is a capital offense.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/federations-embrace.3bce8f02.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Federation's_Embrace_Cape_Render.png"
+    },
     "wiki": {
       "title": "Federation's Embrace",
       "url": "https://helldivers.wiki.gg/wiki/Federation's_Embrace",
@@ -762,7 +902,12 @@
     "name": "Foe Rent Asunder",
     "aliases": [],
     "description": "This ancient, likely allegorical, illustration of Might triumphing over the Anguiform is seen by scholars as a symbol of humankind's supremacy in the art of violence.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/foe-rent-asunder.23e401c4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Foe_Rent_Asunder_Cape_Render.png"
+    },
     "wiki": {
       "title": "Foe Rent Asunder",
       "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
@@ -790,7 +935,12 @@
     "name": "Foesmasher",
     "aliases": [],
     "description": "Durable, waterproof, and thermally-lined, surplus units of this cape are favored by domestic campers, to make tents.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/foesmasher.513ff407.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Foesmasher_Cape_Render.png"
+    },
     "wiki": {
       "title": "Foesmasher",
       "url": "https://helldivers.wiki.gg/wiki/Foesmasher",
@@ -813,7 +963,12 @@
     "name": "Fre Liberam",
     "aliases": [],
     "description": "Each purchase of this cape comes with a complimentary will and testament amendment form, which guarantees the soon-to-be-deceased a prominent spot on the Wall of Martyrs.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/fre-liberam.90c174f1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Fre_Liberam_Cape_Render.png"
+    },
     "wiki": {
       "title": "Fre Liberam",
       "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",
@@ -841,7 +996,12 @@
     "name": "Free-Spirited Spangles",
     "aliases": [],
     "description": "A tribute to the mischief-makers and mavericks, those trailblazers who dutifully execute their orders with universally-endearing panache. The star-crossed trail calls to mind the special kind of Freedom that can only be achieved by going very fast in very expensive state-owned vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/free-spirited-spangles.8ce0c70b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Free-Spirited_Spangles_Cape_Render.png"
+    },
     "wiki": {
       "title": "Free-Spirited Spangles",
       "url": "https://helldivers.wiki.gg/wiki/Free-Spirited_Spangles",
@@ -869,7 +1029,12 @@
     "name": "Freedom's Tapestry",
     "aliases": [],
     "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/freedoms-tapestry.598fde6b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Freedom's_Tapestry_Cape_Render.png"
+    },
     "wiki": {
       "title": "Freedom's Tapestry",
       "url": "https://helldivers.wiki.gg/wiki/Freedom's_Tapestry",
@@ -897,7 +1062,12 @@
     "name": "Gilded Quill",
     "aliases": [],
     "description": "The golden, piercing quills symbolise the deadly and poetic Justice delivered to seditious oppositionists. Silent sanctions, delivered with unerring precision and incontestable deniability.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/gilded-quill.f842a896.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Gilded_Quill_Cape_Render.png"
+    },
     "wiki": {
       "title": "Gilded Quill",
       "url": "https://helldivers.wiki.gg/wiki/Gilded_Quill",
@@ -925,7 +1095,12 @@
     "name": "Harbinger of True Equality",
     "aliases": [],
     "description": "Wearers of this cape know that even enemies of Freedom deserve to be equal. Equally dead.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/harbinger-of-true-equality.6f246670.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Harbinger_of_True_Equality_Cape_Render.png"
+    },
     "wiki": {
       "title": "Harbinger of True Equality",
       "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
@@ -953,7 +1128,12 @@
     "name": "Holder of the Yellow Line",
     "aliases": [],
     "description": "Since ancient times, the yellow line has symbolized an uncrossable boundary. To don this cape is to draw that line between tyranny and liberty, between alien monstrosities and Super Earth property, and never yield the right of way.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/holder-of-the-yellow-line.5afa4a8f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Holder_of_the_Yellow_Line_Cape_Render.png"
+    },
     "wiki": {
       "title": "Holder of the Yellow Line",
       "url": "https://helldivers.wiki.gg/wiki/Holder_of_the_Yellow_Line",
@@ -981,7 +1161,12 @@
     "name": "Honored Heirloom",
     "aliases": [],
     "description": "Should the wearer of this cape perish at the hands of Freedom's enemies, it is customary to pass the cape on to their bravest child during the funeral, inspiring the next generation to take up arms.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/honored-heirloom.54aba62f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Honored_Heirloom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Honored Heirloom",
       "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
@@ -1009,7 +1194,12 @@
     "name": "Humble Regalia",
     "aliases": [],
     "description": "This modest cape has been worn by those guarding the Chamber of Unanimous Decision since time immemorial.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/humble-regalia.adb8cb76.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Humble_Regalia_Cape_Render.png"
+    },
     "wiki": {
       "title": "Humble Regalia",
       "url": "https://helldivers.wiki.gg/wiki/Humble_Regalia",
@@ -1037,7 +1227,12 @@
     "name": "Independence Bringer",
     "aliases": [],
     "description": "This cape's cropped length symbolizes the brevity of galactic conflicts, thanks to the efficiency of the Helldivers.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/independence-bringer.81f39e4c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Independence_Bringer_Cape_Render.png"
+    },
     "wiki": {
       "title": "Independence Bringer",
       "url": "https://helldivers.wiki.gg/wiki/Independence_Bringer",
@@ -1065,7 +1260,12 @@
     "name": "Ingress-81",
     "aliases": [],
     "description": "This cape reminds us that even faced with the abyssal darkness of space, nothing can stand against our human ingenuity, our powers of collaboration, or our sheer overwhelming numbers.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/ingress-81.e129617e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Ingress-81_Cape_Render.png"
+    },
     "wiki": {
       "title": "Ingress-81",
       "url": "https://helldivers.wiki.gg/wiki/Ingress-81",
@@ -1088,7 +1288,12 @@
     "name": "Judgment Day",
     "aliases": [],
     "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak up on those wearing this cape.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/judgment-day.6c301c4e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Judgment_Day_Cape_Render.png"
+    },
     "wiki": {
       "title": "Judgment Day",
       "url": "https://helldivers.wiki.gg/wiki/Judgment_Day",
@@ -1116,7 +1321,12 @@
     "name": "Liberty's Herald",
     "aliases": [],
     "description": "The two stripes serve as a reminder of the two pillars of successful military campaigns: attack, and further attack.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/libertys-herald.71f95ff4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Liberty's_Herald_Cape_Render.png"
+    },
     "wiki": {
       "title": "Liberty's Herald",
       "url": "https://helldivers.wiki.gg/wiki/Liberty's_Herald",
@@ -1144,7 +1354,12 @@
     "name": "Light of Eternal Liberty",
     "aliases": [],
     "description": "The unimpeachable justice of this cape's design is said to blind the enemies of Freedom with its glorious light.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/light-of-eternal-liberty.ada17226.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Light_of_Eternal_Liberty_Cape_Render.png"
+    },
     "wiki": {
       "title": "Light of Eternal Liberty",
       "url": "https://helldivers.wiki.gg/wiki/Light_of_Eternal_Liberty",
@@ -1172,7 +1387,12 @@
     "name": "Mantle of True Citizenship",
     "aliases": [],
     "description": "The featherlight construction belies the heavy burden this cape entails—to live the Creed of the True Citizen.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/mantle-of-true-citizenship.803cb745.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Mantle_of_True_Citizenship_Cape_Render.png"
+    },
     "wiki": {
       "title": "Mantle of True Citizenship",
       "url": "https://helldivers.wiki.gg/wiki/Mantle_of_True_Citizenship",
@@ -1200,7 +1420,12 @@
     "name": "Mark of the Constrictor",
     "aliases": [],
     "description": "Marks the most Free of the Free, those who will seize tyranny by the neck and squeeze until no oppression remains.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/mark-of-the-constrictor.7c7f4d11.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Mark_of_the_Constrictor_Cape_Render.png"
+    },
     "wiki": {
       "title": "Mark of the Constrictor",
       "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Constrictor",
@@ -1228,7 +1453,12 @@
     "name": "Mark of the Crimson Fang",
     "aliases": [],
     "description": "Marks the most obedient of the obedient, those who will strike headlong at the veins of Tyranny and administer the sweet antidote of Freedom.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/mark-of-the-crimson-fang.feb39a56.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Mark_of_the_Crimson_Fang_Cape_Armory.png"
+    },
     "wiki": {
       "title": "Mark of the Crimson Fang",
       "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Crimson_Fang",
@@ -1256,7 +1486,12 @@
     "name": "Martyris Rex",
     "aliases": [],
     "description": "It is said that only the truly Democratic can lift this cape to their shoulders.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/martyris-rex.d7d2c8b5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Martyris_Rex_Cape_Render.png"
+    },
     "wiki": {
       "title": "Martyris Rex",
       "url": "https://helldivers.wiki.gg/wiki/Martyris_Rex",
@@ -1284,7 +1519,12 @@
     "name": "Miranda's Legacy",
     "aliases": [],
     "description": "Although Super Citizen Miranda's true identity has been lost to time, most legal historians agree that she was once a patron of highly-efficient interrogation techniques.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/mirandas-legacy.4c4fb386.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Miranda's_Legacy_Cape_Render.png"
+    },
     "wiki": {
       "title": "Miranda's Legacy",
       "url": "https://helldivers.wiki.gg/wiki/Miranda's_Legacy",
@@ -1312,7 +1552,12 @@
     "name": "Mother Eagle's Wings",
     "aliases": [],
     "description": "Those taken under the wings of the Law can rest easy knowing that their transgressions will soon be laid bare, their harms amended, and their citizenship safely sequestered.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/mother-eagles-wings.a84dc47b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Mother_Eagle's_Wings_Cape_Render.png"
+    },
     "wiki": {
       "title": "Mother Eagle's Wings",
       "url": "https://helldivers.wiki.gg/wiki/Mother_Eagle's_Wings",
@@ -1340,7 +1585,12 @@
     "name": "Order of the Venerated Ballot",
     "aliases": [],
     "description": "Adorned with the insignia of the Order of the Venerated Ballot, a Ministry-sanctioned Patriot's Club for citizens who pledge themselves to preserving the sanctity of voting.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/order-of-the-venerated-ballot.5b8ff4a3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Order_of_the_Venerated_Ballot_Cape_Render.png"
+    },
     "wiki": {
       "title": "Order of the Venerated Ballot",
       "url": "https://helldivers.wiki.gg/wiki/Order_of_the_Venerated_Ballot",
@@ -1368,7 +1618,12 @@
     "name": "Over Artifice Triumphant",
     "aliases": [],
     "description": "Humanity's intellect shines brighter than all other, piercing even the treacherous darkness that spawned the Automatons' pseude-sentience; the darkness known as computer science",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/over-artifice-triumphant.fd1c8633.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Over_Artifice_Triumphant_Cape_Render.png"
+    },
     "wiki": {
       "title": "Over Artifice Triumphant",
       "url": "https://helldivers.wiki.gg/wiki/Over_Artifice_Triumphant",
@@ -1396,7 +1651,12 @@
     "name": "Patient Zero's Remembrance",
     "aliases": [],
     "description": "With this cape we honor the bio-warfare pioneers of Division Zero, conscripted from quarantine zones and hospices to spread their Carcino-Plague on the battlefield.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/patient-zeros-remembrance.f4f7abdc.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Patient_Zero's_Remembrance_Cape_Render.png"
+    },
     "wiki": {
       "title": "Patient Zero's Remembrance",
       "url": "https://helldivers.wiki.gg/wiki/Patient_Zero's_Remembrance",
@@ -1424,7 +1684,12 @@
     "name": "Per Democrasum",
     "aliases": [],
     "description": "This cape honors the Eagle pilots who would follow a Stratagem beacon into the very jaws of tyranny, even when the beacon's placement seems inscrutable to the non-Helldiver mind.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/per-democrasum.7c7eb168.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Per_Democrasum_Cape_Render.png"
+    },
     "wiki": {
       "title": "Per Democrasum",
       "url": "https://helldivers.wiki.gg/wiki/Per_Democrasum",
@@ -1452,7 +1717,12 @@
     "name": "Pillar of the Abyss",
     "aliases": [],
     "description": "A cape inspired by hypothetical covert operatives—pillars of Democratic order, operating in the hostile abyss where Liberty's light cannot yet reach.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/pillar-of-the-abyss.464f1f7a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Pillar_of_the_Abyss_Cape_Render.png"
+    },
     "wiki": {
       "title": "Pillar of the Abyss",
       "url": "https://helldivers.wiki.gg/wiki/Pillar_of_the_Abyss",
@@ -1480,7 +1750,12 @@
     "name": "Pillars of Freedom",
     "aliases": [],
     "description": "Woven in honor of our loyal Helldivers, whose hearts' blood is the foundation on which Super Earth is built.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/pillars-of-freedom.705ea304.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Pillars_of_Freedom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Pillars of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Pillars_of_Freedom",
@@ -1503,7 +1778,12 @@
     "name": "Pinions of Everlasting Glory",
     "aliases": [],
     "description": "All but ensures ascension to the immortal ranks of those enshrined in the Super Earth Digital Archive of Valorous Acts.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/pinions-of-everlasting-glory.f8d552ac.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Pinions_of_Everlasting_Glory_Cape_Render.png"
+    },
     "wiki": {
       "title": "Pinions of Everlasting Glory",
       "url": "https://helldivers.wiki.gg/wiki/Pinions_of_Everlasting_Glory",
@@ -1531,7 +1811,12 @@
     "name": "Pride of the Whistleblower",
     "aliases": [],
     "description": "Granted to the Truth Enforcers' Informant of the Month, this tasteful cape conjures images of dissident blood on asphalt.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/pride-of-the-whistleblower.91304154.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Pride_of_the_Whistleblower_Cape_Render.png"
+    },
     "wiki": {
       "title": "Pride of the Whistleblower",
       "url": "https://helldivers.wiki.gg/wiki/Pride_of_the_Whistleblower",
@@ -1559,7 +1844,12 @@
     "name": "Proof of Faultless Virtue",
     "aliases": [],
     "description": "This cape signifies that its wearer thinks, feels and acts correctly at all times, and thus bears the responsibility to educate and re-educate their fellow citizen.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/proof-of-faultless-virtue.168ac7d4.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Proof_of_Faultless_Virtue_Cape_Render.png"
+    },
     "wiki": {
       "title": "Proof of Faultless Virtue",
       "url": "https://helldivers.wiki.gg/wiki/Proof_of_Faultless_Virtue",
@@ -1587,7 +1877,12 @@
     "name": "Protector of the Heart",
     "aliases": [],
     "description": "When the Illuminate threatened Super Earth, the very Heart of Democracy, the Helldivers answered the call.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/protector-of-the-heart.f0868377.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Protector_of_the_Heart_Cape_Render.png"
+    },
     "wiki": {
       "title": "Protector of the Heart",
       "url": "https://helldivers.wiki.gg/wiki/Protector_of_the_Heart",
@@ -1610,7 +1905,12 @@
     "name": "Purifying Eclipse",
     "aliases": [],
     "description": "A tribute to the liberation of Choepessa IV in the First Galactic War, in which so much orbital ordnance was detonated that its sun was occluded by ash for an entire lunar cycle.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/purifying-eclipse.1755c7d3.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Purifying_Eclipse_Cape_Render.png"
+    },
     "wiki": {
       "title": "Purifying Eclipse",
       "url": "https://helldivers.wiki.gg/wiki/Purifying_Eclipse",
@@ -1638,7 +1938,12 @@
     "name": "Rags of the Fashionable",
     "aliases": [],
     "description": "Gently stonewashed by experienced hands, this luxury cape exudes the essence of state-approved attitude.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/rags-of-the-fashionable.4e65cf71.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Rags_of_the_Fashionable_Cape_Render.png"
+    },
     "wiki": {
       "title": "Rags of the Fashionable",
       "url": "https://helldivers.wiki.gg/wiki/Rags_of_the_Fashionable",
@@ -1666,7 +1971,12 @@
     "name": "Reaper of Bounties",
     "aliases": [],
     "description": "This cape recalls the popular folk tale of the “Freedomslingers”: re-educated dissidents, seeking redemption on the Federation's Borderline, hunting dangerous thought-traitors in exchange for ballot bounties.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/reaper-of-bounties.3c0588a8.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Reaper_of_Bounties_Cape_Render.png"
+    },
     "wiki": {
       "title": "Reaper of Bounties",
       "url": "https://helldivers.wiki.gg/wiki/Reaper_of_Bounties",
@@ -1694,7 +2004,12 @@
     "name": "Rebar Resolve",
     "aliases": [],
     "description": "Inside the collar is embroidered: “Wherever I may plant my shield, know that I will never yield,” and “machine washable.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/rebar-resolve.768d8e10.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Greatcloak_of_Rebar_Resolve_Cape_Render.png"
+    },
     "wiki": {
       "title": "Rebar Resolve",
       "url": "https://helldivers.wiki.gg/wiki/Rebar_Resolve",
@@ -1722,7 +2037,12 @@
     "name": "Reckoning's Cheer",
     "aliases": [],
     "description": "When facing the enemies of Freedom this Reckoningtide, keep up the festive spirit by recalling the opening line of A Vengeant Carol: \"They'll soon be dead, to begin with.\"",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/reckonings-cheer.2ca0683f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Reckoning's_Cheer_Cape_Render.png"
+    },
     "wiki": {
       "title": "Reckoning's Cheer",
       "url": "https://helldivers.wiki.gg/wiki/Reckoning's_Cheer",
@@ -1745,7 +2065,12 @@
     "name": "Rightful Occupier",
     "aliases": [],
     "description": "Painted by visionary artist Silas Garm during an intense fever, this symbol represents Humanity's great Galactic endeavor: the blood-soaked dawn of Lasting Peace.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/rightful-occupier.1864f4c2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Rightful_Occupier_Cape_Render.png"
+    },
     "wiki": {
       "title": "Rightful Occupier",
       "url": "https://helldivers.wiki.gg/wiki/Rightful_Occupier",
@@ -1773,7 +2098,12 @@
     "name": "Schema Laid Bare",
     "aliases": [],
     "description": "This cape depicts the inner workings of a medical device submitted to the Ministry of Science 70 years ago, and is bound to clear their patent approval process any day now.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/schema-laid-bare.a95ddad5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Schema_Laid_Bare_Cape_Render.png"
+    },
     "wiki": {
       "title": "Schema Laid Bare",
       "url": "https://helldivers.wiki.gg/wiki/Schema_Laid_Bare",
@@ -1801,7 +2131,12 @@
     "name": "Seal of General Consensus",
     "aliases": [],
     "description": "Made famous by the SEAF commander of the same name, this seal reminds us that only perfect Unity can ensure perfect Freedom.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/seal-of-general-consensus.c34d5a13.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Seal_of_General_Consensus_Cape_Render.png"
+    },
     "wiki": {
       "title": "Seal of General Consensus",
       "url": "https://helldivers.wiki.gg/wiki/Seal_of_General_Consensus",
@@ -1829,7 +2164,12 @@
     "name": "Shroud of the Juggernaut",
     "aliases": [],
     "description": "Shroud of the Juggernaut is a cape and a player card in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/shroud-of-the-juggernaut.58b996db.webp",
+      "width": 144,
+      "height": 297,
+      "wikiFile": "Shroud_of_the_Juggernaut_Cape_Render.png"
+    },
     "wiki": {
       "title": "Shroud of the Juggernaut",
       "url": "https://helldivers.wiki.gg/wiki/Shroud_of_the_Juggernaut",
@@ -1856,7 +2196,12 @@
     "name": "Standard of Rapid Evacuation",
     "aliases": [],
     "description": "Standard of Rapid Evacuation is a cape and a player card in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/standard-of-rapid-evacuation.9af0fc17.webp",
+      "width": 129,
+      "height": 298,
+      "wikiFile": "Standard_of_Rapid_Evacuation_Cape_Render.png"
+    },
     "wiki": {
       "title": "Standard of Rapid Evacuation",
       "url": "https://helldivers.wiki.gg/wiki/Standard_of_Rapid_Evacuation",
@@ -1883,7 +2228,12 @@
     "name": "Standard of Safe Distance",
     "aliases": [],
     "description": "By reminding Chemical Agents of proper distancing rules, this extraordinary innovation in cape design ensures that they never cause another unfortunate outbreak of Carcino-Plague.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/standard-of-safe-distance.b08b6134.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Standard_of_Safe_Distance_Cape_Render.png"
+    },
     "wiki": {
       "title": "Standard of Safe Distance",
       "url": "https://helldivers.wiki.gg/wiki/Standard_of_Safe_Distance",
@@ -1911,7 +2261,12 @@
     "name": "Stars and Suffrage",
     "aliases": [],
     "description": "A symbol of Super Earth's Astral Promise: that every star shall one day illuminate throngs of joyous voters.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/stars-and-suffrage.74f188dd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "The_Cape_of_Stars_and_Suffrage_Cape_Render.png"
+    },
     "wiki": {
       "title": "Stars and Suffrage",
       "url": "https://helldivers.wiki.gg/wiki/Stars_and_Suffrage",
@@ -1939,7 +2294,12 @@
     "name": "Stone-Wrought Perseverance",
     "aliases": [],
     "description": "When wearers stand shoulder to shoulder, this cape shows them as they truly are: an unbreakable defense, keeping Freedom safe behind an impregnable wall.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/stone-wrought-perseverance.884ff86d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Stone-Wrought_Perseverance_Cape_Render.png"
+    },
     "wiki": {
       "title": "Stone-Wrought Perseverance",
       "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",
@@ -1967,7 +2327,12 @@
     "name": "Strength in Our Arms",
     "aliases": [],
     "description": "The symbol on this cape represents the pillars of freedom: duty, obedience, and loyalty.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/strength-in-our-arms.4f94bd57.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Strength_in_Our_Arms_Cape_Render.png"
+    },
     "wiki": {
       "title": "Strength in Our Arms",
       "url": "https://helldivers.wiki.gg/wiki/Strength_in_Our_Arms",
@@ -1995,7 +2360,12 @@
     "name": "Testament to Attrition",
     "aliases": [],
     "description": "Salvaged from a deep-storage vault, this well-ventilated cape symbolizes tenacious survival. Its visible scars bestow immediate veteran status, reminding all onlookers that the spirit of tireless service is immortal.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/testament-to-attrition.96c812b9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Testament_to_Attrition_Cape_Render.png"
+    },
     "wiki": {
       "title": "Testament to Attrition",
       "url": "https://helldivers.wiki.gg/wiki/Testament_to_Attrition",
@@ -2023,7 +2393,12 @@
     "name": "The Breach",
     "aliases": [],
     "description": "As documented in the bestselling graphic novel “The Breach,” the final mission of the 361st “Freedom's Flame” saw the storied unit deploy straight into the heart of a Supervolcano, sacrificing themselves to trigger an eruption and wipe out a massive Terminid swarm.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/the-breach.65e02bfa.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "The_Breach_Cape_Render.png"
+    },
     "wiki": {
       "title": "The Breach",
       "url": "https://helldivers.wiki.gg/wiki/The_Breach",
@@ -2051,7 +2426,12 @@
     "name": "Thundering Hooves of Loyalty",
     "aliases": [],
     "description": "No dissident or alien, no creature big or small, can ever hope to stand against the furious stampede of Managed Democracy.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/thundering-hooves-of-loyalty.e72040a7.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Thundering_Hooves_of_Loyalty_Cape_Render.png"
+    },
     "wiki": {
       "title": "Thundering Hooves of Loyalty",
       "url": "https://helldivers.wiki.gg/wiki/Thundering_Hooves_of_Loyalty",
@@ -2079,7 +2459,12 @@
     "name": "Tideturner",
     "aliases": [],
     "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/tideturner.8dd49ccc.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Tideturner_Cape_Render.png"
+    },
     "wiki": {
       "title": "Tideturner",
       "url": "https://helldivers.wiki.gg/wiki/Tideturner",
@@ -2107,7 +2492,12 @@
     "name": "Triangulation Veil",
     "aliases": [],
     "description": "This vision-disruptive pattern cloaks the silent crusaders whose untraceable deeds are a pure expression of true Freedom: freedom from accountability.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/triangulation-veil.12c5427d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Triangulation_Veil_Cape_Icon.png"
+    },
     "wiki": {
       "title": "Triangulation Veil",
       "url": "https://helldivers.wiki.gg/wiki/Triangulation_Veil",
@@ -2135,7 +2525,12 @@
     "name": "Tyrant Hunter",
     "aliases": [],
     "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/tyrant-hunter.bdb571ea.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Tyrant_Hunter_Cape_Armory.png"
+    },
     "wiki": {
       "title": "Tyrant Hunter",
       "url": "https://helldivers.wiki.gg/wiki/Tyrant_Hunter",
@@ -2163,7 +2558,12 @@
     "name": "Unblemished Allegiance",
     "aliases": [],
     "description": "A choir of patriotic schoolchildren sings the Super Earth anthem to each cape as the final step in its production.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/unblemished-allegiance.d6c43db5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Unblemished_Allegiance_Cape_Render.png"
+    },
     "wiki": {
       "title": "Unblemished Allegiance",
       "url": "https://helldivers.wiki.gg/wiki/Unblemished_Allegiance",
@@ -2191,7 +2591,12 @@
     "name": "United in Equality",
     "aliases": [],
     "description": "To honor the heartfelt siblinghood of the heroes who stood together, bled together, and laid down their lives together in defense of Equality-On-Sea, all Helldivers are awarded one (1) commemorative polyester cape.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/united-in-equality.ec6c82bb.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "United_in_Equality_Cape_Render.png"
+    },
     "wiki": {
       "title": "United in Equality",
       "url": "https://helldivers.wiki.gg/wiki/United_in_Equality",
@@ -2214,7 +2619,12 @@
     "name": "Veil of the Valorous Vagabond",
     "aliases": [],
     "description": "Legend tells of the unnamed Helldiver, wandering the edges of Super Earth's reach, delivering Democracy and leveling lawlessness wherever the tumbleweeds lead. Wear this, and keep the legend alive.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/veil-of-the-valorous-vagabond.6dec22ae.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Veil_of_the_Valorous_Vagabond_Cape_Render.png"
+    },
     "wiki": {
       "title": "Veil of the Valorous Vagabond",
       "url": "https://helldivers.wiki.gg/wiki/Veil_of_the_Valorous_Vagabond",
@@ -2242,7 +2652,12 @@
     "name": "Veridical Ideology",
     "aliases": [],
     "description": "This cape celebrates the one Veridical Ideology—Managed Democracy—a truth so self evident, it requires no proof beyond the unwavering obedience of its champions.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/veridical-ideology.fcfb1fe2.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Veridical_Ideology_Cape_Render.png"
+    },
     "wiki": {
       "title": "Veridical Ideology",
       "url": "https://helldivers.wiki.gg/wiki/Veridical_Ideology",
@@ -2265,7 +2680,12 @@
     "name": "Vision of Freedom",
     "aliases": [],
     "description": "Artists and sculptors have made countless attempts at depicting the face of Liberty, but the truth is that any citizen can see it—they need only requisition a mirror.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/vision-of-freedom.3275d240.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Vision_of_Freedom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Vision of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Vision_of_Freedom",
@@ -2293,7 +2713,12 @@
     "name": "Watchful Compatriot",
     "aliases": [],
     "description": "Watchful Compatriot is a cape and a player card in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/watchful-compatriot.1df2fa8d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Watchful_Compatriot_Cape_Render.png"
+    },
     "wiki": {
       "title": "Watchful Compatriot",
       "url": "https://helldivers.wiki.gg/wiki/Watchful_Compatriot",
@@ -2321,7 +2746,12 @@
     "name": "Way of the Bandolier",
     "aliases": [],
     "description": "The dauntless pioneers of the Great Expansion, facing the un-Democratic unknown, adopted the Way of the Bandolier. With the gusto of their covering fire making up for their modest accuracy, they strived to be perfectly aligned in their shared values, and ready to serve when called upon by the machine gun of civic duty.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/way-of-the-bandolier.175e6a70.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Way_of_the_Bandolier_Cape_Render.png"
+    },
     "wiki": {
       "title": "Way of the Bandolier",
       "url": "https://helldivers.wiki.gg/wiki/Way_of_the_Bandolier",
@@ -2349,7 +2779,12 @@
     "name": "Wedgeful Tricorn",
     "aliases": [],
     "description": "Designed in homage to the triangle—the most immovable of shapes—this cape digs its heels into eye of the observer, leaving a lasting impression.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/wedgeful-tricorn.ab399221.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Wedgeful_Tricorn_Cape_Render.png"
+    },
     "wiki": {
       "title": "Wedgeful Tricorn",
       "url": "https://helldivers.wiki.gg/wiki/Wedgeful_Tricorn",
@@ -2377,7 +2812,12 @@
     "name": "Will of the People",
     "aliases": [],
     "description": "Contains a grain of sand from Super Earth—so its bearers carry a small piece of Liberty with them, wherever they go.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/will-of-the-people.ff722e19.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Will_of_the_People_Cape_Render.png"
+    },
     "wiki": {
       "title": "Will of the People",
       "url": "https://helldivers.wiki.gg/wiki/Will_of_the_People",
@@ -2403,7 +2843,12 @@
     "name": "Windswept Wayfinder",
     "aliases": [],
     "description": "It is well-documented that soldiers raised on harsh planets have an advantage when fighting in similar environments; this insight is foundational to the Democratic Youth Scouts Exchange Program.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/windswept-wayfinder.5dffa054.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Windswept_Wayfinder_Cape_Render.png"
+    },
     "wiki": {
       "title": "Windswept Wayfinder",
       "url": "https://helldivers.wiki.gg/wiki/Windswept_Wayfinder",

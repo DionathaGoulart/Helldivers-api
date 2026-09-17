@@ -1,6 +1,7 @@
 import { Booster, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { parseCost } from "../normalize/costs.ts";
 import { pageFromAnchor } from "../normalize/warbonds.ts";
 import { parseBoosterPage } from "../parsers/booster-page.ts";
@@ -48,6 +49,7 @@ export const boostersPipeline: CollectionPipeline<"boosters"> = {
     };
 
     const entities: Booster[] = [];
+    const images: ImageRequest[] = [];
     for (const row of rows) {
       const page = await source.page(row.page.title);
       const raw = parseBoosterPage(page.html, { url: page.url });
@@ -58,7 +60,7 @@ export const boostersPipeline: CollectionPipeline<"boosters"> = {
         name: row.name,
         aliases: [...new Set([row.page.title, raw.title])].filter((t) => t !== row.name).sort(),
         description: raw.lead,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: raw.title,
           url: wikiUrl(raw.title),
@@ -82,9 +84,17 @@ export const boostersPipeline: CollectionPipeline<"boosters"> = {
         warnings.push(`boosters/${id}: no description on ${page.url}`);
       }
       entities.push(booster.data);
+      if (row.icon) images.push({ id, variant: null, image: row.icon });
     }
 
     logger.info("collection parsed", { collection: "boosters", count: entities.length });
-    return { collection: "boosters", entities, indexCount: rows.length, warnings, conflicts: [] };
+    return {
+      collection: "boosters",
+      entities,
+      indexCount: rows.length,
+      warnings,
+      conflicts: [],
+      images,
+    };
   },
 };

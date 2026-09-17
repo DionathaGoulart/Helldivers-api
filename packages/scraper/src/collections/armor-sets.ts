@@ -78,6 +78,7 @@ export const armorSetsPipeline: CollectionPipeline<"armor-sets"> = {
       indexCount: armors.length, // every armor page is a set
       warnings: [],
       conflicts: [],
+      images: [], // sets have no picture of their own
     };
   },
 };

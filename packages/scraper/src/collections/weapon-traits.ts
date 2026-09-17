@@ -62,6 +62,7 @@ export const weaponTraitsPipeline: CollectionPipeline<"weapon-traits"> = {
       indexCount: page.listed.length,
       warnings,
       conflicts: [],
+      images: [], // the wiki has no trait pictures
     };
   },
 };

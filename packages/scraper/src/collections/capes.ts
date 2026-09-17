@@ -1,6 +1,7 @@
 import { Cape, slugify } from "@hd2/schemas";
 import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
+import type { ImageRequest } from "../images/attach.ts";
 import { armoryName } from "../normalize/armory.ts";
 import { ARMOR_INDEX, parseArmorIndex } from "../parsers/armor-index.ts";
 import { armoryTab, parseArmorPage } from "../parsers/armor-page.ts";
@@ -26,6 +27,7 @@ export const capesPipeline: CollectionPipeline<"capes"> = {
     const warnings: string[] = [];
 
     const entities: Cape[] = [];
+    const images: ImageRequest[] = [];
     for (const box of boxes) {
       const page = await source.page(box.page.title);
       const raw = parseArmorPage(page.html, { url: page.url });
@@ -56,7 +58,7 @@ export const capesPipeline: CollectionPipeline<"capes"> = {
         name,
         aliases: [...new Set([box.page.title, raw.title])].filter((t) => t !== name).sort(),
         description: raw.armoryDescription ?? raw.lead,
-        image: null, // images arrive in Phase 4
+        image: null, // attached in step 7
         wiki: {
           title: raw.title,
           url: wikiUrl(raw.title),
@@ -72,9 +74,18 @@ export const capesPipeline: CollectionPipeline<"capes"> = {
       }
       if (raw.armoryDescription === null) note(`no Armory description on ${page.url}`);
       entities.push(cape.data);
+      const image = tab.image ?? box.image;
+      if (image) images.push({ id, variant: null, image });
     }
 
     logger.info("collection parsed", { collection: "capes", count: entities.length });
-    return { collection: "capes", entities, indexCount: boxes.length, warnings, conflicts: [] };
+    return {
+      collection: "capes",
+      entities,
+      indexCount: boxes.length,
+      warnings,
+      conflicts: [],
+      images,
+    };
   },
 };
