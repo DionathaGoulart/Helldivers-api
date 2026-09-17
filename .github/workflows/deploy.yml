@@ -9,8 +9,6 @@ on:
       - "data/**"
       - "pnpm-lock.yaml"
       - ".github/workflows/deploy.yml"
-  # scrape.yml calls this after a data commit: pushes made with GITHUB_TOKEN start no workflow.
-  workflow_call:
   workflow_dispatch:
 
 permissions:

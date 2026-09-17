@@ -38,10 +38,13 @@ jobs:
     runs-on: ubuntu-24.04
     # ~40 min for the pages; the first run with ~850 images took 94 min (plan phase 4).
     timeout-minutes: 150
-    outputs:
-      changed: ${{ steps.commit.outputs.changed }}
     steps:
+      # The `main` ruleset requires the `check` status and cannot bypass GITHUB_TOKEN: the
+      # GitHub Actions app is not an installable app on a personal repo, so it cannot be added to
+      # the bypass list. Deploy keys can, so the data and heartbeat pushes go over SSH (arch §12).
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ssh-key: ${{ secrets.SCRAPE_DEPLOY_KEY }}
       - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
       - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
         with:
@@ -74,6 +77,8 @@ jobs:
           B2_WRITE_KEY_ID: ${{ secrets.B2_WRITE_KEY_ID }}
           B2_WRITE_APP_KEY: ${{ secrets.B2_WRITE_APP_KEY }}
       - run: pnpm validate:data
+      # The push starts `deploy.yml` on its own: unlike GITHUB_TOKEN, a deploy key triggers
+      # workflows. `ci.yml` runs on the same push.
       - id: commit
         name: Commit the dataset when it changed
         run: |
@@ -106,10 +111,3 @@ jobs:
         run: pnpm alert --report .reports
         env:
           GH_TOKEN: ${{ github.token }}
-
-  # A push made with GITHUB_TOKEN starts no workflow, so the deploy is called, not triggered.
-  deploy:
-    needs: scrape
-    if: needs.scrape.outputs.changed == 'true'
-    uses: ./.github/workflows/deploy.yml
-    secrets: inherit
