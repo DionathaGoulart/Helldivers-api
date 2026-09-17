@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { type B2CheckEnv, B2CheckError, regionFromEndpoint, runB2Check } from "./check.ts";
+import {
+  type B2CheckEnv,
+  B2CheckError,
+  regionFromEndpoint,
+  runB2Check,
+  runB2KeyCheck,
+} from "./check.ts";
 
 const env: B2CheckEnv = {
   B2_S3_ENDPOINT: "https://s3.us-east-005.backblazeb2.com",
@@ -67,6 +73,33 @@ describe("runB2Check", () => {
     await expect(run).rejects.toBeInstanceOf(B2CheckError);
     await expect(run).rejects.toMatchObject({ step: "signed get", status: 403 });
     expect(b2.calls).toEqual(["PUT write", "GET read", "DELETE write"]);
+  });
+});
+
+describe("runB2KeyCheck", () => {
+  it("reads one uploaded image with the read key", async () => {
+    const b2 = fakeB2();
+    await b2.fetch(new Request("https://x/", { method: "PUT", body: "RIFF" }));
+    const lines: string[] = [];
+
+    await runB2KeyCheck(env, "/images/v1/weapons/ar-23-liberator.0d15ea5e.webp", {
+      fetch: b2.fetch,
+      log: (line) => lines.push(line),
+    });
+
+    expect(b2.calls.at(-1)).toBe("GET read");
+    expect(b2.urls.at(-1)?.pathname).toBe(
+      "/Helldivers-api/images/v1/weapons/ar-23-liberator.0d15ea5e.webp",
+    );
+    expect(lines).toEqual(["signed get 200 · null · 4 bytes"]);
+  });
+
+  it("refuses anything but an image key and reports a missing object", async () => {
+    const deps = { fetch: fakeB2({ signedGetStatus: 404 }).fetch, log: () => {} };
+    await expect(runB2KeyCheck(env, "_b2-check/1.webp", deps)).rejects.toThrow("not an image key");
+    await expect(
+      runB2KeyCheck(env, "images/v1/weapons/ar-23-liberator.0d15ea5e.webp", deps),
+    ).rejects.toMatchObject({ step: "signed get", status: 404 });
   });
 });
 

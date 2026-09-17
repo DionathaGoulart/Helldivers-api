@@ -11,6 +11,14 @@ export const B2CheckEnv = z.object({
 });
 export type B2CheckEnv = z.infer<typeof B2CheckEnv>;
 
+export const B2ReadEnv = B2CheckEnv.pick({
+  B2_S3_ENDPOINT: true,
+  B2_BUCKET: true,
+  B2_READ_KEY_ID: true,
+  B2_READ_APP_KEY: true,
+});
+export type B2ReadEnv = z.infer<typeof B2ReadEnv>;
+
 export interface B2CheckDeps {
   fetch: (request: Request) => Promise<Response>;
   now: () => number;
@@ -102,6 +110,32 @@ export async function runB2Check(env: B2CheckEnv, deps: B2CheckDeps): Promise<vo
   results.push("delete ok");
 
   deps.log(results.join(" · "));
+}
+
+/**
+ * Signed GET of one published image with the read key, as the `/images/*` Function does:
+ * `images/v1/<collection>/<id>.<hash8>.webp`, or the `/images/…` URL from an entity.
+ */
+export async function runB2KeyCheck(
+  env: B2ReadEnv,
+  key: string,
+  deps: Omit<B2CheckDeps, "now">,
+): Promise<void> {
+  const objectKey = key.replace(/^\//, "");
+  if (!/^images\/v1\/[a-z-]+\/[a-z0-9-]+\.[a-f0-9]{8}\.webp$/.test(objectKey)) {
+    throw new Error(`not an image key: ${key}`);
+  }
+  const reader = new AwsClient({
+    accessKeyId: env.B2_READ_KEY_ID,
+    secretAccessKey: env.B2_READ_APP_KEY,
+    service: "s3",
+    region: regionFromEndpoint(env.B2_S3_ENDPOINT),
+  });
+  const url = `${env.B2_S3_ENDPOINT.replace(/\/+$/, "")}/${encodeURIComponent(env.B2_BUCKET)}/${objectKey}`;
+  const response = await deps.fetch(await reader.sign(url, { method: "GET" }));
+  expectStatus(response, "signed get", [200], `check that ${objectKey} was uploaded`);
+  const size = (await response.arrayBuffer()).byteLength;
+  deps.log(`signed get 200 · ${response.headers.get("content-type")} · ${size} bytes`);
 }
 
 function isStatus(response: Response, allowed: readonly number[]): boolean {
