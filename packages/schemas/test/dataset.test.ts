@@ -186,6 +186,50 @@ describe("validateDataset", () => {
     ]);
   });
 
+  it("checks the image manifest order and that every live image is referenced", () => {
+    const files = load();
+    const manifest = files.get("reports/images.json") as {
+      images: { url: string }[];
+      orphans: { url: string; since: string }[];
+    };
+    const [first, second, ...rest] = manifest.images;
+    const unused = { ...first, url: "/images/v1/boosters/unused.0d15ea5e.webp" };
+    edit(files, "reports/images.json", ["images"], [second, first, ...rest, unused]);
+    edit(
+      files,
+      "reports/images.json",
+      ["orphans"],
+      [
+        { url: "/images/v1/weapons/ar-23-liberator.7068ca99.webp", since: "2026-09-15" },
+        { url: "/images/v1/boosters/old.0d15ea5e.webp", since: "2026-09-01" },
+      ],
+    );
+
+    expect(validateDataset(files)).toEqual([
+      {
+        file: "reports/images.json",
+        path: "images[1].url",
+        message: "sort by url, without duplicates",
+      },
+      {
+        file: "reports/images.json",
+        path: "images[18].url",
+        message: "sort by url, without duplicates",
+      },
+      {
+        file: "reports/images.json",
+        path: "orphans[1].url",
+        message: "sort by url, without duplicates",
+      },
+      { file: "reports/images.json", path: "orphans[0].url", message: "also listed in images" },
+      {
+        file: "reports/images.json",
+        path: "images[18].url",
+        message: "no entity references it: list it in orphans",
+      },
+    ]);
+  });
+
   it("checks that conflicts name existing entities in a stable order", () => {
     const files = load();
     const [conflict] = (files.get("reports/conflicts.json") as { conflicts: unknown[] }).conflicts;

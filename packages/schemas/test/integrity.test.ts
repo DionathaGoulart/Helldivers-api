@@ -5,6 +5,7 @@ import { type CollectionEntity, collectionSchemas } from "../src/collections.ts"
 import { Collection } from "../src/common.ts";
 import { List } from "../src/envelope.ts";
 import { checkIntegrity, type Dataset } from "../src/integrity.ts";
+import { ImageManifest } from "../src/reports.ts";
 
 const datasetDir = join(import.meta.dirname, "dataset");
 const readJson = (path: string): unknown => JSON.parse(readFileSync(path, "utf8"));
@@ -18,10 +19,8 @@ function loadDataset(): Dataset {
   return Object.fromEntries(entries) as Dataset;
 }
 
-const manifest = readJson(join(datasetDir, "reports", "images.json")) as {
-  images: { url: string }[];
-};
-const imageUrls = new Set(manifest.images.map((image) => image.url));
+const manifest = ImageManifest.parse(readJson(join(datasetDir, "reports", "images.json")));
+const images = new Map(manifest.images.map((image) => [image.url, image]));
 
 function entity<C extends Collection>(
   dataset: Dataset,
@@ -47,7 +46,7 @@ const castellansItem = (dataset: Dataset, page: number, item: number) => {
 
 describe("checkIntegrity", () => {
   it("passes on the synthetic dataset", () => {
-    expect(checkIntegrity(loadDataset(), { imageUrls })).toEqual([]);
+    expect(checkIntegrity(loadDataset(), { images })).toEqual([]);
   });
 
   it("reports a dangling passiveId", () => {
@@ -319,9 +318,9 @@ describe("checkIntegrity", () => {
     it("reports images missing from the upload manifest", () => {
       const dataset = loadDataset();
       const url = entity(dataset, "boosters", "hellpod-space-optimization").image?.url ?? "";
-      const partial = new Set([...imageUrls].filter((candidate) => candidate !== url));
+      const partial = new Map([...images].filter(([candidate]) => candidate !== url));
 
-      expect(checkIntegrity(dataset, { imageUrls: partial })).toEqual([
+      expect(checkIntegrity(dataset, { images: partial })).toEqual([
         {
           collection: "boosters",
           id: "hellpod-space-optimization",
@@ -331,17 +330,56 @@ describe("checkIntegrity", () => {
       ]);
     });
 
+    it("reports image fields that differ from the upload manifest", () => {
+      const dataset = loadDataset();
+      const { image } = entity(dataset, "titles", "viper-commando");
+      if (image) {
+        image.height = 314;
+        image.wikiFile = "Viper_Commando_Title_Icon.png";
+      }
+
+      expect(checkIntegrity(dataset, { images })).toEqual([
+        {
+          collection: "titles",
+          id: "viper-commando",
+          field: "image.wikiFile",
+          message: "expected Viper_Commando_Title_Icon.svg (image manifest)",
+        },
+        {
+          collection: "titles",
+          id: "viper-commando",
+          field: "image.height",
+          message: "expected 315 (image manifest)",
+        },
+      ]);
+    });
+
+    it("requires a pattern image to be its first variant image", () => {
+      const dataset = loadDataset();
+      const pattern = entity(dataset, "patterns", "castellans-green");
+      pattern.image = pattern.variants[1]?.image ?? null;
+
+      expect(checkIntegrity(dataset, { images })).toEqual([
+        {
+          collection: "patterns",
+          id: "castellans-green",
+          field: "image",
+          message: "must equal the first variant image",
+        },
+      ]);
+    });
+
     it("reports image keys outside the entity's collection and id", () => {
       const dataset = loadDataset();
-      const { image } = entity(dataset, "patterns", "arctic");
-      if (image) image.url = "/images/v1/patterns/arctics.06a4f492.webp";
+      const { image } = entity(dataset, "emotes", "clapping");
+      if (image) image.url = "/images/v1/emotes/clappings.c89f9fe6.webp";
 
       expect(checkIntegrity(dataset)).toEqual([
         {
-          collection: "patterns",
-          id: "arctic",
+          collection: "emotes",
+          id: "clapping",
           field: "image.url",
-          message: "expected a key under /images/v1/patterns/arctic",
+          message: "expected a key under /images/v1/emotes/clapping",
         },
       ]);
     });

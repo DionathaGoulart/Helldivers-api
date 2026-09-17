@@ -247,10 +247,23 @@ export function validateDataset(files: ReadonlyMap<string, unknown>): DatasetIss
   }
 
   // Integrity runs only on schema-valid entities, so it never reports noise.
-  let imageUrls: Set<string> | undefined;
+  let images: ImageManifest | undefined;
   if (files.has("reports/images.json")) {
-    const images = parse("reports/images.json", ImageManifest);
-    imageUrls = new Set(images?.images.map((image) => image.url));
+    images = parse("reports/images.json", ImageManifest);
+    const sorted = (list: readonly { url: string }[], path: string) => {
+      list.forEach(({ url }, i) => {
+        const previous = list[i - 1];
+        if (previous && previous.url >= url) {
+          add("reports/images.json", `${path}[${i}].url`, "sort by url, without duplicates");
+        }
+      });
+    };
+    sorted(images?.images ?? [], "images");
+    sorted(images?.orphans ?? [], "orphans");
+    const live = new Set(images?.images.map((image) => image.url));
+    images?.orphans.forEach(({ url }, i) => {
+      if (live.has(url)) add("reports/images.json", `orphans[${i}].url`, "also listed in images");
+    });
   }
   // Conflicts name existing entities, in a stable order.
   if (files.has("reports/conflicts.json")) {
@@ -273,11 +286,27 @@ export function validateDataset(files: ReadonlyMap<string, unknown>): DatasetIss
     });
   }
   if (entitiesValid) {
-    const hasImages = JSON.stringify(Object.values(dataset)).includes('"url":"/images/');
-    if (hasImages && !imageUrls) {
+    const referenced = new Set(
+      [...JSON.stringify(Object.values(dataset)).matchAll(/"url":"(\/images\/[^"]+)"/g)].map(
+        (match) => match[1],
+      ),
+    );
+    if (referenced.size > 0 && !images) {
       add("reports/images.json", "", "missing file: entities reference images");
     }
-    const integrity = checkIntegrity(dataset, imageUrls ? { imageUrls } : {});
+    images?.images.forEach(({ url }, i) => {
+      if (!referenced.has(url)) {
+        add(
+          "reports/images.json",
+          `images[${i}].url`,
+          "no entity references it: list it in orphans",
+        );
+      }
+    });
+    const integrity = checkIntegrity(
+      dataset,
+      images ? { images: new Map(images.images.map((image) => [image.url, image])) } : {},
+    );
     for (const issue of integrity) {
       add(`${issue.collection}/${issue.id}.json`, `data.${issue.field}`, issue.message);
     }

@@ -2,75 +2,166 @@
   "images": [
     {
       "url": "/images/v1/armors/tg-8-sharpshooter.6e37fb7e.webp",
-      "wikiFile": "TG-8_Sharpshooter_Armor_Render.png"
+      "wikiFile": "TG-8_Sharpshooter_Armor_Render.png",
+      "version": "b29110",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/boosters/hellpod-space-optimization.a63b14a8.webp",
-      "wikiFile": "Hellpod_Space_Optimization_Booster_Icon.svg"
+      "wikiFile": "Hellpod_Space_Optimization_Booster_Icon.svg",
+      "version": "783eaa",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/capes/city-fighters-resolve.63dc15a5.webp",
-      "wikiFile": "City_Fighter's_Resolve_Cape_Render.png"
+      "wikiFile": "City_Fighter's_Resolve_Cape_Render.png",
+      "version": "0ec1b0",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/emotes/clapping.c89f9fe6.webp",
-      "wikiFile": "Clapping_Victory_Pose_Icon.png"
+      "wikiFile": "Clapping_Victory_Pose_Icon.png",
+      "version": "248633",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/helmets/tg-8-sharpshooter.062af996.webp",
-      "wikiFile": "TG-8_Sharpshooter_Helmet_Render.png"
+      "wikiFile": "TG-8_Sharpshooter_Helmet_Render.png",
+      "version": "4a7c67",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/passives/true-grit.0fd0a058.webp",
-      "wikiFile": "True_Grit_Armor_Passive_Icon.svg"
+      "wikiFile": "True_Grit_Armor_Passive_Icon.svg",
+      "version": "2b4474",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/patterns/arctic-weapon.06a4f492.webp",
-      "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+      "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png",
+      "version": "802c0b",
+      "rendition": "render",
+      "width": 512,
+      "height": 288,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/patterns/castellans-green-exosuit.4d912e5d.webp",
-      "wikiFile": "Castellans_Green_Exosuit_Pattern_Icon.png"
+      "wikiFile": "Castellans_Green_Exosuit_Pattern_Icon.png",
+      "version": "244ea5",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/patterns/castellans-green-hellpod.21109a75.webp",
-      "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+      "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png",
+      "version": "a8d18f",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/patterns/castellans-green-shuttle.58de236f.webp",
-      "wikiFile": "Castellans_Green_Shuttle_Pattern_Icon.png"
+      "wikiFile": "Castellans_Green_Shuttle_Pattern_Icon.png",
+      "version": "4acdd6",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/patterns/castellans-green-vehicle.90bfa43a.webp",
-      "wikiFile": "Castellans_Green_Vehicle_Pattern_Icon.png"
+      "wikiFile": "Castellans_Green_Vehicle_Pattern_Icon.png",
+      "version": "8f7366",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/player-cards/city-fighters-resolve.a4da4f11.webp",
-      "wikiFile": "City_Fighter's_Resolve_Player_Card.png"
+      "wikiFile": "City_Fighter's_Resolve_Player_Card.png",
+      "version": "eecf32",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/stratagems/orbital-precision-strike.e93219fe.webp",
-      "wikiFile": "Orbital_Precision_Strike_Stratagem_Icon_Background.svg"
+      "wikiFile": "Orbital_Precision_Strike_Stratagem_Icon_Background.svg",
+      "version": "0f6c2b",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/titles/sergeant.373ff2eb.webp",
-      "wikiFile": "Level_10_Sergeant_Rank_Icon.svg"
+      "wikiFile": "Level_10_Sergeant_Rank_Icon.svg",
+      "version": "9d0a9d",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/titles/viper-commando.33606cf5.webp",
-      "wikiFile": "Viper_Commando_Title_Icon.svg"
+      "wikiFile": "Viper_Commando_Title_Icon.svg",
+      "version": "f37d1f",
+      "rendition": "icon",
+      "width": 256,
+      "height": 315,
+      "bytes": 3048
     },
     {
       "url": "/images/v1/warbonds/castellans-creed.0fba0057.webp",
-      "wikiFile": "Castellan's_Creed_Legendary_Warbond_Cover.png"
+      "wikiFile": "Castellan's_Creed_Legendary_Warbond_Cover.png",
+      "version": "1b7aef",
+      "rendition": "cover",
+      "width": 1024,
+      "height": 512,
+      "bytes": 9192
     },
     {
       "url": "/images/v1/weapons/ar-23-liberator.7068ca99.webp",
-      "wikiFile": "AR-23_Liberator_Primary_Render.png"
+      "wikiFile": "AR-23_Liberator_Primary_Render.png",
+      "version": "1c49cc",
+      "rendition": "render",
+      "width": 512,
+      "height": 288,
+      "bytes": 5096
     },
     {
       "url": "/images/v1/weapons/sg-88-break-action-shotgun.0e838406.webp",
-      "wikiFile": "SG-88_Break-Action_Shotgun_Support_Render.png"
+      "wikiFile": "SG-88_Break-Action_Shotgun_Support_Render.png",
+      "version": "562173",
+      "rendition": "render",
+      "width": 512,
+      "height": 288,
+      "bytes": 5096
     }
-  ]
+  ],
+  "orphans": []
 }

@@ -15,8 +15,8 @@ export interface IntegrityIssue {
 }
 
 export interface IntegrityOptions {
-  /** Image URLs from the B2 upload manifest; the manifest check runs only when given. */
-  imageUrls?: ReadonlySet<string>;
+  /** Live entries of the B2 upload manifest by url; the manifest checks run only when given. */
+  images?: ReadonlyMap<string, Pick<Image, "wikiFile" | "width" | "height">>;
 }
 
 const SOURCED = [
@@ -327,8 +327,18 @@ export function checkIntegrity(dataset: Dataset, options: IntegrityOptions = {})
     if (!image.url.startsWith(`${prefix}.`) && !image.url.startsWith(`${prefix}-`)) {
       report(collection, id, `${field}.url`, `expected a key under ${prefix}`);
     }
-    if (options.imageUrls && !options.imageUrls.has(image.url)) {
+    if (!options.images) {
+      return;
+    }
+    const uploaded = options.images.get(image.url);
+    if (!uploaded) {
       report(collection, id, `${field}.url`, "not in the image upload manifest");
+      return;
+    }
+    for (const key of ["wikiFile", "width", "height"] as const) {
+      if (uploaded[key] !== image[key]) {
+        report(collection, id, `${field}.${key}`, `expected ${uploaded[key]} (image manifest)`);
+      }
     }
   };
   for (const collection of IMAGED) {
@@ -340,6 +350,11 @@ export function checkIntegrity(dataset: Dataset, options: IntegrityOptions = {})
     pattern.variants.forEach((variant, i) => {
       checkImage("patterns", pattern.id, `variants[${i}].image`, variant.image);
     });
+    // A pattern's image is its first variant image.
+    const first = pattern.variants.find((variant) => variant.image)?.image ?? null;
+    if (JSON.stringify(pattern.image) !== JSON.stringify(first)) {
+      report("patterns", pattern.id, "image", "must equal the first variant image");
+    }
   }
 
   return issues;

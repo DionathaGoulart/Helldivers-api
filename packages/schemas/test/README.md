@@ -4,6 +4,7 @@
   from the architecture doc (§5.4, fetched 2026-09-15), completed into full objects.
   Values the audit did not capture are `null` or `[]`, never guessed. Image hashes
   are placeholders (`sha256("<collection>/<key>")`, first 8 hex).
+  The `version` and `bytes` of each `reports/images.json` entry are placeholders too.
 - `dataset/` — a synthetic `data/v1` tree (`meta.json`, `changelog.json`,
   `<collection>.json`, `<collection>/<id>.json`, `reports/images.json`) that passes
   `pnpm validate:data`. It holds every example plus filler entities that exist only
