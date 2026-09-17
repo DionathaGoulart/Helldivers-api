@@ -7,7 +7,13 @@
   },
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!packages/scraper/test/fixtures/wiki", "!**/__snapshots__", "!data"]
+    "includes": [
+      "**",
+      "!packages/scraper/test/fixtures/wiki",
+      "!packages/scraper/test/fixtures/images",
+      "!**/__snapshots__",
+      "!data"
+    ]
   },
   "formatter": {
     "enabled": true,
