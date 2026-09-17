@@ -31,7 +31,9 @@
       },
       "icon": {
         "file": "SC-37_Legionnaire_Armor_Render.png",
-        "src": "/images/thumb/SC-37_Legionnaire_Armor_Render.png/123px-SC-37_Legionnaire_Armor_Render.png?e35814"
+        "src": "/images/thumb/SC-37_Legionnaire_Armor_Render.png/123px-SC-37_Legionnaire_Armor_Render.png?e35814",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -65,7 +67,9 @@
       },
       "icon": {
         "file": "SC-34_Infiltrator_Armor_Render.png",
-        "src": "/images/thumb/SC-34_Infiltrator_Armor_Render.png/123px-SC-34_Infiltrator_Armor_Render.png?201f6e"
+        "src": "/images/thumb/SC-34_Infiltrator_Armor_Render.png/123px-SC-34_Infiltrator_Armor_Render.png?201f6e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -99,7 +103,9 @@
       },
       "icon": {
         "file": "SC-30_Trailblazer_Scout_Armor_Render.png",
-        "src": "/images/thumb/SC-30_Trailblazer_Scout_Armor_Render.png/123px-SC-30_Trailblazer_Scout_Armor_Render.png?391b26"
+        "src": "/images/thumb/SC-30_Trailblazer_Scout_Armor_Render.png/123px-SC-30_Trailblazer_Scout_Armor_Render.png?391b26",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -133,7 +139,9 @@
       },
       "icon": {
         "file": "CE-74_Breaker_Armor_Render.png",
-        "src": "/images/thumb/CE-74_Breaker_Armor_Render.png/123px-CE-74_Breaker_Armor_Render.png?ee85f2"
+        "src": "/images/thumb/CE-74_Breaker_Armor_Render.png/123px-CE-74_Breaker_Armor_Render.png?ee85f2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -167,7 +175,9 @@
       },
       "icon": {
         "file": "FS-38_Eradicator_Armor_Render.png",
-        "src": "/images/thumb/FS-38_Eradicator_Armor_Render.png/123px-FS-38_Eradicator_Armor_Render.png?5093e6"
+        "src": "/images/thumb/FS-38_Eradicator_Armor_Render.png/123px-FS-38_Eradicator_Armor_Render.png?5093e6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -201,7 +211,9 @@
       },
       "icon": {
         "file": "B-08_Light_Gunner_Armor_Render.png",
-        "src": "/images/thumb/B-08_Light_Gunner_Armor_Render.png/123px-B-08_Light_Gunner_Armor_Render.png?84922c"
+        "src": "/images/thumb/B-08_Light_Gunner_Armor_Render.png/123px-B-08_Light_Gunner_Armor_Render.png?84922c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -235,7 +247,9 @@
       },
       "icon": {
         "file": "CM-21_Trench_Paramedic_Armor_Render.png",
-        "src": "/images/thumb/CM-21_Trench_Paramedic_Armor_Render.png/123px-CM-21_Trench_Paramedic_Armor_Render.png?8865f2"
+        "src": "/images/thumb/CM-21_Trench_Paramedic_Armor_Render.png/123px-CM-21_Trench_Paramedic_Armor_Render.png?8865f2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -269,7 +283,9 @@
       },
       "icon": {
         "file": "CE-67_Titan_Armor_Render.png",
-        "src": "/images/thumb/CE-67_Titan_Armor_Render.png/123px-CE-67_Titan_Armor_Render.png?5b3742"
+        "src": "/images/thumb/CE-67_Titan_Armor_Render.png/123px-CE-67_Titan_Armor_Render.png?5b3742",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -303,7 +319,9 @@
       },
       "icon": {
         "file": "EX-00_Prototype_X_Armor_Render.png",
-        "src": "/images/thumb/EX-00_Prototype_X_Armor_Render.png/123px-EX-00_Prototype_X_Armor_Render.png?324843"
+        "src": "/images/thumb/EX-00_Prototype_X_Armor_Render.png/123px-EX-00_Prototype_X_Armor_Render.png?324843",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -337,7 +355,9 @@
       },
       "icon": {
         "file": "CE-07_Demolition_Specialist_Armor_Render.png",
-        "src": "/images/thumb/CE-07_Demolition_Specialist_Armor_Render.png/123px-CE-07_Demolition_Specialist_Armor_Render.png?f2b4fb"
+        "src": "/images/thumb/CE-07_Demolition_Specialist_Armor_Render.png/123px-CE-07_Demolition_Specialist_Armor_Render.png?f2b4fb",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -371,7 +391,9 @@
       },
       "icon": {
         "file": "FS-37_Ravager_Armor_Render.png",
-        "src": "/images/thumb/FS-37_Ravager_Armor_Render.png/123px-FS-37_Ravager_Armor_Render.png?a71a00"
+        "src": "/images/thumb/FS-37_Ravager_Armor_Render.png/123px-FS-37_Ravager_Armor_Render.png?a71a00",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -405,7 +427,9 @@
       },
       "icon": {
         "file": "CW-4_Arctic_Ranger_Armor_Render.png",
-        "src": "/images/thumb/CW-4_Arctic_Ranger_Armor_Render.png/123px-CW-4_Arctic_Ranger_Armor_Render.png?21ec77"
+        "src": "/images/thumb/CW-4_Arctic_Ranger_Armor_Render.png/123px-CW-4_Arctic_Ranger_Armor_Render.png?21ec77",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -439,7 +463,9 @@
       },
       "icon": {
         "file": "PH-9_Predator_Armor_Render.png",
-        "src": "/images/thumb/PH-9_Predator_Armor_Render.png/123px-PH-9_Predator_Armor_Render.png?6517ed"
+        "src": "/images/thumb/PH-9_Predator_Armor_Render.png/123px-PH-9_Predator_Armor_Render.png?6517ed",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -473,7 +499,9 @@
       },
       "icon": {
         "file": "I-09_Heatseeker_Armor_Render.png",
-        "src": "/images/thumb/I-09_Heatseeker_Armor_Render.png/123px-I-09_Heatseeker_Armor_Render.png?7577df"
+        "src": "/images/thumb/I-09_Heatseeker_Armor_Render.png/123px-I-09_Heatseeker_Armor_Render.png?7577df",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -507,7 +535,9 @@
       },
       "icon": {
         "file": "AF-50_Noxious_Ranger_Armor_Render.png",
-        "src": "/images/thumb/AF-50_Noxious_Ranger_Armor_Render.png/123px-AF-50_Noxious_Ranger_Armor_Render.png?38ecac"
+        "src": "/images/thumb/AF-50_Noxious_Ranger_Armor_Render.png/123px-AF-50_Noxious_Ranger_Armor_Render.png?38ecac",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -541,7 +571,9 @@
       },
       "icon": {
         "file": "UF-16_Inspector_Armor_Render.png",
-        "src": "/images/thumb/UF-16_Inspector_Armor_Render.png/123px-UF-16_Inspector_Armor_Render.png?ea246d"
+        "src": "/images/thumb/UF-16_Inspector_Armor_Render.png/123px-UF-16_Inspector_Armor_Render.png?ea246d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -575,7 +607,9 @@
       },
       "icon": {
         "file": "SR-24_Street_Scout_Armor_Render.png",
-        "src": "/images/thumb/SR-24_Street_Scout_Armor_Render.png/123px-SR-24_Street_Scout_Armor_Render.png?24d174"
+        "src": "/images/thumb/SR-24_Street_Scout_Armor_Render.png/123px-SR-24_Street_Scout_Armor_Render.png?24d174",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -609,7 +643,9 @@
       },
       "icon": {
         "file": "AC-2_Obedient_Armor_Render.png",
-        "src": "/images/thumb/AC-2_Obedient_Armor_Render.png/123px-AC-2_Obedient_Armor_Render.png?1a8415"
+        "src": "/images/thumb/AC-2_Obedient_Armor_Render.png/123px-AC-2_Obedient_Armor_Render.png?1a8415",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -643,7 +679,9 @@
       },
       "icon": {
         "file": "IE-57_Hell-Bent_Armor_Render.png",
-        "src": "/images/thumb/IE-57_Hell-Bent_Armor_Render.png/123px-IE-57_Hell-Bent_Armor_Render.png?9f72ee"
+        "src": "/images/thumb/IE-57_Hell-Bent_Armor_Render.png/123px-IE-57_Hell-Bent_Armor_Render.png?9f72ee",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -677,7 +715,9 @@
       },
       "icon": {
         "file": "GS-11_Democracy's_Deputy_Armor_Render.png",
-        "src": "/images/thumb/GS-11_Democracy%27s_Deputy_Armor_Render.png/123px-GS-11_Democracy%27s_Deputy_Armor_Render.png?db8ccc"
+        "src": "/images/thumb/GS-11_Democracy%27s_Deputy_Armor_Render.png/123px-GS-11_Democracy%27s_Deputy_Armor_Render.png?db8ccc",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -711,7 +751,9 @@
       },
       "icon": {
         "file": "RE-1861_Parade_Commander_Armor_Render.png",
-        "src": "/images/thumb/RE-1861_Parade_Commander_Armor_Render.png/123px-RE-1861_Parade_Commander_Armor_Render.png?505fcb"
+        "src": "/images/thumb/RE-1861_Parade_Commander_Armor_Render.png/123px-RE-1861_Parade_Commander_Armor_Render.png?505fcb",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -745,7 +787,9 @@
       },
       "icon": {
         "file": "BP-32_Jackboot_Armor_Render.png",
-        "src": "/images/thumb/BP-32_Jackboot_Armor_Render.png/123px-BP-32_Jackboot_Armor_Render.png?150b9c"
+        "src": "/images/thumb/BP-32_Jackboot_Armor_Render.png/123px-BP-32_Jackboot_Armor_Render.png?150b9c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -779,7 +823,9 @@
       },
       "icon": {
         "file": "AD-11_Livewire_Armor_Render.png",
-        "src": "/images/thumb/AD-11_Livewire_Armor_Render.png/123px-AD-11_Livewire_Armor_Render.png?f31fa8"
+        "src": "/images/thumb/AD-11_Livewire_Armor_Render.png/123px-AD-11_Livewire_Armor_Render.png?f31fa8",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -813,7 +859,9 @@
       },
       "icon": {
         "file": "DS-10_Big_Game_Hunter_Armor_Render.png",
-        "src": "/images/thumb/DS-10_Big_Game_Hunter_Armor_Render.png/123px-DS-10_Big_Game_Hunter_Armor_Render.png?36c8d4"
+        "src": "/images/thumb/DS-10_Big_Game_Hunter_Armor_Render.png/123px-DS-10_Big_Game_Hunter_Armor_Render.png?36c8d4",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -847,7 +895,9 @@
       },
       "icon": {
         "file": "RS-20_Constrictor_Armor_Render.png",
-        "src": "/images/thumb/RS-20_Constrictor_Armor_Render.png/123px-RS-20_Constrictor_Armor_Render.png?90e610"
+        "src": "/images/thumb/RS-20_Constrictor_Armor_Render.png/123px-RS-20_Constrictor_Armor_Render.png?90e610",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -881,7 +931,9 @@
       },
       "icon": {
         "file": "RS-100_Sanctioner_Armor_Render.png",
-        "src": "/images/thumb/RS-100_Sanctioner_Armor_Render.png/123px-RS-100_Sanctioner_Armor_Render.png?c989dc"
+        "src": "/images/thumb/RS-100_Sanctioner_Armor_Render.png/123px-RS-100_Sanctioner_Armor_Render.png?c989dc",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -915,7 +967,9 @@
       },
       "icon": {
         "file": "RS-89_Shadow_Paragon_Armor_Render.png",
-        "src": "/images/thumb/RS-89_Shadow_Paragon_Armor_Render.png/123px-RS-89_Shadow_Paragon_Armor_Render.png?b60c98"
+        "src": "/images/thumb/RS-89_Shadow_Paragon_Armor_Render.png/123px-RS-89_Shadow_Paragon_Armor_Render.png?b60c98",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -949,7 +1003,9 @@
       },
       "icon": {
         "file": "CPH-26_Commandant_Armor_Render.png",
-        "src": "/images/thumb/CPH-26_Commandant_Armor_Render.png/123px-CPH-26_Commandant_Armor_Render.png?e35a24"
+        "src": "/images/thumb/CPH-26_Commandant_Armor_Render.png/123px-CPH-26_Commandant_Armor_Render.png?e35a24",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -983,7 +1039,9 @@
       },
       "icon": {
         "file": "O-3_Free_Spirit_Armor_Render.png",
-        "src": "/images/thumb/O-3_Free_Spirit_Armor_Render.png/123px-O-3_Free_Spirit_Armor_Render.png?e873a2"
+        "src": "/images/thumb/O-3_Free_Spirit_Armor_Render.png/123px-O-3_Free_Spirit_Armor_Render.png?e873a2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1017,7 +1075,9 @@
       },
       "icon": {
         "file": "BFM-16_Tanker_Armor_Render.png",
-        "src": "/images/thumb/BFM-16_Tanker_Armor_Render.png/123px-BFM-16_Tanker_Armor_Render.png?6c5b0a"
+        "src": "/images/thumb/BFM-16_Tanker_Armor_Render.png/123px-BFM-16_Tanker_Armor_Render.png?6c5b0a",
+        "width": 395,
+        "height": 949
       }
     },
     {
@@ -1047,7 +1107,9 @@
       },
       "icon": {
         "file": "B-01_Tactical_v1_Armor_Render.png",
-        "src": "/images/thumb/B-01_Tactical_v1_Armor_Render.png/123px-B-01_Tactical_v1_Armor_Render.png?69cda3"
+        "src": "/images/thumb/B-01_Tactical_v1_Armor_Render.png/123px-B-01_Tactical_v1_Armor_Render.png?69cda3",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1077,7 +1139,9 @@
       },
       "icon": {
         "file": "TR-7_Ambassador_of_the_Brand_Armor_Render.png",
-        "src": "/images/thumb/TR-7_Ambassador_of_the_Brand_Armor_Render.png/123px-TR-7_Ambassador_of_the_Brand_Armor_Render.png?14960c"
+        "src": "/images/thumb/TR-7_Ambassador_of_the_Brand_Armor_Render.png/123px-TR-7_Ambassador_of_the_Brand_Armor_Render.png?14960c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1107,7 +1171,9 @@
       },
       "icon": {
         "file": "TR-9_Cavalier_of_Democracy_Armor_Render.png",
-        "src": "/images/thumb/TR-9_Cavalier_of_Democracy_Armor_Render.png/123px-TR-9_Cavalier_of_Democracy_Armor_Render.png?3bd192"
+        "src": "/images/thumb/TR-9_Cavalier_of_Democracy_Armor_Render.png/123px-TR-9_Cavalier_of_Democracy_Armor_Render.png?3bd192",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1141,7 +1207,9 @@
       },
       "icon": {
         "file": "DP-53_Savior_of_the_Free_Armor_Render.png",
-        "src": "/images/thumb/DP-53_Savior_of_the_Free_Armor_Render.png/123px-DP-53_Savior_of_the_Free_Armor_Render.png?24c285"
+        "src": "/images/thumb/DP-53_Savior_of_the_Free_Armor_Render.png/123px-DP-53_Savior_of_the_Free_Armor_Render.png?24c285",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1175,7 +1243,9 @@
       },
       "icon": {
         "file": "TR-117_Alpha_Commander_Armor_Render.png",
-        "src": "/images/thumb/TR-117_Alpha_Commander_Armor_Render.png/123px-TR-117_Alpha_Commander_Armor_Render.png?bb4656"
+        "src": "/images/thumb/TR-117_Alpha_Commander_Armor_Render.png/123px-TR-117_Alpha_Commander_Armor_Render.png?bb4656",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1209,7 +1279,9 @@
       },
       "icon": {
         "file": "SC-15_Drone_Master_Armor_Render.png",
-        "src": "/images/thumb/SC-15_Drone_Master_Armor_Render.png/123px-SC-15_Drone_Master_Armor_Render.png?825e5d"
+        "src": "/images/thumb/SC-15_Drone_Master_Armor_Render.png/123px-SC-15_Drone_Master_Armor_Render.png?825e5d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1243,7 +1315,9 @@
       },
       "icon": {
         "file": "CE-35_Trench_Engineer_Armor_Render.png",
-        "src": "/images/thumb/CE-35_Trench_Engineer_Armor_Render.png/123px-CE-35_Trench_Engineer_Armor_Render.png?3b9334"
+        "src": "/images/thumb/CE-35_Trench_Engineer_Armor_Render.png/123px-CE-35_Trench_Engineer_Armor_Render.png?3b9334",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1277,7 +1351,9 @@
       },
       "icon": {
         "file": "CM-09_Bonesnapper_Armor_Render.png",
-        "src": "/images/thumb/CM-09_Bonesnapper_Armor_Render.png/123px-CM-09_Bonesnapper_Armor_Render.png?8bc155"
+        "src": "/images/thumb/CM-09_Bonesnapper_Armor_Render.png/123px-CM-09_Bonesnapper_Armor_Render.png?8bc155",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1311,7 +1387,9 @@
       },
       "icon": {
         "file": "DP-40_Hero_of_the_Federation_Armor_Render.png",
-        "src": "/images/thumb/DP-40_Hero_of_the_Federation_Armor_Render.png/123px-DP-40_Hero_of_the_Federation_Armor_Render.png?aaafd0"
+        "src": "/images/thumb/DP-40_Hero_of_the_Federation_Armor_Render.png/123px-DP-40_Hero_of_the_Federation_Armor_Render.png?aaafd0",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1345,7 +1423,9 @@
       },
       "icon": {
         "file": "SA-04_Combat_Technician_Armor_Render.png",
-        "src": "/images/thumb/SA-04_Combat_Technician_Armor_Render.png/123px-SA-04_Combat_Technician_Armor_Render.png?52bfe9"
+        "src": "/images/thumb/SA-04_Combat_Technician_Armor_Render.png/123px-SA-04_Combat_Technician_Armor_Render.png?52bfe9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1379,7 +1459,9 @@
       },
       "icon": {
         "file": "CM-14_Physician_Armor_Render.png",
-        "src": "/images/thumb/CM-14_Physician_Armor_Render.png/123px-CM-14_Physician_Armor_Render.png?84d134"
+        "src": "/images/thumb/CM-14_Physician_Armor_Render.png/123px-CM-14_Physician_Armor_Render.png?84d134",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1413,7 +1495,9 @@
       },
       "icon": {
         "file": "DP-11_Champion_of_the_People_Armor_Render.png",
-        "src": "/images/thumb/DP-11_Champion_of_the_People_Armor_Render.png/123px-DP-11_Champion_of_the_People_Armor_Render.png?c3ea46"
+        "src": "/images/thumb/DP-11_Champion_of_the_People_Armor_Render.png/123px-DP-11_Champion_of_the_People_Armor_Render.png?c3ea46",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1447,7 +1531,9 @@
       },
       "icon": {
         "file": "SA-25_Steel_Trooper_Armor_Render.png",
-        "src": "/images/thumb/SA-25_Steel_Trooper_Armor_Render.png/123px-SA-25_Steel_Trooper_Armor_Render.png?f5481e"
+        "src": "/images/thumb/SA-25_Steel_Trooper_Armor_Render.png/123px-SA-25_Steel_Trooper_Armor_Render.png?f5481e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1481,7 +1567,9 @@
       },
       "icon": {
         "file": "SA-12_Servo_Assisted_Armor_Render.png",
-        "src": "/images/thumb/SA-12_Servo_Assisted_Armor_Render.png/123px-SA-12_Servo_Assisted_Armor_Render.png?915050"
+        "src": "/images/thumb/SA-12_Servo_Assisted_Armor_Render.png/123px-SA-12_Servo_Assisted_Armor_Render.png?915050",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1515,7 +1603,9 @@
       },
       "icon": {
         "file": "B-24_Enforcer_Body_Icon.png",
-        "src": "/images/thumb/B-24_Enforcer_Body_Icon.png/123px-B-24_Enforcer_Body_Icon.png?5af295"
+        "src": "/images/thumb/B-24_Enforcer_Body_Icon.png/123px-B-24_Enforcer_Body_Icon.png?5af295",
+        "width": 1015,
+        "height": 1015
       }
     },
     {
@@ -1549,7 +1639,9 @@
       },
       "icon": {
         "file": "CE-81_Juggernaut_Armor_Render.png",
-        "src": "/images/thumb/CE-81_Juggernaut_Armor_Render.png/123px-CE-81_Juggernaut_Armor_Render.png?d7055a"
+        "src": "/images/thumb/CE-81_Juggernaut_Armor_Render.png/123px-CE-81_Juggernaut_Armor_Render.png?d7055a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1583,7 +1675,9 @@
       },
       "icon": {
         "file": "FS-34_Exterminator_Armor_Render.png",
-        "src": "/images/thumb/FS-34_Exterminator_Armor_Render.png/123px-FS-34_Exterminator_Armor_Render.png?7f80c9"
+        "src": "/images/thumb/FS-34_Exterminator_Armor_Render.png/123px-FS-34_Exterminator_Armor_Render.png?7f80c9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1617,7 +1711,9 @@
       },
       "icon": {
         "file": "EX-03_Prototype_3_Armor_Render.png",
-        "src": "/images/thumb/EX-03_Prototype_3_Armor_Render.png/123px-EX-03_Prototype_3_Armor_Render.png?995556"
+        "src": "/images/thumb/EX-03_Prototype_3_Armor_Render.png/123px-EX-03_Prototype_3_Armor_Render.png?995556",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1651,7 +1747,9 @@
       },
       "icon": {
         "file": "EX-16_Prototype_16_Armor_Render.png",
-        "src": "/images/thumb/EX-16_Prototype_16_Armor_Render.png/123px-EX-16_Prototype_16_Armor_Render.png?61aa2a"
+        "src": "/images/thumb/EX-16_Prototype_16_Armor_Render.png/123px-EX-16_Prototype_16_Armor_Render.png?61aa2a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1685,7 +1783,9 @@
       },
       "icon": {
         "file": "CE-27_Ground_Breaker_Armor_Render.png",
-        "src": "/images/thumb/CE-27_Ground_Breaker_Armor_Render.png/123px-CE-27_Ground_Breaker_Armor_Render.png?13a541"
+        "src": "/images/thumb/CE-27_Ground_Breaker_Armor_Render.png/123px-CE-27_Ground_Breaker_Armor_Render.png?13a541",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1719,7 +1819,9 @@
       },
       "icon": {
         "file": "CM-10_Clinician_Armor_Render.png",
-        "src": "/images/thumb/CM-10_Clinician_Armor_Render.png/123px-CM-10_Clinician_Armor_Render.png?4c5d51"
+        "src": "/images/thumb/CM-10_Clinician_Armor_Render.png/123px-CM-10_Clinician_Armor_Render.png?4c5d51",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1753,7 +1855,9 @@
       },
       "icon": {
         "file": "CW-9_White_Wolf_Armor_Render.png",
-        "src": "/images/thumb/CW-9_White_Wolf_Armor_Render.png/123px-CW-9_White_Wolf_Armor_Render.png?747c52"
+        "src": "/images/thumb/CW-9_White_Wolf_Armor_Render.png/123px-CW-9_White_Wolf_Armor_Render.png?747c52",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1787,7 +1891,9 @@
       },
       "icon": {
         "file": "PH-56_Jaguar_Armor_Render.png",
-        "src": "/images/thumb/PH-56_Jaguar_Armor_Render.png/123px-PH-56_Jaguar_Armor_Render.png?3a9fb7"
+        "src": "/images/thumb/PH-56_Jaguar_Armor_Render.png/123px-PH-56_Jaguar_Armor_Render.png?3a9fb7",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1821,7 +1927,9 @@
       },
       "icon": {
         "file": "TR-40_Gold_Eagle_Armor_Render.png",
-        "src": "/images/thumb/TR-40_Gold_Eagle_Armor_Render.png/123px-TR-40_Gold_Eagle_Armor_Render.png?3c27f1"
+        "src": "/images/thumb/TR-40_Gold_Eagle_Armor_Render.png/123px-TR-40_Gold_Eagle_Armor_Render.png?3c27f1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1855,7 +1963,9 @@
       },
       "icon": {
         "file": "I-92_Fire_Fighter_Armor_Render.png",
-        "src": "/images/thumb/I-92_Fire_Fighter_Armor_Render.png/123px-I-92_Fire_Fighter_Armor_Render.png?7235b8"
+        "src": "/images/thumb/I-92_Fire_Fighter_Armor_Render.png/123px-I-92_Fire_Fighter_Armor_Render.png?7235b8",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1889,7 +1999,9 @@
       },
       "icon": {
         "file": "I-102_Draconaught_Armor_Render.png",
-        "src": "/images/thumb/I-102_Draconaught_Armor_Render.png/123px-I-102_Draconaught_Armor_Render.png?be9733"
+        "src": "/images/thumb/I-102_Draconaught_Armor_Render.png/123px-I-102_Draconaught_Armor_Render.png?be9733",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1923,7 +2035,9 @@
       },
       "icon": {
         "file": "AF-91_Field_Chemist_Armor_Render.png",
-        "src": "/images/thumb/AF-91_Field_Chemist_Armor_Render.png/123px-AF-91_Field_Chemist_Armor_Render.png?caed5b"
+        "src": "/images/thumb/AF-91_Field_Chemist_Armor_Render.png/123px-AF-91_Field_Chemist_Armor_Render.png?caed5b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1957,7 +2071,9 @@
       },
       "icon": {
         "file": "AF-02_Haz-Master_Armor_Render.png",
-        "src": "/images/thumb/AF-02_Haz-Master_Armor_Render.png/123px-AF-02_Haz-Master_Armor_Render.png?6545c2"
+        "src": "/images/thumb/AF-02_Haz-Master_Armor_Render.png/123px-AF-02_Haz-Master_Armor_Render.png?6545c2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -1991,7 +2107,9 @@
       },
       "icon": {
         "file": "DP-00_Tactical_Armor_Render.png",
-        "src": "/images/thumb/DP-00_Tactical_Armor_Render.png/123px-DP-00_Tactical_Armor_Render.png?425a3d"
+        "src": "/images/thumb/DP-00_Tactical_Armor_Render.png/123px-DP-00_Tactical_Armor_Render.png?425a3d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2025,7 +2143,9 @@
       },
       "icon": {
         "file": "UF-84_Doubt_Killer_Armor_Render.png",
-        "src": "/images/thumb/UF-84_Doubt_Killer_Armor_Render.png/123px-UF-84_Doubt_Killer_Armor_Render.png?f3347b"
+        "src": "/images/thumb/UF-84_Doubt_Killer_Armor_Render.png/123px-UF-84_Doubt_Killer_Armor_Render.png?f3347b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2059,7 +2179,9 @@
       },
       "icon": {
         "file": "UF-50_Bloodhound_Armor_Render.png",
-        "src": "/images/thumb/UF-50_Bloodhound_Armor_Render.png/123px-UF-50_Bloodhound_Armor_Render.png?39f25d"
+        "src": "/images/thumb/UF-50_Bloodhound_Armor_Render.png/123px-UF-50_Bloodhound_Armor_Render.png?39f25d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2093,7 +2215,9 @@
       },
       "icon": {
         "file": "AC-1_Dutiful_Armor_Render.png",
-        "src": "/images/thumb/AC-1_Dutiful_Armor_Render.png/123px-AC-1_Dutiful_Armor_Render.png?e85770"
+        "src": "/images/thumb/AC-1_Dutiful_Armor_Render.png/123px-AC-1_Dutiful_Armor_Render.png?e85770",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2127,7 +2251,9 @@
       },
       "icon": {
         "file": "IE-3_Martyr_Armor_Render.png",
-        "src": "/images/thumb/IE-3_Martyr_Armor_Render.png/123px-IE-3_Martyr_Armor_Render.png?80eaea"
+        "src": "/images/thumb/IE-3_Martyr_Armor_Render.png/123px-IE-3_Martyr_Armor_Render.png?80eaea",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2161,7 +2287,9 @@
       },
       "icon": {
         "file": "IE-12_Righteous_Armor_Render.png",
-        "src": "/images/thumb/IE-12_Righteous_Armor_Render.png/123px-IE-12_Righteous_Armor_Render.png?4ddc55"
+        "src": "/images/thumb/IE-12_Righteous_Armor_Render.png/123px-IE-12_Righteous_Armor_Render.png?4ddc55",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2191,7 +2319,9 @@
       },
       "icon": {
         "file": "B-22_Model_Citizen_Armor_Render.png",
-        "src": "/images/thumb/B-22_Model_Citizen_Armor_Render.png/123px-B-22_Model_Citizen_Armor_Render.png?fd7994"
+        "src": "/images/thumb/B-22_Model_Citizen_Armor_Render.png/123px-B-22_Model_Citizen_Armor_Render.png?fd7994",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2225,7 +2355,9 @@
       },
       "icon": {
         "file": "GS-17_Frontier_Marshal_Armor_Render.png",
-        "src": "/images/thumb/GS-17_Frontier_Marshal_Armor_Render.png/123px-GS-17_Frontier_Marshal_Armor_Render.png?afb377"
+        "src": "/images/thumb/GS-17_Frontier_Marshal_Armor_Render.png/123px-GS-17_Frontier_Marshal_Armor_Render.png?afb377",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2259,7 +2391,9 @@
       },
       "icon": {
         "file": "RE-2310_Honorary_Guard_Armor_Render.png",
-        "src": "/images/thumb/RE-2310_Honorary_Guard_Armor_Render.png/123px-RE-2310_Honorary_Guard_Armor_Render.png?6146a1"
+        "src": "/images/thumb/RE-2310_Honorary_Guard_Armor_Render.png/123px-RE-2310_Honorary_Guard_Armor_Render.png?6146a1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2293,7 +2427,9 @@
       },
       "icon": {
         "file": "BP-20_Correct_Officer_Armor_Render.png",
-        "src": "/images/thumb/BP-20_Correct_Officer_Armor_Render.png/123px-BP-20_Correct_Officer_Armor_Render.png?7acc68"
+        "src": "/images/thumb/BP-20_Correct_Officer_Armor_Render.png/123px-BP-20_Correct_Officer_Armor_Render.png?7acc68",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2327,7 +2463,9 @@
       },
       "icon": {
         "file": "AD-26_Bleeding_Edge_Armor_Render.png",
-        "src": "/images/thumb/AD-26_Bleeding_Edge_Armor_Render.png/123px-AD-26_Bleeding_Edge_Armor_Render.png?913a47"
+        "src": "/images/thumb/AD-26_Bleeding_Edge_Armor_Render.png/123px-AD-26_Bleeding_Edge_Armor_Render.png?913a47",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2361,7 +2499,9 @@
       },
       "icon": {
         "file": "A-9_Helljumper_Armor_Render.png",
-        "src": "/images/thumb/A-9_Helljumper_Armor_Render.png/123px-A-9_Helljumper_Armor_Render.png?50aa12"
+        "src": "/images/thumb/A-9_Helljumper_Armor_Render.png/123px-A-9_Helljumper_Armor_Render.png?50aa12",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2395,7 +2535,9 @@
       },
       "icon": {
         "file": "A-35_Recon_Armor_Render.png",
-        "src": "/images/thumb/A-35_Recon_Armor_Render.png/123px-A-35_Recon_Armor_Render.png?63ac36"
+        "src": "/images/thumb/A-35_Recon_Armor_Render.png/123px-A-35_Recon_Armor_Render.png?63ac36",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2429,7 +2571,9 @@
       },
       "icon": {
         "file": "DS-191_Scorpion_Armor_Render.png",
-        "src": "/images/thumb/DS-191_Scorpion_Armor_Render.png/123px-DS-191_Scorpion_Armor_Render.png?49c43d"
+        "src": "/images/thumb/DS-191_Scorpion_Armor_Render.png/123px-DS-191_Scorpion_Armor_Render.png?49c43d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2463,7 +2607,9 @@
       },
       "icon": {
         "file": "RS-6_Fiend_Destroyer_Armor_Render.png",
-        "src": "/images/thumb/RS-6_Fiend_Destroyer_Armor_Render.png/123px-RS-6_Fiend_Destroyer_Armor_Render.png?c9aac7"
+        "src": "/images/thumb/RS-6_Fiend_Destroyer_Armor_Render.png/123px-RS-6_Fiend_Destroyer_Armor_Render.png?c9aac7",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2497,7 +2643,9 @@
       },
       "icon": {
         "file": "RS-67_Null_Cipher_Armor_Render.png",
-        "src": "/images/thumb/RS-67_Null_Cipher_Armor_Render.png/123px-RS-67_Null_Cipher_Armor_Render.png?173cae"
+        "src": "/images/thumb/RS-67_Null_Cipher_Armor_Render.png/123px-RS-67_Null_Cipher_Armor_Render.png?173cae",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2531,7 +2679,9 @@
       },
       "icon": {
         "file": "SA-7_Headfirst_Armor_Render.png",
-        "src": "/images/thumb/SA-7_Headfirst_Armor_Render.png/123px-SA-7_Headfirst_Armor_Render.png?796aa6"
+        "src": "/images/thumb/SA-7_Headfirst_Armor_Render.png/123px-SA-7_Headfirst_Armor_Render.png?796aa6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2565,7 +2715,9 @@
       },
       "icon": {
         "file": "DP-8_Mountain-Scaled_Armor_Render.png",
-        "src": "/images/thumb/DP-8_Mountain-Scaled_Armor_Render.png/123px-DP-8_Mountain-Scaled_Armor_Render.png?6d8716"
+        "src": "/images/thumb/DP-8_Mountain-Scaled_Armor_Render.png/123px-DP-8_Mountain-Scaled_Armor_Render.png?6d8716",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2599,7 +2751,9 @@
       },
       "icon": {
         "file": "CPG-48_Sapper_Armor_Render.png",
-        "src": "/images/thumb/CPG-48_Sapper_Armor_Render.png/123px-CPG-48_Sapper_Armor_Render.png?9f1fa9"
+        "src": "/images/thumb/CPG-48_Sapper_Armor_Render.png/123px-CPG-48_Sapper_Armor_Render.png?9f1fa9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2633,7 +2787,9 @@
       },
       "icon": {
         "file": "O-44_Bonded_Pilot_Armor_Render.png",
-        "src": "/images/thumb/O-44_Bonded_Pilot_Armor_Render.png/123px-O-44_Bonded_Pilot_Armor_Render.png?ed5289"
+        "src": "/images/thumb/O-44_Bonded_Pilot_Armor_Render.png/123px-O-44_Bonded_Pilot_Armor_Render.png?ed5289",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2667,7 +2823,9 @@
       },
       "icon": {
         "file": "TG-8_Sharpshooter_Armor_Render.png",
-        "src": "/images/thumb/TG-8_Sharpshooter_Armor_Render.png/123px-TG-8_Sharpshooter_Armor_Render.png?49c6cb"
+        "src": "/images/thumb/TG-8_Sharpshooter_Armor_Render.png/123px-TG-8_Sharpshooter_Armor_Render.png?49c6cb",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2697,7 +2855,9 @@
       },
       "icon": {
         "file": "TR-62_Knight_Armor_Render.png",
-        "src": "/images/thumb/TR-62_Knight_Armor_Render.png/123px-TR-62_Knight_Armor_Render.png?a61021"
+        "src": "/images/thumb/TR-62_Knight_Armor_Render.png/123px-TR-62_Knight_Armor_Render.png?a61021",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2731,7 +2891,9 @@
       },
       "icon": {
         "file": "FS-05_Marksman_Body_Icon.png",
-        "src": "/images/thumb/FS-05_Marksman_Body_Icon.png/123px-FS-05_Marksman_Body_Icon.png?2b8bcd"
+        "src": "/images/thumb/FS-05_Marksman_Body_Icon.png/123px-FS-05_Marksman_Body_Icon.png?2b8bcd",
+        "width": 1015,
+        "height": 1015
       }
     },
     {
@@ -2765,7 +2927,9 @@
       },
       "icon": {
         "file": "FS-23_Battle_Master_Armor_Render.png",
-        "src": "/images/thumb/FS-23_Battle_Master_Armor_Render.png/123px-FS-23_Battle_Master_Armor_Render.png?f7f3b7"
+        "src": "/images/thumb/FS-23_Battle_Master_Armor_Render.png/123px-FS-23_Battle_Master_Armor_Render.png?f7f3b7",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2799,7 +2963,9 @@
       },
       "icon": {
         "file": "SA-32_Dynamo_Armor_Render.png",
-        "src": "/images/thumb/SA-32_Dynamo_Armor_Render.png/123px-SA-32_Dynamo_Armor_Render.png?d1a59f"
+        "src": "/images/thumb/SA-32_Dynamo_Armor_Render.png/123px-SA-32_Dynamo_Armor_Render.png?d1a59f",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2833,7 +2999,9 @@
       },
       "icon": {
         "file": "B-27_Fortified_Commando_Armor_Render.png",
-        "src": "/images/thumb/B-27_Fortified_Commando_Armor_Render.png/123px-B-27_Fortified_Commando_Armor_Render.png?8d38ea"
+        "src": "/images/thumb/B-27_Fortified_Commando_Armor_Render.png/123px-B-27_Fortified_Commando_Armor_Render.png?8d38ea",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2867,7 +3035,9 @@
       },
       "icon": {
         "file": "FS-61_Dreadnought_Armor_Render.png",
-        "src": "/images/thumb/FS-61_Dreadnought_Armor_Render.png/123px-FS-61_Dreadnought_Armor_Render.png?693c27"
+        "src": "/images/thumb/FS-61_Dreadnought_Armor_Render.png/123px-FS-61_Dreadnought_Armor_Render.png?693c27",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2901,7 +3071,9 @@
       },
       "icon": {
         "file": "FS-11_Executioner_Armor_Render.png",
-        "src": "/images/thumb/FS-11_Executioner_Armor_Render.png/123px-FS-11_Executioner_Armor_Render.png?40cfda"
+        "src": "/images/thumb/FS-11_Executioner_Armor_Render.png/123px-FS-11_Executioner_Armor_Render.png?40cfda",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -2935,7 +3107,9 @@
       },
       "icon": {
         "file": "CM-17_Butcher_Body_Icon.png",
-        "src": "/images/thumb/CM-17_Butcher_Body_Icon.png/123px-CM-17_Butcher_Body_Icon.png?d7b007"
+        "src": "/images/thumb/CM-17_Butcher_Body_Icon.png/123px-CM-17_Butcher_Body_Icon.png?d7b007",
+        "width": 1015,
+        "height": 1015
       }
     },
     {
@@ -2969,7 +3143,9 @@
       },
       "icon": {
         "file": "FS-55_Devastator_Armor_Render.png",
-        "src": "/images/thumb/FS-55_Devastator_Armor_Render.png/123px-FS-55_Devastator_Armor_Render.png?d45cb6"
+        "src": "/images/thumb/FS-55_Devastator_Armor_Render.png/123px-FS-55_Devastator_Armor_Render.png?d45cb6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3003,7 +3179,9 @@
       },
       "icon": {
         "file": "CE-64_Grenadier_Armor_Render.png",
-        "src": "/images/thumb/CE-64_Grenadier_Armor_Render.png/123px-CE-64_Grenadier_Armor_Render.png?48cbf5"
+        "src": "/images/thumb/CE-64_Grenadier_Armor_Render.png/123px-CE-64_Grenadier_Armor_Render.png?48cbf5",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3037,7 +3215,9 @@
       },
       "icon": {
         "file": "CW-36_Winter_Warrior_Armor_Render.png",
-        "src": "/images/thumb/CW-36_Winter_Warrior_Armor_Render.png/123px-CW-36_Winter_Warrior_Armor_Render.png?7c8e71"
+        "src": "/images/thumb/CW-36_Winter_Warrior_Armor_Render.png/123px-CW-36_Winter_Warrior_Armor_Render.png?7c8e71",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3071,7 +3251,9 @@
       },
       "icon": {
         "file": "CW-22_Kodiak_Armor_Render.png",
-        "src": "/images/thumb/CW-22_Kodiak_Armor_Render.png/123px-CW-22_Kodiak_Armor_Render.png?328906"
+        "src": "/images/thumb/CW-22_Kodiak_Armor_Render.png/123px-CW-22_Kodiak_Armor_Render.png?328906",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3105,7 +3287,9 @@
       },
       "icon": {
         "file": "CE-101_Guerilla_Gorilla_Armor_Render.png",
-        "src": "/images/thumb/CE-101_Guerilla_Gorilla_Armor_Render.png/123px-CE-101_Guerilla_Gorilla_Armor_Render.png?a78ae1"
+        "src": "/images/thumb/CE-101_Guerilla_Gorilla_Armor_Render.png/123px-CE-101_Guerilla_Gorilla_Armor_Render.png?a78ae1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3139,7 +3323,9 @@
       },
       "icon": {
         "file": "PH-202_Twigsnapper_Armor_Render.png",
-        "src": "/images/thumb/PH-202_Twigsnapper_Armor_Render.png/123px-PH-202_Twigsnapper_Armor_Render.png?d2a694"
+        "src": "/images/thumb/PH-202_Twigsnapper_Armor_Render.png/123px-PH-202_Twigsnapper_Armor_Render.png?d2a694",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3173,7 +3359,9 @@
       },
       "icon": {
         "file": "I-44_Salamander_Armor_Render.png",
-        "src": "/images/thumb/I-44_Salamander_Armor_Render.png/123px-I-44_Salamander_Armor_Render.png?2a2d82"
+        "src": "/images/thumb/I-44_Salamander_Armor_Render.png/123px-I-44_Salamander_Armor_Render.png?2a2d82",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3207,7 +3395,9 @@
       },
       "icon": {
         "file": "AF-52_Lockdown_Armor_Render.png",
-        "src": "/images/thumb/AF-52_Lockdown_Armor_Render.png/123px-AF-52_Lockdown_Armor_Render.png?98493b"
+        "src": "/images/thumb/AF-52_Lockdown_Armor_Render.png/123px-AF-52_Lockdown_Armor_Render.png?98493b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3241,7 +3431,9 @@
       },
       "icon": {
         "file": "SR-64_Cinderblock_Armor_Render.png",
-        "src": "/images/thumb/SR-64_Cinderblock_Armor_Render.png/123px-SR-64_Cinderblock_Armor_Render.png?8dea07"
+        "src": "/images/thumb/SR-64_Cinderblock_Armor_Render.png/123px-SR-64_Cinderblock_Armor_Render.png?8dea07",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3275,7 +3467,9 @@
       },
       "icon": {
         "file": "SR-18_Roadblock_Armor_Render.png",
-        "src": "/images/thumb/SR-18_Roadblock_Armor_Render.png/123px-SR-18_Roadblock_Armor_Render.png?4314dc"
+        "src": "/images/thumb/SR-18_Roadblock_Armor_Render.png/123px-SR-18_Roadblock_Armor_Render.png?4314dc",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3309,7 +3503,9 @@
       },
       "icon": {
         "file": "GS-66_Lawmaker_Armor_Render.png",
-        "src": "/images/thumb/GS-66_Lawmaker_Armor_Render.png/123px-GS-66_Lawmaker_Armor_Render.png?d367b5"
+        "src": "/images/thumb/GS-66_Lawmaker_Armor_Render.png/123px-GS-66_Lawmaker_Armor_Render.png?d367b5",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3343,7 +3539,9 @@
       },
       "icon": {
         "file": "RE-824_Bearer_of_the_Standard_Armor_Render.png",
-        "src": "/images/thumb/RE-824_Bearer_of_the_Standard_Armor_Render.png/123px-RE-824_Bearer_of_the_Standard_Armor_Render.png?3f5993"
+        "src": "/images/thumb/RE-824_Bearer_of_the_Standard_Armor_Render.png/123px-RE-824_Bearer_of_the_Standard_Armor_Render.png?3f5993",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3377,7 +3575,9 @@
       },
       "icon": {
         "file": "BP-77_Grand_Juror_Armor_Render.png",
-        "src": "/images/thumb/BP-77_Grand_Juror_Armor_Render.png/123px-BP-77_Grand_Juror_Armor_Render.png?8cfa23"
+        "src": "/images/thumb/BP-77_Grand_Juror_Armor_Render.png/123px-BP-77_Grand_Juror_Armor_Render.png?8cfa23",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3411,7 +3611,9 @@
       },
       "icon": {
         "file": "AD-49_Apollonian_Armor_Render.png",
-        "src": "/images/thumb/AD-49_Apollonian_Armor_Render.png/123px-AD-49_Apollonian_Armor_Render.png?71eeac"
+        "src": "/images/thumb/AD-49_Apollonian_Armor_Render.png/123px-AD-49_Apollonian_Armor_Render.png?71eeac",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3445,7 +3647,9 @@
       },
       "icon": {
         "file": "DS-42_Federation's_Blade_Armor_Render.png",
-        "src": "/images/thumb/DS-42_Federation%27s_Blade_Armor_Render.png/123px-DS-42_Federation%27s_Blade_Armor_Render.png?d1b114"
+        "src": "/images/thumb/DS-42_Federation%27s_Blade_Armor_Render.png/123px-DS-42_Federation%27s_Blade_Armor_Render.png?d1b114",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3479,7 +3683,9 @@
       },
       "icon": {
         "file": "RS-40_Beast_of_Prey_Armor_Render.png",
-        "src": "/images/thumb/RS-40_Beast_of_Prey_Armor_Render.png/123px-RS-40_Beast_of_Prey_Armor_Render.png?f5be22"
+        "src": "/images/thumb/RS-40_Beast_of_Prey_Armor_Render.png/123px-RS-40_Beast_of_Prey_Armor_Render.png?f5be22",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3513,7 +3719,9 @@
       },
       "icon": {
         "file": "SA-8_Ram_Armor_Render.png",
-        "src": "/images/thumb/SA-8_Ram_Armor_Render.png/123px-SA-8_Ram_Armor_Render.png?f57664"
+        "src": "/images/thumb/SA-8_Ram_Armor_Render.png/123px-SA-8_Ram_Armor_Render.png?f57664",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3547,7 +3755,9 @@
       },
       "icon": {
         "file": "CPR-80_Bulwark_Armor_Render.png",
-        "src": "/images/thumb/CPR-80_Bulwark_Armor_Render.png/123px-CPR-80_Bulwark_Armor_Render.png?dfef3c"
+        "src": "/images/thumb/CPR-80_Bulwark_Armor_Render.png/123px-CPR-80_Bulwark_Armor_Render.png?dfef3c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3581,7 +3791,9 @@
       },
       "icon": {
         "file": "O-2_Heavy_Operator_Armor_Render.png",
-        "src": "/images/thumb/O-2_Heavy_Operator_Armor_Render.png/123px-O-2_Heavy_Operator_Armor_Render.png?f2395b"
+        "src": "/images/thumb/O-2_Heavy_Operator_Armor_Render.png/123px-O-2_Heavy_Operator_Armor_Render.png?f2395b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3615,7 +3827,9 @@
       },
       "icon": {
         "file": "KDM-500_Outrider_Armor_Render.png",
-        "src": "/images/thumb/KDM-500_Outrider_Armor_Render.png/123px-KDM-500_Outrider_Armor_Render.png?66afec"
+        "src": "/images/thumb/KDM-500_Outrider_Armor_Render.png/123px-KDM-500_Outrider_Armor_Render.png?66afec",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3649,7 +3863,9 @@
       },
       "icon": {
         "file": "TG-122_Demo-Trooper_Armor_Render.png",
-        "src": "/images/thumb/TG-122_Demo-Trooper_Armor_Render.png/123px-TG-122_Demo-Trooper_Armor_Render.png?95857c"
+        "src": "/images/thumb/TG-122_Demo-Trooper_Armor_Render.png/123px-TG-122_Demo-Trooper_Armor_Render.png?95857c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3683,7 +3899,9 @@
       },
       "icon": {
         "file": "BFM-220_Ironclad_Armor_Render.png",
-        "src": "/images/thumb/BFM-220_Ironclad_Armor_Render.png/123px-BFM-220_Ironclad_Armor_Render.png?1deebd"
+        "src": "/images/thumb/BFM-220_Ironclad_Armor_Render.png/123px-BFM-220_Ironclad_Armor_Render.png?1deebd",
+        "width": 461,
+        "height": 953
       }
     }
   ],
@@ -3703,7 +3921,9 @@
       "cost": null,
       "image": {
         "file": "B-01_Tactical_v1_Helmet_Render.png",
-        "src": "/images/thumb/B-01_Tactical_v1_Helmet_Render.png/200px-B-01_Tactical_v1_Helmet_Render.png?61c266"
+        "src": "/images/thumb/B-01_Tactical_v1_Helmet_Render.png/200px-B-01_Tactical_v1_Helmet_Render.png?61c266",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3724,7 +3944,9 @@
       },
       "image": {
         "file": "TR-7_Ambassador_of_the_Brand_Helmet_Render.png",
-        "src": "/images/thumb/TR-7_Ambassador_of_the_Brand_Helmet_Render.png/200px-TR-7_Ambassador_of_the_Brand_Helmet_Render.png?ac495f"
+        "src": "/images/thumb/TR-7_Ambassador_of_the_Brand_Helmet_Render.png/200px-TR-7_Ambassador_of_the_Brand_Helmet_Render.png?ac495f",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3745,7 +3967,9 @@
       },
       "image": {
         "file": "TR-9_Cavalier_of_Democracy_Helmet_Render.png",
-        "src": "/images/thumb/TR-9_Cavalier_of_Democracy_Helmet_Render.png/200px-TR-9_Cavalier_of_Democracy_Helmet_Render.png?1c4c96"
+        "src": "/images/thumb/TR-9_Cavalier_of_Democracy_Helmet_Render.png/200px-TR-9_Cavalier_of_Democracy_Helmet_Render.png?1c4c96",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3766,7 +3990,9 @@
       },
       "image": {
         "file": "TR-62_Knight_Helmet_Render.png",
-        "src": "/images/thumb/TR-62_Knight_Helmet_Render.png/200px-TR-62_Knight_Helmet_Render.png?73801e"
+        "src": "/images/thumb/TR-62_Knight_Helmet_Render.png/200px-TR-62_Knight_Helmet_Render.png?73801e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3791,7 +4017,9 @@
       },
       "image": {
         "file": "DP-53_Savior_of_the_Free_Helmet_Render.png",
-        "src": "/images/thumb/DP-53_Savior_of_the_Free_Helmet_Render.png/200px-DP-53_Savior_of_the_Free_Helmet_Render.png?e5c301"
+        "src": "/images/thumb/DP-53_Savior_of_the_Free_Helmet_Render.png/200px-DP-53_Savior_of_the_Free_Helmet_Render.png?e5c301",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3813,7 +4041,9 @@
       "cost": null,
       "image": {
         "file": "TR-117_Alpha_Commander_Helmet_Render.png",
-        "src": "/images/thumb/TR-117_Alpha_Commander_Helmet_Render.png/200px-TR-117_Alpha_Commander_Helmet_Render.png?2e4531"
+        "src": "/images/thumb/TR-117_Alpha_Commander_Helmet_Render.png/200px-TR-117_Alpha_Commander_Helmet_Render.png?2e4531",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3838,7 +4068,9 @@
       },
       "image": {
         "file": "SC-37_Legionnaire_Helmet_Render.png",
-        "src": "/images/thumb/SC-37_Legionnaire_Helmet_Render.png/200px-SC-37_Legionnaire_Helmet_Render.png?f226a9"
+        "src": "/images/thumb/SC-37_Legionnaire_Helmet_Render.png/200px-SC-37_Legionnaire_Helmet_Render.png?f226a9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3863,7 +4095,9 @@
       },
       "image": {
         "file": "SC-15_Drone_Master_Helmet_Render.png",
-        "src": "/images/thumb/SC-15_Drone_Master_Helmet_Render.png/200px-SC-15_Drone_Master_Helmet_Render.png?309a86"
+        "src": "/images/thumb/SC-15_Drone_Master_Helmet_Render.png/200px-SC-15_Drone_Master_Helmet_Render.png?309a86",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3888,7 +4122,9 @@
       },
       "image": {
         "file": "SC-34_Infiltrator_Helmet_Render.png",
-        "src": "/images/thumb/SC-34_Infiltrator_Helmet_Render.png/200px-SC-34_Infiltrator_Helmet_Render.png?580b38"
+        "src": "/images/thumb/SC-34_Infiltrator_Helmet_Render.png/200px-SC-34_Infiltrator_Helmet_Render.png?580b38",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3913,7 +4149,9 @@
       },
       "image": {
         "file": "FS-05_Marksman_Helmet_Icon.png",
-        "src": "/images/thumb/FS-05_Marksman_Helmet_Icon.png/200px-FS-05_Marksman_Helmet_Icon.png?39037c"
+        "src": "/images/thumb/FS-05_Marksman_Helmet_Icon.png/200px-FS-05_Marksman_Helmet_Icon.png?39037c",
+        "width": 1015,
+        "height": 1015
       }
     },
     {
@@ -3938,7 +4176,9 @@
       },
       "image": {
         "file": "CE-35_Trench_Engineer_Helmet_Render.png",
-        "src": "/images/thumb/CE-35_Trench_Engineer_Helmet_Render.png/200px-CE-35_Trench_Engineer_Helmet_Render.png?343066"
+        "src": "/images/thumb/CE-35_Trench_Engineer_Helmet_Render.png/200px-CE-35_Trench_Engineer_Helmet_Render.png?343066",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3963,7 +4203,9 @@
       },
       "image": {
         "file": "CM-09_Bonesnapper_Helmet_Render.png",
-        "src": "/images/thumb/CM-09_Bonesnapper_Helmet_Render.png/200px-CM-09_Bonesnapper_Helmet_Render.png?c1dbe5"
+        "src": "/images/thumb/CM-09_Bonesnapper_Helmet_Render.png/200px-CM-09_Bonesnapper_Helmet_Render.png?c1dbe5",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -3988,7 +4230,9 @@
       },
       "image": {
         "file": "DP-40_Hero_of_the_Federation_Helmet_Render.png",
-        "src": "/images/thumb/DP-40_Hero_of_the_Federation_Helmet_Render.png/200px-DP-40_Hero_of_the_Federation_Helmet_Render.png?2cd668"
+        "src": "/images/thumb/DP-40_Hero_of_the_Federation_Helmet_Render.png/200px-DP-40_Hero_of_the_Federation_Helmet_Render.png?2cd668",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4013,7 +4257,9 @@
       },
       "image": {
         "file": "FS-23_Battle_Master_Helmet_Render.png",
-        "src": "/images/thumb/FS-23_Battle_Master_Helmet_Render.png/200px-FS-23_Battle_Master_Helmet_Render.png?71f73b"
+        "src": "/images/thumb/FS-23_Battle_Master_Helmet_Render.png/200px-FS-23_Battle_Master_Helmet_Render.png?71f73b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4038,7 +4284,9 @@
       },
       "image": {
         "file": "SC-30_Trailblazer_Scout_Helmet_Render.png",
-        "src": "/images/thumb/SC-30_Trailblazer_Scout_Helmet_Render.png/200px-SC-30_Trailblazer_Scout_Helmet_Render.png?192d1e"
+        "src": "/images/thumb/SC-30_Trailblazer_Scout_Helmet_Render.png/200px-SC-30_Trailblazer_Scout_Helmet_Render.png?192d1e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4063,7 +4311,9 @@
       },
       "image": {
         "file": "SA-04_Combat_Technician_Helmet_Render.png",
-        "src": "/images/thumb/SA-04_Combat_Technician_Helmet_Render.png/200px-SA-04_Combat_Technician_Helmet_Render.png?7c5395"
+        "src": "/images/thumb/SA-04_Combat_Technician_Helmet_Render.png/200px-SA-04_Combat_Technician_Helmet_Render.png?7c5395",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4088,7 +4338,9 @@
       },
       "image": {
         "file": "CM-14_Physician_Helmet_Render.png",
-        "src": "/images/thumb/CM-14_Physician_Helmet_Render.png/200px-CM-14_Physician_Helmet_Render.png?6d31a5"
+        "src": "/images/thumb/CM-14_Physician_Helmet_Render.png/200px-CM-14_Physician_Helmet_Render.png?6d31a5",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4113,7 +4365,9 @@
       },
       "image": {
         "file": "DP-11_Champion_of_the_People_Helmet_Render.png",
-        "src": "/images/thumb/DP-11_Champion_of_the_People_Helmet_Render.png/200px-DP-11_Champion_of_the_People_Helmet_Render.png?941546"
+        "src": "/images/thumb/DP-11_Champion_of_the_People_Helmet_Render.png/200px-DP-11_Champion_of_the_People_Helmet_Render.png?941546",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4138,7 +4392,9 @@
       },
       "image": {
         "file": "SA-25_Steel_Trooper_Helmet_Render.png",
-        "src": "/images/thumb/SA-25_Steel_Trooper_Helmet_Render.png/200px-SA-25_Steel_Trooper_Helmet_Render.png?fd9672"
+        "src": "/images/thumb/SA-25_Steel_Trooper_Helmet_Render.png/200px-SA-25_Steel_Trooper_Helmet_Render.png?fd9672",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4163,7 +4419,9 @@
       },
       "image": {
         "file": "SA-12_Servo_Assisted_Helmet_Render.png",
-        "src": "/images/thumb/SA-12_Servo_Assisted_Helmet_Render.png/200px-SA-12_Servo_Assisted_Helmet_Render.png?e6409e"
+        "src": "/images/thumb/SA-12_Servo_Assisted_Helmet_Render.png/200px-SA-12_Servo_Assisted_Helmet_Render.png?e6409e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4188,7 +4446,9 @@
       },
       "image": {
         "file": "SA-32_Dynamo_Helmet_Render.png",
-        "src": "/images/thumb/SA-32_Dynamo_Helmet_Render.png/200px-SA-32_Dynamo_Helmet_Render.png?d8d519"
+        "src": "/images/thumb/SA-32_Dynamo_Helmet_Render.png/200px-SA-32_Dynamo_Helmet_Render.png?d8d519",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4213,7 +4473,9 @@
       },
       "image": {
         "file": "B-24_Enforcer_Helmet_Icon.png",
-        "src": "/images/thumb/B-24_Enforcer_Helmet_Icon.png/200px-B-24_Enforcer_Helmet_Icon.png?5ccf7d"
+        "src": "/images/thumb/B-24_Enforcer_Helmet_Icon.png/200px-B-24_Enforcer_Helmet_Icon.png?5ccf7d",
+        "width": 1015,
+        "height": 1015
       }
     },
     {
@@ -4238,7 +4500,9 @@
       },
       "image": {
         "file": "CE-74_Breaker_Helmet_Render.png",
-        "src": "/images/thumb/CE-74_Breaker_Helmet_Render.png/200px-CE-74_Breaker_Helmet_Render.png?573bca"
+        "src": "/images/thumb/CE-74_Breaker_Helmet_Render.png/200px-CE-74_Breaker_Helmet_Render.png?573bca",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4263,7 +4527,9 @@
       },
       "image": {
         "file": "B-27_Fortified_Commando_Helmet_Render.png",
-        "src": "/images/thumb/B-27_Fortified_Commando_Helmet_Render.png/200px-B-27_Fortified_Commando_Helmet_Render.png?c169ba"
+        "src": "/images/thumb/B-27_Fortified_Commando_Helmet_Render.png/200px-B-27_Fortified_Commando_Helmet_Render.png?c169ba",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4288,7 +4554,9 @@
       },
       "image": {
         "file": "FS-38_Eradicator_Helmet_Render.png",
-        "src": "/images/thumb/FS-38_Eradicator_Helmet_Render.png/200px-FS-38_Eradicator_Helmet_Render.png?fbcb5d"
+        "src": "/images/thumb/FS-38_Eradicator_Helmet_Render.png/200px-FS-38_Eradicator_Helmet_Render.png?fbcb5d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4313,7 +4581,9 @@
       },
       "image": {
         "file": "B-08_Light_Gunner_Helmet_Render.png",
-        "src": "/images/thumb/B-08_Light_Gunner_Helmet_Render.png/200px-B-08_Light_Gunner_Helmet_Render.png?becc08"
+        "src": "/images/thumb/B-08_Light_Gunner_Helmet_Render.png/200px-B-08_Light_Gunner_Helmet_Render.png?becc08",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4338,7 +4608,9 @@
       },
       "image": {
         "file": "FS-61_Dreadnought_Helmet_Render.png",
-        "src": "/images/thumb/FS-61_Dreadnought_Helmet_Render.png/200px-FS-61_Dreadnought_Helmet_Render.png?a81697"
+        "src": "/images/thumb/FS-61_Dreadnought_Helmet_Render.png/200px-FS-61_Dreadnought_Helmet_Render.png?a81697",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4363,7 +4635,9 @@
       },
       "image": {
         "file": "FS-11_Executioner_Helmet_Render.png",
-        "src": "/images/thumb/FS-11_Executioner_Helmet_Render.png/200px-FS-11_Executioner_Helmet_Render.png?d6609f"
+        "src": "/images/thumb/FS-11_Executioner_Helmet_Render.png/200px-FS-11_Executioner_Helmet_Render.png?d6609f",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4388,7 +4662,9 @@
       },
       "image": {
         "file": "CM-21_Trench_Paramedic_Helmet_Render.png",
-        "src": "/images/thumb/CM-21_Trench_Paramedic_Helmet_Render.png/200px-CM-21_Trench_Paramedic_Helmet_Render.png?2c75d9"
+        "src": "/images/thumb/CM-21_Trench_Paramedic_Helmet_Render.png/200px-CM-21_Trench_Paramedic_Helmet_Render.png?2c75d9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4413,7 +4689,9 @@
       },
       "image": {
         "file": "CE-81_Juggernaut_Helmet_Render.png",
-        "src": "/images/thumb/CE-81_Juggernaut_Helmet_Render.png/200px-CE-81_Juggernaut_Helmet_Render.png?dd315a"
+        "src": "/images/thumb/CE-81_Juggernaut_Helmet_Render.png/200px-CE-81_Juggernaut_Helmet_Render.png?dd315a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4438,7 +4716,9 @@
       },
       "image": {
         "file": "FS-34_Exterminator_Helmet_Render.png",
-        "src": "/images/thumb/FS-34_Exterminator_Helmet_Render.png/200px-FS-34_Exterminator_Helmet_Render.png?284169"
+        "src": "/images/thumb/FS-34_Exterminator_Helmet_Render.png/200px-FS-34_Exterminator_Helmet_Render.png?284169",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4463,7 +4743,9 @@
       },
       "image": {
         "file": "CE-67_Titan_Helmet_Render.png",
-        "src": "/images/thumb/CE-67_Titan_Helmet_Render.png/200px-CE-67_Titan_Helmet_Render.png?f9dc32"
+        "src": "/images/thumb/CE-67_Titan_Helmet_Render.png/200px-CE-67_Titan_Helmet_Render.png?f9dc32",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4488,7 +4770,9 @@
       },
       "image": {
         "file": "CM-17_Butcher_Helmet_Icon.png",
-        "src": "/images/thumb/CM-17_Butcher_Helmet_Icon.png/200px-CM-17_Butcher_Helmet_Icon.png?eba7bb"
+        "src": "/images/thumb/CM-17_Butcher_Helmet_Icon.png/200px-CM-17_Butcher_Helmet_Icon.png?eba7bb",
+        "width": 1015,
+        "height": 1015
       }
     },
     {
@@ -4513,7 +4797,9 @@
       },
       "image": {
         "file": "EX-03_Prototype_3_Helmet_Render.png",
-        "src": "/images/thumb/EX-03_Prototype_3_Helmet_Render.png/200px-EX-03_Prototype_3_Helmet_Render.png?ea0c67"
+        "src": "/images/thumb/EX-03_Prototype_3_Helmet_Render.png/200px-EX-03_Prototype_3_Helmet_Render.png?ea0c67",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4538,7 +4824,9 @@
       },
       "image": {
         "file": "EX-16_Prototype_16_Helmet_Render.png",
-        "src": "/images/thumb/EX-16_Prototype_16_Helmet_Render.png/200px-EX-16_Prototype_16_Helmet_Render.png?5b9c61"
+        "src": "/images/thumb/EX-16_Prototype_16_Helmet_Render.png/200px-EX-16_Prototype_16_Helmet_Render.png?5b9c61",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4563,7 +4851,9 @@
       },
       "image": {
         "file": "EX-00_Prototype_X_Helmet_Render.png",
-        "src": "/images/thumb/EX-00_Prototype_X_Helmet_Render.png/200px-EX-00_Prototype_X_Helmet_Render.png?eae6ff"
+        "src": "/images/thumb/EX-00_Prototype_X_Helmet_Render.png/200px-EX-00_Prototype_X_Helmet_Render.png?eae6ff",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4588,7 +4878,9 @@
       },
       "image": {
         "file": "CE-27_Ground_Breaker_Helmet_Render.png",
-        "src": "/images/thumb/CE-27_Ground_Breaker_Helmet_Render.png/200px-CE-27_Ground_Breaker_Helmet_Render.png?6beea0"
+        "src": "/images/thumb/CE-27_Ground_Breaker_Helmet_Render.png/200px-CE-27_Ground_Breaker_Helmet_Render.png?6beea0",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4613,7 +4905,9 @@
       },
       "image": {
         "file": "CE-07_Demolition_Specialist_Helmet_Render.png",
-        "src": "/images/thumb/CE-07_Demolition_Specialist_Helmet_Render.png/200px-CE-07_Demolition_Specialist_Helmet_Render.png?12d640"
+        "src": "/images/thumb/CE-07_Demolition_Specialist_Helmet_Render.png/200px-CE-07_Demolition_Specialist_Helmet_Render.png?12d640",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4638,7 +4932,9 @@
       },
       "image": {
         "file": "FS-55_Devastator_Helmet_Render.png",
-        "src": "/images/thumb/FS-55_Devastator_Helmet_Render.png/200px-FS-55_Devastator_Helmet_Render.png?8adf41"
+        "src": "/images/thumb/FS-55_Devastator_Helmet_Render.png/200px-FS-55_Devastator_Helmet_Render.png?8adf41",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4663,7 +4959,9 @@
       },
       "image": {
         "file": "CM-10_Clinician_Helmet_Render.png",
-        "src": "/images/thumb/CM-10_Clinician_Helmet_Render.png/200px-CM-10_Clinician_Helmet_Render.png?c06a7b"
+        "src": "/images/thumb/CM-10_Clinician_Helmet_Render.png/200px-CM-10_Clinician_Helmet_Render.png?c06a7b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4688,7 +4986,9 @@
       },
       "image": {
         "file": "FS-37_Ravager_Helmet_Render.png",
-        "src": "/images/thumb/FS-37_Ravager_Helmet_Render.png/200px-FS-37_Ravager_Helmet_Render.png?3179ac"
+        "src": "/images/thumb/FS-37_Ravager_Helmet_Render.png/200px-FS-37_Ravager_Helmet_Render.png?3179ac",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4713,7 +5013,9 @@
       },
       "image": {
         "file": "CW-9_White_Wolf_Helmet_Render.png",
-        "src": "/images/thumb/CW-9_White_Wolf_Helmet_Render.png/200px-CW-9_White_Wolf_Helmet_Render.png?53ccb2"
+        "src": "/images/thumb/CW-9_White_Wolf_Helmet_Render.png/200px-CW-9_White_Wolf_Helmet_Render.png?53ccb2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4738,7 +5040,9 @@
       },
       "image": {
         "file": "CE-64_Grenadier_Helmet_Render.png",
-        "src": "/images/thumb/CE-64_Grenadier_Helmet_Render.png/200px-CE-64_Grenadier_Helmet_Render.png?100de2"
+        "src": "/images/thumb/CE-64_Grenadier_Helmet_Render.png/200px-CE-64_Grenadier_Helmet_Render.png?100de2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4763,7 +5067,9 @@
       },
       "image": {
         "file": "CW-36_Winter_Warrior_Helmet_Render.png",
-        "src": "/images/thumb/CW-36_Winter_Warrior_Helmet_Render.png/200px-CW-36_Winter_Warrior_Helmet_Render.png?13354a"
+        "src": "/images/thumb/CW-36_Winter_Warrior_Helmet_Render.png/200px-CW-36_Winter_Warrior_Helmet_Render.png?13354a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4788,7 +5094,9 @@
       },
       "image": {
         "file": "CW-22_Kodiak_Helmet_Render.png",
-        "src": "/images/thumb/CW-22_Kodiak_Helmet_Render.png/200px-CW-22_Kodiak_Helmet_Render.png?7981ac"
+        "src": "/images/thumb/CW-22_Kodiak_Helmet_Render.png/200px-CW-22_Kodiak_Helmet_Render.png?7981ac",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4813,7 +5121,9 @@
       },
       "image": {
         "file": "CW-4_Arctic_Ranger_Helmet_Render.png",
-        "src": "/images/thumb/CW-4_Arctic_Ranger_Helmet_Render.png/200px-CW-4_Arctic_Ranger_Helmet_Render.png?abe101"
+        "src": "/images/thumb/CW-4_Arctic_Ranger_Helmet_Render.png/200px-CW-4_Arctic_Ranger_Helmet_Render.png?abe101",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4838,7 +5148,9 @@
       },
       "image": {
         "file": "PH-56_Jaguar_Helmet_Render.png",
-        "src": "/images/thumb/PH-56_Jaguar_Helmet_Render.png/200px-PH-56_Jaguar_Helmet_Render.png?e87def"
+        "src": "/images/thumb/PH-56_Jaguar_Helmet_Render.png/200px-PH-56_Jaguar_Helmet_Render.png?e87def",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4863,7 +5175,9 @@
       },
       "image": {
         "file": "CE-101_Guerilla_Gorilla_Helmet_Render.png",
-        "src": "/images/thumb/CE-101_Guerilla_Gorilla_Helmet_Render.png/200px-CE-101_Guerilla_Gorilla_Helmet_Render.png?cf8be6"
+        "src": "/images/thumb/CE-101_Guerilla_Gorilla_Helmet_Render.png/200px-CE-101_Guerilla_Gorilla_Helmet_Render.png?cf8be6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4888,7 +5202,9 @@
       },
       "image": {
         "file": "PH-9_Predator_Helmet_Render.png",
-        "src": "/images/thumb/PH-9_Predator_Helmet_Render.png/200px-PH-9_Predator_Helmet_Render.png?b1e3ea"
+        "src": "/images/thumb/PH-9_Predator_Helmet_Render.png/200px-PH-9_Predator_Helmet_Render.png?b1e3ea",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4913,7 +5229,9 @@
       },
       "image": {
         "file": "PH-202_Twigsnapper_Helmet_Render.png",
-        "src": "/images/thumb/PH-202_Twigsnapper_Helmet_Render.png/200px-PH-202_Twigsnapper_Helmet_Render.png?ae0b79"
+        "src": "/images/thumb/PH-202_Twigsnapper_Helmet_Render.png/200px-PH-202_Twigsnapper_Helmet_Render.png?ae0b79",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4938,7 +5256,9 @@
       },
       "image": {
         "file": "TR-40_Gold_Eagle_Helmet_Render.png",
-        "src": "/images/thumb/TR-40_Gold_Eagle_Helmet_Render.png/200px-TR-40_Gold_Eagle_Helmet_Render.png?43e41e"
+        "src": "/images/thumb/TR-40_Gold_Eagle_Helmet_Render.png/200px-TR-40_Gold_Eagle_Helmet_Render.png?43e41e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4963,7 +5283,9 @@
       },
       "image": {
         "file": "I-44_Salamander_Helmet_Render.png",
-        "src": "/images/thumb/I-44_Salamander_Helmet_Render.png/200px-I-44_Salamander_Helmet_Render.png?76f500"
+        "src": "/images/thumb/I-44_Salamander_Helmet_Render.png/200px-I-44_Salamander_Helmet_Render.png?76f500",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -4988,7 +5310,9 @@
       },
       "image": {
         "file": "I-92_Fire_Fighter_Helmet_Render.png",
-        "src": "/images/thumb/I-92_Fire_Fighter_Helmet_Render.png/200px-I-92_Fire_Fighter_Helmet_Render.png?4eac9b"
+        "src": "/images/thumb/I-92_Fire_Fighter_Helmet_Render.png/200px-I-92_Fire_Fighter_Helmet_Render.png?4eac9b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5013,7 +5337,9 @@
       },
       "image": {
         "file": "I-09_Heatseeker_Helmet_Render.png",
-        "src": "/images/thumb/I-09_Heatseeker_Helmet_Render.png/200px-I-09_Heatseeker_Helmet_Render.png?dfc57b"
+        "src": "/images/thumb/I-09_Heatseeker_Helmet_Render.png/200px-I-09_Heatseeker_Helmet_Render.png?dfc57b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5038,7 +5364,9 @@
       },
       "image": {
         "file": "I-102_Draconaught_Helmet_Render.png",
-        "src": "/images/thumb/I-102_Draconaught_Helmet_Render.png/200px-I-102_Draconaught_Helmet_Render.png?876200"
+        "src": "/images/thumb/I-102_Draconaught_Helmet_Render.png/200px-I-102_Draconaught_Helmet_Render.png?876200",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5063,7 +5391,9 @@
       },
       "image": {
         "file": "AF-52_Lockdown_Helmet_Render.png",
-        "src": "/images/thumb/AF-52_Lockdown_Helmet_Render.png/200px-AF-52_Lockdown_Helmet_Render.png?a72c02"
+        "src": "/images/thumb/AF-52_Lockdown_Helmet_Render.png/200px-AF-52_Lockdown_Helmet_Render.png?a72c02",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5088,7 +5418,9 @@
       },
       "image": {
         "file": "AF-91_Field_Chemist_Helmet_Render.png",
-        "src": "/images/thumb/AF-91_Field_Chemist_Helmet_Render.png/200px-AF-91_Field_Chemist_Helmet_Render.png?3afb85"
+        "src": "/images/thumb/AF-91_Field_Chemist_Helmet_Render.png/200px-AF-91_Field_Chemist_Helmet_Render.png?3afb85",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5113,7 +5445,9 @@
       },
       "image": {
         "file": "AF-50_Noxious_Ranger_Helmet_Render.png",
-        "src": "/images/thumb/AF-50_Noxious_Ranger_Helmet_Render.png/200px-AF-50_Noxious_Ranger_Helmet_Render.png?9972a1"
+        "src": "/images/thumb/AF-50_Noxious_Ranger_Helmet_Render.png/200px-AF-50_Noxious_Ranger_Helmet_Render.png?9972a1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5138,7 +5472,9 @@
       },
       "image": {
         "file": "AF-02_Haz-Master_Helmet_Render.png",
-        "src": "/images/thumb/AF-02_Haz-Master_Helmet_Render.png/200px-AF-02_Haz-Master_Helmet_Render.png?5b75a5"
+        "src": "/images/thumb/AF-02_Haz-Master_Helmet_Render.png/200px-AF-02_Haz-Master_Helmet_Render.png?5b75a5",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5160,7 +5496,9 @@
       "cost": null,
       "image": {
         "file": "DP-00_Tactical_Helmet_Render.png",
-        "src": "/images/thumb/DP-00_Tactical_Helmet_Render.png/200px-DP-00_Tactical_Helmet_Render.png?f11cff"
+        "src": "/images/thumb/DP-00_Tactical_Helmet_Render.png/200px-DP-00_Tactical_Helmet_Render.png?f11cff",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5185,7 +5523,9 @@
       },
       "image": {
         "file": "UF-84_Doubt_Killer_Helmet_Render.png",
-        "src": "/images/thumb/UF-84_Doubt_Killer_Helmet_Render.png/200px-UF-84_Doubt_Killer_Helmet_Render.png?76d748"
+        "src": "/images/thumb/UF-84_Doubt_Killer_Helmet_Render.png/200px-UF-84_Doubt_Killer_Helmet_Render.png?76d748",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5210,7 +5550,9 @@
       },
       "image": {
         "file": "UF-50_Bloodhound_Helmet_Render.png",
-        "src": "/images/thumb/UF-50_Bloodhound_Helmet_Render.png/200px-UF-50_Bloodhound_Helmet_Render.png?5d9ece"
+        "src": "/images/thumb/UF-50_Bloodhound_Helmet_Render.png/200px-UF-50_Bloodhound_Helmet_Render.png?5d9ece",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5235,7 +5577,9 @@
       },
       "image": {
         "file": "UF-16_Inspector_Helmet_Render.png",
-        "src": "/images/thumb/UF-16_Inspector_Helmet_Render.png/200px-UF-16_Inspector_Helmet_Render.png?d6fab1"
+        "src": "/images/thumb/UF-16_Inspector_Helmet_Render.png/200px-UF-16_Inspector_Helmet_Render.png?d6fab1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5260,7 +5604,9 @@
       },
       "image": {
         "file": "SR-64_Cinderblock_Helmet_Render.png",
-        "src": "/images/thumb/SR-64_Cinderblock_Helmet_Render.png/200px-SR-64_Cinderblock_Helmet_Render.png?57123d"
+        "src": "/images/thumb/SR-64_Cinderblock_Helmet_Render.png/200px-SR-64_Cinderblock_Helmet_Render.png?57123d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5285,7 +5631,9 @@
       },
       "image": {
         "file": "SR-24_Street_Scout_Helmet_Render.png",
-        "src": "/images/thumb/SR-24_Street_Scout_Helmet_Render.png/200px-SR-24_Street_Scout_Helmet_Render.png?bfb303"
+        "src": "/images/thumb/SR-24_Street_Scout_Helmet_Render.png/200px-SR-24_Street_Scout_Helmet_Render.png?bfb303",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5310,7 +5658,9 @@
       },
       "image": {
         "file": "SR-18_Roadblock_Helmet_Render.png",
-        "src": "/images/thumb/SR-18_Roadblock_Helmet_Render.png/200px-SR-18_Roadblock_Helmet_Render.png?891a17"
+        "src": "/images/thumb/SR-18_Roadblock_Helmet_Render.png/200px-SR-18_Roadblock_Helmet_Render.png?891a17",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5335,7 +5685,9 @@
       },
       "image": {
         "file": "AC-1_Dutiful_Helmet_Render.png",
-        "src": "/images/thumb/AC-1_Dutiful_Helmet_Render.png/200px-AC-1_Dutiful_Helmet_Render.png?ba4d45"
+        "src": "/images/thumb/AC-1_Dutiful_Helmet_Render.png/200px-AC-1_Dutiful_Helmet_Render.png?ba4d45",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5360,7 +5712,9 @@
       },
       "image": {
         "file": "AC-2_Obedient_Helmet_Render.png",
-        "src": "/images/thumb/AC-2_Obedient_Helmet_Render.png/200px-AC-2_Obedient_Helmet_Render.png?da1d8e"
+        "src": "/images/thumb/AC-2_Obedient_Helmet_Render.png/200px-AC-2_Obedient_Helmet_Render.png?da1d8e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5385,7 +5739,9 @@
       },
       "image": {
         "file": "IE-57_Hell-Bent_Helmet_Render.png",
-        "src": "/images/thumb/IE-57_Hell-Bent_Helmet_Render.png/200px-IE-57_Hell-Bent_Helmet_Render.png?b3d9b4"
+        "src": "/images/thumb/IE-57_Hell-Bent_Helmet_Render.png/200px-IE-57_Hell-Bent_Helmet_Render.png?b3d9b4",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5410,7 +5766,9 @@
       },
       "image": {
         "file": "IE-3_Martyr_Helmet_Render.png",
-        "src": "/images/thumb/IE-3_Martyr_Helmet_Render.png/200px-IE-3_Martyr_Helmet_Render.png?69820e"
+        "src": "/images/thumb/IE-3_Martyr_Helmet_Render.png/200px-IE-3_Martyr_Helmet_Render.png?69820e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5435,7 +5793,9 @@
       },
       "image": {
         "file": "IE-12_Righteous_Helmet_Render.png",
-        "src": "/images/thumb/IE-12_Righteous_Helmet_Render.png/200px-IE-12_Righteous_Helmet_Render.png?4c51c9"
+        "src": "/images/thumb/IE-12_Righteous_Helmet_Render.png/200px-IE-12_Righteous_Helmet_Render.png?4c51c9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5456,7 +5816,9 @@
       },
       "image": {
         "file": "B-22_Model_Citizen_Helmet_Render.png",
-        "src": "/images/thumb/B-22_Model_Citizen_Helmet_Render.png/200px-B-22_Model_Citizen_Helmet_Render.png?a2f526"
+        "src": "/images/thumb/B-22_Model_Citizen_Helmet_Render.png/200px-B-22_Model_Citizen_Helmet_Render.png?a2f526",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5481,7 +5843,9 @@
       },
       "image": {
         "file": "GS-11_Democracy's_Deputy_Helmet_Render.png",
-        "src": "/images/thumb/GS-11_Democracy%27s_Deputy_Helmet_Render.png/200px-GS-11_Democracy%27s_Deputy_Helmet_Render.png?20fbd1"
+        "src": "/images/thumb/GS-11_Democracy%27s_Deputy_Helmet_Render.png/200px-GS-11_Democracy%27s_Deputy_Helmet_Render.png?20fbd1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5506,7 +5870,9 @@
       },
       "image": {
         "file": "GS-17_Frontier_Marshal_Helmet_Render.png",
-        "src": "/images/thumb/GS-17_Frontier_Marshal_Helmet_Render.png/200px-GS-17_Frontier_Marshal_Helmet_Render.png?669b43"
+        "src": "/images/thumb/GS-17_Frontier_Marshal_Helmet_Render.png/200px-GS-17_Frontier_Marshal_Helmet_Render.png?669b43",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5531,7 +5897,9 @@
       },
       "image": {
         "file": "GS-66_Lawmaker_Helmet_Render.png",
-        "src": "/images/thumb/GS-66_Lawmaker_Helmet_Render.png/200px-GS-66_Lawmaker_Helmet_Render.png?bacf73"
+        "src": "/images/thumb/GS-66_Lawmaker_Helmet_Render.png/200px-GS-66_Lawmaker_Helmet_Render.png?bacf73",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5556,7 +5924,9 @@
       },
       "image": {
         "file": "RE-824_Bearer_of_the_Standard_Helmet_Render.png",
-        "src": "/images/thumb/RE-824_Bearer_of_the_Standard_Helmet_Render.png/200px-RE-824_Bearer_of_the_Standard_Helmet_Render.png?173a29"
+        "src": "/images/thumb/RE-824_Bearer_of_the_Standard_Helmet_Render.png/200px-RE-824_Bearer_of_the_Standard_Helmet_Render.png?173a29",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5581,7 +5951,9 @@
       },
       "image": {
         "file": "RE-2310_Honorary_Guard_Helmet_Render.png",
-        "src": "/images/thumb/RE-2310_Honorary_Guard_Helmet_Render.png/200px-RE-2310_Honorary_Guard_Helmet_Render.png?abfdae"
+        "src": "/images/thumb/RE-2310_Honorary_Guard_Helmet_Render.png/200px-RE-2310_Honorary_Guard_Helmet_Render.png?abfdae",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5606,7 +5978,9 @@
       },
       "image": {
         "file": "RE-1861_Parade_Commander_Helmet_Render.png",
-        "src": "/images/thumb/RE-1861_Parade_Commander_Helmet_Render.png/200px-RE-1861_Parade_Commander_Helmet_Render.png?cf4e2a"
+        "src": "/images/thumb/RE-1861_Parade_Commander_Helmet_Render.png/200px-RE-1861_Parade_Commander_Helmet_Render.png?cf4e2a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5631,7 +6005,9 @@
       },
       "image": {
         "file": "BP-77_Grand_Juror_Helmet_Render.png",
-        "src": "/images/thumb/BP-77_Grand_Juror_Helmet_Render.png/200px-BP-77_Grand_Juror_Helmet_Render.png?fc02d9"
+        "src": "/images/thumb/BP-77_Grand_Juror_Helmet_Render.png/200px-BP-77_Grand_Juror_Helmet_Render.png?fc02d9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5656,7 +6032,9 @@
       },
       "image": {
         "file": "BP-20_Correct_Officer_Helmet_Render.png",
-        "src": "/images/thumb/BP-20_Correct_Officer_Helmet_Render.png/200px-BP-20_Correct_Officer_Helmet_Render.png?39810e"
+        "src": "/images/thumb/BP-20_Correct_Officer_Helmet_Render.png/200px-BP-20_Correct_Officer_Helmet_Render.png?39810e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5681,7 +6059,9 @@
       },
       "image": {
         "file": "BP-32_Jackboot_Helmet_Render.png",
-        "src": "/images/thumb/BP-32_Jackboot_Helmet_Render.png/200px-BP-32_Jackboot_Helmet_Render.png?be7c0a"
+        "src": "/images/thumb/BP-32_Jackboot_Helmet_Render.png/200px-BP-32_Jackboot_Helmet_Render.png?be7c0a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5706,7 +6086,9 @@
       },
       "image": {
         "file": "AD-11_Livewire_Helmet_Render.png",
-        "src": "/images/thumb/AD-11_Livewire_Helmet_Render.png/200px-AD-11_Livewire_Helmet_Render.png?18b9e1"
+        "src": "/images/thumb/AD-11_Livewire_Helmet_Render.png/200px-AD-11_Livewire_Helmet_Render.png?18b9e1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5731,7 +6113,9 @@
       },
       "image": {
         "file": "AD-26_Bleeding_Edge_Helmet_Render.png",
-        "src": "/images/thumb/AD-26_Bleeding_Edge_Helmet_Render.png/200px-AD-26_Bleeding_Edge_Helmet_Render.png?4644f3"
+        "src": "/images/thumb/AD-26_Bleeding_Edge_Helmet_Render.png/200px-AD-26_Bleeding_Edge_Helmet_Render.png?4644f3",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5756,7 +6140,9 @@
       },
       "image": {
         "file": "AD-49_Apollonian_Helmet_Render.png",
-        "src": "/images/thumb/AD-49_Apollonian_Helmet_Render.png/200px-AD-49_Apollonian_Helmet_Render.png?f5c154"
+        "src": "/images/thumb/AD-49_Apollonian_Helmet_Render.png/200px-AD-49_Apollonian_Helmet_Render.png?f5c154",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5781,7 +6167,9 @@
       },
       "image": {
         "file": "A-9_Helljumper_Helmet_Render.png",
-        "src": "/images/thumb/A-9_Helljumper_Helmet_Render.png/200px-A-9_Helljumper_Helmet_Render.png?8ad8c4"
+        "src": "/images/thumb/A-9_Helljumper_Helmet_Render.png/200px-A-9_Helljumper_Helmet_Render.png?8ad8c4",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5806,7 +6194,9 @@
       },
       "image": {
         "file": "A-35_Recon_Helmet_Render.png",
-        "src": "/images/thumb/A-35_Recon_Helmet_Render.png/200px-A-35_Recon_Helmet_Render.png?b441db"
+        "src": "/images/thumb/A-35_Recon_Helmet_Render.png/200px-A-35_Recon_Helmet_Render.png?b441db",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5831,7 +6221,9 @@
       },
       "image": {
         "file": "DS-10_Big_Game_Hunter_Helmet_Render.png",
-        "src": "/images/thumb/DS-10_Big_Game_Hunter_Helmet_Render.png/200px-DS-10_Big_Game_Hunter_Helmet_Render.png?f44678"
+        "src": "/images/thumb/DS-10_Big_Game_Hunter_Helmet_Render.png/200px-DS-10_Big_Game_Hunter_Helmet_Render.png?f44678",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5856,7 +6248,9 @@
       },
       "image": {
         "file": "DS-42_Federation's_Blade_Helmet_Render.png",
-        "src": "/images/thumb/DS-42_Federation%27s_Blade_Helmet_Render.png/200px-DS-42_Federation%27s_Blade_Helmet_Render.png?f55cff"
+        "src": "/images/thumb/DS-42_Federation%27s_Blade_Helmet_Render.png/200px-DS-42_Federation%27s_Blade_Helmet_Render.png?f55cff",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5881,7 +6275,9 @@
       },
       "image": {
         "file": "DS-191_Scorpion_Helmet_Render.png",
-        "src": "/images/thumb/DS-191_Scorpion_Helmet_Render.png/200px-DS-191_Scorpion_Helmet_Render.png?b00a67"
+        "src": "/images/thumb/DS-191_Scorpion_Helmet_Render.png/200px-DS-191_Scorpion_Helmet_Render.png?b00a67",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5906,7 +6302,9 @@
       },
       "image": {
         "file": "RS-6_Fiend_Destroyer_Helmet_Render.png",
-        "src": "/images/thumb/RS-6_Fiend_Destroyer_Helmet_Render.png/200px-RS-6_Fiend_Destroyer_Helmet_Render.png?706696"
+        "src": "/images/thumb/RS-6_Fiend_Destroyer_Helmet_Render.png/200px-RS-6_Fiend_Destroyer_Helmet_Render.png?706696",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5931,7 +6329,9 @@
       },
       "image": {
         "file": "RS-20_Constrictor_Helmet_Render.png",
-        "src": "/images/thumb/RS-20_Constrictor_Helmet_Render.png/200px-RS-20_Constrictor_Helmet_Render.png?d75287"
+        "src": "/images/thumb/RS-20_Constrictor_Helmet_Render.png/200px-RS-20_Constrictor_Helmet_Render.png?d75287",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5956,7 +6356,9 @@
       },
       "image": {
         "file": "RS-40_Beast_of_Prey_Helmet_Render.png",
-        "src": "/images/thumb/RS-40_Beast_of_Prey_Helmet_Render.png/200px-RS-40_Beast_of_Prey_Helmet_Render.png?3bc95c"
+        "src": "/images/thumb/RS-40_Beast_of_Prey_Helmet_Render.png/200px-RS-40_Beast_of_Prey_Helmet_Render.png?3bc95c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -5981,7 +6383,9 @@
       },
       "image": {
         "file": "RS-100_Sanctioner_Helmet_Render.png",
-        "src": "/images/thumb/RS-100_Sanctioner_Helmet_Render.png/200px-RS-100_Sanctioner_Helmet_Render.png?fd427a"
+        "src": "/images/thumb/RS-100_Sanctioner_Helmet_Render.png/200px-RS-100_Sanctioner_Helmet_Render.png?fd427a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6006,7 +6410,9 @@
       },
       "image": {
         "file": "RS-89_Shadow_Paragon_Helmet_Render.png",
-        "src": "/images/thumb/RS-89_Shadow_Paragon_Helmet_Render.png/200px-RS-89_Shadow_Paragon_Helmet_Render.png?c8181e"
+        "src": "/images/thumb/RS-89_Shadow_Paragon_Helmet_Render.png/200px-RS-89_Shadow_Paragon_Helmet_Render.png?c8181e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6031,7 +6437,9 @@
       },
       "image": {
         "file": "RS-67_Null_Cipher_Helmet_Render.png",
-        "src": "/images/thumb/RS-67_Null_Cipher_Helmet_Render.png/200px-RS-67_Null_Cipher_Helmet_Render.png?8446f9"
+        "src": "/images/thumb/RS-67_Null_Cipher_Helmet_Render.png/200px-RS-67_Null_Cipher_Helmet_Render.png?8446f9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6056,7 +6464,9 @@
       },
       "image": {
         "file": "SA-7_Headfirst_Helmet_Render.png",
-        "src": "/images/thumb/SA-7_Headfirst_Helmet_Render.png/200px-SA-7_Headfirst_Helmet_Render.png?87e056"
+        "src": "/images/thumb/SA-7_Headfirst_Helmet_Render.png/200px-SA-7_Headfirst_Helmet_Render.png?87e056",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6081,7 +6491,9 @@
       },
       "image": {
         "file": "SA-8_Ram_Helmet_Render.png",
-        "src": "/images/thumb/SA-8_Ram_Helmet_Render.png/200px-SA-8_Ram_Helmet_Render.png?2e4192"
+        "src": "/images/thumb/SA-8_Ram_Helmet_Render.png/200px-SA-8_Ram_Helmet_Render.png?2e4192",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6106,7 +6518,9 @@
       },
       "image": {
         "file": "DP-8_Mountain-Scaled_Helmet_Render.png",
-        "src": "/images/thumb/DP-8_Mountain-Scaled_Helmet_Render.png/200px-DP-8_Mountain-Scaled_Helmet_Render.png?271819"
+        "src": "/images/thumb/DP-8_Mountain-Scaled_Helmet_Render.png/200px-DP-8_Mountain-Scaled_Helmet_Render.png?271819",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6131,7 +6545,9 @@
       },
       "image": {
         "file": "CPR-80_Bulwark_Helmet_Render.png",
-        "src": "/images/thumb/CPR-80_Bulwark_Helmet_Render.png/200px-CPR-80_Bulwark_Helmet_Render.png?3a8290"
+        "src": "/images/thumb/CPR-80_Bulwark_Helmet_Render.png/200px-CPR-80_Bulwark_Helmet_Render.png?3a8290",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6156,7 +6572,9 @@
       },
       "image": {
         "file": "CPG-48_Sapper_Helmet_Render.png",
-        "src": "/images/thumb/CPG-48_Sapper_Helmet_Render.png/200px-CPG-48_Sapper_Helmet_Render.png?70153f"
+        "src": "/images/thumb/CPG-48_Sapper_Helmet_Render.png/200px-CPG-48_Sapper_Helmet_Render.png?70153f",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6181,7 +6599,9 @@
       },
       "image": {
         "file": "CPH-26_Commandant_Helmet_Render.png",
-        "src": "/images/thumb/CPH-26_Commandant_Helmet_Render.png/200px-CPH-26_Commandant_Helmet_Render.png?484605"
+        "src": "/images/thumb/CPH-26_Commandant_Helmet_Render.png/200px-CPH-26_Commandant_Helmet_Render.png?484605",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6206,7 +6626,9 @@
       },
       "image": {
         "file": "O-44_Bonded_Pilot_Helmet_Render.png",
-        "src": "/images/thumb/O-44_Bonded_Pilot_Helmet_Render.png/200px-O-44_Bonded_Pilot_Helmet_Render.png?7d5359"
+        "src": "/images/thumb/O-44_Bonded_Pilot_Helmet_Render.png/200px-O-44_Bonded_Pilot_Helmet_Render.png?7d5359",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6231,7 +6653,9 @@
       },
       "image": {
         "file": "O-3_Free_Spirit_Helmet_Render.png",
-        "src": "/images/thumb/O-3_Free_Spirit_Helmet_Render.png/200px-O-3_Free_Spirit_Helmet_Render.png?c455d4"
+        "src": "/images/thumb/O-3_Free_Spirit_Helmet_Render.png/200px-O-3_Free_Spirit_Helmet_Render.png?c455d4",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6256,7 +6680,9 @@
       },
       "image": {
         "file": "O-2_Heavy_Operator_Helmet_Render.png",
-        "src": "/images/thumb/O-2_Heavy_Operator_Helmet_Render.png/200px-O-2_Heavy_Operator_Helmet_Render.png?a8567c"
+        "src": "/images/thumb/O-2_Heavy_Operator_Helmet_Render.png/200px-O-2_Heavy_Operator_Helmet_Render.png?a8567c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6278,7 +6704,9 @@
       "cost": null,
       "image": {
         "file": "KDM-500_Outrider_Helmet_Render.png",
-        "src": "/images/thumb/KDM-500_Outrider_Helmet_Render.png/200px-KDM-500_Outrider_Helmet_Render.png?755062"
+        "src": "/images/thumb/KDM-500_Outrider_Helmet_Render.png/200px-KDM-500_Outrider_Helmet_Render.png?755062",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6303,7 +6731,9 @@
       },
       "image": {
         "file": "TG-8_Sharpshooter_Helmet_Render.png",
-        "src": "/images/thumb/TG-8_Sharpshooter_Helmet_Render.png/200px-TG-8_Sharpshooter_Helmet_Render.png?a9029b"
+        "src": "/images/thumb/TG-8_Sharpshooter_Helmet_Render.png/200px-TG-8_Sharpshooter_Helmet_Render.png?a9029b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6328,7 +6758,9 @@
       },
       "image": {
         "file": "TG-122_Demo-Trooper_Helmet_Render.png",
-        "src": "/images/thumb/TG-122_Demo-Trooper_Helmet_Render.png/200px-TG-122_Demo-Trooper_Helmet_Render.png?9696b4"
+        "src": "/images/thumb/TG-122_Demo-Trooper_Helmet_Render.png/200px-TG-122_Demo-Trooper_Helmet_Render.png?9696b4",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6350,7 +6782,9 @@
       "cost": null,
       "image": {
         "file": "IX-Voidwalker_Helmet_Render.png",
-        "src": "/images/thumb/IX-Voidwalker_Helmet_Render.png/200px-IX-Voidwalker_Helmet_Render.png?f39ffa"
+        "src": "/images/thumb/IX-Voidwalker_Helmet_Render.png/200px-IX-Voidwalker_Helmet_Render.png?f39ffa",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6372,7 +6806,9 @@
       "cost": null,
       "image": {
         "file": "BFM-220_Ironclad_Helmet_Render.png",
-        "src": "/images/thumb/BFM-220_Ironclad_Helmet_Render.png/200px-BFM-220_Ironclad_Helmet_Render.png?1e8053"
+        "src": "/images/thumb/BFM-220_Ironclad_Helmet_Render.png/200px-BFM-220_Ironclad_Helmet_Render.png?1e8053",
+        "width": 230,
+        "height": 230
       }
     },
     {
@@ -6394,7 +6830,9 @@
       "cost": null,
       "image": {
         "file": "BFM-16_Tanker_Helmet_Render.png",
-        "src": "/images/thumb/BFM-16_Tanker_Helmet_Render.png/200px-BFM-16_Tanker_Helmet_Render.png?23a425"
+        "src": "/images/thumb/BFM-16_Tanker_Helmet_Render.png/200px-BFM-16_Tanker_Helmet_Render.png?23a425",
+        "width": 230,
+        "height": 230
       }
     }
   ],
@@ -6414,7 +6852,9 @@
       "cost": null,
       "image": {
         "file": "Foesmasher_Cape_Render.png",
-        "src": "/images/thumb/Foesmasher_Cape_Render.png/200px-Foesmasher_Cape_Render.png?e9ed37"
+        "src": "/images/thumb/Foesmasher_Cape_Render.png/200px-Foesmasher_Cape_Render.png?e9ed37",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6439,7 +6879,9 @@
       },
       "image": {
         "file": "Will_of_the_People_Cape_Render.png",
-        "src": "/images/thumb/Will_of_the_People_Cape_Render.png/200px-Will_of_the_People_Cape_Render.png?7fdf3b"
+        "src": "/images/thumb/Will_of_the_People_Cape_Render.png/200px-Will_of_the_People_Cape_Render.png?7fdf3b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6464,7 +6906,9 @@
       },
       "image": {
         "file": "Independence_Bringer_Cape_Render.png",
-        "src": "/images/thumb/Independence_Bringer_Cape_Render.png/200px-Independence_Bringer_Cape_Render.png?b4fe13"
+        "src": "/images/thumb/Independence_Bringer_Cape_Render.png/200px-Independence_Bringer_Cape_Render.png?b4fe13",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6489,7 +6933,9 @@
       },
       "image": {
         "file": "Liberty's_Herald_Cape_Render.png",
-        "src": "/images/thumb/Liberty%27s_Herald_Cape_Render.png/200px-Liberty%27s_Herald_Cape_Render.png?b92537"
+        "src": "/images/thumb/Liberty%27s_Herald_Cape_Render.png/200px-Liberty%27s_Herald_Cape_Render.png?b92537",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6514,7 +6960,9 @@
       },
       "image": {
         "file": "Tideturner_Cape_Render.png",
-        "src": "/images/thumb/Tideturner_Cape_Render.png/200px-Tideturner_Cape_Render.png?c7c6c6"
+        "src": "/images/thumb/Tideturner_Cape_Render.png/200px-Tideturner_Cape_Render.png?c7c6c6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6539,7 +6987,9 @@
       },
       "image": {
         "file": "The_Cape_of_Stars_and_Suffrage_Cape_Render.png",
-        "src": "/images/thumb/The_Cape_of_Stars_and_Suffrage_Cape_Render.png/200px-The_Cape_of_Stars_and_Suffrage_Cape_Render.png?7d1002"
+        "src": "/images/thumb/The_Cape_of_Stars_and_Suffrage_Cape_Render.png/200px-The_Cape_of_Stars_and_Suffrage_Cape_Render.png?7d1002",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6564,7 +7014,9 @@
       },
       "image": {
         "file": "Unblemished_Allegiance_Cape_Render.png",
-        "src": "/images/thumb/Unblemished_Allegiance_Cape_Render.png/200px-Unblemished_Allegiance_Cape_Render.png?f20de8"
+        "src": "/images/thumb/Unblemished_Allegiance_Cape_Render.png/200px-Unblemished_Allegiance_Cape_Render.png?f20de8",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6589,7 +7041,9 @@
       },
       "image": {
         "file": "Judgment_Day_Cape_Render.png",
-        "src": "/images/thumb/Judgment_Day_Cape_Render.png/200px-Judgment_Day_Cape_Render.png?10e94e"
+        "src": "/images/thumb/Judgment_Day_Cape_Render.png/200px-Judgment_Day_Cape_Render.png?10e94e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6614,7 +7068,9 @@
       },
       "image": {
         "file": "Cresting_Honor_Cape_Render.png",
-        "src": "/images/thumb/Cresting_Honor_Cape_Render.png/200px-Cresting_Honor_Cape_Render.png?5158e1"
+        "src": "/images/thumb/Cresting_Honor_Cape_Render.png/200px-Cresting_Honor_Cape_Render.png?5158e1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6639,7 +7095,9 @@
       },
       "image": {
         "file": "Mantle_of_True_Citizenship_Cape_Render.png",
-        "src": "/images/thumb/Mantle_of_True_Citizenship_Cape_Render.png/200px-Mantle_of_True_Citizenship_Cape_Render.png?760f82"
+        "src": "/images/thumb/Mantle_of_True_Citizenship_Cape_Render.png/200px-Mantle_of_True_Citizenship_Cape_Render.png?760f82",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6664,7 +7122,9 @@
       },
       "image": {
         "file": "Blazing_Samaritan_Cape_Render.png",
-        "src": "/images/thumb/Blazing_Samaritan_Cape_Render.png/200px-Blazing_Samaritan_Cape_Render.png?f25d1a"
+        "src": "/images/thumb/Blazing_Samaritan_Cape_Render.png/200px-Blazing_Samaritan_Cape_Render.png?f25d1a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6689,7 +7149,9 @@
       },
       "image": {
         "file": "Light_of_Eternal_Liberty_Cape_Render.png",
-        "src": "/images/thumb/Light_of_Eternal_Liberty_Cape_Render.png/200px-Light_of_Eternal_Liberty_Cape_Render.png?fab6d4"
+        "src": "/images/thumb/Light_of_Eternal_Liberty_Cape_Render.png/200px-Light_of_Eternal_Liberty_Cape_Render.png?fab6d4",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6714,7 +7176,9 @@
       },
       "image": {
         "file": "Tyrant_Hunter_Cape_Armory.png",
-        "src": "/images/thumb/Tyrant_Hunter_Cape_Armory.png/200px-Tyrant_Hunter_Cape_Armory.png?7c761a"
+        "src": "/images/thumb/Tyrant_Hunter_Cape_Armory.png/200px-Tyrant_Hunter_Cape_Armory.png?7c761a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6739,7 +7203,9 @@
       },
       "image": {
         "file": "Cloak_of_Posterity's_Gratitude_Cape_Armory.png",
-        "src": "/images/thumb/Cloak_of_Posterity%27s_Gratitude_Cape_Armory.png/200px-Cloak_of_Posterity%27s_Gratitude_Cape_Armory.png?15daed"
+        "src": "/images/thumb/Cloak_of_Posterity%27s_Gratitude_Cape_Armory.png/200px-Cloak_of_Posterity%27s_Gratitude_Cape_Armory.png?15daed",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6764,7 +7230,9 @@
       },
       "image": {
         "file": "Drape_of_Glory_Cape_Render.png",
-        "src": "/images/thumb/Drape_of_Glory_Cape_Render.png/200px-Drape_of_Glory_Cape_Render.png?9854ab"
+        "src": "/images/thumb/Drape_of_Glory_Cape_Render.png/200px-Drape_of_Glory_Cape_Render.png?9854ab",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6789,7 +7257,9 @@
       },
       "image": {
         "file": "Bastion_of_Integrity_Cape_Render.png",
-        "src": "/images/thumb/Bastion_of_Integrity_Cape_Render.png/200px-Bastion_of_Integrity_Cape_Render.png?4486c2"
+        "src": "/images/thumb/Bastion_of_Integrity_Cape_Render.png/200px-Bastion_of_Integrity_Cape_Render.png?4486c2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6814,7 +7284,9 @@
       },
       "image": {
         "file": "Botslayer_Cape_Render.png",
-        "src": "/images/thumb/Botslayer_Cape_Render.png/200px-Botslayer_Cape_Render.png?7b6345"
+        "src": "/images/thumb/Botslayer_Cape_Render.png/200px-Botslayer_Cape_Render.png?7b6345",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6839,7 +7311,9 @@
       },
       "image": {
         "file": "Martyris_Rex_Cape_Render.png",
-        "src": "/images/thumb/Martyris_Rex_Cape_Render.png/200px-Martyris_Rex_Cape_Render.png?5ae78b"
+        "src": "/images/thumb/Martyris_Rex_Cape_Render.png/200px-Martyris_Rex_Cape_Render.png?5ae78b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6864,7 +7338,9 @@
       },
       "image": {
         "file": "Agent_of_Oblivion_Cape_Render.png",
-        "src": "/images/thumb/Agent_of_Oblivion_Cape_Render.png/200px-Agent_of_Oblivion_Cape_Render.png?4987e9"
+        "src": "/images/thumb/Agent_of_Oblivion_Cape_Render.png/200px-Agent_of_Oblivion_Cape_Render.png?4987e9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6889,7 +7365,9 @@
       },
       "image": {
         "file": "Fallen_Hero's_Vengeance_Cape_Render.png",
-        "src": "/images/thumb/Fallen_Hero%27s_Vengeance_Cape_Render.png/200px-Fallen_Hero%27s_Vengeance_Cape_Render.png?60a415"
+        "src": "/images/thumb/Fallen_Hero%27s_Vengeance_Cape_Render.png/200px-Fallen_Hero%27s_Vengeance_Cape_Render.png?60a415",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6914,7 +7392,9 @@
       },
       "image": {
         "file": "Harbinger_of_True_Equality_Cape_Render.png",
-        "src": "/images/thumb/Harbinger_of_True_Equality_Cape_Render.png/200px-Harbinger_of_True_Equality_Cape_Render.png?5f6b6d"
+        "src": "/images/thumb/Harbinger_of_True_Equality_Cape_Render.png/200px-Harbinger_of_True_Equality_Cape_Render.png?5f6b6d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6939,7 +7419,9 @@
       },
       "image": {
         "file": "Eagle's_Fury_Cape_Render.png",
-        "src": "/images/thumb/Eagle%27s_Fury_Cape_Render.png/200px-Eagle%27s_Fury_Cape_Render.png?5e297b"
+        "src": "/images/thumb/Eagle%27s_Fury_Cape_Render.png/200px-Eagle%27s_Fury_Cape_Render.png?5e297b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6964,7 +7446,9 @@
       },
       "image": {
         "file": "Freedom's_Tapestry_Cape_Render.png",
-        "src": "/images/thumb/Freedom%27s_Tapestry_Cape_Render.png/200px-Freedom%27s_Tapestry_Cape_Render.png?a4a8a5"
+        "src": "/images/thumb/Freedom%27s_Tapestry_Cape_Render.png/200px-Freedom%27s_Tapestry_Cape_Render.png?a4a8a5",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -6989,7 +7473,9 @@
       },
       "image": {
         "file": "Dissident's_Nightmare_Cape_Armory.png",
-        "src": "/images/thumb/Dissident%27s_Nightmare_Cape_Armory.png/200px-Dissident%27s_Nightmare_Cape_Armory.png?3c7d97"
+        "src": "/images/thumb/Dissident%27s_Nightmare_Cape_Armory.png/200px-Dissident%27s_Nightmare_Cape_Armory.png?3c7d97",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7014,7 +7500,9 @@
       },
       "image": {
         "file": "Pinions_of_Everlasting_Glory_Cape_Render.png",
-        "src": "/images/thumb/Pinions_of_Everlasting_Glory_Cape_Render.png/200px-Pinions_of_Everlasting_Glory_Cape_Render.png?31a7c0"
+        "src": "/images/thumb/Pinions_of_Everlasting_Glory_Cape_Render.png/200px-Pinions_of_Everlasting_Glory_Cape_Render.png?31a7c0",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7039,7 +7527,9 @@
       },
       "image": {
         "file": "Order_of_the_Venerated_Ballot_Cape_Render.png",
-        "src": "/images/thumb/Order_of_the_Venerated_Ballot_Cape_Render.png/200px-Order_of_the_Venerated_Ballot_Cape_Render.png?d1537a"
+        "src": "/images/thumb/Order_of_the_Venerated_Ballot_Cape_Render.png/200px-Order_of_the_Venerated_Ballot_Cape_Render.png?d1537a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7064,7 +7554,9 @@
       },
       "image": {
         "file": "Mark_of_the_Crimson_Fang_Cape_Armory.png",
-        "src": "/images/thumb/Mark_of_the_Crimson_Fang_Cape_Armory.png/200px-Mark_of_the_Crimson_Fang_Cape_Armory.png?b1d376"
+        "src": "/images/thumb/Mark_of_the_Crimson_Fang_Cape_Armory.png/200px-Mark_of_the_Crimson_Fang_Cape_Armory.png?b1d376",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7089,7 +7581,9 @@
       },
       "image": {
         "file": "Executioner's_Canopy_Cape_Armory.png",
-        "src": "/images/thumb/Executioner%27s_Canopy_Cape_Armory.png/200px-Executioner%27s_Canopy_Cape_Armory.png?7f968e"
+        "src": "/images/thumb/Executioner%27s_Canopy_Cape_Armory.png/200px-Executioner%27s_Canopy_Cape_Armory.png?7f968e",
+        "width": 492,
+        "height": 491
       }
     },
     {
@@ -7114,7 +7608,9 @@
       },
       "image": {
         "file": "Purifying_Eclipse_Cape_Render.png",
-        "src": "/images/thumb/Purifying_Eclipse_Cape_Render.png/200px-Purifying_Eclipse_Cape_Render.png?f942e2"
+        "src": "/images/thumb/Purifying_Eclipse_Cape_Render.png/200px-Purifying_Eclipse_Cape_Render.png?f942e2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7139,7 +7635,9 @@
       },
       "image": {
         "file": "The_Breach_Cape_Render.png",
-        "src": "/images/thumb/The_Breach_Cape_Render.png/200px-The_Breach_Cape_Render.png?f0f77a"
+        "src": "/images/thumb/The_Breach_Cape_Render.png/200px-The_Breach_Cape_Render.png?f0f77a",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7164,7 +7662,9 @@
       },
       "image": {
         "file": "Standard_of_Safe_Distance_Cape_Render.png",
-        "src": "/images/thumb/Standard_of_Safe_Distance_Cape_Render.png/200px-Standard_of_Safe_Distance_Cape_Render.png?f44f6e"
+        "src": "/images/thumb/Standard_of_Safe_Distance_Cape_Render.png/200px-Standard_of_Safe_Distance_Cape_Render.png?f44f6e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7189,7 +7689,9 @@
       },
       "image": {
         "file": "Patient_Zero's_Remembrance_Cape_Render.png",
-        "src": "/images/thumb/Patient_Zero%27s_Remembrance_Cape_Render.png/200px-Patient_Zero%27s_Remembrance_Cape_Render.png?45095b"
+        "src": "/images/thumb/Patient_Zero%27s_Remembrance_Cape_Render.png/200px-Patient_Zero%27s_Remembrance_Cape_Render.png?45095b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7214,7 +7716,9 @@
       },
       "image": {
         "file": "Cover_of_Darkness_Cape_Render.png",
-        "src": "/images/thumb/Cover_of_Darkness_Cape_Render.png/200px-Cover_of_Darkness_Cape_Render.png?c5d47b"
+        "src": "/images/thumb/Cover_of_Darkness_Cape_Render.png/200px-Cover_of_Darkness_Cape_Render.png?c5d47b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7239,7 +7743,9 @@
       },
       "image": {
         "file": "Pride_of_the_Whistleblower_Cape_Render.png",
-        "src": "/images/thumb/Pride_of_the_Whistleblower_Cape_Render.png/200px-Pride_of_the_Whistleblower_Cape_Render.png?c07e13"
+        "src": "/images/thumb/Pride_of_the_Whistleblower_Cape_Render.png/200px-Pride_of_the_Whistleblower_Cape_Render.png?c07e13",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7264,7 +7770,9 @@
       },
       "image": {
         "file": "Proof_of_Faultless_Virtue_Cape_Render.png",
-        "src": "/images/thumb/Proof_of_Faultless_Virtue_Cape_Render.png/200px-Proof_of_Faultless_Virtue_Cape_Render.png?954219"
+        "src": "/images/thumb/Proof_of_Faultless_Virtue_Cape_Render.png/200px-Proof_of_Faultless_Virtue_Cape_Render.png?954219",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7289,7 +7797,9 @@
       },
       "image": {
         "file": "Stone-Wrought_Perseverance_Cape_Render.png",
-        "src": "/images/thumb/Stone-Wrought_Perseverance_Cape_Render.png/200px-Stone-Wrought_Perseverance_Cape_Render.png?29a91e"
+        "src": "/images/thumb/Stone-Wrought_Perseverance_Cape_Render.png/200px-Stone-Wrought_Perseverance_Cape_Render.png?29a91e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7314,7 +7824,9 @@
       },
       "image": {
         "file": "Greatcloak_of_Rebar_Resolve_Cape_Render.png",
-        "src": "/images/thumb/Greatcloak_of_Rebar_Resolve_Cape_Render.png/200px-Greatcloak_of_Rebar_Resolve_Cape_Render.png?9acda6"
+        "src": "/images/thumb/Greatcloak_of_Rebar_Resolve_Cape_Render.png/200px-Greatcloak_of_Rebar_Resolve_Cape_Render.png?9acda6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7339,7 +7851,9 @@
       },
       "image": {
         "file": "Holder_of_the_Yellow_Line_Cape_Render.png",
-        "src": "/images/thumb/Holder_of_the_Yellow_Line_Cape_Render.png/200px-Holder_of_the_Yellow_Line_Cape_Render.png?167ba7"
+        "src": "/images/thumb/Holder_of_the_Yellow_Line_Cape_Render.png/200px-Holder_of_the_Yellow_Line_Cape_Render.png?167ba7",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7364,7 +7878,9 @@
       },
       "image": {
         "file": "Strength_in_Our_Arms_Cape_Render.png",
-        "src": "/images/thumb/Strength_in_Our_Arms_Cape_Render.png/200px-Strength_in_Our_Arms_Cape_Render.png?7ccef7"
+        "src": "/images/thumb/Strength_in_Our_Arms_Cape_Render.png/200px-Strength_in_Our_Arms_Cape_Render.png?7ccef7",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7389,7 +7905,9 @@
       },
       "image": {
         "file": "Defender_of_Our_Dream_Cape_Render.png",
-        "src": "/images/thumb/Defender_of_Our_Dream_Cape_Render.png/200px-Defender_of_Our_Dream_Cape_Render.png?c999d3"
+        "src": "/images/thumb/Defender_of_Our_Dream_Cape_Render.png/200px-Defender_of_Our_Dream_Cape_Render.png?c999d3",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7414,7 +7932,9 @@
       },
       "image": {
         "file": "Vision_of_Freedom_Cape_Render.png",
-        "src": "/images/thumb/Vision_of_Freedom_Cape_Render.png/200px-Vision_of_Freedom_Cape_Render.png?ca61f9"
+        "src": "/images/thumb/Vision_of_Freedom_Cape_Render.png/200px-Vision_of_Freedom_Cape_Render.png?ca61f9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7439,7 +7959,9 @@
       },
       "image": {
         "file": "Fre_Liberam_Cape_Render.png",
-        "src": "/images/thumb/Fre_Liberam_Cape_Render.png/200px-Fre_Liberam_Cape_Render.png?4fe921"
+        "src": "/images/thumb/Fre_Liberam_Cape_Render.png/200px-Fre_Liberam_Cape_Render.png?4fe921",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7464,7 +7986,9 @@
       },
       "image": {
         "file": "Per_Democrasum_Cape_Render.png",
-        "src": "/images/thumb/Per_Democrasum_Cape_Render.png/200px-Per_Democrasum_Cape_Render.png?cf47e2"
+        "src": "/images/thumb/Per_Democrasum_Cape_Render.png/200px-Per_Democrasum_Cape_Render.png?cf47e2",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7485,7 +8009,9 @@
       },
       "image": {
         "file": "Eye_of_Freedom_Cape_Render.png",
-        "src": "/images/thumb/Eye_of_Freedom_Cape_Render.png/200px-Eye_of_Freedom_Cape_Render.png?aa95ad"
+        "src": "/images/thumb/Eye_of_Freedom_Cape_Render.png/200px-Eye_of_Freedom_Cape_Render.png?aa95ad",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7510,7 +8036,9 @@
       },
       "image": {
         "file": "Emblem_of_Freedom_Cape_Render.png",
-        "src": "/images/thumb/Emblem_of_Freedom_Cape_Render.png/200px-Emblem_of_Freedom_Cape_Render.png?71cd48"
+        "src": "/images/thumb/Emblem_of_Freedom_Cape_Render.png/200px-Emblem_of_Freedom_Cape_Render.png?71cd48",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7535,7 +8063,9 @@
       },
       "image": {
         "file": "Veil_of_the_Valorous_Vagabond_Cape_Render.png",
-        "src": "/images/thumb/Veil_of_the_Valorous_Vagabond_Cape_Render.png/200px-Veil_of_the_Valorous_Vagabond_Cape_Render.png?52d144"
+        "src": "/images/thumb/Veil_of_the_Valorous_Vagabond_Cape_Render.png/200px-Veil_of_the_Valorous_Vagabond_Cape_Render.png?52d144",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7560,7 +8090,9 @@
       },
       "image": {
         "file": "Reaper_of_Bounties_Cape_Render.png",
-        "src": "/images/thumb/Reaper_of_Bounties_Cape_Render.png/200px-Reaper_of_Bounties_Cape_Render.png?c90c4b"
+        "src": "/images/thumb/Reaper_of_Bounties_Cape_Render.png/200px-Reaper_of_Bounties_Cape_Render.png?c90c4b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7585,7 +8117,9 @@
       },
       "image": {
         "file": "Way_of_the_Bandolier_Cape_Render.png",
-        "src": "/images/thumb/Way_of_the_Bandolier_Cape_Render.png/200px-Way_of_the_Bandolier_Cape_Render.png?bd7b3e"
+        "src": "/images/thumb/Way_of_the_Bandolier_Cape_Render.png/200px-Way_of_the_Bandolier_Cape_Render.png?bd7b3e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7610,7 +8144,9 @@
       },
       "image": {
         "file": "Seal_of_General_Consensus_Cape_Render.png",
-        "src": "/images/thumb/Seal_of_General_Consensus_Cape_Render.png/200px-Seal_of_General_Consensus_Cape_Render.png?b1d369"
+        "src": "/images/thumb/Seal_of_General_Consensus_Cape_Render.png/200px-Seal_of_General_Consensus_Cape_Render.png?b1d369",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7635,7 +8171,9 @@
       },
       "image": {
         "file": "Federation's_Embrace_Cape_Render.png",
-        "src": "/images/thumb/Federation%27s_Embrace_Cape_Render.png/200px-Federation%27s_Embrace_Cape_Render.png?e94f34"
+        "src": "/images/thumb/Federation%27s_Embrace_Cape_Render.png/200px-Federation%27s_Embrace_Cape_Render.png?e94f34",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7660,7 +8198,9 @@
       },
       "image": {
         "file": "Humble_Regalia_Cape_Render.png",
-        "src": "/images/thumb/Humble_Regalia_Cape_Render.png/200px-Humble_Regalia_Cape_Render.png?d076a9"
+        "src": "/images/thumb/Humble_Regalia_Cape_Render.png/200px-Humble_Regalia_Cape_Render.png?d076a9",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7685,7 +8225,9 @@
       },
       "image": {
         "file": "Badge_of_Order_Cape_Render.png",
-        "src": "/images/thumb/Badge_of_Order_Cape_Render.png/200px-Badge_of_Order_Cape_Render.png?d0108d"
+        "src": "/images/thumb/Badge_of_Order_Cape_Render.png/200px-Badge_of_Order_Cape_Render.png?d0108d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7710,7 +8252,9 @@
       },
       "image": {
         "file": "Miranda's_Legacy_Cape_Render.png",
-        "src": "/images/thumb/Miranda%27s_Legacy_Cape_Render.png/200px-Miranda%27s_Legacy_Cape_Render.png?8348fb"
+        "src": "/images/thumb/Miranda%27s_Legacy_Cape_Render.png/200px-Miranda%27s_Legacy_Cape_Render.png?8348fb",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7735,7 +8279,9 @@
       },
       "image": {
         "file": "Mother_Eagle's_Wings_Cape_Render.png",
-        "src": "/images/thumb/Mother_Eagle%27s_Wings_Cape_Render.png/200px-Mother_Eagle%27s_Wings_Cape_Render.png?e515f1"
+        "src": "/images/thumb/Mother_Eagle%27s_Wings_Cape_Render.png/200px-Mother_Eagle%27s_Wings_Cape_Render.png?e515f1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7760,7 +8306,9 @@
       },
       "image": {
         "file": "Protector_of_the_Heart_Cape_Render.png",
-        "src": "/images/thumb/Protector_of_the_Heart_Cape_Render.png/200px-Protector_of_the_Heart_Cape_Render.png?beaf4d"
+        "src": "/images/thumb/Protector_of_the_Heart_Cape_Render.png/200px-Protector_of_the_Heart_Cape_Render.png?beaf4d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7782,7 +8330,9 @@
       "cost": null,
       "image": {
         "file": "Pillars_of_Freedom_Cape_Render.png",
-        "src": "/images/thumb/Pillars_of_Freedom_Cape_Render.png/200px-Pillars_of_Freedom_Cape_Render.png?ecf1bc"
+        "src": "/images/thumb/Pillars_of_Freedom_Cape_Render.png/200px-Pillars_of_Freedom_Cape_Render.png?ecf1bc",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7807,7 +8357,9 @@
       },
       "image": {
         "file": "Conductor_of_Brilliance_Cape_Render.png",
-        "src": "/images/thumb/Conductor_of_Brilliance_Cape_Render.png/200px-Conductor_of_Brilliance_Cape_Render.png?6bd853"
+        "src": "/images/thumb/Conductor_of_Brilliance_Cape_Render.png/200px-Conductor_of_Brilliance_Cape_Render.png?6bd853",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7832,7 +8384,9 @@
       },
       "image": {
         "file": "Over_Artifice_Triumphant_Cape_Render.png",
-        "src": "/images/thumb/Over_Artifice_Triumphant_Cape_Render.png/200px-Over_Artifice_Triumphant_Cape_Render.png?8b621b"
+        "src": "/images/thumb/Over_Artifice_Triumphant_Cape_Render.png/200px-Over_Artifice_Triumphant_Cape_Render.png?8b621b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7857,7 +8411,9 @@
       },
       "image": {
         "file": "Schema_Laid_Bare_Cape_Render.png",
-        "src": "/images/thumb/Schema_Laid_Bare_Cape_Render.png/200px-Schema_Laid_Bare_Cape_Render.png?52e9c8"
+        "src": "/images/thumb/Schema_Laid_Bare_Cape_Render.png/200px-Schema_Laid_Bare_Cape_Render.png?52e9c8",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7882,7 +8438,9 @@
       },
       "image": {
         "file": "Ingress-81_Cape_Render.png",
-        "src": "/images/thumb/Ingress-81_Cape_Render.png/200px-Ingress-81_Cape_Render.png?245e5d"
+        "src": "/images/thumb/Ingress-81_Cape_Render.png/200px-Ingress-81_Cape_Render.png?245e5d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7907,7 +8465,9 @@
       },
       "image": {
         "file": "Honored_Heirloom_Cape_Render.png",
-        "src": "/images/thumb/Honored_Heirloom_Cape_Render.png/200px-Honored_Heirloom_Cape_Render.png?9ec8ff"
+        "src": "/images/thumb/Honored_Heirloom_Cape_Render.png/200px-Honored_Heirloom_Cape_Render.png?9ec8ff",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7932,7 +8492,9 @@
       },
       "image": {
         "file": "Eye_of_the_Clandestine_Cape_Render.png",
-        "src": "/images/thumb/Eye_of_the_Clandestine_Cape_Render.png/200px-Eye_of_the_Clandestine_Cape_Render.png?f636d6"
+        "src": "/images/thumb/Eye_of_the_Clandestine_Cape_Render.png/200px-Eye_of_the_Clandestine_Cape_Render.png?f636d6",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7957,7 +8519,9 @@
       },
       "image": {
         "file": "Eternal_Corona_Cape_Render.png",
-        "src": "/images/thumb/Eternal_Corona_Cape_Render.png/200px-Eternal_Corona_Cape_Render.png?1f25d3"
+        "src": "/images/thumb/Eternal_Corona_Cape_Render.png/200px-Eternal_Corona_Cape_Render.png?1f25d3",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -7982,7 +8546,9 @@
       },
       "image": {
         "file": "Rightful_Occupier_Cape_Render.png",
-        "src": "/images/thumb/Rightful_Occupier_Cape_Render.png/200px-Rightful_Occupier_Cape_Render.png?d6f9ba"
+        "src": "/images/thumb/Rightful_Occupier_Cape_Render.png/200px-Rightful_Occupier_Cape_Render.png?d6f9ba",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8007,7 +8573,9 @@
       },
       "image": {
         "file": "Windswept_Wayfinder_Cape_Render.png",
-        "src": "/images/thumb/Windswept_Wayfinder_Cape_Render.png/200px-Windswept_Wayfinder_Cape_Render.png?267da3"
+        "src": "/images/thumb/Windswept_Wayfinder_Cape_Render.png/200px-Windswept_Wayfinder_Cape_Render.png?267da3",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8032,7 +8600,9 @@
       },
       "image": {
         "file": "Veridical_Ideology_Cape_Render.png",
-        "src": "/images/thumb/Veridical_Ideology_Cape_Render.png/200px-Veridical_Ideology_Cape_Render.png?6ac873"
+        "src": "/images/thumb/Veridical_Ideology_Cape_Render.png/200px-Veridical_Ideology_Cape_Render.png?6ac873",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8057,7 +8627,9 @@
       },
       "image": {
         "file": "De-Forester's_Sailcloth_Cape_Render.png",
-        "src": "/images/thumb/De-Forester%27s_Sailcloth_Cape_Render.png/200px-De-Forester%27s_Sailcloth_Cape_Render.png?44b7a1"
+        "src": "/images/thumb/De-Forester%27s_Sailcloth_Cape_Render.png/200px-De-Forester%27s_Sailcloth_Cape_Render.png?44b7a1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8082,7 +8654,9 @@
       },
       "image": {
         "file": "Mark_of_the_Constrictor_Cape_Render.png",
-        "src": "/images/thumb/Mark_of_the_Constrictor_Cape_Render.png/200px-Mark_of_the_Constrictor_Cape_Render.png?1408f1"
+        "src": "/images/thumb/Mark_of_the_Constrictor_Cape_Render.png/200px-Mark_of_the_Constrictor_Cape_Render.png?1408f1",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8107,7 +8681,9 @@
       },
       "image": {
         "file": "Foe_Rent_Asunder_Cape_Render.png",
-        "src": "/images/thumb/Foe_Rent_Asunder_Cape_Render.png/200px-Foe_Rent_Asunder_Cape_Render.png?547d88"
+        "src": "/images/thumb/Foe_Rent_Asunder_Cape_Render.png/200px-Foe_Rent_Asunder_Cape_Render.png?547d88",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8132,7 +8708,9 @@
       },
       "image": {
         "file": "Against_the_Tyrant_Cloud_Cape_Render.png",
-        "src": "/images/thumb/Against_the_Tyrant_Cloud_Cape_Render.png/200px-Against_the_Tyrant_Cloud_Cape_Render.png?11d001"
+        "src": "/images/thumb/Against_the_Tyrant_Cloud_Cape_Render.png/200px-Against_the_Tyrant_Cloud_Cape_Render.png?11d001",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8157,7 +8735,9 @@
       },
       "image": {
         "file": "Reckoning's_Cheer_Cape_Render.png",
-        "src": "/images/thumb/Reckoning%27s_Cheer_Cape_Render.png/200px-Reckoning%27s_Cheer_Cape_Render.png?179dec"
+        "src": "/images/thumb/Reckoning%27s_Cheer_Cape_Render.png/200px-Reckoning%27s_Cheer_Cape_Render.png?179dec",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8182,7 +8762,9 @@
       },
       "image": {
         "file": "Gilded_Quill_Cape_Render.png",
-        "src": "/images/thumb/Gilded_Quill_Cape_Render.png/200px-Gilded_Quill_Cape_Render.png?bb1943"
+        "src": "/images/thumb/Gilded_Quill_Cape_Render.png/200px-Gilded_Quill_Cape_Render.png?bb1943",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8207,7 +8789,9 @@
       },
       "image": {
         "file": "Pillar_of_the_Abyss_Cape_Render.png",
-        "src": "/images/thumb/Pillar_of_the_Abyss_Cape_Render.png/200px-Pillar_of_the_Abyss_Cape_Render.png?e97800"
+        "src": "/images/thumb/Pillar_of_the_Abyss_Cape_Render.png/200px-Pillar_of_the_Abyss_Cape_Render.png?e97800",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8232,7 +8816,9 @@
       },
       "image": {
         "file": "Triangulation_Veil_Cape_Icon.png",
-        "src": "/images/thumb/Triangulation_Veil_Cape_Icon.png/200px-Triangulation_Veil_Cape_Icon.png?3377f8"
+        "src": "/images/thumb/Triangulation_Veil_Cape_Icon.png/200px-Triangulation_Veil_Cape_Icon.png?3377f8",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8257,7 +8843,9 @@
       },
       "image": {
         "file": "Rags_of_the_Fashionable_Cape_Render.png",
-        "src": "/images/thumb/Rags_of_the_Fashionable_Cape_Render.png/200px-Rags_of_the_Fashionable_Cape_Render.png?3cc612"
+        "src": "/images/thumb/Rags_of_the_Fashionable_Cape_Render.png/200px-Rags_of_the_Fashionable_Cape_Render.png?3cc612",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8282,7 +8870,9 @@
       },
       "image": {
         "file": "Wedgeful_Tricorn_Cape_Render.png",
-        "src": "/images/thumb/Wedgeful_Tricorn_Cape_Render.png/200px-Wedgeful_Tricorn_Cape_Render.png?73a88b"
+        "src": "/images/thumb/Wedgeful_Tricorn_Cape_Render.png/200px-Wedgeful_Tricorn_Cape_Render.png?73a88b",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8307,7 +8897,9 @@
       },
       "image": {
         "file": "Thundering_Hooves_of_Loyalty_Cape_Render.png",
-        "src": "/images/thumb/Thundering_Hooves_of_Loyalty_Cape_Render.png/200px-Thundering_Hooves_of_Loyalty_Cape_Render.png?a1fb32"
+        "src": "/images/thumb/Thundering_Hooves_of_Loyalty_Cape_Render.png/200px-Thundering_Hooves_of_Loyalty_Cape_Render.png?a1fb32",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8328,7 +8920,9 @@
       },
       "image": {
         "file": "Eye_of_Liberty_Cape_Render.png",
-        "src": "/images/thumb/Eye_of_Liberty_Cape_Render.png/200px-Eye_of_Liberty_Cape_Render.png?fa6969"
+        "src": "/images/thumb/Eye_of_Liberty_Cape_Render.png/200px-Eye_of_Liberty_Cape_Render.png?fa6969",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8353,7 +8947,9 @@
       },
       "image": {
         "file": "Testament_to_Attrition_Cape_Render.png",
-        "src": "/images/thumb/Testament_to_Attrition_Cape_Render.png/200px-Testament_to_Attrition_Cape_Render.png?707a3e"
+        "src": "/images/thumb/Testament_to_Attrition_Cape_Render.png/200px-Testament_to_Attrition_Cape_Render.png?707a3e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8378,7 +8974,9 @@
       },
       "image": {
         "file": "Dignity_of_Toil_Cape_Render.png",
-        "src": "/images/thumb/Dignity_of_Toil_Cape_Render.png/200px-Dignity_of_Toil_Cape_Render.png?12c529"
+        "src": "/images/thumb/Dignity_of_Toil_Cape_Render.png/200px-Dignity_of_Toil_Cape_Render.png?12c529",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8403,7 +9001,9 @@
       },
       "image": {
         "file": "Crest_of_the_Unsullied_Cape_Render.png",
-        "src": "/images/thumb/Crest_of_the_Unsullied_Cape_Render.png/200px-Crest_of_the_Unsullied_Cape_Render.png?4f5d2e"
+        "src": "/images/thumb/Crest_of_the_Unsullied_Cape_Render.png/200px-Crest_of_the_Unsullied_Cape_Render.png?4f5d2e",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8428,7 +9028,9 @@
       },
       "image": {
         "file": "Diagram_of_the_Noblest_Payload_Cape_Render.png",
-        "src": "/images/thumb/Diagram_of_the_Noblest_Payload_Cape_Render.png/200px-Diagram_of_the_Noblest_Payload_Cape_Render.png?ae3eeb"
+        "src": "/images/thumb/Diagram_of_the_Noblest_Payload_Cape_Render.png/200px-Diagram_of_the_Noblest_Payload_Cape_Render.png?ae3eeb",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8453,7 +9055,9 @@
       },
       "image": {
         "file": "Free-Spirited_Spangles_Cape_Render.png",
-        "src": "/images/thumb/Free-Spirited_Spangles_Cape_Render.png/200px-Free-Spirited_Spangles_Cape_Render.png?d0950f"
+        "src": "/images/thumb/Free-Spirited_Spangles_Cape_Render.png/200px-Free-Spirited_Spangles_Cape_Render.png?d0950f",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8478,7 +9082,9 @@
       },
       "image": {
         "file": "Watchful_Compatriot_Cape_Render.png",
-        "src": "/images/thumb/Watchful_Compatriot_Cape_Render.png/200px-Watchful_Compatriot_Cape_Render.png?e0f184"
+        "src": "/images/thumb/Watchful_Compatriot_Cape_Render.png/200px-Watchful_Compatriot_Cape_Render.png?e0f184",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8503,7 +9109,9 @@
       },
       "image": {
         "file": "United_in_Equality_Cape_Render.png",
-        "src": "/images/thumb/United_in_Equality_Cape_Render.png/200px-United_in_Equality_Cape_Render.png?1ed81d"
+        "src": "/images/thumb/United_in_Equality_Cape_Render.png/200px-United_in_Equality_Cape_Render.png?1ed81d",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8528,7 +9136,9 @@
       },
       "image": {
         "file": "Camo_Cloak_Cape_Icon.png",
-        "src": "/images/thumb/Camo_Cloak_Cape_Icon.png/200px-Camo_Cloak_Cape_Icon.png?21c95c"
+        "src": "/images/thumb/Camo_Cloak_Cape_Icon.png/200px-Camo_Cloak_Cape_Icon.png?21c95c",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8553,7 +9163,9 @@
       },
       "image": {
         "file": "City_Fighter's_Resolve_Cape_Render.png",
-        "src": "/images/thumb/City_Fighter%27s_Resolve_Cape_Render.png/200px-City_Fighter%27s_Resolve_Cape_Render.png?981086"
+        "src": "/images/thumb/City_Fighter%27s_Resolve_Cape_Render.png/200px-City_Fighter%27s_Resolve_Cape_Render.png?981086",
+        "width": 1024,
+        "height": 1024
       }
     },
     {
@@ -8578,7 +9190,9 @@
       },
       "image": {
         "file": "Standard_of_Rapid_Evacuation_Cape_Render.png",
-        "src": "/images/Standard_of_Rapid_Evacuation_Cape_Render.png?e764a5"
+        "src": "/images/Standard_of_Rapid_Evacuation_Cape_Render.png?e764a5",
+        "width": 129,
+        "height": 298
       }
     },
     {
@@ -8603,7 +9217,9 @@
       },
       "image": {
         "file": "Shroud_of_the_Juggernaut_Cape_Render.png",
-        "src": "/images/Shroud_of_the_Juggernaut_Cape_Render.png?f8dc8b"
+        "src": "/images/Shroud_of_the_Juggernaut_Cape_Render.png?f8dc8b",
+        "width": 144,
+        "height": 297
       }
     }
   ]

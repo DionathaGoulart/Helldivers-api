@@ -10,7 +10,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-23_Liberator_Primary_Render.png",
-      "src": "/images/AR-23_Liberator_Primary_Render.png?97e7bb"
+      "src": "/images/AR-23_Liberator_Primary_Render.png?97e7bb",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -24,7 +26,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-23P_Liberator_Penetrator_Primary_Render.png",
-      "src": "/images/AR-23P_Liberator_Penetrator_Primary_Render.png?82edd5"
+      "src": "/images/AR-23P_Liberator_Penetrator_Primary_Render.png?82edd5",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -38,7 +42,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-23C_Liberator_Concussive_Primary_Render.png",
-      "src": "/images/AR-23C_Liberator_Concussive_Primary_Render.png?71f573"
+      "src": "/images/AR-23C_Liberator_Concussive_Primary_Render.png?71f573",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -52,7 +58,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "BR-14_Adjudicator_Primary_Render.png",
-      "src": "/images/BR-14_Adjudicator_Primary_Render.png?e74a3d"
+      "src": "/images/BR-14_Adjudicator_Primary_Render.png?e74a3d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -66,7 +74,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-61_Tenderizer_Primary_Render.png",
-      "src": "/images/AR-61_Tenderizer_Primary_Render.png?7278b4"
+      "src": "/images/AR-61_Tenderizer_Primary_Render.png?7278b4",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -80,7 +90,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-23A_Liberator_Carbine_Primary_Render.png",
-      "src": "/images/AR-23A_Liberator_Carbine_Primary_Render.png?4b36e2"
+      "src": "/images/AR-23A_Liberator_Carbine_Primary_Render.png?4b36e2",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -94,7 +106,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "StA-52_Assault_Rifle_Primary_Render.png",
-      "src": "/images/StA-52_Assault_Rifle_Primary_Render.png?94bd97"
+      "src": "/images/StA-52_Assault_Rifle_Primary_Render.png?94bd97",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -108,7 +122,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-32_Pacifier_Primary_Render.png",
-      "src": "/images/AR-32_Pacifier_Primary_Render.png?94e4a0"
+      "src": "/images/AR-32_Pacifier_Primary_Render.png?94e4a0",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -122,7 +138,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "MA5C_Assault_Rifle_Primary_Render.png",
-      "src": "/images/MA5C_Assault_Rifle_Primary_Render.png?ed9b79"
+      "src": "/images/MA5C_Assault_Rifle_Primary_Render.png?ed9b79",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -136,7 +154,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-2_Coyote_Primary_Render.png",
-      "src": "/images/AR-2_Coyote_Primary_Render.png?5fee45"
+      "src": "/images/AR-2_Coyote_Primary_Render.png?5fee45",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -150,7 +170,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-GL-21_One_Two_Primary_Render.png",
-      "src": "/images/AR-GL-21_One_Two_Primary_Render.png?4bfb7d"
+      "src": "/images/AR-GL-21_One_Two_Primary_Render.png?4bfb7d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -164,7 +186,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-59_Suppressor_Primary_Render.png",
-      "src": "/images/AR-59_Suppressor_Primary_Render.png?1fe2a4"
+      "src": "/images/AR-59_Suppressor_Primary_Render.png?1fe2a4",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -178,7 +202,9 @@
     "subcategory": "Assault Rifle",
     "image": {
       "file": "AR-11_Arbitrator_Primary_Render.png",
-      "src": "/images/AR-11_Arbitrator_Primary_Render.png?128b20"
+      "src": "/images/AR-11_Arbitrator_Primary_Render.png?128b20",
+      "width": 389,
+      "height": 355
     }
   },
   {
@@ -192,7 +218,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-63_Diligence_Primary_Render.png",
-      "src": "/images/R-63_Diligence_Primary_Render.png?69ed5c"
+      "src": "/images/R-63_Diligence_Primary_Render.png?69ed5c",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -206,7 +234,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-63CS_Diligence_Counter_Sniper_Primary_Render.png",
-      "src": "/images/R-63CS_Diligence_Counter_Sniper_Primary_Render.png?3ff844"
+      "src": "/images/R-63CS_Diligence_Counter_Sniper_Primary_Render.png?3ff844",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -220,7 +250,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-2124_Constitution_Primary_Render.png",
-      "src": "/images/R-2124_Constitution_Primary_Render.png?5afe2d"
+      "src": "/images/R-2124_Constitution_Primary_Render.png?5afe2d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -234,7 +266,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-6_Deadeye_Primary_Render.png",
-      "src": "/images/R-6_Deadeye_Primary_Render.png?85d99d"
+      "src": "/images/R-6_Deadeye_Primary_Render.png?85d99d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -248,7 +282,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-2_Amendment_Primary_Render.png",
-      "src": "/images/R-2_Amendment_Primary_Render.png?804c0c"
+      "src": "/images/R-2_Amendment_Primary_Render.png?804c0c",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -262,7 +298,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-72_Censor_Primary_Render.png",
-      "src": "/images/R-72_Censor_Primary_Render.png?27d671"
+      "src": "/images/R-72_Censor_Primary_Render.png?27d671",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -276,7 +314,9 @@
     "subcategory": "Marksman Rifle",
     "image": {
       "file": "R-4_Hyena_Primary_Render.png",
-      "src": "/images/R-4_Hyena_Primary_Render.png?f84f0d"
+      "src": "/images/R-4_Hyena_Primary_Render.png?f84f0d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -290,7 +330,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "MP-98_Knight_Primary_Render.png",
-      "src": "/images/MP-98_Knight_Primary_Render.png?4573f0"
+      "src": "/images/MP-98_Knight_Primary_Render.png?4573f0",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -304,7 +346,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "SMG-37_Defender_Primary_Render.png",
-      "src": "/images/SMG-37_Defender_Primary_Render.png?b3da92"
+      "src": "/images/SMG-37_Defender_Primary_Render.png?b3da92",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -318,7 +362,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "SMG-72_Pummeler_Primary_Render.png",
-      "src": "/images/SMG-72_Pummeler_Primary_Render.png?2acd0e"
+      "src": "/images/SMG-72_Pummeler_Primary_Render.png?2acd0e",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -332,7 +378,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "SMG-32_Reprimand_Primary_Render.png",
-      "src": "/images/SMG-32_Reprimand_Primary_Render.png?19d16d"
+      "src": "/images/SMG-32_Reprimand_Primary_Render.png?19d16d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -346,7 +394,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "StA-11_SMG_Primary_Render.png",
-      "src": "/images/StA-11_SMG_Primary_Render.png?bd19ee"
+      "src": "/images/StA-11_SMG_Primary_Render.png?bd19ee",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -360,7 +410,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "M7S_SMG_Primary_Render.png",
-      "src": "/images/M7S_SMG_Primary_Render.png?80963e"
+      "src": "/images/M7S_SMG_Primary_Render.png?80963e",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -374,7 +426,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "SMGFLAM-34_Stoker_Primary_Render.png",
-      "src": "/images/SMGFLAM-34_Stoker_Primary_Render.png?4d9973"
+      "src": "/images/SMGFLAM-34_Stoker_Primary_Render.png?4d9973",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -388,7 +442,9 @@
     "subcategory": "Submachine Gun",
     "image": {
       "file": "SMG-203_Gallant_Primary_Render.png",
-      "src": "/images/SMG-203_Gallant_Primary_Render.png?2fac86"
+      "src": "/images/SMG-203_Gallant_Primary_Render.png?2fac86",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -402,7 +458,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-8_Punisher_Primary_Render.png",
-      "src": "/images/SG-8_Punisher_Primary_Render.png?c43067"
+      "src": "/images/SG-8_Punisher_Primary_Render.png?c43067",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -416,7 +474,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-225_Breaker_Primary_Render.png",
-      "src": "/images/SG-225_Breaker_Primary_Render.png?2c7fc4"
+      "src": "/images/SG-225_Breaker_Primary_Render.png?2c7fc4",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -430,7 +490,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-8S_Slugger_Primary_Render.png",
-      "src": "/images/SG-8S_Slugger_Primary_Render.png?6296ba"
+      "src": "/images/SG-8S_Slugger_Primary_Render.png?6296ba",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -444,7 +506,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-225SP_Breaker_Spray&Pray_Primary_Render.png",
-      "src": "/images/SG-225SP_Breaker_Spray%26Pray_Primary_Render.png?e050a4"
+      "src": "/images/SG-225SP_Breaker_Spray%26Pray_Primary_Render.png?e050a4",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -458,7 +522,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-225IE_Breaker_Incendiary_Primary_Render.png",
-      "src": "/images/SG-225IE_Breaker_Incendiary_Primary_Render.png?29206c"
+      "src": "/images/SG-225IE_Breaker_Incendiary_Primary_Render.png?29206c",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -472,7 +538,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-451_Cookout_Primary_Render.png",
-      "src": "/images/SG-451_Cookout_Primary_Render.png?a1febd"
+      "src": "/images/SG-451_Cookout_Primary_Render.png?a1febd",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -486,7 +554,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-20_Halt_Primary_Render.png",
-      "src": "/images/SG-20_Halt_Primary_Render.png?baf775"
+      "src": "/images/SG-20_Halt_Primary_Render.png?baf775",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -500,7 +570,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "DBS-2_Shotgun_Primary_Render.png",
-      "src": "/images/DBS-2_Shotgun_Primary_Render.png?fd2b05"
+      "src": "/images/DBS-2_Shotgun_Primary_Render.png?fd2b05",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -514,7 +586,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "M90A_Shotgun_Primary_Render.png",
-      "src": "/images/M90A_Shotgun_Primary_Render.png?d8aadb"
+      "src": "/images/M90A_Shotgun_Primary_Render.png?d8aadb",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -528,7 +602,9 @@
     "subcategory": "Shotgun",
     "image": {
       "file": "SG-97_Shotgun_Primary_Render.png",
-      "src": "/images/SG-97_Shotgun_Primary_Render.png?255318"
+      "src": "/images/SG-97_Shotgun_Primary_Render.png?255318",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -542,7 +618,9 @@
     "subcategory": "Explosive",
     "image": {
       "file": "R-36_Eruptor_Primary_Render.png",
-      "src": "/images/R-36_Eruptor_Primary_Render.png?2c6f66"
+      "src": "/images/R-36_Eruptor_Primary_Render.png?2c6f66",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -556,7 +634,9 @@
     "subcategory": "Explosive",
     "image": {
       "file": "CB-9_Exploding_Crossbow_Primary_Render.png",
-      "src": "/images/CB-9_Exploding_Crossbow_Primary_Render.png?1aa01f"
+      "src": "/images/CB-9_Exploding_Crossbow_Primary_Render.png?1aa01f",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -570,7 +650,9 @@
     "subcategory": "Explosive",
     "image": {
       "file": "GL-15_Evictor_Primary_Render.png",
-      "src": "/images/GL-15_Evictor_Primary_Render.png?30f515"
+      "src": "/images/GL-15_Evictor_Primary_Render.png?30f515",
+      "width": 379,
+      "height": 337
     }
   },
   {
@@ -584,7 +666,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "LAS-5_Scythe_Primary_Render.png",
-      "src": "/images/LAS-5_Scythe_Primary_Render.png?fd3c7d"
+      "src": "/images/LAS-5_Scythe_Primary_Render.png?fd3c7d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -598,7 +682,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "PLAS-1_Scorcher_Primary_Render.png",
-      "src": "/images/PLAS-1_Scorcher_Primary_Render.png?732708"
+      "src": "/images/PLAS-1_Scorcher_Primary_Render.png?732708",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -612,7 +698,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "LAS-16_Sickle_Primary_Render.png",
-      "src": "/images/LAS-16_Sickle_Primary_Render.png?43d245"
+      "src": "/images/LAS-16_Sickle_Primary_Render.png?43d245",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -626,7 +714,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "SG-8P_Punisher_Plasma_Primary_Render.png",
-      "src": "/images/SG-8P_Punisher_Plasma_Primary_Render.png?1c38be"
+      "src": "/images/SG-8P_Punisher_Plasma_Primary_Render.png?1c38be",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -640,7 +730,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "ARC-12_Blitzer_Primary_Render.png",
-      "src": "/images/ARC-12_Blitzer_Primary_Render.png?acfea4"
+      "src": "/images/ARC-12_Blitzer_Primary_Render.png?acfea4",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -654,7 +746,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "PLAS-101_Purifier_Primary_Render.png",
-      "src": "/images/PLAS-101_Purifier_Primary_Render.png?c08896"
+      "src": "/images/PLAS-101_Purifier_Primary_Render.png?c08896",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -668,7 +762,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "PLAS-39_Accelerator_Rifle_Primary_Render.png",
-      "src": "/images/PLAS-39_Accelerator_Rifle_Primary_Render.png?a8ff98"
+      "src": "/images/PLAS-39_Accelerator_Rifle_Primary_Render.png?a8ff98",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -682,7 +778,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "LAS-17_Double-Edge_Sickle_Primary_Render.png",
-      "src": "/images/LAS-17_Double-Edge_Sickle_Primary_Render.png?c64fae"
+      "src": "/images/LAS-17_Double-Edge_Sickle_Primary_Render.png?c64fae",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -696,7 +794,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "LAS-13_Trident_Primary_Render.png",
-      "src": "/images/LAS-13_Trident_Primary_Render.png?615ace"
+      "src": "/images/LAS-13_Trident_Primary_Render.png?615ace",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -710,7 +810,9 @@
     "subcategory": "Energy-Based",
     "image": {
       "file": "R-40-K_Hot-Shot_Primary_Render.png",
-      "src": "/images/R-40-K_Hot-Shot_Primary_Render.png?b312a5"
+      "src": "/images/R-40-K_Hot-Shot_Primary_Render.png?b312a5",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -724,7 +826,9 @@
     "subcategory": "Special",
     "image": {
       "file": "JAR-5_Dominator_Primary_Render.png",
-      "src": "/images/JAR-5_Dominator_Primary_Render.png?81a672"
+      "src": "/images/JAR-5_Dominator_Primary_Render.png?81a672",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -738,7 +842,9 @@
     "subcategory": "Special",
     "image": {
       "file": "FLAM-66_Torcher_Primary_Render.png",
-      "src": "/images/FLAM-66_Torcher_Primary_Render.png?e719cd"
+      "src": "/images/FLAM-66_Torcher_Primary_Render.png?e719cd",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -752,7 +858,9 @@
     "subcategory": "Special",
     "image": {
       "file": "VG-70_Variable_Primary_Render.png",
-      "src": "/images/VG-70_Variable_Primary_Render.png?8e909c"
+      "src": "/images/VG-70_Variable_Primary_Render.png?8e909c",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -766,7 +874,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "P-2_Peacemaker_Secondary_Render.png",
-      "src": "/images/P-2_Peacemaker_Secondary_Render.png?946d17"
+      "src": "/images/P-2_Peacemaker_Secondary_Render.png?946d17",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -780,7 +890,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "P-19_Redeemer_Secondary_Render.png",
-      "src": "/images/P-19_Redeemer_Secondary_Render.png?cf1205"
+      "src": "/images/P-19_Redeemer_Secondary_Render.png?cf1205",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -794,7 +906,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "P-4_Senator_Secondary_Render.png",
-      "src": "/images/P-4_Senator_Secondary_Render.png?34d42a"
+      "src": "/images/P-4_Senator_Secondary_Render.png?34d42a",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -808,7 +922,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "P-113_Verdict_Secondary_Render.png",
-      "src": "/images/P-113_Verdict_Secondary_Render.png?2bc2c6"
+      "src": "/images/P-113_Verdict_Secondary_Render.png?2bc2c6",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -822,7 +938,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "P-92_Warrant_Secondary_Render.png",
-      "src": "/images/P-92_Warrant_Secondary_Render.png?ac350b"
+      "src": "/images/P-92_Warrant_Secondary_Render.png?ac350b",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -836,7 +954,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "M6C-SOCOM_Pistol_Secondary_Render.png",
-      "src": "/images/M6C-SOCOM_Pistol_Secondary_Render.png?82f58b"
+      "src": "/images/M6C-SOCOM_Pistol_Secondary_Render.png?82f58b",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -850,7 +970,9 @@
     "subcategory": "Pistol",
     "image": {
       "file": "P-69_Veto_Secondary_Render.png",
-      "src": "/images/P-69_Veto_Secondary_Render.png?3983fe"
+      "src": "/images/P-69_Veto_Secondary_Render.png?3983fe",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -864,7 +986,9 @@
     "subcategory": "Melee",
     "image": {
       "file": "CQC-19_Stun_Lance_Secondary_Render.png",
-      "src": "/images/CQC-19_Stun_Lance_Secondary_Render.png?9a9709"
+      "src": "/images/CQC-19_Stun_Lance_Secondary_Render.png?9a9709",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -878,7 +1002,9 @@
     "subcategory": "Melee",
     "image": {
       "file": "CQC-30_Stun_Baton_Secondary_Render.png",
-      "src": "/images/CQC-30_Stun_Baton_Secondary_Render.png?5b701f"
+      "src": "/images/CQC-30_Stun_Baton_Secondary_Render.png?5b701f",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -892,7 +1018,9 @@
     "subcategory": "Melee",
     "image": {
       "file": "CQC-5_Combat_Hatchet_Secondary_Render.png",
-      "src": "/images/CQC-5_Combat_Hatchet_Secondary_Render.png?eb83de"
+      "src": "/images/CQC-5_Combat_Hatchet_Secondary_Render.png?eb83de",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -906,7 +1034,9 @@
     "subcategory": "Melee",
     "image": {
       "file": "CQC-2_Saber_Secondary_Render.png",
-      "src": "/images/CQC-2_Saber_Secondary_Render.png?459c5b"
+      "src": "/images/CQC-2_Saber_Secondary_Render.png?459c5b",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -920,7 +1050,9 @@
     "subcategory": "Melee",
     "image": {
       "file": "CQC-42_Machete_Secondary_Render.png",
-      "src": "/images/CQC-42_Machete_Secondary_Render.png?25973a"
+      "src": "/images/CQC-42_Machete_Secondary_Render.png?25973a",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -934,7 +1066,9 @@
     "subcategory": "Melee",
     "image": {
       "file": "CQC-73_Entrenchment_Tool_Secondary_Render.png",
-      "src": "/images/CQC-73_Entrenchment_Tool_Secondary_Render.png?349204"
+      "src": "/images/CQC-73_Entrenchment_Tool_Secondary_Render.png?349204",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -948,7 +1082,9 @@
     "subcategory": "Special",
     "image": {
       "file": "LAS-7_Dagger_Secondary_Render.png",
-      "src": "/images/LAS-7_Dagger_Secondary_Render.png?bcfb59"
+      "src": "/images/LAS-7_Dagger_Secondary_Render.png?bcfb59",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -962,7 +1098,9 @@
     "subcategory": "Special",
     "image": {
       "file": "GP-31_Grenade_Pistol_Secondary_Render.png",
-      "src": "/images/GP-31_Grenade_Pistol_Secondary_Render.png?4f6aba"
+      "src": "/images/GP-31_Grenade_Pistol_Secondary_Render.png?4f6aba",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -976,7 +1114,9 @@
     "subcategory": "Special",
     "image": {
       "file": "SG-22_Bushwhacker_Secondary_Render.png",
-      "src": "/images/SG-22_Bushwhacker_Secondary_Render.png?96bab5"
+      "src": "/images/SG-22_Bushwhacker_Secondary_Render.png?96bab5",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -990,7 +1130,9 @@
     "subcategory": "Special",
     "image": {
       "file": "P-72_Crisper_Secondary_Render.png",
-      "src": "/images/P-72_Crisper_Secondary_Render.png?849008"
+      "src": "/images/P-72_Crisper_Secondary_Render.png?849008",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1004,7 +1146,9 @@
     "subcategory": "Special",
     "image": {
       "file": "P-11_Stim_Pistol_Secondary_Render.png",
-      "src": "/images/P-11_Stim_Pistol_Secondary_Render.png?9d252e"
+      "src": "/images/P-11_Stim_Pistol_Secondary_Render.png?9d252e",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1018,7 +1162,9 @@
     "subcategory": "Special",
     "image": {
       "file": "PLAS-15_Loyalist_Secondary_Render.png",
-      "src": "/images/PLAS-15_Loyalist_Secondary_Render.png?fd5d4b"
+      "src": "/images/PLAS-15_Loyalist_Secondary_Render.png?fd5d4b",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1032,7 +1178,9 @@
     "subcategory": "Special",
     "image": {
       "file": "GP-20_Ultimatum_Secondary_Render.png",
-      "src": "/images/GP-20_Ultimatum_Secondary_Render.png?3d51dc"
+      "src": "/images/GP-20_Ultimatum_Secondary_Render.png?3d51dc",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1046,7 +1194,9 @@
     "subcategory": "Special",
     "image": {
       "file": "LAS-58_Talon_Secondary_Render.png",
-      "src": "/images/LAS-58_Talon_Secondary_Render.png?8621df"
+      "src": "/images/LAS-58_Talon_Secondary_Render.png?8621df",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1060,7 +1210,9 @@
     "subcategory": "Special",
     "image": {
       "file": "P-35_Re-Educator_Secondary_Render.png",
-      "src": "/images/P-35_Re-Educator_Secondary_Render.png?9ac5c7"
+      "src": "/images/P-35_Re-Educator_Secondary_Render.png?9ac5c7",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1074,7 +1226,9 @@
     "subcategory": "Special",
     "image": {
       "file": "P-33_Missile_Pistol_Secondary_Render.png",
-      "src": "/images/P-33_Missile_Pistol_Secondary_Render.png?a1e58d"
+      "src": "/images/P-33_Missile_Pistol_Secondary_Render.png?a1e58d",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1088,7 +1242,9 @@
     "subcategory": "Special",
     "image": {
       "file": "P-40-K_Bolt_Pistol_Secondary_Render.png",
-      "src": "/images/P-40-K_Bolt_Pistol_Secondary_Render.png?b09f63"
+      "src": "/images/P-40-K_Bolt_Pistol_Secondary_Render.png?b09f63",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1102,7 +1258,9 @@
     "subcategory": "Special",
     "image": {
       "file": "P-34_Breacher_Secondary_Render.png",
-      "src": "/images/P-34_Breacher_Secondary_Render.png?afe23e"
+      "src": "/images/P-34_Breacher_Secondary_Render.png?afe23e",
+      "width": 325,
+      "height": 290
     }
   },
   {
@@ -1116,7 +1274,9 @@
     "subcategory": "Standard",
     "image": {
       "file": "G-12_High_Explosive_Throwable_Render.png",
-      "src": "/images/G-12_High_Explosive_Throwable_Render.png?5b3049"
+      "src": "/images/G-12_High_Explosive_Throwable_Render.png?5b3049",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1130,7 +1290,9 @@
     "subcategory": "Standard",
     "image": {
       "file": "G-6_Frag_Throwable_Render.png",
-      "src": "/images/G-6_Frag_Throwable_Render.png?3a5ba5"
+      "src": "/images/G-6_Frag_Throwable_Render.png?3a5ba5",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1144,7 +1306,9 @@
     "subcategory": "Standard",
     "image": {
       "file": "G-10_Incendiary_Throwable_Render.png",
-      "src": "/images/G-10_Incendiary_Throwable_Render.png?fa03cb"
+      "src": "/images/G-10_Incendiary_Throwable_Render.png?fa03cb",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1158,7 +1322,9 @@
     "subcategory": "Standard",
     "image": {
       "file": "TED-63_Dynamite_Throwable_Render.png",
-      "src": "/images/TED-63_Dynamite_Throwable_Render.png?e607be"
+      "src": "/images/TED-63_Dynamite_Throwable_Render.png?e607be",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1172,7 +1338,9 @@
     "subcategory": "Standard",
     "image": {
       "file": "G-7_Pineapple_Throwable_Render.png",
-      "src": "/images/G-7_Pineapple_Throwable_Render.png?c70d05"
+      "src": "/images/G-7_Pineapple_Throwable_Render.png?c70d05",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1186,7 +1354,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-16_Impact_Throwable_Render.png",
-      "src": "/images/G-16_Impact_Throwable_Render.png?6e6bc3"
+      "src": "/images/G-16_Impact_Throwable_Render.png?6e6bc3",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1200,7 +1370,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-3_Smoke_Throwable_Render.png",
-      "src": "/images/G-3_Smoke_Throwable_Render.png?4ff7f7"
+      "src": "/images/G-3_Smoke_Throwable_Render.png?4ff7f7",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1214,7 +1386,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-23_Stun_Throwable_Render.png",
-      "src": "/images/G-23_Stun_Throwable_Render.png?674d41"
+      "src": "/images/G-23_Stun_Throwable_Render.png?674d41",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1228,7 +1402,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-123_Thermite_Throwable_Render.png",
-      "src": "/images/G-123_Thermite_Throwable_Render.png?1dc4e1"
+      "src": "/images/G-123_Thermite_Throwable_Render.png?1dc4e1",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1242,7 +1418,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-13_Incendiary_Impact_Throwable_Render.png",
-      "src": "/images/G-13_Incendiary_Impact_Throwable_Render.png?103c4a"
+      "src": "/images/G-13_Incendiary_Impact_Throwable_Render.png?103c4a",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1256,7 +1434,9 @@
     "subcategory": "Special",
     "image": {
       "file": "K-2_Throwing_Knife_Throwable_Render.png",
-      "src": "/images/K-2_Throwing_Knife_Throwable_Render.png?4b7c6a"
+      "src": "/images/K-2_Throwing_Knife_Throwable_Render.png?4b7c6a",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1270,7 +1450,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-4_Gas_Throwable_Render.png",
-      "src": "/images/G-4_Gas_Throwable_Render.png?5edf98"
+      "src": "/images/G-4_Gas_Throwable_Render.png?5edf98",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1284,7 +1466,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-50_Seeker_Throwable_Render.png",
-      "src": "/images/G-50_Seeker_Throwable_Render.png?1eba17"
+      "src": "/images/G-50_Seeker_Throwable_Render.png?1eba17",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1298,7 +1482,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-142_Pyrotech_Throwable_Render.png",
-      "src": "/images/G-142_Pyrotech_Throwable_Render.png?d77fbb"
+      "src": "/images/G-142_Pyrotech_Throwable_Render.png?d77fbb",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1312,7 +1498,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-109_Urchin_Throwable_Render.png",
-      "src": "/images/G-109_Urchin_Throwable_Render.png?6556ae"
+      "src": "/images/G-109_Urchin_Throwable_Render.png?6556ae",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1326,7 +1514,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-31_ARC_Throwable_Render.png",
-      "src": "/images/G-31_ARC_Throwable_Render.png?3ad7a2"
+      "src": "/images/G-31_ARC_Throwable_Render.png?3ad7a2",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1340,7 +1530,9 @@
     "subcategory": "Special",
     "image": {
       "file": "TM-1_Lure_Mine_Throwable_Render.png",
-      "src": "/images/TM-1_Lure_Mine_Throwable_Render.png?42e657"
+      "src": "/images/TM-1_Lure_Mine_Throwable_Render.png?42e657",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1354,7 +1546,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-89_Smokescreen_Throwable_Render.png",
-      "src": "/images/G-89_Smokescreen_Throwable_Render.png?bf4187"
+      "src": "/images/G-89_Smokescreen_Throwable_Render.png?bf4187",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1368,7 +1562,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-SH-39_Shield_Throwable_Render.png",
-      "src": "/images/G-SH-39_Shield_Throwable_Render.png?153510"
+      "src": "/images/G-SH-39_Shield_Throwable_Render.png?153510",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1382,7 +1578,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-48_Giga_Grenade_Throwable_Render.png",
-      "src": "/images/G-48_Giga_Grenade_Throwable_Render.png?f00d38"
+      "src": "/images/G-48_Giga_Grenade_Throwable_Render.png?f00d38",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1396,7 +1594,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-40-K_Melta_Mine_Throwable_Render.png",
-      "src": "/images/G-40-K_Melta_Mine_Throwable_Render.png?6bdf5e"
+      "src": "/images/G-40-K_Melta_Mine_Throwable_Render.png?6bdf5e",
+      "width": 2160,
+      "height": 2160
     }
   },
   {
@@ -1410,7 +1610,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-60_Anti-Tank_Seeker_Throwable_Render.png",
-      "src": "/images/G-60_Anti-Tank_Seeker_Throwable_Render.png?4cc152"
+      "src": "/images/G-60_Anti-Tank_Seeker_Throwable_Render.png?4cc152",
+      "width": 184,
+      "height": 224
     }
   },
   {
@@ -1424,7 +1626,9 @@
     "subcategory": "Special",
     "image": {
       "file": "G-8_Immolation_Throwable_Render.png",
-      "src": "/images/G-8_Immolation_Throwable_Render.png?337e36"
+      "src": "/images/G-8_Immolation_Throwable_Render.png?337e36",
+      "width": 194,
+      "height": 240
     }
   },
   {
@@ -1438,7 +1642,9 @@
     "subcategory": null,
     "image": {
       "file": "SG-88_Break-Action_Shotgun_Support_Render.png",
-      "src": "/images/SG-88_Break-Action_Shotgun_Support_Render.png?9db678"
+      "src": "/images/SG-88_Break-Action_Shotgun_Support_Render.png?9db678",
+      "width": 3840,
+      "height": 2160
     }
   },
   {
@@ -1452,7 +1658,9 @@
     "subcategory": null,
     "image": {
       "file": "Entrenchment_Tool_Support_Render.png",
-      "src": "/images/Entrenchment_Tool_Support_Render.png?4f007a"
+      "src": "/images/Entrenchment_Tool_Support_Render.png?4f007a",
+      "width": 2560,
+      "height": 1440
     }
   }
 ]

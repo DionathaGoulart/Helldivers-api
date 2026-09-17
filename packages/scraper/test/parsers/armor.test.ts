@@ -37,6 +37,8 @@ describe("armor-index parser", async () => {
       icon: {
         file: "SC-37_Legionnaire_Armor_Render.png",
         src: "/images/thumb/SC-37_Legionnaire_Armor_Render.png/123px-SC-37_Legionnaire_Armor_Render.png?e35814",
+        width: 1024,
+        height: 1024,
       },
     });
   });
@@ -124,6 +126,8 @@ describe("armor-page parser", async () => {
       image: {
         file: "TG-8_Sharpshooter_Helmet_Render.png",
         src: "/images/TG-8_Sharpshooter_Helmet_Render.png?a9029b",
+        width: 1024,
+        height: 1024,
       },
     });
   });
@@ -152,6 +156,8 @@ describe("armor-page parser", async () => {
         image: {
           file: "Foesmasher_Cape_Render.png",
           src: "/images/thumb/Foesmasher_Cape_Render.png/600px-Foesmasher_Cape_Render.png?e9ed37",
+          width: 1024,
+          height: 1024,
         },
       },
     ]);
@@ -160,6 +166,13 @@ describe("armor-page parser", async () => {
     const voidwalker = await load("IX-Voidwalker");
     expect(voidwalker.tabs.map((tab) => tab.name)).toEqual(["Helmet"]);
     expect(armoryTab(voidwalker, "Helmet")?.source?.label).toBe("Void Piercer");
+    // One tab without a per-tab picture: the infobox picture is the helmet's.
+    expect(armoryTab(voidwalker, "Helmet")?.image).toEqual({
+      file: "IX-Voidwalker_Helmet_Render.png",
+      src: "/images/IX-Voidwalker_Helmet_Render.png?f39ffa",
+      width: 1024,
+      height: 1024,
+    });
     expect(armoryTab(voidwalker, "Body Armor")).toBeNull();
     expect(voidwalker.armoryDescription).toMatch(/^A helmet worn by the pioneering Helldivers/);
   });

@@ -24,6 +24,8 @@ export const RawSourceCell = z.object({
 export const RawImage = z.object({
   file: z.string().min(1),
   src: z.string().min(1),
+  width: z.number().int().positive().nullable(), // original file size
+  height: z.number().int().positive().nullable(),
 });
 
 export type RawLink = z.infer<typeof RawLink>;

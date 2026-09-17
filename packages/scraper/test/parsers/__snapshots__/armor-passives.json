@@ -8,7 +8,9 @@
     },
     "icon": {
       "file": "True_Grit_Armor_Passive_Icon.svg",
-      "src": "/images/True_Grit_Armor_Passive_Icon.svg?4e2218"
+      "src": "/images/True_Grit_Armor_Passive_Icon.svg?4e2218",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
     "effects": [
@@ -25,7 +27,9 @@
     },
     "icon": {
       "file": "Kinetic_Displacement_Mitigation_Armor_Passive_Icon.svg",
-      "src": "/images/Kinetic_Displacement_Mitigation_Armor_Passive_Icon.svg?3f42ed"
+      "src": "/images/Kinetic_Displacement_Mitigation_Armor_Passive_Icon.svg?3f42ed",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability. Gives the wearer a 50% chance to avoid grievous limb injury. Reduces damage taken from impact and collisions by 30%.",
     "effects": [
@@ -43,7 +47,9 @@
     },
     "icon": {
       "file": "Oxygenator_Armor_Passive_Icon.svg",
-      "src": "/images/Oxygenator_Armor_Passive_Icon.svg?a794f6"
+      "src": "/images/Oxygenator_Armor_Passive_Icon.svg?a794f6",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases the wearer's walking speed and running speed. Increases the speed and duration of slides.",
     "effects": [
@@ -60,7 +66,9 @@
     },
     "icon": {
       "file": "Concussive_Padding_Armor_Passive_Icon.svg",
-      "src": "/images/Concussive_Padding_Armor_Passive_Icon.svg?9c420d"
+      "src": "/images/Concussive_Padding_Armor_Passive_Icon.svg?9c420d",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 50% resistance to explosive damage. Increases initial inventory and holding capacity of throwables by +2.",
     "effects": [
@@ -77,7 +85,9 @@
     },
     "icon": {
       "file": "Concussive_Padding_Armor_Passive_Icon.svg",
-      "src": "/images/Concussive_Padding_Armor_Passive_Icon.svg?9c420d"
+      "src": "/images/Concussive_Padding_Armor_Passive_Icon.svg?9c420d",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 50% resistance to explosive damage. Provides 25% resistance to gas damage and effects. Sidearm recoil reduced by 30%.",
     "effects": [
@@ -95,7 +105,9 @@
     },
     "icon": {
       "file": "Concussive_Padding_Armor_Passive_Icon.svg",
-      "src": "/images/Concussive_Padding_Armor_Passive_Icon.svg?9c420d"
+      "src": "/images/Concussive_Padding_Armor_Passive_Icon.svg?9c420d",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 50% resistance to explosive damage. Provides a higher armor rating.",
     "effects": [
@@ -112,7 +124,9 @@
     },
     "icon": {
       "file": "Reduced_Signature_Armor_Passive_Icon.svg",
-      "src": "/images/Reduced_Signature_Armor_Passive_Icon.svg?e78d86"
+      "src": "/images/Reduced_Signature_Armor_Passive_Icon.svg?e78d86",
+      "width": 512,
+      "height": 512
     },
     "description": "Wearer makes 50% less noise when moving. Reduces range at which enemies can detect the wearer by 40%.",
     "effects": [
@@ -129,7 +143,9 @@
     },
     "icon": {
       "file": "Supplementary_Adrenaline_Armor_Passive_Icon.svg",
-      "src": "/images/Supplementary_Adrenaline_Armor_Passive_Icon.svg?85c93e"
+      "src": "/images/Supplementary_Adrenaline_Armor_Passive_Icon.svg?85c93e",
+      "width": 512,
+      "height": 512
     },
     "description": "When the wearer takes damage, they regain some stamina. Provides a higher armor rating.",
     "effects": [
@@ -146,7 +162,9 @@
     },
     "icon": {
       "file": "Rock_Solid_Armor_Passive_Icon.svg",
-      "src": "/images/Rock_Solid_Armor_Passive_Icon.svg?af3f32"
+      "src": "/images/Rock_Solid_Armor_Passive_Icon.svg?af3f32",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases melee damage by 40%. Bearer is more resistant to being knocked prone.",
     "effects": [
@@ -163,7 +181,9 @@
     },
     "icon": {
       "file": "Desert_Stormer_Armor_Passive_Icon.svg",
-      "src": "/images/Desert_Stormer_Armor_Passive_Icon.svg?974b97"
+      "src": "/images/Desert_Stormer_Armor_Passive_Icon.svg?974b97",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 40% resistance to fire, gas, acid, and electrical damage. Increases throwing range by 20%.",
     "effects": [
@@ -180,7 +200,9 @@
     },
     "icon": {
       "file": "Feet_First_Armor_Passive_Icon.svg",
-      "src": "/images/Feet_First_Armor_Passive_Icon.svg?87f23d"
+      "src": "/images/Feet_First_Armor_Passive_Icon.svg?87f23d",
+      "width": 512,
+      "height": 512
     },
     "description": "Wearer makes 50% less noise when moving. Increases point-of-interest identification range by 30%. Provides immunity to leg injuries.",
     "effects": [
@@ -198,7 +220,9 @@
     },
     "icon": {
       "file": "Adreno-Defibrillator_Armor_Passive_Icon.svg",
-      "src": "/images/Adreno-Defibrillator_Armor_Passive_Icon.svg?f4dd65"
+      "src": "/images/Adreno-Defibrillator_Armor_Passive_Icon.svg?f4dd65",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact. Increases stim effect duration by 2.0s. Provides 50% resistance to arc damage.",
     "effects": [
@@ -216,7 +240,9 @@
     },
     "icon": {
       "file": "Ballistic_Padding_Armor_Passive_Icon.svg",
-      "src": "/images/Ballistic_Padding_Armor_Passive_Icon.svg?62385e"
+      "src": "/images/Ballistic_Padding_Armor_Passive_Icon.svg?62385e",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 25% resistance to chest damage. Provides 25% resistance to explosive damage. Prevents all damage from bleeding if chest hemorrhages.",
     "effects": [
@@ -234,7 +260,9 @@
     },
     "icon": {
       "file": "Reinforced_Epaulettes_Armor_Passive_Icon.svg",
-      "src": "/images/Reinforced_Epaulettes_Armor_Passive_Icon.svg?24e119"
+      "src": "/images/Reinforced_Epaulettes_Armor_Passive_Icon.svg?24e119",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 20%.",
     "effects": [
@@ -252,7 +280,9 @@
     },
     "icon": {
       "file": "Gunslinger_Armor_Passive_Icon.svg",
-      "src": "/images/Gunslinger_Armor_Passive_Icon.svg?e25d45"
+      "src": "/images/Gunslinger_Armor_Passive_Icon.svg?e25d45",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases sidearms reload speed by 40%. Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%.",
     "effects": [
@@ -270,7 +300,9 @@
     },
     "icon": {
       "file": "Integrated_Explosives_Armor_Passive_Icon.svg",
-      "src": "/images/Integrated_Explosives_Armor_Passive_Icon.svg?9f426a"
+      "src": "/images/Integrated_Explosives_Armor_Passive_Icon.svg?9f426a",
+      "width": 512,
+      "height": 512
     },
     "description": "Armor explodes 1.5s after the wearer dies. Increases initial inventory and holding capacity of throwables by +2.",
     "effects": [
@@ -287,7 +319,9 @@
     },
     "icon": {
       "file": "Acclimated_Armor_Passive_Icon.svg",
-      "src": "/images/Acclimated_Armor_Passive_Icon.svg?7f04db"
+      "src": "/images/Acclimated_Armor_Passive_Icon.svg?7f04db",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 50% resistance to fire, gas, acid, and electrical damage.",
     "effects": [
@@ -303,7 +337,9 @@
     },
     "icon": {
       "file": "Siege-Ready_Armor_Passive_Icon.svg",
-      "src": "/images/Siege-Ready_Armor_Passive_Icon.svg?53e361"
+      "src": "/images/Siege-Ready_Armor_Passive_Icon.svg?53e361",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases reload speed of primary weapons by 30%. Increases ammo capacity of all weapons by 20%. Does not affect weapon backpacks.",
     "effects": [
@@ -320,7 +356,9 @@
     },
     "icon": {
       "file": "Unflinching_Armor_Passive_Icon.svg",
-      "src": "/images/Unflinching_Armor_Passive_Icon.svg?96cef1"
+      "src": "/images/Unflinching_Armor_Passive_Icon.svg?96cef1",
+      "width": 512,
+      "height": 512
     },
     "description": "Helps prevent Helldivers from flinching when hit. Provides a higher armor rating. Markers placed on the map will generate radar scans every 2.0s.",
     "effects": [
@@ -338,7 +376,9 @@
     },
     "icon": {
       "file": "Advanced_Filtration_Armor_Passive_Icon.svg",
-      "src": "/images/Advanced_Filtration_Armor_Passive_Icon.svg?215fd3"
+      "src": "/images/Advanced_Filtration_Armor_Passive_Icon.svg?215fd3",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 80% resistance to gas damage and effects.",
     "effects": [
@@ -354,7 +394,9 @@
     },
     "icon": {
       "file": "Inflammable_Armor_Passive_Icon.svg",
-      "src": "/images/Inflammable_Armor_Passive_Icon.svg?7f04db"
+      "src": "/images/Inflammable_Armor_Passive_Icon.svg?7f04db",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
     "effects": [
@@ -370,7 +412,9 @@
     },
     "icon": {
       "file": "Peak_Physique_Armor_Passive_Icon.svg",
-      "src": "/images/Peak_Physique_Armor_Passive_Icon.svg?5522cf"
+      "src": "/images/Peak_Physique_Armor_Passive_Icon.svg?5522cf",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases melee damage by 40%. Improves weapons handling with less drag on weapon movement.",
     "effects": [
@@ -387,7 +431,9 @@
     },
     "icon": {
       "file": "Electrical_Conduit_Armor_Passive_Icon.svg",
-      "src": "/images/Electrical_Conduit_Armor_Passive_Icon.svg?79e7c4"
+      "src": "/images/Electrical_Conduit_Armor_Passive_Icon.svg?79e7c4",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides 95% resistance to arc damage.",
     "effects": [
@@ -403,7 +449,9 @@
     },
     "icon": {
       "file": "Fortified_Armor_Passive_Icon.svg",
-      "src": "/images/Fortified_Armor_Passive_Icon.svg?b2400e"
+      "src": "/images/Fortified_Armor_Passive_Icon.svg?b2400e",
+      "width": 512,
+      "height": 512
     },
     "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage.",
     "effects": [
@@ -420,7 +468,9 @@
     },
     "icon": {
       "file": "Scout_Armor_Passive_Icon.svg",
-      "src": "/images/Scout_Armor_Passive_Icon.svg?c505d5"
+      "src": "/images/Scout_Armor_Passive_Icon.svg?c505d5",
+      "width": 512,
+      "height": 512
     },
     "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%.",
     "effects": [
@@ -437,7 +487,9 @@
     },
     "icon": {
       "file": "Engineering_Kit_Armor_Passive_Icon.svg",
-      "src": "/images/Engineering_Kit_Armor_Passive_Icon.svg?81b4af"
+      "src": "/images/Engineering_Kit_Armor_Passive_Icon.svg?81b4af",
+      "width": 512,
+      "height": 512
     },
     "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2.",
     "effects": [
@@ -454,7 +506,9 @@
     },
     "icon": {
       "file": "Med-Kit_Armor_Passive_Icon.svg",
-      "src": "/images/Med-Kit_Armor_Passive_Icon.svg?44a7cf"
+      "src": "/images/Med-Kit_Armor_Passive_Icon.svg?44a7cf",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s.",
     "effects": [
@@ -471,7 +525,9 @@
     },
     "icon": {
       "file": "Servo-Assisted_Armor_Passive_Icon.svg",
-      "src": "/images/Servo-Assisted_Armor_Passive_Icon.svg?7f63db"
+      "src": "/images/Servo-Assisted_Armor_Passive_Icon.svg?7f63db",
+      "width": 512,
+      "height": 512
     },
     "description": "Increases throwing range by 30%. Provides +50% limb health.",
     "effects": [
@@ -488,7 +544,9 @@
     },
     "icon": {
       "file": "Democracy_Protects_Armor_Passive_Icon.svg",
-      "src": "/images/Democracy_Protects_Armor_Passive_Icon.svg?704a3b"
+      "src": "/images/Democracy_Protects_Armor_Passive_Icon.svg?704a3b",
+      "width": 512,
+      "height": 512
     },
     "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages.",
     "effects": [
@@ -505,7 +563,9 @@
     },
     "icon": {
       "file": "Extra_Padding_Armor_Passive_Icon.svg",
-      "src": "/images/Extra_Padding_Armor_Passive_Icon.svg?260561"
+      "src": "/images/Extra_Padding_Armor_Passive_Icon.svg?260561",
+      "width": 512,
+      "height": 512
     },
     "description": "Provides a higher armor rating.",
     "effects": [

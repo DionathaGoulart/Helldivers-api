@@ -27,7 +27,9 @@
     },
     "icon": {
       "file": "Orbital_Precision_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Precision_Strike_Stratagem_Icon_Background.svg?e78550"
+      "src": "/images/Orbital_Precision_Strike_Stratagem_Icon_Background.svg?e78550",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -60,7 +62,9 @@
     },
     "icon": {
       "file": "Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg?f73d52"
+      "src": "/images/Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg?f73d52",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -92,7 +96,9 @@
     },
     "icon": {
       "file": "Orbital_Gas_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Gas_Strike_Stratagem_Icon_Background.svg?668a1e"
+      "src": "/images/Orbital_Gas_Strike_Stratagem_Icon_Background.svg?668a1e",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -126,7 +132,9 @@
     },
     "icon": {
       "file": "Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg?17de59"
+      "src": "/images/Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg?17de59",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -157,7 +165,9 @@
     },
     "icon": {
       "file": "Orbital_Airburst_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Airburst_Strike_Stratagem_Icon_Background.svg?c77894"
+      "src": "/images/Orbital_Airburst_Strike_Stratagem_Icon_Background.svg?c77894",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -189,7 +199,9 @@
     },
     "icon": {
       "file": "Orbital_Smoke_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Smoke_Strike_Stratagem_Icon_Background.svg?a05463"
+      "src": "/images/Orbital_Smoke_Strike_Stratagem_Icon_Background.svg?a05463",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -221,7 +233,9 @@
     },
     "icon": {
       "file": "Orbital_EMS_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_EMS_Strike_Stratagem_Icon_Background.svg?5e3ef9"
+      "src": "/images/Orbital_EMS_Strike_Stratagem_Icon_Background.svg?5e3ef9",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -256,7 +270,9 @@
     },
     "icon": {
       "file": "Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg?eb3f95"
+      "src": "/images/Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg?eb3f95",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -290,7 +306,9 @@
     },
     "icon": {
       "file": "Orbital_Walking_Barrage_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Walking_Barrage_Stratagem_Icon_Background.svg?cb3bf0"
+      "src": "/images/Orbital_Walking_Barrage_Stratagem_Icon_Background.svg?cb3bf0",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -323,7 +341,9 @@
     },
     "icon": {
       "file": "Orbital_Laser_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Laser_Stratagem_Icon_Background.svg?ae2ad3"
+      "src": "/images/Orbital_Laser_Stratagem_Icon_Background.svg?ae2ad3",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -357,7 +377,9 @@
     },
     "icon": {
       "file": "Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg?be78c4"
+      "src": "/images/Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg?be78c4",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -390,7 +412,9 @@
     },
     "icon": {
       "file": "Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg?ee9232"
+      "src": "/images/Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg?ee9232",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -426,7 +450,9 @@
     },
     "icon": {
       "file": "Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg?e47dc1"
+      "src": "/images/Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg?e47dc1",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -457,7 +483,9 @@
     },
     "icon": {
       "file": "Eagle_Strafing_Run_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Strafing_Run_Stratagem_Icon_Background.svg?fe286e"
+      "src": "/images/Eagle_Strafing_Run_Stratagem_Icon_Background.svg?fe286e",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -489,7 +517,9 @@
     },
     "icon": {
       "file": "Eagle_Airstrike_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Airstrike_Stratagem_Icon_Background.svg?b497fe"
+      "src": "/images/Eagle_Airstrike_Stratagem_Icon_Background.svg?b497fe",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -522,7 +552,9 @@
     },
     "icon": {
       "file": "Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg?b730d4"
+      "src": "/images/Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg?b730d4",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -554,7 +586,9 @@
     },
     "icon": {
       "file": "Eagle_Smoke_Strike_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Smoke_Strike_Stratagem_Icon_Background.svg?159f1f"
+      "src": "/images/Eagle_Smoke_Strike_Stratagem_Icon_Background.svg?159f1f",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -586,7 +620,9 @@
     },
     "icon": {
       "file": "Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg?735c8b"
+      "src": "/images/Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg?735c8b",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -618,7 +654,9 @@
     },
     "icon": {
       "file": "Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg?2e218a"
+      "src": "/images/Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg?2e218a",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -651,7 +689,9 @@
     },
     "icon": {
       "file": "Eagle_500kg_Bomb_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_500kg_Bomb_Stratagem_Icon_Background.svg?48a0f3"
+      "src": "/images/Eagle_500kg_Bomb_Stratagem_Icon_Background.svg?48a0f3",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -684,7 +724,9 @@
     },
     "icon": {
       "file": "Machine_Gun_Stratagem_Icon_Background.svg",
-      "src": "/images/Machine_Gun_Stratagem_Icon_Background.svg?35fc07"
+      "src": "/images/Machine_Gun_Stratagem_Icon_Background.svg?35fc07",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -717,7 +759,9 @@
     },
     "icon": {
       "file": "Expendable_Anti-Tank_Stratagem_Icon_Background.svg",
-      "src": "/images/Expendable_Anti-Tank_Stratagem_Icon_Background.svg?d52ad8"
+      "src": "/images/Expendable_Anti-Tank_Stratagem_Icon_Background.svg?d52ad8",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -751,7 +795,9 @@
     },
     "icon": {
       "file": "Stalwart_Stratagem_Icon_Background.svg",
-      "src": "/images/Stalwart_Stratagem_Icon_Background.svg?89f988"
+      "src": "/images/Stalwart_Stratagem_Icon_Background.svg?89f988",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -784,7 +830,9 @@
     },
     "icon": {
       "file": "Laser_Cannon_Stratagem_Icon_Background.svg",
-      "src": "/images/Laser_Cannon_Stratagem_Icon_Background.svg?21b5f6"
+      "src": "/images/Laser_Cannon_Stratagem_Icon_Background.svg?21b5f6",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -817,7 +865,9 @@
     },
     "icon": {
       "file": "Anti-Materiel_Rifle_Stratagem_Icon_Background.svg",
-      "src": "/images/Anti-Materiel_Rifle_Stratagem_Icon_Background.svg?37652d"
+      "src": "/images/Anti-Materiel_Rifle_Stratagem_Icon_Background.svg?37652d",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -850,7 +900,9 @@
     },
     "icon": {
       "file": "Recoilless_Rifle_Stratagem_Icon_Background.svg",
-      "src": "/images/Recoilless_Rifle_Stratagem_Icon_Background.svg?aaa0b7"
+      "src": "/images/Recoilless_Rifle_Stratagem_Icon_Background.svg?aaa0b7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -883,7 +935,9 @@
     },
     "icon": {
       "file": "Grenade_Launcher_Stratagem_Icon_Background.svg",
-      "src": "/images/Grenade_Launcher_Stratagem_Icon_Background.svg?168a60"
+      "src": "/images/Grenade_Launcher_Stratagem_Icon_Background.svg?168a60",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -916,7 +970,9 @@
     },
     "icon": {
       "file": "Flamethrower_Stratagem_Icon_Background.svg",
-      "src": "/images/Flamethrower_Stratagem_Icon_Background.svg?648ed8"
+      "src": "/images/Flamethrower_Stratagem_Icon_Background.svg?648ed8",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -949,7 +1005,9 @@
     },
     "icon": {
       "file": "Heavy_Machine_Gun_Stratagem_Icon_Background.svg",
-      "src": "/images/Heavy_Machine_Gun_Stratagem_Icon_Background.svg?7f60eb"
+      "src": "/images/Heavy_Machine_Gun_Stratagem_Icon_Background.svg?7f60eb",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -983,7 +1041,9 @@
     },
     "icon": {
       "file": "Autocannon_Stratagem_Icon_Background.svg",
-      "src": "/images/Autocannon_Stratagem_Icon_Background.svg?556cf5"
+      "src": "/images/Autocannon_Stratagem_Icon_Background.svg?556cf5",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1017,7 +1077,9 @@
     },
     "icon": {
       "file": "Arc_Thrower_Stratagem_Icon_Background.svg",
-      "src": "/images/Arc_Thrower_Stratagem_Icon_Background.svg?5909af"
+      "src": "/images/Arc_Thrower_Stratagem_Icon_Background.svg?5909af",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1050,7 +1112,9 @@
     },
     "icon": {
       "file": "Quasar_Cannon_Stratagem_Icon_Background.svg",
-      "src": "/images/Quasar_Cannon_Stratagem_Icon_Background.svg?559764"
+      "src": "/images/Quasar_Cannon_Stratagem_Icon_Background.svg?559764",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1083,7 +1147,9 @@
     },
     "icon": {
       "file": "Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg",
-      "src": "/images/Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg?6755a7"
+      "src": "/images/Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg?6755a7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1116,7 +1182,9 @@
     },
     "icon": {
       "file": "Commando_Stratagem_Icon_Background.svg",
-      "src": "/images/Commando_Stratagem_Icon_Background.svg?6ea896"
+      "src": "/images/Commando_Stratagem_Icon_Background.svg?6ea896",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1149,7 +1217,9 @@
     },
     "icon": {
       "file": "Spear_Stratagem_Icon_Background.svg",
-      "src": "/images/Spear_Stratagem_Icon_Background.svg?3f7623"
+      "src": "/images/Spear_Stratagem_Icon_Background.svg?3f7623",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1183,7 +1253,9 @@
     },
     "icon": {
       "file": "Railgun_Stratagem_Icon_Background.svg",
-      "src": "/images/Railgun_Stratagem_Icon_Background.svg?7030a2"
+      "src": "/images/Railgun_Stratagem_Icon_Background.svg?7030a2",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1216,7 +1288,9 @@
     },
     "icon": {
       "file": "W.A.S.P._Launcher_Stratagem_Icon_Background.svg",
-      "src": "/images/W.A.S.P._Launcher_Stratagem_Icon_Background.svg?a33ba8"
+      "src": "/images/W.A.S.P._Launcher_Stratagem_Icon_Background.svg?a33ba8",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1253,7 +1327,9 @@
     },
     "icon": {
       "file": "Breaching_Hammer_Stratagem_Icon_Background.svg",
-      "src": "/images/Breaching_Hammer_Stratagem_Icon_Background.svg?65dd9b"
+      "src": "/images/Breaching_Hammer_Stratagem_Icon_Background.svg?65dd9b",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1290,7 +1366,9 @@
     },
     "icon": {
       "file": "Epoch_Stratagem_Icon_Background.svg",
-      "src": "/images/Epoch_Stratagem_Icon_Background.svg?bfe6b1"
+      "src": "/images/Epoch_Stratagem_Icon_Background.svg?bfe6b1",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1328,7 +1406,9 @@
     },
     "icon": {
       "file": "Bullet_Storm_Stratagem_Icon_Background.svg",
-      "src": "/images/Bullet_Storm_Stratagem_Icon_Background.svg?97328f"
+      "src": "/images/Bullet_Storm_Stratagem_Icon_Background.svg?97328f",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1366,7 +1446,9 @@
     },
     "icon": {
       "file": "Speargun_Stratagem_Icon_Background.svg",
-      "src": "/images/Speargun_Stratagem_Icon_Background.svg?2f0be9"
+      "src": "/images/Speargun_Stratagem_Icon_Background.svg?2f0be9",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1403,7 +1485,9 @@
     },
     "icon": {
       "file": "Defoliation_Tool_Stratagem_Icon_Background.svg",
-      "src": "/images/Defoliation_Tool_Stratagem_Icon_Background.svg?418556"
+      "src": "/images/Defoliation_Tool_Stratagem_Icon_Background.svg?418556",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1440,7 +1524,9 @@
     },
     "icon": {
       "file": "De-Escalator_Stratagem_Icon_Background.svg",
-      "src": "/images/De-Escalator_Stratagem_Icon_Background.svg?7a9dca"
+      "src": "/images/De-Escalator_Stratagem_Icon_Background.svg?7a9dca",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1477,7 +1563,9 @@
     },
     "icon": {
       "file": "Expendable_Napalm_Stratagem_Icon_Background.svg",
-      "src": "/images/Expendable_Napalm_Stratagem_Icon_Background.svg?117778"
+      "src": "/images/Expendable_Napalm_Stratagem_Icon_Background.svg?117778",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1514,7 +1602,9 @@
     },
     "icon": {
       "file": "Sterilizer_Stratagem_Icon_Background.svg",
-      "src": "/images/Sterilizer_Stratagem_Icon_Background.svg?a42db7"
+      "src": "/images/Sterilizer_Stratagem_Icon_Background.svg?a42db7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1551,7 +1641,9 @@
     },
     "icon": {
       "file": "Leveller_Stratagem_Icon_Background.svg",
-      "src": "/images/Leveller_Stratagem_Icon_Background.svg?8f0c64"
+      "src": "/images/Leveller_Stratagem_Icon_Background.svg?8f0c64",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1589,7 +1681,9 @@
     },
     "icon": {
       "file": "Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg",
-      "src": "/images/Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg?4c99f1"
+      "src": "/images/Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg?4c99f1",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1627,7 +1721,9 @@
     },
     "icon": {
       "file": "C4_Pack_Stratagem_Icon_Background.svg",
-      "src": "/images/C4_Pack_Stratagem_Icon_Background.svg?bfb8f2"
+      "src": "/images/C4_Pack_Stratagem_Icon_Background.svg?bfb8f2",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1664,7 +1760,9 @@
     },
     "icon": {
       "file": "Solo_Silo_Stratagem_Icon_Background.svg",
-      "src": "/images/Solo_Silo_Stratagem_Icon_Background.svg?69f961"
+      "src": "/images/Solo_Silo_Stratagem_Icon_Background.svg?69f961",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1702,7 +1800,9 @@
     },
     "icon": {
       "file": "Cremator_Stratagem_Icon_Background.svg",
-      "src": "/images/Cremator_Stratagem_Icon_Background.svg?ce54a7"
+      "src": "/images/Cremator_Stratagem_Icon_Background.svg?ce54a7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1740,7 +1840,9 @@
     },
     "icon": {
       "file": "Maxigun_Stratagem_Icon_Background.svg",
-      "src": "/images/Maxigun_Stratagem_Icon_Background.svg?d08884"
+      "src": "/images/Maxigun_Stratagem_Icon_Background.svg?d08884",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1777,7 +1879,9 @@
     },
     "icon": {
       "file": "One_True_Flag_Stratagem_Icon_Background.svg",
-      "src": "/images/One_True_Flag_Stratagem_Icon_Background.svg?e919be"
+      "src": "/images/One_True_Flag_Stratagem_Icon_Background.svg?e919be",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1815,7 +1919,9 @@
     },
     "icon": {
       "file": "Meltagun_Stratagem_Icon_Background.svg",
-      "src": "/images/Meltagun_Stratagem_Icon_Background.svg?c412fb"
+      "src": "/images/Meltagun_Stratagem_Icon_Background.svg?c412fb",
+      "width": 256,
+      "height": 256
     }
   },
   {
@@ -1849,7 +1955,9 @@
     },
     "icon": {
       "file": "Supply_Pack_Stratagem_Icon_Background.svg",
-      "src": "/images/Supply_Pack_Stratagem_Icon_Background.svg?6f6c53"
+      "src": "/images/Supply_Pack_Stratagem_Icon_Background.svg?6f6c53",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1882,7 +1990,9 @@
     },
     "icon": {
       "file": "Jump_Pack_Stratagem_Icon_Background.svg",
-      "src": "/images/Jump_Pack_Stratagem_Icon_Background.svg?464278"
+      "src": "/images/Jump_Pack_Stratagem_Icon_Background.svg?464278",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1916,7 +2026,9 @@
     },
     "icon": {
       "file": "Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg",
-      "src": "/images/Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg?6697d4"
+      "src": "/images/Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg?6697d4",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1950,7 +2062,9 @@
     },
     "icon": {
       "file": "Guard_Dog_Stratagem_Icon_Background.svg",
-      "src": "/images/Guard_Dog_Stratagem_Icon_Background.svg?eb2b15"
+      "src": "/images/Guard_Dog_Stratagem_Icon_Background.svg?eb2b15",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -1984,7 +2098,9 @@
     },
     "icon": {
       "file": "Rover_Stratagem_Icon_Background.svg",
-      "src": "/images/Rover_Stratagem_Icon_Background.svg?12ad26"
+      "src": "/images/Rover_Stratagem_Icon_Background.svg?12ad26",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2018,7 +2134,9 @@
     },
     "icon": {
       "file": "Shield_Generator_Pack_Stratagem_Icon_Background.svg",
-      "src": "/images/Shield_Generator_Pack_Stratagem_Icon_Background.svg?2f4980"
+      "src": "/images/Shield_Generator_Pack_Stratagem_Icon_Background.svg?2f4980",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2056,7 +2174,9 @@
     },
     "icon": {
       "file": "Directional_Shield_Stratagem_Icon_Background.svg",
-      "src": "/images/Directional_Shield_Stratagem_Icon_Background.svg?a0bd68"
+      "src": "/images/Directional_Shield_Stratagem_Icon_Background.svg?a0bd68",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2094,7 +2214,9 @@
     },
     "icon": {
       "file": "Hot_Dog_Stratagem_Icon_Background.svg",
-      "src": "/images/Hot_Dog_Stratagem_Icon_Background.svg?c8e42d"
+      "src": "/images/Hot_Dog_Stratagem_Icon_Background.svg?c8e42d",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2131,7 +2253,9 @@
     },
     "icon": {
       "file": "Portable_Hellbomb_Stratagem_Icon_Background.svg",
-      "src": "/images/Portable_Hellbomb_Stratagem_Icon_Background.svg?e8bd76"
+      "src": "/images/Portable_Hellbomb_Stratagem_Icon_Background.svg?e8bd76",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2169,7 +2293,9 @@
     },
     "icon": {
       "file": "K-9_Stratagem_Icon_Background.svg",
-      "src": "/images/K-9_Stratagem_Icon_Background.svg?3ed7fe"
+      "src": "/images/K-9_Stratagem_Icon_Background.svg?3ed7fe",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2207,7 +2333,9 @@
     },
     "icon": {
       "file": "Hover_Pack_Stratagem_Icon_Background.svg",
-      "src": "/images/Hover_Pack_Stratagem_Icon_Background.svg?63fe63"
+      "src": "/images/Hover_Pack_Stratagem_Icon_Background.svg?63fe63",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2245,7 +2373,9 @@
     },
     "icon": {
       "file": "Dog_Breath_Stratagem_Icon_Background.svg",
-      "src": "/images/Dog_Breath_Stratagem_Icon_Background.svg?b93a24"
+      "src": "/images/Dog_Breath_Stratagem_Icon_Background.svg?b93a24",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2283,7 +2413,9 @@
     },
     "icon": {
       "file": "Warp_Pack_Stratagem_Icon_Background.svg",
-      "src": "/images/Warp_Pack_Stratagem_Icon_Background.svg?b27510"
+      "src": "/images/Warp_Pack_Stratagem_Icon_Background.svg?b27510",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2322,7 +2454,9 @@
     },
     "icon": {
       "file": "Supply_FRV_Stratagem_Icon_Background.svg",
-      "src": "/images/Supply_FRV_Stratagem_Icon_Background.svg?415445"
+      "src": "/images/Supply_FRV_Stratagem_Icon_Background.svg?415445",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2357,7 +2491,9 @@
     },
     "icon": {
       "file": "Incinerator_FRV_Stratagem_Icon_Background.svg",
-      "src": "/images/Incinerator_FRV_Stratagem_Icon_Background.svg?f5764f"
+      "src": "/images/Incinerator_FRV_Stratagem_Icon_Background.svg?f5764f",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2392,7 +2528,9 @@
     },
     "icon": {
       "file": "Emancipator_Exosuit_Stratagem_Icon_Background.svg",
-      "src": "/images/Emancipator_Exosuit_Stratagem_Icon_Background.svg?336419"
+      "src": "/images/Emancipator_Exosuit_Stratagem_Icon_Background.svg?336419",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2427,7 +2565,9 @@
     },
     "icon": {
       "file": "Patriot_Exosuit_Stratagem_Icon_Background.svg",
-      "src": "/images/Patriot_Exosuit_Stratagem_Icon_Background.svg?3fa7de"
+      "src": "/images/Patriot_Exosuit_Stratagem_Icon_Background.svg?3fa7de",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2462,7 +2602,9 @@
     },
     "icon": {
       "file": "Fast_Recon_Vehicle_Stratagem_Icon_Background.svg",
-      "src": "/images/Fast_Recon_Vehicle_Stratagem_Icon_Background.svg?d9bba1"
+      "src": "/images/Fast_Recon_Vehicle_Stratagem_Icon_Background.svg?d9bba1",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2499,7 +2641,9 @@
     },
     "icon": {
       "file": "Bastion_MK_XVI_Stratagem_Icon_Background.svg",
-      "src": "/images/Bastion_MK_XVI_Stratagem_Icon_Background.svg?9de952"
+      "src": "/images/Bastion_MK_XVI_Stratagem_Icon_Background.svg?9de952",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2538,7 +2682,9 @@
     },
     "icon": {
       "file": "Breakthrough_Exosuit_Stratagem_Icon_Background.svg",
-      "src": "/images/Breakthrough_Exosuit_Stratagem_Icon_Background.svg?d9bc7c"
+      "src": "/images/Breakthrough_Exosuit_Stratagem_Icon_Background.svg?d9bc7c",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2577,7 +2723,9 @@
     },
     "icon": {
       "file": "Lumberer_Exosuit_Stratagem_Icon_Background.svg",
-      "src": "/images/Lumberer_Exosuit_Stratagem_Icon_Background.svg?c3895f"
+      "src": "/images/Lumberer_Exosuit_Stratagem_Icon_Background.svg?c3895f",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2610,7 +2758,9 @@
     },
     "icon": {
       "file": "Machine_Gun_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Machine_Gun_Sentry_Stratagem_Icon_Background.svg?331c9d"
+      "src": "/images/Machine_Gun_Sentry_Stratagem_Icon_Background.svg?331c9d",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2642,7 +2792,9 @@
     },
     "icon": {
       "file": "Gatling_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Gatling_Sentry_Stratagem_Icon_Background.svg?7ee8f3"
+      "src": "/images/Gatling_Sentry_Stratagem_Icon_Background.svg?7ee8f3",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2676,7 +2828,9 @@
     },
     "icon": {
       "file": "Autocannon_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Autocannon_Sentry_Stratagem_Icon_Background.svg?428b69"
+      "src": "/images/Autocannon_Sentry_Stratagem_Icon_Background.svg?428b69",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2709,7 +2863,9 @@
     },
     "icon": {
       "file": "Mortar_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Mortar_Sentry_Stratagem_Icon_Background.svg?30dea2"
+      "src": "/images/Mortar_Sentry_Stratagem_Icon_Background.svg?30dea2",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2742,7 +2898,9 @@
     },
     "icon": {
       "file": "Rocket_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Rocket_Sentry_Stratagem_Icon_Background.svg?1af08c"
+      "src": "/images/Rocket_Sentry_Stratagem_Icon_Background.svg?1af08c",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2776,7 +2934,9 @@
     },
     "icon": {
       "file": "Tesla_Tower_Stratagem_Icon_Background.svg",
-      "src": "/images/Tesla_Tower_Stratagem_Icon_Background.svg?a40a2e"
+      "src": "/images/Tesla_Tower_Stratagem_Icon_Background.svg?a40a2e",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2809,7 +2969,9 @@
     },
     "icon": {
       "file": "EMS_Mortar_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/EMS_Mortar_Sentry_Stratagem_Icon_Background.svg?202fdc"
+      "src": "/images/EMS_Mortar_Sentry_Stratagem_Icon_Background.svg?202fdc",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2847,7 +3009,9 @@
     },
     "icon": {
       "file": "Laser_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Laser_Sentry_Stratagem_Icon_Background.svg?90ea4a"
+      "src": "/images/Laser_Sentry_Stratagem_Icon_Background.svg?90ea4a",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2885,7 +3049,9 @@
     },
     "icon": {
       "file": "Flame_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Flame_Sentry_Stratagem_Icon_Background.svg?9214db"
+      "src": "/images/Flame_Sentry_Stratagem_Icon_Background.svg?9214db",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2922,7 +3088,9 @@
     },
     "icon": {
       "file": "Gas_Mortar_Sentry_Stratagem_Icon_Background.svg",
-      "src": "/images/Gas_Mortar_Sentry_Stratagem_Icon_Background.svg?8948b9"
+      "src": "/images/Gas_Mortar_Sentry_Stratagem_Icon_Background.svg?8948b9",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2954,7 +3122,9 @@
     },
     "icon": {
       "file": "Anti-Personnel_Minefield_Stratagem_Icon_Background.svg",
-      "src": "/images/Anti-Personnel_Minefield_Stratagem_Icon_Background.svg?ac79b4"
+      "src": "/images/Anti-Personnel_Minefield_Stratagem_Icon_Background.svg?ac79b4",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -2986,7 +3156,9 @@
     },
     "icon": {
       "file": "Incendiary_Mines_Stratagem_Icon_Background.svg",
-      "src": "/images/Incendiary_Mines_Stratagem_Icon_Background.svg?6c612f"
+      "src": "/images/Incendiary_Mines_Stratagem_Icon_Background.svg?6c612f",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3018,7 +3190,9 @@
     },
     "icon": {
       "file": "Anti-Tank_Mines_Stratagem_Icon_Background.svg",
-      "src": "/images/Anti-Tank_Mines_Stratagem_Icon_Background.svg?4573f2"
+      "src": "/images/Anti-Tank_Mines_Stratagem_Icon_Background.svg?4573f2",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3052,7 +3226,9 @@
     },
     "icon": {
       "file": "Shield_Generator_Relay_Stratagem_Icon_Background.svg",
-      "src": "/images/Shield_Generator_Relay_Stratagem_Icon_Background.svg?8f5149"
+      "src": "/images/Shield_Generator_Relay_Stratagem_Icon_Background.svg?8f5149",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3086,7 +3262,9 @@
     },
     "icon": {
       "file": "HMG_Emplacement_Stratagem_Icon_Background.svg",
-      "src": "/images/HMG_Emplacement_Stratagem_Icon_Background.svg?204f0f"
+      "src": "/images/HMG_Emplacement_Stratagem_Icon_Background.svg?204f0f",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3119,7 +3297,9 @@
     },
     "icon": {
       "file": "Grenadier_Battlement_Stratagem_Icon_Background.svg",
-      "src": "/images/Grenadier_Battlement_Stratagem_Icon_Background.svg?80ed1c"
+      "src": "/images/Grenadier_Battlement_Stratagem_Icon_Background.svg?80ed1c",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3151,7 +3331,9 @@
     },
     "icon": {
       "file": "Gas_Mines_Stratagem_Icon_Background.svg",
-      "src": "/images/Gas_Mines_Stratagem_Icon_Background.svg?b10ef8"
+      "src": "/images/Gas_Mines_Stratagem_Icon_Background.svg?b10ef8",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3189,7 +3371,9 @@
     },
     "icon": {
       "file": "Anti-Tank_Emplacement_Stratagem_Icon_Background.svg",
-      "src": "/images/Anti-Tank_Emplacement_Stratagem_Icon_Background.svg?d8adfc"
+      "src": "/images/Anti-Tank_Emplacement_Stratagem_Icon_Background.svg?d8adfc",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3215,7 +3399,9 @@
     "source": null,
     "icon": {
       "file": "Eagle_Rearm_Stratagem_Icon_Background.svg",
-      "src": "/images/Eagle_Rearm_Stratagem_Icon_Background.svg?ddcd30"
+      "src": "/images/Eagle_Rearm_Stratagem_Icon_Background.svg?ddcd30",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3244,7 +3430,9 @@
     "source": null,
     "icon": {
       "file": "Call_In_Super_Destroyer_Stratagem_Icon_Background.svg",
-      "src": "/images/Call_In_Super_Destroyer_Stratagem_Icon_Background.svg?f8ee42"
+      "src": "/images/Call_In_Super_Destroyer_Stratagem_Icon_Background.svg?f8ee42",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3269,7 +3457,9 @@
     "source": null,
     "icon": {
       "file": "SOS_Beacon_Stratagem_Icon_Background.svg",
-      "src": "/images/SOS_Beacon_Stratagem_Icon_Background.svg?390b65"
+      "src": "/images/SOS_Beacon_Stratagem_Icon_Background.svg?390b65",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3294,7 +3484,9 @@
     "source": null,
     "icon": {
       "file": "Resupply_Stratagem_Icon_Background.svg",
-      "src": "/images/Resupply_Stratagem_Icon_Background.svg?e011d4"
+      "src": "/images/Resupply_Stratagem_Icon_Background.svg?e011d4",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3320,7 +3512,9 @@
     "source": null,
     "icon": {
       "file": "Reinforce_Stratagem_Icon_Background.svg",
-      "src": "/images/Reinforce_Stratagem_Icon_Background.svg?c9d622"
+      "src": "/images/Reinforce_Stratagem_Icon_Background.svg?c9d622",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3347,7 +3541,9 @@
     "source": null,
     "icon": {
       "file": "Cargo_Container_Stratagem_Icon_Background.svg",
-      "src": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b"
+      "src": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3376,7 +3572,9 @@
     "source": null,
     "icon": {
       "file": "Hellbomb_Stratagem_Icon_Background.svg",
-      "src": "/images/Hellbomb_Stratagem_Icon_Background.svg?4be6bb"
+      "src": "/images/Hellbomb_Stratagem_Icon_Background.svg?4be6bb",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3403,7 +3601,9 @@
     "source": null,
     "icon": {
       "file": "Seismic_Probe_Stratagem_Icon_Background.svg",
-      "src": "/images/Seismic_Probe_Stratagem_Icon_Background.svg?9631fa"
+      "src": "/images/Seismic_Probe_Stratagem_Icon_Background.svg?9631fa",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3431,7 +3631,9 @@
     "source": null,
     "icon": {
       "file": "Upload_Data_Stratagem_Icon_Background.svg",
-      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565"
+      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3458,7 +3660,9 @@
     "source": null,
     "icon": {
       "file": "Drill_Stratagem_Icon_Background.svg",
-      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3484,7 +3688,9 @@
     "source": null,
     "icon": {
       "file": "Upload_Data_Stratagem_Icon_Background.svg",
-      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565"
+      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3510,7 +3716,9 @@
     "source": null,
     "icon": {
       "file": "Upload_Data_Stratagem_Icon_Background.svg",
-      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565"
+      "src": "/images/Upload_Data_Stratagem_Icon_Background.svg?a4a565",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3539,7 +3747,9 @@
     "source": null,
     "icon": {
       "file": "Drill_Stratagem_Icon_Background.svg",
-      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3567,7 +3777,9 @@
     "source": null,
     "icon": {
       "file": "Cargo_Container_Stratagem_Icon_Background.svg",
-      "src": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b"
+      "src": "/images/Cargo_Container_Stratagem_Icon_Background.svg?60d35b",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3594,7 +3806,9 @@
     "source": null,
     "icon": {
       "file": "Drill_Stratagem_Icon_Background.svg",
-      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3621,7 +3835,9 @@
     "source": null,
     "icon": {
       "file": "Drill_Stratagem_Icon_Background.svg",
-      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3648,7 +3864,9 @@
     "source": null,
     "icon": {
       "file": "Drill_Stratagem_Icon_Background.svg",
-      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7"
+      "src": "/images/Drill_Stratagem_Icon_Background.svg?4379f7",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3675,7 +3893,9 @@
     "source": null,
     "icon": {
       "file": "Dark_Fluid_Vessel_Stratagem_Icon_Background.svg",
-      "src": "/images/Dark_Fluid_Vessel_Stratagem_Icon_Background.svg?ce7771"
+      "src": "/images/Dark_Fluid_Vessel_Stratagem_Icon_Background.svg?ce7771",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3700,7 +3920,9 @@
     "source": null,
     "icon": {
       "file": "Super_Earth_Flag_Stratagem_Icon_Background.svg",
-      "src": "/images/Super_Earth_Flag_Stratagem_Icon_Background.svg?cb3975"
+      "src": "/images/Super_Earth_Flag_Stratagem_Icon_Background.svg?cb3975",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3725,7 +3947,9 @@
     "source": null,
     "icon": {
       "file": "SEAF_Artillery_Stratagem_Icon_Background.svg",
-      "src": "/images/SEAF_Artillery_Stratagem_Icon_Background.svg?f72d95"
+      "src": "/images/SEAF_Artillery_Stratagem_Icon_Background.svg?f72d95",
+      "width": 512,
+      "height": 512
     }
   },
   {
@@ -3753,7 +3977,9 @@
     "source": null,
     "icon": {
       "file": "Placeholder.png",
-      "src": "/images/thumb/Placeholder.png/50px-Placeholder.png?4aae5f"
+      "src": "/images/thumb/Placeholder.png/50px-Placeholder.png?4aae5f",
+      "width": 1065,
+      "height": 800
     }
   },
   {
@@ -3778,7 +4004,9 @@
     "source": null,
     "icon": {
       "file": "Orbital_Illumination_Flare_Stratagem_Icon_Background.svg",
-      "src": "/images/Orbital_Illumination_Flare_Stratagem_Icon_Background.svg?eb95f9"
+      "src": "/images/Orbital_Illumination_Flare_Stratagem_Icon_Background.svg?eb95f9",
+      "width": 512,
+      "height": 512
     }
   }
 ]

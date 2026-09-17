@@ -81,7 +81,11 @@ export function parseArmorPage(html: string, { url }: { url: string }): RawArmor
         pageMarker: source.find("small .explain[title]").first().attr("title") ?? null,
       },
       cost: cost && { text: textOf(cost), currency: detectCurrency(cost) },
-      image: (tab === null ? druid.image : druid.tabImages.get(tab)) ?? null,
+      // A single-tab infobox (IX-Voidwalker) shows its picture without a per-tab file.
+      image:
+        (tab === null || names.length === 1 ? druid.image : null) ??
+        druid.tabImages.get(tab ?? "") ??
+        null,
     };
   });
   if (tabs.every((tab) => tab.rows.length === 0)) {

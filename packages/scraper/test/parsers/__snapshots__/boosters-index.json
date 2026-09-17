@@ -9,7 +9,9 @@
     "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades and Stims.",
     "icon": {
       "file": "Hellpod_Space_Optimization_Booster_Icon.svg",
-      "src": "/images/Hellpod_Space_Optimization_Booster_Icon.svg?7aa15a"
+      "src": "/images/Hellpod_Space_Optimization_Booster_Icon.svg?7aa15a",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Helldivers Mobilize",
@@ -31,7 +33,9 @@
     "effect": "Provides minor damage reduction from all sources for all Helldivers",
     "icon": {
       "file": "Vitality_Enhancement_Booster_Icon.svg",
-      "src": "/images/Vitality_Enhancement_Booster_Icon.svg?16b440"
+      "src": "/images/Vitality_Enhancement_Booster_Icon.svg?16b440",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Helldivers Mobilize",
@@ -53,7 +57,9 @@
     "effect": "Increases all Helldivers' effective radar range.",
     "icon": {
       "file": "UAV_Recon_Booster_Booster_Icon.svg",
-      "src": "/images/UAV_Recon_Booster_Booster_Icon.svg?ce1f67"
+      "src": "/images/UAV_Recon_Booster_Booster_Icon.svg?ce1f67",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Helldivers Mobilize",
@@ -75,7 +81,9 @@
     "effect": "Increases all Helldivers' stamina capacity and recovery.",
     "icon": {
       "file": "Stamina_Enhancement_Booster_Icon.svg",
-      "src": "/images/Stamina_Enhancement_Booster_Icon.svg?f12c0f"
+      "src": "/images/Stamina_Enhancement_Booster_Icon.svg?f12c0f",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Helldivers Mobilize",
@@ -97,7 +105,9 @@
     "effect": "Allows Helldivers to traverse difficult terrain with ease.",
     "icon": {
       "file": "Muscle_Enhancement_Booster_Icon.svg",
-      "src": "/images/Muscle_Enhancement_Booster_Icon.svg?4a47f5"
+      "src": "/images/Muscle_Enhancement_Booster_Icon.svg?4a47f5",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Helldivers Mobilize",
@@ -119,7 +129,9 @@
     "effect": "Increases the number of available reinforcements.",
     "icon": {
       "file": "Increased_Reinforcement_Budget_Booster_Icon.svg",
-      "src": "/images/Increased_Reinforcement_Budget_Booster_Icon.svg?cb9eaf"
+      "src": "/images/Increased_Reinforcement_Budget_Booster_Icon.svg?cb9eaf",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Helldivers Mobilize",
@@ -141,7 +153,9 @@
     "effect": "Reduces time until new reinforcements are granted once they've been depleted.",
     "icon": {
       "file": "Flexible_Reinforcement_Budget_Booster_Icon.svg",
-      "src": "/images/Flexible_Reinforcement_Budget_Booster_Icon.svg?32cacf"
+      "src": "/images/Flexible_Reinforcement_Budget_Booster_Icon.svg?32cacf",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Steeled Veterans",
@@ -163,7 +177,9 @@
     "effect": "Increases the time between enemy encounters.",
     "icon": {
       "file": "Localization_Confusion_Booster_Icon.svg",
-      "src": "/images/Localization_Confusion_Booster_Icon.svg?3b4fcb"
+      "src": "/images/Localization_Confusion_Booster_Icon.svg?3b4fcb",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Cutting Edge",
@@ -185,7 +201,9 @@
     "effect": "Lowers the time it takes for the extraction shuttle to reach the extraction beacon.",
     "icon": {
       "file": "Expert_Extraction_Pilot_Booster_Icon.svg",
-      "src": "/images/Expert_Extraction_Pilot_Booster_Icon.svg?cd8ab7"
+      "src": "/images/Expert_Extraction_Pilot_Booster_Icon.svg?cd8ab7",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Democratic Detonation",
@@ -207,7 +225,9 @@
     "effect": "Allows all Helldivers to recover faster after being slowed by an attack, such as acid. Does not mitigate “area effects,” such as EMS strikes.",
     "icon": {
       "file": "Motivational_Shocks_Booster_Icon.svg",
-      "src": "/images/Motivational_Shocks_Booster_Icon.svg?2bde36"
+      "src": "/images/Motivational_Shocks_Booster_Icon.svg?2bde36",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Polar Patriots",
@@ -229,7 +249,9 @@
     "effect": "In addition to restoring health, Stims temporarily increase movement speed and damage reduction.",
     "icon": {
       "file": "Experimental_Infusion_Booster_Icon.svg",
-      "src": "/images/Experimental_Infusion_Booster_Icon.svg?b953d8"
+      "src": "/images/Experimental_Infusion_Booster_Icon.svg?b953d8",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Viper Commandos",
@@ -251,7 +273,9 @@
     "effect": "Lines all Hellpods with volatile incendiaries that detonate upon impact, igniting any units in vicinity of the drop site.",
     "icon": {
       "file": "Firebomb_Hellpods_Booster_Icon.svg",
-      "src": "/images/Firebomb_Hellpods_Booster_Icon.svg?98993c"
+      "src": "/images/Firebomb_Hellpods_Booster_Icon.svg?98993c",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Freedom's Flame",
@@ -273,7 +297,9 @@
     "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
     "icon": {
       "file": "Dead_Sprint_Booster_Icon.svg",
-      "src": "/images/Dead_Sprint_Booster_Icon.svg?7fe9b8"
+      "src": "/images/Dead_Sprint_Booster_Icon.svg?7fe9b8",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Truth Enforcers",
@@ -295,7 +321,9 @@
     "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
     "icon": {
       "file": "Armed_Resupply_Pods_Booster_Icon.svg",
-      "src": "/images/Armed_Resupply_Pods_Booster_Icon.svg?34d6c9"
+      "src": "/images/Armed_Resupply_Pods_Booster_Icon.svg?34d6c9",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Urban Legends",
@@ -317,7 +345,9 @@
     "effect": "Large enemies now have a chance of dropping Samples on death. Capped at 10 drops per mission.",
     "icon": {
       "file": "Sample_Extricator_Booster_Icon.svg",
-      "src": "/images/Sample_Extricator_Booster_Icon.svg?39ba8b"
+      "src": "/images/Sample_Extricator_Booster_Icon.svg?39ba8b",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Borderline Justice",
@@ -339,7 +369,9 @@
     "effect": "The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up.",
     "icon": {
       "file": "Sample_Scanner_Booster_Icon.svg",
-      "src": "/images/Sample_Scanner_Booster_Icon.svg?71d8c8"
+      "src": "/images/Sample_Scanner_Booster_Icon.svg?71d8c8",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Masters of Ceremony",
@@ -361,7 +393,9 @@
     "effect": "Exposes Hellpod wiring upon surface contact, stunning any units in the vicinity of the drop site.",
     "icon": {
       "file": "Stun_Pods_Booster_Icon.svg",
-      "src": "/images/Stun_Pods_Booster_Icon.svg?60fda5"
+      "src": "/images/Stun_Pods_Booster_Icon.svg?60fda5",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Force of Law",
@@ -383,7 +417,9 @@
     "effect": "Equips Hellpods to deploy smokescreens on impact, obscuring Helldiver deployment.",
     "icon": {
       "file": "Concealed_Insertion_Booster_Icon.svg",
-      "src": "/images/Concealed_Insertion_Booster_Icon.svg?6274da"
+      "src": "/images/Concealed_Insertion_Booster_Icon.svg?6274da",
+      "width": 512,
+      "height": 512
     },
     "warbond": {
       "label": "Redacted Regiment",

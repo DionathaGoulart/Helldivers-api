@@ -52,6 +52,8 @@ describe("weapons-index parser", async () => {
       image: {
         file: "AR-23_Liberator_Primary_Render.png",
         src: "/images/AR-23_Liberator_Primary_Render.png?97e7bb",
+        width: 3840,
+        height: 2160,
       },
     });
     const special = (name: string) => rows.find((row) => row.name === name);

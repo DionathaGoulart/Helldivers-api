@@ -51,6 +51,8 @@ describe("cosmetics-index parser", async () => {
       icon: {
         file: "Clapping_Victory_Pose_Icon.png",
         src: "/images/thumb/Clapping_Victory_Pose_Icon.png/128px-Clapping_Victory_Pose_Icon.png?2421fa",
+        width: 256,
+        height: 256,
       },
     });
   });
@@ -91,6 +93,8 @@ describe("cosmetics-index parser", async () => {
       image: {
         file: "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png",
         src: "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png?16b0e7",
+        width: 3840,
+        height: 2160,
       },
     });
   });
@@ -169,6 +173,8 @@ describe("pattern-page parser", async () => {
       image: {
         file: "Castellans_Green_Exosuit_Pattern_Icon.png",
         src: "/images/thumb/Castellans_Green_Exosuit_Pattern_Icon.png/600px-Castellans_Green_Exosuit_Pattern_Icon.png?47b0f1",
+        width: 4096,
+        height: 4096,
       },
     });
   });

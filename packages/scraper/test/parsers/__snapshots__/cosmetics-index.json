@@ -22,7 +22,9 @@
       "cost": null,
       "image": {
         "file": "Solid_Black_Player_Card_Icon.png",
-        "src": "/images/thumb/Solid_Black_Player_Card_Icon.png/200px-Solid_Black_Player_Card_Icon.png?df21e6"
+        "src": "/images/thumb/Solid_Black_Player_Card_Icon.png/200px-Solid_Black_Player_Card_Icon.png?df21e6",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -47,7 +49,9 @@
       },
       "image": {
         "file": "Independence_Bringer_Player_Card_Icon.png",
-        "src": "/images/thumb/Independence_Bringer_Player_Card_Icon.png/200px-Independence_Bringer_Player_Card_Icon.png?98806b"
+        "src": "/images/thumb/Independence_Bringer_Player_Card_Icon.png/200px-Independence_Bringer_Player_Card_Icon.png?98806b",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -72,7 +76,9 @@
       },
       "image": {
         "file": "Liberty's_Herald_Player_Card_Icon.png",
-        "src": "/images/thumb/Liberty%27s_Herald_Player_Card_Icon.png/200px-Liberty%27s_Herald_Player_Card_Icon.png?12253b"
+        "src": "/images/thumb/Liberty%27s_Herald_Player_Card_Icon.png/200px-Liberty%27s_Herald_Player_Card_Icon.png?12253b",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -97,7 +103,9 @@
       },
       "image": {
         "file": "Tideturner_Player_Card_Icon.png",
-        "src": "/images/thumb/Tideturner_Player_Card_Icon.png/200px-Tideturner_Player_Card_Icon.png?9bb5cd"
+        "src": "/images/thumb/Tideturner_Player_Card_Icon.png/200px-Tideturner_Player_Card_Icon.png?9bb5cd",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -122,7 +130,9 @@
       },
       "image": {
         "file": "Stars_and_Suffrage_Player_Card_Icon.png",
-        "src": "/images/thumb/Stars_and_Suffrage_Player_Card_Icon.png/200px-Stars_and_Suffrage_Player_Card_Icon.png?559386"
+        "src": "/images/thumb/Stars_and_Suffrage_Player_Card_Icon.png/200px-Stars_and_Suffrage_Player_Card_Icon.png?559386",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -147,7 +157,9 @@
       },
       "image": {
         "file": "Unblemished_Allegiance_Player_Card_Icon.png",
-        "src": "/images/thumb/Unblemished_Allegiance_Player_Card_Icon.png/200px-Unblemished_Allegiance_Player_Card_Icon.png?5f60e0"
+        "src": "/images/thumb/Unblemished_Allegiance_Player_Card_Icon.png/200px-Unblemished_Allegiance_Player_Card_Icon.png?5f60e0",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -172,7 +184,9 @@
       },
       "image": {
         "file": "Judgment_Day_Player_Card_Icon.png",
-        "src": "/images/thumb/Judgment_Day_Player_Card_Icon.png/200px-Judgment_Day_Player_Card_Icon.png?82c9f7"
+        "src": "/images/thumb/Judgment_Day_Player_Card_Icon.png/200px-Judgment_Day_Player_Card_Icon.png?82c9f7",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -197,7 +211,9 @@
       },
       "image": {
         "file": "Cresting_Honor_Player_Card_Icon.png",
-        "src": "/images/thumb/Cresting_Honor_Player_Card_Icon.png/200px-Cresting_Honor_Player_Card_Icon.png?8be66b"
+        "src": "/images/thumb/Cresting_Honor_Player_Card_Icon.png/200px-Cresting_Honor_Player_Card_Icon.png?8be66b",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -222,7 +238,9 @@
       },
       "image": {
         "file": "Mantle_of_True_Citizenship_Player_Card_Icon.png",
-        "src": "/images/thumb/Mantle_of_True_Citizenship_Player_Card_Icon.png/200px-Mantle_of_True_Citizenship_Player_Card_Icon.png?4147b8"
+        "src": "/images/thumb/Mantle_of_True_Citizenship_Player_Card_Icon.png/200px-Mantle_of_True_Citizenship_Player_Card_Icon.png?4147b8",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -247,7 +265,9 @@
       },
       "image": {
         "file": "Blazing_Samaritan_Player_Card_Icon.png",
-        "src": "/images/thumb/Blazing_Samaritan_Player_Card_Icon.png/200px-Blazing_Samaritan_Player_Card_Icon.png?bb369e"
+        "src": "/images/thumb/Blazing_Samaritan_Player_Card_Icon.png/200px-Blazing_Samaritan_Player_Card_Icon.png?bb369e",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -272,7 +292,9 @@
       },
       "image": {
         "file": "Light_of_Eternal_Liberty_Player_Card_Icon.png",
-        "src": "/images/thumb/Light_of_Eternal_Liberty_Player_Card_Icon.png/200px-Light_of_Eternal_Liberty_Player_Card_Icon.png?896ed4"
+        "src": "/images/thumb/Light_of_Eternal_Liberty_Player_Card_Icon.png/200px-Light_of_Eternal_Liberty_Player_Card_Icon.png?896ed4",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -297,7 +319,9 @@
       },
       "image": {
         "file": "Tyrant_Hunter_Player_Card_Icon.png",
-        "src": "/images/thumb/Tyrant_Hunter_Player_Card_Icon.png/200px-Tyrant_Hunter_Player_Card_Icon.png?e4b813"
+        "src": "/images/thumb/Tyrant_Hunter_Player_Card_Icon.png/200px-Tyrant_Hunter_Player_Card_Icon.png?e4b813",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -322,7 +346,9 @@
       },
       "image": {
         "file": "Cloak_of_Posterity's_Gratitude_Player_Card_Icon.png",
-        "src": "/images/thumb/Cloak_of_Posterity%27s_Gratitude_Player_Card_Icon.png/200px-Cloak_of_Posterity%27s_Gratitude_Player_Card_Icon.png?7bb175"
+        "src": "/images/thumb/Cloak_of_Posterity%27s_Gratitude_Player_Card_Icon.png/200px-Cloak_of_Posterity%27s_Gratitude_Player_Card_Icon.png?7bb175",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -347,7 +373,9 @@
       },
       "image": {
         "file": "Bastion_of_Integrity_Player_Card_Icon.png",
-        "src": "/images/thumb/Bastion_of_Integrity_Player_Card_Icon.png/200px-Bastion_of_Integrity_Player_Card_Icon.png?9feb60"
+        "src": "/images/thumb/Bastion_of_Integrity_Player_Card_Icon.png/200px-Bastion_of_Integrity_Player_Card_Icon.png?9feb60",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -372,7 +400,9 @@
       },
       "image": {
         "file": "Botslayer_Player_Card_Icon.png",
-        "src": "/images/thumb/Botslayer_Player_Card_Icon.png/200px-Botslayer_Player_Card_Icon.png?43e349"
+        "src": "/images/thumb/Botslayer_Player_Card_Icon.png/200px-Botslayer_Player_Card_Icon.png?43e349",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -397,7 +427,9 @@
       },
       "image": {
         "file": "Martyris_Rex_Player_Card_Icon.png",
-        "src": "/images/thumb/Martyris_Rex_Player_Card_Icon.png/200px-Martyris_Rex_Player_Card_Icon.png?d589c1"
+        "src": "/images/thumb/Martyris_Rex_Player_Card_Icon.png/200px-Martyris_Rex_Player_Card_Icon.png?d589c1",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -422,7 +454,9 @@
       },
       "image": {
         "file": "Agent_of_Oblivion_Player_Card_Icon.png",
-        "src": "/images/thumb/Agent_of_Oblivion_Player_Card_Icon.png/200px-Agent_of_Oblivion_Player_Card_Icon.png?c89c22"
+        "src": "/images/thumb/Agent_of_Oblivion_Player_Card_Icon.png/200px-Agent_of_Oblivion_Player_Card_Icon.png?c89c22",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -447,7 +481,9 @@
       },
       "image": {
         "file": "Harbinger_of_True_Equality_Player_Card_Icon.png",
-        "src": "/images/thumb/Harbinger_of_True_Equality_Player_Card_Icon.png/200px-Harbinger_of_True_Equality_Player_Card_Icon.png?9060a6"
+        "src": "/images/thumb/Harbinger_of_True_Equality_Player_Card_Icon.png/200px-Harbinger_of_True_Equality_Player_Card_Icon.png?9060a6",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -472,7 +508,9 @@
       },
       "image": {
         "file": "Eagle's_Fury_Player_Card_Icon.png",
-        "src": "/images/thumb/Eagle%27s_Fury_Player_Card_Icon.png/200px-Eagle%27s_Fury_Player_Card_Icon.png?a7899a"
+        "src": "/images/thumb/Eagle%27s_Fury_Player_Card_Icon.png/200px-Eagle%27s_Fury_Player_Card_Icon.png?a7899a",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -497,7 +535,9 @@
       },
       "image": {
         "file": "Freedom's_Tapestry_Player_Card_Icon.png",
-        "src": "/images/thumb/Freedom%27s_Tapestry_Player_Card_Icon.png/200px-Freedom%27s_Tapestry_Player_Card_Icon.png?d89a0a"
+        "src": "/images/thumb/Freedom%27s_Tapestry_Player_Card_Icon.png/200px-Freedom%27s_Tapestry_Player_Card_Icon.png?d89a0a",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -522,7 +562,9 @@
       },
       "image": {
         "file": "Dissident's_Nightmare_Player_Card_Icon.png",
-        "src": "/images/thumb/Dissident%27s_Nightmare_Player_Card_Icon.png/200px-Dissident%27s_Nightmare_Player_Card_Icon.png?15b490"
+        "src": "/images/thumb/Dissident%27s_Nightmare_Player_Card_Icon.png/200px-Dissident%27s_Nightmare_Player_Card_Icon.png?15b490",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -547,7 +589,9 @@
       },
       "image": {
         "file": "Pinions_of_Everlasting_Glory_Player_Card_Icon.png",
-        "src": "/images/thumb/Pinions_of_Everlasting_Glory_Player_Card_Icon.png/200px-Pinions_of_Everlasting_Glory_Player_Card_Icon.png?ef43f5"
+        "src": "/images/thumb/Pinions_of_Everlasting_Glory_Player_Card_Icon.png/200px-Pinions_of_Everlasting_Glory_Player_Card_Icon.png?ef43f5",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -572,7 +616,9 @@
       },
       "image": {
         "file": "Order_of_the_Venerated_Ballot_Player_Card_Icon.png",
-        "src": "/images/thumb/Order_of_the_Venerated_Ballot_Player_Card_Icon.png/200px-Order_of_the_Venerated_Ballot_Player_Card_Icon.png?cca7bd"
+        "src": "/images/thumb/Order_of_the_Venerated_Ballot_Player_Card_Icon.png/200px-Order_of_the_Venerated_Ballot_Player_Card_Icon.png?cca7bd",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -597,7 +643,9 @@
       },
       "image": {
         "file": "Mark_of_the_Crimson_Fang_Player_Card_Icon.png",
-        "src": "/images/thumb/Mark_of_the_Crimson_Fang_Player_Card_Icon.png/200px-Mark_of_the_Crimson_Fang_Player_Card_Icon.png?be2055"
+        "src": "/images/thumb/Mark_of_the_Crimson_Fang_Player_Card_Icon.png/200px-Mark_of_the_Crimson_Fang_Player_Card_Icon.png?be2055",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -622,7 +670,9 @@
       },
       "image": {
         "file": "Executioner's_Canopy_Player_Card_Icon.png",
-        "src": "/images/thumb/Executioner%27s_Canopy_Player_Card_Icon.png/200px-Executioner%27s_Canopy_Player_Card_Icon.png?d5244e"
+        "src": "/images/thumb/Executioner%27s_Canopy_Player_Card_Icon.png/200px-Executioner%27s_Canopy_Player_Card_Icon.png?d5244e",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -647,7 +697,9 @@
       },
       "image": {
         "file": "Purifying_Eclipse_Player_Card_Icon.png",
-        "src": "/images/thumb/Purifying_Eclipse_Player_Card_Icon.png/200px-Purifying_Eclipse_Player_Card_Icon.png?6cb79c"
+        "src": "/images/thumb/Purifying_Eclipse_Player_Card_Icon.png/200px-Purifying_Eclipse_Player_Card_Icon.png?6cb79c",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -672,7 +724,9 @@
       },
       "image": {
         "file": "The_Breach_Player_Card_Icon.png",
-        "src": "/images/thumb/The_Breach_Player_Card_Icon.png/200px-The_Breach_Player_Card_Icon.png?de06cb"
+        "src": "/images/thumb/The_Breach_Player_Card_Icon.png/200px-The_Breach_Player_Card_Icon.png?de06cb",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -697,7 +751,9 @@
       },
       "image": {
         "file": "Standard_of_Safe_Distance_Player_Card_Icon.png",
-        "src": "/images/thumb/Standard_of_Safe_Distance_Player_Card_Icon.png/200px-Standard_of_Safe_Distance_Player_Card_Icon.png?b1dddf"
+        "src": "/images/thumb/Standard_of_Safe_Distance_Player_Card_Icon.png/200px-Standard_of_Safe_Distance_Player_Card_Icon.png?b1dddf",
+        "width": 2048,
+        "height": 3804
       }
     },
     {
@@ -722,7 +778,9 @@
       },
       "image": {
         "file": "Patient_Zero's_Remembrance_Player_Card_Icon.png",
-        "src": "/images/thumb/Patient_Zero%27s_Remembrance_Player_Card_Icon.png/200px-Patient_Zero%27s_Remembrance_Player_Card_Icon.png?f91d0c"
+        "src": "/images/thumb/Patient_Zero%27s_Remembrance_Player_Card_Icon.png/200px-Patient_Zero%27s_Remembrance_Player_Card_Icon.png?f91d0c",
+        "width": 2048,
+        "height": 3804
       }
     },
     {
@@ -747,7 +805,9 @@
       },
       "image": {
         "file": "Cover_of_Darkness_Player_Card_Icon.png",
-        "src": "/images/thumb/Cover_of_Darkness_Player_Card_Icon.png/200px-Cover_of_Darkness_Player_Card_Icon.png?c1d1a6"
+        "src": "/images/thumb/Cover_of_Darkness_Player_Card_Icon.png/200px-Cover_of_Darkness_Player_Card_Icon.png?c1d1a6",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -772,7 +832,9 @@
       },
       "image": {
         "file": "Pride_of_the_Whistleblower_Player_Card_Icon.png",
-        "src": "/images/thumb/Pride_of_the_Whistleblower_Player_Card_Icon.png/200px-Pride_of_the_Whistleblower_Player_Card_Icon.png?f2a930"
+        "src": "/images/thumb/Pride_of_the_Whistleblower_Player_Card_Icon.png/200px-Pride_of_the_Whistleblower_Player_Card_Icon.png?f2a930",
+        "width": 2048,
+        "height": 3804
       }
     },
     {
@@ -797,7 +859,9 @@
       },
       "image": {
         "file": "Proof_of_Faultless_Virtue_Player_Card_Icon.png",
-        "src": "/images/thumb/Proof_of_Faultless_Virtue_Player_Card_Icon.png/200px-Proof_of_Faultless_Virtue_Player_Card_Icon.png?1d981d"
+        "src": "/images/thumb/Proof_of_Faultless_Virtue_Player_Card_Icon.png/200px-Proof_of_Faultless_Virtue_Player_Card_Icon.png?1d981d",
+        "width": 2048,
+        "height": 3804
       }
     },
     {
@@ -822,7 +886,9 @@
       },
       "image": {
         "file": "Stone-Wrought_Perseverance_Player_Card_Icon.png",
-        "src": "/images/thumb/Stone-Wrought_Perseverance_Player_Card_Icon.png/200px-Stone-Wrought_Perseverance_Player_Card_Icon.png?6c601c"
+        "src": "/images/thumb/Stone-Wrought_Perseverance_Player_Card_Icon.png/200px-Stone-Wrought_Perseverance_Player_Card_Icon.png?6c601c",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -847,7 +913,9 @@
       },
       "image": {
         "file": "Rebar_Resolve_Player_Card_Icon.png",
-        "src": "/images/thumb/Rebar_Resolve_Player_Card_Icon.png/200px-Rebar_Resolve_Player_Card_Icon.png?265b54"
+        "src": "/images/thumb/Rebar_Resolve_Player_Card_Icon.png/200px-Rebar_Resolve_Player_Card_Icon.png?265b54",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -872,7 +940,9 @@
       },
       "image": {
         "file": "Holder_of_the_Yellow_Line_Player_Card_Icon.png",
-        "src": "/images/thumb/Holder_of_the_Yellow_Line_Player_Card_Icon.png/200px-Holder_of_the_Yellow_Line_Player_Card_Icon.png?9ae389"
+        "src": "/images/thumb/Holder_of_the_Yellow_Line_Player_Card_Icon.png/200px-Holder_of_the_Yellow_Line_Player_Card_Icon.png?9ae389",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -897,7 +967,9 @@
       },
       "image": {
         "file": "Strength_in_Our_Arms_Player_Card_Icon.png",
-        "src": "/images/thumb/Strength_in_Our_Arms_Player_Card_Icon.png/200px-Strength_in_Our_Arms_Player_Card_Icon.png?9a3542"
+        "src": "/images/thumb/Strength_in_Our_Arms_Player_Card_Icon.png/200px-Strength_in_Our_Arms_Player_Card_Icon.png?9a3542",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -922,7 +994,9 @@
       },
       "image": {
         "file": "Defender_of_Our_Dream_Player_Card_Icon.png",
-        "src": "/images/thumb/Defender_of_Our_Dream_Player_Card_Icon.png/200px-Defender_of_Our_Dream_Player_Card_Icon.png?8cbdb1"
+        "src": "/images/thumb/Defender_of_Our_Dream_Player_Card_Icon.png/200px-Defender_of_Our_Dream_Player_Card_Icon.png?8cbdb1",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -947,7 +1021,9 @@
       },
       "image": {
         "file": "Vision_of_Freedom_Player_Card_Icon.png",
-        "src": "/images/thumb/Vision_of_Freedom_Player_Card_Icon.png/200px-Vision_of_Freedom_Player_Card_Icon.png?1f38b4"
+        "src": "/images/thumb/Vision_of_Freedom_Player_Card_Icon.png/200px-Vision_of_Freedom_Player_Card_Icon.png?1f38b4",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -972,7 +1048,9 @@
       },
       "image": {
         "file": "Fre_Liberam_Player_Card_Icon.png",
-        "src": "/images/thumb/Fre_Liberam_Player_Card_Icon.png/200px-Fre_Liberam_Player_Card_Icon.png?833de0"
+        "src": "/images/thumb/Fre_Liberam_Player_Card_Icon.png/200px-Fre_Liberam_Player_Card_Icon.png?833de0",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -997,7 +1075,9 @@
       },
       "image": {
         "file": "Per_Democrasum_Player_Card_Icon.png",
-        "src": "/images/thumb/Per_Democrasum_Player_Card_Icon.png/200px-Per_Democrasum_Player_Card_Icon.png?5c684a"
+        "src": "/images/thumb/Per_Democrasum_Player_Card_Icon.png/200px-Per_Democrasum_Player_Card_Icon.png?5c684a",
+        "width": 420,
+        "height": 780
       }
     },
     {
@@ -1022,7 +1102,9 @@
       },
       "image": {
         "file": "Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png",
-        "src": "/images/thumb/Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png/200px-Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png?7291a5"
+        "src": "/images/thumb/Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png/200px-Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png?7291a5",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1047,7 +1129,9 @@
       },
       "image": {
         "file": "Reaper_of_Bounties_Player_Card_Icon.png",
-        "src": "/images/thumb/Reaper_of_Bounties_Player_Card_Icon.png/200px-Reaper_of_Bounties_Player_Card_Icon.png?c02e58"
+        "src": "/images/thumb/Reaper_of_Bounties_Player_Card_Icon.png/200px-Reaper_of_Bounties_Player_Card_Icon.png?c02e58",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1072,7 +1156,9 @@
       },
       "image": {
         "file": "Way_of_the_Bandolier_Player_Card_Icon.png",
-        "src": "/images/thumb/Way_of_the_Bandolier_Player_Card_Icon.png/200px-Way_of_the_Bandolier_Player_Card_Icon.png?67c62e"
+        "src": "/images/thumb/Way_of_the_Bandolier_Player_Card_Icon.png/200px-Way_of_the_Bandolier_Player_Card_Icon.png?67c62e",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1097,7 +1183,9 @@
       },
       "image": {
         "file": "Seal_of_General_Consensus_Player_Card_Icon.png",
-        "src": "/images/thumb/Seal_of_General_Consensus_Player_Card_Icon.png/200px-Seal_of_General_Consensus_Player_Card_Icon.png?359e65"
+        "src": "/images/thumb/Seal_of_General_Consensus_Player_Card_Icon.png/200px-Seal_of_General_Consensus_Player_Card_Icon.png?359e65",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1122,7 +1210,9 @@
       },
       "image": {
         "file": "Federation's_Embrace_Player_Card_Icon.png",
-        "src": "/images/thumb/Federation%27s_Embrace_Player_Card_Icon.png/200px-Federation%27s_Embrace_Player_Card_Icon.png?41f7e9"
+        "src": "/images/thumb/Federation%27s_Embrace_Player_Card_Icon.png/200px-Federation%27s_Embrace_Player_Card_Icon.png?41f7e9",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1147,7 +1237,9 @@
       },
       "image": {
         "file": "Humble_Regalia_Player_Card_Icon.png",
-        "src": "/images/thumb/Humble_Regalia_Player_Card_Icon.png/200px-Humble_Regalia_Player_Card_Icon.png?f58ef4"
+        "src": "/images/thumb/Humble_Regalia_Player_Card_Icon.png/200px-Humble_Regalia_Player_Card_Icon.png?f58ef4",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1172,7 +1264,9 @@
       },
       "image": {
         "file": "Badge_of_Order_Player_Card_Icon.png",
-        "src": "/images/thumb/Badge_of_Order_Player_Card_Icon.png/200px-Badge_of_Order_Player_Card_Icon.png?f12f2f"
+        "src": "/images/thumb/Badge_of_Order_Player_Card_Icon.png/200px-Badge_of_Order_Player_Card_Icon.png?f12f2f",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1197,7 +1291,9 @@
       },
       "image": {
         "file": "Miranda's_Legacy_Player_Card_Icon.png",
-        "src": "/images/thumb/Miranda%27s_Legacy_Player_Card_Icon.png/200px-Miranda%27s_Legacy_Player_Card_Icon.png?d622d7"
+        "src": "/images/thumb/Miranda%27s_Legacy_Player_Card_Icon.png/200px-Miranda%27s_Legacy_Player_Card_Icon.png?d622d7",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1222,7 +1318,9 @@
       },
       "image": {
         "file": "Mother_Eagle's_Wings_Player_Card_Icon.png",
-        "src": "/images/thumb/Mother_Eagle%27s_Wings_Player_Card_Icon.png/200px-Mother_Eagle%27s_Wings_Player_Card_Icon.png?dbd553"
+        "src": "/images/thumb/Mother_Eagle%27s_Wings_Player_Card_Icon.png/200px-Mother_Eagle%27s_Wings_Player_Card_Icon.png?dbd553",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1247,7 +1345,9 @@
       },
       "image": {
         "file": "Conductor_of_Brilliance_Player_Card_Icon.png",
-        "src": "/images/thumb/Conductor_of_Brilliance_Player_Card_Icon.png/200px-Conductor_of_Brilliance_Player_Card_Icon.png?6d4a30"
+        "src": "/images/thumb/Conductor_of_Brilliance_Player_Card_Icon.png/200px-Conductor_of_Brilliance_Player_Card_Icon.png?6d4a30",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1272,7 +1372,9 @@
       },
       "image": {
         "file": "Over_Artifice_Triumphant_Player_Card_Icon.png",
-        "src": "/images/thumb/Over_Artifice_Triumphant_Player_Card_Icon.png/200px-Over_Artifice_Triumphant_Player_Card_Icon.png?7abc58"
+        "src": "/images/thumb/Over_Artifice_Triumphant_Player_Card_Icon.png/200px-Over_Artifice_Triumphant_Player_Card_Icon.png?7abc58",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1297,7 +1399,9 @@
       },
       "image": {
         "file": "Schema_Laid_Bare_Player_Card_Icon.png",
-        "src": "/images/thumb/Schema_Laid_Bare_Player_Card_Icon.png/200px-Schema_Laid_Bare_Player_Card_Icon.png?45eeb5"
+        "src": "/images/thumb/Schema_Laid_Bare_Player_Card_Icon.png/200px-Schema_Laid_Bare_Player_Card_Icon.png?45eeb5",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1322,7 +1426,9 @@
       },
       "image": {
         "file": "Honored_Heirloom_Player_Card_Icon.png",
-        "src": "/images/thumb/Honored_Heirloom_Player_Card_Icon.png/200px-Honored_Heirloom_Player_Card_Icon.png?e33446"
+        "src": "/images/thumb/Honored_Heirloom_Player_Card_Icon.png/200px-Honored_Heirloom_Player_Card_Icon.png?e33446",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1347,7 +1453,9 @@
       },
       "image": {
         "file": "Eye_of_the_Clandestine_Player_Card_Icon.png",
-        "src": "/images/thumb/Eye_of_the_Clandestine_Player_Card_Icon.png/200px-Eye_of_the_Clandestine_Player_Card_Icon.png?4f9056"
+        "src": "/images/thumb/Eye_of_the_Clandestine_Player_Card_Icon.png/200px-Eye_of_the_Clandestine_Player_Card_Icon.png?4f9056",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1372,7 +1480,9 @@
       },
       "image": {
         "file": "Eternal_Corona_Player_Card_Icon.png",
-        "src": "/images/thumb/Eternal_Corona_Player_Card_Icon.png/200px-Eternal_Corona_Player_Card_Icon.png?136af7"
+        "src": "/images/thumb/Eternal_Corona_Player_Card_Icon.png/200px-Eternal_Corona_Player_Card_Icon.png?136af7",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1397,7 +1507,9 @@
       },
       "image": {
         "file": "Rightful_Occupier_Player_Card_Icon.png",
-        "src": "/images/thumb/Rightful_Occupier_Player_Card_Icon.png/200px-Rightful_Occupier_Player_Card_Icon.png?49fad8"
+        "src": "/images/thumb/Rightful_Occupier_Player_Card_Icon.png/200px-Rightful_Occupier_Player_Card_Icon.png?49fad8",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1422,7 +1534,9 @@
       },
       "image": {
         "file": "Windswept_Wayfinder_Player_Card_Icon.png",
-        "src": "/images/thumb/Windswept_Wayfinder_Player_Card_Icon.png/200px-Windswept_Wayfinder_Player_Card_Icon.png?77e079"
+        "src": "/images/thumb/Windswept_Wayfinder_Player_Card_Icon.png/200px-Windswept_Wayfinder_Player_Card_Icon.png?77e079",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1447,7 +1561,9 @@
       },
       "image": {
         "file": "De-Forester's_Sailcloth_Player_Card_Icon.png",
-        "src": "/images/thumb/De-Forester%27s_Sailcloth_Player_Card_Icon.png/200px-De-Forester%27s_Sailcloth_Player_Card_Icon.png?b02781"
+        "src": "/images/thumb/De-Forester%27s_Sailcloth_Player_Card_Icon.png/200px-De-Forester%27s_Sailcloth_Player_Card_Icon.png?b02781",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1472,7 +1588,9 @@
       },
       "image": {
         "file": "Mark_of_the_Constrictor_Player_Card_Icon.png",
-        "src": "/images/thumb/Mark_of_the_Constrictor_Player_Card_Icon.png/200px-Mark_of_the_Constrictor_Player_Card_Icon.png?7f5996"
+        "src": "/images/thumb/Mark_of_the_Constrictor_Player_Card_Icon.png/200px-Mark_of_the_Constrictor_Player_Card_Icon.png?7f5996",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1497,7 +1615,9 @@
       },
       "image": {
         "file": "Foe_Rent_Asunder_Player_Card_Icon.png",
-        "src": "/images/thumb/Foe_Rent_Asunder_Player_Card_Icon.png/200px-Foe_Rent_Asunder_Player_Card_Icon.png?ea9a22"
+        "src": "/images/thumb/Foe_Rent_Asunder_Player_Card_Icon.png/200px-Foe_Rent_Asunder_Player_Card_Icon.png?ea9a22",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1522,7 +1642,9 @@
       },
       "image": {
         "file": "Gilded_Quill_Player_Card_Icon.png",
-        "src": "/images/thumb/Gilded_Quill_Player_Card_Icon.png/200px-Gilded_Quill_Player_Card_Icon.png?94da4a"
+        "src": "/images/thumb/Gilded_Quill_Player_Card_Icon.png/200px-Gilded_Quill_Player_Card_Icon.png?94da4a",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1547,7 +1669,9 @@
       },
       "image": {
         "file": "Pillar_of_the_Abyss_Player_Card_Icon.png",
-        "src": "/images/thumb/Pillar_of_the_Abyss_Player_Card_Icon.png/200px-Pillar_of_the_Abyss_Player_Card_Icon.png?3397ff"
+        "src": "/images/thumb/Pillar_of_the_Abyss_Player_Card_Icon.png/200px-Pillar_of_the_Abyss_Player_Card_Icon.png?3397ff",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1572,7 +1696,9 @@
       },
       "image": {
         "file": "Triangulation_Veil_Player_Card_Icon.png",
-        "src": "/images/thumb/Triangulation_Veil_Player_Card_Icon.png/200px-Triangulation_Veil_Player_Card_Icon.png?175ed2"
+        "src": "/images/thumb/Triangulation_Veil_Player_Card_Icon.png/200px-Triangulation_Veil_Player_Card_Icon.png?175ed2",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1597,7 +1723,9 @@
       },
       "image": {
         "file": "Rags_of_The_Fashionable_Player_Card_Icon.png",
-        "src": "/images/thumb/Rags_of_The_Fashionable_Player_Card_Icon.png/200px-Rags_of_The_Fashionable_Player_Card_Icon.png?5cb903"
+        "src": "/images/thumb/Rags_of_The_Fashionable_Player_Card_Icon.png/200px-Rags_of_The_Fashionable_Player_Card_Icon.png?5cb903",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1622,7 +1750,9 @@
       },
       "image": {
         "file": "Wedgeful_Tricorn_Player_Card_Icon.png",
-        "src": "/images/thumb/Wedgeful_Tricorn_Player_Card_Icon.png/200px-Wedgeful_Tricorn_Player_Card_Icon.png?13d4f5"
+        "src": "/images/thumb/Wedgeful_Tricorn_Player_Card_Icon.png/200px-Wedgeful_Tricorn_Player_Card_Icon.png?13d4f5",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1647,7 +1777,9 @@
       },
       "image": {
         "file": "Thundering_Hooves_of_Loyalty_Player_Card_Icon.png",
-        "src": "/images/thumb/Thundering_Hooves_of_Loyalty_Player_Card_Icon.png/200px-Thundering_Hooves_of_Loyalty_Player_Card_Icon.png?61906d"
+        "src": "/images/thumb/Thundering_Hooves_of_Loyalty_Player_Card_Icon.png/200px-Thundering_Hooves_of_Loyalty_Player_Card_Icon.png?61906d",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1672,7 +1804,9 @@
       },
       "image": {
         "file": "Testament_to_Attrition_Player_Card_Icon.png",
-        "src": "/images/thumb/Testament_to_Attrition_Player_Card_Icon.png/200px-Testament_to_Attrition_Player_Card_Icon.png?74188d"
+        "src": "/images/thumb/Testament_to_Attrition_Player_Card_Icon.png/200px-Testament_to_Attrition_Player_Card_Icon.png?74188d",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1697,7 +1831,9 @@
       },
       "image": {
         "file": "Dignity_of_Toil_Player_Card_Icon.png",
-        "src": "/images/thumb/Dignity_of_Toil_Player_Card_Icon.png/200px-Dignity_of_Toil_Player_Card_Icon.png?bb1fa8"
+        "src": "/images/thumb/Dignity_of_Toil_Player_Card_Icon.png/200px-Dignity_of_Toil_Player_Card_Icon.png?bb1fa8",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1722,7 +1858,9 @@
       },
       "image": {
         "file": "Crest_of_the_Unsullied_Player_Card_Icon.png",
-        "src": "/images/thumb/Crest_of_the_Unsullied_Player_Card_Icon.png/200px-Crest_of_the_Unsullied_Player_Card_Icon.png?88c9d0"
+        "src": "/images/thumb/Crest_of_the_Unsullied_Player_Card_Icon.png/200px-Crest_of_the_Unsullied_Player_Card_Icon.png?88c9d0",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1747,7 +1885,9 @@
       },
       "image": {
         "file": "Diagram_of_the_Noblest_Payload_Player_Card_Icon.png",
-        "src": "/images/thumb/Diagram_of_the_Noblest_Payload_Player_Card_Icon.png/200px-Diagram_of_the_Noblest_Payload_Player_Card_Icon.png?2d6158"
+        "src": "/images/thumb/Diagram_of_the_Noblest_Payload_Player_Card_Icon.png/200px-Diagram_of_the_Noblest_Payload_Player_Card_Icon.png?2d6158",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1772,7 +1912,9 @@
       },
       "image": {
         "file": "Free_Spirited_Spangles_Player_Card_Icon.png",
-        "src": "/images/thumb/Free_Spirited_Spangles_Player_Card_Icon.png/200px-Free_Spirited_Spangles_Player_Card_Icon.png?cbadb4"
+        "src": "/images/thumb/Free_Spirited_Spangles_Player_Card_Icon.png/200px-Free_Spirited_Spangles_Player_Card_Icon.png?cbadb4",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1797,7 +1939,9 @@
       },
       "image": {
         "file": "Watchful_Compatriot_Player_Card_Icon.png",
-        "src": "/images/thumb/Watchful_Compatriot_Player_Card_Icon.png/200px-Watchful_Compatriot_Player_Card_Icon.png?9246df"
+        "src": "/images/thumb/Watchful_Compatriot_Player_Card_Icon.png/200px-Watchful_Compatriot_Player_Card_Icon.png?9246df",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1822,7 +1966,9 @@
       },
       "image": {
         "file": "Camo_Cloak_Player_Card.png",
-        "src": "/images/thumb/Camo_Cloak_Player_Card.png/200px-Camo_Cloak_Player_Card.png?43cecb"
+        "src": "/images/thumb/Camo_Cloak_Player_Card.png/200px-Camo_Cloak_Player_Card.png?43cecb",
+        "width": 512,
+        "height": 1024
       }
     },
     {
@@ -1847,7 +1993,9 @@
       },
       "image": {
         "file": "City_Fighter's_Resolve_Player_Card.png",
-        "src": "/images/thumb/City_Fighter%27s_Resolve_Player_Card.png/200px-City_Fighter%27s_Resolve_Player_Card.png?ee8c0e"
+        "src": "/images/thumb/City_Fighter%27s_Resolve_Player_Card.png/200px-City_Fighter%27s_Resolve_Player_Card.png?ee8c0e",
+        "width": 915,
+        "height": 1829
       }
     }
   ],
@@ -1872,7 +2020,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Casual_Salute_Emote_Icon.png",
-        "src": "/images/thumb/Casual_Salute_Emote_Icon.png/128px-Casual_Salute_Emote_Icon.png?9dc2c1"
+        "src": "/images/thumb/Casual_Salute_Emote_Icon.png/128px-Casual_Salute_Emote_Icon.png?9dc2c1",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1895,7 +2045,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Salute_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Salute_Victory_Pose_Icon.png/128px-Salute_Victory_Pose_Icon.png?f5164a"
+        "src": "/images/thumb/Salute_Victory_Pose_Icon.png/128px-Salute_Victory_Pose_Icon.png?f5164a",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1922,7 +2074,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Clapping_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Clapping_Victory_Pose_Icon.png/128px-Clapping_Victory_Pose_Icon.png?2421fa"
+        "src": "/images/thumb/Clapping_Victory_Pose_Icon.png/128px-Clapping_Victory_Pose_Icon.png?2421fa",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1949,7 +2103,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Finger_Guns_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Finger_Guns_Victory_Pose_Icon.png/128px-Finger_Guns_Victory_Pose_Icon.png?d5d94c"
+        "src": "/images/thumb/Finger_Guns_Victory_Pose_Icon.png/128px-Finger_Guns_Victory_Pose_Icon.png?d5d94c",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -1976,7 +2132,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Explosive_Handshake_Emote_Icon.png",
-        "src": "/images/thumb/Explosive_Handshake_Emote_Icon.png/128px-Explosive_Handshake_Emote_Icon.png?f402f3"
+        "src": "/images/thumb/Explosive_Handshake_Emote_Icon.png/128px-Explosive_Handshake_Emote_Icon.png?f402f3",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2003,7 +2161,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Hug_Emote_Icon.png",
-        "src": "/images/thumb/Hug_Emote_Icon.png/128px-Hug_Emote_Icon.png?4613a3"
+        "src": "/images/thumb/Hug_Emote_Icon.png/128px-Hug_Emote_Icon.png?4613a3",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2030,7 +2190,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "High-Five_Emote_Icon.png",
-        "src": "/images/thumb/High-Five_Emote_Icon.png/128px-High-Five_Emote_Icon.png?dfb584"
+        "src": "/images/thumb/High-Five_Emote_Icon.png/128px-High-Five_Emote_Icon.png?dfb584",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2057,7 +2219,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Flex_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Flex_Victory_Pose_Icon.png/128px-Flex_Victory_Pose_Icon.png?2afeeb"
+        "src": "/images/thumb/Flex_Victory_Pose_Icon.png/128px-Flex_Victory_Pose_Icon.png?2afeeb",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2084,7 +2248,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Scout_Handshake_Emote_Icon.png",
-        "src": "/images/thumb/Scout_Handshake_Emote_Icon.png/128px-Scout_Handshake_Emote_Icon.png?ecc1ca"
+        "src": "/images/thumb/Scout_Handshake_Emote_Icon.png/128px-Scout_Handshake_Emote_Icon.png?ecc1ca",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2111,7 +2277,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Rock_Paper_Scissors_Emote_Icon.png",
-        "src": "/images/thumb/Rock_Paper_Scissors_Emote_Icon.png/128px-Rock_Paper_Scissors_Emote_Icon.png?911459"
+        "src": "/images/thumb/Rock_Paper_Scissors_Emote_Icon.png/128px-Rock_Paper_Scissors_Emote_Icon.png?911459",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2138,7 +2306,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Loosen_Up_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Loosen_Up_Victory_Pose_Icon.png/128px-Loosen_Up_Victory_Pose_Icon.png?abda89"
+        "src": "/images/thumb/Loosen_Up_Victory_Pose_Icon.png/128px-Loosen_Up_Victory_Pose_Icon.png?abda89",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2165,7 +2335,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Big_Whoop_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Big_Whoop_Victory_Pose_Icon.png/128px-Big_Whoop_Victory_Pose_Icon.png?4250bc"
+        "src": "/images/thumb/Big_Whoop_Victory_Pose_Icon.png/128px-Big_Whoop_Victory_Pose_Icon.png?4250bc",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2192,7 +2364,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Super_Person_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Super_Person_Victory_Pose_Icon.png/128px-Super_Person_Victory_Pose_Icon.png?8adc35"
+        "src": "/images/thumb/Super_Person_Victory_Pose_Icon.png/128px-Super_Person_Victory_Pose_Icon.png?8adc35",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2219,7 +2393,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Roll_'Em_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Roll_%27Em_Victory_Pose_Icon.png/128px-Roll_%27Em_Victory_Pose_Icon.png?2961f8"
+        "src": "/images/thumb/Roll_%27Em_Victory_Pose_Icon.png/128px-Roll_%27Em_Victory_Pose_Icon.png?2961f8",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2246,7 +2422,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "You're_Next_Victory_Pose_Icon.png",
-        "src": "/images/thumb/You%27re_Next_Victory_Pose_Icon.png/128px-You%27re_Next_Victory_Pose_Icon.png?593fbd"
+        "src": "/images/thumb/You%27re_Next_Victory_Pose_Icon.png/128px-You%27re_Next_Victory_Pose_Icon.png?593fbd",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2273,7 +2451,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Head_Tap_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Head_Tap_Victory_Pose_Icon.png/128px-Head_Tap_Victory_Pose_Icon.png?ea2ac5"
+        "src": "/images/thumb/Head_Tap_Victory_Pose_Icon.png/128px-Head_Tap_Victory_Pose_Icon.png?ea2ac5",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2300,7 +2480,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Shotgun_Show_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Shotgun_Show_Victory_Pose_Icon.png/128px-Shotgun_Show_Victory_Pose_Icon.png?68f5e9"
+        "src": "/images/thumb/Shotgun_Show_Victory_Pose_Icon.png/128px-Shotgun_Show_Victory_Pose_Icon.png?68f5e9",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2327,7 +2509,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Presentable_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Presentable_Victory_Pose_Icon.png/128px-Presentable_Victory_Pose_Icon.png?cdda6f"
+        "src": "/images/thumb/Presentable_Victory_Pose_Icon.png/128px-Presentable_Victory_Pose_Icon.png?cdda6f",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2354,7 +2538,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Squat_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Squat_Victory_Pose_Icon.png/128px-Squat_Victory_Pose_Icon.png?ffddf4"
+        "src": "/images/thumb/Squat_Victory_Pose_Icon.png/128px-Squat_Victory_Pose_Icon.png?ffddf4",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2381,7 +2567,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Courtly_Bow_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Courtly_Bow_Victory_Pose_Icon.png/128px-Courtly_Bow_Victory_Pose_Icon.png?d80c5c"
+        "src": "/images/thumb/Courtly_Bow_Victory_Pose_Icon.png/128px-Courtly_Bow_Victory_Pose_Icon.png?d80c5c",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2408,7 +2596,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Boxer_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Boxer_Victory_Pose_Icon.png/128px-Boxer_Victory_Pose_Icon.png?5ba5ff"
+        "src": "/images/thumb/Boxer_Victory_Pose_Icon.png/128px-Boxer_Victory_Pose_Icon.png?5ba5ff",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2435,7 +2625,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Mime_Instrumentation_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Mime_Instrumentation_Victory_Pose_Icon.png/128px-Mime_Instrumentation_Victory_Pose_Icon.png?e41a3b"
+        "src": "/images/thumb/Mime_Instrumentation_Victory_Pose_Icon.png/128px-Mime_Instrumentation_Victory_Pose_Icon.png?e41a3b",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2462,7 +2654,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Call_the_Helldivers_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Call_the_Helldivers_Victory_Pose_Icon.png/128px-Call_the_Helldivers_Victory_Pose_Icon.png?de6605"
+        "src": "/images/thumb/Call_the_Helldivers_Victory_Pose_Icon.png/128px-Call_the_Helldivers_Victory_Pose_Icon.png?de6605",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2489,7 +2683,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Distribute_Ballots_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Distribute_Ballots_Victory_Pose_Icon.png/128px-Distribute_Ballots_Victory_Pose_Icon.png?504152"
+        "src": "/images/thumb/Distribute_Ballots_Victory_Pose_Icon.png/128px-Distribute_Ballots_Victory_Pose_Icon.png?504152",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2516,7 +2712,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Welcome_Adoration_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Welcome_Adoration_Victory_Pose_Icon.png/128px-Welcome_Adoration_Victory_Pose_Icon.png?a7660c"
+        "src": "/images/thumb/Welcome_Adoration_Victory_Pose_Icon.png/128px-Welcome_Adoration_Victory_Pose_Icon.png?a7660c",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2543,7 +2741,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Guns_of_Liberty_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Guns_of_Liberty_Victory_Pose_Icon.png/128px-Guns_of_Liberty_Victory_Pose_Icon.png?efb452"
+        "src": "/images/thumb/Guns_of_Liberty_Victory_Pose_Icon.png/128px-Guns_of_Liberty_Victory_Pose_Icon.png?efb452",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2570,7 +2770,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Test_of_Conviction_Emote_Icon.png",
-        "src": "/images/thumb/Test_of_Conviction_Emote_Icon.png/128px-Test_of_Conviction_Emote_Icon.png?700b89"
+        "src": "/images/thumb/Test_of_Conviction_Emote_Icon.png/128px-Test_of_Conviction_Emote_Icon.png?700b89",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -2597,7 +2799,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Big_Stretch_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Big_Stretch_Victory_Pose_Icon.png/128px-Big_Stretch_Victory_Pose_Icon.png?c4e172"
+        "src": "/images/thumb/Big_Stretch_Victory_Pose_Icon.png/128px-Big_Stretch_Victory_Pose_Icon.png?c4e172",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2624,7 +2828,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Deep_Reflection_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Deep_Reflection_Victory_Pose_Icon.png/128px-Deep_Reflection_Victory_Pose_Icon.png?9ad45b"
+        "src": "/images/thumb/Deep_Reflection_Victory_Pose_Icon.png/128px-Deep_Reflection_Victory_Pose_Icon.png?9ad45b",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2651,7 +2857,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png",
-        "src": "/images/thumb/Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png/128px-Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png?c39bb1"
+        "src": "/images/thumb/Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png/128px-Thoracic_Collision_Exultation_Maneuver_Emote_Icon.png?c39bb1",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2678,7 +2886,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Ew_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Ew_Victory_Pose_Icon.png/128px-Ew_Victory_Pose_Icon.png?a42d28"
+        "src": "/images/thumb/Ew_Victory_Pose_Icon.png/128px-Ew_Victory_Pose_Icon.png?a42d28",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2705,7 +2915,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Scout_Handshake_Emote_Icon.png",
-        "src": "/images/thumb/Scout_Handshake_Emote_Icon.png/128px-Scout_Handshake_Emote_Icon.png?ecc1ca"
+        "src": "/images/thumb/Scout_Handshake_Emote_Icon.png/128px-Scout_Handshake_Emote_Icon.png?ecc1ca",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2732,7 +2944,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "At_Ease_Emote_Icon.png",
-        "src": "/images/thumb/At_Ease_Emote_Icon.png/128px-At_Ease_Emote_Icon.png?224da9"
+        "src": "/images/thumb/At_Ease_Emote_Icon.png/128px-At_Ease_Emote_Icon.png?224da9",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2759,7 +2973,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "This_Is_Democracy_Emote_Icon.png",
-        "src": "/images/thumb/This_Is_Democracy_Emote_Icon.png/128px-This_Is_Democracy_Emote_Icon.png?3220e9"
+        "src": "/images/thumb/This_Is_Democracy_Emote_Icon.png/128px-This_Is_Democracy_Emote_Icon.png?3220e9",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2786,7 +3002,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Raise_Weapon_Emote_Icon.png",
-        "src": "/images/thumb/Raise_Weapon_Emote_Icon.png/128px-Raise_Weapon_Emote_Icon.png?7ee441"
+        "src": "/images/thumb/Raise_Weapon_Emote_Icon.png/128px-Raise_Weapon_Emote_Icon.png?7ee441",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2813,7 +3031,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Draw!_Emote_Icon.png",
-        "src": "/images/thumb/Draw%21_Emote_Icon.png/128px-Draw%21_Emote_Icon.png?8ec919"
+        "src": "/images/thumb/Draw%21_Emote_Icon.png/128px-Draw%21_Emote_Icon.png?8ec919",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2840,7 +3060,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Tip_Hat_Emote_Icon.png",
-        "src": "/images/thumb/Tip_Hat_Emote_Icon.png/128px-Tip_Hat_Emote_Icon.png?288211"
+        "src": "/images/thumb/Tip_Hat_Emote_Icon.png/128px-Tip_Hat_Emote_Icon.png?288211",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2867,7 +3089,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Lockstep_Emote_Icon.png",
-        "src": "/images/thumb/Lockstep_Emote_Icon.png/128px-Lockstep_Emote_Icon.png?7def31"
+        "src": "/images/thumb/Lockstep_Emote_Icon.png/128px-Lockstep_Emote_Icon.png?7def31",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2894,7 +3118,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Signal_Hold_Emote_Icon.png",
-        "src": "/images/thumb/Signal_Hold_Emote_Icon.png/128px-Signal_Hold_Emote_Icon.png?bfdabc"
+        "src": "/images/thumb/Signal_Hold_Emote_Icon.png/128px-Signal_Hold_Emote_Icon.png?bfdabc",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2921,7 +3147,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Signal_Silence_Emote_Icon.png",
-        "src": "/images/thumb/Signal_Silence_Emote_Icon.png/128px-Signal_Silence_Emote_Icon.png?8ad8b8"
+        "src": "/images/thumb/Signal_Silence_Emote_Icon.png/128px-Signal_Silence_Emote_Icon.png?8ad8b8",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2948,7 +3176,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Signal_Group_Up_Emote_Icon.png",
-        "src": "/images/thumb/Signal_Group_Up_Emote_Icon.png/128px-Signal_Group_Up_Emote_Icon.png?4606df"
+        "src": "/images/thumb/Signal_Group_Up_Emote_Icon.png/128px-Signal_Group_Up_Emote_Icon.png?4606df",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -2975,7 +3205,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Enthusiastic_Mirth_Emote_Icon.png",
-        "src": "/images/thumb/Enthusiastic_Mirth_Emote_Icon.png/128px-Enthusiastic_Mirth_Emote_Icon.png?a83407"
+        "src": "/images/thumb/Enthusiastic_Mirth_Emote_Icon.png/128px-Enthusiastic_Mirth_Emote_Icon.png?a83407",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3002,7 +3234,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Protect_Eardrums_Emote_Icon.png",
-        "src": "/images/thumb/Protect_Eardrums_Emote_Icon.png/128px-Protect_Eardrums_Emote_Icon.png?1c894a"
+        "src": "/images/thumb/Protect_Eardrums_Emote_Icon.png/128px-Protect_Eardrums_Emote_Icon.png?1c894a",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3029,7 +3263,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Raider's_Cheer_Emote_Icon.png",
-        "src": "/images/thumb/Raider%27s_Cheer_Emote_Icon.png/128px-Raider%27s_Cheer_Emote_Icon.png?f81eda"
+        "src": "/images/thumb/Raider%27s_Cheer_Emote_Icon.png/128px-Raider%27s_Cheer_Emote_Icon.png?f81eda",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3056,7 +3292,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Front-Leaning_Rest_Position_Emote_Icon.png",
-        "src": "/images/thumb/Front-Leaning_Rest_Position_Emote_Icon.png/128px-Front-Leaning_Rest_Position_Emote_Icon.png?f76cc7"
+        "src": "/images/thumb/Front-Leaning_Rest_Position_Emote_Icon.png/128px-Front-Leaning_Rest_Position_Emote_Icon.png?f76cc7",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3083,7 +3321,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Target_Sighted_Victory_Pose_Icon.png",
-        "src": "/images/thumb/Target_Sighted_Victory_Pose_Icon.png/128px-Target_Sighted_Victory_Pose_Icon.png?a27b82"
+        "src": "/images/thumb/Target_Sighted_Victory_Pose_Icon.png/128px-Target_Sighted_Victory_Pose_Icon.png?a27b82",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3110,7 +3350,9 @@
       "victoryPose": "✅",
       "icon": {
         "file": "Display_of_Brawn_Emote_Icon.png",
-        "src": "/images/thumb/Display_of_Brawn_Emote_Icon.png/128px-Display_of_Brawn_Emote_Icon.png?5e4719"
+        "src": "/images/thumb/Display_of_Brawn_Emote_Icon.png/128px-Display_of_Brawn_Emote_Icon.png?5e4719",
+        "width": 256,
+        "height": 256
       }
     },
     {
@@ -3137,7 +3379,9 @@
       "victoryPose": "❌",
       "icon": {
         "file": "Diplomatic_Handshake_Emote_Icon.png",
-        "src": "/images/thumb/Diplomatic_Handshake_Emote_Icon.png/128px-Diplomatic_Handshake_Emote_Icon.png?7050f9"
+        "src": "/images/thumb/Diplomatic_Handshake_Emote_Icon.png/128px-Diplomatic_Handshake_Emote_Icon.png?7050f9",
+        "width": 256,
+        "height": 256
       }
     }
   ],
@@ -3174,7 +3418,9 @@
       },
       "icon": {
         "file": "Standard_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Standard_Hellpod_Pattern_Icon.png/128px-Standard_Hellpod_Pattern_Icon.png?8cbcfa"
+        "src": "/images/thumb/Standard_Hellpod_Pattern_Icon.png/128px-Standard_Hellpod_Pattern_Icon.png?8cbcfa",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3213,7 +3459,9 @@
       },
       "icon": {
         "file": "Undergrowth_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Undergrowth_Hellpod_Pattern_Icon.png/128px-Undergrowth_Hellpod_Pattern_Icon.png?5b23ae"
+        "src": "/images/thumb/Undergrowth_Hellpod_Pattern_Icon.png/128px-Undergrowth_Hellpod_Pattern_Icon.png?5b23ae",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3252,7 +3500,9 @@
       },
       "icon": {
         "file": "Safety_Orange_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Safety_Orange_Hellpod_Pattern_Icon.png/128px-Safety_Orange_Hellpod_Pattern_Icon.png?ca63f8"
+        "src": "/images/thumb/Safety_Orange_Hellpod_Pattern_Icon.png/128px-Safety_Orange_Hellpod_Pattern_Icon.png?ca63f8",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3291,7 +3541,9 @@
       },
       "icon": {
         "file": "Mustard_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Mustard_Hellpod_Pattern_Icon.png/128px-Mustard_Hellpod_Pattern_Icon.png?514f4e"
+        "src": "/images/thumb/Mustard_Hellpod_Pattern_Icon.png/128px-Mustard_Hellpod_Pattern_Icon.png?514f4e",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3330,7 +3582,9 @@
       },
       "icon": {
         "file": "Inconspicuous_Black_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Inconspicuous_Black_Hellpod_Pattern_Icon.png/128px-Inconspicuous_Black_Hellpod_Pattern_Icon.png?b1c08c"
+        "src": "/images/thumb/Inconspicuous_Black_Hellpod_Pattern_Icon.png/128px-Inconspicuous_Black_Hellpod_Pattern_Icon.png?b1c08c",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3369,7 +3623,9 @@
       },
       "icon": {
         "file": "Concrete_Jungle_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Concrete_Jungle_Hellpod_Pattern_Icon.png/128px-Concrete_Jungle_Hellpod_Pattern_Icon.png?11f0f8"
+        "src": "/images/thumb/Concrete_Jungle_Hellpod_Pattern_Icon.png/128px-Concrete_Jungle_Hellpod_Pattern_Icon.png?11f0f8",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3408,7 +3664,9 @@
       },
       "icon": {
         "file": "True_Blue_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/True_Blue_Hellpod_Pattern_Icon.png/128px-True_Blue_Hellpod_Pattern_Icon.png?bcaf16"
+        "src": "/images/thumb/True_Blue_Hellpod_Pattern_Icon.png/128px-True_Blue_Hellpod_Pattern_Icon.png?bcaf16",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3447,7 +3705,9 @@
       },
       "icon": {
         "file": "Mean_Green_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Mean_Green_Hellpod_Pattern_Icon.png/128px-Mean_Green_Hellpod_Pattern_Icon.png?354a7e"
+        "src": "/images/thumb/Mean_Green_Hellpod_Pattern_Icon.png/128px-Mean_Green_Hellpod_Pattern_Icon.png?354a7e",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3486,7 +3746,9 @@
       },
       "icon": {
         "file": "Rattlesnake_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Rattlesnake_Hellpod_Pattern_Icon.png/128px-Rattlesnake_Hellpod_Pattern_Icon.png?f999a1"
+        "src": "/images/thumb/Rattlesnake_Hellpod_Pattern_Icon.png/128px-Rattlesnake_Hellpod_Pattern_Icon.png?f999a1",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3525,7 +3787,9 @@
       },
       "icon": {
         "file": "Chameleon_Camo_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Chameleon_Camo_Hellpod_Pattern_Icon.png/128px-Chameleon_Camo_Hellpod_Pattern_Icon.png?c63650"
+        "src": "/images/thumb/Chameleon_Camo_Hellpod_Pattern_Icon.png/128px-Chameleon_Camo_Hellpod_Pattern_Icon.png?c63650",
+        "width": 2160,
+        "height": 2160
       }
     },
     {
@@ -3564,7 +3828,9 @@
       },
       "icon": {
         "file": "Extrasolar_Ash_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Extrasolar_Ash_Hellpod_Pattern_Icon.png/128px-Extrasolar_Ash_Hellpod_Pattern_Icon.png?14e579"
+        "src": "/images/thumb/Extrasolar_Ash_Hellpod_Pattern_Icon.png/128px-Extrasolar_Ash_Hellpod_Pattern_Icon.png?14e579",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3603,7 +3869,9 @@
       },
       "icon": {
         "file": "Churned_Earth_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Churned_Earth_Hellpod_Pattern_Icon.png/128px-Churned_Earth_Hellpod_Pattern_Icon.png?dc9c31"
+        "src": "/images/thumb/Churned_Earth_Hellpod_Pattern_Icon.png/128px-Churned_Earth_Hellpod_Pattern_Icon.png?dc9c31",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3642,7 +3910,9 @@
       },
       "icon": {
         "file": "Heritage_Olive_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Heritage_Olive_Hellpod_Pattern_Icon.png/128px-Heritage_Olive_Hellpod_Pattern_Icon.png?3c6303"
+        "src": "/images/thumb/Heritage_Olive_Hellpod_Pattern_Icon.png/128px-Heritage_Olive_Hellpod_Pattern_Icon.png?3c6303",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3681,7 +3951,9 @@
       },
       "icon": {
         "file": "Mobile_White_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Mobile_White_Hellpod_Pattern_Icon.png/128px-Mobile_White_Hellpod_Pattern_Icon.png?c372ac"
+        "src": "/images/thumb/Mobile_White_Hellpod_Pattern_Icon.png/128px-Mobile_White_Hellpod_Pattern_Icon.png?c372ac",
+        "width": 200,
+        "height": 200
       }
     },
     {
@@ -3720,7 +3992,9 @@
       },
       "icon": {
         "file": "Castellans_Green_Hellpod_Pattern_Icon.png",
-        "src": "/images/thumb/Castellans_Green_Hellpod_Pattern_Icon.png/128px-Castellans_Green_Hellpod_Pattern_Icon.png?516664"
+        "src": "/images/thumb/Castellans_Green_Hellpod_Pattern_Icon.png/128px-Castellans_Green_Hellpod_Pattern_Icon.png?516664",
+        "width": 4096,
+        "height": 4096
       }
     }
   ],
@@ -3734,7 +4008,9 @@
       "levelNeeded": "0",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Primary_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Primary_Render.png/250px-AR-23P_Liberator_Penetrator_Primary_Render.png?82edd5"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Primary_Render.png/250px-AR-23P_Liberator_Penetrator_Primary_Render.png?82edd5",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3746,7 +4022,9 @@
       "levelNeeded": "0",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png?88153c"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png?88153c",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3758,7 +4036,9 @@
       "levelNeeded": "5",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png?16b0e7"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png?16b0e7",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3770,7 +4050,9 @@
       "levelNeeded": "5",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png?293370"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png?293370",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3782,7 +4064,9 @@
       "levelNeeded": "10",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png?7bd563"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png?7bd563",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3794,7 +4078,9 @@
       "levelNeeded": "10",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png?b94f72"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png?b94f72",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3806,7 +4092,9 @@
       "levelNeeded": "15",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png?2f7313"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png?2f7313",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3818,7 +4106,9 @@
       "levelNeeded": "15",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png?dd432a"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png?dd432a",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3830,7 +4120,9 @@
       "levelNeeded": "20",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png?afc313"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png?afc313",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3842,7 +4134,9 @@
       "levelNeeded": "20",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png?a60f44"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png?a60f44",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3854,7 +4148,9 @@
       "levelNeeded": "25",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png?b0140a"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png?b0140a",
+        "width": 3840,
+        "height": 2160
       }
     },
     {
@@ -3866,7 +4162,9 @@
       "levelNeeded": "25",
       "image": {
         "file": "AR-23P_Liberator_Penetrator_Night_Pattern_Render.png",
-        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Night_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Night_Pattern_Render.png?d737e0"
+        "src": "/images/thumb/AR-23P_Liberator_Penetrator_Night_Pattern_Render.png/250px-AR-23P_Liberator_Penetrator_Night_Pattern_Render.png?d737e0",
+        "width": 3840,
+        "height": 2160
       }
     }
   ],
@@ -3881,7 +4179,9 @@
       "level": "1",
       "icon": {
         "file": "Level_1_Cadet_Rank_Icon.svg",
-        "src": "/images/Level_1_Cadet_Rank_Icon.svg?816477"
+        "src": "/images/Level_1_Cadet_Rank_Icon.svg?816477",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3894,7 +4194,9 @@
       "level": "5",
       "icon": {
         "file": "Level_5_Space_Cadet_Rank_Icon.svg",
-        "src": "/images/Level_5_Space_Cadet_Rank_Icon.svg?68fe5d"
+        "src": "/images/Level_5_Space_Cadet_Rank_Icon.svg?68fe5d",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3907,7 +4209,9 @@
       "level": "10",
       "icon": {
         "file": "Level_10_Sergeant_Rank_Icon.svg",
-        "src": "/images/Level_10_Sergeant_Rank_Icon.svg?7cf0ad"
+        "src": "/images/Level_10_Sergeant_Rank_Icon.svg?7cf0ad",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3920,7 +4224,9 @@
       "level": "15",
       "icon": {
         "file": "Level_15_Master_Sergeant_Rank_Icon.svg",
-        "src": "/images/Level_15_Master_Sergeant_Rank_Icon.svg?910950"
+        "src": "/images/Level_15_Master_Sergeant_Rank_Icon.svg?910950",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3933,7 +4239,9 @@
       "level": "20",
       "icon": {
         "file": "Level_20_Chief_Rank_Icon.svg",
-        "src": "/images/Level_20_Chief_Rank_Icon.svg?15394a"
+        "src": "/images/Level_20_Chief_Rank_Icon.svg?15394a",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3946,7 +4254,9 @@
       "level": "25",
       "icon": {
         "file": "Level_25_Space_Chief_Prime_Rank_Icon.svg",
-        "src": "/images/Level_25_Space_Chief_Prime_Rank_Icon.svg?b4633c"
+        "src": "/images/Level_25_Space_Chief_Prime_Rank_Icon.svg?b4633c",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3959,7 +4269,9 @@
       "level": "30",
       "icon": {
         "file": "Level_30_Death_Captain_Rank_Icon.svg",
-        "src": "/images/Level_30_Death_Captain_Rank_Icon.svg?3037bf"
+        "src": "/images/Level_30_Death_Captain_Rank_Icon.svg?3037bf",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3972,7 +4284,9 @@
       "level": "35",
       "icon": {
         "file": "Level_35_Marshal_Rank_Icon.svg",
-        "src": "/images/Level_35_Marshal_Rank_Icon.svg?d5cbdd"
+        "src": "/images/Level_35_Marshal_Rank_Icon.svg?d5cbdd",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3985,7 +4299,9 @@
       "level": "40",
       "icon": {
         "file": "Level_40_Star_Marshal_Rank_Icon.svg",
-        "src": "/images/Level_40_Star_Marshal_Rank_Icon.svg?56e8d4"
+        "src": "/images/Level_40_Star_Marshal_Rank_Icon.svg?56e8d4",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -3998,7 +4314,9 @@
       "level": "45",
       "icon": {
         "file": "Level_45_Admiral_Rank_Icon.svg",
-        "src": "/images/Level_45_Admiral_Rank_Icon.svg?3845e7"
+        "src": "/images/Level_45_Admiral_Rank_Icon.svg?3845e7",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4011,7 +4329,9 @@
       "level": "50",
       "icon": {
         "file": "Level_50_Skull_Admiral_Rank_Icon.svg",
-        "src": "/images/Level_50_Skull_Admiral_Rank_Icon.svg?b0b268"
+        "src": "/images/Level_50_Skull_Admiral_Rank_Icon.svg?b0b268",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4024,7 +4344,9 @@
       "level": "60",
       "icon": {
         "file": "Level_60_Fleet_Admiral_Rank_Icon.svg",
-        "src": "/images/Level_60_Fleet_Admiral_Rank_Icon.svg?59b683"
+        "src": "/images/Level_60_Fleet_Admiral_Rank_Icon.svg?59b683",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4037,7 +4359,9 @@
       "level": "70",
       "icon": {
         "file": "Level_70_Admirable_Admiral_Rank_Icon.svg",
-        "src": "/images/Level_70_Admirable_Admiral_Rank_Icon.svg?7531fa"
+        "src": "/images/Level_70_Admirable_Admiral_Rank_Icon.svg?7531fa",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4050,7 +4374,9 @@
       "level": "80",
       "icon": {
         "file": "Level_80_Commander_Rank_Icon.svg",
-        "src": "/images/Level_80_Commander_Rank_Icon.svg?e6eadf"
+        "src": "/images/Level_80_Commander_Rank_Icon.svg?e6eadf",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4063,7 +4389,9 @@
       "level": "90",
       "icon": {
         "file": "Level_90_Galactic_Commander_Rank_Icon.svg",
-        "src": "/images/Level_90_Galactic_Commander_Rank_Icon.svg?286795"
+        "src": "/images/Level_90_Galactic_Commander_Rank_Icon.svg?286795",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4076,7 +4404,9 @@
       "level": "100",
       "icon": {
         "file": "Level_100_Hell_Commander_Rank_Icon.svg",
-        "src": "/images/Level_100_Hell_Commander_Rank_Icon.svg?dc5553"
+        "src": "/images/Level_100_Hell_Commander_Rank_Icon.svg?dc5553",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4089,7 +4419,9 @@
       "level": "110",
       "icon": {
         "file": "Level_110_General_Rank_Icon.svg",
-        "src": "/images/Level_110_General_Rank_Icon.svg?2549b4"
+        "src": "/images/Level_110_General_Rank_Icon.svg?2549b4",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4102,7 +4434,9 @@
       "level": "120",
       "icon": {
         "file": "Level_120_5-Star_General_Rank_Icon.svg",
-        "src": "/images/Level_120_5-Star_General_Rank_Icon.svg?77d24b"
+        "src": "/images/Level_120_5-Star_General_Rank_Icon.svg?77d24b",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4115,7 +4449,9 @@
       "level": "130",
       "icon": {
         "file": "Level_130_10-Star_General_Rank_Icon.svg",
-        "src": "/images/Level_130_10-Star_General_Rank_Icon.svg?c20bfe"
+        "src": "/images/Level_130_10-Star_General_Rank_Icon.svg?c20bfe",
+        "width": 512,
+        "height": 515
       }
     },
     {
@@ -4128,7 +4464,9 @@
       "level": "140",
       "icon": {
         "file": "Level_140_Private_Rank_Icon.svg",
-        "src": "/images/Level_140_Private_Rank_Icon.svg?27e5db"
+        "src": "/images/Level_140_Private_Rank_Icon.svg?27e5db",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4141,7 +4479,9 @@
       "level": "150",
       "icon": {
         "file": "Level_150_Super_Private_Rank_Icon.svg",
-        "src": "/images/Level_150_Super_Private_Rank_Icon.svg?b41190"
+        "src": "/images/Level_150_Super_Private_Rank_Icon.svg?b41190",
+        "width": 512,
+        "height": 512
       }
     },
     {
@@ -4154,7 +4494,9 @@
       "level": "160",
       "icon": {
         "file": "Level_160_5-Star_Super_Private_Rank_Icon.svg",
-        "src": "/images/Level_160_5-Star_Super_Private_Rank_Icon.svg?477ea2"
+        "src": "/images/Level_160_5-Star_Super_Private_Rank_Icon.svg?477ea2",
+        "width": 512,
+        "height": 629
       }
     },
     {
@@ -4167,7 +4509,9 @@
       "level": "170",
       "icon": {
         "file": "Level_170_10-Star_Super_Private_Rank_Icon.svg",
-        "src": "/images/Level_170_10-Star_Super_Private_Rank_Icon.svg?201218"
+        "src": "/images/Level_170_10-Star_Super_Private_Rank_Icon.svg?201218",
+        "width": 512,
+        "height": 629
       }
     },
     {
@@ -4180,7 +4524,9 @@
       "level": "180",
       "icon": {
         "file": "Level_180_Ranger_Rank_Icon.svg",
-        "src": "/images/Level_180_Ranger_Rank_Icon.svg?49e700"
+        "src": "/images/Level_180_Ranger_Rank_Icon.svg?49e700",
+        "width": 512,
+        "height": 629
       }
     },
     {
@@ -4193,7 +4539,9 @@
       "level": "190",
       "icon": {
         "file": "Level_190_Ranger,_Eagle_Class_Rank_Icon.svg",
-        "src": "/images/Level_190_Ranger%2C_Eagle_Class_Rank_Icon.svg?885e58"
+        "src": "/images/Level_190_Ranger%2C_Eagle_Class_Rank_Icon.svg?885e58",
+        "width": 512,
+        "height": 611
       }
     },
     {
@@ -4206,7 +4554,9 @@
       "level": "200",
       "icon": {
         "file": "Level_200_Ranger,_Bald_Eagle_Class_Rank_Icon.svg",
-        "src": "/images/Level_200_Ranger%2C_Bald_Eagle_Class_Rank_Icon.svg?8818e8"
+        "src": "/images/Level_200_Ranger%2C_Bald_Eagle_Class_Rank_Icon.svg?8818e8",
+        "width": 512,
+        "height": 611
       }
     },
     {
@@ -4219,7 +4569,9 @@
       "level": "210",
       "icon": {
         "file": "Level_210_Divemaster_Rank_Icon.svg",
-        "src": "/images/Level_210_Divemaster_Rank_Icon.svg?1b0917"
+        "src": "/images/Level_210_Divemaster_Rank_Icon.svg?1b0917",
+        "width": 512,
+        "height": 611
       }
     },
     {
@@ -4232,7 +4584,9 @@
       "level": "220",
       "icon": {
         "file": "Level_220_First_Divemaster_Rank_Icon.svg",
-        "src": "/images/Level_220_First_Divemaster_Rank_Icon.svg?269050"
+        "src": "/images/Level_220_First_Divemaster_Rank_Icon.svg?269050",
+        "width": 512,
+        "height": 624
       }
     },
     {
@@ -4245,7 +4599,9 @@
       "level": "230",
       "icon": {
         "file": "Level_230_Divemaster_Major_Rank_Icon.svg",
-        "src": "/images/Level_230_Divemaster_Major_Rank_Icon.svg?c9c0a5"
+        "src": "/images/Level_230_Divemaster_Major_Rank_Icon.svg?c9c0a5",
+        "width": 512,
+        "height": 624
       }
     },
     {
@@ -4258,7 +4614,9 @@
       "level": "240",
       "icon": {
         "file": "Level_240_Command_Divemaster_Major_Rank_Icon.svg",
-        "src": "/images/Level_240_Command_Divemaster_Major_Rank_Icon.svg?213cef"
+        "src": "/images/Level_240_Command_Divemaster_Major_Rank_Icon.svg?213cef",
+        "width": 512,
+        "height": 624
       }
     },
     {
@@ -4271,7 +4629,9 @@
       "level": "250",
       "icon": {
         "file": "Level_250_Master_Divemaster_Rank_Icon.svg",
-        "src": "/images/Level_250_Master_Divemaster_Rank_Icon.svg?b31fd7"
+        "src": "/images/Level_250_Master_Divemaster_Rank_Icon.svg?b31fd7",
+        "width": 512,
+        "height": 549
       }
     },
     {
@@ -4284,7 +4644,9 @@
       "level": "260",
       "icon": {
         "file": "Level_260_Master_Divemaster_Major_Omega_Rank_Icon.svg",
-        "src": "/images/Level_260_Master_Divemaster_Major_Omega_Rank_Icon.svg?3234f6"
+        "src": "/images/Level_260_Master_Divemaster_Major_Omega_Rank_Icon.svg?3234f6",
+        "width": 512,
+        "height": 549
       }
     },
     {
@@ -4297,7 +4659,9 @@
       "level": "270",
       "icon": {
         "file": "Level_270_Max_Rank_Rank_Icon.svg",
-        "src": "/images/Level_270_Max_Rank_Rank_Icon.svg?3e811b"
+        "src": "/images/Level_270_Max_Rank_Rank_Icon.svg?3e811b",
+        "width": 512,
+        "height": 549
       }
     },
     {
@@ -4310,7 +4674,9 @@
       "level": "280",
       "icon": {
         "file": "Level_280_Max_Rank_Infinity_Rank_Icon.svg",
-        "src": "/images/Level_280_Max_Rank_Infinity_Rank_Icon.svg?b1f518"
+        "src": "/images/Level_280_Max_Rank_Infinity_Rank_Icon.svg?b1f518",
+        "width": 512,
+        "height": 634
       }
     },
     {
@@ -4323,7 +4689,9 @@
       "level": "290",
       "icon": {
         "file": "Level_290_Max_Rank_Infinity_+1_Rank_Icon.svg",
-        "src": "/images/Level_290_Max_Rank_Infinity_%2B1_Rank_Icon.svg?31fed9"
+        "src": "/images/Level_290_Max_Rank_Infinity_%2B1_Rank_Icon.svg?31fed9",
+        "width": 512,
+        "height": 634
       }
     },
     {
@@ -4336,7 +4704,9 @@
       "level": "300",
       "icon": {
         "file": "Level_300_Rank_300_Rank_Icon.svg",
-        "src": "/images/Level_300_Rank_300_Rank_Icon.svg?c50cbf"
+        "src": "/images/Level_300_Rank_300_Rank_Icon.svg?c50cbf",
+        "width": 512,
+        "height": 634
       }
     }
   ],
@@ -4363,7 +4733,9 @@
       },
       "icon": {
         "file": "Super_Citizen_Title_Icon.svg",
-        "src": "/images/Super_Citizen_Title_Icon.svg?82982c"
+        "src": "/images/Super_Citizen_Title_Icon.svg?82982c",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4388,7 +4760,9 @@
       },
       "icon": {
         "file": "Viper_Commando_Title_Icon.svg",
-        "src": "/images/Viper_Commando_Title_Icon.svg?2d0d41"
+        "src": "/images/Viper_Commando_Title_Icon.svg?2d0d41",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4413,7 +4787,9 @@
       },
       "icon": {
         "file": "Fire_Safety_Officer_Title_Icon.svg",
-        "src": "/images/Fire_Safety_Officer_Title_Icon.svg?21fdcb"
+        "src": "/images/Fire_Safety_Officer_Title_Icon.svg?21fdcb",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4438,7 +4814,9 @@
       },
       "icon": {
         "file": "Expert_Exterminator_Title_Icon.svg",
-        "src": "/images/Expert_Exterminator_Title_Icon.svg?3aefe8"
+        "src": "/images/Expert_Exterminator_Title_Icon.svg?3aefe8",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4463,7 +4841,9 @@
       },
       "icon": {
         "file": "Free_of_Thought_Title_Icon.svg",
-        "src": "/images/Free_of_Thought_Title_Icon.svg?f14b60"
+        "src": "/images/Free_of_Thought_Title_Icon.svg?f14b60",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4488,7 +4868,9 @@
       },
       "icon": {
         "file": "Super_Pedestrian_Title_Icon.svg",
-        "src": "/images/Super_Pedestrian_Title_Icon.svg?d4d029"
+        "src": "/images/Super_Pedestrian_Title_Icon.svg?d4d029",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4513,7 +4895,9 @@
       },
       "icon": {
         "file": "Assault_Infantry_Title_Icon.svg",
-        "src": "/images/Assault_Infantry_Title_Icon.svg?7a942c"
+        "src": "/images/Assault_Infantry_Title_Icon.svg?7a942c",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4538,7 +4922,9 @@
       },
       "icon": {
         "file": "Servant_of_Freedom_Title_Icon.svg",
-        "src": "/images/Servant_of_Freedom_Title_Icon.svg?2f4522"
+        "src": "/images/Servant_of_Freedom_Title_Icon.svg?2f4522",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4563,7 +4949,9 @@
       },
       "icon": {
         "file": "Super_Sheriff_Title_Icon.svg",
-        "src": "/images/Super_Sheriff_Title_Icon.svg?54ecfa"
+        "src": "/images/Super_Sheriff_Title_Icon.svg?54ecfa",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4588,7 +4976,9 @@
       },
       "icon": {
         "file": "Decorated_Hero_Title_Icon.svg",
-        "src": "/images/Decorated_Hero_Title_Icon.svg?634738"
+        "src": "/images/Decorated_Hero_Title_Icon.svg?634738",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4613,7 +5003,9 @@
       },
       "icon": {
         "file": "Extra_Judicial_Title_Icon.svg",
-        "src": "/images/Extra_Judicial_Title_Icon.svg?72bac3"
+        "src": "/images/Extra_Judicial_Title_Icon.svg?72bac3",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4638,7 +5030,9 @@
       },
       "icon": {
         "file": "Exemplary_Subject_Title_Icon.svg",
-        "src": "/images/Exemplary_Subject_Title_Icon.svg?a83495"
+        "src": "/images/Exemplary_Subject_Title_Icon.svg?a83495",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4663,7 +5057,9 @@
       },
       "icon": {
         "file": "Rookie_Title_Icon.svg",
-        "src": "/images/Rookie_Title_Icon.svg?780492"
+        "src": "/images/Rookie_Title_Icon.svg?780492",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4688,7 +5084,9 @@
       },
       "icon": {
         "file": "Burier_of_Heads_Title_Icon.svg",
-        "src": "/images/Burier_of_Heads_Title_Icon.svg?e83ca0"
+        "src": "/images/Burier_of_Heads_Title_Icon.svg?e83ca0",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4713,7 +5111,9 @@
       },
       "icon": {
         "file": "Python_Commando_Title_Icon.svg",
-        "src": "/images/Python_Commando_Title_Icon.svg?807cf7"
+        "src": "/images/Python_Commando_Title_Icon.svg?807cf7",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4738,7 +5138,9 @@
       },
       "icon": {
         "file": "Redacted_Title_Icon.svg",
-        "src": "/images/Redacted_Title_Icon.svg?b40be7"
+        "src": "/images/Redacted_Title_Icon.svg?b40be7",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4763,7 +5165,9 @@
       },
       "icon": {
         "file": "Bunker_Buster_Title_Icon.svg",
-        "src": "/images/Bunker_Buster_Title_Icon.svg?7d51bb"
+        "src": "/images/Bunker_Buster_Title_Icon.svg?7d51bb",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4788,7 +5192,9 @@
       },
       "icon": {
         "file": "Mudskipper_Title_Icon.svg",
-        "src": "/images/Mudskipper_Title_Icon.svg?d75286"
+        "src": "/images/Mudskipper_Title_Icon.svg?d75286",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4813,7 +5219,9 @@
       },
       "icon": {
         "file": "Exosuit_Certified_Title_Icon.svg",
-        "src": "/images/Exosuit_Certified_Title_Icon.svg?9df1ee"
+        "src": "/images/Exosuit_Certified_Title_Icon.svg?9df1ee",
+        "width": 512,
+        "height": 630
       }
     },
     {
@@ -4838,7 +5246,9 @@
       },
       "icon": {
         "file": "Still_Standing_Title_Icon.png",
-        "src": "/images/thumb/Still_Standing_Title_Icon.png/60px-Still_Standing_Title_Icon.png?7870b4"
+        "src": "/images/thumb/Still_Standing_Title_Icon.png/60px-Still_Standing_Title_Icon.png?7870b4",
+        "width": 512,
+        "height": 512
       }
     }
   ]

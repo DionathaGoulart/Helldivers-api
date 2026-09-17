@@ -47,6 +47,8 @@ describe("stratagems-index parser", async () => {
       icon: {
         file: "Orbital_Precision_Strike_Stratagem_Icon_Background.svg",
         src: "/images/Orbital_Precision_Strike_Stratagem_Icon_Background.svg?e78550",
+        width: 512,
+        height: 512,
       },
     });
     expect(rows.find((row) => row.name === "CQC-20 Breaching Hammer")).toMatchObject({
@@ -160,6 +162,8 @@ describe("stratagem-page parser", async () => {
     expect(row("fire_rate")).toMatchObject({ text: "630rpm • 760rpm • 900rpm", tab: "Weapon" });
     expect(row("source")).toMatchObject({ text: "Patriotic Administration Center", tab: null });
     expect(mg43.code).toEqual(["Down", "Left", "Down", "Up", "Right"]);
+    // The Stratagem tab holds the icon; the Weapon tab holds the render.
+    expect(mg43.image?.file).toBe("Machine_Gun_Stratagem_Icon_Background.svg");
   });
 
   it("reads section rows and td labels of the General table", async () => {

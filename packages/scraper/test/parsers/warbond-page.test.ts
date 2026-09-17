@@ -51,6 +51,8 @@ describe("warbond-page parser (infobox)", () => {
       image: {
         file: "Castellan's_Creed_Legendary_Warbond_Cover.png",
         src: "/images/thumb/Castellan%27s_Creed_Legendary_Warbond_Cover.png/600px-Castellan%27s_Creed_Legendary_Warbond_Cover.png?661a59",
+        width: 1920,
+        height: 960,
       },
       releaseDate: "August 12th, 2026",
       cost: { text: "1500 Super Credits", currency: "super_credits" },

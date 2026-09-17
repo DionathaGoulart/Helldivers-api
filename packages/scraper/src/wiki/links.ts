@@ -10,6 +10,8 @@ export interface LabeledLink extends WikiLink {
 export interface ImageRef {
   file: string; // wiki file name, e.g. "Hellpod_Space_Optimization_Booster_Icon.svg"
   src: string; // as served, with the version suffix (`?7aa15a`)
+  width: number | null; // size of the original file (`data-file-width`), not of the thumbnail
+  height: number | null;
 }
 
 const NAMESPACED = /^(?:File|Category|Special|Template|MediaWiki):/i;
@@ -38,8 +40,20 @@ export function fileFromSrc(src: string): string | null {
   return match?.[1] ? decodeURIComponent(match[1]) : null;
 }
 
+const fileSize = (value: string | undefined) =>
+  value && /^\d+$/.test(value) ? Number(value) : null;
+
 export function firstImage(node: Cheerio<AnyNode>): ImageRef | null {
-  const src = node.find("img[src]").first().attr("src");
+  const img = node.find("img[src]").first();
+  const src = img.attr("src");
   const file = src ? fileFromSrc(src) : null;
-  return src && file ? { file, src } : null;
+  if (!src || !file) {
+    return null;
+  }
+  return {
+    file,
+    src,
+    width: fileSize(img.attr("data-file-width")),
+    height: fileSize(img.attr("data-file-height")),
+  };
 }

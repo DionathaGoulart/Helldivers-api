@@ -235,7 +235,8 @@ export function parseStratagemPage(html: string, { url }: { url: string }): RawS
       name: druid.title,
       lead: readLead($),
       categories: readCategories($),
-      image: druid.image,
+      // Support weapon pages keep the icon in the `Stratagem` tab, the render in `Weapon`.
+      image: druid.tabImages.get("Stratagem") ?? druid.image,
       infobox,
       code,
       source,

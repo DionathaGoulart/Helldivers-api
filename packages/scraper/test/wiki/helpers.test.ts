@@ -110,7 +110,21 @@ describe("links and images", () => {
   });
 
   it("reads image files from direct and thumbnail sources", () => {
-    expect(firstImage($("#c"))).toEqual({ file: "Icon.svg", src: "/images/Icon.svg?7aa15a" });
+    expect(firstImage($("#c"))).toEqual({
+      file: "Icon.svg",
+      src: "/images/Icon.svg?7aa15a",
+      width: null,
+      height: null,
+    });
+    const thumb = loadHtml(
+      '<div id="t"><img src="/images/thumb/A.png/600px-A.png?97e7bb" width="600" height="338" data-file-width="3840" data-file-height="2160"></div>',
+    );
+    expect(firstImage(thumb("#t"))).toEqual({
+      file: "A.png",
+      src: "/images/thumb/A.png/600px-A.png?97e7bb",
+      width: 3840,
+      height: 2160,
+    });
     expect(fileFromSrc("/images/thumb/Super_Credit.png/51px-Super_Credit.png?178851")).toBe(
       "Super_Credit.png",
     );
@@ -237,7 +251,12 @@ describe("readDruid", () => {
     expect(druid).toMatchObject({
       container: "armor",
       title: "TG-8 Sharpshooter",
-      image: { file: "TG-8.png", src: "/images/thumb/TG-8.png/600px-TG-8.png?1a" },
+      image: {
+        file: "TG-8.png",
+        src: "/images/thumb/TG-8.png/600px-TG-8.png?1a",
+        width: null,
+        height: null,
+      },
       tabs: ["Body Armor", "Helmet"],
     });
     expect([...druid.rows.keys()]).toEqual(["cost", "source"]);
@@ -266,8 +285,18 @@ describe("readDruid", () => {
     );
     expect(tabbed.image).toBeNull();
     expect(Object.fromEntries(tabbed.tabImages)).toEqual({
-      "Body Armor": { file: "TG-8_Armor.png", src: "/images/TG-8_Armor.png?1" },
-      Helmet: { file: "TG-8_Helmet.png", src: "/images/TG-8_Helmet.png?2" },
+      "Body Armor": {
+        file: "TG-8_Armor.png",
+        src: "/images/TG-8_Armor.png?1",
+        width: null,
+        height: null,
+      },
+      Helmet: {
+        file: "TG-8_Helmet.png",
+        src: "/images/TG-8_Helmet.png?2",
+        width: null,
+        height: null,
+      },
     });
     expect(druid.tabImages.size).toBe(0);
   });
@@ -315,7 +344,12 @@ describe("readItemBoxes", () => {
     expect(herald).toEqual({
       name: "Liberty's Herald",
       page: { label: "Liberty's Herald", title: "Liberty's Herald", anchor: null },
-      image: { file: "Herald.png", src: "/images/thumb/Herald.png/200px-Herald.png?b9" },
+      image: {
+        file: "Herald.png",
+        src: "/images/thumb/Herald.png/200px-Herald.png?b9",
+        width: null,
+        height: null,
+      },
       source: {
         label: "Helldivers Mobilize! P2",
         link: {

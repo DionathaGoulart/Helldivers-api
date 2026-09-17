@@ -25,6 +25,8 @@ describe("armor-passives parser", async () => {
       icon: {
         file: "True_Grit_Armor_Passive_Icon.svg",
         src: "/images/True_Grit_Armor_Passive_Icon.svg?4e2218",
+        width: 512,
+        height: 512,
       },
       description:
         "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
@@ -62,6 +64,8 @@ describe("armor passive page parser", () => {
       icon: {
         file: "Blunt-Force_Mitigation_Armor_Passive_Icon.png",
         src: "/images/Blunt-Force_Mitigation_Armor_Passive_Icon.png?b53dde",
+        width: 167,
+        height: 168,
       },
       description:
         "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",

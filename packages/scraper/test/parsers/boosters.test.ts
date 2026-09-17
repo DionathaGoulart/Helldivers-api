@@ -27,6 +27,8 @@ describe("boosters-index parser", async () => {
       icon: {
         file: "Hellpod_Space_Optimization_Booster_Icon.svg",
         src: "/images/Hellpod_Space_Optimization_Booster_Icon.svg?7aa15a",
+        width: 512,
+        height: 512,
       },
       warbond: {
         label: "Helldivers Mobilize",
