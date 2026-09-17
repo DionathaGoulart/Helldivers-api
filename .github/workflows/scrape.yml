@@ -1,0 +1,115 @@
+name: scrape
+
+on:
+  schedule:
+    # Once a day, 18:07 America/Sao_Paulo: away from the top-of-hour load spikes (plan D14).
+    - cron: "7 18 * * *"
+      timezone: "America/Sao_Paulo"
+  workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: Ignore the HTTP cache and refetch every page
+        type: boolean
+        default: false
+      allow_drop:
+        description: Accept a count drop above 10 % (the wiki really removed items)
+        type: boolean
+        default: false
+      only:
+        description: Comma-separated collections, empty for all
+        type: string
+        default: ""
+      drill:
+        description: Rehearse a failure instead of scraping for real (arch §7.1)
+        type: choice
+        default: ""
+        options: ["", "parser-broken", "blocked", "count-drop", "images", "robots-changed"]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-24.04
+    # ~40 min for the pages; the first run with ~850 images took 94 min (plan phase 4).
+    timeout-minutes: 150
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      # Validators and bodies from the last run: a quiet wiki answers 304 to almost every request.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/http
+          key: http-${{ github.run_id }}
+          restore-keys: http-
+      # Sunday refetches everything, so a page edited without changing its validators is caught.
+      - id: mode
+        run: |
+          if [ "${{ inputs.full_refresh }}" = "true" ] || [ "$(TZ=America/Sao_Paulo date +%u)" = "7" ]; then
+            echo "full_refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "full_refresh=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Scrape
+        run: pnpm scrape --report .reports
+        env:
+          SCRAPER_FULL_REFRESH: ${{ steps.mode.outputs.full_refresh }}
+          SCRAPER_ALLOW_DROP: ${{ inputs.allow_drop }}
+          SCRAPER_ONLY: ${{ inputs.only }}
+          SCRAPER_DRILL: ${{ inputs.drill }}
+          B2_S3_ENDPOINT: ${{ vars.B2_S3_ENDPOINT }}
+          B2_BUCKET: ${{ vars.B2_BUCKET }}
+          B2_WRITE_KEY_ID: ${{ secrets.B2_WRITE_KEY_ID }}
+          B2_WRITE_APP_KEY: ${{ secrets.B2_WRITE_APP_KEY }}
+      - run: pnpm validate:data
+      - id: commit
+        name: Commit the dataset when it changed
+        run: |
+          if [ -z "$(git status --porcelain data/)" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -F .reports/commit-message.txt
+          git pull --rebase
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+      # GitHub disables a scheduled workflow after 60 days without repository activity (arch §7.3).
+      - name: Keepalive
+        if: steps.commit.outputs.changed == 'false'
+        run: pnpm keepalive --max-idle-days 45
+      - name: Job summary
+        if: always()
+        run: cat .reports/summary.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Alert
+        if: failure()
+        run: pnpm alert --report .reports
+        env:
+          GH_TOKEN: ${{ github.token }}
+      # A green run closes the alerts an earlier failure left open.
+      - name: Close alerts
+        if: success()
+        run: pnpm alert --report .reports
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+  # A push made with GITHUB_TOKEN starts no workflow, so the deploy is called, not triggered.
+  deploy:
+    needs: scrape
+    if: needs.scrape.outputs.changed == 'true'
+    uses: ./.github/workflows/deploy.yml
+    secrets: inherit

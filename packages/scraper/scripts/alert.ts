@@ -10,18 +10,38 @@ import {
 } from "../src/publish/alert.ts";
 import { RUN_REPORT_FILE, type RunReport } from "../src/publish/report.ts";
 
-// Usage: pnpm alert [--report .reports] [--deploy smoke-failed] [--dry-run]
+// Usage: pnpm alert [--report .reports] [--deploy [--failed smoke-failed]] [--dry-run]
 // Reads `.reports/run.json`: a failed run opens or comments on its `scraper-alert` issue, a green
-// one closes the open scrape alerts (arch §7.2). `--deploy <kind>` skips the report and opens
-// `[deploy] <kind>`; `deploy.yml` runs it on failure. Needs GH_TOKEN and GITHUB_REPOSITORY.
+// one closes the open scrape alerts (arch §7.2). `--deploy` works on the `[deploy] …` alerts
+// instead: with `--failed <kind>` it opens one, without it closes them after a green deploy.
+// Needs GH_TOKEN and GITHUB_REPOSITORY.
 
 const { values } = parseArgs({
   options: {
     report: { type: "string", default: ".reports" },
-    deploy: { type: "string" },
+    deploy: { type: "boolean", default: false },
+    failed: { type: "string" },
     "dry-run": { type: "boolean", default: false },
   },
 });
+
+const EMPTY_REPORT: RunReport = {
+  ok: false,
+  changed: false,
+  date: new Date().toISOString().slice(0, 10),
+  mode: "online",
+  fullRefresh: false,
+  dataVersion: null,
+  previousDataVersion: null,
+  counts: [],
+  changes: [],
+  conflicts: 0,
+  warnings: [],
+  failure: null,
+  http: null,
+  images: null,
+  durationMs: 0,
+};
 
 const cwd = process.env.INIT_CWD ?? process.cwd();
 const repo = process.env.GITHUB_REPOSITORY;
@@ -36,10 +56,23 @@ const run = {
 };
 
 const alert = values.deploy
-  ? deployAlert(values.deploy, run)
+  ? values.failed
+    ? deployAlert(values.failed, run)
+    : null
   : await (async () => {
       const file = join(resolve(cwd, values.report), RUN_REPORT_FILE);
-      const report = JSON.parse(await readFile(file, "utf8")) as RunReport;
+      // The job can fail before the scraper writes its report (install, cache, validate:data).
+      const report = await readFile(file, "utf8").then(
+        (text) => JSON.parse(text) as RunReport,
+        (): RunReport => ({
+          ...EMPTY_REPORT,
+          failure: {
+            kind: "error",
+            collection: null,
+            messages: [`the run failed before writing \`${values.report}/${RUN_REPORT_FILE}\``],
+          },
+        }),
+      );
       return report.ok ? null : scrapeAlert(report, run);
     })();
 

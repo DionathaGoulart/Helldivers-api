@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: deploy
@@ -46,4 +47,16 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      - run: pnpm smoke --base https://helldivers-api.pages.dev
+      - id: smoke
+        run: pnpm smoke --base https://helldivers-api.pages.dev
+      # A failed deploy keeps the previous deployment live; the issue says which step broke.
+      - name: Alert
+        if: failure()
+        run: pnpm alert --deploy --failed ${{ steps.smoke.conclusion == 'failure' && 'smoke-failed' || 'deploy-failed' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Close alerts
+        if: success()
+        run: pnpm alert --deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
