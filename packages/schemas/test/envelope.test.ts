@@ -1,6 +1,14 @@
 import { describe, expect, it } from "vitest";
 import { Booster } from "../src/entities/booster.ts";
-import { ChangelogEntry, DatasetManifest, List, Meta, Problem } from "../src/envelope.ts";
+import {
+  ChangelogEntry,
+  DatasetManifest,
+  List,
+  Meta,
+  Problem,
+  QueryList,
+  SearchResponse,
+} from "../src/envelope.ts";
 
 const meta = {
   apiVersion: "v1",
@@ -32,6 +40,59 @@ describe("List", () => {
   it("wraps entity arrays", () => {
     expect(List(Booster).safeParse({ meta, data: [] }).success).toBe(true);
     expect(List(Booster).safeParse({ meta, data: [{ id: "x" }] }).success).toBe(false);
+  });
+});
+
+describe("QueryList", () => {
+  const page = {
+    meta: {
+      ...meta,
+      count: 0,
+      total: 51,
+      page: 2,
+      limit: 50,
+      filters: { category: ["primary"], hasCape: true, q: "lib" },
+      sort: "-name",
+      fields: ["id", "name"],
+    },
+    data: [],
+    links: { self: "/v1/query/boosters?page=2&limit=50", next: null, prev: "/v1/query/boosters" },
+  };
+
+  it("adds paging, filters and links to the list envelope", () => {
+    expect(QueryList(Booster).safeParse(page).success).toBe(true);
+  });
+
+  it("requires count and positive paging", () => {
+    const { count: _count, ...withoutCount } = page.meta;
+    expect(QueryList(Booster).safeParse({ ...page, meta: withoutCount }).success).toBe(false);
+    expect(QueryList(Booster).safeParse({ ...page, meta: { ...page.meta, page: 0 } }).success).toBe(
+      false,
+    );
+  });
+});
+
+describe("SearchResponse", () => {
+  const response = {
+    meta: { ...meta, count: 1, total: 1, q: "lib", collections: null, limit: 10 },
+    data: [
+      {
+        collection: "weapons",
+        id: "ar-23-liberator",
+        name: "AR-23 Liberator",
+        image: "/images/v1/weapons/ar-23-liberator.932ff63d.webp",
+        url: "/v1/weapons/ar-23-liberator.json",
+      },
+    ],
+  };
+
+  it("accepts a result with an image", () => {
+    expect(SearchResponse.safeParse(response).success).toBe(true);
+  });
+
+  it("rejects unknown collections in the filter", () => {
+    const withBadCollection = { ...response.meta, collections: ["enemies"] };
+    expect(SearchResponse.safeParse({ ...response, meta: withBadCollection }).success).toBe(false);
   });
 });
 
@@ -88,6 +149,18 @@ describe("DatasetManifest", () => {
 
   it("accepts a partial set of collections", () => {
     expect(DatasetManifest.safeParse(manifest).success).toBe(true);
+  });
+
+  it("accepts the URLs added by the API build", () => {
+    const boosters = {
+      count: 18,
+      url: "/v1/boosters.json",
+      csv: "/v1/boosters.csv",
+      schema: "/v1/schemas/booster.json",
+    };
+    expect(DatasetManifest.safeParse({ ...manifest, collections: { boosters } }).success).toBe(
+      true,
+    );
   });
 
   it("rejects unknown collections", () => {

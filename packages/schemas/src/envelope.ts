@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Collection, Id } from "./common.ts";
+import { Collection, Id, ImageUrl } from "./common.ts";
 
 // Response envelope, errors and dataset-level files (arch §5.3, §6.6, §8.3).
 
@@ -20,6 +20,46 @@ export const Meta = z.object({
 
 export const List = <T extends z.ZodType>(item: T) => z.object({ meta: Meta, data: z.array(item) });
 export const Item = <T extends z.ZodType>(item: T) => z.object({ meta: Meta, data: item });
+
+// `/v1/query/<collection>` (arch §8.3): the list envelope plus paging, the parsed filters and links.
+export const QueryMeta = Meta.extend({
+  count: z.number().int().nonnegative(), // items in this page
+  total: z.number().int().nonnegative(), // items matching the filters
+  page: z.number().int().positive(),
+  limit: z.number().int().positive(),
+  filters: z.record(z.string(), z.union([z.array(z.string()), z.boolean(), z.string()])),
+  sort: z.string(),
+  fields: z.array(z.string()).nullable(), // null = every field
+});
+
+// Relative URLs (`/v1/query/weapons?page=2&limit=50`); null when there is no such page.
+export const QueryLinks = z.object({
+  self: z.string(),
+  next: z.string().nullable(),
+  prev: z.string().nullable(),
+});
+
+export const QueryList = <T extends z.ZodType>(item: T) =>
+  z.object({ meta: QueryMeta, data: z.array(item), links: QueryLinks });
+
+// `/v1/search` (prd FR-30).
+export const SearchMeta = Meta.extend({
+  count: z.number().int().nonnegative(), // results returned
+  total: z.number().int().nonnegative(), // results before the limit
+  q: z.string(),
+  collections: z.array(Collection).nullable(), // null = every collection
+  limit: z.number().int().positive(),
+});
+
+export const SearchResult = z.object({
+  collection: Collection,
+  id: Id,
+  name: z.string(),
+  image: ImageUrl.nullable(),
+  url: z.string(), // `/v1/<collection>/<id>.json`
+});
+
+export const SearchResponse = z.object({ meta: SearchMeta, data: z.array(SearchResult) });
 
 // RFC 9457 problem details.
 export const Problem = z.object({
@@ -56,18 +96,31 @@ export const ChangelogEntry = z
     "summary counts must match changes",
   );
 
-// `/v1/meta.json`. The API build adds per-collection URLs in Phase 5.
+// `/v1/meta.json`. The scraper writes counts; the API build adds the relative URLs.
+export const CollectionManifest = z.object({
+  count: z.number().int().nonnegative(),
+  url: z.string().optional(), // `/v1/weapons.json`
+  csv: z.string().optional(), // `/v1/weapons.csv`
+  schema: z.string().optional(), // `/v1/schemas/weapon.json`
+});
+
 export const DatasetManifest = z.object({
   apiVersion: z.literal("v1"),
   dataVersion: DataVersion,
   generatedAt: z.iso.datetime(),
   source: DataSource,
-  collections: z.partialRecord(Collection, z.object({ count: z.number().int().nonnegative() })),
+  collections: z.partialRecord(Collection, CollectionManifest),
 });
 
 export type DataVersion = z.infer<typeof DataVersion>;
 export type Meta = z.infer<typeof Meta>;
+export type QueryMeta = z.infer<typeof QueryMeta>;
+export type QueryLinks = z.infer<typeof QueryLinks>;
+export type SearchMeta = z.infer<typeof SearchMeta>;
+export type SearchResult = z.infer<typeof SearchResult>;
+export type SearchResponse = z.infer<typeof SearchResponse>;
 export type Problem = z.infer<typeof Problem>;
 export type Change = z.infer<typeof Change>;
 export type ChangelogEntry = z.infer<typeof ChangelogEntry>;
+export type CollectionManifest = z.infer<typeof CollectionManifest>;
 export type DatasetManifest = z.infer<typeof DatasetManifest>;
