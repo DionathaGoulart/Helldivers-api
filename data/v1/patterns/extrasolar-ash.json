@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Extrasolar Ash",
     "aliases": [],
     "description": "Extrasolar Ash patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/extrasolar-ash-hellpod.bbf1fd6d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Extrasolar_Ash_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Extrasolar Ash Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Extrasolar_Ash_Pattern",
@@ -25,7 +30,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/extrasolar-ash-hellpod.bbf1fd6d.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Extrasolar_Ash_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Righteous Revenants",
@@ -40,7 +50,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/extrasolar-ash-shuttle.64d02545.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Extrasolar_Ash_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Righteous Revenants",
@@ -55,7 +70,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/extrasolar-ash-exosuit.32bb10b0.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Extrasolar_Ash_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Righteous Revenants",
@@ -70,7 +90,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/extrasolar-ash-vehicle.ed5142b6.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Extrasolar_Ash_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Righteous Revenants",

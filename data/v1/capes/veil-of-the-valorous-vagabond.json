@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Veil of the Valorous Vagabond",
     "aliases": [],
     "description": "Legend tells of the unnamed Helldiver, wandering the edges of Super Earth's reach, delivering Democracy and leveling lawlessness wherever the tumbleweeds lead. Wear this, and keep the legend alive.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/veil-of-the-valorous-vagabond.55102097.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Veil_of_the_Valorous_Vagabond_Cape_Render.png"
+    },
     "wiki": {
       "title": "Veil of the Valorous Vagabond",
       "url": "https://helldivers.wiki.gg/wiki/Veil_of_the_Valorous_Vagabond",

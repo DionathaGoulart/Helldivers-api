@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "A/M-12 Mortar Sentry",
     "aliases": [],
     "description": "The A/M-12 Mortar Sentry is a very powerful defensive stratagem able to destroy enemies from range, and behind cover.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/a-m-12-mortar-sentry.8abd9c62.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Mortar_Sentry_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "A/M-12 Mortar Sentry",
       "url": "https://helldivers.wiki.gg/wiki/A/M-12_Mortar_Sentry",

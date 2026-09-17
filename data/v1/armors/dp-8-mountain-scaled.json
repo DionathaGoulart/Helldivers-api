@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "DP-8 Mountain-Scaled",
     "aliases": [],
     "description": "This armor recalls the legendary heroes who scared a ravenous Hive Lord away from a colony village, using only the village's battery of patriotic fireworks.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/dp-8-mountain-scaled.140a7f1d.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "DP-8_Mountain-Scaled_Armor_Render.png"
+    },
     "wiki": {
       "title": "DP-8 Mountain-Scaled",
       "url": "https://helldivers.wiki.gg/wiki/DP-8_Mountain-Scaled",

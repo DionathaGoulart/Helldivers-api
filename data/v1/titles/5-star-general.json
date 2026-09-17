@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "5-Star General",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/titles/5-star-general.973795b4.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Level_120_5-Star_General_Rank_Icon.svg"
+    },
     "wiki": {
       "title": "5-Star General",
       "url": "https://helldivers.wiki.gg/wiki/5-Star_General",

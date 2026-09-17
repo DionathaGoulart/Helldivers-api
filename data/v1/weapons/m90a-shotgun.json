@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "M90A Shotgun",
     "aliases": [],
     "description": "The M90A Shotgun is a Primary Shotgun, able to inflict extremely high damage per round in exchange for a significantly reduced magazine size.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/m90a-shotgun.6ace6747.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "M90A_Shotgun_Primary_Render.png"
+    },
     "wiki": {
       "title": "M90A Shotgun",
       "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",

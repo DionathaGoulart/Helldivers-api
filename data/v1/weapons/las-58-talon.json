@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "LAS-58 Talon",
     "aliases": [],
     "description": "The LAS-58 Talon is a Secondary Special, energy-based semi-automatic laser revolver that fires pulses similarly to the LAS-16 Sickle.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/las-58-talon.6175e3f1.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "LAS-58_Talon_Secondary_Render.png"
+    },
     "wiki": {
       "title": "LAS-58 Talon",
       "url": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",

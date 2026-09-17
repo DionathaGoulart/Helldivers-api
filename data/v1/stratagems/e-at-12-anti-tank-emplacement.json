@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "E/AT-12 Anti-Tank Emplacement",
     "aliases": [],
     "description": "The Anti-Tank Emplacement, shortened to AT Emplacement or ATE, is a Stratagem that deploys a heavy anti-tank cannon.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/e-at-12-anti-tank-emplacement.ec0c4751.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Anti-Tank_Emplacement_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "E/AT-12 Anti-Tank Emplacement",
       "url": "https://helldivers.wiki.gg/wiki/E/AT-12_Anti-Tank_Emplacement",

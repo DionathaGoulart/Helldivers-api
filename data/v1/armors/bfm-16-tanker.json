@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "BFM-16 Tanker",
     "aliases": [],
     "description": "BFM-16 Tanker is a set of light armor in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
+      "width": 213,
+      "height": 512,
+      "wikiFile": "BFM-16_Tanker_Armor_Render.png"
+    },
     "wiki": {
       "title": "BFM-16 Tanker",
       "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",

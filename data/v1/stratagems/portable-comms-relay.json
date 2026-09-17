@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Portable Comms Relay",
     "aliases": [],
     "description": "The Portable Comms Relay Stratagem is only available during one of the Infiltrate Illuminate Lair Mission's Objective, and is used to deposit the Tactical Video Camera and upload its data.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/portable-comms-relay.b153c351.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Cargo_Container_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "Portable Comms Relay",
       "url": "https://helldivers.wiki.gg/wiki/Portable_Comms_Relay",

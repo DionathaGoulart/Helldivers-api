@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "M-1000 Maxigun",
     "aliases": [],
     "description": "The M-1000 Maxigun is a Stratagem that calls down a Support Weapon, consisting of a belt-fed minigun and ammo backpack. It can fire continuously without the need to reload.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/m-1000-maxigun.8ac5b316.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Maxigun_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "M-1000 Maxigun",
       "url": "https://helldivers.wiki.gg/wiki/M-1000_Maxigun",

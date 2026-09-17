@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CE-67 Titan",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/helmets/ce-67-titan.da1ff695.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-67_Titan_Helmet_Render.png"
+    },
     "wiki": {
       "title": "CE-67 Titan",
       "url": "https://helldivers.wiki.gg/wiki/CE-67_Titan",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CM-14 Physician",
     "aliases": [],
     "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signal to all Helldivers that help is at hand.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cm-14-physician.bc734a0c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CM-14_Physician_Armor_Render.png"
+    },
     "wiki": {
       "title": "CM-14 Physician",
       "url": "https://helldivers.wiki.gg/wiki/CM-14_Physician",

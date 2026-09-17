@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "VG-70 Variable",
     "aliases": [],
     "description": "VG-70 Variable is a Primary Special weapon. It is a seven-barrelled volley gun with three different firing modes: Auto, Volley, and Total, as well as variable rpm options.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/vg-70-variable.4014f36a.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "VG-70_Variable_Primary_Render.png"
+    },
     "wiki": {
       "title": "VG-70 Variable",
       "url": "https://helldivers.wiki.gg/wiki/VG-70_Variable",

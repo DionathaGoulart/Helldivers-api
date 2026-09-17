@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Fre Liberam",
     "aliases": [],
     "description": "Each purchase of this cape comes with a complimentary will and testament amendment form, which guarantees the soon-to-be-deceased a prominent spot on the Wall of Martyrs.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/fre-liberam.30b27a73.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Fre_Liberam_Cape_Render.png"
+    },
     "wiki": {
       "title": "Fre Liberam",
       "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",

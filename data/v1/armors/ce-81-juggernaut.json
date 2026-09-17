@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CE-81 Juggernaut",
     "aliases": [],
     "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ce-81-juggernaut.a43f6e9c.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CE-81_Juggernaut_Armor_Render.png"
+    },
     "wiki": {
       "title": "CE-81 Juggernaut",
       "url": "https://helldivers.wiki.gg/wiki/CE-81_Juggernaut",

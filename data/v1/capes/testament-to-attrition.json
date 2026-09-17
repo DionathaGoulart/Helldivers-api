@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Testament to Attrition",
     "aliases": [],
     "description": "Salvaged from a deep-storage vault, this well-ventilated cape symbolizes tenacious survival. Its visible scars bestow immediate veteran status, reminding all onlookers that the spirit of tireless service is immortal.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/testament-to-attrition.d54c82b5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Testament_to_Attrition_Cape_Render.png"
+    },
     "wiki": {
       "title": "Testament to Attrition",
       "url": "https://helldivers.wiki.gg/wiki/Testament_to_Attrition",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "MD-8 Gas Mines",
     "aliases": [],
     "description": "The Gas Mines are a Stratagem that deploys a minefield which releases toxic gas when triggered.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/md-8-gas-mines.c286179f.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Gas_Mines_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "MD-8 Gas Mines",
       "url": "https://helldivers.wiki.gg/wiki/MD-8_Gas_Mines",

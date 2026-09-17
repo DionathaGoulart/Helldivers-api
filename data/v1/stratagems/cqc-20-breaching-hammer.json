@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CQC-20 Breaching Hammer",
     "aliases": [],
     "description": "The CQC-20 Breaching Hammer is a Melee Support Weapon, which is capable of dealing explosive damage by striking enemies.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/cqc-20-breaching-hammer.9e1cc1c6.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Breaching_Hammer_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "CQC-20 Breaching Hammer",
       "url": "https://helldivers.wiki.gg/wiki/CQC-20_Breaching_Hammer",

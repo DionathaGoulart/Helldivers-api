@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "count": 27,
     "source": {
       "name": "The Helldivers Wiki",
@@ -16,7 +16,12 @@
       "name": "Arctic",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/arctic-weapon.e45c542e.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -27,7 +32,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/arctic-weapon.e45c542e.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -48,7 +58,12 @@
       "name": "Arctic Camo",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/arctic-camo-weapon.ec5087b6.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -59,7 +74,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/arctic-camo-weapon.ec5087b6.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Arctic_Camo_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -80,7 +100,12 @@
       "name": "Castellans Green",
       "aliases": [],
       "description": "Castellans Green patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/castellans-green-hellpod.6460ffbf.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Castellans Green Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
@@ -93,7 +118,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-hellpod.6460ffbf.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Castellan's Creed",
@@ -108,7 +138,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-shuttle.9da0fbf6.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Castellan's Creed",
@@ -123,7 +158,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-exosuit.961cc930.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Castellan's Creed",
@@ -138,7 +178,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/castellans-green-vehicle.7fbefe0c.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Castellans_Green_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Castellan's Creed",
@@ -159,7 +204,12 @@
       "name": "Chameleon Camo",
       "aliases": [],
       "description": "Chameleon Camo patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/chameleon-camo-hellpod.7bcd025f.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Chameleon_Camo_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Chameleon Camo Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Chameleon_Camo_Pattern",
@@ -170,7 +220,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/chameleon-camo-hellpod.7bcd025f.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Chameleon_Camo_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Python Commandos",
@@ -185,7 +240,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/chameleon-camo-shuttle.4af85e3d.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "Chameleon_Camo_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Python Commandos",
@@ -200,7 +260,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/chameleon-camo-exosuit.bdc9a61a.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "Chameleon_Camo_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Python Commandos",
@@ -215,7 +280,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/chameleon-camo-vehicle.057a6951.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "Chameleon_Camo_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Python Commandos",
@@ -236,7 +306,12 @@
       "name": "Churned Earth",
       "aliases": [],
       "description": "Churned Earth patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/churned-earth-hellpod.b17f1462.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Churned_Earth_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Churned Earth Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Churned_Earth_Pattern",
@@ -247,7 +322,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/churned-earth-hellpod.b17f1462.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Churned_Earth_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Siege Breakers",
@@ -262,7 +342,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/churned-earth-shuttle.ad5a2542.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Churned_Earth_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Siege Breakers",
@@ -277,7 +362,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/churned-earth-exosuit.428b27f3.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Churned_Earth_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Siege Breakers",
@@ -292,7 +382,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/churned-earth-vehicle.8643784d.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Churned_Earth_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Siege Breakers",
@@ -313,7 +408,12 @@
       "name": "Concrete Jungle",
       "aliases": [],
       "description": "Concrete Jungle patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/concrete-jungle-hellpod.4fa14e80.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Concrete_Jungle_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Concrete Jungle Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Concrete_Jungle_Pattern",
@@ -324,7 +424,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/concrete-jungle-hellpod.4fa14e80.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Concrete_Jungle_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Urban Legends",
@@ -339,7 +444,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/concrete-jungle-shuttle.3599c3f5.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Concrete_Jungle_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Urban Legends",
@@ -354,7 +464,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/concrete-jungle-exosuit.2eebb542.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Concrete_Jungle_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Urban Legends",
@@ -369,7 +484,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/concrete-jungle-vehicle.5ed75b0f.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Concrete_Jungle_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Urban Legends",
@@ -390,7 +510,12 @@
       "name": "Default",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/default-weapon.eaccb0c6.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Primary_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -401,7 +526,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/default-weapon.eaccb0c6.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Primary_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -422,7 +552,12 @@
       "name": "Desert",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/desert-weapon.5b4dcdbe.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -433,7 +568,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/desert-weapon.5b4dcdbe.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Desert_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -454,7 +594,12 @@
       "name": "Desert Camo",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/desert-camo-weapon.1ec8d695.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -465,7 +610,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/desert-camo-weapon.1ec8d695.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Desert_Camo_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -486,7 +636,12 @@
       "name": "Extrasolar Ash",
       "aliases": [],
       "description": "Extrasolar Ash patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/extrasolar-ash-hellpod.bbf1fd6d.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Extrasolar_Ash_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Extrasolar Ash Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Extrasolar_Ash_Pattern",
@@ -497,7 +652,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/extrasolar-ash-hellpod.bbf1fd6d.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Extrasolar_Ash_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Righteous Revenants",
@@ -512,7 +672,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/extrasolar-ash-shuttle.64d02545.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Extrasolar_Ash_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Righteous Revenants",
@@ -527,7 +692,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/extrasolar-ash-exosuit.32bb10b0.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Extrasolar_Ash_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Righteous Revenants",
@@ -542,7 +712,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/extrasolar-ash-vehicle.ed5142b6.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Extrasolar_Ash_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Righteous Revenants",
@@ -563,7 +738,12 @@
       "name": "Forest",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/forest-weapon.c65816db.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -574,7 +754,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/forest-weapon.c65816db.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Forest_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -595,7 +780,12 @@
       "name": "Forest Camo",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/forest-camo-weapon.15e35150.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -606,7 +796,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/forest-camo-weapon.15e35150.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Forest_Camo_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -627,7 +822,12 @@
       "name": "Helldiver",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/helldiver-weapon.d85906c7.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -638,7 +838,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/helldiver-weapon.d85906c7.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Helldiver_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -659,7 +864,12 @@
       "name": "Heritage Olive",
       "aliases": [],
       "description": "Heritage Olive patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/heritage-olive-hellpod.58e4161c.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Heritage_Olive_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Heritage Olive Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Heritage_Olive_Pattern",
@@ -670,7 +880,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/heritage-olive-hellpod.58e4161c.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Heritage_Olive_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Entrenched Division",
@@ -685,7 +900,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/heritage-olive-shuttle.02d04022.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Heritage_Olive_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Entrenched Division",
@@ -700,7 +920,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/heritage-olive-exosuit.4f7e36ba.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Heritage_Olive_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Entrenched Division",
@@ -715,7 +940,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/heritage-olive-vehicle.f9645a01.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Heritage_Olive_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Entrenched Division",
@@ -736,7 +966,12 @@
       "name": "Inconspicuous Black",
       "aliases": [],
       "description": "Inconspicuous Black patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/inconspicuous-black-hellpod.fd260c9a.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Inconspicuous_Black_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Inconspicuous Black Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Inconspicuous_Black_Pattern",
@@ -747,7 +982,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/inconspicuous-black-hellpod.fd260c9a.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Inconspicuous_Black_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Truth Enforcers",
@@ -762,7 +1002,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/inconspicuous-black-shuttle.84d33568.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Inconspicuous_Black_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Truth Enforcers",
@@ -777,7 +1022,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/inconspicuous-black-exosuit.0e71d0fe.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Inconspicuous_Black_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Truth Enforcers",
@@ -792,7 +1042,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/inconspicuous-black-vehicle.ac3b86c0.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Inconspicuous_Black_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Truth Enforcers",
@@ -813,7 +1068,12 @@
       "name": "Mean Green",
       "aliases": [],
       "description": "Mean Green patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/mean-green-hellpod.e18c524a.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Mean_Green_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Mean Green Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Mean_Green_Pattern",
@@ -824,7 +1084,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mean-green-hellpod.e18c524a.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mean_Green_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Halo: ODST",
@@ -839,7 +1104,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mean-green-shuttle.e2269dc3.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mean_Green_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Halo: ODST",
@@ -854,7 +1124,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mean-green-exosuit.eb32dcf3.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mean_Green_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Halo: ODST",
@@ -869,7 +1144,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mean-green-vehicle.a58fb168.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mean_Green_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Halo: ODST",
@@ -890,7 +1170,12 @@
       "name": "Mobile White",
       "aliases": [],
       "description": "Mobile White patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/mobile-white-hellpod.f38301ba.webp",
+        "width": 200,
+        "height": 200,
+        "wikiFile": "Mobile_White_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Mobile White Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Mobile_White_Pattern",
@@ -901,7 +1186,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mobile-white-hellpod.f38301ba.webp",
+            "width": 200,
+            "height": 200,
+            "wikiFile": "Mobile_White_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Exo Experts",
@@ -916,7 +1206,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mobile-white-shuttle.d8923bd8.webp",
+            "width": 277,
+            "height": 168,
+            "wikiFile": "Mobile_White_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Exo Experts",
@@ -931,7 +1226,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mobile-white-exosuit.d9edc13d.webp",
+            "width": 217,
+            "height": 265,
+            "wikiFile": "Mobile_White_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Exo Experts",
@@ -946,7 +1246,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mobile-white-vehicle.cbb0725d.webp",
+            "width": 239,
+            "height": 172,
+            "wikiFile": "Mobile_White_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Exo Experts",
@@ -967,7 +1272,12 @@
       "name": "Mustard",
       "aliases": [],
       "description": "Mustard patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/mustard-hellpod.85785d87.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Mustard_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Mustard Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Mustard_Pattern",
@@ -978,7 +1288,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mustard-hellpod.85785d87.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mustard_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Chemical Agents",
@@ -993,7 +1308,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mustard-shuttle.185caef1.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mustard_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Chemical Agents",
@@ -1008,7 +1328,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mustard-exosuit.fb54089a.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mustard_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Chemical Agents",
@@ -1023,7 +1348,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/mustard-vehicle.7f9cd729.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Mustard_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Chemical Agents",
@@ -1044,7 +1374,12 @@
       "name": "Night",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/night-weapon.0ed5aba6.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Night_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -1055,7 +1390,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/night-weapon.0ed5aba6.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Night_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -1076,7 +1416,12 @@
       "name": "Rattlesnake",
       "aliases": [],
       "description": "Rattlesnake patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/rattlesnake-hellpod.80fad1ce.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Rattlesnake_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Rattlesnake Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Rattlesnake_Pattern",
@@ -1087,7 +1432,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/rattlesnake-hellpod.80fad1ce.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Rattlesnake_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Dust Devils",
@@ -1102,7 +1452,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/rattlesnake-shuttle.524d494a.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Rattlesnake_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Dust Devils",
@@ -1117,7 +1472,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/rattlesnake-exosuit.addf4aed.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Rattlesnake_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Dust Devils",
@@ -1132,7 +1492,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/rattlesnake-vehicle.431de32d.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Rattlesnake_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Dust Devils",
@@ -1153,7 +1518,12 @@
       "name": "Safety Orange",
       "aliases": [],
       "description": "Safety Orange patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/safety-orange-hellpod.7ac6a527.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Safety_Orange_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Safety Orange Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Safety_Orange_Pattern",
@@ -1164,7 +1534,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/safety-orange-hellpod.7ac6a527.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Safety_Orange_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Freedom's Flame",
@@ -1179,7 +1554,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/safety-orange-shuttle.d1f472a5.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Safety_Orange_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Freedom's Flame",
@@ -1194,7 +1574,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/safety-orange-exosuit.0f48988e.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Safety_Orange_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Freedom's Flame",
@@ -1209,7 +1594,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/safety-orange-vehicle.83751465.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Safety_Orange_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Freedom's Flame",
@@ -1230,7 +1620,12 @@
       "name": "Standard",
       "aliases": [],
       "description": "Standard patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/standard-hellpod.814873dd.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Standard_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Standard Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Standard_Pattern",
@@ -1241,7 +1636,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/standard-hellpod.814873dd.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Standard_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "default",
             "label": "Starter Equipment",
@@ -1253,7 +1653,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/standard-shuttle.2bd1b9a3.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Standard_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "default",
             "label": "Starter Equipment",
@@ -1265,7 +1670,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/standard-exosuit.adf8daf4.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Standard_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "default",
             "label": "Starter Equipment",
@@ -1277,7 +1687,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/standard-vehicle.91421304.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Standard_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "default",
             "label": "Starter Equipment",
@@ -1295,7 +1710,12 @@
       "name": "True Blue",
       "aliases": [],
       "description": "True Blue patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/true-blue-hellpod.584a47cd.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "True_Blue_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "True Blue Pattern",
         "url": "https://helldivers.wiki.gg/wiki/True_Blue_Pattern",
@@ -1306,7 +1726,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/true-blue-hellpod.584a47cd.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "True_Blue_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Force of Law",
@@ -1321,7 +1746,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/true-blue-shuttle.f728bbd2.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "True_Blue_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Force of Law",
@@ -1336,7 +1766,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/true-blue-exosuit.52fd64b3.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "True_Blue_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Force of Law",
@@ -1351,7 +1786,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/true-blue-vehicle.93dd1e7c.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "True_Blue_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Force of Law",
@@ -1372,7 +1812,12 @@
       "name": "Undergrowth",
       "aliases": [],
       "description": "Undergrowth patterns are selectable wraps for your various vehicles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/undergrowth-hellpod.93487cc9.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Undergrowth_Hellpod_Pattern_Icon.png"
+      },
       "wiki": {
         "title": "Undergrowth Pattern",
         "url": "https://helldivers.wiki.gg/wiki/Undergrowth_Pattern",
@@ -1383,7 +1828,12 @@
       "variants": [
         {
           "target": "hellpod",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/undergrowth-hellpod.93487cc9.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Undergrowth_Hellpod_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Viper Commandos",
@@ -1398,7 +1848,12 @@
         },
         {
           "target": "shuttle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/undergrowth-shuttle.04dddb39.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Undergrowth_Shuttle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Viper Commandos",
@@ -1413,7 +1868,12 @@
         },
         {
           "target": "exosuit",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/undergrowth-exosuit.cfc06148.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Undergrowth_Exosuit_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Viper Commandos",
@@ -1428,7 +1888,12 @@
         },
         {
           "target": "vehicle",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/undergrowth-vehicle.ccfbe621.webp",
+            "width": 512,
+            "height": 512,
+            "wikiFile": "Undergrowth_Vehicle_Pattern_Icon.png"
+          },
           "source": {
             "type": "warbond",
             "label": "Viper Commandos",
@@ -1449,7 +1914,12 @@
       "name": "Urban",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/urban-weapon.30e15433.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -1460,7 +1930,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/urban-weapon.30e15433.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Urban_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -1481,7 +1956,12 @@
       "name": "Urban Camo",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/urban-camo-weapon.a366cb65.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -1492,7 +1972,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/urban-camo-weapon.a366cb65.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Urban_Camo_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",
@@ -1513,7 +1998,12 @@
       "name": "Venus",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/patterns/venus-weapon.fc2c13cf.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png"
+      },
       "wiki": {
         "title": "Cosmetics",
         "url": "https://helldivers.wiki.gg/wiki/Cosmetics#Patterns",
@@ -1524,7 +2014,12 @@
       "variants": [
         {
           "target": "weapon",
-          "image": null,
+          "image": {
+            "url": "/images/v1/patterns/venus-weapon.fc2c13cf.webp",
+            "width": 512,
+            "height": 288,
+            "wikiFile": "AR-23P_Liberator_Penetrator_Venus_Pattern_Render.png"
+          },
           "source": {
             "type": "requisition",
             "label": "Requisition Slips",

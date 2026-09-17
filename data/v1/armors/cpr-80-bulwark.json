@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CPR-80 Bulwark",
     "aliases": [],
     "description": "This armour pays tribute to the immovable heroes of the front line—those who refuse to acknowledge incoming fire, and consider \"dodging\" to be an abstract concept akin to cowardice.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/cpr-80-bulwark.c69dd6b0.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "CPR-80_Bulwark_Armor_Render.png"
+    },
     "wiki": {
       "title": "CPR-80 Bulwark",
       "url": "https://helldivers.wiki.gg/wiki/CPR-80_Bulwark",

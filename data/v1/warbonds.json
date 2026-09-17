@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "count": 25,
     "source": {
       "name": "The Helldivers Wiki",
@@ -16,7 +16,12 @@
       "name": "Borderline Justice",
       "aliases": [],
       "description": "Borderline Justice is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/borderline-justice.1c583d3f.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Borderline_Justice_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Borderline Justice Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Borderline_Justice_Premium_Warbond",
@@ -279,7 +284,12 @@
         "Castellan’s Creed"
       ],
       "description": "Castellan's Creed is a Legendary Warbond available for 1,500 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/castellans-creed.c8e0c046.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Castellan's_Creed_Legendary_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Castellan's Creed Legendary Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Castellan's_Creed_Legendary_Warbond",
@@ -539,7 +549,12 @@
       "name": "Chemical Agents",
       "aliases": [],
       "description": "Chemical Agents is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/chemical-agents.caca3bec.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Chemical_Agents_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Chemical Agents Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Chemical_Agents_Premium_Warbond",
@@ -852,7 +867,12 @@
       "name": "Control Group",
       "aliases": [],
       "description": "Control Group is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/control-group.a68608e1.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Control_Group_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Control Group Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Control_Group_Premium_Warbond",
@@ -1113,7 +1133,12 @@
       "name": "Cutting Edge",
       "aliases": [],
       "description": "Cutting Edge is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/cutting-edge.c7d35f36.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Cutting_Edge_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Cutting Edge Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Cutting_Edge_Premium_Warbond",
@@ -1452,7 +1477,12 @@
       "name": "Democratic Detonation",
       "aliases": [],
       "description": "Democratic Detonation is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/democratic-detonation.ef8dbc3a.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Democratic_Detonation_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Democratic Detonation Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Democratic_Detonation_Premium_Warbond",
@@ -1791,7 +1821,12 @@
       "name": "Dust Devils",
       "aliases": [],
       "description": "Dust Devils is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/dust-devils.438c20c8.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Dust_Devils_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Dust Devils Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Dust_Devils_Premium_Warbond",
@@ -2104,7 +2139,12 @@
       "name": "Entrenched Division",
       "aliases": [],
       "description": "Entrenched Division is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/entrenched-division.4a2c4a84.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Entrenched_Division_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Entrenched Division Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Entrenched_Division_Premium_Warbond",
@@ -2430,7 +2470,12 @@
       "name": "Exo Experts",
       "aliases": [],
       "description": "Exo Experts is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/exo-experts.f72c123b.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Exo_Experts_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Exo Experts Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Exo_Experts_Premium_Warbond",
@@ -2739,7 +2784,12 @@
       "name": "Force of Law",
       "aliases": [],
       "description": "Force of Law is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/force-of-law.0bd0ce31.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Force_of_Law_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Force of Law Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Force_of_Law_Premium_Warbond",
@@ -3078,7 +3128,12 @@
       "name": "Freedom's Flame",
       "aliases": [],
       "description": "Freedom's Flame is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/freedoms-flame.ff873dd9.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Freedom's_Flame_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Freedom's Flame Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Freedom's_Flame_Premium_Warbond",
@@ -3406,7 +3461,12 @@
         "Helldivers Mobilize"
       ],
       "description": "Helldivers Mobilize! is a Standard Warbond automatically available for free in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/helldivers-mobilize.db8de605.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Helldivers_Mobilize_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Helldivers Mobilize Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond",
@@ -4480,7 +4540,12 @@
       "name": "Ironclad Democracy",
       "aliases": [],
       "description": "Ironclad Democracy is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
+        "width": 1024,
+        "height": 562,
+        "wikiFile": "Ironclad_Democracy_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Ironclad Democracy Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
@@ -4720,7 +4785,12 @@
       "name": "Masters of Ceremony",
       "aliases": [],
       "description": "Masters of Ceremony is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/masters-of-ceremony.47d1c3f5.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Masters_of_Ceremony_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Masters of Ceremony Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Masters_of_Ceremony_Premium_Warbond",
@@ -4983,7 +5053,12 @@
         "Halo: ODST"
       ],
       "description": "Obedient Democracy Support Troopers (ODST) is a Legendary Warbond featuring a crossover between Helldivers 2 and Halo 3: ODST, available for 1,500 Super Credits in the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/obedient-democracy-support-troopers.d9b05843.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Halo_ODST_Legendary_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Obedient Democracy Support Troopers Legendary Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Obedient_Democracy_Support_Troopers_Legendary_Warbond",
@@ -5243,7 +5318,12 @@
       "name": "Polar Patriots",
       "aliases": [],
       "description": "Polar Patriots is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/polar-patriots.9de30dc5.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Polar_Patriots_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Polar Patriots Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Polar_Patriots_Premium_Warbond",
@@ -5582,7 +5662,12 @@
       "name": "Python Commandos",
       "aliases": [],
       "description": "Python Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/python-commandos.83425b3a.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Python_Commandos_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Python Commandos Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Python_Commandos_Premium_Warbond",
@@ -5882,7 +5967,12 @@
       "name": "Redacted Regiment",
       "aliases": [],
       "description": "Redacted Regiment is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/redacted-regiment.dda74f94.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Redacted_Regiment_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Redacted Regiment Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Redacted_Regiment_Premium_Warbond",
@@ -6156,7 +6246,12 @@
       "name": "Righteous Revenants",
       "aliases": [],
       "description": "Righteous Revenants is a Legendary Warbond featuring the second version of the Helldivers 2 × Killzone crossover, available for 1,500 Super Credits in the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/righteous-revenants.9e20bd05.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Righteous_Revenants_Legendary_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Righteous Revenants Legendary Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Righteous_Revenants_Legendary_Warbond",
@@ -6403,7 +6498,12 @@
       "name": "Servants of Freedom",
       "aliases": [],
       "description": "Servants of Freedom is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/servants-of-freedom.e6bfbd64.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Servants_of_Freedom_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Servants of Freedom Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Servants_of_Freedom_Premium_Warbond",
@@ -6651,7 +6751,12 @@
       "name": "Siege Breakers",
       "aliases": [],
       "description": "Siege Breakers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/siege-breakers.010a6f4c.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Siege_Breakers_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Siege Breakers Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Siege_Breakers_Premium_Warbond",
@@ -6964,7 +7069,12 @@
       "name": "Steeled Veterans",
       "aliases": [],
       "description": "Steeled Veterans is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/steeled-veterans.9c9acc8f.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Steeled_Veterans_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Steeled Veterans Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Steeled_Veterans_Premium_Warbond",
@@ -7316,7 +7426,12 @@
       "name": "Truth Enforcers",
       "aliases": [],
       "description": "Truth Enforcers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/truth-enforcers.33b15619.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Truth_Enforcers_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Truth Enforcers Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Truth_Enforcers_Premium_Warbond",
@@ -7616,7 +7731,12 @@
       "name": "Urban Legends",
       "aliases": [],
       "description": "Urban Legends is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/urban-legends.3e361a07.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Urban_Legends_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Urban Legends Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Urban_Legends_Premium_Warbond",
@@ -7929,7 +8049,12 @@
       "name": "Viper Commandos",
       "aliases": [],
       "description": "Viper Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/warbonds/viper-commandos.885203c8.webp",
+        "width": 1024,
+        "height": 512,
+        "wikiFile": "Viper_Commandos_Premium_Warbond_Cover.png"
+      },
       "wiki": {
         "title": "Viper Commandos Premium Warbond",
         "url": "https://helldivers.wiki.gg/wiki/Viper_Commandos_Premium_Warbond",

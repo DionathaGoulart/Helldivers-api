@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "P-72 Crisper",
     "aliases": [],
     "description": "The P-72 Crisper is a Secondary Special handheld flamethrower that can be wielded in one hand.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/p-72-crisper.a1f86032.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "P-72_Crisper_Secondary_Render.png"
+    },
     "wiki": {
       "title": "P-72 Crisper",
       "url": "https://helldivers.wiki.gg/wiki/P-72_Crisper",

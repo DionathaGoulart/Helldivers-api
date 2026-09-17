@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "B/MD C4 Pack",
     "aliases": [],
     "description": "The B/MD C4 Pack is a Support Weapon Stratagem backpack filled with bricks of C4 that can be remotely detonated sequentially or all at once.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/b-md-c4-pack.ad38ed22.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "C4_Pack_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "B/MD C4 Pack",
       "url": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",

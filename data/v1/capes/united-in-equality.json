@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "United in Equality",
     "aliases": [],
     "description": "To honor the heartfelt siblinghood of the heroes who stood together, bled together, and laid down their lives together in defense of Equality-On-Sea, all Helldivers are awarded one (1) commemorative polyester cape.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/united-in-equality.b02be02a.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "United_in_Equality_Cape_Render.png"
+    },
     "wiki": {
       "title": "United in Equality",
       "url": "https://helldivers.wiki.gg/wiki/United_in_Equality",

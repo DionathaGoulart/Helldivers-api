@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Eagle 500kg Bomb",
     "aliases": [],
     "description": "The Eagle 500kg Bomb, also known as the 500kg, is an offensive stratagem which drops an anti-tank bomb that embeds itself in the ground before exploding.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/eagle-500kg-bomb.e8fab6dc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Eagle_500kg_Bomb_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "Eagle 500kg Bomb",
       "url": "https://helldivers.wiki.gg/wiki/Eagle_500kg_Bomb",

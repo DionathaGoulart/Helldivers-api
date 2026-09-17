@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "MGX-42 Bullet Storm",
     "aliases": [],
     "description": "The MGX-42 Bullet Storm is a Stratagem which calls down a pair of disposable Support Weapons, specializing in disposing of large quantities of lightly armored targets.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/mgx-42-bullet-storm.b5aafab1.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Bullet_Storm_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "MGX-42 Bullet Storm",
       "url": "https://helldivers.wiki.gg/wiki/MGX-42_Bullet_Storm",

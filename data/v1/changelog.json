@@ -1,15 +1,6539 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
-    "count": 8,
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
+    "count": 9,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-17.2d3c0c72",
+      "date": "2026-09-17",
+      "summary": {
+        "added": 0,
+        "changed": 805,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "borderline-justice",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "castellans-creed",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "chemical-agents",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "control-group",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "cutting-edge",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "democratic-detonation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "dust-devils",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "entrenched-division",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "exo-experts",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "force-of-law",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "freedoms-flame",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "helldivers-mobilize",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "ironclad-democracy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "masters-of-ceremony",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "obedient-democracy-support-troopers",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "polar-patriots",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "python-commandos",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "redacted-regiment",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "righteous-revenants",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "servants-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "siege-breakers",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "steeled-veterans",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "truth-enforcers",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "urban-legends",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "viper-commandos",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-11-arbitrator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-2-coyote",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23-liberator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23a-liberator-carbine",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23c-liberator-concussive",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23p-liberator-penetrator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-32-pacifier",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-59-suppressor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-61-tenderizer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-gl-21-one-two",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "arc-12-blitzer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "br-14-adjudicator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cb-9-exploding-crossbow",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-19-stun-lance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-2-saber",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-30-stun-baton",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-42-machete",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-5-combat-hatchet",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-72-entrenchment-tool",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-73-entrenchment-tool",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "dbs-2-double-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "flam-66-torcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-10-incendiary",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-109-urchin",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-12-high-explosive",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-123-thermite",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-13-incendiary-impact",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-142-pyrotech",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-16-impact",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-23-stun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-3-smoke",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-31-arc",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-4-gas",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-40-k-melta-mine",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-48-giga-grenade",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-50-seeker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-6-frag",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-60-anti-tank-seeker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-7-pineapple",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-8-immolation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-89-smokescreen",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-sh-39-shield",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-20-ultimatum",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-31-grenade-pistol",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "jar-5-dominator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "k-2-throwing-knife",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-13-trident",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-16-sickle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-17-double-edge-sickle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-5-scythe",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-58-talon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-7-dagger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m6c-socom-pistol",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m7s-smg",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m90a-shotgun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ma5c-assault-rifle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "mp-98-knight",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-11-stim-pistol",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-113-verdict",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-19-redeemer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-2-peacemaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-33-missile-pistol",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-34-breacher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-35-re-educator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-4-senator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-40-k-bolt-pistol",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-69-veto",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-72-crisper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-92-warrant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-1-scorcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-101-purifier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-15-loyalist",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-39-accelerator-rifle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2-amendment",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2124-constitution",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-36-eruptor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-4-hyena",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-k-hot-shot-marksman-rifle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-6-deadeye",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63-diligence",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63cs-diligence-counter-sniper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-72-censor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-20-halt",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-22-bushwhacker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225-breaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225ie-breaker-incendiary",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225sp-breaker-spray-pray",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-451-cookout",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8-punisher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-88-break-action-shotgun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8p-punisher-plasma",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8s-slugger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-97-sweeper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-203-gallant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-32-reprimand",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-37-defender",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-72-pummeler",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-flam-34-stoker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-11-smg",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-52-assault-rifle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ted-63-dynamite",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "tm-1-lure-mine",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "vg-70-variable",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "40-k-meltagun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-ac-8-autocannon-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-arc-3-tesla-tower",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-flam-40-flame-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-g-16-gatling-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-gm-17-gas-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-las-98-laser-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-12-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-23-ems-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mg-43-machine-gun-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mls-4x-rocket-sentry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ac-8-autocannon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "activate-e-711-extraction-drill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "apw-1-anti-materiel-rifle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "aquifer-drill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "arc-3-arc-thrower",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-ar-23-guard-dog",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-arc-3-k-9",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-flam-75-hot-dog",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-las-5-rover",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-tx-13-dog-breath",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-1-supply-pack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-100-portable-hellbomb",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-flam-80-cremator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-md-c4-pack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "call-in-super-destroyer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cargo-container",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-1-one-true-flag",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-20-breaching-hammer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-9-defoliation-tool",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "dark-fluid-vessel",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-at-12-anti-tank-emplacement",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-gl-21-grenadier-battlement",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-mg-101-hmg-emplacement",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-110mm-rocket-pods",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-500kg-bomb",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-airstrike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-cluster-bomb",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-gas-airstrike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-napalm-airstrike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-rearm",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-smoke-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-strafing-run",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-17-expendable-anti-tank",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-411-leveller",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-700-expendable-napalm",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-45-patriot-exosuit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-49-emancipator-exosuit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-51-lumberer-exosuit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-55-breakthrough-exosuit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "faf-14-spear",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "flam-40-flamethrower",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "fx-12-shield-generator-relay",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-21-grenade-launcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-28-belt-fed-grenade-launcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-52-de-escalator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gr-8-recoilless-rifle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "hive-breaker-drill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-98-laser-cannon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-99-quasar-cannon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-182-warp-pack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-850-jump-pack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-860-hover-pack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-1000-maxigun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-102-gunner-frv",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-103-supply-frv",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-104-incinerator-frv",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-105-stalwart",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-17-anti-tank-mines",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-6-anti-personnel-minefield",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-8-gas-mines",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-i4-incendiary-mines",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mg-206-heavy-machine-gun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mg-43-machine-gun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mgx-42-bullet-storm",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mls-4x-commando",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ms-11-solo-silo",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "nux-223-hellbomb",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-120mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-380mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-airburst-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-ems-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gas-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gatling-barrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-illumination-flare",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-laser",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-napalm-barrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-precision-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-railcannon-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-smoke-strike",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-walking-barrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "plas-45-epoch",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "portable-comms-relay",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "prospecting-drill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "reinforce",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "reinforcement-pods",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "resupply",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rs-422-railgun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "s-11-speargun",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seaf-artillery",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seismic-probe",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-20-ballistic-shield-backpack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-32-shield-generator-pack",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-51-directional-shield",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sos-beacon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sssd-delivery",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sta-x3-wasp-launcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "super-earth-flag",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tactical-video-camera",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-220-bastion-mk-xvi",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tectonic-drill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tx-41-sterilizer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "upload-data",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "a-35-recon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "a-9-helljumper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ac-1-dutiful",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ac-2-obedient",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ad-11-livewire",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ad-26-bleeding-edge",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ad-49-apollonian",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "af-02-haz-master",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "af-50-noxious-ranger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "af-52-lockdown",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "af-91-field-chemist",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "b-01-tactical",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "b-08-light-gunner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "b-22-model-citizen",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "b-24-enforcer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "b-27-fortified-commando",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bfm-16-tanker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bfm-220-ironclad",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bp-20-correct-officer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bp-32-jackboot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bp-77-grand-juror",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-07-demolition-specialist",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-101-guerilla-gorilla",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-27-ground-breaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-35-trench-engineer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-64-grenadier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-67-titan",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-74-breaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ce-81-juggernaut",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cm-09-bonesnapper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cm-10-clinician",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cm-14-physician",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cm-17-butcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cm-21-trench-paramedic",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cpg-48-sapper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cph-26-commandant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cpr-80-bulwark",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cw-22-kodiak",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cw-36-winter-warrior",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cw-4-arctic-ranger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "cw-9-white-wolf",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "dp-00-tactical",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "dp-11-champion-of-the-people",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "dp-40-hero-of-the-federation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "dp-53-savior-of-the-free",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "dp-8-mountain-scaled",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ds-10-big-game-hunter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ds-191-scorpion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ds-42-federations-blade",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ex-00-prototype-x",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ex-03-prototype-3",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ex-16-prototype-16",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-05-marksman",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-11-executioner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-23-battle-master",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-34-exterminator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-37-ravager",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-38-eradicator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-55-devastator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "fs-61-dreadnought",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "gs-11-democracys-deputy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "gs-17-frontier-marshal",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "gs-66-lawmaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "i-09-heatseeker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "i-102-draconaught",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "i-44-salamander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "i-92-fire-fighter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ie-12-righteous",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ie-3-martyr",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ie-57-hell-bent",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "kdm-500-outrider",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "o-2-heavy-operator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "o-3-free-spirit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "o-44-bonded-pilot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ph-202-twigsnapper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ph-56-jaguar",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ph-9-predator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "re-1861-parade-commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "re-2310-honorary-guard",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "re-824-bearer-of-the-standard",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "rs-100-sanctioner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "rs-20-constrictor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "rs-40-beast-of-prey",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "rs-6-fiend-destroyer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "rs-67-null-cipher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "rs-89-shadow-paragon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sa-04-combat-technician",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sa-12-servo-assisted",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sa-25-steel-trooper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sa-32-dynamo",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sa-7-headfirst",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sa-8-ram",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sc-15-drone-master",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sc-30-trailblazer-scout",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sc-34-infiltrator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sc-37-legionnaire",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sr-18-roadblock",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sr-24-street-scout",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "sr-64-cinderblock",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tg-122-demo-trooper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tg-8-sharpshooter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tr-117-alpha-commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tr-40-gold-eagle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tr-62-knight",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tr-7-ambassador-of-the-brand",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "tr-9-cavalier-of-democracy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "uf-16-inspector",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "uf-50-bloodhound",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "uf-84-doubt-killer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "a-35-recon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "a-9-helljumper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ac-1-dutiful",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ac-2-obedient",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ad-11-livewire",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ad-26-bleeding-edge",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ad-49-apollonian",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "af-02-haz-master",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "af-50-noxious-ranger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "af-52-lockdown",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "af-91-field-chemist",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "b-01-tactical",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "b-08-light-gunner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "b-22-model-citizen",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "b-24-enforcer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "b-27-fortified-commando",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bfm-16-tanker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bfm-220-ironclad",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bp-20-correct-officer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bp-32-jackboot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bp-77-grand-juror",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-07-demolition-specialist",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-101-guerilla-gorilla",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-27-ground-breaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-35-trench-engineer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-64-grenadier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-67-titan",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-74-breaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ce-81-juggernaut",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cm-09-bonesnapper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cm-10-clinician",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cm-14-physician",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cm-17-butcher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cm-21-trench-paramedic",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cpg-48-sapper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cph-26-commandant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cpr-80-bulwark",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cw-22-kodiak",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cw-36-winter-warrior",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cw-4-arctic-ranger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "cw-9-white-wolf",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "dp-00-tactical",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "dp-11-champion-of-the-people",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "dp-40-hero-of-the-federation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "dp-53-savior-of-the-free",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "dp-8-mountain-scaled",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ds-10-big-game-hunter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ds-191-scorpion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ds-42-federations-blade",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ex-00-prototype-x",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ex-03-prototype-3",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ex-16-prototype-16",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-05-marksman",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-11-executioner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-23-battle-master",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-34-exterminator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-37-ravager",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-38-eradicator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-55-devastator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "fs-61-dreadnought",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "gs-11-democracys-deputy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "gs-17-frontier-marshal",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "gs-66-lawmaker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "i-09-heatseeker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "i-102-draconaught",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "i-44-salamander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "i-92-fire-fighter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ie-12-righteous",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ie-3-martyr",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ie-57-hell-bent",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ix-voidwalker",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "kdm-500-outrider",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "o-2-heavy-operator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "o-3-free-spirit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "o-44-bonded-pilot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ph-202-twigsnapper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ph-56-jaguar",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ph-9-predator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "re-1861-parade-commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "re-2310-honorary-guard",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "re-824-bearer-of-the-standard",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "rs-100-sanctioner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "rs-20-constrictor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "rs-40-beast-of-prey",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "rs-6-fiend-destroyer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "rs-67-null-cipher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "rs-89-shadow-paragon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sa-04-combat-technician",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sa-12-servo-assisted",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sa-25-steel-trooper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sa-32-dynamo",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sa-7-headfirst",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sa-8-ram",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sc-15-drone-master",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sc-30-trailblazer-scout",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sc-34-infiltrator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sc-37-legionnaire",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sr-18-roadblock",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sr-24-street-scout",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "sr-64-cinderblock",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tg-122-demo-trooper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tg-8-sharpshooter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tr-117-alpha-commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tr-40-gold-eagle",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tr-62-knight",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tr-7-ambassador-of-the-brand",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "tr-9-cavalier-of-democracy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "uf-16-inspector",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "uf-50-bloodhound",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "uf-84-doubt-killer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "against-the-tyrant-cloud",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "agent-of-oblivion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "badge-of-order",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "bastion-of-integrity",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "blazing-samaritan",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "botslayer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "camo-cloak",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "city-fighters-resolve",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "cloak-of-posteritys-gratitude",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "conductor-of-brilliance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "cover-of-darkness",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "crest-of-the-unsullied",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "cresting-honor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "de-foresters-sailcloth",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "defender-of-our-dream",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "diagram-of-the-noblest-payload",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "dignity-of-toil",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "dissidents-nightmare",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "drape-of-glory",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eagles-fury",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "emblem-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eternal-corona",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "executioners-canopy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eye-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eye-of-liberty",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "eye-of-the-clandestine",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "fallen-heros-vengeance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "federations-embrace",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "foe-rent-asunder",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "foesmasher",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "fre-liberam",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "free-spirited-spangles",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "freedoms-tapestry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "gilded-quill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "harbinger-of-true-equality",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "holder-of-the-yellow-line",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "honored-heirloom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "humble-regalia",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "independence-bringer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "ingress-81",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "judgment-day",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "libertys-herald",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "light-of-eternal-liberty",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mantle-of-true-citizenship",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mark-of-the-constrictor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mark-of-the-crimson-fang",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "martyris-rex",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mirandas-legacy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mother-eagles-wings",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "order-of-the-venerated-ballot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "over-artifice-triumphant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "patient-zeros-remembrance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "per-democrasum",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pillar-of-the-abyss",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pillars-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pinions-of-everlasting-glory",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "pride-of-the-whistleblower",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "proof-of-faultless-virtue",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "protector-of-the-heart",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "purifying-eclipse",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "rags-of-the-fashionable",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "reaper-of-bounties",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "rebar-resolve",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "reckonings-cheer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "rightful-occupier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "schema-laid-bare",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "seal-of-general-consensus",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "shroud-of-the-juggernaut",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "standard-of-rapid-evacuation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "standard-of-safe-distance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "stars-and-suffrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "stone-wrought-perseverance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "strength-in-our-arms",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "testament-to-attrition",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "the-breach",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "thundering-hooves-of-loyalty",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "tideturner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "triangulation-veil",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "tyrant-hunter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "unblemished-allegiance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "united-in-equality",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "veil-of-the-valorous-vagabond",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "veridical-ideology",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "vision-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "watchful-compatriot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "way-of-the-bandolier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "wedgeful-tricorn",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "will-of-the-people",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "windswept-wayfinder",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "armed-resupply-pods",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "concealed-insertion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "dead-sprint",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "experimental-infusion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "expert-extraction-pilot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "firebomb-hellpods",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "flexible-reinforcement-budget",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "hellpod-space-optimization",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "increased-reinforcement-budget",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "localization-confusion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "motivational-shocks",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "muscle-enhancement",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "sample-extricator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "sample-scanner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "stamina-enhancement",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "stun-pods",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "uav-recon-booster",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "vitality-enhancement",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "acclimated",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "adreno-defibrillator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "advanced-filtration",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "ballistic-padding",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "blunt-force-mitigation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "concussive-padding-grenadier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "concussive-padding-hazmat",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "concussive-padding-reinforced",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "democracy-protects",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "desert-stormer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "electrical-conduit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "engineering-kit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "extra-padding",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "feet-first",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "fortified",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "gunslinger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "inflammable",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "integrated-explosives",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "kinetic-displacement-mitigation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "med-kit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "oxygenator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "peak-physique",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "reduced-signature",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "reinforced-epaulettes",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "rock-solid",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "scout",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "servo-assisted",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "siege-ready",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "supplementary-adrenaline",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "true-grit",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "unflinching",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "agent-of-oblivion",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "badge-of-order",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "bastion-of-integrity",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "blazing-samaritan",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "botslayer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "camo-cloak",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "city-fighters-resolve",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "cloak-of-posteritys-gratitude",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "conductor-of-brilliance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "cover-of-darkness",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "crest-of-the-unsullied",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "cresting-honor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "de-foresters-sailcloth",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "defender-of-our-dream",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "diagram-of-the-noblest-payload",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "dignity-of-toil",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "dissidents-nightmare",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "eagles-fury",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "eternal-corona",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "executioners-canopy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "eye-of-the-clandestine",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "federations-embrace",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "foe-rent-asunder",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "fre-liberam",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "free-spirited-spangles",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "freedoms-tapestry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "gilded-quill",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "harbinger-of-true-equality",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "holder-of-the-yellow-line",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "honored-heirloom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "humble-regalia",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "independence-bringer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "judgment-day",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "libertys-herald",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "light-of-eternal-liberty",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mantle-of-true-citizenship",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mark-of-the-constrictor",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mark-of-the-crimson-fang",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "martyris-rex",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mirandas-legacy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mother-eagles-wings",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "order-of-the-venerated-ballot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "over-artifice-triumphant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "patient-zeros-remembrance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "per-democrasum",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "pillar-of-the-abyss",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "pinions-of-everlasting-glory",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "pride-of-the-whistleblower",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "proof-of-faultless-virtue",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "purifying-eclipse",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "rags-of-the-fashionable",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "reaper-of-bounties",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "rebar-resolve",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "rightful-occupier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "schema-laid-bare",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "seal-of-general-consensus",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "solid-black",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "standard-of-safe-distance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "stars-and-suffrage",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "stone-wrought-perseverance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "strength-in-our-arms",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "testament-to-attrition",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "the-breach",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "thundering-hooves-of-loyalty",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "tideturner",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "triangulation-veil",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "tyrant-hunter",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "unblemished-allegiance",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "veil-of-the-valorous-vagabond",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "vision-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "watchful-compatriot",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "way-of-the-bandolier",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "wedgeful-tricorn",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "windswept-wayfinder",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "at-ease",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "big-stretch",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "big-whoop",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "boxer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "call-the-helldivers",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "casual-salute",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "clapping",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "courtly-bow",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "deep-reflection",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "diplomatic-handshake",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "display-of-brawn",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "distribute-ballots",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "draw",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "enthusiastic-mirth",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "ew",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "explosive-handshake",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "finger-guns",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "flex",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "front-leaning-rest-position",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "guns-of-liberty",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "head-tap",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "high-five",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "hug",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "lockstep",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "loosen-up",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "mime-instrumentation",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "natural-gas-extraction",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "presentable",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "protect-eardrums",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "raiders-cheer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "raise-weapon",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "rock-paper-scissors",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "roll-em",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "salute",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "scout-handshake",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "shotgun-show",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "signal-group-up",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "signal-hold",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "signal-silence",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "squat",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "super-person",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "target-sighted",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "test-of-conviction",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "this-is-democracy",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "thoracic-collision-exultation-maneuver",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "tip-hat",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "welcome-adoration",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "youre-next",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "arctic",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "arctic-camo",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "castellans-green",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "chameleon-camo",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "churned-earth",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "concrete-jungle",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "default",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "desert",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "desert-camo",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "extrasolar-ash",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "forest",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "forest-camo",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "helldiver",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "heritage-olive",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "inconspicuous-black",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "mean-green",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "mobile-white",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "mustard",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "night",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "rattlesnake",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "safety-orange",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "standard",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "true-blue",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "undergrowth",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image",
+            "variants[1].image",
+            "variants[2].image",
+            "variants[3].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "urban",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "urban-camo",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "patterns",
+          "id": "venus",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "variants[0].image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "10-star-general",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "10-star-super-private",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "5-star-general",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "5-star-super-private",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "admirable-admiral",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "admiral",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "assault-infantry",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "bunker-buster",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "burier-of-heads",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "cadet",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "chief",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "command-divemaster-major",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "death-captain",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "decorated-hero",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "divemaster",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "divemaster-major",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "exemplary-subject",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "exosuit-certified",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "expert-exterminator",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "extra-judicial",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "fire-safety-officer",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "first-divemaster",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "fleet-admiral",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "free-of-thought",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "galactic-commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "general",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "hell-commander",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "marshal",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "master-divemaster",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "master-divemaster-major-omega",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "master-sergeant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "max-rank",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "max-rank-infinity",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "max-rank-infinity-1",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "mudskipper",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "private",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "python-commando",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "ranger",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "ranger-bald-eagle-class",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "ranger-eagle-class",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "rank-300",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "redacted",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "rookie",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "sergeant",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "servant-of-freedom",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "skull-admiral",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "space-cadet",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "space-chief-prime",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "star-marshal",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "still-standing",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "super-citizen",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "super-pedestrian",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "super-private",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "super-sheriff",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "titles",
+          "id": "viper-commando",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-16.2b461706",
       "date": "2026-09-16",

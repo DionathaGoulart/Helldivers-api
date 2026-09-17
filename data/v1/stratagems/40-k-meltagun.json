@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "40-K Meltagun",
     "aliases": [],
     "description": "The 40-K Meltagun is a Stratagem that calls down a Support Weapon that fires a superheated beam of thermal energy, dealing massive damage and penetrating through large amounts of armor.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/40-k-meltagun.aec56553.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Meltagun_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "40-K Meltagun",
       "url": "https://helldivers.wiki.gg/wiki/40-K_Meltagun",

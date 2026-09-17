@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "A/FLAM-40 Flame Sentry",
     "aliases": [],
     "description": "The Flame Sentry is a close-range incendiary sentry stratagem.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/a-flam-40-flame-sentry.3cd56e3f.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Flame_Sentry_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "A/FLAM-40 Flame Sentry",
       "url": "https://helldivers.wiki.gg/wiki/A/FLAM-40_Flame_Sentry",

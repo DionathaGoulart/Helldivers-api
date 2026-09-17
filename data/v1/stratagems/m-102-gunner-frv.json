@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "M-102 Gunner FRV",
     "aliases": [],
     "description": "The M-102 Gunner FRV is a Stratagem that deploys a four-wheeled ground vehicle with a mounted MG-206 Heavy Machine Gun.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/m-102-gunner-frv.8d45e19a.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Fast_Recon_Vehicle_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "M-102 Gunner FRV",
       "url": "https://helldivers.wiki.gg/wiki/M-102_Gunner_FRV",

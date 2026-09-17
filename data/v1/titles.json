@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "count": 56,
     "source": {
       "name": "The Helldivers Wiki",
@@ -16,7 +16,12 @@
       "name": "10-Star General",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/10-star-general.501068fa.webp",
+        "width": 256,
+        "height": 258,
+        "wikiFile": "Level_130_10-Star_General_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "10-Star General",
         "url": "https://helldivers.wiki.gg/wiki/10-Star_General",
@@ -39,7 +44,12 @@
       "name": "10-Star Super Private",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/10-star-super-private.4f730e8c.webp",
+        "width": 256,
+        "height": 314,
+        "wikiFile": "Level_170_10-Star_Super_Private_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "10-Star Super Private",
         "url": "https://helldivers.wiki.gg/wiki/10-Star_Super_Private",
@@ -62,7 +72,12 @@
       "name": "5-Star General",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/5-star-general.973795b4.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_120_5-Star_General_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "5-Star General",
         "url": "https://helldivers.wiki.gg/wiki/5-Star_General",
@@ -85,7 +100,12 @@
       "name": "5-Star Super Private",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/5-star-super-private.8ec4dc5b.webp",
+        "width": 256,
+        "height": 314,
+        "wikiFile": "Level_160_5-Star_Super_Private_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "5-Star Super Private",
         "url": "https://helldivers.wiki.gg/wiki/5-Star_Super_Private",
@@ -108,7 +128,12 @@
       "name": "Admirable Admiral",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/admirable-admiral.43f0c932.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_70_Admirable_Admiral_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Admirable Admiral",
         "url": "https://helldivers.wiki.gg/wiki/Admirable_Admiral",
@@ -131,7 +156,12 @@
       "name": "Admiral",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/admiral.c1986909.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_45_Admiral_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Admiral",
         "url": "https://helldivers.wiki.gg/wiki/Admiral",
@@ -154,7 +184,12 @@
       "name": "Assault Infantry",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/assault-infantry.ea8a8c1f.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Assault_Infantry_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Assault Infantry",
         "url": "https://helldivers.wiki.gg/wiki/Assault_Infantry",
@@ -180,7 +215,12 @@
       "name": "Bunker Buster",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/bunker-buster.90695ad6.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Bunker_Buster_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Bunker Buster",
         "url": "https://helldivers.wiki.gg/wiki/Bunker_Buster",
@@ -206,7 +246,12 @@
       "name": "Burier of Heads",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/burier-of-heads.a7fbd029.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Burier_of_Heads_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Burier of Heads",
         "url": "https://helldivers.wiki.gg/wiki/Burier_of_Heads",
@@ -232,7 +277,12 @@
       "name": "Cadet",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/cadet.e04418dd.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_1_Cadet_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Cadet",
         "url": "https://helldivers.wiki.gg/wiki/Cadet",
@@ -255,7 +305,12 @@
       "name": "Chief",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/chief.88e743b7.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_20_Chief_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Chief",
         "url": "https://helldivers.wiki.gg/wiki/Chief",
@@ -278,7 +333,12 @@
       "name": "Command Divemaster Major",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/command-divemaster-major.e4de3c5b.webp",
+        "width": 256,
+        "height": 312,
+        "wikiFile": "Level_240_Command_Divemaster_Major_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Command Divemaster Major",
         "url": "https://helldivers.wiki.gg/wiki/Command_Divemaster_Major",
@@ -301,7 +361,12 @@
       "name": "Commander",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/commander.a9e95e7b.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_80_Commander_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Commander",
         "url": "https://helldivers.wiki.gg/wiki/Commander",
@@ -324,7 +389,12 @@
       "name": "Death Captain",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/death-captain.342a62e1.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_30_Death_Captain_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Death Captain",
         "url": "https://helldivers.wiki.gg/wiki/Death_Captain",
@@ -347,7 +417,12 @@
       "name": "Decorated Hero",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/decorated-hero.aafb1834.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Decorated_Hero_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Decorated Hero",
         "url": "https://helldivers.wiki.gg/wiki/Decorated_Hero",
@@ -373,7 +448,12 @@
       "name": "Divemaster",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/divemaster.83964411.webp",
+        "width": 256,
+        "height": 306,
+        "wikiFile": "Level_210_Divemaster_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Divemaster",
         "url": "https://helldivers.wiki.gg/wiki/Divemaster",
@@ -396,7 +476,12 @@
       "name": "Divemaster Major",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/divemaster-major.23ecc0b1.webp",
+        "width": 256,
+        "height": 312,
+        "wikiFile": "Level_230_Divemaster_Major_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Divemaster Major",
         "url": "https://helldivers.wiki.gg/wiki/Divemaster_Major",
@@ -419,7 +504,12 @@
       "name": "Exemplary Subject",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/exemplary-subject.bba71b1e.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Exemplary_Subject_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Exemplary Subject",
         "url": "https://helldivers.wiki.gg/wiki/Exemplary_Subject",
@@ -445,7 +535,12 @@
       "name": "Exosuit Certified",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/exosuit-certified.db61b97e.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Exosuit_Certified_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Exosuit Certified",
         "url": "https://helldivers.wiki.gg/wiki/Exosuit_Certified",
@@ -471,7 +566,12 @@
       "name": "Expert Exterminator",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/expert-exterminator.005d4960.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Expert_Exterminator_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Expert Exterminator",
         "url": "https://helldivers.wiki.gg/wiki/Expert_Exterminator",
@@ -497,7 +597,12 @@
       "name": "Extra Judicial",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/extra-judicial.2246cf1b.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Extra_Judicial_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Extra Judicial",
         "url": "https://helldivers.wiki.gg/wiki/Extra_Judicial",
@@ -523,7 +628,12 @@
       "name": "Fire Safety Officer",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/fire-safety-officer.6918f54f.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Fire_Safety_Officer_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Fire Safety Officer",
         "url": "https://helldivers.wiki.gg/wiki/Fire_Safety_Officer",
@@ -549,7 +659,12 @@
       "name": "First Divemaster",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/first-divemaster.956f5d76.webp",
+        "width": 256,
+        "height": 312,
+        "wikiFile": "Level_220_First_Divemaster_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "First Divemaster",
         "url": "https://helldivers.wiki.gg/wiki/First_Divemaster",
@@ -572,7 +687,12 @@
       "name": "Fleet Admiral",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/fleet-admiral.47549524.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_60_Fleet_Admiral_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Fleet Admiral",
         "url": "https://helldivers.wiki.gg/wiki/Fleet_Admiral",
@@ -595,7 +715,12 @@
       "name": "Free of Thought",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/free-of-thought.3ebd6d48.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Free_of_Thought_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Free of Thought",
         "url": "https://helldivers.wiki.gg/wiki/Free_of_Thought",
@@ -621,7 +746,12 @@
       "name": "Galactic Commander",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/galactic-commander.ae046ed0.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_90_Galactic_Commander_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Galactic Commander",
         "url": "https://helldivers.wiki.gg/wiki/Galactic_Commander",
@@ -644,7 +774,12 @@
       "name": "General",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/general.e150b021.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_110_General_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "General",
         "url": "https://helldivers.wiki.gg/wiki/General",
@@ -667,7 +802,12 @@
       "name": "Hell Commander",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/hell-commander.66757a83.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_100_Hell_Commander_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Hell Commander",
         "url": "https://helldivers.wiki.gg/wiki/Hell_Commander",
@@ -690,7 +830,12 @@
       "name": "Marshal",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/marshal.2e51edfb.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_35_Marshal_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Marshal",
         "url": "https://helldivers.wiki.gg/wiki/Marshal",
@@ -713,7 +858,12 @@
       "name": "Master Divemaster",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/master-divemaster.d996ccd1.webp",
+        "width": 256,
+        "height": 274,
+        "wikiFile": "Level_250_Master_Divemaster_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Master Divemaster",
         "url": "https://helldivers.wiki.gg/wiki/Master_Divemaster",
@@ -736,7 +886,12 @@
       "name": "Master Divemaster Major Omega",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/master-divemaster-major-omega.99a4a4a3.webp",
+        "width": 256,
+        "height": 274,
+        "wikiFile": "Level_260_Master_Divemaster_Major_Omega_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Master Divemaster Major Omega",
         "url": "https://helldivers.wiki.gg/wiki/Master_Divemaster_Major_Omega",
@@ -759,7 +914,12 @@
       "name": "Master Sergeant",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/master-sergeant.816d15bf.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_15_Master_Sergeant_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Master Sergeant",
         "url": "https://helldivers.wiki.gg/wiki/Master_Sergeant",
@@ -782,7 +942,12 @@
       "name": "Max Rank",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/max-rank.86150884.webp",
+        "width": 256,
+        "height": 274,
+        "wikiFile": "Level_270_Max_Rank_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Max Rank",
         "url": "https://helldivers.wiki.gg/wiki/Max_Rank",
@@ -805,7 +970,12 @@
       "name": "Max Rank Infinity",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/max-rank-infinity.813cabea.webp",
+        "width": 256,
+        "height": 317,
+        "wikiFile": "Level_280_Max_Rank_Infinity_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Max Rank Infinity",
         "url": "https://helldivers.wiki.gg/wiki/Max_Rank_Infinity",
@@ -828,7 +998,12 @@
       "name": "Max Rank Infinity +1",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/max-rank-infinity-1.03f212ba.webp",
+        "width": 256,
+        "height": 317,
+        "wikiFile": "Level_290_Max_Rank_Infinity_+1_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Max Rank Infinity +1",
         "url": "https://helldivers.wiki.gg/wiki/Max_Rank_Infinity_+1",
@@ -851,7 +1026,12 @@
       "name": "Mudskipper",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/mudskipper.b75b0e84.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Mudskipper_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Mudskipper",
         "url": "https://helldivers.wiki.gg/wiki/Mudskipper",
@@ -877,7 +1057,12 @@
       "name": "Private",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/private.359ffafd.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_140_Private_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Private",
         "url": "https://helldivers.wiki.gg/wiki/Private",
@@ -900,7 +1085,12 @@
       "name": "Python Commando",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/python-commando.c69f8995.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Python_Commando_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Python Commando",
         "url": "https://helldivers.wiki.gg/wiki/Python_Commando",
@@ -926,7 +1116,12 @@
       "name": "Ranger",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/ranger.1eb2e3d9.webp",
+        "width": 256,
+        "height": 314,
+        "wikiFile": "Level_180_Ranger_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Ranger",
         "url": "https://helldivers.wiki.gg/wiki/Ranger",
@@ -949,7 +1144,12 @@
       "name": "Ranger, Bald Eagle Class",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/ranger-bald-eagle-class.5d198d3a.webp",
+        "width": 256,
+        "height": 306,
+        "wikiFile": "Level_200_Ranger,_Bald_Eagle_Class_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Ranger, Bald Eagle Class",
         "url": "https://helldivers.wiki.gg/wiki/Ranger,_Bald_Eagle_Class",
@@ -972,7 +1172,12 @@
       "name": "Ranger, Eagle Class",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/ranger-eagle-class.69f572c4.webp",
+        "width": 256,
+        "height": 306,
+        "wikiFile": "Level_190_Ranger,_Eagle_Class_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Ranger, Eagle Class",
         "url": "https://helldivers.wiki.gg/wiki/Ranger,_Eagle_Class",
@@ -995,7 +1200,12 @@
       "name": "Rank 300",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/rank-300.3dc38ccf.webp",
+        "width": 256,
+        "height": 317,
+        "wikiFile": "Level_300_Rank_300_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Rank 300",
         "url": "https://helldivers.wiki.gg/wiki/Rank_300",
@@ -1020,7 +1230,12 @@
         "Redacted"
       ],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/redacted.e0b13619.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Redacted_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Redacted",
         "url": "https://helldivers.wiki.gg/wiki/Redacted",
@@ -1046,7 +1261,12 @@
       "name": "Rookie",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/rookie.f0ef3dd8.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Rookie_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Rookie",
         "url": "https://helldivers.wiki.gg/wiki/Rookie",
@@ -1072,7 +1292,12 @@
       "name": "Sergeant",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/sergeant.37d60739.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_10_Sergeant_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Sergeant",
         "url": "https://helldivers.wiki.gg/wiki/Sergeant",
@@ -1095,7 +1320,12 @@
       "name": "Servant of Freedom",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/servant-of-freedom.c5a8364d.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Servant_of_Freedom_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Servant of Freedom",
         "url": "https://helldivers.wiki.gg/wiki/Servant_of_Freedom",
@@ -1121,7 +1351,12 @@
       "name": "Skull Admiral",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/skull-admiral.34666e03.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_50_Skull_Admiral_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Skull Admiral",
         "url": "https://helldivers.wiki.gg/wiki/Skull_Admiral",
@@ -1144,7 +1379,12 @@
       "name": "Space Cadet",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/space-cadet.cff4f6d7.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_5_Space_Cadet_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Space Cadet",
         "url": "https://helldivers.wiki.gg/wiki/Space_Cadet",
@@ -1167,7 +1407,12 @@
       "name": "Space Chief Prime",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/space-chief-prime.4b04d478.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_25_Space_Chief_Prime_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Space Chief Prime",
         "url": "https://helldivers.wiki.gg/wiki/Space_Chief_Prime",
@@ -1190,7 +1435,12 @@
       "name": "Star Marshal",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/star-marshal.f3dac637.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_40_Star_Marshal_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Star Marshal",
         "url": "https://helldivers.wiki.gg/wiki/Star_Marshal",
@@ -1213,7 +1463,12 @@
       "name": "Still Standing",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/still-standing.5196c6b9.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Still_Standing_Title_Icon.png"
+      },
       "wiki": {
         "title": "Still Standing",
         "url": "https://helldivers.wiki.gg/wiki/Still_Standing",
@@ -1239,7 +1494,12 @@
       "name": "Super Citizen",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/super-citizen.70b55288.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Super_Citizen_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Super Citizen",
         "url": "https://helldivers.wiki.gg/wiki/Super_Citizen",
@@ -1265,7 +1525,12 @@
       "name": "Super Pedestrian",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/super-pedestrian.40484b29.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Super_Pedestrian_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Super Pedestrian",
         "url": "https://helldivers.wiki.gg/wiki/Super_Pedestrian",
@@ -1291,7 +1556,12 @@
       "name": "Super Private",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/super-private.3266fa35.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Level_150_Super_Private_Rank_Icon.svg"
+      },
       "wiki": {
         "title": "Super Private",
         "url": "https://helldivers.wiki.gg/wiki/Super_Private",
@@ -1314,7 +1584,12 @@
       "name": "Super Sheriff",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/super-sheriff.5916c425.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Super_Sheriff_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Super Sheriff",
         "url": "https://helldivers.wiki.gg/wiki/Super_Sheriff",
@@ -1340,7 +1615,12 @@
       "name": "Viper Commando",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/titles/viper-commando.c031fd4e.webp",
+        "width": 256,
+        "height": 315,
+        "wikiFile": "Viper_Commando_Title_Icon.svg"
+      },
       "wiki": {
         "title": "Viper Commando",
         "url": "https://helldivers.wiki.gg/wiki/Viper_Commando",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SH-32 Shield Generator Pack",
     "aliases": [],
     "description": "The SH-32 Shield Generator Pack, also known as the Shield Pack, is a backpack stratagem that protects the wearer from most damage and environmental effects.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/sh-32-shield-generator-pack.974dd7b7.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Shield_Generator_Pack_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "SH-32 Shield Generator Pack",
       "url": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "AC-2 Obedient",
     "aliases": [],
     "description": "The muted colors and relaxed, high-mobility fit make it a favorite among long-distance snipers and hide-and-seek champions alike.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ac-2-obedient.7cfae7c9.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AC-2_Obedient_Armor_Render.png"
+    },
     "wiki": {
       "title": "AC-2 Obedient",
       "url": "https://helldivers.wiki.gg/wiki/AC-2_Obedient",

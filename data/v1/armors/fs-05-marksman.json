@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "FS-05 Marksman",
     "aliases": [],
     "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-05-marksman.847dc190.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-05_Marksman_Body_Icon.png"
+    },
     "wiki": {
       "title": "FS-05 Marksman",
       "url": "https://helldivers.wiki.gg/wiki/FS-05_Marksman",

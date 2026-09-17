@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Churned Earth",
     "aliases": [],
     "description": "Churned Earth patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/churned-earth-hellpod.b17f1462.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Churned_Earth_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Churned Earth Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Churned_Earth_Pattern",
@@ -25,7 +30,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/churned-earth-hellpod.b17f1462.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Churned_Earth_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Siege Breakers",
@@ -40,7 +50,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/churned-earth-shuttle.ad5a2542.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Churned_Earth_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Siege Breakers",
@@ -55,7 +70,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/churned-earth-exosuit.428b27f3.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Churned_Earth_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Siege Breakers",
@@ -70,7 +90,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/churned-earth-vehicle.8643784d.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Churned_Earth_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Siege Breakers",

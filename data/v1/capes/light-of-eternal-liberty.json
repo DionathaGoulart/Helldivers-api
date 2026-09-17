@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Light of Eternal Liberty",
     "aliases": [],
     "description": "The unimpeachable justice of this cape's design is said to blind the enemies of Freedom with its glorious light.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/light-of-eternal-liberty.1b558947.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Light_of_Eternal_Liberty_Cape_Render.png"
+    },
     "wiki": {
       "title": "Light of Eternal Liberty",
       "url": "https://helldivers.wiki.gg/wiki/Light_of_Eternal_Liberty",

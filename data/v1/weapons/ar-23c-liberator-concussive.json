@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "AR-23C Liberator Concussive",
     "aliases": [],
     "description": "The AR-23C Liberator Concussive is Primary Assault Rifle, a variant of the standard Liberator with a drum magazine and increased stagger power in exchange for a significantly reduced rate of fire.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/ar-23c-liberator-concussive.2365e791.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "AR-23C_Liberator_Concussive_Primary_Render.png"
+    },
     "wiki": {
       "title": "AR-23C Liberator Concussive",
       "url": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",

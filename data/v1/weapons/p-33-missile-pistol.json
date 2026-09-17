@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "P-33 Missile Pistol",
     "aliases": [],
     "description": "The P-33 Missile Pistol is a Secondary Special single-shot weapon that fires guided missiles at targets.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/p-33-missile-pistol.1b4faad6.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "P-33_Missile_Pistol_Secondary_Render.png"
+    },
     "wiki": {
       "title": "P-33 Missile Pistol",
       "url": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",

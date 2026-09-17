@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SG-8 Punisher",
     "aliases": [],
     "description": "The SG-8 Punisher is a Primary Shotgun, possessing high damage and stagger per shot, at the cost of a low overall fire rate.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/sg-8-punisher.85e41acb.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SG-8_Punisher_Primary_Render.png"
+    },
     "wiki": {
       "title": "SG-8 Punisher",
       "url": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",

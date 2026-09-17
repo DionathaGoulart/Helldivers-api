@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "LAS-7 Dagger",
     "aliases": [],
     "description": "The LAS-7 Dagger is a Secondary Special energy-based laser pistol with infinite ammo. The weapons ammunition capacity is only limited by heat accumulation within the weapon.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/las-7-dagger.63222ce0.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "LAS-7_Dagger_Secondary_Render.png"
+    },
     "wiki": {
       "title": "LAS-7 Dagger",
       "url": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",

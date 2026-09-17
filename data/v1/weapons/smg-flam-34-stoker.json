@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SMG/FLAM-34 Stoker",
     "aliases": [],
     "description": "The SMG/FLAM-34 Stoker is a Primary Submachine Gun that comes equipped with an under-barrel flamethrower.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/smg-flam-34-stoker.3101b436.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SMGFLAM-34_Stoker_Primary_Icon.png"
+    },
     "wiki": {
       "title": "SMG/FLAM-34 Stoker",
       "url": "https://helldivers.wiki.gg/wiki/SMG/FLAM-34_Stoker",

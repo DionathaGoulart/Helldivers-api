@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "PLAS-15 Loyalist",
     "aliases": [],
     "description": "The PLAS-15 Loyalist is a Secondary Special pistol that fires explosive plasma projectiles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/plas-15-loyalist.e774defa.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "PLAS-15_Loyalist_Secondary_Render.png"
+    },
     "wiki": {
       "title": "PLAS-15 Loyalist",
       "url": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",

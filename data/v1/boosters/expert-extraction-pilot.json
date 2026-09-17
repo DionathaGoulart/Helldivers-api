@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Expert Extraction Pilot",
     "aliases": [],
     "description": "Expert Extraction Pilot is a Booster in Helldivers 2. When equipped, the extraction timer will be decreased, allowing for the Helldivers' squad to extract from a mission at a quicker rate. This booster does not affect missions where the Extraction Shuttle is immediately called in and lands after a mission is completed.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/expert-extraction-pilot.153968b4.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Expert_Extraction_Pilot_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Expert Extraction Pilot",
       "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "MD-I4 Incendiary Mines",
     "aliases": [],
     "description": "The MD-I4 Incendiary Mines are a defensive stratagem that blankets a roughly 25-30 meter diameter area around itself with incendiary mines.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/md-i4-incendiary-mines.91bca3cb.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Incendiary_Mines_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "MD-I4 Incendiary Mines",
       "url": "https://helldivers.wiki.gg/wiki/MD-I4_Incendiary_Mines",

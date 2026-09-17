@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Orbital Illumination Flare",
     "aliases": [],
     "description": "The Orbital Illumination Flare is a deprecated Stratagem that was never able to be used in-game.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/orbital-illumination-flare.e4792b22.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Orbital_Illumination_Flare_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "Orbital Illumination Flare",
       "url": "https://helldivers.wiki.gg/wiki/Orbital_Illumination_Flare",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,12 @@
       "Reinforcement Pods"
     ],
     "description": "Reinforcement Pods is a Commando Mission exclusive Optional Objective in Helldivers 2. Helldivers are tasked with activating them, granting additional reinforcements to use while the Super Destroyer is away.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/reinforcement-pods.35622ca5.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Upload_Data_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "Reinforcement Pods",
       "url": "https://helldivers.wiki.gg/wiki/Reinforcement_Pods",

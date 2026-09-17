@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "A/GM-17 Gas Mortar Sentry",
     "aliases": [],
     "description": "The A/GM-17 Gas Mortar Sentry is a powerful defensive stratagem able to deploy gas mortar shells onto enemies from range, and behind cover.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/a-gm-17-gas-mortar-sentry.bdfb4f98.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Gas_Mortar_Sentry_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "A/GM-17 Gas Mortar Sentry",
       "url": "https://helldivers.wiki.gg/wiki/A/GM-17_Gas_Mortar_Sentry",

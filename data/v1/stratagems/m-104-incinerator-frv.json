@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "M-104 Incinerator FRV",
     "aliases": [],
     "description": "The M-104 Incinerator FRV is a Stratagem that deploys an armored four-wheeled ground vehicle, equipped with a spiked ramming grille and a heavy flamethrower.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/m-104-incinerator-frv.58c79032.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Incinerator_FRV_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "M-104 Incinerator FRV",
       "url": "https://helldivers.wiki.gg/wiki/M-104_Incinerator_FRV",

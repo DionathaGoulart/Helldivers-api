@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Vision of Freedom",
     "aliases": [],
     "description": "Artists and sculptors have made countless attempts at depicting the face of Liberty, but the truth is that any citizen can see it—they need only requisition a mirror.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/vision-of-freedom.77c77fcd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Vision_of_Freedom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Vision of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Vision_of_Freedom",

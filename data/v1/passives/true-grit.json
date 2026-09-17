@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "True Grit",
     "aliases": [],
     "description": "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/passives/true-grit.4d6be790.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "True_Grit_Armor_Passive_Icon.svg"
+    },
     "wiki": {
       "title": "True Grit",
       "url": "https://helldivers.wiki.gg/wiki/True_Grit",

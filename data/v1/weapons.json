@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "count": 104,
     "source": {
       "name": "The Helldivers Wiki",
@@ -16,7 +16,12 @@
       "name": "AR-11 Arbitrator",
       "aliases": [],
       "description": "The AR-11 Arbitrator is a Primary Assault Rifle equipped with an underbarrel shotgun.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-11-arbitrator.9a7e3dbf.webp",
+        "width": 389,
+        "height": 355,
+        "wikiFile": "AR-11_Arbitrator_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-11 Arbitrator",
         "url": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
@@ -76,7 +81,12 @@
       "name": "AR-2 Coyote",
       "aliases": [],
       "description": "The AR-2 Coyote is a Primary Assault Rifle that fires Medium armor penetration incendiary rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-2-coyote.3ea0cd0e.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-2_Coyote_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-2 Coyote",
         "url": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
@@ -249,7 +259,12 @@
       "name": "AR-23 Liberator",
       "aliases": [],
       "description": "The AR-23 Liberator is a Primary Assault Rifle, available for all Helldivers.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-23-liberator.932ff63d.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23_Liberator_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-23 Liberator",
         "url": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
@@ -382,7 +397,12 @@
       "name": "AR-23A Liberator Carbine",
       "aliases": [],
       "description": "The AR-23A Liberator Carbine is a Primary Assault Rifle, a carbine variant of the standard Liberator, featuring a much faster fire rate at the cost of significantly increased recoil.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-23a-liberator-carbine.cd553015.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23A_Liberator_Carbine_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-23A Liberator Carbine",
         "url": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
@@ -518,7 +538,12 @@
       "name": "AR-23C Liberator Concussive",
       "aliases": [],
       "description": "The AR-23C Liberator Concussive is Primary Assault Rifle, a variant of the standard Liberator with a drum magazine and increased stagger power in exchange for a significantly reduced rate of fire.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-23c-liberator-concussive.2365e791.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23C_Liberator_Concussive_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-23C Liberator Concussive",
         "url": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
@@ -653,7 +678,12 @@
       "name": "AR-23P Liberator Penetrator",
       "aliases": [],
       "description": "The AR-23P Liberator Penetrator is a Primary Assault Rifle, a variant of the standard Liberator with increased armor-piercing capabilities.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-23p-liberator-penetrator.eaccb0c6.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-23P_Liberator_Penetrator_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-23P Liberator Penetrator",
         "url": "https://helldivers.wiki.gg/wiki/AR-23P_Liberator_Penetrator",
@@ -788,8 +818,13 @@
       "slug": "ar-32-pacifier",
       "name": "AR-32 Pacifier",
       "aliases": [],
-      "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly low damage output.",
-      "image": null,
+      "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly lower damage output compared to most other primaries.",
+      "image": {
+        "url": "/images/v1/weapons/ar-32-pacifier.ddc1cb4c.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-32_Pacifier_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-32 Pacifier",
         "url": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
@@ -953,7 +988,12 @@
       "name": "AR-59 Suppressor",
       "aliases": [],
       "description": "The AR-59 Suppressor is a Primary Assault Rifle, equipped with a suppressor for silent takedowns, especially suited to Stealth playstyles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-59-suppressor.c7e53c3b.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-59_Suppressor_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-59 Suppressor",
         "url": "https://helldivers.wiki.gg/wiki/AR-59_Suppressor",
@@ -1089,7 +1129,12 @@
       "name": "AR-61 Tenderizer",
       "aliases": [],
       "description": "The AR-61 Tenderizer is a Primary Assault Rifle that fires Light-armor penetrating high-caliber rounds. It boasts the highest damage per round in its class.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-61-tenderizer.fdcfd94d.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-61_Tenderizer_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR-61 Tenderizer",
         "url": "https://helldivers.wiki.gg/wiki/AR-61_Tenderizer",
@@ -1228,7 +1273,12 @@
       "name": "AR/GL-21 One-Two",
       "aliases": [],
       "description": "The AR/GL-21 One-Two is a Primary Assault Rifle equipped with an underbarrel grenade launcher.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ar-gl-21-one-two.0be1317f.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "AR-GL-21_One_Two_Primary_Render.png"
+      },
       "wiki": {
         "title": "AR/GL-21 One-Two",
         "url": "https://helldivers.wiki.gg/wiki/AR/GL-21_One-Two",
@@ -1467,7 +1517,12 @@
       "name": "ARC-12 Blitzer",
       "aliases": [],
       "description": "The ARC-12 Blitzer is an Primary Energy-Based shotgun that fires arcs of electricity instead of buckshot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/arc-12-blitzer.d6a26189.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "ARC-12_Blitzer_Primary_Render.png"
+      },
       "wiki": {
         "title": "ARC-12 Blitzer",
         "url": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
@@ -1610,7 +1665,12 @@
       "name": "BR-14 Adjudicator",
       "aliases": [],
       "description": "The BR-14 Adjudicator is a Primary Assault Rifle. It fires Medium armor penetrating rounds with high damage, but has a restricted magazine size and moderate recoil.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/br-14-adjudicator.e0df31bd.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "BR-14_Adjudicator_Primary_Render.png"
+      },
       "wiki": {
         "title": "BR-14 Adjudicator",
         "url": "https://helldivers.wiki.gg/wiki/BR-14_Adjudicator",
@@ -1746,7 +1806,12 @@
       "name": "CB-9 Exploding Crossbow",
       "aliases": [],
       "description": "The CB-9 Exploding Crossbow is a Primary Explosive weapon. It fires explosive-tipped crossbow bolts that deal damage in an area.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cb-9-exploding-crossbow.b429285e.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CB-9_Exploding_Crossbow_Primary_Render.png"
+      },
       "wiki": {
         "title": "CB-9 Exploding Crossbow",
         "url": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
@@ -1921,7 +1986,12 @@
       "name": "CQC-19 Stun Lance",
       "aliases": [],
       "description": "The CQC-19 Stun Lance is a Melee Secondary Weapon. Attacking will thrust the lance at a moderately fast speed.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-19-stun-lance.95d6169d.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CQC-19_Stun_Lance_Secondary_Render.png"
+      },
       "wiki": {
         "title": "CQC-19 Stun Lance",
         "url": "https://helldivers.wiki.gg/wiki/CQC-19_Stun_Lance",
@@ -2007,7 +2077,12 @@
       "name": "CQC-2 Saber",
       "aliases": [],
       "description": "The CQC-2 Saber is a Melee Secondary Weapon. Attacking will rapidly swing the saber in a short range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-2-saber.d2385260.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CQC-2_Saber_Secondary_Render.png"
+      },
       "wiki": {
         "title": "CQC-2 Saber",
         "url": "https://helldivers.wiki.gg/wiki/CQC-2_Saber",
@@ -2091,7 +2166,12 @@
       "name": "CQC-30 Stun Baton",
       "aliases": [],
       "description": "The CQC-30 Stun Baton is a Melee Secondary Weapon. Attacking will rapidly swing the baton in a short range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-30-stun-baton.7ca0ca25.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CQC-30_Stun_Baton_Secondary_Render.png"
+      },
       "wiki": {
         "title": "CQC-30 Stun Baton",
         "url": "https://helldivers.wiki.gg/wiki/CQC-30_Stun_Baton",
@@ -2178,7 +2258,12 @@
       "name": "CQC-42 Machete",
       "aliases": [],
       "description": "The CQC-42 Machete is a Melee Secondary Weapon. Attacking will slowly swing the Machete in a short range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-42-machete.a18e0765.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CQC-42_Machete_Secondary_Render.png"
+      },
       "wiki": {
         "title": "CQC-42 Machete",
         "url": "https://helldivers.wiki.gg/wiki/CQC-42_Machete",
@@ -2262,7 +2347,12 @@
       "name": "CQC-5 Combat Hatchet",
       "aliases": [],
       "description": "The CQC-5 Combat Hatchet is a Melee Secondary Weapon. Attacking will rapidly swing the hatchet in a short range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-5-combat-hatchet.4a229d95.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CQC-5_Combat_Hatchet_Secondary_Render.png"
+      },
       "wiki": {
         "title": "CQC-5 Combat Hatchet",
         "url": "https://helldivers.wiki.gg/wiki/CQC-5_Combat_Hatchet",
@@ -2348,7 +2438,12 @@
         "CQC-72 Entrenchment Tool"
       ],
       "description": "The CQC-72 Entrenchment Tool, is a Melee Support Weapon that doubles as a shovel.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-72-entrenchment-tool.789c2914.webp",
+        "width": 377,
+        "height": 512,
+        "wikiFile": "CQC-72_Entrenchment_Tool_Support_Render.png"
+      },
       "wiki": {
         "title": "CQC-72 Entrenchment Tool",
         "url": "https://helldivers.wiki.gg/wiki/CQC-72_Entrenchment_Tool",
@@ -2436,7 +2531,12 @@
         "CQC-73 Entrenchment Tool"
       ],
       "description": "The CQC-73 Entrenchment Tool is a Melee Secondary Weapon that doubles as a shovel.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/cqc-73-entrenchment-tool.7363b222.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "CQC-73_Entrenchment_Tool_Secondary_Render.png"
+      },
       "wiki": {
         "title": "CQC-73 Entrenchment Tool",
         "url": "https://helldivers.wiki.gg/wiki/CQC-73_Entrenchment_Tool",
@@ -2524,7 +2624,12 @@
       "name": "DBS-2 Double Freedom",
       "aliases": [],
       "description": "The DBS-2 Double Freedom is a double-barreled Primary Shotgun, compensating its limited capacity with massive stopping power.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/dbs-2-double-freedom.99c52b04.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "DBS-2_Shotgun_Primary_Render.png"
+      },
       "wiki": {
         "title": "DBS-2 Double Freedom",
         "url": "https://helldivers.wiki.gg/wiki/DBS-2_Double_Freedom",
@@ -2664,7 +2769,12 @@
       "name": "FLAM-66 Torcher",
       "aliases": [],
       "description": "The FLAM-66 Torcher is a Primary Special flamethrower.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/flam-66-torcher.83190b85.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "FLAM-66_Torcher_Primary_Render.png"
+      },
       "wiki": {
         "title": "FLAM-66 Torcher",
         "url": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
@@ -2867,7 +2977,12 @@
       "name": "G-10 Incendiary",
       "aliases": [],
       "description": "The G-10 Incendiary is a Standard Throwable that trades direct explosive damage for lingering fire, causing enemies to take damage over time.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-10-incendiary.2f5438cd.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-10_Incendiary_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-10 Incendiary",
         "url": "https://helldivers.wiki.gg/wiki/G-10_Incendiary",
@@ -2996,7 +3111,12 @@
       "name": "G-109 Urchin",
       "aliases": [],
       "description": "The G-109 Urchin is a Special Throwable that can stick and inflict stun to a single target after a delay.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-109-urchin.8bbaecb9.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-109_Urchin_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-109 Urchin",
         "url": "https://helldivers.wiki.gg/wiki/G-109_Urchin",
@@ -3113,7 +3233,12 @@
       "name": "G-12 High Explosive",
       "aliases": [],
       "description": "The G-12 High Explosive is a Standard Throwable with a high damaging, heavy armor penetrating explosion.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-12-high-explosive.88e191a4.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-12_High_Explosive_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-12 High Explosive",
         "url": "https://helldivers.wiki.gg/wiki/G-12_High_Explosive",
@@ -3203,7 +3328,12 @@
       "name": "G-123 Thermite",
       "aliases": [],
       "description": "The G-123 Thermite is a Special Throwable that can stick and inflict heavy explosion damage to a single target after a delay.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-123-thermite.ad04d273.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-123_Thermite_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-123 Thermite",
         "url": "https://helldivers.wiki.gg/wiki/G-123_Thermite",
@@ -3363,7 +3493,12 @@
       "name": "G-13 Incendiary Impact",
       "aliases": [],
       "description": "The G-13 Incendiary Impact is a Special Throwable that combines the characteristics of the G-16 Impact and G-10 Incendiary.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-13-incendiary-impact.398327e0.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-13_Incendiary_Impact_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-13 Incendiary Impact",
         "url": "https://helldivers.wiki.gg/wiki/G-13_Incendiary_Impact",
@@ -3492,7 +3627,12 @@
       "name": "G-142 Pyrotech",
       "aliases": [],
       "description": "The G-142 Pyrotech is a Special Throwable that trades direct explosive damage for lingering fire, causing enemies to take damage over time.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-142-pyrotech.6e234bde.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-142_Pyrotech_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-142 Pyrotech",
         "url": "https://helldivers.wiki.gg/wiki/G-142_Pyrotech",
@@ -3665,7 +3805,12 @@
       "name": "G-16 Impact",
       "aliases": [],
       "description": "The G-16 Impact is a Special Throwable that explodes on impact with a surface or entity.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-16-impact.97e99bf5.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-16_Impact_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-16 Impact",
         "url": "https://helldivers.wiki.gg/wiki/G-16_Impact",
@@ -3758,7 +3903,12 @@
       "name": "G-23 Stun",
       "aliases": [],
       "description": "The G-23 Stun is a Special Throwable that creates a non-lethal explosion, stunning enemies and slowing Helldivers.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-23-stun.896a83bb.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-23_Stun_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-23 Stun",
         "url": "https://helldivers.wiki.gg/wiki/G-23_Stun",
@@ -3875,7 +4025,12 @@
       "name": "G-3 Smoke",
       "aliases": [],
       "description": "The G-3 Smoke is a Special Throwable that is used to create a temporary smoke screen to obscure Helldivers.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-3-smoke.1854f32b.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-3_Smoke_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-3 Smoke",
         "url": "https://helldivers.wiki.gg/wiki/G-3_Smoke",
@@ -3959,7 +4114,12 @@
       "name": "G-31 Arc",
       "aliases": [],
       "description": "The G-31 Arc is a Special Throwable that fires arcs in a similar manner to the De-Escalator.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-31-arc.e630406e.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-31_ARC_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-31 Arc",
         "url": "https://helldivers.wiki.gg/wiki/G-31_Arc",
@@ -4112,7 +4272,12 @@
       "name": "G-4 Gas",
       "aliases": [],
       "description": "The G-4 Gas (or Gas Grenade) is a Special Throwable that releases a cloud of Gas alongside a minuscule explosion.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-4-gas.f92ebd4d.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-4_Gas_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-4 Gas",
         "url": "https://helldivers.wiki.gg/wiki/G-4_Gas",
@@ -4268,7 +4433,12 @@
       "name": "G/40-K Melta Mine",
       "aliases": [],
       "description": "The G/40-K Melta Mine is a Standard Throwable that deploys a proximity mine which, when detonated, releases a large column of superheated thermal energy before exploding.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-40-k-melta-mine.fba224e6.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-40-K_Melta_Mine_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G/40-K Melta Mine",
         "url": "https://helldivers.wiki.gg/wiki/G/40-K_Melta_Mine",
@@ -4398,7 +4568,12 @@
       "name": "G-48 Giga Grenade",
       "aliases": [],
       "description": "The G-48 Giga Grenade is a Special Throwable with a wide and high damaging explosion, at the cost of less than usual grenade capacity.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-48-giga-grenade.54af95cd.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-48_Giga_Grenade_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-48 Giga Grenade",
         "url": "https://helldivers.wiki.gg/wiki/G-48_Giga_Grenade",
@@ -4494,7 +4669,12 @@
       "name": "G-50 Seeker",
       "aliases": [],
       "description": "The G-50 Seeker (simply known as a Seeker) is a Special Throwable in Helldivers 2 that can fly around and explodes on impact. It will target the nearest enemy, but will prioritize a pinged enemy.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-50-seeker.386995f0.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-50_Seeker_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-50 Seeker",
         "url": "https://helldivers.wiki.gg/wiki/G-50_Seeker",
@@ -4588,7 +4768,12 @@
       "name": "G-6 Frag",
       "aliases": [],
       "description": "The G-6 Frag is a Standard Throwable with a large explosive radius, producing shrapnel that can deal additional damage.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-6-frag.1af39892.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-6_Frag_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-6 Frag",
         "url": "https://helldivers.wiki.gg/wiki/G-6_Frag",
@@ -4727,7 +4912,12 @@
       "name": "G-60 Anti-Tank Seeker",
       "aliases": [],
       "description": "The G-60 Anti-Tank Seeker (also known as the AT Seeker) is a Special Throwable in Helldivers 2. Similar to the G-50 Seeker, it is an anti-tank grenade that can fly and will explode on impact.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-60-anti-tank-seeker.68dfed86.webp",
+        "width": 184,
+        "height": 224,
+        "wikiFile": "G-60_Anti-Tank_Seeker_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-60 Anti-Tank Seeker",
         "url": "https://helldivers.wiki.gg/wiki/G-60_Anti-Tank_Seeker",
@@ -4770,7 +4960,12 @@
       "name": "G-7 Pineapple",
       "aliases": [],
       "description": "The G-7 Pineapple is a Standard Throwable that explodes into several bomblets with shrapnel, able to inflict damage over a large area.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-7-pineapple.fc58d521.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-7_Pineapple_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-7 Pineapple",
         "url": "https://helldivers.wiki.gg/wiki/G-7_Pineapple",
@@ -4949,7 +5144,12 @@
       "name": "G-8 Immolation",
       "aliases": [],
       "description": "The G-8 Immolation is a Special Throwable that explodes into a massive pool of fire upon impact.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
+        "width": 194,
+        "height": 240,
+        "wikiFile": "G-8_Immolation_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-8 Immolation",
         "url": "https://helldivers.wiki.gg/wiki/G-8_Immolation",
@@ -4990,7 +5190,12 @@
       "name": "G-89 Smokescreen",
       "aliases": [],
       "description": "The G-89 Smokescreen is a Special Throwable that is used to create a temporary smoke screen to obscure Helldivers upon impact.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-89-smokescreen.5c8fb1db.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-89_Smokescreen_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-89 Smokescreen",
         "url": "https://helldivers.wiki.gg/wiki/G-89_Smokescreen",
@@ -5074,7 +5279,12 @@
       "name": "G/SH-39 Shield",
       "aliases": [],
       "description": "The G/SH-39 Shield is a Special Throwable that projects a small bubble shield with 360° coverage to block incoming projectiles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-sh-39-shield.1eae61e5.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "G-SH-39_Shield_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G/SH-39 Shield",
         "url": "https://helldivers.wiki.gg/wiki/G/SH-39_Shield",
@@ -5131,7 +5341,12 @@
       "name": "GL-15 Evictor",
       "aliases": [],
       "description": "GL-15 Evictor is a Explosive primary weapon that fires high-damaging grenades that explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/gl-15-evictor.364720fd.webp",
+        "width": 379,
+        "height": 337,
+        "wikiFile": "GL-15_Evictor_Primary_Render.png"
+      },
       "wiki": {
         "title": "GL-15 Evictor",
         "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
@@ -5191,7 +5406,12 @@
       "name": "GP-20 Ultimatum",
       "aliases": [],
       "description": "The Ultimatum is a Secondary Special, powerful single-shot weapon that fires extremely destructive explosive rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/gp-20-ultimatum.e3b73466.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "GP-20_Ultimatum_Secondary_Render.png"
+      },
       "wiki": {
         "title": "GP-20 Ultimatum",
         "url": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
@@ -5362,7 +5582,12 @@
       "name": "GP-31 Grenade Pistol",
       "aliases": [],
       "description": "The GP-31 Grenade Pistol is a Secondary Special single-shot weapon that fires a powerful grenades at a medium range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/gp-31-grenade-pistol.e0f08127.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "GP-31_Grenade_Pistol_Secondary_Render.png"
+      },
       "wiki": {
         "title": "GP-31 Grenade Pistol",
         "url": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
@@ -5534,7 +5759,12 @@
       "name": "JAR-5 Dominator",
       "aliases": [],
       "description": "The JAR-5 Dominator is a Primary Special weapon that fires highly damaging rounds in exchange for a severely restricted magazine size.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/jar-5-dominator.fbf71dcb.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "JAR-5_Dominator_Primary_Render.png"
+      },
       "wiki": {
         "title": "JAR-5 Dominator",
         "url": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
@@ -5672,7 +5902,12 @@
       "name": "K-2 Throwing Knife",
       "aliases": [],
       "description": "The K-2 Throwing Knife is a Special Throwable that can be used for silent takedowns, especially suited to Stealth playstyles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/k-2-throwing-knife.f298ba19.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "K-2_Throwing_Knife_Throwable_Render.png"
+      },
       "wiki": {
         "title": "K-2 Throwing Knife",
         "url": "https://helldivers.wiki.gg/wiki/K-2_Throwing_Knife",
@@ -5757,7 +5992,12 @@
       "name": "LAS-13 Trident",
       "aliases": [],
       "description": "The LAS-13 Trident is a Primary Energy-Based shotgun in Helldivers 2. It fires multiple beams per shot and ammunition capacity is only limited by heat accumulation within the weapon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/las-13-trident.0d298c8c.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-13_Trident_Primary_Render.png"
+      },
       "wiki": {
         "title": "LAS-13 Trident",
         "url": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
@@ -5890,7 +6130,12 @@
       "name": "LAS-16 Sickle",
       "aliases": [],
       "description": "The LAS-16 Sickle is a Primary Energy-Based weapon that operates like an Assault Rifle, shooting targets with a barrage of laser pulses.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/las-16-sickle.a96f3675.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-16_Sickle_Primary_Render.png"
+      },
       "wiki": {
         "title": "LAS-16 Sickle",
         "url": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
@@ -6033,7 +6278,12 @@
       "name": "LAS-17 Double-Edge Sickle",
       "aliases": [],
       "description": "The LAS-17 Double-Edge Sickle is a Primary Energy-Based weapon that operates like an assault rifle, shooting targets with a barrage of laser pulses but will damage the user after prolonged firing.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/las-17-double-edge-sickle.d9ccdafd.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-17_Double-Edge_Sickle_Primary_Render.png"
+      },
       "wiki": {
         "title": "LAS-17 Double-Edge Sickle",
         "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
@@ -6314,7 +6564,12 @@
       "name": "LAS-5 Scythe",
       "aliases": [],
       "description": "The LAS-5 Scythe is a Primary Energy-Based laser rifle with infinite ammo. The weapons ammunition capacity is only limited by heat accumulation within the weapon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/las-5-scythe.b85e3206.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-5_Scythe_Primary_Render.png"
+      },
       "wiki": {
         "title": "LAS-5 Scythe",
         "url": "https://helldivers.wiki.gg/wiki/LAS-5_Scythe",
@@ -6472,7 +6727,12 @@
       "name": "LAS-58 Talon",
       "aliases": [],
       "description": "The LAS-58 Talon is a Secondary Special, energy-based semi-automatic laser revolver that fires pulses similarly to the LAS-16 Sickle.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/las-58-talon.6175e3f1.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-58_Talon_Secondary_Render.png"
+      },
       "wiki": {
         "title": "LAS-58 Talon",
         "url": "https://helldivers.wiki.gg/wiki/LAS-58_Talon",
@@ -6613,7 +6873,12 @@
       "name": "LAS-7 Dagger",
       "aliases": [],
       "description": "The LAS-7 Dagger is a Secondary Special energy-based laser pistol with infinite ammo. The weapons ammunition capacity is only limited by heat accumulation within the weapon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/las-7-dagger.63222ce0.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-7_Dagger_Secondary_Render.png"
+      },
       "wiki": {
         "title": "LAS-7 Dagger",
         "url": "https://helldivers.wiki.gg/wiki/LAS-7_Dagger",
@@ -6773,7 +7038,12 @@
       "name": "M6C/SOCOM Pistol",
       "aliases": [],
       "description": "The M6C/SOCOM Pistol is a Secondary Pistol with a suppressor and relatively high damage for silent takedowns, especially suited to Stealth playstyles. Part of Helldivers 2 x Halo: ODST crossover.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/m6c-socom-pistol.d4a826ce.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "M6C-SOCOM_Pistol_Secondary_Render.png"
+      },
       "wiki": {
         "title": "M6C/SOCOM Pistol",
         "url": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
@@ -6910,7 +7180,12 @@
       "name": "M7S SMG",
       "aliases": [],
       "description": "The M7S SMG is a Primary Submachine Gun with a moderate rate of fire and suppressor for silent takedowns, especially suited to Stealth playstyles. Part of Helldivers 2 x Halo: ODST crossover.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/m7s-smg.9630814d.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "M7S_SMG_Primary_Render.png"
+      },
       "wiki": {
         "title": "M7S SMG",
         "url": "https://helldivers.wiki.gg/wiki/M7S_SMG",
@@ -7049,7 +7324,12 @@
       "name": "M90A Shotgun",
       "aliases": [],
       "description": "The M90A Shotgun is a Primary Shotgun, able to inflict extremely high damage per round in exchange for a significantly reduced magazine size.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/m90a-shotgun.6ace6747.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "M90A_Shotgun_Primary_Render.png"
+      },
       "wiki": {
         "title": "M90A Shotgun",
         "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
@@ -7189,7 +7469,12 @@
       "name": "MA5C Assault Rifle",
       "aliases": [],
       "description": "The MA5C Assault Rifle is a Primary Assault Rifle. It has an attached electronics suite that provides information on rounds remaining in the magazine and compass heading.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ma5c-assault-rifle.6eeb0c72.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "MA5C_Assault_Rifle_Primary_Render.png"
+      },
       "wiki": {
         "title": "MA5C Assault Rifle",
         "url": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
@@ -7326,7 +7611,12 @@
       "name": "MP-98 Knight",
       "aliases": [],
       "description": "The MP-98 Knight is a Primary Submachine Gun with an extremely high rate of fire.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/mp-98-knight.1343fafb.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "MP-98_Knight_Primary_Render.png"
+      },
       "wiki": {
         "title": "MP-98 Knight",
         "url": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
@@ -7462,7 +7752,12 @@
       "name": "P-11 Stim Pistol",
       "aliases": [],
       "description": "The P-11 Stim Pistol is a Secondary Special weapon that fires healing Stim rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-11-stim-pistol.ca164fab.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-11_Stim_Pistol_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-11 Stim Pistol",
         "url": "https://helldivers.wiki.gg/wiki/P-11_Stim_Pistol",
@@ -7588,7 +7883,12 @@
       "name": "P-113 Verdict",
       "aliases": [],
       "description": "The P-113 Verdict is a Secondary Pistol that inflicts high damage per round in exchange for a reduced magazine size.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-113-verdict.49fce3b7.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-113_Verdict_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-113 Verdict",
         "url": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
@@ -7724,7 +8024,12 @@
       "name": "P-19 Redeemer",
       "aliases": [],
       "description": "The P-19 Redeemer is a semi-automatic and fully-automatic hybrid Secondary Pistol.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-19-redeemer.a7daaa71.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-19_Redeemer_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-19 Redeemer",
         "url": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
@@ -7861,7 +8166,12 @@
       "name": "P-2 Peacemaker",
       "aliases": [],
       "description": "The P-2 Peacemaker is the starting Secondary Pistol for every Helldiver.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-2-peacemaker.f9fd9eb3.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-2_Peacemaker_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-2 Peacemaker",
         "url": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
@@ -7995,7 +8305,12 @@
       "name": "P-33 Missile Pistol",
       "aliases": [],
       "description": "The P-33 Missile Pistol is a Secondary Special single-shot weapon that fires guided missiles at targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-33-missile-pistol.1b4faad6.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-33_Missile_Pistol_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-33 Missile Pistol",
         "url": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",
@@ -8224,7 +8539,12 @@
       "name": "P-34 Breacher",
       "aliases": [],
       "description": "The P-34 Breacher is a Special Secondary single-shot weapon that fires an explosive thermite projectile at targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-34-breacher.ce4c188b.webp",
+        "width": 325,
+        "height": 290,
+        "wikiFile": "P-34_Breacher_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-34 Breacher",
         "url": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
@@ -8281,7 +8601,12 @@
       "name": "P-35 Re-Educator",
       "aliases": [],
       "description": "The P-35 Re-Educator is a Secondary Special pistol that fires Gas darts to disorient enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-35-re-educator.c3c34a84.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-35_Re-Educator_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-35 Re-Educator",
         "url": "https://helldivers.wiki.gg/wiki/P-35_Re-Educator",
@@ -8484,7 +8809,12 @@
       "name": "P-4 Senator",
       "aliases": [],
       "description": "The P-4 Senator is a Secondary Pistol that can penetrate heavy armor and deals a very high amount of damage per shot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-4-senator.f42f0d8c.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-4_Senator_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-4 Senator",
         "url": "https://helldivers.wiki.gg/wiki/P-4_Senator",
@@ -8624,7 +8954,12 @@
       "name": "P/40-K Bolt Pistol",
       "aliases": [],
       "description": "The P/40-K Bolt Pistol is a Secondary Pistol that fires large caliber rounds with massive recoil.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-40-k-bolt-pistol.a5fe42ad.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-40-K_Bolt_Pistol_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P/40-K Bolt Pistol",
         "url": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
@@ -8804,7 +9139,12 @@
       "name": "P-69 Veto",
       "aliases": [],
       "description": "The P-69 Veto is a Secondary Pistol with an internal magazine and jet-assisted rounds, able to inflict high stagger to enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-69-veto.e05a5301.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-69_Veto_Secondary_Icon.png"
+      },
       "wiki": {
         "title": "P-69 Veto",
         "url": "https://helldivers.wiki.gg/wiki/P-69_Veto",
@@ -8944,7 +9284,12 @@
       "name": "P-72 Crisper",
       "aliases": [],
       "description": "The P-72 Crisper is a Secondary Special handheld flamethrower that can be wielded in one hand.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-72-crisper.a1f86032.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-72_Crisper_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-72 Crisper",
         "url": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
@@ -9149,7 +9494,12 @@
       "name": "P-92 Warrant",
       "aliases": [],
       "description": "The P-92 Warrant is a Secondary Pistol. It has the ability to target enemies with homing bullets whilst shooting in a three-round burst.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-92-warrant.c3f0bbec.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "P-92_Warrant_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-92 Warrant",
         "url": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
@@ -9330,7 +9680,12 @@
       "name": "PLAS-1 Scorcher",
       "aliases": [],
       "description": "The PLAS-1 Scorcher is a Primary Energy-Based weapon that fires explosive energy projectiles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/plas-1-scorcher.00273011.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "PLAS-1_Scorcher_Primary_Render.png"
+      },
       "wiki": {
         "title": "PLAS-1 Scorcher",
         "url": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
@@ -9509,7 +9864,12 @@
       "name": "PLAS-101 Purifier",
       "aliases": [],
       "description": "The PLAS-101 Purifier is a Primary Energy-Based weapon that can fire variable-charge bolts of gas.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/plas-101-purifier.82d1e1e3.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "PLAS-101_Purifier_Primary_Render.png"
+      },
       "wiki": {
         "title": "PLAS-101 Purifier",
         "url": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
@@ -9776,7 +10136,12 @@
       "name": "PLAS-15 Loyalist",
       "aliases": [],
       "description": "The PLAS-15 Loyalist is a Secondary Special pistol that fires explosive plasma projectiles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/plas-15-loyalist.e774defa.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "PLAS-15_Loyalist_Secondary_Render.png"
+      },
       "wiki": {
         "title": "PLAS-15 Loyalist",
         "url": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
@@ -10126,7 +10491,12 @@
       "name": "PLAS-39 Accelerator Rifle",
       "aliases": [],
       "description": "The PLAS-39 Accelerator Rifle is a Primary Energy-Based, burst-firing plasma sniper rifle. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/plas-39-accelerator-rifle.6327a827.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "PLAS-39_Accelerator_Rifle_Primary_Render.png"
+      },
       "wiki": {
         "title": "PLAS-39 Accelerator Rifle",
         "url": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
@@ -10310,7 +10680,12 @@
       "name": "R-2 Amendment",
       "aliases": [],
       "description": "The R-2 Amendment is a Primary Marksman Rifle that can fire in semi-automatic or three-round bursts modes. It is affixed with a bayonet, improving melee damage and range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-2-amendment.5a275e88.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-2_Amendment_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-2 Amendment",
         "url": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
@@ -10478,7 +10853,12 @@
       "name": "R-2124 Constitution",
       "aliases": [],
       "description": "The R-2124 Constitution is a bolt-action Primary Marksman Rifle reminiscent of pre-Democratic rifles. It is affixed with a bayonet, improving melee damage and range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-2124-constitution.ce51d779.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-2124_Constitution_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-2124 Constitution",
         "url": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
@@ -10646,7 +11026,12 @@
       "name": "R-36 Eruptor",
       "aliases": [],
       "description": "R-36 Eruptor is a Primary Explosive weapon that fires jet-assisted shells which explode into shrapnel on impact.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-36-eruptor.cd674472.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-36_Eruptor_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-36 Eruptor",
         "url": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
@@ -10872,7 +11257,12 @@
       "name": "R-4 Hyena",
       "aliases": [],
       "description": "The R-4 Hyena is a Primary Marksman Rifle similar to the R-63CS Diligence Counter Sniper, trading magazine count, fire rate, and handling for greater firepower and incendiary rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-4-hyena.9a905299.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-4_Hyena_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-4 Hyena",
         "url": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
@@ -11042,7 +11432,12 @@
       "name": "R/40-K Hot-Shot Marksman Rifle",
       "aliases": [],
       "description": "The R/40-K Hot-Shot Marksman Rifle is a Primary Energy-Based Marksman Rifle that fires high-damaging bolts of energy, capable of cleaving through enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-40-k-hot-shot-marksman-rifle.de6d2ced.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-40-K_Hot-Shot_Primary_Render.png"
+      },
       "wiki": {
         "title": "R/40-K Hot-Shot Marksman Rifle",
         "url": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
@@ -11180,7 +11575,12 @@
       "name": "R-6 Deadeye",
       "aliases": [],
       "description": "The R-6 Deadeye is a lever-action Primary Marksman Rifle that trades rate-of-fire for Medium armor penetration, high damage and stagger force, requiring users to aim well and hit their targets the first time.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-6-deadeye.405ad6ee.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-6_Deadeye_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-6 Deadeye",
         "url": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
@@ -11319,7 +11719,12 @@
       "name": "R-63 Diligence",
       "aliases": [],
       "description": "The R-63 Diligence is a Primary Marksman Rifle that fires Light armor penetrating, but highly damaging shots.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-63-diligence.92ab1ff8.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-63_Diligence_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-63 Diligence",
         "url": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
@@ -11456,7 +11861,12 @@
       "name": "R-63CS Diligence Counter Sniper",
       "aliases": [],
       "description": "The R-63CS Diligence Counter Sniper is a Primary Marksman Rifle similar to the R-63 Diligence, trading magazine size and handling for greater firepower that can damage Medium armor.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-63cs-diligence-counter-sniper.a6d8b6b0.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-63CS_Diligence_Counter_Sniper_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-63CS Diligence Counter Sniper",
         "url": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
@@ -11593,7 +12003,12 @@
       "name": "R-72 Censor",
       "aliases": [],
       "description": "The R-72 Censor is a Primary Marksman Rifle equipped with a suppressor for silent takedowns, specially suited for Stealth playstyles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-72-censor.1f8dde63.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "R-72_Censor_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-72 Censor",
         "url": "https://helldivers.wiki.gg/wiki/R-72_Censor",
@@ -11730,7 +12145,12 @@
       "name": "SG-20 Halt",
       "aliases": [],
       "description": "The SG-20 Halt is a dual-tube, pump-action Primary Shotgun. It can switch between Medium-armor penetrating flechettes and Light-armor penetrating stun pellets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-20-halt.3005774d.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-20_Halt_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-20 Halt",
         "url": "https://helldivers.wiki.gg/wiki/SG-20_Halt",
@@ -11943,7 +12363,12 @@
       "name": "SG-22 Bushwhacker",
       "aliases": [],
       "description": "The SG-22 Bushwhacker is Secondary Special triple-barreled shotgun.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-22-bushwhacker.0f5eeb64.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-22_Bushwhacker_Secondary_Render.png"
+      },
       "wiki": {
         "title": "SG-22 Bushwhacker",
         "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
@@ -12084,7 +12509,12 @@
       "name": "SG-225 Breaker",
       "aliases": [],
       "description": "The SG-225 Breaker is a fully-automatic, mag-fed Primary Shotgun that is able to dish out tremendous amounts of damage in a short period of time.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-225-breaker.ff1cea2d.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-225_Breaker_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-225 Breaker",
         "url": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
@@ -12222,7 +12652,12 @@
       "name": "SG-225IE Breaker Incendiary",
       "aliases": [],
       "description": "The SG-225IE Breaker Incendiary is a burst fire Primary Shotgun, a variant of the standard Breaker that fires incendiary buckshot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-225ie-breaker-incendiary.f185c067.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-225IE_Breaker_Incendiary_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-225IE Breaker Incendiary",
         "url": "https://helldivers.wiki.gg/wiki/SG-225IE_Breaker_Incendiary",
@@ -12397,7 +12832,12 @@
       "name": "SG-225SP Breaker Spray&Pray",
       "aliases": [],
       "description": "The SG-225SP Breaker Spray&Pray is a fully-automatic Primary Shotgun, a variant of the standard Breaker that fires a wide and mostly horizontal spread of birdshot pellets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-225sp-breaker-spray-pray.f9dbe012.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-225SP_Breaker_Spray&Pray_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-225SP Breaker Spray&Pray",
         "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
@@ -12535,7 +12975,12 @@
       "name": "SG-451 Cookout",
       "aliases": [],
       "description": "The SG-451 Cookout is a Primary Shotgun, a variant of the standard Punisher that fires incendiary buckshot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-451-cookout.45fd6aaf.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-451_Cookout_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-451 Cookout",
         "url": "https://helldivers.wiki.gg/wiki/SG-451_Cookout",
@@ -12712,7 +13157,12 @@
       "name": "SG-8 Punisher",
       "aliases": [],
       "description": "The SG-8 Punisher is a Primary Shotgun, possessing high damage and stagger per shot, at the cost of a low overall fire rate.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-8-punisher.85e41acb.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-8_Punisher_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-8 Punisher",
         "url": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
@@ -12852,7 +13302,12 @@
       "name": "SG-88 Break-Action Shotgun",
       "aliases": [],
       "description": "The SG-88 Break-Action Shotgun is a Support Weapon with a 2 shot capacity found on various planets from Super Earth colonists.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-88-break-action-shotgun.7108e023.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-88_Break-Action_Shotgun_Support_Render.png"
+      },
       "wiki": {
         "title": "SG-88 Break-Action Shotgun",
         "url": "https://helldivers.wiki.gg/wiki/SG-88_Break-Action_Shotgun",
@@ -12990,7 +13445,12 @@
       "name": "SG-8P Punisher Plasma",
       "aliases": [],
       "description": "The SG-8P Punisher Plasma is a Primary Energy-Based weapon, a variant of the standard Punisher that fires Medium armor penetrating, exploding plasma rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-8p-punisher-plasma.b619c3fa.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-8P_Punisher_Plasma_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-8P Punisher Plasma",
         "url": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
@@ -13169,7 +13629,12 @@
       "name": "SG-8S Slugger",
       "aliases": [],
       "description": "The SG-8S Slugger is a Primary Shotgun, a variant of the standard Punisher that fires Medium armor penetrating slugs, as opposed to buckshot. This means the shotgun acts more like a rifle, firing a single projectile per shot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-8s-slugger.81902ded.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-8S_Slugger_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-8S Slugger",
         "url": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
@@ -13308,7 +13773,12 @@
       "name": "SG-97 Sweeper",
       "aliases": [],
       "description": "The SG-97 Sweeper is a Primary Shotgun with Medium armor penetrating flechettes, able to inflict high damage per round in exchange for a significantly reduced magazine size. It is affixed with a bayonet, improving melee damage and range.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sg-97-sweeper.b20c413c.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SG-97_Shotgun_Primary_Render.png"
+      },
       "wiki": {
         "title": "SG-97 Sweeper",
         "url": "https://helldivers.wiki.gg/wiki/SG-97_Sweeper",
@@ -13480,7 +13950,12 @@
       "name": "SMG-203 Gallant",
       "aliases": [],
       "description": "The SMG-203 Gallant is a variant of the MP-98 Knight that sacrifices damage in exchange for Medium armor penetration.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/smg-203-gallant.959903d9.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SMG-203_Gallant_Primary_Render.png"
+      },
       "wiki": {
         "title": "SMG-203 Gallant",
         "url": "https://helldivers.wiki.gg/wiki/SMG-203_Gallant",
@@ -13620,7 +14095,12 @@
       "name": "SMG-32 Reprimand",
       "aliases": [],
       "description": "The SMG-32 Reprimand is a Primary Submachine Gun with high damage and Medium armor penetration in exchange for restricted magazine size.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/smg-32-reprimand.f6b84aa7.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SMG-32_Reprimand_Primary_Render.png"
+      },
       "wiki": {
         "title": "SMG-32 Reprimand",
         "url": "https://helldivers.wiki.gg/wiki/SMG-32_Reprimand",
@@ -13757,7 +14237,12 @@
       "name": "SMG-37 Defender",
       "aliases": [],
       "description": "The SMG-37 Defender is a Primary Submachine Gun with a moderate rate of fire.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/smg-37-defender.b4d1175c.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SMG-37_Defender_Primary_Render.png"
+      },
       "wiki": {
         "title": "SMG-37 Defender",
         "url": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
@@ -13894,7 +14379,12 @@
       "name": "SMG-72 Pummeler",
       "aliases": [],
       "description": "The SMG-72 Pummeler is a Primary Submachine Gun that fires concussive rounds that can stun enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/smg-72-pummeler.7e02c8ba.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SMG-72_Pummeler_Primary_Render.png"
+      },
       "wiki": {
         "title": "SMG-72 Pummeler",
         "url": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
@@ -14059,7 +14549,12 @@
       "name": "SMG/FLAM-34 Stoker",
       "aliases": [],
       "description": "The SMG/FLAM-34 Stoker is a Primary Submachine Gun that comes equipped with an under-barrel flamethrower.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/smg-flam-34-stoker.3101b436.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "SMGFLAM-34_Stoker_Primary_Icon.png"
+      },
       "wiki": {
         "title": "SMG/FLAM-34 Stoker",
         "url": "https://helldivers.wiki.gg/wiki/SMG/FLAM-34_Stoker",
@@ -14327,7 +14822,12 @@
       "name": "StA-11 SMG",
       "aliases": [],
       "description": "The StA-11 SMG is a Primary Submachine Gun with an extremely high rate of fire. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sta-11-smg.ae6a1fc4.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "StA-11_SMG_Primary_Render.png"
+      },
       "wiki": {
         "title": "StA-11 SMG",
         "url": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
@@ -14465,7 +14965,12 @@
       "name": "StA-52 Assault Rifle",
       "aliases": [],
       "description": "The StA-52 Assault Rifle is a Primary Assault Rifle with a drum magazine. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/sta-52-assault-rifle.cac34825.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "StA-52_Assault_Rifle_Primary_Render.png"
+      },
       "wiki": {
         "title": "StA-52 Assault Rifle",
         "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
@@ -14603,7 +15108,12 @@
       "name": "TED-63 Dynamite",
       "aliases": [],
       "description": "The TED-63 Dynamite is a Standard Throwable with a wide and high damaging explosion, at the cost of a longer than usual fuse. Uniquely, it has a programmable fuse timer which can be changed via the weapon wheel.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/ted-63-dynamite.6b9802f2.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "TED-63_Dynamite_Throwable_Render.png"
+      },
       "wiki": {
         "title": "TED-63 Dynamite",
         "url": "https://helldivers.wiki.gg/wiki/TED-63_Dynamite",
@@ -14696,7 +15206,12 @@
       "name": "TM-1 Lure Mine",
       "aliases": [],
       "description": "The TM-1 Lure Mine is a Special Throwable that lures in enemies before proximity detonating with a high damage explosion and shrapnel.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/tm-1-lure-mine.e8700acd.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "TM-1_Lure_Mine_Throwable_Render.png"
+      },
       "wiki": {
         "title": "TM-1 Lure Mine",
         "url": "https://helldivers.wiki.gg/wiki/TM-1_Lure_Mine",
@@ -14838,7 +15353,12 @@
       "name": "VG-70 Variable",
       "aliases": [],
       "description": "VG-70 Variable is a Primary Special weapon. It is a seven-barrelled volley gun with three different firing modes: Auto, Volley, and Total, as well as variable rpm options.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/vg-70-variable.4014f36a.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "VG-70_Variable_Primary_Render.png"
+      },
       "wiki": {
         "title": "VG-70 Variable",
         "url": "https://helldivers.wiki.gg/wiki/VG-70_Variable",

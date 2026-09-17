@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "P-34 Breacher",
     "aliases": [],
     "description": "The P-34 Breacher is a Special Secondary single-shot weapon that fires an explosive thermite projectile at targets.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/p-34-breacher.ce4c188b.webp",
+      "width": 325,
+      "height": 290,
+      "wikiFile": "P-34_Breacher_Secondary_Render.png"
+    },
     "wiki": {
       "title": "P-34 Breacher",
       "url": "https://helldivers.wiki.gg/wiki/P-34_Breacher",

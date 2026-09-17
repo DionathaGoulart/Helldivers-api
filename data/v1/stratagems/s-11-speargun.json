@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "S-11 Speargun",
     "aliases": [],
     "description": "The S-11 Speargun is a Stratagem which calls down a Support Weapon that fires projectiles with extremely high stagger force and explodes into a cloud of gas.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/s-11-speargun.e7834964.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Speargun_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "S-11 Speargun",
       "url": "https://helldivers.wiki.gg/wiki/S-11_Speargun",

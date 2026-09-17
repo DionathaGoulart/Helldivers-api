@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "G-8 Immolation",
     "aliases": [],
     "description": "The G-8 Immolation is a Special Throwable that explodes into a massive pool of fire upon impact.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
+      "width": 194,
+      "height": 240,
+      "wikiFile": "G-8_Immolation_Throwable_Render.png"
+    },
     "wiki": {
       "title": "G-8 Immolation",
       "url": "https://helldivers.wiki.gg/wiki/G-8_Immolation",

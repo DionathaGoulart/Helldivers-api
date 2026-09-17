@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "AF-91 Field Chemist",
     "aliases": [],
     "description": "This armor, together with its friendly-faced helmet, is instantly recognizable from the beloved children's show “Jen Shriver the Science Diver.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/af-91-field-chemist.2e69d26e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "AF-91_Field_Chemist_Armor_Render.png"
+    },
     "wiki": {
       "title": "AF-91 Field Chemist",
       "url": "https://helldivers.wiki.gg/wiki/AF-91_Field_Chemist",

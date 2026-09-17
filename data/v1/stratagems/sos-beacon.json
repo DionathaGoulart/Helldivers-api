@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SoS Beacon",
     "aliases": [],
     "description": "The SoS Beacon is a standard-issue Stratagem which causes the mission to be displayed as a higher priority mission to other Helldivers on their Galactic War table. It can only be thrown by the host of the current lobby.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/sos-beacon.8458afe0.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "SOS_Beacon_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "SoS Beacon",
       "url": "https://helldivers.wiki.gg/wiki/SoS_Beacon",

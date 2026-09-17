@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Eagle 110mm Rocket Pods",
     "aliases": [],
     "description": "The Eagle 110mm Rocket Pods is an offensive stratagem that sends out 3 volleys of 2 rockets into the largest target near the beacon.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/eagle-110mm-rocket-pods.f12bdca1.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "Eagle 110mm Rocket Pods",
       "url": "https://helldivers.wiki.gg/wiki/Eagle_110mm_Rocket_Pods",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "A/ARC-3 Tesla Tower",
     "aliases": [],
     "description": "The A/ARC-3 Tesla Tower is a Sentry that sends electric arcs toward all entities within 20 meters.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/a-arc-3-tesla-tower.61059edc.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Tesla_Tower_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "A/ARC-3 Tesla Tower",
       "url": "https://helldivers.wiki.gg/wiki/A/ARC-3_Tesla_Tower",

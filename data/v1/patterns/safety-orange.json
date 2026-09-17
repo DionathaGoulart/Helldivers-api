@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Safety Orange",
     "aliases": [],
     "description": "Safety Orange patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/safety-orange-hellpod.7ac6a527.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Safety_Orange_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Safety Orange Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Safety_Orange_Pattern",
@@ -25,7 +30,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/safety-orange-hellpod.7ac6a527.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Safety_Orange_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Freedom's Flame",
@@ -40,7 +50,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/safety-orange-shuttle.d1f472a5.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Safety_Orange_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Freedom's Flame",
@@ -55,7 +70,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/safety-orange-exosuit.0f48988e.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Safety_Orange_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Freedom's Flame",
@@ -70,7 +90,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/safety-orange-vehicle.83751465.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Safety_Orange_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Freedom's Flame",

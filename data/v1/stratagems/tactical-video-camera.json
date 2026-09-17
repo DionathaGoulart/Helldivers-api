@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Tactical Video Camera",
     "aliases": [],
     "description": "The Tactical Video Camera Stratagem is an objective critical stratagem that is a Primary Objective of the Commando: Acquire Evidence mission and is used in one of the potential objectives in Infiltrate Illuminate Lair.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
+      "width": 256,
+      "height": 192,
+      "wikiFile": "Placeholder.png"
+    },
     "wiki": {
       "title": "Tactical Video Camera",
       "url": "https://helldivers.wiki.gg/wiki/Tactical_Video_Camera",

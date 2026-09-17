@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Pride of the Whistleblower",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/player-cards/pride-of-the-whistleblower.eaebeac9.webp",
+      "width": 276,
+      "height": 512,
+      "wikiFile": "Pride_of_the_Whistleblower_Player_Card_Icon.png"
+    },
     "wiki": {
       "title": "Pride of the Whistleblower",
       "url": "https://helldivers.wiki.gg/wiki/Pride_of_the_Whistleblower",

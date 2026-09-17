@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Rags of the Fashionable",
     "aliases": [],
     "description": "Gently stonewashed by experienced hands, this luxury cape exudes the essence of state-approved attitude.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/rags-of-the-fashionable.cd7109db.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Rags_of_the_Fashionable_Cape_Render.png"
+    },
     "wiki": {
       "title": "Rags of the Fashionable",
       "url": "https://helldivers.wiki.gg/wiki/Rags_of_the_Fashionable",

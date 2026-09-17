@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Emblem of Freedom",
     "aliases": [],
     "description": "Created to honor the great Freedom Chant of 2-14, in which over 10,000 loyal citizens united as one to express their undying respect for Freedom.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/emblem-of-freedom.efb41ed1.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Emblem_of_Freedom_Cape_Render.png"
+    },
     "wiki": {
       "title": "Emblem of Freedom",
       "url": "https://helldivers.wiki.gg/wiki/Emblem_of_Freedom",

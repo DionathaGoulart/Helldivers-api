@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Chameleon Camo",
     "aliases": [],
     "description": "Chameleon Camo patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/chameleon-camo-hellpod.7bcd025f.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Chameleon_Camo_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Chameleon Camo Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Chameleon_Camo_Pattern",
@@ -25,7 +30,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/chameleon-camo-hellpod.7bcd025f.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Chameleon_Camo_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Python Commandos",
@@ -40,7 +50,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/chameleon-camo-shuttle.4af85e3d.webp",
+          "width": 512,
+          "height": 288,
+          "wikiFile": "Chameleon_Camo_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Python Commandos",
@@ -55,7 +70,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/chameleon-camo-exosuit.bdc9a61a.webp",
+          "width": 512,
+          "height": 288,
+          "wikiFile": "Chameleon_Camo_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Python Commandos",
@@ -70,7 +90,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/chameleon-camo-vehicle.057a6951.webp",
+          "width": 512,
+          "height": 288,
+          "wikiFile": "Chameleon_Camo_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Python Commandos",

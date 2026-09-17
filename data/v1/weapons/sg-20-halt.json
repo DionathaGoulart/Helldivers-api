@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SG-20 Halt",
     "aliases": [],
     "description": "The SG-20 Halt is a dual-tube, pump-action Primary Shotgun. It can switch between Medium-armor penetrating flechettes and Light-armor penetrating stun pellets.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/sg-20-halt.3005774d.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SG-20_Halt_Primary_Render.png"
+    },
     "wiki": {
       "title": "SG-20 Halt",
       "url": "https://helldivers.wiki.gg/wiki/SG-20_Halt",

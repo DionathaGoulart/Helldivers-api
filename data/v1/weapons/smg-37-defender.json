@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SMG-37 Defender",
     "aliases": [],
     "description": "The SMG-37 Defender is a Primary Submachine Gun with a moderate rate of fire.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/smg-37-defender.b4d1175c.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SMG-37_Defender_Primary_Render.png"
+    },
     "wiki": {
       "title": "SMG-37 Defender",
       "url": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",

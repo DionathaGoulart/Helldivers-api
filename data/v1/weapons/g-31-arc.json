@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "G-31 Arc",
     "aliases": [],
     "description": "The G-31 Arc is a Special Throwable that fires arcs in a similar manner to the De-Escalator.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/g-31-arc.e630406e.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "G-31_ARC_Throwable_Render.png"
+    },
     "wiki": {
       "title": "G-31 Arc",
       "url": "https://helldivers.wiki.gg/wiki/G-31_Arc",

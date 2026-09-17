@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "A/AC-8 Autocannon Sentry",
     "aliases": [],
     "description": "The A/AC-8 Autocannon Sentry is a powerful defensive stratagem firing armor-piercing, high-explosive shells. It fires in 3 round bursts and has the slowest turning speed of all the automatic sentries. Unlike the AC-8 Autocannon support weapon, the rounds that the sentry fires do not bounce, have higher armor penetration, and will always explode on impact.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/a-ac-8-autocannon-sentry.d5826d49.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Autocannon_Sentry_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "A/AC-8 Autocannon Sentry",
       "url": "https://helldivers.wiki.gg/wiki/A/AC-8_Autocannon_Sentry",

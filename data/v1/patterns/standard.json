@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Standard",
     "aliases": [],
     "description": "Standard patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/standard-hellpod.814873dd.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Standard_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Standard Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Standard_Pattern",
@@ -25,7 +30,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/standard-hellpod.814873dd.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Standard_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "default",
           "label": "Starter Equipment",
@@ -37,7 +47,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/standard-shuttle.2bd1b9a3.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Standard_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "default",
           "label": "Starter Equipment",
@@ -49,7 +64,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/standard-exosuit.adf8daf4.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Standard_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "default",
           "label": "Starter Equipment",
@@ -61,7 +81,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/standard-vehicle.91421304.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Standard_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "default",
           "label": "Starter Equipment",

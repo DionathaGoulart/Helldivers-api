@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SMG-32 Reprimand",
     "aliases": [],
     "description": "The SMG-32 Reprimand is a Primary Submachine Gun with high damage and Medium armor penetration in exchange for restricted magazine size.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/smg-32-reprimand.f6b84aa7.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SMG-32_Reprimand_Primary_Render.png"
+    },
     "wiki": {
       "title": "SMG-32 Reprimand",
       "url": "https://helldivers.wiki.gg/wiki/SMG-32_Reprimand",

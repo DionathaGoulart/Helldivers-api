@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CB-9 Exploding Crossbow",
     "aliases": [],
     "description": "The CB-9 Exploding Crossbow is a Primary Explosive weapon. It fires explosive-tipped crossbow bolts that deal damage in an area.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/cb-9-exploding-crossbow.b429285e.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "CB-9_Exploding_Crossbow_Primary_Render.png"
+    },
     "wiki": {
       "title": "CB-9 Exploding Crossbow",
       "url": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",

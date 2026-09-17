@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "R-6 Deadeye",
     "aliases": [],
     "description": "The R-6 Deadeye is a lever-action Primary Marksman Rifle that trades rate-of-fire for Medium armor penetration, high damage and stagger force, requiring users to aim well and hit their targets the first time.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/r-6-deadeye.405ad6ee.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "R-6_Deadeye_Primary_Render.png"
+    },
     "wiki": {
       "title": "R-6 Deadeye",
       "url": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",

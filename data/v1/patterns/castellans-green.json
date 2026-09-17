@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Castellans Green",
     "aliases": [],
     "description": "Castellans Green patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/castellans-green-hellpod.6460ffbf.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Castellans Green Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Castellans_Green_Pattern",
@@ -27,7 +32,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/castellans-green-hellpod.6460ffbf.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Castellans_Green_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Castellan's Creed",
@@ -42,7 +52,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/castellans-green-shuttle.9da0fbf6.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Castellans_Green_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Castellan's Creed",
@@ -57,7 +72,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/castellans-green-exosuit.961cc930.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Castellans_Green_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Castellan's Creed",
@@ -72,7 +92,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/castellans-green-vehicle.7fbefe0c.webp",
+          "width": 512,
+          "height": 512,
+          "wikiFile": "Castellans_Green_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Castellan's Creed",

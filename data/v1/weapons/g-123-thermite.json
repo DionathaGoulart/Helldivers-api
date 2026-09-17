@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "G-123 Thermite",
     "aliases": [],
     "description": "The G-123 Thermite is a Special Throwable that can stick and inflict heavy explosion damage to a single target after a delay.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/g-123-thermite.ad04d273.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "G-123_Thermite_Throwable_Render.png"
+    },
     "wiki": {
       "title": "G-123 Thermite",
       "url": "https://helldivers.wiki.gg/wiki/G-123_Thermite",

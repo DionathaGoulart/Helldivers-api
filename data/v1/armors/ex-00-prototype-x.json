@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "EX-00 Prototype X",
     "aliases": [],
     "description": "The end result of several billion Super Credits and 12 years of research into creating “the Soldier of Tomorrow.”",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/ex-00-prototype-x.2300fcdc.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "EX-00_Prototype_X_Armor_Render.png"
+    },
     "wiki": {
       "title": "EX-00 Prototype X",
       "url": "https://helldivers.wiki.gg/wiki/EX-00_Prototype_X",

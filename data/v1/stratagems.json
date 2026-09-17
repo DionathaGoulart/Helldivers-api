@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "count": 114,
     "source": {
       "name": "The Helldivers Wiki",
@@ -16,7 +16,12 @@
       "name": "40-K Meltagun",
       "aliases": [],
       "description": "The 40-K Meltagun is a Stratagem that calls down a Support Weapon that fires a superheated beam of thermal energy, dealing massive damage and penetrating through large amounts of armor.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/40-k-meltagun.aec56553.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Meltagun_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "40-K Meltagun",
         "url": "https://helldivers.wiki.gg/wiki/40-K_Meltagun",
@@ -256,7 +261,12 @@
       "name": "A/AC-8 Autocannon Sentry",
       "aliases": [],
       "description": "The A/AC-8 Autocannon Sentry is a powerful defensive stratagem firing armor-piercing, high-explosive shells. It fires in 3 round bursts and has the slowest turning speed of all the automatic sentries. Unlike the AC-8 Autocannon support weapon, the rounds that the sentry fires do not bounce, have higher armor penetration, and will always explode on impact.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-ac-8-autocannon-sentry.d5826d49.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Autocannon_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/AC-8 Autocannon Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/AC-8_Autocannon_Sentry",
@@ -480,7 +490,12 @@
       "name": "A/ARC-3 Tesla Tower",
       "aliases": [],
       "description": "The A/ARC-3 Tesla Tower is a Sentry that sends electric arcs toward all entities within 20 meters.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-arc-3-tesla-tower.61059edc.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Tesla_Tower_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/ARC-3 Tesla Tower",
         "url": "https://helldivers.wiki.gg/wiki/A/ARC-3_Tesla_Tower",
@@ -636,7 +651,12 @@
       "name": "A/FLAM-40 Flame Sentry",
       "aliases": [],
       "description": "The Flame Sentry is a close-range incendiary sentry stratagem.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-flam-40-flame-sentry.3cd56e3f.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Flame_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/FLAM-40 Flame Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/FLAM-40_Flame_Sentry",
@@ -932,7 +952,12 @@
       "name": "A/G-16 Gatling Sentry",
       "aliases": [],
       "description": "The A/G-16 Gatling Sentry is a defensive stratagem that fires at an extremely fast rate with its triple barreled gatling gun.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-g-16-gatling-sentry.80acd6d5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Gatling_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/G-16 Gatling Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/G-16_Gatling_Sentry",
@@ -1115,7 +1140,12 @@
       "name": "A/GM-17 Gas Mortar Sentry",
       "aliases": [],
       "description": "The A/GM-17 Gas Mortar Sentry is a powerful defensive stratagem able to deploy gas mortar shells onto enemies from range, and behind cover.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-gm-17-gas-mortar-sentry.bdfb4f98.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Gas_Mortar_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/GM-17 Gas Mortar Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/GM-17_Gas_Mortar_Sentry",
@@ -1402,7 +1432,12 @@
       "name": "A/LAS-98 Laser Sentry",
       "aliases": [],
       "description": "The Laser Sentry is a close-range incendiary sentry stratagem from the Control Group Warbond.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-las-98-laser-sentry.548dc1be.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Laser_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/LAS-98 Laser Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/LAS-98_Laser_Sentry",
@@ -1609,7 +1644,12 @@
       "name": "A/M-12 Mortar Sentry",
       "aliases": [],
       "description": "The A/M-12 Mortar Sentry is a very powerful defensive stratagem able to destroy enemies from range, and behind cover.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-m-12-mortar-sentry.8abd9c62.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Mortar_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/M-12 Mortar Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/M-12_Mortar_Sentry",
@@ -1837,7 +1877,12 @@
       "name": "A/M-23 EMS Mortar Sentry",
       "aliases": [],
       "description": "The A/M-23 EMS Mortar Sentry is a defensive stratagem. It is a mortar sentry reconfigured to fire EMS rounds capable to slowing and stunning enemies. It is especially effective when placed behind cover as it can disable enemies without the chance of it being destroyed.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-m-23-ems-mortar-sentry.8cd0455f.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "EMS_Mortar_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/M-23 EMS Mortar Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/M-23_EMS_Mortar_Sentry",
@@ -2130,7 +2175,12 @@
       "name": "A/MG-43 Machine Gun Sentry",
       "aliases": [],
       "description": "The A/MG-43 Machine Gun Sentry is a defensive stratagem capable of laying down sustained fire for a long duration.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-mg-43-machine-gun-sentry.edffbb5c.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Machine_Gun_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/MG-43 Machine Gun Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/MG-43_Machine_Gun_Sentry",
@@ -2314,7 +2364,12 @@
       "name": "A/MLS-4X Rocket Sentry",
       "aliases": [],
       "description": "The A/MLS-4X Rocket Sentry is a defensive stratagem that fires powerful rockets in succession. After firing 16 rockets, it performs a short reload animation before it can continue to fire.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/a-mls-4x-rocket-sentry.aa367ac5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Rocket_Sentry_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "A/MLS-4X Rocket Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
@@ -2539,7 +2594,12 @@
       "name": "AC-8 Autocannon",
       "aliases": [],
       "description": "The AC-8 Autocannon is a Support Weapon that fires explosive, armor-piercing APHET projectiles which can be changed into flak rounds for crowd control.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ac-8-autocannon.72699b68.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Autocannon_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "AC-8 Autocannon",
         "url": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
@@ -2908,7 +2968,12 @@
       "name": "Activate E-711 Extraction Drill",
       "aliases": [],
       "description": "The Activate E-711 Extraction Drill Stratagem allows Helldivers to activate the drill on the GATER when at a suitable drill Site.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/activate-e-711-extraction-drill.f9b44190.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Drill_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Activate E-711 Extraction Drill",
         "url": "https://helldivers.wiki.gg/wiki/Activate_E-711_Extraction_Drill",
@@ -2967,7 +3032,12 @@
         "AMR"
       ],
       "description": "The Anti-Materiel Rifle (abbreviated as AMR) is a precision Support Weapon able to penetrate light vehicle armor.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/apw-1-anti-materiel-rifle.c8291f72.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Anti-Materiel_Rifle_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "APW-1 Anti-Materiel Rifle",
         "url": "https://helldivers.wiki.gg/wiki/APW-1_Anti-Materiel_Rifle",
@@ -3164,7 +3234,12 @@
       "name": "Aquifer Drill",
       "aliases": [],
       "description": "The Aquifer Drill Stratagem is only available during the Infiltrate Illuminate Lair Mission and is used to start the Cleanse Foul Shrine Objective.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/aquifer-drill.f9b44190.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Drill_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Aquifer Drill",
         "url": "https://helldivers.wiki.gg/wiki/Aquifer_Drill",
@@ -3224,7 +3299,12 @@
       "name": "ARC-3 Arc Thrower",
       "aliases": [],
       "description": "The Arc Thrower is a support weapon that projects an arc of lightning that can chain between multiple targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/arc-3-arc-thrower.8e02e511.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Arc_Thrower_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "ARC-3 Arc Thrower",
         "url": "https://helldivers.wiki.gg/wiki/ARC-3_Arc_Thrower",
@@ -3423,7 +3503,12 @@
       "name": "AX/AR-23 Guard Dog",
       "aliases": [],
       "description": "The AX/AR-23 Guard Dog is a Stratagem that calls down a defensive drone that is equipped in the backpack slot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ax-ar-23-guard-dog.0d6312ac.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Guard_Dog_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "AX/AR-23 Guard Dog",
         "url": "https://helldivers.wiki.gg/wiki/AX/AR-23_Guard_Dog",
@@ -3575,7 +3660,12 @@
       "name": "AX/ARC-3 K-9",
       "aliases": [],
       "description": "The AX/ARC-3 K-9 is a backpack Stratagem that provides support to the player by automatically targeting enemies with its mounted arc thrower.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ax-arc-3-k-9.757e68dc.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "K-9_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "AX/ARC-3 K-9",
         "url": "https://helldivers.wiki.gg/wiki/AX/ARC-3_K-9",
@@ -3739,7 +3829,12 @@
       "name": "AX/FLAM-75 Hot Dog",
       "aliases": [],
       "description": "The AX/FLAM-75 Hot Dog is a backpack Stratagem that provides support to the player by automatically targeting enemies and setting them on fire with its mounted flamethrower.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ax-flam-75-hot-dog.73c2b5e7.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Hot_Dog_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "AX/FLAM-75 Hot Dog",
         "url": "https://helldivers.wiki.gg/wiki/AX/FLAM-75_Hot_Dog",
@@ -3971,7 +4066,12 @@
       "name": "AX/LAS-5 Rover",
       "aliases": [],
       "description": "The AX/LAS-5 Rover is a backpack Stratagem that provides fire support fire to the player.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ax-las-5-rover.e25b554a.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Rover_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "AX/LAS-5 Rover",
         "url": "https://helldivers.wiki.gg/wiki/AX/LAS-5_Rover",
@@ -4149,7 +4249,12 @@
       "name": "AX/TX-13 Dog Breath",
       "aliases": [],
       "description": "The AX/TX-13 Dog Breath is a backpack Stratagem that provides defensive support to the player. It slows and blinds nearby enemies by spraying them with caustic gas, helping the owner avoid being overwhelmed by swarms.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ax-tx-13-dog-breath.6523751c.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Dog_Breath_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "AX/TX-13 Dog Breath",
         "url": "https://helldivers.wiki.gg/wiki/AX/TX-13_Dog_Breath",
@@ -4351,7 +4456,12 @@
       "name": "B-1 Supply Pack",
       "aliases": [],
       "description": "The Supply Pack is a backpack stratagem allows Helldivers to carry supplies to supplement yourself or the team's ammunition, grenades and stims.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/b-1-supply-pack.f12b0fc6.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Supply_Pack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "B-1 Supply Pack",
         "url": "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack",
@@ -4448,7 +4558,12 @@
       "name": "B-100 Portable Hellbomb",
       "aliases": [],
       "description": "The Portable Hellbomb is a backpack Stratagem that grants the player the utility of an on-demand Hellbomb free from the restriction of only being usable near mission objectives.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/b-100-portable-hellbomb.a9883609.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Portable_Hellbomb_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "B-100 Portable Hellbomb",
         "url": "https://helldivers.wiki.gg/wiki/B-100_Portable_Hellbomb",
@@ -4578,7 +4693,12 @@
       "name": "B/FLAM-80 Cremator",
       "aliases": [],
       "description": "The B/FLAM-80 Cremator is a Stratagem that calls down a Support Weapon consisting of a hose-fed, double barreled heavy flamethrower and fuel backpack. It can fire continuously without the need to reload.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/b-flam-80-cremator.49246a1c.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Cremator_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "B/FLAM-80 Cremator",
         "url": "https://helldivers.wiki.gg/wiki/B/FLAM-80_Cremator",
@@ -4840,7 +4960,12 @@
       "name": "B/MD C4 Pack",
       "aliases": [],
       "description": "The B/MD C4 Pack is a Support Weapon Stratagem backpack filled with bricks of C4 that can be remotely detonated sequentially or all at once.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/b-md-c4-pack.ad38ed22.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "C4_Pack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "B/MD C4 Pack",
         "url": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",
@@ -5009,7 +5134,12 @@
       "name": "Call In Super Destroyer",
       "aliases": [],
       "description": "The Call In Super Destroyer Stratagem is a used to call in a Helldiver's Super Destroyer for 1 minute during Commando Missions. It is only available 10 seconds after the super destroyer has left after its initial minute of being on the map.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/call-in-super-destroyer.23d0ec25.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Call_In_Super_Destroyer_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Call In Super Destroyer",
         "url": "https://helldivers.wiki.gg/wiki/Call_In_Super_Destroyer",
@@ -5058,7 +5188,12 @@
       "name": "Cargo Container",
       "aliases": [],
       "description": "The Cargo Container Stratagem allows Helldivers to call down a Pelican carrying a Cargo Container, before being deployed into a fixed position. It is available in the Confiscate Assets and Rapid Acquisition Missions.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/cargo-container.b153c351.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Cargo_Container_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Cargo Container",
         "url": "https://helldivers.wiki.gg/wiki/Cargo_Container",
@@ -5114,7 +5249,12 @@
       "name": "CQC-1 One True Flag",
       "aliases": [],
       "description": "The One True Flag is a Melee Support Weapon. Attacking will thrust the One True Flag at a moderately fast speed. Helldivers equipped with the flag will cause enemies to prioritize them over other Helldivers.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/cqc-1-one-true-flag.50bb2152.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "One_True_Flag_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "CQC-1 One True Flag",
         "url": "https://helldivers.wiki.gg/wiki/CQC-1_One_True_Flag",
@@ -5235,7 +5375,12 @@
       "name": "CQC-20 Breaching Hammer",
       "aliases": [],
       "description": "The CQC-20 Breaching Hammer is a Melee Support Weapon, which is capable of dealing explosive damage by striking enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/cqc-20-breaching-hammer.9e1cc1c6.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Breaching_Hammer_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "CQC-20 Breaching Hammer",
         "url": "https://helldivers.wiki.gg/wiki/CQC-20_Breaching_Hammer",
@@ -5419,7 +5564,12 @@
       "name": "CQC-9 Defoliation Tool",
       "aliases": [],
       "description": "The CQC-9 Defoliation Tool is a Melee Support Weapon, which is capable of dealing prolonged damage on target.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/cqc-9-defoliation-tool.2fd606d1.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Defoliation_Tool_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "CQC-9 Defoliation Tool",
         "url": "https://helldivers.wiki.gg/wiki/CQC-9_Defoliation_Tool",
@@ -5545,7 +5695,12 @@
       "name": "Dark Fluid Vessel",
       "aliases": [],
       "description": "The Dark Fluid Vessel Stratagem allows Helldivers to call down a Hellpod containing a Dark Fluid Vessel, which is a backpack containing Dark Fluid. It is event-exclusive, only available in the Deploy Dark Fluid mission. It is intended to be inserted into the Tectonic Drill to progress the mission.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/dark-fluid-vessel.767c10c9.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Dark_Fluid_Vessel_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Dark Fluid Vessel",
         "url": "https://helldivers.wiki.gg/wiki/Dark_Fluid_Vessel",
@@ -5606,7 +5761,12 @@
       "name": "E/AT-12 Anti-Tank Emplacement",
       "aliases": [],
       "description": "The Anti-Tank Emplacement, shortened to AT Emplacement or ATE, is a Stratagem that deploys a heavy anti-tank cannon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/e-at-12-anti-tank-emplacement.ec0c4751.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Anti-Tank_Emplacement_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "E/AT-12 Anti-Tank Emplacement",
         "url": "https://helldivers.wiki.gg/wiki/E/AT-12_Anti-Tank_Emplacement",
@@ -5787,7 +5947,12 @@
       "name": "E/GL-21 Grenadier Battlement",
       "aliases": [],
       "description": "The Grenadier Battlement is an Stratagem that deploys ballistic cover with a mounted Grenade Launcher.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/e-gl-21-grenadier-battlement.f8abc7a8.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Grenadier_Battlement_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "E/GL-21 Grenadier Battlement",
         "url": "https://helldivers.wiki.gg/wiki/E/GL-21_Grenadier_Battlement",
@@ -5979,7 +6144,12 @@
       "name": "E/MG-101 HMG Emplacement",
       "aliases": [],
       "description": "The HMG Emplacement is a Stratagem that deploys a static, manually-operated machine gun emplacement.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/e-mg-101-hmg-emplacement.a700e960.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "HMG_Emplacement_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "E/MG-101 HMG Emplacement",
         "url": "https://helldivers.wiki.gg/wiki/E/MG-101_HMG_Emplacement",
@@ -6121,7 +6291,12 @@
       "name": "Eagle 110mm Rocket Pods",
       "aliases": [],
       "description": "The Eagle 110mm Rocket Pods is an offensive stratagem that sends out 3 volleys of 2 rockets into the largest target near the beacon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-110mm-rocket-pods.f12bdca1.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_110mm_Rocket_Pods_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle 110mm Rocket Pods",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_110mm_Rocket_Pods",
@@ -6311,7 +6486,12 @@
       "name": "Eagle 500kg Bomb",
       "aliases": [],
       "description": "The Eagle 500kg Bomb, also known as the 500kg, is an offensive stratagem which drops an anti-tank bomb that embeds itself in the ground before exploding.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-500kg-bomb.e8fab6dc.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_500kg_Bomb_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle 500kg Bomb",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_500kg_Bomb",
@@ -6547,7 +6727,12 @@
       "name": "Eagle Airstrike",
       "aliases": [],
       "description": "The Eagle Airstrike is an offensive stratagem that unleashes a powerful bombardment of six bombs in a straight line.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-airstrike.198907ba.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Airstrike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Airstrike",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Airstrike",
@@ -6748,7 +6933,12 @@
       "name": "Eagle Cluster Bomb",
       "aliases": [],
       "description": "The Eagle Cluster Bomb is an offensive stratagem that calls in a carpet bomb on the area.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-cluster-bomb.8b9cf426.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Cluster_Bomb_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Cluster Bomb",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Cluster_Bomb",
@@ -7036,7 +7226,12 @@
       "name": "Eagle Gas Airstrike",
       "aliases": [],
       "description": "The Eagle Gas Airstrike is an offensive stratagem that releases an gas payload that damages enemies and applies a confusion effect over a large area.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-gas-airstrike.62eb8bf5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Gas Airstrike",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Gas_Airstrike",
@@ -7293,7 +7488,12 @@
       "name": "Eagle Napalm Airstrike",
       "aliases": [],
       "description": "The Eagle Napalm Airstrike is an offensive stratagem that releases an incendiary payload to ignite a fire on the targeted area temporarily.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-napalm-airstrike.657ccea2.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Napalm_Airstrike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Napalm Airstrike",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Napalm_Airstrike",
@@ -7570,7 +7770,12 @@
       "name": "Eagle Rearm",
       "aliases": [],
       "description": "The Eagle Rearm Stratagem is used to send the Eagle back to the Super Destroyer to replenish its munitions. It is only available when the helldiver doesn't have their maximum capacity of eagle stratagems loaded in Eagle 1.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-rearm.bcc019bc.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Rearm_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Rearm",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Rearm",
@@ -7628,7 +7833,12 @@
       "name": "Eagle Smoke Strike",
       "aliases": [],
       "description": "The Eagle Smoke Strike is an offensive stratagem that drops several smoke bombs to create a large smokescreen to provide concealment.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-smoke-strike.d380471c.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Smoke_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Smoke Strike",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Smoke_Strike",
@@ -7819,7 +8029,12 @@
       "name": "Eagle Strafing Run",
       "aliases": [],
       "description": "The Eagle Strafing Run is an offensive stratagem that calls the Eagle in to fire a barrage of anti-tank, high-explosive shells, parallel to the player.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eagle-strafing-run.94ea6dce.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Strafing_Run_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Eagle Strafing Run",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Strafing_Run",
@@ -8024,7 +8239,12 @@
         "EAT"
       ],
       "description": "The EAT-17 Expendable Anti-Tank (abbreviated as EAT) is a Stratagem that calls down a pair of disposable anti-tank Support Weapons.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eat-17-expendable-anti-tank.f4b89acb.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Expendable_Anti-Tank_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EAT-17 Expendable Anti-Tank",
         "url": "https://helldivers.wiki.gg/wiki/EAT-17_Expendable_Anti-Tank",
@@ -8232,7 +8452,12 @@
       "name": "EAT-411 Leveller",
       "aliases": [],
       "description": "The EAT-411 Leveller is a Stratagem that calls down a single disposable large area covering anti-tank Support Weapon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eat-411-leveller.d185898e.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Leveller_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EAT-411 Leveller",
         "url": "https://helldivers.wiki.gg/wiki/EAT-411_Leveller",
@@ -8442,7 +8667,12 @@
       "name": "EAT-700 Expendable Napalm",
       "aliases": [],
       "description": "The EAT-700 Expendable Napalm or NEAT for short is a Stratagem that calls down 2 disposable napalm cluster Support Weapons.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/eat-700-expendable-napalm.5fa3ddbc.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Expendable_Napalm_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EAT-700 Expendable Napalm",
         "url": "https://helldivers.wiki.gg/wiki/EAT-700_Expendable_Napalm",
@@ -8821,7 +9051,12 @@
       "name": "EXO-45 Patriot Exosuit",
       "aliases": [],
       "description": "The EXO-45 Patriot Exosuit is an Exosuit Stratagem featuring a rocket pod on the left hand and a minigun on the right.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/exo-45-patriot-exosuit.76c9e391.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Patriot_Exosuit_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EXO-45 Patriot Exosuit",
         "url": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
@@ -9130,7 +9365,12 @@
       "name": "EXO-49 Emancipator Exosuit",
       "aliases": [],
       "description": "The EXO-49 Emancipator Exosuit is an Exosuit Stratagem featuring 2 dual autocannons as armaments.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/exo-49-emancipator-exosuit.43c72b92.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Emancipator_Exosuit_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EXO-49 Emancipator Exosuit",
         "url": "https://helldivers.wiki.gg/wiki/EXO-49_Emancipator_Exosuit",
@@ -9396,7 +9636,12 @@
       "name": "EXO-51 Lumberer Exosuit",
       "aliases": [],
       "description": "The EXO-51 Lumberer Exosuit is an Exosuit Stratagem featuring an anti-tank cannon on the right arm and a flamethrower on the left.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/exo-51-lumberer-exosuit.16063df3.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Lumberer_Exosuit_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EXO-51 Lumberer Exosuit",
         "url": "https://helldivers.wiki.gg/wiki/EXO-51_Lumberer_Exosuit",
@@ -9778,7 +10023,12 @@
       "name": "EXO-55 Breakthrough Exosuit",
       "aliases": [],
       "description": "The EXO-55 Breakthrough Exosuit is an Exosuit Stratagem featuring a heavy flak cannon on the right arm and a massive ballistic shield on the left.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/exo-55-breakthrough-exosuit.cd35468c.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Breakthrough_Exosuit_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "EXO-55 Breakthrough Exosuit",
         "url": "https://helldivers.wiki.gg/wiki/EXO-55_Breakthrough_Exosuit",
@@ -10020,7 +10270,12 @@
       "name": "FAF-14 Spear",
       "aliases": [],
       "description": "The FAF-14 Spear (often shortened to the Spear) is a reloadable anti-tank Support Weapon that fires powerful homing missiles at heavy enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/faf-14-spear.24defcf0.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Spear_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "FAF-14 Spear",
         "url": "https://helldivers.wiki.gg/wiki/FAF-14_Spear",
@@ -10252,7 +10507,12 @@
       "name": "FLAM-40 Flamethrower",
       "aliases": [],
       "description": "The FLAM-40 Flamethrower is a Support weapon capable of projecting flames several meters. Enemies and Helldivers hit with this weapon will start to burn.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/flam-40-flamethrower.a7396398.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Flamethrower_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "FLAM-40 Flamethrower",
         "url": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower",
@@ -10522,7 +10782,12 @@
       "name": "FX-12 Shield Generator Relay",
       "aliases": [],
       "description": "The FX-12 Shield Generator Relay is a static defensive stratagem that projects a bubble shield with 360° coverage to block incoming projectiles.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/fx-12-shield-generator-relay.b4a84dee.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Shield_Generator_Relay_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "FX-12 Shield Generator Relay",
         "url": "https://helldivers.wiki.gg/wiki/FX-12_Shield_Generator_Relay",
@@ -10627,7 +10892,12 @@
       "name": "GL-21 Grenade Launcher",
       "aliases": [],
       "description": "The Grenade Launcher is a Stratagem that calls down a Support Weapon capable of rapidly firing grenades, inflicting large amounts of splash damage.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/gl-21-grenade-launcher.0f5dee69.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Grenade_Launcher_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "GL-21 Grenade Launcher",
         "url": "https://helldivers.wiki.gg/wiki/GL-21_Grenade_Launcher",
@@ -10867,7 +11137,12 @@
         "BFGL"
       ],
       "description": "The GL-28 Belt-Fed Grenade Launcher (BFGL) is a Stratagem that calls down a Support Weapon consisting of a belt-fed grenade launcher and ammo backpack. It can fire continuously without the need to reload.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/gl-28-belt-fed-grenade-launcher.f3c84373.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "GL-28 Belt-Fed Grenade Launcher",
         "url": "https://helldivers.wiki.gg/wiki/GL-28_Belt-Fed_Grenade_Launcher",
@@ -11095,7 +11370,12 @@
       "name": "GL-52 De-Escalator",
       "aliases": [],
       "description": "The GL-52 De-Escalator is a Stratagem that calls down a Support Weapon capable of rapidly firing arc grenades.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/gl-52-de-escalator.76493c9d.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "De-Escalator_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "GL-52 De-Escalator",
         "url": "https://helldivers.wiki.gg/wiki/GL-52_De-Escalator",
@@ -11397,7 +11677,12 @@
         "RR"
       ],
       "description": "The GR-8 Recoilless Rifle (abbreviated as RR) is a reloadable anti-tank Support Weapon Stratagem with a programmable anti-personnel HE shell option.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/gr-8-recoilless-rifle.61ebe33a.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Recoilless_Rifle_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "GR-8 Recoilless Rifle",
         "url": "https://helldivers.wiki.gg/wiki/GR-8_Recoilless_Rifle",
@@ -11712,7 +11997,12 @@
       "name": "Hive Breaker Drill",
       "aliases": [],
       "description": "The Hive Breaker Drill Stratagem is only available on the Nuke Nursery mission and is used to start the main objective, and is heavily based on the Tectonic Drill. Once called in, the Hive Breaker Drill is delivered to a fixed location at the drill site via Pelican. It initially drops in a large casing, which will unpack itself after a few seconds to reveal its terminal.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/hive-breaker-drill.f9b44190.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Drill_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Hive Breaker Drill",
         "url": "https://helldivers.wiki.gg/wiki/Hive_Breaker_Drill",
@@ -11768,7 +12058,12 @@
       "name": "LAS-98 Laser Cannon",
       "aliases": [],
       "description": "The Laser Cannon is a heat-based support weapon that fires a sustained beam of energy that penetrates heavy armor and can ignite targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/las-98-laser-cannon.22750656.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Laser_Cannon_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "LAS-98 Laser Cannon",
         "url": "https://helldivers.wiki.gg/wiki/LAS-98_Laser_Cannon",
@@ -11986,7 +12281,12 @@
       "name": "LAS-99 Quasar Cannon",
       "aliases": [],
       "description": "The Quasar Cannon is an energy-based anti-tank Support Weapon Stratagem.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/las-99-quasar-cannon.c46fb4c2.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Quasar_Cannon_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "LAS-99 Quasar Cannon",
         "url": "https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon",
@@ -12199,7 +12499,12 @@
       "name": "LIFT-182 Warp Pack",
       "aliases": [],
       "description": "The Warp Pack significantly increases the wearer's mobility. When activated, the Helldiver is able to warp through terrain and enemies, potentially killing them in the process.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/lift-182-warp-pack.adea2ae2.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Warp_Pack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "LIFT-182 Warp Pack",
         "url": "https://helldivers.wiki.gg/wiki/LIFT-182_Warp_Pack",
@@ -12335,7 +12640,12 @@
       "name": "LIFT-850 Jump Pack",
       "aliases": [],
       "description": "The Jump Pack significantly increases the wearer's mobility. When activated, the Helldiver is able to jump over large rocks, up cliffs, and across small gaps.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/lift-850-jump-pack.1ae094ed.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Jump_Pack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "LIFT-850 Jump Pack",
         "url": "https://helldivers.wiki.gg/wiki/LIFT-850_Jump_Pack",
@@ -12428,7 +12738,12 @@
         "LIFT-860 Hover Pack"
       ],
       "description": "The Hover Pack is a backpack stratagem. When activated, it propels the wearer in the air for around 6 seconds. After that time, it will deactivate, and will have to recharge.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/lift-860-hover-pack.69822030.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Hover_Pack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "LIFT-860 Hover Pack",
         "url": "https://helldivers.wiki.gg/wiki/LIFT-860_Hover_Pack",
@@ -12519,7 +12834,12 @@
       "name": "M-1000 Maxigun",
       "aliases": [],
       "description": "The M-1000 Maxigun is a Stratagem that calls down a Support Weapon, consisting of a belt-fed minigun and ammo backpack. It can fire continuously without the need to reload.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/m-1000-maxigun.8ac5b316.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Maxigun_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "M-1000 Maxigun",
         "url": "https://helldivers.wiki.gg/wiki/M-1000_Maxigun",
@@ -12702,7 +13022,12 @@
       "name": "M-102 Gunner FRV",
       "aliases": [],
       "description": "The M-102 Gunner FRV is a Stratagem that deploys a four-wheeled ground vehicle with a mounted MG-206 Heavy Machine Gun.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/m-102-gunner-frv.8d45e19a.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Fast_Recon_Vehicle_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "M-102 Gunner FRV",
         "url": "https://helldivers.wiki.gg/wiki/M-102_Gunner_FRV",
@@ -12834,7 +13159,12 @@
       "name": "M-103 Supply FRV",
       "aliases": [],
       "description": "The M-103 Supply FRV is a Stratagem that deploys a four-wheeled ground vehicle, equipped with supplies and an automatic turret.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/m-103-supply-frv.44f8c909.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Supply_FRV_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "M-103 Supply FRV",
         "url": "https://helldivers.wiki.gg/wiki/M-103_Supply_FRV",
@@ -12962,7 +13292,12 @@
       "name": "M-104 Incinerator FRV",
       "aliases": [],
       "description": "The M-104 Incinerator FRV is a Stratagem that deploys an armored four-wheeled ground vehicle, equipped with a spiked ramming grille and a heavy flamethrower.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/m-104-incinerator-frv.58c79032.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Incinerator_FRV_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "M-104 Incinerator FRV",
         "url": "https://helldivers.wiki.gg/wiki/M-104_Incinerator_FRV",
@@ -13207,7 +13542,12 @@
       "name": "M-105 Stalwart",
       "aliases": [],
       "description": "The Stalwart is a Stratagem which calls down a Support Weapon which specializes in disposing of large quantities of lightly armored targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/m-105-stalwart.b65d3263.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Stalwart_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "M-105 Stalwart",
         "url": "https://helldivers.wiki.gg/wiki/M-105_Stalwart",
@@ -13407,7 +13747,12 @@
       "name": "MD-17 Anti-Tank Mines",
       "aliases": [],
       "description": "The MD-17 Anti-Tank Mines (simply known as AT Mines) are a defensive Stratagem which deploys a minefield of armor penetrating mines.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/md-17-anti-tank-mines.3f4e88f9.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Anti-Tank_Mines_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MD-17 Anti-Tank Mines",
         "url": "https://helldivers.wiki.gg/wiki/MD-17_Anti-Tank_Mines",
@@ -13545,7 +13890,12 @@
       "name": "MD-6 Anti-Personnel Minefield",
       "aliases": [],
       "description": "The MD-6 Anti-Personnel Minefield is a defensive stratagem that blankets a roughly 25-30 meter diameter area around itself with mines.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/md-6-anti-personnel-minefield.d665f206.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Anti-Personnel_Minefield_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MD-6 Anti-Personnel Minefield",
         "url": "https://helldivers.wiki.gg/wiki/MD-6_Anti-Personnel_Minefield",
@@ -13683,7 +14033,12 @@
       "name": "MD-8 Gas Mines",
       "aliases": [],
       "description": "The Gas Mines are a Stratagem that deploys a minefield which releases toxic gas when triggered.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/md-8-gas-mines.c286179f.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Gas_Mines_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MD-8 Gas Mines",
         "url": "https://helldivers.wiki.gg/wiki/MD-8_Gas_Mines",
@@ -13860,7 +14215,12 @@
       "name": "MD-I4 Incendiary Mines",
       "aliases": [],
       "description": "The MD-I4 Incendiary Mines are a defensive stratagem that blankets a roughly 25-30 meter diameter area around itself with incendiary mines.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/md-i4-incendiary-mines.91bca3cb.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Incendiary_Mines_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MD-I4 Incendiary Mines",
         "url": "https://helldivers.wiki.gg/wiki/MD-I4_Incendiary_Mines",
@@ -14039,7 +14399,12 @@
         "HMG"
       ],
       "description": "The MG-206 Heavy Machine Gun (abbreviated as HMG) is a Stratagem which calls a Support Weapon capable of firing heavy armor-penetrating rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/mg-206-heavy-machine-gun.e30a3949.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Heavy_Machine_Gun_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MG-206 Heavy Machine Gun",
         "url": "https://helldivers.wiki.gg/wiki/MG-206_Heavy_Machine_Gun",
@@ -14236,7 +14601,12 @@
       "name": "MG-43 Machine Gun",
       "aliases": [],
       "description": "The MG-43 Machine Gun is a Stratagem that calls down a Support Weapon capable of rapidly firing armor penetrating rounds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/mg-43-machine-gun.d3665a8a.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Machine_Gun_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MG-43 Machine Gun",
         "url": "https://helldivers.wiki.gg/wiki/MG-43_Machine_Gun",
@@ -14438,7 +14808,12 @@
       "name": "MGX-42 Bullet Storm",
       "aliases": [],
       "description": "The MGX-42 Bullet Storm is a Stratagem which calls down a pair of disposable Support Weapons, specializing in disposing of large quantities of lightly armored targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/mgx-42-bullet-storm.b5aafab1.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Bullet_Storm_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MGX-42 Bullet Storm",
         "url": "https://helldivers.wiki.gg/wiki/MGX-42_Bullet_Storm",
@@ -14611,7 +14986,12 @@
       "name": "MLS-4X Commando",
       "aliases": [],
       "description": "The Commando is a disposable four-barrel anti-tank rocket launcher Support Weapon that can be fired with or without laser-guidance.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/mls-4x-commando.0a3ccb6f.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Commando_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MLS-4X Commando",
         "url": "https://helldivers.wiki.gg/wiki/MLS-4X_Commando",
@@ -14825,7 +15205,12 @@
       "name": "MS-11 Solo Silo",
       "aliases": [],
       "description": "The MS-11 Solo Silo, shortened to Solo Silo or MS-11, is an expendable Support weapon that embeds itself into the ground, extends a targeting system to be picked up, and launches the embedded missile when used.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/ms-11-solo-silo.6e0bf856.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Solo_Silo_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "MS-11 Solo Silo",
         "url": "https://helldivers.wiki.gg/wiki/MS-11_Solo_Silo",
@@ -15025,7 +15410,12 @@
         "NUX-223 Hellbomb"
       ],
       "description": "Helldivers must enter the following sequence in order to call down this special Stratagem during a mission:",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/nux-223-hellbomb.67b5a819.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Hellbomb_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "NUX-223 Hellbomb",
         "url": "https://helldivers.wiki.gg/wiki/NUX-223_Hellbomb",
@@ -15126,7 +15516,12 @@
       "name": "Orbital 120mm HE Barrage",
       "aliases": [],
       "description": "The Orbital 120mm HE Barrage is an offensive stratagem which fires 5-6 salvos of 3 high-explosive shells, with a pause between each salvo.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-120mm-he-barrage.e40dba5a.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_120mm_HE_Barrage_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital 120mm HE Barrage",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_120mm_HE_Barrage",
@@ -15331,7 +15726,12 @@
       "name": "Orbital 380mm HE Barrage",
       "aliases": [],
       "description": "The Orbital 380mm HE Barrage is an offensive stratagem firing 5-6 salvos of 3 shells. The rate of shells being shot is once per a second, and each salvo has a 2.5-seconds pause in between.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-380mm-he-barrage.111357ba.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_380mm_HE_Barrage_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital 380mm HE Barrage",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_380mm_HE_Barrage",
@@ -15537,7 +15937,12 @@
       "name": "Orbital Airburst Strike",
       "aliases": [],
       "description": "The Orbital Airburst Strike is an offensive Stratagem in Helldivers 2, designed for wiping out large groups of enemy infantry.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-airburst-strike.bf277138.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Airburst_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Airburst Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Airburst_Strike",
@@ -15817,7 +16222,12 @@
       "name": "Orbital EMS Strike",
       "aliases": [],
       "description": "The Orbital EMS Strike is a powerful utility Stratagem, useful for locking down enemy advances and/or for stunning high priority targets.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-ems-strike.bf679220.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_EMS_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital EMS Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_EMS_Strike",
@@ -16025,7 +16435,12 @@
       "name": "Orbital Gas Strike",
       "aliases": [],
       "description": "The Orbital Gas Strike is an offensive orbital Stratagem that disperses lingering gas that damages enemies and applies a confusion effect over a large area.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-gas-strike.09531e51.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Gas_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Gas Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Gas_Strike",
@@ -16269,7 +16684,12 @@
       "name": "Orbital Gatling Barrage",
       "aliases": [],
       "description": "The Orbital Gatling Barrage or OGB for short is an offensive stratagem that delivers a devastating barrage of 23mm rounds from above.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-gatling-barrage.3ddd5f2a.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Gatling_Barrage_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Gatling Barrage",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Gatling_Barrage",
@@ -16512,7 +16932,12 @@
       "name": "Orbital Illumination Flare",
       "aliases": [],
       "description": "The Orbital Illumination Flare is a deprecated Stratagem that was never able to be used in-game.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-illumination-flare.e4792b22.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Illumination_Flare_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Illumination Flare",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Illumination_Flare",
@@ -16557,7 +16982,12 @@
       "name": "Orbital Laser",
       "aliases": [],
       "description": "The Orbital Laser also known as Laser is an offensive stratagem that fires a single, continuous laser beam attack that lasts for 25 seconds.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-laser.0f35a480.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Laser_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Laser",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Laser",
@@ -16725,7 +17155,12 @@
       "name": "Orbital Napalm Barrage",
       "aliases": [],
       "description": "The Orbital Napalm Barrage, also known as the ONB, is an offensive orbital Stratagem that launches 5 salvos of 5 120mm shells that explode into pools of fire on impact.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-napalm-barrage.c5391076.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Napalm_Barrage_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Napalm Barrage",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Napalm_Barrage",
@@ -17004,7 +17439,12 @@
         "OPS"
       ],
       "description": "The Orbital Precision Strike, abbreviated as OPS, is a Stratagem in the Bridge category that fires a heavy-caliber artillery shell precisely at the Stratagem beacon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-precision-strike.6815c83d.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Precision_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Precision Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
@@ -17196,7 +17636,12 @@
       "name": "Orbital Railcannon Strike",
       "aliases": [],
       "description": "The Orbital Railcannon Strike, also known as the ORC or ORS, is an offensive stratagem that fires an auto-targeting projectile at the largest enemy nearby",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-railcannon-strike.d58ff598.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Railcannon_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Railcannon Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Railcannon_Strike",
@@ -17375,7 +17820,12 @@
       "name": "Orbital Smoke Strike",
       "aliases": [],
       "description": "The Orbital Smoke Strike is a Stratagem that creates a large smokescreen to provide cover.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-smoke-strike.38bfd999.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Smoke_Strike_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Smoke Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Smoke_Strike",
@@ -17549,7 +17999,12 @@
       "name": "Orbital Walking Barrage",
       "aliases": [],
       "description": "The Orbital Walking Barrage is an offensive Stratagem which fires several salvos of high-explosive shells, with each following salvo displacing further in the target direction.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/orbital-walking-barrage.3b2359dc.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Walking_Barrage_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Orbital Walking Barrage",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Walking_Barrage",
@@ -17754,7 +18209,12 @@
       "name": "PLAS-45 Epoch",
       "aliases": [],
       "description": "The PLAS-45 Epoch is an energy-based plasma Support Weapon Stratagem with Heavy armor penetration that scales armor penetration and damage.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/plas-45-epoch.32169c6c.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Epoch_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "PLAS-45 Epoch",
         "url": "https://helldivers.wiki.gg/wiki/PLAS-45_Epoch",
@@ -18129,7 +18589,12 @@
       "name": "Portable Comms Relay",
       "aliases": [],
       "description": "The Portable Comms Relay Stratagem is only available during one of the Infiltrate Illuminate Lair Mission's Objective, and is used to deposit the Tactical Video Camera and upload its data.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/portable-comms-relay.b153c351.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Cargo_Container_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Portable Comms Relay",
         "url": "https://helldivers.wiki.gg/wiki/Portable_Comms_Relay",
@@ -18188,7 +18653,12 @@
       "name": "Prospecting Drill",
       "aliases": [],
       "description": "The Prospecting Drill Stratagem is only available during the Conduct Geological Survey Mission and is used to start the Main Objective.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/prospecting-drill.f9b44190.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Drill_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Prospecting Drill",
         "url": "https://helldivers.wiki.gg/wiki/Prospecting_Drill",
@@ -18244,7 +18714,12 @@
       "name": "Reinforce",
       "aliases": [],
       "description": "The Reinforcement is a standard-issue Stratagem, available to all Helldivers regardless of rank. However, it is only active if a member of the squad has died and reinforcement tickets are not depleted.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/reinforce.f99efa77.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Reinforce_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Reinforce",
         "url": "https://helldivers.wiki.gg/wiki/Reinforce",
@@ -18301,7 +18776,12 @@
         "Reinforcement Pods"
       ],
       "description": "Reinforcement Pods is a Commando Mission exclusive Optional Objective in Helldivers 2. Helldivers are tasked with activating them, granting additional reinforcements to use while the Super Destroyer is away.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/reinforcement-pods.35622ca5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Upload_Data_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Reinforcement Pods",
         "url": "https://helldivers.wiki.gg/wiki/Reinforcement_Pods",
@@ -18347,7 +18827,12 @@
       "name": "Resupply",
       "aliases": [],
       "description": "The Resupply Stratagem allows Helldivers to call down a Hellpod with 4 Supply Boxes.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/resupply.6f747da5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Resupply_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Resupply",
         "url": "https://helldivers.wiki.gg/wiki/Resupply",
@@ -18419,7 +18904,12 @@
       "name": "RL-77 Airburst Rocket Launcher",
       "aliases": [],
       "description": "The RL-77 Airburst Rocket Launcher, also known as the ABRL, is a Support Weapon that fires a cluster rocket designed for neutralizing several light-medium enemies with a single shot.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/rl-77-airburst-rocket-launcher.7136f815.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Airburst_Rocket_Launcher_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "RL-77 Airburst Rocket Launcher",
         "url": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher",
@@ -18877,7 +19367,12 @@
       "name": "RS-422 Railgun",
       "aliases": [],
       "description": "The RS-422 Railgun is a Stratagem which calls down a Support Weapon that fires highly damaging projectiles at the cost of fire rate.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/rs-422-railgun.f32ae89f.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Railgun_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "RS-422 Railgun",
         "url": "https://helldivers.wiki.gg/wiki/RS-422_Railgun",
@@ -19149,7 +19644,12 @@
       "name": "S-11 Speargun",
       "aliases": [],
       "description": "The S-11 Speargun is a Stratagem which calls down a Support Weapon that fires projectiles with extremely high stagger force and explodes into a cloud of gas.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/s-11-speargun.e7834964.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Speargun_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "S-11 Speargun",
         "url": "https://helldivers.wiki.gg/wiki/S-11_Speargun",
@@ -19446,7 +19946,12 @@
       "name": "SEAF Artillery",
       "aliases": [],
       "description": "SEAF Artillery is a generic Optional Objective consisting of a large, stationary artillery platform. To complete the objective, Helldivers must activate the artillery, load five shells into it and then connect it to their Super Destroyer. Upon completion, all Helldivers in the mission gain access to five uses of the SEAF Artillery stratagem.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/seaf-artillery.d0605594.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "SEAF_Artillery_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "SEAF Artillery",
         "url": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
@@ -19765,7 +20270,12 @@
       "name": "Seismic Probe",
       "aliases": [],
       "description": "A Seismic Probe Stratagem is Seismic Probe fitted into a Hellpod. It is preprogrammed so that only the simplest calibration and execution sequence is needed once deployed to the surface. It is only available during the Conduct Geological Survey mission and is used to start and complete the \"Deploy Seismic Probe\" sub-objective.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/seismic-probe.f0c30593.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Seismic_Probe_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Seismic Probe",
         "url": "https://helldivers.wiki.gg/wiki/Seismic_Probe",
@@ -19821,7 +20331,12 @@
       "name": "SH-20 Ballistic Shield Backpack",
       "aliases": [],
       "description": "The SH-20 Ballistic Shield Backpack or Ballistic Shield for short is a Stratagem which provides portable cover against enemy small arms fire when wielded.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/sh-20-ballistic-shield-backpack.ce6c2968.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Ballistic_Shield_Backpack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "SH-20 Ballistic Shield Backpack",
         "url": "https://helldivers.wiki.gg/wiki/SH-20_Ballistic_Shield_Backpack",
@@ -19913,7 +20428,12 @@
       "name": "SH-32 Shield Generator Pack",
       "aliases": [],
       "description": "The SH-32 Shield Generator Pack, also known as the Shield Pack, is a backpack stratagem that protects the wearer from most damage and environmental effects.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/sh-32-shield-generator-pack.974dd7b7.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Shield_Generator_Pack_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "SH-32 Shield Generator Pack",
         "url": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack",
@@ -20009,7 +20529,12 @@
       "name": "SH-51 Directional Shield",
       "aliases": [],
       "description": "The Directional Shield is a Backpack Stratagem that projects a wide energy shield in front of the wielder when using a One-Handed weapon.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/sh-51-directional-shield.5395d773.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Directional_Shield_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "SH-51 Directional Shield",
         "url": "https://helldivers.wiki.gg/wiki/SH-51_Directional_Shield",
@@ -20107,7 +20632,12 @@
       "name": "SoS Beacon",
       "aliases": [],
       "description": "The SoS Beacon is a standard-issue Stratagem which causes the mission to be displayed as a higher priority mission to other Helldivers on their Galactic War table. It can only be thrown by the host of the current lobby.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/sos-beacon.8458afe0.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "SOS_Beacon_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "SoS Beacon",
         "url": "https://helldivers.wiki.gg/wiki/SoS_Beacon",
@@ -20162,7 +20692,12 @@
       "name": "SSSD Delivery",
       "aliases": [],
       "description": "The SSSD Delivery Stratagem allows Helldivers to call down a Hellpod containing an SSSD Hard Drive. Described as the peak of secure data storage, these drives are used by Helldivers for everything from transfer of patriotic data to the sabotage of enemy mainframes.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/sssd-delivery.35622ca5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Upload_Data_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "SSSD Delivery",
         "url": "https://helldivers.wiki.gg/wiki/SSSD_Delivery",
@@ -20219,7 +20754,12 @@
       "name": "StA-X3 W.A.S.P. Launcher",
       "aliases": [],
       "description": "The StA-X3 W.A.S.P. Launcher, or simply W.A.S.P., is an anti-tank multiple micro missile launcher Support Weapon with homing capability and two variable firing modes. It is a part of the Helldivers x Killzone crossover.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/sta-x3-wasp-launcher.f6beca75.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "W.A.S.P._Launcher_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "StA-X3 W.A.S.P. Launcher",
         "url": "https://helldivers.wiki.gg/wiki/StA-X3_W.A.S.P._Launcher",
@@ -20542,7 +21082,12 @@
       "name": "Super Earth Flag",
       "aliases": [],
       "description": "The Super Earth Flag Stratagem is used to call down the Flag in the Spread Democracy, Free Colony, and Democratize the Void missions.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/super-earth-flag.a7811b5e.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Super_Earth_Flag_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Super Earth Flag",
         "url": "https://helldivers.wiki.gg/wiki/Super_Earth_Flag",
@@ -20596,7 +21141,12 @@
       "name": "Tactical Video Camera",
       "aliases": [],
       "description": "The Tactical Video Camera Stratagem is an objective critical stratagem that is a Primary Objective of the Commando: Acquire Evidence mission and is used in one of the potential objectives in Infiltrate Illuminate Lair.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
+        "width": 256,
+        "height": 192,
+        "wikiFile": "Placeholder.png"
+      },
       "wiki": {
         "title": "Tactical Video Camera",
         "url": "https://helldivers.wiki.gg/wiki/Tactical_Video_Camera",
@@ -20648,7 +21198,12 @@
       "name": "TD-220 Bastion MK XVI",
       "aliases": [],
       "description": "The TD-220 Bastion MK XVI is a Stratagem that deploys a tracked ground vehicle armed with a 120mm HV cannon and a heavy coaxial MG.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/td-220-bastion-mk-xvi.39d96a04.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Bastion_MK_XVI_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "TD-220 Bastion MK XVI",
         "url": "https://helldivers.wiki.gg/wiki/TD-220_Bastion_MK_XVI",
@@ -20877,7 +21432,12 @@
       "name": "Tectonic Drill",
       "aliases": [],
       "description": "The Tectonic Drill Stratagem allows Helldivers to call down a drill when at a suitable Payload Site. Helldivers must insert a Dark Fluid Vessel inside the drill, and defend it until it can be drilled into the planet. It is event-exclusive, only available in the Deploy Dark Fluid mission.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/tectonic-drill.f9b44190.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Drill_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Tectonic Drill",
         "url": "https://helldivers.wiki.gg/wiki/Tectonic_Drill",
@@ -20934,7 +21494,12 @@
       "name": "TX-41 Sterilizer",
       "aliases": [],
       "description": "The Sterilizer is a Support Weapon Stratagem that sprays a caustic gas which slows and blinds enemies.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/tx-41-sterilizer.f11ef386.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Sterilizer_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "TX-41 Sterilizer",
         "url": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
@@ -21171,7 +21736,12 @@
       "name": "Upload Data",
       "aliases": [],
       "description": "The Upload Data Stratagem is used to start the data upload process. It's only available while near the Escape Pod from the Upload Escape Pod Data Objective.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/stratagems/upload-data.35622ca5.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Upload_Data_Stratagem_Icon_Background.svg"
+      },
       "wiki": {
         "title": "Upload Data",
         "url": "https://helldivers.wiki.gg/wiki/Upload_Data",

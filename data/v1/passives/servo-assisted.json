@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Servo-Assisted",
     "aliases": [],
     "description": "Increases throwing range by 30%. Provides +50% limb health.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/passives/servo-assisted.3e3f64ed.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Servo-Assisted_Armor_Passive_Icon.svg"
+    },
     "wiki": {
       "title": "Servo-Assisted",
       "url": "https://helldivers.wiki.gg/wiki/Servo-Assisted",

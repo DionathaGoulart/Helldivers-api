@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Tectonic Drill",
     "aliases": [],
     "description": "The Tectonic Drill Stratagem allows Helldivers to call down a drill when at a suitable Payload Site. Helldivers must insert a Dark Fluid Vessel inside the drill, and defend it until it can be drilled into the planet. It is event-exclusive, only available in the Deploy Dark Fluid mission.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/tectonic-drill.f9b44190.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Drill_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "Tectonic Drill",
       "url": "https://helldivers.wiki.gg/wiki/Tectonic_Drill",

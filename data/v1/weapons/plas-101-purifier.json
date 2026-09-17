@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "PLAS-101 Purifier",
     "aliases": [],
     "description": "The PLAS-101 Purifier is a Primary Energy-Based weapon that can fire variable-charge bolts of gas.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/plas-101-purifier.82d1e1e3.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "PLAS-101_Purifier_Primary_Render.png"
+    },
     "wiki": {
       "title": "PLAS-101 Purifier",
       "url": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",

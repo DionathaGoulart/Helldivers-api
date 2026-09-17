@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Judgment Day",
     "aliases": [],
     "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak up on those wearing this cape.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/judgment-day.bf0e45f6.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Judgment_Day_Cape_Render.png"
+    },
     "wiki": {
       "title": "Judgment Day",
       "url": "https://helldivers.wiki.gg/wiki/Judgment_Day",

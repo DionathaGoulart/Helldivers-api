@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Veridical Ideology",
     "aliases": [],
     "description": "This cape celebrates the one Veridical Ideology—Managed Democracy—a truth so self evident, it requires no proof beyond the unwavering obedience of its champions.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/veridical-ideology.144bb75b.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Veridical_Ideology_Cape_Render.png"
+    },
     "wiki": {
       "title": "Veridical Ideology",
       "url": "https://helldivers.wiki.gg/wiki/Veridical_Ideology",

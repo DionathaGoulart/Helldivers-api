@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Pillar of the Abyss",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/player-cards/pillar-of-the-abyss.04ccebef.webp",
+      "width": 256,
+      "height": 512,
+      "wikiFile": "Pillar_of_the_Abyss_Player_Card_Icon.png"
+    },
     "wiki": {
       "title": "Pillar of the Abyss",
       "url": "https://helldivers.wiki.gg/wiki/Pillar_of_the_Abyss",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SG-22 Bushwhacker",
     "aliases": [],
     "description": "The SG-22 Bushwhacker is Secondary Special triple-barreled shotgun.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/sg-22-bushwhacker.0f5eeb64.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SG-22_Bushwhacker_Secondary_Render.png"
+    },
     "wiki": {
       "title": "SG-22 Bushwhacker",
       "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",

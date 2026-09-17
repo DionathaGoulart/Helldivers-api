@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "P-19 Redeemer",
     "aliases": [],
     "description": "The P-19 Redeemer is a semi-automatic and fully-automatic hybrid Secondary Pistol.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/p-19-redeemer.a7daaa71.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "P-19_Redeemer_Secondary_Render.png"
+    },
     "wiki": {
       "title": "P-19 Redeemer",
       "url": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "G-13 Incendiary Impact",
     "aliases": [],
     "description": "The G-13 Incendiary Impact is a Special Throwable that combines the characteristics of the G-16 Impact and G-10 Incendiary.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/g-13-incendiary-impact.398327e0.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "G-13_Incendiary_Impact_Throwable_Render.png"
+    },
     "wiki": {
       "title": "G-13 Incendiary Impact",
       "url": "https://helldivers.wiki.gg/wiki/G-13_Incendiary_Impact",

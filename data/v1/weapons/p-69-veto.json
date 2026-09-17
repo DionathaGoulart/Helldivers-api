@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "P-69 Veto",
     "aliases": [],
     "description": "The P-69 Veto is a Secondary Pistol with an internal magazine and jet-assisted rounds, able to inflict high stagger to enemies.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/p-69-veto.e05a5301.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "P-69_Veto_Secondary_Icon.png"
+    },
     "wiki": {
       "title": "P-69 Veto",
       "url": "https://helldivers.wiki.gg/wiki/P-69_Veto",

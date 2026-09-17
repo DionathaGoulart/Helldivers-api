@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Shroud of the Juggernaut",
     "aliases": [],
     "description": "Shroud of the Juggernaut is a cape and a player card in Helldivers 2.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/shroud-of-the-juggernaut.3f7c8719.webp",
+      "width": 144,
+      "height": 297,
+      "wikiFile": "Shroud_of_the_Juggernaut_Cape_Render.png"
+    },
     "wiki": {
       "title": "Shroud of the Juggernaut",
       "url": "https://helldivers.wiki.gg/wiki/Shroud_of_the_Juggernaut",

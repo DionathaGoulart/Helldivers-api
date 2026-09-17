@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "count": 76,
     "source": {
       "name": "The Helldivers Wiki",
@@ -16,7 +16,12 @@
       "name": "Agent of Oblivion",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/agent-of-oblivion.77f987be.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Agent_of_Oblivion_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Agent of Oblivion",
         "url": "https://helldivers.wiki.gg/wiki/Agent_of_Oblivion",
@@ -41,7 +46,12 @@
       "name": "Badge of Order",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/badge-of-order.f3a8eb67.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Badge_of_Order_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Badge of Order",
         "url": "https://helldivers.wiki.gg/wiki/Badge_of_Order",
@@ -66,7 +76,12 @@
       "name": "Bastion of Integrity",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/bastion-of-integrity.d2664687.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Bastion_of_Integrity_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Bastion of Integrity",
         "url": "https://helldivers.wiki.gg/wiki/Bastion_of_Integrity",
@@ -91,7 +106,12 @@
       "name": "Blazing Samaritan",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/blazing-samaritan.f38b677e.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Blazing_Samaritan_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Blazing Samaritan",
         "url": "https://helldivers.wiki.gg/wiki/Blazing_Samaritan",
@@ -116,7 +136,12 @@
       "name": "Botslayer",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/botslayer.389b3186.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Botslayer_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Botslayer",
         "url": "https://helldivers.wiki.gg/wiki/Botslayer",
@@ -141,7 +166,12 @@
       "name": "Camo Cloak",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/camo-cloak.bb6dfa03.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Camo_Cloak_Player_Card.png"
+      },
       "wiki": {
         "title": "Camo Cloak",
         "url": "https://helldivers.wiki.gg/wiki/Camo_Cloak",
@@ -166,7 +196,12 @@
       "name": "City Fighter's Resolve",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/city-fighters-resolve.0c9959d3.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "City_Fighter's_Resolve_Player_Card.png"
+      },
       "wiki": {
         "title": "City Fighter's Resolve",
         "url": "https://helldivers.wiki.gg/wiki/City_Fighter's_Resolve",
@@ -191,7 +226,12 @@
       "name": "Cloak of Posterity's Gratitude",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/cloak-of-posteritys-gratitude.8160e7f4.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Cloak_of_Posterity's_Gratitude_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Cloak of Posterity's Gratitude",
         "url": "https://helldivers.wiki.gg/wiki/Cloak_of_Posterity's_Gratitude",
@@ -216,7 +256,12 @@
       "name": "Conductor of Brilliance",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/conductor-of-brilliance.828c17a4.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Conductor_of_Brilliance_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Conductor of Brilliance",
         "url": "https://helldivers.wiki.gg/wiki/Conductor_of_Brilliance",
@@ -241,7 +286,12 @@
       "name": "Cover of Darkness",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/cover-of-darkness.e7922921.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Cover_of_Darkness_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Cover of Darkness",
         "url": "https://helldivers.wiki.gg/wiki/Cover_of_Darkness",
@@ -266,7 +316,12 @@
       "name": "Crest of the Unsullied",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/crest-of-the-unsullied.a5d24b04.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Crest_of_the_Unsullied_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Crest of the Unsullied",
         "url": "https://helldivers.wiki.gg/wiki/Crest_of_the_Unsullied",
@@ -291,7 +346,12 @@
       "name": "Cresting Honor",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/cresting-honor.b7d354dd.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Cresting_Honor_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Cresting Honor",
         "url": "https://helldivers.wiki.gg/wiki/Cresting_Honor",
@@ -316,7 +376,12 @@
       "name": "De-Forester's Sailcloth",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/de-foresters-sailcloth.b0c84cd9.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "De-Forester's_Sailcloth_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "De-Forester's Sailcloth",
         "url": "https://helldivers.wiki.gg/wiki/De-Forester's_Sailcloth",
@@ -341,7 +406,12 @@
       "name": "Defender of Our Dream",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/defender-of-our-dream.e23af4b7.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Defender_of_Our_Dream_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Defender of Our Dream",
         "url": "https://helldivers.wiki.gg/wiki/Defender_of_Our_Dream",
@@ -366,7 +436,12 @@
       "name": "Diagram of the Noblest Payload",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/diagram-of-the-noblest-payload.9bfdee36.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Diagram_of_the_Noblest_Payload_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Diagram of the Noblest Payload",
         "url": "https://helldivers.wiki.gg/wiki/Diagram_of_the_Noblest_Payload",
@@ -393,7 +468,12 @@
       "name": "Dignity of Toil",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/dignity-of-toil.8e6c9db6.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Dignity_of_Toil_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Dignity of Toil",
         "url": "https://helldivers.wiki.gg/wiki/Dignity_of_Toil",
@@ -418,7 +498,12 @@
       "name": "Dissident's Nightmare",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/dissidents-nightmare.dd4f3126.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Dissident's_Nightmare_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Dissident's Nightmare",
         "url": "https://helldivers.wiki.gg/wiki/Dissident's_Nightmare",
@@ -443,7 +528,12 @@
       "name": "Eagle's Fury",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/eagles-fury.535b7531.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Eagle's_Fury_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Eagle's Fury",
         "url": "https://helldivers.wiki.gg/wiki/Eagle's_Fury",
@@ -468,7 +558,12 @@
       "name": "Eternal Corona",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/eternal-corona.b4bd866d.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Eternal_Corona_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Eternal Corona",
         "url": "https://helldivers.wiki.gg/wiki/Eternal_Corona",
@@ -493,7 +588,12 @@
       "name": "Executioner's Canopy",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/executioners-canopy.1a0e6b7d.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Executioner's_Canopy_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Executioner's Canopy",
         "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",
@@ -518,7 +618,12 @@
       "name": "Eye of the Clandestine",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/eye-of-the-clandestine.3da4ba72.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Eye_of_the_Clandestine_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Eye of the Clandestine",
         "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",
@@ -543,7 +648,12 @@
       "name": "Federation's Embrace",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/federations-embrace.c22d160b.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Federation's_Embrace_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Federation's Embrace",
         "url": "https://helldivers.wiki.gg/wiki/Federation's_Embrace",
@@ -568,7 +678,12 @@
       "name": "Foe Rent Asunder",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/foe-rent-asunder.4f6bb5e2.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Foe_Rent_Asunder_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Foe Rent Asunder",
         "url": "https://helldivers.wiki.gg/wiki/Foe_Rent_Asunder",
@@ -593,7 +708,12 @@
       "name": "Fre Liberam",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/fre-liberam.ec2b34e6.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Fre_Liberam_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Fre Liberam",
         "url": "https://helldivers.wiki.gg/wiki/Fre_Liberam",
@@ -618,7 +738,12 @@
       "name": "Free-Spirited Spangles",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/free-spirited-spangles.a8ac17a9.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Free_Spirited_Spangles_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Free-Spirited Spangles",
         "url": "https://helldivers.wiki.gg/wiki/Free-Spirited_Spangles",
@@ -643,7 +768,12 @@
       "name": "Freedom's Tapestry",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/freedoms-tapestry.6bd58f76.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Freedom's_Tapestry_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Freedom's Tapestry",
         "url": "https://helldivers.wiki.gg/wiki/Freedom's_Tapestry",
@@ -668,7 +798,12 @@
       "name": "Gilded Quill",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/gilded-quill.a65142c8.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Gilded_Quill_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Gilded Quill",
         "url": "https://helldivers.wiki.gg/wiki/Gilded_Quill",
@@ -693,7 +828,12 @@
       "name": "Harbinger of True Equality",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/harbinger-of-true-equality.26022911.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Harbinger_of_True_Equality_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Harbinger of True Equality",
         "url": "https://helldivers.wiki.gg/wiki/Harbinger_of_True_Equality",
@@ -718,7 +858,12 @@
       "name": "Holder of the Yellow Line",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/holder-of-the-yellow-line.4d52e1fb.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Holder_of_the_Yellow_Line_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Holder of the Yellow Line",
         "url": "https://helldivers.wiki.gg/wiki/Holder_of_the_Yellow_Line",
@@ -743,7 +888,12 @@
       "name": "Honored Heirloom",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/honored-heirloom.d22b14e7.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Honored_Heirloom_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Honored Heirloom",
         "url": "https://helldivers.wiki.gg/wiki/Honored_Heirloom",
@@ -768,7 +918,12 @@
       "name": "Humble Regalia",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/humble-regalia.282cc92b.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Humble_Regalia_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Humble Regalia",
         "url": "https://helldivers.wiki.gg/wiki/Humble_Regalia",
@@ -793,7 +948,12 @@
       "name": "Independence Bringer",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/independence-bringer.d4fe07e4.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Independence_Bringer_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Independence Bringer",
         "url": "https://helldivers.wiki.gg/wiki/Independence_Bringer",
@@ -818,7 +978,12 @@
       "name": "Judgment Day",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/judgment-day.8502dcb3.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Judgment_Day_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Judgment Day",
         "url": "https://helldivers.wiki.gg/wiki/Judgment_Day",
@@ -843,7 +1008,12 @@
       "name": "Liberty's Herald",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/libertys-herald.11d5f360.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Liberty's_Herald_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Liberty's Herald",
         "url": "https://helldivers.wiki.gg/wiki/Liberty's_Herald",
@@ -868,7 +1038,12 @@
       "name": "Light of Eternal Liberty",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/light-of-eternal-liberty.ebae9dce.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Light_of_Eternal_Liberty_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Light of Eternal Liberty",
         "url": "https://helldivers.wiki.gg/wiki/Light_of_Eternal_Liberty",
@@ -893,7 +1068,12 @@
       "name": "Mantle of True Citizenship",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/mantle-of-true-citizenship.f4816c9c.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Mantle_of_True_Citizenship_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Mantle of True Citizenship",
         "url": "https://helldivers.wiki.gg/wiki/Mantle_of_True_Citizenship",
@@ -918,7 +1098,12 @@
       "name": "Mark of the Constrictor",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/mark-of-the-constrictor.38ef00e4.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Mark_of_the_Constrictor_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Mark of the Constrictor",
         "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Constrictor",
@@ -943,7 +1128,12 @@
       "name": "Mark of the Crimson Fang",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/mark-of-the-crimson-fang.1a6d837a.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Mark_of_the_Crimson_Fang_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Mark of the Crimson Fang",
         "url": "https://helldivers.wiki.gg/wiki/Mark_of_the_Crimson_Fang",
@@ -968,7 +1158,12 @@
       "name": "Martyris Rex",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/martyris-rex.9777ff3d.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Martyris_Rex_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Martyris Rex",
         "url": "https://helldivers.wiki.gg/wiki/Martyris_Rex",
@@ -993,7 +1188,12 @@
       "name": "Miranda's Legacy",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/mirandas-legacy.fdebedb1.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Miranda's_Legacy_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Miranda's Legacy",
         "url": "https://helldivers.wiki.gg/wiki/Miranda's_Legacy",
@@ -1018,7 +1218,12 @@
       "name": "Mother Eagle's Wings",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/mother-eagles-wings.62a03228.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Mother_Eagle's_Wings_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Mother Eagle's Wings",
         "url": "https://helldivers.wiki.gg/wiki/Mother_Eagle's_Wings",
@@ -1043,7 +1248,12 @@
       "name": "Order of the Venerated Ballot",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/order-of-the-venerated-ballot.1669dcef.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Order_of_the_Venerated_Ballot_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Order of the Venerated Ballot",
         "url": "https://helldivers.wiki.gg/wiki/Order_of_the_Venerated_Ballot",
@@ -1068,7 +1278,12 @@
       "name": "Over Artifice Triumphant",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/over-artifice-triumphant.729c8c2e.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Over_Artifice_Triumphant_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Over Artifice Triumphant",
         "url": "https://helldivers.wiki.gg/wiki/Over_Artifice_Triumphant",
@@ -1093,7 +1308,12 @@
       "name": "Patient Zero's Remembrance",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/patient-zeros-remembrance.024aff8f.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Patient_Zero's_Remembrance_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Patient Zero's Remembrance",
         "url": "https://helldivers.wiki.gg/wiki/Patient_Zero's_Remembrance",
@@ -1118,7 +1338,12 @@
       "name": "Per Democrasum",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/per-democrasum.48988d61.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Per_Democrasum_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Per Democrasum",
         "url": "https://helldivers.wiki.gg/wiki/Per_Democrasum",
@@ -1143,7 +1368,12 @@
       "name": "Pillar of the Abyss",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/pillar-of-the-abyss.04ccebef.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Pillar_of_the_Abyss_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Pillar of the Abyss",
         "url": "https://helldivers.wiki.gg/wiki/Pillar_of_the_Abyss",
@@ -1168,7 +1398,12 @@
       "name": "Pinions of Everlasting Glory",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/pinions-of-everlasting-glory.da305ef0.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Pinions_of_Everlasting_Glory_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Pinions of Everlasting Glory",
         "url": "https://helldivers.wiki.gg/wiki/Pinions_of_Everlasting_Glory",
@@ -1193,7 +1428,12 @@
       "name": "Pride of the Whistleblower",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/pride-of-the-whistleblower.eaebeac9.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Pride_of_the_Whistleblower_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Pride of the Whistleblower",
         "url": "https://helldivers.wiki.gg/wiki/Pride_of_the_Whistleblower",
@@ -1218,7 +1458,12 @@
       "name": "Proof of Faultless Virtue",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/proof-of-faultless-virtue.b0537d5d.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Proof_of_Faultless_Virtue_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Proof of Faultless Virtue",
         "url": "https://helldivers.wiki.gg/wiki/Proof_of_Faultless_Virtue",
@@ -1243,7 +1488,12 @@
       "name": "Purifying Eclipse",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/purifying-eclipse.f88bbc67.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Purifying_Eclipse_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Purifying Eclipse",
         "url": "https://helldivers.wiki.gg/wiki/Purifying_Eclipse",
@@ -1268,7 +1518,12 @@
       "name": "Rags of the Fashionable",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/rags-of-the-fashionable.5728a706.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Rags_of_The_Fashionable_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Rags of the Fashionable",
         "url": "https://helldivers.wiki.gg/wiki/Rags_of_the_Fashionable",
@@ -1293,7 +1548,12 @@
       "name": "Reaper of Bounties",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/reaper-of-bounties.d96ab82b.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Reaper_of_Bounties_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Reaper of Bounties",
         "url": "https://helldivers.wiki.gg/wiki/Reaper_of_Bounties",
@@ -1318,7 +1578,12 @@
       "name": "Rebar Resolve",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/rebar-resolve.f61c3679.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Rebar_Resolve_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Rebar Resolve",
         "url": "https://helldivers.wiki.gg/wiki/Rebar_Resolve",
@@ -1343,7 +1608,12 @@
       "name": "Rightful Occupier",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/rightful-occupier.a3d5b72e.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Rightful_Occupier_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Rightful Occupier",
         "url": "https://helldivers.wiki.gg/wiki/Rightful_Occupier",
@@ -1368,7 +1638,12 @@
       "name": "Schema Laid Bare",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/schema-laid-bare.21d97147.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Schema_Laid_Bare_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Schema Laid Bare",
         "url": "https://helldivers.wiki.gg/wiki/Schema_Laid_Bare",
@@ -1393,7 +1668,12 @@
       "name": "Seal of General Consensus",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/seal-of-general-consensus.5cf6fb96.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Seal_of_General_Consensus_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Seal of General Consensus",
         "url": "https://helldivers.wiki.gg/wiki/Seal_of_General_Consensus",
@@ -1442,7 +1722,12 @@
       "name": "Solid Black",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/solid-black.57acba4f.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Solid_Black_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Solid Black",
         "url": "https://helldivers.wiki.gg/wiki/Solid_Black",
@@ -1488,7 +1773,12 @@
       "name": "Standard of Safe Distance",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/standard-of-safe-distance.80867825.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Standard_of_Safe_Distance_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Standard of Safe Distance",
         "url": "https://helldivers.wiki.gg/wiki/Standard_of_Safe_Distance",
@@ -1513,7 +1803,12 @@
       "name": "Stars and Suffrage",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/stars-and-suffrage.a3b8057d.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Stars_and_Suffrage_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Stars and Suffrage",
         "url": "https://helldivers.wiki.gg/wiki/Stars_and_Suffrage",
@@ -1538,7 +1833,12 @@
       "name": "Stone-Wrought Perseverance",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/stone-wrought-perseverance.84a7e18c.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Stone-Wrought_Perseverance_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Stone-Wrought Perseverance",
         "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",
@@ -1563,7 +1863,12 @@
       "name": "Strength in Our Arms",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/strength-in-our-arms.753cea53.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Strength_in_Our_Arms_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Strength in Our Arms",
         "url": "https://helldivers.wiki.gg/wiki/Strength_in_Our_Arms",
@@ -1588,7 +1893,12 @@
       "name": "Testament to Attrition",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/testament-to-attrition.59ffaf6d.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Testament_to_Attrition_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Testament to Attrition",
         "url": "https://helldivers.wiki.gg/wiki/Testament_to_Attrition",
@@ -1613,7 +1923,12 @@
       "name": "The Breach",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/the-breach.07388e92.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "The_Breach_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "The Breach",
         "url": "https://helldivers.wiki.gg/wiki/The_Breach",
@@ -1638,7 +1953,12 @@
       "name": "Thundering Hooves of Loyalty",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/thundering-hooves-of-loyalty.24e194d9.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Thundering_Hooves_of_Loyalty_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Thundering Hooves of Loyalty",
         "url": "https://helldivers.wiki.gg/wiki/Thundering_Hooves_of_Loyalty",
@@ -1663,7 +1983,12 @@
       "name": "Tideturner",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/tideturner.33391546.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Tideturner_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Tideturner",
         "url": "https://helldivers.wiki.gg/wiki/Tideturner",
@@ -1688,7 +2013,12 @@
       "name": "Triangulation Veil",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/triangulation-veil.33092b8a.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Triangulation_Veil_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Triangulation Veil",
         "url": "https://helldivers.wiki.gg/wiki/Triangulation_Veil",
@@ -1713,7 +2043,12 @@
       "name": "Tyrant Hunter",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/tyrant-hunter.5a3afe81.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Tyrant_Hunter_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Tyrant Hunter",
         "url": "https://helldivers.wiki.gg/wiki/Tyrant_Hunter",
@@ -1738,7 +2073,12 @@
       "name": "Unblemished Allegiance",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/unblemished-allegiance.7f185888.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Unblemished_Allegiance_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Unblemished Allegiance",
         "url": "https://helldivers.wiki.gg/wiki/Unblemished_Allegiance",
@@ -1763,7 +2103,12 @@
       "name": "Veil of the Valorous Vagabond",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/veil-of-the-valorous-vagabond.95334a7a.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Veil_of_the_Valorous_Vagabond_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Veil of the Valorous Vagabond",
         "url": "https://helldivers.wiki.gg/wiki/Veil_of_the_Valorous_Vagabond",
@@ -1788,7 +2133,12 @@
       "name": "Vision of Freedom",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/vision-of-freedom.56e08247.webp",
+        "width": 276,
+        "height": 512,
+        "wikiFile": "Vision_of_Freedom_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Vision of Freedom",
         "url": "https://helldivers.wiki.gg/wiki/Vision_of_Freedom",
@@ -1813,7 +2163,12 @@
       "name": "Watchful Compatriot",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/watchful-compatriot.9aa16bcf.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Watchful_Compatriot_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Watchful Compatriot",
         "url": "https://helldivers.wiki.gg/wiki/Watchful_Compatriot",
@@ -1838,7 +2193,12 @@
       "name": "Way of the Bandolier",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/way-of-the-bandolier.8ac404e3.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Way_of_the_Bandolier_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Way of the Bandolier",
         "url": "https://helldivers.wiki.gg/wiki/Way_of_the_Bandolier",
@@ -1863,7 +2223,12 @@
       "name": "Wedgeful Tricorn",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/wedgeful-tricorn.abfe07ee.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Wedgeful_Tricorn_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Wedgeful Tricorn",
         "url": "https://helldivers.wiki.gg/wiki/Wedgeful_Tricorn",
@@ -1888,7 +2253,12 @@
       "name": "Windswept Wayfinder",
       "aliases": [],
       "description": null,
-      "image": null,
+      "image": {
+        "url": "/images/v1/player-cards/windswept-wayfinder.2b8091fa.webp",
+        "width": 256,
+        "height": 512,
+        "wikiFile": "Windswept_Wayfinder_Player_Card_Icon.png"
+      },
       "wiki": {
         "title": "Windswept Wayfinder",
         "url": "https://helldivers.wiki.gg/wiki/Windswept_Wayfinder",

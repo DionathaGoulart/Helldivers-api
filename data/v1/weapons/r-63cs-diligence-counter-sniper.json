@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "R-63CS Diligence Counter Sniper",
     "aliases": [],
     "description": "The R-63CS Diligence Counter Sniper is a Primary Marksman Rifle similar to the R-63 Diligence, trading magazine size and handling for greater firepower that can damage Medium armor.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/r-63cs-diligence-counter-sniper.a6d8b6b0.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "R-63CS_Diligence_Counter_Sniper_Primary_Render.png"
+    },
     "wiki": {
       "title": "R-63CS Diligence Counter Sniper",
       "url": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",

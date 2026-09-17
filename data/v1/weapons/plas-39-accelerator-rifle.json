@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "PLAS-39 Accelerator Rifle",
     "aliases": [],
     "description": "The PLAS-39 Accelerator Rifle is a Primary Energy-Based, burst-firing plasma sniper rifle. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/plas-39-accelerator-rifle.6327a827.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "PLAS-39_Accelerator_Rifle_Primary_Render.png"
+    },
     "wiki": {
       "title": "PLAS-39 Accelerator Rifle",
       "url": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",

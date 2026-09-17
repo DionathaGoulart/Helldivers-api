@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "FS-55 Devastator",
     "aliases": [],
     "description": "Domestic versions of this armor enable colonial farmers to plant crops and mines side by side, safely.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/fs-55-devastator.f4e8d363.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "FS-55_Devastator_Armor_Render.png"
+    },
     "wiki": {
       "title": "FS-55 Devastator",
       "url": "https://helldivers.wiki.gg/wiki/FS-55_Devastator",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "R/40-K Hot-Shot Marksman Rifle",
     "aliases": [],
     "description": "The R/40-K Hot-Shot Marksman Rifle is a Primary Energy-Based Marksman Rifle that fires high-damaging bolts of energy, capable of cleaving through enemies.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/r-40-k-hot-shot-marksman-rifle.de6d2ced.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "R-40-K_Hot-Shot_Primary_Render.png"
+    },
     "wiki": {
       "title": "R/40-K Hot-Shot Marksman Rifle",
       "url": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",

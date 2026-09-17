@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Executioner's Canopy",
     "aliases": [],
     "description": "Crests the shoulders of those who deliver the final—and most indispensable—stroke of Justice.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/executioners-canopy.3efd25e4.webp",
+      "width": 492,
+      "height": 491,
+      "wikiFile": "Executioner's_Canopy_Cape_Armory.png"
+    },
     "wiki": {
       "title": "Executioner's Canopy",
       "url": "https://helldivers.wiki.gg/wiki/Executioner's_Canopy",

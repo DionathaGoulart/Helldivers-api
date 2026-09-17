@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Extra Judicial",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/titles/extra-judicial.2246cf1b.webp",
+      "width": 256,
+      "height": 315,
+      "wikiFile": "Extra_Judicial_Title_Icon.svg"
+    },
     "wiki": {
       "title": "Extra Judicial",
       "url": "https://helldivers.wiki.gg/wiki/Extra_Judicial",

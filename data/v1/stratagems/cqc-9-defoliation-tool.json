@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "CQC-9 Defoliation Tool",
     "aliases": [],
     "description": "The CQC-9 Defoliation Tool is a Melee Support Weapon, which is capable of dealing prolonged damage on target.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/cqc-9-defoliation-tool.2fd606d1.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Defoliation_Tool_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "CQC-9 Defoliation Tool",
       "url": "https://helldivers.wiki.gg/wiki/CQC-9_Defoliation_Tool",

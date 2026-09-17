@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,12 @@
       "BFGL"
     ],
     "description": "The GL-28 Belt-Fed Grenade Launcher (BFGL) is a Stratagem that calls down a Support Weapon consisting of a belt-fed grenade launcher and ammo backpack. It can fire continuously without the need to reload.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/gl-28-belt-fed-grenade-launcher.f3c84373.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Belt-Fed_Grenade_Launcher_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "GL-28 Belt-Fed Grenade Launcher",
       "url": "https://helldivers.wiki.gg/wiki/GL-28_Belt-Fed_Grenade_Launcher",

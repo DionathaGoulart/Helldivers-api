@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -13,8 +13,13 @@
     "slug": "ar-32-pacifier",
     "name": "AR-32 Pacifier",
     "aliases": [],
-    "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly low damage output.",
-    "image": null,
+    "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly lower damage output compared to most other primaries.",
+    "image": {
+      "url": "/images/v1/weapons/ar-32-pacifier.ddc1cb4c.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "AR-32_Pacifier_Primary_Render.png"
+    },
     "wiki": {
       "title": "AR-32 Pacifier",
       "url": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",

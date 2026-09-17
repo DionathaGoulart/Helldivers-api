@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SG-97 Sweeper",
     "aliases": [],
     "description": "The SG-97 Sweeper is a Primary Shotgun with Medium armor penetrating flechettes, able to inflict high damage per round in exchange for a significantly reduced magazine size. It is affixed with a bayonet, improving melee damage and range.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/sg-97-sweeper.b20c413c.webp",
+      "width": 512,
+      "height": 288,
+      "wikiFile": "SG-97_Shotgun_Primary_Render.png"
+    },
     "wiki": {
       "title": "SG-97 Sweeper",
       "url": "https://helldivers.wiki.gg/wiki/SG-97_Sweeper",

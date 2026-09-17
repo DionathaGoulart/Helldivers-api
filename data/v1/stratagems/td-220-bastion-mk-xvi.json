@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "TD-220 Bastion MK XVI",
     "aliases": [],
     "description": "The TD-220 Bastion MK XVI is a Stratagem that deploys a tracked ground vehicle armed with a 120mm HV cannon and a heavy coaxial MG.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/td-220-bastion-mk-xvi.39d96a04.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Bastion_MK_XVI_Stratagem_Icon_Background.svg"
+    },
     "wiki": {
       "title": "TD-220 Bastion MK XVI",
       "url": "https://helldivers.wiki.gg/wiki/TD-220_Bastion_MK_XVI",

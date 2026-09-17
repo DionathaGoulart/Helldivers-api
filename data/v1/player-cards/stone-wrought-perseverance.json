@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Stone-Wrought Perseverance",
     "aliases": [],
     "description": null,
-    "image": null,
+    "image": {
+      "url": "/images/v1/player-cards/stone-wrought-perseverance.84a7e18c.webp",
+      "width": 276,
+      "height": 512,
+      "wikiFile": "Stone-Wrought_Perseverance_Player_Card_Icon.png"
+    },
     "wiki": {
       "title": "Stone-Wrought Perseverance",
       "url": "https://helldivers.wiki.gg/wiki/Stone-Wrought_Perseverance",

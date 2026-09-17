@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Eye of the Clandestine",
     "aliases": [],
     "description": "Those who serve Liberty from the shadows often elect to stay anonymous, moving like traceless specters through the night. May they watch over us always.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eye-of-the-clandestine.aecc6ef5.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eye_of_the_Clandestine_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eye of the Clandestine",
       "url": "https://helldivers.wiki.gg/wiki/Eye_of_the_Clandestine",

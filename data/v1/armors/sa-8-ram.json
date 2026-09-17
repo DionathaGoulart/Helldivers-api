@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SA-8 Ram",
     "aliases": [],
     "description": "The heavy plate used in this armor is sustainably sourced from the corpses of non-sentient Automaton, then processed by other, similarly non-sentient Automatons.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sa-8-ram.d740ba38.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SA-8_Ram_Armor_Render.png"
+    },
     "wiki": {
       "title": "SA-8 Ram",
       "url": "https://helldivers.wiki.gg/wiki/SA-8_Ram",

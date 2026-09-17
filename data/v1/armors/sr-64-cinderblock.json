@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "SR-64 Cinderblock",
     "aliases": [],
     "description": "This armor uses repurposed metal from verified sources, such as vending machine packaging and Automaton scrap, making it a sustainable choice for the environmentally conscious Helldiver.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/armors/sr-64-cinderblock.4e0ea567.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SR-64_Cinderblock_Armor_Render.png"
+    },
     "wiki": {
       "title": "SR-64 Cinderblock",
       "url": "https://helldivers.wiki.gg/wiki/SR-64_Cinderblock",

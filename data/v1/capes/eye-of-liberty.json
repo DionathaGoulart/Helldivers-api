@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Eye of Liberty",
     "aliases": [],
     "description": "Let the Second Anniversary of the Second Galactic War be witnessed by the lidless eye of Liberty, that ever-watchful orb which provides safety through its ceaseless surveillance.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/capes/eye-of-liberty.c64234be.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "Eye_of_Liberty_Cape_Render.png"
+    },
     "wiki": {
       "title": "Eye of Liberty",
       "url": "https://helldivers.wiki.gg/wiki/Eye_of_Liberty",

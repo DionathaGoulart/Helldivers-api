@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-16.2b461706",
-    "generatedAt": "2026-09-16T19:38:44Z",
+    "dataVersion": "2026-09-17.2d3c0c72",
+    "generatedAt": "2026-09-17T15:14:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,12 @@
     "name": "Mobile White",
     "aliases": [],
     "description": "Mobile White patterns are selectable wraps for your various vehicles.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/patterns/mobile-white-hellpod.f38301ba.webp",
+      "width": 200,
+      "height": 200,
+      "wikiFile": "Mobile_White_Hellpod_Pattern_Icon.png"
+    },
     "wiki": {
       "title": "Mobile White Pattern",
       "url": "https://helldivers.wiki.gg/wiki/Mobile_White_Pattern",
@@ -25,7 +30,12 @@
     "variants": [
       {
         "target": "hellpod",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/mobile-white-hellpod.f38301ba.webp",
+          "width": 200,
+          "height": 200,
+          "wikiFile": "Mobile_White_Hellpod_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Exo Experts",
@@ -40,7 +50,12 @@
       },
       {
         "target": "shuttle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/mobile-white-shuttle.d8923bd8.webp",
+          "width": 277,
+          "height": 168,
+          "wikiFile": "Mobile_White_Shuttle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Exo Experts",
@@ -55,7 +70,12 @@
       },
       {
         "target": "exosuit",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/mobile-white-exosuit.d9edc13d.webp",
+          "width": 217,
+          "height": 265,
+          "wikiFile": "Mobile_White_Exosuit_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Exo Experts",
@@ -70,7 +90,12 @@
       },
       {
         "target": "vehicle",
-        "image": null,
+        "image": {
+          "url": "/images/v1/patterns/mobile-white-vehicle.cbb0725d.webp",
+          "width": 239,
+          "height": 172,
+          "wikiFile": "Mobile_White_Vehicle_Pattern_Icon.png"
+        },
         "source": {
           "type": "warbond",
           "label": "Exo Experts",
