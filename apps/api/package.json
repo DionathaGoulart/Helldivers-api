@@ -5,11 +5,20 @@
   "type": "module",
   "scripts": {
     "build": "tsx scripts/build.ts",
+    "dev": "tsx scripts/build.ts && wrangler pages dev dist --port 8000",
+    "smoke": "tsx scripts/smoke.ts",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json"
   },
+  "dependencies": {
+    "@hd2/schemas": "workspace:*",
+    "aws4fetch": "catalog:",
+    "hono": "catalog:",
+    "zod": "catalog:"
+  },
   "devDependencies": {
     "@types/node": "catalog:",
+    "esbuild": "catalog:",
     "tsx": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:",

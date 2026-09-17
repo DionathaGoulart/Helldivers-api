@@ -21,6 +21,12 @@ catalogs:
     domhandler:
       specifier: 5.0.3
       version: 5.0.3
+    esbuild:
+      specifier: ^0.28.2
+      version: 0.28.2
+    hono:
+      specifier: ^4.13.8
+      version: 4.13.8
     robots-parser:
       specifier: 3.0.1
       version: 3.0.1
@@ -70,10 +76,26 @@ importers:
         version: 4.6.5
 
   apps/api:
+    dependencies:
+      '@hd2/schemas':
+        specifier: workspace:*
+        version: link:../../packages/schemas
+      aws4fetch:
+        specifier: 'catalog:'
+        version: 1.0.20
+      hono:
+        specifier: 'catalog:'
+        version: 4.13.8
+      zod:
+        specifier: 'catalog:'
+        version: 4.6.5
     devDependencies:
       '@types/node':
         specifier: 'catalog:'
         version: 24.13.4
+      esbuild:
+        specifier: 'catalog:'
+        version: 0.28.2
       tsx:
         specifier: 'catalog:'
         version: 4.23.13
@@ -1101,6 +1123,10 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
+  hono@4.13.8:
+    resolution: {integrity: sha512-/Gng7NfoykZl2pjukW5Z6+8Yxm3BPRf86GTbQnt0SbySkvax4fyL4H3HhY1cCpBGmiW9XDRFzRV+CXK2W8QudQ==}
+    engines: {node: '>=16.9.0'}
+
   htmlparser2@10.1.0:
     resolution: {integrity: sha512-VTZkM9GWRAtEpveh7MSF6SjjrpNVNNVJfFup7xTY3UpFtm67foy9HDVXneLtFVt4pMz5kZtgNcvCniNFb1hlEQ==}
 
@@ -2087,6 +2113,8 @@ snapshots:
 
   fsevents@2.3.3:
     optional: true
+
+  hono@4.13.8: {}
 
   htmlparser2@10.1.0:
     dependencies:
