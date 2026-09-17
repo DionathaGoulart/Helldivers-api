@@ -807,7 +807,7 @@
     "slug": "ar-32-pacifier",
     "name": "AR-32 Pacifier",
     "aliases": [],
-    "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly low damage output.",
+    "description": "The AR-32 Pacifier is a Primary Assault Rifle that fires Medium armor penetration stun rounds in exchange for significantly lower damage output compared to most other primaries.",
     "image": {
       "url": "/images/v1/weapons/ar-32-pacifier.f3afcc20.webp",
       "width": 512,
