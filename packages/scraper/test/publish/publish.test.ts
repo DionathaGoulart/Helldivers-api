@@ -170,11 +170,13 @@ describe("reports", () => {
     mode: "online",
     fullRefresh: false,
     dataVersion: "2026-09-15.1a2b3c4d",
+    previousDataVersion: "2026-09-14.0d15ea5e",
     counts: [{ collection: "boosters", before: 17, after: 18 }],
     changes: [
       { collection: "boosters", id: "stun-pods", kind: "added" },
       { collection: "boosters", id: "dead-sprint", kind: "changed", paths: ["source.cost.amount"] },
     ],
+    conflicts: 2,
     warnings: [],
     failure: null,
     http: { requests: 20, notModified: 19, bytes: 60_000, retries: 0, pauses: 0 },
@@ -203,6 +205,7 @@ describe("reports", () => {
     expect(summary).toContain("## Scrape 2026-09-15 · ok");
     expect(summary).toContain("| boosters | 17 | 18 | +1 ~1 -0 |");
     expect(summary).toContain("Requests 20 · 304 19 (95 %) · 58.6 KB · retries 0 · pauses 0");
+    expect(summary).toContain("Conflicts 2 · warnings 0 · previous `2026-09-14.0d15ea5e`");
     expect(summary).toContain(
       "Images fetched 1 · uploaded 1 · reused 17 · failed 0 · orphans 1 (deleted 0) · 18 images, 87.9 KB",
     );

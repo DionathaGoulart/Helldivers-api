@@ -1068,6 +1068,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     const report = await run("2026-09-16T21:07:00Z", undefined, false, ["armor-sets"]);
     expect(report.failure).toEqual({
       kind: "error",
+      collection: "armor-sets",
       messages: ['data/overrides/armor-sets.json: "tg-9-sharpshooter" is not an armor set'],
     });
   });
@@ -1158,7 +1159,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     [["player-cards"], "player-cards need the capes collection: scrape capes first"],
   ] as const)("needs the collections %j resolves against", async (only, message) => {
     const report = await run("2026-09-15T21:07:00Z", undefined, false, [...only]);
-    expect(report.failure).toEqual({ kind: "error", messages: [message] });
+    expect(report.failure).toEqual({ kind: "error", collection: only[0], messages: [message] });
   });
 
   it("scrapes every collection, dependencies first", () => {

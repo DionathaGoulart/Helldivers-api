@@ -4,7 +4,8 @@ import type { Change, Collection } from "@hd2/schemas";
 import type { HttpStats } from "../http/client.ts";
 import type { ImageStats } from "../images/attach.ts";
 
-// `.reports/summary.md` (job summary) and `.reports/commit-message.txt` (arch §6.6).
+// `.reports/summary.md` (job summary), `.reports/commit-message.txt` (arch §6.6) and
+// `.reports/run.json`, which `pnpm alert` reads after the run (arch §7.2).
 
 export type FailureKind =
   | "robots-changed"
@@ -24,10 +25,12 @@ export interface RunReport {
   mode: "online" | "offline";
   fullRefresh: boolean;
   dataVersion: string | null;
+  previousDataVersion: string | null; // last published version, kept when the run fails
   counts: { collection: Collection; before: number; after: number }[];
   changes: Change[];
+  conflicts: number; // entries in reports/conflicts.json after the run
   warnings: string[];
-  failure: { kind: FailureKind; messages: string[] } | null;
+  failure: { kind: FailureKind; collection: Collection | null; messages: string[] } | null;
   http: HttpStats | null;
   images: ImageStats | null; // null when the run failed before step 7
   durationMs: number;
@@ -86,6 +89,12 @@ export function renderSummary(report: RunReport): string {
     `${requests} · full refresh ${report.fullRefresh ? "yes" : "no"} · ${formatDuration(report.durationMs)}`,
     "",
   );
+  lines.push(
+    `Conflicts ${report.conflicts} · warnings ${report.warnings.length}${
+      report.previousDataVersion ? ` · previous \`${report.previousDataVersion}\`` : ""
+    }`,
+    "",
+  );
   const images = report.images;
   if (images) {
     lines.push(
@@ -131,10 +140,13 @@ export function renderCommitMessage(report: RunReport): string {
   return `${[subject, ...(body.length > 0 ? ["", ...body] : [])].join("\n")}\n`;
 }
 
-/** Writes the summary always and the commit message only when data changed. */
+export const RUN_REPORT_FILE = "run.json";
+
+/** Writes the summary and the run report always, the commit message only when data changed. */
 export async function writeReports(dir: string, report: RunReport): Promise<void> {
   await mkdir(dir, { recursive: true });
   await writeFile(join(dir, "summary.md"), renderSummary(report));
+  await writeFile(join(dir, RUN_REPORT_FILE), `${JSON.stringify(report, null, 2)}\n`);
   const commitMessage = join(dir, "commit-message.txt");
   if (report.ok && report.changed) {
     await writeFile(commitMessage, renderCommitMessage(report));

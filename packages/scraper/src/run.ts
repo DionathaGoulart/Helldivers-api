@@ -63,17 +63,18 @@ class RunFailure extends Error {
   constructor(
     readonly kind: FailureKind,
     readonly messages: readonly string[],
+    readonly collection: Collection | null = null,
   ) {
     super(messages.join("; "));
     this.name = "RunFailure";
   }
 }
 
-function classify(error: unknown): RunFailure {
+function classify(error: unknown, collection: Collection | null): RunFailure {
   if (error instanceof RunFailure) return error;
   const message = error instanceof Error ? error.message : String(error);
   if (error instanceof RobotsChangedError) return new RunFailure("robots-changed", error.reasons);
-  if (error instanceof BlockedError) return new RunFailure("blocked", [message]);
+  if (error instanceof BlockedError) return new RunFailure("blocked", [message], collection);
   if (error instanceof ImageFailureError) {
     return new RunFailure("images", [message, ...error.failures]);
   }
@@ -82,9 +83,9 @@ function classify(error: unknown): RunFailure {
     error instanceof NormalizeError ||
     error instanceof MissingFixtureError
   ) {
-    return new RunFailure("parser-broken", [message]);
+    return new RunFailure("parser-broken", [message], collection);
   }
-  return new RunFailure("error", [message]);
+  return new RunFailure("error", [message], collection);
 }
 
 const GUARDRAIL_PRIORITY: readonly GuardrailCheck[] = ["empty", "count-drop", "index-coverage"];
@@ -101,8 +102,10 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     mode: source.offline ? "offline" : "online",
     fullRefresh: options.fullRefresh,
     dataVersion: null,
+    previousDataVersion: null,
     counts: [],
     changes: [],
+    conflicts: 0,
     warnings: [],
     failure: null,
     http: null,
@@ -110,6 +113,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     durationMs: 0,
   };
 
+  let collection: Collection | null = null; // the pipeline running now, named by an alert
   try {
     // 1. Preflight: robots.txt allows the planned index pages and Content-Signal is unchanged.
     const pipelines = selectPipelines(options.only);
@@ -132,6 +136,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const locked = await readIdLock(idLockPath(dataDir));
     const lockBefore = locked.serialize();
     const current = await readCurrentDataset(join(dataDir, "v1"));
+    report.previousDataVersion = current.manifest?.dataVersion ?? null;
     const warbonds = new WarbondResolver({ aliases: overrides.warbondAliases });
 
     // 2–5. Discover, fetch, parse, normalize; again when a renamed page would change an id (rule 8).
@@ -139,6 +144,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       const results: ScrapeResult[] = [];
       let dataset = current.collections;
       for (const pipeline of pipelines) {
+        collection = pipeline.collection;
         logger.info("collection start", { collection: pipeline.collection });
         const result = await pipeline.scrape({
           source,
@@ -160,6 +166,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       scrapeAll,
     );
     const { results } = output;
+    collection = null; // past the pipelines: a failure now belongs to the run, not a collection
     let next = output.dataset;
     for (const rename of renames) {
       logger.info("id kept after a rename", { ...rename });
@@ -201,9 +208,11 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     );
     if (issues.length > 0) {
       const kind = GUARDRAIL_PRIORITY.find((check) => issues.some((i) => i.check === check));
+      const first = issues.find((issue) => issue.check === kind) ?? issues[0];
       throw new RunFailure(
         kind ?? "error",
         issues.map((issue) => issue.message),
+        first?.collection ?? null,
       );
     }
 
@@ -244,6 +253,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     } else {
       extraFiles.delete(CONFLICTS_FILE);
     }
+    report.conflicts = conflicts?.conflicts.length ?? 0;
 
     // 10. Diff; unchanged data keeps its dataVersion, so nothing is rewritten.
     report.changes = diffDatasets(current.collections, next);
@@ -302,9 +312,17 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     }
     report.ok = true;
   } catch (error) {
-    const failure = classify(error);
-    report.failure = { kind: failure.kind, messages: [...failure.messages] };
-    logger.error("scrape failed", { kind: failure.kind, messages: failure.messages });
+    const failure = classify(error, collection);
+    report.failure = {
+      kind: failure.kind,
+      collection: failure.collection,
+      messages: [...failure.messages],
+    };
+    logger.error("scrape failed", {
+      kind: failure.kind,
+      collection: failure.collection,
+      messages: failure.messages,
+    });
   } finally {
     report.http = options.http?.stats ?? null;
     report.durationMs = options.now().getTime() - started.getTime();
