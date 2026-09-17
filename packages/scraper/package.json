@@ -9,8 +9,10 @@
   },
   "dependencies": {
     "@hd2/schemas": "workspace:*",
+    "aws4fetch": "catalog:",
     "cheerio": "catalog:",
     "robots-parser": "catalog:",
+    "sharp": "catalog:",
     "zod": "catalog:"
   },
   "devDependencies": {

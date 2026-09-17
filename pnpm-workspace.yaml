@@ -18,6 +18,8 @@ catalog:
   # Node types for cheerio helpers; must match the domhandler cheerio resolves.
   domhandler: 5.0.3
   robots-parser: 3.0.1
+  # Pinned: WebP output bytes (and so image keys) must not change with an update (arch §6.5).
+  sharp: 0.35.4
   tsx: ^4.23.13
   typescript: ^7.0.2
   vitest: ^5.0.0

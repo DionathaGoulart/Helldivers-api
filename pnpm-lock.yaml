@@ -24,6 +24,9 @@ catalogs:
     robots-parser:
       specifier: 3.0.1
       version: 3.0.1
+    sharp:
+      specifier: 0.35.4
+      version: 0.35.4
     tsx:
       specifier: ^4.23.13
       version: 4.23.13
@@ -105,12 +108,18 @@ importers:
       '@hd2/schemas':
         specifier: workspace:*
         version: link:../schemas
+      aws4fetch:
+        specifier: 'catalog:'
+        version: 1.0.20
       cheerio:
         specifier: 'catalog:'
         version: 1.2.0
       robots-parser:
         specifier: 'catalog:'
         version: 3.0.1
+      sharp:
+        specifier: 'catalog:'
+        version: 0.35.4(@types/node@24.13.4)
       zod:
         specifier: 'catalog:'
         version: 4.6.5
