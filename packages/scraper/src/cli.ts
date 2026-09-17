@@ -4,10 +4,11 @@ import { parseArgs } from "node:util";
 import { Collection } from "@hd2/schemas";
 import { z } from "zod";
 import { ScraperEnv } from "./config.ts";
+import { DrillSource, drillFetch, drillStore } from "./drill.ts";
 import { HttpCache } from "./http/cache.ts";
 import { HttpClient } from "./http/client.ts";
 import { DEFAULT_PACING } from "./http/queue.ts";
-import { B2Store } from "./images/b2.ts";
+import { B2Store, type ImageStore } from "./images/b2.ts";
 import { WikiImageFetcher } from "./images/download.ts";
 import { sharpEncoder } from "./images/encode.ts";
 import { jsonLogger } from "./log.ts";
@@ -17,6 +18,7 @@ import { FixtureSource, OnlineSource } from "./source.ts";
 
 // Usage: pnpm scrape [--only boosters] [--offline] [--full-refresh] [--allow-drop] [--report .reports]
 // Flags win over the SCRAPER_ONLY / SCRAPER_FULL_REFRESH / SCRAPER_ALLOW_DROP env (scrape.yml).
+// SCRAPER_DRILL rehearses one failure kind on purpose (`src/drill.ts`, plan phase 7).
 
 const root = join(import.meta.dirname, "..", "..", "..");
 const cwd = process.env.INIT_CWD ?? process.cwd();
@@ -51,6 +53,10 @@ if (!only.success) {
 }
 
 const fullRefresh = values["full-refresh"] || env.data.SCRAPER_FULL_REFRESH;
+const drill = env.data.SCRAPER_DRILL === "" ? null : env.data.SCRAPER_DRILL;
+if (drill) {
+  console.error(`scrape: drill "${drill}": this run is meant to fail (plan phase 7)`);
+}
 const logger = jsonLogger();
 const http = values.offline
   ? null
@@ -61,7 +67,11 @@ const http = values.offline
       cache: new HttpCache(join(root, ".cache", "http")),
       fullRefresh,
       logger,
+      // The block drill needs its three refusals in a row without waiting 85 s for them.
+      ...(drill === "blocked" ? { fetch: drillFetch(), retryDelaysMs: [100, 100, 100] } : {}),
     });
+
+const withDrilledStore = (store: ImageStore) => (drill === "images" ? drillStore(store) : store);
 
 // Online runs upload images; offline runs only reuse data/v1/reports/images.json.
 const { B2_S3_ENDPOINT, B2_BUCKET, B2_WRITE_KEY_ID, B2_WRITE_APP_KEY } = env.data;
@@ -76,20 +86,24 @@ const images =
     ? {
         fetcher: new WikiImageFetcher(http),
         encoder: sharpEncoder,
-        store: new B2Store({
-          endpoint: B2_S3_ENDPOINT,
-          bucket: B2_BUCKET,
-          keyId: B2_WRITE_KEY_ID,
-          appKey: B2_WRITE_APP_KEY,
-        }),
+        store: withDrilledStore(
+          new B2Store({
+            endpoint: B2_S3_ENDPOINT,
+            bucket: B2_BUCKET,
+            keyId: B2_WRITE_KEY_ID,
+            appKey: B2_WRITE_APP_KEY,
+          }),
+        ),
       }
     : null;
 
+const wiki = http
+  ? new OnlineSource(http)
+  : new FixtureSource(join(root, "packages", "scraper", "test", "fixtures", "wiki"));
+
 const report = await runScrape({
   dataDir: resolve(cwd, env.data.DATA_DIR),
-  source: http
-    ? new OnlineSource(http)
-    : new FixtureSource(join(root, "packages", "scraper", "test", "fixtures", "wiki")),
+  source: drill ? new DrillSource(wiki, drill) : wiki,
   http,
   images,
   only: only.data.length > 0 ? only.data : null,

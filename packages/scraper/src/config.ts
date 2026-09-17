@@ -1,4 +1,5 @@
 import { z } from "zod";
+import { DRILLS } from "./drill.ts";
 
 // Scraper configuration from the environment (arch §10, `.env.example`).
 
@@ -29,6 +30,8 @@ export const ScraperEnv = z.object({
   SCRAPER_FULL_REFRESH: Flag.default(false),
   SCRAPER_ALLOW_DROP: Flag.default(false),
   SCRAPER_ONLY: z.string().default(""),
+  // Failure rehearsals (`src/drill.ts`); empty on every real run.
+  SCRAPER_DRILL: z.enum(["", ...DRILLS]).default(""),
   // Private B2 bucket with the write key; required by online runs (arch §6.5).
   B2_S3_ENDPOINT: z.url({ protocol: /^https$/ }).optional(),
   B2_BUCKET: z.string().min(1).optional(),
