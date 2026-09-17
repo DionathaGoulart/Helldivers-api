@@ -1,9 +1,19 @@
 import { describe, expect, it } from "vitest";
 import { runSmoke, type SmokeDeps, type SmokeOptions } from "../scripts/smoke/checks.ts";
+import { PROBLEM_TYPES } from "../src/lib/problem.ts";
 
 const VERSION = "2026-09-17.2d3c0c72";
 const IMAGE = "/images/v1/weapons/ar-23-liberator.932ff63d.webp";
 const cors = { "access-control-allow-origin": "*" };
+const html = (body: string, status = 200) =>
+  new Response(body, { status, headers: { "content-type": "text/html; charset=utf-8" } });
+/** The errors page as smoke wants it: one anchor per problem type. */
+const errorsPage = () =>
+  html(
+    Object.keys(PROBLEM_TYPES)
+      .map((slug) => `<section id="${slug}">`)
+      .join(""),
+  );
 const json = (body: unknown, headers: Record<string, string> = {}, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { ...cors, ...headers } });
 
@@ -28,6 +38,9 @@ function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) 
     "/v1/weapons": () =>
       new Response(null, { status: 301, headers: { location: "/v1/weapons.json" } }),
     "/v1/weapons/does-not-exist.json": () => new Response("<html>", { status: 404 }),
+    "/": () => html("<html>landing</html>"),
+    "/docs/": () => html("<html>reference</html>"),
+    "/docs/errors": errorsPage,
     "/v1/openapi.json": () => json({ openapi: "3.1.0", "x-data-version": VERSION }),
     "/v1/query/weapons?category=primary": (init) =>
       revalidating(init)
@@ -85,7 +98,7 @@ describe("runSmoke", () => {
   it("passes against a healthy deployment", async () => {
     const { deps, lines } = site();
     expect(await runSmoke(options, deps)).toEqual([]);
-    expect(lines.filter((line) => line.startsWith("ok"))).toHaveLength(11);
+    expect(lines.filter((line) => line.startsWith("ok"))).toHaveLength(12);
   });
 
   it("waits for the new dataVersion to reach the edge", async () => {
@@ -114,10 +127,14 @@ describe("runSmoke", () => {
       "/v1/weapons/does-not-exist.json": () => new Response("<html>", { status: 200 }), // SPA fallback
       "/v1/query/weapons?category=primary": () => new Response("<html>", { status: 200 }), // _routes.json
       [IMAGE]: () => json({}, {}, 503),
+      "/docs/errors": () => html('<section id="not-found">'), // an anchor was dropped
     });
     expect(await runSmoke(options, deps)).toEqual([
       "redirect: HTTP 200",
       "missing file: HTTP 200",
+      "docs pages: /docs/errors has no anchor for unknown-parameter, invalid-filter-value, " +
+        "invalid-parameter, method-not-allowed, internal-error, image-backend-error, " +
+        "images-unavailable",
       "query + revalidation: access-control-allow-origin: expected *, got none",
       "image: HTTP 503",
     ]);

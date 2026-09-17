@@ -7,7 +7,7 @@ import {
   type Pattern,
 } from "@hd2/schemas";
 import { describe, expect, it } from "vitest";
-import { checkDist, MAX_FILE_BYTES, MAX_FILES } from "../scripts/site/checks.ts";
+import { checkDist, MAX_FILE_BYTES, MAX_FILES, REQUIRED_PAGES } from "../scripts/site/checks.ts";
 import { csvColumns, renderCsv } from "../scripts/site/csv.ts";
 import { FACETS } from "../scripts/site/facets.ts";
 import { expandStaticPaths, isDynamicPath } from "../scripts/site/openapi.ts";
@@ -20,8 +20,8 @@ const json = (text: string | undefined) => JSON.parse(text ?? "null");
 async function distSizes(): Promise<Map<string, number>> {
   const { files, site } = await syntheticSite();
   const sizes = new Map<string, number>([
-    ["index.html", 1],
-    ["404.html", 1],
+    ...REQUIRED_PAGES.map((page): [string, number] => [page, 1]),
+    ["fonts/jetbrains-mono-latin-wght-normal.woff2", 1],
     ["_worker.js", 1],
   ]);
   for (const path of files.keys()) sizes.set(`v1/${path}`, 1);

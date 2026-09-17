@@ -4,6 +4,17 @@ import { expandStaticPaths, type OpenApiDocument } from "./openapi.ts";
 // Build assertions (plan §7, arch §2 Pages limits): a dist that breaks one of them never deploys.
 
 export const MAX_FILES = 20_000;
+
+/** The docs site (arch §9): copied from `apps/docs`, easy to lose to a wrong copy filter. */
+export const REQUIRED_PAGES = [
+  "index.html",
+  "404.html",
+  "theme.css",
+  "app.js",
+  "docs/index.html",
+  "docs/errors.html",
+  "docs/reference.js",
+];
 export const MAX_FILE_BYTES = 25 * 1024 * 1024;
 
 /** Pages upload rules: `_worker.js` and the config files are not assets. */
@@ -21,6 +32,12 @@ export function checkDist(
   }
   for (const [path, bytes] of sizes) {
     if (bytes >= MAX_FILE_BYTES) problems.push(`${path}: ${bytes} bytes, Pages allows < 25 MiB`);
+  }
+  for (const page of REQUIRED_PAGES) {
+    if (!sizes.has(page)) problems.push(`${page}: docs page missing from dist`);
+  }
+  if (![...sizes.keys()].some((path) => path.startsWith("fonts/"))) {
+    problems.push("fonts/: the self-hosted font was not copied");
   }
   for (const url of expandStaticPaths(openapi, dataset)) {
     if (!sizes.has(url.slice(1))) problems.push(`${url}: documented in openapi.json but not built`);

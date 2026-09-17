@@ -1,3 +1,5 @@
+import { PROBLEM_TYPES } from "../../src/lib/problem.ts";
+
 // Post-deploy checks (arch §11 Smoke, plan D29): the static host (`_headers`, `_redirects`,
 // `_routes.json`, ETag/304) and the Functions, as a client sees them.
 
@@ -17,6 +19,9 @@ export interface SmokeDeps {
 }
 
 export const ITEM_PATH = "/v1/weapons/ar-23-liberator.json";
+
+/** Every problem type has a section on `/docs/errors` (arch §8.3, plan §8 Phase 6). */
+const PROBLEM_SLUGS = Object.keys(PROBLEM_TYPES);
 
 class CheckError extends Error {}
 
@@ -117,6 +122,25 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     const { response, ms } = await request("/v1/weapons/does-not-exist.json");
     expect(response.status === 404, `HTTP ${response.status}`);
     return `404 ${ms} ms`;
+  });
+
+  // The problem `type` of every error points at an anchor on this page (arch §8.3); a page that
+  // stopped being served, or lost an anchor, breaks that link for everybody.
+  await check("docs pages", async () => {
+    const pages = ["/", "/docs/", "/docs/errors"];
+    const times: string[] = [];
+    let errorsHtml = "";
+    for (const path of pages) {
+      const { response, ms } = await request(path);
+      expect(response.status === 200, `${path}: HTTP ${response.status}`);
+      expectHeader(response, "content-type", /^text\/html/);
+      const html = await response.text();
+      if (path === "/docs/errors") errorsHtml = html;
+      times.push(`${path} ${ms} ms`);
+    }
+    const missing = PROBLEM_SLUGS.filter((slug) => !errorsHtml.includes(`id="${slug}"`));
+    expect(missing.length === 0, `/docs/errors has no anchor for ${missing.join(", ")}`);
+    return times.join(" · ");
   });
 
   await check("openapi", async () => {
