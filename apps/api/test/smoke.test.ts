@@ -3,6 +3,7 @@ import { runSmoke, type SmokeDeps, type SmokeOptions } from "../scripts/smoke/ch
 import { PROBLEM_TYPES } from "../src/lib/problem.ts";
 
 const VERSION = "2026-09-17.2d3c0c72";
+const BUILD = "0123456789abcdef0123456789abcdef01234567";
 const IMAGE = "/images/v1/weapons/ar-23-liberator.932ff63d.webp";
 const cors = { "access-control-allow-origin": "*" };
 const html = (body: string, status = 200) =>
@@ -22,7 +23,8 @@ function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) 
   const calls: string[] = [];
   const revalidating = (init?: RequestInit) => new Headers(init?.headers).has("if-none-match");
   const routes: Record<string, (init?: RequestInit) => Response> = {
-    "/v1/meta.json": () => json({ dataVersion: VERSION }, { "x-data-version": VERSION }),
+    "/v1/meta.json": () =>
+      json({ dataVersion: VERSION }, { "x-data-version": VERSION, "x-build-id": BUILD }),
     "/v1/weapons/ar-23-liberator.json": (init) =>
       revalidating(init)
         ? new Response(null, { status: 304 })
@@ -89,6 +91,7 @@ function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) 
 const options: SmokeOptions = {
   base: "https://example.test/",
   dataVersion: VERSION,
+  buildId: BUILD,
   skipImages: false,
   waitMs: 120_000,
   retryMs: 10_000,
@@ -107,7 +110,7 @@ describe("runSmoke", () => {
       "/v1/meta.json": () =>
         json(
           { dataVersion: served++ < 2 ? "2026-09-16.00000000" : VERSION },
-          { "x-data-version": VERSION },
+          { "x-data-version": VERSION, "x-build-id": BUILD },
         ),
     });
     expect(await runSmoke(options, deps)).toEqual([]);
@@ -117,8 +120,29 @@ describe("runSmoke", () => {
   it("gives up after the wait and keeps checking the rest", async () => {
     const { deps } = site({ "/v1/meta.json": () => json({ dataVersion: "2026-09-16.00000000" }) });
     expect(await runSmoke({ ...options, waitMs: 30_000 }, deps)).toEqual([
-      `meta: dataVersion 2026-09-16.00000000, expected ${VERSION}`,
+      `meta: dataVersion 2026-09-16.00000000, build none, expected ${VERSION} · ${BUILD}`,
     ]);
+  });
+
+  // The deploy that added /docs/ kept the dataVersion, so smoke tested the deployment it replaced.
+  it("waits for the deployment even when the dataset did not change", async () => {
+    let served = 0;
+    const { deps, calls } = site({
+      "/v1/meta.json": () =>
+        json(
+          { dataVersion: VERSION },
+          { "x-data-version": VERSION, "x-build-id": served++ < 2 ? "older-deploy" : BUILD },
+        ),
+    });
+    expect(await runSmoke(options, deps)).toEqual([]);
+    expect(calls.filter((path) => path === "/v1/meta.json")).toHaveLength(3);
+  });
+
+  it("does not gate on the build id of a local build", async () => {
+    const { deps } = site({
+      "/v1/meta.json": () => json({ dataVersion: VERSION }, { "x-data-version": VERSION }),
+    });
+    expect(await runSmoke({ ...options, buildId: "dev" }, deps)).toEqual([]);
   });
 
   it("reports each broken behavior", async () => {

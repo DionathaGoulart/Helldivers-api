@@ -43,6 +43,7 @@ describe("buildSite", () => {
     const { site } = await syntheticSite();
     const headers = site.files.get("_headers") ?? "";
     expect(headers).toContain(`  X-Data-Version: ${site.build.dataVersion}\n`);
+    expect(headers).toContain("  X-Build-Id: dev\n"); // GITHUB_SHA in CI (smoke waits on it)
     expect(headers).toContain(
       "  Cache-Control: public, max-age=300, stale-while-revalidate=3600\n",
     );

@@ -30,7 +30,8 @@ export function searchIndex(data: SiteData): SearchIndex {
   return { meta: listMeta(data.manifest, rows.length), data: rows };
 }
 
-export function buildSite(dataFiles: ReadonlyMap<string, unknown>): Site {
+/** `buildId` names the deployment: the commit SHA in CI, `dev` from a local build. */
+export function buildSite(dataFiles: ReadonlyMap<string, unknown>, buildId = "dev"): Site {
   const data = readSiteData(dataFiles);
   const { manifest, dataset } = data;
   const files = new Map<string, string>();
@@ -62,7 +63,7 @@ export function buildSite(dataFiles: ReadonlyMap<string, unknown>): Site {
   const openapi = buildOpenApi(data);
   files.set("v1/openapi.json", writeJson(openapi));
 
-  files.set("_headers", renderHeaders(manifest.dataVersion));
+  files.set("_headers", renderHeaders(manifest.dataVersion, buildId));
   files.set("_routes.json", renderRoutes());
   files.set("_redirects", renderRedirects());
 

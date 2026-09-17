@@ -9,15 +9,18 @@ export const FONT_CACHE_CONTROL = "public, max-age=604800, stale-while-revalidat
  * Rules matching one path are merged and a header set twice is joined with a comma, so CORS and
  * nosniff live only in `/*`.
  */
-export function renderHeaders(dataVersion: string): string {
+export function renderHeaders(dataVersion: string, buildId: string): string {
   return [
     "/*",
     "  Access-Control-Allow-Origin: *",
     "  X-Content-Type-Options: nosniff",
+    // Names the deployment (the commit in CI): `X-Data-Version` only changes when the data does,
+    // so a code- or docs-only deploy is invisible without this (smoke would test the old one).
+    `  X-Build-Id: ${buildId}`,
     "",
     "/v1/*",
     `  Cache-Control: ${STATIC_CACHE_CONTROL}`,
-    "  Access-Control-Expose-Headers: ETag, X-Data-Version",
+    "  Access-Control-Expose-Headers: ETag, X-Data-Version, X-Build-Id",
     `  X-Data-Version: ${dataVersion}`,
     "",
     // The font files change only with the package; a week of cache costs one revalidation.

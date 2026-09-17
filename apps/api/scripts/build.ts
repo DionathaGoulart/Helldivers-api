@@ -40,7 +40,8 @@ if (issues.length > 0) {
   );
 }
 
-const site = buildSite(files);
+// GitHub sets GITHUB_SHA; a local build is `dev`, which smoke does not gate on.
+const site = buildSite(files, process.env.GITHUB_SHA ?? "dev");
 
 await rm(distDir, { recursive: true, force: true });
 await mkdir(distDir, { recursive: true });

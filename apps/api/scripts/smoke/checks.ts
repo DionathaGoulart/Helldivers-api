@@ -6,6 +6,7 @@ import { PROBLEM_TYPES } from "../../src/lib/problem.ts";
 export interface SmokeOptions {
   base: string; // https://helldivers-api.pages.dev or http://localhost:8000
   dataVersion: string; // expected in /v1/meta.json
+  buildId: string; // expected in the X-Build-Id header; `dev` waits on the dataset only
   skipImages: boolean; // GitHub has no B2 read key (arch §12)
   waitMs: number; // how long a new deploy may take to reach the edge
   retryMs: number;
@@ -64,19 +65,28 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
 
   let item: { data: { image: { url: string } | null } } | undefined;
 
+  // Waits for the deployment under test, then checks it. A code- or docs-only deploy keeps the
+  // dataVersion, so the build id is what tells the new deployment from the one it replaces.
   await check("meta", async () => {
     const deadline = deps.now() + options.waitMs;
+    const gateBuild = options.buildId !== "dev";
     for (;;) {
       const { response, ms } = await request("/v1/meta.json");
       const body = response.ok ? ((await response.json()) as { dataVersion?: string }) : {};
-      if (body.dataVersion === options.dataVersion) {
+      const served = response.headers.get("x-build-id");
+      const stale: string[] = [];
+      if (body.dataVersion !== options.dataVersion) {
+        stale.push(`dataVersion ${body.dataVersion ?? `HTTP ${response.status}`}`);
+      }
+      if (gateBuild && served !== options.buildId) stale.push(`build ${served ?? "none"}`);
+      if (stale.length === 0) {
         expectHeader(response, "access-control-allow-origin", "*");
         expectHeader(response, "x-data-version", options.dataVersion);
         return `${response.status} ${options.dataVersion} ${ms} ms`;
       }
       expect(
         deps.now() + options.retryMs <= deadline,
-        `dataVersion ${body.dataVersion ?? `HTTP ${response.status}`}, expected ${options.dataVersion}`,
+        `${stale.join(", ")}, expected ${options.dataVersion}${gateBuild ? ` · ${options.buildId}` : ""}`,
       );
       await deps.sleep(options.retryMs);
     }
