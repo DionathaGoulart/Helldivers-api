@@ -1,10 +1,10 @@
-import { Collection, type DatasetManifest, entityNames, jsonSchemaFiles } from "@hd2/schemas";
+import { Collection, jsonSchemaFiles } from "@hd2/schemas";
 import type { BuildInfo } from "../../src/build-info.ts";
 import { searchTerms } from "../../src/lib/text.ts";
 import type { SearchIndex, SearchIndexRow } from "../../src/search-index.ts";
 import { referencedCollections } from "../../src/spec/filters.ts";
 import { renderCsv } from "./csv.ts";
-import { listMeta, readSiteData, type SiteData, writeJson } from "./dataset.ts";
+import { listMeta, manifestWithUrls, readSiteData, type SiteData, writeJson } from "./dataset.ts";
 import { FACETS, facetValues } from "./facets.ts";
 import { renderHeaders, renderRedirects, renderRoutes } from "./headers.ts";
 import { buildOpenApi, type OpenApiDocument } from "./openapi.ts";
@@ -17,21 +17,6 @@ export interface Site {
   build: BuildInfo;
   openapi: OpenApiDocument;
   files: Map<string, string>;
-}
-
-export function manifestWithUrls(manifest: DatasetManifest): DatasetManifest {
-  const collections = Object.fromEntries(
-    Object.entries(manifest.collections).map(([collection, entry]) => [
-      collection,
-      {
-        count: entry.count,
-        url: `/v1/${collection}.json`,
-        csv: `/v1/${collection}.csv`,
-        schema: `/v1/schemas/${entityNames[collection as Collection]}.json`,
-      },
-    ]),
-  );
-  return { ...manifest, collections };
 }
 
 export function searchIndex(data: SiteData): SearchIndex {

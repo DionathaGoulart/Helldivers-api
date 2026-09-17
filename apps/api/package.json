@@ -17,6 +17,7 @@
     "zod": "catalog:"
   },
   "devDependencies": {
+    "@apidevtools/swagger-parser": "catalog:",
     "@types/node": "catalog:",
     "esbuild": "catalog:",
     "tsx": "catalog:",

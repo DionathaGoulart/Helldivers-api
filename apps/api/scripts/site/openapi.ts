@@ -27,7 +27,7 @@ import {
   WikiRef,
 } from "@hd2/schemas";
 import { z } from "zod";
-import { PROBLEM_TYPES, type ProblemType } from "../../src/lib/problem.ts";
+import { ERRORS_URL, PROBLEM_TYPES, type ProblemType } from "../../src/lib/problem.ts";
 import { MIN_QUERY_LENGTH } from "../../src/lib/text.ts";
 import { SEARCH_DEFAULT_LIMIT, SEARCH_MAX_LIMIT } from "../../src/routes/search.ts";
 import { SearchIndex } from "../../src/search-index.ts";
@@ -39,7 +39,14 @@ import {
   QUERY_FILTERS,
   sortOptions,
 } from "../../src/spec/filters.ts";
-import type { SiteData, SiteDataset } from "./dataset.ts";
+import { manifestWithUrls, type SiteData, type SiteDataset } from "./dataset.ts";
+import {
+  collectionExamples,
+  type Example,
+  metaExample,
+  problemExample,
+  searchExample,
+} from "./examples.ts";
 import { FACETS } from "./facets.ts";
 
 // `/v1/openapi.json` (ADR-010): OpenAPI 3.1 generated from the zod schemas (`z.toJSONSchema`
@@ -47,16 +54,18 @@ import { FACETS } from "./facets.ts";
 // drive the Functions and the static export, so the document cannot drift from what is served.
 
 export const SITE_URL = "https://helldivers-api.pages.dev";
+export const REPO_URL = "https://github.com/DionathaGoulart/Helldivers-api";
 
 type JsonObject = Record<string, unknown>;
 
 export interface OpenApiDocument {
   openapi: "3.1.0";
-  info: JsonObject;
-  servers: JsonObject[];
+  info: { title: string; version: string } & JsonObject;
+  servers: ({ url: string } & JsonObject)[];
+  externalDocs: { description: string; url: string };
   tags: { name: string; description: string }[];
   paths: Record<string, { get: JsonObject }>;
-  components: { schemas: Record<string, JsonObject> };
+  components: { schemas: Record<string, JsonObject>; examples: Record<string, Example> };
   "x-data-version": string;
 }
 
@@ -110,12 +119,29 @@ function components(): Record<string, JsonObject> {
     io: "input",
     uri: (id) => `#/components/schemas/${id}`,
   }) as { schemas: Record<string, JsonObject> };
+  // Each entity links its published JSON Schema file (plan §8): the same contract, standalone.
+  const schemaFiles = new Map(
+    Collection.options.map((collection) => [
+      pascal(entityNames[collection]),
+      `/v1/schemas/${entityNames[collection]}.json`,
+    ]),
+  );
   return Object.fromEntries(
-    Object.entries(schemas).map(([id, { $schema: _schema, $id: _id, ...rest }]) => [id, rest]),
+    Object.entries(schemas).map(([id, { $schema: _schema, $id: _id, ...rest }]) => {
+      const file = schemaFiles.get(id);
+      return [
+        id,
+        file ? { ...rest, externalDocs: { description: "JSON Schema", url: file } } : rest,
+      ];
+    }),
   );
 }
 
-const json = (schema: JsonObject) => ({ "application/json": { schema } });
+const exampleRef = (name: string) => ({ default: { $ref: `#/components/examples/${name}` } });
+
+const json = (schema: JsonObject, example?: string | undefined) => ({
+  "application/json": { schema, ...(example ? { examples: exampleRef(example) } : {}) },
+});
 
 const notModified = { description: "Not modified (`If-None-Match` matched the `ETag`)." };
 
@@ -130,7 +156,9 @@ function problems(...types: ProblemType[]): JsonObject {
       String(status),
       {
         description: list.map((type) => `\`${type}\`: ${PROBLEM_TYPES[type].title}`).join("; "),
-        content: { "application/problem+json": { schema: ref("Problem") } },
+        content: {
+          "application/problem+json": { schema: ref("Problem"), examples: exampleRef("Problem") },
+        },
       },
     ]),
   );
@@ -140,14 +168,20 @@ const staticNotFound = {
   description: "No such file (HTML page from the static host).",
 };
 
-function staticJson(summary: string, tag: string, operationId: string, schema: JsonObject) {
+function staticJson(
+  summary: string,
+  tag: string,
+  operationId: string,
+  schema: JsonObject,
+  example?: string | undefined,
+) {
   return {
     get: {
       tags: [tag],
       summary,
       operationId,
       responses: {
-        "200": { description: summary, content: json(schema) },
+        "200": { description: summary, content: json(schema, example) },
         "304": notModified,
         "404": staticNotFound,
       },
@@ -225,9 +259,37 @@ function queryParams(collection: Collection): JsonObject[] {
   ];
 }
 
-export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
+/** Real published bodies, keyed by the component they illustrate (`examples.ts`). */
+function examples({ manifest, dataset }: SiteData): Record<string, Example> {
+  const found: Record<string, Example> = {
+    DatasetManifest: metaExample(manifestWithUrls(manifest)),
+    Problem: problemExample(ERRORS_URL),
+  };
+  const search = searchExample(manifest, dataset);
+  if (search) found.SearchResponse = search;
+  for (const collection of Collection.options) {
+    const entity = pascal(entityNames[collection]);
+    const { item, list, query } = collectionExamples(collection, manifest, dataset);
+    if (item) found[`${entity}Item`] = item;
+    if (list) found[`${entity}List`] = list;
+    if (query) found[`${entity}Query`] = query;
+  }
+  return found;
+}
+
+export function buildOpenApi(data: SiteData): OpenApiDocument {
+  const { manifest } = data;
+  const byComponent = examples(data);
+  /** The example name when the dataset has one, so an empty collection documents no body. */
+  const has = (name: string) => (byComponent[name] ? name : undefined);
   const paths: OpenApiDocument["paths"] = {
-    "/v1/meta.json": staticJson("Dataset manifest", "dataset", "getMeta", ref("DatasetManifest")),
+    "/v1/meta.json": staticJson(
+      "Dataset manifest",
+      "dataset",
+      "getMeta",
+      ref("DatasetManifest"),
+      "DatasetManifest",
+    ),
     "/v1/changelog.json": staticJson(
       "Last 90 data changes",
       "dataset",
@@ -297,7 +359,10 @@ export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
           },
         ],
         responses: {
-          "200": { description: "Best matches first", content: json(ref("SearchResponse")) },
+          "200": {
+            description: "Best matches first",
+            content: json(ref("SearchResponse"), has("SearchResponse")),
+          },
           "304": notModified,
           ...problems("unknown-parameter", "invalid-parameter", "internal-error"),
         },
@@ -340,17 +405,24 @@ export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
       collection,
       `list${plural}`,
       ref(`${entity}List`),
+      has(`${entity}List`),
     );
+    const exampleItem = byComponent[`${entity}Item`]?.value as { data?: { id?: string } };
     paths[`/v1/${collection}/{id}.json`] = {
       get: {
         tags: [collection],
         summary: `One ${entityNames[collection]}`,
         operationId: `get${entity}`,
-        parameters: [pathParam("id", `Id from \`/v1/${collection}.json\`.`, Id)],
+        parameters: [
+          {
+            ...pathParam("id", `Id from \`/v1/${collection}.json\`.`, Id),
+            ...(exampleItem?.data?.id ? { example: exampleItem.data.id } : {}),
+          },
+        ],
         responses: {
           "200": {
             description: `One ${entityNames[collection]}`,
-            content: json(ref(`${entity}Item`)),
+            content: json(ref(`${entity}Item`), has(`${entity}Item`)),
           },
           "304": notModified,
           "404": staticNotFound,
@@ -374,7 +446,7 @@ export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
           responses: {
             "200": {
               description: "Matching items (possibly empty)",
-              content: json(ref(`${entity}List`)),
+              content: json(ref(`${entity}List`), has(`${entity}List`)),
             },
             "304": notModified,
             "404": staticNotFound,
@@ -406,7 +478,10 @@ export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
         operationId: `query${plural}`,
         parameters: queryParams(collection),
         responses: {
-          "200": { description: "One page of matches", content: json(ref(`${entity}Query`)) },
+          "200": {
+            description: "One page of matches",
+            content: json(ref(`${entity}Query`), has(`${entity}Query`)),
+          },
           "304": notModified,
           ...problems(
             "unknown-parameter",
@@ -424,12 +499,24 @@ export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
     info: {
       title: "Helldivers 2 Data API",
       version: "v1",
-      description:
-        "Free, public, read-only JSON API with the Helldivers 2 catalog, built from The Helldivers Wiki. " +
-        "Enums are open: ignore values you do not know.",
+      summary: "The Helldivers 2 catalog as JSON: weapons, stratagems, armor, warbonds and more.",
+      description: [
+        "Free, public, read-only JSON API with the Helldivers 2 catalog, built from The Helldivers Wiki.",
+        "",
+        "- No key, no rate limit, CORS open to every origin.",
+        "- Every list and item is a static file: prefer them and the `by-*` facets over `/v1/query/*`.",
+        "- Responses carry an `ETag`; send `If-None-Match` and take the `304`.",
+        "- `image.url` is content-hashed and immutable — cache it forever.",
+        "- Enums are open: ignore values you do not know.",
+        "",
+        `Every entity also has a standalone JSON Schema under \`/v1/schemas/\`, and the dataset it was`,
+        "built from is named by `x-data-version`.",
+      ].join("\n"),
       license: { name: "MIT", identifier: "MIT" },
+      contact: { name: "Source on GitHub", url: REPO_URL },
     },
     servers: [{ url: SITE_URL }],
+    externalDocs: { description: "Docs and quickstart", url: `${SITE_URL}/` },
     tags: [
       { name: "dataset", description: "Manifest, changelog, schemas and reports." },
       { name: "search", description: "Cross-collection name search." },
@@ -440,7 +527,7 @@ export function buildOpenApi({ manifest }: SiteData): OpenApiDocument {
       })),
     ],
     paths,
-    components: { schemas: components() },
+    components: { schemas: components(), examples: byComponent },
     "x-data-version": manifest.dataVersion,
   };
 }
