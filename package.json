@@ -19,6 +19,7 @@
     "smoke": "tsx apps/api/scripts/smoke.ts",
     "scrape": "tsx packages/scraper/src/cli.ts",
     "alert": "tsx packages/scraper/scripts/alert.ts",
+    "keepalive": "tsx scripts/keepalive.ts",
     "fixtures:update": "tsx packages/scraper/scripts/fixtures-update.ts",
     "validate:data": "tsx packages/schemas/scripts/validate-data.ts",
     "schemas:export": "tsx packages/schemas/scripts/export-json-schema.ts"
