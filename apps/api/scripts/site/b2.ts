@@ -1,7 +1,7 @@
 import { AwsClient } from "aws4fetch";
 import { z } from "zod";
 
-// Signed reads from the private Backblaze B2 bucket (arch §8.1, ADR-006) with the read-only key.
+// Signed reads from the private Backblaze B2 bucket (arch §8.1, ADR-006), for `pnpm images:pull`.
 
 export const B2ReadEnv = z.object({
   B2_S3_ENDPOINT: z.url({ protocol: /^https$/ }),

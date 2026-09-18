@@ -130,10 +130,11 @@ issue it would open. `packages/scraper/test/drill.test.ts` keeps that honest.
 
 ## The API
 
-`apps/api` is a Cloudflare Worker with static assets: static files for everything in `/v1`, the
-Worker only for `/v1/query/*`, `/v1/search` and `/images/*`. `apps/docs` is the landing page and the reference.
+`apps/api` is a Cloudflare Worker with static assets: static files for everything in `/v1` and
+`/images`, the Worker only for `/v1/query/*` and `/v1/search`. `apps/docs` is the landing page and the reference.
 
 ```sh
+pnpm images:pull               # needs B2_READ_* in .env; without it images 404 locally
 pnpm build                     # dist/ with the static dataset and openapi.json, build/worker.js
 pnpm dev                       # builds, then wrangler dev on :8000
 pnpm smoke --base http://localhost:8000 --skip-images

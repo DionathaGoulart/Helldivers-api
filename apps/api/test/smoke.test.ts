@@ -157,8 +157,7 @@ describe("runSmoke", () => {
       "redirect: HTTP 200",
       "missing file: HTTP 200",
       "docs pages: /docs/errors has no anchor for unknown-parameter, invalid-filter-value, " +
-        "invalid-parameter, method-not-allowed, internal-error, image-backend-error, " +
-        "images-unavailable",
+        "invalid-parameter, method-not-allowed, internal-error",
       "query + revalidation: access-control-allow-origin: expected *, got none",
       "image: HTTP 503",
     ]);

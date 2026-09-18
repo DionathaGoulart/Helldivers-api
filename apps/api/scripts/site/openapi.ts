@@ -391,7 +391,7 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
             },
           },
           "304": notModified,
-          ...problems("not-found", "image-backend-error", "images-unavailable"),
+          "404": staticNotFound,
         },
       },
     },
@@ -520,7 +520,7 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
     tags: [
       { name: "dataset", description: "Manifest, changelog, schemas and reports." },
       { name: "search", description: "Cross-collection name search." },
-      { name: "images", description: "Entity images proxied from private storage." },
+      { name: "images", description: "Entity images: static WebP files, content-hashed." },
       ...Collection.options.map((collection) => ({
         name: collection,
         description: `List, item, facet, CSV and query routes of ${collection}.`,
@@ -534,7 +534,7 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
 
 /** Dynamic routes are served by the Worker; every other documented path is a static file. */
 export const isDynamicPath = (path: string) =>
-  path === "/v1/search" || path.startsWith("/v1/query/") || path.startsWith("/images/");
+  path === "/v1/search" || path.startsWith("/v1/query/");
 
 /**
  * Concrete URLs of every static path in the document: enum parameters expand to their values,
@@ -543,7 +543,8 @@ export const isDynamicPath = (path: string) =>
 export function expandStaticPaths(document: OpenApiDocument, dataset: SiteDataset): string[] {
   const urls: string[] = [];
   for (const [template, { get }] of Object.entries(document.paths)) {
-    if (isDynamicPath(template)) continue;
+    // Images are checked against reports/images.json by the build instead.
+    if (isDynamicPath(template) || template.startsWith("/images/")) continue;
     let expanded = [template];
     for (const parameter of (get.parameters ?? []) as JsonObject[]) {
       if (parameter.in !== "path") continue;

@@ -159,48 +159,13 @@
         </div>
         <div class="panel-body">
           <p>
-            Something failed inside the Function — most often a data file that could not be read.
+            Something failed inside the Worker — most often a data file that could not be read.
             Nothing is cached, so the next request may well succeed.
           </p>
           <p class="hint">
             Fix: retry once. If it persists,
             <a href="https://github.com/DionathaGoulart/Helldivers-api/issues">open an issue</a>
             with the <code>instance</code>, the time and the <code>cf-ray</code> header.
-          </p>
-        </div>
-      </section>
-
-      <section class="panel" id="image-backend-error">
-        <div class="window-bar">
-          <span class="window-bar-title">502 · IMAGE-BACKEND-ERROR</span>
-          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
-        </div>
-        <div class="panel-body">
-          <p>
-            <code>/images/*</code> reached the private bucket and got an error or a timeout back.
-            The failure is never cached.
-          </p>
-          <p class="hint">
-            Fix: retry later. A successful image is cached at the edge and
-            <code>immutable</code>, so this only hits the first request for a key in a region.
-          </p>
-        </div>
-      </section>
-
-      <section class="panel" id="images-unavailable">
-        <div class="window-bar">
-          <span class="window-bar-title">503 · IMAGES-UNAVAILABLE</span>
-          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
-        </div>
-        <div class="panel-body">
-          <p>
-            This deployment has no image storage configured — a local
-            <code>wrangler pages dev</code> without the read key, for instance. Data routes work as
-            usual.
-          </p>
-          <p class="hint">
-            Fix: set <code>B2_READ_KEY_ID</code> and <code>B2_READ_APP_KEY</code> in
-            <code>.dev.vars</code>, or skip images (<code>pnpm smoke --skip-images</code>).
           </p>
         </div>
       </section>

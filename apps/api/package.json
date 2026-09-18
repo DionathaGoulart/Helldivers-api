@@ -7,12 +7,12 @@
     "build": "tsx scripts/build.ts",
     "dev": "tsx scripts/build.ts && wrangler dev --port 8000",
     "smoke": "tsx scripts/smoke.ts",
+    "images:pull": "tsx scripts/images.ts",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
     "@hd2/schemas": "workspace:*",
-    "aws4fetch": "catalog:",
     "hono": "catalog:",
     "zod": "catalog:"
   },
@@ -20,6 +20,7 @@
     "@apidevtools/swagger-parser": "catalog:",
     "@fontsource-variable/jetbrains-mono": "catalog:",
     "@types/node": "catalog:",
+    "aws4fetch": "catalog:",
     "esbuild": "catalog:",
     "tsx": "catalog:",
     "typescript": "catalog:",

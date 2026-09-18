@@ -39,6 +39,9 @@ describe("docs site", () => {
       expect(html).toContain(`${status} · ${type.toUpperCase()}`);
       expect(title).toBeTruthy();
     }
+    // A retired type loses its section too.
+    const sections = [...html.matchAll(/<section class="panel" id="([a-z-]+)">/g)].map((m) => m[1]);
+    expect(sections.sort()).toEqual(Object.keys(PROBLEM_TYPES).sort());
   });
 
   it("pins the reference renderer by version and hash", async () => {

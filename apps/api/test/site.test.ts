@@ -49,6 +49,7 @@ describe("buildSite", () => {
     expect(headers).toContain(
       "  Cache-Control: public, max-age=300, stale-while-revalidate=3600\n",
     );
+    expect(headers).toContain("/images/*\n  Cache-Control: public, max-age=31536000, immutable\n");
     expect(headers.match(/Access-Control-Allow-Origin/g)).toHaveLength(1);
     expect(headers.match(/X-Content-Type-Options/g)).toHaveLength(1);
   });

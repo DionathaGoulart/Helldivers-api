@@ -4,6 +4,8 @@ import { Collection } from "@hd2/schemas";
 
 export const STATIC_CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=3600";
 export const FONT_CACHE_CONTROL = "public, max-age=604800, stale-while-revalidate=86400";
+/** Image keys are content hashed: a URL never changes content (arch §8.1). */
+export const IMAGE_CACHE_CONTROL = "public, max-age=31536000, immutable";
 
 /**
  * Rules matching one path are merged and a header set twice is joined with a comma, so CORS and
@@ -27,6 +29,9 @@ export function renderHeaders(dataVersion: string, buildId: string): string {
     "/fonts/*",
     `  Cache-Control: ${FONT_CACHE_CONTROL}`,
     "",
+    "/images/*",
+    `  Cache-Control: ${IMAGE_CACHE_CONTROL}`,
+    "",
   ].join("\n");
 }
 
@@ -34,7 +39,7 @@ export function renderHeaders(dataVersion: string, buildId: string): string {
  * Only these run the Worker (`assets.run_worker_first` in wrangler.toml); every other request is a
  * free static hit.
  */
-export const WORKER_ROUTES = ["/v1/query/*", "/v1/search", "/images/*"] as const;
+export const WORKER_ROUTES = ["/v1/query/*", "/v1/search"] as const;
 
 /** `/v1/weapons` → `/v1/weapons.json`; extensionless item URLs are not aliased in v1. */
 export function renderRedirects(): string {

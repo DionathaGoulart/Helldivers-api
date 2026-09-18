@@ -1,15 +1,18 @@
 import { cp, mkdir, readdir, rm, stat, writeFile } from "node:fs/promises";
 import { basename, dirname, join, relative, resolve, sep } from "node:path";
 import { fileURLToPath } from "node:url";
-import { validateDataset } from "@hd2/schemas";
+import { ImageManifest, validateDataset } from "@hd2/schemas";
 import { readDatasetFiles } from "@hd2/schemas/node";
 import { bundleWorker } from "./site/bundle.ts";
 import { checkDist } from "./site/checks.ts";
+import { copyImages } from "./site/images.ts";
 import { buildSite } from "./site/site.ts";
 
 // Usage: pnpm build   (reads <DATA_DIR>/v1; DATA_DIR defaults to data, relative to the repo root)
+//        REQUIRE_IMAGES=1 pnpm build   (deploy: an image missing from .cache/images fails the build)
 // dist/ = the static assets: apps/docs pages + a copy of data/v1 + generated files (facets, CSV,
-// search index, schemas, openapi.json, _headers, _redirects). build/worker.js = the Worker (arch §8).
+// search index, schemas, openapi.json, _headers, _redirects) + images from .cache/images.
+// build/worker.js = the Worker (arch §8).
 const appDir = join(import.meta.dirname, "..");
 const rootDir = join(appDir, "..", "..");
 const distDir = join(appDir, "dist");
@@ -63,6 +66,22 @@ for (const [path, text] of site.files) {
   await mkdir(dirname(target), { recursive: true });
   await writeFile(target, text);
 }
+// Entity images (arch §8.1): the live ones of reports/images.json, from `pnpm images:pull`. Without
+// a B2 key (CI, a fresh clone) they are missing and 404; a deploy must not ship like that.
+const liveImages = ImageManifest.parse(files.get("reports/images.json")).images.map(
+  (image) => image.url,
+);
+const images = await copyImages(liveImages, join(rootDir, ".cache", "images"), distDir);
+if (images.missing.length > 0) {
+  if (process.env.REQUIRE_IMAGES === "1") {
+    fail(images.missing.map((url) => `${url}: not in .cache/images (run pnpm images:pull)`));
+  }
+  console.warn(
+    `build: ${images.missing.length} of ${liveImages.length} images not in .cache/images, ` +
+      "they will 404 (pnpm images:pull)",
+  );
+}
+
 await rm(dirname(workerFile), { recursive: true, force: true });
 const workerBytes = await bundleWorker(join(appDir, "src", "worker.ts"), workerFile, site.build);
 
@@ -79,6 +98,7 @@ if (problems.length > 0) {
 
 const totalBytes = [...sizes.values()].reduce((sum, bytes) => sum + bytes, 0);
 console.log(
-  `build ok · ${sizes.size} files · ${(totalBytes / 1024 / 1024).toFixed(1)} MB · ` +
+  `build ok · ${sizes.size} files (${images.copied} images) · ` +
+    `${(totalBytes / 1024 / 1024).toFixed(1)} MB · ` +
     `worker.js ${(workerBytes / 1024).toFixed(0)} KB · ${site.build.dataVersion} · ${relative(rootDir, distDir)}`,
 );

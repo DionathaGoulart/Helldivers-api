@@ -37,9 +37,24 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # The build validates data/v1 first (schemas, layout, integrity) and asserts the static assets
-      # limits.
+      # Images are static assets: keys are content hashed, so the cache only ever grows by the new
+      # ones and a deploy downloads just those from B2.
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: .cache/images
+          key: images-${{ hashFiles('data/v1/reports/images.json') }}
+          restore-keys: images-
+      - run: pnpm images:pull
+        env:
+          B2_S3_ENDPOINT: ${{ vars.B2_S3_ENDPOINT }}
+          B2_BUCKET: ${{ vars.B2_BUCKET }}
+          B2_READ_KEY_ID: ${{ secrets.B2_READ_KEY_ID }}
+          B2_READ_APP_KEY: ${{ secrets.B2_READ_APP_KEY }}
+      # The build validates data/v1 first (schemas, layout, integrity), asserts the static assets
+      # limits and, with REQUIRE_IMAGES, that every live image is in dist.
       - run: pnpm build
+        env:
+          REQUIRE_IMAGES: "1"
       - name: Deploy the Worker
         working-directory: apps/api
         run: pnpm exec wrangler deploy

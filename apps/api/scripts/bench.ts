@@ -4,7 +4,6 @@ import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { Collection } from "@hd2/schemas";
 import type { BuildInfo } from "../src/build-info.ts";
-import { B2Reader } from "../src/lib/b2.ts";
 import type { ListFile } from "../src/lib/data-loader.ts";
 import { parseQuery, queryBody } from "../src/routes/query.ts";
 import { parseSearch, searchBody } from "../src/routes/search.ts";
@@ -13,7 +12,7 @@ import { referencedCollections } from "../src/spec/filters.ts";
 
 // Usage: pnpm build && pnpm --filter @hd2/api exec tsx scripts/bench.ts
 // CPU of the Worker's work on the real dataset, measured in Node (V8, like workerd). Workers
-// bill CPU, not the time spent waiting on ASSETS or B2 (arch §8.4).
+// bill CPU, not the time spent waiting on ASSETS (arch §8.4).
 const distDir = join(import.meta.dirname, "..", "dist");
 const read = (path: string) => readFileSync(join(distDir, path), "utf8");
 
@@ -103,23 +102,6 @@ for (const q of ["st", "liberator"]) {
       return JSON.stringify(searchBody(index, parsed.value, build));
     }),
   );
-}
-
-const env = {
-  B2_S3_ENDPOINT: "https://s3.us-east-005.backblazeb2.com",
-  B2_BUCKET: "Helldivers-api",
-  B2_READ_KEY_ID: "005000000000000000000000",
-  B2_READ_APP_KEY: "K005000000000000000000000000000",
-};
-const key = "images/v1/weapons/ar-23-liberator.932ff63d.webp";
-const noFetch = async () => new Response(null);
-record(
-  "image miss: SigV4 signature with a new signer (first image of an isolate)",
-  await median(() => new B2Reader(env, noFetch).get(key)),
-);
-{
-  const reader = new B2Reader(env, noFetch);
-  record("image miss: SigV4 signature with a warm signer", await median(() => reader.get(key)));
 }
 
 const width = Math.max(...rows.map(([name]) => name.length));

@@ -11,8 +11,6 @@ export const PROBLEM_TYPES = {
   "not-found": { status: 404, title: "Not found" },
   "method-not-allowed": { status: 405, title: "Method not allowed" },
   "internal-error": { status: 500, title: "Internal error" },
-  "image-backend-error": { status: 502, title: "Image backend error" },
-  "images-unavailable": { status: 503, title: "Images unavailable" },
 } as const;
 
 export type ProblemType = keyof typeof PROBLEM_TYPES;

@@ -86,9 +86,6 @@ importers:
       '@hd2/schemas':
         specifier: workspace:*
         version: link:../../packages/schemas
-      aws4fetch:
-        specifier: 'catalog:'
-        version: 1.0.20
       hono:
         specifier: 'catalog:'
         version: 4.13.8
@@ -105,6 +102,9 @@ importers:
       '@types/node':
         specifier: 'catalog:'
         version: 24.13.4
+      aws4fetch:
+        specifier: 'catalog:'
+        version: 1.0.20
       esbuild:
         specifier: 'catalog:'
         version: 0.28.2

@@ -17,6 +17,7 @@
     "build": "pnpm -r build",
     "dev": "pnpm --filter @hd2/api dev",
     "smoke": "tsx apps/api/scripts/smoke.ts",
+    "images:pull": "tsx apps/api/scripts/images.ts",
     "scrape": "tsx packages/scraper/src/cli.ts",
     "alert": "tsx packages/scraper/scripts/alert.ts",
     "keepalive": "tsx scripts/keepalive.ts",
