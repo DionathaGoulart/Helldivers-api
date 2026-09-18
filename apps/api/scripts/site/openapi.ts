@@ -32,7 +32,7 @@ import { MIN_QUERY_LENGTH } from "../../src/lib/text.ts";
 import { SEARCH_DEFAULT_LIMIT, SEARCH_MAX_LIMIT } from "../../src/routes/search.ts";
 import { SearchIndex } from "../../src/search-index.ts";
 import { ACCESS_URL, REPO_URL, SITE_URL } from "../../src/site.ts";
-import { TIERS } from "../../src/spec/access.ts";
+import { DAILY_BUDGET, TIERS } from "../../src/spec/access.ts";
 import {
   DEFAULT_LIMIT,
   type Filters,
@@ -192,11 +192,18 @@ const tierHeaders = {
     schema: { type: "string", enum: [...Object.keys(TIERS), "unlimited"] },
   },
   "RateLimit-Policy": {
-    description: 'Limit of that tier, e.g. `"anon";q=10;w=60` (10 requests per 60 s).',
+    description:
+      'Limit of that tier, then its daily cap, e.g. `"anon";q=10;w=60, "daily";q=80000;w=86400`.',
     schema: { type: "string" },
   },
   RateLimit: {
-    description: 'What is left, e.g. `"anon";r=7;t=42` (7 requests, window starts over in 42 s).',
+    description:
+      'What is left, e.g. `"anon";r=7;t=42, "daily";r=51234;t=30000` (7 requests, window starts ' +
+      "over in 42 s; 51234 left today, budget starts over at 00:00 UTC in 30000 s).",
+    schema: { type: "string" },
+  },
+  "X-API-Warning": {
+    description: `Sent once fewer than ${DAILY_BUDGET.warnBelow} requests are left in today's budget.`,
     schema: { type: "string" },
   },
 };
@@ -206,18 +213,17 @@ const tierHeaders = {
  * rate limit problems on top of the route's own.
  */
 function dynamicResponses(ok: JsonObject, ...types: ProblemType[]): JsonObject {
-  const errors = problems(...types, "invalid-key", "rate-limited") as Record<string, JsonObject>;
+  const errors = problems(...types, "invalid-key", "rate-limited", "daily-budget-spent") as Record<
+    string,
+    JsonObject
+  >;
+  const retryAfter = { description: "Seconds to wait.", schema: { type: "integer" } };
   return {
     "200": { ...ok, headers: tierHeaders },
     "304": notModified,
     ...errors,
-    "429": {
-      ...errors["429"],
-      headers: {
-        ...tierHeaders,
-        "Retry-After": { description: "Seconds to wait.", schema: { type: "integer" } },
-      },
-    },
+    "429": { ...errors["429"], headers: { ...tierHeaders, "Retry-After": retryAfter } },
+    "503": { ...errors["503"], headers: { ...tierHeaders, "Retry-After": retryAfter } },
   };
 }
 
@@ -586,6 +592,8 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
         tierLine("key", "`Authorization: Bearer hd2_…`, per key"),
         "",
         `Past the limit they answer \`429\` with \`Retry-After\`. To get a key or allowlist a site, see ${ACCESS_URL}.`,
+        "",
+        `They also share one budget a day across every client: ${DAILY_BUDGET.shared} requests for these tiers, then \`503\` \`daily-budget-spent\` until 00:00 UTC. The \`"daily"\` item of \`RateLimit\` shows what is left.`,
       ].join("\n"),
       license: { name: "CC BY-NC-SA 4.0", identifier: "CC-BY-NC-SA-4.0" },
       contact: { name: "Source on GitHub", url: REPO_URL },

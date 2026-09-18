@@ -28,6 +28,8 @@ export function createApp(options: AppOptions): Hono<AppEnv> {
   };
 
   const app = new Hono<AppEnv>();
+  // First: every request that reaches the Worker counts against the daily budget.
+  app.use(accessControl(context));
   app.use(async (c, next) => {
     if (!["GET", "HEAD", "OPTIONS"].includes(c.req.method)) {
       return problemResponse(
@@ -43,7 +45,6 @@ export function createApp(options: AppOptions): Hono<AppEnv> {
     return;
   });
   app.use(preflight);
-  app.use(accessControl(context));
   registerQuery(app, context);
   registerSearch(app, context);
 

@@ -1,14 +1,15 @@
-import type { MiddlewareHandler } from "hono";
+import type { Context, MiddlewareHandler } from "hono";
 import type { AppContext, AppEnv, Env } from "../context.ts";
 import { ACCESS_URL } from "../site.ts";
-import { ALLOWED_ORIGINS, TIERS, type Tier } from "../spec/access.ts";
-import { countHit } from "./counter.ts";
+import { ALLOWED_ORIGINS, DAILY_BUDGET, dailyCap, TIERS, type Tier } from "../spec/access.ts";
+import { ask, type Hit, type Verdict } from "./counter.ts";
 import { parseKeyIds, verifyKey } from "./keys.ts";
 import { type ProblemInit, problemResponse } from "./problem.ts";
 
-// Tier and rate limit of every dynamic request (arch §8.6, ADR-012): a key, else an allowlisted
-// origin (or the docs site itself), else anonymous. Preflights are not counted. The rate limiting
-// binding is a free first filter; the `LIMITER` Durable Object then counts exactly (counter.ts).
+// Tier, rate limit and daily budget of every dynamic request (arch §8.6, ADR-012, ADR-013): a key,
+// else an allowlisted origin (or the docs site itself), else anonymous. The `LIMITER` Durable
+// Object counts every request that reaches the Worker, exactly (counter.ts); when it cannot
+// answer, the tier's rate limiting binding stands in and the budget goes unchecked (fail open).
 
 /** Rate limiting binding (`[[ratelimits]]` in wrangler.toml). */
 export interface RateLimiter {
@@ -59,8 +60,28 @@ export function allowedHost(
   return ok ? host : null;
 }
 
-export const policyHeader = (tier: keyof typeof TIERS) =>
-  `"${tier}";q=${TIERS[tier].limit};w=${TIERS[tier].period}`;
+/** `RateLimit-Policy`: the tier's window, then its daily cap (`w` = a day, reset 00:00 UTC). */
+export const policyHeader = (tier: Tier) =>
+  [
+    ...(tier === "unlimited" ? [] : [`"${tier}";q=${TIERS[tier].limit};w=${TIERS[tier].period}`]),
+    `"daily";q=${dailyCap(tier)};w=86400`,
+  ].join(", ");
+
+const budgetOf = (tier: Tier) =>
+  tier === "unlimited" ? "every client" : "anon, origin and key clients";
+
+/** `X-API-Warning`, once fewer than `DAILY_BUDGET.warnBelow` requests are left under the cap. */
+function budgetWarning(tier: Tier, budget: Hit): string | null {
+  if (budget.remaining >= DAILY_BUDGET.warnBelow) return null;
+  const cap = dailyCap(tier);
+  const shared = DAILY_BUDGET.shared;
+  const already = tier === "unlimited" && cap - budget.remaining > shared;
+  return (
+    (already ? `Anon, origin and key clients get 503 since ${shared} requests today. ` : "") +
+    `${budget.remaining} of today's ${cap} query and search requests left for ${budgetOf(tier)}; ` +
+    `then 503 daily-budget-spent until 00:00 UTC (in ${budget.reset} s).`
+  );
+}
 
 type Identified = { ok: true; client: Client } | { ok: false; problem: ProblemInit };
 
@@ -125,62 +146,100 @@ function withHeaders(response: Response, headers: Record<string, string>): Respo
   return copy;
 }
 
+/** A request never refused on budget (a preflight, a refused method, a bad key): counted later. */
+function countLater(c: Context<AppEnv>, context: AppContext): void {
+  const counter = c.env.LIMITER;
+  if (!counter) return;
+  c.executionCtx.waitUntil(
+    ask(counter, {}).catch((error) =>
+      context.log(JSON.stringify({ level: "error", msg: "counter failed", error: `${error}` })),
+    ),
+  );
+}
+
 export function accessControl(context: AppContext): MiddlewareHandler<AppEnv> {
   return async (c, next) => {
-    if (c.req.method === "OPTIONS") {
+    if (c.req.method !== "GET" && c.req.method !== "HEAD") {
+      countLater(c, context);
       await next();
       return;
     }
     const identified = await identify(c.req.raw, c.env, context.log);
     if (!identified.ok) {
+      countLater(c, context);
       return problemResponse(c.req.url, identified.problem, {
         "WWW-Authenticate": 'Bearer realm="helldivers-api"',
       });
     }
     const { tier, bucket, label } = identified.client;
-    if (tier === "unlimited") {
-      await next();
-      c.res = withHeaders(c.res, { "X-API-Tier": tier });
-      return;
-    }
-    const { binding, limit, period } = TIERS[tier];
+    const cap = dailyCap(tier);
+    const window = tier === "unlimited" ? null : TIERS[tier];
     const headers: Record<string, string> = {
       "X-API-Tier": tier,
       "RateLimit-Policy": policyHeader(tier),
     };
 
-    const limiter = c.env[binding];
-    let allowed = true;
-    let reset: number = period;
-    try {
-      allowed = limiter ? (await limiter.limit({ key: bucket })).success : true;
-      if (!allowed) headers.RateLimit = `"${tier}";r=0;t=${period}`;
-      if (allowed && c.env.LIMITER) {
-        const counted = await countHit(c.env.LIMITER, bucket, limit, period);
-        allowed = counted.allowed;
-        reset = counted.reset;
-        headers.RateLimit = `"${tier}";r=${counted.remaining};t=${counted.reset}`;
+    let verdict: Verdict | null = null;
+    if (c.env.LIMITER) {
+      try {
+        verdict = await ask(c.env.LIMITER, {
+          cap,
+          ...(window && { bucket, limit: window.limit, period: window.period }),
+        });
+      } catch (error) {
+        context.log(JSON.stringify({ level: "error", msg: "counter failed", error: `${error}` }));
       }
-    } catch (error) {
-      // Fail open: the zone's WAF rule still stops floods before they reach the Worker.
-      context.log(
-        JSON.stringify({ level: "error", msg: "rate limiter failed", error: `${error}` }),
+    }
+    if (verdict === null && window) {
+      try {
+        const limiter = c.env[window.binding];
+        const allowed = limiter ? (await limiter.limit({ key: bucket })).success : true;
+        const refused = { allowed, remaining: 0, reset: window.period };
+        verdict = { budget: null, window: allowed ? null : refused };
+      } catch (error) {
+        // Fail open: the zone's WAF rule still stops floods before they reach the Worker.
+        context.log(
+          JSON.stringify({ level: "error", msg: "rate limiter failed", error: `${error}` }),
+        );
+      }
+    }
+    const budget = verdict?.budget ?? null;
+    const counted = verdict?.window ?? null;
+    headers.RateLimit = [
+      ...(window && counted ? [`"${tier}";r=${counted.remaining};t=${counted.reset}`] : []),
+      ...(budget ? [`"daily";r=${budget.remaining};t=${budget.reset}`] : []),
+    ].join(", ");
+    if (!headers.RateLimit) delete headers.RateLimit;
+
+    if (budget && !budget.allowed) {
+      return problemResponse(
+        c.req.url,
+        {
+          type: "daily-budget-spent",
+          detail:
+            `Query and search have spent today's ${cap} requests for ${budgetOf(tier)}. They ` +
+            `start over at 00:00 UTC, in ${budget.reset} s. The static files keep working (no ` +
+            `limit): ${ACCESS_URL}.`,
+        },
+        { ...headers, "Retry-After": String(budget.reset) },
       );
     }
-    if (!allowed) {
+    if (window && counted && !counted.allowed) {
       const per = tier === "anon" ? " per IP" : "";
       return problemResponse(
         c.req.url,
         {
           type: "rate-limited",
           detail:
-            `${label} may send ${limit} requests per ${period} s${per} to the dynamic routes. ` +
-            `Retry after ${reset} s, use the static files (no limit), or ask for more: ` +
-            `${ACCESS_URL}.`,
+            `${label} may send ${window.limit} requests per ${window.period} s${per} to the ` +
+            `dynamic routes. Retry after ${counted.reset} s, use the static files (no limit), or ` +
+            `ask for more: ${ACCESS_URL}.`,
         },
-        { ...headers, "Retry-After": String(reset) },
+        { ...headers, "Retry-After": String(counted.reset) },
       );
     }
+    const warning = budget && budgetWarning(tier, budget);
+    if (warning) headers["X-API-Warning"] = warning;
     await next();
     c.res = withHeaders(c.res, headers);
     return;

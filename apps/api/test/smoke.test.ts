@@ -23,8 +23,8 @@ const tierOf = (init?: RequestInit) => {
   const tier = new Headers(init?.headers).get("authorization") === `Bearer ${KEY}` ? "key" : "anon";
   return {
     "x-api-tier": tier,
-    "ratelimit-policy": `"${tier}";q=10;w=60`,
-    ratelimit: `"${tier}";r=9;t=60`,
+    "ratelimit-policy": `"${tier}";q=10;w=60, "daily";q=80000;w=86400`,
+    ratelimit: `"${tier}";r=9;t=60, "daily";r=79000;t=3600`,
   };
 };
 
@@ -196,7 +196,7 @@ describe("runSmoke", () => {
       "redirect: HTTP 200",
       "missing file: HTTP 200",
       "docs pages: /docs/errors has no anchor for unknown-parameter, invalid-filter-value, " +
-        "invalid-parameter, invalid-key, method-not-allowed, rate-limited, internal-error",
+        "invalid-parameter, invalid-key, method-not-allowed, rate-limited, internal-error, daily-budget-spent",
       "query + revalidation: access-control-allow-origin: expected *, got none",
       "invalid key: HTTP 200",
       "image: HTTP 503",

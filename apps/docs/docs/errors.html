@@ -209,6 +209,26 @@
           </p>
         </div>
       </section>
+
+      <section class="panel" id="daily-budget-spent">
+        <div class="window-bar">
+          <span class="window-bar-title">503 · DAILY-BUDGET-SPENT</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            Query and search share one daily budget across every client, and it is spent. The
+            <code>detail</code> says for whom, <code>RateLimit</code> carries a
+            <code>"daily"</code> item with what was left, and <code>Retry-After</code> counts the
+            seconds to 00:00 UTC, when it starts over. Static files are never limited.
+          </p>
+          <p class="hint">
+            Fix: read the static files until then — a facet, a collection or
+            <code>/v1/all.json</code> — and filter locally. Responses carry
+            <code>X-API-Warning</code> before the budget runs out.
+          </p>
+        </div>
+      </section>
     </main>
 
     <footer class="screen-pad site-footer">

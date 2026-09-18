@@ -43,7 +43,7 @@ describe("openapi", () => {
     expect(servers[0]).toHaveProperty("url", "https://helldivers-api.dionatha.com.br");
   });
 
-  it("marks the dynamic routes as rate limited, with an optional bearer key", async () => {
+  it("marks the dynamic routes as rate limited and budgeted, with an optional bearer key", async () => {
     const { site } = await syntheticSite();
     const { paths, components } = site.openapi;
     expect(components.securitySchemes).toHaveProperty(["apiKey", "scheme"], "bearer");
@@ -53,18 +53,24 @@ describe("openapi", () => {
         responses: Record<string, { headers?: Record<string, unknown> }>;
       };
       expect(get.security).toEqual([{}, { apiKey: [] }]);
-      expect(Object.keys(get.responses)).toEqual(expect.arrayContaining(["200", "401", "429"]));
-      expect(Object.keys(get.responses["429"]?.headers ?? {})).toEqual([
-        "X-API-Tier",
-        "RateLimit-Policy",
-        "RateLimit",
-        "Retry-After",
-      ]);
+      expect(Object.keys(get.responses)).toEqual(
+        expect.arrayContaining(["200", "401", "429", "503"]),
+      );
+      for (const status of ["429", "503"]) {
+        expect(Object.keys(get.responses[status]?.headers ?? {})).toEqual([
+          "X-API-Tier",
+          "RateLimit-Policy",
+          "RateLimit",
+          "X-API-Warning",
+          "Retry-After",
+        ]);
+      }
     }
     expect(paths["/v1/weapons.json"]?.get).not.toHaveProperty("security");
     expect(site.openapi.info.description).toContain(
       "- `anon`: no key, per IP, 10 requests per 60 s.",
     );
+    expect(site.openapi.info.description).toContain("80000 requests for these tiers, then `503`");
   });
 
   it("links the published JSON Schema of every entity", async () => {

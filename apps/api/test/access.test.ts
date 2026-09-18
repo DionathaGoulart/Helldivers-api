@@ -4,7 +4,7 @@ import { describe, expect, it } from "vitest";
 import { allowedHost, ipBucket, policyHeader } from "../src/lib/access.ts";
 import { newKeyId, parseKeyIds, signKey, verifyKey } from "../src/lib/keys.ts";
 import { ACCESS_URL } from "../src/site.ts";
-import { TIERS } from "../src/spec/access.ts";
+import { DAILY_BUDGET, TIERS } from "../src/spec/access.ts";
 import { FakeCounterNamespace, FakeRateLimiter, harness, readBody } from "./helpers.ts";
 
 const SECRET = "test-secret-with-enough-entropy";
@@ -103,7 +103,9 @@ describe("access control", () => {
       const response = await h.get(PATH, IP);
       expect(response.status).toBe(200);
       expect(response.headers.get("x-api-tier")).toBe("anon");
-      expect(response.headers.get("ratelimit-policy")).toBe('"anon";q=10;w=60');
+      expect(response.headers.get("ratelimit-policy")).toBe(
+        '"anon";q=10;w=60, "daily";q=80000;w=86400',
+      );
     }
     const limited = await h.get(PATH, IP);
     expect(limited.status).toBe(429);
@@ -121,45 +123,47 @@ describe("access control", () => {
     expect(env.RL_ANON.keys.at(-1)).toBe("anon:203.0.113.8");
   });
 
-  it("counts exactly with the Durable Object when the binding lets requests through", async () => {
-    // A binding that never says no: every machine counting only its own share.
-    const permissive = new FakeRateLimiter(Number.POSITIVE_INFINITY);
+  it("counts exactly with the Durable Object, without asking the binding", async () => {
+    const binding = new FakeRateLimiter(Number.POSITIVE_INFINITY);
     const LIMITER = new FakeCounterNamespace();
-    const h = await harness({}, { RL_ANON: permissive, LIMITER });
+    const h = await harness({}, { RL_ANON: binding, LIMITER });
     for (let i = 0; i < TIERS.anon.limit; i++) {
       const response = await h.get(PATH, IP);
       expect(response.status).toBe(200);
-      expect(response.headers.get("ratelimit")).toBe(`"anon";r=${TIERS.anon.limit - i - 1};t=60`);
+      expect(response.headers.get("ratelimit")).toBe(
+        `"anon";r=${TIERS.anon.limit - i - 1};t=60, "daily";r=${79_999 - i};t=85400`,
+      );
+      expect(response.headers.has("x-api-warning")).toBe(false);
     }
     LIMITER.clock += 45_000;
     const limited = await h.get(PATH, IP);
     expect(limited.status).toBe(429);
     expect(limited.headers.get("retry-after")).toBe("15");
-    expect(limited.headers.get("ratelimit")).toBe('"anon";r=0;t=15');
+    expect(limited.headers.get("ratelimit")).toBe('"anon";r=0;t=15, "daily";r=79989;t=85355');
     expect((await readBody(limited)).detail).toContain("Retry after 15 s");
-    expect([...LIMITER.objects.keys()]).toEqual(["anon:203.0.113.7"]);
+    expect([...LIMITER.objects.keys()]).toEqual(["global"]);
+    expect(binding.keys).toEqual([]);
+    expect(LIMITER.used()).toBe(11); // the 429 ran the Worker too
 
     LIMITER.clock += 15_000; // the window is over
     expect((await h.get(PATH, IP)).status).toBe(200);
   });
 
-  it("skips the Durable Object once the binding already refuses, and fails open if it throws", async () => {
-    const LIMITER = new FakeCounterNamespace();
-    const h = await harness({}, { RL_ANON: new FakeRateLimiter(0), LIMITER });
-    const refused = await h.get(PATH, IP);
-    expect(refused.status).toBe(429);
-    expect(refused.headers.get("ratelimit")).toBe('"anon";r=0;t=60');
-    expect(LIMITER.objects.size).toBe(0);
-
+  it("falls back to the binding when the Durable Object fails", async () => {
     const broken = {
       idFromName: (name: string) => name,
       get: () => ({ fetch: async () => new Response("down", { status: 500 }) }),
     };
+    const h = await harness({}, { RL_ANON: new FakeRateLimiter(0), LIMITER: broken });
+    const refused = await h.get(PATH, IP);
+    expect(refused.status).toBe(429);
+    expect(refused.headers.get("ratelimit")).toBe('"anon";r=0;t=60');
+    expect(h.logs.join("\n")).toContain("counter answered HTTP 500");
+
     const h2 = await harness({}, { RL_ANON: new FakeRateLimiter(10), LIMITER: broken });
     const response = await h2.get(PATH, IP);
     expect(response.status).toBe(200);
     expect(response.headers.has("ratelimit")).toBe(false);
-    expect(h2.logs.join("\n")).toContain("counter answered HTTP 500");
   });
 
   it("gives the docs site and allowlisted origins the origin tier, per visitor", async () => {
@@ -203,17 +207,20 @@ describe("access control", () => {
     expect(env.RL_ANON.keys).toEqual([]); // a refused key is not counted as anything
   });
 
-  it("never counts a key listed in UNLIMITED_KEYS", async () => {
-    const env = { ...limiters(), API_KEY_SECRET: SECRET, UNLIMITED_KEYS: "ownerid00000" };
+  it("gives a key listed in UNLIMITED_KEYS no window, only the whole daily budget", async () => {
+    const LIMITER = new FakeCounterNamespace();
+    const env = { ...limiters(), LIMITER, API_KEY_SECRET: SECRET, UNLIMITED_KEYS: "ownerid00000" };
     const h = await harness({}, env);
     const key = await signKey(SECRET, "ownerid00000");
     for (let i = 0; i < TIERS.key.limit + 5; i++) {
       const response = await h.get(PATH, { ...IP, Authorization: `Bearer ${key}` });
       expect(response.status).toBe(200);
       expect(response.headers.get("x-api-tier")).toBe("unlimited");
-      expect(response.headers.has("ratelimit-policy")).toBe(false);
+      expect(response.headers.get("ratelimit-policy")).toBe('"daily";q=95000;w=86400');
+      expect(response.headers.get("ratelimit")).toBe(`"daily";r=${94_999 - i};t=85400`);
     }
     expect([...env.RL_KEY.keys, ...env.RL_ANON.keys]).toEqual([]);
+    expect(LIMITER.used()).toBe(TIERS.key.limit + 5);
   });
 
   it("treats a key as anonymous when the deployment has no secret, and says so in the log", async () => {
@@ -224,7 +231,7 @@ describe("access control", () => {
     expect(h.logs.join("\n")).toContain("API_KEY_SECRET is not set");
   });
 
-  it("fails open when the limiter throws, and does not count preflights", async () => {
+  it("fails open when every limiter throws", async () => {
     const env = {
       RL_ANON: {
         limit: async () => {
@@ -235,17 +242,76 @@ describe("access control", () => {
     const h = await harness({}, env);
     expect((await h.get(PATH, IP)).status).toBe(200);
     expect(h.logs.join("\n")).toContain("rate limiter failed");
+  });
 
-    const counted = limiters();
-    const h2 = await harness({}, counted);
-    const preflight = await h2.get(
+  it("counts preflights, refused methods and bad keys against the budget, and never refuses them", async () => {
+    const LIMITER = new FakeCounterNamespace();
+    const counted = { ...limiters(), LIMITER, API_KEY_SECRET: SECRET };
+    const h = await harness({}, counted);
+    LIMITER.seed(DAILY_BUDGET.total);
+    const preflight = await h.get(
       PATH,
       { ...IP, "Access-Control-Request-Headers": "authorization" },
       "OPTIONS",
     );
     expect(preflight.status).toBe(204);
     expect(preflight.headers.get("access-control-allow-headers")).toBe("authorization");
+    expect((await h.get(PATH, IP, "POST")).status).toBe(405);
+    expect((await h.get(PATH, { ...IP, Authorization: "Bearer nope" })).status).toBe(401);
+    await h.ctx.settle();
+    expect(LIMITER.used()).toBe(DAILY_BUDGET.total + 3);
     expect(counted.RL_ANON.keys).toEqual([]);
+  });
+
+  it("stops the public tiers at the shared budget and every tier at the total, with a warning first", async () => {
+    const LIMITER = new FakeCounterNamespace();
+    const env = { LIMITER, API_KEY_SECRET: SECRET, UNLIMITED_KEYS: "ownerid00000" };
+    const h = await harness({}, env);
+    const owner = { ...IP, Authorization: `Bearer ${await signKey(SECRET, "ownerid00000")}` };
+    const key = { ...IP, Authorization: `Bearer ${await signKey(SECRET, "abcdefabcdef")}` };
+
+    // Quiet until fewer than warnBelow are left under the tier's cap.
+    LIMITER.seed(DAILY_BUDGET.shared - DAILY_BUDGET.warnBelow - 1);
+    expect((await h.get(PATH, IP)).headers.has("x-api-warning")).toBe(false);
+    const warned = await h.get(PATH, key);
+    expect(warned.status).toBe(200);
+    expect(warned.headers.get("x-api-warning")).toBe(
+      "14999 of today's 80000 query and search requests left for anon, origin and key clients; " +
+        "then 503 daily-budget-spent until 00:00 UTC (in 85400 s).",
+    );
+    expect(warned.headers.get("access-control-expose-headers")).toContain("X-API-Warning");
+
+    LIMITER.seed(DAILY_BUDGET.shared);
+    for (const headers of [IP, key]) {
+      const spent = await h.get(PATH, headers);
+      expect(spent.status).toBe(503);
+      expect(spent.headers.get("retry-after")).toBe("85400");
+      expect(spent.headers.get("ratelimit")).toBe('"daily";r=0;t=85400');
+      const body = await readBody(spent);
+      expect(body.type).toMatch(/#daily-budget-spent$/);
+      expect(body.detail).toBe(
+        "Query and search have spent today's 80000 requests for anon, origin and key clients. " +
+          "They start over at 00:00 UTC, in 85400 s. The static files keep working (no limit): " +
+          `${ACCESS_URL}.`,
+      );
+    }
+    const reserved = await h.get(PATH, owner);
+    expect(reserved.status).toBe(200);
+    expect(reserved.headers.get("ratelimit")).toBe('"daily";r=14997;t=85400');
+    expect(reserved.headers.get("x-api-warning")).toBe(
+      "Anon, origin and key clients get 503 since 80000 requests today. 14997 of today's 95000 " +
+        "query and search requests left for every client; then 503 daily-budget-spent until " +
+        "00:00 UTC (in 85400 s).",
+    );
+
+    LIMITER.seed(DAILY_BUDGET.total);
+    const closed = await h.get(PATH, owner);
+    expect(closed.status).toBe(503);
+    expect((await readBody(closed)).detail).toContain("today's 95000 requests for every client");
+
+    LIMITER.clock += 85_400_000; // 00:00 UTC
+    expect((await h.get(PATH, IP)).status).toBe(200);
+    expect(LIMITER.used()).toBe(1);
   });
 
   it("stamps the tier of the current client on a cached response", async () => {

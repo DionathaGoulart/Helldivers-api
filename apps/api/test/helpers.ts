@@ -3,7 +3,7 @@ import { readDatasetFiles } from "@hd2/schemas/node";
 import { buildSite, type Site } from "../scripts/site/site.ts";
 import { type AppOptions, createApp } from "../src/app.ts";
 import type { CacheLike, Env } from "../src/context.ts";
-import { RateCounter } from "../src/lib/counter.ts";
+import { type CounterStorage, RateCounter } from "../src/lib/counter.ts";
 
 // Shared fixtures: the synthetic `data/v1` of packages/schemas and the site built from it.
 
@@ -72,10 +72,26 @@ export class FakeRateLimiter {
   }
 }
 
+/** Durable Object storage in memory; values are copied, as the real one serializes them. */
+export class MemoryStorage implements CounterStorage {
+  readonly values = new Map<string, unknown>();
+  writes = 0;
+
+  async get<T>(key: string): Promise<T | undefined> {
+    return structuredClone(this.values.get(key)) as T | undefined;
+  }
+
+  async put(key: string, value: unknown): Promise<void> {
+    this.writes++;
+    this.values.set(key, structuredClone(value));
+  }
+}
+
 /** `LIMITER` Durable Object namespace: one real RateCounter per name, on a shared fake clock. */
 export class FakeCounterNamespace {
   readonly objects = new Map<string, RateCounter>();
-  clock = 1_000_000;
+  readonly storages = new Map<string, MemoryStorage>();
+  clock = 1_000_000; // 1970-01-01T00:16:40Z: the day starts over in 85,400 s
 
   idFromName(name: string): string {
     return name;
@@ -85,11 +101,32 @@ export class FakeCounterNamespace {
     const name = id as string;
     let object = this.objects.get(name);
     if (!object) {
-      object = new RateCounter(null, null, () => this.clock);
+      object = new RateCounter({ storage: this.storage(name) }, null, () => this.clock);
       this.objects.set(name, object);
     }
     const counter = object;
     return { fetch: (url: string) => counter.fetch(new Request(url)) };
+  }
+
+  storage(name: string): MemoryStorage {
+    let storage = this.storages.get(name);
+    if (!storage) {
+      storage = new MemoryStorage();
+      this.storages.set(name, storage);
+    }
+    return storage;
+  }
+
+  /** Requests counted today by the object named `name`, as its storage holds them. */
+  used(name = "global"): number {
+    return (this.storage(name).values.get("state") as { used: number } | undefined)?.used ?? 0;
+  }
+
+  /** Starts today's count at `used`, as if that many requests had come before. */
+  seed(used: number, name = "global"): void {
+    const day = new Date(this.clock).toISOString().slice(0, 10);
+    this.storage(name).values.set("state", { day, used, windows: {} });
+    this.objects.delete(name);
   }
 }
 

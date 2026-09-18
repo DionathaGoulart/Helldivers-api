@@ -19,8 +19,8 @@ html_handling = "auto-trailing-slash"
 run_worker_first = ["/v1/query/*", "/v1/search"]
 
 # Per-client limits of the dynamic routes: one binding per tier (`TIERS` in src/spec/access.ts,
-# checked by test/access.test.ts). Counted per Cloudflare location, approximate by design; the
-# zone's WAF rule stops floods before they reach the Worker.
+# checked by test/access.test.ts), asked only when the LIMITER below cannot answer. Counted per
+# Cloudflare location, approximate by design; the zone's WAF rule stops floods before the Worker.
 [[ratelimits]]
 name = "RL_ANON"
 namespace_id = "7101"
@@ -37,14 +37,15 @@ namespace_id = "7103"
 simple = { limit = 20, period = 10 }
 
 # API key ids (comma-separated; ids are not secret, the signature is). A change ships with a deploy.
-# REVOKED_KEYS answer 401; UNLIMITED_KEYS (the maintainer's own apps) skip the Worker limit.
+# REVOKED_KEYS answer 401; UNLIMITED_KEYS (the maintainer's own apps) skip the per-client limit,
+# not the daily budget.
 [vars]
 REVOKED_KEYS = ""
 UNLIMITED_KEYS = "j1t22hqt4af8"
 
-# Exact per-client counts: one Durable Object per bucket (src/lib/counter.ts). The binding above is
-# a free first filter; this is the single count every machine asks. SQLite-backed, as Workers Free
-# requires, though it keeps its window in memory and never writes.
+# Exact counts: one Durable Object holds the daily budget (`DAILY_BUDGET` in src/spec/access.ts)
+# and every client's window (src/lib/counter.ts), asked once per request that reaches the Worker.
+# SQLite-backed, as Workers Free requires; one row written per request.
 [[durable_objects.bindings]]
 name = "LIMITER"
 class_name = "RateCounter"

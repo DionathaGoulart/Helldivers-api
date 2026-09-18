@@ -4,7 +4,7 @@ import { Collection } from "@hd2/schemas";
 import { describe, expect, it } from "vitest";
 import { ERRORS_URL, PROBLEM_TYPES } from "../src/lib/problem.ts";
 import { SITE_URL } from "../src/site.ts";
-import { TIERS } from "../src/spec/access.ts";
+import { DAILY_BUDGET, TIERS } from "../src/spec/access.ts";
 
 // The pages of `apps/docs` are hand-written (arch §9) while the data they point at is generated,
 // so these tests hold the two together: a new collection needs a card, a new problem type needs a
@@ -73,13 +73,17 @@ describe("docs site", () => {
     expect(sections.sort()).toEqual(Object.keys(PROBLEM_TYPES).sort());
   });
 
-  it("states the limits of every tier as src/spec/access.ts sets them", async () => {
+  it("states the limits of every tier and the daily budget as src/spec/access.ts sets them", async () => {
     const html = await page("docs/access.html");
     for (const [tier, { limit, period }] of Object.entries(TIERS)) {
       const card = new RegExp(
         `data-tier="${tier}">[\\s\\S]*?<span class="stat-value">([^<]+)</span>`,
       );
       expect(card.exec(html)?.[1]).toBe(`${limit} / ${period} s`);
+    }
+    for (const name of ["shared", "warnBelow"] as const) {
+      const value = new RegExp(`data-budget="${name}">([^<]+)</span>`).exec(html)?.[1];
+      expect(value).toBe(String(DAILY_BUDGET[name]));
     }
   });
 

@@ -159,6 +159,10 @@ Past the limit the answer is `429` with `Retry-After`; every query and search re
 tier in `X-API-Tier`, its limit in `RateLimit-Policy` and what is left in `RateLimit`
 (`"anon";r=7;t=42`: 7 requests left, the window starts over in 42 s).
 
+On top of the tiers, query and search share one budget a day across every client: 80,000
+requests for these tiers, then `503` (`daily-budget-spent`) until 00:00 UTC. The `"daily"` item of
+`RateLimit` shows what is left, and `X-API-Warning` appears when it runs low.
+
 - **Keep a local copy instead.** The data changes at most once a day: poll `/v1/meta.json`,
   download `/v1/all.json` when `dataVersion` moves, filter in memory. No limit applies.
 - **A site** that needs more: open an

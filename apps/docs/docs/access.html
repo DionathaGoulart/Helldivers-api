@@ -100,6 +100,16 @@
           starts over in 42 s). Windows are fixed and counted per client worldwide; floods are
           blocked at the edge whatever the tier.
         </p>
+        <!-- Numbers from DAILY_BUDGET in apps/api/src/spec/access.ts (checked by test/docs.test.ts). -->
+        <p class="hint" id="daily-budget">
+          On top of the tiers, query and search share one budget a day across every client:
+          <span data-budget="shared">80000</span> requests for <code>anon</code>,
+          <code>origin</code> and <code>key</code>, then
+          <a href="/docs/errors#daily-budget-spent"><code>503</code></a> until 00:00 UTC.
+          <code>RateLimit</code> shows what is left in its <code>"daily"</code> item, and
+          <code>X-API-Warning</code> appears once fewer than
+          <span data-budget="warnBelow">15000</span> are left.
+        </p>
       </section>
 
       <section class="panel" aria-labelledby="sync-title">

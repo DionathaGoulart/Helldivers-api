@@ -14,6 +14,7 @@ export const PROBLEM_TYPES = {
   "method-not-allowed": { status: 405, title: "Method not allowed" },
   "rate-limited": { status: 429, title: "Too many requests" },
   "internal-error": { status: 500, title: "Internal error" },
+  "daily-budget-spent": { status: 503, title: "Daily budget spent" },
 } as const;
 
 export type ProblemType = keyof typeof PROBLEM_TYPES;

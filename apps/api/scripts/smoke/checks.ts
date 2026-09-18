@@ -182,9 +182,17 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     expectHeader(response, "access-control-allow-origin", "*");
     expectHeader(response, "x-data-version", options.dataVersion);
     expectHeader(response, "x-api-tier", tier);
-    expectHeader(response, "ratelimit-policy", new RegExp(`^"${tier}";q=\\d+;w=\\d+$`));
-    // Only the LIMITER Durable Object knows what is left: its header proves it answered.
-    expectHeader(response, "ratelimit", new RegExp(`^"${tier}";r=\\d+;t=\\d+$`));
+    expectHeader(
+      response,
+      "ratelimit-policy",
+      new RegExp(`^"${tier}";q=\\d+;w=\\d+, "daily";q=\\d+;w=86400$`),
+    );
+    // Only the LIMITER Durable Object knows the day's budget: its item proves it answered.
+    expectHeader(
+      response,
+      "ratelimit",
+      new RegExp(`^"${tier}";r=\\d+;t=\\d+, "daily";r=\\d+;t=\\d+$`),
+    );
     expectHeader(
       response,
       "etag",
