@@ -1,8 +1,11 @@
 blank_issues_enabled: true
 contact_links:
   - name: API reference
-    url: https://helldivers-api.pages.dev/docs/
+    url: https://helldivers-api.dionatha.com.br/docs/
     about: Endpoints, filters and the error catalog — check here before filing a bug.
+  - name: Ask for an API key
+    url: https://helldivers-api.dionatha.com.br/docs/access
+    about: Keys for servers, bots and scripts are sent by email — see how to ask. Sites use the access request form.
   - name: Report a vulnerability
     url: https://github.com/DionathaGoulart/Helldivers-api/security/advisories/new
     about: Private reporting for anything in SECURITY.md. Please do not open a public issue.

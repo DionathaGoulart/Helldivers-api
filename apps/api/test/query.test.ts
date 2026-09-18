@@ -170,7 +170,7 @@ describe("GET /v1/query/<collection>", () => {
     expect(response.headers.get("access-control-allow-origin")).toBe("*");
     const body = Problem.parse(await readBody(response));
     expect(body).toMatchObject({
-      type: `https://helldivers-api.pages.dev/docs/errors#${type}`,
+      type: `https://helldivers-api.dionatha.com.br/docs/errors#${type}`,
       status,
       detail,
       instance: path,
@@ -222,7 +222,7 @@ describe("GET /v1/query/<collection>", () => {
     const path = "/v1/query/boosters?source=warbond";
     await h.get(path);
     await h.ctx.settle();
-    const key = `https://helldivers-api.pages.dev${path}&_dv=${h.site.build.dataVersion}`;
+    const key = `https://helldivers-api.dionatha.com.br${path}&_dv=${h.site.build.dataVersion}`;
     expect(h.cache.puts).toEqual([key]);
 
     h.cache.entries.set(key, new Response('{"cached":true}', { status: 200 }));
@@ -232,7 +232,7 @@ describe("GET /v1/query/<collection>", () => {
     await h.get("/v1/query/boosters");
     await h.ctx.settle();
     expect(h.cache.puts[1]).toBe(
-      `https://helldivers-api.pages.dev/v1/query/boosters?_dv=${h.site.build.dataVersion}`,
+      `https://helldivers-api.dionatha.com.br/v1/query/boosters?_dv=${h.site.build.dataVersion}`,
     );
   });
 

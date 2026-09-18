@@ -2,24 +2,27 @@
 
 ## Scope
 
-This project is a read-only, unauthenticated JSON API and the scraper that fills it. There are no
-accounts, no user data, no write endpoints and no API keys to steal. What is worth reporting:
+This project is a read-only JSON API and the scraper that fills it. There are no accounts, no user
+data and no write endpoints; optional API keys only raise the request limit of query and search.
+What is worth reporting:
 
 - A way to make the published dataset or the deployed site serve something the scraper did not
-  produce (supply-chain or workflow injection, tampering with `data/v1` or the Pages deploy).
-- Credential exposure: a Backblaze B2 key, a Cloudflare token or a GitHub secret visible in the
-  repo, in a workflow log, in `data/`, or reachable through the API.
-- A way to read the private B2 bucket without a signed URL, or to make the image endpoint sign a
-  key it should not.
+  produce (supply-chain or workflow injection, tampering with `data/v1` or the Worker deploy).
+- Credential exposure: a Backblaze B2 key, a Cloudflare token, the API key secret or a GitHub
+  secret visible in the repo, in a workflow log, in `data/`, or reachable through the API.
+- A way to forge an API key, to use a revoked one, or to get around the per-client limits in a
+  way that scales (many budgets from one client), beyond what the docs already say.
 - A request that can take the API down or burn the daily Workers quota far out of proportion to its
   cost (a single request that costs minutes of CPU, an unbounded response).
 - Anything in the scraper that could be turned against the wiki — a way to make it ignore
   `robots.txt`, drop its delay, or hammer a page.
 
 Out of scope: wrong item data (that is a
-[data error issue](../../issues/new?template=data-error.yml)), missing rate limits on the free
-endpoints (deliberate, see the README), open CORS (deliberate), volumetric DDoS against Cloudflare,
-and findings from automated scanners with no demonstrated impact.
+[data error issue](../../issues/new?template=data-error.yml)), no limits on the static files
+(deliberate, see the README), forging `Origin` or `Sec-Fetch-Site` to get the `origin` tier
+(documented: it is still counted per IP), limits being approximate across Cloudflare locations,
+open CORS (deliberate), volumetric DDoS against Cloudflare, and findings from automated scanners
+with no demonstrated impact.
 
 ## Reporting
 

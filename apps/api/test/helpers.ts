@@ -132,6 +132,11 @@ export async function harness(
     logs,
     env: fullEnv,
     get: async (path, headers = {}, method = "GET") =>
-      app.request(`https://helldivers-api.pages.dev${path}`, { method, headers }, fullEnv, ctx),
+      app.request(
+        `https://helldivers-api.dionatha.com.br${path}`,
+        { method, headers },
+        fullEnv,
+        ctx,
+      ),
   };
 }

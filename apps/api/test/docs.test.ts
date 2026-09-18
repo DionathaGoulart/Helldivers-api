@@ -4,6 +4,7 @@ import { Collection } from "@hd2/schemas";
 import { describe, expect, it } from "vitest";
 import { ERRORS_URL, PROBLEM_TYPES } from "../src/lib/problem.ts";
 import { SITE_URL } from "../src/site.ts";
+import { TIERS } from "../src/spec/access.ts";
 
 // The pages of `apps/docs` are hand-written (arch §9) while the data they point at is generated,
 // so these tests hold the two together: a new collection needs a card, a new problem type needs a
@@ -12,7 +13,7 @@ import { SITE_URL } from "../src/site.ts";
 const DOCS_DIR = join(import.meta.dirname, "../../docs");
 const page = (name: string) => readFile(join(DOCS_DIR, name), "utf8");
 
-const PAGES = ["index.html", "404.html", "docs/index.html", "docs/errors.html"];
+const PAGES = ["index.html", "404.html", "docs/index.html", "docs/errors.html", "docs/access.html"];
 
 describe("docs site", () => {
   it("lists a card per collection on the landing page", async () => {
@@ -42,6 +43,16 @@ describe("docs site", () => {
     // A retired type loses its section too.
     const sections = [...html.matchAll(/<section class="panel" id="([a-z-]+)">/g)].map((m) => m[1]);
     expect(sections.sort()).toEqual(Object.keys(PROBLEM_TYPES).sort());
+  });
+
+  it("states the limits of every tier as src/spec/access.ts sets them", async () => {
+    const html = await page("docs/access.html");
+    for (const [tier, { limit, period }] of Object.entries(TIERS)) {
+      const card = new RegExp(
+        `data-tier="${tier}">[\\s\\S]*?<span class="stat-value">([^<]+)</span>`,
+      );
+      expect(card.exec(html)?.[1]).toBe(`${limit} / ${period} s`);
+    }
   });
 
   it("pins the reference renderer by version and hash", async () => {

@@ -3,7 +3,7 @@ import { collectionSchemas, entityNames } from "./collections.ts";
 import { Collection } from "./common.ts";
 import { ChangelogEntry, DatasetManifest, Meta, Problem } from "./envelope.ts";
 
-const SCHEMA_BASE_URL = "https://helldivers-api.pages.dev/v1/schemas";
+const SCHEMA_BASE_URL = "https://helldivers-api.dionatha.com.br/v1/schemas";
 
 const byName = <T>([a]: [string, T], [b]: [string, T]) => (a < b ? -1 : a > b ? 1 : 0);
 

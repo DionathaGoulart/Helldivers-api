@@ -31,7 +31,8 @@ import { ERRORS_URL, PROBLEM_TYPES, type ProblemType } from "../../src/lib/probl
 import { MIN_QUERY_LENGTH } from "../../src/lib/text.ts";
 import { SEARCH_DEFAULT_LIMIT, SEARCH_MAX_LIMIT } from "../../src/routes/search.ts";
 import { SearchIndex } from "../../src/search-index.ts";
-import { REPO_URL, SITE_URL } from "../../src/site.ts";
+import { ACCESS_URL, REPO_URL, SITE_URL } from "../../src/site.ts";
+import { TIERS, type Tier } from "../../src/spec/access.ts";
 import {
   DEFAULT_LIMIT,
   type Filters,
@@ -63,7 +64,11 @@ export interface OpenApiDocument {
   externalDocs: { description: string; url: string };
   tags: { name: string; description: string }[];
   paths: Record<string, { get: JsonObject }>;
-  components: { schemas: Record<string, JsonObject>; examples: Record<string, Example> };
+  components: {
+    schemas: Record<string, JsonObject>;
+    examples: Record<string, Example>;
+    securitySchemes: Record<string, JsonObject>;
+  };
   "x-data-version": string;
 }
 
@@ -113,6 +118,21 @@ function components(): Record<string, JsonObject> {
     registry.add(Item(schema), { id: `${name}Item` });
     registry.add(QueryList(schema), { id: `${name}Query` });
   }
+  // `/v1/all.json`: every collection's list in one envelope.
+  registry.add(
+    z.object({
+      meta: Meta,
+      data: z.object(
+        Object.fromEntries(
+          Collection.options.map((collection) => [
+            collection,
+            z.array(collectionSchemas[collection]),
+          ]),
+        ),
+      ),
+    }),
+    { id: "Catalog" },
+  );
   const { schemas } = z.toJSONSchema(registry, {
     io: "input",
     uri: (id) => `#/components/schemas/${id}`,
@@ -161,6 +181,44 @@ function problems(...types: ProblemType[]): JsonObject {
     ]),
   );
 }
+
+const tierLine = (tier: Tier, who: string) =>
+  `- \`${tier}\`: ${who}, ${TIERS[tier].limit} requests per ${TIERS[tier].period} s.`;
+
+/** Headers of every response of the dynamic routes (arch §8.6). */
+const tierHeaders = {
+  "X-API-Tier": {
+    description: "The tier the request was counted in.",
+    schema: { type: "string", enum: Object.keys(TIERS) },
+  },
+  "RateLimit-Policy": {
+    description: 'Limit of that tier, e.g. `"anon";q=10;w=60` (10 requests per 60 s).',
+    schema: { type: "string" },
+  },
+};
+
+/**
+ * Responses shared by `/v1/query/*` and `/v1/search`: the tier headers on success, and the key and
+ * rate limit problems on top of the route's own.
+ */
+function dynamicResponses(ok: JsonObject, ...types: ProblemType[]): JsonObject {
+  const errors = problems(...types, "invalid-key", "rate-limited") as Record<string, JsonObject>;
+  return {
+    "200": { ...ok, headers: tierHeaders },
+    "304": notModified,
+    ...errors,
+    "429": {
+      ...errors["429"],
+      headers: {
+        ...tierHeaders,
+        "Retry-After": { description: "Seconds to wait.", schema: { type: "integer" } },
+      },
+    },
+  };
+}
+
+/** A key is optional: without one, a request is `anon` or, from an allowlisted origin, `origin`. */
+const optionalKey = [{}, { apiKey: [] }];
 
 const staticNotFound = {
   description: "No such file (HTML page from the static host).",
@@ -356,16 +414,24 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
             },
           },
         ],
-        responses: {
-          "200": {
+        security: optionalKey,
+        responses: dynamicResponses(
+          {
             description: "Best matches first",
             content: json(ref("SearchResponse"), has("SearchResponse")),
           },
-          "304": notModified,
-          ...problems("unknown-parameter", "invalid-parameter", "internal-error"),
-        },
+          "unknown-parameter",
+          "invalid-parameter",
+          "internal-error",
+        ),
       },
     },
+    "/v1/all.json": staticJson(
+      "The whole catalog in one file",
+      "dataset",
+      "getCatalog",
+      ref("Catalog"),
+    ),
     "/images/v1/{collection}/{file}": {
       get: {
         tags: ["images"],
@@ -475,19 +541,17 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
         description: "Filters combine with AND. Prefer the static lists and facets when they fit.",
         operationId: `query${plural}`,
         parameters: queryParams(collection),
-        responses: {
-          "200": {
+        security: optionalKey,
+        responses: dynamicResponses(
+          {
             description: "One page of matches",
             content: json(ref(`${entity}Query`), has(`${entity}Query`)),
           },
-          "304": notModified,
-          ...problems(
-            "unknown-parameter",
-            "invalid-filter-value",
-            "invalid-parameter",
-            "internal-error",
-          ),
-        },
+          "unknown-parameter",
+          "invalid-filter-value",
+          "invalid-parameter",
+          "internal-error",
+        ),
       },
     };
   }
@@ -501,14 +565,23 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
       description: [
         "Free, public, read-only JSON API with the Helldivers 2 catalog, built from The Helldivers Wiki.",
         "",
-        "- No key, no rate limit, CORS open to every origin.",
-        "- Every list and item is a static file: prefer them and the `by-*` facets over `/v1/query/*`.",
+        "- No key needed, CORS open to every origin.",
+        "- Every list and item is a static file, free and never rate limited: prefer them, the `by-*`",
+        "  facets and `/v1/all.json` (the whole catalog, for a daily sync) over `/v1/query/*`.",
         "- Responses carry an `ETag`; send `If-None-Match` and take the `304`.",
         "- `image.url` is content-hashed and immutable — cache it forever.",
         "- Enums are open: ignore values you do not know.",
         "",
         `Every entity also has a standalone JSON Schema under \`/v1/schemas/\`, and the dataset it was`,
         "built from is named by `x-data-version`.",
+        "",
+        "`/v1/query/*` and `/v1/search` run code, so they count requests per client:",
+        "",
+        tierLine("anon", "no key, per IP"),
+        tierLine("origin", "browser requests from an allowlisted site, per visitor"),
+        tierLine("key", "`Authorization: Bearer hd2_…`, per key"),
+        "",
+        `Past the limit they answer \`429\` with \`Retry-After\`. To get a key or allowlist a site, see ${ACCESS_URL}.`,
       ].join("\n"),
       license: { name: "CC BY-NC-SA 4.0", identifier: "CC-BY-NC-SA-4.0" },
       contact: { name: "Source on GitHub", url: REPO_URL },
@@ -525,7 +598,17 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
       })),
     ],
     paths,
-    components: { schemas: components(), examples: byComponent },
+    components: {
+      schemas: components(),
+      examples: byComponent,
+      securitySchemes: {
+        apiKey: {
+          type: "http",
+          scheme: "bearer",
+          description: `Optional \`hd2_…\` key; raises the limit of the dynamic routes. See ${ACCESS_URL}.`,
+        },
+      },
+    },
     "x-data-version": manifest.dataVersion,
   };
 }

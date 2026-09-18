@@ -1,0 +1,45 @@
+name: Access request (site)
+description: Allowlist a site so its visitors get the origin tier on query and search
+title: "[access] "
+labels: ["access-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form allowlists a **website** whose pages call `/v1/query/*` or `/v1/search` from the
+        browser. Every visitor then gets 10 requests per 10 s instead of the anonymous 10 per
+        60 s. Static files (lists, facets, images, `/v1/all.json`) are never limited and need no
+        request.
+
+        For a **server, bot or script**, ask for a key by email instead — see
+        [/docs/access](https://helldivers-api.dionatha.com.br/docs/access). Never post a key here.
+  - type: input
+    id: domain
+    attributes:
+      label: Domain
+      description: The hostname the requests come from, as in the `Origin` header. `*.example.com` covers subdomains.
+      placeholder: builds.example.com
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Link
+      description: The site, or its repository.
+      placeholder: https://builds.example.com
+    validations:
+      required: true
+  - type: textarea
+    id: about
+    attributes:
+      label: What it does
+      description: What the site shows and which routes it calls. Could a static file or `/v1/all.json` do instead?
+    validations:
+      required: true
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Terms
+      options:
+        - label: The project is non-commercial and credits the API and The Helldivers Wiki (CC BY-NC-SA 4.0).
+          required: true

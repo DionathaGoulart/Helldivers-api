@@ -7,6 +7,7 @@ compatibility_date = "2026-09-11"
 # Only the custom domain serves the API: a workers.dev or preview URL would bypass the zone's WAF.
 workers_dev = false
 preview_urls = false
+routes = [{ pattern = "helldivers-api.dionatha.com.br", custom_domain = true }]
 
 # Static files are free and never invoke the Worker; only these paths do (`WORKER_ROUTES` in
 # `scripts/site/headers.ts`, checked by test/site.test.ts).

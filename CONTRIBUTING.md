@@ -136,7 +136,8 @@ issue it would open. `packages/scraper/test/drill.test.ts` keeps that honest.
 ```sh
 pnpm images:pull               # needs B2_READ_* in .env; without it images 404 locally
 pnpm build                     # dist/ with the static dataset and openapi.json, build/worker.js
-pnpm dev                       # builds, then wrangler dev on :8000
+pnpm dev                       # builds, then wrangler dev on :8000 (API_KEY_SECRET in .dev.vars)
+pnpm key:issue                 # a key signed with that secret, for the key tier locally
 pnpm smoke --base http://localhost:8000 --skip-images
 ```
 

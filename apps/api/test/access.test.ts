@@ -124,14 +124,14 @@ describe("access control", () => {
   it("gives the docs site and allowlisted origins the origin tier, per visitor", async () => {
     const env = limiters();
     const h = await harness({}, env);
-    const own = await h.get(PATH, { ...IP, Origin: "https://helldivers-api.pages.dev" });
+    const own = await h.get(PATH, { ...IP, Origin: "https://helldivers-api.dionatha.com.br" });
     expect(own.headers.get("x-api-tier")).toBe("origin");
     expect(own.headers.get("ratelimit-policy")).toBe(policyHeader("origin"));
     const sameOrigin = await h.get(PATH, { ...IP, "Sec-Fetch-Site": "same-origin" });
     expect(sameOrigin.headers.get("x-api-tier")).toBe("origin");
     expect(env.RL_ORIGIN.keys).toEqual([
-      "origin:helldivers-api.pages.dev:203.0.113.7",
-      "origin:helldivers-api.pages.dev:203.0.113.7",
+      "origin:helldivers-api.dionatha.com.br:203.0.113.7",
+      "origin:helldivers-api.dionatha.com.br:203.0.113.7",
     ]);
     const other = await h.get(PATH, { ...IP, Origin: "https://someone-else.example" });
     expect(other.headers.get("x-api-tier")).toBe("anon");

@@ -32,6 +32,7 @@
       <p class="screen-kicker"><span class="sigil">&gt;</span> HELLDIVERS 2 DATA API</p>
       <nav class="header-actions" aria-label="Site">
         <a class="icon-btn" href="/docs/">Reference</a>
+        <a class="icon-btn" href="/docs/access">Access</a>
         <a class="icon-btn" href="https://github.com/DionathaGoulart/Helldivers-api">GitHub</a>
         <button class="icon-btn" type="button" id="theme-toggle">
           Theme: <span id="theme-name">rose</span>
@@ -43,8 +44,8 @@
       <section class="hero stack">
         <h1 class="screen-title">Every weapon, stratagem and warbond as JSON</h1>
         <p class="lede">
-          Free, public and read-only. No key, no rate limit, CORS open to every origin. The catalog
-          is scraped from
+          Free, public and read-only. No key needed, CORS open to every origin, and every static file
+          unlimited. The catalog is scraped from
           <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a> once a day and published as
           static files on Cloudflare.
         </p>
@@ -64,26 +65,27 @@
         </div>
         <div class="panel-body">
           <p class="section-label"><span class="sigil">&gt;</span> One request, no setup</p>
-          <pre><code>curl https://helldivers-api.pages.dev/v1/weapons/ar-23-liberator.json</code></pre>
+          <pre><code>curl https://helldivers-api.dionatha.com.br/v1/weapons/ar-23-liberator.json</code></pre>
 
           <p class="section-label"><span class="sigil">&gt;</span> JavaScript</p>
           <pre><code>const res = await fetch(
-  "https://helldivers-api.pages.dev/v1/query/weapons?category=primary&amp;trait=light-armor-penetrating",
+  "https://helldivers-api.dionatha.com.br/v1/query/weapons?category=primary&amp;trait=light-armor-penetrating",
 );
 const { meta, data } = await res.json();
 console.log(meta.total, data[0].name);</code></pre>
 
           <p class="section-label"><span class="sigil">&gt;</span> Google Sheets</p>
-          <pre><code>=IMPORTDATA("https://helldivers-api.pages.dev/v1/stratagems.csv")</code></pre>
+          <pre><code>=IMPORTDATA("https://helldivers-api.dionatha.com.br/v1/stratagems.csv")</code></pre>
 
           <p class="hint">
             Every collection is also a CSV. Prefer the static lists and the
-            <code>by-*</code> facets; <code>/v1/query/*</code> is for filters they do not cover.
+            <code>by-*</code> facets; <code>/v1/query/*</code> is for filters they do not cover, and
+            it is <a href="/docs/access">rate limited</a>.
           </p>
           <p>
             <a
               class="icon-btn"
-              href="https://fetch.usebruno.com?url=https://helldivers-api.pages.dev/v1/openapi.json&amp;type=openapi"
+              href="https://fetch.usebruno.com?url=https://helldivers-api.dionatha.com.br/v1/openapi.json&amp;type=openapi"
               >Fetch in Bruno</a
             >
             <span class="hint">Opens the API client with one folder per tag.</span>
@@ -235,8 +237,10 @@ console.log(meta.total, data[0].name);</code></pre>
               picture.
             </li>
             <li>
-              Static lists, items and facets are plain files. Reach for
-              <code>/v1/query/*</code> only when a filter combination has no file.
+              Static lists, items, facets and images are plain files, free and never limited. Reach
+              for <code>/v1/query/*</code> and <code>/v1/search</code> only when no file fits: they
+              run code and <a href="/docs/access">count requests per client</a>. Keeping a local
+              copy? Sync <a href="/v1/all.json"><code>/v1/all.json</code></a> once a day.
             </li>
             <li>
               <code>X-Data-Version</code> names the dataset a response was built from; the same

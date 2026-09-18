@@ -2,7 +2,7 @@
 
 [![scrape](https://github.com/DionathaGoulart/Helldivers-api/actions/workflows/scrape.yml/badge.svg)](https://github.com/DionathaGoulart/Helldivers-api/actions/workflows/scrape.yml)
 [![ci](https://github.com/DionathaGoulart/Helldivers-api/actions/workflows/ci.yml/badge.svg)](https://github.com/DionathaGoulart/Helldivers-api/actions/workflows/ci.yml)
-[![data](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhelldivers-api.pages.dev%2Fv1%2Fmeta.json&query=%24.dataVersion&label=data&color=blue)](https://helldivers-api.pages.dev/v1/meta.json)
+[![data](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhelldivers-api.dionatha.com.br%2Fv1%2Fmeta.json&query=%24.dataVersion&label=data&color=blue)](https://helldivers-api.dionatha.com.br/v1/meta.json)
 
 Free, public, read-only JSON API with the Helldivers 2 item catalog, fed by a daily scraper of
 [The Helldivers Wiki](https://helldivers.wiki.gg). Every piece of data here is the work of the
@@ -13,11 +13,13 @@ boosters, armor passives, equipment traits, player cards, emotes, patterns, titl
 Every item carries its name, description, cost, source (which warbond or store page unlocks it),
 stats, an image and the wiki URL it came from.
 
-- **Base URL:** <https://helldivers-api.pages.dev>
-- **Docs:** [/docs/](https://helldivers-api.pages.dev/docs/) · errors at
-  [/docs/errors](https://helldivers-api.pages.dev/docs/errors) · OpenAPI 3.1 at
-  [/v1/openapi.json](https://helldivers-api.pages.dev/v1/openapi.json)
-- **No key, no signup, no per-client rate limit.** CORS is open to every origin.
+- **Base URL:** <https://helldivers-api.dionatha.com.br>
+- **Docs:** [/docs/](https://helldivers-api.dionatha.com.br/docs/) · errors at
+  [/docs/errors](https://helldivers-api.dionatha.com.br/docs/errors) · OpenAPI 3.1 at
+  [/v1/openapi.json](https://helldivers-api.dionatha.com.br/v1/openapi.json)
+- **No key, no signup to start.** Static files are free and unlimited; query and search have a
+  small anonymous limit and more on request — see [Limits and access](#limits-and-access). CORS is
+  open to every origin.
 
 > **Work in progress.** The data is live and the scraper runs daily, but v1 is not announced yet;
 > shapes can still change until the launch checks are green.
@@ -31,14 +33,14 @@ the result as static JSON on a CDN.
 ## Quickstart
 
 ```sh
-curl https://helldivers-api.pages.dev/v1/weapons/ar-23-liberator.json
+curl https://helldivers-api.dionatha.com.br/v1/weapons/ar-23-liberator.json
 ```
 
 JavaScript, the way a Discord bot would use it:
 
 ```js
 const res = await fetch(
-  "https://helldivers-api.pages.dev/v1/query/weapons?category=primary&trait=light-armor-penetrating",
+  "https://helldivers-api.dionatha.com.br/v1/query/weapons?category=primary&trait=light-armor-penetrating",
 );
 const { meta, data } = await res.json();
 console.log(meta.total, data[0].name); // 29 'AR-23 Liberator'
@@ -47,10 +49,10 @@ console.log(meta.total, data[0].name); // 29 'AR-23 Liberator'
 Google Sheets — every collection is also a CSV:
 
 ```
-=IMPORTDATA("https://helldivers-api.pages.dev/v1/stratagems.csv")
+=IMPORTDATA("https://helldivers-api.dionatha.com.br/v1/stratagems.csv")
 ```
 
-[**Fetch in Bruno**](https://fetch.usebruno.com?url=https://helldivers-api.pages.dev/v1/openapi.json&type=openapi)
+[**Fetch in Bruno**](https://fetch.usebruno.com?url=https://helldivers-api.dionatha.com.br/v1/openapi.json&type=openapi)
 opens the whole API in the client with one folder per tag.
 
 ## Endpoints
@@ -62,6 +64,7 @@ first.
 | --- | --- |
 | `GET /v1/meta.json` | dataset manifest: `dataVersion`, `generatedAt`, per-collection counts and source |
 | `GET /v1/{collection}.json` | the full list |
+| `GET /v1/all.json` | the whole catalog in one file (1.4 MB, ~120 KB compressed), for a daily sync |
 | `GET /v1/{collection}/{id}.json` | one item |
 | `GET /v1/{collection}.csv` | the same list flattened for spreadsheets |
 | `GET /v1/{collection}/by-warbond/{warbondId}.json` | items unlocked by one warbond |
@@ -76,14 +79,16 @@ first.
 | `GET /v1/reports/conflicts.json` | wiki contradictions and how each was resolved |
 | `GET /v1/schemas/{entity}.json` | JSON Schema for one entity |
 | `GET /v1/openapi.json` | OpenAPI 3.1 for everything |
+| `GET /images/v1/{collection}/{id}.{hash}.webp` | the item image, content-hashed and immutable |
 
-Computed at the edge. Same data, for the filters the static facets do not cover.
+Computed at the edge. Same data, for the filters the static facets do not cover; rate limited per
+client ([Limits and access](#limits-and-access)).
+
 
 | Route | Returns |
 | --- | --- |
 | `GET /v1/query/{collection}?…` | multi-filter + `sort` + `page`/`limit` + sparse `fields` |
 | `GET /v1/search?q=&collections=&limit=` | name and alias search across collections |
-| `GET /images/v1/{collection}/{id}.{hash}.webp` | the item image, content-hashed and immutable |
 
 `query` filters depend on the collection — `warbond`, `category`, `source`, `trait`, `passive`,
 `weight`, `permit`, `kind`, `type`, `scope` and `q` (name contains). `page` is 1-based, `limit` is
@@ -91,7 +96,7 @@ Computed at the edge. Same data, for the filters the static facets do not cover.
 values it would have accepted, so you can discover them by asking wrong:
 
 ```sh
-curl 'https://helldivers-api.pages.dev/v1/query/stratagems?category=nope'
+curl 'https://helldivers-api.dionatha.com.br/v1/query/stratagems?category=nope'
 ```
 
 ## Response shape
@@ -121,28 +126,50 @@ field values themselves are always the enum (`orbital_cannons`, `victory_pose`, 
 
 ```sh
 # every heavy armor, no compute
-curl https://helldivers-api.pages.dev/v1/armors/by-weight/heavy.json
+curl https://helldivers-api.dionatha.com.br/v1/armors/by-weight/heavy.json
 
 # what Steeled Veterans unlocks
-curl https://helldivers-api.pages.dev/v1/armors/by-warbond/steeled-veterans.json
+curl https://helldivers-api.dionatha.com.br/v1/armors/by-warbond/steeled-veterans.json
 
 # orbital cannons from the ship department facet
-curl https://helldivers-api.pages.dev/v1/stratagems/by-category/orbital-cannons.json
+curl https://helldivers-api.dionatha.com.br/v1/stratagems/by-category/orbital-cannons.json
 
 # name search
-curl 'https://helldivers-api.pages.dev/v1/search?q=liberator&limit=5'
+curl 'https://helldivers-api.dionatha.com.br/v1/search?q=liberator&limit=5'
 
 # heaviest-hitting primaries, two fields only
-curl 'https://helldivers-api.pages.dev/v1/query/weapons?category=primary&fields=name,stats&limit=5'
+curl 'https://helldivers-api.dionatha.com.br/v1/query/weapons?category=primary&fields=name,stats&limit=5'
 ```
 
-## Caching and limits
+## Limits and access
 
-- **Prefer the static facets.** `/v1/*.json`, the `by-*` files and the CSVs are static objects on
+Everything static — lists, items, facets, CSVs, images, schemas and `/v1/all.json` — is free and
+never limited. Only `/v1/query/*` and `/v1/search` run code, and they count requests per client:
+
+| Tier | Who | Limit |
+| --- | --- | --- |
+| `anon` | no key, per IP | 10 requests / 60 s |
+| `origin` | browser requests from an allowlisted site, per visitor | 10 requests / 10 s |
+| `key` | `Authorization: Bearer hd2_…`, per key | 20 requests / 10 s |
+
+Past the limit the answer is `429` with `Retry-After`; every query and search response names its
+tier in `X-API-Tier` and its limit in `RateLimit-Policy`.
+
+- **Keep a local copy instead.** The data changes at most once a day: poll `/v1/meta.json`,
+  download `/v1/all.json` when `dataVersion` moves, filter in memory. No limit applies.
+- **A site** that needs more: open an
+  [access request](https://github.com/DionathaGoulart/Helldivers-api/issues/new?template=api-access.yml)
+  with the domain; approved domains join the allowlist in
+  [`src/spec/access.ts`](apps/api/src/spec/access.ts).
+- **A server, bot or script**: email [api@dionatha.com.br](mailto:api@dionatha.com.br) for a key.
+  Keys stay on the server — one in browser code is public.
+
+Details and a sync example on [/docs/access](https://helldivers-api.dionatha.com.br/docs/access).
+
+## Caching
+
+- **Prefer the static files.** `/v1/*.json`, the `by-*` files and the CSVs are static objects on
   the CDN: no quota, no cold start, p95 under 100 ms.
-- `/v1/query/*`, `/v1/search` and `/images/*` run a Worker. There is no per-client limit, but they
-  share one Workers Free quota of 100,000 requests/day for everybody (resets 00:00 UTC). Hammering
-  them hurts other clients; the static files cannot run out.
 - **Cache image URLs — they never change.** The hash is part of the name, so
   `Cache-Control: public, max-age=31536000, immutable`. A new image means a new URL.
 - `/v1/*` sends `ETag` and `Cache-Control: public, max-age=300, stale-while-revalidate=3600`. Send
@@ -168,7 +195,7 @@ has a `wiki.url` — check it before filing a bug. Some items also carry
 
 When two wiki tables disagree (an infobox says recoil 14, the stats table says 10.5), the scraper
 picks the item page over the index, writes both into
-[`/v1/reports/conflicts.json`](https://helldivers-api.pages.dev/v1/reports/conflicts.json) and
+[`/v1/reports/conflicts.json`](https://helldivers-api.dionatha.com.br/v1/reports/conflicts.json) and
 keeps the raw strings in `statsRaw`.
 
 Found a field that is wrong? Open a

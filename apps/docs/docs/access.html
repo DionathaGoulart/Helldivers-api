@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Limits and access · Helldivers 2 Data API</title>
+    <meta
+      name="description"
+      content="What is free and unlimited in the Helldivers 2 Data API, the request limits of query and search, and how to get a key or allowlist a site."
+    />
+    <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <a class="icon-btn skip-link" href="#main">Skip to content</a>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+
+    <header class="screen-pad site-header">
+      <p class="screen-kicker"><span class="sigil">&gt;</span> ACCESS</p>
+      <nav class="header-actions" aria-label="Site">
+        <a class="icon-btn" href="/">Home</a>
+        <a class="icon-btn" href="/docs/">Reference</a>
+        <a class="icon-btn" href="/docs/errors">Errors</a>
+        <button class="icon-btn" type="button" id="theme-toggle">
+          Theme: <span id="theme-name">rose</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main" class="page screen-pad stack animate-enter">
+      <section class="hero stack">
+        <h1 class="screen-title">Limits and access</h1>
+        <p class="lede">
+          Every static file is free and never limited: lists, items, facets, CSV, images, schemas
+          and <a href="/v1/all.json"><code>/v1/all.json</code></a>, the whole catalog in one file.
+          Only <code>/v1/query/*</code> and <code>/v1/search</code> run code, and they count
+          requests per client.
+        </p>
+      </section>
+
+      <section class="stack" aria-labelledby="tiers-title">
+        <h2 class="section-label" id="tiers-title">
+          <span class="sigil">&gt;</span> Query and search limits
+        </h2>
+        <!-- Numbers from TIERS in apps/api/src/spec/access.ts (checked by test/docs.test.ts). -->
+        <div class="card-grid">
+          <div class="panel" id="anon" data-tier="anon">
+            <span class="window-bar"
+              ><span class="window-bar-title">ANON</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <div class="card-body stack">
+              <span class="stat-value">10 / 60 s</span>
+              <p>Per IP. Nothing to do: enough to try the API out.</p>
+            </div>
+          </div>
+          <div class="panel" id="origin" data-tier="origin">
+            <span class="window-bar"
+              ><span class="window-bar-title">ORIGIN</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <div class="card-body stack">
+              <span class="stat-value">10 / 10 s</span>
+              <p>Per visitor of an allowlisted site: each browser gets its own budget.</p>
+            </div>
+          </div>
+          <div class="panel" id="key" data-tier="key">
+            <span class="window-bar"
+              ><span class="window-bar-title">KEY</span>
+              <span class="window-dots" aria-hidden="true"
+                ><span></span><span></span><span></span></span
+            ></span>
+            <div class="card-body stack">
+              <span class="stat-value">20 / 10 s</span>
+              <p>Per key, for a server, a bot or a script.</p>
+            </div>
+          </div>
+        </div>
+        <p class="hint">
+          Past the limit the answer is a
+          <a href="/docs/errors#rate-limited"><code>429</code></a> with
+          <code>Retry-After</code>. Every query and search response names its tier in
+          <code>X-API-Tier</code> and its limit in <code>RateLimit-Policy</code>. Limits are counted
+          per Cloudflare location and are approximate; floods are blocked at the edge whatever the
+          tier.
+        </p>
+      </section>
+
+      <section class="panel" aria-labelledby="sync-title">
+        <div class="window-bar">
+          <span class="window-bar-title" id="sync-title">SYNC.JS</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p class="section-label"><span class="sigil">&gt;</span> No limit at all: sync once a day</p>
+          <p>
+            The data changes at most once a day. A bot or a site that keeps its own copy never
+            needs query or search: check <code>/v1/meta.json</code> (a <code>304</code> most of the
+            time), download <code>/v1/all.json</code> when <code>dataVersion</code> moves, and
+            filter in memory.
+          </p>
+          <pre><code>let version = null;
+let catalog = null;
+
+async function sync() {
+  const meta = await (await fetch("https://helldivers-api.dionatha.com.br/v1/meta.json")).json();
+  if (meta.dataVersion === version) return;
+  const res = await fetch("https://helldivers-api.dionatha.com.br/v1/all.json");
+  catalog = (await res.json()).data; // { weapons: [...], stratagems: [...], ... }
+  version = meta.dataVersion;
+}
+
+await sync();
+setInterval(sync, 60 * 60 * 1000); // hourly is plenty
+const primaries = catalog.weapons.filter((w) =&gt; w.category === "primary");</code></pre>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="keys-title">
+        <div class="window-bar">
+          <span class="window-bar-title" id="keys-title">KEYS.TXT</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p class="section-label"><span class="sigil">&gt;</span> Using a key</p>
+          <pre><code>curl -H "Authorization: Bearer hd2_…" \
+  "https://helldivers-api.dionatha.com.br/v1/search?q=liberator"</code></pre>
+          <ul class="notes">
+            <li>
+              Keep it on a server. A key in browser code is a public key: anyone can copy it and
+              spend its budget. Sites use the allowlist instead.
+            </li>
+            <li>
+              A wrong or revoked key gets a
+              <a href="/docs/errors#invalid-key"><code>401</code></a>, not the anonymous limits —
+              drop the header to go back to them.
+            </li>
+            <li>A lost or leaked key is revoked and replaced, never recovered.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="panel" aria-labelledby="ask-title">
+        <div class="window-bar">
+          <span class="window-bar-title" id="ask-title">ASK.TXT</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p class="section-label"><span class="sigil">&gt;</span> Asking for more</p>
+          <ul class="notes">
+            <li>
+              <strong>A site</strong> (requests from the browser):
+              <a
+                href="https://github.com/DionathaGoulart/Helldivers-api/issues/new?template=api-access.yml"
+                >open an access request</a
+              >
+              with the domain and what the site does. Once approved, the domain is added to the
+              allowlist and ships with the next deploy.
+            </li>
+            <li>
+              <strong>A key</strong> (a server, a bot, a script): email
+              <a href="mailto:api@dionatha.com.br">api@dionatha.com.br</a> with the project, a link
+              if there is one, and roughly how many requests a day. The key comes back by email.
+            </li>
+            <li>
+              Access is for non-commercial projects, like the rest of the API
+              (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>).
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="screen-pad site-footer">
+      <p class="micro">
+        Data from <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a>, thank you
+        (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>) · by
+        <a href="https://github.com/DionathaGoulart">Dionatha Goulart</a> ·
+        <a href="https://github.com/DionathaGoulart/Helldivers-api">source</a> ·
+        <a href="/v1/openapi.json">openapi.json</a>
+      </p>
+    </footer>
+  </body>
+</html>

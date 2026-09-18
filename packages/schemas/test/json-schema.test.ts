@@ -32,7 +32,7 @@ describe("jsonSchemaFiles", () => {
 
     expect(booster).toMatchObject({
       $schema: "https://json-schema.org/draft/2020-12/schema",
-      $id: "https://helldivers-api.pages.dev/v1/schemas/booster.json",
+      $id: "https://helldivers-api.dionatha.com.br/v1/schemas/booster.json",
       title: "booster",
       type: "object",
     });

@@ -11,7 +11,7 @@ import { runSmoke } from "./smoke/checks.ts";
 // waits for the deployment it was built from even when the dataset did not change.
 const { values } = parseArgs({
   options: {
-    base: { type: "string", default: "https://helldivers-api.pages.dev" },
+    base: { type: "string", default: "https://helldivers-api.dionatha.com.br" },
     "skip-images": { type: "boolean", default: false },
     "data-version": { type: "string" },
     "build-id": { type: "string" },

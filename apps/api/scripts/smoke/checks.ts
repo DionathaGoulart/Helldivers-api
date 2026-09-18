@@ -4,7 +4,7 @@ import { PROBLEM_TYPES } from "../../src/lib/problem.ts";
 // `run_worker_first`, ETag/304) and the Worker, as a client sees them.
 
 export interface SmokeOptions {
-  base: string; // https://helldivers-api.pages.dev or http://localhost:8000
+  base: string; // https://helldivers-api.dionatha.com.br or http://localhost:8000
   dataVersion: string; // expected in /v1/meta.json
   buildId: string; // expected in the X-Build-Id header; `dev` waits on the dataset only
   skipImages: boolean; // a build without `pnpm images:pull` has no images
@@ -147,7 +147,7 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
   // The problem `type` of every error points at an anchor on this page (arch §8.3); a page that
   // stopped being served, or lost an anchor, breaks that link for everybody.
   await check("docs pages", async () => {
-    const pages = ["/", "/docs/", "/docs/errors"];
+    const pages = ["/", "/docs/", "/docs/errors", "/docs/access"];
     const times: string[] = [];
     let errorsHtml = "";
     for (const path of pages) {

@@ -39,8 +39,31 @@ describe("openapi", () => {
     expect(info.version).toBe("v1");
     expect(info.license).toEqual({ name: "CC BY-NC-SA 4.0", identifier: "CC-BY-NC-SA-4.0" });
     expect(info.contact).toHaveProperty("url", "https://github.com/DionathaGoulart/Helldivers-api");
-    expect(externalDocs).toHaveProperty("url", "https://helldivers-api.pages.dev/");
-    expect(servers[0]).toHaveProperty("url", "https://helldivers-api.pages.dev");
+    expect(externalDocs).toHaveProperty("url", "https://helldivers-api.dionatha.com.br/");
+    expect(servers[0]).toHaveProperty("url", "https://helldivers-api.dionatha.com.br");
+  });
+
+  it("marks the dynamic routes as rate limited, with an optional bearer key", async () => {
+    const { site } = await syntheticSite();
+    const { paths, components } = site.openapi;
+    expect(components.securitySchemes).toHaveProperty(["apiKey", "scheme"], "bearer");
+    for (const path of ["/v1/search", "/v1/query/weapons"]) {
+      const get = paths[path]?.get as {
+        security: unknown;
+        responses: Record<string, { headers?: Record<string, unknown> }>;
+      };
+      expect(get.security).toEqual([{}, { apiKey: [] }]);
+      expect(Object.keys(get.responses)).toEqual(expect.arrayContaining(["200", "401", "429"]));
+      expect(Object.keys(get.responses["429"]?.headers ?? {})).toEqual([
+        "X-API-Tier",
+        "RateLimit-Policy",
+        "Retry-After",
+      ]);
+    }
+    expect(paths["/v1/weapons.json"]?.get).not.toHaveProperty("security");
+    expect(site.openapi.info.description).toContain(
+      "- `anon`: no key, per IP, 10 requests per 60 s.",
+    );
   });
 
   it("links the published JSON Schema of every entity", async () => {

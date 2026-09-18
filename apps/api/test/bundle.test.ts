@@ -33,7 +33,7 @@ describe("bundleWorker", () => {
     };
     const ctx = new FakeExecutionContext();
     const response = await worker.default.fetch(
-      new Request("https://helldivers-api.pages.dev/v1/query/boosters"),
+      new Request("https://helldivers-api.dionatha.com.br/v1/query/boosters"),
       { ASSETS: new FakeAssets(files, site) },
       ctx,
     );

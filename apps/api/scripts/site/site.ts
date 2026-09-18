@@ -56,6 +56,14 @@ export function buildSite(dataFiles: ReadonlyMap<string, unknown>, buildId = "de
   // Read by the Worker only: compact, no indentation.
   files.set("v1/search-index.json", `${JSON.stringify(searchIndex(data))}\n`);
 
+  // The whole catalog in one static file, for clients that sync once a day and filter locally
+  // (arch §8.6): compact, since it is the largest file and meant for machines.
+  const all = Object.fromEntries(
+    Collection.options.map((collection) => [collection, dataset[collection]]),
+  );
+  const total = Collection.options.reduce((sum, collection) => sum + dataset[collection].length, 0);
+  files.set("v1/all.json", `${JSON.stringify({ meta: listMeta(manifest, total), data: all })}\n`);
+
   for (const [name, text] of jsonSchemaFiles()) {
     files.set(`v1/schemas/${name}`, text);
   }

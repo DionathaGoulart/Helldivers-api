@@ -41,6 +41,17 @@ describe("buildSite", () => {
     expect(site.files.has("_routes.json")).toBe(false);
   });
 
+  it("bundles every collection into v1/all.json", async () => {
+    const { site } = await syntheticSite();
+    const all = json(site.files.get("v1/all.json"));
+    expect(Object.keys(all.data)).toEqual(Collection.options);
+    for (const collection of Collection.options) {
+      expect(all.data[collection]).toEqual(site.data.dataset[collection]);
+    }
+    const total = Collection.options.reduce((n, c) => n + site.data.dataset[c].length, 0);
+    expect(all.meta).toMatchObject({ count: total, dataVersion: site.build.dataVersion });
+  });
+
   it("writes _headers with the data version and CORS set exactly once per path", async () => {
     const { site } = await syntheticSite();
     const headers = site.files.get("_headers") ?? "";

@@ -99,7 +99,7 @@ describe("SearchResponse", () => {
 describe("Problem", () => {
   it("accepts the arch §8.3 example", () => {
     const problem = {
-      type: "https://helldivers-api.pages.dev/docs/errors#invalid-filter-value",
+      type: "https://helldivers-api.dionatha.com.br/docs/errors#invalid-filter-value",
       title: "Invalid filter value",
       status: 400,
       detail: "Unknown value 'primray' for 'category'. Allowed: primary, secondary, throwable.",
