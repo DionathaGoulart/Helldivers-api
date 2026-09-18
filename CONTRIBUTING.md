@@ -53,7 +53,7 @@ No `.env` is needed for any of that, nor for an offline scrape:
 ```sh
 pnpm scrape --offline   # rebuilds data/ from the saved fixtures
 pnpm validate:data      # every file against its schema, plus cross-collection integrity
-pnpm dev                # the API and docs site on wrangler pages dev
+pnpm dev                # the API and docs site on wrangler dev
 ```
 
 `.env` only matters for the two things that leave the machine: an **online** scrape and the image
@@ -130,12 +130,12 @@ issue it would open. `packages/scraper/test/drill.test.ts` keeps that honest.
 
 ## The API
 
-`apps/api` is a Cloudflare Pages project: static files for everything in `/v1`, a Worker for
-`/v1/query/*`, `/v1/search` and `/images/*`. `apps/docs` is the landing page and the reference.
+`apps/api` is a Cloudflare Worker with static assets: static files for everything in `/v1`, the
+Worker only for `/v1/query/*`, `/v1/search` and `/images/*`. `apps/docs` is the landing page and the reference.
 
 ```sh
-pnpm build                     # dist/ with the static dataset, the worker and openapi.json
-pnpm dev                       # builds, then wrangler pages dev on :8000
+pnpm build                     # dist/ with the static dataset and openapi.json, build/worker.js
+pnpm dev                       # builds, then wrangler dev on :8000
 pnpm smoke --base http://localhost:8000 --skip-images
 ```
 

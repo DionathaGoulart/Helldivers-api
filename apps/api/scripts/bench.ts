@@ -12,7 +12,7 @@ import type { SearchIndex } from "../src/search-index.ts";
 import { referencedCollections } from "../src/spec/filters.ts";
 
 // Usage: pnpm build && pnpm --filter @hd2/api exec tsx scripts/bench.ts
-// CPU of the Functions' work on the real dataset, measured in Node (V8, like workerd). Workers
+// CPU of the Worker's work on the real dataset, measured in Node (V8, like workerd). Workers
 // bill CPU, not the time spent waiting on ASSETS or B2 (arch §8.4).
 const distDir = join(import.meta.dirname, "..", "dist");
 const read = (path: string) => readFileSync(join(distDir, path), "utf8");
@@ -37,13 +37,13 @@ const record = (name: string, ms: number) => {
 
 // Cold isolate: module evaluation of the bundle (zod schemas, Hono routes) in a fresh process.
 {
-  const script = `const t = performance.now(); await import(${JSON.stringify(pathToFileURL(join(distDir, "_worker.js")).href)}); console.log(performance.now() - t);`;
+  const script = `const t = performance.now(); await import(${JSON.stringify(pathToFileURL(join(distDir, "..", "build", "worker.js")).href)}); console.log(performance.now() - t);`;
   const times = Array.from({ length: 5 }, () =>
     Number(
       execFileSync(process.execPath, ["--input-type=module", "-e", script], { encoding: "utf8" }),
     ),
   ).sort((a, b) => a - b);
-  record("isolate start: evaluate _worker.js (fresh process, median of 5)", times[2] ?? 0);
+  record("isolate start: evaluate worker.js (fresh process, median of 5)", times[2] ?? 0);
 }
 
 const meta = JSON.parse(read("v1/meta.json")) as { dataVersion: string; generatedAt: string };

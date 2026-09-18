@@ -39,8 +39,8 @@ jobs:
           pnpm validate:data "$RUNNER_TEMP/data/v1"
       - run: pnpm build
 
-  # The built dist on the real Pages runtime (plan D29): `_headers`, `_redirects`, `_routes.json`,
-  # static ETag/304 and the Functions, which `app.request()` tests never exercise.
+  # The built Worker and dist on the real runtime (plan D29): `_headers`, `_redirects`,
+  # `run_worker_first`, static ETag/304 and the Worker, which `app.request()` tests never exercise.
   smoke-local:
     runs-on: ubuntu-24.04
     timeout-minutes: 15
@@ -57,17 +57,17 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
-      - name: Start wrangler pages dev
+      - name: Start wrangler dev
         working-directory: apps/api
         run: |
-          pnpm exec wrangler pages dev dist --port 8000 > "$RUNNER_TEMP/pages-dev.log" 2>&1 &
+          pnpm exec wrangler dev --port 8000 > "$RUNNER_TEMP/wrangler-dev.log" 2>&1 &
           for _ in $(seq 1 60); do
             if curl -sf http://localhost:8000/v1/meta.json > /dev/null; then exit 0; fi
             sleep 1
           done
-          cat "$RUNNER_TEMP/pages-dev.log"
+          cat "$RUNNER_TEMP/wrangler-dev.log"
           exit 1
       # GitHub has no B2 read key (arch §12), so images are checked only after deploy.
       - run: pnpm smoke --base http://localhost:8000 --skip-images --wait-seconds 0
       - if: failure()
-        run: cat "$RUNNER_TEMP/pages-dev.log"
+        run: cat "$RUNNER_TEMP/wrangler-dev.log"

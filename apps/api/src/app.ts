@@ -10,8 +10,8 @@ import { registerImages } from "./routes/images.ts";
 import { registerQuery } from "./routes/query.ts";
 import { registerSearch } from "./routes/search.ts";
 
-// The Pages Functions app (arch §8): only `/v1/query/*`, `/v1/search` and `/images/*` reach it
-// (`_routes.json`); every other URL is a static file.
+// The Worker app (arch §8): only `/v1/query/*`, `/v1/search` and `/images/*` reach it
+// (`assets.run_worker_first`); every other URL is a static file.
 
 export interface AppOptions {
   build: BuildInfo;

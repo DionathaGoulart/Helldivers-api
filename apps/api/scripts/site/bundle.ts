@@ -1,8 +1,9 @@
 import { build } from "esbuild";
 import type { BuildInfo } from "../../src/build-info.ts";
 
-// `dist/_worker.js` (Pages advanced mode, arch §8.1): one ESM bundle for workerd with the dataset's
-// BuildInfo inlined, so a deploy of new data always ships Functions that know its version.
+// `build/worker.js` (the Worker's `main`, arch §8.1): one ESM bundle for workerd with the dataset's
+// BuildInfo inlined, so a deploy of new data always ships a Worker that knows its version. It lives
+// outside `dist/`, which is uploaded as public static assets.
 
 export async function bundleWorker(
   entry: string,

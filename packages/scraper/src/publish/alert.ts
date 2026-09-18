@@ -71,7 +71,7 @@ export function scrapeAlert(report: RunReport, run: AlertRun): Alert {
 /** `[deploy] smoke-failed`, opened by `deploy.yml` when the deployed site fails its checks. */
 export function deployAlert(kind: string, run: AlertRun): Alert {
   const body = [
-    `The deploy workflow failed at \`${kind}\`. The previous Pages deployment stays live.`,
+    `The deploy workflow failed at \`${kind}\`. The previous deployment stays live.`,
     "",
     ...lines(run),
   ];

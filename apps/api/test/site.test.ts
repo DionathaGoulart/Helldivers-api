@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import {
   Booster,
   Collection,
@@ -10,19 +12,19 @@ import { describe, expect, it } from "vitest";
 import { checkDist, MAX_FILE_BYTES, MAX_FILES, REQUIRED_PAGES } from "../scripts/site/checks.ts";
 import { csvColumns, renderCsv } from "../scripts/site/csv.ts";
 import { FACETS } from "../scripts/site/facets.ts";
+import { WORKER_ROUTES } from "../scripts/site/headers.ts";
 import { expandStaticPaths, isDynamicPath } from "../scripts/site/openapi.ts";
 import { SearchIndex } from "../src/search-index.ts";
 import { syntheticSite } from "./helpers.ts";
 
 const json = (text: string | undefined) => JSON.parse(text ?? "null");
 
-/** Every dist path of the synthetic build: pages, copied data, generated files, worker. */
+/** Every dist path of the synthetic build: pages, copied data, generated files. */
 async function distSizes(): Promise<Map<string, number>> {
   const { files, site } = await syntheticSite();
   const sizes = new Map<string, number>([
     ...REQUIRED_PAGES.map((page): [string, number] => [page, 1]),
     ["fonts/jetbrains-mono-latin-wght-normal.woff2", 1],
-    ["_worker.js", 1],
   ]);
   for (const path of files.keys()) sizes.set(`v1/${path}`, 1);
   for (const [path, text] of site.files) sizes.set(path, text.length);
@@ -30,13 +32,13 @@ async function distSizes(): Promise<Map<string, number>> {
 }
 
 describe("buildSite", () => {
-  it("routes only the dynamic paths to the Functions", async () => {
+  it("runs the Worker only on the dynamic paths", async () => {
+    const toml = readFileSync(join(import.meta.dirname, "../wrangler.toml"), "utf8");
+    const line = /^run_worker_first = (\[.*\])$/m.exec(toml)?.[1];
+    expect(JSON.parse(line ?? "null")).toEqual(WORKER_ROUTES);
+    expect(toml).toMatch(/^directory = "dist"$/m);
     const { site } = await syntheticSite();
-    expect(json(site.files.get("_routes.json"))).toEqual({
-      version: 1,
-      include: ["/v1/query/*", "/v1/search", "/images/*"],
-      exclude: [],
-    });
+    expect(site.files.has("_routes.json")).toBe(false);
   });
 
   it("writes _headers with the data version and CORS set exactly once per path", async () => {
@@ -162,15 +164,15 @@ describe("buildSite", () => {
     ]);
   });
 
-  it("enforces the Pages file limits", async () => {
+  it("enforces the static assets file limits", async () => {
     const { site } = await syntheticSite();
     const sizes = await distSizes();
     sizes.set("v1/huge.json", MAX_FILE_BYTES);
-    // `_worker.js`, `_headers`, `_redirects` and `_routes.json` are not assets.
-    for (let i = sizes.size; i < MAX_FILES + 4; i++) sizes.set(`filler/${i}`, 1);
+    // `_headers` and `_redirects` are not assets.
+    for (let i = sizes.size; i < MAX_FILES + 2; i++) sizes.set(`filler/${i}`, 1);
     expect(checkDist(sizes, site.openapi, site.data.dataset)).toEqual([
-      `${MAX_FILES} files: Pages allows fewer than ${MAX_FILES}`,
-      `v1/huge.json: ${MAX_FILE_BYTES} bytes, Pages allows < 25 MiB`,
+      `${MAX_FILES} files: static assets allow fewer than ${MAX_FILES}`,
+      `v1/huge.json: ${MAX_FILE_BYTES} bytes, static assets allow < 25 MiB`,
     ]);
   });
 });

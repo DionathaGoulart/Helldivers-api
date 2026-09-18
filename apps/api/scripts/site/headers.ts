@@ -1,6 +1,6 @@
 import { Collection } from "@hd2/schemas";
 
-// Pages config files (arch §8.1, §8.2, §8.4). `_headers` never applies to Functions.
+// Static assets config files (arch §8.1, §8.2, §8.4). `_headers` never applies to Worker responses.
 
 export const STATIC_CACHE_CONTROL = "public, max-age=300, stale-while-revalidate=3600";
 export const FONT_CACHE_CONTROL = "public, max-age=604800, stale-while-revalidate=86400";
@@ -30,16 +30,11 @@ export function renderHeaders(dataVersion: string, buildId: string): string {
   ].join("\n");
 }
 
-/** Only these reach `_worker.js`; every other request is a free static hit. */
-export const ROUTES = {
-  version: 1,
-  include: ["/v1/query/*", "/v1/search", "/images/*"],
-  exclude: [],
-} as const;
-
-export function renderRoutes(): string {
-  return `${JSON.stringify(ROUTES, null, 2)}\n`;
-}
+/**
+ * Only these run the Worker (`assets.run_worker_first` in wrangler.toml); every other request is a
+ * free static hit.
+ */
+export const WORKER_ROUTES = ["/v1/query/*", "/v1/search", "/images/*"] as const;
 
 /** `/v1/weapons` → `/v1/weapons.json`; extensionless item URLs are not aliased in v1. */
 export function renderRedirects(): string {

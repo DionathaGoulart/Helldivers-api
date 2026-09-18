@@ -8,11 +8,12 @@ import { checkDist } from "./site/checks.ts";
 import { buildSite } from "./site/site.ts";
 
 // Usage: pnpm build   (reads <DATA_DIR>/v1; DATA_DIR defaults to data, relative to the repo root)
-// dist/ = apps/docs pages + a copy of data/v1 + generated files (facets, CSV, search index,
-// schemas, openapi.json, _headers, _routes.json, _redirects) + _worker.js (arch §8).
+// dist/ = the static assets: apps/docs pages + a copy of data/v1 + generated files (facets, CSV,
+// search index, schemas, openapi.json, _headers, _redirects). build/worker.js = the Worker (arch §8).
 const appDir = join(import.meta.dirname, "..");
 const rootDir = join(appDir, "..", "..");
 const distDir = join(appDir, "dist");
+const workerFile = join(appDir, "build", "worker.js");
 const docsDir = join(appDir, "..", "docs");
 const dataDir = join(resolve(rootDir, process.env.DATA_DIR ?? "data"), "v1");
 
@@ -62,11 +63,8 @@ for (const [path, text] of site.files) {
   await mkdir(dirname(target), { recursive: true });
   await writeFile(target, text);
 }
-const workerBytes = await bundleWorker(
-  join(appDir, "src", "worker.ts"),
-  join(distDir, "_worker.js"),
-  site.build,
-);
+await rm(dirname(workerFile), { recursive: true, force: true });
+const workerBytes = await bundleWorker(join(appDir, "src", "worker.ts"), workerFile, site.build);
 
 const sizes = new Map<string, number>();
 for (const entry of await readdir(distDir, { recursive: true, withFileTypes: true })) {
@@ -82,5 +80,5 @@ if (problems.length > 0) {
 const totalBytes = [...sizes.values()].reduce((sum, bytes) => sum + bytes, 0);
 console.log(
   `build ok · ${sizes.size} files · ${(totalBytes / 1024 / 1024).toFixed(1)} MB · ` +
-    `_worker.js ${(workerBytes / 1024).toFixed(0)} KB · ${site.build.dataVersion} · ${relative(rootDir, distDir)}`,
+    `worker.js ${(workerBytes / 1024).toFixed(0)} KB · ${site.build.dataVersion} · ${relative(rootDir, distDir)}`,
 );

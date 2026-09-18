@@ -6,7 +6,7 @@ import { referencedCollections } from "../../src/spec/filters.ts";
 import { renderCsv } from "./csv.ts";
 import { listMeta, manifestWithUrls, readSiteData, type SiteData, writeJson } from "./dataset.ts";
 import { FACETS, facetValues } from "./facets.ts";
-import { renderHeaders, renderRedirects, renderRoutes } from "./headers.ts";
+import { renderHeaders, renderRedirects } from "./headers.ts";
 import { buildOpenApi, type OpenApiDocument } from "./openapi.ts";
 
 // Everything the build adds to a copy of `data/v1` (arch §8.2), as dist-relative paths → text.
@@ -53,7 +53,7 @@ export function buildSite(dataFiles: ReadonlyMap<string, unknown>, buildId = "de
     files.set(`v1/${collection}.csv`, renderCsv(collection, dataset[collection]));
   }
 
-  // Read by the Functions only: compact, no indentation.
+  // Read by the Worker only: compact, no indentation.
   files.set("v1/search-index.json", `${JSON.stringify(searchIndex(data))}\n`);
 
   for (const [name, text] of jsonSchemaFiles()) {
@@ -64,7 +64,6 @@ export function buildSite(dataFiles: ReadonlyMap<string, unknown>, buildId = "de
   files.set("v1/openapi.json", writeJson(openapi));
 
   files.set("_headers", renderHeaders(manifest.dataVersion, buildId));
-  files.set("_routes.json", renderRoutes());
   files.set("_redirects", renderRedirects());
 
   const build: BuildInfo = {

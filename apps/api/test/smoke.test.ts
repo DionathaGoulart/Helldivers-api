@@ -149,7 +149,7 @@ describe("runSmoke", () => {
     const { deps } = site({
       "/v1/weapons": () => new Response("<html>", { status: 200 }), // _redirects missing
       "/v1/weapons/does-not-exist.json": () => new Response("<html>", { status: 200 }), // SPA fallback
-      "/v1/query/weapons?category=primary": () => new Response("<html>", { status: 200 }), // _routes.json
+      "/v1/query/weapons?category=primary": () => new Response("<html>", { status: 200 }), // run_worker_first
       [IMAGE]: () => json({}, {}, 503),
       "/docs/errors": () => html('<section id="not-found">'), // an anchor was dropped
     });

@@ -16,9 +16,9 @@ const dir = await mkdtemp(join(tmpdir(), "hd2-worker-"));
 afterAll(() => rm(dir, { recursive: true, force: true }));
 
 describe("bundleWorker", () => {
-  it("builds a self-contained _worker.js that knows its dataset", async () => {
+  it("builds a self-contained worker.js that knows its dataset", async () => {
     const { files, site } = await syntheticSite();
-    const outfile = join(dir, "_worker.js");
+    const outfile = join(dir, "worker.js");
     const bytes = await bundleWorker(
       join(import.meta.dirname, "../src/worker.ts"),
       outfile,

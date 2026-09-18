@@ -51,7 +51,7 @@ import { FACETS } from "./facets.ts";
 
 // `/v1/openapi.json` (ADR-010): OpenAPI 3.1 generated from the zod schemas (`z.toJSONSchema`
 // with a registry → `components.schemas`), the filter table and the facet table. The same tables
-// drive the Functions and the static export, so the document cannot drift from what is served.
+// drive the Worker and the static export, so the document cannot drift from what is served.
 
 export const SITE_URL = "https://helldivers-api.pages.dev";
 export const REPO_URL = "https://github.com/DionathaGoulart/Helldivers-api";
@@ -532,7 +532,7 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
   };
 }
 
-/** Dynamic routes are served by `_worker.js`; every other documented path is a static file. */
+/** Dynamic routes are served by the Worker; every other documented path is a static file. */
 export const isDynamicPath = (path: string) =>
   path === "/v1/search" || path.startsWith("/v1/query/") || path.startsWith("/images/");
 

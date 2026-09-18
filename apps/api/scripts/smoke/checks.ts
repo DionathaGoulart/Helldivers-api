@@ -1,7 +1,7 @@
 import { PROBLEM_TYPES } from "../../src/lib/problem.ts";
 
 // Post-deploy checks (arch §11 Smoke, plan D29): the static host (`_headers`, `_redirects`,
-// `_routes.json`, ETag/304) and the Functions, as a client sees them.
+// `run_worker_first`, ETag/304) and the Worker, as a client sees them.
 
 export interface SmokeOptions {
   base: string; // https://helldivers-api.pages.dev or http://localhost:8000

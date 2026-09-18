@@ -1,7 +1,8 @@
 import type { SiteDataset } from "./dataset.ts";
 import { expandStaticPaths, type OpenApiDocument } from "./openapi.ts";
 
-// Build assertions (plan §7, arch §2 Pages limits): a dist that breaks one of them never deploys.
+// Build assertions (plan §7, arch §2 static assets limits): a dist that breaks one of them never
+// deploys.
 
 export const MAX_FILES = 20_000;
 
@@ -17,8 +18,8 @@ export const REQUIRED_PAGES = [
 ];
 export const MAX_FILE_BYTES = 25 * 1024 * 1024;
 
-/** Pages upload rules: `_worker.js` and the config files are not assets. */
-const NOT_ASSETS = new Set(["_worker.js", "_headers", "_redirects", "_routes.json"]);
+/** Workers static assets upload rules: the config files are parsed, not uploaded. */
+const NOT_ASSETS = new Set(["_headers", "_redirects"]);
 
 export function checkDist(
   sizes: ReadonlyMap<string, number>, // dist-relative path → bytes
@@ -28,10 +29,11 @@ export function checkDist(
   const problems: string[] = [];
   const assets = [...sizes].filter(([path]) => !NOT_ASSETS.has(path));
   if (assets.length >= MAX_FILES) {
-    problems.push(`${assets.length} files: Pages allows fewer than ${MAX_FILES}`);
+    problems.push(`${assets.length} files: static assets allow fewer than ${MAX_FILES}`);
   }
   for (const [path, bytes] of sizes) {
-    if (bytes >= MAX_FILE_BYTES) problems.push(`${path}: ${bytes} bytes, Pages allows < 25 MiB`);
+    if (bytes >= MAX_FILE_BYTES)
+      problems.push(`${path}: ${bytes} bytes, static assets allow < 25 MiB`);
   }
   for (const page of REQUIRED_PAGES) {
     if (!sizes.has(page)) problems.push(`${page}: docs page missing from dist`);

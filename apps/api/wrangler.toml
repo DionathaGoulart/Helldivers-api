@@ -1,10 +1,24 @@
 name = "helldivers-api"
-pages_build_output_dir = "dist"
+# Bundled by `scripts/site/bundle.ts` with the dataset's BuildInfo inlined; uploaded as is.
+main = "build/worker.js"
+no_bundle = true
 # Must not be newer than the workerd bundled with the pinned wrangler.
 compatibility_date = "2026-09-11"
+# Only the custom domain serves the API: a workers.dev or preview URL would bypass the zone's WAF.
+workers_dev = false
+preview_urls = false
 
-# Non-secret image backend settings for `/images/*` (arch §8.1). The read key is a Pages secret
-# (`wrangler pages secret put B2_READ_KEY_ID` / `B2_READ_APP_KEY`), `.dev.vars` locally.
+# Static files are free and never invoke the Worker; only these paths do (`WORKER_ROUTES` in
+# `scripts/site/headers.ts`, checked by test/site.test.ts).
+[assets]
+directory = "dist"
+binding = "ASSETS"
+not_found_handling = "404-page"
+html_handling = "auto-trailing-slash"
+run_worker_first = ["/v1/query/*", "/v1/search", "/images/*"]
+
+# Non-secret image backend settings for `/images/*` (arch §8.1). The read key is a Worker secret
+# (`wrangler secret put B2_READ_KEY_ID` / `B2_READ_APP_KEY`), `.dev.vars` locally.
 [vars]
 B2_S3_ENDPOINT = "https://s3.us-east-005.backblazeb2.com"
 B2_BUCKET = "Helldivers-api"

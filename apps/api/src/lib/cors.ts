@@ -1,7 +1,7 @@
 import type { MiddlewareHandler } from "hono";
 
 // CORS `*` on every response (team rule, prd FR-33). Static files get the same headers from
-// `_headers`; Functions set them here because `_headers` never applies to them (arch §8.4).
+// `_headers`; the Worker sets them here because `_headers` never applies to it (arch §8.4).
 
 export const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",

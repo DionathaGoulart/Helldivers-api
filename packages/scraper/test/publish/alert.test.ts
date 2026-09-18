@@ -103,7 +103,7 @@ describe("alert bodies", () => {
   it("builds the deploy alert", () => {
     const alert = deployAlert("smoke-failed", { ...run, workflow: "deploy" });
     expect(alert.title).toBe("[deploy] smoke-failed");
-    expect(alert.body).toContain("previous Pages deployment stays live");
+    expect(alert.body).toContain("previous deployment stays live");
   });
 });
 

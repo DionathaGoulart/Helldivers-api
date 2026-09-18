@@ -2,7 +2,7 @@ import { createApp } from "./app.ts";
 import type { BuildInfo } from "./build-info.ts";
 import type { CacheLike } from "./context.ts";
 
-// Entry of `dist/_worker.js` (Pages advanced mode), bundled by `scripts/site/bundle.ts`.
+// Entry of `build/worker.js` (the Worker's `main`), bundled by `scripts/site/bundle.ts`.
 
 /** Replaced by esbuild `define` with the dataset's BuildInfo. */
 declare const __BUILD_INFO__: BuildInfo;
