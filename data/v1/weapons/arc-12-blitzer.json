@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-17.2d3c0c72",
-    "generatedAt": "2026-09-17T15:14:26Z",
+    "dataVersion": "2026-09-17.3301d4f5",
+    "generatedAt": "2026-09-17T23:31:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -39,7 +39,7 @@
         45
       ],
       "dps": [
-        333.33
+        187.5
       ],
       "capacity": null,
       "spareMagazines": null,
@@ -115,7 +115,7 @@
       "Standard Damage": "250 Arc",
       "Armor Penetration": "Medium",
       "Fire Rate": "45 rpm",
-      "DPS": "333.33",
+      "DPS": "187.5",
       "Capacity": "∞",
       "Ergonomics": "65",
       "Recoil": "60",

@@ -1,15 +1,59 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-17.2d3c0c72",
-    "generatedAt": "2026-09-17T15:14:26Z",
-    "count": 9,
+    "dataVersion": "2026-09-17.3301d4f5",
+    "generatedAt": "2026-09-17T23:31:10Z",
+    "count": 10,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-17.3301d4f5",
+      "date": "2026-09-17",
+      "summary": {
+        "added": 0,
+        "changed": 4,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "arc-12-blitzer",
+          "kind": "changed",
+          "paths": [
+            "firearm.dps[0]",
+            "statsRaw.DPS"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "expert-extraction-pilot",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "hellpod-space-optimization",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "localization-confusion",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-17.2d3c0c72",
       "date": "2026-09-17",

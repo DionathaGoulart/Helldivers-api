@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-17.2d3c0c72",
-    "generatedAt": "2026-09-17T15:14:26Z",
+    "dataVersion": "2026-09-17.3301d4f5",
+    "generatedAt": "2026-09-17T23:31:10Z",
     "count": 18,
     "source": {
       "name": "The Helldivers Wiki",
@@ -145,7 +145,9 @@
       "wiki": {
         "title": "Expert Extraction Pilot",
         "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Lowers the time it takes for the extraction shuttle to reach the extraction beacon.",
       "source": {
@@ -235,7 +237,9 @@
       "wiki": {
         "title": "Hellpod Space Optimization",
         "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades and Stims.",
       "source": {
@@ -295,7 +299,9 @@
       "wiki": {
         "title": "Localization Confusion",
         "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Increases the time between enemy encounters.",
       "source": {
