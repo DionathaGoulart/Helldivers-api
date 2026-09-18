@@ -153,7 +153,8 @@ never limited. Only `/v1/query/*` and `/v1/search` run code, and they count requ
 | `key` | `Authorization: Bearer hd2_…`, per key | 20 requests / 10 s |
 
 Past the limit the answer is `429` with `Retry-After`; every query and search response names its
-tier in `X-API-Tier` and its limit in `RateLimit-Policy`.
+tier in `X-API-Tier`, its limit in `RateLimit-Policy` and what is left in `RateLimit`
+(`"anon";r=7;t=42`: 7 requests left, the window starts over in 42 s).
 
 - **Keep a local copy instead.** The data changes at most once a day: poll `/v1/meta.json`,
   download `/v1/all.json` when `dataVersion` moves, filter in memory. No limit applies.

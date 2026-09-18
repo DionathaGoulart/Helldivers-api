@@ -3,6 +3,7 @@ import { readDatasetFiles } from "@hd2/schemas/node";
 import { buildSite, type Site } from "../scripts/site/site.ts";
 import { type AppOptions, createApp } from "../src/app.ts";
 import type { CacheLike, Env } from "../src/context.ts";
+import { RateCounter } from "../src/lib/counter.ts";
 
 // Shared fixtures: the synthetic `data/v1` of packages/schemas and the site built from it.
 
@@ -68,6 +69,27 @@ export class FakeRateLimiter {
     const count = (this.#counts.get(key) ?? 0) + 1;
     this.#counts.set(key, count);
     return { success: count <= this.max };
+  }
+}
+
+/** `LIMITER` Durable Object namespace: one real RateCounter per name, on a shared fake clock. */
+export class FakeCounterNamespace {
+  readonly objects = new Map<string, RateCounter>();
+  clock = 1_000_000;
+
+  idFromName(name: string): string {
+    return name;
+  }
+
+  get(id: never): { fetch(url: string): Promise<Response> } {
+    const name = id as string;
+    let object = this.objects.get(name);
+    if (!object) {
+      object = new RateCounter(null, null, () => this.clock);
+      this.objects.set(name, object);
+    }
+    const counter = object;
+    return { fetch: (url: string) => counter.fetch(new Request(url)) };
   }
 }
 

@@ -94,9 +94,10 @@
           Past the limit the answer is a
           <a href="/docs/errors#rate-limited"><code>429</code></a> with
           <code>Retry-After</code>. Every query and search response names its tier in
-          <code>X-API-Tier</code> and its limit in <code>RateLimit-Policy</code>. Limits are counted
-          per Cloudflare location and are approximate; floods are blocked at the edge whatever the
-          tier.
+          <code>X-API-Tier</code>, its limit in <code>RateLimit-Policy</code> and what is left in
+          <code>RateLimit</code> (<code>"anon";r=7;t=42</code>: 7 requests left, the window
+          starts over in 42 s). Windows are fixed and counted per client worldwide; floods are
+          blocked at the edge whatever the tier.
         </p>
       </section>
 

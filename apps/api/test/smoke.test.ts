@@ -21,7 +21,11 @@ const KEY = `hd2_abcdefabcdef_${"k".repeat(43)}`;
 /** Tier headers the Worker sets for the Authorization of `init`. */
 const tierOf = (init?: RequestInit) => {
   const tier = new Headers(init?.headers).get("authorization") === `Bearer ${KEY}` ? "key" : "anon";
-  return { "x-api-tier": tier, "ratelimit-policy": `"${tier}";q=10;w=60` };
+  return {
+    "x-api-tier": tier,
+    "ratelimit-policy": `"${tier}";q=10;w=60`,
+    ratelimit: `"${tier}";r=9;t=60`,
+  };
 };
 
 /** A healthy deployment; `overrides` replaces the answer for one path. */

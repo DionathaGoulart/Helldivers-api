@@ -41,3 +41,14 @@ simple = { limit = 20, period = 10 }
 [vars]
 REVOKED_KEYS = ""
 UNLIMITED_KEYS = "j1t22hqt4af8"
+
+# Exact per-client counts: one Durable Object per bucket (src/lib/counter.ts). The binding above is
+# a free first filter; this is the single count every machine asks. SQLite-backed, as Workers Free
+# requires, though it keeps its window in memory and never writes.
+[[durable_objects.bindings]]
+name = "LIMITER"
+class_name = "RateCounter"
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["RateCounter"]

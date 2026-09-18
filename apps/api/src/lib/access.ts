@@ -2,11 +2,13 @@ import type { MiddlewareHandler } from "hono";
 import type { AppContext, AppEnv, Env } from "../context.ts";
 import { ACCESS_URL } from "../site.ts";
 import { ALLOWED_ORIGINS, TIERS, type Tier } from "../spec/access.ts";
+import { countHit } from "./counter.ts";
 import { parseKeyIds, verifyKey } from "./keys.ts";
 import { type ProblemInit, problemResponse } from "./problem.ts";
 
 // Tier and rate limit of every dynamic request (arch §8.6, ADR-012): a key, else an allowlisted
-// origin (or the docs site itself), else anonymous. Preflights are not counted.
+// origin (or the docs site itself), else anonymous. Preflights are not counted. The rate limiting
+// binding is a free first filter; the `LIMITER` Durable Object then counts exactly (counter.ts).
 
 /** Rate limiting binding (`[[ratelimits]]` in wrangler.toml). */
 export interface RateLimiter {
@@ -142,12 +144,23 @@ export function accessControl(context: AppContext): MiddlewareHandler<AppEnv> {
       return;
     }
     const { binding, limit, period } = TIERS[tier];
-    const headers = { "X-API-Tier": tier, "RateLimit-Policy": policyHeader(tier) };
+    const headers: Record<string, string> = {
+      "X-API-Tier": tier,
+      "RateLimit-Policy": policyHeader(tier),
+    };
 
     const limiter = c.env[binding];
     let allowed = true;
+    let reset: number = period;
     try {
       allowed = limiter ? (await limiter.limit({ key: bucket })).success : true;
+      if (!allowed) headers.RateLimit = `"${tier}";r=0;t=${period}`;
+      if (allowed && c.env.LIMITER) {
+        const counted = await countHit(c.env.LIMITER, bucket, limit, period);
+        allowed = counted.allowed;
+        reset = counted.reset;
+        headers.RateLimit = `"${tier}";r=${counted.remaining};t=${counted.reset}`;
+      }
     } catch (error) {
       // Fail open: the zone's WAF rule still stops floods before they reach the Worker.
       context.log(
@@ -162,10 +175,10 @@ export function accessControl(context: AppContext): MiddlewareHandler<AppEnv> {
           type: "rate-limited",
           detail:
             `${label} may send ${limit} requests per ${period} s${per} to the dynamic routes. ` +
-            `Retry after ${period} s, use the static files (no limit), or ask for more: ` +
+            `Retry after ${reset} s, use the static files (no limit), or ask for more: ` +
             `${ACCESS_URL}.`,
         },
-        { ...headers, "Retry-After": String(period) },
+        { ...headers, "Retry-After": String(reset) },
       );
     }
     await next();

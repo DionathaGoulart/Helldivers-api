@@ -5,7 +5,7 @@ import { allowedHost, ipBucket, policyHeader } from "../src/lib/access.ts";
 import { newKeyId, parseKeyIds, signKey, verifyKey } from "../src/lib/keys.ts";
 import { ACCESS_URL } from "../src/site.ts";
 import { TIERS } from "../src/spec/access.ts";
-import { FakeRateLimiter, harness, readBody } from "./helpers.ts";
+import { FakeCounterNamespace, FakeRateLimiter, harness, readBody } from "./helpers.ts";
 
 const SECRET = "test-secret-with-enough-entropy";
 const PATH = "/v1/query/boosters";
@@ -119,6 +119,47 @@ describe("access control", () => {
     // Another IP has its own budget.
     expect((await h.get(PATH, { "CF-Connecting-IP": "203.0.113.8" })).status).toBe(200);
     expect(env.RL_ANON.keys.at(-1)).toBe("anon:203.0.113.8");
+  });
+
+  it("counts exactly with the Durable Object when the binding lets requests through", async () => {
+    // A binding that never says no: every machine counting only its own share.
+    const permissive = new FakeRateLimiter(Number.POSITIVE_INFINITY);
+    const LIMITER = new FakeCounterNamespace();
+    const h = await harness({}, { RL_ANON: permissive, LIMITER });
+    for (let i = 0; i < TIERS.anon.limit; i++) {
+      const response = await h.get(PATH, IP);
+      expect(response.status).toBe(200);
+      expect(response.headers.get("ratelimit")).toBe(`"anon";r=${TIERS.anon.limit - i - 1};t=60`);
+    }
+    LIMITER.clock += 45_000;
+    const limited = await h.get(PATH, IP);
+    expect(limited.status).toBe(429);
+    expect(limited.headers.get("retry-after")).toBe("15");
+    expect(limited.headers.get("ratelimit")).toBe('"anon";r=0;t=15');
+    expect((await readBody(limited)).detail).toContain("Retry after 15 s");
+    expect([...LIMITER.objects.keys()]).toEqual(["anon:203.0.113.7"]);
+
+    LIMITER.clock += 15_000; // the window is over
+    expect((await h.get(PATH, IP)).status).toBe(200);
+  });
+
+  it("skips the Durable Object once the binding already refuses, and fails open if it throws", async () => {
+    const LIMITER = new FakeCounterNamespace();
+    const h = await harness({}, { RL_ANON: new FakeRateLimiter(0), LIMITER });
+    const refused = await h.get(PATH, IP);
+    expect(refused.status).toBe(429);
+    expect(refused.headers.get("ratelimit")).toBe('"anon";r=0;t=60');
+    expect(LIMITER.objects.size).toBe(0);
+
+    const broken = {
+      idFromName: (name: string) => name,
+      get: () => ({ fetch: async () => new Response("down", { status: 500 }) }),
+    };
+    const h2 = await harness({}, { RL_ANON: new FakeRateLimiter(10), LIMITER: broken });
+    const response = await h2.get(PATH, IP);
+    expect(response.status).toBe(200);
+    expect(response.headers.has("ratelimit")).toBe(false);
+    expect(h2.logs.join("\n")).toContain("counter answered HTTP 500");
   });
 
   it("gives the docs site and allowlisted origins the origin tier, per visitor", async () => {

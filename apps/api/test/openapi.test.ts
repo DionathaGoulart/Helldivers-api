@@ -57,6 +57,7 @@ describe("openapi", () => {
       expect(Object.keys(get.responses["429"]?.headers ?? {})).toEqual([
         "X-API-Tier",
         "RateLimit-Policy",
+        "RateLimit",
         "Retry-After",
       ]);
     }

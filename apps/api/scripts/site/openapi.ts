@@ -195,6 +195,10 @@ const tierHeaders = {
     description: 'Limit of that tier, e.g. `"anon";q=10;w=60` (10 requests per 60 s).',
     schema: { type: "string" },
   },
+  RateLimit: {
+    description: 'What is left, e.g. `"anon";r=7;t=42` (7 requests, window starts over in 42 s).',
+    schema: { type: "string" },
+  },
 };
 
 /**

@@ -11,3 +11,6 @@ declare const caches: { readonly default: CacheLike };
 const app = createApp({ build: __BUILD_INFO__, cache: () => caches.default });
 
 export default { fetch: app.fetch };
+
+// The `LIMITER` Durable Object class (wrangler.toml [[durable_objects.bindings]]).
+export { RateCounter } from "./lib/counter.ts";
