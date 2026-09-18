@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "Free, public, read-only JSON API with the Helldivers 2 catalog, built from The Helldivers Wiki.",
-  "license": "MIT",
+  "license": "CC-BY-NC-SA-4.0",
   "type": "module",
   "packageManager": "pnpm@11.21.0",
   "engines": {

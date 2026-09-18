@@ -5,7 +5,8 @@
 [![data](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhelldivers-api.pages.dev%2Fv1%2Fmeta.json&query=%24.dataVersion&label=data&color=blue)](https://helldivers-api.pages.dev/v1/meta.json)
 
 Free, public, read-only JSON API with the Helldivers 2 item catalog, fed by a daily scraper of
-[The Helldivers Wiki](https://helldivers.wiki.gg).
+[The Helldivers Wiki](https://helldivers.wiki.gg). Every piece of data here is the work of the
+wiki's editors — see [Credits and license](#credits-and-license).
 
 944 entities across 14 collections: weapons, stratagems, armors, helmets, capes, armor sets,
 boosters, armor passives, equipment traits, player cards, emotes, patterns, titles and warbonds.
@@ -202,16 +203,35 @@ Parser fixes, new overrides and data reports are welcome — see
 [`CONTRIBUTING.md`](CONTRIBUTING.md) for the fixtures-first workflow and how to run the whole thing
 offline. Security reports go through [`SECURITY.md`](SECURITY.md).
 
-## License and credit
+## Credits and license
 
-Code is MIT ([`LICENSE`](LICENSE)).
+**Thank you to [The Helldivers Wiki](https://helldivers.wiki.gg) and everyone who edits it.** Every
+name, stat, cost and description in this API was written, checked and kept current by the wiki's
+community, patch after patch. This project only reads their pages once a day and reshapes them into
+JSON — the hard part is theirs. Thanks as well to the editors of the original Helldivers Fandom wiki,
+where the older pages started.
 
-The **data is not** — it is the community's. Page content on
-[The Helldivers Wiki](https://helldivers.wiki.gg) is
-[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (pages from before February
-2024 are adapted from the Fandom wiki and CC BY-SA), so anything you build on this catalog inherits
-attribution, non-commercial and share-alike terms. Every item carries its `wiki.url` so the
-attribution travels with the record. Images are the game's, served for identification only.
+If the data helps you, give back where it comes from: when a page is wrong or missing, fix it on
+the wiki, and the next daily run picks it up.
+
+Made by [Dionatha Goulart](https://github.com/DionathaGoulart). The whole project, code and data,
+is [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) ([`LICENSE`](LICENSE)),
+the same license as the wiki:
+
+- **Free for any non-commercial use.** Bots, overlays, build planners, spreadsheets: copy it, fork
+  it, change it. No need to ask.
+- **No commercial use.** No selling the data, reselling the API or putting it behind a paywall.
+- **Credit both** Dionatha Goulart and The Helldivers Wiki, with links. Every item carries its
+  `wiki.url`, so the attribution travels with the record. For example:
+
+  > Data from the [Helldivers 2 Data API](https://github.com/DionathaGoulart/Helldivers-api) by
+  > Dionatha Goulart, adapted from [The Helldivers Wiki](https://helldivers.wiki.gg),
+  > CC BY-NC-SA 4.0.
+
+- **Share alike.** Adaptations you share (a modified dataset, a fork) keep this license.
+
+Pages from before February 2024 are adapted from the Fandom wiki and stay CC BY-SA. Images are the
+game's, served for identification only, and not covered by the license.
 
 Helldivers 2 is Arrowhead Game Studios'; this project is unofficial and not affiliated with
 Arrowhead, Sony or wiki.gg.

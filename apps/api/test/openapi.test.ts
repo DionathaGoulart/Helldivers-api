@@ -37,7 +37,7 @@ describe("openapi", () => {
     const { info, externalDocs, servers } = site.openapi;
     expect(info.title).toBe("Helldivers 2 Data API");
     expect(info.version).toBe("v1");
-    expect(info.license).toEqual({ name: "MIT", identifier: "MIT" });
+    expect(info.license).toEqual({ name: "CC BY-NC-SA 4.0", identifier: "CC-BY-NC-SA-4.0" });
     expect(info.contact).toHaveProperty("url", "https://github.com/DionathaGoulart/Helldivers-api");
     expect(externalDocs).toHaveProperty("url", "https://helldivers-api.pages.dev/");
     expect(servers[0]).toHaveProperty("url", "https://helldivers-api.pages.dev");

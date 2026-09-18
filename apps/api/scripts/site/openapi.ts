@@ -512,7 +512,7 @@ export function buildOpenApi(data: SiteData): OpenApiDocument {
         `Every entity also has a standalone JSON Schema under \`/v1/schemas/\`, and the dataset it was`,
         "built from is named by `x-data-version`.",
       ].join("\n"),
-      license: { name: "MIT", identifier: "MIT" },
+      license: { name: "CC BY-NC-SA 4.0", identifier: "CC-BY-NC-SA-4.0" },
       contact: { name: "Source on GitHub", url: REPO_URL },
     },
     servers: [{ url: SITE_URL }],

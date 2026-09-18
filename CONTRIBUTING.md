@@ -8,6 +8,10 @@ Thanks for looking. Three kinds of help are useful here, in descending order of 
    surface are frozen for v1, and live Galactic War data, enemies, planets and attachments are out
    of scope.
 
+By contributing, you agree that your contribution is licensed under
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/), like the rest of the project
+(see [`LICENSE`](LICENSE)).
+
 ## Reporting a data error
 
 Open a [data error issue](../../issues/new?template=data-error.yml) with the item URL, the field,
