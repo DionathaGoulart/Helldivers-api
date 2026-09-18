@@ -57,9 +57,11 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+      # A throwaway key secret, so smoke exercises the key tier and the 401 on a bad key.
       - name: Start wrangler dev
         working-directory: apps/api
         run: |
+          echo "API_KEY_SECRET=$(openssl rand -base64 32)" > .dev.vars
           pnpm exec wrangler dev --port 8000 > "$RUNNER_TEMP/wrangler-dev.log" 2>&1 &
           for _ in $(seq 1 60); do
             if curl -sf http://localhost:8000/v1/meta.json > /dev/null; then exit 0; fi
@@ -67,7 +69,7 @@ jobs:
           done
           cat "$RUNNER_TEMP/wrangler-dev.log"
           exit 1
-      # GitHub has no B2 read key (arch §12), so images are checked only after deploy.
-      - run: pnpm smoke --base http://localhost:8000 --skip-images --wait-seconds 0
+      # CI builds without `pnpm images:pull` (no B2 key), so images are checked only after deploy.
+      - run: pnpm smoke --base http://localhost:8000 --skip-images --wait-seconds 0 --key "$(pnpm --silent key:issue)"
       - if: failure()
         run: cat "$RUNNER_TEMP/wrangler-dev.log"

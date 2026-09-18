@@ -119,6 +119,25 @@
         </div>
       </section>
 
+      <section class="panel" id="invalid-key">
+        <div class="window-bar">
+          <span class="window-bar-title">401 · INVALID-KEY</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            The request sent an <code>Authorization</code> header, and it is not a valid API key:
+            not <code>Bearer hd2_…</code>, a key with a typo, or a key that was revoked. The
+            response carries <code>WWW-Authenticate: Bearer</code>.
+          </p>
+          <p class="hint">
+            Fix: copy the key again, exactly as you got it. To use the anonymous limits instead,
+            send no <code>Authorization</code> header at all. A lost or leaked key is replaced, not
+            recovered — <a href="/docs/access">ask for a new one</a>.
+          </p>
+        </div>
+      </section>
+
       <section class="panel" id="not-found">
         <div class="window-bar">
           <span class="window-bar-title">404 · NOT-FOUND</span>
@@ -126,14 +145,12 @@
         </div>
         <div class="panel-body">
           <p>
-            The dynamic route does not exist: an unknown collection under
-            <code>/v1/query/</code>, a path that is not a route at all, or an image URL that is not
-            a published key.
+            The dynamic route does not exist: an unknown collection under <code>/v1/query/</code>.
           </p>
           <p class="hint">
-            Fix: collection names are in <a href="/v1/meta.json">/v1/meta.json</a>. Image URLs come
-            from an entity's <code>image.url</code> and are content-hashed — never build one by
-            hand.
+            Fix: collection names are in <a href="/v1/meta.json">/v1/meta.json</a>. A missing static
+            file — an item, a facet, an image URL built by hand instead of read from
+            <code>image.url</code> — gets the static host's 404 page instead.
           </p>
         </div>
       </section>
@@ -149,6 +166,26 @@
             <code>OPTIONS</code> are answered; the response repeats them in <code>Allow</code>.
           </p>
           <p class="hint">Fix: use <code>GET</code>.</p>
+        </div>
+      </section>
+
+      <section class="panel" id="rate-limited">
+        <div class="window-bar">
+          <span class="window-bar-title">429 · RATE-LIMITED</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p>
+            <code>/v1/query/*</code> and <code>/v1/search</code> count requests per client:
+            anonymous clients by IP, allowlisted sites by visitor, keys by key. The
+            <code>detail</code> names your limit, <code>RateLimit-Policy</code> repeats it and
+            <code>Retry-After</code> says how many seconds to wait. Static files are never limited.
+          </p>
+          <p class="hint">
+            Fix: wait <code>Retry-After</code> seconds. For anything regular, read the static files
+            instead — a facet, a collection or <code>/v1/all.json</code> once a day — and filter
+            locally. Need more? <a href="/docs/access">Ask for access</a>.
+          </p>
         </div>
       </section>
 

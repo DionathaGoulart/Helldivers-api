@@ -16,3 +16,25 @@ binding = "ASSETS"
 not_found_handling = "404-page"
 html_handling = "auto-trailing-slash"
 run_worker_first = ["/v1/query/*", "/v1/search"]
+
+# Per-client limits of the dynamic routes: one binding per tier (`TIERS` in src/spec/access.ts,
+# checked by test/access.test.ts). Counted per Cloudflare location, approximate by design; the
+# zone's WAF rule stops floods before they reach the Worker.
+[[ratelimits]]
+name = "RL_ANON"
+namespace_id = "7101"
+simple = { limit = 10, period = 60 }
+
+[[ratelimits]]
+name = "RL_ORIGIN"
+namespace_id = "7102"
+simple = { limit = 10, period = 10 }
+
+[[ratelimits]]
+name = "RL_KEY"
+namespace_id = "7103"
+simple = { limit = 20, period = 10 }
+
+# Revoked API keys, by id (comma-separated). Ids are not secret; a revocation ships with a deploy.
+[vars]
+REVOKED_KEYS = ""

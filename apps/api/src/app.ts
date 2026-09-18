@@ -2,6 +2,7 @@ import { Collection } from "@hd2/schemas";
 import { Hono } from "hono";
 import type { BuildInfo } from "./build-info.ts";
 import type { AppContext, AppEnv, CacheLike } from "./context.ts";
+import { accessControl } from "./lib/access.ts";
 import { ALLOWED_METHODS, preflight } from "./lib/cors.ts";
 import { DataLoader } from "./lib/data-loader.ts";
 import { problemResponse } from "./lib/problem.ts";
@@ -42,6 +43,7 @@ export function createApp(options: AppOptions): Hono<AppEnv> {
     return;
   });
   app.use(preflight);
+  app.use(accessControl(context));
   registerQuery(app, context);
   registerSearch(app, context);
 

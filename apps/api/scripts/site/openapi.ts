@@ -31,6 +31,7 @@ import { ERRORS_URL, PROBLEM_TYPES, type ProblemType } from "../../src/lib/probl
 import { MIN_QUERY_LENGTH } from "../../src/lib/text.ts";
 import { SEARCH_DEFAULT_LIMIT, SEARCH_MAX_LIMIT } from "../../src/routes/search.ts";
 import { SearchIndex } from "../../src/search-index.ts";
+import { REPO_URL, SITE_URL } from "../../src/site.ts";
 import {
   DEFAULT_LIMIT,
   type Filters,
@@ -52,9 +53,6 @@ import { FACETS } from "./facets.ts";
 // `/v1/openapi.json` (ADR-010): OpenAPI 3.1 generated from the zod schemas (`z.toJSONSchema`
 // with a registry → `components.schemas`), the filter table and the facet table. The same tables
 // drive the Worker and the static export, so the document cannot drift from what is served.
-
-export const SITE_URL = "https://helldivers-api.pages.dev";
-export const REPO_URL = "https://github.com/DionathaGoulart/Helldivers-api";
 
 type JsonObject = Record<string, unknown>;
 

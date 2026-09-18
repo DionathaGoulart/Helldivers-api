@@ -8,6 +8,8 @@
     "dev": "tsx scripts/build.ts && wrangler dev --port 8000",
     "smoke": "tsx scripts/smoke.ts",
     "images:pull": "tsx scripts/images.ts",
+    "key:issue": "tsx scripts/keys.ts issue",
+    "key:check": "tsx scripts/keys.ts check",
     "test": "vitest run",
     "typecheck": "tsc -p tsconfig.json"
   },

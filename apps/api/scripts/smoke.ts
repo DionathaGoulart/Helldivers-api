@@ -4,7 +4,8 @@ import { parseArgs } from "node:util";
 import { runSmoke } from "./smoke/checks.ts";
 
 // Usage: pnpm smoke --base <url> [--skip-images] [--data-version <v>] [--build-id <id>]
-//        [--wait-seconds 120]
+//        [--wait-seconds 120] [--key <hd2_…>]   (the key defaults to SMOKE_API_KEY; without one
+//        the dynamic checks run anonymously, 5 requests of the anon budget)
 // The expected dataVersion defaults to <DATA_DIR>/v1/meta.json (DATA_DIR relative to the repo
 // root) and the expected build id to the `X-Build-Id` of the built `dist/_headers`, so smoke
 // waits for the deployment it was built from even when the dataset did not change.
@@ -15,6 +16,7 @@ const { values } = parseArgs({
     "data-version": { type: "string" },
     "build-id": { type: "string" },
     "wait-seconds": { type: "string", default: "120" },
+    key: { type: "string" },
   },
 });
 
@@ -43,6 +45,7 @@ const failures = await runSmoke(
     dataVersion,
     buildId,
     skipImages: values["skip-images"],
+    apiKey: values.key || process.env.SMOKE_API_KEY || null,
     waitMs: Number(values["wait-seconds"]) * 1000,
     retryMs: 10_000,
   },

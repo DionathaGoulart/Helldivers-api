@@ -56,6 +56,21 @@ export class MemoryCache implements CacheLike {
   }
 }
 
+/** Rate limiting binding: allows `limit` requests per key, then refuses; records every key. */
+export class FakeRateLimiter {
+  readonly keys: string[] = [];
+  readonly #counts = new Map<string, number>();
+
+  constructor(readonly max: number) {}
+
+  async limit({ key }: { key: string }): Promise<{ success: boolean }> {
+    this.keys.push(key);
+    const count = (this.#counts.get(key) ?? 0) + 1;
+    this.#counts.set(key, count);
+    return { success: count <= this.max };
+  }
+}
+
 export class FakeExecutionContext {
   readonly pending: Promise<unknown>[] = [];
   readonly props = {};

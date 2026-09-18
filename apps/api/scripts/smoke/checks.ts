@@ -7,7 +7,8 @@ export interface SmokeOptions {
   base: string; // https://helldivers-api.pages.dev or http://localhost:8000
   dataVersion: string; // expected in /v1/meta.json
   buildId: string; // expected in the X-Build-Id header; `dev` waits on the dataset only
-  skipImages: boolean; // GitHub has no B2 read key (arch §12)
+  skipImages: boolean; // a build without `pnpm images:pull` has no images
+  apiKey: string | null; // sent on the dynamic checks; null checks them anonymously
   waitMs: number; // how long a new deploy may take to reach the edge
   retryMs: number;
 }
@@ -20,6 +21,9 @@ export interface SmokeDeps {
 }
 
 export const ITEM_PATH = "/v1/weapons/ar-23-liberator.json";
+
+/** Well formed, signed by nobody: a deployment that checks keys answers 401. */
+export const BAD_KEY = `hd2_000000000000_${"A".repeat(43)}`;
 
 /** Every problem type has a section on `/docs/errors` (arch §8.3, plan §8 Phase 6). */
 const PROBLEM_SLUGS = Object.keys(PROBLEM_TYPES);
@@ -62,6 +66,12 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
       deps.log(`FAIL  ${name} · ${reason}`);
     }
   };
+
+  // The dynamic checks run as the smoke key when there is one, so they never eat the anon budget.
+  const auth: Record<string, string> = options.apiKey
+    ? { Authorization: `Bearer ${options.apiKey}` }
+    : {};
+  const tier = options.apiKey ? "key" : "anon";
 
   let item: { data: { image: { url: string } | null } } | undefined;
 
@@ -167,10 +177,12 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
 
   await check("query + revalidation", async () => {
     const path = "/v1/query/weapons?category=primary";
-    const { response, ms } = await request(path);
+    const { response, ms } = await request(path, { headers: auth });
     expect(response.status === 200, `HTTP ${response.status}`);
     expectHeader(response, "access-control-allow-origin", "*");
     expectHeader(response, "x-data-version", options.dataVersion);
+    expectHeader(response, "x-api-tier", tier);
+    expectHeader(response, "ratelimit-policy", new RegExp(`^"${tier}";q=\\d+;w=\\d+$`));
     expectHeader(
       response,
       "etag",
@@ -179,14 +191,16 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     const body = (await response.json()) as { meta: { total: number } };
     expect(body.meta.total > 0, "no primary weapons");
     const revalidated = await request(path, {
-      headers: { "If-None-Match": response.headers.get("etag") ?? "" },
+      headers: { ...auth, "If-None-Match": response.headers.get("etag") ?? "" },
     });
     expect(revalidated.response.status === 304, `revalidation HTTP ${revalidated.response.status}`);
     return `200 ${body.meta.total} items ${ms} ms · 304 ${revalidated.ms} ms`;
   });
 
   await check("invalid filter", async () => {
-    const { response, ms } = await request("/v1/query/weapons?category=primray");
+    const { response, ms } = await request("/v1/query/weapons?category=primray", {
+      headers: auth,
+    });
     expect(response.status === 400, `HTTP ${response.status}`);
     expectHeader(response, "content-type", "application/problem+json");
     const body = (await response.json()) as { title?: string };
@@ -195,11 +209,22 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
   });
 
   await check("search", async () => {
-    const { response, ms } = await request("/v1/search?q=lib");
+    const { response, ms } = await request("/v1/search?q=lib", { headers: auth });
     expect(response.status === 200, `HTTP ${response.status}`);
     const body = (await response.json()) as { data: unknown[] };
     expect(body.data.length > 0, "no results");
     return `200 ${body.data.length} results ${ms} ms`;
+  });
+
+  // A deployment without API_KEY_SECRET would let this through as anonymous.
+  await check("invalid key", async () => {
+    const { response, ms } = await request("/v1/search?q=lib", {
+      headers: { Authorization: `Bearer ${BAD_KEY}` },
+    });
+    expect(response.status === 401, `HTTP ${response.status}`);
+    expectHeader(response, "www-authenticate", /^Bearer /);
+    expectHeader(response, "content-type", "application/problem+json");
+    return `401 ${ms} ms`;
   });
 
   if (options.skipImages) {

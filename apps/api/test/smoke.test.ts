@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { runSmoke, type SmokeDeps, type SmokeOptions } from "../scripts/smoke/checks.ts";
+import { BAD_KEY, runSmoke, type SmokeDeps, type SmokeOptions } from "../scripts/smoke/checks.ts";
 import { PROBLEM_TYPES } from "../src/lib/problem.ts";
 
 const VERSION = "2026-09-17.2d3c0c72";
@@ -17,6 +17,12 @@ const errorsPage = () =>
   );
 const json = (body: unknown, headers: Record<string, string> = {}, status = 200) =>
   new Response(JSON.stringify(body), { status, headers: { ...cors, ...headers } });
+const KEY = `hd2_abcdefabcdef_${"k".repeat(43)}`;
+/** Tier headers the Worker sets for the Authorization of `init`. */
+const tierOf = (init?: RequestInit) => {
+  const tier = new Headers(init?.headers).get("authorization") === `Bearer ${KEY}` ? "key" : "anon";
+  return { "x-api-tier": tier, "ratelimit-policy": `"${tier}";q=10;w=60` };
+};
 
 /** A healthy deployment; `overrides` replaces the answer for one path. */
 function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) {
@@ -49,14 +55,27 @@ function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) 
         ? new Response(null, { status: 304 })
         : json(
             { meta: { total: 54 } },
-            { "x-data-version": VERSION, etag: `W/"${VERSION}-0123456789abcdef"` },
+            {
+              "x-data-version": VERSION,
+              etag: `W/"${VERSION}-0123456789abcdef"`,
+              ...tierOf(init),
+            },
           ),
     "/v1/query/weapons?category=primray": () =>
       new Response(JSON.stringify({ title: "Invalid filter value" }), {
         status: 400,
         headers: { "content-type": "application/problem+json" },
       }),
-    "/v1/search?q=lib": () => json({ data: [{}] }),
+    "/v1/search?q=lib": (init) =>
+      new Headers(init?.headers).get("authorization") === `Bearer ${BAD_KEY}`
+        ? new Response("{}", {
+            status: 401,
+            headers: {
+              "content-type": "application/problem+json",
+              "www-authenticate": 'Bearer realm="x"',
+            },
+          })
+        : json({ data: [{}] }),
     [IMAGE]: (init) =>
       revalidating(init)
         ? new Response(null, { status: 304 })
@@ -93,6 +112,7 @@ const options: SmokeOptions = {
   dataVersion: VERSION,
   buildId: BUILD,
   skipImages: false,
+  apiKey: null,
   waitMs: 120_000,
   retryMs: 10_000,
 };
@@ -101,7 +121,19 @@ describe("runSmoke", () => {
   it("passes against a healthy deployment", async () => {
     const { deps, lines } = site();
     expect(await runSmoke(options, deps)).toEqual([]);
-    expect(lines.filter((line) => line.startsWith("ok"))).toHaveLength(12);
+    expect(lines.filter((line) => line.startsWith("ok"))).toHaveLength(13);
+  });
+
+  it("sends the smoke key on the dynamic checks and expects the key tier", async () => {
+    const { deps } = site();
+    expect(await runSmoke({ ...options, apiKey: KEY }, deps)).toEqual([]);
+    const anonymous = site({
+      "/v1/query/weapons?category=primary": () =>
+        json({ meta: { total: 54 } }, { "x-data-version": VERSION, ...tierOf() }),
+    });
+    expect(await runSmoke({ ...options, apiKey: KEY }, anonymous.deps)).toEqual([
+      "query + revalidation: x-api-tier: expected key, got anon",
+    ]);
   });
 
   it("waits for the new dataVersion to reach the edge", async () => {
@@ -150,6 +182,7 @@ describe("runSmoke", () => {
       "/v1/weapons": () => new Response("<html>", { status: 200 }), // _redirects missing
       "/v1/weapons/does-not-exist.json": () => new Response("<html>", { status: 200 }), // SPA fallback
       "/v1/query/weapons?category=primary": () => new Response("<html>", { status: 200 }), // run_worker_first
+      "/v1/search?q=lib": () => json({ data: [{}] }), // no API_KEY_SECRET: keys pass as anon
       [IMAGE]: () => json({}, {}, 503),
       "/docs/errors": () => html('<section id="not-found">'), // an anchor was dropped
     });
@@ -157,8 +190,9 @@ describe("runSmoke", () => {
       "redirect: HTTP 200",
       "missing file: HTTP 200",
       "docs pages: /docs/errors has no anchor for unknown-parameter, invalid-filter-value, " +
-        "invalid-parameter, method-not-allowed, internal-error",
+        "invalid-parameter, invalid-key, method-not-allowed, rate-limited, internal-error",
       "query + revalidation: access-control-allow-origin: expected *, got none",
+      "invalid key: HTTP 200",
       "image: HTTP 503",
     ]);
   });

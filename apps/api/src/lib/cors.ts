@@ -5,7 +5,8 @@ import type { MiddlewareHandler } from "hono";
 
 export const CORS_HEADERS = {
   "Access-Control-Allow-Origin": "*",
-  "Access-Control-Expose-Headers": "ETag, X-Data-Version",
+  "Access-Control-Expose-Headers":
+    "ETag, X-Data-Version, X-API-Tier, RateLimit-Policy, Retry-After",
 } as const;
 
 export const ALLOWED_METHODS = "GET, HEAD, OPTIONS";

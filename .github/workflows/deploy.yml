@@ -61,8 +61,12 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+      # SMOKE_API_KEY: a production key (`pnpm key:issue` with the production secret), so the checks
+      # do not spend the anonymous budget of the runner's IP.
       - id: smoke
         run: pnpm smoke --base https://helldivers-api.pages.dev
+        env:
+          SMOKE_API_KEY: ${{ secrets.SMOKE_API_KEY }}
       # A failed deploy keeps the previous deployment live; the issue says which step broke.
       - name: Alert
         if: failure()

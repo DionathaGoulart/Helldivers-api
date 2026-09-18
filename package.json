@@ -18,6 +18,8 @@
     "dev": "pnpm --filter @hd2/api dev",
     "smoke": "tsx apps/api/scripts/smoke.ts",
     "images:pull": "tsx apps/api/scripts/images.ts",
+    "key:issue": "tsx apps/api/scripts/keys.ts issue",
+    "key:check": "tsx apps/api/scripts/keys.ts check",
     "scrape": "tsx packages/scraper/src/cli.ts",
     "alert": "tsx packages/scraper/scripts/alert.ts",
     "keepalive": "tsx scripts/keepalive.ts",

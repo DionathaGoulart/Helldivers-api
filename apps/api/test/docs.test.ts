@@ -2,8 +2,8 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { Collection } from "@hd2/schemas";
 import { describe, expect, it } from "vitest";
-import { SITE_URL } from "../scripts/site/openapi.ts";
 import { ERRORS_URL, PROBLEM_TYPES } from "../src/lib/problem.ts";
+import { SITE_URL } from "../src/site.ts";
 
 // The pages of `apps/docs` are hand-written (arch §9) while the data they point at is generated,
 // so these tests hold the two together: a new collection needs a card, a new problem type needs a

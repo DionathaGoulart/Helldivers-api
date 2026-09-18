@@ -1,2 +1,6 @@
 # Worker secrets for `wrangler dev` (copy to .dev.vars, never commit). Production values are set
 # once with `wrangler secret put`.
+
+# Signs and checks API keys (`pnpm key:issue`). Any long random string, e.g.
+# `openssl rand -base64 32`; a different one from production, so a local key never works there.
+API_KEY_SECRET=

@@ -188,7 +188,8 @@ describe("GET /v1/query/<collection>", () => {
       "content-type": "application/json; charset=utf-8",
       "cache-control": "public, max-age=300, s-maxage=86400",
       "access-control-allow-origin": "*",
-      "access-control-expose-headers": "ETag, X-Data-Version",
+      "access-control-expose-headers":
+        "ETag, X-Data-Version, X-API-Tier, RateLimit-Policy, Retry-After",
       "x-data-version": h.site.build.dataVersion,
       "x-content-type-options": "nosniff",
       etag: dynamicETag(
