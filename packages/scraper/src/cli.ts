@@ -4,11 +4,11 @@ import { parseArgs } from "node:util";
 import { Collection } from "@hd2/schemas";
 import { z } from "zod";
 import { ScraperEnv } from "./config.ts";
-import { DrillSource, drillFetch, drillStore } from "./drill.ts";
+import { DrillSource, drillBackend, drillFetch } from "./drill.ts";
 import { HttpCache } from "./http/cache.ts";
 import { HttpClient } from "./http/client.ts";
 import { DEFAULT_PACING } from "./http/queue.ts";
-import { B2Store, type ImageStore } from "./images/b2.ts";
+import { B2Store } from "./images/b2.ts";
 import { WikiImageFetcher } from "./images/download.ts";
 import { sharpEncoder } from "./images/encode.ts";
 import { jsonLogger } from "./log.ts";
@@ -71,8 +71,6 @@ const http = values.offline
       ...(drill === "blocked" ? { fetch: drillFetch(), retryDelaysMs: [100, 100, 100] } : {}),
     });
 
-const withDrilledStore = (store: ImageStore) => (drill === "images" ? drillStore(store) : store);
-
 // Online runs upload images; offline runs only reuse data/v1/reports/images.json.
 const { B2_S3_ENDPOINT, B2_BUCKET, B2_WRITE_KEY_ID, B2_WRITE_APP_KEY } = env.data;
 if (http && !(B2_S3_ENDPOINT && B2_BUCKET && B2_WRITE_KEY_ID && B2_WRITE_APP_KEY)) {
@@ -81,21 +79,20 @@ if (http && !(B2_S3_ENDPOINT && B2_BUCKET && B2_WRITE_KEY_ID && B2_WRITE_APP_KEY
   );
   process.exit(1);
 }
-const images =
+const backend =
   http && B2_S3_ENDPOINT && B2_BUCKET && B2_WRITE_KEY_ID && B2_WRITE_APP_KEY
     ? {
         fetcher: new WikiImageFetcher(http),
         encoder: sharpEncoder,
-        store: withDrilledStore(
-          new B2Store({
-            endpoint: B2_S3_ENDPOINT,
-            bucket: B2_BUCKET,
-            keyId: B2_WRITE_KEY_ID,
-            appKey: B2_WRITE_APP_KEY,
-          }),
-        ),
+        store: new B2Store({
+          endpoint: B2_S3_ENDPOINT,
+          bucket: B2_BUCKET,
+          keyId: B2_WRITE_KEY_ID,
+          appKey: B2_WRITE_APP_KEY,
+        }),
       }
     : null;
+const images = backend && drill === "images" ? drillBackend(backend) : backend;
 
 const wiki = http
   ? new OnlineSource(http)

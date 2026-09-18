@@ -1,4 +1,5 @@
-import { B2Error, type ImageStore } from "./images/b2.ts";
+import type { ImageBackend } from "./images/attach.ts";
+import { B2Error } from "./images/b2.ts";
 import type { WikiPage, WikiSource } from "./source.ts";
 import { loadHtml } from "./wiki/html.ts";
 
@@ -97,11 +98,19 @@ export function drillFetch(): (request: Request) => Promise<Response> {
     );
 }
 
-/** Refuses every upload: the images step fails and no entity points at a missing picture. */
-export function drillStore(store: ImageStore): ImageStore {
+/**
+ * Refuses every upload: the images step fails and no entity points at a missing picture. A real
+ * run finds every picture in the manifest and in the bucket and never uploads, so the drill
+ * forgets both and each picture is fetched, encoded and refused.
+ */
+export function drillBackend(backend: ImageBackend): ImageBackend {
   return {
-    exists: (key) => store.exists(key),
-    put: (key) => Promise.reject(new B2Error("PUT", key, 500, "drill: upload refused")),
-    delete: (key) => store.delete(key),
+    ...backend,
+    reuseManifest: false,
+    store: {
+      exists: () => Promise.resolve(false),
+      put: (key) => Promise.reject(new B2Error("PUT", key, 500, "drill: upload refused")),
+      delete: (key) => backend.store.delete(key),
+    },
   };
 }

@@ -2,7 +2,7 @@ import { cp, mkdtemp, readdir, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join, relative } from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
-import { DrillSource, drillFetch, drillStore } from "../src/drill.ts";
+import { DrillSource, drillBackend, drillFetch } from "../src/drill.ts";
 import { HttpClient } from "../src/http/client.ts";
 import type { ImageBackend } from "../src/images/attach.ts";
 import { silentLogger } from "../src/log.ts";
@@ -71,14 +71,13 @@ describe("SCRAPER_DRILL", () => {
   );
 
   it("images fails when the bucket refuses the uploads", async () => {
-    // Without the manifest every picture is uploaded again, which is what the drill refuses.
-    await rm(join(dataDir, "v1", "reports", "images.json"));
+    // The published manifest already holds every booster picture: a plain run uploads nothing,
+    // so the drill has to get past the manifest to reach the refused PUT.
+    const plain = await run(new FixtureSource(FIXTURES_DIR), fakeBackend());
+    expect(plain.images?.reused).toBeGreaterThan(0);
+    expect(plain.images?.uploaded).toBe(0);
     const published = await readTree(join(dataDir, "v1"));
-    const backend = fakeBackend();
-    const report = await run(new FixtureSource(FIXTURES_DIR), {
-      ...backend,
-      store: drillStore(backend.store),
-    });
+    const report = await run(new FixtureSource(FIXTURES_DIR), drillBackend(fakeBackend()));
     expect(report.failure?.kind).toBe("images");
     expect(report.failure?.messages.join(" ")).toContain("drill: upload refused");
     expect(await readTree(join(dataDir, "v1"))).toEqual(published);

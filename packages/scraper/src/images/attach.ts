@@ -36,6 +36,7 @@ export interface ImageBackend {
   fetcher: ImageFetcher;
   encoder: ImageEncoder;
   store: ImageStore;
+  reuseManifest?: boolean; // false: every picture is fetched and offered to the store (images drill)
 }
 
 export interface ImageStats {
@@ -128,9 +129,8 @@ export async function attachImages(input: AttachImagesInput): Promise<AttachImag
     bytes: 0,
   };
 
-  const entries = new Map<string, ImageManifestEntry>(
-    (previous?.images ?? []).map((entry) => [entry.url, entry]),
-  );
+  const reusable = backend?.reuseManifest === false ? [] : (previous?.images ?? []);
+  const entries = new Map<string, ImageManifestEntry>(reusable.map((entry) => [entry.url, entry]));
   const byBase = new Map<string, ImageManifestEntry[]>();
   for (const entry of entries.values()) {
     byBase.set(baseOf(entry.url), [...(byBase.get(baseOf(entry.url)) ?? []), entry]);
