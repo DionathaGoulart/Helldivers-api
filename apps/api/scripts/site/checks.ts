@@ -16,6 +16,8 @@ export const REQUIRED_PAGES = [
   "docs/errors.html",
   "docs/access.html",
   "docs/reference.js",
+  "examples.html",
+  "examples.js",
 ];
 export const MAX_FILE_BYTES = 25 * 1024 * 1024;
 

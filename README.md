@@ -17,6 +17,9 @@ stats, an image and the wiki URL it came from.
 - **Docs:** [/docs/](https://helldivers-api.dionatha.com.br/docs/) · errors at
   [/docs/errors](https://helldivers-api.dionatha.com.br/docs/errors) · OpenAPI 3.1 at
   [/v1/openapi.json](https://helldivers-api.dionatha.com.br/v1/openapi.json)
+- **Examples:** [/examples](https://helldivers-api.dionatha.com.br/examples) — armor sets,
+  weapons, stratagems and the rest laid out like a normal site, with a button that reveals the
+  code, every request and the JSON behind each section
 - **No key, no signup to start.** Static files are free and unlimited; query and search have a
   small anonymous limit and more on request — see [Limits and access](#limits-and-access). CORS is
   open to every origin.

@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Examples · Helldivers 2 Data API</title>
+    <meta
+      name="description"
+      content="The Helldivers 2 Data API in use: armor sets, weapons, stratagems, warbonds and cosmetics fetched live, with every request and response one click away."
+    />
+    <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/app.js" defer></script>
+    <script src="/examples.js" defer></script>
+    <style>
+      /* Examples page layout. Structure only: every colour, frame and shadow comes from theme.css. */
+      .ex-page {
+        max-width: 80rem;
+      }
+
+      /* `Show requests` flips the whole page between the site and the requests behind it. */
+      .req {
+        display: none;
+      }
+
+      .ex-reveal .req {
+        display: block;
+      }
+
+      .ex-bar {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        /* Wider than the page by the card shadow, which would otherwise show past its edge. */
+        margin: 0 -0.5rem;
+        padding: 0.75rem 0.5rem;
+        background: var(--base-100);
+        border-bottom: var(--frame-border) solid var(--base-300);
+      }
+
+      .ex-bar nav {
+        display: flex;
+        flex: 1;
+        gap: 0.5rem;
+        overflow-x: auto;
+        padding: 0.25rem 0.25rem 0.25rem 0;
+      }
+
+      .ex-bar .icon-btn {
+        flex: none;
+      }
+
+      .ex-bar .icon-btn[aria-pressed="true"],
+      .cta-row .btn-goodchat[aria-pressed="true"] {
+        background: var(--accent);
+        color: var(--accent-content);
+      }
+
+      .ex-section {
+        scroll-margin-top: 5rem;
+      }
+
+      .ex-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(min(13.5rem, 100%), 1fr));
+        gap: 1rem;
+      }
+
+      .ex-card {
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+      }
+
+      .ex-media {
+        margin: 0;
+        aspect-ratio: 16 / 9;
+        min-height: 0; /* the ratio wins over the picture's own height */
+        padding: 0.75rem;
+        background: var(--base-100);
+        border-bottom: var(--frame-border) solid var(--base-300);
+      }
+
+      .ex-media img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+
+      .ex-media-icon {
+        padding: 1.5rem;
+      }
+
+      .ex-media-tall {
+        aspect-ratio: 3 / 4;
+      }
+
+      .ex-trio {
+        aspect-ratio: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0.5rem;
+      }
+
+      .ex-trio figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.25rem;
+        margin: 0;
+        min-width: 0;
+      }
+
+      .ex-trio img {
+        aspect-ratio: 1;
+        height: auto;
+      }
+
+      .ex-body {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 1rem;
+        font-size: 0.875rem;
+      }
+
+      .ex-body p {
+        margin: 0;
+      }
+
+      .ex-name {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 800;
+        line-height: 1.3;
+      }
+
+      .ex-stats {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.5rem 1rem;
+        margin: 0;
+      }
+
+      .ex-stats dt {
+        font-size: 0.625rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: var(--muted-text);
+      }
+
+      .ex-stats dd {
+        margin: 0;
+        font-weight: 800;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .ex-tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.375rem;
+      }
+
+      .ex-foot {
+        margin-top: auto;
+      }
+
+      .ex-code {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.25rem;
+      }
+
+      /* One glyph turned four ways: the arrows the font lacks never fall back to another face. */
+      .ex-arrow {
+        display: inline-grid;
+        place-items: center;
+        width: 1.75rem;
+        height: 1.75rem;
+        border: var(--frame-border) solid var(--base-300);
+        background: var(--base-100);
+        font-weight: 800;
+      }
+
+      .ex-arrow[data-dir="right"] {
+        transform: rotate(90deg);
+      }
+
+      .ex-arrow[data-dir="down"] {
+        transform: rotate(180deg);
+      }
+
+      .ex-arrow[data-dir="left"] {
+        transform: rotate(270deg);
+      }
+
+      .ex-card-req {
+        padding: 0.75rem 1rem;
+        border-top: var(--frame-border) solid var(--base-300);
+        background: var(--base-100);
+        font-size: 0.6875rem;
+      }
+
+      .ex-card-req ul {
+        margin: 0.25rem 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .ex-card-req a,
+      .ex-log code {
+        overflow-wrap: anywhere;
+      }
+
+      .ex-log {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        border: var(--frame-border) solid var(--base-300);
+      }
+
+      .ex-log li + li {
+        border-top: var(--frame-border) solid var(--base-300);
+      }
+
+      .ex-log summary {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 0.5rem 0.75rem;
+        font-size: 0.8125rem;
+      }
+
+      .ex-log .ex-response {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        padding: 0 0.75rem 0.75rem;
+      }
+
+      .ex-log pre {
+        max-height: 24rem;
+      }
+
+      .ex-headers {
+        margin: 0;
+        font-size: 0.75rem;
+      }
+
+      .ex-headers div {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0 0.5rem;
+      }
+
+      .ex-headers dt {
+        color: var(--muted-text);
+      }
+
+      .ex-headers dd {
+        margin: 0;
+        overflow-wrap: anywhere;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="icon-btn skip-link" href="#main">Skip to content</a>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+
+    <header class="screen-pad site-header">
+      <p class="screen-kicker"><span class="sigil">&gt;</span> EXAMPLES</p>
+      <nav class="header-actions" aria-label="Site">
+        <a class="icon-btn" href="/">Home</a>
+        <a class="icon-btn" href="/docs/">Reference</a>
+        <a class="icon-btn" href="/docs/access">Access</a>
+        <button class="icon-btn" type="button" id="theme-toggle">
+          Theme: <span id="theme-name">rose</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main" class="page ex-page screen-pad stack animate-enter">
+      <section class="hero stack">
+        <h1 class="screen-title">The API in use</h1>
+        <p class="lede">
+          Everything below comes from the API while you read: five items of every kind, fetched
+          from the same static files any site or bot would use, and laid out like a normal site.
+          Press <strong>Show requests</strong> to see what is behind each section — the code, every
+          request it made and the JSON that came back.
+        </p>
+        <p class="micro" id="ex-status" aria-live="polite">
+          <span class="terminal-cursor">Fetching</span>
+        </p>
+        <div class="cta-row">
+          <button class="btn-goodchat" type="button" data-reveal aria-pressed="false">
+            Show requests
+          </button>
+          <a class="btn-goodchat-outline" href="/docs/">Open docs</a>
+        </div>
+
+        <section class="req panel" aria-labelledby="helper-title">
+          <div class="window-bar">
+            <span class="window-bar-title" id="helper-title">GET.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <p class="section-label"><span class="sigil">&gt;</span> The one helper every section uses</p>
+            <pre><code>const API = "https://helldivers-api.dionatha.com.br";
+const get = async (path) =&gt; (await (await fetch(`${API}/v1${path}`)).json()).data;
+
+// Images are paths on the same host: `${API}${item.image.url}`</code></pre>
+            <p class="hint">
+              Every response is <code>{ meta, data }</code>; <code>get</code> keeps
+              <code>data</code>. Paste both lines in a browser console and every snippet on this
+              page runs as is. All of it hits static files: no key, no signup and no rate limit.
+            </p>
+          </div>
+        </section>
+      </section>
+
+      <div class="ex-bar">
+        <nav aria-label="Sections">
+          <a class="icon-btn" href="#armor-sets">Armor sets</a>
+          <a class="icon-btn" href="#weapons">Weapons</a>
+          <a class="icon-btn" href="#stratagems">Stratagems</a>
+          <a class="icon-btn" href="#warbonds">Warbonds</a>
+          <a class="icon-btn" href="#boosters">Boosters</a>
+          <a class="icon-btn" href="#player-cards">Player cards</a>
+          <a class="icon-btn" href="#emotes">Emotes</a>
+          <a class="icon-btn" href="#patterns">Patterns</a>
+          <a class="icon-btn" href="#titles">Titles</a>
+        </nav>
+        <button class="icon-btn" type="button" data-reveal aria-pressed="false">Show requests</button>
+      </div>
+
+      <section class="stack ex-section" id="armor-sets" data-example aria-labelledby="armor-sets-title">
+        <h2 class="section-label" id="armor-sets-title">
+          <span class="sigil">&gt;</span> Armor sets
+        </h2>
+        <p class="hint">
+          A complete look: helmet, armor, cape and the armor's passive. The set only holds ids, so
+          each part is one more request.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">ARMOR-SETS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const set = await get("/armor-sets/sc-34-infiltrator.json");
+const [armor, helmet, cape] = await Promise.all([
+  get(`/armors/${set.armorId}.json`),
+  get(`/helmets/${set.helmetId}.json`),
+  get(`/capes/${set.capeId}.json`),
+]);
+const passive = await get(`/passives/${armor.passiveId}.json`);
+// …the same for each of the five sets</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="weapons" data-example aria-labelledby="weapons-title">
+        <h2 class="section-label" id="weapons-title"><span class="sigil">&gt;</span> Weapons</h2>
+        <p class="hint">
+          One item per request. Traits are ids too; a trait two weapons share is fetched once.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">WEAPONS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const weapon = await get("/weapons/ar-23-liberator.json");
+const traits = await Promise.all(
+  weapon.traitIds.map((id) =&gt; get(`/weapon-traits/${id}.json`)),
+);
+// weapon.firearm: fire rate, magazine, reload · weapon.throwable: fuse, carry
+// weapon.attacks[0]: damage and armor penetration</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="stratagems" data-example aria-labelledby="stratagems-title">
+        <h2 class="section-label" id="stratagems-title">
+          <span class="sigil">&gt;</span> Stratagems
+        </h2>
+        <p class="hint">
+          One item per request, input code included. The full list is large, so ask for the items
+          you show.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">STRATAGEMS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const stratagem = await get("/stratagems/eagle-500kg-bomb.json");
+stratagem.code;        // ["up", "right", "down", …]
+stratagem.cooldownS;   // seconds
+stratagem.callInTimeS; // seconds
+stratagem.uses;        // a number or "unlimited"</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="warbonds" data-example aria-labelledby="warbonds-title">
+        <h2 class="section-label" id="warbonds-title"><span class="sigil">&gt;</span> Warbonds</h2>
+        <p class="hint">
+          Each warbond lists its pages and every item on them, with its medal cost and a
+          <code>ref</code> to the item's own collection.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">WARBONDS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const warbond = await get("/warbonds/cutting-edge.json");
+const items = warbond.pages.flatMap((page) =&gt; page.items);
+// item.ref: { collection, id } → get(`/${item.ref.collection}/${item.ref.id}.json`)</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="boosters" data-example aria-labelledby="boosters-title">
+        <h2 class="section-label" id="boosters-title"><span class="sigil">&gt;</span> Boosters</h2>
+        <p class="hint">
+          A short list: one request brings every booster, and the page picks five in memory.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">BOOSTERS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const boosters = await get("/boosters.json");
+const picks = ["vitality-enhancement", "stamina-enhancement", "muscle-enhancement",
+               "hellpod-space-optimization", "uav-recon-booster"];
+const shown = picks.map((id) =&gt; boosters.find((booster) =&gt; booster.id === id));</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="player-cards" data-example aria-labelledby="player-cards-title">
+        <h2 class="section-label" id="player-cards-title">
+          <span class="sigil">&gt;</span> Player cards
+        </h2>
+        <p class="hint">
+          A facet: a file per warbond, already filtered. This one is Helldivers Mobilize.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">PLAYER-CARDS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const cards = await get("/player-cards/by-warbond/helldivers-mobilize.json");
+const shown = cards.slice(0, 5);</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="emotes" data-example aria-labelledby="emotes-title">
+        <h2 class="section-label" id="emotes-title"><span class="sigil">&gt;</span> Emotes</h2>
+        <p class="hint">The victory-pose facet: every emote you can end a mission with.</p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">EMOTES.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const poses = await get("/emotes/by-kind/victory-pose.json");
+const shown = poses.slice(0, 5);</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="patterns" data-example aria-labelledby="patterns-title">
+        <h2 class="section-label" id="patterns-title"><span class="sigil">&gt;</span> Patterns</h2>
+        <p class="hint">The weapon-scope facet: camouflage for your primaries.</p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">PATTERNS.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const patterns = await get("/patterns/by-scope/weapon.json");
+const shown = patterns.slice(0, 5);
+// pattern.variants: one image and one source per thing it paints</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack ex-section" id="titles" data-example aria-labelledby="titles-title">
+        <h2 class="section-label" id="titles-title"><span class="sigil">&gt;</span> Titles</h2>
+        <p class="hint">
+          The rank facet, sorted by the level that earns each one: the first five a Helldiver gets.
+        </p>
+        <div class="req panel">
+          <div class="window-bar">
+            <span class="window-bar-title">TITLES.JS</span>
+            <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+          </div>
+          <div class="panel-body">
+            <pre><code>const ranks = await get("/titles/by-kind/rank.json");
+const shown = ranks.sort((a, b) =&gt; a.levelEarned - b.levelEarned).slice(0, 5);</code></pre>
+            <div data-log></div>
+          </div>
+        </div>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <p class="hint">
+        These are the static files: lists, items and <code>by-*</code> facets, free and never
+        limited. For filters they do not cover there is <code>/v1/query/*</code>, and
+        <code>/v1/search</code> for names; both are in the <a href="/docs/">reference</a> and
+        <a href="/docs/access">count requests per client</a>.
+      </p>
+    </main>
+
+    <footer class="screen-pad site-footer">
+      <p class="micro">
+        Data from <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a>, thank you
+        (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>) · by
+        <a href="https://github.com/DionathaGoulart">Dionatha Goulart</a> · unofficial, not
+        affiliated with Arrowhead Game Studios · game images are Arrowhead's ·
+        <a href="https://github.com/DionathaGoulart/Helldivers-api">source</a>
+      </p>
+    </footer>
+  </body>
+</html>

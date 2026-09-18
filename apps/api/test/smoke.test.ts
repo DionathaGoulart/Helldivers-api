@@ -54,6 +54,7 @@ function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) 
     "/docs/": () => html("<html>reference</html>"),
     "/docs/errors": errorsPage,
     "/docs/access": () => html("<html>access</html>"),
+    "/examples": () => html("<html>examples</html>"),
     "/v1/openapi.json": () => json({ openapi: "3.1.0", "x-data-version": VERSION }),
     "/v1/query/weapons?category=primary": (init) =>
       revalidating(init)

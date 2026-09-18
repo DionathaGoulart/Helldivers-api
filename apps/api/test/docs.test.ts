@@ -13,7 +13,14 @@ import { TIERS } from "../src/spec/access.ts";
 const DOCS_DIR = join(import.meta.dirname, "../../docs");
 const page = (name: string) => readFile(join(DOCS_DIR, name), "utf8");
 
-const PAGES = ["index.html", "404.html", "docs/index.html", "docs/errors.html", "docs/access.html"];
+const PAGES = [
+  "index.html",
+  "404.html",
+  "docs/index.html",
+  "docs/errors.html",
+  "docs/access.html",
+  "examples.html",
+];
 
 describe("docs site", () => {
   it("lists a card per collection on the landing page", async () => {
@@ -30,6 +37,27 @@ describe("docs site", () => {
     expect(html).toContain(
       `https://fetch.usebruno.com?url=${SITE_URL}/v1/openapi.json&amp;type=openapi`,
     );
+  });
+
+  it("shows every collection on the examples page, in the code and in the requests", async () => {
+    const html = await page("examples.html");
+    const js = await page("examples.js");
+    for (const collection of Collection.options) {
+      // The snippet a reader sees and the loader that runs it both ask for the collection.
+      const path = new RegExp(`"/${collection}[/.]|\`/${collection}/`);
+      expect({ collection, html: path.test(html), js: path.test(js) }).toEqual({
+        collection,
+        html: true,
+        js: true,
+      });
+    }
+    // A section without a loader stays a spinner; a loader without a section is dead code.
+    const sections = [...html.matchAll(/<section class="stack ex-section" id="([a-z-]+)"/g)].map(
+      (match) => match[1],
+    );
+    const loaders = [...js.matchAll(/^ {2}"?([a-z-]+)"?: \{$/gm)].map((match) => match[1]);
+    expect(sections.sort()).toEqual(loaders.sort());
+    expect(sections).toHaveLength(9);
   });
 
   it("gives every problem type a section to link to", async () => {
@@ -76,7 +104,7 @@ describe("docs site", () => {
   });
 
   it("keeps every hex value in theme.css (styleguide §0.4)", async () => {
-    for (const name of [...PAGES, "app.js", "docs/reference.js"]) {
+    for (const name of [...PAGES, "app.js", "docs/reference.js", "examples.js"]) {
       expect({ name, hex: (await page(name)).match(/#[0-9a-fA-F]{6}\b/g) }).toEqual({
         name,
         hex: null,

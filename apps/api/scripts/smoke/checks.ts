@@ -147,7 +147,7 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
   // The problem `type` of every error points at an anchor on this page (arch §8.3); a page that
   // stopped being served, or lost an anchor, breaks that link for everybody.
   await check("docs pages", async () => {
-    const pages = ["/", "/docs/", "/docs/errors", "/docs/access"];
+    const pages = ["/", "/docs/", "/docs/errors", "/docs/access", "/examples"];
     const times: string[] = [];
     let errorsHtml = "";
     for (const path of pages) {
