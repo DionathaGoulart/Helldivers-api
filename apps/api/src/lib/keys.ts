@@ -1,6 +1,7 @@
 // API keys (arch §8.6, ADR-012): `hd2_<id>_<signature>`, where the signature is the base64url
 // HMAC-SHA256 of the id under the `API_KEY_SECRET` Worker secret. Verifying one is a single HMAC:
-// no storage, no lookup. Revoking one is listing its id in `REVOKED_KEYS` and redeploying.
+// no storage, no lookup. Revoking one is listing its id in `REVOKED_KEYS` and redeploying;
+// `UNLIMITED_KEYS` lifts the limit of the ids it lists the same way.
 
 const KEY_PATTERN = /^hd2_([a-z0-9]{12})_([A-Za-z0-9_-]{43})$/;
 const encoder = new TextEncoder();
@@ -75,8 +76,8 @@ export async function verifyKey(
   return { ok: true, id };
 }
 
-/** `REVOKED_KEYS` = comma-separated ids. */
-export const parseRevoked = (value: string | undefined): ReadonlySet<string> =>
+/** `REVOKED_KEYS`, `UNLIMITED_KEYS` = comma-separated ids. */
+export const parseKeyIds = (value: string | undefined): ReadonlySet<string> =>
   new Set(
     (value ?? "")
       .split(",")

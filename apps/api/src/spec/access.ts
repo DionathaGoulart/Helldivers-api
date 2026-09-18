@@ -11,7 +11,11 @@ export const TIERS = {
   key: { binding: "RL_KEY", limit: 20, period: 10 },
 } as const satisfies Record<string, { binding: string; limit: number; period: 10 | 60 }>;
 
-export type Tier = keyof typeof TIERS;
+/**
+ * `unlimited`: a key whose id is in `UNLIMITED_KEYS` (wrangler.toml [vars]), for the maintainer's
+ * own apps. No Worker limit; the zone's WAF flood rule and the daily Workers quota still apply.
+ */
+export type Tier = keyof typeof TIERS | "unlimited";
 
 /**
  * Hostnames whose pages get the `origin` tier, matched against the `Origin` header browsers send.

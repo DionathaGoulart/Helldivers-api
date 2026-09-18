@@ -36,6 +36,8 @@ name = "RL_KEY"
 namespace_id = "7103"
 simple = { limit = 20, period = 10 }
 
-# Revoked API keys, by id (comma-separated). Ids are not secret; a revocation ships with a deploy.
+# API key ids (comma-separated; ids are not secret, the signature is). A change ships with a deploy.
+# REVOKED_KEYS answer 401; UNLIMITED_KEYS (the maintainer's own apps) skip the Worker limit.
 [vars]
 REVOKED_KEYS = ""
+UNLIMITED_KEYS = "j1t22hqt4af8"

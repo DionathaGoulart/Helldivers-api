@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { allowedHost, ipBucket, policyHeader } from "../src/lib/access.ts";
-import { newKeyId, parseRevoked, signKey, verifyKey } from "../src/lib/keys.ts";
+import { newKeyId, parseKeyIds, signKey, verifyKey } from "../src/lib/keys.ts";
 import { ACCESS_URL } from "../src/site.ts";
 import { TIERS } from "../src/spec/access.ts";
 import { FakeRateLimiter, harness, readBody } from "./helpers.ts";
@@ -61,7 +61,7 @@ describe("API keys", () => {
       reason: "is not an hd2_ key",
     });
     expect((await verifyKey("another-secret", key, new Set())).ok).toBe(false);
-    expect(await verifyKey(SECRET, key, parseRevoked(` x , ${id},`))).toEqual({
+    expect(await verifyKey(SECRET, key, parseKeyIds(` x , ${id},`))).toEqual({
       ok: false,
       reason: "was revoked",
     });
@@ -160,6 +160,19 @@ describe("access control", () => {
       expect((await readBody(response)).detail).toContain(`The key in Authorization ${reason}.`);
     }
     expect(env.RL_ANON.keys).toEqual([]); // a refused key is not counted as anything
+  });
+
+  it("never counts a key listed in UNLIMITED_KEYS", async () => {
+    const env = { ...limiters(), API_KEY_SECRET: SECRET, UNLIMITED_KEYS: "ownerid00000" };
+    const h = await harness({}, env);
+    const key = await signKey(SECRET, "ownerid00000");
+    for (let i = 0; i < TIERS.key.limit + 5; i++) {
+      const response = await h.get(PATH, { ...IP, Authorization: `Bearer ${key}` });
+      expect(response.status).toBe(200);
+      expect(response.headers.get("x-api-tier")).toBe("unlimited");
+      expect(response.headers.has("ratelimit-policy")).toBe(false);
+    }
+    expect([...env.RL_KEY.keys, ...env.RL_ANON.keys]).toEqual([]);
   });
 
   it("treats a key as anonymous when the deployment has no secret, and says so in the log", async () => {

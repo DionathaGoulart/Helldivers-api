@@ -2,7 +2,7 @@ import type { MiddlewareHandler } from "hono";
 import type { AppContext, AppEnv, Env } from "../context.ts";
 import { ACCESS_URL } from "../site.ts";
 import { ALLOWED_ORIGINS, TIERS, type Tier } from "../spec/access.ts";
-import { parseRevoked, verifyKey } from "./keys.ts";
+import { parseKeyIds, verifyKey } from "./keys.ts";
 import { type ProblemInit, problemResponse } from "./problem.ts";
 
 // Tier and rate limit of every dynamic request (arch §8.6, ADR-012): a key, else an allowlisted
@@ -57,7 +57,7 @@ export function allowedHost(
   return ok ? host : null;
 }
 
-export const policyHeader = (tier: Tier) =>
+export const policyHeader = (tier: keyof typeof TIERS) =>
   `"${tier}";q=${TIERS[tier].limit};w=${TIERS[tier].period}`;
 
 type Identified = { ok: true; client: Client } | { ok: false; problem: ProblemInit };
@@ -84,11 +84,12 @@ export async function identify(
     const token = /^Bearer\s+(\S+)$/i.exec(authorization.trim())?.[1];
     if (!token) return invalid("is not a Bearer token");
     if (env.API_KEY_SECRET) {
-      const check = await verifyKey(env.API_KEY_SECRET, token, parseRevoked(env.REVOKED_KEYS));
+      const check = await verifyKey(env.API_KEY_SECRET, token, parseKeyIds(env.REVOKED_KEYS));
       if (!check.ok) return invalid(check.reason);
+      const tier = parseKeyIds(env.UNLIMITED_KEYS).has(check.id) ? "unlimited" : "key";
       return {
         ok: true,
-        client: { tier: "key", bucket: `key:${check.id}`, label: `Key ${check.id}` },
+        client: { tier, bucket: `key:${check.id}`, label: `Key ${check.id}` },
       } satisfies Identified;
     }
     // A deployment without the secret cannot tell a good key from a bad one: anonymous limits.
@@ -135,6 +136,11 @@ export function accessControl(context: AppContext): MiddlewareHandler<AppEnv> {
       });
     }
     const { tier, bucket, label } = identified.client;
+    if (tier === "unlimited") {
+      await next();
+      c.res = withHeaders(c.res, { "X-API-Tier": tier });
+      return;
+    }
     const { binding, limit, period } = TIERS[tier];
     const headers = { "X-API-Tier": tier, "RateLimit-Policy": policyHeader(tier) };
 

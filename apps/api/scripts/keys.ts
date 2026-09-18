@@ -3,23 +3,31 @@ import { join } from "node:path";
 import { parseArgs } from "node:util";
 import { newKeyId, signKey, verifyKey } from "../src/lib/keys.ts";
 
-// Usage: pnpm key:issue [--id <12 of a-z0-9>]   prints a new key (or re-derives the key of an id)
-//        pnpm key:check <key>                   says whether a key is valid under the secret
-// The secret is API_KEY_SECRET from the environment or apps/api/.dev.vars; for production keys,
-// run with the production secret in the environment. Keep who got which id somewhere private:
+// Usage: pnpm key:issue [--id <12 of a-z0-9>] [--env-file <path>]   prints a new key (or re-derives
+//                                                                   the key of an id)
+//        pnpm key:check <key> [--env-file <path>]    says whether a key is valid under the secret
+// The secret is API_KEY_SECRET from the environment, `--env-file` (production: the file that holds
+// the production secret) or apps/api/.dev.vars (local). Keep who got which id somewhere private:
 // the key itself carries only the id.
+const { values, positionals } = parseArgs({
+  options: { id: { type: "string" }, "env-file": { type: "string" } },
+  allowPositionals: true,
+});
+if (values["env-file"] && !existsSync(values["env-file"])) {
+  console.error(`keys: ${values["env-file"]} does not exist`);
+  process.exit(1);
+}
+// Earlier files win: loadEnvFile never overrides a variable that is already set.
 const devVars = join(import.meta.dirname, "..", ".dev.vars");
-if (existsSync(devVars)) process.loadEnvFile(devVars);
+for (const file of [values["env-file"], devVars]) {
+  if (file && existsSync(file)) process.loadEnvFile(file);
+}
 const secret = process.env.API_KEY_SECRET;
 if (!secret) {
   console.error("keys: API_KEY_SECRET is not set (environment or apps/api/.dev.vars)");
   process.exit(1);
 }
 
-const { values, positionals } = parseArgs({
-  options: { id: { type: "string" } },
-  allowPositionals: true,
-});
 const [command, key] = positionals;
 if (command === "issue") {
   console.log(await signKey(secret, values.id ?? newKeyId()));

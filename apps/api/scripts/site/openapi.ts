@@ -32,7 +32,7 @@ import { MIN_QUERY_LENGTH } from "../../src/lib/text.ts";
 import { SEARCH_DEFAULT_LIMIT, SEARCH_MAX_LIMIT } from "../../src/routes/search.ts";
 import { SearchIndex } from "../../src/search-index.ts";
 import { ACCESS_URL, REPO_URL, SITE_URL } from "../../src/site.ts";
-import { TIERS, type Tier } from "../../src/spec/access.ts";
+import { TIERS } from "../../src/spec/access.ts";
 import {
   DEFAULT_LIMIT,
   type Filters,
@@ -182,14 +182,14 @@ function problems(...types: ProblemType[]): JsonObject {
   );
 }
 
-const tierLine = (tier: Tier, who: string) =>
+const tierLine = (tier: keyof typeof TIERS, who: string) =>
   `- \`${tier}\`: ${who}, ${TIERS[tier].limit} requests per ${TIERS[tier].period} s.`;
 
 /** Headers of every response of the dynamic routes (arch §8.6). */
 const tierHeaders = {
   "X-API-Tier": {
     description: "The tier the request was counted in.",
-    schema: { type: "string", enum: Object.keys(TIERS) },
+    schema: { type: "string", enum: [...Object.keys(TIERS), "unlimited"] },
   },
   "RateLimit-Policy": {
     description: 'Limit of that tier, e.g. `"anon";q=10;w=60` (10 requests per 60 s).',

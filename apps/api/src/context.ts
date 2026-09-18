@@ -10,6 +10,7 @@ export interface Env {
   RL_KEY?: RateLimiter;
   API_KEY_SECRET?: string; // Worker secret; `.dev.vars` locally
   REVOKED_KEYS?: string; // wrangler.toml [vars]: comma-separated key ids
+  UNLIMITED_KEYS?: string; // wrangler.toml [vars]: comma-separated key ids
 }
 
 export type AppEnv = { Bindings: Env };
