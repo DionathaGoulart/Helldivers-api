@@ -26,6 +26,10 @@ stats, an image and the wiki URL it came from.
 
 > **Work in progress.** The data is live and the scraper runs daily, but v1 is not announced yet;
 > shapes can still change until the launch checks are green.
+>
+> **A personal project.** One person runs this on Cloudflare's free plan: it is sized for a handful
+> of bots, sites and scripts, not for thousands of users. For heavy use, run your own copy — see
+> [A personal project, on a free plan](#a-personal-project-on-a-free-plan).
 
 ## Why
 
@@ -173,6 +177,55 @@ requests for these tiers, then `503` (`daily-budget-spent`) until 00:00 UTC. The
   Keys stay on the server — one in browser code is public.
 
 Details and a sync example on [/docs/access](https://helldivers-api.dionatha.com.br/docs/access).
+
+## A personal project, on a free plan
+
+This API is a personal project, run by one person on Cloudflare's free plan. It is sized for a
+handful of bots, sites and scripts, not for thousands of users, and nothing here comes with an
+SLA. What that means in numbers:
+
+- **Static files have no ceiling.** They never run code and Cloudflare serves them for free, so
+  lists, items, facets, CSVs, images and `/v1/all.json` hold up whatever the traffic.
+- **Query and search share 100,000 requests a day** across every client together — the daily
+  quota of Workers Free, about 70 a minute on average. Every request that reaches the Worker
+  counts, a `429` included. Past 80,000 the public tiers get `503` until 00:00 UTC; the rest is
+  kept for the maintainer's own apps, and past 95,000 every client gets `503`.
+- **One client can spend the day.** A key at its full 20 requests / 10 s uses the public 80,000
+  in about 11 hours; a handful of addresses sending just under the flood rule, in under an hour.
+- **Every query and search makes one more round trip**, to the single counter that keeps the
+  day's count, and it takes longer the farther you are from where Cloudflare placed it.
+
+Most bots and sites need no query at all: a daily copy of `/v1/all.json` filtered in memory has no
+limit (see [Limits and access](#limits-and-access)). If you do need query or search at a volume
+like that, run your own copy: the license allows it for any non-commercial use, and it fits in a
+free Cloudflare account of your own.
+
+### Running your own copy
+
+Everything — data, scraper, API and docs — is in this repo, and `data/` gets a commit every day
+the wiki changes, so a copy needs only Node 24, pnpm and a Cloudflare account:
+
+```sh
+git clone https://github.com/DionathaGoulart/Helldivers-api && cd Helldivers-api
+pnpm install
+pnpm build                                  # dist/ (site and data) + build/worker.js
+cd apps/api && pnpm exec wrangler deploy
+```
+
+Before the deploy:
+
+- In [`apps/api/wrangler.toml`](apps/api/wrangler.toml), point `routes` at a domain of yours on
+  Cloudflare (or drop `routes` and set `workers_dev = true` for a `*.workers.dev` URL, which a
+  zone's WAF rule cannot protect) and empty `UNLIMITED_KEYS`. `SITE_URL` in
+  [`apps/api/src/site.ts`](apps/api/src/site.ts) is the URL the errors and OpenAPI point at.
+- Set the limits in [`apps/api/src/spec/access.ts`](apps/api/src/spec/access.ts): `TIERS` per
+  client, `DAILY_BUDGET` per day. On Workers Paid, raise the budget to match the plan.
+- Keys need a secret of your own: `pnpm exec wrangler secret put API_KEY_SECRET`, then
+  `pnpm key:issue` with the same value in `apps/api/.dev.vars`.
+
+Images come from a private bucket at deploy, so your build ships without them. Every image `url`
+is a static file here too: prefix it with `https://helldivers-api.dionatha.com.br`. To stay
+current, pull `main` and deploy again.
 
 ## Caching
 
