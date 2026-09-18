@@ -1,7 +1,7 @@
 import type { Collection, CollectionEntity, Meta } from "@hd2/schemas";
 import type { SearchIndex } from "../search-index.ts";
 
-// The Worker reads the data of its own deployment through the ASSETS binding (arch §8.1, ADR-008).
+// The Worker reads the data of its own deployment through the ASSETS binding (arch §8.1, ADR-012).
 // Files are validated before the build, so they are trusted here: parsing 800 KB with zod
 // would cost more CPU than the whole request budget.
 

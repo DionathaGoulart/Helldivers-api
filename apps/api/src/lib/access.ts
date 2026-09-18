@@ -5,7 +5,7 @@ import { ALLOWED_ORIGINS, TIERS, type Tier } from "../spec/access.ts";
 import { parseRevoked, verifyKey } from "./keys.ts";
 import { type ProblemInit, problemResponse } from "./problem.ts";
 
-// Tier and rate limit of every dynamic request (arch §8.6, ADR-008): a key, else an allowlisted
+// Tier and rate limit of every dynamic request (arch §8.6, ADR-012): a key, else an allowlisted
 // origin (or the docs site itself), else anonymous. Preflights are not counted.
 
 /** Rate limiting binding (`[[ratelimits]]` in wrangler.toml). */

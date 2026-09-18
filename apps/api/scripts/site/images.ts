@@ -2,7 +2,7 @@ import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 
-// Entity images as static assets (arch §8.1, ADR-008): the scraper uploads them to the private B2
+// Entity images as static assets (arch §8.1, ADR-012): the scraper uploads them to the private B2
 // bucket, `pnpm images:pull` keeps a local copy under `.cache/images`, and the build copies the
 // live ones into `dist/images`. Keys are content hashed, so a cached file never goes stale.
 

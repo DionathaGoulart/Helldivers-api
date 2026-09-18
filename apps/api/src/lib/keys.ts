@@ -1,4 +1,4 @@
-// API keys (arch §8.6, ADR-008): `hd2_<id>_<signature>`, where the signature is the base64url
+// API keys (arch §8.6, ADR-012): `hd2_<id>_<signature>`, where the signature is the base64url
 // HMAC-SHA256 of the id under the `API_KEY_SECRET` Worker secret. Verifying one is a single HMAC:
 // no storage, no lookup. Revoking one is listing its id in `REVOKED_KEYS` and redeploying.
 

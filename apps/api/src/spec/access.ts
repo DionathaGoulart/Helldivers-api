@@ -1,4 +1,4 @@
-// Access tiers of the dynamic routes (arch §8.6, ADR-008). Static files have no tier and no limit.
+// Access tiers of the dynamic routes (arch §8.6, ADR-012). Static files have no tier and no limit.
 // Each tier is one rate limiting binding in wrangler.toml (checked by test/access.test.ts); the
 // limits are counted per Cloudflare location and are approximate by design (Workers docs).
 
