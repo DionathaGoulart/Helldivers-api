@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-18.67594653",
-    "generatedAt": "2026-09-18T23:13:56Z",
+    "dataVersion": "2026-09-19.8dd462a3",
+    "generatedAt": "2026-09-19T22:54:59Z",
     "count": 114,
     "source": {
       "name": "The Helldivers Wiki",
@@ -227,6 +227,7 @@
         "40-K MELTAGUN › Attacks › Fire Panic": "status",
         "40-K MELTAGUN › Attacks › FlamerSlowed": "status",
         "40-K MELTAGUN B › Beam › Beam Range": "15 m",
+        "40-K MELTAGUN B › Beam › Beam Max Falloff": "0.6 x damage",
         "40-K MELTAGUN B › Damage › Standard": "2600 Laser",
         "40-K MELTAGUN B › Damage › vs. Durable": "2600 Laser",
         "40-K MELTAGUN B › Penetration › Direct": "Anti-Tank III",
@@ -3471,6 +3472,10 @@
         "ARC-3 ARC THROWER › Attacks › Stun Small": "status",
         "ARC-3 ARC THROWER A › Arc › Arc Range": "55 m",
         "ARC-3 ARC THROWER A › Arc › Arc Velocity": "300 m/s",
+        "ARC-3 ARC THROWER A › Arc › Arc Spread": "40 °",
+        "ARC-3 ARC THROWER A › Arc › Chain Spread": "60 °",
+        "ARC-3 ARC THROWER A › Arc › Chain Count": "1",
+        "ARC-3 ARC THROWER A › Arc › Max Split": "1",
         "ARC-3 ARC THROWER A › Damage › Element": "Arc",
         "ARC-3 ARC THROWER A › Damage › Standard": "250 Arc",
         "ARC-3 ARC THROWER A › Damage › vs. Durable": "100 Arc",
@@ -6143,7 +6148,7 @@
       "slug": "e-mg-101-hmg-emplacement",
       "name": "E/MG-101 HMG Emplacement",
       "aliases": [],
-      "description": "The HMG Emplacement is a Stratagem that deploys a static, manually-operated machine gun emplacement.",
+      "description": "The HMG Emplacement is a Stratagem that deploys a static, manually operated machine gun emplacement.",
       "image": {
         "url": "/images/v1/stratagems/e-mg-101-hmg-emplacement.a700e960.webp",
         "width": 256,

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-18.67594653",
-    "generatedAt": "2026-09-18T23:13:56Z",
+    "dataVersion": "2026-09-19.8dd462a3",
+    "generatedAt": "2026-09-19T22:54:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -23,7 +23,9 @@
     "wiki": {
       "title": "Muscle Enhancement",
       "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
-      "flags": []
+      "flags": [
+        "broken_file_links"
+      ]
     },
     "effect": "Allows Helldivers to traverse difficult terrain with ease.",
     "source": {

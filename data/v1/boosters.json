@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-18.67594653",
-    "generatedAt": "2026-09-18T23:13:56Z",
+    "dataVersion": "2026-09-19.8dd462a3",
+    "generatedAt": "2026-09-19T22:54:59Z",
     "count": 18,
     "source": {
       "name": "The Helldivers Wiki",
@@ -25,7 +25,9 @@
       "wiki": {
         "title": "Armed Resupply Pods",
         "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
       "source": {
@@ -55,7 +57,9 @@
       "wiki": {
         "title": "Concealed Insertion",
         "url": "https://helldivers.wiki.gg/wiki/Concealed_Insertion",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Equips Hellpods to deploy smokescreens on impact, obscuring Helldiver deployment.",
       "source": {
@@ -115,7 +119,9 @@
       "wiki": {
         "title": "Experimental Infusion",
         "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "In addition to restoring health, Stims temporarily increase movement speed and damage reduction.",
       "source": {
@@ -207,7 +213,9 @@
       "wiki": {
         "title": "Flexible Reinforcement Budget",
         "url": "https://helldivers.wiki.gg/wiki/Flexible_Reinforcement_Budget",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Reduces time until new reinforcements are granted once they've been depleted.",
       "source": {
@@ -331,7 +339,9 @@
       "wiki": {
         "title": "Motivational Shocks",
         "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Allows all Helldivers to recover faster after being slowed by an attack, such as acid. Does not mitigate “area effects,” such as EMS strikes.",
       "source": {
@@ -361,7 +371,9 @@
       "wiki": {
         "title": "Muscle Enhancement",
         "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "Allows Helldivers to traverse difficult terrain with ease.",
       "source": {
@@ -421,7 +433,9 @@
       "wiki": {
         "title": "Sample Scanner",
         "url": "https://helldivers.wiki.gg/wiki/Sample_Scanner",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "effect": "The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up.",
       "source": {
