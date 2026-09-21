@@ -12,6 +12,7 @@
     "id": "ac-8-autocannon",
     "slug": "ac-8-autocannon",
     "name": "AC-8 Autocannon",
+    "upcoming": false,
     "aliases": [],
     "description": "The AC-8 Autocannon is a Support Weapon that fires explosive, armor-piercing APHET projectiles which can be changed into flak rounds for crowd control.",
     "image": {

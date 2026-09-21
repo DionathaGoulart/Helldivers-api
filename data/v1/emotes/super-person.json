@@ -12,6 +12,7 @@
     "id": "super-person",
     "slug": "super-person",
     "name": "Super Person",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

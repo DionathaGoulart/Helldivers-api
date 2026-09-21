@@ -12,6 +12,7 @@
     "id": "gs-11-democracys-deputy",
     "slug": "gs-11-democracys-deputy",
     "name": "GS-11 Democracy's Deputy",
+    "upcoming": false,
     "aliases": [],
     "description": "At the edge of the Federation, sometimes Democracy has only one representative.",
     "image": {

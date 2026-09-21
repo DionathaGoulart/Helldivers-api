@@ -3,6 +3,7 @@
     "id": "acclimated",
     "slug": "acclimated",
     "name": "Acclimated",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to fire, gas, acid, and electrical damage.",
     "image": {
@@ -28,6 +29,7 @@
     "id": "adreno-defibrillator",
     "slug": "adreno-defibrillator",
     "name": "Adreno-Defibrillator",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact. Increases stim effect duration by 2.0s. Provides 50% resistance to arc damage.",
     "image": {
@@ -56,6 +58,7 @@
     "id": "advanced-filtration",
     "slug": "advanced-filtration",
     "name": "Advanced Filtration",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 80% resistance to gas damage and effects.",
     "image": {
@@ -83,6 +86,7 @@
     "id": "ballistic-padding",
     "slug": "ballistic-padding",
     "name": "Ballistic Padding",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 25% resistance to chest damage. Provides 25% resistance to explosive damage. Prevents all damage from bleeding if chest hemorrhages.",
     "image": {
@@ -111,6 +115,7 @@
     "id": "blunt-force-mitigation",
     "slug": "blunt-force-mitigation",
     "name": "Blunt-Force Mitigation",
+    "upcoming": false,
     "aliases": [],
     "description": "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",
     "image": {
@@ -136,6 +141,7 @@
     "id": "concussive-padding-grenadier",
     "slug": "concussive-padding-grenadier",
     "name": "Concussive Padding, Grenadier",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to explosive damage. Increases initial inventory and holding capacity of throwables by +2.",
     "image": {
@@ -161,6 +167,7 @@
     "id": "concussive-padding-hazmat",
     "slug": "concussive-padding-hazmat",
     "name": "Concussive Padding, Hazmat",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to explosive damage. Provides 25% resistance to gas damage and effects. Sidearm recoil reduced by 30%.",
     "image": {
@@ -187,6 +194,7 @@
     "id": "concussive-padding-reinforced",
     "slug": "concussive-padding-reinforced",
     "name": "Concussive Padding, Reinforced",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to explosive damage. Provides a higher armor rating.",
     "image": {
@@ -212,6 +220,7 @@
     "id": "democracy-protects",
     "slug": "democracy-protects",
     "name": "Democracy Protects",
+    "upcoming": false,
     "aliases": [],
     "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages.",
     "image": {
@@ -242,6 +251,7 @@
     "id": "desert-stormer",
     "slug": "desert-stormer",
     "name": "Desert Stormer",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 40% resistance to fire, gas, acid, and electrical damage. Increases throwing range by 20%.",
     "image": {
@@ -269,6 +279,7 @@
     "id": "electrical-conduit",
     "slug": "electrical-conduit",
     "name": "Electrical Conduit",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 95% resistance to arc damage.",
     "image": {
@@ -295,6 +306,7 @@
     "id": "engineering-kit",
     "slug": "engineering-kit",
     "name": "Engineering Kit",
+    "upcoming": false,
     "aliases": [],
     "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2.",
     "image": {
@@ -329,6 +341,7 @@
     "id": "extra-padding",
     "slug": "extra-padding",
     "name": "Extra Padding",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides a higher armor rating.",
     "image": {
@@ -358,6 +371,7 @@
     "id": "feet-first",
     "slug": "feet-first",
     "name": "Feet First",
+    "upcoming": false,
     "aliases": [],
     "description": "Wearer makes 50% less noise when moving. Increases point-of-interest identification range by 30%. Provides immunity to leg injuries.",
     "image": {
@@ -385,6 +399,7 @@
     "id": "fortified",
     "slug": "fortified",
     "name": "Fortified",
+    "upcoming": false,
     "aliases": [],
     "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage.",
     "image": {
@@ -417,6 +432,7 @@
     "id": "gunslinger",
     "slug": "gunslinger",
     "name": "Gunslinger",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases sidearms reload speed by 40%. Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%.",
     "image": {
@@ -445,6 +461,7 @@
     "id": "inflammable",
     "slug": "inflammable",
     "name": "Inflammable",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
     "image": {
@@ -472,6 +489,7 @@
     "id": "integrated-explosives",
     "slug": "integrated-explosives",
     "name": "Integrated Explosives",
+    "upcoming": false,
     "aliases": [],
     "description": "Armor explodes 1.5s after the wearer dies. Increases initial inventory and holding capacity of throwables by +2.",
     "image": {
@@ -499,6 +517,7 @@
     "id": "kinetic-displacement-mitigation",
     "slug": "kinetic-displacement-mitigation",
     "name": "Kinetic Displacement Mitigation",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability. Gives the wearer a 50% chance to avoid grievous limb injury. Reduces damage taken from impact and collisions by 30%.",
     "image": {
@@ -525,6 +544,7 @@
     "id": "med-kit",
     "slug": "med-kit",
     "name": "Med-Kit",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s.",
     "image": {
@@ -555,6 +575,7 @@
     "id": "oxygenator",
     "slug": "oxygenator",
     "name": "Oxygenator",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases the wearer's walking speed and running speed. Increases the speed and duration of slides.",
     "image": {
@@ -582,6 +603,7 @@
     "id": "peak-physique",
     "slug": "peak-physique",
     "name": "Peak Physique",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases melee damage by 40%. Improves weapons handling with less drag on weapon movement.",
     "image": {
@@ -609,6 +631,7 @@
     "id": "reduced-signature",
     "slug": "reduced-signature",
     "name": "Reduced Signature",
+    "upcoming": false,
     "aliases": [],
     "description": "Wearer makes 50% less noise when moving. Reduces range at which enemies can detect the wearer by 40%.",
     "image": {
@@ -636,6 +659,7 @@
     "id": "reinforced-epaulettes",
     "slug": "reinforced-epaulettes",
     "name": "Reinforced Epaulettes",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 20%.",
     "image": {
@@ -664,6 +688,7 @@
     "id": "rock-solid",
     "slug": "rock-solid",
     "name": "Rock Solid",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases melee damage by 40%. Bearer is more resistant to being knocked prone.",
     "image": {
@@ -691,6 +716,7 @@
     "id": "scout",
     "slug": "scout",
     "name": "Scout",
+    "upcoming": false,
     "aliases": [],
     "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%.",
     "image": {
@@ -719,6 +745,7 @@
     "id": "servo-assisted",
     "slug": "servo-assisted",
     "name": "Servo-Assisted",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases throwing range by 30%. Provides +50% limb health.",
     "image": {
@@ -750,6 +777,7 @@
     "id": "siege-ready",
     "slug": "siege-ready",
     "name": "Siege-Ready",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases reload speed of primary weapons by 30%. Increases ammo capacity of all weapons by 20%. Does not affect weapon backpacks.",
     "image": {
@@ -778,6 +806,7 @@
     "id": "supplementary-adrenaline",
     "slug": "supplementary-adrenaline",
     "name": "Supplementary Adrenaline",
+    "upcoming": false,
     "aliases": [],
     "description": "When the wearer takes damage, they regain some stamina. Provides a higher armor rating.",
     "image": {
@@ -804,6 +833,7 @@
     "id": "true-grit",
     "slug": "true-grit",
     "name": "True Grit",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
     "image": {
@@ -830,6 +860,7 @@
     "id": "unflinching",
     "slug": "unflinching",
     "name": "Unflinching",
+    "upcoming": false,
     "aliases": [],
     "description": "Helps prevent Helldivers from flinching when hit. Provides a higher armor rating. Markers placed on the map will generate radar scans every 2.0s.",
     "image": {

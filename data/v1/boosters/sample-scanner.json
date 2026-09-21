@@ -12,6 +12,7 @@
     "id": "sample-scanner",
     "slug": "sample-scanner",
     "name": "Sample Scanner",
+    "upcoming": false,
     "aliases": [],
     "description": "Sample Scanner is a Booster in Helldivers 2. The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up. It affects all sample rarities.",
     "image": {

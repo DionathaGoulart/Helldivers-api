@@ -3,6 +3,7 @@
     "id": "10-star-general",
     "slug": "10-star-general",
     "name": "10-Star General",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -31,6 +32,7 @@
     "id": "10-star-super-private",
     "slug": "10-star-super-private",
     "name": "10-Star Super Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -59,6 +61,7 @@
     "id": "5-star-general",
     "slug": "5-star-general",
     "name": "5-Star General",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -87,6 +90,7 @@
     "id": "5-star-super-private",
     "slug": "5-star-super-private",
     "name": "5-Star Super Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -115,6 +119,7 @@
     "id": "admirable-admiral",
     "slug": "admirable-admiral",
     "name": "Admirable Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -143,6 +148,7 @@
     "id": "admiral",
     "slug": "admiral",
     "name": "Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -171,6 +177,7 @@
     "id": "assault-infantry",
     "slug": "assault-infantry",
     "name": "Assault Infantry",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -202,6 +209,7 @@
     "id": "bunker-buster",
     "slug": "bunker-buster",
     "name": "Bunker Buster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -233,6 +241,7 @@
     "id": "burier-of-heads",
     "slug": "burier-of-heads",
     "name": "Burier of Heads",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -264,6 +273,7 @@
     "id": "cadet",
     "slug": "cadet",
     "name": "Cadet",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -292,6 +302,7 @@
     "id": "chief",
     "slug": "chief",
     "name": "Chief",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -320,6 +331,7 @@
     "id": "command-divemaster-major",
     "slug": "command-divemaster-major",
     "name": "Command Divemaster Major",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -348,6 +360,7 @@
     "id": "commander",
     "slug": "commander",
     "name": "Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -376,6 +389,7 @@
     "id": "death-captain",
     "slug": "death-captain",
     "name": "Death Captain",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -404,6 +418,7 @@
     "id": "decorated-hero",
     "slug": "decorated-hero",
     "name": "Decorated Hero",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -435,6 +450,7 @@
     "id": "divemaster",
     "slug": "divemaster",
     "name": "Divemaster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -463,6 +479,7 @@
     "id": "divemaster-major",
     "slug": "divemaster-major",
     "name": "Divemaster Major",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -491,6 +508,7 @@
     "id": "exemplary-subject",
     "slug": "exemplary-subject",
     "name": "Exemplary Subject",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -522,6 +540,7 @@
     "id": "exosuit-certified",
     "slug": "exosuit-certified",
     "name": "Exosuit Certified",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -553,6 +572,7 @@
     "id": "expert-exterminator",
     "slug": "expert-exterminator",
     "name": "Expert Exterminator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -584,6 +604,7 @@
     "id": "extra-judicial",
     "slug": "extra-judicial",
     "name": "Extra Judicial",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -615,6 +636,7 @@
     "id": "fire-safety-officer",
     "slug": "fire-safety-officer",
     "name": "Fire Safety Officer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -646,6 +668,7 @@
     "id": "first-divemaster",
     "slug": "first-divemaster",
     "name": "First Divemaster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -674,6 +697,7 @@
     "id": "fleet-admiral",
     "slug": "fleet-admiral",
     "name": "Fleet Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -702,6 +726,7 @@
     "id": "free-of-thought",
     "slug": "free-of-thought",
     "name": "Free of Thought",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -733,6 +758,7 @@
     "id": "galactic-commander",
     "slug": "galactic-commander",
     "name": "Galactic Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -761,6 +787,7 @@
     "id": "general",
     "slug": "general",
     "name": "General",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -789,6 +816,7 @@
     "id": "hell-commander",
     "slug": "hell-commander",
     "name": "Hell Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -817,6 +845,7 @@
     "id": "marshal",
     "slug": "marshal",
     "name": "Marshal",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -845,6 +874,7 @@
     "id": "master-divemaster",
     "slug": "master-divemaster",
     "name": "Master Divemaster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -873,6 +903,7 @@
     "id": "master-divemaster-major-omega",
     "slug": "master-divemaster-major-omega",
     "name": "Master Divemaster Major Omega",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -901,6 +932,7 @@
     "id": "master-sergeant",
     "slug": "master-sergeant",
     "name": "Master Sergeant",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -929,6 +961,7 @@
     "id": "max-rank",
     "slug": "max-rank",
     "name": "Max Rank",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -957,6 +990,7 @@
     "id": "max-rank-infinity",
     "slug": "max-rank-infinity",
     "name": "Max Rank Infinity",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -985,6 +1019,7 @@
     "id": "max-rank-infinity-1",
     "slug": "max-rank-infinity-1",
     "name": "Max Rank Infinity +1",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1013,6 +1048,7 @@
     "id": "mudskipper",
     "slug": "mudskipper",
     "name": "Mudskipper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1044,6 +1080,7 @@
     "id": "private",
     "slug": "private",
     "name": "Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1072,6 +1109,7 @@
     "id": "python-commando",
     "slug": "python-commando",
     "name": "Python Commando",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1103,6 +1141,7 @@
     "id": "ranger",
     "slug": "ranger",
     "name": "Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1131,6 +1170,7 @@
     "id": "ranger-bald-eagle-class",
     "slug": "ranger-bald-eagle-class",
     "name": "Ranger, Bald Eagle Class",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1159,6 +1199,7 @@
     "id": "ranger-eagle-class",
     "slug": "ranger-eagle-class",
     "name": "Ranger, Eagle Class",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1187,6 +1228,7 @@
     "id": "rank-300",
     "slug": "rank-300",
     "name": "Rank 300",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1215,6 +1257,7 @@
     "id": "redacted",
     "slug": "redacted",
     "name": "[Redacted]",
+    "upcoming": false,
     "aliases": [
       "Redacted"
     ],
@@ -1248,6 +1291,7 @@
     "id": "rookie",
     "slug": "rookie",
     "name": "Rookie",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1279,6 +1323,7 @@
     "id": "sergeant",
     "slug": "sergeant",
     "name": "Sergeant",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1307,6 +1352,7 @@
     "id": "servant-of-freedom",
     "slug": "servant-of-freedom",
     "name": "Servant of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1338,6 +1384,7 @@
     "id": "skull-admiral",
     "slug": "skull-admiral",
     "name": "Skull Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1366,6 +1413,7 @@
     "id": "space-cadet",
     "slug": "space-cadet",
     "name": "Space Cadet",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1394,6 +1442,7 @@
     "id": "space-chief-prime",
     "slug": "space-chief-prime",
     "name": "Space Chief Prime",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1422,6 +1471,7 @@
     "id": "star-marshal",
     "slug": "star-marshal",
     "name": "Star Marshal",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1450,6 +1500,7 @@
     "id": "still-standing",
     "slug": "still-standing",
     "name": "Still Standing",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1481,6 +1532,7 @@
     "id": "super-citizen",
     "slug": "super-citizen",
     "name": "Super Citizen",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1512,6 +1564,7 @@
     "id": "super-pedestrian",
     "slug": "super-pedestrian",
     "name": "Super Pedestrian",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1543,6 +1596,7 @@
     "id": "super-private",
     "slug": "super-private",
     "name": "Super Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1571,6 +1625,7 @@
     "id": "super-sheriff",
     "slug": "super-sheriff",
     "name": "Super Sheriff",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1602,6 +1657,7 @@
     "id": "viper-commando",
     "slug": "viper-commando",
     "name": "Viper Commando",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

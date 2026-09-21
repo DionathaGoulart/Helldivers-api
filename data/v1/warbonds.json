@@ -14,6 +14,7 @@
       "id": "borderline-justice",
       "slug": "borderline-justice",
       "name": "Borderline Justice",
+      "upcoming": false,
       "aliases": [],
       "description": "Borderline Justice is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -280,6 +281,7 @@
       "id": "castellans-creed",
       "slug": "castellans-creed",
       "name": "Castellan's Creed",
+      "upcoming": false,
       "aliases": [
         "Castellan’s Creed"
       ],
@@ -547,6 +549,7 @@
       "id": "chemical-agents",
       "slug": "chemical-agents",
       "name": "Chemical Agents",
+      "upcoming": false,
       "aliases": [],
       "description": "Chemical Agents is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -865,6 +868,7 @@
       "id": "control-group",
       "slug": "control-group",
       "name": "Control Group",
+      "upcoming": false,
       "aliases": [],
       "description": "Control Group is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -1131,6 +1135,7 @@
       "id": "cutting-edge",
       "slug": "cutting-edge",
       "name": "Cutting Edge",
+      "upcoming": false,
       "aliases": [],
       "description": "Cutting Edge is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -1475,6 +1480,7 @@
       "id": "democratic-detonation",
       "slug": "democratic-detonation",
       "name": "Democratic Detonation",
+      "upcoming": false,
       "aliases": [],
       "description": "Democratic Detonation is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -1819,6 +1825,7 @@
       "id": "dust-devils",
       "slug": "dust-devils",
       "name": "Dust Devils",
+      "upcoming": false,
       "aliases": [],
       "description": "Dust Devils is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -2137,6 +2144,7 @@
       "id": "entrenched-division",
       "slug": "entrenched-division",
       "name": "Entrenched Division",
+      "upcoming": false,
       "aliases": [],
       "description": "Entrenched Division is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -2468,6 +2476,7 @@
       "id": "exo-experts",
       "slug": "exo-experts",
       "name": "Exo Experts",
+      "upcoming": false,
       "aliases": [],
       "description": "Exo Experts is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -2782,6 +2791,7 @@
       "id": "force-of-law",
       "slug": "force-of-law",
       "name": "Force of Law",
+      "upcoming": false,
       "aliases": [],
       "description": "Force of Law is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -3126,6 +3136,7 @@
       "id": "freedoms-flame",
       "slug": "freedoms-flame",
       "name": "Freedom's Flame",
+      "upcoming": false,
       "aliases": [],
       "description": "Freedom's Flame is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -3457,6 +3468,7 @@
       "id": "helldivers-mobilize",
       "slug": "helldivers-mobilize",
       "name": "Helldivers Mobilize!",
+      "upcoming": false,
       "aliases": [
         "Helldivers Mobilize"
       ],
@@ -4538,6 +4550,7 @@
       "id": "ironclad-democracy",
       "slug": "ironclad-democracy",
       "name": "Ironclad Democracy",
+      "upcoming": false,
       "aliases": [],
       "description": "Ironclad Democracy is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -4783,6 +4796,7 @@
       "id": "masters-of-ceremony",
       "slug": "masters-of-ceremony",
       "name": "Masters of Ceremony",
+      "upcoming": false,
       "aliases": [],
       "description": "Masters of Ceremony is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -5049,6 +5063,7 @@
       "id": "obedient-democracy-support-troopers",
       "slug": "obedient-democracy-support-troopers",
       "name": "Obedient Democracy Support Troopers",
+      "upcoming": false,
       "aliases": [
         "Halo: ODST"
       ],
@@ -5316,6 +5331,7 @@
       "id": "polar-patriots",
       "slug": "polar-patriots",
       "name": "Polar Patriots",
+      "upcoming": false,
       "aliases": [],
       "description": "Polar Patriots is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -5660,6 +5676,7 @@
       "id": "python-commandos",
       "slug": "python-commandos",
       "name": "Python Commandos",
+      "upcoming": false,
       "aliases": [],
       "description": "Python Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -5965,6 +5982,7 @@
       "id": "redacted-regiment",
       "slug": "redacted-regiment",
       "name": "Redacted Regiment",
+      "upcoming": false,
       "aliases": [],
       "description": "Redacted Regiment is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -6244,6 +6262,7 @@
       "id": "righteous-revenants",
       "slug": "righteous-revenants",
       "name": "Righteous Revenants",
+      "upcoming": false,
       "aliases": [],
       "description": "Righteous Revenants is a Legendary Warbond featuring the second version of the Helldivers 2 × Killzone crossover, available for 1,500 Super Credits in the Acquisition Center.",
       "image": {
@@ -6496,6 +6515,7 @@
       "id": "servants-of-freedom",
       "slug": "servants-of-freedom",
       "name": "Servants of Freedom",
+      "upcoming": false,
       "aliases": [],
       "description": "Servants of Freedom is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -6749,6 +6769,7 @@
       "id": "siege-breakers",
       "slug": "siege-breakers",
       "name": "Siege Breakers",
+      "upcoming": false,
       "aliases": [],
       "description": "Siege Breakers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -7067,6 +7088,7 @@
       "id": "steeled-veterans",
       "slug": "steeled-veterans",
       "name": "Steeled Veterans",
+      "upcoming": false,
       "aliases": [],
       "description": "Steeled Veterans is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -7424,6 +7446,7 @@
       "id": "truth-enforcers",
       "slug": "truth-enforcers",
       "name": "Truth Enforcers",
+      "upcoming": false,
       "aliases": [],
       "description": "Truth Enforcers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -7729,6 +7752,7 @@
       "id": "urban-legends",
       "slug": "urban-legends",
       "name": "Urban Legends",
+      "upcoming": false,
       "aliases": [],
       "description": "Urban Legends is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
@@ -8047,6 +8071,7 @@
       "id": "viper-commandos",
       "slug": "viper-commandos",
       "name": "Viper Commandos",
+      "upcoming": false,
       "aliases": [],
       "description": "Viper Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {

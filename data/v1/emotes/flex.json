@@ -12,6 +12,7 @@
     "id": "flex",
     "slug": "flex",
     "name": "Flex",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

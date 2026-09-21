@@ -12,6 +12,7 @@
     "id": "defender-of-our-dream",
     "slug": "defender-of-our-dream",
     "name": "Defender of Our Dream",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

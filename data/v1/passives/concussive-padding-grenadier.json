@@ -12,6 +12,7 @@
     "id": "concussive-padding-grenadier",
     "slug": "concussive-padding-grenadier",
     "name": "Concussive Padding, Grenadier",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to explosive damage. Increases initial inventory and holding capacity of throwables by +2.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "extra-padding",
     "slug": "extra-padding",
     "name": "Extra Padding",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides a higher armor rating.",
     "image": {

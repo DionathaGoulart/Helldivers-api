@@ -12,6 +12,7 @@
     "id": "tip-hat",
     "slug": "tip-hat",
     "name": "Tip Hat",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

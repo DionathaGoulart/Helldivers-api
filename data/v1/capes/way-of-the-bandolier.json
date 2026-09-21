@@ -12,6 +12,7 @@
     "id": "way-of-the-bandolier",
     "slug": "way-of-the-bandolier",
     "name": "Way of the Bandolier",
+    "upcoming": false,
     "aliases": [],
     "description": "The dauntless pioneers of the Great Expansion, facing the un-Democratic unknown, adopted the Way of the Bandolier. With the gusto of their covering fire making up for their modest accuracy, they strived to be perfectly aligned in their shared values, and ready to serve when called upon by the machine gun of civic duty.",
     "image": {

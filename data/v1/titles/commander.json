@@ -12,6 +12,7 @@
     "id": "commander",
     "slug": "commander",
     "name": "Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

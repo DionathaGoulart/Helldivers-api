@@ -12,6 +12,7 @@
     "id": "sg-8s-slugger",
     "slug": "sg-8s-slugger",
     "name": "SG-8S Slugger",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-8S Slugger is a Primary Shotgun, a variant of the standard Punisher that fires Medium armor penetrating slugs, as opposed to buckshot. This means the shotgun acts more like a rifle, firing a single projectile per shot.",
     "image": {

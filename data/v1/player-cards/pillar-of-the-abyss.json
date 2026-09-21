@@ -12,6 +12,7 @@
     "id": "pillar-of-the-abyss",
     "slug": "pillar-of-the-abyss",
     "name": "Pillar of the Abyss",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

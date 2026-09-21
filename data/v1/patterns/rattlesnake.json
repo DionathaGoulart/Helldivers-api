@@ -12,6 +12,7 @@
     "id": "rattlesnake",
     "slug": "rattlesnake",
     "name": "Rattlesnake",
+    "upcoming": false,
     "aliases": [],
     "description": "Rattlesnake patterns are selectable wraps for your various vehicles.",
     "image": {

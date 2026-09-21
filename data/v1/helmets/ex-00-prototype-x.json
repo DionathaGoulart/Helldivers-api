@@ -12,6 +12,7 @@
     "id": "ex-00-prototype-x",
     "slug": "ex-00-prototype-x",
     "name": "EX-00 Prototype X",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

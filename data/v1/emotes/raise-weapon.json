@@ -12,6 +12,7 @@
     "id": "raise-weapon",
     "slug": "raise-weapon",
     "name": "Raise Weapon",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

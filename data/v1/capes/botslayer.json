@@ -12,6 +12,7 @@
     "id": "botslayer",
     "slug": "botslayer",
     "name": "Botslayer",
+    "upcoming": false,
     "aliases": [],
     "description": "A cape that strikes a subroutine emulating fear into the CPUs of all Automatons who conduct visual scans of it.",
     "image": {

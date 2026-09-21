@@ -12,6 +12,7 @@
     "id": "exo-experts",
     "slug": "exo-experts",
     "name": "Exo Experts",
+    "upcoming": false,
     "aliases": [],
     "description": "Exo Experts is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

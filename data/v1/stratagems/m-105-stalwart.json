@@ -12,6 +12,7 @@
     "id": "m-105-stalwart",
     "slug": "m-105-stalwart",
     "name": "M-105 Stalwart",
+    "upcoming": false,
     "aliases": [],
     "description": "The Stalwart is a Stratagem which calls down a Support Weapon which specializes in disposing of large quantities of lightly armored targets.",
     "image": {

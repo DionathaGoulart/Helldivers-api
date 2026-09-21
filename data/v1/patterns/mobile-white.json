@@ -12,6 +12,7 @@
     "id": "mobile-white",
     "slug": "mobile-white",
     "name": "Mobile White",
+    "upcoming": false,
     "aliases": [],
     "description": "Mobile White patterns are selectable wraps for your various vehicles.",
     "image": {

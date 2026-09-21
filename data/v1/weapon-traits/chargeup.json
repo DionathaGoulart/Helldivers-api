@@ -12,6 +12,7 @@
     "id": "chargeup",
     "slug": "chargeup",
     "name": "Chargeup",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

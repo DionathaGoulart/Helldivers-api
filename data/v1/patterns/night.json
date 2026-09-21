@@ -12,6 +12,7 @@
     "id": "night",
     "slug": "night",
     "name": "Night",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

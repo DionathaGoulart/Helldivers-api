@@ -12,6 +12,7 @@
     "id": "armed-resupply-pods",
     "slug": "armed-resupply-pods",
     "name": "Armed Resupply Pods",
+    "upcoming": false,
     "aliases": [],
     "description": "The Armed Resupply Pods are a Booster in Helldivers 2. When equipped, all Resupply Pods come mounted with an automated custom AR-23P Liberator Penetrator lasting until ran out of bullets or the pod itself getting demolished.",
     "image": {

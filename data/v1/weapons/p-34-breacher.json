@@ -12,6 +12,7 @@
     "id": "p-34-breacher",
     "slug": "p-34-breacher",
     "name": "P-34 Breacher",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-34 Breacher is a Special Secondary single-shot weapon that fires an explosive thermite projectile at targets.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "tactical-video-camera",
     "slug": "tactical-video-camera",
     "name": "Tactical Video Camera",
+    "upcoming": false,
     "aliases": [],
     "description": "The Tactical Video Camera Stratagem is an objective critical stratagem that is a Primary Objective of the Commando: Acquire Evidence mission and is used in one of the potential objectives in Infiltrate Illuminate Lair.",
     "image": {

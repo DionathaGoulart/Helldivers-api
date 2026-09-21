@@ -12,6 +12,7 @@
     "id": "nux-223-hellbomb",
     "slug": "nux-223-hellbomb",
     "name": "Hellbomb",
+    "upcoming": false,
     "aliases": [
       "NUX-223 Hellbomb"
     ],

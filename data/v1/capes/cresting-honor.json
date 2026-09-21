@@ -12,6 +12,7 @@
     "id": "cresting-honor",
     "slug": "cresting-honor",
     "name": "Cresting Honor",
+    "upcoming": false,
     "aliases": [],
     "description": "The yellow is the exact shade of the Ministry of Unity's ‘Golden Gate’, leading to the Chamber of Unanimous Decision.",
     "image": {

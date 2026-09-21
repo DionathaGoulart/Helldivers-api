@@ -12,6 +12,7 @@
     "id": "city-fighters-resolve",
     "slug": "city-fighters-resolve",
     "name": "City Fighter's Resolve",
+    "upcoming": false,
     "aliases": [],
     "description": "The Helldivers are all that stand between Democracy and the Fascist Hordes. Trained since birth in the art of Defensive Warfare, they meet mindless legions with the steady aim of one who has seen countless battles. - Excerpt from the journal of a Charan Democracy Officer, ca. 2082 SE",
     "image": {

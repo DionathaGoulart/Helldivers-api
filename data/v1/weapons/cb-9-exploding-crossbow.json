@@ -12,6 +12,7 @@
     "id": "cb-9-exploding-crossbow",
     "slug": "cb-9-exploding-crossbow",
     "name": "CB-9 Exploding Crossbow",
+    "upcoming": false,
     "aliases": [],
     "description": "The CB-9 Exploding Crossbow is a Primary Explosive weapon. It fires explosive-tipped crossbow bolts that deal damage in an area.",
     "image": {

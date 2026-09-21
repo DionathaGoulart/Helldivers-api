@@ -12,6 +12,7 @@
     "id": "command-divemaster-major",
     "slug": "command-divemaster-major",
     "name": "Command Divemaster Major",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

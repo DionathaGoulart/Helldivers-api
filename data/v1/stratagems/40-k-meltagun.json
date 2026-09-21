@@ -12,6 +12,7 @@
     "id": "40-k-meltagun",
     "slug": "40-k-meltagun",
     "name": "40-K Meltagun",
+    "upcoming": false,
     "aliases": [],
     "description": "The 40-K Meltagun is a Stratagem that calls down a Support Weapon that fires a superheated beam of thermal energy, dealing massive damage and penetrating through large amounts of armor.",
     "image": {

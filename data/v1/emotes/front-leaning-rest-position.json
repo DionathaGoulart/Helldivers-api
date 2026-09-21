@@ -12,6 +12,7 @@
     "id": "front-leaning-rest-position",
     "slug": "front-leaning-rest-position",
     "name": "Front-Leaning Rest Position",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "tyrant-hunter",
     "slug": "tyrant-hunter",
     "name": "Tyrant Hunter",
+    "upcoming": false,
     "aliases": [],
     "description": "The cape's shredded hem presages the unrelenting savagery its wielder will visit upon the nemeses of Freedom.",
     "image": {

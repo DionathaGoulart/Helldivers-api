@@ -12,6 +12,7 @@
     "id": "signal-group-up",
     "slug": "signal-group-up",
     "name": "Signal: Group Up",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

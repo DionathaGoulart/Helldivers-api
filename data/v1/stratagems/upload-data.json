@@ -12,6 +12,7 @@
     "id": "upload-data",
     "slug": "upload-data",
     "name": "Upload Data",
+    "upcoming": false,
     "aliases": [],
     "description": "The Upload Data Stratagem is used to start the data upload process. It's only available while near the Escape Pod from the Upload Escape Pod Data Objective.",
     "image": {

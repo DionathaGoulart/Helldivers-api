@@ -12,6 +12,7 @@
     "id": "standard-of-rapid-evacuation",
     "slug": "standard-of-rapid-evacuation",
     "name": "Standard of Rapid Evacuation",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

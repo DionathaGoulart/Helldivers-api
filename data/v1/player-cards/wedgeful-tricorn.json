@@ -12,6 +12,7 @@
     "id": "wedgeful-tricorn",
     "slug": "wedgeful-tricorn",
     "name": "Wedgeful Tricorn",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

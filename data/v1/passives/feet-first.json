@@ -12,6 +12,7 @@
     "id": "feet-first",
     "slug": "feet-first",
     "name": "Feet First",
+    "upcoming": false,
     "aliases": [],
     "description": "Wearer makes 50% less noise when moving. Increases point-of-interest identification range by 30%. Provides immunity to leg injuries.",
     "image": {

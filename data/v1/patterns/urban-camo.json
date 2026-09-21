@@ -12,6 +12,7 @@
     "id": "urban-camo",
     "slug": "urban-camo",
     "name": "Urban Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

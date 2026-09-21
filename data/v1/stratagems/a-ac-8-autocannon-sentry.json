@@ -12,6 +12,7 @@
     "id": "a-ac-8-autocannon-sentry",
     "slug": "a-ac-8-autocannon-sentry",
     "name": "A/AC-8 Autocannon Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/AC-8 Autocannon Sentry is a powerful defensive stratagem firing armor-piercing, high-explosive shells. It fires in 3 round bursts and has the slowest turning speed of all the automatic sentries. Unlike the AC-8 Autocannon support weapon, the rounds that the sentry fires do not bounce, have higher armor penetration, and will always explode on impact.",
     "image": {

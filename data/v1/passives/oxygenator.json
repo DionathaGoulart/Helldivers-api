@@ -12,6 +12,7 @@
     "id": "oxygenator",
     "slug": "oxygenator",
     "name": "Oxygenator",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases the wearer's walking speed and running speed. Increases the speed and duration of slides.",
     "image": {

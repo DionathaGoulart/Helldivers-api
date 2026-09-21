@@ -12,6 +12,7 @@
     "id": "af-52-lockdown",
     "slug": "af-52-lockdown",
     "name": "AF-52 Lockdown",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

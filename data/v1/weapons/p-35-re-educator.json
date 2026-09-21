@@ -12,6 +12,7 @@
     "id": "p-35-re-educator",
     "slug": "p-35-re-educator",
     "name": "P-35 Re-Educator",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-35 Re-Educator is a Secondary Special pistol that fires Gas darts to disorient enemies.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "b-08-light-gunner",
     "slug": "b-08-light-gunner",
     "name": "B-08 Light Gunner",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

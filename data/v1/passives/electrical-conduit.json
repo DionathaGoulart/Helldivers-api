@@ -12,6 +12,7 @@
     "id": "electrical-conduit",
     "slug": "electrical-conduit",
     "name": "Electrical Conduit",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 95% resistance to arc damage.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "g-10-incendiary",
     "slug": "g-10-incendiary",
     "name": "G-10 Incendiary",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-10 Incendiary is a Standard Throwable that trades direct explosive damage for lingering fire, causing enemies to take damage over time.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "youre-next",
     "slug": "youre-next",
     "name": "You're Next",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

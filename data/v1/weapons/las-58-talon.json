@@ -12,6 +12,7 @@
     "id": "las-58-talon",
     "slug": "las-58-talon",
     "name": "LAS-58 Talon",
+    "upcoming": false,
     "aliases": [],
     "description": "The LAS-58 Talon is a Secondary Special, energy-based semi-automatic laser revolver that fires pulses similarly to the LAS-16 Sickle.",
     "image": {

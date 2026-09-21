@@ -12,6 +12,7 @@
     "id": "las-7-dagger",
     "slug": "las-7-dagger",
     "name": "LAS-7 Dagger",
+    "upcoming": false,
     "aliases": [],
     "description": "The LAS-7 Dagger is a Secondary Special energy-based laser pistol with infinite ammo. The weapons ammunition capacity is only limited by heat accumulation within the weapon.",
     "image": {

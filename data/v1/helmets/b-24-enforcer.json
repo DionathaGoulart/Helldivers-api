@@ -12,6 +12,7 @@
     "id": "b-24-enforcer",
     "slug": "b-24-enforcer",
     "name": "B-24 Enforcer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

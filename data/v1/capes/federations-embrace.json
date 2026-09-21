@@ -12,6 +12,7 @@
     "id": "federations-embrace",
     "slug": "federations-embrace",
     "name": "Federation's Embrace",
+    "upcoming": false,
     "aliases": [],
     "description": "When donning the One True Flag, one must face the direction of Super Earth, recite the Super Earth Anthem, and salute one's own image in the nearest reflective surface. Wrongful discarding of this cape is a capital offense.",
     "image": {

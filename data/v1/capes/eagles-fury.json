@@ -12,6 +12,7 @@
     "id": "eagles-fury",
     "slug": "eagles-fury",
     "name": "Eagle's Fury",
+    "upcoming": false,
     "aliases": [],
     "description": "One of the earliest to be mass-produced, this cape has been the final sight of untold numbers of Freedom's foes.",
     "image": {

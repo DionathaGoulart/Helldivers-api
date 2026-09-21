@@ -12,6 +12,7 @@
     "id": "rightful-occupier",
     "slug": "rightful-occupier",
     "name": "Rightful Occupier",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

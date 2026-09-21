@@ -12,6 +12,7 @@
     "id": "eagle-cluster-bomb",
     "slug": "eagle-cluster-bomb",
     "name": "Eagle Cluster Bomb",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Cluster Bomb is an offensive stratagem that calls in a carpet bomb on the area.",
     "image": {

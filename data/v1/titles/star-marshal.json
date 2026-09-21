@@ -12,6 +12,7 @@
     "id": "star-marshal",
     "slug": "star-marshal",
     "name": "Star Marshal",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

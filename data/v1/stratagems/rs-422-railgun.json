@@ -12,6 +12,7 @@
     "id": "rs-422-railgun",
     "slug": "rs-422-railgun",
     "name": "RS-422 Railgun",
+    "upcoming": false,
     "aliases": [],
     "description": "The RS-422 Railgun is a Stratagem which calls down a Support Weapon that fires highly damaging projectiles at the cost of fire rate.",
     "image": {

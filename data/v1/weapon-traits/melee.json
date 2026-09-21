@@ -12,6 +12,7 @@
     "id": "melee",
     "slug": "melee",
     "name": "Melee",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

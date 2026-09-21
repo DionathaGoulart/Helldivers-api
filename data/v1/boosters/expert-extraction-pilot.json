@@ -12,6 +12,7 @@
     "id": "expert-extraction-pilot",
     "slug": "expert-extraction-pilot",
     "name": "Expert Extraction Pilot",
+    "upcoming": false,
     "aliases": [],
     "description": "Expert Extraction Pilot is a Booster in Helldivers 2. When equipped, the extraction timer will be decreased, allowing for the Helldivers' squad to extract from a mission at a quicker rate. This booster does not affect missions where the Extraction Shuttle is immediately called in and lands after a mission is completed.",
     "image": {

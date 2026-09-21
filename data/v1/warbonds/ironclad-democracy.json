@@ -12,6 +12,7 @@
     "id": "ironclad-democracy",
     "slug": "ironclad-democracy",
     "name": "Ironclad Democracy",
+    "upcoming": false,
     "aliases": [],
     "description": "Ironclad Democracy is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

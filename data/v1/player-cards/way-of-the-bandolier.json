@@ -12,6 +12,7 @@
     "id": "way-of-the-bandolier",
     "slug": "way-of-the-bandolier",
     "name": "Way of the Bandolier",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

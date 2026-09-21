@@ -12,6 +12,7 @@
     "id": "shotgun-show",
     "slug": "shotgun-show",
     "name": "Shotgun Show",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

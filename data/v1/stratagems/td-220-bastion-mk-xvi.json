@@ -12,6 +12,7 @@
     "id": "td-220-bastion-mk-xvi",
     "slug": "td-220-bastion-mk-xvi",
     "name": "TD-220 Bastion MK XVI",
+    "upcoming": false,
     "aliases": [],
     "description": "The TD-220 Bastion MK XVI is a Stratagem that deploys a tracked ground vehicle armed with a 120mm HV cannon and a heavy coaxial MG.",
     "image": {

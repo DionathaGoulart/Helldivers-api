@@ -12,6 +12,7 @@
     "id": "sssd-delivery",
     "slug": "sssd-delivery",
     "name": "SSSD Delivery",
+    "upcoming": false,
     "aliases": [],
     "description": "The SSSD Delivery Stratagem allows Helldivers to call down a Hellpod containing an SSSD Hard Drive. Described as the peak of secure data storage, these drives are used by Helldivers for everything from transfer of patriotic data to the sabotage of enemy mainframes.",
     "image": {

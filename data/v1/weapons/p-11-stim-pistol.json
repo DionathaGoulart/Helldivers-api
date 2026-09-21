@@ -12,6 +12,7 @@
     "id": "p-11-stim-pistol",
     "slug": "p-11-stim-pistol",
     "name": "P-11 Stim Pistol",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-11 Stim Pistol is a Secondary Special weapon that fires healing Stim rounds.",
     "image": {

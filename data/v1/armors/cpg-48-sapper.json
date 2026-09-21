@@ -12,6 +12,7 @@
     "id": "cpg-48-sapper",
     "slug": "cpg-48-sapper",
     "name": "CPG-48 Sapper",
+    "upcoming": false,
     "aliases": [],
     "description": "With extra capacity for storing throwable munitions, this armor ensure every enemy stronghold can be tactically ventilated, as per forceful de-fortification protocols.",
     "image": {

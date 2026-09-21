@@ -12,6 +12,7 @@
     "id": "concussive-padding-hazmat",
     "slug": "concussive-padding-hazmat",
     "name": "Concussive Padding, Hazmat",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to explosive damage. Provides 25% resistance to gas damage and effects. Sidearm recoil reduced by 30%.",
     "image": {

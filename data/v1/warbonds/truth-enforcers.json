@@ -12,6 +12,7 @@
     "id": "truth-enforcers",
     "slug": "truth-enforcers",
     "name": "Truth Enforcers",
+    "upcoming": false,
     "aliases": [],
     "description": "Truth Enforcers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

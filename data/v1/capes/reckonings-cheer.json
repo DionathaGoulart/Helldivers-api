@@ -12,6 +12,7 @@
     "id": "reckonings-cheer",
     "slug": "reckonings-cheer",
     "name": "Reckoning's Cheer",
+    "upcoming": false,
     "aliases": [],
     "description": "When facing the enemies of Freedom this Reckoningtide, keep up the festive spirit by recalling the opening line of A Vengeant Carol: \"They'll soon be dead, to begin with.\"",
     "image": {

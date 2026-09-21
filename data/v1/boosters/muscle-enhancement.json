@@ -12,6 +12,7 @@
     "id": "muscle-enhancement",
     "slug": "muscle-enhancement",
     "name": "Muscle Enhancement",
+    "upcoming": false,
     "aliases": [],
     "description": "Muscle Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will move faster in more difficult terrain and environmental effects.",
     "image": {

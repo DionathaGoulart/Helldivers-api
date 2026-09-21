@@ -12,6 +12,7 @@
     "id": "g-50-seeker",
     "slug": "g-50-seeker",
     "name": "G-50 Seeker",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-50 Seeker (simply known as a Seeker) is a Special Throwable in Helldivers 2 that can fly around and explodes on impact. It will target the nearest enemy, but will prioritize a pinged enemy.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "resupply",
     "slug": "resupply",
     "name": "Resupply",
+    "upcoming": false,
     "aliases": [],
     "description": "The Resupply Stratagem allows Helldivers to call down a Hellpod with 4 Supply Boxes.",
     "image": {

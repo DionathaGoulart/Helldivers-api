@@ -12,6 +12,7 @@
     "id": "sg-88-break-action-shotgun",
     "slug": "sg-88-break-action-shotgun",
     "name": "SG-88 Break-Action Shotgun",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-88 Break-Action Shotgun is a Support Weapon with a 2 shot capacity found on various planets from Super Earth colonists.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "mark-of-the-constrictor",
     "slug": "mark-of-the-constrictor",
     "name": "Mark of the Constrictor",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

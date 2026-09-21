@@ -12,6 +12,7 @@
     "id": "target-sighted",
     "slug": "target-sighted",
     "name": "Target Sighted",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

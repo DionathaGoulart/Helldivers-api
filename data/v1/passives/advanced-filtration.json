@@ -12,6 +12,7 @@
     "id": "advanced-filtration",
     "slug": "advanced-filtration",
     "name": "Advanced Filtration",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 80% resistance to gas damage and effects.",
     "image": {

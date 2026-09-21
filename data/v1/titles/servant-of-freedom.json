@@ -12,6 +12,7 @@
     "id": "servant-of-freedom",
     "slug": "servant-of-freedom",
     "name": "Servant of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

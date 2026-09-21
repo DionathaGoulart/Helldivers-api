@@ -12,6 +12,7 @@
     "id": "acclimated",
     "slug": "acclimated",
     "name": "Acclimated",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to fire, gas, acid, and electrical damage.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "first-divemaster",
     "slug": "first-divemaster",
     "name": "First Divemaster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

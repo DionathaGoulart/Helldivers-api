@@ -12,6 +12,7 @@
     "id": "stars-and-suffrage",
     "slug": "stars-and-suffrage",
     "name": "Stars and Suffrage",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

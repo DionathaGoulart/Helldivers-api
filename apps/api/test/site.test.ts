@@ -229,6 +229,7 @@ describe("OpenAPI document", () => {
       "source",
       "trait",
       "firingMode",
+      "upcoming",
       "q",
       "sort",
       "fields",
@@ -248,6 +249,7 @@ describe("renderCsv", () => {
     id: "x",
     slug: "x",
     name: '=HYPERLINK("http://evil")',
+    upcoming: false,
     aliases: ["a", "b"],
     description: "Line one,\nline two",
     image: null,
@@ -261,6 +263,7 @@ describe("renderCsv", () => {
       "id",
       "slug",
       "name",
+      "upcoming",
       "aliases",
       "description",
       "image.url",
@@ -283,9 +286,9 @@ describe("renderCsv", () => {
 
   it("quotes, joins lists and neutralizes formulas", () => {
     const [header, row, end] = renderCsv("boosters", [booster]).split("\r\n");
-    expect(header?.startsWith("id,slug,name,aliases,")).toBe(true);
+    expect(header?.startsWith("id,slug,name,upcoming,aliases,")).toBe(true);
     expect(row).toBe(
-      'x,x,"\'=HYPERLINK(""http://evil"")",a;b,"Line one,\nline two",,,,,X,https://helldivers.wiki.gg/wiki/X,,\'-50% cooldown,default,,,,,,',
+      'x,x,"\'=HYPERLINK(""http://evil"")",false,a;b,"Line one,\nline two",,,,,X,https://helldivers.wiki.gg/wiki/X,,\'-50% cooldown,default,,,,,,',
     );
     expect(end).toBe("");
   });

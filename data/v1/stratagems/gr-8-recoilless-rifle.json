@@ -12,6 +12,7 @@
     "id": "gr-8-recoilless-rifle",
     "slug": "gr-8-recoilless-rifle",
     "name": "GR-8 Recoilless Rifle",
+    "upcoming": false,
     "aliases": [
       "RR"
     ],

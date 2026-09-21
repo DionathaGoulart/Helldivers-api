@@ -12,6 +12,7 @@
     "id": "viper-commando",
     "slug": "viper-commando",
     "name": "Viper Commando",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

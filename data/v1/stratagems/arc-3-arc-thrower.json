@@ -12,6 +12,7 @@
     "id": "arc-3-arc-thrower",
     "slug": "arc-3-arc-thrower",
     "name": "ARC-3 Arc Thrower",
+    "upcoming": false,
     "aliases": [],
     "description": "The Arc Thrower is a support weapon that projects an arc of lightning that can chain between multiple targets.",
     "image": {

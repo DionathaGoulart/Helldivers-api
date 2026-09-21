@@ -12,6 +12,7 @@
     "id": "a-35-recon",
     "slug": "a-35-recon",
     "name": "A-35 Recon",
+    "upcoming": false,
     "aliases": [],
     "description": "Made famous by the Ministry of Intelligence's hide-and-seek-and-destroy champion of '52, this armor has been improved by removing excess shoulder protection.",
     "image": {

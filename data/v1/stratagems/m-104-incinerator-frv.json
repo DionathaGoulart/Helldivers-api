@@ -12,6 +12,7 @@
     "id": "m-104-incinerator-frv",
     "slug": "m-104-incinerator-frv",
     "name": "M-104 Incinerator FRV",
+    "upcoming": false,
     "aliases": [],
     "description": "The M-104 Incinerator FRV is a Stratagem that deploys an armored four-wheeled ground vehicle, equipped with a spiked ramming grille and a heavy flamethrower.",
     "image": {

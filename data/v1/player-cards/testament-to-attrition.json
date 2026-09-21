@@ -12,6 +12,7 @@
     "id": "testament-to-attrition",
     "slug": "testament-to-attrition",
     "name": "Testament to Attrition",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

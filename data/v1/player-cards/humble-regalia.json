@@ -12,6 +12,7 @@
     "id": "humble-regalia",
     "slug": "humble-regalia",
     "name": "Humble Regalia",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

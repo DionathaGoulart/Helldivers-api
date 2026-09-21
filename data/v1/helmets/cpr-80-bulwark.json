@@ -12,6 +12,7 @@
     "id": "cpr-80-bulwark",
     "slug": "cpr-80-bulwark",
     "name": "CPR-80 Bulwark",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

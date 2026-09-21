@@ -12,6 +12,7 @@
     "id": "hug",
     "slug": "hug",
     "name": "Hug",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

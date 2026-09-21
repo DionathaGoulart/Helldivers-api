@@ -12,6 +12,7 @@
     "id": "plas-101-purifier",
     "slug": "plas-101-purifier",
     "name": "PLAS-101 Purifier",
+    "upcoming": false,
     "aliases": [],
     "description": "The PLAS-101 Purifier is a Primary Energy-Based weapon that can fire variable-charge bolts of gas.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "g-4-gas",
     "slug": "g-4-gas",
     "name": "G-4 Gas",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-4 Gas (or Gas Grenade) is a Special Throwable that releases a cloud of Gas alongside a minuscule explosion.",
     "image": {

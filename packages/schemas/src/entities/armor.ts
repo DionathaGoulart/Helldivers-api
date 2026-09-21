@@ -26,6 +26,7 @@ export const ArmorSet = z.object({
   id: Id,
   slug: Id,
   name: z.string().min(1),
+  upcoming: z.boolean(), // the armor's
   wiki: WikiRef,
   armorId: Id,
   helmetId: Id,

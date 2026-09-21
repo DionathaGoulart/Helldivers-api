@@ -12,6 +12,7 @@
     "id": "m-102-gunner-frv",
     "slug": "m-102-gunner-frv",
     "name": "M-102 Gunner FRV",
+    "upcoming": false,
     "aliases": [],
     "description": "The M-102 Gunner FRV is a Stratagem that deploys a four-wheeled ground vehicle with a mounted MG-206 Heavy Machine Gun.",
     "image": {

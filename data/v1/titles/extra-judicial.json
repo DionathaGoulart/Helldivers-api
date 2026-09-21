@@ -12,6 +12,7 @@
     "id": "extra-judicial",
     "slug": "extra-judicial",
     "name": "Extra Judicial",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

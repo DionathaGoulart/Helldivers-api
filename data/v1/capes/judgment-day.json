@@ -12,6 +12,7 @@
     "id": "judgment-day",
     "slug": "judgment-day",
     "name": "Judgment Day",
+    "upcoming": false,
     "aliases": [],
     "description": "The Helldiver Skull is said to strike fear in the hearts of foes attempting to sneak up on those wearing this cape.",
     "image": {

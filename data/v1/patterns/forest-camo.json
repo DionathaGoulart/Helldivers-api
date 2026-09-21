@@ -12,6 +12,7 @@
     "id": "forest-camo",
     "slug": "forest-camo",
     "name": "Forest Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

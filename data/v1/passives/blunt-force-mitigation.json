@@ -12,6 +12,7 @@
     "id": "blunt-force-mitigation",
     "slug": "blunt-force-mitigation",
     "name": "Blunt-Force Mitigation",
+    "upcoming": false,
     "aliases": [],
     "description": "Makes Helldivers more resistant to being knocked off their feet when under attack and reduces any damage taken from impact and collisions by 30%, while also providing a higher armor rating.",
     "image": {

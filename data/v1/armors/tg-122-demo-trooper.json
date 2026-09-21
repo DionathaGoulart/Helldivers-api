@@ -12,6 +12,7 @@
     "id": "tg-122-demo-trooper",
     "slug": "tg-122-demo-trooper",
     "name": "TG-122 Demo-Trooper",
+    "upcoming": false,
     "aliases": [],
     "description": "The design of the Demo-Trooper armor has been a corporate secret since ST Construction first issued it to the Charan National Guard in the early days of the Galactic Federation. Now, STC has contracted with the Ministry of Defense to issue the storied armor of its fallen homeworld to the Helldivers.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "mgx-42-bullet-storm",
     "slug": "mgx-42-bullet-storm",
     "name": "MGX-42 Bullet Storm",
+    "upcoming": false,
     "aliases": [],
     "description": "The MGX-42 Bullet Storm is a Stratagem which calls down a pair of disposable Support Weapons, specializing in disposing of large quantities of lightly armored targets.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "assault-infantry",
     "slug": "assault-infantry",
     "name": "Assault Infantry",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "max-rank",
     "slug": "max-rank",
     "name": "Max Rank",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

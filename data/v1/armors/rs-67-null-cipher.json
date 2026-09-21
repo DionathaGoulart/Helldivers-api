@@ -12,6 +12,7 @@
     "id": "rs-67-null-cipher",
     "slug": "rs-67-null-cipher",
     "name": "RS-67 Null Cipher",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor, coated in radar-absorbent polymers and a null-signature heat baffle, reportedly turns its wearer into a sensor ghost—a claim attributed to individuals who, curiously, appear to have never existed.",
     "image": {

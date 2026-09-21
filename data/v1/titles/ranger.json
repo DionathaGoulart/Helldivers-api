@@ -12,6 +12,7 @@
     "id": "ranger",
     "slug": "ranger",
     "name": "Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "exosuit-certified",
     "slug": "exosuit-certified",
     "name": "Exosuit Certified",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

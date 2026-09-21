@@ -12,6 +12,7 @@
     "id": "m90a-shotgun",
     "slug": "m90a-shotgun",
     "name": "M90A Shotgun",
+    "upcoming": false,
     "aliases": [],
     "description": "The M90A Shotgun is a Primary Shotgun, able to inflict extremely high damage per round in exchange for a significantly reduced magazine size.",
     "image": {

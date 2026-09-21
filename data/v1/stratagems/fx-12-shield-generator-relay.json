@@ -12,6 +12,7 @@
     "id": "fx-12-shield-generator-relay",
     "slug": "fx-12-shield-generator-relay",
     "name": "FX-12 Shield Generator Relay",
+    "upcoming": false,
     "aliases": [],
     "description": "The FX-12 Shield Generator Relay is a static defensive stratagem that projects a bubble shield with 360° coverage to block incoming projectiles.",
     "image": {

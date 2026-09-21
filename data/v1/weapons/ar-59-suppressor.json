@@ -12,6 +12,7 @@
     "id": "ar-59-suppressor",
     "slug": "ar-59-suppressor",
     "name": "AR-59 Suppressor",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-59 Suppressor is a Primary Assault Rifle, equipped with a suppressor for silent takedowns, especially suited to Stealth playstyles.",
     "image": {

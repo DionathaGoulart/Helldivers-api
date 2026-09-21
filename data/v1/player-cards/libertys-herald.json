@@ -12,6 +12,7 @@
     "id": "libertys-herald",
     "slug": "libertys-herald",
     "name": "Liberty's Herald",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

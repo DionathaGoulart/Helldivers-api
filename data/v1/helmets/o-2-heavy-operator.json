@@ -12,6 +12,7 @@
     "id": "o-2-heavy-operator",
     "slug": "o-2-heavy-operator",
     "name": "O-2 Heavy Operator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

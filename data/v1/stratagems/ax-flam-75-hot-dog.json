@@ -12,6 +12,7 @@
     "id": "ax-flam-75-hot-dog",
     "slug": "ax-flam-75-hot-dog",
     "name": "AX/FLAM-75 Hot Dog",
+    "upcoming": false,
     "aliases": [],
     "description": "The AX/FLAM-75 Hot Dog is a backpack Stratagem that provides support to the player by automatically targeting enemies and setting them on fire with its mounted flamethrower.",
     "image": {

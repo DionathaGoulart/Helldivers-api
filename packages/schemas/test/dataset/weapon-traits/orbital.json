@@ -12,6 +12,7 @@
     "id": "orbital",
     "slug": "orbital",
     "name": "Orbital",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

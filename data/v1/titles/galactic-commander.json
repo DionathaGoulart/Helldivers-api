@@ -12,6 +12,7 @@
     "id": "galactic-commander",
     "slug": "galactic-commander",
     "name": "Galactic Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

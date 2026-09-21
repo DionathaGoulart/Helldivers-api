@@ -12,6 +12,7 @@
     "id": "cqc-30-stun-baton",
     "slug": "cqc-30-stun-baton",
     "name": "CQC-30 Stun Baton",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-30 Stun Baton is a Melee Secondary Weapon. Attacking will rapidly swing the baton in a short range.",
     "image": {

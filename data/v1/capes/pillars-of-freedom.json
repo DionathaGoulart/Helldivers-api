@@ -12,6 +12,7 @@
     "id": "pillars-of-freedom",
     "slug": "pillars-of-freedom",
     "name": "Pillars of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": "Woven in honor of our loyal Helldivers, whose hearts' blood is the foundation on which Super Earth is built.",
     "image": {

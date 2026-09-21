@@ -12,6 +12,7 @@
     "id": "ex-03-prototype-3",
     "slug": "ex-03-prototype-3",
     "name": "EX-03 Prototype 3",
+    "upcoming": false,
     "aliases": [],
     "description": "Because this prototype's wires operate at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
     "image": {

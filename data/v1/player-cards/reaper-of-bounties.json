@@ -12,6 +12,7 @@
     "id": "reaper-of-bounties",
     "slug": "reaper-of-bounties",
     "name": "Reaper of Bounties",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

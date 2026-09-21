@@ -12,6 +12,7 @@
     "id": "light-of-eternal-liberty",
     "slug": "light-of-eternal-liberty",
     "name": "Light of Eternal Liberty",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

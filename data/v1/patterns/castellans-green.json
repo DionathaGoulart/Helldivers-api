@@ -12,6 +12,7 @@
     "id": "castellans-green",
     "slug": "castellans-green",
     "name": "Castellans Green",
+    "upcoming": false,
     "aliases": [],
     "description": "Castellans Green patterns are selectable wraps for your various vehicles.",
     "image": {

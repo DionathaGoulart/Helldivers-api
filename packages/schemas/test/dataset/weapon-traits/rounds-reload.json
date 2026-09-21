@@ -12,6 +12,7 @@
     "id": "rounds-reload",
     "slug": "rounds-reload",
     "name": "Rounds Reload",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

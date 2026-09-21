@@ -12,6 +12,7 @@
     "id": "orbital-walking-barrage",
     "slug": "orbital-walking-barrage",
     "name": "Orbital Walking Barrage",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Walking Barrage is an offensive Stratagem which fires several salvos of high-explosive shells, with each following salvo displacing further in the target direction.",
     "image": {

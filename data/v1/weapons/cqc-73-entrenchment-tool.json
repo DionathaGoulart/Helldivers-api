@@ -12,6 +12,7 @@
     "id": "cqc-73-entrenchment-tool",
     "slug": "cqc-73-entrenchment-tool",
     "name": "Entrenchment Tool",
+    "upcoming": false,
     "aliases": [
       "CQC-73 Entrenchment Tool"
     ],

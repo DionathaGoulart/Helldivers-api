@@ -12,6 +12,7 @@
     "id": "agent-of-oblivion",
     "slug": "agent-of-oblivion",
     "name": "Agent of Oblivion",
+    "upcoming": false,
     "aliases": [],
     "description": "0.05% of profits are donated to Superstone National Park, as part of the Ministry of Unity's “Greener Galaxy” campaign.",
     "image": {

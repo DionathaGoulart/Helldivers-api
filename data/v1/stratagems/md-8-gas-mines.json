@@ -12,6 +12,7 @@
     "id": "md-8-gas-mines",
     "slug": "md-8-gas-mines",
     "name": "MD-8 Gas Mines",
+    "upcoming": false,
     "aliases": [],
     "description": "The Gas Mines are a Stratagem that deploys a minefield which releases toxic gas when triggered.",
     "image": {

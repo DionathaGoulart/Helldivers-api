@@ -12,6 +12,7 @@
     "id": "urban",
     "slug": "urban",
     "name": "Urban",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

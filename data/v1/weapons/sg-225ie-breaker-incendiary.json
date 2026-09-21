@@ -12,6 +12,7 @@
     "id": "sg-225ie-breaker-incendiary",
     "slug": "sg-225ie-breaker-incendiary",
     "name": "SG-225IE Breaker Incendiary",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-225IE Breaker Incendiary is a burst fire Primary Shotgun, a variant of the standard Breaker that fires incendiary buckshot.",
     "image": {

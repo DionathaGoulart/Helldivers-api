@@ -12,6 +12,7 @@
     "id": "firebomb-hellpods",
     "slug": "firebomb-hellpods",
     "name": "Firebomb Hellpods",
+    "upcoming": false,
     "aliases": [],
     "description": "Firebomb Hellpods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will detonate upon impact with the surface. Due to the nature of the booster, and its potential damage, notify all squadmates of its use in order to minimize friendly fire.",
     "image": {

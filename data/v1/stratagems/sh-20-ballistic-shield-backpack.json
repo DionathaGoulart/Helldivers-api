@@ -12,6 +12,7 @@
     "id": "sh-20-ballistic-shield-backpack",
     "slug": "sh-20-ballistic-shield-backpack",
     "name": "SH-20 Ballistic Shield Backpack",
+    "upcoming": false,
     "aliases": [],
     "description": "The SH-20 Ballistic Shield Backpack or Ballistic Shield for short is a Stratagem which provides portable cover against enemy small arms fire when wielded.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "call-the-helldivers",
     "slug": "call-the-helldivers",
     "name": "Call the Helldivers",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

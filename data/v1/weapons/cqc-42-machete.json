@@ -12,6 +12,7 @@
     "id": "cqc-42-machete",
     "slug": "cqc-42-machete",
     "name": "CQC-42 Machete",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-42 Machete is a Melee Secondary Weapon. Attacking will slowly swing the Machete in a short range.",
     "image": {

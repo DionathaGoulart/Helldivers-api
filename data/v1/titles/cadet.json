@@ -12,6 +12,7 @@
     "id": "cadet",
     "slug": "cadet",
     "name": "Cadet",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

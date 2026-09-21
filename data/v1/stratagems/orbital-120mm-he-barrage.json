@@ -12,6 +12,7 @@
     "id": "orbital-120mm-he-barrage",
     "slug": "orbital-120mm-he-barrage",
     "name": "Orbital 120mm HE Barrage",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital 120mm HE Barrage is an offensive stratagem which fires 5-6 salvos of 3 high-explosive shells, with a pause between each salvo.",
     "image": {

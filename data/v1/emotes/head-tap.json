@@ -12,6 +12,7 @@
     "id": "head-tap",
     "slug": "head-tap",
     "name": "Head Tap",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

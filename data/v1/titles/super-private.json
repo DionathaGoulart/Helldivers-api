@@ -12,6 +12,7 @@
     "id": "super-private",
     "slug": "super-private",
     "name": "Super Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

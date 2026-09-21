@@ -12,6 +12,7 @@
     "id": "general",
     "slug": "general",
     "name": "General",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "orbital-airburst-strike",
     "slug": "orbital-airburst-strike",
     "name": "Orbital Airburst Strike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Airburst Strike is an offensive Stratagem in Helldivers 2, designed for wiping out large groups of enemy infantry.",
     "image": {

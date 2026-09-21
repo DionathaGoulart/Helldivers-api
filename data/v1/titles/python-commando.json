@@ -12,6 +12,7 @@
     "id": "python-commando",
     "slug": "python-commando",
     "name": "Python Commando",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

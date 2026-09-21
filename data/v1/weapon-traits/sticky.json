@@ -12,6 +12,7 @@
     "id": "sticky",
     "slug": "sticky",
     "name": "Sticky",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

@@ -12,6 +12,7 @@
     "id": "death-captain",
     "slug": "death-captain",
     "name": "Death Captain",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

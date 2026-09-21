@@ -12,6 +12,7 @@
     "id": "p-92-warrant",
     "slug": "p-92-warrant",
     "name": "P-92 Warrant",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-92 Warrant is a Secondary Pistol. It has the ability to target enemies with homing bullets whilst shooting in a three-round burst.",
     "image": {

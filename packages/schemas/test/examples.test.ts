@@ -50,6 +50,14 @@ describe("mutated examples", () => {
   const issuesOf = (collection: Collection, value: unknown) =>
     collectionSchemas[collection].safeParse(value).error?.issues ?? [];
 
+  it("reject an empty stratagem code unless the stratagem is upcoming", () => {
+    const noCode = mutate(example("stratagems", "orbital-precision-strike"), ["code"], []);
+    expect(issuesOf("stratagems", noCode)).toMatchObject([
+      { code: "custom", path: ["code"], message: "a released stratagem needs a code" },
+    ]);
+    expect(issuesOf("stratagems", mutate(noCode, ["upcoming"], true))).toEqual([]);
+  });
+
   it("reject a missing field", () => {
     const issues = issuesOf(
       "weapons",

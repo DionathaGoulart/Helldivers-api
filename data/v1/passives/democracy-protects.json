@@ -12,6 +12,7 @@
     "id": "democracy-protects",
     "slug": "democracy-protects",
     "name": "Democracy Protects",
+    "upcoming": false,
     "aliases": [],
     "description": "50% chance to not die when taking lethal damage. Prevents all damage from bleeding if chest hemorrhages.",
     "image": {

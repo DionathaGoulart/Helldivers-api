@@ -12,6 +12,7 @@
     "id": "scout-handshake",
     "slug": "scout-handshake",
     "name": "Scout Handshake",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

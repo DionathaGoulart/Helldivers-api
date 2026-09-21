@@ -12,6 +12,7 @@
     "id": "i-102-draconaught",
     "slug": "i-102-draconaught",
     "name": "I-102 Draconaught",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

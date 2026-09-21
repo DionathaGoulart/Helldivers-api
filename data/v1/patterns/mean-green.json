@@ -12,6 +12,7 @@
     "id": "mean-green",
     "slug": "mean-green",
     "name": "Mean Green",
+    "upcoming": false,
     "aliases": [],
     "description": "Mean Green patterns are selectable wraps for your various vehicles.",
     "image": {

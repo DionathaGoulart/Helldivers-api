@@ -12,6 +12,7 @@
     "id": "freedoms-tapestry",
     "slug": "freedoms-tapestry",
     "name": "Freedom's Tapestry",
+    "upcoming": false,
     "aliases": [],
     "description": "Let all who see this cape be struck still with Freedom's beauty, or struck dead with Liberty's bullets.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "freedoms-tapestry",
     "slug": "freedoms-tapestry",
     "name": "Freedom's Tapestry",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

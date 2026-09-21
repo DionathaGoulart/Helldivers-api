@@ -12,6 +12,7 @@
     "id": "badge-of-order",
     "slug": "badge-of-order",
     "name": "Badge of Order",
+    "upcoming": false,
     "aliases": [],
     "description": "This sigil reaffirms the Helldiver's pledge to protect Managed Democracy, serve Managed Democracy, and uphold Managed Democracy.",
     "image": {

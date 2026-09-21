@@ -12,6 +12,7 @@
     "id": "engineering-kit",
     "slug": "engineering-kit",
     "name": "Engineering Kit",
+    "upcoming": false,
     "aliases": [],
     "description": "Further reduces recoil when crouching or prone by 30%. Increases initial inventory and holding capacity of throwables by +2.",
     "image": {

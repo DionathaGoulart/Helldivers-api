@@ -12,6 +12,7 @@
     "id": "vision-of-freedom",
     "slug": "vision-of-freedom",
     "name": "Vision of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": "Artists and sculptors have made countless attempts at depicting the face of Liberty, but the truth is that any citizen can see it—they need only requisition a mirror.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "gunslinger",
     "slug": "gunslinger",
     "name": "Gunslinger",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases sidearms reload speed by 40%. Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%.",
     "image": {

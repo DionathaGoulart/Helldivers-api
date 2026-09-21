@@ -12,6 +12,7 @@
     "id": "servo-assisted",
     "slug": "servo-assisted",
     "name": "Servo-Assisted",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases throwing range by 30%. Provides +50% limb health.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "desert-stormer",
     "slug": "desert-stormer",
     "name": "Desert Stormer",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 40% resistance to fire, gas, acid, and electrical damage. Increases throwing range by 20%.",
     "image": {

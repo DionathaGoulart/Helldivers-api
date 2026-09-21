@@ -12,6 +12,7 @@
     "id": "unflinching",
     "slug": "unflinching",
     "name": "Unflinching",
+    "upcoming": false,
     "aliases": [],
     "description": "Helps prevent Helldivers from flinching when hit. Provides a higher armor rating. Markers placed on the map will generate radar scans every 2.0s.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "test-of-conviction",
     "slug": "test-of-conviction",
     "name": "Test of Conviction",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

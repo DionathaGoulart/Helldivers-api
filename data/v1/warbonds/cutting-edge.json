@@ -12,6 +12,7 @@
     "id": "cutting-edge",
     "slug": "cutting-edge",
     "name": "Cutting Edge",
+    "upcoming": false,
     "aliases": [],
     "description": "Cutting Edge is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

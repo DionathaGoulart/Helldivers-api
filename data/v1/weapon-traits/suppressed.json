@@ -12,6 +12,7 @@
     "id": "suppressed",
     "slug": "suppressed",
     "name": "Suppressed",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

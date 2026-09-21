@@ -12,6 +12,7 @@
     "id": "flam-40-flamethrower",
     "slug": "flam-40-flamethrower",
     "name": "FLAM-40 Flamethrower",
+    "upcoming": false,
     "aliases": [],
     "description": "The FLAM-40 Flamethrower is a Support weapon capable of projecting flames several meters. Enemies and Helldivers hit with this weapon will start to burn.",
     "image": {

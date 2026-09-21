@@ -12,6 +12,7 @@
     "id": "orbital-railcannon-strike",
     "slug": "orbital-railcannon-strike",
     "name": "Orbital Railcannon Strike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Railcannon Strike, also known as the ORC or ORS, is an offensive stratagem that fires an auto-targeting projectile at the largest enemy nearby",
     "image": {

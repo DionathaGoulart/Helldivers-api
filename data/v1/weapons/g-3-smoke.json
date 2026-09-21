@@ -12,6 +12,7 @@
     "id": "g-3-smoke",
     "slug": "g-3-smoke",
     "name": "G-3 Smoke",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-3 Smoke is a Special Throwable that is used to create a temporary smoke screen to obscure Helldivers.",
     "image": {

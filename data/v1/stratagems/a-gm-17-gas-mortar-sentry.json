@@ -12,6 +12,7 @@
     "id": "a-gm-17-gas-mortar-sentry",
     "slug": "a-gm-17-gas-mortar-sentry",
     "name": "A/GM-17 Gas Mortar Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/GM-17 Gas Mortar Sentry is a powerful defensive stratagem able to deploy gas mortar shells onto enemies from range, and behind cover.",
     "image": {

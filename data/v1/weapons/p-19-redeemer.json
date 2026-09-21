@@ -12,6 +12,7 @@
     "id": "p-19-redeemer",
     "slug": "p-19-redeemer",
     "name": "P-19 Redeemer",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-19 Redeemer is a semi-automatic and fully-automatic hybrid Secondary Pistol.",
     "image": {

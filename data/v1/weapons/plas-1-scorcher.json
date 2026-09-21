@@ -12,6 +12,7 @@
     "id": "plas-1-scorcher",
     "slug": "plas-1-scorcher",
     "name": "PLAS-1 Scorcher",
+    "upcoming": false,
     "aliases": [],
     "description": "The PLAS-1 Scorcher is a Primary Energy-Based weapon that fires explosive energy projectiles.",
     "image": {

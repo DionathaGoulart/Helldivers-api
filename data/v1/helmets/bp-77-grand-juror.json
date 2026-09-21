@@ -12,6 +12,7 @@
     "id": "bp-77-grand-juror",
     "slug": "bp-77-grand-juror",
     "name": "BP-77 Grand Juror",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

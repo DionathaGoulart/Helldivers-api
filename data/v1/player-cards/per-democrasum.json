@@ -12,6 +12,7 @@
     "id": "per-democrasum",
     "slug": "per-democrasum",
     "name": "Per Democrasum",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "stamina-enhancement",
     "slug": "stamina-enhancement",
     "name": "Stamina Enhancement",
+    "upcoming": false,
     "aliases": [],
     "description": "Stamina Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will have increased max stamina and stamina recovery, allowing for longer sprinting times, and more physically-taxing movements.",
     "image": {

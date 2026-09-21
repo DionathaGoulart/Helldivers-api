@@ -12,6 +12,7 @@
     "id": "patient-zeros-remembrance",
     "slug": "patient-zeros-remembrance",
     "name": "Patient Zero's Remembrance",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

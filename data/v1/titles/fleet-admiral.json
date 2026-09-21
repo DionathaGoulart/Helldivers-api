@@ -12,6 +12,7 @@
     "id": "fleet-admiral",
     "slug": "fleet-admiral",
     "name": "Fleet Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

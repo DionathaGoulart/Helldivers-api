@@ -12,6 +12,7 @@
     "id": "backpack",
     "slug": "backpack",
     "name": "Backpack",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

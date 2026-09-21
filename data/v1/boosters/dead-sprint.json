@@ -12,6 +12,7 @@
     "id": "dead-sprint",
     "slug": "dead-sprint",
     "name": "Dead Sprint",
+    "upcoming": false,
     "aliases": [],
     "description": "Dead Sprint is a Booster in Helldivers 2. When equipped, all Helldivers will be able to keep sprinting after they're exhausted, though it will eat though your HP.",
     "image": {

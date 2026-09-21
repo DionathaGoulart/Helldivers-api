@@ -12,6 +12,7 @@
     "id": "eagle-rearm",
     "slug": "eagle-rearm",
     "name": "Eagle Rearm",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Rearm Stratagem is used to send the Eagle back to the Super Destroyer to replenish its munitions. It is only available when the helldiver doesn't have their maximum capacity of eagle stratagems loaded in Eagle 1.",
     "image": {

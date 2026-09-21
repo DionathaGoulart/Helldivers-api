@@ -12,6 +12,7 @@
     "id": "a-g-16-gatling-sentry",
     "slug": "a-g-16-gatling-sentry",
     "name": "A/G-16 Gatling Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/G-16 Gatling Sentry is a defensive stratagem that fires at an extremely fast rate with its triple barreled gatling gun.",
     "image": {

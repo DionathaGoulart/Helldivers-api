@@ -12,6 +12,7 @@
     "id": "signal-silence",
     "slug": "signal-silence",
     "name": "Signal: Silence",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

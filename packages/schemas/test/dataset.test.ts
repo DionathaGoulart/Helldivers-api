@@ -151,7 +151,7 @@ describe("validateDataset", () => {
     edit(files, "boosters/hellpod-space-optimization.json", ["data"], reordered);
 
     const message =
-      "keys out of schema order: expected id, slug, name, aliases, description, image, wiki, effect, source";
+      "keys out of schema order: expected id, slug, name, upcoming, aliases, description, image, wiki, effect, source";
     expect(validateDataset(files)).toEqual([
       { file: "boosters.json", path: "data[0]", message },
       { file: "boosters/hellpod-space-optimization.json", path: "data", message },

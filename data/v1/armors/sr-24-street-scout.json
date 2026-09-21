@@ -12,6 +12,7 @@
     "id": "sr-24-street-scout",
     "slug": "sr-24-street-scout",
     "name": "SR-24 Street Scout",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor's nostalgic color scheme brings to mind beloved trappings of colonial yesteryear: concrete frontier domiciles, slate-colored civilian jumpsuits, and Space Settlers' Pie.",
     "image": {

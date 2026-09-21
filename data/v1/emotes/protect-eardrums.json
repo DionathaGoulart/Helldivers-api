@@ -12,6 +12,7 @@
     "id": "protect-eardrums",
     "slug": "protect-eardrums",
     "name": "Protect Eardrums",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

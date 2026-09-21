@@ -12,6 +12,7 @@
     "id": "bfm-220-ironclad",
     "slug": "bfm-220-ironclad",
     "name": "BFM-220 Ironclad",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

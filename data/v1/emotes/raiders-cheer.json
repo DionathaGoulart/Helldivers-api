@@ -12,6 +12,7 @@
     "id": "raiders-cheer",
     "slug": "raiders-cheer",
     "name": "Raider's Cheer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

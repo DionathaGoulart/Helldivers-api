@@ -12,6 +12,7 @@
     "id": "eat-411-leveller",
     "slug": "eat-411-leveller",
     "name": "EAT-411 Leveller",
+    "upcoming": false,
     "aliases": [],
     "description": "The EAT-411 Leveller is a Stratagem that calls down a single disposable large area covering anti-tank Support Weapon.",
     "image": {

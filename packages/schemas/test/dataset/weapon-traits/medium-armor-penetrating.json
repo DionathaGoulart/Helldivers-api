@@ -12,6 +12,7 @@
     "id": "medium-armor-penetrating",
     "slug": "medium-armor-penetrating",
     "name": "Medium Armor Penetrating",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

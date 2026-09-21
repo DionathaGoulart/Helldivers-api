@@ -12,6 +12,7 @@
     "id": "plas-15-loyalist",
     "slug": "plas-15-loyalist",
     "name": "PLAS-15 Loyalist",
+    "upcoming": false,
     "aliases": [],
     "description": "The PLAS-15 Loyalist is a Secondary Special pistol that fires explosive plasma projectiles.",
     "image": {

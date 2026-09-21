@@ -11,7 +11,7 @@ import {
   type RawBoosterRow,
 } from "../parsers/boosters-index.ts";
 import { findItemPage, parseWarbondPage, type RawWarbondPage } from "../parsers/warbond-page.ts";
-import { flagsFromCategories } from "../wiki/page.ts";
+import { flagsFromCategories, isUpcoming } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
 
@@ -58,6 +58,7 @@ export const boostersPipeline: CollectionPipeline<"boosters"> = {
         id,
         slug: slugify(row.name),
         name: row.name,
+        upcoming: isUpcoming(raw.categories),
         aliases: [...new Set([row.page.title, raw.title])].filter((t) => t !== row.name).sort(),
         description: raw.lead,
         image: null, // attached in step 7

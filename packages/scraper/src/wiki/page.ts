@@ -42,6 +42,11 @@ const FLAG_BY_CATEGORY: Readonly<Record<string, WikiFlag>> = {
   Stubs: "stub", // confirmed on Castellans Green Pattern (plan 3e)
 };
 
+/** Announced, not in the game yet: TD-110 Maelstrom, the Ironclad Democracy items (2026-09-20). */
+export function isUpcoming(categories: readonly string[]): boolean {
+  return categories.includes("Unreleased Content");
+}
+
 /** Maintenance categories → `wiki.flags`, in enum order (arch §4.5). */
 export function flagsFromCategories(categories: readonly string[]): WikiFlag[] {
   const flags = new Set(categories.map((category) => FLAG_BY_CATEGORY[category]));

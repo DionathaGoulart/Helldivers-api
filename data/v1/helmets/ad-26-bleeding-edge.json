@@ -12,6 +12,7 @@
     "id": "ad-26-bleeding-edge",
     "slug": "ad-26-bleeding-edge",
     "name": "AD-26 Bleeding Edge",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

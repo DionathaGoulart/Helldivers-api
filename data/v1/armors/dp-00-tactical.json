@@ -12,6 +12,7 @@
     "id": "dp-00-tactical",
     "slug": "dp-00-tactical",
     "name": "DP-00 Tactical",
+    "upcoming": false,
     "aliases": [],
     "description": "This classic armor set is recognized by every citizen: worn by the heroic Helldivers who battled and forever defeated the Terminids, Cyborgs, and Illuminate in the First Galactic War.",
     "image": {

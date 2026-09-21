@@ -12,6 +12,7 @@
     "id": "this-is-democracy",
     "slug": "this-is-democracy",
     "name": "This Is Democracy",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

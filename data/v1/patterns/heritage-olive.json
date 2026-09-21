@@ -12,6 +12,7 @@
     "id": "heritage-olive",
     "slug": "heritage-olive",
     "name": "Heritage Olive",
+    "upcoming": false,
     "aliases": [],
     "description": "Heritage Olive patterns are selectable wraps for your various vehicles.",
     "image": {

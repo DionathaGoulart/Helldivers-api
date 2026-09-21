@@ -2,6 +2,7 @@
   "id": "arctic",
   "slug": "arctic",
   "name": "Arctic",
+  "upcoming": false,
   "aliases": [],
   "description": null,
   "image": {

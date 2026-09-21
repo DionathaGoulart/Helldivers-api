@@ -12,6 +12,7 @@
     "id": "super-pedestrian",
     "slug": "super-pedestrian",
     "name": "Super Pedestrian",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

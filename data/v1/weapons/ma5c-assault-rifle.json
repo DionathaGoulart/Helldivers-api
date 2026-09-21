@@ -12,6 +12,7 @@
     "id": "ma5c-assault-rifle",
     "slug": "ma5c-assault-rifle",
     "name": "MA5C Assault Rifle",
+    "upcoming": false,
     "aliases": [],
     "description": "The MA5C Assault Rifle is a Primary Assault Rifle. It has an attached electronics suite that provides information on rounds remaining in the magazine and compass heading.",
     "image": {

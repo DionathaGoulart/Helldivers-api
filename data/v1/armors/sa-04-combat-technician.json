@@ -12,6 +12,7 @@
     "id": "sa-04-combat-technician",
     "slug": "sa-04-combat-technician",
     "name": "SA-04 Combat Technician",
+    "upcoming": false,
     "aliases": [],
     "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
     "image": {

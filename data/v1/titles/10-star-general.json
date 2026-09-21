@@ -12,6 +12,7 @@
     "id": "10-star-general",
     "slug": "10-star-general",
     "name": "10-Star General",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

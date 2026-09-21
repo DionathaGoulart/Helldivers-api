@@ -12,6 +12,7 @@
     "id": "cqc-72-entrenchment-tool",
     "slug": "cqc-72-entrenchment-tool",
     "name": "Trench Shovel",
+    "upcoming": false,
     "aliases": [
       "CQC-72 Entrenchment Tool"
     ],

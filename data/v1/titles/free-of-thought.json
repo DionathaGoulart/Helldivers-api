@@ -12,6 +12,7 @@
     "id": "free-of-thought",
     "slug": "free-of-thought",
     "name": "Free of Thought",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -1,3 +1,4 @@
+import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 import { ParseError } from "../../src/errors.ts";
 import { parseStratagemPage } from "../../src/parsers/stratagem-page.ts";
@@ -71,6 +72,16 @@ describe("stratagems-index parser", async () => {
       unlockLevel: null,
       source: null,
     });
+  });
+
+  it("reads an UNKNOWN code cell as no arrows", () => {
+    const $ = cheerio.load(index.html);
+    $("td")
+      .filter((_, td) => $(td).text().trim() === "M-103 Supply FRV")
+      .next()
+      .html('<span class="Stratagemcodeicon">UNKNOWN</span>');
+    const unknown = parseStratagemsIndex($.html(), { url: index.url });
+    expect(unknown.find((row) => row.name === "M-103 Supply FRV")?.code).toEqual([]);
   });
 
   it("fails loudly when the layout changes", () => {

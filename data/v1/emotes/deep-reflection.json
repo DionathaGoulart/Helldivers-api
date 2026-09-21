@@ -12,6 +12,7 @@
     "id": "deep-reflection",
     "slug": "deep-reflection",
     "name": "Deep Reflection",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

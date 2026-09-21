@@ -12,6 +12,7 @@
     "id": "sh-51-directional-shield",
     "slug": "sh-51-directional-shield",
     "name": "SH-51 Directional Shield",
+    "upcoming": false,
     "aliases": [],
     "description": "The Directional Shield is a Backpack Stratagem that projects a wide energy shield in front of the wielder when using a One-Handed weapon.",
     "image": {

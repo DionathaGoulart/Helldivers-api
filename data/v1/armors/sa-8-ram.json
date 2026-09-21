@@ -12,6 +12,7 @@
     "id": "sa-8-ram",
     "slug": "sa-8-ram",
     "name": "SA-8 Ram",
+    "upcoming": false,
     "aliases": [],
     "description": "The heavy plate used in this armor is sustainably sourced from the corpses of non-sentient Automaton, then processed by other, similarly non-sentient Automatons.",
     "image": {

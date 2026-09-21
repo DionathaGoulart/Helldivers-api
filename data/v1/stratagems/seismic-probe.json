@@ -12,6 +12,7 @@
     "id": "seismic-probe",
     "slug": "seismic-probe",
     "name": "Seismic Probe",
+    "upcoming": false,
     "aliases": [],
     "description": "A Seismic Probe Stratagem is Seismic Probe fitted into a Hellpod. It is preprogrammed so that only the simplest calibration and execution sequence is needed once deployed to the surface. It is only available during the Conduct Geological Survey mission and is used to start and complete the \"Deploy Seismic Probe\" sub-objective.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "mudskipper",
     "slug": "mudskipper",
     "name": "Mudskipper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

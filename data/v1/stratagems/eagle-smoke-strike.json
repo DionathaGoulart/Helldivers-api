@@ -12,6 +12,7 @@
     "id": "eagle-smoke-strike",
     "slug": "eagle-smoke-strike",
     "name": "Eagle Smoke Strike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Smoke Strike is an offensive stratagem that drops several smoke bombs to create a large smokescreen to provide concealment.",
     "image": {

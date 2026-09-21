@@ -12,6 +12,7 @@
     "id": "md-17-anti-tank-mines",
     "slug": "md-17-anti-tank-mines",
     "name": "MD-17 Anti-Tank Mines",
+    "upcoming": false,
     "aliases": [],
     "description": "The MD-17 Anti-Tank Mines (simply known as AT Mines) are a defensive Stratagem which deploys a minefield of armor penetrating mines.",
     "image": {

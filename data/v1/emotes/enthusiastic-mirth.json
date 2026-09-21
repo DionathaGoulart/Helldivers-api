@@ -12,6 +12,7 @@
     "id": "enthusiastic-mirth",
     "slug": "enthusiastic-mirth",
     "name": "Enthusiastic Mirth",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

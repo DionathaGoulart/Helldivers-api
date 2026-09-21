@@ -12,6 +12,7 @@
     "id": "big-whoop",
     "slug": "big-whoop",
     "name": "Big Whoop",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

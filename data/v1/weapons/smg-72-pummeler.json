@@ -12,6 +12,7 @@
     "id": "smg-72-pummeler",
     "slug": "smg-72-pummeler",
     "name": "SMG-72 Pummeler",
+    "upcoming": false,
     "aliases": [],
     "description": "The SMG-72 Pummeler is a Primary Submachine Gun that fires concussive rounds that can stun enemies.",
     "image": {

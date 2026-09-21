@@ -12,6 +12,7 @@
     "id": "cqc-2-saber",
     "slug": "cqc-2-saber",
     "name": "CQC-2 Saber",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-2 Saber is a Melee Secondary Weapon. Attacking will rapidly swing the saber in a short range.",
     "image": {

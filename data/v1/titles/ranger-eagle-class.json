@@ -12,6 +12,7 @@
     "id": "ranger-eagle-class",
     "slug": "ranger-eagle-class",
     "name": "Ranger, Eagle Class",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

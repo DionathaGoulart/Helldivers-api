@@ -12,6 +12,7 @@
     "id": "eagle-strafing-run",
     "slug": "eagle-strafing-run",
     "name": "Eagle Strafing Run",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Strafing Run is an offensive stratagem that calls the Eagle in to fire a barrage of anti-tank, high-explosive shells, parallel to the player.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "schema-laid-bare",
     "slug": "schema-laid-bare",
     "name": "Schema Laid Bare",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

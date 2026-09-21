@@ -12,6 +12,7 @@
     "id": "standard",
     "slug": "standard",
     "name": "Standard",
+    "upcoming": false,
     "aliases": [],
     "description": "Standard patterns are selectable wraps for your various vehicles.",
     "image": {

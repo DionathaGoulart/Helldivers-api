@@ -12,6 +12,7 @@
     "id": "e-mg-101-hmg-emplacement",
     "slug": "e-mg-101-hmg-emplacement",
     "name": "E/MG-101 HMG Emplacement",
+    "upcoming": false,
     "aliases": [],
     "description": "The HMG Emplacement is a Stratagem that deploys a static, manually operated machine gun emplacement.",
     "image": {

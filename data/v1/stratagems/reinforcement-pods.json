@@ -12,6 +12,7 @@
     "id": "reinforcement-pods",
     "slug": "reinforcement-pods",
     "name": "Link Hellpods to Destroyer",
+    "upcoming": false,
     "aliases": [
       "Reinforcement Pods"
     ],

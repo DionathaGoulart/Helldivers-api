@@ -12,6 +12,7 @@
     "id": "orbital-illumination-flare",
     "slug": "orbital-illumination-flare",
     "name": "Orbital Illumination Flare",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Illumination Flare is a deprecated Stratagem that was never able to be used in-game.",
     "image": {

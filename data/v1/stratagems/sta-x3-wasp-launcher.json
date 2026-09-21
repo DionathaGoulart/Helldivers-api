@@ -12,6 +12,7 @@
     "id": "sta-x3-wasp-launcher",
     "slug": "sta-x3-wasp-launcher",
     "name": "StA-X3 W.A.S.P. Launcher",
+    "upcoming": false,
     "aliases": [],
     "description": "The StA-X3 W.A.S.P. Launcher, or simply W.A.S.P., is an anti-tank multiple micro missile launcher Support Weapon with homing capability and two variable firing modes. It is a part of the Helldivers x Killzone crossover.",
     "image": {

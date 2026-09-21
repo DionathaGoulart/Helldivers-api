@@ -12,6 +12,7 @@
     "id": "salute",
     "slug": "salute",
     "name": "Salute",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "schema-laid-bare",
     "slug": "schema-laid-bare",
     "name": "Schema Laid Bare",
+    "upcoming": false,
     "aliases": [],
     "description": "This cape depicts the inner workings of a medical device submitted to the Ministry of Science 70 years ago, and is bound to clear their patent approval process any day now.",
     "image": {

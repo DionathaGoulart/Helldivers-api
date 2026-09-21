@@ -12,6 +12,7 @@
     "id": "motivational-shocks",
     "slug": "motivational-shocks",
     "name": "Motivational Shocks",
+    "upcoming": false,
     "aliases": [],
     "description": "Motivational Shocks is a Booster in Helldivers 2. When equipped, all Helldivers are able to recover faster after being slowed by certain attacks. While it does mitigate most attacks that slow down movement, it does not mitigate all of them.",
     "image": {

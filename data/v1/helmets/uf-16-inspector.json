@@ -12,6 +12,7 @@
     "id": "uf-16-inspector",
     "slug": "uf-16-inspector",
     "name": "UF-16 Inspector",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

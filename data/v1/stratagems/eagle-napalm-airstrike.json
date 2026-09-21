@@ -12,6 +12,7 @@
     "id": "eagle-napalm-airstrike",
     "slug": "eagle-napalm-airstrike",
     "name": "Eagle Napalm Airstrike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Napalm Airstrike is an offensive stratagem that releases an incendiary payload to ignite a fire on the targeted area temporarily.",
     "image": {

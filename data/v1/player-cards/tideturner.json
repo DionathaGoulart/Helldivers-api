@@ -12,6 +12,7 @@
     "id": "tideturner",
     "slug": "tideturner",
     "name": "Tideturner",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

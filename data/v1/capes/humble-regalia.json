@@ -12,6 +12,7 @@
     "id": "humble-regalia",
     "slug": "humble-regalia",
     "name": "Humble Regalia",
+    "upcoming": false,
     "aliases": [],
     "description": "This modest cape has been worn by those guarding the Chamber of Unanimous Decision since time immemorial.",
     "image": {

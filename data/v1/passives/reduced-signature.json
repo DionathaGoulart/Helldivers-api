@@ -12,6 +12,7 @@
     "id": "reduced-signature",
     "slug": "reduced-signature",
     "name": "Reduced Signature",
+    "upcoming": false,
     "aliases": [],
     "description": "Wearer makes 50% less noise when moving. Reduces range at which enemies can detect the wearer by 40%.",
     "image": {

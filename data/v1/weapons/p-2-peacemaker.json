@@ -12,6 +12,7 @@
     "id": "p-2-peacemaker",
     "slug": "p-2-peacemaker",
     "name": "P-2 Peacemaker",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-2 Peacemaker is the starting Secondary Pistol for every Helldiver.",
     "image": {

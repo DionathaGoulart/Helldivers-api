@@ -12,6 +12,7 @@
     "id": "g-6-frag",
     "slug": "g-6-frag",
     "name": "G-6 Frag",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-6 Frag is a Standard Throwable with a large explosive radius, producing shrapnel that can deal additional damage.",
     "image": {

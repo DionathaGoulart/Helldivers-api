@@ -12,6 +12,7 @@
     "id": "orbital-napalm-barrage",
     "slug": "orbital-napalm-barrage",
     "name": "Orbital Napalm Barrage",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Napalm Barrage, also known as the ONB, is an offensive orbital Stratagem that launches 5 salvos of 5 120mm shells that explode into pools of fire on impact.",
     "image": {

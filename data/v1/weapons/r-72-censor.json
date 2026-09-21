@@ -12,6 +12,7 @@
     "id": "r-72-censor",
     "slug": "r-72-censor",
     "name": "R-72 Censor",
+    "upcoming": false,
     "aliases": [],
     "description": "The R-72 Censor is a Primary Marksman Rifle equipped with a suppressor for silent takedowns, specially suited for Stealth playstyles.",
     "image": {

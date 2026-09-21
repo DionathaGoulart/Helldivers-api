@@ -12,6 +12,7 @@
     "id": "sa-25-steel-trooper",
     "slug": "sa-25-steel-trooper",
     "name": "SA-25 Steel Trooper",
+    "upcoming": false,
     "aliases": [],
     "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
     "image": {

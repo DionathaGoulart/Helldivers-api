@@ -12,6 +12,7 @@
     "id": "fallen-heros-vengeance",
     "slug": "fallen-heros-vengeance",
     "name": "Fallen Hero's Vengeance",
+    "upcoming": false,
     "aliases": [],
     "description": "Our heroic fallen live on in this cape, guiding its bearer's aim to the heart of those who killed them.",
     "image": {

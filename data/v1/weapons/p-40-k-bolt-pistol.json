@@ -12,6 +12,7 @@
     "id": "p-40-k-bolt-pistol",
     "slug": "p-40-k-bolt-pistol",
     "name": "P/40-K Bolt Pistol",
+    "upcoming": false,
     "aliases": [],
     "description": "The P/40-K Bolt Pistol is a Secondary Pistol that fires large caliber rounds with massive recoil.",
     "image": {

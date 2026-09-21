@@ -12,6 +12,7 @@
     "id": "big-stretch",
     "slug": "big-stretch",
     "name": "Big Stretch",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

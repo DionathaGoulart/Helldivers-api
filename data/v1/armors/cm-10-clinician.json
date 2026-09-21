@@ -12,6 +12,7 @@
     "id": "cm-10-clinician",
     "slug": "cm-10-clinician",
     "name": "CM-10 Clinician",
+    "upcoming": false,
     "aliases": [],
     "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
     "image": {

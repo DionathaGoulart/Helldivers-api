@@ -12,6 +12,7 @@
     "id": "a-las-98-laser-sentry",
     "slug": "a-las-98-laser-sentry",
     "name": "A/LAS-98 Laser Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The Laser Sentry is a close-range incendiary sentry stratagem from the Control Group Warbond.",
     "image": {

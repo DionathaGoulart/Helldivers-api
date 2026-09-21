@@ -12,6 +12,7 @@
     "id": "sr-18-roadblock",
     "slug": "sr-18-roadblock",
     "name": "SR-18 Roadblock",
+    "upcoming": false,
     "aliases": [],
     "description": "The crest on this armor's shoulder shows friendlies that safety is near, and foes that they have reached the end of the road.",
     "image": {

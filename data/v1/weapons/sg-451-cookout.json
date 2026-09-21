@@ -12,6 +12,7 @@
     "id": "sg-451-cookout",
     "slug": "sg-451-cookout",
     "name": "SG-451 Cookout",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-451 Cookout is a Primary Shotgun, a variant of the standard Punisher that fires incendiary buckshot.",
     "image": {

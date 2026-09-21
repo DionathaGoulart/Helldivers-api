@@ -12,6 +12,7 @@
     "id": "space-chief-prime",
     "slug": "space-chief-prime",
     "name": "Space Chief Prime",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

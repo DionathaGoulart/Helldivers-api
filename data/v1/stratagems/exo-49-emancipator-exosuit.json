@@ -12,6 +12,7 @@
     "id": "exo-49-emancipator-exosuit",
     "slug": "exo-49-emancipator-exosuit",
     "name": "EXO-49 Emancipator Exosuit",
+    "upcoming": false,
     "aliases": [],
     "description": "The EXO-49 Emancipator Exosuit is an Exosuit Stratagem featuring 2 dual autocannons as armaments.",
     "image": {

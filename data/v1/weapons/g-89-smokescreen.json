@@ -12,6 +12,7 @@
     "id": "g-89-smokescreen",
     "slug": "g-89-smokescreen",
     "name": "G-89 Smokescreen",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-89 Smokescreen is a Special Throwable that is used to create a temporary smoke screen to obscure Helldivers upon impact.",
     "image": {

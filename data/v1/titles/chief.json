@@ -12,6 +12,7 @@
     "id": "chief",
     "slug": "chief",
     "name": "Chief",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

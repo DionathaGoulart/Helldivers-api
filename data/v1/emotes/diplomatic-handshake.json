@@ -12,6 +12,7 @@
     "id": "diplomatic-handshake",
     "slug": "diplomatic-handshake",
     "name": "Diplomatic Handshake",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "anti-tank",
     "slug": "anti-tank",
     "name": "Anti-Tank",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

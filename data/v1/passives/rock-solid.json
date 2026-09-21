@@ -12,6 +12,7 @@
     "id": "rock-solid",
     "slug": "rock-solid",
     "name": "Rock Solid",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases melee damage by 40%. Bearer is more resistant to being knocked prone.",
     "image": {

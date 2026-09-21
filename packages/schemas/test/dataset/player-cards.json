@@ -14,6 +14,7 @@
       "id": "camo-cloak",
       "slug": "camo-cloak",
       "name": "Camo Cloak",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": null,
@@ -39,6 +40,7 @@
       "id": "city-fighters-resolve",
       "slug": "city-fighters-resolve",
       "name": "City Fighter's Resolve",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {

@@ -12,6 +12,7 @@
     "id": "finger-guns",
     "slug": "finger-guns",
     "name": "Finger Guns",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "e-at-12-anti-tank-emplacement",
     "slug": "e-at-12-anti-tank-emplacement",
     "name": "E/AT-12 Anti-Tank Emplacement",
+    "upcoming": false,
     "aliases": [],
     "description": "The Anti-Tank Emplacement, shortened to AT Emplacement or ATE, is a Stratagem that deploys a heavy anti-tank cannon.",
     "image": {

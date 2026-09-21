@@ -12,6 +12,7 @@
     "id": "scout",
     "slug": "scout",
     "name": "Scout",
+    "upcoming": false,
     "aliases": [],
     "description": "Markers placed on the map will generate radar scans every 2.0s. Reduces range at which enemies can detect the wearer by 30%.",
     "image": {

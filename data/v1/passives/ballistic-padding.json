@@ -12,6 +12,7 @@
     "id": "ballistic-padding",
     "slug": "ballistic-padding",
     "name": "Ballistic Padding",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 25% resistance to chest damage. Provides 25% resistance to explosive damage. Prevents all damage from bleeding if chest hemorrhages.",
     "image": {

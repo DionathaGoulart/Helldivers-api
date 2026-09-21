@@ -12,6 +12,7 @@
     "id": "viper-commandos",
     "slug": "viper-commandos",
     "name": "Viper Commandos",
+    "upcoming": false,
     "aliases": [],
     "description": "Viper Commandos is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

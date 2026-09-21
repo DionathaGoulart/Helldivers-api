@@ -12,6 +12,7 @@
     "id": "gl-28-belt-fed-grenade-launcher",
     "slug": "gl-28-belt-fed-grenade-launcher",
     "name": "GL-28 Belt-Fed Grenade Launcher",
+    "upcoming": false,
     "aliases": [
       "BFGL"
     ],

@@ -12,6 +12,7 @@
     "id": "smg-203-gallant",
     "slug": "smg-203-gallant",
     "name": "SMG-203 Gallant",
+    "upcoming": false,
     "aliases": [],
     "description": "The SMG-203 Gallant is a variant of the MP-98 Knight that sacrifices damage in exchange for Medium armor penetration.",
     "image": {

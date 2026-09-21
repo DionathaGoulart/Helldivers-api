@@ -12,6 +12,7 @@
     "id": "stimulative",
     "slug": "stimulative",
     "name": "Stimulative",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

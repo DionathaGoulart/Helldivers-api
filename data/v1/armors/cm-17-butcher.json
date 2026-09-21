@@ -12,6 +12,7 @@
     "id": "cm-17-butcher",
     "slug": "cm-17-butcher",
     "name": "CM-17 Butcher",
+    "upcoming": false,
     "aliases": [],
     "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "sg-8-punisher",
     "slug": "sg-8-punisher",
     "name": "SG-8 Punisher",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-8 Punisher is a Primary Shotgun, possessing high damage and stagger per shot, at the cost of a low overall fire rate.",
     "image": {

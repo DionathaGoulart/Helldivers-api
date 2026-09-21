@@ -12,6 +12,7 @@
     "id": "eagle-110mm-rocket-pods",
     "slug": "eagle-110mm-rocket-pods",
     "name": "Eagle 110mm Rocket Pods",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle 110mm Rocket Pods is an offensive stratagem that sends out 3 volleys of 2 rockets into the largest target near the beacon.",
     "image": {

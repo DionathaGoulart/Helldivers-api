@@ -12,6 +12,7 @@
     "id": "b-100-portable-hellbomb",
     "slug": "b-100-portable-hellbomb",
     "name": "B-100 Portable Hellbomb",
+    "upcoming": false,
     "aliases": [],
     "description": "The Portable Hellbomb is a backpack Stratagem that grants the player the utility of an on-demand Hellbomb free from the restriction of only being usable near mission objectives.",
     "image": {

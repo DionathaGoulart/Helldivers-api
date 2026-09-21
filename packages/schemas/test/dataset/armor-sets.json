@@ -14,6 +14,7 @@
       "id": "tg-122-demo-trooper",
       "slug": "tg-122-demo-trooper",
       "name": "TG-122 Demo-Trooper",
+      "upcoming": true,
       "wiki": {
         "title": "TG-122 Demo-Trooper",
         "url": "https://helldivers.wiki.gg/wiki/TG-122_Demo-Trooper",
@@ -31,6 +32,7 @@
       "id": "tg-8-sharpshooter",
       "slug": "tg-8-sharpshooter",
       "name": "TG-8 Sharpshooter",
+      "upcoming": false,
       "wiki": {
         "title": "TG-8 Sharpshooter",
         "url": "https://helldivers.wiki.gg/wiki/TG-8_Sharpshooter",

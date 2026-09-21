@@ -12,6 +12,7 @@
     "id": "camo-cloak",
     "slug": "camo-cloak",
     "name": "Camo Cloak",
+    "upcoming": false,
     "aliases": [],
     "description": "The horrors of Tyranny are manifold, their minions many, but they are naught before Democracy's twin swords: overwhelming firepower, and those trained to unquestioningly wield it.",
     "image": {

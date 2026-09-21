@@ -35,6 +35,7 @@ export const weaponTraitsPipeline: CollectionPipeline<"weapon-traits"> = {
         id: idLock.resolve("weapon-traits", `${page.title}#${trait.anchor}`, trait.name),
         slug: slugify(trait.name),
         name: trait.name,
+        upcoming: false, // every trait comes from the Equipment Traits page
         aliases: [],
         description: null, // the wiki describes no trait (D11)
         image: null,

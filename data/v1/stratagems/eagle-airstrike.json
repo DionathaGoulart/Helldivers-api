@@ -12,6 +12,7 @@
     "id": "eagle-airstrike",
     "slug": "eagle-airstrike",
     "name": "Eagle Airstrike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Airstrike is an offensive stratagem that unleashes a powerful bombardment of six bombs in a straight line.",
     "image": {

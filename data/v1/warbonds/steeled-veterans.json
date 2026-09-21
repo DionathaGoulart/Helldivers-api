@@ -12,6 +12,7 @@
     "id": "steeled-veterans",
     "slug": "steeled-veterans",
     "name": "Steeled Veterans",
+    "upcoming": false,
     "aliases": [],
     "description": "Steeled Veterans is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

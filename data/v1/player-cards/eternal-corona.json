@@ -12,6 +12,7 @@
     "id": "eternal-corona",
     "slug": "eternal-corona",
     "name": "Eternal Corona",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

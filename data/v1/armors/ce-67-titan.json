@@ -12,6 +12,7 @@
     "id": "ce-67-titan",
     "slug": "ce-67-titan",
     "name": "CE-67 Titan",
+    "upcoming": false,
     "aliases": [],
     "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
     "image": {

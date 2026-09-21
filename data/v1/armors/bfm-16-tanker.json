@@ -12,6 +12,7 @@
     "id": "bfm-16-tanker",
     "slug": "bfm-16-tanker",
     "name": "BFM-16 Tanker",
+    "upcoming": false,
     "aliases": [],
     "description": "BFM-16 Tanker is a set of light armor in Helldivers 2.",
     "image": {

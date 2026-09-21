@@ -12,6 +12,7 @@
     "id": "las-5-scythe",
     "slug": "las-5-scythe",
     "name": "LAS-5 Scythe",
+    "upcoming": false,
     "aliases": [],
     "description": "The LAS-5 Scythe is a Primary Energy-Based laser rifle with infinite ammo. The weapons ammunition capacity is only limited by heat accumulation within the weapon.",
     "image": {

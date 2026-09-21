@@ -12,6 +12,7 @@
     "id": "control-group",
     "slug": "control-group",
     "name": "Control Group",
+    "upcoming": false,
     "aliases": [],
     "description": "Control Group is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

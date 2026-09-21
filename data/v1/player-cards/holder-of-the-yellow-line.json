@@ -12,6 +12,7 @@
     "id": "holder-of-the-yellow-line",
     "slug": "holder-of-the-yellow-line",
     "name": "Holder of the Yellow Line",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

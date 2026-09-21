@@ -12,6 +12,7 @@
     "id": "cover-of-darkness",
     "slug": "cover-of-darkness",
     "name": "Cover of Darkness",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

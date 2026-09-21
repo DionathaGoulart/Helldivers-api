@@ -12,6 +12,7 @@
     "id": "caustic",
     "slug": "caustic",
     "name": "Caustic",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

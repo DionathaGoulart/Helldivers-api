@@ -12,6 +12,7 @@
     "id": "lift-850-jump-pack",
     "slug": "lift-850-jump-pack",
     "name": "LIFT-850 Jump Pack",
+    "upcoming": false,
     "aliases": [],
     "description": "The Jump Pack significantly increases the wearer's mobility. When activated, the Helldiver is able to jump over large rocks, up cliffs, and across small gaps.",
     "image": {

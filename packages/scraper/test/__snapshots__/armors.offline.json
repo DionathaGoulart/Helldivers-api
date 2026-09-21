@@ -3,6 +3,7 @@
     "id": "a-35-recon",
     "slug": "a-35-recon",
     "name": "A-35 Recon",
+    "upcoming": false,
     "aliases": [],
     "description": "Made famous by the Ministry of Intelligence's hide-and-seek-and-destroy champion of '52, this armor has been improved by removing excess shoulder protection.",
     "image": {
@@ -42,6 +43,7 @@
     "id": "a-9-helljumper",
     "slug": "a-9-helljumper",
     "name": "A-9 Helljumper",
+    "upcoming": false,
     "aliases": [],
     "description": "Debuted during the New Mombasa Armor Show, this sleek ensemble is sure to turn heads and blow minds.",
     "image": {
@@ -81,6 +83,7 @@
     "id": "ac-1-dutiful",
     "slug": "ac-1-dutiful",
     "name": "AC-1 Dutiful",
+    "upcoming": false,
     "aliases": [],
     "description": "The breathing apparatus built into this armor helps both soldiers and colonists thrive, even when assigned to planets with atmospheres rated “suboptimal,” “extreme,” and “character building.”",
     "image": {
@@ -118,6 +121,7 @@
     "id": "ac-2-obedient",
     "slug": "ac-2-obedient",
     "name": "AC-2 Obedient",
+    "upcoming": false,
     "aliases": [],
     "description": "The muted colors and relaxed, high-mobility fit make it a favorite among long-distance snipers and hide-and-seek champions alike.",
     "image": {
@@ -155,6 +159,7 @@
     "id": "ad-11-livewire",
     "slug": "ad-11-livewire",
     "name": "AD-11 Livewire",
+    "upcoming": false,
     "aliases": [],
     "description": "Part of a long line of experimental armor commonly seen on industrial engineering campuses, in the basements of select science aficionados, and around Super Destroyer Mega Garages.",
     "image": {
@@ -194,6 +199,7 @@
     "id": "ad-26-bleeding-edge",
     "slug": "ad-26-bleeding-edge",
     "name": "AD-26 Bleeding Edge",
+    "upcoming": false,
     "aliases": [],
     "description": "Pushing the boundaries of bionic engineering, this armor collects and dispenses a number of vital fluids, several of which are soon to be declassified.",
     "image": {
@@ -233,6 +239,7 @@
     "id": "ad-49-apollonian",
     "slug": "ad-49-apollonian",
     "name": "AD-49 Apollonian",
+    "upcoming": false,
     "aliases": [],
     "description": "Equipped with the latest computational systems, subsystems, and supersystems, this armor is worth the equivalent of a small Megacity.",
     "image": {
@@ -272,6 +279,7 @@
     "id": "af-02-haz-master",
     "slug": "af-02-haz-master",
     "name": "AF-02 Haz-Master",
+    "upcoming": false,
     "aliases": [],
     "description": "Developed by the Ministry of Science while investigating the phenomenon known as The Gloom, this armor is non-permeable and squeak resistant.",
     "image": {
@@ -309,6 +317,7 @@
     "id": "af-50-noxious-ranger",
     "slug": "af-50-noxious-ranger",
     "name": "AF-50 Noxious Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": "“We fear not poison, fear not death; spite our foes with every breath.” From the beloved classic Hazard Pay: The Musical.",
     "image": {
@@ -346,6 +355,7 @@
     "id": "af-52-lockdown",
     "slug": "af-52-lockdown",
     "name": "AF-52 Lockdown",
+    "upcoming": false,
     "aliases": [],
     "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback.",
     "image": {
@@ -383,6 +393,7 @@
     "id": "af-91-field-chemist",
     "slug": "af-91-field-chemist",
     "name": "AF-91 Field Chemist",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor, together with its friendly-faced helmet, is instantly recognizable from the beloved children's show “Jen Shriver the Science Diver.”",
     "image": {
@@ -420,6 +431,7 @@
     "id": "b-01-tactical",
     "slug": "b-01-tactical",
     "name": "B-01 Tactical",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
     "image": {
@@ -454,6 +466,7 @@
     "id": "b-08-light-gunner",
     "slug": "b-08-light-gunner",
     "name": "B-08 Light Gunner",
+    "upcoming": false,
     "aliases": [],
     "description": "Compact and flexible, this kevlar armor adds minimal mass, making it a common choice for Helldiver fitness tests.",
     "image": {
@@ -491,6 +504,7 @@
     "id": "b-22-model-citizen",
     "slug": "b-22-model-citizen",
     "name": "B-22 Model Citizen",
+    "upcoming": false,
     "aliases": [],
     "description": "Gifted to Helldivers whose civilian lives were distinguished by exemplary citizenship, patriotism, and service to the Federation.",
     "image": {
@@ -525,6 +539,7 @@
     "id": "b-24-enforcer",
     "slug": "b-24-enforcer",
     "name": "B-24 Enforcer",
+    "upcoming": false,
     "aliases": [],
     "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
     "image": {
@@ -562,6 +577,7 @@
     "id": "b-27-fortified-commando",
     "slug": "b-27-fortified-commando",
     "name": "B-27 Fortified Commando",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor set first appeared in the music video for the summer anthem ‘Our Love Is like Liberty (Indestructible)’.",
     "image": {
@@ -599,6 +615,7 @@
     "id": "bfm-16-tanker",
     "slug": "bfm-16-tanker",
     "name": "BFM-16 Tanker",
+    "upcoming": true,
     "aliases": [],
     "description": "BFM-16 Tanker is a set of light armor in Helldivers 2.",
     "image": {
@@ -635,6 +652,7 @@
     "id": "bfm-220-ironclad",
     "slug": "bfm-220-ironclad",
     "name": "BFM-220 Ironclad",
+    "upcoming": true,
     "aliases": [],
     "description": "BFM-220 Ironclad is a set of heavy armor in Helldivers 2.",
     "image": {
@@ -671,6 +689,7 @@
     "id": "bp-20-correct-officer",
     "slug": "bp-20-correct-officer",
     "name": "BP-20 Correct Officer",
+    "upcoming": false,
     "aliases": [],
     "description": "A welcome sight in all Democratic neighborhoods, this armor inspires both civil pride and civic obedience.",
     "image": {
@@ -710,6 +729,7 @@
     "id": "bp-32-jackboot",
     "slug": "bp-32-jackboot",
     "name": "BP-32 Jackboot",
+    "upcoming": false,
     "aliases": [],
     "description": "Named for Helldiver Jack Boote, who shut down 908 illegal broadcasts before retiring with honors.",
     "image": {
@@ -749,6 +769,7 @@
     "id": "bp-77-grand-juror",
     "slug": "bp-77-grand-juror",
     "name": "BP-77 Grand Juror",
+    "upcoming": false,
     "aliases": [],
     "description": "Each gilded detail is polished to perfection by re-educated dissidents, as part of the Lifelong Post-Infraction Atonement Program.",
     "image": {
@@ -788,6 +809,7 @@
     "id": "ce-07-demolition-specialist",
     "slug": "ce-07-demolition-specialist",
     "name": "CE-07 Demolition Specialist",
+    "upcoming": false,
     "aliases": [],
     "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in pressure, heat, and personal velocity.",
     "image": {
@@ -825,6 +847,7 @@
     "id": "ce-101-guerilla-gorilla",
     "slug": "ce-101-guerilla-gorilla",
     "name": "CE-101 Guerilla Gorilla",
+    "upcoming": false,
     "aliases": [],
     "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
     "image": {
@@ -862,6 +885,7 @@
     "id": "ce-27-ground-breaker",
     "slug": "ce-27-ground-breaker",
     "name": "CE-27 Ground Breaker",
+    "upcoming": false,
     "aliases": [],
     "description": "“The ground is just another obstacle that hasn't yet been cleared.”—SGM Janet Jones, Excavation Corps Founder.",
     "image": {
@@ -899,6 +923,7 @@
     "id": "ce-35-trench-engineer",
     "slug": "ce-35-trench-engineer",
     "name": "CE-35 Trench Engineer",
+    "upcoming": false,
     "aliases": [],
     "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
     "image": {
@@ -936,6 +961,7 @@
     "id": "ce-64-grenadier",
     "slug": "ce-64-grenadier",
     "name": "CE-64 Grenadier",
+    "upcoming": false,
     "aliases": [],
     "description": "The set's classic advertising campaign “Have you tried a grenade?” has remained unchanged for over 70 years.",
     "image": {
@@ -973,6 +999,7 @@
     "id": "ce-67-titan",
     "slug": "ce-67-titan",
     "name": "CE-67 Titan",
+    "upcoming": false,
     "aliases": [],
     "description": "A quality product, this armor can destroy over 300,000 kilometers of fencing with no decline in operational efficiency.",
     "image": {
@@ -1010,6 +1037,7 @@
     "id": "ce-74-breaker",
     "slug": "ce-74-breaker",
     "name": "CE-74 Breaker",
+    "upcoming": false,
     "aliases": [],
     "description": "A domestic version of this armor is available for citizens who wish to perform efficient home renovation projects.",
     "image": {
@@ -1047,6 +1075,7 @@
     "id": "ce-81-juggernaut",
     "slug": "ce-81-juggernaut",
     "name": "CE-81 Juggernaut",
+    "upcoming": false,
     "aliases": [],
     "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
     "image": {
@@ -1084,6 +1113,7 @@
     "id": "cm-09-bonesnapper",
     "slug": "cm-09-bonesnapper",
     "name": "CM-09 Bonesnapper",
+    "upcoming": false,
     "aliases": [],
     "description": "Based on a colonial surgeon's gown, where surgeries were often interrupted by a need to perform defensive duties.",
     "image": {
@@ -1121,6 +1151,7 @@
     "id": "cm-10-clinician",
     "slug": "cm-10-clinician",
     "name": "CM-10 Clinician",
+    "upcoming": false,
     "aliases": [],
     "description": "Featuring patented reverse-seam technology, to reduce the likelihood of bodily fluids entering the armor's interior.",
     "image": {
@@ -1158,6 +1189,7 @@
     "id": "cm-14-physician",
     "slug": "cm-14-physician",
     "name": "CM-14 Physician",
+    "upcoming": false,
     "aliases": [],
     "description": "The distinctive red, white, and green of the Intergalactic Medical Corps signal to all Helldivers that help is at hand.",
     "image": {
@@ -1195,6 +1227,7 @@
     "id": "cm-17-butcher",
     "slug": "cm-17-butcher",
     "name": "CM-17 Butcher",
+    "upcoming": false,
     "aliases": [],
     "description": "An armor often worn by frontline surgeons, who are skilled at both putting bodies back together and taking them apart.",
     "image": {
@@ -1232,6 +1265,7 @@
     "id": "cm-21-trench-paramedic",
     "slug": "cm-21-trench-paramedic",
     "name": "CM-21 Trench Paramedic",
+    "upcoming": false,
     "aliases": [],
     "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
     "image": {
@@ -1269,6 +1303,7 @@
     "id": "cpg-48-sapper",
     "slug": "cpg-48-sapper",
     "name": "CPG-48 Sapper",
+    "upcoming": false,
     "aliases": [],
     "description": "With extra capacity for storing throwable munitions, this armor ensure every enemy stronghold can be tactically ventilated, as per forceful de-fortification protocols.",
     "image": {
@@ -1308,6 +1343,7 @@
     "id": "cph-26-commandant",
     "slug": "cph-26-commandant",
     "name": "CPH-26 Commandant",
+    "upcoming": false,
     "aliases": [],
     "description": "Featuring a high collar scientifically designed to deflect mud, blood, and indirect non-lethal projectiles, this pristine armor bestows the authority to overcome close-quarters combat through a time-honored tradition: the delegation—or court-martialing—of subordinates.",
     "image": {
@@ -1347,6 +1383,7 @@
     "id": "cpr-80-bulwark",
     "slug": "cpr-80-bulwark",
     "name": "CPR-80 Bulwark",
+    "upcoming": false,
     "aliases": [],
     "description": "This armour pays tribute to the immovable heroes of the front line—those who refuse to acknowledge incoming fire, and consider \"dodging\" to be an abstract concept akin to cowardice.",
     "image": {
@@ -1386,6 +1423,7 @@
     "id": "cw-22-kodiak",
     "slug": "cw-22-kodiak",
     "name": "CW-22 Kodiak",
+    "upcoming": false,
     "aliases": [],
     "description": "The CW-22 Kodiak armor was thoroughly pressure-tested by patriotic volunteers, as part of the “Test Subjects for Super-Earth” Citizen Advancement Program.",
     "image": {
@@ -1423,6 +1461,7 @@
     "id": "cw-36-winter-warrior",
     "slug": "cw-36-winter-warrior",
     "name": "CW-36 Winter Warrior",
+    "upcoming": false,
     "aliases": [],
     "description": "Offering camouflage in snowy environments, surplus sets of this armor are used by nature photographers and keen hunters alike.",
     "image": {
@@ -1460,6 +1499,7 @@
     "id": "cw-4-arctic-ranger",
     "slug": "cw-4-arctic-ranger",
     "name": "CW-4 Arctic Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
     "image": {
@@ -1497,6 +1537,7 @@
     "id": "cw-9-white-wolf",
     "slug": "cw-9-white-wolf",
     "name": "CW-9 White Wolf",
+    "upcoming": false,
     "aliases": [],
     "description": "The pattern used for this armor is the result of the Winter Camouflage Improvement Effort, which considered 136 entrants before determining the color white would best blend in with snow.",
     "image": {
@@ -1534,6 +1575,7 @@
     "id": "dp-00-tactical",
     "slug": "dp-00-tactical",
     "name": "DP-00 Tactical",
+    "upcoming": false,
     "aliases": [],
     "description": "This classic armor set is recognized by every citizen: worn by the heroic Helldivers who battled and forever defeated the Terminids, Cyborgs, and Illuminate in the First Galactic War.",
     "image": {
@@ -1568,6 +1610,7 @@
     "id": "dp-11-champion-of-the-people",
     "slug": "dp-11-champion-of-the-people",
     "name": "DP-11 Champion of the People",
+    "upcoming": false,
     "aliases": [],
     "description": "The three stripes on the pauldrons stand for the three principles of Super Earth: Liberty, Democracy, and Prosperity.",
     "image": {
@@ -1605,6 +1648,7 @@
     "id": "dp-40-hero-of-the-federation",
     "slug": "dp-40-hero-of-the-federation",
     "name": "DP-40 Hero of the Federation",
+    "upcoming": false,
     "aliases": [],
     "description": "Though originally intended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
     "image": {
@@ -1642,6 +1686,7 @@
     "id": "dp-53-savior-of-the-free",
     "slug": "dp-53-savior-of-the-free",
     "name": "DP-53 Savior of the Free",
+    "upcoming": false,
     "aliases": [],
     "description": "A faithful replica of the armor worn at The Battle of Liberty Peak. Honor their legacy, and wear it with pride.",
     "image": {
@@ -1679,6 +1724,7 @@
     "id": "dp-8-mountain-scaled",
     "slug": "dp-8-mountain-scaled",
     "name": "DP-8 Mountain-Scaled",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor recalls the legendary heroes who scared a ravenous Hive Lord away from a colony village, using only the village's battery of patriotic fireworks.",
     "image": {
@@ -1718,6 +1764,7 @@
     "id": "ds-10-big-game-hunter",
     "slug": "ds-10-big-game-hunter",
     "name": "DS-10 Big Game Hunter",
+    "upcoming": false,
     "aliases": [],
     "description": "With its rustic charm and huntsmanlike detailing, this armor evokes those heroic expansionists who braved the alien wilds and ushered in our current age of bio-uniformity.",
     "image": {
@@ -1757,6 +1804,7 @@
     "id": "ds-191-scorpion",
     "slug": "ds-191-scorpion",
     "name": "DS-191 Scorpion",
+    "upcoming": false,
     "aliases": [],
     "description": "This multi-layered protective armor keeps rough sand, spores, and other coarse granules from irritating the skin.",
     "image": {
@@ -1796,6 +1844,7 @@
     "id": "ds-42-federations-blade",
     "slug": "ds-42-federations-blade",
     "name": "DS-42 Federation's Blade",
+    "upcoming": false,
     "aliases": [],
     "description": "This patriotic armor comes recommended by the Ministry of Expansion, empowering the wearer to re-seize from our enemies any territory that any human has laid claim to, at any point in time.",
     "image": {
@@ -1835,6 +1884,7 @@
     "id": "ex-00-prototype-x",
     "slug": "ex-00-prototype-x",
     "name": "EX-00 Prototype X",
+    "upcoming": false,
     "aliases": [],
     "description": "The end result of several billion Super Credits and 12 years of research into creating “the Soldier of Tomorrow.”",
     "image": {
@@ -1872,6 +1922,7 @@
     "id": "ex-03-prototype-3",
     "slug": "ex-03-prototype-3",
     "name": "EX-03 Prototype 3",
+    "upcoming": false,
     "aliases": [],
     "description": "Because this prototype's wires operate at 400,000 volts, it also includes a handy rubber underlayer for insulation.",
     "image": {
@@ -1909,6 +1960,7 @@
     "id": "ex-16-prototype-16",
     "slug": "ex-16-prototype-16",
     "name": "EX-16 Prototype 16",
+    "upcoming": false,
     "aliases": [],
     "description": "As the electric arc generates a strong magnetic field, wearers should avoid use while in vicinity of stapled paperwork.",
     "image": {
@@ -1946,6 +1998,7 @@
     "id": "fs-05-marksman",
     "slug": "fs-05-marksman",
     "name": "FS-05 Marksman",
+    "upcoming": false,
     "aliases": [],
     "description": "While early prototypes used shock-absorbing gels, this armor stabilizes aim with the use of internal gyroscopes.",
     "image": {
@@ -1983,6 +2036,7 @@
     "id": "fs-11-executioner",
     "slug": "fs-11-executioner",
     "name": "FS-11 Executioner",
+    "upcoming": false,
     "aliases": [],
     "description": "Popularized by actor Chip Messiter, who wore this in the action-rom-com-musical “Lost My Heart to a Man in a Helmet.”",
     "image": {
@@ -2020,6 +2074,7 @@
     "id": "fs-23-battle-master",
     "slug": "fs-23-battle-master",
     "name": "FS-23 Battle Master",
+    "upcoming": false,
     "aliases": [],
     "description": "This aim-stabilizing armor found surprising secondary market success among alien birdwatching enthusiasts.",
     "image": {
@@ -2057,6 +2112,7 @@
     "id": "fs-34-exterminator",
     "slug": "fs-34-exterminator",
     "name": "FS-34 Exterminator",
+    "upcoming": false,
     "aliases": [],
     "description": "Features a patented non-stick coating, which makes scraping viscera off after a long day of battle less taxing.",
     "image": {
@@ -2094,6 +2150,7 @@
     "id": "fs-37-ravager",
     "slug": "fs-37-ravager",
     "name": "FS-37 Ravager",
+    "upcoming": false,
     "aliases": [],
     "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples, and cool rocks.",
     "image": {
@@ -2131,6 +2188,7 @@
     "id": "fs-38-eradicator",
     "slug": "fs-38-eradicator",
     "name": "FS-38 Eradicator",
+    "upcoming": false,
     "aliases": [],
     "description": "First deployed in the mines of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
     "image": {
@@ -2168,6 +2226,7 @@
     "id": "fs-55-devastator",
     "slug": "fs-55-devastator",
     "name": "FS-55 Devastator",
+    "upcoming": false,
     "aliases": [],
     "description": "Domestic versions of this armor enable colonial farmers to plant crops and mines side by side, safely.",
     "image": {
@@ -2205,6 +2264,7 @@
     "id": "fs-61-dreadnought",
     "slug": "fs-61-dreadnought",
     "name": "FS-61 Dreadnought",
+    "upcoming": false,
     "aliases": [],
     "description": "With genuine gold accents, 74% of colonists voted this armor the set they would most like to be buried in.",
     "image": {
@@ -2242,6 +2302,7 @@
     "id": "gs-11-democracys-deputy",
     "slug": "gs-11-democracys-deputy",
     "name": "GS-11 Democracy's Deputy",
+    "upcoming": false,
     "aliases": [],
     "description": "At the edge of the Federation, sometimes Democracy has only one representative.",
     "image": {
@@ -2279,6 +2340,7 @@
     "id": "gs-17-frontier-marshal",
     "slug": "gs-17-frontier-marshal",
     "name": "GS-17 Frontier Marshal",
+    "upcoming": false,
     "aliases": [],
     "description": "Inspired by the trailblazing agents of the Super Earth Terraforming Company. These rugged adventurers surveyed hostile new planets during the post-GW1 Great Expansion era, preparing the untamed frontier for rapid and efficient assimilation.",
     "image": {
@@ -2316,6 +2378,7 @@
     "id": "gs-66-lawmaker",
     "slug": "gs-66-lawmaker",
     "name": "GS-66 Lawmaker",
+    "upcoming": false,
     "aliases": [],
     "description": "Embodies the ethos of Manifest Democracy—that it is our voter-given responsibility to emancipate the savage, un-Liberated galaxy. To rest only when every planet is safe, civilized, and Free.",
     "image": {
@@ -2353,6 +2416,7 @@
     "id": "i-09-heatseeker",
     "slug": "i-09-heatseeker",
     "name": "I-09 Heatseeker",
+    "upcoming": false,
     "aliases": [],
     "description": "The burnished blood-red plates are forged in righteous fire, like the heroes they were wrought to protect.",
     "image": {
@@ -2390,6 +2454,7 @@
     "id": "i-102-draconaught",
     "slug": "i-102-draconaught",
     "name": "I-102 Draconaught",
+    "upcoming": false,
     "aliases": [],
     "description": "Completely sheathed in 14-cm silica fiber foam, except for a thin tube to the ear canal to enable hearing the satisfying screeches of Freedom's enemies as they burn.",
     "image": {
@@ -2427,6 +2492,7 @@
     "id": "i-44-salamander",
     "slug": "i-44-salamander",
     "name": "I-44 Salamander",
+    "upcoming": false,
     "aliases": [],
     "description": "The signature orange pauldron allows easy battlefield detection of the bearer, alive or dead, on ash-strewn battlefields.",
     "image": {
@@ -2464,6 +2530,7 @@
     "id": "i-92-fire-fighter",
     "slug": "i-92-fire-fighter",
     "name": "I-92 Fire Fighter",
+    "upcoming": false,
     "aliases": [],
     "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
     "image": {
@@ -2501,6 +2568,7 @@
     "id": "ie-12-righteous",
     "slug": "ie-12-righteous",
     "name": "IE-12 Righteous",
+    "upcoming": false,
     "aliases": [],
     "description": "Modeled after the myriad Statues of Judicious Liberty, who keep a watchful eye on checkout lines, schoolyards, perpetual rehabilitation communities, and public confession theaters.",
     "image": {
@@ -2538,6 +2606,7 @@
     "id": "ie-3-martyr",
     "slug": "ie-3-martyr",
     "name": "IE-3 Martyr",
+    "upcoming": false,
     "aliases": [],
     "description": "Modeled after the Statue of Mournful Liberty, who weeps over the existence of tyranny, this armor is worn by those who would give their lives to dry her tears.",
     "image": {
@@ -2575,6 +2644,7 @@
     "id": "ie-57-hell-bent",
     "slug": "ie-57-hell-bent",
     "name": "IE-57 Hell-Bent",
+    "upcoming": false,
     "aliases": [],
     "description": "Assembled from pieces of recovered Helldiver armor and SEAF gear, for those who won't let a lack of full body protection keep them from the battlefront.",
     "image": {
@@ -2612,6 +2682,7 @@
     "id": "kdm-500-outrider",
     "slug": "kdm-500-outrider",
     "name": "KDM-500 Outrider",
+    "upcoming": false,
     "aliases": [],
     "description": "Ruggedized for extended operation beyond the reach of paved logistics. This armor's heavy plating is intended for the \"unpaving\" of hostile territory, providing a mobile bulkhead for Helldivers who don't know the meaning of \"environmental obstacles\".",
     "image": {
@@ -2646,6 +2717,7 @@
     "id": "o-2-heavy-operator",
     "slug": "o-2-heavy-operator",
     "name": "O-2 Heavy Operator",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor is the required uniform for many Super Earth Citizens operating heavy machinery. Long-time users will be delighted to learn that as of this year's Efficiency in Machine Operation Symposium and Gala, wearing this armor is no longer itself considered operating heavy machinery.",
     "image": {
@@ -2683,6 +2755,7 @@
     "id": "o-3-free-spirit",
     "slug": "o-3-free-spirit",
     "name": "O-3 Free Spirit",
+    "upcoming": false,
     "aliases": [],
     "description": "The SteerComfort fit of this armor allows the wearer to feel every curve, bump, and jostle of their Exosuit, as if they were one single being.",
     "image": {
@@ -2720,6 +2793,7 @@
     "id": "o-44-bonded-pilot",
     "slug": "o-44-bonded-pilot",
     "name": "O-44 Bonded Pilot",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor celebrates the wearer's close relationship to their Exosuit---as intimate as is possible without succumbing to cyborgry.",
     "image": {
@@ -2757,6 +2831,7 @@
     "id": "ph-202-twigsnapper",
     "slug": "ph-202-twigsnapper",
     "name": "PH-202 Twigsnapper",
+    "upcoming": false,
     "aliases": [],
     "description": "The omission of upper-limb coverings allows for optimized freedom of movement, perspiration, and communication of upper body strength to squadmates.",
     "image": {
@@ -2794,6 +2869,7 @@
     "id": "ph-56-jaguar",
     "slug": "ph-56-jaguar",
     "name": "PH-56 Jaguar",
+    "upcoming": false,
     "aliases": [],
     "description": "“Prowl like a jaguar, strike like a viper.”—Motto of the storied SEAF special operations unit whose real exploits were portrayed in the classic comic book series “Tales of the Viper Commandos.”",
     "image": {
@@ -2831,6 +2907,7 @@
     "id": "ph-9-predator",
     "slug": "ph-9-predator",
     "name": "PH-9 Predator",
+    "upcoming": false,
     "aliases": [],
     "description": "Based on the uniform of Jackle 6, a veteran of the Viper Commandos who held off an entire Terminid brood on Nublaria in the First Galactic War with nothing but a machine gun, pocket knife, and Orbital Laser Strikes.",
     "image": {
@@ -2868,6 +2945,7 @@
     "id": "re-1861-parade-commander",
     "slug": "re-1861-parade-commander",
     "name": "RE-1861 Parade Commander",
+    "upcoming": false,
     "aliases": [],
     "description": "Awarded to those promoted to their point of greatest competency, and beyond.",
     "image": {
@@ -2905,6 +2983,7 @@
     "id": "re-2310-honorary-guard",
     "slug": "re-2310-honorary-guard",
     "name": "RE-2310 Honorary Guard",
+    "upcoming": false,
     "aliases": [],
     "description": "This traditional armor has remained unchanged since time immemorial. Now with self-heated padding.",
     "image": {
@@ -2942,6 +3021,7 @@
     "id": "re-824-bearer-of-the-standard",
     "slug": "re-824-bearer-of-the-standard",
     "name": "RE-824 Bearer of the Standard",
+    "upcoming": false,
     "aliases": [],
     "description": "Commonly replicated in stage adaptations of “Lady Liberty's Tower”, in which young Diver Beatrick dons this armor to slay Oppressio, the Tyrant Rex.",
     "image": {
@@ -2979,6 +3059,7 @@
     "id": "rs-100-sanctioner",
     "slug": "rs-100-sanctioner",
     "name": "RS-100 Sanctioner",
+    "upcoming": false,
     "aliases": [],
     "description": "Armor inspired by the legend of the Sanctioner, a figure known only through a bizarrely unanimous patchwork of stifled whispers. As told, this fearsome, covert arbiter of primeval Justice delivered final, state-approved verdicts in the chaotic years before the Federation's founding.",
     "image": {
@@ -3016,6 +3097,7 @@
     "id": "rs-20-constrictor",
     "slug": "rs-20-constrictor",
     "name": "RS-20 Constrictor",
+    "upcoming": false,
     "aliases": [],
     "description": "The official uniform of the League of Patriotic Arm Wrestlers, this armor's lycra base layer is supple and sweat-wicking for maximum flexing comfort.",
     "image": {
@@ -3053,6 +3135,7 @@
     "id": "rs-40-beast-of-prey",
     "slug": "rs-40-beast-of-prey",
     "name": "RS-40 Beast of Prey",
+    "upcoming": false,
     "aliases": [],
     "description": "Evoking legendary Helldiver Ronald Mambo on the eve of his untimely disappearance, the striking silhouette projects power, burliness, and strength.",
     "image": {
@@ -3090,6 +3173,7 @@
     "id": "rs-6-fiend-destroyer",
     "slug": "rs-6-fiend-destroyer",
     "name": "RS-6 Fiend Destroyer",
+    "upcoming": false,
     "aliases": [],
     "description": "The understated color scheme and precision-molded armor plates make this armor a sensible choice for the Helldiver on the go.",
     "image": {
@@ -3127,6 +3211,7 @@
     "id": "rs-67-null-cipher",
     "slug": "rs-67-null-cipher",
     "name": "RS-67 Null Cipher",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor, coated in radar-absorbent polymers and a null-signature heat baffle, reportedly turns its wearer into a sensor ghost—a claim attributed to individuals who, curiously, appear to have never existed.",
     "image": {
@@ -3164,6 +3249,7 @@
     "id": "rs-89-shadow-paragon",
     "slug": "rs-89-shadow-paragon",
     "name": "RS-89 Shadow Paragon",
+    "upcoming": false,
     "aliases": [],
     "description": "Armor befitting infiltrators of all caliber. Inspired by mythical Democracy-dispensers, whose meticulously undocumented operations remain an inspiration to all students of stealth.",
     "image": {
@@ -3201,6 +3287,7 @@
     "id": "sa-04-combat-technician",
     "slug": "sa-04-combat-technician",
     "name": "SA-04 Combat Technician",
+    "upcoming": false,
     "aliases": [],
     "description": "Due to the enhanced strength caused by this armor, caution is advised when using door handles or embracing colleagues.",
     "image": {
@@ -3238,6 +3325,7 @@
     "id": "sa-12-servo-assisted",
     "slug": "sa-12-servo-assisted",
     "name": "SA-12 Servo Assisted",
+    "upcoming": false,
     "aliases": [],
     "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
     "image": {
@@ -3275,6 +3363,7 @@
     "id": "sa-25-steel-trooper",
     "slug": "sa-25-steel-trooper",
     "name": "SA-25 Steel Trooper",
+    "upcoming": false,
     "aliases": [],
     "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
     "image": {
@@ -3312,6 +3401,7 @@
     "id": "sa-32-dynamo",
     "slug": "sa-32-dynamo",
     "name": "SA-32 Dynamo",
+    "upcoming": false,
     "aliases": [],
     "description": "In mountainous colonies, domestic variants of this armor are used to throw weather monitoring equipment uphill.",
     "image": {
@@ -3349,6 +3439,7 @@
     "id": "sa-7-headfirst",
     "slug": "sa-7-headfirst",
     "name": "SA-7 Headfirst",
+    "upcoming": false,
     "aliases": [],
     "description": "Disarmingly scrappy and viciously disarming, this armor is a staple of the Balayage FW/2185 collection \"Frontline Moxie\".",
     "image": {
@@ -3386,6 +3477,7 @@
     "id": "sa-8-ram",
     "slug": "sa-8-ram",
     "name": "SA-8 Ram",
+    "upcoming": false,
     "aliases": [],
     "description": "The heavy plate used in this armor is sustainably sourced from the corpses of non-sentient Automaton, then processed by other, similarly non-sentient Automatons.",
     "image": {
@@ -3423,6 +3515,7 @@
     "id": "sc-15-drone-master",
     "slug": "sc-15-drone-master",
     "name": "SC-15 Drone Master",
+    "upcoming": false,
     "aliases": [],
     "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
     "image": {
@@ -3460,6 +3553,7 @@
     "id": "sc-30-trailblazer-scout",
     "slug": "sc-30-trailblazer-scout",
     "name": "SC-30 Trailblazer Scout",
+    "upcoming": false,
     "aliases": [],
     "description": "The patented fabric absorbs visible, infrared, and ultraviolet radiation, to prevent detection by all known species.",
     "image": {
@@ -3497,6 +3591,7 @@
     "id": "sc-34-infiltrator",
     "slug": "sc-34-infiltrator",
     "name": "SC-34 Infiltrator",
+    "upcoming": false,
     "aliases": [],
     "description": "This suit's plutonium-238 nuclear battery enables environmental scanning long after the user has ceased operation.",
     "image": {
@@ -3534,6 +3629,7 @@
     "id": "sc-37-legionnaire",
     "slug": "sc-37-legionnaire",
     "name": "SC-37 Legionnaire",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor is based on the antique uniforms of the ‘Super Earth Legion’, a less patriotic precursor to the Helldivers.",
     "image": {
@@ -3571,6 +3667,7 @@
     "id": "sr-18-roadblock",
     "slug": "sr-18-roadblock",
     "name": "SR-18 Roadblock",
+    "upcoming": false,
     "aliases": [],
     "description": "The crest on this armor's shoulder shows friendlies that safety is near, and foes that they have reached the end of the road.",
     "image": {
@@ -3608,6 +3705,7 @@
     "id": "sr-24-street-scout",
     "slug": "sr-24-street-scout",
     "name": "SR-24 Street Scout",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor's nostalgic color scheme brings to mind beloved trappings of colonial yesteryear: concrete frontier domiciles, slate-colored civilian jumpsuits, and Space Settlers' Pie.",
     "image": {
@@ -3645,6 +3743,7 @@
     "id": "sr-64-cinderblock",
     "slug": "sr-64-cinderblock",
     "name": "SR-64 Cinderblock",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor uses repurposed metal from verified sources, such as vending machine packaging and Automaton scrap, making it a sustainable choice for the environmentally conscious Helldiver.",
     "image": {
@@ -3682,6 +3781,7 @@
     "id": "tg-122-demo-trooper",
     "slug": "tg-122-demo-trooper",
     "name": "TG-122 Demo-Trooper",
+    "upcoming": false,
     "aliases": [],
     "description": "The design of the Demo-Trooper armor has been a corporate secret since ST Construction first issued it to the Charan National Guard in the early days of the Galactic Federation. Now, STC has contracted with the Ministry of Defense to issue the storied armor of its fallen homeworld to the Helldivers.",
     "image": {
@@ -3719,6 +3819,7 @@
     "id": "tg-8-sharpshooter",
     "slug": "tg-8-sharpshooter",
     "name": "TG-8 Sharpshooter",
+    "upcoming": false,
     "aliases": [],
     "description": "\"Where lesser soldiers break, Helldivers obey. When Tyranny's horrors swarm, Helldivers obey. When death is certain, and hope and sense have fled, Helldivers obey.\" -- Last Lord Governor of Chara.",
     "image": {
@@ -3756,6 +3857,7 @@
     "id": "tr-117-alpha-commander",
     "slug": "tr-117-alpha-commander",
     "name": "TR-117 Alpha Commander",
+    "upcoming": false,
     "aliases": [],
     "description": "For warriors who are so strong and confident that they don't need any reassurance whatsoever.",
     "image": {
@@ -3790,6 +3892,7 @@
     "id": "tr-40-gold-eagle",
     "slug": "tr-40-gold-eagle",
     "name": "TR-40 Gold Eagle",
+    "upcoming": false,
     "aliases": [],
     "description": "This high-visibility armor allows its bearer to be easily seen through smoke, fog, and spewing viscera.",
     "image": {
@@ -3824,6 +3927,7 @@
     "id": "tr-62-knight",
     "slug": "tr-62-knight",
     "name": "TR-62 Knight",
+    "upcoming": false,
     "aliases": [],
     "description": "Crafted to deliver Justice to the darkest crevices of the galaxy.",
     "image": {
@@ -3858,6 +3962,7 @@
     "id": "tr-7-ambassador-of-the-brand",
     "slug": "tr-7-ambassador-of-the-brand",
     "name": "TR-7 Ambassador of the Brand",
+    "upcoming": false,
     "aliases": [],
     "description": "Promotional armor made by SUMY Corp. as part of a highly successful marketing campaign for frozen yogurt.",
     "image": {
@@ -3892,6 +3997,7 @@
     "id": "tr-9-cavalier-of-democracy",
     "slug": "tr-9-cavalier-of-democracy",
     "name": "TR-9 Cavalier of Democracy",
+    "upcoming": false,
     "aliases": [],
     "description": "Bearers of this armor ride no equine mount, but are nonetheless borne to battle atop the trusty steed of Liberty.",
     "image": {
@@ -3926,6 +4032,7 @@
     "id": "uf-16-inspector",
     "slug": "uf-16-inspector",
     "name": "UF-16 Inspector",
+    "upcoming": false,
     "aliases": [],
     "description": "Made famous by the “Truth Enforcers: Enforcers of Truth” mystery novels, this armor calls to mind those paragons of patriotism who protect us from treasonous lies.",
     "image": {
@@ -3963,6 +4070,7 @@
     "id": "uf-50-bloodhound",
     "slug": "uf-50-bloodhound",
     "name": "UF-50 Bloodhound",
+    "upcoming": false,
     "aliases": [],
     "description": "Users are advised not to scratch at the lacquer, as the Red 20,000 pigment that gives this armor its signature sheen may be correlated with rapid DNA unspooling.",
     "image": {
@@ -4000,6 +4108,7 @@
     "id": "uf-84-doubt-killer",
     "slug": "uf-84-doubt-killer",
     "name": "UF-84 Doubt Killer",
+    "upcoming": false,
     "aliases": [],
     "description": "Even among the most depraved of dissidents, the mere sight of this armor is enough to inspire a change of heart.",
     "image": {

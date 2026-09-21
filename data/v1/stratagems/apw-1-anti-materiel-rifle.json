@@ -12,6 +12,7 @@
     "id": "apw-1-anti-materiel-rifle",
     "slug": "apw-1-anti-materiel-rifle",
     "name": "APW-1 Anti-Materiel Rifle",
+    "upcoming": false,
     "aliases": [
       "AMR"
     ],

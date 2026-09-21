@@ -12,6 +12,7 @@
     "id": "casual-salute",
     "slug": "casual-salute",
     "name": "Casual Salute",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

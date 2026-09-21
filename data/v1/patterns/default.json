@@ -12,6 +12,7 @@
     "id": "default",
     "slug": "default",
     "name": "Default",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

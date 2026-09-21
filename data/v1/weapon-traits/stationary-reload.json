@@ -12,6 +12,7 @@
     "id": "stationary-reload",
     "slug": "stationary-reload",
     "name": "Stationary Reload",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

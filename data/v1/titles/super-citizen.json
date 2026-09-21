@@ -12,6 +12,7 @@
     "id": "super-citizen",
     "slug": "super-citizen",
     "name": "Super Citizen",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

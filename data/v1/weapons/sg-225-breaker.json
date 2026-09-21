@@ -12,6 +12,7 @@
     "id": "sg-225-breaker",
     "slug": "sg-225-breaker",
     "name": "SG-225 Breaker",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-225 Breaker is a fully-automatic, mag-fed Primary Shotgun that is able to dish out tremendous amounts of damage in a short period of time.",
     "image": {

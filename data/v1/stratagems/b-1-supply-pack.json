@@ -12,6 +12,7 @@
     "id": "b-1-supply-pack",
     "slug": "b-1-supply-pack",
     "name": "B-1 Supply Pack",
+    "upcoming": false,
     "aliases": [],
     "description": "The Supply Pack is a backpack stratagem allows Helldivers to carry supplies to supplement yourself or the team's ammunition, grenades and stims.",
     "image": {

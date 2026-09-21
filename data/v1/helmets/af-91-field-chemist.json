@@ -12,6 +12,7 @@
     "id": "af-91-field-chemist",
     "slug": "af-91-field-chemist",
     "name": "AF-91 Field Chemist",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

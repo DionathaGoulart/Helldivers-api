@@ -12,6 +12,7 @@
     "id": "sg-22-bushwhacker",
     "slug": "sg-22-bushwhacker",
     "name": "SG-22 Bushwhacker",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-22 Bushwhacker is Secondary Special triple-barreled shotgun.",
     "image": {

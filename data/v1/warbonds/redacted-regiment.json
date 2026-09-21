@@ -12,6 +12,7 @@
     "id": "redacted-regiment",
     "slug": "redacted-regiment",
     "name": "Redacted Regiment",
+    "upcoming": false,
     "aliases": [],
     "description": "Redacted Regiment is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

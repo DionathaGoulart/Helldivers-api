@@ -12,6 +12,7 @@
     "id": "desert",
     "slug": "desert",
     "name": "Desert",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

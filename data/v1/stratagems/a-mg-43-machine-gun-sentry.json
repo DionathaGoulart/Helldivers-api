@@ -12,6 +12,7 @@
     "id": "a-mg-43-machine-gun-sentry",
     "slug": "a-mg-43-machine-gun-sentry",
     "name": "A/MG-43 Machine Gun Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/MG-43 Machine Gun Sentry is a defensive stratagem capable of laying down sustained fire for a long duration.",
     "image": {

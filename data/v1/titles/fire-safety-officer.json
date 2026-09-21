@@ -12,6 +12,7 @@
     "id": "fire-safety-officer",
     "slug": "fire-safety-officer",
     "name": "Fire Safety Officer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

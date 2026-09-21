@@ -12,6 +12,7 @@
     "id": "foe-rent-asunder",
     "slug": "foe-rent-asunder",
     "name": "Foe Rent Asunder",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

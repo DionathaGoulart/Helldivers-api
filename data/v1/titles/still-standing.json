@@ -12,6 +12,7 @@
     "id": "still-standing",
     "slug": "still-standing",
     "name": "Still Standing",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

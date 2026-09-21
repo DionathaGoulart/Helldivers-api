@@ -12,6 +12,7 @@
     "id": "concussive-padding-reinforced",
     "slug": "concussive-padding-reinforced",
     "name": "Concussive Padding, Reinforced",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% resistance to explosive damage. Provides a higher armor rating.",
     "image": {

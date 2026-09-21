@@ -12,6 +12,7 @@
     "id": "kdm-500-outrider",
     "slug": "kdm-500-outrider",
     "name": "KDM-500 Outrider",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

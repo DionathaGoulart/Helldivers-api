@@ -12,6 +12,7 @@
     "id": "a-mls-4x-rocket-sentry",
     "slug": "a-mls-4x-rocket-sentry",
     "name": "A/MLS-4X Rocket Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/MLS-4X Rocket Sentry is a defensive stratagem that fires powerful rockets in succession. After firing 16 rockets, it performs a short reload animation before it can continue to fire.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "cqc-1-one-true-flag",
     "slug": "cqc-1-one-true-flag",
     "name": "CQC-1 One True Flag",
+    "upcoming": false,
     "aliases": [],
     "description": "The One True Flag is a Melee Support Weapon. Attacking will thrust the One True Flag at a moderately fast speed. Helldivers equipped with the flag will cause enemies to prioritize them over other Helldivers.",
     "image": {

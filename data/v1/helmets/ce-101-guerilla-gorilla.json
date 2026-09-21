@@ -12,6 +12,7 @@
     "id": "ce-101-guerilla-gorilla",
     "slug": "ce-101-guerilla-gorilla",
     "name": "CE-101 Guerilla Gorilla",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

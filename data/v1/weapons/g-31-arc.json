@@ -12,6 +12,7 @@
     "id": "g-31-arc",
     "slug": "g-31-arc",
     "name": "G-31 Arc",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-31 Arc is a Special Throwable that fires arcs in a similar manner to the De-Escalator.",
     "image": {

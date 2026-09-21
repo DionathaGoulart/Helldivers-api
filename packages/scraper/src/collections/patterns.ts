@@ -9,7 +9,7 @@ import { pageFromAnchor } from "../normalize/warbonds.ts";
 import { COSMETICS_INDEX, parseCosmeticsIndex } from "../parsers/cosmetics-index.ts";
 import { parsePatternPage } from "../parsers/pattern-page.ts";
 import type { RawCost } from "../parsers/raw.ts";
-import { flagsFromCategories } from "../wiki/page.ts";
+import { flagsFromCategories, isUpcoming } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
 import { itemSourceResolver } from "./item-source.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
@@ -119,6 +119,7 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
           id,
           slug: slugify(raw.name),
           name: raw.name,
+          upcoming: isUpcoming(raw.categories),
           aliases: [row.name].filter((name) => name !== raw.name),
           description: raw.lead,
           image: null, // the first variant image, attached in step 7
@@ -149,6 +150,7 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
           id,
           slug: slugify(row.name),
           name: row.name,
+          upcoming: false, // index-only
           aliases: [],
           description: null, // index-only (rule 11)
           image: null, // the variant image, attached in step 7

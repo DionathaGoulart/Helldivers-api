@@ -12,6 +12,7 @@
     "id": "g-142-pyrotech",
     "slug": "g-142-pyrotech",
     "name": "G-142 Pyrotech",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-142 Pyrotech is a Special Throwable that trades direct explosive damage for lingering fire, causing enemies to take damage over time.",
     "image": {

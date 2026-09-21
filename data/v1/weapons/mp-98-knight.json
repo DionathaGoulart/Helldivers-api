@@ -12,6 +12,7 @@
     "id": "mp-98-knight",
     "slug": "mp-98-knight",
     "name": "MP-98 Knight",
+    "upcoming": false,
     "aliases": [],
     "description": "The MP-98 Knight is a Primary Submachine Gun with an extremely high rate of fire.",
     "image": {

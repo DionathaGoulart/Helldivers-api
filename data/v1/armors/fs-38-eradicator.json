@@ -12,6 +12,7 @@
     "id": "fs-38-eradicator",
     "slug": "fs-38-eradicator",
     "name": "FS-38 Eradicator",
+    "upcoming": false,
     "aliases": [],
     "description": "First deployed in the mines of Cyberstan, where it offered protection against explosions in the hydrogen-rich caverns.",
     "image": {

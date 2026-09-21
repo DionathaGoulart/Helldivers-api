@@ -12,6 +12,7 @@
     "id": "at-ease",
     "slug": "at-ease",
     "name": "At Ease",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

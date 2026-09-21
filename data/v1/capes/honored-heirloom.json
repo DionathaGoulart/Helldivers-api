@@ -12,6 +12,7 @@
     "id": "honored-heirloom",
     "slug": "honored-heirloom",
     "name": "Honored Heirloom",
+    "upcoming": false,
     "aliases": [],
     "description": "Should the wearer of this cape perish at the hands of Freedom's enemies, it is customary to pass the cape on to their bravest child during the funeral, inspiring the next generation to take up arms.",
     "image": {

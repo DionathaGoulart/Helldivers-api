@@ -12,6 +12,7 @@
     "id": "private",
     "slug": "private",
     "name": "Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

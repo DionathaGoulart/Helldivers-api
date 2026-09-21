@@ -12,6 +12,7 @@
     "id": "g-13-incendiary-impact",
     "slug": "g-13-incendiary-impact",
     "name": "G-13 Incendiary Impact",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-13 Incendiary Impact is a Special Throwable that combines the characteristics of the G-16 Impact and G-10 Incendiary.",
     "image": {

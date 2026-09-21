@@ -12,6 +12,7 @@
     "id": "ce-27-ground-breaker",
     "slug": "ce-27-ground-breaker",
     "name": "CE-27 Ground Breaker",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

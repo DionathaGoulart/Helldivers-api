@@ -12,6 +12,7 @@
     "id": "conductor-of-brilliance",
     "slug": "conductor-of-brilliance",
     "name": "Conductor of Brilliance",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

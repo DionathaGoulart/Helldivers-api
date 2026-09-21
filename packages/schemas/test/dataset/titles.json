@@ -14,6 +14,7 @@
       "id": "sergeant",
       "slug": "sergeant",
       "name": "Sergeant",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -42,6 +43,7 @@
       "id": "still-standing",
       "slug": "still-standing",
       "name": "Still Standing",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": null,
@@ -68,6 +70,7 @@
       "id": "viper-commando",
       "slug": "viper-commando",
       "name": "Viper Commando",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {

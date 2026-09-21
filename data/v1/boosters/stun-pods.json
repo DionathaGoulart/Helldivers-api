@@ -12,6 +12,7 @@
     "id": "stun-pods",
     "slug": "stun-pods",
     "name": "Stun Pods",
+    "upcoming": false,
     "aliases": [],
     "description": "Stun Pods is a Booster in Helldivers 2. When equipped, all Hellpods (manned or unmanned), will stun nearby enemies upon impact with the surface.",
     "image": {

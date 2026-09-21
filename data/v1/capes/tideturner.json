@@ -12,6 +12,7 @@
     "id": "tideturner",
     "slug": "tideturner",
     "name": "Tideturner",
+    "upcoming": false,
     "aliases": [],
     "description": "Some say that a mere glimpse of this cape, fluttering majestically in the breeze, is enough to spur a squad to victory.",
     "image": {

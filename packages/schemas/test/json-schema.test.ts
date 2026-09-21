@@ -40,6 +40,7 @@ describe("jsonSchemaFiles", () => {
       "id",
       "slug",
       "name",
+      "upcoming",
       "aliases",
       "description",
       "image",

@@ -12,6 +12,7 @@
     "id": "eagle-gas-airstrike",
     "slug": "eagle-gas-airstrike",
     "name": "Eagle Gas Airstrike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle Gas Airstrike is an offensive stratagem that releases an gas payload that damages enemies and applies a confusion effect over a large area.",
     "image": {

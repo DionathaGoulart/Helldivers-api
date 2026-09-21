@@ -12,6 +12,7 @@
     "id": "aquifer-drill",
     "slug": "aquifer-drill",
     "name": "Aquifer Drill",
+    "upcoming": false,
     "aliases": [],
     "description": "The Aquifer Drill Stratagem is only available during the Infiltrate Illuminate Lair Mission and is used to start the Cleanse Foul Shrine Objective.",
     "image": {

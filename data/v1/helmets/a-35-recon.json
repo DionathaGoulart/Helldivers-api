@@ -12,6 +12,7 @@
     "id": "a-35-recon",
     "slug": "a-35-recon",
     "name": "A-35 Recon",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

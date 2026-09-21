@@ -12,6 +12,7 @@
     "id": "helldivers-mobilize",
     "slug": "helldivers-mobilize",
     "name": "Helldivers Mobilize",
+    "upcoming": false,
     "aliases": ["Helldivers Mobilize!"],
     "description": null,
     "image": null,

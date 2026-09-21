@@ -12,6 +12,7 @@
     "id": "concrete-jungle",
     "slug": "concrete-jungle",
     "name": "Concrete Jungle",
+    "upcoming": false,
     "aliases": [],
     "description": "Concrete Jungle patterns are selectable wraps for your various vehicles.",
     "image": {

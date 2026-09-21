@@ -12,6 +12,7 @@
     "id": "ar-gl-21-one-two",
     "slug": "ar-gl-21-one-two",
     "name": "AR/GL-21 One-Two",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR/GL-21 One-Two is a Primary Assault Rifle equipped with an underbarrel grenade launcher.",
     "image": {

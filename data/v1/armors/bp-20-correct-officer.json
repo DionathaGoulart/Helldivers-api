@@ -12,6 +12,7 @@
     "id": "bp-20-correct-officer",
     "slug": "bp-20-correct-officer",
     "name": "BP-20 Correct Officer",
+    "upcoming": false,
     "aliases": [],
     "description": "A welcome sight in all Democratic neighborhoods, this armor inspires both civil pride and civic obedience.",
     "image": {

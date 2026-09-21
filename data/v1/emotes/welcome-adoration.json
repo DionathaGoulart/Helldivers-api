@@ -12,6 +12,7 @@
     "id": "welcome-adoration",
     "slug": "welcome-adoration",
     "name": "Welcome Adoration",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

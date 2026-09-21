@@ -98,9 +98,11 @@ client ([Limits and access](#limits-and-access)).
 | `GET /v1/search?q=&collections=&limit=` | name and alias search across collections |
 
 `query` filters depend on the collection — `warbond`, `category`, `source`, `trait`, `passive`,
-`weight`, `permit`, `kind`, `type`, `scope` and `q` (name contains). `page` is 1-based, `limit` is
-1–100 (default 50). An unknown filter or value answers `400 application/problem+json` listing the
-values it would have accepted, so you can discover them by asking wrong:
+`weight`, `permit`, `kind`, `type`, `scope` and `q` (name contains). Every collection also takes
+`upcoming`: `true` is what the wiki has announced but the game has not shipped yet. `page` is
+1-based, `limit` is 1–100 (default 50). An unknown filter or value answers
+`400 application/problem+json` listing the values it would have accepted, so you can discover them
+by asking wrong:
 
 ```sh
 curl 'https://helldivers-api.dionatha.com.br/v1/query/stratagems?category=nope'

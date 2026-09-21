@@ -12,6 +12,7 @@
     "id": "orbital-smoke-strike",
     "slug": "orbital-smoke-strike",
     "name": "Orbital Smoke Strike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Smoke Strike is a Stratagem that creates a large smokescreen to provide cover.",
     "image": {

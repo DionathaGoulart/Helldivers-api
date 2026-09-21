@@ -12,6 +12,7 @@
     "id": "o-44-bonded-pilot",
     "slug": "o-44-bonded-pilot",
     "name": "O-44 Bonded Pilot",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor celebrates the wearer's close relationship to their Exosuit---as intimate as is possible without succumbing to cyborgry.",
     "image": {

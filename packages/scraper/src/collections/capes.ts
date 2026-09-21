@@ -5,7 +5,7 @@ import type { ImageRequest } from "../images/attach.ts";
 import { armoryName } from "../normalize/armory.ts";
 import { ARMOR_INDEX, parseArmorIndex } from "../parsers/armor-index.ts";
 import { armoryTab, parseArmorPage } from "../parsers/armor-page.ts";
-import { flagsFromCategories } from "../wiki/page.ts";
+import { flagsFromCategories, isUpcoming } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
 import { itemSourceResolver } from "./item-source.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
@@ -56,6 +56,7 @@ export const capesPipeline: CollectionPipeline<"capes"> = {
         id,
         slug: slugify(raw.title),
         name,
+        upcoming: isUpcoming(raw.categories),
         aliases: [...new Set([box.page.title, raw.title])].filter((t) => t !== name).sort(),
         description: raw.armoryDescription ?? raw.lead,
         image: null, // attached in step 7

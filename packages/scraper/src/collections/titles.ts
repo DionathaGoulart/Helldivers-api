@@ -29,6 +29,7 @@ export const titlesPipeline: CollectionPipeline<"titles"> = {
       id: idLock.resolve("titles", page.title, name),
       slug: slugify(name),
       name,
+      upcoming: false, // index-only
       aliases: [page.title].filter((title) => title !== name),
       description: null, // index-only (rule 11)
       image: null, // attached in step 7

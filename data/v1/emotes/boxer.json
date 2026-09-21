@@ -12,6 +12,7 @@
     "id": "boxer",
     "slug": "boxer",
     "name": "Boxer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

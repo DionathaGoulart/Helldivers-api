@@ -12,6 +12,7 @@
     "id": "decorated-hero",
     "slug": "decorated-hero",
     "name": "Decorated Hero",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

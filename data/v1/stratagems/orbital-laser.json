@@ -12,6 +12,7 @@
     "id": "orbital-laser",
     "slug": "orbital-laser",
     "name": "Orbital Laser",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Laser also known as Laser is an offensive stratagem that fires a single, continuous laser beam attack that lasts for 25 seconds.",
     "image": {

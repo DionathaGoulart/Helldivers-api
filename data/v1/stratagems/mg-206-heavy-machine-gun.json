@@ -12,6 +12,7 @@
     "id": "mg-206-heavy-machine-gun",
     "slug": "mg-206-heavy-machine-gun",
     "name": "MG-206 Heavy Machine Gun",
+    "upcoming": false,
     "aliases": [
       "HMG"
     ],

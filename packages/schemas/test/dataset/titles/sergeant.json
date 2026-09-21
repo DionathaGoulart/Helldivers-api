@@ -12,6 +12,7 @@
     "id": "sergeant",
     "slug": "sergeant",
     "name": "Sergeant",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

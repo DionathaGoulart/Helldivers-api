@@ -12,6 +12,7 @@
     "id": "integrated-explosives",
     "slug": "integrated-explosives",
     "name": "Integrated Explosives",
+    "upcoming": false,
     "aliases": [],
     "description": "Armor explodes 1.5s after the wearer dies. Increases initial inventory and holding capacity of throwables by +2.",
     "image": {

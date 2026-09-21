@@ -12,6 +12,7 @@
     "id": "mg-43-machine-gun",
     "slug": "mg-43-machine-gun",
     "name": "MG-43 Machine Gun",
+    "upcoming": false,
     "aliases": [],
     "description": "The MG-43 Machine Gun is a Stratagem that calls down a Support Weapon capable of rapidly firing armor penetrating rounds.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "40-k-meltagun",
     "slug": "40-k-meltagun",
     "name": "40-K Meltagun",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

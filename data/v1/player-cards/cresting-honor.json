@@ -12,6 +12,7 @@
     "id": "cresting-honor",
     "slug": "cresting-honor",
     "name": "Cresting Honor",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

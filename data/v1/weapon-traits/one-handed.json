@@ -12,6 +12,7 @@
     "id": "one-handed",
     "slug": "one-handed",
     "name": "One Handed",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

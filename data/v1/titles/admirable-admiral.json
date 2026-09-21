@@ -12,6 +12,7 @@
     "id": "admirable-admiral",
     "slug": "admirable-admiral",
     "name": "Admirable Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "p-40-k-bolt-pistol",
     "slug": "p-40-k-bolt-pistol",
     "name": "P/40-K Bolt Pistol",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

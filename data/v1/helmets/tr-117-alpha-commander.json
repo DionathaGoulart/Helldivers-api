@@ -12,6 +12,7 @@
     "id": "tr-117-alpha-commander",
     "slug": "tr-117-alpha-commander",
     "name": "TR-117 Alpha Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

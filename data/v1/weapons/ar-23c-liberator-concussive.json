@@ -12,6 +12,7 @@
     "id": "ar-23c-liberator-concussive",
     "slug": "ar-23c-liberator-concussive",
     "name": "AR-23C Liberator Concussive",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-23C Liberator Concussive is Primary Assault Rifle, a variant of the standard Liberator with a drum magazine and increased stagger power in exchange for a significantly reduced rate of fire.",
     "image": {

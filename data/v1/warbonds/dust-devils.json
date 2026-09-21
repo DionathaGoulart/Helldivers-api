@@ -12,6 +12,7 @@
     "id": "dust-devils",
     "slug": "dust-devils",
     "name": "Dust Devils",
+    "upcoming": false,
     "aliases": [],
     "description": "Dust Devils is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "ds-10-big-game-hunter",
     "slug": "ds-10-big-game-hunter",
     "name": "DS-10 Big Game Hunter",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

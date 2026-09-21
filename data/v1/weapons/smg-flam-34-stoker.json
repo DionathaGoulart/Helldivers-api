@@ -12,6 +12,7 @@
     "id": "smg-flam-34-stoker",
     "slug": "smg-flam-34-stoker",
     "name": "SMG/FLAM-34 Stoker",
+    "upcoming": false,
     "aliases": [],
     "description": "The SMG/FLAM-34 Stoker is a Primary Submachine Gun that comes equipped with an under-barrel flamethrower.",
     "image": {

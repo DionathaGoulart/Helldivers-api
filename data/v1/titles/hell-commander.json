@@ -12,6 +12,7 @@
     "id": "hell-commander",
     "slug": "hell-commander",
     "name": "Hell Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

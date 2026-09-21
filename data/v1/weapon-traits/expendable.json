@@ -12,6 +12,7 @@
     "id": "expendable",
     "slug": "expendable",
     "name": "Expendable",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

@@ -12,6 +12,7 @@
     "id": "cm-21-trench-paramedic",
     "slug": "cm-21-trench-paramedic",
     "name": "CM-21 Trench Paramedic",
+    "upcoming": false,
     "aliases": [],
     "description": "The suit was once designed to hold a variety of battlefield medical equipment. Now it holds a generous supply of stims.",
     "image": {

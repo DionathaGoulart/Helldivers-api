@@ -12,6 +12,7 @@
     "id": "cqc-5-combat-hatchet",
     "slug": "cqc-5-combat-hatchet",
     "name": "CQC-5 Combat Hatchet",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-5 Combat Hatchet is a Melee Secondary Weapon. Attacking will rapidly swing the hatchet in a short range.",
     "image": {

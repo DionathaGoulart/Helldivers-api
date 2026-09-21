@@ -12,6 +12,7 @@
     "id": "kinetic-displacement-mitigation",
     "slug": "kinetic-displacement-mitigation",
     "name": "Kinetic Displacement Mitigation",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 50% damage resistance to fire, allowing bearer to rest assured in their inflammability. Gives the wearer a 50% chance to avoid grievous limb injury. Reduces damage taken from impact and collisions by 30%.",
     "image": {

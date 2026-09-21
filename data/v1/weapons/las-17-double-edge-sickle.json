@@ -12,6 +12,7 @@
     "id": "las-17-double-edge-sickle",
     "slug": "las-17-double-edge-sickle",
     "name": "LAS-17 Double-Edge Sickle",
+    "upcoming": false,
     "aliases": [],
     "description": "The LAS-17 Double-Edge Sickle is a Primary Energy-Based weapon that operates like an assault rifle, shooting targets with a barrage of laser pulses but will damage the user after prolonged firing.",
     "image": {

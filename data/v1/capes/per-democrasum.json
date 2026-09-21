@@ -12,6 +12,7 @@
     "id": "per-democrasum",
     "slug": "per-democrasum",
     "name": "Per Democrasum",
+    "upcoming": false,
     "aliases": [],
     "description": "This cape honors the Eagle pilots who would follow a Stratagem beacon into the very jaws of tyranny, even when the beacon's placement seems inscrutable to the non-Helldiver mind.",
     "image": {

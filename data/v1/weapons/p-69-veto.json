@@ -12,6 +12,7 @@
     "id": "p-69-veto",
     "slug": "p-69-veto",
     "name": "P-69 Veto",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-69 Veto is a Secondary Pistol with an internal magazine and jet-assisted rounds, able to inflict high stagger to enemies.",
     "image": {

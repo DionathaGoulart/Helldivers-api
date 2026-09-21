@@ -12,6 +12,7 @@
     "id": "s-11-speargun",
     "slug": "s-11-speargun",
     "name": "S-11 Speargun",
+    "upcoming": false,
     "aliases": [],
     "description": "The S-11 Speargun is a Stratagem which calls down a Support Weapon that fires projectiles with extremely high stagger force and explodes into a cloud of gas.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "b-27-fortified-commando",
     "slug": "b-27-fortified-commando",
     "name": "B-27 Fortified Commando",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

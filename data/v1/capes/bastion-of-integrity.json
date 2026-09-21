@@ -12,6 +12,7 @@
     "id": "bastion-of-integrity",
     "slug": "bastion-of-integrity",
     "name": "Bastion of Integrity",
+    "upcoming": false,
     "aliases": [],
     "description": "Based on a SEAF Signaller's Cape, which was intended to enable easy location of fallen heroes by aerial recovery crews.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "lockstep",
     "slug": "lockstep",
     "name": "Lockstep",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

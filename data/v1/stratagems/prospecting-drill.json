@@ -12,6 +12,7 @@
     "id": "prospecting-drill",
     "slug": "prospecting-drill",
     "name": "Prospecting Drill",
+    "upcoming": false,
     "aliases": [],
     "description": "The Prospecting Drill Stratagem is only available during the Conduct Geological Survey Mission and is used to start the Main Objective.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "seal-of-general-consensus",
     "slug": "seal-of-general-consensus",
     "name": "Seal of General Consensus",
+    "upcoming": false,
     "aliases": [],
     "description": "Made famous by the SEAF commander of the same name, this seal reminds us that only perfect Unity can ensure perfect Freedom.",
     "image": {

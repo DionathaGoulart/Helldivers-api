@@ -12,6 +12,7 @@
     "id": "blazing-samaritan",
     "slug": "blazing-samaritan",
     "name": "Blazing Samaritan",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

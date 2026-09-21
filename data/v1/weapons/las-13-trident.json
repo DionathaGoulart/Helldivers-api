@@ -12,6 +12,7 @@
     "id": "las-13-trident",
     "slug": "las-13-trident",
     "name": "LAS-13 Trident",
+    "upcoming": false,
     "aliases": [],
     "description": "The LAS-13 Trident is a Primary Energy-Based shotgun in Helldivers 2. It fires multiple beams per shot and ammunition capacity is only limited by heat accumulation within the weapon.",
     "image": {

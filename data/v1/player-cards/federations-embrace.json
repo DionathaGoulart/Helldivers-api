@@ -12,6 +12,7 @@
     "id": "federations-embrace",
     "slug": "federations-embrace",
     "name": "Federation's Embrace",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

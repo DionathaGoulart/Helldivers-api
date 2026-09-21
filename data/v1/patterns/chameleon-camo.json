@@ -12,6 +12,7 @@
     "id": "chameleon-camo",
     "slug": "chameleon-camo",
     "name": "Chameleon Camo",
+    "upcoming": false,
     "aliases": [],
     "description": "Chameleon Camo patterns are selectable wraps for your various vehicles.",
     "image": {

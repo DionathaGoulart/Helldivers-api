@@ -12,6 +12,7 @@
     "id": "flexible-reinforcement-budget",
     "slug": "flexible-reinforcement-budget",
     "name": "Flexible Reinforcement Budget",
+    "upcoming": false,
     "aliases": [],
     "description": "Flexible Reinforcement Budget is a Booster in Helldivers 2. When equipped, the timer to gain reinforcements will be reduced. This effect only activates when there are no more reinforcements readily available.",
     "image": {

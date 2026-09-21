@@ -12,6 +12,7 @@
     "id": "ex-00-prototype-x",
     "slug": "ex-00-prototype-x",
     "name": "EX-00 Prototype X",
+    "upcoming": false,
     "aliases": [],
     "description": "The end result of several billion Super Credits and 12 years of research into creating “the Soldier of Tomorrow.”",
     "image": {

@@ -12,6 +12,7 @@
     "id": "md-i4-incendiary-mines",
     "slug": "md-i4-incendiary-mines",
     "name": "MD-I4 Incendiary Mines",
+    "upcoming": false,
     "aliases": [],
     "description": "The MD-I4 Incendiary Mines are a defensive stratagem that blankets a roughly 25-30 meter diameter area around itself with incendiary mines.",
     "image": {

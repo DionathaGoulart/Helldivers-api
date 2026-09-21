@@ -12,6 +12,7 @@
     "id": "independence-bringer",
     "slug": "independence-bringer",
     "name": "Independence Bringer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

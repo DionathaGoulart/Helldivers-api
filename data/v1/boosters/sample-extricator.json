@@ -12,6 +12,7 @@
     "id": "sample-extricator",
     "slug": "sample-extricator",
     "name": "Sample Extricator",
+    "upcoming": false,
     "aliases": [],
     "description": "Sample Extricator is a Booster in Helldivers 2. When equipped, all Large Enemies will have a chance of dropping Common samples upon death. The amount varies, but the amount dropped per mission is capped at 10.",
     "image": {

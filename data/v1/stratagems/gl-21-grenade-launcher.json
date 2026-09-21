@@ -12,6 +12,7 @@
     "id": "gl-21-grenade-launcher",
     "slug": "gl-21-grenade-launcher",
     "name": "GL-21 Grenade Launcher",
+    "upcoming": false,
     "aliases": [],
     "description": "The Grenade Launcher is a Stratagem that calls down a Support Weapon capable of rapidly firing grenades, inflicting large amounts of splash damage.",
     "image": {

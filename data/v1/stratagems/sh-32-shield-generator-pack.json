@@ -12,6 +12,7 @@
     "id": "sh-32-shield-generator-pack",
     "slug": "sh-32-shield-generator-pack",
     "name": "SH-32 Shield Generator Pack",
+    "upcoming": false,
     "aliases": [],
     "description": "The SH-32 Shield Generator Pack, also known as the Shield Pack, is a backpack stratagem that protects the wearer from most damage and environmental effects.",
     "image": {

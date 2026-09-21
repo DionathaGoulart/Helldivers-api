@@ -12,6 +12,7 @@
     "id": "orbital-gas-strike",
     "slug": "orbital-gas-strike",
     "name": "Orbital Gas Strike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Gas Strike is an offensive orbital Stratagem that disperses lingering gas that damages enemies and applies a confusion effect over a large area.",
     "image": {

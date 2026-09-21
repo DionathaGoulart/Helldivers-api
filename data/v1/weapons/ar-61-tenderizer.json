@@ -12,6 +12,7 @@
     "id": "ar-61-tenderizer",
     "slug": "ar-61-tenderizer",
     "name": "AR-61 Tenderizer",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-61 Tenderizer is a Primary Assault Rifle that fires Light-armor penetrating high-caliber rounds. It boasts the highest damage per round in its class.",
     "image": {

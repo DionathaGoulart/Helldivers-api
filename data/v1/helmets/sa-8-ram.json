@@ -12,6 +12,7 @@
     "id": "sa-8-ram",
     "slug": "sa-8-ram",
     "name": "SA-8 Ram",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "seal-of-general-consensus",
     "slug": "seal-of-general-consensus",
     "name": "Seal of General Consensus",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

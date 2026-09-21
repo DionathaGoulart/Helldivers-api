@@ -12,6 +12,7 @@
     "id": "sg-97-sweeper",
     "slug": "sg-97-sweeper",
     "name": "SG-97 Sweeper",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-97 Sweeper is a Primary Shotgun with Medium armor penetrating flechettes, able to inflict high damage per round in exchange for a significantly reduced magazine size. It is affixed with a bayonet, improving melee damage and range.",
     "image": {

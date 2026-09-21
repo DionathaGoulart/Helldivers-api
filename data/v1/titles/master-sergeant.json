@@ -12,6 +12,7 @@
     "id": "master-sergeant",
     "slug": "master-sergeant",
     "name": "Master Sergeant",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

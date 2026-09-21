@@ -12,6 +12,7 @@
     "id": "churned-earth",
     "slug": "churned-earth",
     "name": "Churned Earth",
+    "upcoming": false,
     "aliases": [],
     "description": "Churned Earth patterns are selectable wraps for your various vehicles.",
     "image": {

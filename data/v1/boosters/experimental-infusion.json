@@ -12,6 +12,7 @@
     "id": "experimental-infusion",
     "slug": "experimental-infusion",
     "name": "Experimental Infusion",
+    "upcoming": false,
     "aliases": [],
     "description": "Experimental Infusion is a Booster in Helldivers 2. When equipped, all Helldivers will use a special Stim, which increases the movement speed and reduces damage taken, in addition to the standard properties of a Stim.",
     "image": {

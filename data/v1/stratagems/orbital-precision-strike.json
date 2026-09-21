@@ -12,6 +12,7 @@
     "id": "orbital-precision-strike",
     "slug": "orbital-precision-strike",
     "name": "Orbital Precision Strike",
+    "upcoming": false,
     "aliases": [
       "OPS"
     ],

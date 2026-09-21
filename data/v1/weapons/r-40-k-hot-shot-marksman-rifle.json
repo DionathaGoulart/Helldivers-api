@@ -12,6 +12,7 @@
     "id": "r-40-k-hot-shot-marksman-rifle",
     "slug": "r-40-k-hot-shot-marksman-rifle",
     "name": "R/40-K Hot-Shot Marksman Rifle",
+    "upcoming": false,
     "aliases": [],
     "description": "The R/40-K Hot-Shot Marksman Rifle is a Primary Energy-Based Marksman Rifle that fires high-damaging bolts of energy, capable of cleaving through enemies.",
     "image": {

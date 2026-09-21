@@ -43,6 +43,10 @@ describe("GET /v1/query/<collection>", () => {
     expect(ids(poses)).toEqual(["clapping"]);
     const noCape = await readBody(await h.get("/v1/query/armor-sets?hasCape=false"));
     expect(noCape.meta.total).toBe(0);
+    const upcoming = await readBody(await h.get("/v1/query/armors?upcoming=true"));
+    expect(ids(upcoming)).toEqual(["tg-122-demo-trooper"]);
+    const released = await readBody(await h.get("/v1/query/armors?upcoming=false"));
+    expect(ids(released)).toEqual(["tg-8-sharpshooter"]);
   });
 
   it("finds names and aliases without case or diacritics", async () => {
@@ -127,7 +131,7 @@ describe("GET /v1/query/<collection>", () => {
       "/v1/query/boosters?weight=light",
       400,
       "unknown-parameter",
-      "Unknown parameter 'weight' for /v1/query/boosters. Allowed: warbond, source, q, sort, fields, page, limit.",
+      "Unknown parameter 'weight' for /v1/query/boosters. Allowed: warbond, source, upcoming, q, sort, fields, page, limit.",
     ],
     ["/v1/query/weapons?page=0", 400, "invalid-parameter", "'page' must be an integer from 1."],
     [
@@ -153,7 +157,7 @@ describe("GET /v1/query/<collection>", () => {
       "/v1/query/passives?fields=weight",
       400,
       "invalid-parameter",
-      "Unknown field 'weight' for 'fields'. Allowed: id, slug, name, aliases, description, image, wiki, effects, armorIds.",
+      "Unknown field 'weight' for 'fields'. Allowed: id, slug, name, upcoming, aliases, description, image, wiki, effects, armorIds.",
     ],
     [
       "/v1/query/enemies",

@@ -80,6 +80,7 @@ export const Base = {
   id: Id,
   slug: Id,
   name: z.string().min(1),
+  upcoming: z.boolean(), // announced, not in the game yet (wiki category "Unreleased Content")
   aliases: z.array(z.string()),
   description: z.string().nullable(),
   image: Image.nullable(),

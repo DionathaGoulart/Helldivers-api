@@ -12,6 +12,7 @@
     "id": "tx-41-sterilizer",
     "slug": "tx-41-sterilizer",
     "name": "TX-41 Sterilizer",
+    "upcoming": false,
     "aliases": [],
     "description": "The Sterilizer is a Support Weapon Stratagem that sprays a caustic gas which slows and blinds enemies.",
     "image": {

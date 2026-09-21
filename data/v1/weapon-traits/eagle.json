@@ -12,6 +12,7 @@
     "id": "eagle",
     "slug": "eagle",
     "name": "Eagle",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

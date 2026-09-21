@@ -12,6 +12,7 @@
     "id": "i-44-salamander",
     "slug": "i-44-salamander",
     "name": "I-44 Salamander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "exemplary-subject",
     "slug": "exemplary-subject",
     "name": "Exemplary Subject",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

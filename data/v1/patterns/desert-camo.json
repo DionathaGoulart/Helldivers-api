@@ -12,6 +12,7 @@
     "id": "desert-camo",
     "slug": "desert-camo",
     "name": "Desert Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

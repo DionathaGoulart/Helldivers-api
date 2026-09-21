@@ -2,6 +2,7 @@
   "id": "clapping",
   "slug": "clapping",
   "name": "Clapping",
+  "upcoming": false,
   "aliases": [],
   "description": null,
   "image": {

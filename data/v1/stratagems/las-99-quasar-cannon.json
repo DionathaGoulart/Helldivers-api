@@ -12,6 +12,7 @@
     "id": "las-99-quasar-cannon",
     "slug": "las-99-quasar-cannon",
     "name": "LAS-99 Quasar Cannon",
+    "upcoming": false,
     "aliases": [],
     "description": "The Quasar Cannon is an energy-based anti-tank Support Weapon Stratagem.",
     "image": {

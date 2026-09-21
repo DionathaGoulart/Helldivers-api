@@ -12,6 +12,7 @@
     "id": "g-48-giga-grenade",
     "slug": "g-48-giga-grenade",
     "name": "G-48 Giga Grenade",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-48 Giga Grenade is a Special Throwable with a wide and high damaging explosion, at the cost of less than usual grenade capacity.",
     "image": {

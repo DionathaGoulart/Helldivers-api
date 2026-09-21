@@ -12,6 +12,7 @@
     "id": "portable-comms-relay",
     "slug": "portable-comms-relay",
     "name": "Portable Comms Relay",
+    "upcoming": false,
     "aliases": [],
     "description": "The Portable Comms Relay Stratagem is only available during one of the Infiltrate Illuminate Lair Mission's Objective, and is used to deposit the Tactical Video Camera and upload its data.",
     "image": {

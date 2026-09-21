@@ -12,6 +12,7 @@
     "id": "sa-12-servo-assisted",
     "slug": "sa-12-servo-assisted",
     "name": "SA-12 Servo Assisted",
+    "upcoming": false,
     "aliases": [],
     "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
     "image": {

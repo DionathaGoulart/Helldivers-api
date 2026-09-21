@@ -12,6 +12,7 @@
     "id": "cover-of-darkness",
     "slug": "cover-of-darkness",
     "name": "Cover of Darkness",
+    "upcoming": false,
     "aliases": [],
     "description": "When children have trouble sleeping, tucking them in under this cape reminds them that they are never alone, for Liberty's unseen defenders are always watching over them.",
     "image": {

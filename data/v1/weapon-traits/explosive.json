@@ -12,6 +12,7 @@
     "id": "explosive",
     "slug": "explosive",
     "name": "Explosive",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

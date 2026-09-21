@@ -12,6 +12,7 @@
     "id": "skull-admiral",
     "slug": "skull-admiral",
     "name": "Skull Admiral",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

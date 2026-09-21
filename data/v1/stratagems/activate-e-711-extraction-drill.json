@@ -12,6 +12,7 @@
     "id": "activate-e-711-extraction-drill",
     "slug": "activate-e-711-extraction-drill",
     "name": "Activate E-711 Extraction Drill",
+    "upcoming": false,
     "aliases": [],
     "description": "The Activate E-711 Extraction Drill Stratagem allows Helldivers to activate the drill on the GATER when at a suitable drill Site.",
     "image": {

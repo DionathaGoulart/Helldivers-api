@@ -12,6 +12,7 @@
     "id": "ar-11-arbitrator",
     "slug": "ar-11-arbitrator",
     "name": "AR-11 Arbitrator",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-11 Arbitrator is a Primary Assault Rifle equipped with an underbarrel shotgun.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "incendiary",
     "slug": "incendiary",
     "name": "Incendiary",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

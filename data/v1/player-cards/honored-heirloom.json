@@ -12,6 +12,7 @@
     "id": "honored-heirloom",
     "slug": "honored-heirloom",
     "name": "Honored Heirloom",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

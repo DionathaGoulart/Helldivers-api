@@ -12,6 +12,7 @@
     "id": "cqc-20-breaching-hammer",
     "slug": "cqc-20-breaching-hammer",
     "name": "CQC-20 Breaching Hammer",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-20 Breaching Hammer is a Melee Support Weapon, which is capable of dealing explosive damage by striking enemies.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "r-4-hyena",
     "slug": "r-4-hyena",
     "name": "R-4 Hyena",
+    "upcoming": false,
     "aliases": [],
     "description": "The R-4 Hyena is a Primary Marksman Rifle similar to the R-63CS Diligence Counter Sniper, trading magazine count, fire rate, and handling for greater firepower and incendiary rounds.",
     "image": {

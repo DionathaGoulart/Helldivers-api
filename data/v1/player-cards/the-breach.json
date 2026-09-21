@@ -12,6 +12,7 @@
     "id": "the-breach",
     "slug": "the-breach",
     "name": "The Breach",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

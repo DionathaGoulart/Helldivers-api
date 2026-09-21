@@ -12,6 +12,7 @@
     "id": "vg-70-variable",
     "slug": "vg-70-variable",
     "name": "VG-70 Variable",
+    "upcoming": false,
     "aliases": [],
     "description": "VG-70 Variable is a Primary Special weapon. It is a seven-barrelled volley gun with three different firing modes: Auto, Volley, and Total, as well as variable rpm options.",
     "image": {

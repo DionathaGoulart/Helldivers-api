@@ -12,6 +12,7 @@
     "id": "distribute-ballots",
     "slug": "distribute-ballots",
     "name": "Distribute Ballots",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

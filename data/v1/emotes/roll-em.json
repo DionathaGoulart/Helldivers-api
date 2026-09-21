@@ -12,6 +12,7 @@
     "id": "roll-em",
     "slug": "roll-em",
     "name": "Roll 'Em",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "redacted",
     "slug": "redacted",
     "name": "[Redacted]",
+    "upcoming": false,
     "aliases": [
       "Redacted"
     ],

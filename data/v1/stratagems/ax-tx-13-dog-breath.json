@@ -12,6 +12,7 @@
     "id": "ax-tx-13-dog-breath",
     "slug": "ax-tx-13-dog-breath",
     "name": "AX/TX-13 Dog Breath",
+    "upcoming": false,
     "aliases": [],
     "description": "The AX/TX-13 Dog Breath is a backpack Stratagem that provides defensive support to the player. It slows and blinds nearby enemies by spraying them with caustic gas, helping the owner avoid being overwhelmed by swarms.",
     "image": {

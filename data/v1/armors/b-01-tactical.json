@@ -12,6 +12,7 @@
     "id": "b-01-tactical",
     "slug": "b-01-tactical",
     "name": "B-01 Tactical",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor is the Super Earth Standard Issue, made from the same titanium alloy as the Destroyer's hull.",
     "image": {

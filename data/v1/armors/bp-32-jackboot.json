@@ -12,6 +12,7 @@
     "id": "bp-32-jackboot",
     "slug": "bp-32-jackboot",
     "name": "BP-32 Jackboot",
+    "upcoming": false,
     "aliases": [],
     "description": "Named for Helldiver Jack Boote, who shut down 908 illegal broadcasts before retiring with honors.",
     "image": {

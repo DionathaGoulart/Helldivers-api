@@ -12,6 +12,7 @@
     "id": "g-16-impact",
     "slug": "g-16-impact",
     "name": "G-16 Impact",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-16 Impact is a Special Throwable that explodes on impact with a surface or entity.",
     "image": {

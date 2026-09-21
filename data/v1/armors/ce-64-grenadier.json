@@ -12,6 +12,7 @@
     "id": "ce-64-grenadier",
     "slug": "ce-64-grenadier",
     "name": "CE-64 Grenadier",
+    "upcoming": false,
     "aliases": [],
     "description": "The set's classic advertising campaign “Have you tried a grenade?” has remained unchanged for over 70 years.",
     "image": {

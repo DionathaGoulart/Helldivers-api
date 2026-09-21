@@ -12,6 +12,7 @@
     "id": "rank-300",
     "slug": "rank-300",
     "name": "Rank 300",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

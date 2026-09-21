@@ -12,6 +12,7 @@
     "id": "peak-physique",
     "slug": "peak-physique",
     "name": "Peak Physique",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases melee damage by 40%. Improves weapons handling with less drag on weapon movement.",
     "image": {

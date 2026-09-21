@@ -12,6 +12,7 @@
     "id": "uav-recon-booster",
     "slug": "uav-recon-booster",
     "name": "UAV Recon Booster",
+    "upcoming": false,
     "aliases": [],
     "description": "UAV Recon Booster is a Booster in Helldivers 2. When equipped, all Helldivers will have increased effective radar range, allowing for easier recon of terrain.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "rock-paper-scissors",
     "slug": "rock-paper-scissors",
     "name": "Rock Paper Scissors",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "ew",
     "slug": "ew",
     "name": "Ew",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

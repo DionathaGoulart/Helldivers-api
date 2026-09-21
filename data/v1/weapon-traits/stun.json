@@ -12,6 +12,7 @@
     "id": "stun",
     "slug": "stun",
     "name": "Stun",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

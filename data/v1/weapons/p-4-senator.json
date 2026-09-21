@@ -12,6 +12,7 @@
     "id": "p-4-senator",
     "slug": "p-4-senator",
     "name": "P-4 Senator",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-4 Senator is a Secondary Pistol that can penetrate heavy armor and deals a very high amount of damage per shot.",
     "image": {

@@ -7,7 +7,7 @@ import { normalizeWarbondLabel, warbondIdFromTitle } from "../normalize/warbonds
 import { normalizeWeaponStats } from "../normalize/weapons.ts";
 import { parseWeaponPage } from "../parsers/weapon-page.ts";
 import { parseWeaponsIndex, WEAPONS_INDEX } from "../parsers/weapons-index.ts";
-import { flagsFromCategories } from "../wiki/page.ts";
+import { flagsFromCategories, isUpcoming } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
 import { itemSourceResolver, traitResolver } from "./item-source.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
@@ -134,6 +134,7 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
         id,
         slug: slugify(raw.title),
         name: raw.name,
+        upcoming: isUpcoming(raw.categories),
         aliases: [...new Set([row.page.title, raw.title])].filter((t) => t !== raw.name).sort(),
         description: raw.lead,
         image: null, // attached in step 7

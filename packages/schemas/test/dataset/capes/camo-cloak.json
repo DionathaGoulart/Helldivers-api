@@ -12,6 +12,7 @@
     "id": "camo-cloak",
     "slug": "camo-cloak",
     "name": "Camo Cloak",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

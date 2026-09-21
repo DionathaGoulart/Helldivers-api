@@ -55,6 +55,7 @@ export const armorSetsPipeline: CollectionPipeline<"armor-sets"> = {
         id,
         slug: armor.slug,
         name: armor.name,
+        upcoming: armor.upcoming,
         wiki: armor.wiki,
         armorId: armor.id,
         helmetId: helmet.id,

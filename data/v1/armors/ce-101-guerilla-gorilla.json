@@ -12,6 +12,7 @@
     "id": "ce-101-guerilla-gorilla",
     "slug": "ce-101-guerilla-gorilla",
     "name": "CE-101 Guerilla Gorilla",
+    "upcoming": false,
     "aliases": [],
     "description": "Heavily insulated from animal bites, enemy fire, and the histrionic diatribes of anarchists.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "g-7-pineapple",
     "slug": "g-7-pineapple",
     "name": "G-7 Pineapple",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-7 Pineapple is a Standard Throwable that explodes into several bomblets with shrapnel, able to inflict damage over a large area.",
     "image": {

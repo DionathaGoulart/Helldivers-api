@@ -12,6 +12,7 @@
     "id": "beam",
     "slug": "beam",
     "name": "Beam",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

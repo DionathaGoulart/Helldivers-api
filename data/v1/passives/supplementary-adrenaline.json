@@ -12,6 +12,7 @@
     "id": "supplementary-adrenaline",
     "slug": "supplementary-adrenaline",
     "name": "Supplementary Adrenaline",
+    "upcoming": false,
     "aliases": [],
     "description": "When the wearer takes damage, they regain some stamina. Provides a higher armor rating.",
     "image": {

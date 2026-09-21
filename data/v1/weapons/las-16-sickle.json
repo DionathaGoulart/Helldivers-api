@@ -12,6 +12,7 @@
     "id": "las-16-sickle",
     "slug": "las-16-sickle",
     "name": "LAS-16 Sickle",
+    "upcoming": false,
     "aliases": [],
     "description": "The LAS-16 Sickle is a Primary Energy-Based weapon that operates like an Assault Rifle, shooting targets with a barrage of laser pulses.",
     "image": {

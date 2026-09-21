@@ -12,6 +12,7 @@
     "id": "b-22-model-citizen",
     "slug": "b-22-model-citizen",
     "name": "B-22 Model Citizen",
+    "upcoming": false,
     "aliases": [],
     "description": "Gifted to Helldivers whose civilian lives were distinguished by exemplary citizenship, patriotism, and service to the Federation.",
     "image": {

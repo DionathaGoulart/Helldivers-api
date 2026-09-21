@@ -12,6 +12,7 @@
     "id": "courtly-bow",
     "slug": "courtly-bow",
     "name": "Courtly Bow",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "med-kit",
     "slug": "med-kit",
     "name": "Med-Kit",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases initial inventory and holding capacity of stims by +2. Increases stim effect duration by 2.0s.",
     "image": {

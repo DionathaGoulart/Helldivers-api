@@ -12,6 +12,7 @@
     "id": "a-flam-40-flame-sentry",
     "slug": "a-flam-40-flame-sentry",
     "name": "A/FLAM-40 Flame Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The Flame Sentry is a close-range incendiary sentry stratagem.",
     "image": {

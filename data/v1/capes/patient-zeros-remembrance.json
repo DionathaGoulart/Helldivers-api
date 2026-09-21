@@ -12,6 +12,7 @@
     "id": "patient-zeros-remembrance",
     "slug": "patient-zeros-remembrance",
     "name": "Patient Zero's Remembrance",
+    "upcoming": false,
     "aliases": [],
     "description": "With this cape we honor the bio-warfare pioneers of Division Zero, conscripted from quarantine zones and hospices to spread their Carcino-Plague on the battlefield.",
     "image": {

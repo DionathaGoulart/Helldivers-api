@@ -12,6 +12,7 @@
     "id": "ad-11-livewire",
     "slug": "ad-11-livewire",
     "name": "AD-11 Livewire",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "g-8-immolation",
     "slug": "g-8-immolation",
     "name": "G-8 Immolation",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-8 Immolation is a Special Throwable that explodes into a massive pool of fire upon impact.",
     "image": {

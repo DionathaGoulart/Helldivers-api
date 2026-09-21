@@ -12,6 +12,7 @@
     "id": "vitality-enhancement",
     "slug": "vitality-enhancement",
     "name": "Vitality Enhancement",
+    "upcoming": false,
     "aliases": [],
     "description": "Vitality Enhancement is a Booster in Helldivers 2. When equipped, all Helldivers will be more resistant to damage and injury.",
     "image": {

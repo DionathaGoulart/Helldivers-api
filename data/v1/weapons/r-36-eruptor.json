@@ -12,6 +12,7 @@
     "id": "r-36-eruptor",
     "slug": "r-36-eruptor",
     "name": "R-36 Eruptor",
+    "upcoming": false,
     "aliases": [],
     "description": "R-36 Eruptor is a Primary Explosive weapon that fires jet-assisted shells which explode into shrapnel on impact.",
     "image": {

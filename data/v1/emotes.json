@@ -14,6 +14,7 @@
       "id": "at-ease",
       "slug": "at-ease",
       "name": "At Ease",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -45,6 +46,7 @@
       "id": "big-stretch",
       "slug": "big-stretch",
       "name": "Big Stretch",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -76,6 +78,7 @@
       "id": "big-whoop",
       "slug": "big-whoop",
       "name": "Big Whoop",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -107,6 +110,7 @@
       "id": "boxer",
       "slug": "boxer",
       "name": "Boxer",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -138,6 +142,7 @@
       "id": "call-the-helldivers",
       "slug": "call-the-helldivers",
       "name": "Call the Helldivers",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -169,6 +174,7 @@
       "id": "casual-salute",
       "slug": "casual-salute",
       "name": "Casual Salute",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -197,6 +203,7 @@
       "id": "clapping",
       "slug": "clapping",
       "name": "Clapping",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -228,6 +235,7 @@
       "id": "courtly-bow",
       "slug": "courtly-bow",
       "name": "Courtly Bow",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -259,6 +267,7 @@
       "id": "deep-reflection",
       "slug": "deep-reflection",
       "name": "Deep Reflection",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -290,6 +299,7 @@
       "id": "diplomatic-handshake",
       "slug": "diplomatic-handshake",
       "name": "Diplomatic Handshake",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -321,6 +331,7 @@
       "id": "display-of-brawn",
       "slug": "display-of-brawn",
       "name": "Display of Brawn",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -352,6 +363,7 @@
       "id": "distribute-ballots",
       "slug": "distribute-ballots",
       "name": "Distribute Ballots",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -383,6 +395,7 @@
       "id": "draw",
       "slug": "draw",
       "name": "Draw!",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -414,6 +427,7 @@
       "id": "enthusiastic-mirth",
       "slug": "enthusiastic-mirth",
       "name": "Enthusiastic Mirth",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -445,6 +459,7 @@
       "id": "ew",
       "slug": "ew",
       "name": "Ew",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -476,6 +491,7 @@
       "id": "explosive-handshake",
       "slug": "explosive-handshake",
       "name": "Explosive Handshake",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -507,6 +523,7 @@
       "id": "finger-guns",
       "slug": "finger-guns",
       "name": "Finger Guns",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -538,6 +555,7 @@
       "id": "flex",
       "slug": "flex",
       "name": "Flex",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -569,6 +587,7 @@
       "id": "front-leaning-rest-position",
       "slug": "front-leaning-rest-position",
       "name": "Front-Leaning Rest Position",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -600,6 +619,7 @@
       "id": "guns-of-liberty",
       "slug": "guns-of-liberty",
       "name": "Guns of Liberty",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -631,6 +651,7 @@
       "id": "head-tap",
       "slug": "head-tap",
       "name": "Head Tap",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -662,6 +683,7 @@
       "id": "high-five",
       "slug": "high-five",
       "name": "High-Five",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -693,6 +715,7 @@
       "id": "hug",
       "slug": "hug",
       "name": "Hug",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -724,6 +747,7 @@
       "id": "lockstep",
       "slug": "lockstep",
       "name": "Lockstep",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -755,6 +779,7 @@
       "id": "loosen-up",
       "slug": "loosen-up",
       "name": "Loosen Up",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -786,6 +811,7 @@
       "id": "mime-instrumentation",
       "slug": "mime-instrumentation",
       "name": "Mime Instrumentation",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -817,6 +843,7 @@
       "id": "natural-gas-extraction",
       "slug": "natural-gas-extraction",
       "name": "Natural Gas Extraction",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -848,6 +875,7 @@
       "id": "presentable",
       "slug": "presentable",
       "name": "Presentable",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -879,6 +907,7 @@
       "id": "protect-eardrums",
       "slug": "protect-eardrums",
       "name": "Protect Eardrums",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -910,6 +939,7 @@
       "id": "raiders-cheer",
       "slug": "raiders-cheer",
       "name": "Raider's Cheer",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -941,6 +971,7 @@
       "id": "raise-weapon",
       "slug": "raise-weapon",
       "name": "Raise Weapon",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -972,6 +1003,7 @@
       "id": "rock-paper-scissors",
       "slug": "rock-paper-scissors",
       "name": "Rock Paper Scissors",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1003,6 +1035,7 @@
       "id": "roll-em",
       "slug": "roll-em",
       "name": "Roll 'Em",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1034,6 +1067,7 @@
       "id": "salute",
       "slug": "salute",
       "name": "Salute",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1062,6 +1096,7 @@
       "id": "scout-handshake",
       "slug": "scout-handshake",
       "name": "Scout Handshake",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1093,6 +1128,7 @@
       "id": "shotgun-show",
       "slug": "shotgun-show",
       "name": "Shotgun Show",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1124,6 +1160,7 @@
       "id": "signal-group-up",
       "slug": "signal-group-up",
       "name": "Signal: Group Up",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1155,6 +1192,7 @@
       "id": "signal-hold",
       "slug": "signal-hold",
       "name": "Signal: Hold",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1186,6 +1224,7 @@
       "id": "signal-silence",
       "slug": "signal-silence",
       "name": "Signal: Silence",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1217,6 +1256,7 @@
       "id": "squat",
       "slug": "squat",
       "name": "Squat",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1248,6 +1288,7 @@
       "id": "super-person",
       "slug": "super-person",
       "name": "Super Person",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1279,6 +1320,7 @@
       "id": "target-sighted",
       "slug": "target-sighted",
       "name": "Target Sighted",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1310,6 +1352,7 @@
       "id": "test-of-conviction",
       "slug": "test-of-conviction",
       "name": "Test of Conviction",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1341,6 +1384,7 @@
       "id": "this-is-democracy",
       "slug": "this-is-democracy",
       "name": "This Is Democracy",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1372,6 +1416,7 @@
       "id": "thoracic-collision-exultation-maneuver",
       "slug": "thoracic-collision-exultation-maneuver",
       "name": "Thoracic Collision Exultation Maneuver",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1403,6 +1448,7 @@
       "id": "tip-hat",
       "slug": "tip-hat",
       "name": "Tip Hat",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1434,6 +1480,7 @@
       "id": "welcome-adoration",
       "slug": "welcome-adoration",
       "name": "Welcome Adoration",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1465,6 +1512,7 @@
       "id": "youre-next",
       "slug": "youre-next",
       "name": "You're Next",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {

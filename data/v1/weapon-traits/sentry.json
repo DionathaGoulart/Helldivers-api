@@ -12,6 +12,7 @@
     "id": "sentry",
     "slug": "sentry",
     "name": "Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

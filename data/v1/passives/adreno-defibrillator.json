@@ -12,6 +12,7 @@
     "id": "adreno-defibrillator",
     "slug": "adreno-defibrillator",
     "name": "Adreno-Defibrillator",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact. Increases stim effect duration by 2.0s. Provides 50% resistance to arc damage.",
     "image": {

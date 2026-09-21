@@ -12,6 +12,7 @@
     "id": "marshal",
     "slug": "marshal",
     "name": "Marshal",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "rs-100-sanctioner",
     "slug": "rs-100-sanctioner",
     "name": "RS-100 Sanctioner",
+    "upcoming": false,
     "aliases": [],
     "description": "Armor inspired by the legend of the Sanctioner, a figure known only through a bizarrely unanimous patchwork of stifled whispers. As told, this fearsome, covert arbiter of primeval Justice delivered final, state-approved verdicts in the chaotic years before the Federation's founding.",
     "image": {

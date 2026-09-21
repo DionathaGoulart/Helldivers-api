@@ -12,6 +12,7 @@
     "id": "windswept-wayfinder",
     "slug": "windswept-wayfinder",
     "name": "Windswept Wayfinder",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

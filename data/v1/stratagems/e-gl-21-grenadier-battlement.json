@@ -12,6 +12,7 @@
     "id": "e-gl-21-grenadier-battlement",
     "slug": "e-gl-21-grenadier-battlement",
     "name": "E/GL-21 Grenadier Battlement",
+    "upcoming": false,
     "aliases": [],
     "description": "The Grenadier Battlement is an Stratagem that deploys ballistic cover with a mounted Grenade Launcher.",
     "image": {

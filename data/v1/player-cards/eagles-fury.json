@@ -12,6 +12,7 @@
     "id": "eagles-fury",
     "slug": "eagles-fury",
     "name": "Eagle's Fury",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

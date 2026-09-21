@@ -6,7 +6,7 @@ import { armoryName } from "../normalize/armory.ts";
 import { ARMOR_INDEX, parseArmorIndex, type RawItemBox } from "../parsers/armor-index.ts";
 import { parseArmorPage, type RawArmoryPage } from "../parsers/armor-page.ts";
 import { COSMETICS_INDEX, parseCosmeticsIndex } from "../parsers/cosmetics-index.ts";
-import { flagsFromCategories } from "../wiki/page.ts";
+import { flagsFromCategories, isUpcoming } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
 import { itemSourceResolver } from "./item-source.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
@@ -107,6 +107,7 @@ export const playerCardsPipeline: CollectionPipeline<"player-cards"> = {
         id,
         slug: slugify(pageTitle),
         name,
+        upcoming: page ? isUpcoming(page.raw.categories) : false,
         aliases: [...new Set([box?.page.title ?? pageTitle, pageTitle])]
           .filter((t) => t !== name)
           .sort(),

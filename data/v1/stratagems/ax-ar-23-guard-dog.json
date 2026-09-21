@@ -12,6 +12,7 @@
     "id": "ax-ar-23-guard-dog",
     "slug": "ax-ar-23-guard-dog",
     "name": "AX/AR-23 Guard Dog",
+    "upcoming": false,
     "aliases": [],
     "description": "The AX/AR-23 Guard Dog is a Stratagem that calls down a defensive drone that is equipped in the backpack slot.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "ar-23p-liberator-penetrator",
     "slug": "ar-23p-liberator-penetrator",
     "name": "AR-23P Liberator Penetrator",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-23P Liberator Penetrator is a Primary Assault Rifle, a variant of the standard Liberator with increased armor-piercing capabilities.",
     "image": {

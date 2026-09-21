@@ -12,6 +12,7 @@
     "id": "loosen-up",
     "slug": "loosen-up",
     "name": "Loosen Up",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "orbital-gatling-barrage",
     "slug": "orbital-gatling-barrage",
     "name": "Orbital Gatling Barrage",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital Gatling Barrage or OGB for short is an offensive stratagem that delivers a devastating barrage of 23mm rounds from above.",
     "image": {

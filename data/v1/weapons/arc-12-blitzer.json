@@ -12,6 +12,7 @@
     "id": "arc-12-blitzer",
     "slug": "arc-12-blitzer",
     "name": "ARC-12 Blitzer",
+    "upcoming": false,
     "aliases": [],
     "description": "The ARC-12 Blitzer is an Primary Energy-Based shotgun that fires arcs of electricity instead of buckshot.",
     "image": {

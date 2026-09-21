@@ -12,6 +12,7 @@
     "id": "orbital-ems-strike",
     "slug": "orbital-ems-strike",
     "name": "Orbital EMS Strike",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital EMS Strike is a powerful utility Stratagem, useful for locking down enemy advances and/or for stunning high priority targets.",
     "image": {

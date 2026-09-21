@@ -12,6 +12,7 @@
     "id": "ms-11-solo-silo",
     "slug": "ms-11-solo-silo",
     "name": "MS-11 Solo Silo",
+    "upcoming": false,
     "aliases": [],
     "description": "The MS-11 Solo Silo, shortened to Solo Silo or MS-11, is an expendable Support weapon that embeds itself into the ground, extends a targeting system to be picked up, and launches the embedded missile when used.",
     "image": {

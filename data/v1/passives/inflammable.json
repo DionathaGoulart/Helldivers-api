@@ -12,6 +12,7 @@
     "id": "inflammable",
     "slug": "inflammable",
     "name": "Inflammable",
+    "upcoming": false,
     "aliases": [],
     "description": "Provides 75% damage resistance to fire, allowing bearer to rest assured in their inflammability.",
     "image": {

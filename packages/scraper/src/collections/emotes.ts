@@ -33,6 +33,7 @@ export const emotesPipeline: CollectionPipeline<"emotes"> = {
         id,
         slug: slugify(row.name),
         name: row.name,
+        upcoming: false, // index-only
         aliases: [title].filter((t) => t !== row.name),
         description: null, // index-only (rule 11)
         image: null, // attached in step 7

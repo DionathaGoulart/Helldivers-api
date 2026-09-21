@@ -12,6 +12,7 @@
     "id": "g-123-thermite",
     "slug": "g-123-thermite",
     "name": "G-123 Thermite",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-123 Thermite is a Special Throwable that can stick and inflict heavy explosion damage to a single target after a delay.",
     "image": {

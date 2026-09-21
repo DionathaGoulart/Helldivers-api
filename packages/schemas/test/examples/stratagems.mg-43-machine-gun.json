@@ -2,6 +2,7 @@
   "id": "mg-43-machine-gun",
   "slug": "mg-43-machine-gun",
   "name": "MG-43 Machine Gun",
+  "upcoming": false,
   "aliases": [],
   "description": null,
   "image": null,

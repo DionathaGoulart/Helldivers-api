@@ -12,6 +12,7 @@
     "id": "hive-breaker-drill",
     "slug": "hive-breaker-drill",
     "name": "Hive Breaker Drill",
+    "upcoming": false,
     "aliases": [],
     "description": "The Hive Breaker Drill Stratagem is only available on the Nuke Nursery mission and is used to start the main objective, and is heavily based on the Tectonic Drill. Once called in, the Hive Breaker Drill is delivered to a fixed location at the drill site via Pelican. It initially drops in a large casing, which will unpack itself after a few seconds to reveal its terminal.",
     "image": {

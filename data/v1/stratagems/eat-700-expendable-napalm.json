@@ -12,6 +12,7 @@
     "id": "eat-700-expendable-napalm",
     "slug": "eat-700-expendable-napalm",
     "name": "EAT-700 Expendable Napalm",
+    "upcoming": false,
     "aliases": [],
     "description": "The EAT-700 Expendable Napalm or NEAT for short is a Stratagem that calls down 2 disposable napalm cluster Support Weapons.",
     "image": {

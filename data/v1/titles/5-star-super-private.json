@@ -12,6 +12,7 @@
     "id": "5-star-super-private",
     "slug": "5-star-super-private",
     "name": "5-Star Super Private",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

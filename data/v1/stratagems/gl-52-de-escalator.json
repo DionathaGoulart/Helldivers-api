@@ -12,6 +12,7 @@
     "id": "gl-52-de-escalator",
     "slug": "gl-52-de-escalator",
     "name": "GL-52 De-Escalator",
+    "upcoming": false,
     "aliases": [],
     "description": "The GL-52 De-Escalator is a Stratagem that calls down a Support Weapon capable of rapidly firing arc grenades.",
     "image": {

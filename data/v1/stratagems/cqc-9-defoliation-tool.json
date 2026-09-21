@@ -12,6 +12,7 @@
     "id": "cqc-9-defoliation-tool",
     "slug": "cqc-9-defoliation-tool",
     "name": "CQC-9 Defoliation Tool",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-9 Defoliation Tool is a Melee Support Weapon, which is capable of dealing prolonged damage on target.",
     "image": {

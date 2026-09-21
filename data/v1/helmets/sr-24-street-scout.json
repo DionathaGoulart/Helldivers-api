@@ -12,6 +12,7 @@
     "id": "sr-24-street-scout",
     "slug": "sr-24-street-scout",
     "name": "SR-24 Street Scout",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "g-60-anti-tank-seeker",
     "slug": "g-60-anti-tank-seeker",
     "name": "G-60 Anti-Tank Seeker",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-60 Anti-Tank Seeker (also known as the AT Seeker) is a Special Throwable in Helldivers 2. Similar to the G-50 Seeker, it is an anti-tank grenade that can fly and will explode on impact.",
     "image": {

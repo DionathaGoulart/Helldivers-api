@@ -12,6 +12,7 @@
     "id": "p-33-missile-pistol",
     "slug": "p-33-missile-pistol",
     "name": "P-33 Missile Pistol",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-33 Missile Pistol is a Secondary Special single-shot weapon that fires guided missiles at targets.",
     "image": {

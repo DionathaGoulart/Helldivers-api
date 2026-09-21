@@ -12,6 +12,7 @@
     "id": "extrasolar-ash",
     "slug": "extrasolar-ash",
     "name": "Extrasolar Ash",
+    "upcoming": false,
     "aliases": [],
     "description": "Extrasolar Ash patterns are selectable wraps for your various vehicles.",
     "image": {

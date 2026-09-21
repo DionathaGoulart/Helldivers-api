@@ -12,6 +12,7 @@
     "id": "g-sh-39-shield",
     "slug": "g-sh-39-shield",
     "name": "G/SH-39 Shield",
+    "upcoming": false,
     "aliases": [],
     "description": "The G/SH-39 Shield is a Special Throwable that projects a small bubble shield with 360° coverage to block incoming projectiles.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "natural-gas-extraction",
     "slug": "natural-gas-extraction",
     "name": "Natural Gas Extraction",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

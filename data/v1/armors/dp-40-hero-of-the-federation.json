@@ -12,6 +12,7 @@
     "id": "dp-40-hero-of-the-federation",
     "slug": "dp-40-hero-of-the-federation",
     "name": "DP-40 Hero of the Federation",
+    "upcoming": false,
     "aliases": [],
     "description": "Though originally intended solely for ceremonial use, its inspirational energy proved equally useful on the battlefield.",
     "image": {

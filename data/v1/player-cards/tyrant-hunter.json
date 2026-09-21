@@ -12,6 +12,7 @@
     "id": "tyrant-hunter",
     "slug": "tyrant-hunter",
     "name": "Tyrant Hunter",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

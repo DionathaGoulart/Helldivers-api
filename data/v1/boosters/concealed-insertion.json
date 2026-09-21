@@ -12,6 +12,7 @@
     "id": "concealed-insertion",
     "slug": "concealed-insertion",
     "name": "Concealed Insertion",
+    "upcoming": false,
     "aliases": [],
     "description": "Concealed Insertion is a Booster in Helldivers 2. When equipped, Hellpods emits smoke on impact.",
     "image": {

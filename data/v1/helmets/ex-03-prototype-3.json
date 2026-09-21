@@ -12,6 +12,7 @@
     "id": "ex-03-prototype-3",
     "slug": "ex-03-prototype-3",
     "name": "EX-03 Prototype 3",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

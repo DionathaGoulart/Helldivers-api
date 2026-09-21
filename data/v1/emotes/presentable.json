@@ -12,6 +12,7 @@
     "id": "presentable",
     "slug": "presentable",
     "name": "Presentable",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

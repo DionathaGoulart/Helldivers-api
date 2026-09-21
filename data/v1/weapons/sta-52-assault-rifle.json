@@ -12,6 +12,7 @@
     "id": "sta-52-assault-rifle",
     "slug": "sta-52-assault-rifle",
     "name": "StA-52 Assault Rifle",
+    "upcoming": false,
     "aliases": [],
     "description": "The StA-52 Assault Rifle is a Primary Assault Rifle with a drum magazine. It is part of the Helldivers 2 x Killzone Legendary Warbond or the Helldivers x Killzone crossover package.",
     "image": {

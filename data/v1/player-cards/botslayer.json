@@ -12,6 +12,7 @@
     "id": "botslayer",
     "slug": "botslayer",
     "name": "Botslayer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

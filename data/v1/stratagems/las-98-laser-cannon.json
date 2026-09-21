@@ -12,6 +12,7 @@
     "id": "las-98-laser-cannon",
     "slug": "las-98-laser-cannon",
     "name": "LAS-98 Laser Cannon",
+    "upcoming": false,
     "aliases": [],
     "description": "The Laser Cannon is a heat-based support weapon that fires a sustained beam of energy that penetrates heavy armor and can ignite targets.",
     "image": {

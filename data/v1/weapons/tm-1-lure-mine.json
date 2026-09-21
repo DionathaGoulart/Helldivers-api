@@ -12,6 +12,7 @@
     "id": "tm-1-lure-mine",
     "slug": "tm-1-lure-mine",
     "name": "TM-1 Lure Mine",
+    "upcoming": false,
     "aliases": [],
     "description": "The TM-1 Lure Mine is a Special Throwable that lures in enemies before proximity detonating with a high damage explosion and shrapnel.",
     "image": {

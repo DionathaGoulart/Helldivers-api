@@ -12,6 +12,7 @@
     "id": "vehicle",
     "slug": "vehicle",
     "name": "Vehicle",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

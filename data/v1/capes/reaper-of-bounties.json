@@ -12,6 +12,7 @@
     "id": "reaper-of-bounties",
     "slug": "reaper-of-bounties",
     "name": "Reaper of Bounties",
+    "upcoming": false,
     "aliases": [],
     "description": "This cape recalls the popular folk tale of the “Freedomslingers”: re-educated dissidents, seeking redemption on the Federation's Borderline, hunting dangerous thought-traitors in exchange for ballot bounties.",
     "image": {

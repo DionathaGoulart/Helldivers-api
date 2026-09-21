@@ -12,6 +12,7 @@
     "id": "gp-31-grenade-pistol",
     "slug": "gp-31-grenade-pistol",
     "name": "GP-31 Grenade Pistol",
+    "upcoming": false,
     "aliases": [],
     "description": "The GP-31 Grenade Pistol is a Secondary Special single-shot weapon that fires a powerful grenades at a medium range.",
     "image": {

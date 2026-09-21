@@ -12,6 +12,7 @@
     "id": "servants-of-freedom",
     "slug": "servants-of-freedom",
     "name": "Servants of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": "Servants of Freedom is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

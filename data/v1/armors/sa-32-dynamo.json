@@ -12,6 +12,7 @@
     "id": "sa-32-dynamo",
     "slug": "sa-32-dynamo",
     "name": "SA-32 Dynamo",
+    "upcoming": false,
     "aliases": [],
     "description": "In mountainous colonies, domestic variants of this armor are used to throw weather monitoring equipment uphill.",
     "image": {

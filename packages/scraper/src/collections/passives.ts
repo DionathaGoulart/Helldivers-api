@@ -46,6 +46,7 @@ export const passivesPipeline: CollectionPipeline<"passives"> = {
         id: idLock.resolve("passives", row.page.title, row.name),
         slug: slugify(row.name),
         name: row.name,
+        upcoming: false, // index-only
         aliases: [row.page.title].filter((title) => title !== row.name),
         description: row.description,
         image: null, // attached in step 7

@@ -12,6 +12,7 @@
     "id": "a-m-12-mortar-sentry",
     "slug": "a-m-12-mortar-sentry",
     "name": "A/M-12 Mortar Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/M-12 Mortar Sentry is a very powerful defensive stratagem able to destroy enemies from range, and behind cover.",
     "image": {

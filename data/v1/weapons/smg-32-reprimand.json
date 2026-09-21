@@ -12,6 +12,7 @@
     "id": "smg-32-reprimand",
     "slug": "smg-32-reprimand",
     "name": "SMG-32 Reprimand",
+    "upcoming": false,
     "aliases": [],
     "description": "The SMG-32 Reprimand is a Primary Submachine Gun with high damage and Medium armor penetration in exchange for restricted magazine size.",
     "image": {

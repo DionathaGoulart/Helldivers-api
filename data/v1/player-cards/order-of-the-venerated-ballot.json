@@ -12,6 +12,7 @@
     "id": "order-of-the-venerated-ballot",
     "slug": "order-of-the-venerated-ballot",
     "name": "Order of the Venerated Ballot",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

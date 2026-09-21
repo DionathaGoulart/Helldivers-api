@@ -12,6 +12,7 @@
     "id": "ted-63-dynamite",
     "slug": "ted-63-dynamite",
     "name": "TED-63 Dynamite",
+    "upcoming": false,
     "aliases": [],
     "description": "The TED-63 Dynamite is a Standard Throwable with a wide and high damaging explosion, at the cost of a longer than usual fuse. Uniquely, it has a programmable fuse timer which can be changed via the weapon wheel.",
     "image": {

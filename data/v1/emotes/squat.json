@@ -12,6 +12,7 @@
     "id": "squat",
     "slug": "squat",
     "name": "Squat",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

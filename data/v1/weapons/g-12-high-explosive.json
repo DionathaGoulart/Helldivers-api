@@ -12,6 +12,7 @@
     "id": "g-12-high-explosive",
     "slug": "g-12-high-explosive",
     "name": "G-12 High Explosive",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-12 High Explosive is a Standard Throwable with a high damaging, heavy armor penetrating explosion.",
     "image": {

@@ -3,6 +3,7 @@
     "id": "a-35-recon",
     "slug": "a-35-recon",
     "name": "A-35 Recon",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -37,6 +38,7 @@
     "id": "a-9-helljumper",
     "slug": "a-9-helljumper",
     "name": "A-9 Helljumper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -71,6 +73,7 @@
     "id": "ac-1-dutiful",
     "slug": "ac-1-dutiful",
     "name": "AC-1 Dutiful",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -103,6 +106,7 @@
     "id": "ac-2-obedient",
     "slug": "ac-2-obedient",
     "name": "AC-2 Obedient",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -135,6 +139,7 @@
     "id": "ad-11-livewire",
     "slug": "ad-11-livewire",
     "name": "AD-11 Livewire",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -169,6 +174,7 @@
     "id": "ad-26-bleeding-edge",
     "slug": "ad-26-bleeding-edge",
     "name": "AD-26 Bleeding Edge",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -203,6 +209,7 @@
     "id": "ad-49-apollonian",
     "slug": "ad-49-apollonian",
     "name": "AD-49 Apollonian",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -237,6 +244,7 @@
     "id": "af-02-haz-master",
     "slug": "af-02-haz-master",
     "name": "AF-02 Haz-Master",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -269,6 +277,7 @@
     "id": "af-50-noxious-ranger",
     "slug": "af-50-noxious-ranger",
     "name": "AF-50 Noxious Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -301,6 +310,7 @@
     "id": "af-52-lockdown",
     "slug": "af-52-lockdown",
     "name": "AF-52 Lockdown",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -333,6 +343,7 @@
     "id": "af-91-field-chemist",
     "slug": "af-91-field-chemist",
     "name": "AF-91 Field Chemist",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -365,6 +376,7 @@
     "id": "b-01-tactical",
     "slug": "b-01-tactical",
     "name": "B-01 Tactical",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -394,6 +406,7 @@
     "id": "b-08-light-gunner",
     "slug": "b-08-light-gunner",
     "name": "B-08 Light Gunner",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -426,6 +439,7 @@
     "id": "b-22-model-citizen",
     "slug": "b-22-model-citizen",
     "name": "B-22 Model Citizen",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -455,6 +469,7 @@
     "id": "b-24-enforcer",
     "slug": "b-24-enforcer",
     "name": "B-24 Enforcer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -487,6 +502,7 @@
     "id": "b-27-fortified-commando",
     "slug": "b-27-fortified-commando",
     "name": "B-27 Fortified Commando",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -519,6 +535,7 @@
     "id": "bfm-16-tanker",
     "slug": "bfm-16-tanker",
     "name": "BFM-16 Tanker",
+    "upcoming": true,
     "aliases": [],
     "description": null,
     "image": {
@@ -550,6 +567,7 @@
     "id": "bfm-220-ironclad",
     "slug": "bfm-220-ironclad",
     "name": "BFM-220 Ironclad",
+    "upcoming": true,
     "aliases": [],
     "description": null,
     "image": {
@@ -581,6 +599,7 @@
     "id": "bp-20-correct-officer",
     "slug": "bp-20-correct-officer",
     "name": "BP-20 Correct Officer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -615,6 +634,7 @@
     "id": "bp-32-jackboot",
     "slug": "bp-32-jackboot",
     "name": "BP-32 Jackboot",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -649,6 +669,7 @@
     "id": "bp-77-grand-juror",
     "slug": "bp-77-grand-juror",
     "name": "BP-77 Grand Juror",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -683,6 +704,7 @@
     "id": "ce-07-demolition-specialist",
     "slug": "ce-07-demolition-specialist",
     "name": "CE-07 Demolition Specialist",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -715,6 +737,7 @@
     "id": "ce-101-guerilla-gorilla",
     "slug": "ce-101-guerilla-gorilla",
     "name": "CE-101 Guerilla Gorilla",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -747,6 +770,7 @@
     "id": "ce-27-ground-breaker",
     "slug": "ce-27-ground-breaker",
     "name": "CE-27 Ground Breaker",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -779,6 +803,7 @@
     "id": "ce-35-trench-engineer",
     "slug": "ce-35-trench-engineer",
     "name": "CE-35 Trench Engineer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -811,6 +836,7 @@
     "id": "ce-64-grenadier",
     "slug": "ce-64-grenadier",
     "name": "CE-64 Grenadier",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -843,6 +869,7 @@
     "id": "ce-67-titan",
     "slug": "ce-67-titan",
     "name": "CE-67 Titan",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -875,6 +902,7 @@
     "id": "ce-74-breaker",
     "slug": "ce-74-breaker",
     "name": "CE-74 Breaker",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -907,6 +935,7 @@
     "id": "ce-81-juggernaut",
     "slug": "ce-81-juggernaut",
     "name": "CE-81 Juggernaut",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -939,6 +968,7 @@
     "id": "cm-09-bonesnapper",
     "slug": "cm-09-bonesnapper",
     "name": "CM-09 Bonesnapper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -971,6 +1001,7 @@
     "id": "cm-10-clinician",
     "slug": "cm-10-clinician",
     "name": "CM-10 Clinician",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1003,6 +1034,7 @@
     "id": "cm-14-physician",
     "slug": "cm-14-physician",
     "name": "CM-14 Physician",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1035,6 +1067,7 @@
     "id": "cm-17-butcher",
     "slug": "cm-17-butcher",
     "name": "CM-17 Butcher",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1067,6 +1100,7 @@
     "id": "cm-21-trench-paramedic",
     "slug": "cm-21-trench-paramedic",
     "name": "CM-21 Trench Paramedic",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1099,6 +1133,7 @@
     "id": "cpg-48-sapper",
     "slug": "cpg-48-sapper",
     "name": "CPG-48 Sapper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1133,6 +1168,7 @@
     "id": "cph-26-commandant",
     "slug": "cph-26-commandant",
     "name": "CPH-26 Commandant",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1167,6 +1203,7 @@
     "id": "cpr-80-bulwark",
     "slug": "cpr-80-bulwark",
     "name": "CPR-80 Bulwark",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1201,6 +1238,7 @@
     "id": "cw-22-kodiak",
     "slug": "cw-22-kodiak",
     "name": "CW-22 Kodiak",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1233,6 +1271,7 @@
     "id": "cw-36-winter-warrior",
     "slug": "cw-36-winter-warrior",
     "name": "CW-36 Winter Warrior",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1265,6 +1304,7 @@
     "id": "cw-4-arctic-ranger",
     "slug": "cw-4-arctic-ranger",
     "name": "CW-4 Arctic Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1297,6 +1337,7 @@
     "id": "cw-9-white-wolf",
     "slug": "cw-9-white-wolf",
     "name": "CW-9 White Wolf",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1329,6 +1370,7 @@
     "id": "dp-00-tactical",
     "slug": "dp-00-tactical",
     "name": "DP-00 Tactical",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1358,6 +1400,7 @@
     "id": "dp-11-champion-of-the-people",
     "slug": "dp-11-champion-of-the-people",
     "name": "DP-11 Champion of the People",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1390,6 +1433,7 @@
     "id": "dp-40-hero-of-the-federation",
     "slug": "dp-40-hero-of-the-federation",
     "name": "DP-40 Hero of the Federation",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1422,6 +1466,7 @@
     "id": "dp-53-savior-of-the-free",
     "slug": "dp-53-savior-of-the-free",
     "name": "DP-53 Savior of the Free",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1454,6 +1499,7 @@
     "id": "dp-8-mountain-scaled",
     "slug": "dp-8-mountain-scaled",
     "name": "DP-8 Mountain-Scaled",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1488,6 +1534,7 @@
     "id": "ds-10-big-game-hunter",
     "slug": "ds-10-big-game-hunter",
     "name": "DS-10 Big Game Hunter",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1522,6 +1569,7 @@
     "id": "ds-191-scorpion",
     "slug": "ds-191-scorpion",
     "name": "DS-191 Scorpion",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1556,6 +1604,7 @@
     "id": "ds-42-federations-blade",
     "slug": "ds-42-federations-blade",
     "name": "DS-42 Federation's Blade",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1590,6 +1639,7 @@
     "id": "ex-00-prototype-x",
     "slug": "ex-00-prototype-x",
     "name": "EX-00 Prototype X",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1622,6 +1672,7 @@
     "id": "ex-03-prototype-3",
     "slug": "ex-03-prototype-3",
     "name": "EX-03 Prototype 3",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1654,6 +1705,7 @@
     "id": "ex-16-prototype-16",
     "slug": "ex-16-prototype-16",
     "name": "EX-16 Prototype 16",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1686,6 +1738,7 @@
     "id": "fs-05-marksman",
     "slug": "fs-05-marksman",
     "name": "FS-05 Marksman",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1718,6 +1771,7 @@
     "id": "fs-11-executioner",
     "slug": "fs-11-executioner",
     "name": "FS-11 Executioner",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1750,6 +1804,7 @@
     "id": "fs-23-battle-master",
     "slug": "fs-23-battle-master",
     "name": "FS-23 Battle Master",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1782,6 +1837,7 @@
     "id": "fs-34-exterminator",
     "slug": "fs-34-exterminator",
     "name": "FS-34 Exterminator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1814,6 +1870,7 @@
     "id": "fs-37-ravager",
     "slug": "fs-37-ravager",
     "name": "FS-37 Ravager",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1846,6 +1903,7 @@
     "id": "fs-38-eradicator",
     "slug": "fs-38-eradicator",
     "name": "FS-38 Eradicator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1878,6 +1936,7 @@
     "id": "fs-55-devastator",
     "slug": "fs-55-devastator",
     "name": "FS-55 Devastator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1910,6 +1969,7 @@
     "id": "fs-61-dreadnought",
     "slug": "fs-61-dreadnought",
     "name": "FS-61 Dreadnought",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1942,6 +2002,7 @@
     "id": "gs-11-democracys-deputy",
     "slug": "gs-11-democracys-deputy",
     "name": "GS-11 Democracy's Deputy",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1974,6 +2035,7 @@
     "id": "gs-17-frontier-marshal",
     "slug": "gs-17-frontier-marshal",
     "name": "GS-17 Frontier Marshal",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2006,6 +2068,7 @@
     "id": "gs-66-lawmaker",
     "slug": "gs-66-lawmaker",
     "name": "GS-66 Lawmaker",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2038,6 +2101,7 @@
     "id": "i-09-heatseeker",
     "slug": "i-09-heatseeker",
     "name": "I-09 Heatseeker",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2070,6 +2134,7 @@
     "id": "i-102-draconaught",
     "slug": "i-102-draconaught",
     "name": "I-102 Draconaught",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2102,6 +2167,7 @@
     "id": "i-44-salamander",
     "slug": "i-44-salamander",
     "name": "I-44 Salamander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2134,6 +2200,7 @@
     "id": "i-92-fire-fighter",
     "slug": "i-92-fire-fighter",
     "name": "I-92 Fire Fighter",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2166,6 +2233,7 @@
     "id": "ie-12-righteous",
     "slug": "ie-12-righteous",
     "name": "IE-12 Righteous",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2198,6 +2266,7 @@
     "id": "ie-3-martyr",
     "slug": "ie-3-martyr",
     "name": "IE-3 Martyr",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2230,6 +2299,7 @@
     "id": "ie-57-hell-bent",
     "slug": "ie-57-hell-bent",
     "name": "IE-57 Hell-Bent",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2262,6 +2332,7 @@
     "id": "ix-voidwalker",
     "slug": "ix-voidwalker",
     "name": "IX-Voidwalker",
+    "upcoming": false,
     "aliases": [],
     "description": "A helmet worn by the pioneering Helldivers who first ventured into the Void. Designed by Super Earth scientists with liberated Illuminate blueprints.",
     "image": {
@@ -2289,6 +2360,7 @@
     "id": "kdm-500-outrider",
     "slug": "kdm-500-outrider",
     "name": "KDM-500 Outrider",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2318,6 +2390,7 @@
     "id": "o-2-heavy-operator",
     "slug": "o-2-heavy-operator",
     "name": "O-2 Heavy Operator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2350,6 +2423,7 @@
     "id": "o-3-free-spirit",
     "slug": "o-3-free-spirit",
     "name": "O-3 Free Spirit",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2382,6 +2456,7 @@
     "id": "o-44-bonded-pilot",
     "slug": "o-44-bonded-pilot",
     "name": "O-44 Bonded Pilot",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2414,6 +2489,7 @@
     "id": "ph-202-twigsnapper",
     "slug": "ph-202-twigsnapper",
     "name": "PH-202 Twigsnapper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2446,6 +2522,7 @@
     "id": "ph-56-jaguar",
     "slug": "ph-56-jaguar",
     "name": "PH-56 Jaguar",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2478,6 +2555,7 @@
     "id": "ph-9-predator",
     "slug": "ph-9-predator",
     "name": "PH-9 Predator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2510,6 +2588,7 @@
     "id": "re-1861-parade-commander",
     "slug": "re-1861-parade-commander",
     "name": "RE-1861 Parade Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2542,6 +2621,7 @@
     "id": "re-2310-honorary-guard",
     "slug": "re-2310-honorary-guard",
     "name": "RE-2310 Honorary Guard",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2574,6 +2654,7 @@
     "id": "re-824-bearer-of-the-standard",
     "slug": "re-824-bearer-of-the-standard",
     "name": "RE-824 Bearer of the Standard",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2606,6 +2687,7 @@
     "id": "rs-100-sanctioner",
     "slug": "rs-100-sanctioner",
     "name": "RS-100 Sanctioner",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2638,6 +2720,7 @@
     "id": "rs-20-constrictor",
     "slug": "rs-20-constrictor",
     "name": "RS-20 Constrictor",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2670,6 +2753,7 @@
     "id": "rs-40-beast-of-prey",
     "slug": "rs-40-beast-of-prey",
     "name": "RS-40 Beast of Prey",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2702,6 +2786,7 @@
     "id": "rs-6-fiend-destroyer",
     "slug": "rs-6-fiend-destroyer",
     "name": "RS-6 Fiend Destroyer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2734,6 +2819,7 @@
     "id": "rs-67-null-cipher",
     "slug": "rs-67-null-cipher",
     "name": "RS-67 Null Cipher",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2766,6 +2852,7 @@
     "id": "rs-89-shadow-paragon",
     "slug": "rs-89-shadow-paragon",
     "name": "RS-89 Shadow Paragon",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2798,6 +2885,7 @@
     "id": "sa-04-combat-technician",
     "slug": "sa-04-combat-technician",
     "name": "SA-04 Combat Technician",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2830,6 +2918,7 @@
     "id": "sa-12-servo-assisted",
     "slug": "sa-12-servo-assisted",
     "name": "SA-12 Servo Assisted",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2862,6 +2951,7 @@
     "id": "sa-25-steel-trooper",
     "slug": "sa-25-steel-trooper",
     "name": "SA-25 Steel Trooper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2894,6 +2984,7 @@
     "id": "sa-32-dynamo",
     "slug": "sa-32-dynamo",
     "name": "SA-32 Dynamo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2926,6 +3017,7 @@
     "id": "sa-7-headfirst",
     "slug": "sa-7-headfirst",
     "name": "SA-7 Headfirst",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2958,6 +3050,7 @@
     "id": "sa-8-ram",
     "slug": "sa-8-ram",
     "name": "SA-8 Ram",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -2990,6 +3083,7 @@
     "id": "sc-15-drone-master",
     "slug": "sc-15-drone-master",
     "name": "SC-15 Drone Master",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3022,6 +3116,7 @@
     "id": "sc-30-trailblazer-scout",
     "slug": "sc-30-trailblazer-scout",
     "name": "SC-30 Trailblazer Scout",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3054,6 +3149,7 @@
     "id": "sc-34-infiltrator",
     "slug": "sc-34-infiltrator",
     "name": "SC-34 Infiltrator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3086,6 +3182,7 @@
     "id": "sc-37-legionnaire",
     "slug": "sc-37-legionnaire",
     "name": "SC-37 Legionnaire",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3118,6 +3215,7 @@
     "id": "sr-18-roadblock",
     "slug": "sr-18-roadblock",
     "name": "SR-18 Roadblock",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3150,6 +3248,7 @@
     "id": "sr-24-street-scout",
     "slug": "sr-24-street-scout",
     "name": "SR-24 Street Scout",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3182,6 +3281,7 @@
     "id": "sr-64-cinderblock",
     "slug": "sr-64-cinderblock",
     "name": "SR-64 Cinderblock",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3214,6 +3314,7 @@
     "id": "tg-122-demo-trooper",
     "slug": "tg-122-demo-trooper",
     "name": "TG-122 Demo-Trooper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3246,6 +3347,7 @@
     "id": "tg-8-sharpshooter",
     "slug": "tg-8-sharpshooter",
     "name": "TG-8 Sharpshooter",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3278,6 +3380,7 @@
     "id": "tr-117-alpha-commander",
     "slug": "tr-117-alpha-commander",
     "name": "TR-117 Alpha Commander",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3307,6 +3410,7 @@
     "id": "tr-40-gold-eagle",
     "slug": "tr-40-gold-eagle",
     "name": "TR-40 Gold Eagle",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3336,6 +3440,7 @@
     "id": "tr-62-knight",
     "slug": "tr-62-knight",
     "name": "TR-62 Knight",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3365,6 +3470,7 @@
     "id": "tr-7-ambassador-of-the-brand",
     "slug": "tr-7-ambassador-of-the-brand",
     "name": "TR-7 Ambassador of the Brand",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3394,6 +3500,7 @@
     "id": "tr-9-cavalier-of-democracy",
     "slug": "tr-9-cavalier-of-democracy",
     "name": "TR-9 Cavalier of Democracy",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3423,6 +3530,7 @@
     "id": "uf-16-inspector",
     "slug": "uf-16-inspector",
     "name": "UF-16 Inspector",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3455,6 +3563,7 @@
     "id": "uf-50-bloodhound",
     "slug": "uf-50-bloodhound",
     "name": "UF-50 Bloodhound",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -3487,6 +3596,7 @@
     "id": "uf-84-doubt-killer",
     "slug": "uf-84-doubt-killer",
     "name": "UF-84 Doubt Killer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

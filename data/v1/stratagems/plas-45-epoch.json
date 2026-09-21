@@ -12,6 +12,7 @@
     "id": "plas-45-epoch",
     "slug": "plas-45-epoch",
     "name": "PLAS-45 Epoch",
+    "upcoming": false,
     "aliases": [],
     "description": "The PLAS-45 Epoch is an energy-based plasma Support Weapon Stratagem with Heavy armor penetration that scales armor penetration and damage.",
     "image": {

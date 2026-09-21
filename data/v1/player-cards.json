@@ -14,6 +14,7 @@
       "id": "agent-of-oblivion",
       "slug": "agent-of-oblivion",
       "name": "Agent of Oblivion",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -44,6 +45,7 @@
       "id": "badge-of-order",
       "slug": "badge-of-order",
       "name": "Badge of Order",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -74,6 +76,7 @@
       "id": "bastion-of-integrity",
       "slug": "bastion-of-integrity",
       "name": "Bastion of Integrity",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -104,6 +107,7 @@
       "id": "blazing-samaritan",
       "slug": "blazing-samaritan",
       "name": "Blazing Samaritan",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -134,6 +138,7 @@
       "id": "botslayer",
       "slug": "botslayer",
       "name": "Botslayer",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -164,6 +169,7 @@
       "id": "camo-cloak",
       "slug": "camo-cloak",
       "name": "Camo Cloak",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -194,6 +200,7 @@
       "id": "city-fighters-resolve",
       "slug": "city-fighters-resolve",
       "name": "City Fighter's Resolve",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -224,6 +231,7 @@
       "id": "cloak-of-posteritys-gratitude",
       "slug": "cloak-of-posteritys-gratitude",
       "name": "Cloak of Posterity's Gratitude",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -254,6 +262,7 @@
       "id": "conductor-of-brilliance",
       "slug": "conductor-of-brilliance",
       "name": "Conductor of Brilliance",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -284,6 +293,7 @@
       "id": "cover-of-darkness",
       "slug": "cover-of-darkness",
       "name": "Cover of Darkness",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -314,6 +324,7 @@
       "id": "crest-of-the-unsullied",
       "slug": "crest-of-the-unsullied",
       "name": "Crest of the Unsullied",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -344,6 +355,7 @@
       "id": "cresting-honor",
       "slug": "cresting-honor",
       "name": "Cresting Honor",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -374,6 +386,7 @@
       "id": "de-foresters-sailcloth",
       "slug": "de-foresters-sailcloth",
       "name": "De-Forester's Sailcloth",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -404,6 +417,7 @@
       "id": "defender-of-our-dream",
       "slug": "defender-of-our-dream",
       "name": "Defender of Our Dream",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -434,6 +448,7 @@
       "id": "diagram-of-the-noblest-payload",
       "slug": "diagram-of-the-noblest-payload",
       "name": "Diagram of the Noblest Payload",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -466,6 +481,7 @@
       "id": "dignity-of-toil",
       "slug": "dignity-of-toil",
       "name": "Dignity of Toil",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -496,6 +512,7 @@
       "id": "dissidents-nightmare",
       "slug": "dissidents-nightmare",
       "name": "Dissident's Nightmare",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -526,6 +543,7 @@
       "id": "eagles-fury",
       "slug": "eagles-fury",
       "name": "Eagle's Fury",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -556,6 +574,7 @@
       "id": "eternal-corona",
       "slug": "eternal-corona",
       "name": "Eternal Corona",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -586,6 +605,7 @@
       "id": "executioners-canopy",
       "slug": "executioners-canopy",
       "name": "Executioner's Canopy",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -616,6 +636,7 @@
       "id": "eye-of-the-clandestine",
       "slug": "eye-of-the-clandestine",
       "name": "Eye of the Clandestine",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -646,6 +667,7 @@
       "id": "federations-embrace",
       "slug": "federations-embrace",
       "name": "Federation's Embrace",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -676,6 +698,7 @@
       "id": "foe-rent-asunder",
       "slug": "foe-rent-asunder",
       "name": "Foe Rent Asunder",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -706,6 +729,7 @@
       "id": "fre-liberam",
       "slug": "fre-liberam",
       "name": "Fre Liberam",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -736,6 +760,7 @@
       "id": "free-spirited-spangles",
       "slug": "free-spirited-spangles",
       "name": "Free-Spirited Spangles",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -766,6 +791,7 @@
       "id": "freedoms-tapestry",
       "slug": "freedoms-tapestry",
       "name": "Freedom's Tapestry",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -796,6 +822,7 @@
       "id": "gilded-quill",
       "slug": "gilded-quill",
       "name": "Gilded Quill",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -826,6 +853,7 @@
       "id": "harbinger-of-true-equality",
       "slug": "harbinger-of-true-equality",
       "name": "Harbinger of True Equality",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -856,6 +884,7 @@
       "id": "holder-of-the-yellow-line",
       "slug": "holder-of-the-yellow-line",
       "name": "Holder of the Yellow Line",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -886,6 +915,7 @@
       "id": "honored-heirloom",
       "slug": "honored-heirloom",
       "name": "Honored Heirloom",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -916,6 +946,7 @@
       "id": "humble-regalia",
       "slug": "humble-regalia",
       "name": "Humble Regalia",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -946,6 +977,7 @@
       "id": "independence-bringer",
       "slug": "independence-bringer",
       "name": "Independence Bringer",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -976,6 +1008,7 @@
       "id": "judgment-day",
       "slug": "judgment-day",
       "name": "Judgment Day",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1006,6 +1039,7 @@
       "id": "libertys-herald",
       "slug": "libertys-herald",
       "name": "Liberty's Herald",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1036,6 +1070,7 @@
       "id": "light-of-eternal-liberty",
       "slug": "light-of-eternal-liberty",
       "name": "Light of Eternal Liberty",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1066,6 +1101,7 @@
       "id": "mantle-of-true-citizenship",
       "slug": "mantle-of-true-citizenship",
       "name": "Mantle of True Citizenship",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1096,6 +1132,7 @@
       "id": "mark-of-the-constrictor",
       "slug": "mark-of-the-constrictor",
       "name": "Mark of the Constrictor",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1126,6 +1163,7 @@
       "id": "mark-of-the-crimson-fang",
       "slug": "mark-of-the-crimson-fang",
       "name": "Mark of the Crimson Fang",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1156,6 +1194,7 @@
       "id": "martyris-rex",
       "slug": "martyris-rex",
       "name": "Martyris Rex",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1186,6 +1225,7 @@
       "id": "mirandas-legacy",
       "slug": "mirandas-legacy",
       "name": "Miranda's Legacy",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1216,6 +1256,7 @@
       "id": "mother-eagles-wings",
       "slug": "mother-eagles-wings",
       "name": "Mother Eagle's Wings",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1246,6 +1287,7 @@
       "id": "order-of-the-venerated-ballot",
       "slug": "order-of-the-venerated-ballot",
       "name": "Order of the Venerated Ballot",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1276,6 +1318,7 @@
       "id": "over-artifice-triumphant",
       "slug": "over-artifice-triumphant",
       "name": "Over Artifice Triumphant",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1306,6 +1349,7 @@
       "id": "patient-zeros-remembrance",
       "slug": "patient-zeros-remembrance",
       "name": "Patient Zero's Remembrance",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1336,6 +1380,7 @@
       "id": "per-democrasum",
       "slug": "per-democrasum",
       "name": "Per Democrasum",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1366,6 +1411,7 @@
       "id": "pillar-of-the-abyss",
       "slug": "pillar-of-the-abyss",
       "name": "Pillar of the Abyss",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1396,6 +1442,7 @@
       "id": "pinions-of-everlasting-glory",
       "slug": "pinions-of-everlasting-glory",
       "name": "Pinions of Everlasting Glory",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1426,6 +1473,7 @@
       "id": "pride-of-the-whistleblower",
       "slug": "pride-of-the-whistleblower",
       "name": "Pride of the Whistleblower",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1456,6 +1504,7 @@
       "id": "proof-of-faultless-virtue",
       "slug": "proof-of-faultless-virtue",
       "name": "Proof of Faultless Virtue",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1486,6 +1535,7 @@
       "id": "purifying-eclipse",
       "slug": "purifying-eclipse",
       "name": "Purifying Eclipse",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1516,6 +1566,7 @@
       "id": "rags-of-the-fashionable",
       "slug": "rags-of-the-fashionable",
       "name": "Rags of the Fashionable",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1546,6 +1597,7 @@
       "id": "reaper-of-bounties",
       "slug": "reaper-of-bounties",
       "name": "Reaper of Bounties",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1576,6 +1628,7 @@
       "id": "rebar-resolve",
       "slug": "rebar-resolve",
       "name": "Rebar Resolve",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1606,6 +1659,7 @@
       "id": "rightful-occupier",
       "slug": "rightful-occupier",
       "name": "Rightful Occupier",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1636,6 +1690,7 @@
       "id": "schema-laid-bare",
       "slug": "schema-laid-bare",
       "name": "Schema Laid Bare",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1666,6 +1721,7 @@
       "id": "seal-of-general-consensus",
       "slug": "seal-of-general-consensus",
       "name": "Seal of General Consensus",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1696,6 +1752,7 @@
       "id": "shroud-of-the-juggernaut",
       "slug": "shroud-of-the-juggernaut",
       "name": "Shroud of the Juggernaut",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": null,
@@ -1720,6 +1777,7 @@
       "id": "solid-black",
       "slug": "solid-black",
       "name": "Solid Black",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1747,6 +1805,7 @@
       "id": "standard-of-rapid-evacuation",
       "slug": "standard-of-rapid-evacuation",
       "name": "Standard of Rapid Evacuation",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": null,
@@ -1771,6 +1830,7 @@
       "id": "standard-of-safe-distance",
       "slug": "standard-of-safe-distance",
       "name": "Standard of Safe Distance",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1801,6 +1861,7 @@
       "id": "stars-and-suffrage",
       "slug": "stars-and-suffrage",
       "name": "Stars and Suffrage",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1831,6 +1892,7 @@
       "id": "stone-wrought-perseverance",
       "slug": "stone-wrought-perseverance",
       "name": "Stone-Wrought Perseverance",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1861,6 +1923,7 @@
       "id": "strength-in-our-arms",
       "slug": "strength-in-our-arms",
       "name": "Strength in Our Arms",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1891,6 +1954,7 @@
       "id": "testament-to-attrition",
       "slug": "testament-to-attrition",
       "name": "Testament to Attrition",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1921,6 +1985,7 @@
       "id": "the-breach",
       "slug": "the-breach",
       "name": "The Breach",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1951,6 +2016,7 @@
       "id": "thundering-hooves-of-loyalty",
       "slug": "thundering-hooves-of-loyalty",
       "name": "Thundering Hooves of Loyalty",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1981,6 +2047,7 @@
       "id": "tideturner",
       "slug": "tideturner",
       "name": "Tideturner",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2011,6 +2078,7 @@
       "id": "triangulation-veil",
       "slug": "triangulation-veil",
       "name": "Triangulation Veil",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2041,6 +2109,7 @@
       "id": "tyrant-hunter",
       "slug": "tyrant-hunter",
       "name": "Tyrant Hunter",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2071,6 +2140,7 @@
       "id": "unblemished-allegiance",
       "slug": "unblemished-allegiance",
       "name": "Unblemished Allegiance",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2101,6 +2171,7 @@
       "id": "veil-of-the-valorous-vagabond",
       "slug": "veil-of-the-valorous-vagabond",
       "name": "Veil of the Valorous Vagabond",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2131,6 +2202,7 @@
       "id": "vision-of-freedom",
       "slug": "vision-of-freedom",
       "name": "Vision of Freedom",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2161,6 +2233,7 @@
       "id": "watchful-compatriot",
       "slug": "watchful-compatriot",
       "name": "Watchful Compatriot",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2191,6 +2264,7 @@
       "id": "way-of-the-bandolier",
       "slug": "way-of-the-bandolier",
       "name": "Way of the Bandolier",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2221,6 +2295,7 @@
       "id": "wedgeful-tricorn",
       "slug": "wedgeful-tricorn",
       "name": "Wedgeful Tricorn",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -2251,6 +2326,7 @@
       "id": "windswept-wayfinder",
       "slug": "windswept-wayfinder",
       "name": "Windswept Wayfinder",
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {

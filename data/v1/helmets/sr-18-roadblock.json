@@ -12,6 +12,7 @@
     "id": "sr-18-roadblock",
     "slug": "sr-18-roadblock",
     "name": "SR-18 Roadblock",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

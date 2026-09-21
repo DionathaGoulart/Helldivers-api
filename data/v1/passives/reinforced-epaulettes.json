@@ -12,6 +12,7 @@
     "id": "reinforced-epaulettes",
     "slug": "reinforced-epaulettes",
     "name": "Reinforced Epaulettes",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 20%.",
     "image": {

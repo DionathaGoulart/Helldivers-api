@@ -12,6 +12,7 @@
     "id": "eye-of-liberty",
     "slug": "eye-of-liberty",
     "name": "Eye of Liberty",
+    "upcoming": false,
     "aliases": [],
     "description": "Let the Second Anniversary of the Second Galactic War be witnessed by the lidless eye of Liberty, that ever-watchful orb which provides safety through its ceaseless surveillance.",
     "image": {

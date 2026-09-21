@@ -12,6 +12,7 @@
     "id": "i-92-fire-fighter",
     "slug": "i-92-fire-fighter",
     "name": "I-92 Fire Fighter",
+    "upcoming": false,
     "aliases": [],
     "description": "The heavy rubber tunic and reflective limb guards, originally designed to save citizens from burning buildings, now enable the liberal application of the cleansing fires of Justice.",
     "image": {

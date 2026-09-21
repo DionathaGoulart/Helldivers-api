@@ -12,6 +12,7 @@
     "id": "br-14-adjudicator",
     "slug": "br-14-adjudicator",
     "name": "BR-14 Adjudicator",
+    "upcoming": false,
     "aliases": [],
     "description": "The BR-14 Adjudicator is a Primary Assault Rifle. It fires Medium armor penetrating rounds with high damage, but has a restricted magazine size and moderate recoil.",
     "image": {

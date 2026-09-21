@@ -12,6 +12,7 @@
     "id": "undergrowth",
     "slug": "undergrowth",
     "name": "Undergrowth",
+    "upcoming": false,
     "aliases": [],
     "description": "Undergrowth patterns are selectable wraps for your various vehicles.",
     "image": {

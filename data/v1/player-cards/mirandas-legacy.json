@@ -12,6 +12,7 @@
     "id": "mirandas-legacy",
     "slug": "mirandas-legacy",
     "name": "Miranda's Legacy",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

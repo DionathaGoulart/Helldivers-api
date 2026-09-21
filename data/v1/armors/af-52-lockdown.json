@@ -12,6 +12,7 @@
     "id": "af-52-lockdown",
     "slug": "af-52-lockdown",
     "name": "AF-52 Lockdown",
+    "upcoming": false,
     "aliases": [],
     "description": "Heavily layered to protect against ocular blistering, subdermal liquification, and gastrointestinal shattering, this armor is a testament to the power of iterative improvements based on user feedback.",
     "image": {

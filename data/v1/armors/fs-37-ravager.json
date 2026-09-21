@@ -12,6 +12,7 @@
     "id": "fs-37-ravager",
     "slug": "fs-37-ravager",
     "name": "FS-37 Ravager",
+    "upcoming": false,
     "aliases": [],
     "description": "Contains many small pockets, allowing the user to evenly distribute the weight of ammunition, samples, and cool rocks.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "m-103-supply-frv",
     "slug": "m-103-supply-frv",
     "name": "M-103 Supply FRV",
+    "upcoming": false,
     "aliases": [],
     "description": "The M-103 Supply FRV is a Stratagem that deploys a four-wheeled ground vehicle, equipped with supplies and an automatic turret.",
     "image": {

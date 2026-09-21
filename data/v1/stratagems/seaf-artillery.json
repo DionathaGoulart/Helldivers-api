@@ -12,6 +12,7 @@
     "id": "seaf-artillery",
     "slug": "seaf-artillery",
     "name": "SEAF Artillery",
+    "upcoming": false,
     "aliases": [],
     "description": "SEAF Artillery is a generic Optional Objective consisting of a large, stationary artillery platform. To complete the objective, Helldivers must activate the artillery, load five shells into it and then connect it to their Super Destroyer. Upon completion, all Helldivers in the mission gain access to five uses of the SEAF Artillery stratagem.",
     "image": {

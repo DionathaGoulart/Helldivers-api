@@ -12,6 +12,7 @@
     "id": "high-five",
     "slug": "high-five",
     "name": "High-Five",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

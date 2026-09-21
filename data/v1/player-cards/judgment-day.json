@@ -12,6 +12,7 @@
     "id": "judgment-day",
     "slug": "judgment-day",
     "name": "Judgment Day",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

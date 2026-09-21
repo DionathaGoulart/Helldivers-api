@@ -12,6 +12,7 @@
     "id": "space-cadet",
     "slug": "space-cadet",
     "name": "Space Cadet",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

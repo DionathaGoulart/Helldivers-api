@@ -12,6 +12,7 @@
     "id": "siege-ready",
     "slug": "siege-ready",
     "name": "Siege-Ready",
+    "upcoming": false,
     "aliases": [],
     "description": "Increases reload speed of primary weapons by 30%. Increases ammo capacity of all weapons by 20%. Does not affect weapon backpacks.",
     "image": {

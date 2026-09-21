@@ -12,6 +12,7 @@
     "id": "forest",
     "slug": "forest",
     "name": "Forest",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

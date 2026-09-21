@@ -12,6 +12,7 @@
     "id": "gilded-quill",
     "slug": "gilded-quill",
     "name": "Gilded Quill",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

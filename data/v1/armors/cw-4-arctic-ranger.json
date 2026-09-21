@@ -12,6 +12,7 @@
     "id": "cw-4-arctic-ranger",
     "slug": "cw-4-arctic-ranger",
     "name": "CW-4 Arctic Ranger",
+    "upcoming": false,
     "aliases": [],
     "description": "Features a utility belt with pockets that can be filled with any number of things, such as pocket knives, mementos from home, and interesting rocks.",
     "image": {

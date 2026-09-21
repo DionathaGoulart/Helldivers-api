@@ -12,6 +12,7 @@
     "id": "rs-6-fiend-destroyer",
     "slug": "rs-6-fiend-destroyer",
     "name": "RS-6 Fiend Destroyer",
+    "upcoming": false,
     "aliases": [],
     "description": "The understated color scheme and precision-molded armor plates make this armor a sensible choice for the Helldiver on the go.",
     "image": {

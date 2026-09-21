@@ -12,6 +12,7 @@
     "id": "orbital-380mm-he-barrage",
     "slug": "orbital-380mm-he-barrage",
     "name": "Orbital 380mm HE Barrage",
+    "upcoming": false,
     "aliases": [],
     "description": "The Orbital 380mm HE Barrage is an offensive stratagem firing 5-6 salvos of 3 shells. The rate of shells being shot is once per a second, and each salvo has a 2.5-seconds pause in between.",
     "image": {

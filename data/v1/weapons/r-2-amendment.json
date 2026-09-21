@@ -12,6 +12,7 @@
     "id": "r-2-amendment",
     "slug": "r-2-amendment",
     "name": "R-2 Amendment",
+    "upcoming": false,
     "aliases": [],
     "description": "The R-2 Amendment is a Primary Marksman Rifle that can fire in semi-automatic or three-round bursts modes. It is affixed with a bayonet, improving melee damage and range.",
     "image": {

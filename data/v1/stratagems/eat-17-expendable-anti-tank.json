@@ -12,6 +12,7 @@
     "id": "eat-17-expendable-anti-tank",
     "slug": "eat-17-expendable-anti-tank",
     "name": "EAT-17 Expendable Anti-Tank",
+    "upcoming": false,
     "aliases": [
       "EAT"
     ],

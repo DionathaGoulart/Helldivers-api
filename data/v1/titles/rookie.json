@@ -12,6 +12,7 @@
     "id": "rookie",
     "slug": "rookie",
     "name": "Rookie",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

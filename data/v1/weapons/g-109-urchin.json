@@ -12,6 +12,7 @@
     "id": "g-109-urchin",
     "slug": "g-109-urchin",
     "name": "G-109 Urchin",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-109 Urchin is a Special Throwable that can stick and inflict stun to a single target after a delay.",
     "image": {

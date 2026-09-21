@@ -12,6 +12,7 @@
     "id": "rebar-resolve",
     "slug": "rebar-resolve",
     "name": "Rebar Resolve",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

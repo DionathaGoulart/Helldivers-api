@@ -12,6 +12,7 @@
     "id": "bastion-of-integrity",
     "slug": "bastion-of-integrity",
     "name": "Bastion of Integrity",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

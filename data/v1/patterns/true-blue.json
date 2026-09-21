@@ -12,6 +12,7 @@
     "id": "true-blue",
     "slug": "true-blue",
     "name": "True Blue",
+    "upcoming": false,
     "aliases": [],
     "description": "True Blue patterns are selectable wraps for your various vehicles.",
     "image": {

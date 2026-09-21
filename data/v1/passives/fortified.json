@@ -12,6 +12,7 @@
     "id": "fortified",
     "slug": "fortified",
     "name": "Fortified",
+    "upcoming": false,
     "aliases": [],
     "description": "Further reduces recoil when crouching or prone by 30%. Provides 50% resistance to explosive damage.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "g-23-stun",
     "slug": "g-23-stun",
     "name": "G-23 Stun",
+    "upcoming": false,
     "aliases": [],
     "description": "The G-23 Stun is a Special Throwable that creates a non-lethal explosion, stunning enemies and slowing Helldivers.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "cm-21-trench-paramedic",
     "slug": "cm-21-trench-paramedic",
     "name": "CM-21 Trench Paramedic",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

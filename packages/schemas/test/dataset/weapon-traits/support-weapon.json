@@ -12,6 +12,7 @@
     "id": "support-weapon",
     "slug": "support-weapon",
     "name": "Support Weapon",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

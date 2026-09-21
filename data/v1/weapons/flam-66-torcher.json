@@ -12,6 +12,7 @@
     "id": "flam-66-torcher",
     "slug": "flam-66-torcher",
     "name": "FLAM-66 Torcher",
+    "upcoming": false,
     "aliases": [],
     "description": "The FLAM-66 Torcher is a Primary Special flamethrower.",
     "image": {

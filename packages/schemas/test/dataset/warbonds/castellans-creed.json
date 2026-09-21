@@ -12,6 +12,7 @@
     "id": "castellans-creed",
     "slug": "castellans-creed",
     "name": "Castellan's Creed",
+    "upcoming": false,
     "aliases": ["Castellan’s Creed"],
     "description": "Castellan's Creed is a Legendary Warbond available for 1,500 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

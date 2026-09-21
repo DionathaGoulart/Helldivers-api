@@ -12,6 +12,7 @@
     "id": "reinforce",
     "slug": "reinforce",
     "name": "Reinforce",
+    "upcoming": false,
     "aliases": [],
     "description": "The Reinforcement is a standard-issue Stratagem, available to all Helldivers regardless of rank. However, it is only active if a member of the squad has died and reinforcement tickets are not depleted.",
     "image": {

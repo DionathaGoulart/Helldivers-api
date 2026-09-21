@@ -12,6 +12,7 @@
     "id": "ar-2-coyote",
     "slug": "ar-2-coyote",
     "name": "AR-2 Coyote",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-2 Coyote is a Primary Assault Rifle that fires Medium armor penetration incendiary rounds.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "sg-8p-punisher-plasma",
     "slug": "sg-8p-punisher-plasma",
     "name": "SG-8P Punisher Plasma",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-8P Punisher Plasma is a Primary Energy-Based weapon, a variant of the standard Punisher that fires Medium armor penetrating, exploding plasma rounds.",
     "image": {

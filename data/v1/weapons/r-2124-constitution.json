@@ -12,6 +12,7 @@
     "id": "r-2124-constitution",
     "slug": "r-2124-constitution",
     "name": "R-2124 Constitution",
+    "upcoming": false,
     "aliases": [],
     "description": "The R-2124 Constitution is a bolt-action Primary Marksman Rifle reminiscent of pre-Democratic rifles. It is affixed with a bayonet, improving melee damage and range.",
     "image": {

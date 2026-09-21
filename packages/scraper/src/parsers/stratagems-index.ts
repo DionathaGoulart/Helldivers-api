@@ -31,7 +31,9 @@ export const RawStratagemRow = z.object({
   permit: z.enum(PERMIT_HEADINGS), // `h3` above the group
   group: z.string().min(1), // `details > summary`, "Orbital Strikes"
   label: z.string().min(1).nullable(), // `big > b` above the table inside the group, "Objective"
-  code: z.array(z.string().min(1)).min(1), // arrow names, "Up"
+  // Arrow names, "Up"; empty when the cell reads `UNKNOWN` (TD-110 Maelstrom, announced
+  // 2026-09-19). `Stratagem` takes an empty code only on an upcoming stratagem.
+  code: z.array(z.string().min(1)),
   cooldown: z.string(),
   cost: RawCost.nullable(), // null when the table has no Cost column
   unlockLevel: z.string().nullable(),

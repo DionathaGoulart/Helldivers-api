@@ -12,6 +12,7 @@
     "id": "the-breach",
     "slug": "the-breach",
     "name": "The Breach",
+    "upcoming": false,
     "aliases": [],
     "description": "As documented in the bestselling graphic novel “The Breach,” the final mission of the 361st “Freedom's Flame” saw the storied unit deploy straight into the heart of a Supervolcano, sacrificing themselves to trigger an eruption and wipe out a massive Terminid swarm.",
     "image": {

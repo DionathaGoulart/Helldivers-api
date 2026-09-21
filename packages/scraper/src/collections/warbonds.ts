@@ -19,7 +19,7 @@ import { parseSuperstore, SUPERSTORE } from "../parsers/superstore.ts";
 import { parseWarbondPage, type RawWarbondItem } from "../parsers/warbond-page.ts";
 import { parseWarbondsIndex, WARBONDS_INDEX } from "../parsers/warbonds-index.ts";
 import { loadHtml } from "../wiki/html.ts";
-import { flagsFromCategories, readCanonicalTitle } from "../wiki/page.ts";
+import { flagsFromCategories, isUpcoming, readCanonicalTitle } from "../wiki/page.ts";
 import { wikiUrl } from "../wiki/title.ts";
 import type { CollectionPipeline, ScrapeContext } from "./types.ts";
 
@@ -154,6 +154,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
         id,
         slug: slugify(raw.name),
         name: raw.name,
+        upcoming: isUpcoming(raw.categories),
         aliases: [...new Set(aliases)]
           .filter((alias) => alias && alias !== raw.name && alias !== raw.title)
           .sort(),

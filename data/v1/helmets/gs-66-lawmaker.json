@@ -12,6 +12,7 @@
     "id": "gs-66-lawmaker",
     "slug": "gs-66-lawmaker",
     "name": "GS-66 Lawmaker",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

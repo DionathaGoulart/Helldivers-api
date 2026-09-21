@@ -12,6 +12,7 @@
     "id": "mirandas-legacy",
     "slug": "mirandas-legacy",
     "name": "Miranda's Legacy",
+    "upcoming": false,
     "aliases": [],
     "description": "Although Super Citizen Miranda's true identity has been lost to time, most legal historians agree that she was once a patron of highly-efficient interrogation techniques.",
     "image": {

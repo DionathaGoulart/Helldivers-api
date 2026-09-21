@@ -12,6 +12,7 @@
     "id": "arctic-camo",
     "slug": "arctic-camo",
     "name": "Arctic Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

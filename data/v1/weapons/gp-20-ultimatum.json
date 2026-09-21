@@ -12,6 +12,7 @@
     "id": "gp-20-ultimatum",
     "slug": "gp-20-ultimatum",
     "name": "GP-20 Ultimatum",
+    "upcoming": false,
     "aliases": [],
     "description": "The Ultimatum is a Secondary Special, powerful single-shot weapon that fires extremely destructive explosive rounds.",
     "image": {

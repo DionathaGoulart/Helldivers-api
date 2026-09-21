@@ -12,6 +12,7 @@
     "id": "p-113-verdict",
     "slug": "p-113-verdict",
     "name": "P-113 Verdict",
+    "upcoming": false,
     "aliases": [],
     "description": "The P-113 Verdict is a Secondary Pistol that inflicts high damage per round in exchange for a reduced magazine size.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "ar-23-liberator",
     "slug": "ar-23-liberator",
     "name": "AR-23 Liberator",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-23 Liberator is a Primary Assault Rifle, available for all Helldivers.",
     "image": {

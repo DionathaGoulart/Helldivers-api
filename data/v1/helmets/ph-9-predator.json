@@ -12,6 +12,7 @@
     "id": "ph-9-predator",
     "slug": "ph-9-predator",
     "name": "PH-9 Predator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "exo-45-patriot-exosuit",
     "slug": "exo-45-patriot-exosuit",
     "name": "EXO-45 Patriot Exosuit",
+    "upcoming": false,
     "aliases": [],
     "description": "The EXO-45 Patriot Exosuit is an Exosuit Stratagem featuring a rocket pod on the left hand and a minigun on the right.",
     "image": {

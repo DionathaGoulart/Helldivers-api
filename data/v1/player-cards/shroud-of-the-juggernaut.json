@@ -12,6 +12,7 @@
     "id": "shroud-of-the-juggernaut",
     "slug": "shroud-of-the-juggernaut",
     "name": "Shroud of the Juggernaut",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

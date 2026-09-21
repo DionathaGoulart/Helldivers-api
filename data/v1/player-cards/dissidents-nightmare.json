@@ -12,6 +12,7 @@
     "id": "dissidents-nightmare",
     "slug": "dissidents-nightmare",
     "name": "Dissident's Nightmare",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

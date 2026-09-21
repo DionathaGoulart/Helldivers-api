@@ -12,6 +12,7 @@
     "id": "bunker-buster",
     "slug": "bunker-buster",
     "name": "Bunker Buster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

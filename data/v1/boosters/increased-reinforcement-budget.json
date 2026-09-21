@@ -12,6 +12,7 @@
     "id": "increased-reinforcement-budget",
     "slug": "increased-reinforcement-budget",
     "name": "Increased Reinforcement Budget",
+    "upcoming": false,
     "aliases": [],
     "description": "Increased Reinforcement Budget is a Booster in Helldivers 2. When equipped, the amount of reinforcements is increased, allowing for greater number of reinforcements to be called in greater succession.",
     "image": {

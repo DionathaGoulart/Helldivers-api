@@ -12,6 +12,7 @@
     "id": "sc-15-drone-master",
     "slug": "sc-15-drone-master",
     "name": "SC-15 Drone Master",
+    "upcoming": false,
     "aliases": [],
     "description": "Some soldiers report picking up strange radio interference when wearing this armor near alien artifacts.",
     "image": {

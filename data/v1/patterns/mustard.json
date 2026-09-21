@@ -12,6 +12,7 @@
     "id": "mustard",
     "slug": "mustard",
     "name": "Mustard",
+    "upcoming": false,
     "aliases": [],
     "description": "Mustard patterns are selectable wraps for your various vehicles.",
     "image": {

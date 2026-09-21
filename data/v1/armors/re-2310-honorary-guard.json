@@ -12,6 +12,7 @@
     "id": "re-2310-honorary-guard",
     "slug": "re-2310-honorary-guard",
     "name": "RE-2310 Honorary Guard",
+    "upcoming": false,
     "aliases": [],
     "description": "This traditional armor has remained unchanged since time immemorial. Now with self-heated padding.",
     "image": {

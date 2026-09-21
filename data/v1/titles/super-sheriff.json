@@ -12,6 +12,7 @@
     "id": "super-sheriff",
     "slug": "super-sheriff",
     "name": "Super Sheriff",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

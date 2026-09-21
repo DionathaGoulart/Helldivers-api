@@ -12,6 +12,7 @@
     "id": "mls-4x-commando",
     "slug": "mls-4x-commando",
     "name": "MLS-4X Commando",
+    "upcoming": false,
     "aliases": [],
     "description": "The Commando is a disposable four-barrel anti-tank rocket launcher Support Weapon that can be fired with or without laser-guidance.",
     "image": {

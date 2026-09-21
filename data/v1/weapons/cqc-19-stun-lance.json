@@ -12,6 +12,7 @@
     "id": "cqc-19-stun-lance",
     "slug": "cqc-19-stun-lance",
     "name": "CQC-19 Stun Lance",
+    "upcoming": false,
     "aliases": [],
     "description": "The CQC-19 Stun Lance is a Melee Secondary Weapon. Attacking will thrust the lance at a moderately fast speed.",
     "image": {

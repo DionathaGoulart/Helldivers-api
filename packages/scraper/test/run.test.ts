@@ -75,6 +75,52 @@ class RenamedSource implements WikiSource {
   }
 }
 
+/** Fixture source whose Stratagems index lists the announced TD-110 Maelstrom (2026-09-19). */
+class AnnouncedSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+
+  /** `announced`: as the wiki has it. `released`: code and category as they will read on launch.
+   *  `codeless`: released but still without a code, which has to fail. */
+  constructor(readonly state: "announced" | "released" | "codeless" = "announced") {}
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  async page(title: string): Promise<WikiPage> {
+    const page = await this.#inner.page(title);
+    if (title === "TD-110 Maelstrom") {
+      return this.state === "announced"
+        ? page
+        : { ...page, html: page.html.replaceAll(/Unreleased[ _]Content/g, "Tanks") };
+    }
+    if (title !== "Stratagems") {
+      return page;
+    }
+    const arrow = (direction: string) =>
+      `<span class="Stratagemcodeicon icon-outline"><img alt="Stratagem Arrow ${direction}.svg" src="/images/Stratagem_Arrow_${direction}.svg?de4f99" width="512" height="512" data-file-width="512" data-file-height="512"></span>`;
+    const code =
+      this.state === "released"
+        ? ["Left", "Down", "Right", "Up", "Up"].map(arrow).join("")
+        : '<span class="Stratagemcodeicon">UNKNOWN</span>';
+    const source =
+      this.state === "announced"
+        ? '<a href="/wiki/Super_Destroyer" title="Super Destroyer">Super Destroyer</a>'
+        : "Bridge";
+    const cooldown = this.state === "released" ? "600s" : "Unknown";
+    const $ = cheerio.load(page.html);
+    $("details")
+      .filter((_, details) => $(details).children("summary").text().trim() === "Vehicles")
+      .find("table.wikitable tr")
+      .first()
+      .after(
+        `<tr><td><a href="/wiki/File:Tank_Stratagem_Fallback_Icon_Background.svg" class="image"><img alt="Tank Stratagem Fallback Icon Background.svg" src="/images/Tank_Stratagem_Fallback_Icon_Background.svg?cbf970" width="50" height="50" data-file-width="512" data-file-height="512"></a></td><td><a href="/wiki/TD-110_Maelstrom" title="TD-110 Maelstrom">TD-110 Maelstrom</a></td><td>${code}</td><td>${cooldown}</td><td>N/A</td><td>N/A</td><td>${source}</td></tr>`,
+      );
+    return { ...page, html: $.html() };
+  }
+}
+
 /** Fixture source on which some wiki files were uploaded again: their version suffix changed. */
 class ReuploadedSource implements WikiSource {
   readonly offline = true;
@@ -806,6 +852,32 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     expect(lock.warbonds["Helldivers Mobilize Warbond"]).toBe("helldivers-mobilize");
   });
 
+  it("marks the unreleased Ironclad Democracy items upcoming", async () => {
+    const upcoming: Record<string, string[]> = {};
+    for (const collection of Collections.options) {
+      const list = JSON.parse(
+        await readFile(join(baselineDir, "data", "v1", `${collection}.json`), "utf8"),
+      ) as { data: { id: string; upcoming: boolean }[] };
+      const ids = list.data.filter((entity) => entity.upcoming).map((entity) => entity.id);
+      if (ids.length > 0) upcoming[collection] = ids;
+    }
+    expect(upcoming).toEqual({
+      warbonds: ["ironclad-democracy"],
+      weapons: [
+        "ar-11-arbitrator",
+        "g-60-anti-tank-seeker",
+        "g-8-immolation",
+        "gl-15-evictor",
+        "p-34-breacher",
+      ],
+      armors: ["bfm-16-tanker", "bfm-220-ironclad"],
+      helmets: ["bfm-16-tanker", "bfm-220-ironclad"],
+      capes: ["shroud-of-the-juggernaut", "standard-of-rapid-evacuation"],
+      "armor-sets": ["bfm-16-tanker", "bfm-220-ironclad"],
+      "player-cards": ["shroud-of-the-juggernaut", "standard-of-rapid-evacuation"],
+    });
+  });
+
   it("changes nothing on a second run with the same pages", async () => {
     await fromBaseline();
     const before = await readTree(dataDir);
@@ -1015,6 +1087,78 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     const report = await run("2026-09-16T21:07:00Z", undefined, false, ["capes"]);
     expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
     expect(await readTree(dataDir)).toEqual(before);
+  });
+
+  it("publishes an announced stratagem as upcoming, without a code yet", async () => {
+    await fromBaseline();
+
+    const report = await run("2026-09-16T21:07:00Z", new AnnouncedSource(), false, ["stratagems"]);
+    expect(report).toMatchObject({ ok: true, failure: null });
+    expect(report.changes).toContainEqual({
+      collection: "stratagems",
+      id: "td-110-maelstrom",
+      kind: "added",
+    });
+    const file = JSON.parse(
+      await readFile(join(dataDir, "v1", "stratagems", "td-110-maelstrom.json"), "utf8"),
+    );
+    expect(file.data).toMatchObject({
+      name: "TD-110 Maelstrom",
+      upcoming: true,
+      kind: "vehicle",
+      code: [],
+      cooldownS: null,
+      unlockLevel: null,
+      source: { type: "other", label: "Super Destroyer" },
+    });
+  });
+
+  it("updates the same stratagem when the wiki releases it", async () => {
+    await fromBaseline();
+    await run("2026-09-16T21:07:00Z", new AnnouncedSource(), false, ["stratagems"]);
+    const idLock = JSON.parse(await readFile(join(dataDir, "overrides", "ids.lock.json"), "utf8"));
+
+    const report = await run("2026-09-17T21:07:00Z", new AnnouncedSource("released"), false, [
+      "stratagems",
+    ]);
+    expect(report).toMatchObject({ ok: true, failure: null });
+    expect(report.changes).toEqual([
+      {
+        collection: "stratagems",
+        id: "td-110-maelstrom",
+        kind: "changed",
+        paths: ["upcoming", "category", "code", "source.type", "source.label"],
+      },
+    ]);
+    const file = JSON.parse(
+      await readFile(join(dataDir, "v1", "stratagems", "td-110-maelstrom.json"), "utf8"),
+    );
+    expect(file.data).toMatchObject({
+      id: "td-110-maelstrom",
+      upcoming: false,
+      code: ["left", "down", "right", "up", "up"],
+      cooldownS: null, // the index Base Cooldown column is not a source for it
+      category: "bridge",
+      source: { type: "requisition", label: "Bridge" },
+    });
+    expect(
+      JSON.parse(await readFile(join(dataDir, "overrides", "ids.lock.json"), "utf8")).stratagems[
+        "TD-110 Maelstrom"
+      ],
+    ).toBe(idLock.stratagems["TD-110 Maelstrom"]);
+  });
+
+  it("still fails on a released stratagem without a code", async () => {
+    await fromBaseline();
+
+    const report = await run("2026-09-16T21:07:00Z", new AnnouncedSource("codeless"), false, [
+      "stratagems",
+    ]);
+    expect(report.failure).toEqual({
+      kind: "parser-broken",
+      collection: "stratagems",
+      messages: [expect.stringContaining("a released stratagem needs a code")],
+    });
   });
 
   it("lets data/overrides/armor-sets.json set or remove a cape", async () => {

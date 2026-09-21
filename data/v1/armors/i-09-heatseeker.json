@@ -12,6 +12,7 @@
     "id": "i-09-heatseeker",
     "slug": "i-09-heatseeker",
     "name": "I-09 Heatseeker",
+    "upcoming": false,
     "aliases": [],
     "description": "The burnished blood-red plates are forged in righteous fire, like the heroes they were wrought to protect.",
     "image": {

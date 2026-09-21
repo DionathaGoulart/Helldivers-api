@@ -12,6 +12,7 @@
     "id": "exo-51-lumberer-exosuit",
     "slug": "exo-51-lumberer-exosuit",
     "name": "EXO-51 Lumberer Exosuit",
+    "upcoming": false,
     "aliases": [],
     "description": "The EXO-51 Lumberer Exosuit is an Exosuit Stratagem featuring an anti-tank cannon on the right arm and a flamethrower on the left.",
     "image": {

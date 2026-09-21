@@ -12,6 +12,7 @@
     "id": "rl-77-airburst-rocket-launcher",
     "slug": "rl-77-airburst-rocket-launcher",
     "name": "RL-77 Airburst Rocket Launcher",
+    "upcoming": false,
     "aliases": [],
     "description": "The RL-77 Airburst Rocket Launcher, also known as the ABRL, is a Support Weapon that fires a cluster rocket designed for neutralizing several light-medium enemies with a single shot.",
     "image": {

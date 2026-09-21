@@ -12,6 +12,7 @@
     "id": "smg-37-defender",
     "slug": "smg-37-defender",
     "name": "SMG-37 Defender",
+    "upcoming": false,
     "aliases": [],
     "description": "The SMG-37 Defender is a Primary Submachine Gun with a moderate rate of fire.",
     "image": {

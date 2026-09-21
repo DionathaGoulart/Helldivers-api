@@ -3,6 +3,7 @@
     "id": "arctic",
     "slug": "arctic",
     "name": "Arctic",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -45,6 +46,7 @@
     "id": "arctic-camo",
     "slug": "arctic-camo",
     "name": "Arctic Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -87,6 +89,7 @@
     "id": "castellans-green",
     "slug": "castellans-green",
     "name": "Castellans Green",
+    "upcoming": false,
     "aliases": [],
     "description": "Castellans Green patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -191,6 +194,7 @@
     "id": "chameleon-camo",
     "slug": "chameleon-camo",
     "name": "Chameleon Camo",
+    "upcoming": false,
     "aliases": [],
     "description": "Chameleon Camo patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -293,6 +297,7 @@
     "id": "churned-earth",
     "slug": "churned-earth",
     "name": "Churned Earth",
+    "upcoming": false,
     "aliases": [],
     "description": "Churned Earth patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -395,6 +400,7 @@
     "id": "concrete-jungle",
     "slug": "concrete-jungle",
     "name": "Concrete Jungle",
+    "upcoming": false,
     "aliases": [],
     "description": "Concrete Jungle patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -497,6 +503,7 @@
     "id": "default",
     "slug": "default",
     "name": "Default",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -539,6 +546,7 @@
     "id": "desert",
     "slug": "desert",
     "name": "Desert",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -581,6 +589,7 @@
     "id": "desert-camo",
     "slug": "desert-camo",
     "name": "Desert Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -623,6 +632,7 @@
     "id": "extrasolar-ash",
     "slug": "extrasolar-ash",
     "name": "Extrasolar Ash",
+    "upcoming": false,
     "aliases": [],
     "description": "Extrasolar Ash patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -725,6 +735,7 @@
     "id": "forest",
     "slug": "forest",
     "name": "Forest",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -767,6 +778,7 @@
     "id": "forest-camo",
     "slug": "forest-camo",
     "name": "Forest Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -809,6 +821,7 @@
     "id": "helldiver",
     "slug": "helldiver",
     "name": "Helldiver",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -851,6 +864,7 @@
     "id": "heritage-olive",
     "slug": "heritage-olive",
     "name": "Heritage Olive",
+    "upcoming": false,
     "aliases": [],
     "description": "Heritage Olive patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -953,6 +967,7 @@
     "id": "inconspicuous-black",
     "slug": "inconspicuous-black",
     "name": "Inconspicuous Black",
+    "upcoming": false,
     "aliases": [],
     "description": "Inconspicuous Black patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1055,6 +1070,7 @@
     "id": "mean-green",
     "slug": "mean-green",
     "name": "Mean Green",
+    "upcoming": false,
     "aliases": [],
     "description": "Mean Green patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1157,6 +1173,7 @@
     "id": "mobile-white",
     "slug": "mobile-white",
     "name": "Mobile White",
+    "upcoming": false,
     "aliases": [],
     "description": "Mobile White patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1259,6 +1276,7 @@
     "id": "mustard",
     "slug": "mustard",
     "name": "Mustard",
+    "upcoming": false,
     "aliases": [],
     "description": "Mustard patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1361,6 +1379,7 @@
     "id": "night",
     "slug": "night",
     "name": "Night",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1403,6 +1422,7 @@
     "id": "rattlesnake",
     "slug": "rattlesnake",
     "name": "Rattlesnake",
+    "upcoming": false,
     "aliases": [],
     "description": "Rattlesnake patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1505,6 +1525,7 @@
     "id": "safety-orange",
     "slug": "safety-orange",
     "name": "Safety Orange",
+    "upcoming": false,
     "aliases": [],
     "description": "Safety Orange patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1607,6 +1628,7 @@
     "id": "standard",
     "slug": "standard",
     "name": "Standard",
+    "upcoming": false,
     "aliases": [],
     "description": "Standard patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1697,6 +1719,7 @@
     "id": "true-blue",
     "slug": "true-blue",
     "name": "True Blue",
+    "upcoming": false,
     "aliases": [],
     "description": "True Blue patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1799,6 +1822,7 @@
     "id": "undergrowth",
     "slug": "undergrowth",
     "name": "Undergrowth",
+    "upcoming": false,
     "aliases": [],
     "description": "Undergrowth patterns are selectable wraps for your various vehicles.",
     "image": {
@@ -1901,6 +1925,7 @@
     "id": "urban",
     "slug": "urban",
     "name": "Urban",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1943,6 +1968,7 @@
     "id": "urban-camo",
     "slug": "urban-camo",
     "name": "Urban Camo",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {
@@ -1985,6 +2011,7 @@
     "id": "venus",
     "slug": "venus",
     "name": "Venus",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "divemaster",
     "slug": "divemaster",
     "name": "Divemaster",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

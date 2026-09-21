@@ -12,6 +12,7 @@
     "id": "tr-40-gold-eagle",
     "slug": "tr-40-gold-eagle",
     "name": "TR-40 Gold Eagle",
+    "upcoming": false,
     "aliases": [],
     "description": "This high-visibility armor allows its bearer to be easily seen through smoke, fog, and spewing viscera.",
     "image": {

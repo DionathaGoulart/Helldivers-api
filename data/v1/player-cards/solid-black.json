@@ -12,6 +12,7 @@
     "id": "solid-black",
     "slug": "solid-black",
     "name": "Solid Black",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

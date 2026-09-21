@@ -12,6 +12,7 @@
     "id": "venus",
     "slug": "venus",
     "name": "Venus",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "super-earth-flag",
     "slug": "super-earth-flag",
     "name": "Super Earth Flag",
+    "upcoming": false,
     "aliases": [],
     "description": "The Super Earth Flag Stratagem is used to call down the Flag in the Spread Democracy, Free Colony, and Democratize the Void missions.",
     "image": {

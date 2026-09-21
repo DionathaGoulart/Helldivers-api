@@ -12,6 +12,7 @@
     "id": "ax-arc-3-k-9",
     "slug": "ax-arc-3-k-9",
     "name": "AX/ARC-3 K-9",
+    "upcoming": false,
     "aliases": [],
     "description": "The AX/ARC-3 K-9 is a backpack Stratagem that provides support to the player by automatically targeting enemies with its mounted arc thrower.",
     "image": {

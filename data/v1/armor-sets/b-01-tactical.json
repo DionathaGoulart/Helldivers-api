@@ -12,6 +12,7 @@
     "id": "b-01-tactical",
     "slug": "b-01-tactical",
     "name": "B-01 Tactical",
+    "upcoming": false,
     "wiki": {
       "title": "B-01 Tactical",
       "url": "https://helldivers.wiki.gg/wiki/B-01_Tactical",

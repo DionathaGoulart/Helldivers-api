@@ -12,6 +12,7 @@
     "id": "draw",
     "slug": "draw",
     "name": "Draw!",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

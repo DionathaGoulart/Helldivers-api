@@ -12,6 +12,7 @@
     "id": "k-2-throwing-knife",
     "slug": "k-2-throwing-knife",
     "name": "K-2 Throwing Knife",
+    "upcoming": false,
     "aliases": [],
     "description": "The K-2 Throwing Knife is a Special Throwable that can be used for silent takedowns, especially suited to Stealth playstyles.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "call-in-super-destroyer",
     "slug": "call-in-super-destroyer",
     "name": "Call In Super Destroyer",
+    "upcoming": false,
     "aliases": [],
     "description": "The Call In Super Destroyer Stratagem is a used to call in a Helldiver's Super Destroyer for 1 minute during Commando Missions. It is only available 10 seconds after the super destroyer has left after its initial minute of being on the map.",
     "image": {

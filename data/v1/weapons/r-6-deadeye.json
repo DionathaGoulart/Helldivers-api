@@ -12,6 +12,7 @@
     "id": "r-6-deadeye",
     "slug": "r-6-deadeye",
     "name": "R-6 Deadeye",
+    "upcoming": false,
     "aliases": [],
     "description": "The R-6 Deadeye is a lever-action Primary Marksman Rifle that trades rate-of-fire for Medium armor penetration, high damage and stagger force, requiring users to aim well and hit their targets the first time.",
     "image": {

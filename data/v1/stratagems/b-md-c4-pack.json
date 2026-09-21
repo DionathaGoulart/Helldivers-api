@@ -12,6 +12,7 @@
     "id": "b-md-c4-pack",
     "slug": "b-md-c4-pack",
     "name": "B/MD C4 Pack",
+    "upcoming": false,
     "aliases": [],
     "description": "The B/MD C4 Pack is a Support Weapon Stratagem backpack filled with bricks of C4 that can be remotely detonated sequentially or all at once.",
     "image": {

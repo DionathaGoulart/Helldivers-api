@@ -12,6 +12,7 @@
     "id": "o-2-heavy-operator",
     "slug": "o-2-heavy-operator",
     "name": "O-2 Heavy Operator",
+    "upcoming": false,
     "aliases": [],
     "description": "This armor is the required uniform for many Super Earth Citizens operating heavy machinery. Long-time users will be delighted to learn that as of this year's Efficiency in Machine Operation Symposium and Gala, wearing this armor is no longer itself considered operating heavy machinery.",
     "image": {

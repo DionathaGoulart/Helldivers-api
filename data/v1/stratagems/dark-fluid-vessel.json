@@ -12,6 +12,7 @@
     "id": "dark-fluid-vessel",
     "slug": "dark-fluid-vessel",
     "name": "Dark Fluid Vessel",
+    "upcoming": false,
     "aliases": [],
     "description": "The Dark Fluid Vessel Stratagem allows Helldivers to call down a Hellpod containing a Dark Fluid Vessel, which is a backpack containing Dark Fluid. It is event-exclusive, only available in the Deploy Dark Fluid mission. It is intended to be inserted into the Tectonic Drill to progress the mission.",
     "image": {

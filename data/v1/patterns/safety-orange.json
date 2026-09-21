@@ -12,6 +12,7 @@
     "id": "safety-orange",
     "slug": "safety-orange",
     "name": "Safety Orange",
+    "upcoming": false,
     "aliases": [],
     "description": "Safety Orange patterns are selectable wraps for your various vehicles.",
     "image": {

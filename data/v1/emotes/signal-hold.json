@@ -12,6 +12,7 @@
     "id": "signal-hold",
     "slug": "signal-hold",
     "name": "Signal: Hold",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

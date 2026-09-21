@@ -12,6 +12,7 @@
     "id": "rs-6-fiend-destroyer",
     "slug": "rs-6-fiend-destroyer",
     "name": "RS-6 Fiend Destroyer",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

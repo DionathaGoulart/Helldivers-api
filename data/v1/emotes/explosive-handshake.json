@@ -12,6 +12,7 @@
     "id": "explosive-handshake",
     "slug": "explosive-handshake",
     "name": "Explosive Handshake",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

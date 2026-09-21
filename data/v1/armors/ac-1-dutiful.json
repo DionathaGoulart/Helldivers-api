@@ -12,6 +12,7 @@
     "id": "ac-1-dutiful",
     "slug": "ac-1-dutiful",
     "name": "AC-1 Dutiful",
+    "upcoming": false,
     "aliases": [],
     "description": "The breathing apparatus built into this armor helps both soldiers and colonists thrive, even when assigned to planets with atmospheres rated “suboptimal,” “extreme,” and “character building.”",
     "image": {

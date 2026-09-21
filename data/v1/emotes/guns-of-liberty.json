@@ -12,6 +12,7 @@
     "id": "guns-of-liberty",
     "slug": "guns-of-liberty",
     "name": "Guns of Liberty",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

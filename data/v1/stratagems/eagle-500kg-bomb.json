@@ -12,6 +12,7 @@
     "id": "eagle-500kg-bomb",
     "slug": "eagle-500kg-bomb",
     "name": "Eagle 500kg Bomb",
+    "upcoming": false,
     "aliases": [],
     "description": "The Eagle 500kg Bomb, also known as the 500kg, is an offensive stratagem which drops an anti-tank bomb that embeds itself in the ground before exploding.",
     "image": {

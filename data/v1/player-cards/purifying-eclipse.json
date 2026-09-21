@@ -12,6 +12,7 @@
     "id": "purifying-eclipse",
     "slug": "purifying-eclipse",
     "name": "Purifying Eclipse",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

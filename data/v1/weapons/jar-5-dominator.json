@@ -12,6 +12,7 @@
     "id": "jar-5-dominator",
     "slug": "jar-5-dominator",
     "name": "JAR-5 Dominator",
+    "upcoming": false,
     "aliases": [],
     "description": "The JAR-5 Dominator is a Primary Special weapon that fires highly damaging rounds in exchange for a severely restricted magazine size.",
     "image": {

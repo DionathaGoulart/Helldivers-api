@@ -12,6 +12,7 @@
     "id": "b-24-enforcer",
     "slug": "b-24-enforcer",
     "name": "B-24 Enforcer",
+    "upcoming": false,
     "aliases": [],
     "description": "In field tests, 84% of users said that the armor improved their posture and self-esteem.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "eye-of-freedom",
     "slug": "eye-of-freedom",
     "name": "Eye of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": "A mark of stalwart loyalty bestowed only to those who have proved themselves worthy through unquestioning dedication.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "ce-07-demolition-specialist",
     "slug": "ce-07-demolition-specialist",
     "name": "CE-07 Demolition Specialist",
+    "upcoming": false,
     "aliases": [],
     "description": "Originally worn by lunar terraformers, this suit can withstand rapid changes in pressure, heat, and personal velocity.",
     "image": {

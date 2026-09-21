@@ -12,6 +12,7 @@
     "id": "ar-23a-liberator-carbine",
     "slug": "ar-23a-liberator-carbine",
     "name": "AR-23A Liberator Carbine",
+    "upcoming": false,
     "aliases": [],
     "description": "The AR-23A Liberator Carbine is a Primary Assault Rifle, a carbine variant of the standard Liberator, featuring a much faster fire rate at the cost of significantly increased recoil.",
     "image": {

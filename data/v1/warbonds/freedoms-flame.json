@@ -12,6 +12,7 @@
     "id": "freedoms-flame",
     "slug": "freedoms-flame",
     "name": "Freedom's Flame",
+    "upcoming": false,
     "aliases": [],
     "description": "Freedom's Flame is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

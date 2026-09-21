@@ -12,6 +12,7 @@
     "id": "hellpod-space-optimization",
     "slug": "hellpod-space-optimization",
     "name": "Hellpod Space Optimization",
+    "upcoming": false,
     "aliases": [],
     "description": "Hellpod Space Optimization is a Booster in Helldivers 2. When equipped, all Helldivers in a squad will come out of their Hellpod (either initial deployment or being reinforced) fully stocked with Ammo, Grenades, and Stims. Depending on their equipped armor, their max number of equipment will vary.",
     "image": {

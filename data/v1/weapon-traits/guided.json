@@ -12,6 +12,7 @@
     "id": "guided",
     "slug": "guided",
     "name": "Guided",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

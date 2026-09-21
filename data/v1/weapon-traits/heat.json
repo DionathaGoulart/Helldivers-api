@@ -12,6 +12,7 @@
     "id": "heat",
     "slug": "heat",
     "name": "Heat",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

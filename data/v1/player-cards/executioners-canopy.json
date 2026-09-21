@@ -12,6 +12,7 @@
     "id": "executioners-canopy",
     "slug": "executioners-canopy",
     "name": "Executioner's Canopy",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

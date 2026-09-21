@@ -12,6 +12,7 @@
     "id": "cpg-48-sapper",
     "slug": "cpg-48-sapper",
     "name": "CPG-48 Sapper",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

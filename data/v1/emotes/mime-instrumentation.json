@@ -12,6 +12,7 @@
     "id": "mime-instrumentation",
     "slug": "mime-instrumentation",
     "name": "Mime Instrumentation",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

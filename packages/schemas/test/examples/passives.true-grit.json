@@ -2,6 +2,7 @@
   "id": "true-grit",
   "slug": "true-grit",
   "name": "True Grit",
+  "upcoming": false,
   "aliases": [],
   "description": "Increases reload speed of support weapons by 30%. Slightly increases weapon ergonomics to reduce drag on weapon movement.",
   "image": {

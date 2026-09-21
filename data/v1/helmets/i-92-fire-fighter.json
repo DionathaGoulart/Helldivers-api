@@ -12,6 +12,7 @@
     "id": "i-92-fire-fighter",
     "slug": "i-92-fire-fighter",
     "name": "I-92 Fire Fighter",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

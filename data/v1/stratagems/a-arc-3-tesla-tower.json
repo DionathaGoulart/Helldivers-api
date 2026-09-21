@@ -12,6 +12,7 @@
     "id": "a-arc-3-tesla-tower",
     "slug": "a-arc-3-tesla-tower",
     "name": "A/ARC-3 Tesla Tower",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/ARC-3 Tesla Tower is a Sentry that sends electric arcs toward all entities within 20 meters.",
     "image": {

@@ -12,6 +12,7 @@
     "id": "ax-las-5-rover",
     "slug": "ax-las-5-rover",
     "name": "AX/LAS-5 Rover",
+    "upcoming": false,
     "aliases": [],
     "description": "The AX/LAS-5 Rover is a backpack Stratagem that provides fire support fire to the player.",
     "image": {

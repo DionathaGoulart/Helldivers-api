@@ -12,6 +12,7 @@
     "id": "triangulation-veil",
     "slug": "triangulation-veil",
     "name": "Triangulation Veil",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

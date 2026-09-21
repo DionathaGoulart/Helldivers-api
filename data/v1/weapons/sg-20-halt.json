@@ -12,6 +12,7 @@
     "id": "sg-20-halt",
     "slug": "sg-20-halt",
     "name": "SG-20 Halt",
+    "upcoming": false,
     "aliases": [],
     "description": "The SG-20 Halt is a dual-tube, pump-action Primary Shotgun. It can switch between Medium-armor penetrating flechettes and Light-armor penetrating stun pellets.",
     "image": {

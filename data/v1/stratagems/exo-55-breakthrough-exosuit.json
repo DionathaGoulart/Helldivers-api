@@ -12,6 +12,7 @@
     "id": "exo-55-breakthrough-exosuit",
     "slug": "exo-55-breakthrough-exosuit",
     "name": "EXO-55 Breakthrough Exosuit",
+    "upcoming": false,
     "aliases": [],
     "description": "The EXO-55 Breakthrough Exosuit is an Exosuit Stratagem featuring a heavy flak cannon on the right arm and a massive ballistic shield on the left.",
     "image": {

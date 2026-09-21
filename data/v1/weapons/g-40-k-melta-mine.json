@@ -12,6 +12,7 @@
     "id": "g-40-k-melta-mine",
     "slug": "g-40-k-melta-mine",
     "name": "G/40-K Melta Mine",
+    "upcoming": false,
     "aliases": [],
     "description": "The G/40-K Melta Mine is a Standard Throwable that deploys a proximity mine which, when detonated, releases a large column of superheated thermal energy before exploding.",
     "image": {

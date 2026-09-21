@@ -12,6 +12,7 @@
     "id": "vision-of-freedom",
     "slug": "vision-of-freedom",
     "name": "Vision of Freedom",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

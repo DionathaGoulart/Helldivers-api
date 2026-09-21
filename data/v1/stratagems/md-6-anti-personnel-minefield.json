@@ -12,6 +12,7 @@
     "id": "md-6-anti-personnel-minefield",
     "slug": "md-6-anti-personnel-minefield",
     "name": "MD-6 Anti-Personnel Minefield",
+    "upcoming": false,
     "aliases": [],
     "description": "The MD-6 Anti-Personnel Minefield is a defensive stratagem that blankets a roughly 25-30 meter diameter area around itself with mines.",
     "image": {

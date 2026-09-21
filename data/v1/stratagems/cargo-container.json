@@ -12,6 +12,7 @@
     "id": "cargo-container",
     "slug": "cargo-container",
     "name": "Cargo Container",
+    "upcoming": false,
     "aliases": [],
     "description": "The Cargo Container Stratagem allows Helldivers to call down a Pelican carrying a Cargo Container, before being deployed into a fixed position. It is available in the Confiscate Assets and Rapid Acquisition Missions.",
     "image": {

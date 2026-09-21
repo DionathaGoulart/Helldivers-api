@@ -12,6 +12,7 @@
     "id": "b-flam-80-cremator",
     "slug": "b-flam-80-cremator",
     "name": "B/FLAM-80 Cremator",
+    "upcoming": false,
     "aliases": [],
     "description": "The B/FLAM-80 Cremator is a Stratagem that calls down a Support Weapon consisting of a hose-fed, double barreled heavy flamethrower and fuel backpack. It can fire continuously without the need to reload.",
     "image": {

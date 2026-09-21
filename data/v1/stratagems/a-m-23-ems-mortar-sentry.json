@@ -12,6 +12,7 @@
     "id": "a-m-23-ems-mortar-sentry",
     "slug": "a-m-23-ems-mortar-sentry",
     "name": "A/M-23 EMS Mortar Sentry",
+    "upcoming": false,
     "aliases": [],
     "description": "The A/M-23 EMS Mortar Sentry is a defensive stratagem. It is a mortar sentry reconfigured to fire EMS rounds capable to slowing and stunning enemies. It is especially effective when placed behind cover as it can disable enemies without the chance of it being destroyed.",
     "image": {

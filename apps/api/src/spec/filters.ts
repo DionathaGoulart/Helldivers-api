@@ -61,6 +61,17 @@ function acquirable<E extends Sourced>(): Readonly<Record<string, Filter<E>>> {
   };
 }
 
+/** Every collection: announced items that are not in the game yet. */
+function upcoming<E extends { upcoming: boolean }>(): Readonly<Record<string, Filter<E>>> {
+  return {
+    upcoming: {
+      kind: "boolean",
+      description: "Announced, not in the game yet (the wiki lists it as unreleased).",
+      select: (entity) => entity.upcoming,
+    },
+  };
+}
+
 const set = <E extends { setIds: readonly string[] }>(): Filter<E> => ({
   kind: "id",
   collection: "armor-sets",
@@ -76,6 +87,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       description: "Warbond type.",
       select: (warbond) => [warbond.type],
     },
+    ...upcoming(),
   },
   weapons: {
     category: {
@@ -103,6 +115,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       description: "Firing mode of the firearm.",
       select: (weapon) => weapon.firearm?.firingModes ?? [],
     },
+    ...upcoming(),
   },
   stratagems: {
     category: {
@@ -136,6 +149,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       description: "Weapon trait id.",
       select: (stratagem) => stratagem.traitIds,
     },
+    ...upcoming(),
   },
   armors: {
     weight: {
@@ -152,19 +166,21 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
     },
     ...acquirable(),
     set: set(),
+    ...upcoming(),
   },
-  helmets: { ...acquirable(), set: set() },
-  capes: { ...acquirable(), set: set() },
+  helmets: { ...acquirable(), set: set(), ...upcoming() },
+  capes: { ...acquirable(), set: set(), ...upcoming() },
   "armor-sets": {
     hasCape: {
       kind: "boolean",
       description: "Whether a cape was linked to the set.",
       select: (armorSet) => armorSet.capeId !== null,
     },
+    ...upcoming(),
   },
-  boosters: acquirable(),
-  passives: {},
-  "weapon-traits": {},
+  boosters: { ...acquirable(), ...upcoming() },
+  passives: upcoming(),
+  "weapon-traits": upcoming(),
   "player-cards": {
     ...acquirable(),
     hasCape: {
@@ -172,6 +188,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       description: "Whether the card is paired with a cape.",
       select: (card) => card.pairedCapeId !== null,
     },
+    ...upcoming(),
   },
   emotes: {
     emote: {
@@ -185,6 +202,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       select: (emote) => emote.victoryPose,
     },
     ...acquirable(),
+    ...upcoming(),
   },
   patterns: {
     scope: {
@@ -200,6 +218,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       select: (pattern) => pattern.variants.map((variant) => variant.target),
     },
     ...acquirable(),
+    ...upcoming(),
   },
   titles: {
     kind: {
@@ -209,6 +228,7 @@ export const QUERY_FILTERS: { readonly [C in Collection]: Filters<C> } = {
       select: (title) => [title.kind],
     },
     ...acquirable(),
+    ...upcoming(),
   },
 };
 

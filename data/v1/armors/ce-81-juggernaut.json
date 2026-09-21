@@ -12,6 +12,7 @@
     "id": "ce-81-juggernaut",
     "slug": "ce-81-juggernaut",
     "name": "CE-81 Juggernaut",
+    "upcoming": false,
     "aliases": [],
     "description": "One of the most durable engineer armors available, each set is quality tested by an impact with a full-grown Charger.",
     "image": {

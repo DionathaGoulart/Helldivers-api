@@ -12,6 +12,7 @@
     "id": "fs-05-marksman",
     "slug": "fs-05-marksman",
     "name": "FS-05 Marksman",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

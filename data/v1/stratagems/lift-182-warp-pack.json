@@ -12,6 +12,7 @@
     "id": "lift-182-warp-pack",
     "slug": "lift-182-warp-pack",
     "name": "LIFT-182 Warp Pack",
+    "upcoming": false,
     "aliases": [],
     "description": "The Warp Pack significantly increases the wearer's mobility. When activated, the Helldiver is able to warp through terrain and enemies, potentially killing them in the process.",
     "image": {

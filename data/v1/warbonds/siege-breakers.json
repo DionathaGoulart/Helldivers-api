@@ -12,6 +12,7 @@
     "id": "siege-breakers",
     "slug": "siege-breakers",
     "name": "Siege Breakers",
+    "upcoming": false,
     "aliases": [],
     "description": "Siege Breakers is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {

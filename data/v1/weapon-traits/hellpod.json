@@ -12,6 +12,7 @@
     "id": "hellpod",
     "slug": "hellpod",
     "name": "Hellpod",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

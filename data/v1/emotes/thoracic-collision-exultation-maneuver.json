@@ -12,6 +12,7 @@
     "id": "thoracic-collision-exultation-maneuver",
     "slug": "thoracic-collision-exultation-maneuver",
     "name": "Thoracic Collision Exultation Maneuver",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

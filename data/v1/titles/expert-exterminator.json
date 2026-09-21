@@ -12,6 +12,7 @@
     "id": "expert-exterminator",
     "slug": "expert-exterminator",
     "name": "Expert Exterminator",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": {

@@ -12,6 +12,7 @@
     "id": "heavy-armor-penetrating",
     "slug": "heavy-armor-penetrating",
     "name": "Heavy Armor Penetrating",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

@@ -12,6 +12,7 @@
     "id": "arc",
     "slug": "arc",
     "name": "Arc",
+    "upcoming": false,
     "aliases": [],
     "description": null,
     "image": null,

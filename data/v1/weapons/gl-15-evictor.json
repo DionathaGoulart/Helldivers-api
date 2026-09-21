@@ -12,6 +12,7 @@
     "id": "gl-15-evictor",
     "slug": "gl-15-evictor",
     "name": "GL-15 Evictor",
+    "upcoming": false,
     "aliases": [],
     "description": "GL-15 Evictor is a Explosive primary weapon that fires high-damaging grenades that explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
     "image": {
