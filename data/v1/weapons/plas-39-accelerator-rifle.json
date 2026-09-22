@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": 3.4
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "MEDIUM PLASMA BOLT P1",

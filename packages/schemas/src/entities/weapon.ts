@@ -72,6 +72,10 @@ export const ThrowableStats = z.object({
   cookable: z.boolean().nullable(),
 });
 
+export const MeleeStats = z.object({
+  fireRateRpm: z.array(z.number().positive()), // swings per minute; CQC-19: [117]
+});
+
 export const Weapon = z.object({
   ...Base,
   category: z.enum(["primary", "secondary", "throwable", "civilian"]), // civilian = field pickups
@@ -90,6 +94,7 @@ export const Weapon = z.object({
   traitIds: z.array(Id),
   firearm: FirearmStats.nullable(), // null for melee and throwables
   throwable: ThrowableStats.nullable(), // null unless category = throwable
+  melee: MeleeStats.nullable(), // null unless subcategory = melee
   attacks: z.array(Attack),
   statsRaw: z.record(z.string(), z.string()),
   source: Source,
@@ -99,4 +104,5 @@ export type FiringMode = z.infer<typeof FiringMode>;
 export type Attack = z.infer<typeof Attack>;
 export type FirearmStats = z.infer<typeof FirearmStats>;
 export type ThrowableStats = z.infer<typeof ThrowableStats>;
+export type MeleeStats = z.infer<typeof MeleeStats>;
 export type Weapon = z.infer<typeof Weapon>;

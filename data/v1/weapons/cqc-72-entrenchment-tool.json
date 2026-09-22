@@ -39,6 +39,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        150
+      ]
+    },
     "attacks": [
       {
         "name": "CQC-72 Entrenchment Tool",

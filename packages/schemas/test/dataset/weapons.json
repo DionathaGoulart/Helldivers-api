@@ -55,6 +55,7 @@
         "tacticalReloadTimeS": null
       },
       "throwable": null,
+      "melee": null,
       "attacks": [
         {
           "name": "5.5x50mm FULL METAL JACKET P",
@@ -134,6 +135,7 @@
         "fuseTimeS": null,
         "cookable": null
       },
+      "melee": null,
       "attacks": [],
       "statsRaw": {},
       "source": {
@@ -166,6 +168,7 @@
       "traitIds": [],
       "firearm": null,
       "throwable": null,
+      "melee": null,
       "attacks": [],
       "statsRaw": {},
       "source": {
@@ -198,6 +201,7 @@
       "traitIds": [],
       "firearm": null,
       "throwable": null,
+      "melee": null,
       "attacks": [],
       "statsRaw": {},
       "source": {
@@ -257,6 +261,7 @@
         "tacticalReloadTimeS": 1.55
       },
       "throwable": null,
+      "melee": null,
       "attacks": [
         {
           "name": "10g MAGNUM P",

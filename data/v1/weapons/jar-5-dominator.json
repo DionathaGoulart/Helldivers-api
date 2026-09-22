@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": 2.65
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "15x100mm STANDARD ROCKET P",

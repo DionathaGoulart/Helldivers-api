@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12g BUCKSHOT P",

@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "R-6 P",

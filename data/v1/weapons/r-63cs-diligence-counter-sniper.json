@@ -63,6 +63,7 @@
       "tacticalReloadTimeS": 1.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x70mm HIGH VELOCITY P",

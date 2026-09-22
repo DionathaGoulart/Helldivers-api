@@ -148,6 +148,7 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
         traitIds,
         firearm: stats.firearm,
         throwable: stats.throwable,
+        melee: stats.melee,
         attacks: stats.attacks,
         statsRaw: stats.statsRaw,
         source: itemSource,

@@ -95,9 +95,11 @@ describe("normalizeWeaponStats", () => {
     expect(sickle.firearm).toMatchObject({ capacity: null, reloadKind: "magazine" });
   });
 
-  it("gives melee weapons attacks but no firearm stats", async () => {
+  it("gives melee weapons attacks and a swing rate but no firearm stats", async () => {
     const lance = await stats("CQC-19 Stun Lance", "secondary", "melee");
     expect(lance.firearm).toBeNull();
+    // The infobox says `117`, the weapon table `117 rpm`.
+    expect(lance.melee).toEqual({ fireRateRpm: [117] });
     expect(lance.attacks).toEqual([
       {
         name: "Stun Lance",
@@ -114,6 +116,14 @@ describe("normalizeWeaponStats", () => {
         forces: { demolition: 10, stagger: 35, push: 30 },
       },
     ]);
+  });
+
+  it("takes a melee swing rate from the table when the infobox reads N/A", async () => {
+    const baton = await stats("CQC-30 Stun Baton", "secondary", "melee");
+    expect(baton.melee).toEqual({ fireRateRpm: [150] });
+    expect(baton.conflicts).toEqual([]);
+    const liberator = await stats("AR-23 Liberator", "primary", "assault_rifle");
+    expect(liberator.melee).toBeNull();
   });
 
   it("reads throwable stats", async () => {

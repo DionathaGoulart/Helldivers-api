@@ -65,6 +65,7 @@
       "tacticalReloadTimeS": 3
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "P-35 P",

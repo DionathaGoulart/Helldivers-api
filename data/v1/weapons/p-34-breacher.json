@@ -55,6 +55,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Weapon Category": "Secondary Weapons",

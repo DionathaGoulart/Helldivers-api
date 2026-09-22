@@ -67,6 +67,7 @@
       "tacticalReloadTimeS": 1.95
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR/GL-21 P",

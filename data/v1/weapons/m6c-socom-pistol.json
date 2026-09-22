@@ -65,6 +65,7 @@
       "tacticalReloadTimeS": 1.2
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "M6C/SOCOM P",

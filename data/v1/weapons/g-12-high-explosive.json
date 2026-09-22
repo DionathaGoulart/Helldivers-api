@@ -42,6 +42,7 @@
       "fuseTimeS": 3.5,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-12 HIGH EXPLOSIVE E",

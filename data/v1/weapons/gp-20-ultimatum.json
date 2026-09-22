@@ -60,6 +60,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "GP-20 P",

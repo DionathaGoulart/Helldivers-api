@@ -42,6 +42,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Cookable": "No",

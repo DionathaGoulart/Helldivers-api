@@ -60,6 +60,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "40mm HEAT GRENADE P",

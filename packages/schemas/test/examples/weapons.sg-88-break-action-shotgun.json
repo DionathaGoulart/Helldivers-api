@@ -43,6 +43,7 @@
     "tacticalReloadTimeS": 1.55
   },
   "throwable": null,
+  "melee": null,
   "attacks": [
     {
       "name": "10g MAGNUM P",

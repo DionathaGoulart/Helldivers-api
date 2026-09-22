@@ -41,6 +41,7 @@
       "fuseTimeS": 2.4,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-3 SMOKE E",

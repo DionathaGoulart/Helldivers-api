@@ -59,6 +59,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LAS-5 SCYTHE B",

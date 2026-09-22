@@ -58,6 +58,7 @@
       "tacticalReloadTimeS": 2.35
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "P-72 CRISPER S",

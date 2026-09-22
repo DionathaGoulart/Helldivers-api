@@ -63,6 +63,7 @@
       "tacticalReloadTimeS": 2.5
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LARGE PLASMA BOLT P3",

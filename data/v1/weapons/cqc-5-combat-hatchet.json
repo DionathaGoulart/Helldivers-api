@@ -37,6 +37,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        100
+      ]
+    },
     "attacks": [
       {
         "name": "Combat Hatchet",

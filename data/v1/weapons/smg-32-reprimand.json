@@ -65,6 +65,7 @@
       "tacticalReloadTimeS": 2.1
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12x25mm FULL METAL JACKET P1",

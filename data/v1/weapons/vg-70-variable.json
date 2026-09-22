@@ -69,6 +69,7 @@
       "tacticalReloadTimeS": 3.58
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "VG-70 P",

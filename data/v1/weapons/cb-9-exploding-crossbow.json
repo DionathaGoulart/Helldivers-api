@@ -62,6 +62,7 @@
       "tacticalReloadTimeS": 3.33
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "CB-9 P",

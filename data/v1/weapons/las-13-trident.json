@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": 3.67
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LAS-13 TRIDENT B",

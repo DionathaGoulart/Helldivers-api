@@ -42,6 +42,7 @@
       "fuseTimeS": 2.9,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-142 PYROTECH E",

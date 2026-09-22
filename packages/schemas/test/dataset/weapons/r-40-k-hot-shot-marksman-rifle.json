@@ -26,6 +26,7 @@
     "traitIds": [],
     "firearm": null,
     "throwable": null,
+    "melee": null,
     "attacks": [],
     "statsRaw": {},
     "source": {

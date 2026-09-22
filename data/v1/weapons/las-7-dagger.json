@@ -60,6 +60,7 @@
       "tacticalReloadTimeS": 2.45
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LAS-7 DAGGER B",

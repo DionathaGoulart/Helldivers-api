@@ -1,4 +1,12 @@
-import type { Attack, ConflictValue, FirearmStats, Id, ThrowableStats, Weapon } from "@hd2/schemas";
+import type {
+  Attack,
+  ConflictValue,
+  FirearmStats,
+  Id,
+  MeleeStats,
+  ThrowableStats,
+  Weapon,
+} from "@hd2/schemas";
 import { NormalizeError } from "../errors.ts";
 import type {
   RawInfoboxRow,
@@ -26,7 +34,7 @@ import {
 } from "./stats.ts";
 
 // Weapon and stratagem pages → typed stats (arch §5.3 `FirearmStats`, `ThrowableStats`,
-// `Attack`), the raw bag and rule 2 conflicts (arch §5.5): the detailed table wins for scalars,
+// `MeleeStats`, `Attack`), the raw bag and rule 2 conflicts (arch §5.5): the detailed table wins for scalars,
 // the infobox wins when it carries more values; both originals stay in `statsRaw`.
 
 export interface StatConflict {
@@ -39,6 +47,7 @@ export interface StatConflict {
 export interface WeaponStats {
   firearm: FirearmStats | null;
   throwable: ThrowableStats | null;
+  melee: MeleeStats | null;
   attacks: Attack[];
   statsRaw: Record<string, string>;
   conflicts: StatConflict[];
@@ -294,6 +303,17 @@ function readThrowable(reader: StatReader): ThrowableStats {
   };
 }
 
+/** A melee weapon's swing rate: the wiki calls it Fire Rate (`N/A` in some infoboxes). */
+function readMelee(reader: StatReader): MeleeStats {
+  return {
+    fireRateRpm: reader.list(
+      "melee.fireRateRpm",
+      reader.fromInfobox((lines, p) => parseList(lines, parseRpm, p), "fire_rate"),
+      reader.fromTable((value, p) => parseList([value], parseRpm, p), "Fire Rate"),
+    ),
+  };
+}
+
 /** One `Attack` per stat table other than the weapon table, in page order. */
 export function readAttacks(raw: StatPage, page: string): Attack[] {
   return raw.tables
@@ -311,10 +331,12 @@ export interface WeaponStatsOptions {
 export function normalizeWeaponStats(raw: RawWeaponPage, options: WeaponStatsOptions): WeaponStats {
   const { page } = options;
   const reader = new StatReader(raw, page);
-  const armed = options.category !== "throwable" && options.subcategory !== "melee";
+  const melee = options.subcategory === "melee";
+  const armed = options.category !== "throwable" && !melee;
   return {
     firearm: armed ? readFirearm(reader, "firearm", options.traitIds) : null,
     throwable: options.category === "throwable" ? readThrowable(reader) : null,
+    melee: melee ? readMelee(reader) : null,
     attacks: readAttacks(raw, page),
     statsRaw: readStatsRaw(raw),
     conflicts: reader.conflicts,

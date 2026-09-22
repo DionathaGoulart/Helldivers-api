@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": 1.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "DBS-2 P",

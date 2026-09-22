@@ -42,6 +42,7 @@
       "fuseTimeS": 5,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "TED-63 DYNAMITE E",

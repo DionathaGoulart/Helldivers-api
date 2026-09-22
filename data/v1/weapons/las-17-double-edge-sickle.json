@@ -68,6 +68,7 @@
       "tacticalReloadTimeS": 2.83
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LASER P",

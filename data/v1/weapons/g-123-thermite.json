@@ -42,6 +42,7 @@
       "fuseTimeS": 2.9,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-123 THERMITE E",

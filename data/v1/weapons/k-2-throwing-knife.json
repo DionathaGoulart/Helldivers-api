@@ -41,6 +41,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "K-2 THROWING KNIFE_dm",

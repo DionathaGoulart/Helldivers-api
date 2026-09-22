@@ -42,6 +42,7 @@
       "fuseTimeS": 3,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-31 ARC E",

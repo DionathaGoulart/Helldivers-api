@@ -42,6 +42,7 @@
       "fuseTimeS": 1.8,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-23 STUN E",

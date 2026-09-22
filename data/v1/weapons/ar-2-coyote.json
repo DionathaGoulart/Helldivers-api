@@ -65,6 +65,7 @@
       "tacticalReloadTimeS": 2
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR-2 P",

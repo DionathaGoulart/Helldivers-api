@@ -63,6 +63,7 @@
       "tacticalReloadTimeS": 2.35
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x70mm FULL METAL JACKET P",

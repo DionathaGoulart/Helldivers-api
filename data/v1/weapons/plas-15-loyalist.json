@@ -62,6 +62,7 @@
       "tacticalReloadTimeS": 1.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "SMALL PLASMA BOLT P",

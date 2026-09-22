@@ -37,6 +37,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        72
+      ]
+    },
     "attacks": [
       {
         "name": "Machete",

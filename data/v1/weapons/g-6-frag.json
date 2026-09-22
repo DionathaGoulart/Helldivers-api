@@ -42,6 +42,7 @@
       "fuseTimeS": 2.4,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-6 FRAG E",

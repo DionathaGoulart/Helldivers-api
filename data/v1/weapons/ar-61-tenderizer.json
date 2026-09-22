@@ -67,6 +67,7 @@
       "tacticalReloadTimeS": 2.18
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR-61 P",

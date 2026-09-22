@@ -65,6 +65,7 @@
       "tacticalReloadTimeS": 1.4
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "Guided P1",

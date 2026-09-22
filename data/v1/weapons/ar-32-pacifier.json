@@ -66,6 +66,7 @@
       "tacticalReloadTimeS": 1.85
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR-32 P",

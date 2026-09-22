@@ -63,6 +63,7 @@
       "tacticalReloadTimeS": 2.5
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "PLAS-101 P",

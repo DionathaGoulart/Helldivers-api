@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": 2.75
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "15x100mm HIGH EXPLOSIVE P",

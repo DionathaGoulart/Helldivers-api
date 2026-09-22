@@ -64,6 +64,7 @@
       "tacticalReloadTimeS": 2.8
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "R-2 P",

@@ -47,6 +47,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Weapon Category": "Primary Weapons",
@@ -122,6 +123,7 @@
       "tacticalReloadTimeS": 2
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR-2 P",
@@ -301,6 +303,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "5.5x50mm FULL METAL JACKET P",
@@ -440,6 +443,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "5.5x50mm FULL METAL JACKET P",
@@ -581,6 +585,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "5.5x50mm EXPLOSIVE P",
@@ -723,6 +728,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "5.5x50mm PENETRATOR P",
@@ -866,6 +872,7 @@
       "tacticalReloadTimeS": 1.85
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR-32 P",
@@ -1035,6 +1042,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "5.5x50mm SUBSONIC P",
@@ -1179,6 +1187,7 @@
       "tacticalReloadTimeS": 2.18
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR-61 P",
@@ -1324,6 +1333,7 @@
       "tacticalReloadTimeS": 1.95
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "AR/GL-21 P",
@@ -1564,6 +1574,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "ARC-12 BLITZER A",
@@ -1715,6 +1726,7 @@
       "tacticalReloadTimeS": 1.85
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "8x60mm FULL METAL JACKET P",
@@ -1855,6 +1867,7 @@
       "tacticalReloadTimeS": 3.33
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "CB-9 P",
@@ -2012,6 +2025,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        117
+      ]
+    },
     "attacks": [
       {
         "name": "Stun Lance",
@@ -2103,6 +2121,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        150
+      ]
+    },
     "attacks": [
       {
         "name": "Saber",
@@ -2194,6 +2217,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        150
+      ]
+    },
     "attacks": [
       {
         "name": "Stun Baton",
@@ -2286,6 +2314,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        72
+      ]
+    },
     "attacks": [
       {
         "name": "Machete",
@@ -2376,6 +2409,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        100
+      ]
+    },
     "attacks": [
       {
         "name": "Combat Hatchet",
@@ -2468,6 +2506,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        150
+      ]
+    },
     "attacks": [
       {
         "name": "CQC-72 Entrenchment Tool",
@@ -2561,6 +2604,11 @@
     ],
     "firearm": null,
     "throwable": null,
+    "melee": {
+      "fireRateRpm": [
+        150
+      ]
+    },
     "attacks": [
       {
         "name": "CQC-73 Entrenchment Tool",
@@ -2683,6 +2731,7 @@
       "tacticalReloadTimeS": 1.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "DBS-2 P",
@@ -2822,6 +2871,7 @@
       "tacticalReloadTimeS": 3.25
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "FLAM-66 TORCHER S",
@@ -3016,6 +3066,7 @@
       "fuseTimeS": 2.9,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-10 INCENDIARY E",
@@ -3151,6 +3202,7 @@
       "fuseTimeS": 2.9,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-109 URCHIN E",
@@ -3274,6 +3326,7 @@
       "fuseTimeS": 3.5,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-12 HIGH EXPLOSIVE E",
@@ -3370,6 +3423,7 @@
       "fuseTimeS": 2.9,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-123 THERMITE E",
@@ -3536,6 +3590,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-13 INCENDIARY IMPACT E",
@@ -3671,6 +3726,7 @@
       "fuseTimeS": 2.9,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-142 PYROTECH E",
@@ -3850,6 +3906,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-16 IMPACT E",
@@ -3949,6 +4006,7 @@
       "fuseTimeS": 1.8,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-23 STUN E",
@@ -4071,6 +4129,7 @@
       "fuseTimeS": 2.4,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-3 SMOKE E",
@@ -4162,6 +4221,7 @@
       "fuseTimeS": 3,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-31 ARC E",
@@ -4321,6 +4381,7 @@
       "fuseTimeS": 2.9,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-4 GAS E",
@@ -4483,6 +4544,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G/40-K MELTA MINE E",
@@ -4619,6 +4681,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-48 GIGA GRENADE E",
@@ -4722,6 +4785,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-50 SEEKER E",
@@ -4821,6 +4885,7 @@
       "fuseTimeS": 2.4,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-6 FRAG E",
@@ -4966,6 +5031,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Cookable": "No",
@@ -5014,6 +5080,7 @@
       "fuseTimeS": 2.4,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-7 PINEAPPLE E",
@@ -5198,6 +5265,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Cookable": "No",
@@ -5246,6 +5314,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "G-89 SMOKESCREEN E",
@@ -5336,6 +5405,7 @@
       "fuseTimeS": 0,
       "cookable": true
     },
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Damage": "0 Explosion",
@@ -5415,6 +5485,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Weapon Category": "Primary Weapons",
@@ -5484,6 +5555,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "GP-20 P",
@@ -5661,6 +5733,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "40mm HEAT GRENADE P",
@@ -5843,6 +5916,7 @@
       "tacticalReloadTimeS": 2.65
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "15x100mm STANDARD ROCKET P",
@@ -5964,6 +6038,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "K-2 THROWING KNIFE_dm",
@@ -6078,6 +6153,7 @@
       "tacticalReloadTimeS": 3.67
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LAS-13 TRIDENT B",
@@ -6217,6 +6293,7 @@
       "tacticalReloadTimeS": 2.83
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LASER P",
@@ -6370,6 +6447,7 @@
       "tacticalReloadTimeS": 2.83
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LASER P",
@@ -6648,6 +6726,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LAS-5 SCYTHE B",
@@ -6816,6 +6895,7 @@
       "tacticalReloadTimeS": 4.6
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LASER P4",
@@ -6960,6 +7040,7 @@
       "tacticalReloadTimeS": 2.45
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LAS-7 DAGGER B",
@@ -7131,6 +7212,7 @@
       "tacticalReloadTimeS": 1.2
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "M6C/SOCOM P",
@@ -7276,6 +7358,7 @@
       "tacticalReloadTimeS": 2
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "M7S P",
@@ -7418,6 +7501,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "BUCKSHOT P",
@@ -7565,6 +7649,7 @@
       "tacticalReloadTimeS": 2
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "MA5C P",
@@ -7709,6 +7794,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x20mm FULL METAL JACKET P",
@@ -7848,6 +7934,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "P-11 P",
@@ -7981,6 +8068,7 @@
       "tacticalReloadTimeS": 1.35
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12x25mm FULL METAL JACKET P",
@@ -8124,6 +8212,7 @@
       "tacticalReloadTimeS": 1.4
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x20mm FULL METAL JACKET P1",
@@ -8266,6 +8355,7 @@
       "tacticalReloadTimeS": 1.45
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x20mm HOLLOW POINT P",
@@ -8409,6 +8499,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "Guided P",
@@ -8632,6 +8723,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [],
     "statsRaw": {
       "Weapon Category": "Secondary Weapons",
@@ -8705,6 +8797,7 @@
       "tacticalReloadTimeS": 3
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "P-35 P",
@@ -8914,6 +9007,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "13x40mm FULL METAL JACKET P",
@@ -9060,6 +9154,7 @@
       "tacticalReloadTimeS": 1.3
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "P/40-K P",
@@ -9246,6 +9341,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "15x100mm STANDARD ROCKET P1",
@@ -9385,6 +9481,7 @@
       "tacticalReloadTimeS": 2.35
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "P-72 CRISPER S",
@@ -9603,6 +9700,7 @@
       "tacticalReloadTimeS": 1.4
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "Guided P1",
@@ -9790,6 +9888,7 @@
       "tacticalReloadTimeS": 2.5
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "MEDIUM PLASMA BOLT P",
@@ -9973,6 +10072,7 @@
       "tacticalReloadTimeS": 2.5
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "PLAS-101 P",
@@ -10245,6 +10345,7 @@
       "tacticalReloadTimeS": 1.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "SMALL PLASMA BOLT P",
@@ -10603,6 +10704,7 @@
       "tacticalReloadTimeS": 3.4
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "MEDIUM PLASMA BOLT P1",
@@ -10793,6 +10895,7 @@
       "tacticalReloadTimeS": 2.8
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "R-2 P",
@@ -10967,6 +11070,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "R-2124 P",
@@ -11141,6 +11245,7 @@
       "tacticalReloadTimeS": 2.75
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "15x100mm HIGH EXPLOSIVE P",
@@ -11373,6 +11478,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x70mm FULL METAL JACKET P1",
@@ -11548,6 +11654,7 @@
       "tacticalReloadTimeS": 2.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "R/40-K P",
@@ -11693,6 +11800,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "R-6 P",
@@ -11837,6 +11945,7 @@
       "tacticalReloadTimeS": 2.35
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x70mm FULL METAL JACKET P",
@@ -11980,6 +12089,7 @@
       "tacticalReloadTimeS": 1.9
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x70mm HIGH VELOCITY P",
@@ -12124,6 +12234,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "8x60mm SUBSONIC P",
@@ -12269,6 +12380,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "10g FLECHETTES P",
@@ -12488,6 +12600,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "BUCKSHOT P1",
@@ -12633,6 +12746,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12g BUCKSHOT P",
@@ -12778,6 +12892,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12g LIBERTY FIRE P",
@@ -12958,6 +13073,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12g BIRDSHOT P",
@@ -13103,6 +13219,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "SG-451 P",
@@ -13285,6 +13402,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "BUCKSHOT P1",
@@ -13433,6 +13551,7 @@
       "tacticalReloadTimeS": 1.55
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "10g MAGNUM P",
@@ -13574,6 +13693,7 @@
       "tacticalReloadTimeS": 2.5
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "LARGE PLASMA BOLT P3",
@@ -13760,6 +13880,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "10g RIFLED SLUGS P",
@@ -13905,6 +14026,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "SG-97 P",
@@ -14086,6 +14208,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x20mm HIGH VELOCITY P",
@@ -14230,6 +14353,7 @@
       "tacticalReloadTimeS": 2.1
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12x25mm FULL METAL JACKET P1",
@@ -14374,6 +14498,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12x25mm FULL METAL JACKET P2",
@@ -14517,6 +14642,7 @@
       "tacticalReloadTimeS": null
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "SMG-72 P",
@@ -14685,6 +14811,7 @@
       "tacticalReloadTimeS": 1.73
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "12x25mm FULL METAL JACKET P3",
@@ -14960,6 +15087,7 @@
       "tacticalReloadTimeS": 1.7
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "9x20mm FULL METAL JACKET P",
@@ -15104,6 +15232,7 @@
       "tacticalReloadTimeS": 2.5
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "5.5x50mm FULL METAL JACKET P",
@@ -15226,6 +15355,7 @@
       "fuseTimeS": 5,
       "cookable": true
     },
+    "melee": null,
     "attacks": [
       {
         "name": "TED-63 DYNAMITE E",
@@ -15326,6 +15456,7 @@
       "fuseTimeS": null,
       "cookable": false
     },
+    "melee": null,
     "attacks": [
       {
         "name": "TM-1 LURE MINE E",
@@ -15500,6 +15631,7 @@
       "tacticalReloadTimeS": 3.58
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "VG-70 P",

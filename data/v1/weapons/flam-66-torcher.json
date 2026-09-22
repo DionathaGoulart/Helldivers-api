@@ -57,6 +57,7 @@
       "tacticalReloadTimeS": 3.25
     },
     "throwable": null,
+    "melee": null,
     "attacks": [
       {
         "name": "FLAM-66 TORCHER S",
