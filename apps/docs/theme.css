@@ -570,6 +570,12 @@ summary,
   gap: 0.5rem;
 }
 
+/* Every page lists the same links; the one being read stays in place, filled in. */
+.header-actions [aria-current="page"] {
+  background: var(--accent);
+  color: var(--accent-content);
+}
+
 .page {
   max-width: 64rem;
   margin: 0 auto;

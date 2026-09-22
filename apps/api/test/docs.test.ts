@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { Collection } from "@hd2/schemas";
 import { describe, expect, it } from "vitest";
 import { ERRORS_URL, PROBLEM_TYPES } from "../src/lib/problem.ts";
-import { SITE_URL } from "../src/site.ts";
+import { REPO_URL, SITE_URL } from "../src/site.ts";
 import { DAILY_BUDGET, TIERS } from "../src/spec/access.ts";
 
 // The pages of `apps/docs` are hand-written (arch §9) while the data they point at is generated,
@@ -21,6 +21,16 @@ const PAGES = [
   "docs/access.html",
   "examples.html",
 ];
+
+/** The site nav, in order, on every page but the 404; each page marks its own link. */
+const NAV = ["/", "/docs/", "/docs/access", "/docs/errors", "/examples", REPO_URL];
+const OWN_LINK: Record<string, string> = {
+  "index.html": "/",
+  "docs/index.html": "/docs/",
+  "docs/access.html": "/docs/access",
+  "docs/errors.html": "/docs/errors",
+  "examples.html": "/examples",
+};
 
 describe("docs site", () => {
   it("lists a card per collection on the landing page", async () => {
@@ -58,6 +68,25 @@ describe("docs site", () => {
     const loaders = [...js.matchAll(/^ {2}"?([a-z-]+)"?: \{$/gm)].map((match) => match[1]);
     expect(sections.sort()).toEqual(loaders.sort());
     expect(sections).toHaveLength(9);
+  });
+
+  it("keeps the same nav on every page and marks the page being read", async () => {
+    for (const [name, own] of Object.entries(OWN_LINK)) {
+      const html = await page(name);
+      const nav = /<nav class="header-actions" aria-label="Site">([\s\S]*?)<\/nav>/.exec(html)?.[1];
+      const links = [
+        ...(nav ?? "").matchAll(/<a class="icon-btn" href="([^"]+)"( aria-current="page")?>/g),
+      ];
+      // The reference adds openapi.json after the shared links.
+      expect({ name, hrefs: links.map((m) => m[1]).slice(0, NAV.length) }).toEqual({
+        name,
+        hrefs: NAV,
+      });
+      expect({ name, current: links.filter((m) => m[2]).map((m) => m[1]) }).toEqual({
+        name,
+        current: [own],
+      });
+    }
   });
 
   it("gives every problem type a section to link to", async () => {
