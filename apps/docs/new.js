@@ -1,7 +1,8 @@
 // What's new page: the last 30 days of the catalog, built in the browser from two static files,
 // /v1/all.json and /v1/changelog.json, so it never touches the query or search limits. Three
-// sections: what is announced, the warbonds released in the window with everything they sell, and
-// what the daily run added. An item shows once. No framework, no dependency.
+// sections: what is announced, the warbonds released in the window with everything they sell (and
+// the passives and traits that came out with them), and what the daily run added. An item shows
+// once. No framework, no dependency.
 
 const WINDOW_DAYS = 30;
 
@@ -172,6 +173,39 @@ function warbondItems(warbond, catalog) {
   return [...items.values()];
 }
 
+/** The entities that carry a passive or a trait: its armors, or its weapons and stratagems. */
+const CARRIERS = {
+  passives: (passive) => passive.armorIds.map((id) => keyOf("armors", id)),
+  "weapon-traits": (trait) => [
+    ...trait.weaponIds.map((id) => keyOf("weapons", id)),
+    ...trait.stratagemIds.map((id) => keyOf("stratagems", id)),
+  ],
+};
+
+/**
+ * Passives and traits that came out with a warbond: not sold on its pages, but carried by its items
+ * and by nothing older. An item from a store, an event or the base game has no date, so it counts
+ * as older; a later warbond reusing the passive does not take it away.
+ */
+function warbondDebuts(warbond, items, catalog, released) {
+  const sold = new Set(items.map(({ collection, entity }) => keyOf(collection, entity.id)));
+  const notOlder = (key) => {
+    if (sold.has(key)) return true;
+    const warbondId = catalog.get(key)?.entity.source?.warbondId;
+    return (released.get(warbondId) ?? "") >= warbond.releaseDate;
+  };
+  const debuts = [];
+  for (const { collection, entity } of catalog.values()) {
+    const carriers = CARRIERS[collection]?.(entity) ?? [];
+    if (!carriers.some((key) => sold.has(key)) || !carriers.every(notOlder)) continue;
+    const names = carriers
+      .filter((key) => sold.has(key))
+      .map((key) => catalog.get(key).entity.name);
+    debuts.push({ collection, entity, carriers: [...new Set(names)] });
+  }
+  return debuts;
+}
+
 /** The three sections, from the two files; `shown` keeps an item to the first that claims it. */
 function whatsNew(all, changelog, today, since) {
   const catalog = new Map();
@@ -182,6 +216,7 @@ function whatsNew(all, changelog, today, since) {
     }
   }
   const shown = new Set();
+  const released = new Map(all.warbonds.map((warbond) => [warbond.id, warbond.releaseDate]));
 
   // A warbond out in the window keeps its items, even those the wiki still marks unreleased.
   const warbonds = all.warbonds
@@ -190,8 +225,11 @@ function whatsNew(all, changelog, today, since) {
     .map((warbond) => {
       shown.add(keyOf("warbonds", warbond.id));
       const items = warbondItems(warbond, catalog);
-      for (const { collection, entity } of items) shown.add(keyOf(collection, entity.id));
-      return { warbond, items };
+      const debuts = warbondDebuts(warbond, items, catalog, released);
+      for (const { collection, entity } of [...items, ...debuts]) {
+        shown.add(keyOf(collection, entity.id));
+      }
+      return { warbond, items, debuts };
     });
 
   const order = Object.keys(LABELS);
@@ -245,7 +283,7 @@ function render({ warbonds, upcoming, added }, today) {
   if (upcoming.length === 0) grid("upcoming").append(empty("Nothing announced right now."));
 
   grid("warbonds").replaceChildren(
-    ...warbonds.map(({ warbond, items }) =>
+    ...warbonds.map(({ warbond, items, debuts }) =>
       h(
         "section",
         { class: "stack new-warbond", "aria-label": warbond.name },
@@ -257,6 +295,12 @@ function render({ warbonds, upcoming, added }, today) {
           items.map(({ collection, entity, page, cost }) =>
             card(collection, entity, {
               foot: [`Page ${page}`, formatCost(cost)].filter(Boolean).join(" · "),
+            }),
+          ),
+          debuts.map(({ collection, entity, carriers }) =>
+            card(collection, entity, {
+              tags: [tag(collection === "passives" ? "New passive" : "New trait", "accent")],
+              foot: `With ${carriers.join(", ")}`,
             }),
           ),
         ),
@@ -305,12 +349,19 @@ async function load() {
     const [all, changelog] = await Promise.all([get("/all.json"), get("/changelog.json")]);
     const found = whatsNew(all.data, changelog.data, today, since);
     render(found, today);
-    const items = found.warbonds.reduce((sum, { items }) => sum + items.length, 0);
+    const count = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
+    const items = found.warbonds.flatMap(({ items }) => items).length;
+    const debuts = found.warbonds.flatMap(({ debuts }) => debuts);
+    const passives = debuts.filter(({ collection }) => collection === "passives").length;
+    const extras = [
+      passives > 0 && count(passives, "new passive"),
+      debuts.length > passives && count(debuts.length - passives, "new trait"),
+    ].filter(Boolean);
     statusLine.replaceChildren(
       tag("Live", "success"),
       ` since ${since} · ${found.upcoming.length} announced · ` +
-        `${found.warbonds.length} warbond${found.warbonds.length === 1 ? "" : "s"} ` +
-        `(${items} items) · ${found.added.length} added · data ${all.meta.dataVersion}`,
+        `${count(found.warbonds.length, "warbond")} (${[count(items, "item"), ...extras].join(", ")}) · ` +
+        `${found.added.length} added · data ${all.meta.dataVersion}`,
     );
   } catch (error) {
     showFailure(error instanceof Error ? error.message : "request failed");
