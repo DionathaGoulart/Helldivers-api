@@ -233,16 +233,28 @@ function whatsNew(all, changelog, today, since) {
     });
 
   const order = Object.keys(LABELS);
-  const upcoming = [...catalog.values()]
-    .filter(({ collection, entity }) => {
-      if (shown.has(keyOf(collection, entity.id))) return false;
-      return entity.upcoming || (collection === "warbonds" && entity.releaseDate > today);
-    })
-    .sort(
-      (a, b) =>
-        order.indexOf(a.collection) - order.indexOf(b.collection) ||
-        a.entity.name.localeCompare(b.entity.name),
-    );
+  const announced = [...catalog.values()].filter(({ collection, entity }) => {
+    if (shown.has(keyOf(collection, entity.id))) return false;
+    return entity.upcoming || (collection === "warbonds" && entity.releaseDate > today);
+  });
+  // A passive or trait is never flagged upcoming itself: it comes with the announced warbond.
+  const announcedKeys = new Set(
+    announced.map(({ collection, entity }) => keyOf(collection, entity.id)),
+  );
+  for (const { collection, entity } of announced) {
+    if (collection !== "warbonds") continue;
+    for (const debut of warbondDebuts(entity, warbondItems(entity, catalog), catalog, released)) {
+      const key = keyOf(debut.collection, debut.entity.id);
+      if (shown.has(key) || announcedKeys.has(key)) continue;
+      announcedKeys.add(key);
+      announced.push(debut);
+    }
+  }
+  const upcoming = announced.sort(
+    (a, b) =>
+      order.indexOf(a.collection) - order.indexOf(b.collection) ||
+      a.entity.name.localeCompare(b.entity.name),
+  );
   for (const { collection, entity } of upcoming) shown.add(keyOf(collection, entity.id));
 
   // The changelog is newest first, so an item added twice keeps its latest date.
@@ -268,15 +280,18 @@ const grid = (id) => document.querySelector(`#${id} [data-cards]`);
 
 function render({ warbonds, upcoming, added }, today) {
   grid("upcoming").replaceChildren(
-    ...upcoming.map(({ collection, entity }) =>
+    ...upcoming.map(({ collection, entity, carriers }) =>
       card(collection, entity, {
         tags: [
           tag("Coming soon", "accent"),
+          carriers && tag(collection === "passives" ? "New passive" : "New trait", "accent"),
           collection === "warbonds" &&
-            entity.releaseDate > today &&
+            entity.releaseDate >= today &&
             tag(`Out ${entity.releaseDate}`),
         ].filter(Boolean),
-        foot: sourceLine(entity.source ?? entity.variants?.[0]?.source),
+        foot: carriers
+          ? `With ${carriers.join(", ")}`
+          : sourceLine(entity.source ?? entity.variants?.[0]?.source),
       }),
     ),
   );
