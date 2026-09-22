@@ -16,7 +16,7 @@ catalog:
   "@biomejs/biome": 2.5.14
   # Self-hosted docs font (styleguide §3); the build copies its woff2 into dist/fonts.
   "@fontsource-variable/jetbrains-mono": ^5.3.0
-  "@types/node": ^24.13.4
+  "@types/node": ^24.13.6
   aws4fetch: ^1.0.20
   cheerio: 1.2.0
   # Node types for cheerio helpers; must match the domhandler cheerio resolves.

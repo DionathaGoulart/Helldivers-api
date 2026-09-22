@@ -8,13 +8,10 @@ updates:
       # Types must describe the runtime in .nvmrc; bump the major with Node itself.
       - dependency-name: "@types/node"
         update-types: ["version-update:semver-major"]
-    groups:
-      # Every bump touches pnpm-lock.yaml and pnpm-workspace.yaml, so one PR per
-      # package conflicts after each merge.
-      npm-minor-patch:
-        update-types: ["minor", "patch"]
-        # Pinned: WebP output bytes must not change unnoticed (arch §6.5).
-        exclude-patterns: ["sharp"]
+      # Must match the domhandler cheerio resolves; bump it together with cheerio.
+      - dependency-name: domhandler
+    # No `groups`: grouped updates rewrite the root importer's `catalog:`
+    # specifier in pnpm-lock.yaml, which fails `pnpm install --frozen-lockfile`.
   - package-ecosystem: github-actions
     directory: /
     schedule:
