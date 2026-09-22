@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-19.8dd462a3",
-    "generatedAt": "2026-09-19T22:54:59Z",
+    "dataVersion": "2026-09-22.966da4f8",
+    "generatedAt": "2026-09-22T11:59:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -26,9 +26,7 @@
     "wiki": {
       "title": "Orbital Precision Strike",
       "url": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "permitType": "offensive",
     "availability": "loadout",
@@ -48,15 +46,15 @@
     "cooldownVariants": [
       {
         "label": "With Morale Augmentation",
-        "seconds": 85.5
+        "seconds": 76
       },
       {
         "label": "With Zero-G Breech Loading",
-        "seconds": 81
+        "seconds": 72
       },
       {
         "label": "With All Upgrades",
-        "seconds": 76.95
+        "seconds": 68.4
       }
     ],
     "callInTimeS": 4.45,
@@ -152,15 +150,15 @@
     "statsRaw": {
       "Permit Type": "Offensive",
       "Traits": "Explosive • Orbital • Anti-Tank",
-      "Base Cooldown": "90s",
+      "Base Cooldown": "80s",
       "Unlock Level": "1",
       "General › Call-in Time › Standard": "4.45 seconds",
       "General › Call-in Time › Upgraded": "3.45 seconds",
       "General › Uses": "Unlimited",
-      "General › Cooldown › Standard": "90 seconds",
-      "General › Cooldown › With Morale Augmentation": "85.5 seconds",
-      "General › Cooldown › With Zero-G Breech Loading": "81 seconds",
-      "General › Cooldown › With All Upgrades": "76.95 seconds",
+      "General › Cooldown › Standard": "80 seconds",
+      "General › Cooldown › With Morale Augmentation": "76 seconds",
+      "General › Cooldown › With Zero-G Breech Loading": "72 seconds",
+      "General › Cooldown › With All Upgrades": "68.4 seconds",
       "Orbital Precision Strike › Cooldown": "90 s",
       "Orbital Precision Strike › Uses": "∞",
       "Orbital Precision Strike › Bombs": "1",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-19.8dd462a3",
-    "generatedAt": "2026-09-19T22:54:59Z",
+    "dataVersion": "2026-09-22.966da4f8",
+    "generatedAt": "2026-09-22T11:59:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,7 +12,7 @@
     "id": "shroud-of-the-juggernaut",
     "slug": "shroud-of-the-juggernaut",
     "name": "Shroud of the Juggernaut",
-    "upcoming": false,
+    "upcoming": true,
     "aliases": [],
     "description": null,
     "image": null,

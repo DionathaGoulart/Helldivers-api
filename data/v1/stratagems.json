@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-19.8dd462a3",
-    "generatedAt": "2026-09-19T22:54:59Z",
+    "dataVersion": "2026-09-22.966da4f8",
+    "generatedAt": "2026-09-22T11:59:18Z",
     "count": 114,
     "source": {
       "name": "The Helldivers Wiki",
@@ -11440,9 +11440,7 @@
       "wiki": {
         "title": "GL-52 De-Escalator",
         "url": "https://helldivers.wiki.gg/wiki/GL-52_De-Escalator",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "permitType": "supply",
       "availability": "loadout",
@@ -11702,8 +11700,13 @@
         "GL-52 P IE › AoE Effect › Demolition Force": "0",
         "GL-52 P IE › AoE Effect › Stagger Force": "0",
         "GL-52 P IE › AoE Effect › Push Force": "0",
+        "GL-52 P IE A › Arc › Arcs on Explosion": "x 10",
         "GL-52 P IE A › Arc › Arc Range": "10 m",
         "GL-52 P IE A › Arc › Arc Velocity": "2000 m/s",
+        "GL-52 P IE A › Arc › Arc Spread": "1 °",
+        "GL-52 P IE A › Arc › Chain Spread": "300 °",
+        "GL-52 P IE A › Arc › Chain Count": "2",
+        "GL-52 P IE A › Arc › Max Split": "2",
         "GL-52 P IE A › Damage › Element": "Arc",
         "GL-52 P IE A › Damage › Standard": "100 Arc",
         "GL-52 P IE A › Damage › vs. Durable": "70 Arc",
@@ -12609,7 +12612,7 @@
           "seconds": 410.4
         }
       ],
-      "callInTimeS": 5,
+      "callInTimeS": 9.75,
       "callInTimeUpgradedS": null,
       "uses": "unlimited",
       "unlockLevel": null,
@@ -12627,13 +12630,35 @@
       ],
       "supportWeapon": null,
       "backpack": {
-        "health": 200,
-        "armor": "light",
+        "health": null,
+        "armor": null,
         "capacity": null
       },
       "attacks": [
         {
-          "name": "Explosion Warp",
+          "name": "Fire",
+          "kind": "status",
+          "damage": {
+            "standard": 100,
+            "durable": 100,
+            "type": "Fire"
+          },
+          "penetration": {
+            "direct": "heavy",
+            "slightAngle": "heavy",
+            "largeAngle": "heavy",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": 0,
+            "stagger": 0,
+            "push": 0
+          }
+        },
+        {
+          "name": "LIFT-182 WARP PACK E",
           "kind": "explosion",
           "damage": {
             "standard": 1000,
@@ -12648,7 +12673,7 @@
           },
           "projectile": null,
           "area": {
-            "innerRadiusM": 1.4,
+            "innerRadiusM": 1.39999998,
             "outerRadiusM": 1.5,
             "shockwaveRadiusM": 2
           },
@@ -12669,24 +12694,47 @@
         "General › Cooldown › With Morale Augmentation": "456 seconds",
         "General › Cooldown › With Hand Carts": "432 seconds",
         "General › Cooldown › With All Upgrades": "410.4 seconds",
-        "LIFT-182 Warp Pack › Main Health": "200",
-        "LIFT-182 Warp Pack › Main Armor": "Light",
-        "LIFT-182 Warp Pack › Cooldown": "480 sec",
-        "LIFT-182 Warp Pack › Call-in Time": "5 s",
-        "LIFT-182 Warp Pack › Attacks › Explosion Warp": "Explosion",
-        "Explosion Warp › Area of Effect › Inner Radius": "1.4 m",
-        "Explosion Warp › Area of Effect › Outer Radius": "1.5 m",
-        "Explosion Warp › Area of Effect › Shockwave Radius": "2 m",
-        "Explosion Warp › Damage › Inner Radius": "1000 Explosion",
-        "Explosion Warp › Damage › Inner Durable": "1000 Explosion",
-        "Explosion Warp › Damage › Outer Radius": "999 - 0",
-        "Explosion Warp › Damage › Outer Durable": "999 - 0",
-        "Explosion Warp › Penetration › Direct": "Heavy",
-        "Explosion Warp › Penetration › Slight Angle": "Heavy",
-        "Explosion Warp › Penetration › Large Angle": "Heavy",
-        "Explosion Warp › AoE Effect › Demolition Force": "20",
-        "Explosion Warp › AoE Effect › Stagger Force": "25",
-        "Explosion Warp › AoE Effect › Push Force": "20"
+        "LIFT-182 WARP PACK › Upward Bias": "1.4 m",
+        "LIFT-182 WARP PACK › Downward Bias": "4 m",
+        "LIFT-182 WARP PACK › Max Survivable Unit Size": "Medium",
+        "LIFT-182 WARP PACK › Teleport Distance": "10 m",
+        "LIFT-182 WARP PACK › Safe Heat Threshold": "15 %",
+        "LIFT-182 WARP PACK › Unsafe Heat Threshold": "45 %",
+        "LIFT-182 WARP PACK › Heat Gain": "33 %/use",
+        "LIFT-182 WARP PACK › Heat Cooldown": "6 %/s",
+        "LIFT-182 WARP PACK › Unsafe Use Consequences › Limb/Effect": "Head / 10 DMG",
+        "LIFT-182 WARP PACK › Unsafe Use Consequences › Limb/Effect (2)": "Left Arm / 35 DMG",
+        "LIFT-182 WARP PACK › Unsafe Use Consequences › Limb/Effect (3)": "Right Arm / 35 DMG",
+        "LIFT-182 WARP PACK › Unsafe Use Consequences › Limb/Effect (4)": "Left Leg / 45 DMG",
+        "LIFT-182 WARP PACK › Unsafe Use Consequences › Limb/Effect (5)": "Right Leg / 45 DMG",
+        "LIFT-182 WARP PACK › Unsafe Use Consequences › Limb/Effect (6)": "Chest / Inflicts Fire",
+        "LIFT-182 WARP PACK › Attacks › Fire": "status",
+        "LIFT-182 WARP PACK › Attacks › LIFT-182 WARP PACK E": "Explosion",
+        "Fire › Status › Status Duration": "3 sec",
+        "Fire › Damage › Element": "Fire",
+        "Fire › Damage › Standard": "100 Fire",
+        "Fire › Damage › vs. Durable": "100 Fire",
+        "Fire › Penetration › Direct": "Heavy",
+        "Fire › Penetration › Slight Angle": "Heavy",
+        "Fire › Penetration › Large Angle": "Heavy",
+        "Fire › Penetration › Extreme Angle": "Unarmored",
+        "Fire › Special Effects › Demolition Force": "0",
+        "Fire › Special Effects › Stagger Force": "0",
+        "Fire › Special Effects › Push Force": "0",
+        "LIFT-182 WARP PACK E › Area of Effect › Inner Radius": "1.39999998 m",
+        "LIFT-182 WARP PACK E › Area of Effect › Outer Radius": "1.5 m",
+        "LIFT-182 WARP PACK E › Area of Effect › Shockwave Radius": "2 m",
+        "LIFT-182 WARP PACK E › Damage › Damage Element": "None",
+        "LIFT-182 WARP PACK E › Damage › Inner Radius": "1000 Explosion",
+        "LIFT-182 WARP PACK E › Damage › Inner Durable": "1000 Explosion",
+        "LIFT-182 WARP PACK E › Damage › Outer Radius": "999 - 0",
+        "LIFT-182 WARP PACK E › Damage › Outer Durable": "999 - 0",
+        "LIFT-182 WARP PACK E › Penetration › Direct": "Heavy",
+        "LIFT-182 WARP PACK E › Penetration › Slight Angle": "Heavy",
+        "LIFT-182 WARP PACK E › Penetration › Large Angle": "Heavy",
+        "LIFT-182 WARP PACK E › AoE Effect › Demolition Force": "20",
+        "LIFT-182 WARP PACK E › AoE Effect › Stagger Force": "25",
+        "LIFT-182 WARP PACK E › AoE Effect › Push Force": "20"
       },
       "source": {
         "type": "warbond",
@@ -17541,9 +17589,7 @@
       "wiki": {
         "title": "Orbital Precision Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "permitType": "offensive",
       "availability": "loadout",
@@ -17563,15 +17609,15 @@
       "cooldownVariants": [
         {
           "label": "With Morale Augmentation",
-          "seconds": 85.5
+          "seconds": 76
         },
         {
           "label": "With Zero-G Breech Loading",
-          "seconds": 81
+          "seconds": 72
         },
         {
           "label": "With All Upgrades",
-          "seconds": 76.95
+          "seconds": 68.4
         }
       ],
       "callInTimeS": 4.45,
@@ -17667,15 +17713,15 @@
       "statsRaw": {
         "Permit Type": "Offensive",
         "Traits": "Explosive • Orbital • Anti-Tank",
-        "Base Cooldown": "90s",
+        "Base Cooldown": "80s",
         "Unlock Level": "1",
         "General › Call-in Time › Standard": "4.45 seconds",
         "General › Call-in Time › Upgraded": "3.45 seconds",
         "General › Uses": "Unlimited",
-        "General › Cooldown › Standard": "90 seconds",
-        "General › Cooldown › With Morale Augmentation": "85.5 seconds",
-        "General › Cooldown › With Zero-G Breech Loading": "81 seconds",
-        "General › Cooldown › With All Upgrades": "76.95 seconds",
+        "General › Cooldown › Standard": "80 seconds",
+        "General › Cooldown › With Morale Augmentation": "76 seconds",
+        "General › Cooldown › With Zero-G Breech Loading": "72 seconds",
+        "General › Cooldown › With All Upgrades": "68.4 seconds",
         "Orbital Precision Strike › Cooldown": "90 s",
         "Orbital Precision Strike › Uses": "∞",
         "Orbital Precision Strike › Bombs": "1",

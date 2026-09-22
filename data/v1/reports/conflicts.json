@@ -293,25 +293,6 @@
     },
     {
       "collection": "stratagems",
-      "id": "lift-182-warp-pack",
-      "field": "callInTimeS",
-      "rule": 2,
-      "chosen": 5,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/LIFT-182_Warp_Pack",
-          "location": "General › Call-in Time",
-          "value": 9.75
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/LIFT-182_Warp_Pack",
-          "location": "LIFT-182 Warp Pack › Call-in Time",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
       "id": "md-17-anti-tank-mines",
       "field": "callInTimeS",
       "rule": 2,
@@ -402,6 +383,30 @@
           "page": "https://helldivers.wiki.gg/wiki/NUX-223_Hellbomb",
           "location": "NUX-223 Hellbomb › Call-in Time",
           "value": 5
+        }
+      ]
+    },
+    {
+      "collection": "stratagems",
+      "id": "orbital-precision-strike",
+      "field": "cooldownS",
+      "rule": 2,
+      "chosen": 90,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
+          "location": "infobox › Base Cooldown",
+          "value": 80
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
+          "location": "General › Cooldown › Standard",
+          "value": 80
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
+          "location": "Orbital Precision Strike › Cooldown",
+          "value": 90
         }
       ]
     },

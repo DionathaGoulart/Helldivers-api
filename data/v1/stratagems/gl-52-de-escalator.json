@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-19.8dd462a3",
-    "generatedAt": "2026-09-19T22:54:59Z",
+    "dataVersion": "2026-09-22.966da4f8",
+    "generatedAt": "2026-09-22T11:59:18Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "GL-52 De-Escalator",
       "url": "https://helldivers.wiki.gg/wiki/GL-52_De-Escalator",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "permitType": "supply",
     "availability": "loadout",
@@ -286,8 +284,13 @@
       "GL-52 P IE › AoE Effect › Demolition Force": "0",
       "GL-52 P IE › AoE Effect › Stagger Force": "0",
       "GL-52 P IE › AoE Effect › Push Force": "0",
+      "GL-52 P IE A › Arc › Arcs on Explosion": "x 10",
       "GL-52 P IE A › Arc › Arc Range": "10 m",
       "GL-52 P IE A › Arc › Arc Velocity": "2000 m/s",
+      "GL-52 P IE A › Arc › Arc Spread": "1 °",
+      "GL-52 P IE A › Arc › Chain Spread": "300 °",
+      "GL-52 P IE A › Arc › Chain Count": "2",
+      "GL-52 P IE A › Arc › Max Split": "2",
       "GL-52 P IE A › Damage › Element": "Arc",
       "GL-52 P IE A › Damage › Standard": "100 Arc",
       "GL-52 P IE A › Damage › vs. Durable": "70 Arc",
