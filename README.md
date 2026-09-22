@@ -280,6 +280,8 @@ with the item URL, the field and what the wiki says.
 `scrape.yml` runs at 18:07 America/Sao_Paulo, Sundays with a full refresh. A run that changes
 anything commits `data/` and deploys; a run that changes nothing commits nothing. Any failure
 leaves `data/v1` untouched and opens a `scraper-alert` issue, which the next green run closes.
+A failed run gets one catch-up at 06:07 on a fresh runner (the wiki's Cloudflare sometimes
+challenges one runner's IP); after a good run the catch-up skips without touching the wiki.
 
 Run it by hand from the Actions tab (`full_refresh`, `allow_drop`, `only`, `drill`).
 

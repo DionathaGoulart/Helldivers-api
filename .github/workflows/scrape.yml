@@ -5,6 +5,10 @@ on:
     # Once a day, 18:07 America/Sao_Paulo: away from the top-of-hour load spikes (plan D14).
     - cron: "7 18 * * *"
       timezone: "America/Sao_Paulo"
+    # Catch-up, 12 h later: runs only when the last finished run failed. A block is never retried
+    # inside a run (arch §6.2); this is a fresh runner, usually on another IP, half a day later.
+    - cron: "7 6 * * *"
+      timezone: "America/Sao_Paulo"
   workflow_dispatch:
     inputs:
       full_refresh:
@@ -34,7 +38,36 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions:
+      actions: read
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - id: check
+        name: Skip the catch-up after a good run
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SCHEDULE: ${{ github.event.schedule }}
+        run: |
+          if [ "$SCHEDULE" != "7 6 * * *" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          last="$(gh run list --repo "$GITHUB_REPOSITORY" --workflow scrape.yml --status completed \
+            --limit 1 --json conclusion --jq '.[0].conclusion')"
+          echo "last finished run: ${last:-none}"
+          if [ "$last" = "failure" ] || [ "$last" = "timed_out" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
   scrape:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-24.04
     # ~40 min for the pages; the first run with ~850 images took 94 min (plan phase 4).
     timeout-minutes: 150
