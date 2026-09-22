@@ -93,6 +93,20 @@ describe("HttpClient", () => {
     expect(refresh.requests[0]?.headers.has("if-none-match")).toBe(false);
   });
 
+  it("skips validators for a page asked fresh, and caches what comes back", async () => {
+    await client([html(PAGE, { etag: '"abc"' })]).http.get("/wiki/Stratagems");
+    const newer = PAGE.replace("Boosters", "Boosters and TD-110 Maelstrom");
+    const fresh = client([html(newer, { etag: '"abc"' })]);
+    const result = await fresh.http.get("/wiki/Stratagems", { fresh: true });
+
+    expect(fresh.requests[0]?.headers.has("if-none-match")).toBe(false);
+    expect(result).toMatchObject({ status: 200, fromCache: false });
+    expect(result.body.toString()).toBe(newer);
+    // The next plain request revalidates against the body just fetched.
+    const later = client([new Response(null, { status: 304 })]);
+    expect((await later.http.get("/wiki/Stratagems")).body.toString()).toBe(newer);
+  });
+
   it("retries network errors, 5xx and 429 with backoff, honoring Retry-After", async () => {
     const { http, clock } = client([
       new Error("socket hang up"),

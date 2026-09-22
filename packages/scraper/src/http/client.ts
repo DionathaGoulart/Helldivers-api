@@ -70,6 +70,8 @@ export interface HttpClientOptions {
 export interface GetOptions {
   /** The URL names immutable bytes (a versioned image): a cached body is reused without a request. */
   immutable?: boolean;
+  /** Never revalidate: the wiki answers 304 for a page whose transcluded rows changed. */
+  fresh?: boolean;
 }
 
 export interface HttpResult {
@@ -156,7 +158,7 @@ export class HttpClient {
       "user-agent": this.#options.userAgent,
       accept: url.pathname.startsWith("/images/") ? "image/*" : "text/html, text/plain;q=0.9",
     });
-    if (cached && !this.#options.fullRefresh) {
+    if (cached && !this.#options.fullRefresh && !options.fresh) {
       if (cached.etag) headers.set("if-none-match", cached.etag);
       if (cached.lastModified) headers.set("if-modified-since", cached.lastModified);
     }

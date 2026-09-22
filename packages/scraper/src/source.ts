@@ -21,8 +21,19 @@ export interface WikiSource {
 
 export class OnlineSource implements WikiSource {
   readonly offline = false;
+  readonly #fresh: ReadonlySet<string>;
 
-  constructor(readonly http: HttpClient) {}
+  /**
+   * `freshTitles`: pages fetched in full on every run. The index pages list rows transcluded from
+   * other pages, and the wiki keeps their `Last-Modified` when only those change: revalidated,
+   * TD-110 Maelstrom stayed off /wiki/Stratagems for days.
+   */
+  constructor(
+    readonly http: HttpClient,
+    freshTitles: Iterable<string> = [],
+  ) {
+    this.#fresh = new Set([...freshTitles].map(normalizeTitle));
+  }
 
   async robotsTxt(): Promise<string> {
     return (await this.http.get("/robots.txt")).body.toString("utf8");
@@ -30,7 +41,9 @@ export class OnlineSource implements WikiSource {
 
   async page(title: string): Promise<WikiPage> {
     const normalized = normalizeTitle(title);
-    const result = await this.http.get(titleToPath(normalized));
+    const result = await this.http.get(titleToPath(normalized), {
+      fresh: this.#fresh.has(normalized),
+    });
     return {
       title: normalized,
       url: result.url,

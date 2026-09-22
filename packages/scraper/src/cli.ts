@@ -3,6 +3,7 @@ import { join, resolve } from "node:path";
 import { parseArgs } from "node:util";
 import { Collection } from "@hd2/schemas";
 import { z } from "zod";
+import { PIPELINES } from "./collections/index.ts";
 import { ScraperEnv } from "./config.ts";
 import { DrillSource, drillBackend, drillFetch } from "./drill.ts";
 import { HttpCache } from "./http/cache.ts";
@@ -95,7 +96,10 @@ const backend =
 const images = backend && drill === "images" ? drillBackend(backend) : backend;
 
 const wiki = http
-  ? new OnlineSource(http)
+  ? new OnlineSource(
+      http,
+      PIPELINES.flatMap((pipeline) => pipeline.indexPages),
+    )
   : new FixtureSource(join(root, "packages", "scraper", "test", "fixtures", "wiki"));
 
 const report = await runScrape({
