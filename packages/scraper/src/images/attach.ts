@@ -25,6 +25,9 @@ import { COLLECTION_RENDITION } from "./rendition.ts";
 export const IMAGE_BUDGET_BYTES = 150 * 1024;
 export const MAX_FAILURE_RATIO = 0.05;
 
+/** The wiki's stand-in picture on a page still waiting for its own art (`Placeholder.png`). */
+const PLACEHOLDER_FILE = /^placeholder\b/i;
+
 /** A picture a pipeline found for one entity, or one pattern variant. */
 export interface ImageRequest {
   id: Id;
@@ -167,6 +170,11 @@ export async function attachImages(input: AttachImagesInput): Promise<AttachImag
       throw new Error(`${collection} has no image rendition`);
     }
     for (const { id, variant, image } of requests) {
+      // Published, it would pass for the item's picture; the entity stays without one instead.
+      if (PLACEHOLDER_FILE.test(image.file)) {
+        warnings.push(`${collection}/${id}: the wiki shows ${image.file}, a stand-in; no image`);
+        continue;
+      }
       stats.requested += 1;
       const base = keyBase(collection, id, variant);
       const version = imageVersion(image.src);

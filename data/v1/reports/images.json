@@ -5941,15 +5941,6 @@
       "bytes": 2026
     },
     {
-      "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
-      "wikiFile": "Placeholder.png",
-      "version": "4aae5f",
-      "rendition": "icon",
-      "width": 256,
-      "height": 192,
-      "bytes": 722
-    },
-    {
       "url": "/images/v1/stratagems/td-220-bastion-mk-xvi.39d96a04.webp",
       "wikiFile": "Bastion_MK_XVI_Stratagem_Icon_Background.svg",
       "version": "9de952",
@@ -7651,5 +7642,10 @@
       "bytes": 9122
     }
   ],
-  "orphans": []
+  "orphans": [
+    {
+      "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
+      "since": "2026-09-22"
+    }
+  ]
 }

@@ -79,6 +79,21 @@ describe("attachImages", () => {
     expect(result.stats.bytes).toBe(160 * 1024);
   });
 
+  it("publishes no image for the wiki's placeholder picture", async () => {
+    const backend = fakeBackend();
+    const result = await attach(
+      { stratagems: [booster("camera")] },
+      [["stratagems", [{ id: "camera", variant: null, image: icon("Placeholder.png") }]]],
+      backend,
+    );
+    expect(result.dataset.stratagems?.[0]?.image).toBeNull();
+    expect(result.warnings).toEqual([
+      "stratagems/camera: the wiki shows Placeholder.png, a stand-in; no image",
+    ]);
+    expect(backend.store.calls).toEqual([]);
+    expect(result.stats).toMatchObject({ requested: 0, fetched: 0, images: 0 });
+  });
+
   it("gives a pattern its first variant image and keys variants by target", async () => {
     const result = await attach({ patterns: [pattern("castellans-green")] }, [
       [

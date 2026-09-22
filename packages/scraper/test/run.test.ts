@@ -306,6 +306,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       "weapons/g-8-immolation: traits not listed on Equipment Traits: incendiary, explosive",
       "weapons/gl-15-evictor: traits not listed on Equipment Traits: explosive, rounds-reload",
       "weapons/p-34-breacher: traits not listed on Equipment Traits: explosive, one-handed",
+      "stratagems/tactical-video-camera: the wiki shows Placeholder.png, a stand-in; no image",
       // The two unreleased player cards have neither a Player Card picture nor a Cosmetics box.
       "player-cards/shroud-of-the-juggernaut: no image on the wiki",
       "player-cards/standard-of-rapid-evacuation: no image on the wiki",
@@ -314,13 +315,13 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     expect(report.dataVersion).toMatch(/^2026-09-15\.[a-f0-9]{8}$/);
     // Every picture uploaded once; 11 wiki files serve two entities (shared passive icons…).
     expect(report.images).toEqual({
-      requested: 850,
+      requested: 849,
       reused: 0,
-      fetched: 839,
-      uploaded: 850,
+      fetched: 838,
+      uploaded: 849,
       failed: 0,
       deleted: 0,
-      images: 850,
+      images: 849,
       orphans: 0,
       bytes: expect.any(Number),
     });
@@ -886,7 +887,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     const report = await run("2026-09-16T21:07:00Z", undefined, false, null, dataDir, images);
     expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
     // No wiki image request and no B2 call: every picture is in the manifest.
-    expect(report.images).toMatchObject({ requested: 850, reused: 850, fetched: 0, uploaded: 0 });
+    expect(report.images).toMatchObject({ requested: 849, reused: 849, fetched: 0, uploaded: 0 });
     expect(images.fetched).toEqual([]);
     expect(images.store.calls).toEqual([]);
     expect(await readTree(dataDir)).toEqual(before);
