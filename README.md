@@ -20,6 +20,8 @@ stats, an image and the wiki URL it came from.
 - **Examples:** [/examples](https://helldivers-api.dionatha.com.br/examples) — armor sets,
   weapons, stratagems and the rest laid out like a normal site, with a button that reveals the
   code, every request and the JSON behind each section
+- **What's new:** [/new](https://helldivers-api.dionatha.com.br/new) — the last 30 days: announced
+  items, warbonds released with everything they sell, and what the daily run added
 - **No key, no signup to start.** Static files are free and unlimited; query and search have a
   small anonymous limit and more on request — see [Limits and access](#limits-and-access). CORS is
   open to every origin.

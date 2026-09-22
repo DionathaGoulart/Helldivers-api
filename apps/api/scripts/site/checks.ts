@@ -18,6 +18,8 @@ export const REQUIRED_PAGES = [
   "docs/reference.js",
   "examples.html",
   "examples.js",
+  "new.html",
+  "new.js",
 ];
 export const MAX_FILE_BYTES = 25 * 1024 * 1024;
 

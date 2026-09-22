@@ -20,16 +20,18 @@ const PAGES = [
   "docs/errors.html",
   "docs/access.html",
   "examples.html",
+  "new.html",
 ];
 
 /** The site nav, in order, on every page but the 404; each page marks its own link. */
-const NAV = ["/", "/docs/", "/docs/access", "/docs/errors", "/examples", REPO_URL];
+const NAV = ["/", "/docs/", "/docs/access", "/docs/errors", "/examples", "/new", REPO_URL];
 const OWN_LINK: Record<string, string> = {
   "index.html": "/",
   "docs/index.html": "/docs/",
   "docs/access.html": "/docs/access",
   "docs/errors.html": "/docs/errors",
   "examples.html": "/examples",
+  "new.html": "/new",
 };
 
 describe("docs site", () => {
@@ -89,6 +91,27 @@ describe("docs site", () => {
     }
   });
 
+  it("never redeclares a top-level name of app.js, which every page loads first", async () => {
+    // Classic scripts share one global scope: a second `const status` is a SyntaxError and the
+    // whole page script never runs.
+    const names = (js: string) =>
+      [...js.matchAll(/^(?:async )?(?:const|let|function) ([A-Za-z_$][\w$]*)/gm)].map((m) => m[1]);
+    const shared = new Set(names(await page("app.js")));
+    for (const name of ["examples.js", "new.js"]) {
+      expect({ name, clash: names(await page(name)).filter((n) => shared.has(n)) }).toEqual({
+        name,
+        clash: [],
+      });
+    }
+  });
+
+  it("builds /new from static files only, never the limited routes", async () => {
+    const js = await page("new.js");
+    expect(js).toContain('get("/all.json")');
+    expect(js).toContain('get("/changelog.json")');
+    expect(js).not.toMatch(/\/query\/|\/search/);
+  });
+
   it("gives every problem type a section to link to", async () => {
     const html = await page("docs/errors.html");
     expect(ERRORS_URL).toBe(`${SITE_URL}/docs/errors`);
@@ -137,7 +160,7 @@ describe("docs site", () => {
   });
 
   it("keeps every hex value in theme.css (styleguide §0.4)", async () => {
-    for (const name of [...PAGES, "app.js", "docs/reference.js", "examples.js"]) {
+    for (const name of [...PAGES, "app.js", "docs/reference.js", "examples.js", "new.js"]) {
       expect({ name, hex: (await page(name)).match(/#[0-9a-fA-F]{6}\b/g) }).toEqual({
         name,
         hex: null,

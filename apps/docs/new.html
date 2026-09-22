@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>What's new · Helldivers 2 Data API</title>
+    <meta
+      name="description"
+      content="What reached Helldivers 2 and the catalog in the last 30 days: announced items, new warbonds with everything they sell, and the pages the daily run added."
+    />
+    <link rel="icon" href="data:," />
+    <script>
+      (() => {
+        let saved = null;
+        try {
+          saved = localStorage.getItem("hd2api-theme");
+        } catch {}
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
+        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+      })();
+    </script>
+    <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="/theme.css" />
+    <script src="/app.js" defer></script>
+    <script src="/new.js" defer></script>
+    <style>
+      /* What's new layout (the item cards are in theme.css). Structure only: every colour, frame
+         and shadow comes from theme.css. */
+      .new-page {
+        max-width: 80rem;
+      }
+
+      .new-warbond + .new-warbond {
+        border-top: var(--frame-border) solid var(--base-300);
+        padding-top: 1.5rem;
+      }
+
+      .new-warbond-title {
+        margin: 0;
+        font-size: 1.125rem;
+        font-weight: 800;
+      }
+
+      .new-empty {
+        grid-column: 1 / -1;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <a class="icon-btn skip-link" href="#main">Skip to content</a>
+    <div class="terminal-scanline" aria-hidden="true"></div>
+
+    <header class="screen-pad site-header">
+      <p class="screen-kicker"><span class="sigil">&gt;</span> WHAT'S NEW</p>
+      <nav class="header-actions" aria-label="Site">
+        <a class="icon-btn" href="/">Home</a>
+        <a class="icon-btn" href="/docs/">Reference</a>
+        <a class="icon-btn" href="/docs/access">Access</a>
+        <a class="icon-btn" href="/docs/errors">Errors</a>
+        <a class="icon-btn" href="/examples">Examples</a>
+        <a class="icon-btn" href="/new" aria-current="page">New</a>
+        <a class="icon-btn" href="https://github.com/DionathaGoulart/Helldivers-api">GitHub</a>
+        <button class="icon-btn" type="button" id="theme-toggle">
+          Theme: <span id="theme-name">rose</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="main" class="page new-page screen-pad stack animate-enter">
+      <section class="hero stack">
+        <h1 class="screen-title">What's new</h1>
+        <p class="lede">
+          The last 30 days of Helldivers 2 in the catalog: what is announced, the warbonds that came
+          out with everything they sell, and the pages the daily run found for the first time.
+        </p>
+        <p class="micro" id="new-status" aria-live="polite">
+          <span class="terminal-cursor">Fetching</span>
+        </p>
+      </section>
+
+      <section class="stack" id="upcoming" aria-labelledby="upcoming-title">
+        <h2 class="section-label" id="upcoming-title">
+          <span class="sigil">&gt;</span> Coming soon
+        </h2>
+        <p class="hint">
+          Announced and on the wiki, not in the game yet: <code>upcoming: true</code>, or a warbond
+          whose <code>releaseDate</code> is still ahead.
+        </p>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="stack" id="warbonds" aria-labelledby="warbonds-title">
+        <h2 class="section-label" id="warbonds-title">
+          <span class="sigil">&gt;</span> New warbonds
+        </h2>
+        <p class="hint">
+          Released in the last 30 days, newest first, with every item they sell in page order.
+        </p>
+        <div class="stack" data-cards></div>
+      </section>
+
+      <section class="stack" id="added" aria-labelledby="added-title">
+        <h2 class="section-label" id="added-title">
+          <span class="sigil">&gt;</span> Added to the catalog
+        </h2>
+        <p class="hint">
+          Items the daily run found for the first time, newest first, from the changelog. Most are
+          new to the game; a few are older pages the wiki only now describes.
+        </p>
+        <div class="ex-grid" data-cards></div>
+      </section>
+
+      <section class="panel" aria-labelledby="built-title">
+        <div class="window-bar">
+          <span class="window-bar-title" id="built-title">NEW.JS</span>
+          <span class="window-dots" aria-hidden="true"><span></span><span></span><span></span></span>
+        </div>
+        <div class="panel-body">
+          <p class="section-label"><span class="sigil">&gt;</span> Two static files, no limit</p>
+          <pre><code>const all = await get("/all.json");       // { weapons: [...], stratagems: [...], ... }
+const log = await get("/changelog.json"); // newest entry first
+const since = new Date(Date.now() - 30 * 86_400_000).toISOString().slice(0, 10);
+
+const upcoming = Object.values(all).flat().filter((item) =&gt; item.upcoming);
+const warbonds = all.warbonds.filter((warbond) =&gt; warbond.releaseDate &gt;= since);
+const added = log
+  .filter((entry) =&gt; entry.date &gt;= since)
+  .flatMap((entry) =&gt; entry.changes.filter((change) =&gt; change.kind === "added"));</code></pre>
+          <p class="hint">
+            <code>get</code> is the helper of the <a href="/examples">examples</a>. This page runs
+            the same lines, then shows each item once: a new warbond keeps what it sells, and what is
+            announced is not repeated as added. Sync <code>/v1/all.json</code> once a day and your
+            site can do the same.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="screen-pad site-footer">
+      <p class="micro">
+        Data from <a href="https://helldivers.wiki.gg">The Helldivers Wiki</a>, thank you
+        (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>) · by
+        <a href="https://github.com/DionathaGoulart">Dionatha Goulart</a> · unofficial, not
+        affiliated with Arrowhead Game Studios · game images are Arrowhead's ·
+        <a href="https://github.com/DionathaGoulart/Helldivers-api">source</a>
+      </p>
+    </footer>
+  </body>
+</html>
