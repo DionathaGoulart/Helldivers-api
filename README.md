@@ -263,6 +263,14 @@ picks the item page over the index, writes both into
 [`/v1/reports/conflicts.json`](https://helldivers-api.dionatha.com.br/v1/reports/conflicts.json) and
 keeps the raw strings in `statsRaw`.
 
+Two kinds of field are the wiki's text, unedited, and vary from page to page: `source.label`
+(`Helldivers Mobilize` or `Helldivers Mobilize!`, `Halo: ODST`, `Steeled Veterans P2`) and every
+string in `statsRaw` (`700` on one page, `700 rpm` on the next). Match warbonds with
+`source.warbondId` and `source.page`, and read stats from the typed fields (`firearm`, `throwable`,
+`melee`, `attacks`). Each field is described in the JSON Schemas under
+[`/v1/schemas/`](https://helldivers-api.dionatha.com.br/v1/schemas/weapon.json) and in the
+[reference](https://helldivers-api.dionatha.com.br/docs/).
+
 Found a field that is wrong? Open a
 [data error issue](https://github.com/DionathaGoulart/Helldivers-api/issues/new?template=data-error.yml)
 with the item URL, the field and what the wiki says.

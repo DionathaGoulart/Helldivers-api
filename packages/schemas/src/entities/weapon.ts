@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Base, Id, Penetration, Source } from "../common.ts";
+import { Base, Id, Penetration, Source, StatsRaw } from "../common.ts";
 
 export const FiringMode = z.enum(["auto", "semi", "burst", "volley", "charge", "other"]);
 
@@ -44,9 +44,19 @@ export const Attack = z.object({
 
 export const FirearmStats = z.object({
   firingModes: z.array(FiringMode),
-  fireRateRpm: z.array(z.number().positive()), // MG-43: [630, 760, 900]
+  fireRateRpm: z
+    .array(z.number().positive())
+    .describe(
+      "Rounds per minute, one value per rate the weapon can fire at (MG-43: 630, 760, 900). Empty when the wiki gives none: flamethrowers and beam lasers fire continuously, and a new page may not be filled in yet.",
+    ),
   dps: z.array(z.number().nonnegative()),
-  capacity: z.number().int().nullable(),
+  capacity: z
+    .number()
+    .int()
+    .nullable()
+    .describe(
+      "Rounds per magazine. Null for heat weapons, whose wiki capacity is seconds of fire (kept in `statsRaw`).",
+    ),
   // Rounds-reload weapons count rounds in the four fields below (arch §5.4).
   spareMagazines: z.number().int().nullable(),
   startingMagazines: z.number().int().nullable(),
@@ -73,7 +83,9 @@ export const ThrowableStats = z.object({
 });
 
 export const MeleeStats = z.object({
-  fireRateRpm: z.array(z.number().positive()), // swings per minute; CQC-19: [117]
+  fireRateRpm: z
+    .array(z.number().positive())
+    .describe("Swings per minute, which the wiki calls Fire Rate (CQC-19 Stun Lance: 117)."),
 });
 
 export const Weapon = z.object({
@@ -92,11 +104,13 @@ export const Weapon = z.object({
     "standard",
   ]),
   traitIds: z.array(Id),
-  firearm: FirearmStats.nullable(), // null for melee and throwables
-  throwable: ThrowableStats.nullable(), // null unless category = throwable
-  melee: MeleeStats.nullable(), // null unless subcategory = melee
+  firearm: FirearmStats.nullable().describe("Gun stats; null for melee weapons and throwables."),
+  throwable: ThrowableStats.nullable().describe(
+    "Grenade and throwing-weapon stats; null unless `category` is `throwable`.",
+  ),
+  melee: MeleeStats.nullable().describe("Melee stats; null unless `subcategory` is `melee`."),
   attacks: z.array(Attack),
-  statsRaw: z.record(z.string(), z.string()),
+  statsRaw: StatsRaw,
   source: Source,
 });
 

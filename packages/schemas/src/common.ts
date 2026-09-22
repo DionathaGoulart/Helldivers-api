@@ -27,7 +27,11 @@ export const WikiFlag = z.enum(["potentially_outdated", "broken_file_links", "st
 export const WikiRef = z.object({
   title: z.string().min(1), // canonical page title
   url: z.url({ protocol: /^https$/, hostname: /^helldivers\.wiki\.gg$/ }), // /wiki/<Title>[#anchor]
-  flags: z.array(WikiFlag),
+  flags: z
+    .array(WikiFlag)
+    .describe(
+      "Maintenance banners the wiki shows on the page, copied as they are. They describe the wiki page, not this API's parsing.",
+    ),
 });
 
 export const ImageUrl = z.string().regex(/^\/images\/v1\/[a-z-]+\/[a-z0-9-]+\.[a-f0-9]{8}\.webp$/);
@@ -58,9 +62,22 @@ export const SourceType = z.enum([
 export const Source = z
   .object({
     type: SourceType,
-    label: z.string(), // raw wiki text, e.g. "Castellan's Creed P1"
-    warbondId: Id.nullable(),
-    page: z.number().int().positive().nullable(),
+    label: z
+      .string()
+      .describe(
+        "The wiki's own text for the source, unedited: spelling varies between pages (`Helldivers Mobilize` and `Helldivers Mobilize!`, straight and curly apostrophes, `Halo: ODST` for Obedient Democracy Support Troopers) and warbond labels can end with the page (`Steeled Veterans P2`). Match and name warbonds with `warbondId` and `page`, never with this text.",
+      ),
+    warbondId: Id.nullable().describe(
+      "The warbond's id in /v1/warbonds.json when `type` is `warbond`, else null. Its `name` there is the display name.",
+    ),
+    page: z
+      .number()
+      .int()
+      .positive()
+      .nullable()
+      .describe(
+        "The warbond page that unlocks the item (1 = first) when `type` is `warbond`, else null.",
+      ),
     cost: Cost.nullable(),
     rotating: z.boolean().nullable(), // superstore only; null elsewhere
   })
@@ -80,12 +97,25 @@ export const Base = {
   id: Id,
   slug: Id,
   name: z.string().min(1),
-  upcoming: z.boolean(), // announced, not in the game yet (wiki category "Unreleased Content")
+  upcoming: z
+    .boolean()
+    .describe(
+      'True while the wiki lists the item as announced but not in the game yet (its "Unreleased Content" category).',
+    ),
   aliases: z.array(z.string()),
   description: z.string().nullable(),
-  image: Image.nullable(),
+  image: Image.nullable().describe(
+    "A picture served by this API, or null while the wiki has none of its own. The URL is content-hashed: cache it forever. Sizes are the wiki file's, never enlarged, so a new item's provisional art can be smaller than the rest of its collection.",
+  ),
   wiki: WikiRef,
 };
+
+/** The raw bag of weapon and stratagem pages (arch §5.1). */
+export const StatsRaw = z
+  .record(z.string(), z.string())
+  .describe(
+    "Every stat row of the wiki page as label → text, unedited: units, spelling and labels differ between pages (a grenade has `Damage` where a gun has `Standard Damage`; one infobox says `700`, another `700 rpm`). Read the typed fields first; this bag is for what they do not cover.",
+  );
 
 export const Penetration = z
   .string()

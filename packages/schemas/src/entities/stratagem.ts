@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { Base, Department, Id, Penetration, Source } from "../common.ts";
+import { Base, Department, Id, Penetration, Source, StatsRaw } from "../common.ts";
 import { Attack, FirearmStats } from "./weapon.ts";
 
 export const Direction = z.enum(["up", "down", "left", "right"]);
@@ -43,7 +43,7 @@ export const Stratagem = z
       })
       .nullable(),
     attacks: z.array(Attack),
-    statsRaw: z.record(z.string(), z.string()),
+    statsRaw: StatsRaw,
     source: Source,
   })
   .refine((stratagem) => stratagem.upcoming || stratagem.code.length > 0, {
