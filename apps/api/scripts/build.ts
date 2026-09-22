@@ -21,7 +21,7 @@ const docsDir = join(appDir, "..", "docs");
 const dataDir = join(resolve(rootDir, process.env.DATA_DIR ?? "data"), "v1");
 
 // Self-hosted docs font (styleguide §3): the latin subsets of the variable family, copied out of
-// the package so `apps/docs` stays free of binaries and the page loads no third-party font.
+// the package so `apps/docs` stays free of font binaries and the page loads no third-party font.
 const FONT_FILES = [
   "jetbrains-mono-latin-wght-normal.woff2",
   "jetbrains-mono-latin-ext-wght-normal.woff2",
