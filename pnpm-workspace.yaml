@@ -20,7 +20,7 @@ catalog:
   aws4fetch: ^1.0.20
   cheerio: 1.2.0
   # Node types for cheerio helpers; must match the domhandler cheerio resolves.
-  domhandler: 5.0.3
+  domhandler: 6.0.1
   # Bundles the Worker `build/worker.js` (arch §8.1); same minor as the one wrangler ships.
   esbuild: ^0.28.2
   hono: ^4.13.8
