@@ -3,12 +3,12 @@
 // readable without it, this only fills in what the dataset knows.
 
 const THEME_KEY = "hd2api-theme";
-const THEMES = ["crimson", "rose"];
+const THEMES = ["yellow", "black"];
 
 const root = document.documentElement;
 
 function currentTheme() {
-  return THEMES.includes(root.dataset.theme) ? root.dataset.theme : "rose";
+  return THEMES.includes(root.dataset.theme) ? root.dataset.theme : "black";
 }
 
 function applyTheme(theme) {
@@ -20,14 +20,14 @@ function applyTheme(theme) {
   }
   const button = document.getElementById("theme-toggle");
   if (!button) return;
-  const other = theme === "rose" ? "crimson" : "rose";
+  const other = theme === "black" ? "yellow" : "black";
   const name = button.querySelector("#theme-name");
   if (name) name.textContent = theme;
   button.setAttribute("aria-label", `Theme ${theme}. Switch to ${other} (Shift+T)`);
 }
 
 function toggleTheme() {
-  applyTheme(currentTheme() === "rose" ? "crimson" : "rose");
+  applyTheme(currentTheme() === "black" ? "yellow" : "black");
 }
 
 applyTheme(currentTheme());

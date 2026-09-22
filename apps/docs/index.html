@@ -9,15 +9,15 @@
       content="Free, public, read-only JSON API with the Helldivers 2 catalog: weapons, stratagems, armor, warbonds and cosmetics, built from The Helldivers Wiki."
     />
     <link rel="icon" href="data:," />
-    <!-- Theme before paint (styleguide §0.2): default rose, prefers-color-scheme on a first visit. -->
+    <!-- Theme before paint (styleguide §0.2): default black, prefers-color-scheme on a first visit. -->
     <script>
       (() => {
         let saved = null;
         try {
           saved = localStorage.getItem("hd2api-theme");
         } catch {}
-        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
-        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "yellow" : "black";
+        document.documentElement.dataset.theme = saved === "yellow" || saved === "black" ? saved : preferred;
       })();
     </script>
     <link rel="preload" href="/fonts/jetbrains-mono-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
@@ -39,7 +39,7 @@
         <a class="icon-btn" href="/new">New</a>
         <a class="icon-btn" href="https://github.com/DionathaGoulart/Helldivers-api">GitHub</a>
         <button class="icon-btn" type="button" id="theme-toggle">
-          Theme: <span id="theme-name">rose</span>
+          Theme: <span id="theme-name">black</span>
         </button>
       </nav>
     </header>

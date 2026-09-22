@@ -11,8 +11,8 @@
         try {
           saved = localStorage.getItem("hd2api-theme");
         } catch {}
-        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "crimson" : "rose";
-        document.documentElement.dataset.theme = saved === "crimson" || saved === "rose" ? saved : preferred;
+        const preferred = matchMedia("(prefers-color-scheme: light)").matches ? "yellow" : "black";
+        document.documentElement.dataset.theme = saved === "yellow" || saved === "black" ? saved : preferred;
       })();
     </script>
     <link rel="stylesheet" href="/theme.css" />

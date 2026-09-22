@@ -106,7 +106,7 @@ if (typeof Scalar === "undefined") {
     customCss,
     hideDarkModeToggle: true,
     hideClientButton: true,
-    darkMode: document.documentElement.dataset.theme !== "crimson",
+    darkMode: document.documentElement.dataset.theme !== "yellow",
     metaData: { title: "Helldivers 2 Data API reference" },
   });
   loading?.remove();

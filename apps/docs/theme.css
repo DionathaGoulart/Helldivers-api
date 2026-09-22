@@ -50,28 +50,24 @@
     U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* §2.1 — raw palette: the only hex in the project. */
+/* §2.1 — raw palette: the only hex in the project. Brand = the logo: yellow #fbee23 + black. */
 :root {
-  --palette-cream: #f2efe7;
-  --palette-white: #ffffff;
-  --palette-ink: #1a0a0a;
-  --palette-noir: #121212;
-  --palette-noir-raised: #1a1a1a;
-  --palette-near-black: #0d0d0d;
-  --palette-crimson: #dc143c;
-  --palette-crimson-deep: #c8102e;
-  --palette-rose: #e8729a;
+  --palette-yellow: #fbee23;
+  --palette-yellow-raised: #fdf58a;
+  --palette-black: #000000;
+  --palette-black-raised: #141414;
   --palette-info: #2563eb;
   --palette-info-deep: #1d4ed8;
   --palette-success: #16a34a;
+  --palette-success-deep: #166534;
   --palette-warning: #d97706;
-  --palette-error: #dc2626;
-  --palette-success-deep: #15803d;
-  --palette-warning-deep: #b45309;
+  --palette-warning-deep: #92400e;
+  --palette-error-deep: #b91c1c;
   --palette-info-soft: #60a5fa;
   --palette-success-soft: #4ade80;
   --palette-warning-soft: #fbbf24;
   --palette-error-soft: #f87171;
+  --palette-white: #ffffff;
   --palette-scanline-light: rgba(0, 0, 0, 0.05);
   --palette-scanline-dark: rgba(0, 0, 0, 0.2);
 
@@ -84,40 +80,41 @@
   --font-mono: "JetBrains Mono Variable", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 
-/* §2.2 — crimson (light). Also the fallback on :root so a page without data-theme still reads. */
+/* §2.2 — yellow (light): yellow first, black second. Also the fallback on :root so a page
+ * without data-theme still reads. The deep status tones keep 4.5:1 on the yellow. */
 :root,
-[data-theme="crimson"] {
+[data-theme="yellow"] {
   color-scheme: light;
-  --base-100: var(--palette-cream);
-  --base-200: var(--palette-white);
-  --base-300: var(--palette-ink);
-  --base-content: var(--palette-ink);
-  --accent: var(--palette-crimson);
-  --accent-content: var(--palette-white);
-  --accent-text: var(--palette-crimson-deep);
+  --base-100: var(--palette-yellow);
+  --base-200: var(--palette-yellow-raised);
+  --base-300: var(--palette-black);
+  --base-content: var(--palette-black);
+  --accent: var(--palette-black);
+  --accent-content: var(--palette-yellow);
+  --accent-text: var(--palette-black);
   --info: var(--palette-info);
   --info-text: var(--palette-info-deep);
   --success: var(--palette-success);
   --success-text: var(--palette-success-deep);
   --warning: var(--palette-warning);
   --warning-text: var(--palette-warning-deep);
-  --error: var(--palette-error);
-  --error-text: var(--palette-error);
+  --error: var(--palette-error-deep);
+  --error-text: var(--palette-error-deep);
   --error-content: var(--palette-white);
-  --shadow: var(--palette-ink);
+  --shadow: var(--palette-black);
   --scanline-color: var(--palette-scanline-light);
 }
 
-/* §2.2 — rose (dark), the default theme (§0.2). The frame colour is the light text colour. */
-[data-theme="rose"] {
+/* §2.2 — black (dark), the default theme (§0.2): the same pair swapped, black first. */
+[data-theme="black"] {
   color-scheme: dark;
-  --base-100: var(--palette-noir);
-  --base-200: var(--palette-noir-raised);
-  --base-300: var(--palette-cream);
-  --base-content: var(--palette-cream);
-  --accent: var(--palette-rose);
-  --accent-content: var(--palette-near-black);
-  --accent-text: var(--palette-rose);
+  --base-100: var(--palette-black);
+  --base-200: var(--palette-black-raised);
+  --base-300: var(--palette-yellow);
+  --base-content: var(--palette-yellow);
+  --accent: var(--palette-yellow);
+  --accent-content: var(--palette-black);
+  --accent-text: var(--palette-yellow);
   --info: var(--palette-info-soft);
   --info-text: var(--palette-info-soft);
   --success: var(--palette-success-soft);
@@ -126,8 +123,8 @@
   --warning-text: var(--palette-warning-soft);
   --error: var(--palette-error-soft);
   --error-text: var(--palette-error-soft);
-  --error-content: var(--palette-near-black);
-  --shadow: var(--palette-rose); /* §2.2: the hard shadow is accent in the dark theme */
+  --error-content: var(--palette-black);
+  --shadow: var(--palette-yellow);
   --scanline-color: var(--palette-scanline-dark);
 }
 
@@ -465,7 +462,7 @@ summary,
 
 .tag-success {
   background: var(--success);
-  color: var(--palette-near-black);
+  color: var(--palette-black);
 }
 
 .tag-error {
