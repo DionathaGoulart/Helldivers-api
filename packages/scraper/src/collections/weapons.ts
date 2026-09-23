@@ -44,7 +44,11 @@ export const weaponsPipeline: CollectionPipeline<"weapons"> = {
 
   async scrape(context: ScrapeContext) {
     const { source, idLock, logger, dataset, overrides } = context;
-    const resolveTraits = traitResolver(dataset["weapon-traits"], "weapons");
+    const resolveTraits = traitResolver(
+      dataset["weapon-traits"],
+      "weapons",
+      overrides.traitAliases,
+    );
     const resolveSource = itemSourceResolver(context);
 
     const index = await source.page(WEAPONS_INDEX);

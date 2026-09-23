@@ -81,17 +81,20 @@ export function itemSourceResolver({ source, overrides, warbonds }: ScrapeContex
   };
 }
 
-/** Trait links (`/wiki/Equipment_Traits#<anchor>`) → weapon-trait ids; the collection must be scraped first. */
+/**
+ * Trait links (`/wiki/Equipment_Traits#<anchor>`) → weapon-trait ids; the collection must be
+ * scraped first. `aliases` (data/overrides/trait-aliases.json) maps a misspelled heading the
+ * wiki links to the trait it stands for.
+ */
 export function traitResolver(
   traits: readonly WeaponTrait[] | undefined,
   collection: "weapons" | "stratagems",
+  aliases: Readonly<Record<string, Id>>,
 ) {
   if (!traits) {
     throw new Error(`${collection} need the weapon-traits collection: scrape weapon-traits first`);
   }
-  const byAnchor = new Map(
-    traits.map((trait) => [decodeURIComponent(new URL(trait.wiki.url).hash.slice(1)), trait.id]),
-  );
+  const byAnchor = traitAnchors(traits, aliases);
   return (links: readonly RawLink[], page: string): Id[] => [
     ...new Set(
       links.map((link) => {
@@ -119,4 +122,22 @@ export function passiveResolver(passives: readonly Passive[] | undefined) {
     }
     return passive;
   };
+}
+
+/** Heading anchor → trait id: the anchors of `wiki.url` plus the aliased misspellings. */
+export function traitAnchors(
+  traits: readonly WeaponTrait[],
+  aliases: Readonly<Record<string, Id>>,
+): Map<string, Id> {
+  const byAnchor = new Map(
+    traits.map((trait) => [decodeURIComponent(new URL(trait.wiki.url).hash.slice(1)), trait.id]),
+  );
+  const ids = new Set(traits.map((trait) => trait.id));
+  for (const [anchor, id] of Object.entries(aliases)) {
+    if (!ids.has(id)) {
+      throw new Error(`data/overrides/trait-aliases.json: "${anchor}" is not a trait id: ${id}`);
+    }
+    byAnchor.set(anchor, id);
+  }
+  return byAnchor;
 }

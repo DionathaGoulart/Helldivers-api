@@ -188,7 +188,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     if (scraped.has("weapon-traits") || scraped.has("weapons") || scraped.has("stratagems")) {
       const traits = await source.page(EQUIPMENT_TRAITS_INDEX);
       const tables = parseEquipmentTraits(traits.html, { url: traits.url });
-      report.warnings.push(...checkTraitTables(next, tables));
+      report.warnings.push(...checkTraitTables(next, tables, overrides.traitAliases));
     }
     report.counts = results.map(({ collection, entities }) => ({
       collection,

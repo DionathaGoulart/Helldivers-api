@@ -33,7 +33,12 @@ import { fakeBackend } from "./images/fake-backend.ts";
 // E2E offline (arch §11): fixtures → data/v1 in a temporary DATA_DIR.
 
 const repoOverrides = join(import.meta.dirname, "..", "..", "..", "data", "overrides");
-const INPUT_OVERRIDES = ["warbond-aliases.json", "source-labels.json", "armor-sets.json"];
+const INPUT_OVERRIDES = [
+  "warbond-aliases.json",
+  "source-labels.json",
+  "trait-aliases.json",
+  "armor-sets.json",
+];
 
 /** Fixture source whose Boosters index lost some rows. */
 class DroppingSource implements WikiSource {
@@ -55,6 +60,42 @@ class DroppingSource implements WikiSource {
     $("table.wikitable tr")
       .filter((_, tr) => this.dropped.includes($(tr).children("td").eq(1).text().trim()))
       .remove();
+    return { ...page, html: $.html() };
+  }
+}
+
+/** Fixture source whose Equipment Traits page tables TD-110 Maelstrom under "Anti Tank" (2026-09-23). */
+class MisspelledTraitSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  async page(title: string): Promise<WikiPage> {
+    const page = await this.#inner.page(title);
+    if (title !== "Equipment Traits") {
+      return page;
+    }
+    const $ = cheerio.load(page.html);
+    $("#All_Traits")
+      .closest(".mw-heading, h2")
+      .nextAll("ol")
+      .first()
+      .append("<li>Anti Tank - 1 unique gear items</li>");
+    const antiTank = $("h3:has(#Anti-Tank), .mw-heading:has(#Anti-Tank)").first();
+    antiTank
+      .nextAll("table.wikitable")
+      .first()
+      .after(
+        `<h3><span class="mw-headline" id="Anti_Tank">Anti Tank</span></h3>
+       <table class="wikitable"><tbody>
+         <tr><th>Page Name</th><th>Name</th><th>Type</th><th>Trait</th></tr>
+         <tr><td><a href="/wiki/TD-110_Maelstrom" title="TD-110 Maelstrom">TD-110 Maelstrom</a></td>
+             <td>TD-110 Maelstrom</td><td>Stratagem</td><td>Anti Tank</td></tr>
+       </tbody></table>`,
+      );
     return { ...page, html: $.html() };
   }
 }
@@ -1264,6 +1305,30 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     const report = await run("2026-09-16T21:07:00Z", undefined, false, ["emotes"]);
     expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
     expect(await readTree(dataDir)).toEqual(before);
+  });
+
+  it("folds a misspelled trait table into the trait named in data/overrides/trait-aliases.json", async () => {
+    await fromBaseline();
+    const report = await run("2026-09-23T12:00:00Z", new MisspelledTraitSource(), false, [
+      "weapon-traits",
+    ]);
+    expect(report).toMatchObject({ ok: true, changed: false, changes: [], failure: null });
+    expect(report.counts).toEqual([{ collection: "weapon-traits", before: 28, after: 28 }]);
+  });
+
+  it("fails on a misspelled trait table that has no alias", async () => {
+    await fromBaseline();
+    await writeFile(join(dataDir, "overrides", "trait-aliases.json"), "{}");
+    const report = await run("2026-09-23T12:00:00Z", new MisspelledTraitSource(), false, [
+      "weapon-traits",
+    ]);
+    expect(report.failure).toEqual({
+      kind: "error",
+      collection: "weapon-traits",
+      messages: [
+        'weapon-traits: "Equipment Traits#Anti_Tank" slugifies to "anti-tank", already locked to "Equipment Traits#Anti-Tank"',
+      ],
+    });
   });
 
   it("refreshes weapon trait back-references on a weapons-only run", async () => {

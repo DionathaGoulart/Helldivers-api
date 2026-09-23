@@ -38,8 +38,12 @@ export const stratagemsPipeline: CollectionPipeline<"stratagems"> = {
   indexPages: [STRATAGEMS_INDEX],
 
   async scrape(context: ScrapeContext) {
-    const { source, idLock, logger, dataset } = context;
-    const resolveTraits = traitResolver(dataset["weapon-traits"], "stratagems");
+    const { source, idLock, logger, dataset, overrides } = context;
+    const resolveTraits = traitResolver(
+      dataset["weapon-traits"],
+      "stratagems",
+      overrides.traitAliases,
+    );
     const resolveSource = itemSourceResolver(context);
 
     const index = await source.page(STRATAGEMS_INDEX);

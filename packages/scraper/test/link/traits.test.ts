@@ -92,6 +92,24 @@ describe("checkTraitTables", () => {
     ]);
   });
 
+  it("counts a table under a misspelled heading for the trait it is aliased to", () => {
+    const page = tables();
+    const orbital = page.traits.find((trait) => trait.name === "Orbital");
+    const [first] = orbital?.members.splice(0, 1) ?? []; // Orbital Precision Strike
+    page.traits.push({
+      name: "Orbitall",
+      anchor: "Orbitall",
+      members: first ? [first] : [],
+    });
+    expect(checkTraitTables(dataset, page)).toEqual([
+      "stratagems/orbital-precision-strike: traits not listed on Equipment Traits: orbital",
+    ]);
+    expect(checkTraitTables(dataset, page, { Orbitall: "orbital" })).toEqual([]);
+    expect(() => checkTraitTables(dataset, page, { Orbitall: "orbitall" })).toThrow(
+      'data/overrides/trait-aliases.json: "Orbitall" is not a trait id: orbitall',
+    );
+  });
+
   it("matches rows by in-game name and skips holder collections not in the dataset", () => {
     const renamed = weapons.map((weapon) =>
       weapon.id === "ar-23-liberator" ? { ...weapon, name: "Liberator" } : weapon,

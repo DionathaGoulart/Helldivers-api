@@ -110,12 +110,13 @@ both values and the reason.
 ## Overrides, not special cases
 
 Anything the wiki does not state consistently belongs in `data/overrides/`, not in an `if` inside a
-parser. Four files, each documented in [`data/overrides/README.md`](data/overrides/README.md):
+parser. Five files, each documented in [`data/overrides/README.md`](data/overrides/README.md):
 
 | File | For |
 | --- | --- |
 | `warbond-aliases.json` | warbond labels that do not match a page title |
 | `source-labels.json` | acquisition labels → source type (an unknown label fails the run on purpose) |
+| `trait-aliases.json` | misspelled Equipment Traits headings → the trait they stand for |
 | `armor-sets.json` | cape↔set links the scraper cannot prove |
 | `ids.lock.json` | generated; keeps published ids stable when the wiki renames a page — do not hand-edit |
 

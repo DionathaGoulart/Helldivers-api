@@ -7,6 +7,8 @@ import { z } from "zod";
 
 export const WarbondAliases = z.record(z.string().min(1), Id);
 export const SourceLabels = z.record(z.string().min(1), SourceType);
+/** Misspelled trait heading id on the Equipment Traits page → the trait it stands for. */
+export const TraitAliases = z.record(z.string().min(1), Id);
 /** Armor set id → its cape (null: no cape, whatever the evidence says) and why (rule 6). */
 export const ArmorSetOverrides = z.record(
   Id,
@@ -16,6 +18,7 @@ export const ArmorSetOverrides = z.record(
 export interface Overrides {
   warbondAliases: z.infer<typeof WarbondAliases>;
   sourceLabels: z.infer<typeof SourceLabels>;
+  traitAliases: z.infer<typeof TraitAliases>;
   armorSets: z.infer<typeof ArmorSetOverrides>;
 }
 
@@ -48,6 +51,7 @@ export async function readOverrides(dataDir: string): Promise<Overrides> {
   return {
     warbondAliases: await readOverride(join(dir, "warbond-aliases.json"), WarbondAliases, {}),
     sourceLabels: await readOverride(join(dir, "source-labels.json"), SourceLabels, {}),
+    traitAliases: await readOverride(join(dir, "trait-aliases.json"), TraitAliases, {}),
     armorSets: await readOverride(join(dir, "armor-sets.json"), ArmorSetOverrides, {}),
   };
 }

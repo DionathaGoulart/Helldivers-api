@@ -1,4 +1,5 @@
 import type { Dataset, Id } from "@hd2/schemas";
+import { traitAnchors } from "../collections/item-source.ts";
 import type { RawEquipmentTraits } from "../parsers/equipment-traits.ts";
 
 // Back-references of weapon traits (arch §5.2): `weaponIds` / `stratagemIds` are the inverse
@@ -33,22 +34,25 @@ const matchKey = (text: string) => text.replace(/[‘’]/g, "'").replace(/[“�
 // item page should list the same pairs. Item pages decide `traitIds`, so a difference is a
 // warning: a table row that matches no item or an item missing a trait its table lists, and
 // traits an item page links but no table lists (unreleased items, before the tables catch up).
+// A misspelled table ("Anti Tank") counts as the trait it is aliased to.
 
-export function checkTraitTables(dataset: Dataset, page: RawEquipmentTraits): string[] {
+export function checkTraitTables(
+  dataset: Dataset,
+  page: RawEquipmentTraits,
+  aliases: Readonly<Record<string, Id>> = {},
+): string[] {
   const traits = dataset["weapon-traits"];
   if (!traits) {
     return [];
   }
-  const traitByAnchor = new Map(
-    traits.map((trait) => [decodeURIComponent(new URL(trait.wiki.url).hash.slice(1)), trait]),
-  );
+  const idByAnchor = traitAnchors(traits, aliases);
   const holders = { Weapon: dataset.weapons, Stratagem: dataset.stratagems };
   const collectionOf = { Weapon: "weapons", Stratagem: "stratagems" } as const;
   const warnings: string[] = [];
   const listed = new Set<string>(); // `<collection>/<id>/<trait id>`
 
   for (const table of page.traits) {
-    const trait = traitByAnchor.get(table.anchor);
+    const trait = traits.find(({ id }) => id === idByAnchor.get(table.anchor));
     if (!trait) {
       continue; // the weapon-traits pipeline reads the same tables
     }
