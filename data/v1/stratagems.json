@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
-    "count": 114,
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
+    "count": 115,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -624,6 +624,7 @@
         "Tesla Turret Arc › Arc › Arc Range": "20 m",
         "Tesla Turret Arc › Arc › Arc Velocity": "2000 m/s",
         "Tesla Turret Arc › Arc › Arc Aim Angle": "180 °",
+        "Tesla Turret Arc › Arc › Max Split": "2",
         "Tesla Turret Arc › Damage › Element": "Arc",
         "Tesla Turret Arc › Damage › Standard": "600 Arc",
         "Tesla Turret Arc › Damage › vs. Durable": "600 Arc",
@@ -2925,6 +2926,7 @@
         "20mm FLAK ROUNDS P › Projectile › Lifetime": "0.899999976 sec",
         "20mm FLAK ROUNDS P › Projectile › Penetration Slowdown": "25%",
         "20mm FLAK ROUNDS P › Projectile › Explosion On Impact": "20mm FLAK ROUNDS_P_IE",
+        "20mm FLAK ROUNDS P › Projectile › Explosion Proximity": "3 m",
         "20mm FLAK ROUNDS P › Damage › Standard": "150 Ballistic",
         "20mm FLAK ROUNDS P › Damage › vs. Durable": "150 Ballistic",
         "20mm FLAK ROUNDS P › Penetration › Direct": "Light",
@@ -3535,7 +3537,8 @@
         "title": "AX/AR-23 Guard Dog",
         "url": "https://helldivers.wiki.gg/wiki/AX/AR-23_Guard_Dog",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -3693,7 +3696,8 @@
         "title": "AX/ARC-3 K-9",
         "url": "https://helldivers.wiki.gg/wiki/AX/ARC-3_K-9",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -3820,6 +3824,10 @@
         "AX/ARC-3 K-9 › Attacks › Stun Small": "status",
         "AX/ARC-3 K-9 A › Arc › Arc Range": "55 m",
         "AX/ARC-3 K-9 A › Arc › Arc Velocity": "300 m/s",
+        "AX/ARC-3 K-9 A › Arc › Arc Spread": "40 °",
+        "AX/ARC-3 K-9 A › Arc › Chain Spread": "60 °",
+        "AX/ARC-3 K-9 A › Arc › Chain Count": "2",
+        "AX/ARC-3 K-9 A › Arc › Max Split": "5",
         "AX/ARC-3 K-9 A › Damage › Element": "Arc",
         "AX/ARC-3 K-9 A › Damage › Standard": "250 Arc",
         "AX/ARC-3 K-9 A › Damage › vs. Durable": "45 Arc",
@@ -4101,7 +4109,8 @@
         "title": "AX/LAS-5 Rover",
         "url": "https://helldivers.wiki.gg/wiki/AX/LAS-5_Rover",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -4493,7 +4502,8 @@
         "title": "B-1 Supply Pack",
         "url": "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -5000,7 +5010,8 @@
         "title": "B/MD C4 Pack",
         "url": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -7280,6 +7291,7 @@
         "title": "Eagle Gas Airstrike",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Gas_Airstrike",
         "flags": [
+          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -8512,7 +8524,8 @@
         "title": "EAT-411 Leveller",
         "url": "https://helldivers.wiki.gg/wiki/EAT-411_Leveller",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -8728,7 +8741,8 @@
         "title": "EAT-700 Expendable Napalm",
         "url": "https://helldivers.wiki.gg/wiki/EAT-700_Expendable_Napalm",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -9700,7 +9714,8 @@
         "title": "EXO-51 Lumberer Exosuit",
         "url": "https://helldivers.wiki.gg/wiki/EXO-51_Lumberer_Exosuit",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -12765,7 +12780,8 @@
         "title": "LIFT-850 Jump Pack",
         "url": "https://helldivers.wiki.gg/wiki/LIFT-850_Jump_Pack",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -19394,6 +19410,7 @@
         "20mm FLAK ROUNDS P2 › Projectile › Penetration Slowdown": "25%",
         "20mm FLAK ROUNDS P2 › Projectile › Explosion On Impact": "20mm FLAK ROUNDS_P2_IE",
         "20mm FLAK ROUNDS P2 › Projectile › Explode After": "20mm FLAK ROUNDS_P2_IE",
+        "20mm FLAK ROUNDS P2 › Projectile › Explosion Proximity": "2 m",
         "20mm FLAK ROUNDS P2 › Damage › Standard": "350 Ballistic",
         "20mm FLAK ROUNDS P2 › Damage › vs. Durable": "350 Ballistic",
         "20mm FLAK ROUNDS P2 › Penetration › Direct": "Medium",
@@ -20495,7 +20512,8 @@
         "title": "SH-20 Ballistic Shield Backpack",
         "url": "https://helldivers.wiki.gg/wiki/SH-20_Ballistic_Shield_Backpack",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -20593,7 +20611,8 @@
         "title": "SH-32 Shield Generator Pack",
         "url": "https://helldivers.wiki.gg/wiki/SH-32_Shield_Generator_Pack",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",
@@ -21172,6 +21191,7 @@
         "Artillery P › Projectile › Gravity Factor": "0%",
         "Artillery P › Projectile › Penetration Slowdown": "25%",
         "Artillery P › Projectile › Explosion On Impact": "Artillery_P_IE",
+        "Artillery P › Projectile › Explosion Proximity": "12 m",
         "Artillery P › Damage › Standard": "20 Ballistic",
         "Artillery P › Damage › vs. Durable": "2 Ballistic",
         "Artillery P › Penetration › Direct": "Unarmored",
@@ -21342,6 +21362,85 @@
       "source": {
         "type": "other",
         "label": "",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "td-110-maelstrom",
+      "slug": "td-110-maelstrom",
+      "name": "TD-110 Maelstrom",
+      "upcoming": false,
+      "aliases": [],
+      "description": "The TD-110 Maelstrom is a Stratagem that deploys a tracked ground vehicle armed with two triple-barrel rotary guns and two vertically mounted laser-guided missile pods.",
+      "image": {
+        "url": "/images/v1/stratagems/td-110-maelstrom.7fcb55cb.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Maelstrom_Stratagem_Icon_Background.svg"
+      },
+      "wiki": {
+        "title": "TD-110 Maelstrom",
+        "url": "https://helldivers.wiki.gg/wiki/TD-110_Maelstrom",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "permitType": "supply",
+      "availability": "loadout",
+      "category": null,
+      "kind": "vehicle",
+      "traitIds": [
+        "vehicle",
+        "heavy-armor-penetrating",
+        "anti-tank"
+      ],
+      "code": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "cooldownS": 780,
+      "cooldownVariants": [
+        {
+          "label": "With Morale Augmentation",
+          "seconds": 741
+        }
+      ],
+      "callInTimeS": 10.5,
+      "callInTimeUpgradedS": null,
+      "uses": "unlimited",
+      "unlockLevel": null,
+      "shipModules": [
+        {
+          "department": "bridge",
+          "module": "Morale Augmentation",
+          "effect": "Reduces cooldown time for all stratagems by 5%."
+        }
+      ],
+      "supportWeapon": null,
+      "backpack": null,
+      "attacks": [],
+      "statsRaw": {
+        "Permit Type": "Supply",
+        "Traits": "Vehicle • Heavy Armour Penetrating • Anti Tank",
+        "Base Cooldown": "780s",
+        "General › Call-in Time": "10.50 seconds",
+        "General › Uses": "Unlimited",
+        "General › Cooldown › Standard": "780 seconds",
+        "General › Cooldown › With Morale Augmentation": "741 seconds"
+      },
+      "source": {
+        "type": "event",
+        "label": "Armored Eagle",
         "warbondId": null,
         "page": null,
         "cost": null,
@@ -21663,7 +21762,8 @@
         "title": "TX-41 Sterilizer",
         "url": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
         "flags": [
-          "potentially_outdated"
+          "potentially_outdated",
+          "broken_file_links"
         ]
       },
       "permitType": "supply",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "count": 28,
     "source": {
       "name": "The Helldivers Wiki",
@@ -26,7 +26,9 @@
       "weaponIds": [
         "g-123-thermite",
         "g-40-k-melta-mine",
+        "g-60-anti-tank-seeker",
         "p-33-missile-pistol",
+        "p-34-breacher",
         "tm-1-lure-mine"
       ],
       "stratagemIds": [
@@ -65,6 +67,7 @@
         "rs-422-railgun",
         "s-11-speargun",
         "sta-x3-wasp-launcher",
+        "td-110-maelstrom",
         "td-220-bastion-mk-xvi"
       ]
     },
@@ -286,7 +289,6 @@
         "g-6-frag",
         "g-60-anti-tank-seeker",
         "g-7-pineapple",
-        "g-8-immolation",
         "g-89-smokescreen",
         "gl-15-evictor",
         "gp-20-ultimatum",
@@ -379,6 +381,7 @@
         "flags": []
       },
       "weaponIds": [
+        "las-12-sai",
         "las-13-trident",
         "las-16-sickle",
         "las-17-double-edge-sickle",
@@ -428,6 +431,7 @@
         "mg-206-heavy-machine-gun",
         "orbital-gatling-barrage",
         "plas-45-epoch",
+        "td-110-maelstrom",
         "td-220-bastion-mk-xvi"
       ]
     },
@@ -537,6 +541,7 @@
         "flags": []
       },
       "weaponIds": [
+        "ar-11-arbitrator",
         "ar-23-liberator",
         "ar-23a-liberator-carbine",
         "ar-23c-liberator-concussive",
@@ -605,8 +610,10 @@
         "cqc-5-combat-hatchet",
         "dbs-2-double-freedom",
         "g-6-frag",
+        "gl-15-evictor",
         "jar-5-dominator",
         "k-2-throwing-knife",
+        "las-12-sai",
         "las-17-double-edge-sickle",
         "las-58-talon",
         "ma5c-assault-rifle",
@@ -698,6 +705,7 @@
         "cqc-73-entrenchment-tool",
         "gp-20-ultimatum",
         "gp-31-grenade-pistol",
+        "las-12-sai",
         "las-58-talon",
         "las-7-dagger",
         "m6c-socom-pistol",
@@ -770,7 +778,6 @@
         "flags": []
       },
       "weaponIds": [
-        "ar-11-arbitrator",
         "dbs-2-double-freedom",
         "gl-15-evictor",
         "m90a-shotgun",
@@ -858,6 +865,7 @@
         "g-109-urchin",
         "g-123-thermite",
         "g-sh-39-shield",
+        "p-34-breacher",
         "tm-1-lure-mine"
       ],
       "stratagemIds": [
@@ -1003,6 +1011,7 @@
         "m-102-gunner-frv",
         "m-103-supply-frv",
         "m-104-incinerator-frv",
+        "td-110-maelstrom",
         "td-220-bastion-mk-xvi"
       ]
     }

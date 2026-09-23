@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "tread-of-liberty",
+    "slug": "tread-of-liberty",
+    "name": "Tread of Liberty",
+    "upcoming": false,
+    "aliases": [],
+    "description": null,
+    "image": {
+      "url": "/images/v1/player-cards/tread-of-liberty.5d6ba7ca.webp",
+      "width": 256,
+      "height": 512,
+      "wikiFile": "Tread_of_Liberty_Player_Card_Icon.png"
+    },
+    "wiki": {
+      "title": "Tread of Liberty",
+      "url": "https://helldivers.wiki.gg/wiki/Tread_of_Liberty",
+      "flags": []
+    },
+    "pairedCapeId": "tread-of-liberty",
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 35
+      },
+      "rotating": false
+    }
+  }
+}

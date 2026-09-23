@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
-    "count": 104,
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
+    "count": 105,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,65 +14,150 @@
       "id": "ar-11-arbitrator",
       "slug": "ar-11-arbitrator",
       "name": "AR-11 Arbitrator",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
-      "description": "The AR-11 Arbitrator is a Primary Assault Rifle equipped with an underbarrel shotgun.",
+      "description": "The AR-11 Arbitrator is a Primary Assault Rifle equipped with an underslung shotgun.",
       "image": {
-        "url": "/images/v1/weapons/ar-11-arbitrator.9a7e3dbf.webp",
-        "width": 389,
-        "height": 355,
+        "url": "/images/v1/weapons/ar-11-arbitrator.ce5b887c.webp",
+        "width": 512,
+        "height": 288,
         "wikiFile": "AR-11_Arbitrator_Primary_Render.png"
       },
       "wiki": {
         "title": "AR-11 Arbitrator",
         "url": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "assault_rifle",
       "traitIds": [
-        "rounds-reload"
+        "light-armor-penetrating"
       ],
       "firearm": {
         "firingModes": [
+          "auto",
+          "burst",
           "other"
         ],
-        "fireRateRpm": [],
-        "dps": [],
+        "fireRateRpm": [
+          1200
+        ],
+        "dps": [
+          1400
+        ],
         "capacity": 45,
-        "spareMagazines": null,
+        "spareMagazines": 7,
         "startingMagazines": null,
-        "magazinesFromSupply": null,
-        "magazinesFromAmmoBox": null,
-        "recoil": null,
+        "magazinesFromSupply": 7,
+        "magazinesFromAmmoBox": 3,
+        "recoil": 13,
         "horizontalRecoil": null,
         "verticalRecoil": null,
         "spread": null,
         "sway": null,
-        "ergonomics": null,
-        "reloadKind": "rounds",
-        "reloadTimeS": null,
+        "ergonomics": 30,
+        "reloadKind": "magazine",
+        "reloadTimeS": 3.75,
         "reloadTimeUpgradedS": null,
-        "tacticalReloadTimeS": null
+        "tacticalReloadTimeS": 2.35
       },
       "throwable": null,
       "melee": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "RIFLE_dm",
+          "kind": "other",
+          "damage": {
+            "standard": 70,
+            "durable": 20,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "light",
+            "slightAngle": "light",
+            "largeAngle": "light",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 15,
+            "push": 12
+          }
+        },
+        {
+          "name": "SHOTGUN_dm",
+          "kind": "other",
+          "damage": {
+            "standard": 50,
+            "durable": 12,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "medium",
+            "slightAngle": "medium",
+            "largeAngle": "medium",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 20,
+            "push": 20
+          }
+        }
+      ],
       "statsRaw": {
         "Weapon Category": "Primary Weapons",
         "Weapon Type": "Assault Rifles",
-        "Firing Modes": "4mm • 10g",
-        "Traits": "Rounds Reload",
-        "Capacity": "45 (4mm) / 4 (10g)"
+        "Firing Modes": "Auto • Burst • 10g",
+        "Traits": "Light Armor Penetrating",
+        "Standard Damage": "70 Ballistic (4mm)",
+        "Armor Penetration": "Light (4mm) / Medium (10g)",
+        "Fire Rate": "1,200 rpm",
+        "DPS": "1,400 (4mm)",
+        "Capacity": "45 (4mm) / 4 (10g)",
+        "Spare Mags": "7",
+        "Spare Shells": "20",
+        "Supply Box Refill": "7 (4mm) / 20 (10g)",
+        "Ammo Box Refill": "3 (4mm) / 10 (10g)",
+        "Ergonomics": "30",
+        "Recoil": "13",
+        "Reload Time": "3.75s",
+        "Tactical Reload Time": "2.35s",
+        "Rounds Reload Full Time": "2.5s",
+        "Reload Time For One Round": "1.5s",
+        "Reload Time for >1 Round": "0.33s",
+        "RIFLE_dm › Damage › Standard": "70 Ballistic",
+        "RIFLE_dm › Damage › vs. Durable": "20 Ballistic",
+        "RIFLE_dm › Penetration › Direct": "Light",
+        "RIFLE_dm › Penetration › Slight Angle": "Light",
+        "RIFLE_dm › Penetration › Large Angle": "Light",
+        "RIFLE_dm › Penetration › Extreme Angle": "Unarmored",
+        "RIFLE_dm › Special Effects › Demolition Force": "10",
+        "RIFLE_dm › Special Effects › Stagger Force": "15",
+        "RIFLE_dm › Special Effects › Push Force": "12",
+        "SHOTGUN_dm › Damage › Standard": "50 Ballistic x9",
+        "SHOTGUN_dm › Damage › vs. Durable": "12 Ballistic x9",
+        "SHOTGUN_dm › Penetration › Direct": "Medium",
+        "SHOTGUN_dm › Penetration › Slight Angle": "Medium",
+        "SHOTGUN_dm › Penetration › Large Angle": "Medium",
+        "SHOTGUN_dm › Penetration › Extreme Angle": "Unarmored",
+        "SHOTGUN_dm › Special Effects › Demolition Force": "10",
+        "SHOTGUN_dm › Special Effects › Stagger Force": "20",
+        "SHOTGUN_dm › Special Effects › Push Force": "20"
       },
       "source": {
         "type": "warbond",
-        "label": "Ironclad Democracy",
+        "label": "Ironclad Democracy P1",
         "warbondId": "ironclad-democracy",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
         "rotating": null
       }
     },
@@ -5006,13 +5091,13 @@
       "id": "g-60-anti-tank-seeker",
       "slug": "g-60-anti-tank-seeker",
       "name": "G-60 Anti-Tank Seeker",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The G-60 Anti-Tank Seeker (also known as the AT Seeker) is a Special Throwable in Helldivers 2. Similar to the G-50 Seeker, it is an anti-tank grenade that can fly and will explode on impact.",
       "image": {
-        "url": "/images/v1/weapons/g-60-anti-tank-seeker.68dfed86.webp",
-        "width": 184,
-        "height": 224,
+        "url": "/images/v1/weapons/g-60-anti-tank-seeker.a6067714.webp",
+        "width": 512,
+        "height": 512,
         "wikiFile": "G-60_Anti-Tank_Seeker_Throwable_Render.png"
       },
       "wiki": {
@@ -5025,12 +5110,13 @@
       "category": "throwable",
       "subcategory": "special",
       "traitIds": [
+        "anti-tank",
         "explosive",
         "guided"
       ],
       "firearm": null,
       "throwable": {
-        "capacity": null,
+        "capacity": 3,
         "startingCount": null,
         "fromSupply": null,
         "fuseTimeS": null,
@@ -5039,16 +5125,23 @@
       "melee": null,
       "attacks": [],
       "statsRaw": {
+        "Damage": "1800 Explosion",
+        "Penetration": "Anti-Tank I",
+        "Outer Radius": "12",
         "Cookable": "No",
         "Fuse Time": "Impact",
-        "Trait(s)": "Explosive • Guided"
+        "Capacity": "3",
+        "Trait(s)": "Anti-Tank • Explosive • Guided"
       },
       "source": {
         "type": "warbond",
-        "label": "Ironclad Democracy",
+        "label": "Ironclad DemocracyP3",
         "warbondId": "ironclad-democracy",
         "page": 3,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 65
+        },
         "rotating": null
       }
     },
@@ -5242,13 +5335,13 @@
       "id": "g-8-immolation",
       "slug": "g-8-immolation",
       "name": "G-8 Immolation",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The G-8 Immolation is a Special Throwable that explodes into a massive pool of fire upon impact.",
       "image": {
-        "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
-        "width": 194,
-        "height": 240,
+        "url": "/images/v1/weapons/g-8-immolation.3c5e3c03.webp",
+        "width": 512,
+        "height": 512,
         "wikiFile": "G-8_Immolation_Throwable_Render.png"
       },
       "wiki": {
@@ -5259,12 +5352,11 @@
       "category": "throwable",
       "subcategory": "special",
       "traitIds": [
-        "incendiary",
-        "explosive"
+        "incendiary"
       ],
       "firearm": null,
       "throwable": {
-        "capacity": null,
+        "capacity": 6,
         "startingCount": null,
         "fromSupply": null,
         "fuseTimeS": null,
@@ -5273,16 +5365,23 @@
       "melee": null,
       "attacks": [],
       "statsRaw": {
+        "Damage": "20",
+        "Penetration": "Unarmored",
+        "Outer Radius": "10m",
         "Cookable": "No",
         "Fuse Time": "Impact",
-        "Trait(s)": "Incendiary • Explosive"
+        "Capacity": "6",
+        "Trait(s)": "Incendiary"
       },
       "source": {
         "type": "warbond",
-        "label": "Ironclad Democracy",
+        "label": "Ironclad Democracy P1",
         "warbondId": "ironclad-democracy",
-        "page": 2,
-        "cost": null,
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
         "rotating": null
       }
     },
@@ -5445,25 +5544,24 @@
       "id": "gl-15-evictor",
       "slug": "gl-15-evictor",
       "name": "GL-15 Evictor",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "GL-15 Evictor is a Explosive primary weapon that fires high-damaging grenades that explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
       "image": {
-        "url": "/images/v1/weapons/gl-15-evictor.364720fd.webp",
-        "width": 379,
-        "height": 337,
+        "url": "/images/v1/weapons/gl-15-evictor.a291f417.webp",
+        "width": 512,
+        "height": 288,
         "wikiFile": "GL-15_Evictor_Primary_Render.png"
       },
       "wiki": {
         "title": "GL-15 Evictor",
         "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "explosive",
       "traitIds": [
+        "medium-armor-penetrating",
         "explosive",
         "rounds-reload"
       ],
@@ -5471,21 +5569,23 @@
         "firingModes": [
           "other"
         ],
-        "fireRateRpm": [],
+        "fireRateRpm": [
+          60
+        ],
         "dps": [],
-        "capacity": null,
-        "spareMagazines": null,
+        "capacity": 4,
+        "spareMagazines": 32,
         "startingMagazines": null,
-        "magazinesFromSupply": null,
+        "magazinesFromSupply": 16,
         "magazinesFromAmmoBox": null,
-        "recoil": null,
+        "recoil": 83,
         "horizontalRecoil": null,
         "verticalRecoil": null,
         "spread": null,
         "sway": null,
-        "ergonomics": null,
+        "ergonomics": 65,
         "reloadKind": "rounds",
-        "reloadTimeS": null,
+        "reloadTimeS": 2.67,
         "reloadTimeUpgradedS": null,
         "tacticalReloadTimeS": null
       },
@@ -5496,13 +5596,25 @@
         "Weapon Category": "Primary Weapons",
         "Weapon Type": "Explosives",
         "Firing Modes": "Pump-Action",
-        "Traits": "Explosive • Rounds Reload"
+        "Traits": "Medium Armor Penetrating • Explosive • Rounds Reload",
+        "Standard Damage": "490",
+        "Armor Penetration": "Medium",
+        "Fire Rate": "60",
+        "Capacity": "4",
+        "Spare Rounds": "32",
+        "Supply Box Refill": "16",
+        "Ergonomics": "65",
+        "Recoil": "83",
+        "Reload Time": "2.67",
+        "Rounds Reload Full Time": "2.75s",
+        "Reload Time For One Round": "1.45s (Empty) / 0.5s (Partial)",
+        "Reload Time for >1 Round": "0.45s"
       },
       "source": {
         "type": "warbond",
         "label": "Ironclad Democracy",
         "warbondId": "ironclad-democracy",
-        "page": 2,
+        "page": 3,
         "cost": null,
         "rotating": null
       }
@@ -6099,6 +6211,115 @@
           "amount": 60
         },
         "rotating": null
+      }
+    },
+    {
+      "id": "las-12-sai",
+      "slug": "las-12-sai",
+      "name": "LAS-12 Sai",
+      "upcoming": false,
+      "aliases": [],
+      "description": "The LAS-12 Sai is a Primary Energy-Based submachine gun with high damage and spread.",
+      "image": {
+        "url": "/images/v1/weapons/las-12-sai.c1182999.webp",
+        "width": 512,
+        "height": 288,
+        "wikiFile": "LAS-12_Sai_Primary_Render.png"
+      },
+      "wiki": {
+        "title": "LAS-12 Sai",
+        "url": "https://helldivers.wiki.gg/wiki/LAS-12_Sai",
+        "flags": []
+      },
+      "category": "primary",
+      "subcategory": "energy_based",
+      "traitIds": [
+        "medium-armor-penetrating",
+        "one-handed",
+        "heat"
+      ],
+      "firearm": {
+        "firingModes": [],
+        "fireRateRpm": [
+          800
+        ],
+        "dps": [
+          1066.67
+        ],
+        "capacity": null,
+        "spareMagazines": null,
+        "startingMagazines": null,
+        "magazinesFromSupply": null,
+        "magazinesFromAmmoBox": null,
+        "recoil": 11,
+        "horizontalRecoil": null,
+        "verticalRecoil": null,
+        "spread": null,
+        "sway": null,
+        "ergonomics": null,
+        "reloadKind": "magazine",
+        "reloadTimeS": 2,
+        "reloadTimeUpgradedS": null,
+        "tacticalReloadTimeS": 2
+      },
+      "throwable": null,
+      "melee": null,
+      "attacks": [
+        {
+          "name": "LAS-12_dm",
+          "kind": "other",
+          "damage": {
+            "standard": 80,
+            "durable": 4,
+            "type": "Laser"
+          },
+          "penetration": {
+            "direct": "medium",
+            "slightAngle": "medium",
+            "largeAngle": "medium",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 10,
+            "push": 10
+          }
+        }
+      ],
+      "statsRaw": {
+        "Weapon Category": "Primary Weapons",
+        "Weapon Type": "Energy-Based",
+        "Traits": "Medium Armor Penetrating • One-Handed • Heat",
+        "Standard Damage": "80 Laser",
+        "Armor Penetration": "Medium",
+        "Fire Rate": "800 rpm",
+        "DPS": "1,066.67",
+        "Capacity": "7s",
+        "Recoil": "11",
+        "Reload Time": "2.00s",
+        "Tactical Reload Time": "2.00s",
+        "LAS-12_dm › Damage › Standard": "80 Laser",
+        "LAS-12_dm › Damage › vs. Durable": "4 Laser",
+        "LAS-12_dm › Penetration › Direct": "Medium",
+        "LAS-12_dm › Penetration › Slight Angle": "Medium",
+        "LAS-12_dm › Penetration › Large Angle": "Medium",
+        "LAS-12_dm › Penetration › Extreme Angle": "Unarmored",
+        "LAS-12_dm › Special Effects › Demolition Force": "10",
+        "LAS-12_dm › Special Effects › Stagger Force": "10",
+        "LAS-12_dm › Special Effects › Push Force": "10"
+      },
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 400
+        },
+        "rotating": false
       }
     },
     {
@@ -8684,63 +8905,163 @@
       "id": "p-34-breacher",
       "slug": "p-34-breacher",
       "name": "P-34 Breacher",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The P-34 Breacher is a Special Secondary single-shot weapon that fires an explosive thermite projectile at targets.",
       "image": {
-        "url": "/images/v1/weapons/p-34-breacher.ce4c188b.webp",
-        "width": 325,
-        "height": 290,
+        "url": "/images/v1/weapons/p-34-breacher.57a4a88c.webp",
+        "width": 512,
+        "height": 288,
         "wikiFile": "P-34_Breacher_Secondary_Render.png"
       },
       "wiki": {
         "title": "P-34 Breacher",
         "url": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "category": "secondary",
       "subcategory": "special",
       "traitIds": [
-        "explosive",
-        "one-handed"
+        "one-handed",
+        "anti-tank",
+        "sticky",
+        "explosive"
       ],
       "firearm": {
         "firingModes": [],
-        "fireRateRpm": [],
+        "fireRateRpm": [
+          20
+        ],
         "dps": [],
         "capacity": 1,
-        "spareMagazines": null,
+        "spareMagazines": 2,
         "startingMagazines": null,
-        "magazinesFromSupply": null,
-        "magazinesFromAmmoBox": null,
-        "recoil": null,
+        "magazinesFromSupply": 1,
+        "magazinesFromAmmoBox": 1,
+        "recoil": 313,
         "horizontalRecoil": null,
         "verticalRecoil": null,
         "spread": null,
         "sway": null,
         "ergonomics": null,
-        "reloadKind": "none",
-        "reloadTimeS": null,
+        "reloadKind": "magazine",
+        "reloadTimeS": 2.68,
         "reloadTimeUpgradedS": null,
         "tacticalReloadTimeS": null
       },
       "throwable": null,
       "melee": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "P-34 P_dm",
+          "kind": "other",
+          "damage": {
+            "standard": 60,
+            "durable": 0,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "heavy",
+            "slightAngle": "heavy",
+            "largeAngle": "heavy",
+            "extremeAngle": "medium"
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": 15,
+            "stagger": 10,
+            "push": 10
+          }
+        },
+        {
+          "name": "P-34 E_dm",
+          "kind": "other",
+          "damage": {
+            "standard": 2000,
+            "durable": 2000,
+            "type": "Explosion"
+          },
+          "penetration": {
+            "direct": "anti_tank_iii",
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": 30,
+            "stagger": 20,
+            "push": 40
+          }
+        },
+        {
+          "name": "Area of Effect",
+          "kind": "explosion",
+          "damage": {
+            "standard": null,
+            "durable": null,
+            "type": null
+          },
+          "penetration": {
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
+          },
+          "projectile": null,
+          "area": {
+            "innerRadiusM": null,
+            "outerRadiusM": null,
+            "shockwaveRadiusM": null
+          },
+          "forces": {
+            "demolition": null,
+            "stagger": null,
+            "push": null
+          }
+        }
+      ],
       "statsRaw": {
         "Weapon Category": "Secondary Weapons",
         "Weapon Type": "Special",
-        "Traits": "Explosive • One Handed",
-        "Capacity": "1"
+        "Traits": "One Handed • Anti-Tank • Sticky • Explosive",
+        "Standard Damage": "2000",
+        "Armor Penetration": "Anti-Tank III",
+        "Fire Rate": "20",
+        "Capacity": "1",
+        "Spare Rounds": "2",
+        "Supply Box Refill": "1",
+        "Ammo Box Refill": "1",
+        "Recoil": "313",
+        "Reload Time": "2.68s",
+        "P-34 P_dm › Damage › Standard": "60 Ballistic",
+        "P-34 P_dm › Damage › vs. Durable": "0 Ballistic",
+        "P-34 P_dm › Penetration › Direct": "Heavy",
+        "P-34 P_dm › Penetration › Slight Angle": "Heavy",
+        "P-34 P_dm › Penetration › Large Angle": "Heavy",
+        "P-34 P_dm › Penetration › Extreme Angle": "Medium",
+        "P-34 P_dm › Special Effects › Demolition Force": "15",
+        "P-34 P_dm › Special Effects › Stagger Force": "10",
+        "P-34 P_dm › Special Effects › Push Force": "10",
+        "P-34 E_dm › Damage › Standard": "2000 Explosion",
+        "P-34 E_dm › Damage › vs. Durable": "2000 Explosion",
+        "P-34 E_dm › Penetration › Direct": "Anti-Tank III",
+        "P-34 E_dm › Special Effects › Demolition Force": "30",
+        "P-34 E_dm › Special Effects › Stagger Force": "20",
+        "P-34 E_dm › Special Effects › Push Force": "40",
+        "Area of Effect › Outer Radius": "10m"
       },
       "source": {
         "type": "warbond",
-        "label": "Ironclad Democracy",
+        "label": "Ironclad DemocracyP2",
         "warbondId": "ironclad-democracy",
-        "page": 3,
-        "cost": null,
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
         "rotating": null
       }
     },

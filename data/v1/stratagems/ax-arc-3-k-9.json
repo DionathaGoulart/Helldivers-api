@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,7 +25,8 @@
       "title": "AX/ARC-3 K-9",
       "url": "https://helldivers.wiki.gg/wiki/AX/ARC-3_K-9",
       "flags": [
-        "potentially_outdated"
+        "potentially_outdated",
+        "broken_file_links"
       ]
     },
     "permitType": "supply",
@@ -152,6 +153,10 @@
       "AX/ARC-3 K-9 › Attacks › Stun Small": "status",
       "AX/ARC-3 K-9 A › Arc › Arc Range": "55 m",
       "AX/ARC-3 K-9 A › Arc › Arc Velocity": "300 m/s",
+      "AX/ARC-3 K-9 A › Arc › Arc Spread": "40 °",
+      "AX/ARC-3 K-9 A › Arc › Chain Spread": "60 °",
+      "AX/ARC-3 K-9 A › Arc › Chain Count": "2",
+      "AX/ARC-3 K-9 A › Arc › Max Split": "5",
       "AX/ARC-3 K-9 A › Damage › Element": "Arc",
       "AX/ARC-3 K-9 A › Damage › Standard": "250 Arc",
       "AX/ARC-3 K-9 A › Damage › vs. Durable": "45 Arc",

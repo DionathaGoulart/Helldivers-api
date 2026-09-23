@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
-    "count": 89,
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
+    "count": 91,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -1572,6 +1572,35 @@
       }
     },
     {
+      "id": "message-of-morale",
+      "slug": "message-of-morale",
+      "name": "Message of Morale",
+      "upcoming": false,
+      "aliases": [],
+      "description": "Message of Morale is a cape in Helldivers 2.",
+      "image": {
+        "url": "/images/v1/capes/message-of-morale.558235be.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Message_of_Morale_Cape_Render.png"
+      },
+      "wiki": {
+        "title": "Message of Morale",
+        "url": "https://helldivers.wiki.gg/wiki/Message_of_Morale",
+        "flags": []
+      },
+      "setIds": [],
+      "playerCardId": null,
+      "source": {
+        "type": "event",
+        "label": "Blazing Electorate",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
       "id": "mirandas-legacy",
       "slug": "mirandas-legacy",
       "name": "Miranda's Legacy",
@@ -2240,21 +2269,19 @@
       "id": "shroud-of-the-juggernaut",
       "slug": "shroud-of-the-juggernaut",
       "name": "Shroud of the Juggernaut",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
-      "description": "Shroud of the Juggernaut is a cape and a player card in Helldivers 2.",
+      "description": "The sheer weight of this camouflage shroud perfectly complements a Helldiver operating as a walking tank. Astute observers will also note that the shattered woodland pattern conceals a highly classified, morale-boosting message in Morse code.",
       "image": {
-        "url": "/images/v1/capes/shroud-of-the-juggernaut.3f7c8719.webp",
-        "width": 144,
-        "height": 297,
+        "url": "/images/v1/capes/shroud-of-the-juggernaut.f05463d1.webp",
+        "width": 300,
+        "height": 300,
         "wikiFile": "Shroud_of_the_Juggernaut_Cape_Render.png"
       },
       "wiki": {
         "title": "Shroud of the Juggernaut",
         "url": "https://helldivers.wiki.gg/wiki/Shroud_of_the_Juggernaut",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "setIds": [
         "bfm-220-ironclad"
@@ -2262,10 +2289,13 @@
       "playerCardId": "shroud-of-the-juggernaut",
       "source": {
         "type": "warbond",
-        "label": "Ironclad Democracy",
+        "label": "Ironclad Democracy P2",
         "warbondId": "ironclad-democracy",
         "page": 2,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 25
+        },
         "rotating": null
       }
     },
@@ -2273,21 +2303,19 @@
       "id": "standard-of-rapid-evacuation",
       "slug": "standard-of-rapid-evacuation",
       "name": "Standard of Rapid Evacuation",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
-      "description": "Standard of Rapid Evacuation is a cape and a player card in Helldivers 2.",
+      "description": "Adorned with a fearsome armored division crest, this abbreviated cape ensures the wearer’s elite status is clearly broadcast to their subordinates, without the hem becoming fatally entangled in their own vehicle’s heavy tread mechanisms.",
       "image": {
-        "url": "/images/v1/capes/standard-of-rapid-evacuation.22c41926.webp",
-        "width": 129,
-        "height": 298,
+        "url": "/images/v1/capes/standard-of-rapid-evacuation.03a24fbf.webp",
+        "width": 512,
+        "height": 512,
         "wikiFile": "Standard_of_Rapid_Evacuation_Cape_Render.png"
       },
       "wiki": {
         "title": "Standard of Rapid Evacuation",
         "url": "https://helldivers.wiki.gg/wiki/Standard_of_Rapid_Evacuation",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "setIds": [
         "bfm-16-tanker"
@@ -2295,10 +2323,13 @@
       "playerCardId": "standard-of-rapid-evacuation",
       "source": {
         "type": "warbond",
-        "label": "Ironclad Democracy",
+        "label": "Ironclad Democracy P1",
         "warbondId": "ironclad-democracy",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
         "rotating": null
       }
     },
@@ -2572,6 +2603,40 @@
           "amount": 5
         },
         "rotating": null
+      }
+    },
+    {
+      "id": "tread-of-liberty",
+      "slug": "tread-of-liberty",
+      "name": "Tread of Liberty",
+      "upcoming": false,
+      "aliases": [],
+      "description": "The striking dorsal tread pattern represents the unstoppable, grinding, and uniform march of Managed Democracy. It boldly assures all onlookers that resistance is not merely futile, but also logistically inefficient and statistically disastrous.",
+      "image": {
+        "url": "/images/v1/capes/tread-of-liberty.261c4648.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "Tread_of_Liberty_Cape_Render.png"
+      },
+      "wiki": {
+        "title": "Tread of Liberty",
+        "url": "https://helldivers.wiki.gg/wiki/Tread_of_Liberty",
+        "flags": []
+      },
+      "setIds": [
+        "bfm-77-reformer"
+      ],
+      "playerCardId": "tread-of-liberty",
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 100
+        },
+        "rotating": false
       }
     },
     {

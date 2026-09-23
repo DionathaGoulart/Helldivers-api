@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,21 +12,19 @@
     "id": "standard-of-rapid-evacuation",
     "slug": "standard-of-rapid-evacuation",
     "name": "Standard of Rapid Evacuation",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
-    "description": "Standard of Rapid Evacuation is a cape and a player card in Helldivers 2.",
+    "description": "Adorned with a fearsome armored division crest, this abbreviated cape ensures the wearer’s elite status is clearly broadcast to their subordinates, without the hem becoming fatally entangled in their own vehicle’s heavy tread mechanisms.",
     "image": {
-      "url": "/images/v1/capes/standard-of-rapid-evacuation.22c41926.webp",
-      "width": 129,
-      "height": 298,
+      "url": "/images/v1/capes/standard-of-rapid-evacuation.03a24fbf.webp",
+      "width": 512,
+      "height": 512,
       "wikiFile": "Standard_of_Rapid_Evacuation_Cape_Render.png"
     },
     "wiki": {
       "title": "Standard of Rapid Evacuation",
       "url": "https://helldivers.wiki.gg/wiki/Standard_of_Rapid_Evacuation",
-      "flags": [
-        "broken_file_links"
-      ]
+      "flags": []
     },
     "setIds": [
       "bfm-16-tanker"
@@ -34,10 +32,13 @@
     "playerCardId": "standard-of-rapid-evacuation",
     "source": {
       "type": "warbond",
-      "label": "Ironclad Democracy",
+      "label": "Ironclad Democracy P1",
       "warbondId": "ironclad-democracy",
       "page": 1,
-      "cost": null,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
       "rotating": null
     }
   }

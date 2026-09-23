@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,13 +12,13 @@
     "id": "g-8-immolation",
     "slug": "g-8-immolation",
     "name": "G-8 Immolation",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
     "description": "The G-8 Immolation is a Special Throwable that explodes into a massive pool of fire upon impact.",
     "image": {
-      "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
-      "width": 194,
-      "height": 240,
+      "url": "/images/v1/weapons/g-8-immolation.3c5e3c03.webp",
+      "width": 512,
+      "height": 512,
       "wikiFile": "G-8_Immolation_Throwable_Render.png"
     },
     "wiki": {
@@ -29,12 +29,11 @@
     "category": "throwable",
     "subcategory": "special",
     "traitIds": [
-      "incendiary",
-      "explosive"
+      "incendiary"
     ],
     "firearm": null,
     "throwable": {
-      "capacity": null,
+      "capacity": 6,
       "startingCount": null,
       "fromSupply": null,
       "fuseTimeS": null,
@@ -43,16 +42,23 @@
     "melee": null,
     "attacks": [],
     "statsRaw": {
+      "Damage": "20",
+      "Penetration": "Unarmored",
+      "Outer Radius": "10m",
       "Cookable": "No",
       "Fuse Time": "Impact",
-      "Trait(s)": "Incendiary • Explosive"
+      "Capacity": "6",
+      "Trait(s)": "Incendiary"
     },
     "source": {
       "type": "warbond",
-      "label": "Ironclad Democracy",
+      "label": "Ironclad Democracy P1",
       "warbondId": "ironclad-democracy",
-      "page": 2,
-      "cost": null,
+      "page": 1,
+      "cost": {
+        "currency": "medals",
+        "amount": 35
+      },
       "rotating": null
     }
   }

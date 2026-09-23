@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -356,6 +356,7 @@
       "20mm FLAK ROUNDS P2 › Projectile › Penetration Slowdown": "25%",
       "20mm FLAK ROUNDS P2 › Projectile › Explosion On Impact": "20mm FLAK ROUNDS_P2_IE",
       "20mm FLAK ROUNDS P2 › Projectile › Explode After": "20mm FLAK ROUNDS_P2_IE",
+      "20mm FLAK ROUNDS P2 › Projectile › Explosion Proximity": "2 m",
       "20mm FLAK ROUNDS P2 › Damage › Standard": "350 Ballistic",
       "20mm FLAK ROUNDS P2 › Damage › vs. Durable": "350 Ballistic",
       "20mm FLAK ROUNDS P2 › Penetration › Direct": "Medium",

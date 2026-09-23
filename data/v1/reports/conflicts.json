@@ -612,6 +612,47 @@
       ]
     },
     {
+      "collection": "warbonds",
+      "id": "ironclad-democracy",
+      "field": "medalsAllItems",
+      "rule": 1,
+      "chosen": 803,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "infobox › All Items Unlocked",
+          "value": 803
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "page tables › sum",
+          "value": 738
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "ironclad-democracy",
+      "field": "pages[2].items[1].cost",
+      "rule": 1,
+      "chosen": null,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "Page 3 › GL-15 Evictor",
+          "value": {
+            "currency": "medals",
+            "amount": 65
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
+          "location": "weapons/gl-15-evictor › source",
+          "value": null
+        }
+      ]
+    },
+    {
       "collection": "weapons",
       "id": "ar-2-coyote",
       "field": "firearm.recoil",

@@ -1,15 +1,765 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
-    "count": 13,
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
+    "count": 14,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-23.9cab5237",
+      "date": "2026-09-23",
+      "summary": {
+        "added": 11,
+        "changed": 58,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "exo-experts",
+          "kind": "changed",
+          "paths": [
+            "pages[2].items[3].ref"
+          ]
+        },
+        {
+          "collection": "warbonds",
+          "id": "ironclad-democracy",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "aliases",
+            "image.url",
+            "image.height",
+            "medalsAllPages",
+            "medalsAllItems",
+            "pages[0].items",
+            "pages[1].items",
+            "pages[2].items[1].name",
+            "pages[2].items[1].wikiType",
+            "pages[2].items[1].ref.id",
+            "pages[2].items[2].ref",
+            "pages[2].items[2].cost",
+            "pages[2].items[3].cost",
+            "pages[2].items[4].cost",
+            "pages[2].items[5].cost",
+            "pages[2].items[6].ref",
+            "pages[2].items[6].cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-11-arbitrator",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "description",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "traitIds[0]",
+            "firearm.firingModes",
+            "firearm.fireRateRpm",
+            "firearm.dps",
+            "firearm.spareMagazines",
+            "firearm.magazinesFromSupply",
+            "firearm.magazinesFromAmmoBox",
+            "firearm.recoil",
+            "firearm.ergonomics",
+            "firearm.reloadKind",
+            "firearm.reloadTimeS",
+            "firearm.tacticalReloadTimeS",
+            "attacks",
+            "statsRaw[\"Firing Modes\"]",
+            "statsRaw.Traits",
+            "statsRaw[\"Standard Damage\"]",
+            "statsRaw[\"Armor Penetration\"]",
+            "statsRaw[\"Fire Rate\"]",
+            "statsRaw.DPS",
+            "statsRaw[\"Spare Mags\"]",
+            "statsRaw[\"Spare Shells\"]",
+            "statsRaw[\"Supply Box Refill\"]",
+            "statsRaw[\"Ammo Box Refill\"]",
+            "statsRaw.Ergonomics",
+            "statsRaw.Recoil",
+            "statsRaw[\"Reload Time\"]",
+            "statsRaw[\"Tactical Reload Time\"]",
+            "statsRaw[\"Rounds Reload Full Time\"]",
+            "statsRaw[\"Reload Time For One Round\"]",
+            "statsRaw[\"Reload Time for >1 Round\"]",
+            "statsRaw[\"RIFLE_dm › Damage › Standard\"]",
+            "statsRaw[\"RIFLE_dm › Damage › vs. Durable\"]",
+            "statsRaw[\"RIFLE_dm › Penetration › Direct\"]",
+            "statsRaw[\"RIFLE_dm › Penetration › Slight Angle\"]",
+            "statsRaw[\"RIFLE_dm › Penetration › Large Angle\"]",
+            "statsRaw[\"RIFLE_dm › Penetration › Extreme Angle\"]",
+            "statsRaw[\"RIFLE_dm › Special Effects › Demolition Force\"]",
+            "statsRaw[\"RIFLE_dm › Special Effects › Stagger Force\"]",
+            "statsRaw[\"RIFLE_dm › Special Effects › Push Force\"]",
+            "statsRaw[\"SHOTGUN_dm › Damage › Standard\"]",
+            "statsRaw[\"SHOTGUN_dm › Damage › vs. Durable\"]",
+            "statsRaw[\"SHOTGUN_dm › Penetration › Direct\"]",
+            "statsRaw[\"SHOTGUN_dm › Penetration › Slight Angle\"]",
+            "statsRaw[\"SHOTGUN_dm › Penetration › Large Angle\"]",
+            "statsRaw[\"SHOTGUN_dm › Penetration › Extreme Angle\"]",
+            "statsRaw[\"SHOTGUN_dm › Special Effects › Demolition Force\"]",
+            "statsRaw[\"SHOTGUN_dm › Special Effects › Stagger Force\"]",
+            "statsRaw[\"SHOTGUN_dm › Special Effects › Push Force\"]",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-60-anti-tank-seeker",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "image.height",
+            "traitIds",
+            "throwable.capacity",
+            "statsRaw[\"Trait(s)\"]",
+            "statsRaw.Damage",
+            "statsRaw.Penetration",
+            "statsRaw[\"Outer Radius\"]",
+            "statsRaw.Capacity",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-8-immolation",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "image.height",
+            "traitIds",
+            "throwable.capacity",
+            "statsRaw[\"Trait(s)\"]",
+            "statsRaw.Damage",
+            "statsRaw.Penetration",
+            "statsRaw[\"Outer Radius\"]",
+            "statsRaw.Capacity",
+            "source.label",
+            "source.page",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "traitIds",
+            "firearm.fireRateRpm",
+            "firearm.capacity",
+            "firearm.spareMagazines",
+            "firearm.magazinesFromSupply",
+            "firearm.recoil",
+            "firearm.ergonomics",
+            "firearm.reloadTimeS",
+            "statsRaw.Traits",
+            "statsRaw[\"Standard Damage\"]",
+            "statsRaw[\"Armor Penetration\"]",
+            "statsRaw[\"Fire Rate\"]",
+            "statsRaw.Capacity",
+            "statsRaw[\"Spare Rounds\"]",
+            "statsRaw[\"Supply Box Refill\"]",
+            "statsRaw.Ergonomics",
+            "statsRaw.Recoil",
+            "statsRaw[\"Reload Time\"]",
+            "statsRaw[\"Rounds Reload Full Time\"]",
+            "statsRaw[\"Reload Time For One Round\"]",
+            "statsRaw[\"Reload Time for >1 Round\"]",
+            "source.page"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-12-sai",
+          "kind": "added"
+        },
+        {
+          "collection": "weapons",
+          "id": "p-34-breacher",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "traitIds",
+            "firearm.fireRateRpm",
+            "firearm.spareMagazines",
+            "firearm.magazinesFromSupply",
+            "firearm.magazinesFromAmmoBox",
+            "firearm.recoil",
+            "firearm.reloadKind",
+            "firearm.reloadTimeS",
+            "attacks",
+            "statsRaw.Traits",
+            "statsRaw[\"Standard Damage\"]",
+            "statsRaw[\"Armor Penetration\"]",
+            "statsRaw[\"Fire Rate\"]",
+            "statsRaw[\"Spare Rounds\"]",
+            "statsRaw[\"Supply Box Refill\"]",
+            "statsRaw[\"Ammo Box Refill\"]",
+            "statsRaw.Recoil",
+            "statsRaw[\"Reload Time\"]",
+            "statsRaw[\"P-34 P_dm › Damage › Standard\"]",
+            "statsRaw[\"P-34 P_dm › Damage › vs. Durable\"]",
+            "statsRaw[\"P-34 P_dm › Penetration › Direct\"]",
+            "statsRaw[\"P-34 P_dm › Penetration › Slight Angle\"]",
+            "statsRaw[\"P-34 P_dm › Penetration › Large Angle\"]",
+            "statsRaw[\"P-34 P_dm › Penetration › Extreme Angle\"]",
+            "statsRaw[\"P-34 P_dm › Special Effects › Demolition Force\"]",
+            "statsRaw[\"P-34 P_dm › Special Effects › Stagger Force\"]",
+            "statsRaw[\"P-34 P_dm › Special Effects › Push Force\"]",
+            "statsRaw[\"P-34 E_dm › Damage › Standard\"]",
+            "statsRaw[\"P-34 E_dm › Damage › vs. Durable\"]",
+            "statsRaw[\"P-34 E_dm › Penetration › Direct\"]",
+            "statsRaw[\"P-34 E_dm › Special Effects › Demolition Force\"]",
+            "statsRaw[\"P-34 E_dm › Special Effects › Stagger Force\"]",
+            "statsRaw[\"P-34 E_dm › Special Effects › Push Force\"]",
+            "statsRaw[\"Area of Effect › Outer Radius\"]",
+            "source.label",
+            "source.page",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-arc-3-tesla-tower",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Tesla Turret Arc › Arc › Max Split\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ac-8-autocannon",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"20mm FLAK ROUNDS P › Projectile › Explosion Proximity\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-ar-23-guard-dog",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-arc-3-k-9",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"AX/ARC-3 K-9 A › Arc › Arc Spread\"]",
+            "statsRaw[\"AX/ARC-3 K-9 A › Arc › Chain Spread\"]",
+            "statsRaw[\"AX/ARC-3 K-9 A › Arc › Chain Count\"]",
+            "statsRaw[\"AX/ARC-3 K-9 A › Arc › Max Split\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-las-5-rover",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-1-supply-pack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-md-c4-pack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-gas-airstrike",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-411-leveller",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-700-expendable-napalm",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-51-lumberer-exosuit",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-850-jump-pack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"20mm FLAK ROUNDS P2 › Projectile › Explosion Proximity\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-20-ballistic-shield-backpack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sh-32-shield-generator-pack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sta-x3-wasp-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Artillery P › Projectile › Explosion Proximity\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-110-maelstrom",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "tx-41-sterilizer",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bfm-16-tanker",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "description",
+            "image.url",
+            "image.width",
+            "wiki.flags",
+            "armorRating",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bfm-220-ironclad",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "wiki.flags",
+            "armorRating",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bfm-77-reformer",
+          "kind": "added"
+        },
+        {
+          "collection": "helmets",
+          "id": "bfm-16-tanker",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bfm-220-ironclad",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "bfm-77-reformer",
+          "kind": "added"
+        },
+        {
+          "collection": "capes",
+          "id": "message-of-morale",
+          "kind": "added"
+        },
+        {
+          "collection": "capes",
+          "id": "shroud-of-the-juggernaut",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "description",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "standard-of-rapid-evacuation",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "description",
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "tread-of-liberty",
+          "kind": "added"
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ad-11-livewire",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "bfm-16-tanker",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "bfm-220-ironclad",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "bfm-77-reformer",
+          "kind": "added"
+        },
+        {
+          "collection": "armor-sets",
+          "id": "bp-77-grand-juror",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "cpr-80-bulwark",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "dp-8-mountain-scaled",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ds-10-big-game-hunter",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "gs-11-democracys-deputy",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ie-57-hell-bent",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "o-44-bonded-pilot",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "re-824-bearer-of-the-standard",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "rs-100-sanctioner",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "rs-6-fiend-destroyer",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "sr-64-cinderblock",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "uf-84-doubt-killer",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "blunt-force-mitigation",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "effects",
+            "armorIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "anti-tank",
+          "kind": "changed",
+          "paths": [
+            "weaponIds",
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "explosive",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heat",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heavy-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "light-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "medium-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "one-handed",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "rounds-reload",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sticky",
+          "kind": "changed",
+          "paths": [
+            "weaponIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "vehicle",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "shroud-of-the-juggernaut",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image",
+            "wiki.flags",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "standard-of-rapid-evacuation",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "image",
+            "wiki.flags",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "tread-of-liberty",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "helmet-durability-check",
+          "kind": "added"
+        },
+        {
+          "collection": "emotes",
+          "id": "thumb-of-approval",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "treadhead",
+          "kind": "added"
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-22.966da4f8",
       "date": "2026-09-22",

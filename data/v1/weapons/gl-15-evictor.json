@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,25 +12,24 @@
     "id": "gl-15-evictor",
     "slug": "gl-15-evictor",
     "name": "GL-15 Evictor",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
     "description": "GL-15 Evictor is a Explosive primary weapon that fires high-damaging grenades that explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
     "image": {
-      "url": "/images/v1/weapons/gl-15-evictor.364720fd.webp",
-      "width": 379,
-      "height": 337,
+      "url": "/images/v1/weapons/gl-15-evictor.a291f417.webp",
+      "width": 512,
+      "height": 288,
       "wikiFile": "GL-15_Evictor_Primary_Render.png"
     },
     "wiki": {
       "title": "GL-15 Evictor",
       "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-      "flags": [
-        "broken_file_links"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "explosive",
     "traitIds": [
+      "medium-armor-penetrating",
       "explosive",
       "rounds-reload"
     ],
@@ -38,21 +37,23 @@
       "firingModes": [
         "other"
       ],
-      "fireRateRpm": [],
+      "fireRateRpm": [
+        60
+      ],
       "dps": [],
-      "capacity": null,
-      "spareMagazines": null,
+      "capacity": 4,
+      "spareMagazines": 32,
       "startingMagazines": null,
-      "magazinesFromSupply": null,
+      "magazinesFromSupply": 16,
       "magazinesFromAmmoBox": null,
-      "recoil": null,
+      "recoil": 83,
       "horizontalRecoil": null,
       "verticalRecoil": null,
       "spread": null,
       "sway": null,
-      "ergonomics": null,
+      "ergonomics": 65,
       "reloadKind": "rounds",
-      "reloadTimeS": null,
+      "reloadTimeS": 2.67,
       "reloadTimeUpgradedS": null,
       "tacticalReloadTimeS": null
     },
@@ -63,13 +64,25 @@
       "Weapon Category": "Primary Weapons",
       "Weapon Type": "Explosives",
       "Firing Modes": "Pump-Action",
-      "Traits": "Explosive • Rounds Reload"
+      "Traits": "Medium Armor Penetrating • Explosive • Rounds Reload",
+      "Standard Damage": "490",
+      "Armor Penetration": "Medium",
+      "Fire Rate": "60",
+      "Capacity": "4",
+      "Spare Rounds": "32",
+      "Supply Box Refill": "16",
+      "Ergonomics": "65",
+      "Recoil": "83",
+      "Reload Time": "2.67",
+      "Rounds Reload Full Time": "2.75s",
+      "Reload Time For One Round": "1.45s (Empty) / 0.5s (Partial)",
+      "Reload Time for >1 Round": "0.45s"
     },
     "source": {
       "type": "warbond",
       "label": "Ironclad Democracy",
       "warbondId": "ironclad-democracy",
-      "page": 2,
+      "page": 3,
       "cost": null,
       "rotating": null
     }

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,13 +12,16 @@
     "id": "ironclad-democracy",
     "slug": "ironclad-democracy",
     "name": "Ironclad Democracy",
-    "upcoming": true,
-    "aliases": [],
+    "upcoming": false,
+    "aliases": [
+      "Ironclad DemocracyP2",
+      "Ironclad DemocracyP3"
+    ],
     "description": "Ironclad Democracy is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
     "image": {
-      "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
+      "url": "/images/v1/warbonds/ironclad-democracy.32db6ed7.webp",
       "width": 1024,
-      "height": 562,
+      "height": 512,
       "wikiFile": "Ironclad_Democracy_Premium_Warbond_Cover.png"
     },
     "wiki": {
@@ -35,8 +38,8 @@
       "amount": 1000
     },
     "superCreditsClaimable": 300,
-    "medalsAllPages": null,
-    "medalsAllItems": null,
+    "medalsAllPages": 360,
+    "medalsAllItems": 803,
     "pages": [
       {
         "number": 1,
@@ -58,7 +61,10 @@
               "id": "ar-11-arbitrator",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
           },
           {
             "name": "BFM-16 Tanker",
@@ -68,7 +74,10 @@
               "id": "bfm-16-tanker",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 30
+            }
           },
           {
             "name": "BFM-16 Tanker",
@@ -78,7 +87,10 @@
               "id": "bfm-16-tanker",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
           },
           {
             "name": "Standard of Rapid Evacuation",
@@ -88,7 +100,10 @@
               "id": "standard-of-rapid-evacuation",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
           },
           {
             "name": "Standard of Rapid Evacuation",
@@ -98,13 +113,32 @@
               "id": "standard-of-rapid-evacuation",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
           },
           {
             "name": "Verdant Camouflage",
             "wikiType": "Pattern",
             "ref": null,
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
+          },
+          {
+            "name": "G-8 Immolation",
+            "wikiType": "Special Throwable",
+            "ref": {
+              "collection": "weapons",
+              "id": "g-8-immolation",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 35
+            }
           }
         ]
       },
@@ -121,14 +155,17 @@
             }
           },
           {
-            "name": "GL-15 Evictor",
-            "wikiType": "Explosive Primary",
+            "name": "P-34 Breacher",
+            "wikiType": "Special Secondary",
             "ref": {
               "collection": "weapons",
-              "id": "gl-15-evictor",
+              "id": "p-34-breacher",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
           },
           {
             "name": "BFM-220 Ironclad",
@@ -138,7 +175,10 @@
               "id": "bfm-220-ironclad",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 45
+            }
           },
           {
             "name": "BFM-220 Ironclad",
@@ -148,7 +188,10 @@
               "id": "bfm-220-ironclad",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
           },
           {
             "name": "Shroud of the Juggernaut",
@@ -158,7 +201,10 @@
               "id": "shroud-of-the-juggernaut",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
           },
           {
             "name": "Shroud of the Juggernaut",
@@ -168,29 +214,28 @@
               "id": "shroud-of-the-juggernaut",
               "variant": null
             },
-            "cost": null
-          },
-          {
-            "name": "G-8 Immolation",
-            "wikiType": "Special Throwable",
-            "ref": {
-              "collection": "weapons",
-              "id": "g-8-immolation",
-              "variant": null
-            },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
           },
           {
             "name": "Integrated Extinguishers",
             "wikiType": "Booster",
             "ref": null,
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
           },
           {
             "name": "Glacial Polymer",
             "wikiType": "Pattern",
             "ref": null,
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 50
+            }
           }
         ]
       },
@@ -207,11 +252,11 @@
             }
           },
           {
-            "name": "P-34 Breacher",
-            "wikiType": "Special Secondary",
+            "name": "GL-15 Evictor",
+            "wikiType": "Explosive Primary",
             "ref": {
               "collection": "weapons",
-              "id": "p-34-breacher",
+              "id": "gl-15-evictor",
               "variant": null
             },
             "cost": null
@@ -219,8 +264,15 @@
           {
             "name": "Helmet Durability Check",
             "wikiType": "Emote",
-            "ref": null,
-            "cost": null
+            "ref": {
+              "collection": "emotes",
+              "id": "helmet-durability-check",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
           },
           {
             "name": "G-60 Anti-Tank Seeker",
@@ -230,25 +282,41 @@
               "id": "g-60-anti-tank-seeker",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
           },
           {
             "name": "Surplus EAT Allocation",
             "wikiType": "Booster",
             "ref": null,
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 65
+            }
           },
           {
             "name": "Executive Onyx",
             "wikiType": "Pattern",
             "ref": null,
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 55
+            }
           },
           {
             "name": "Treadhead",
             "wikiType": "Title",
-            "ref": null,
-            "cost": null
+            "ref": {
+              "collection": "titles",
+              "id": "treadhead",
+              "variant": null
+            },
+            "cost": {
+              "currency": "medals",
+              "amount": 20
+            }
           }
         ]
       }

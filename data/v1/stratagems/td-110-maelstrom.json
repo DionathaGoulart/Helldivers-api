@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "td-110-maelstrom",
+    "slug": "td-110-maelstrom",
+    "name": "TD-110 Maelstrom",
+    "upcoming": false,
+    "aliases": [],
+    "description": "The TD-110 Maelstrom is a Stratagem that deploys a tracked ground vehicle armed with two triple-barrel rotary guns and two vertically mounted laser-guided missile pods.",
+    "image": {
+      "url": "/images/v1/stratagems/td-110-maelstrom.7fcb55cb.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Maelstrom_Stratagem_Icon_Background.svg"
+    },
+    "wiki": {
+      "title": "TD-110 Maelstrom",
+      "url": "https://helldivers.wiki.gg/wiki/TD-110_Maelstrom",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "permitType": "supply",
+    "availability": "loadout",
+    "category": null,
+    "kind": "vehicle",
+    "traitIds": [
+      "vehicle",
+      "heavy-armor-penetrating",
+      "anti-tank"
+    ],
+    "code": [
+      "left",
+      "down",
+      "right",
+      "down",
+      "left",
+      "down",
+      "up",
+      "left",
+      "right"
+    ],
+    "cooldownS": 780,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 741
+      }
+    ],
+    "callInTimeS": 10.5,
+    "callInTimeUpgradedS": null,
+    "uses": "unlimited",
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Permit Type": "Supply",
+      "Traits": "Vehicle • Heavy Armour Penetrating • Anti Tank",
+      "Base Cooldown": "780s",
+      "General › Call-in Time": "10.50 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "780 seconds",
+      "General › Cooldown › With Morale Augmentation": "741 seconds"
+    },
+    "source": {
+      "type": "event",
+      "label": "Armored Eagle",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

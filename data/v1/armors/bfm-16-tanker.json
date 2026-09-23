@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,24 +12,22 @@
     "id": "bfm-16-tanker",
     "slug": "bfm-16-tanker",
     "name": "BFM-16 Tanker",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
-    "description": "BFM-16 Tanker is a set of light armor in Helldivers 2.",
+    "description": "Inspired by the legendary armored cavalry of the First Galactic War, this lightweight suit features integrated acoustic dampeners to shield the wearer from the deafening roar of Freedom, and the disruptive screams of dissidence.",
     "image": {
-      "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
-      "width": 213,
+      "url": "/images/v1/armors/bfm-16-tanker.c7384093.webp",
+      "width": 512,
       "height": 512,
       "wikiFile": "BFM-16_Tanker_Armor_Render.png"
     },
     "wiki": {
       "title": "BFM-16 Tanker",
       "url": "https://helldivers.wiki.gg/wiki/BFM-16_Tanker",
-      "flags": [
-        "broken_file_links"
-      ]
+      "flags": []
     },
     "weight": "light",
-    "armorRating": 50,
+    "armorRating": 75,
     "speed": 550,
     "staminaRegen": 125,
     "passiveId": "blunt-force-mitigation",
@@ -38,10 +36,13 @@
     ],
     "source": {
       "type": "warbond",
-      "label": "Ironclad Democracy",
+      "label": "Ironclad Democracy P1",
       "warbondId": "ironclad-democracy",
       "page": 1,
-      "cost": null,
+      "cost": {
+        "currency": "medals",
+        "amount": 45
+      },
       "rotating": null
     }
   }

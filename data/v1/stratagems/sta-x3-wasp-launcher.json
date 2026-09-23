@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-22.966da4f8",
-    "generatedAt": "2026-09-22T11:59:18Z",
+    "dataVersion": "2026-09-23.9cab5237",
+    "generatedAt": "2026-09-23T17:15:38Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -274,6 +274,7 @@
       "Artillery P › Projectile › Gravity Factor": "0%",
       "Artillery P › Projectile › Penetration Slowdown": "25%",
       "Artillery P › Projectile › Explosion On Impact": "Artillery_P_IE",
+      "Artillery P › Projectile › Explosion Proximity": "12 m",
       "Artillery P › Damage › Standard": "20 Ballistic",
       "Artillery P › Damage › vs. Durable": "2 Ballistic",
       "Artillery P › Penetration › Direct": "Unarmored",

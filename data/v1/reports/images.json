@@ -145,22 +145,31 @@
       "bytes": 28014
     },
     {
-      "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
+      "url": "/images/v1/armors/bfm-16-tanker.c7384093.webp",
       "wikiFile": "BFM-16_Tanker_Armor_Render.png",
-      "version": "6c5b0a",
+      "version": "f52846",
       "rendition": "render",
-      "width": 213,
+      "width": 512,
       "height": 512,
-      "bytes": 35706
+      "bytes": 28264
     },
     {
-      "url": "/images/v1/armors/bfm-220-ironclad.9dee6a99.webp",
+      "url": "/images/v1/armors/bfm-220-ironclad.be6426db.webp",
       "wikiFile": "BFM-220_Ironclad_Armor_Render.png",
-      "version": "1deebd",
+      "version": "fd09a7",
       "rendition": "render",
-      "width": 248,
+      "width": 512,
       "height": 512,
-      "bytes": 33674
+      "bytes": 28278
+    },
+    {
+      "url": "/images/v1/armors/bfm-77-reformer.034f3153.webp",
+      "wikiFile": "BFM-77_Reformer_Armor_Render.png",
+      "version": "ff1252",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 28798
     },
     {
       "url": "/images/v1/armors/bp-20-correct-officer.661747a7.webp",
@@ -1567,6 +1576,15 @@
       "bytes": 29714
     },
     {
+      "url": "/images/v1/capes/message-of-morale.558235be.webp",
+      "wikiFile": "Message_of_Morale_Cape_Render.png",
+      "version": "e4a3e2",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 23668
+    },
+    {
       "url": "/images/v1/capes/mirandas-legacy.e1ad9682.webp",
       "wikiFile": "Miranda's_Legacy_Cape_Render.png",
       "version": "8348fb",
@@ -1747,22 +1765,22 @@
       "bytes": 29796
     },
     {
-      "url": "/images/v1/capes/shroud-of-the-juggernaut.3f7c8719.webp",
+      "url": "/images/v1/capes/shroud-of-the-juggernaut.f05463d1.webp",
       "wikiFile": "Shroud_of_the_Juggernaut_Cape_Render.png",
-      "version": "f8dc8b",
+      "version": "2c2622",
       "rendition": "render",
-      "width": 144,
-      "height": 297,
-      "bytes": 10134
+      "width": 300,
+      "height": 300,
+      "bytes": 9642
     },
     {
-      "url": "/images/v1/capes/standard-of-rapid-evacuation.22c41926.webp",
+      "url": "/images/v1/capes/standard-of-rapid-evacuation.03a24fbf.webp",
       "wikiFile": "Standard_of_Rapid_Evacuation_Cape_Render.png",
-      "version": "e764a5",
+      "version": "f87e73",
       "rendition": "render",
-      "width": 129,
-      "height": 298,
-      "bytes": 9498
+      "width": 512,
+      "height": 512,
+      "bytes": 26310
     },
     {
       "url": "/images/v1/capes/standard-of-safe-distance.e9b191c0.webp",
@@ -1835,6 +1853,15 @@
       "width": 512,
       "height": 512,
       "bytes": 26418
+    },
+    {
+      "url": "/images/v1/capes/tread-of-liberty.261c4648.webp",
+      "wikiFile": "Tread_of_Liberty_Cape_Render.png",
+      "version": "d88505",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 22828
     },
     {
       "url": "/images/v1/capes/triangulation-veil.55f203b1.webp",
@@ -2134,6 +2161,15 @@
       "bytes": 8820
     },
     {
+      "url": "/images/v1/emotes/helmet-durability-check.c9406d63.webp",
+      "wikiFile": "Helmet_Durability_Check_Emote_Icon.png",
+      "version": "285877",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 12696
+    },
+    {
       "url": "/images/v1/emotes/high-five.45a07bcf.webp",
       "wikiFile": "High-Five_Emote_Icon.png",
       "version": "dfb584",
@@ -2350,6 +2386,15 @@
       "bytes": 7500
     },
     {
+      "url": "/images/v1/emotes/thumb-of-approval.7b200792.webp",
+      "wikiFile": "Thumb_of_Approval_Emote_Icon.png",
+      "version": "c6b495",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 11460
+    },
+    {
       "url": "/images/v1/emotes/tip-hat.06814e2d.webp",
       "wikiFile": "Tip_Hat_Emote_Icon.png",
       "version": "288211",
@@ -2521,22 +2566,31 @@
       "bytes": 33762
     },
     {
-      "url": "/images/v1/helmets/bfm-16-tanker.8fd0dad4.webp",
+      "url": "/images/v1/helmets/bfm-16-tanker.7257a6a5.webp",
       "wikiFile": "BFM-16_Tanker_Helmet_Render.png",
-      "version": "23a425",
+      "version": "458fd0",
       "rendition": "render",
-      "width": 230,
-      "height": 230,
-      "bytes": 11944
+      "width": 512,
+      "height": 512,
+      "bytes": 37038
     },
     {
-      "url": "/images/v1/helmets/bfm-220-ironclad.3a78a0d3.webp",
+      "url": "/images/v1/helmets/bfm-220-ironclad.2174e50b.webp",
       "wikiFile": "BFM-220_Ironclad_Helmet_Render.png",
-      "version": "1e8053",
+      "version": "f8dd89",
       "rendition": "render",
-      "width": 230,
-      "height": 230,
-      "bytes": 10388
+      "width": 512,
+      "height": 512,
+      "bytes": 32902
+    },
+    {
+      "url": "/images/v1/helmets/bfm-77-reformer.9ea1d346.webp",
+      "wikiFile": "BFM-77_Reformer_Helmet_Render.png",
+      "version": "df8735",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 31638
     },
     {
       "url": "/images/v1/helmets/bp-20-correct-officer.27bbc16a.webp",
@@ -4798,6 +4852,15 @@
       "bytes": 12210
     },
     {
+      "url": "/images/v1/player-cards/shroud-of-the-juggernaut.cd8f38fd.webp",
+      "wikiFile": "Shroud_of_the_Juggernaut_Player_Card_Icon.png",
+      "version": "1e5878",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 13206
+    },
+    {
       "url": "/images/v1/player-cards/solid-black.57acba4f.webp",
       "wikiFile": "Solid_Black_Player_Card_Icon.png",
       "version": "df21e6",
@@ -4805,6 +4868,15 @@
       "width": 276,
       "height": 512,
       "bytes": 4590
+    },
+    {
+      "url": "/images/v1/player-cards/standard-of-rapid-evacuation.242bb0ce.webp",
+      "wikiFile": "Standard_of_Rapid_Evacuation_Player_Card_Icon.png",
+      "version": "f6ff11",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 10708
     },
     {
       "url": "/images/v1/player-cards/standard-of-safe-distance.80867825.webp",
@@ -4877,6 +4949,15 @@
       "width": 276,
       "height": 512,
       "bytes": 5456
+    },
+    {
+      "url": "/images/v1/player-cards/tread-of-liberty.5d6ba7ca.webp",
+      "wikiFile": "Tread_of_Liberty_Player_Card_Icon.png",
+      "version": "8573c4",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 12812
     },
     {
       "url": "/images/v1/player-cards/triangulation-veil.33092b8a.webp",
@@ -5941,6 +6022,15 @@
       "bytes": 2026
     },
     {
+      "url": "/images/v1/stratagems/td-110-maelstrom.7fcb55cb.webp",
+      "wikiFile": "Maelstrom_Stratagem_Icon_Background.svg",
+      "version": "23094c",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3234
+    },
+    {
       "url": "/images/v1/stratagems/td-220-bastion-mk-xvi.39d96a04.webp",
       "wikiFile": "Bastion_MK_XVI_Stratagem_Icon_Background.svg",
       "version": "9de952",
@@ -6472,6 +6562,15 @@
       "bytes": 4348
     },
     {
+      "url": "/images/v1/titles/treadhead.614884ac.webp",
+      "wikiFile": "Treadhead_Title_Icon.png",
+      "version": "596941",
+      "rendition": "icon",
+      "width": 219,
+      "height": 247,
+      "bytes": 6864
+    },
+    {
       "url": "/images/v1/titles/viper-commando.c031fd4e.webp",
       "wikiFile": "Viper_Commando_Title_Icon.svg",
       "version": "2d0d41",
@@ -6589,13 +6688,13 @@
       "bytes": 96348
     },
     {
-      "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
+      "url": "/images/v1/warbonds/ironclad-democracy.32db6ed7.webp",
       "wikiFile": "Ironclad_Democracy_Premium_Warbond_Cover.png",
-      "version": "2ac86a",
+      "version": "6689c5",
       "rendition": "cover",
       "width": 1024,
-      "height": 562,
-      "bytes": 52272
+      "height": 512,
+      "bytes": 75944
     },
     {
       "url": "/images/v1/warbonds/masters-of-ceremony.47d1c3f5.webp",
@@ -6706,13 +6805,13 @@
       "bytes": 96998
     },
     {
-      "url": "/images/v1/weapons/ar-11-arbitrator.9a7e3dbf.webp",
+      "url": "/images/v1/weapons/ar-11-arbitrator.ce5b887c.webp",
       "wikiFile": "AR-11_Arbitrator_Primary_Render.png",
-      "version": "128b20",
+      "version": "283658",
       "rendition": "render",
-      "width": 389,
-      "height": 355,
-      "bytes": 10294
+      "width": 512,
+      "height": 288,
+      "bytes": 7692
     },
     {
       "url": "/images/v1/weapons/ar-2-coyote.3ea0cd0e.webp",
@@ -7039,13 +7138,13 @@
       "bytes": 9222
     },
     {
-      "url": "/images/v1/weapons/g-60-anti-tank-seeker.68dfed86.webp",
+      "url": "/images/v1/weapons/g-60-anti-tank-seeker.a6067714.webp",
       "wikiFile": "G-60_Anti-Tank_Seeker_Throwable_Render.png",
-      "version": "4cc152",
+      "version": "952442",
       "rendition": "render",
-      "width": 184,
-      "height": 224,
-      "bytes": 7516
+      "width": 512,
+      "height": 512,
+      "bytes": 11468
     },
     {
       "url": "/images/v1/weapons/g-7-pineapple.fc58d521.webp",
@@ -7057,13 +7156,13 @@
       "bytes": 11296
     },
     {
-      "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
+      "url": "/images/v1/weapons/g-8-immolation.3c5e3c03.webp",
       "wikiFile": "G-8_Immolation_Throwable_Render.png",
-      "version": "337e36",
+      "version": "c464d5",
       "rendition": "render",
-      "width": 194,
-      "height": 240,
-      "bytes": 7560
+      "width": 512,
+      "height": 512,
+      "bytes": 9260
     },
     {
       "url": "/images/v1/weapons/g-89-smokescreen.5c8fb1db.webp",
@@ -7084,13 +7183,13 @@
       "bytes": 12938
     },
     {
-      "url": "/images/v1/weapons/gl-15-evictor.364720fd.webp",
+      "url": "/images/v1/weapons/gl-15-evictor.a291f417.webp",
       "wikiFile": "GL-15_Evictor_Primary_Render.png",
-      "version": "30f515",
+      "version": "e6b573",
       "rendition": "render",
-      "width": 379,
-      "height": 337,
-      "bytes": 8750
+      "width": 512,
+      "height": 288,
+      "bytes": 6262
     },
     {
       "url": "/images/v1/weapons/gp-20-ultimatum.e3b73466.webp",
@@ -7127,6 +7226,15 @@
       "width": 512,
       "height": 512,
       "bytes": 6004
+    },
+    {
+      "url": "/images/v1/weapons/las-12-sai.c1182999.webp",
+      "wikiFile": "LAS-12_Sai_Primary_Render.png",
+      "version": "c4a072",
+      "rendition": "render",
+      "width": 512,
+      "height": 288,
+      "bytes": 9250
     },
     {
       "url": "/images/v1/weapons/las-13-trident.0d298c8c.webp",
@@ -7273,13 +7381,13 @@
       "bytes": 8058
     },
     {
-      "url": "/images/v1/weapons/p-34-breacher.ce4c188b.webp",
+      "url": "/images/v1/weapons/p-34-breacher.57a4a88c.webp",
       "wikiFile": "P-34_Breacher_Secondary_Render.png",
-      "version": "afe23e",
+      "version": "882b5b",
       "rendition": "render",
-      "width": 325,
-      "height": 290,
-      "bytes": 8044
+      "width": 512,
+      "height": 288,
+      "bytes": 6980
     },
     {
       "url": "/images/v1/weapons/p-35-re-educator.c3c34a84.webp",
@@ -7644,8 +7752,56 @@
   ],
   "orphans": [
     {
+      "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/armors/bfm-220-ironclad.9dee6a99.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/capes/shroud-of-the-juggernaut.3f7c8719.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/capes/standard-of-rapid-evacuation.22c41926.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/helmets/bfm-16-tanker.8fd0dad4.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/helmets/bfm-220-ironclad.3a78a0d3.webp",
+      "since": "2026-09-23"
+    },
+    {
       "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
       "since": "2026-09-22"
+    },
+    {
+      "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/weapons/ar-11-arbitrator.9a7e3dbf.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/weapons/g-60-anti-tank-seeker.68dfed86.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/weapons/gl-15-evictor.364720fd.webp",
+      "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/weapons/p-34-breacher.ce4c188b.webp",
+      "since": "2026-09-23"
     }
   ]
 }
