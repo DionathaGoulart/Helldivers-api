@@ -63,12 +63,15 @@ export function parseCount(value: string, page: string): number | null {
 export const firstCount = (lines: readonly string[], page: string) =>
   parseCount(first(lines), page);
 
-/** `3s`, `2.5s(40mm)`, `0.2 sec`, `90 seconds`; fuse kinds (`Impact`) and `Unknown seconds` give null. */
+/**
+ * `3s`, `2.5s(40mm)`, `0.2 sec`, `90 seconds`, `2.67` (the wiki sometimes drops the unit of a
+ * duration cell); fuse kinds (`Impact`) and `Unknown seconds` give null.
+ */
 export function parseSeconds(value: string, page: string): number | null {
   if (/^(?:impact|proximity|unknown(?:\s+seconds)?)$/i.test(value)) {
     return null;
   }
-  return match(value, String.raw`\s*(?:s|secs?|seconds?)`, page, "not a duration");
+  return match(value, String.raw`(?:\s*(?:s|secs?|seconds?))?`, page, "not a duration");
 }
 
 export const firstSeconds = (lines: readonly string[], page: string) =>
@@ -124,10 +127,13 @@ export function parseSpread(value: string, page: string) {
   return { horizontal: parseNumber(found[1], page), vertical: parseNumber(found[2], page) };
 }
 
-/** `90 Ballistic` → { amount: 90, type: "Ballistic" }; `100 Fire DPS` keeps `Fire`. */
+/**
+ * `90 Ballistic` → { amount: 90, type: "Ballistic" }; `100 Fire DPS` keeps `Fire`; `50 Ballistic x9`
+ * (a damage-only table states the pellet count beside the per-pellet damage) keeps the 50.
+ */
 export function parseDamage(value: string, page: string) {
   const found = new RegExp(
-    String.raw`^(${NUMBER})(?:\s+([A-Za-z][A-Za-z ]*?))?(?:\s+DPS)?${NOTE}$`,
+    String.raw`^(${NUMBER})(?:\s+([A-Za-z][A-Za-z ]*?))?(?:\s+DPS)?(?:\s*x\s*\d+)?${NOTE}$`,
   ).exec(value);
   if (!found?.[1]) {
     throw new NormalizeError(page, value, "expected damage such as `90 Ballistic`");

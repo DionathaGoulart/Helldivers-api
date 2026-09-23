@@ -60,6 +60,7 @@ describe("numbers", () => {
     ["2.5s(40mm)", 2.5],
     ["0.2 sec", 0.2],
     ["90 seconds", 90],
+    ["2.67", 2.67],
     ["Impact", null],
     ["Proximity", null],
     ["Unknown seconds", null],
@@ -93,6 +94,7 @@ describe("numbers", () => {
     expect(parseDamage("90 Ballistic", PAGE)).toEqual({ amount: 90, type: "Ballistic" });
     expect(parseDamage("1,000 Explosion", PAGE)).toEqual({ amount: 1000, type: "Explosion" });
     expect(parseDamage("100 Fire DPS", PAGE)).toEqual({ amount: 100, type: "Fire" });
+    expect(parseDamage("50 Ballistic x9", PAGE)).toEqual({ amount: 50, type: "Ballistic" });
   });
 
   it.each([
