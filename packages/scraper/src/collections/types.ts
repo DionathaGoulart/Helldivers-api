@@ -1,5 +1,6 @@
 import type { Collection, CollectionEntity, Conflict, Dataset, IdLock } from "@hd2/schemas";
 import type { ImageRequest } from "../images/attach.ts";
+import type { WarbondGrids } from "../link/warbond-items.ts";
 import type { Logger } from "../log.ts";
 import type { WarbondResolver } from "../normalize/warbonds.ts";
 import type { Overrides } from "../overrides.ts";
@@ -24,6 +25,7 @@ export interface ScrapeResult<C extends Collection = Collection> {
   warnings: string[];
   conflicts: Conflict[]; // arch §5.5, written to reports/conflicts.json
   images: ImageRequest[]; // pictures found for the entities, attached in step 7
+  grids?: WarbondGrids; // warbonds only: the icon grids, rule 12's tiebreak
 }
 
 export interface CollectionPipeline<C extends Collection = Collection> {

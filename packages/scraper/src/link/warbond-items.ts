@@ -5,6 +5,7 @@ import {
   type Id,
   PatternTarget,
   type Source,
+  type Warbond,
   type WarbondItem,
   WarbondRefCollection,
 } from "@hd2/schemas";
@@ -253,6 +254,151 @@ export function linkWarbondCosts(
         ],
       });
     }
+  }
+
+  return { dataset: next as Dataset, conflicts, warnings };
+}
+
+/** Icon grid cells of each scraped warbond: the page and the article each cell links. */
+export type WarbondGrids = ReadonlyMap<Id, readonly { page: number; title: string }[]>;
+
+const SOURCED = [
+  "weapons",
+  "stratagems",
+  "armors",
+  "helmets",
+  "capes",
+  "boosters",
+  "player-cards",
+  "emotes",
+  "titles",
+] as const satisfies readonly WarbondRefCollection[];
+
+interface Claim {
+  ref: WarbondRef;
+  entity: {
+    id: Id;
+    name: string;
+    aliases: readonly string[];
+    wiki: { title: string; url: string };
+  };
+  source: Source;
+}
+
+/**
+ * Rule 12 between an entity whose source names a warbond page and the warbond table, when the
+ * table lists it on exactly one other page. When the warbonds were scraped in this run the icon
+ * grid breaks the tie: the page two of the three accounts give wins, else the table's. The item
+ * winning moves its table row to that page at the item's price (the names were swapped, not the
+ * prices); the table winning moves the entity's source. Every difference is a conflict and a
+ * warning. Otherwise the published rows already hold resolved pages and the entities take them.
+ * Entities no page lists, or several pages do, are left to the integrity check.
+ */
+export function linkWarbondPages(
+  dataset: Dataset,
+  { scraped, grids }: { scraped: boolean; grids: WarbondGrids },
+): WarbondCosts {
+  if (!dataset.warbonds) {
+    return { dataset, conflicts: [], warnings: [] };
+  }
+  const next = structuredClone(dataset) as { -readonly [C in keyof Dataset]: Dataset[C] };
+  const conflicts: Conflict[] = [];
+  const warnings: string[] = [];
+  const warbonds = new Map((next.warbonds ?? []).map((warbond) => [warbond.id, warbond]));
+
+  const claims: Claim[] = [
+    ...SOURCED.flatMap((collection) =>
+      (next[collection] ?? []).map((entity) => ({
+        ref: { collection, id: entity.id, variant: null },
+        entity,
+        source: entity.source,
+      })),
+    ),
+    ...(next.patterns ?? []).flatMap((pattern) =>
+      pattern.variants.map((variant) => ({
+        ref: { collection: "patterns" as const, id: pattern.id, variant: variant.target },
+        entity: pattern,
+        source: variant.source,
+      })),
+    ),
+  ];
+  type Page = Warbond["pages"][number];
+  const moves: { row: WarbondItem; at: number; from: Page; to: Page; cost: Cost | null }[] = [];
+  const sameRef = (a: WarbondRef | null, b: WarbondRef) =>
+    a?.collection === b.collection && a.id === b.id && a.variant === b.variant;
+
+  for (const { ref, entity, source } of claims) {
+    const warbond = source.warbondId === null ? undefined : warbonds.get(source.warbondId);
+    if (!warbond || source.page === null) {
+      continue;
+    }
+    const listed = warbond.pages.filter((page) => page.items.some((row) => sameRef(row.ref, ref)));
+    const [table] = listed;
+    if (!table || listed.length > 1 || table.number === source.page) {
+      continue;
+    }
+    if (!scraped) {
+      source.page = table.number;
+      continue;
+    }
+
+    const titles = new Set([entity.wiki.title, entity.name, ...entity.aliases].map(matchKey));
+    const gridPages = new Set(
+      (grids.get(warbond.id) ?? [])
+        .filter((cell) => titles.has(matchKey(cell.title)))
+        .map((cell) => cell.page),
+    );
+    const gridPage = gridPages.size === 1 ? ([...gridPages][0] ?? null) : null;
+    const itemPage = source.page;
+    const chosen = gridPage === itemPage ? itemPage : table.number;
+    const what = `${ref.collection}/${ref.id}${ref.variant ? ` (${ref.variant})` : ""}`;
+    const p = warbond.pages.indexOf(table);
+    const i = table.items.findIndex((row) => sameRef(row.ref, ref));
+    const row = table.items[i];
+    if (!row) {
+      continue;
+    }
+
+    conflicts.push({
+      collection: "warbonds",
+      id: warbond.id,
+      field: `pages[${p}].items[${i}]`,
+      rule: 12,
+      chosen,
+      candidates: [
+        {
+          page: warbond.wiki.url,
+          location: `Page ${table.number} › ${row.name}`,
+          value: table.number,
+        },
+        { page: entity.wiki.url, location: `${what} › source`, value: itemPage },
+        ...(gridPage === null
+          ? []
+          : [
+              { page: warbond.wiki.url, location: `Page ${gridPage} › icon grid`, value: gridPage },
+            ]),
+      ],
+    });
+    warnings.push(
+      `warbonds/${warbond.id}: ${what} is on page ${itemPage} per its source, page ${table.number} per the table${gridPage === null ? "" : ` and page ${gridPage} per the icon grid`}; took page ${chosen}`,
+    );
+
+    if (chosen === table.number) {
+      source.page = chosen;
+      continue;
+    }
+    const target = warbond.pages.find((page) => page.number === chosen);
+    if (target) {
+      moves.push({ row, at: i, from: table, to: target, cost: source.cost ?? row.cost });
+    } // else past the last page: the integrity check says so
+  }
+  // After every decision, so conflict fields index the tables as scraped. A row takes its old
+  // position on the new page: two swapped rows trade places back.
+  for (const { row, from } of moves) {
+    from.items.splice(from.items.indexOf(row), 1);
+  }
+  for (const { row, at, to, cost } of moves.sort((a, b) => a.at - b.at)) {
+    to.items.splice(Math.min(at, to.items.length), 0, { ...row, cost });
   }
 
   return { dataset: next as Dataset, conflicts, warnings };

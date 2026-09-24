@@ -14,6 +14,7 @@ import { checkSuperstoreSources } from "../../src/link/superstore.ts";
 import {
   collectionsOfType,
   linkWarbondCosts,
+  linkWarbondPages,
   WarbondRefIndex,
 } from "../../src/link/warbond-items.ts";
 import type { RawSuperstore } from "../../src/parsers/superstore.ts";
@@ -184,6 +185,136 @@ describe("linkWarbondCosts (rule 1)", () => {
   it("does nothing without warbonds", () => {
     const { warbonds: _, ...dataset } = load();
     expect(linkWarbondCosts(dataset, { scraped: false }).dataset).toBe(dataset);
+  });
+});
+
+describe("linkWarbondPages (rule 12)", () => {
+  const HOT_SHOT = "r-40-k-hot-shot-marksman-rifle";
+  const MELTA = "g-40-k-melta-mine";
+  const rowOf = (dataset: Dataset, id: string) =>
+    entity(dataset, "warbonds", "castellans-creed")
+      .pages.map((page) => ({ page: page.number, row: page.items.find((r) => r.ref?.id === id) }))
+      .find(({ row }) => row);
+  // The table names swapped between pages, prices left in place (Ironclad Democracy, 2026-09-24):
+  // page 1 lists the Melta Mine at the Hot-Shot's 35, page 2 the Hot-Shot at the Melta Mine's 50.
+  const swapped = () => {
+    const dataset = load();
+    const [hotShot, melta] = [rowOf(dataset, HOT_SHOT)?.row, rowOf(dataset, MELTA)?.row];
+    if (!hotShot?.ref || !melta?.ref) throw new Error("missing the weapon rows");
+    [hotShot.name, melta.name] = [melta.name, hotShot.name];
+    [hotShot.ref, melta.ref] = [melta.ref, hotShot.ref];
+    return dataset;
+  };
+  const grid = new Map([
+    [
+      "castellans-creed",
+      [
+        { page: 1, title: "R/40-K Hot-Shot Marksman Rifle" },
+        { page: 2, title: "G/40-K Melta Mine" },
+      ],
+    ],
+  ]);
+  const pageIssues = (dataset: Dataset) =>
+    checkIntegrity(dataset).filter((issue) => /source\.(page|cost)$/.test(issue.field));
+
+  it("moves the table rows when the item and the icon grid agree on the page", () => {
+    const dataset = swapped();
+    expect(pageIssues(dataset)).toHaveLength(2);
+
+    const {
+      dataset: linked,
+      conflicts,
+      warnings,
+    } = linkWarbondPages(dataset, {
+      scraped: true,
+      grids: grid,
+    });
+    expect(rowOf(linked, HOT_SHOT)).toMatchObject({ page: 1, row: { cost: medals(35) } });
+    expect(rowOf(linked, MELTA)).toMatchObject({ page: 2, row: { cost: medals(50) } });
+    expect(entity(linked, "weapons", HOT_SHOT).source.page).toBe(1);
+    expect(rowOf(dataset, HOT_SHOT)?.page).toBe(2); // the input is not modified
+    expect(conflicts).toContainEqual({
+      collection: "warbonds",
+      id: "castellans-creed",
+      field: "pages[1].items[0]",
+      rule: 12,
+      chosen: 1,
+      candidates: [
+        { page: PAGE, location: "Page 2 › R/40-K Hot-Shot Marksman Rifle", value: 2 },
+        {
+          page: "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
+          location: `weapons/${HOT_SHOT} › source`,
+          value: 1,
+        },
+        { page: PAGE, location: "Page 1 › icon grid", value: 1 },
+      ],
+    });
+    expect(warnings).toContain(
+      `warbonds/castellans-creed: weapons/${HOT_SHOT} is on page 1 per its source, page 2 per the table and page 1 per the icon grid; took page 1`,
+    );
+    expect(pageIssues(linked)).toEqual([]);
+    // Rule 1 then finds the tables add up as before.
+    expect(linkWarbondCosts(linked, { scraped: true })).toMatchObject({
+      conflicts: [],
+      warnings: [],
+    });
+  });
+
+  it("keeps the table's page without a grid to break the tie", () => {
+    const { dataset: linked, conflicts } = linkWarbondPages(swapped(), {
+      scraped: true,
+      grids: new Map(),
+    });
+    expect(entity(linked, "weapons", HOT_SHOT).source.page).toBe(2);
+    expect(rowOf(linked, HOT_SHOT)?.page).toBe(2);
+    expect(conflicts.map(({ chosen, candidates }) => [chosen, candidates.length])).toEqual([
+      [1, 2], // Melta Mine
+      [2, 2], // Hot-Shot
+    ]);
+    expect(checkIntegrity(linked).filter((issue) => issue.field.endsWith("page"))).toEqual([]);
+  });
+
+  it("keeps the table's page when the grid sides with it", () => {
+    const flipped = new Map([
+      [
+        "castellans-creed",
+        [
+          { page: 2, title: "R/40-K Hot-Shot Marksman Rifle" },
+          { page: 1, title: "G/40-K Melta Mine" },
+        ],
+      ],
+    ]);
+    const { dataset: linked } = linkWarbondPages(swapped(), { scraped: true, grids: flipped });
+    expect(entity(linked, "weapons", HOT_SHOT).source.page).toBe(2);
+  });
+
+  it("gives entities the published pages when the warbonds were not scraped", () => {
+    const {
+      dataset: linked,
+      conflicts,
+      warnings,
+    } = linkWarbondPages(swapped(), {
+      scraped: false,
+      grids: new Map(),
+    });
+    expect(entity(linked, "weapons", MELTA).source.page).toBe(1);
+    expect([conflicts, warnings]).toEqual([[], []]);
+  });
+
+  it("leaves entities no page lists to the integrity check", () => {
+    const dataset = load();
+    entity(dataset, "boosters", "hellpod-space-optimization").source.warbondId = "castellans-creed";
+    const { dataset: linked, conflicts } = linkWarbondPages(dataset, {
+      scraped: true,
+      grids: grid,
+    });
+    expect(entity(linked, "boosters", "hellpod-space-optimization").source.page).toBe(3);
+    expect(conflicts).toEqual([]);
+  });
+
+  it("does nothing without warbonds", () => {
+    const { warbonds: _, ...dataset } = load();
+    expect(linkWarbondPages(dataset, { scraped: true, grids: grid }).dataset).toBe(dataset);
   });
 });
 

@@ -21,7 +21,7 @@ import { linkPassiveArmors } from "./link/passives.ts";
 import { linkCapeCards } from "./link/player-cards.ts";
 import { scrapeKeepingIds } from "./link/renames.ts";
 import { checkTraitTables, linkTraitHolders } from "./link/traits.ts";
-import { linkWarbondCosts } from "./link/warbond-items.ts";
+import { linkWarbondCosts, linkWarbondPages } from "./link/warbond-items.ts";
 import type { Logger } from "./log.ts";
 import { WarbondResolver } from "./normalize/warbonds.ts";
 import { idLockPath, readOverrides } from "./overrides.ts";
@@ -178,9 +178,15 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       ),
       ...results.flatMap((result) => result.warnings),
     );
-    // 6. Link: back-references and warbond prices (rule 1) over the merged dataset.
+    // 6. Link: back-references, warbond pages (rule 12) and prices (rule 1) over the merged dataset.
     const scraped = new Set(results.map((result) => result.collection));
     next = linkCapeCards(linkPassiveArmors(linkSetParts(linkTraitHolders(next))));
+    const pages = linkWarbondPages(next, {
+      scraped: scraped.has("warbonds"),
+      grids: results.find((result) => result.grids)?.grids ?? new Map(),
+    });
+    next = pages.dataset;
+    report.warnings.push(...pages.warnings);
     const costs = linkWarbondCosts(next, { scraped: scraped.has("warbonds") });
     next = costs.dataset;
     report.warnings.push(...costs.warnings);
@@ -246,7 +252,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const conflicts = mergeConflicts(
       current.extraFiles.get(CONFLICTS_FILE),
       results.map((result) => result.collection),
-      [...results.flatMap((result) => result.conflicts), ...costs.conflicts],
+      [...results.flatMap((result) => result.conflicts), ...pages.conflicts, ...costs.conflicts],
     );
     if (conflicts) {
       extraFiles.set(CONFLICTS_FILE, conflicts);

@@ -1,4 +1,4 @@
-import type { Cheerio } from "cheerio";
+import type { Cheerio, CheerioAPI } from "cheerio";
 import type { Element } from "domhandler";
 import { z } from "zod";
 import { ParseError, parseRaw } from "../errors.ts";
@@ -7,7 +7,8 @@ import { readDruid } from "../wiki/druid.ts";
 import { loadHtml, textOf } from "../wiki/html.ts";
 import { firstArticleLink } from "../wiki/links.ts";
 import { readCanonicalTitle, readCategories, readLead } from "../wiki/page.ts";
-import { findInSection, readSections } from "../wiki/sections.ts";
+import { findInSection, readSections, type Section } from "../wiki/sections.ts";
+import { linkFromHref } from "../wiki/title.ts";
 import { cellAt, columnIndexes, readWikitable } from "../wiki/wikitable.ts";
 import { RawCost, RawImage, RawLink } from "./raw.ts";
 
@@ -15,12 +16,18 @@ import { RawCost, RawImage, RawLink } from "./raw.ts";
 // `all-items` and the cover; `h3 "Page N"` → `table.wikitable` `Icon | Item | Type | Cost`.
 // Item pipelines read only the page tables (rule 3 page fallback); the warbonds pipeline reads
 // everything. An unreleased warbond (Ironclad Democracy, 2026-09-16) has no medal totals yet.
+// Above each table, `.hd2-acq-container` draws the same page as a grid of linked icons: a second
+// account of which page lists an item, the tiebreak of rule 12 (arch §5.5).
 
 export const RawWarbondItem = z.object({
   name: z.string().min(1),
   link: RawLink.nullable(),
   wikiType: z.string().min(1),
   cost: RawCost,
+});
+
+export const RawWarbondGridCell = z.object({
+  title: z.string().min(1), // linked article, "Surplus EAT Allocation"
 });
 
 export const RawWarbondPage = z.object({
@@ -35,11 +42,18 @@ export const RawWarbondPage = z.object({
   medalsAllPages: RawCost.nullable(),
   medalsAllItems: RawCost.nullable(),
   pages: z
-    .array(z.object({ number: z.number().int().positive(), items: z.array(RawWarbondItem).min(1) }))
+    .array(
+      z.object({
+        number: z.number().int().positive(),
+        items: z.array(RawWarbondItem).min(1),
+        grid: z.array(RawWarbondGridCell).nullable(), // null: no icon grid on the page
+      }),
+    )
     .min(1),
 });
 
 export type RawWarbondItem = z.infer<typeof RawWarbondItem>;
+export type RawWarbondGridCell = z.infer<typeof RawWarbondGridCell>;
 export type RawWarbondPage = z.infer<typeof RawWarbondPage>;
 
 const COLUMNS = ["Icon", "Item", "Type", "Cost"] as const;
@@ -81,7 +95,7 @@ export function parseWarbondPage(html: string, { url }: { url: string }): RawWar
         };
       })
       .filter((item) => item.name !== "");
-    return [{ number: Number(number), items }];
+    return [{ number: Number(number), items, grid: readGrid($, section) }];
   });
 
   return parseRaw(
@@ -102,6 +116,22 @@ export function parseWarbondPage(html: string, { url }: { url: string }): RawWar
     url,
     ".druid-infobox, h3 Page N",
   );
+}
+
+/** The icon grid of a page section; cells link their article from the icon, without text. */
+function readGrid($: CheerioAPI, section: Section): RawWarbondGridCell[] | null {
+  const containers = findInSection(section, ".hd2-acq-container");
+  if (containers.length === 0) {
+    return null;
+  }
+  return containers
+    .find(".hd2-acq-cell")
+    .toArray()
+    .flatMap((element) => {
+      const href = $(element).find(".hd2-acq-image a[href]").first().attr("href") ?? "";
+      const title = linkFromHref(href)?.title;
+      return title ? [{ title }] : [];
+    });
 }
 
 const sameName = (a: string, b: string) =>

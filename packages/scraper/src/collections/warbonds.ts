@@ -11,7 +11,7 @@ import { z } from "zod";
 import { NormalizeError } from "../errors.ts";
 import type { ImageRequest } from "../images/attach.ts";
 import { checkSuperstoreSources } from "../link/superstore.ts";
-import { type WarbondRef, WarbondRefIndex } from "../link/warbond-items.ts";
+import { type WarbondGrids, type WarbondRef, WarbondRefIndex } from "../link/warbond-items.ts";
 import { parseCost } from "../normalize/costs.ts";
 import { parseReleaseDate, warbondStem } from "../normalize/warbonds.ts";
 import type { RawCost } from "../parsers/raw.ts";
@@ -63,6 +63,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
 
     const entities: Warbond[] = [];
     const images: ImageRequest[] = [];
+    const grids = new Map<Id, { page: number; title: string }[]>();
     for (const row of rows) {
       const page = await source.page(row.page.title);
       const raw = parseWarbondPage(page.html, { url: page.url });
@@ -182,6 +183,12 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
         note(`no description on ${page.url}`);
       }
       entities.push(warbond.data);
+      grids.set(
+        id,
+        raw.pages.flatMap((listed) =>
+          (listed.grid ?? []).map((cell) => ({ page: listed.number, title: cell.title })),
+        ),
+      );
       if (raw.image) images.push({ id, variant: null, image: raw.image });
     }
 
@@ -198,6 +205,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
       warnings,
       conflicts: [],
       images,
+      grids: grids satisfies WarbondGrids,
     };
   },
 };

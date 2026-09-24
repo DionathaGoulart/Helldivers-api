@@ -116,6 +116,37 @@ class RenamedSource implements WikiSource {
   }
 }
 
+/** Fixture source whose Helldivers Mobilize tables swap two boosters' names, not their prices,
+ *  between pages 4 and 6; the icon grids stay right (Ironclad Democracy, 2026-09-24). */
+class SwappedRowsSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  async page(title: string): Promise<WikiPage> {
+    const page = await this.#inner.page(title);
+    if (!title.startsWith("Helldivers Mobilize")) {
+      return page;
+    }
+    const $ = cheerio.load(page.html);
+    const row = (name: string) =>
+      $("table.wikitable tr").filter((_, tr) => $(tr).children("td").eq(1).text().trim() === name);
+    const [vitality, uav] = [row("Vitality Enhancement"), row("UAV Recon Booster")];
+    for (const cell of [0, 1]) {
+      const html = vitality.children("td").eq(cell).html() ?? "";
+      vitality
+        .children("td")
+        .eq(cell)
+        .html(uav.children("td").eq(cell).html() ?? "");
+      uav.children("td").eq(cell).html(html);
+    }
+    return { ...page, html: $.html() };
+  }
+}
+
 /** Fixture source whose Stratagems index lists the announced TD-110 Maelstrom (2026-09-19). */
 class AnnouncedSource implements WikiSource {
   readonly offline = true;
@@ -1305,6 +1336,28 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     const report = await run("2026-09-16T21:07:00Z", undefined, false, ["emotes"]);
     expect(report).toMatchObject({ ok: true, changed: false, changes: [] });
     expect(await readTree(dataDir)).toEqual(before);
+  });
+
+  it("publishes the right pages when a warbond table swaps two rows its icon grid does not (rule 12)", async () => {
+    await fromBaseline();
+    const before = await readTree(dataDir);
+
+    const report = await run("2026-09-24T12:00:00Z", new SwappedRowsSource());
+    expect(report).toMatchObject({ ok: true, changes: [], failure: null });
+    expect(report.warnings.filter((warning) => !baseline.warnings.includes(warning))).toEqual([
+      "warbonds/helldivers-mobilize: boosters/uav-recon-booster is on page 6 per its source, page 4 per the table and page 6 per the icon grid; took page 6",
+      "warbonds/helldivers-mobilize: boosters/vitality-enhancement is on page 4 per its source, page 6 per the table and page 4 per the icon grid; took page 4",
+    ]);
+    const after = await readTree(dataDir);
+    const warbond = join("v1", "warbonds", "helldivers-mobilize.json");
+    expect(JSON.parse(after[warbond] ?? "").data).toEqual(JSON.parse(before[warbond] ?? "").data);
+    const conflicts = JSON.parse(after[join("v1", "reports", "conflicts.json")] ?? "");
+    expect(
+      conflicts.conflicts.filter((conflict: { rule: number }) => conflict.rule === 12),
+    ).toMatchObject([
+      { id: "helldivers-mobilize", field: "pages[3].items[1]", chosen: 6 },
+      { id: "helldivers-mobilize", field: "pages[5].items[1]", chosen: 4 },
+    ]);
   });
 
   it("folds a misspelled trait table into the trait named in data/overrides/trait-aliases.json", async () => {

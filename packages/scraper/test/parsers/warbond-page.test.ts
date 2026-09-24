@@ -129,6 +129,13 @@ describe("warbond-page parser (page tables)", async () => {
     ]);
   });
 
+  it("reads the icon grid of each page, the second account of its items (rule 12)", () => {
+    expect(redacted.pages.map((page) => page.grid?.length)).toEqual([7, 6, 6]); // one cell per row
+    expect(redacted.pages[2]?.grid).toContainEqual({ title: "Concealed Insertion" });
+    const bare = redactedPage.html.replaceAll("hd2-acq-container", "hd2-gone");
+    expect(parseWarbondPage(bare, { url: redactedPage.url }).pages[0]?.grid).toBeNull();
+  });
+
   it("finds the page that lists an item", () => {
     expect(findItemPage(redacted, "Concealed Insertion", "Booster")).toBe(3);
     expect(findItemPage(mobilize, "Hellpod Space Optimization", "Booster")).toBe(3);
