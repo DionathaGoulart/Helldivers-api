@@ -178,6 +178,7 @@ describe("reports", () => {
     ],
     conflicts: 2,
     warnings: [],
+    quarantined: [],
     failure: null,
     http: { requests: 20, notModified: 19, bytes: 60_000, retries: 0, pauses: 0 },
     images: {
@@ -211,5 +212,28 @@ describe("reports", () => {
     );
     expect(summary).toContain("- `boosters/dead-sprint` changed: `source.cost.amount`");
     expect(renderSummary({ ...report, changed: false, changes: [] })).toContain("No changes");
+    expect(summary).not.toContain("### Quarantined");
+  });
+
+  it("lists quarantined entities in the job summary", () => {
+    const summary = renderSummary({
+      ...report,
+      quarantined: [
+        {
+          collection: "boosters",
+          id: "stun-pods",
+          action: "kept-published",
+          reasons: [
+            "source.page: warbonds/helldivers-mobilize page 3 does not list boosters/stun-pods",
+          ],
+        },
+        { collection: "boosters", id: "new-one", action: "held-back", reasons: ["a", "b"] },
+      ],
+    });
+    expect(summary).toContain("### Quarantined (2)");
+    expect(summary).toContain(
+      "- `boosters/stun-pods` published version kept: source.page: warbonds/helldivers-mobilize page 3 does not list boosters/stun-pods",
+    );
+    expect(summary).toContain("- `boosters/new-one` new, held back: a; b");
   });
 });

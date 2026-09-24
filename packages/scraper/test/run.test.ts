@@ -147,6 +147,28 @@ class SwappedRowsSource implements WikiSource {
   }
 }
 
+/** Fixture source whose Boosters index credits Stun Pods to a warbond that does not list it. */
+class MislinkedBoosterSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  async page(title: string): Promise<WikiPage> {
+    const page = await this.#inner.page(title);
+    if (title !== "Boosters") {
+      return page;
+    }
+    const html = page.html.replace(
+      '<a href="/wiki/Force_of_Law_Premium_Warbond#Page_2" title="Force of Law Premium Warbond">Force of Law</a>',
+      '<a href="/wiki/Helldivers_Mobilize_Warbond#Page_3" title="Helldivers Mobilize Warbond">Helldivers Mobilize</a>',
+    );
+    return { ...page, html };
+  }
+}
+
 /** Fixture source whose Stratagems index lists the announced TD-110 Maelstrom (2026-09-19). */
 class AnnouncedSource implements WikiSource {
   readonly offline = true;
@@ -1358,6 +1380,30 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       { id: "helldivers-mobilize", field: "pages[3].items[1]", chosen: 6 },
       { id: "helldivers-mobilize", field: "pages[5].items[1]", chosen: 4 },
     ]);
+  });
+
+  it("quarantines an entity the wiki contradicts itself about and publishes the rest", async () => {
+    expect(baseline.quarantined).toEqual([]);
+    await fromBaseline();
+    const booster = join("v1", "boosters", "stun-pods.json");
+    const before = await readTree(dataDir);
+
+    const report = await run("2026-09-24T12:00:00Z", new MislinkedBoosterSource());
+    expect(report).toMatchObject({ ok: true, changes: [], failure: null });
+    expect(report.quarantined).toEqual([
+      {
+        collection: "boosters",
+        id: "stun-pods",
+        action: "kept-published",
+        reasons: [
+          "source.page: warbonds/helldivers-mobilize page 3 does not list boosters/stun-pods",
+        ],
+      },
+    ]);
+    expect(report.warnings).toContain(
+      "boosters/stun-pods: quarantined, published version kept: source.page: warbonds/helldivers-mobilize page 3 does not list boosters/stun-pods",
+    );
+    expect((await readTree(dataDir))[booster]).toEqual(before[booster]);
   });
 
   it("folds a misspelled trait table into the trait named in data/overrides/trait-aliases.json", async () => {

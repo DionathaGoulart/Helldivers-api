@@ -37,6 +37,7 @@ const EMPTY_REPORT: RunReport = {
   changes: [],
   conflicts: 0,
   warnings: [],
+  quarantined: [],
   failure: null,
   http: null,
   images: null,

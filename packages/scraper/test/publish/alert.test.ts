@@ -34,6 +34,7 @@ const failed: RunReport = {
   changes: [],
   conflicts: 0,
   warnings: ["weapons/ar-23-liberator: no description"],
+  quarantined: [],
   failure: {
     kind: "count-drop",
     collection: "weapons",

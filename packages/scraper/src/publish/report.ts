@@ -3,6 +3,7 @@ import { join } from "node:path";
 import type { Change, Collection } from "@hd2/schemas";
 import type { HttpStats } from "../http/client.ts";
 import type { ImageStats } from "../images/attach.ts";
+import type { QuarantinedEntity } from "./quarantine.ts";
 
 // `.reports/summary.md` (job summary), `.reports/commit-message.txt` (arch §6.6) and
 // `.reports/run.json`, which `pnpm alert` reads after the run (arch §7.2).
@@ -30,6 +31,7 @@ export interface RunReport {
   changes: Change[];
   conflicts: number; // entries in reports/conflicts.json after the run
   warnings: string[];
+  quarantined: QuarantinedEntity[]; // held at the published version, or back when new (step 8a)
   failure: { kind: FailureKind; collection: Collection | null; messages: string[] } | null;
   http: HttpStats | null;
   images: ImageStats | null; // null when the run failed before step 7
@@ -114,6 +116,20 @@ export function renderSummary(report: RunReport): string {
       lines.push(`- \`${change.collection}/${change.id}\` ${change.kind}${paths}`);
     }
     lines.push("");
+  }
+
+  if (report.quarantined.length > 0) {
+    lines.push(
+      `### Quarantined (${report.quarantined.length})`,
+      "",
+      "The wiki contradicts itself about these; fix the wiki and the next run publishes them.",
+      "",
+      ...report.quarantined.map(
+        ({ collection, id, action, reasons }) =>
+          `- \`${collection}/${id}\` ${action === "kept-published" ? "published version kept" : "new, held back"}: ${reasons.join("; ")}`,
+      ),
+      "",
+    );
   }
 
   if (report.warnings.length > 0) {

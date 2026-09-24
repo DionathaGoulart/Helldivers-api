@@ -1,5 +1,5 @@
 import { join } from "node:path";
-import type { Collection, IdLock } from "@hd2/schemas";
+import type { Collection, Id, IdLock } from "@hd2/schemas";
 import { ImageManifest, validateDataset } from "@hd2/schemas";
 import { readIdLock, writeIdLock } from "@hd2/schemas/node";
 import { selectPipelines } from "./collections/index.ts";
@@ -38,6 +38,7 @@ import {
 } from "./publish/dataset.ts";
 import { diffDatasets } from "./publish/diff.ts";
 import { checkGuardrails, type GuardrailCheck } from "./publish/guardrails.ts";
+import { type QuarantinedEntity, quarantine } from "./publish/quarantine.ts";
 import type { FailureKind, RunReport } from "./publish/report.ts";
 import { writeDataset } from "./publish/write.ts";
 import { MemoSource, MissingFixtureError, type WikiSource } from "./source.ts";
@@ -107,6 +108,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     changes: [],
     conflicts: 0,
     warnings: [],
+    quarantined: [],
     failure: null,
     http: null,
     images: null,
@@ -196,12 +198,6 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       const tables = parseEquipmentTraits(traits.html, { url: traits.url });
       report.warnings.push(...checkTraitTables(next, tables, overrides.traitAliases));
     }
-    report.counts = results.map(({ collection, entities }) => ({
-      collection,
-      before: current.collections[collection]?.length ?? 0,
-      after: entities.length,
-    }));
-
     // 8. Guardrails before anything is rendered.
     const issues = checkGuardrails(
       results.map((result) => ({
@@ -222,6 +218,26 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       );
     }
 
+    // 8a. Quarantine: an entity the wiki contradicts itself about keeps its published version,
+    // or waits when new, and the rest publishes; what it cannot settle fails validation below.
+    const held = quarantine(next, current.collections);
+    next = held.dataset;
+    report.quarantined = held.quarantined;
+    for (const { collection, id, action, reasons } of held.quarantined) {
+      const kept = action === "kept-published" ? "published version kept" : "new, held back";
+      logger.info("entity quarantined", { collection, id, action, reasons });
+      report.warnings.push(`${collection}/${id}: quarantined, ${kept}: ${reasons.join("; ")}`);
+    }
+    const isHeld = (collection: Collection, id: Id, action?: QuarantinedEntity["action"]) =>
+      held.quarantined.some(
+        (q) => q.collection === collection && q.id === id && (!action || q.action === action),
+      );
+    report.counts = results.map(({ collection }) => ({
+      collection,
+      before: current.collections[collection]?.length ?? 0,
+      after: next[collection]?.length ?? 0,
+    }));
+
     // 7. Images: pictures of the scraped collections, the upload manifest and its orphans.
     const images = await attachImages({
       dataset: next,
@@ -229,7 +245,10 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       requests: new Map(
         results
           .filter((result) => COLLECTION_RENDITION[result.collection])
-          .map((result): [Collection, ImageRequest[]] => [result.collection, result.images]),
+          .map((result): [Collection, ImageRequest[]] => [
+            result.collection,
+            result.images.filter(({ id }) => !isHeld(result.collection, id, "held-back")),
+          ]),
       ),
       previous: current.extraFiles.has(IMAGES_FILE)
         ? ImageManifest.parse(current.extraFiles.get(IMAGES_FILE))
@@ -252,7 +271,11 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const conflicts = mergeConflicts(
       current.extraFiles.get(CONFLICTS_FILE),
       results.map((result) => result.collection),
-      [...results.flatMap((result) => result.conflicts), ...pages.conflicts, ...costs.conflicts],
+      [
+        ...results.flatMap((result) => result.conflicts),
+        ...pages.conflicts,
+        ...costs.conflicts,
+      ].filter((conflict) => !isHeld(conflict.collection, conflict.id)),
     );
     if (conflicts) {
       extraFiles.set(CONFLICTS_FILE, conflicts);
