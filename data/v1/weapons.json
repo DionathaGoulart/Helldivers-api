@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-23.9cab5237",
-    "generatedAt": "2026-09-23T17:15:38Z",
+    "dataVersion": "2026-09-24.4e349bc3",
+    "generatedAt": "2026-09-24T17:16:26Z",
     "count": 105,
     "source": {
       "name": "The Helldivers Wiki",
@@ -26,7 +26,9 @@
       "wiki": {
         "title": "AR-11 Arbitrator",
         "url": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
-        "flags": []
+        "flags": [
+          "potentially_outdated"
+        ]
       },
       "category": "primary",
       "subcategory": "assault_rifle",
@@ -114,7 +116,7 @@
         "Weapon Type": "Assault Rifles",
         "Firing Modes": "Auto • Burst • 10g",
         "Traits": "Light Armor Penetrating",
-        "Standard Damage": "70 Ballistic (4mm)",
+        "Standard Damage": "70 Ballistic (4mm) 450 Ballistic (10g)",
         "Armor Penetration": "Light (4mm) / Medium (10g)",
         "Fire Rate": "1,200 rpm",
         "DPS": "1,400 (4mm)",
@@ -4410,8 +4412,13 @@
         "G-31 ARC E › AoE Effect › Demolition Force": "0",
         "G-31 ARC E › AoE Effect › Stagger Force": "0",
         "G-31 ARC E › AoE Effect › Push Force": "0",
+        "G-31 ARC E A › Arc › Arcs on Explosion": "x 10",
         "G-31 ARC E A › Arc › Arc Range": "10 m",
         "G-31 ARC E A › Arc › Arc Velocity": "2000 m/s",
+        "G-31 ARC E A › Arc › Arc Spread": "6 °",
+        "G-31 ARC E A › Arc › Chain Spread": "180 °",
+        "G-31 ARC E A › Arc › Chain Count": "2",
+        "G-31 ARC E A › Arc › Max Split": "2",
         "G-31 ARC E A › Damage › Element": "Arc",
         "G-31 ARC E A › Damage › Standard": "100 Arc",
         "G-31 ARC E A › Damage › vs. Durable": "70 Arc",
@@ -5104,6 +5111,7 @@
         "title": "G-60 Anti-Tank Seeker",
         "url": "https://helldivers.wiki.gg/wiki/G-60_Anti-Tank_Seeker",
         "flags": [
+          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -5125,7 +5133,7 @@
       "melee": null,
       "attacks": [],
       "statsRaw": {
-        "Damage": "1800 Explosion",
+        "Damage": "1,800 Explosion",
         "Penetration": "Anti-Tank I",
         "Outer Radius": "12",
         "Cookable": "No",
@@ -5556,7 +5564,9 @@
       "wiki": {
         "title": "GL-15 Evictor",
         "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-        "flags": []
+        "flags": [
+          "potentially_outdated"
+        ]
       },
       "category": "primary",
       "subcategory": "explosive",
@@ -5572,7 +5582,9 @@
         "fireRateRpm": [
           60
         ],
-        "dps": [],
+        "dps": [
+          490
+        ],
         "capacity": 4,
         "spareMagazines": 32,
         "startingMagazines": null,
@@ -5597,9 +5609,10 @@
         "Weapon Type": "Explosives",
         "Firing Modes": "Pump-Action",
         "Traits": "Medium Armor Penetrating • Explosive • Rounds Reload",
-        "Standard Damage": "490",
+        "Standard Damage": "50 Ballistic (Projectile) / 440 Explosion",
         "Armor Penetration": "Medium",
-        "Fire Rate": "60",
+        "Fire Rate": "60 rpm",
+        "DPS": "490",
         "Capacity": "4",
         "Spare Rounds": "32",
         "Supply Box Refill": "16",
@@ -6229,7 +6242,9 @@
       "wiki": {
         "title": "LAS-12 Sai",
         "url": "https://helldivers.wiki.gg/wiki/LAS-12_Sai",
-        "flags": []
+        "flags": [
+          "potentially_outdated"
+        ]
       },
       "category": "primary",
       "subcategory": "energy_based",
@@ -6296,7 +6311,7 @@
         "Armor Penetration": "Medium",
         "Fire Rate": "800 rpm",
         "DPS": "1,066.67",
-        "Capacity": "7s",
+        "Capacity": "4s (53)",
         "Recoil": "11",
         "Reload Time": "2.00s",
         "Tactical Reload Time": "2.00s",
@@ -8917,7 +8932,9 @@
       "wiki": {
         "title": "P-34 Breacher",
         "url": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
-        "flags": []
+        "flags": [
+          "potentially_outdated"
+        ]
       },
       "category": "secondary",
       "subcategory": "special",
@@ -9027,7 +9044,7 @@
         "Weapon Category": "Secondary Weapons",
         "Weapon Type": "Special",
         "Traits": "One Handed • Anti-Tank • Sticky • Explosive",
-        "Standard Damage": "2000",
+        "Standard Damage": "60 Ballistic / 2,000 Explosion",
         "Armor Penetration": "Anti-Tank III",
         "Fire Rate": "20",
         "Capacity": "1",

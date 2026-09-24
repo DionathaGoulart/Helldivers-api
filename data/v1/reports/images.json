@@ -1072,6 +1072,15 @@
       "bytes": 4080
     },
     {
+      "url": "/images/v1/boosters/integrated-extinguishers.f93310fd.webp",
+      "wikiFile": "Integrated_Extinguishers_Booster_Icon.svg",
+      "version": "391451",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 4798
+    },
+    {
       "url": "/images/v1/boosters/localization-confusion.157911cf.webp",
       "wikiFile": "Localization_Confusion_Booster_Icon.svg",
       "version": "3b4fcb",
@@ -6020,6 +6029,15 @@
       "width": 256,
       "height": 256,
       "bytes": 2026
+    },
+    {
+      "url": "/images/v1/stratagems/tactical-video-camera.19f9a3fc.webp",
+      "wikiFile": "Tactical_Video_Camera_Stratagem_Icon_Background.svg",
+      "version": "5dd24d",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 1674
     },
     {
       "url": "/images/v1/stratagems/td-110-maelstrom.7fcb55cb.webp",

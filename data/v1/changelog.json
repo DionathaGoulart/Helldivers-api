@@ -1,15 +1,143 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-23.9cab5237",
-    "generatedAt": "2026-09-23T17:15:38Z",
-    "count": 14,
+    "dataVersion": "2026-09-24.4e349bc3",
+    "generatedAt": "2026-09-24T17:16:26Z",
+    "count": 15,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-09-24.4e349bc3",
+      "date": "2026-09-24",
+      "summary": {
+        "added": 2,
+        "changed": 9,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "ironclad-democracy",
+          "kind": "changed",
+          "paths": [
+            "pages[1].items[4].name",
+            "pages[1].items[4].wikiType",
+            "pages[1].items[4].ref.collection",
+            "pages[1].items[4].ref.id",
+            "pages[1].items[4].cost.amount",
+            "pages[1].items[5].wikiType",
+            "pages[1].items[5].ref.collection",
+            "pages[1].items[5].cost.amount",
+            "pages[1].items[6].name",
+            "pages[1].items[6].wikiType",
+            "pages[1].items[6].ref",
+            "pages[1].items[6].cost.amount",
+            "pages[2].items[4].name",
+            "pages[2].items[4].wikiType",
+            "pages[2].items[4].cost.amount",
+            "pages[2].items[5].name",
+            "pages[2].items[5].wikiType",
+            "pages[2].items[5].ref",
+            "pages[2].items[5].cost.amount",
+            "pages[2].items[6].name",
+            "pages[2].items[6].wikiType",
+            "pages[2].items[6].ref.collection",
+            "pages[2].items[6].ref.id",
+            "pages[2].items[6].cost.amount"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-11-arbitrator",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"Standard Damage\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-31-arc",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-31 ARC E A › Arc › Arcs on Explosion\"]",
+            "statsRaw[\"G-31 ARC E A › Arc › Arc Spread\"]",
+            "statsRaw[\"G-31 ARC E A › Arc › Chain Spread\"]",
+            "statsRaw[\"G-31 ARC E A › Arc › Chain Count\"]",
+            "statsRaw[\"G-31 ARC E A › Arc › Max Split\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-60-anti-tank-seeker",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw.Damage"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "firearm.dps",
+            "statsRaw[\"Standard Damage\"]",
+            "statsRaw[\"Fire Rate\"]",
+            "statsRaw.DPS"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-12-sai",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw.Capacity"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-34-breacher",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"Standard Damage\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-52-de-escalator",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tactical-video-camera",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "integrated-extinguishers",
+          "kind": "added"
+        },
+        {
+          "collection": "boosters",
+          "id": "surplus-eat-allocation",
+          "kind": "added"
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-23.9cab5237",
       "date": "2026-09-23",

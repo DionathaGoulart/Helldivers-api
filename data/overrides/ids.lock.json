@@ -690,6 +690,7 @@
     "Flexible Reinforcement Budget": "flexible-reinforcement-budget",
     "Hellpod Space Optimization": "hellpod-space-optimization",
     "Increased Reinforcement Budget": "increased-reinforcement-budget",
+    "Integrated Extinguishers": "integrated-extinguishers",
     "Localization Confusion": "localization-confusion",
     "Motivational Shocks": "motivational-shocks",
     "Muscle Enhancement": "muscle-enhancement",
@@ -697,6 +698,7 @@
     "Sample Scanner": "sample-scanner",
     "Stamina Enhancement": "stamina-enhancement",
     "Stun Pods": "stun-pods",
+    "Surplus EAT Allocation": "surplus-eat-allocation",
     "UAV Recon Booster": "uav-recon-booster",
     "Vitality Enhancement": "vitality-enhancement"
   },

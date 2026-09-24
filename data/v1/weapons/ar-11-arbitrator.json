@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-23.9cab5237",
-    "generatedAt": "2026-09-23T17:15:38Z",
+    "dataVersion": "2026-09-24.4e349bc3",
+    "generatedAt": "2026-09-24T17:16:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "AR-11 Arbitrator",
       "url": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "assault_rifle",
@@ -112,7 +114,7 @@
       "Weapon Type": "Assault Rifles",
       "Firing Modes": "Auto • Burst • 10g",
       "Traits": "Light Armor Penetrating",
-      "Standard Damage": "70 Ballistic (4mm)",
+      "Standard Damage": "70 Ballistic (4mm) 450 Ballistic (10g)",
       "Armor Penetration": "Light (4mm) / Medium (10g)",
       "Fire Rate": "1,200 rpm",
       "DPS": "1,400 (4mm)",

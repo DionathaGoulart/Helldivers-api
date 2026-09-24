@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-23.9cab5237",
-    "generatedAt": "2026-09-23T17:15:38Z",
+    "dataVersion": "2026-09-24.4e349bc3",
+    "generatedAt": "2026-09-24T17:16:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "GL-52 De-Escalator",
       "url": "https://helldivers.wiki.gg/wiki/GL-52_De-Escalator",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "permitType": "supply",
     "availability": "loadout",

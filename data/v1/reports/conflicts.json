@@ -633,6 +633,30 @@
     {
       "collection": "warbonds",
       "id": "ironclad-democracy",
+      "field": "pages[1].items[6]",
+      "rule": 12,
+      "chosen": 3,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "Page 2 › Integrated Extinguishers",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Integrated_Extinguishers",
+          "location": "boosters/integrated-extinguishers › source",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "Page 3 › icon grid",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "ironclad-democracy",
       "field": "pages[2].items[1].cost",
       "rule": 1,
       "chosen": null,
@@ -649,6 +673,30 @@
           "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
           "location": "weapons/gl-15-evictor › source",
           "value": null
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "ironclad-democracy",
+      "field": "pages[2].items[4]",
+      "rule": 12,
+      "chosen": 2,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "Page 3 › Surplus EAT Allocation",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Surplus_EAT_Allocation",
+          "location": "boosters/surplus-eat-allocation › source",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond",
+          "location": "Page 2 › icon grid",
+          "value": 2
         }
       ]
     },

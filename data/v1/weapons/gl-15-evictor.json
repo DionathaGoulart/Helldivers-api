@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-23.9cab5237",
-    "generatedAt": "2026-09-23T17:15:38Z",
+    "dataVersion": "2026-09-24.4e349bc3",
+    "generatedAt": "2026-09-24T17:16:26Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "GL-15 Evictor",
       "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "explosive",
@@ -40,7 +42,9 @@
       "fireRateRpm": [
         60
       ],
-      "dps": [],
+      "dps": [
+        490
+      ],
       "capacity": 4,
       "spareMagazines": 32,
       "startingMagazines": null,
@@ -65,9 +69,10 @@
       "Weapon Type": "Explosives",
       "Firing Modes": "Pump-Action",
       "Traits": "Medium Armor Penetrating • Explosive • Rounds Reload",
-      "Standard Damage": "490",
+      "Standard Damage": "50 Ballistic (Projectile) / 440 Explosion",
       "Armor Penetration": "Medium",
-      "Fire Rate": "60",
+      "Fire Rate": "60 rpm",
+      "DPS": "490",
       "Capacity": "4",
       "Spare Rounds": "32",
       "Supply Box Refill": "16",
