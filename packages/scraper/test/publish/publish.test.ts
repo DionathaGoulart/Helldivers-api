@@ -179,6 +179,7 @@ describe("reports", () => {
     conflicts: 2,
     warnings: [],
     quarantined: [],
+    wikiFixes: [],
     failure: null,
     http: { requests: 20, notModified: 19, bytes: 60_000, retries: 0, pauses: 0 },
     images: {

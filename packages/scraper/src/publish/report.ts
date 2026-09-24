@@ -32,6 +32,7 @@ export interface RunReport {
   conflicts: number; // entries in reports/conflicts.json after the run
   warnings: string[];
   quarantined: QuarantinedEntity[]; // held at the published version, or back when new (step 8a)
+  wikiFixes: string[]; // contradictions a wiki edit clears (rule 12, quarantine): the [wiki] alert
   failure: { kind: FailureKind; collection: Collection | null; messages: string[] } | null;
   http: HttpStats | null;
   images: ImageStats | null; // null when the run failed before step 7

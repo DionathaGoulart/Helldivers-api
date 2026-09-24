@@ -10,6 +10,9 @@ import {
   RestIssueApi,
   raiseAlert,
   scrapeAlert,
+  syncWikiAlert,
+  WIKI_ALERT_TITLE,
+  wikiAlert,
 } from "../../src/publish/alert.ts";
 import type { RunReport } from "../../src/publish/report.ts";
 
@@ -35,6 +38,7 @@ const failed: RunReport = {
   conflicts: 0,
   warnings: ["weapons/ar-23-liberator: no description"],
   quarantined: [],
+  wikiFixes: [],
   failure: {
     kind: "count-drop",
     collection: "weapons",
@@ -65,6 +69,11 @@ class FakeApi implements IssueApi {
 
   comment(issue: number, body: string): Promise<void> {
     this.calls.push(`comment:${issue}:${body.split("\n")[0]}`);
+    return Promise.resolve();
+  }
+
+  update(issue: number, body: string): Promise<void> {
+    this.calls.push(`update:${issue}:${body.split("\n")[0]}`);
     return Promise.resolve();
   }
 
@@ -152,6 +161,46 @@ describe("raise and clear", () => {
   });
 });
 
+describe("the [wiki] alert", () => {
+  const green: RunReport = {
+    ...failed,
+    ok: true,
+    changed: true,
+    dataVersion: "2026-09-24.0d15ea5e",
+    failure: null,
+    wikiFixes: [
+      "warbonds/ironclad-democracy: Page 2 › Integrated Extinguishers (https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond) says 2; boosters/integrated-extinguishers › source (https://helldivers.wiki.gg/wiki/Integrated_Extinguishers) says 3; Page 3 › icon grid (https://helldivers.wiki.gg/wiki/Ironclad_Democracy_Premium_Warbond) says 3; published 3",
+    ],
+  };
+
+  it("lists what the wiki contradicts, only on a green run with something to fix", () => {
+    const alert = wikiAlert(green, run);
+    expect(alert?.title).toBe(WIKI_ALERT_TITLE);
+    expect(alert?.body).toContain("Data version: `2026-09-24.0d15ea5e`");
+    expect(alert?.body).toContain(
+      "### Contradictions (1)\n\n- warbonds/ironclad-democracy: Page 2",
+    );
+    expect(wikiAlert({ ...green, wikiFixes: [] }, run)).toBeNull();
+    expect(wikiAlert(failed, run)).toBeNull();
+  });
+
+  it("opens the issue, then replaces its body, then closes it once the wiki is fixed", async () => {
+    const api = new FakeApi([{ number: 3, title: "[scraper] blocked: weapons" }]);
+    const alert = wikiAlert(green, run);
+    expect(await syncWikiAlert(api, alert, run)).toBe(`opened #7 (${WIKI_ALERT_TITLE})`);
+    expect(await syncWikiAlert(api, alert, run)).toBe(`updated #7 (${WIKI_ALERT_TITLE})`);
+    expect(await clearAlerts(api, run)).toBe("closed #3"); // failure alerts only
+    expect(await syncWikiAlert(api, null, run)).toBe(`closed #7 (${WIKI_ALERT_TITLE})`);
+    expect(await syncWikiAlert(api, null, run)).toBe("no wiki contradictions");
+    expect(api.calls.filter((call) => !call.startsWith("open:"))).toEqual([
+      `create:${WIKI_ALERT_TITLE}:${ALERT_LABEL}`,
+      "update:7:The wiki contradicts itself below. The run published anyway: a page conflict took the page two of three accounts give (rule 12), a quarantined entity kept its published version or waits when new. Fixing the wiki page clears each line on the next run.",
+      "close:3",
+      "close:7",
+    ]);
+  });
+});
+
 describe("RestIssueApi", () => {
   const calls: { url: string; method: string; body: unknown }[] = [];
   const api = new RestIssueApi({
@@ -174,11 +223,13 @@ describe("RestIssueApi", () => {
   it("lists, creates and closes through the issues API", async () => {
     expect(await api.open(ALERT_LABEL)).toEqual([{ number: 9, title: "[scraper] blocked: run" }]);
     await api.create({ title: "[scraper] blocked: run", body: "b" }, ALERT_LABEL);
+    await api.update(9, "new body");
     await api.close(9, "fixed");
     expect(calls.map((call) => `${call.method} ${new URL(call.url).pathname}`)).toEqual([
       "GET /repos/DionathaGoulart/Helldivers-api/issues",
       "POST /repos/DionathaGoulart/Helldivers-api/labels", // 422 when it already exists: ignored
       "POST /repos/DionathaGoulart/Helldivers-api/issues",
+      "PATCH /repos/DionathaGoulart/Helldivers-api/issues/9",
       "POST /repos/DionathaGoulart/Helldivers-api/issues/9/comments",
       "PATCH /repos/DionathaGoulart/Helldivers-api/issues/9",
     ]);
@@ -187,6 +238,7 @@ describe("RestIssueApi", () => {
       body: "b",
       labels: [ALERT_LABEL],
     });
+    expect(calls.at(3)?.body).toEqual({ body: "new body" });
     expect(calls.at(-1)?.body).toEqual({ state: "closed", state_reason: "completed" });
   });
 

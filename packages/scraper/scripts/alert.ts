@@ -7,12 +7,14 @@ import {
   RestIssueApi,
   raiseAlert,
   scrapeAlert,
+  syncWikiAlert,
+  wikiAlert,
 } from "../src/publish/alert.ts";
 import { RUN_REPORT_FILE, type RunReport } from "../src/publish/report.ts";
 
 // Usage: pnpm alert [--report .reports] [--deploy [--failed smoke-failed]] [--dry-run]
 // Reads `.reports/run.json`: a failed run opens or comments on its `scraper-alert` issue, a green
-// one closes the open scrape alerts (arch §7.2). `--deploy` works on the `[deploy] …` alerts
+// one closes the open scrape alerts and opens, updates or closes the `[wiki]` one (arch §7.2). `--deploy` works on the `[deploy] …` alerts
 // instead: with `--failed <kind>` it opens one, without it closes them after a green deploy.
 // Needs GH_TOKEN and GITHUB_REPOSITORY.
 
@@ -38,6 +40,7 @@ const EMPTY_REPORT: RunReport = {
   conflicts: 0,
   warnings: [],
   quarantined: [],
+  wikiFixes: [],
   failure: null,
   http: null,
   images: null,
@@ -56,29 +59,36 @@ const run = {
   workflow: values.deploy ? "deploy" : "scrape",
 };
 
-const alert = values.deploy
-  ? values.failed
+// The scrape report; the job can fail before the scraper writes it (install, cache, validate:data).
+const report = values.deploy
+  ? null
+  : await readFile(join(resolve(cwd, values.report), RUN_REPORT_FILE), "utf8").then(
+      (text) => JSON.parse(text) as RunReport,
+      (): RunReport => ({
+        ...EMPTY_REPORT,
+        failure: {
+          kind: "error",
+          collection: null,
+          messages: [`the run failed before writing \`${values.report}/${RUN_REPORT_FILE}\``],
+        },
+      }),
+    );
+const alert = report
+  ? report.ok
+    ? null
+    : scrapeAlert(report, run)
+  : values.failed
     ? deployAlert(values.failed, run)
-    : null
-  : await (async () => {
-      const file = join(resolve(cwd, values.report), RUN_REPORT_FILE);
-      // The job can fail before the scraper writes its report (install, cache, validate:data).
-      const report = await readFile(file, "utf8").then(
-        (text) => JSON.parse(text) as RunReport,
-        (): RunReport => ({
-          ...EMPTY_REPORT,
-          failure: {
-            kind: "error",
-            collection: null,
-            messages: [`the run failed before writing \`${values.report}/${RUN_REPORT_FILE}\``],
-          },
-        }),
-      );
-      return report.ok ? null : scrapeAlert(report, run);
-    })();
+    : null;
+// Green scrapes only; `undefined` leaves the [wiki] issue alone.
+const wiki = report?.ok ? wikiAlert(report, run) : undefined;
 
 if (values["dry-run"]) {
-  console.log(alert ? `${alert.title}\n\n${alert.body}` : "run ok: would close open alerts");
+  console.log(
+    alert
+      ? `${alert.title}\n\n${alert.body}`
+      : `run ok: would close open alerts${wiki ? `\n\n${wiki.title}\n\n${wiki.body}` : ""}`,
+  );
   process.exit(0);
 }
 if (!(repo && token)) {
@@ -87,4 +97,11 @@ if (!(repo && token)) {
 }
 
 const api = new RestIssueApi({ repo, token, fetch: (url, init) => fetch(url, init) });
-console.log(alert ? await raiseAlert(api, alert) : await clearAlerts(api, run));
+if (alert) {
+  console.log(await raiseAlert(api, alert));
+} else {
+  console.log(await clearAlerts(api, run));
+  if (wiki !== undefined) {
+    console.log(await syncWikiAlert(api, wiki, run));
+  }
+}

@@ -1370,6 +1370,11 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       "warbonds/helldivers-mobilize: boosters/uav-recon-booster is on page 6 per its source, page 4 per the table and page 6 per the icon grid; took page 6",
       "warbonds/helldivers-mobilize: boosters/vitality-enhancement is on page 4 per its source, page 6 per the table and page 4 per the icon grid; took page 4",
     ]);
+    expect(baseline.wikiFixes).toEqual([]);
+    expect(report.wikiFixes).toEqual([
+      "warbonds/helldivers-mobilize: Page 4 › UAV Recon Booster (https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond) says 4; boosters/uav-recon-booster › source (https://helldivers.wiki.gg/wiki/UAV_Recon_Booster) says 6; Page 6 › icon grid (https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond) says 6; published 6",
+      "warbonds/helldivers-mobilize: Page 6 › Vitality Enhancement (https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond) says 6; boosters/vitality-enhancement › source (https://helldivers.wiki.gg/wiki/Vitality_Enhancement) says 4; Page 4 › icon grid (https://helldivers.wiki.gg/wiki/Helldivers_Mobilize_Warbond) says 4; published 4",
+    ]);
     const after = await readTree(dataDir);
     const warbond = join("v1", "warbonds", "helldivers-mobilize.json");
     expect(JSON.parse(after[warbond] ?? "").data).toEqual(JSON.parse(before[warbond] ?? "").data);
@@ -1404,6 +1409,7 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
       "boosters/stun-pods: quarantined, published version kept: source.page: warbonds/helldivers-mobilize page 3 does not list boosters/stun-pods",
     );
     expect((await readTree(dataDir))[booster]).toEqual(before[booster]);
+    expect(report.wikiFixes).toEqual(report.warnings.filter((w) => w.includes("quarantined")));
   });
 
   it("folds a misspelled trait table into the trait named in data/overrides/trait-aliases.json", async () => {

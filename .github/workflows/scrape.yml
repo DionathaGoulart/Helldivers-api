@@ -138,7 +138,8 @@ jobs:
         run: pnpm alert --report .reports
         env:
           GH_TOKEN: ${{ github.token }}
-      # A green run closes the alerts an earlier failure left open.
+      # A green run closes the alerts an earlier failure left open, and opens, updates or closes
+      # the one [wiki] issue listing what the wiki contradicts itself about (rule 12, quarantine).
       - name: Close alerts
         if: success()
         run: pnpm alert --report .reports

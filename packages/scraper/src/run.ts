@@ -27,7 +27,7 @@ import { WarbondResolver } from "./normalize/warbonds.ts";
 import { idLockPath, readOverrides } from "./overrides.ts";
 import { EQUIPMENT_TRAITS_INDEX, parseEquipmentTraits } from "./parsers/equipment-traits.ts";
 import { archiveEntries, buildEntry, prependEntry } from "./publish/changelog.ts";
-import { CONFLICTS_FILE, mergeConflicts } from "./publish/conflicts.ts";
+import { CONFLICTS_FILE, describeConflict, mergeConflicts } from "./publish/conflicts.ts";
 import {
   datasetHash,
   isoDate,
@@ -109,6 +109,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     conflicts: 0,
     warnings: [],
     quarantined: [],
+    wikiFixes: [],
     failure: null,
     http: null,
     images: null,
@@ -223,11 +224,12 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const held = quarantine(next, current.collections);
     next = held.dataset;
     report.quarantined = held.quarantined;
-    for (const { collection, id, action, reasons } of held.quarantined) {
+    const quarantined = held.quarantined.map(({ collection, id, action, reasons }) => {
       const kept = action === "kept-published" ? "published version kept" : "new, held back";
       logger.info("entity quarantined", { collection, id, action, reasons });
-      report.warnings.push(`${collection}/${id}: quarantined, ${kept}: ${reasons.join("; ")}`);
-    }
+      return `${collection}/${id}: quarantined, ${kept}: ${reasons.join("; ")}`;
+    });
+    report.warnings.push(...quarantined);
     const isHeld = (collection: Collection, id: Id, action?: QuarantinedEntity["action"]) =>
       held.quarantined.some(
         (q) => q.collection === collection && q.id === id && (!action || q.action === action),
@@ -283,6 +285,12 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       extraFiles.delete(CONFLICTS_FILE);
     }
     report.conflicts = conflicts?.conflicts.length ?? 0;
+    report.wikiFixes = [
+      ...pages.conflicts
+        .filter((conflict) => !isHeld(conflict.collection, conflict.id))
+        .map(describeConflict),
+      ...quarantined,
+    ];
 
     // 10. Diff; unchanged data keeps its dataVersion, so nothing is rewritten.
     report.changes = diffDatasets(current.collections, next);

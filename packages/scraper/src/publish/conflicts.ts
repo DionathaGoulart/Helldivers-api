@@ -1,4 +1,4 @@
-import { type Collection, type Conflict, ConflictReport } from "@hd2/schemas";
+import { type Collection, type Conflict, ConflictReport, type ConflictValue } from "@hd2/schemas";
 
 // `reports/conflicts.json` (arch §5.5): conflicts of the collections scraped in this run
 // replace theirs; the others are carried over. Sorted by collection, id and field.
@@ -20,4 +20,17 @@ export function mergeConflicts(
     key(a) < key(b) ? -1 : key(a) > key(b) ? 1 : 0,
   );
   return conflicts.length > 0 ? ConflictReport.parse({ conflicts }) : null;
+}
+
+const formatValue = (value: ConflictValue) =>
+  value !== null && typeof value === "object" && !Array.isArray(value)
+    ? `${value.amount} ${value.currency}`
+    : JSON.stringify(value);
+
+/** One line for an alert: where each account is and what it says, then the published value. */
+export function describeConflict({ collection, id, candidates, chosen }: Conflict): string {
+  const accounts = candidates.map(
+    ({ page, location, value }) => `${location} (${page}) says ${formatValue(value)}`,
+  );
+  return `${collection}/${id}: ${accounts.join("; ")}; published ${formatValue(chosen)}`;
 }

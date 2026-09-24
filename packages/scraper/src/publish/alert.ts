@@ -1,7 +1,9 @@
 import type { RunReport } from "./report.ts";
 
 // arch §7.2: a failed run opens (or comments on) one `scraper-alert` issue; the next green run
-// closes the open ones. `deploy.yml` reports its own smoke failure through the same path.
+// closes the open ones. `deploy.yml` reports its own smoke failure through the same path. A green
+// run that worked around the wiki contradicting itself keeps one `[wiki]` issue up to date
+// instead: the data published, but a wiki edit is due.
 
 export const ALERT_LABEL = "scraper-alert";
 const MAX_MESSAGES = 20;
@@ -28,6 +30,7 @@ export interface IssueApi {
   open(label: string): Promise<GitHubIssue[]>;
   create(alert: Alert, label: string): Promise<GitHubIssue>;
   comment(issue: number, body: string): Promise<void>;
+  update(issue: number, body: string): Promise<void>;
   close(issue: number, body: string): Promise<void>;
 }
 
@@ -76,6 +79,53 @@ export function deployAlert(kind: string, run: AlertRun): Alert {
     ...lines(run),
   ];
   return { title: `[deploy] ${kind}`, body: `${body.join("\n").trimEnd()}\n` };
+}
+
+export const WIKI_ALERT_TITLE = "[wiki] contradictions to fix";
+
+/** The `[wiki]` issue of a green run, or null when the wiki no longer contradicts itself. */
+export function wikiAlert(report: RunReport, run: AlertRun): Alert | null {
+  const fixes = report.wikiFixes ?? [];
+  if (!report.ok || fixes.length === 0) {
+    return null;
+  }
+  const body = [
+    "The wiki contradicts itself below. The run published anyway: a page conflict took the page two of three accounts give (rule 12), a quarantined entity kept its published version or waits when new. Fixing the wiki page clears each line on the next run.",
+    "",
+    ...lines(run),
+    `Data version: ${report.dataVersion ? `\`${report.dataVersion}\`` : "none"}`,
+    "",
+    `### Contradictions (${fixes.length})`,
+    "",
+    ...list(fixes),
+  ];
+  return { title: WIKI_ALERT_TITLE, body: `${body.join("\n").trimEnd()}\n` };
+}
+
+/**
+ * Keeps the one `[wiki]` issue in step with the latest green run: opened, its body replaced
+ * (a daily comment with the same list would be noise), or closed once the list is empty.
+ */
+export async function syncWikiAlert(
+  api: IssueApi,
+  alert: Alert | null,
+  run: AlertRun,
+): Promise<string> {
+  const existing = (await api.open(ALERT_LABEL)).find((issue) => issue.title === WIKI_ALERT_TITLE);
+  if (alert && existing) {
+    await api.update(existing.number, alert.body);
+    return `updated #${existing.number} (${alert.title})`;
+  }
+  if (alert) {
+    const created = await api.create(alert, ALERT_LABEL);
+    return `opened #${created.number} (${alert.title})`;
+  }
+  if (existing) {
+    const body = ["The wiki no longer contradicts itself; closing.", "", ...lines(run)];
+    await api.close(existing.number, `${body.join("\n").trimEnd()}\n`);
+    return `closed #${existing.number} (${WIKI_ALERT_TITLE})`;
+  }
+  return "no wiki contradictions";
 }
 
 /** Opens the alert, or comments on the open issue with the same title (never a duplicate). */
@@ -166,6 +216,10 @@ export class RestIssueApi implements IssueApi {
       method: "POST",
       body: JSON.stringify({ body }),
     });
+  }
+
+  async update(issue: number, body: string): Promise<void> {
+    await this.#send(`/issues/${issue}`, { method: "PATCH", body: JSON.stringify({ body }) });
   }
 
   async close(issue: number, body: string): Promise<void> {
