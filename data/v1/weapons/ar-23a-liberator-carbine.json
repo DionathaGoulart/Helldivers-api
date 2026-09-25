@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -68,7 +68,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "5.5x50mm FULL METAL JACKET P",
+        "name": "AR-23 P",
         "kind": "projectile",
         "damage": {
           "standard": 90,
@@ -118,26 +118,27 @@
       "AR-23A LIBERATOR CARBINE › Spread": "↔[3.00] ↕[3.00]",
       "AR-23A LIBERATOR CARBINE › Sway": "1",
       "AR-23A LIBERATOR CARBINE › Ergonomics": "70",
+      "AR-23A LIBERATOR CARBINE › Noise": "Medium (~50m, small)",
       "AR-23A LIBERATOR CARBINE › Capacity": "45",
       "AR-23A LIBERATOR CARBINE › Spare Magazines": "8",
       "AR-23A LIBERATOR CARBINE › Starting Magazines": "6",
       "AR-23A LIBERATOR CARBINE › Mags from Supply": "8",
       "AR-23A LIBERATOR CARBINE › Mags from Ammo Box": "4",
-      "AR-23A LIBERATOR CARBINE › Attacks › 5.5x50mm FULL METAL JACKET P": "Projectile",
-      "5.5x50mm FULL METAL JACKET P › Projectile › Mass": "4.5 g",
-      "5.5x50mm FULL METAL JACKET P › Projectile › Initial Velocity": "900 m/s",
-      "5.5x50mm FULL METAL JACKET P › Projectile › Drag Factor": "30%",
-      "5.5x50mm FULL METAL JACKET P › Projectile › Gravity Factor": "100%",
-      "5.5x50mm FULL METAL JACKET P › Projectile › Penetration Slowdown": "25%",
-      "5.5x50mm FULL METAL JACKET P › Damage › Standard": "90 Ballistic",
-      "5.5x50mm FULL METAL JACKET P › Damage › vs. Durable": "22 Ballistic",
-      "5.5x50mm FULL METAL JACKET P › Penetration › Direct": "Light",
-      "5.5x50mm FULL METAL JACKET P › Penetration › Slight Angle": "Light",
-      "5.5x50mm FULL METAL JACKET P › Penetration › Large Angle": "Light",
-      "5.5x50mm FULL METAL JACKET P › Penetration › Extreme Angle": "Unarmored",
-      "5.5x50mm FULL METAL JACKET P › Special Effects › Demolition Force": "10",
-      "5.5x50mm FULL METAL JACKET P › Special Effects › Stagger Force": "15",
-      "5.5x50mm FULL METAL JACKET P › Special Effects › Push Force": "10"
+      "AR-23A LIBERATOR CARBINE › Attacks › AR-23 P": "Projectile",
+      "AR-23 P › Projectile › Mass": "4.5 g",
+      "AR-23 P › Projectile › Initial Velocity": "900 m/s",
+      "AR-23 P › Projectile › Drag Factor": "30%",
+      "AR-23 P › Projectile › Gravity Factor": "100%",
+      "AR-23 P › Projectile › Penetration Slowdown": "25%",
+      "AR-23 P › Damage › Standard": "90 Ballistic",
+      "AR-23 P › Damage › vs. Durable": "22 Ballistic",
+      "AR-23 P › Penetration › Direct": "Light",
+      "AR-23 P › Penetration › Slight Angle": "Light",
+      "AR-23 P › Penetration › Large Angle": "Light",
+      "AR-23 P › Penetration › Extreme Angle": "Unarmored",
+      "AR-23 P › Special Effects › Demolition Force": "10",
+      "AR-23 P › Special Effects › Stagger Force": "15",
+      "AR-23 P › Special Effects › Push Force": "10"
     },
     "source": {
       "type": "warbond",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -69,7 +69,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "10g MAGNUM P",
+        "name": "SG-88 P",
         "kind": "projectile",
         "damage": {
           "standard": 65,
@@ -121,28 +121,29 @@
       "SG-88 BREAK-ACTION SHOTGUN › Spread": "↔[60.00] ↕[60.00]",
       "SG-88 BREAK-ACTION SHOTGUN › Sway": "1",
       "SG-88 BREAK-ACTION SHOTGUN › Ergonomics": "65",
+      "SG-88 BREAK-ACTION SHOTGUN › Noise": "Large (~60m, small)",
       "SG-88 BREAK-ACTION SHOTGUN › Capacity": "2",
       "SG-88 BREAK-ACTION SHOTGUN › Spare Rounds": "40",
       "SG-88 BREAK-ACTION SHOTGUN › Starting Rounds": "20",
       "SG-88 BREAK-ACTION SHOTGUN › Rounds from Supply": "20",
       "SG-88 BREAK-ACTION SHOTGUN › Rounds from Ammo Box": "10",
       "SG-88 BREAK-ACTION SHOTGUN › Barrels": "x 2",
-      "SG-88 BREAK-ACTION SHOTGUN › Attacks › 10g MAGNUM P": "Projectile",
-      "10g MAGNUM P › Projectile › Pellets": "x 9",
-      "10g MAGNUM P › Projectile › Mass": "6 g",
-      "10g MAGNUM P › Projectile › Initial Velocity": "385 m/s",
-      "10g MAGNUM P › Projectile › Drag Factor": "50%",
-      "10g MAGNUM P › Projectile › Gravity Factor": "100%",
-      "10g MAGNUM P › Projectile › Penetration Slowdown": "25%",
-      "10g MAGNUM P › Damage › Standard": "65 Ballistic",
-      "10g MAGNUM P › Damage › vs. Durable": "13 Ballistic",
-      "10g MAGNUM P › Penetration › Direct": "Light",
-      "10g MAGNUM P › Penetration › Slight Angle": "Light",
-      "10g MAGNUM P › Penetration › Large Angle": "Light",
-      "10g MAGNUM P › Penetration › Extreme Angle": "Unarmored",
-      "10g MAGNUM P › Special Effects › Demolition Force": "10",
-      "10g MAGNUM P › Special Effects › Stagger Force": "20",
-      "10g MAGNUM P › Special Effects › Push Force": "20"
+      "SG-88 BREAK-ACTION SHOTGUN › Attacks › SG-88 P": "Projectile",
+      "SG-88 P › Projectile › Pellets": "x 9",
+      "SG-88 P › Projectile › Mass": "6 g",
+      "SG-88 P › Projectile › Initial Velocity": "385 m/s",
+      "SG-88 P › Projectile › Drag Factor": "50%",
+      "SG-88 P › Projectile › Gravity Factor": "100%",
+      "SG-88 P › Projectile › Penetration Slowdown": "25%",
+      "SG-88 P › Damage › Standard": "65 Ballistic",
+      "SG-88 P › Damage › vs. Durable": "13 Ballistic",
+      "SG-88 P › Penetration › Direct": "Light",
+      "SG-88 P › Penetration › Slight Angle": "Light",
+      "SG-88 P › Penetration › Large Angle": "Light",
+      "SG-88 P › Penetration › Extreme Angle": "Unarmored",
+      "SG-88 P › Special Effects › Demolition Force": "10",
+      "SG-88 P › Special Effects › Stagger Force": "20",
+      "SG-88 P › Special Effects › Push Force": "20"
     },
     "source": {
       "type": "other",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -44,16 +44,19 @@
         1066.67
       ],
       "capacity": null,
-      "spareMagazines": null,
-      "startingMagazines": null,
-      "magazinesFromSupply": null,
-      "magazinesFromAmmoBox": null,
-      "recoil": 11,
-      "horizontalRecoil": null,
-      "verticalRecoil": null,
-      "spread": null,
-      "sway": null,
-      "ergonomics": null,
+      "spareMagazines": 5,
+      "startingMagazines": 4,
+      "magazinesFromSupply": 6,
+      "magazinesFromAmmoBox": 3,
+      "recoil": 10.75,
+      "horizontalRecoil": 5,
+      "verticalRecoil": 16.5,
+      "spread": {
+        "horizontal": 140,
+        "vertical": 140
+      },
+      "sway": 1,
+      "ergonomics": 65,
       "reloadKind": "magazine",
       "reloadTimeS": 2,
       "reloadTimeUpgradedS": null,
@@ -63,12 +66,12 @@
     "melee": null,
     "attacks": [
       {
-        "name": "LAS-12_dm",
-        "kind": "other",
+        "name": "LAS-12 P",
+        "kind": "projectile",
         "damage": {
           "standard": 80,
           "durable": 4,
-          "type": "Laser"
+          "type": "Ballistic"
         },
         "penetration": {
           "direct": "medium",
@@ -76,7 +79,14 @@
           "largeAngle": "medium",
           "extremeAngle": "unarmored"
         },
-        "projectile": null,
+        "projectile": {
+          "pellets": null,
+          "massG": 12,
+          "initialVelocityMps": 100,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
         "area": null,
         "forces": {
           "demolition": 10,
@@ -94,18 +104,44 @@
       "Fire Rate": "800 rpm",
       "DPS": "1,066.67",
       "Capacity": "4s (53)",
+      "Spare Mags": "5 Magazines",
+      "Ergonomics": "65",
       "Recoil": "11",
       "Reload Time": "2.00s",
       "Tactical Reload Time": "2.00s",
-      "LAS-12_dm › Damage › Standard": "80 Laser",
-      "LAS-12_dm › Damage › vs. Durable": "4 Laser",
-      "LAS-12_dm › Penetration › Direct": "Medium",
-      "LAS-12_dm › Penetration › Slight Angle": "Medium",
-      "LAS-12_dm › Penetration › Large Angle": "Medium",
-      "LAS-12_dm › Penetration › Extreme Angle": "Unarmored",
-      "LAS-12_dm › Special Effects › Demolition Force": "10",
-      "LAS-12_dm › Special Effects › Stagger Force": "10",
-      "LAS-12_dm › Special Effects › Push Force": "10"
+      "LAS-12 SAI › Fire Rate": "800 rpm",
+      "LAS-12 SAI › Recoil": "10.75",
+      "LAS-12 SAI › Horizontal Recoil": "5",
+      "LAS-12 SAI › Vertical Recoil": "16.5",
+      "LAS-12 SAI › Spread": "↔[140.00] ↕[140.00]",
+      "LAS-12 SAI › Sway": "1",
+      "LAS-12 SAI › Ergonomics": "65",
+      "LAS-12 SAI › Noise": "Medium (~50m, small)",
+      "LAS-12 SAI › Spare Magazines": "5",
+      "LAS-12 SAI › Starting Magazines": "4",
+      "LAS-12 SAI › Mags from Supply": "6",
+      "LAS-12 SAI › Mags from Ammo Box": "3",
+      "LAS-12 SAI › Heat Data › Overheats at": "100 °C",
+      "LAS-12 SAI › Heat Data › Warmup": "0 sec",
+      "LAS-12 SAI › Heat Data › Heat Per Shot": "2 °C",
+      "LAS-12 SAI › Heat Data › Cool Per Sec": "8.1 - 5.4 - 4.1",
+      "LAS-12 SAI › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
+      "LAS-12 SAI › Attacks › LAS-12 P": "Projectile",
+      "LAS-12 P › Projectile › Mass": "12 g",
+      "LAS-12 P › Projectile › Initial Velocity": "100 m/s",
+      "LAS-12 P › Projectile › Drag Factor": "0%",
+      "LAS-12 P › Projectile › Gravity Factor": "0%",
+      "LAS-12 P › Projectile › Lifetime": "6 sec",
+      "LAS-12 P › Projectile › Penetration Slowdown": "25%",
+      "LAS-12 P › Damage › Standard": "80 Ballistic",
+      "LAS-12 P › Damage › vs. Durable": "4 Ballistic",
+      "LAS-12 P › Penetration › Direct": "Medium",
+      "LAS-12 P › Penetration › Slight Angle": "Medium",
+      "LAS-12 P › Penetration › Large Angle": "Medium",
+      "LAS-12 P › Penetration › Extreme Angle": "Unarmored",
+      "LAS-12 P › Special Effects › Demolition Force": "10",
+      "LAS-12 P › Special Effects › Stagger Force": "10",
+      "LAS-12 P › Special Effects › Push Force": "10"
     },
     "source": {
       "type": "superstore",

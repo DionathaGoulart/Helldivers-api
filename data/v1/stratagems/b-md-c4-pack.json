@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -149,13 +149,13 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
-      "B/MD C4 Pack › Main Health": "10",
-      "B/MD C4 Pack › Main Armor": "Unarmored",
-      "B/MD C4 Pack › Mags from Supply": "1",
-      "B/MD C4 Pack › Mags from Ammo Box": "1",
-      "B/MD C4 Pack › Max Rounds": "1",
-      "B/MD C4 Pack › Starting Rounds": "1",
-      "B/MD C4 Pack › Attacks › B/MD C4 PACK E": "Explosion",
+      "B/MD C4 PACK › Main Health": "10",
+      "B/MD C4 PACK › Main Armor": "Unarmored",
+      "B/MD C4 PACK › Mags from Supply": "1",
+      "B/MD C4 PACK › Mags from Ammo Box": "1",
+      "B/MD C4 PACK › Max Rounds": "1",
+      "B/MD C4 PACK › Starting Rounds": "1",
+      "B/MD C4 PACK › Attacks › B/MD C4 PACK E": "Explosion",
       "B/MD C4 PACK E › Area of Effect › Inner Radius": "3 m",
       "B/MD C4 PACK E › Area of Effect › Outer Radius": "7 m",
       "B/MD C4 PACK E › Area of Effect › Shockwave Radius": "8 m",

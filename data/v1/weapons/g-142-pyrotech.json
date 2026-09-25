@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -129,9 +129,12 @@
       "G-142 PYROTECH › Spread": "↔[10.00] ↕[10.00]",
       "G-142 PYROTECH › Sway": "1",
       "G-142 PYROTECH › Ergonomics": "65",
+      "G-142 PYROTECH › Noise": "Medium (~50m, small)",
       "G-142 PYROTECH › Capacity": "2000",
       "G-142 PYROTECH › Spare Magazines": "4",
       "G-142 PYROTECH › Starting Magazines": "4",
+      "G-142 PYROTECH › Mags from Supply": "6",
+      "G-142 PYROTECH › Mags from Ammo Box": "3",
       "G-142 PYROTECH › Throwables from Supply": "3",
       "G-142 PYROTECH › Max Rounds": "6",
       "G-142 PYROTECH › Starting Rounds": "4",

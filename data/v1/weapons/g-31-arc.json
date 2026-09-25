@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -37,7 +37,7 @@
     "firearm": null,
     "throwable": {
       "capacity": 5,
-      "startingCount": 3,
+      "startingCount": 4,
       "fromSupply": 3,
       "fuseTimeS": 3,
       "cookable": false
@@ -125,7 +125,7 @@
       "Trait(s)": "Explosive • Arc",
       "G-31 ARC › Throwables from Supply": "3",
       "G-31 ARC › Max Rounds": "5",
-      "G-31 ARC › Starting Rounds": "3",
+      "G-31 ARC › Starting Rounds": "4",
       "G-31 ARC › Attacks › G-31 ARC E": "Explosion",
       "G-31 ARC › Attacks › G-31 ARC E A": "Arc",
       "G-31 ARC › Attacks › Stun Small": "status",
@@ -133,21 +133,20 @@
       "G-31 ARC E › Area of Effect › Outer Radius": "10 m",
       "G-31 ARC E › Area of Effect › Shockwave Radius": "15 m",
       "G-31 ARC E › Area of Effect › Arc": "G-31 ARC_E_A",
-      "G-31 ARC E › Damage › Damage Element": "Arc",
+      "G-31 ARC E › Damage › Damage Element": "Electricity",
       "G-31 ARC E › Damage › Inner Radius": "0 Arc",
       "G-31 ARC E › Damage › Inner Durable": "0 Arc",
       "G-31 ARC E › Penetration › Direct": "Anti-Tank II",
       "G-31 ARC E › AoE Effect › Demolition Force": "0",
       "G-31 ARC E › AoE Effect › Stagger Force": "0",
       "G-31 ARC E › AoE Effect › Push Force": "0",
-      "G-31 ARC E A › Arc › Arcs on Explosion": "x 10",
       "G-31 ARC E A › Arc › Arc Range": "10 m",
       "G-31 ARC E A › Arc › Arc Velocity": "2000 m/s",
       "G-31 ARC E A › Arc › Arc Spread": "6 °",
       "G-31 ARC E A › Arc › Chain Spread": "180 °",
       "G-31 ARC E A › Arc › Chain Count": "2",
       "G-31 ARC E A › Arc › Max Split": "2",
-      "G-31 ARC E A › Damage › Element": "Arc",
+      "G-31 ARC E A › Damage › Element": "Electricity",
       "G-31 ARC E A › Damage › Standard": "100 Arc",
       "G-31 ARC E A › Damage › vs. Durable": "70 Arc",
       "G-31 ARC E A › Penetration › Direct": "Heavy",

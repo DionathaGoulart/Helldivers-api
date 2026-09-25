@@ -166,7 +166,7 @@
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",
-          "location": "B/MD C4 Pack › Mags from Supply",
+          "location": "B/MD C4 PACK › Mags from Supply",
           "value": 1
         }
       ]
@@ -383,30 +383,6 @@
           "page": "https://helldivers.wiki.gg/wiki/NUX-223_Hellbomb",
           "location": "NUX-223 Hellbomb › Call-in Time",
           "value": 5
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "orbital-precision-strike",
-      "field": "cooldownS",
-      "rule": 2,
-      "chosen": 90,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
-          "location": "infobox › Base Cooldown",
-          "value": 80
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
-          "location": "General › Cooldown › Standard",
-          "value": 80
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
-          "location": "Orbital Precision Strike › Cooldown",
-          "value": 90
         }
       ]
     },
@@ -702,6 +678,25 @@
     },
     {
       "collection": "weapons",
+      "id": "ar-11-arbitrator",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 13.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
+          "location": "infobox › Recoil",
+          "value": 13
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/AR-11_Arbitrator",
+          "location": "AR-11 ARBITRATOR › Recoil",
+          "value": 13.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
       "id": "ar-2-coyote",
       "field": "firearm.recoil",
       "rule": 2,
@@ -968,6 +963,44 @@
     },
     {
       "collection": "weapons",
+      "id": "gl-15-evictor",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 32,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
+          "location": "infobox › Supply Box Refill",
+          "value": 16
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
+          "location": "GL-15 EVICTOR › Rounds from Supply",
+          "value": 32
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "gl-15-evictor",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 82.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
+          "location": "infobox › Recoil",
+          "value": 83
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
+          "location": "GL-15 EVICTOR › Recoil",
+          "value": 82.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
       "id": "gp-20-ultimatum",
       "field": "firearm.recoil",
       "rule": 2,
@@ -1020,6 +1053,25 @@
           "page": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
           "location": "JAR-5 DOMINATOR › Recoil",
           "value": 57.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "las-12-sai",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 10.75,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-12_Sai",
+          "location": "infobox › Recoil",
+          "value": 11
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/LAS-12_Sai",
+          "location": "LAS-12 SAI › Recoil",
+          "value": 10.75
         }
       ]
     },
@@ -1475,6 +1527,25 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",
           "location": "P-33 MISSILE PISTOL › Recoil",
+          "value": 312.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-34-breacher",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 312.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
+          "location": "infobox › Recoil",
+          "value": 313
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
+          "location": "P-34 BREACHER › Recoil",
           "value": 312.5
         }
       ]

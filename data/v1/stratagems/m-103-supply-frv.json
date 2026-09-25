@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -73,7 +73,7 @@
         "damage": {
           "standard": 65,
           "durable": 15,
-          "type": "Ballistic"
+          "type": "Damage"
         },
         "penetration": {
           "direct": "medium",
@@ -123,8 +123,8 @@
       "5.5x50mm PENETRATOR P › Projectile › Drag Factor": "30%",
       "5.5x50mm PENETRATOR P › Projectile › Gravity Factor": "100%",
       "5.5x50mm PENETRATOR P › Projectile › Penetration Slowdown": "25%",
-      "5.5x50mm PENETRATOR P › Damage › Standard": "65 Ballistic",
-      "5.5x50mm PENETRATOR P › Damage › vs. Durable": "15 Ballistic",
+      "5.5x50mm PENETRATOR P › Damage › Standard": "65 Damage",
+      "5.5x50mm PENETRATOR P › Damage › vs. Durable": "15 Damage",
       "5.5x50mm PENETRATOR P › Penetration › Direct": "Medium",
       "5.5x50mm PENETRATOR P › Penetration › Slight Angle": "Medium",
       "5.5x50mm PENETRATOR P › Penetration › Large Angle": "Medium",

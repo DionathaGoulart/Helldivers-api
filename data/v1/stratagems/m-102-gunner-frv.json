@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -72,7 +72,7 @@
         "damage": {
           "standard": 150,
           "durable": 35,
-          "type": "Ballistic"
+          "type": "Damage"
         },
         "penetration": {
           "direct": "heavy",
@@ -124,8 +124,8 @@
       "12.5mm BCHP RIFLE ROUNDS P › Projectile › Drag Factor": "30%",
       "12.5mm BCHP RIFLE ROUNDS P › Projectile › Gravity Factor": "100%",
       "12.5mm BCHP RIFLE ROUNDS P › Projectile › Penetration Slowdown": "25%",
-      "12.5mm BCHP RIFLE ROUNDS P › Damage › Standard": "150 Ballistic",
-      "12.5mm BCHP RIFLE ROUNDS P › Damage › vs. Durable": "35 Ballistic",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › Standard": "150 Damage",
+      "12.5mm BCHP RIFLE ROUNDS P › Damage › vs. Durable": "35 Damage",
       "12.5mm BCHP RIFLE ROUNDS P › Penetration › Direct": "Heavy",
       "12.5mm BCHP RIFLE ROUNDS P › Penetration › Slight Angle": "Heavy",
       "12.5mm BCHP RIFLE ROUNDS P › Penetration › Large Angle": "Heavy",

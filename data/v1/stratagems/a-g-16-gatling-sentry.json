@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -108,7 +108,7 @@
         "damage": {
           "standard": 90,
           "durable": 23,
-          "type": "Ballistic"
+          "type": "Damage"
         },
         "penetration": {
           "direct": "medium",
@@ -175,8 +175,8 @@
       "8x60mm FULL METAL JACKET P1 › Projectile › Drag Factor": "30%",
       "8x60mm FULL METAL JACKET P1 › Projectile › Gravity Factor": "100%",
       "8x60mm FULL METAL JACKET P1 › Projectile › Penetration Slowdown": "25%",
-      "8x60mm FULL METAL JACKET P1 › Damage › Standard": "90 Ballistic",
-      "8x60mm FULL METAL JACKET P1 › Damage › vs. Durable": "23 Ballistic",
+      "8x60mm FULL METAL JACKET P1 › Damage › Standard": "90 Damage",
+      "8x60mm FULL METAL JACKET P1 › Damage › vs. Durable": "23 Damage",
       "8x60mm FULL METAL JACKET P1 › Penetration › Direct": "Medium",
       "8x60mm FULL METAL JACKET P1 › Penetration › Slight Angle": "Medium",
       "8x60mm FULL METAL JACKET P1 › Penetration › Large Angle": "Medium",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -68,7 +68,37 @@
     ],
     "supportWeapon": null,
     "backpack": null,
-    "attacks": [],
+    "attacks": [
+      {
+        "name": "GATLING P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 150,
+          "durable": 35,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 52,
+          "initialVelocityMps": 980,
+          "dragFactorPct": 30,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 15,
+          "stagger": 25,
+          "push": 20
+        }
+      }
+    ],
     "statsRaw": {
       "Permit Type": "Supply",
       "Traits": "Vehicle • Heavy Armour Penetrating • Anti Tank",
@@ -76,7 +106,30 @@
       "General › Call-in Time": "10.50 seconds",
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "780 seconds",
-      "General › Cooldown › With Morale Augmentation": "741 seconds"
+      "General › Cooldown › With Morale Augmentation": "741 seconds",
+      "MAELSTROM GATLING › Fire Rate": "1200 rpm",
+      "MAELSTROM GATLING › Recoil": "Nonexistent",
+      "MAELSTROM GATLING › Spread": "↔[10.00] ↕[10.00]",
+      "MAELSTROM GATLING › Noise": "Medium (~50m, small)",
+      "MAELSTROM GATLING › Capacity": "300",
+      "MAELSTROM GATLING › Spare Magazines": "7",
+      "MAELSTROM GATLING › Wind Up Time": "0.5s",
+      "MAELSTROM GATLING › Wind Down Time": "0.5s",
+      "MAELSTROM GATLING › Attacks › GATLING P": "Projectile",
+      "GATLING P › Projectile › Mass": "52 g",
+      "GATLING P › Projectile › Initial Velocity": "980 m/s",
+      "GATLING P › Projectile › Drag Factor": "30%",
+      "GATLING P › Projectile › Gravity Factor": "100%",
+      "GATLING P › Projectile › Penetration Slowdown": "25%",
+      "GATLING P › Damage › Standard": "150 Ballistic",
+      "GATLING P › Damage › vs. Durable": "35 Ballistic",
+      "GATLING P › Penetration › Direct": "Heavy",
+      "GATLING P › Penetration › Slight Angle": "Heavy",
+      "GATLING P › Penetration › Large Angle": "Heavy",
+      "GATLING P › Penetration › Extreme Angle": "Unarmored",
+      "GATLING P › Special Effects › Demolition Force": "15",
+      "GATLING P › Special Effects › Stagger Force": "25",
+      "GATLING P › Special Effects › Push Force": "20"
     },
     "source": {
       "type": "event",

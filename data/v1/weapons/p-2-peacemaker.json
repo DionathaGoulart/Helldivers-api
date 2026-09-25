@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -67,7 +67,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "9x20mm HOLLOW POINT P",
+        "name": "P-2 P",
         "kind": "projectile",
         "damage": {
           "standard": 100,
@@ -119,26 +119,27 @@
       "P-2 PEACEMAKER › Spread": "↔[10.00] ↕[10.00]",
       "P-2 PEACEMAKER › Sway": "1",
       "P-2 PEACEMAKER › Ergonomics": "100",
+      "P-2 PEACEMAKER › Noise": "Small (~35m, small)",
       "P-2 PEACEMAKER › Capacity": "15",
       "P-2 PEACEMAKER › Spare Magazines": "8",
       "P-2 PEACEMAKER › Starting Magazines": "5",
       "P-2 PEACEMAKER › Mags from Supply": "8",
       "P-2 PEACEMAKER › Mags from Ammo Box": "4",
-      "P-2 PEACEMAKER › Attacks › 9x20mm HOLLOW POINT P": "Projectile",
-      "9x20mm HOLLOW POINT P › Projectile › Mass": "7 g",
-      "9x20mm HOLLOW POINT P › Projectile › Initial Velocity": "320 m/s",
-      "9x20mm HOLLOW POINT P › Projectile › Drag Factor": "120%",
-      "9x20mm HOLLOW POINT P › Projectile › Gravity Factor": "100%",
-      "9x20mm HOLLOW POINT P › Projectile › Penetration Slowdown": "25%",
-      "9x20mm HOLLOW POINT P › Damage › Standard": "100 Ballistic",
-      "9x20mm HOLLOW POINT P › Damage › vs. Durable": "32 Ballistic",
-      "9x20mm HOLLOW POINT P › Penetration › Direct": "Light",
-      "9x20mm HOLLOW POINT P › Penetration › Slight Angle": "Light",
-      "9x20mm HOLLOW POINT P › Penetration › Large Angle": "Light",
-      "9x20mm HOLLOW POINT P › Penetration › Extreme Angle": "Unarmored",
-      "9x20mm HOLLOW POINT P › Special Effects › Demolition Force": "10",
-      "9x20mm HOLLOW POINT P › Special Effects › Stagger Force": "10",
-      "9x20mm HOLLOW POINT P › Special Effects › Push Force": "4"
+      "P-2 PEACEMAKER › Attacks › P-2 P": "Projectile",
+      "P-2 P › Projectile › Mass": "7 g",
+      "P-2 P › Projectile › Initial Velocity": "320 m/s",
+      "P-2 P › Projectile › Drag Factor": "120%",
+      "P-2 P › Projectile › Gravity Factor": "100%",
+      "P-2 P › Projectile › Penetration Slowdown": "25%",
+      "P-2 P › Damage › Standard": "100 Ballistic",
+      "P-2 P › Damage › vs. Durable": "32 Ballistic",
+      "P-2 P › Penetration › Direct": "Light",
+      "P-2 P › Penetration › Slight Angle": "Light",
+      "P-2 P › Penetration › Large Angle": "Light",
+      "P-2 P › Penetration › Extreme Angle": "Unarmored",
+      "P-2 P › Special Effects › Demolition Force": "10",
+      "P-2 P › Special Effects › Stagger Force": "10",
+      "P-2 P › Special Effects › Push Force": "4"
     },
     "source": {
       "type": "default",

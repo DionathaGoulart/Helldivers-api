@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -143,6 +143,7 @@
       "SMG-72 PUMMELER › Spread": "↔[5.00] ↕[5.00]",
       "SMG-72 PUMMELER › Sway": "1",
       "SMG-72 PUMMELER › Ergonomics": "90",
+      "SMG-72 PUMMELER › Noise": "Small (~35m, small)",
       "SMG-72 PUMMELER › Capacity": "45",
       "SMG-72 PUMMELER › Spare Magazines": "7",
       "SMG-72 PUMMELER › Starting Magazines": "5",

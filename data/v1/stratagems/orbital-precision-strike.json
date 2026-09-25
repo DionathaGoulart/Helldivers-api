@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.4e349bc3",
-    "generatedAt": "2026-09-24T17:16:26Z",
+    "dataVersion": "2026-09-24.437095dd",
+    "generatedAt": "2026-09-24T23:51:08Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -26,7 +26,9 @@
     "wiki": {
       "title": "Orbital Precision Strike",
       "url": "https://helldivers.wiki.gg/wiki/Orbital_Precision_Strike",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "permitType": "offensive",
     "availability": "loadout",
@@ -42,7 +44,7 @@
       "right",
       "up"
     ],
-    "cooldownS": 90,
+    "cooldownS": 80,
     "cooldownVariants": [
       {
         "label": "With Morale Augmentation",
@@ -159,7 +161,7 @@
       "General › Cooldown › With Morale Augmentation": "76 seconds",
       "General › Cooldown › With Zero-G Breech Loading": "72 seconds",
       "General › Cooldown › With All Upgrades": "68.4 seconds",
-      "Orbital Precision Strike › Cooldown": "90 s",
+      "Orbital Precision Strike › Cooldown": "80 s",
       "Orbital Precision Strike › Uses": "∞",
       "Orbital Precision Strike › Bombs": "1",
       "Orbital Precision Strike › Salvos": "1",
