@@ -53,9 +53,7 @@
 /* §2.1 — raw palette: the only hex in the project. Brand = the logo: yellow #fbee23 + black. */
 :root {
   --palette-yellow: #fbee23;
-  --palette-yellow-raised: #fdf58a;
   --palette-black: #000000;
-  --palette-black-raised: #141414;
   --palette-info: #2563eb;
   --palette-info-deep: #1d4ed8;
   --palette-success: #16a34a;
@@ -86,7 +84,7 @@
 [data-theme="yellow"] {
   color-scheme: light;
   --base-100: var(--palette-yellow);
-  --base-200: var(--palette-yellow-raised);
+  --base-200: var(--palette-yellow);
   --base-300: var(--palette-black);
   --base-content: var(--palette-black);
   --accent: var(--palette-black);
@@ -109,7 +107,7 @@
 [data-theme="black"] {
   color-scheme: dark;
   --base-100: var(--palette-black);
-  --base-200: var(--palette-black-raised);
+  --base-200: var(--palette-black);
   --base-300: var(--palette-yellow);
   --base-content: var(--palette-yellow);
   --accent: var(--palette-yellow);
@@ -312,7 +310,7 @@ summary,
   }
 }
 
-/* §6.2 — panel: frame, raised surface, hard shadow, optional title bar. */
+/* §6.2 — panel: frame, hard shadow, optional title bar. */
 .panel {
   border: var(--frame-border) solid var(--base-300);
   background: var(--base-200);
