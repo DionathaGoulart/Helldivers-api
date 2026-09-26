@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -119,7 +119,7 @@
       "MA5C ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
       "MA5C ASSAULT RIFLE › Sway": "1",
       "MA5C ASSAULT RIFLE › Ergonomics": "60",
-      "MA5C ASSAULT RIFLE › Noise": "Medium (~50m, small)",
+      "MA5C ASSAULT RIFLE › Noise": "Medium (~48m, small)",
       "MA5C ASSAULT RIFLE › Capacity": "32",
       "MA5C ASSAULT RIFLE › Spare Magazines": "8",
       "MA5C ASSAULT RIFLE › Starting Magazines": "5",

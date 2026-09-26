@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -110,7 +110,7 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "8x60mm HIGH VELOCITY P",
+        "name": "M-1000 P",
         "kind": "projectile",
         "damage": {
           "standard": 80,
@@ -166,24 +166,25 @@
       "M-1000 MAXIGUN › Spread": "↔[10.00] ↕[10.00]",
       "M-1000 MAXIGUN › Sway": "1",
       "M-1000 MAXIGUN › Ergonomics": "4",
+      "M-1000 MAXIGUN › Noise": "Medium (~48m, small)",
       "M-1000 MAXIGUN › Capacity": "1000",
       "M-1000 MAXIGUN › Rounds from Supply": "500",
       "M-1000 MAXIGUN › Rounds from Ammo Box": "250",
-      "M-1000 MAXIGUN › Attacks › 8x60mm HIGH VELOCITY P": "Projectile",
-      "8x60mm HIGH VELOCITY P › Projectile › Mass": "11 g",
-      "8x60mm HIGH VELOCITY P › Projectile › Initial Velocity": "920 m/s",
-      "8x60mm HIGH VELOCITY P › Projectile › Drag Factor": "30%",
-      "8x60mm HIGH VELOCITY P › Projectile › Gravity Factor": "100%",
-      "8x60mm HIGH VELOCITY P › Projectile › Penetration Slowdown": "25%",
-      "8x60mm HIGH VELOCITY P › Damage › Standard": "80 Ballistic",
-      "8x60mm HIGH VELOCITY P › Damage › vs. Durable": "18 Ballistic",
-      "8x60mm HIGH VELOCITY P › Penetration › Direct": "Medium",
-      "8x60mm HIGH VELOCITY P › Penetration › Slight Angle": "Medium",
-      "8x60mm HIGH VELOCITY P › Penetration › Large Angle": "Medium",
-      "8x60mm HIGH VELOCITY P › Penetration › Extreme Angle": "Unarmored",
-      "8x60mm HIGH VELOCITY P › Special Effects › Demolition Force": "10",
-      "8x60mm HIGH VELOCITY P › Special Effects › Stagger Force": "15",
-      "8x60mm HIGH VELOCITY P › Special Effects › Push Force": "12"
+      "M-1000 MAXIGUN › Attacks › M-1000 P": "Projectile",
+      "M-1000 P › Projectile › Mass": "11 g",
+      "M-1000 P › Projectile › Initial Velocity": "920 m/s",
+      "M-1000 P › Projectile › Drag Factor": "30%",
+      "M-1000 P › Projectile › Gravity Factor": "100%",
+      "M-1000 P › Projectile › Penetration Slowdown": "25%",
+      "M-1000 P › Damage › Standard": "80 Ballistic",
+      "M-1000 P › Damage › vs. Durable": "18 Ballistic",
+      "M-1000 P › Penetration › Direct": "Medium",
+      "M-1000 P › Penetration › Slight Angle": "Medium",
+      "M-1000 P › Penetration › Large Angle": "Medium",
+      "M-1000 P › Penetration › Extreme Angle": "Unarmored",
+      "M-1000 P › Special Effects › Demolition Force": "10",
+      "M-1000 P › Special Effects › Stagger Force": "15",
+      "M-1000 P › Special Effects › Push Force": "12"
     },
     "source": {
       "type": "warbond",

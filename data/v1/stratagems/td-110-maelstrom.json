@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -107,7 +107,7 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "780 seconds",
       "General › Cooldown › With Morale Augmentation": "741 seconds",
-      "MAELSTROM GATLING › Fire Rate": "1200 rpm",
+      "MAELSTROM GATLING › Fire Rate": "1200 rpm (600 rpm per gun)",
       "MAELSTROM GATLING › Recoil": "Nonexistent",
       "MAELSTROM GATLING › Spread": "↔[10.00] ↕[10.00]",
       "MAELSTROM GATLING › Noise": "Medium (~50m, small)",

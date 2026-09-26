@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "count": 25,
     "source": {
       "name": "The Helldivers Wiki",
@@ -4561,7 +4561,7 @@
       ],
       "description": "Ironclad Democracy is a Premium Warbond available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
-        "url": "/images/v1/warbonds/ironclad-democracy.32db6ed7.webp",
+        "url": "/images/v1/warbonds/ironclad-democracy.f6ff792b.webp",
         "width": 1024,
         "height": 512,
         "wikiFile": "Ironclad_Democracy_Premium_Warbond_Cover.png"

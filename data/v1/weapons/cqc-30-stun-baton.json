@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -39,14 +39,12 @@
     "firearm": null,
     "throwable": null,
     "melee": {
-      "fireRateRpm": [
-        150
-      ]
+      "fireRateRpm": []
     },
     "attacks": [
       {
-        "name": "Stun Baton",
-        "kind": "melee",
+        "name": "CQC-30 STUN BATON_dm",
+        "kind": "other",
         "damage": {
           "standard": 120,
           "durable": 60,
@@ -75,24 +73,28 @@
       "Armor Penetration": "Medium",
       "Fire Rate": "N/A",
       "Capacity": "N/A",
-      "Ergonomics": "0",
+      "Ergonomics": "65",
       "Recoil": "8",
-      "CQC-30 Stun Baton › Fire Rate": "150 rpm",
-      "CQC-30 Stun Baton › Recoil": "0",
-      "CQC-30 Stun Baton › Ergonomics": "0",
-      "CQC-30 Stun Baton › Attacks › Stun Baton": "Damage",
-      "Stun Baton › Damage › Element": "Melee",
-      "Stun Baton › Damage › Standard": "120 Melee",
-      "Stun Baton › Damage › vs. Durable": "60 Melee",
-      "Stun Baton › Penetration › Direct": "Medium",
-      "Stun Baton › Penetration › Slight Angle": "Unarmored",
-      "Stun Baton › Penetration › Large Angle": "Unarmored",
-      "Stun Baton › Penetration › Extreme Angle": "Unarmored",
-      "Stun Baton › Special Effects › Status": "Stun Large",
-      "Stun Baton › Special Effects › Status Strength": "5",
-      "Stun Baton › Special Effects › Demolition Force": "10",
-      "Stun Baton › Special Effects › Stagger Force": "35",
-      "Stun Baton › Special Effects › Push Force": "30"
+      "CQC-30 STUN BATON › Recoil": "6.25",
+      "CQC-30 STUN BATON › Horizontal Recoil": "2.5",
+      "CQC-30 STUN BATON › Vertical Recoil": "10",
+      "CQC-30 STUN BATON › Spread": "↔[10.00] ↕[10.00]",
+      "CQC-30 STUN BATON › Sway": "1",
+      "CQC-30 STUN BATON › Ergonomics": "65",
+      "CQC-30 STUN BATON › Noise": "No sound",
+      "CQC-30 STUN BATON › Stamina Cost": "3%",
+      "CQC-30 STUN BATON › Attacks › CQC-30 STUN BATON_dm": "Damage",
+      "CQC-30 STUN BATON_dm › Damage › Standard": "120 Melee",
+      "CQC-30 STUN BATON_dm › Damage › vs. Durable": "60 Melee",
+      "CQC-30 STUN BATON_dm › Penetration › Direct": "Medium",
+      "CQC-30 STUN BATON_dm › Penetration › Slight Angle": "Unarmored",
+      "CQC-30 STUN BATON_dm › Penetration › Large Angle": "Unarmored",
+      "CQC-30 STUN BATON_dm › Penetration › Extreme Angle": "Unarmored",
+      "CQC-30 STUN BATON_dm › Special Effects › Status": "Stun Large",
+      "CQC-30 STUN BATON_dm › Special Effects › Status Strength": "5",
+      "CQC-30 STUN BATON_dm › Special Effects › Demolition Force": "10",
+      "CQC-30 STUN BATON_dm › Special Effects › Stagger Force": "35",
+      "CQC-30 STUN BATON_dm › Special Effects › Push Force": "30"
     },
     "source": {
       "type": "superstore",

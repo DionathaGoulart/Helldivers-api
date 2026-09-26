@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -44,8 +44,8 @@
     },
     "attacks": [
       {
-        "name": "Machete",
-        "kind": "melee",
+        "name": "CQC-42 MACHETE_dm",
+        "kind": "other",
         "damage": {
           "standard": 300,
           "durable": 150,
@@ -74,22 +74,25 @@
       "Armor Penetration": "Medium",
       "Fire Rate": "72",
       "Capacity": "N/A",
-      "Ergonomics": "0",
-      "Recoil": "0",
-      "CQC-42 Machete › Fire Rate": "72 rpm",
-      "CQC-42 Machete › Recoil": "0",
-      "CQC-42 Machete › Ergonomics": "0",
-      "CQC-42 Machete › Attacks › Machete": "Damage",
-      "Machete › Damage › Element": "Melee",
-      "Machete › Damage › Standard": "300 Melee",
-      "Machete › Damage › vs. Durable": "150 Melee",
-      "Machete › Penetration › Direct": "Medium",
-      "Machete › Penetration › Slight Angle": "Unarmored",
-      "Machete › Penetration › Large Angle": "Unarmored",
-      "Machete › Penetration › Extreme Angle": "Unarmored",
-      "Machete › Special Effects › Demolition Force": "10",
-      "Machete › Special Effects › Stagger Force": "30",
-      "Machete › Special Effects › Push Force": "10"
+      "Ergonomics": "65",
+      "CQC-42 MACHETE › Recoil": "6.25",
+      "CQC-42 MACHETE › Horizontal Recoil": "2.5",
+      "CQC-42 MACHETE › Vertical Recoil": "10",
+      "CQC-42 MACHETE › Spread": "↔[10.00] ↕[10.00]",
+      "CQC-42 MACHETE › Sway": "1",
+      "CQC-42 MACHETE › Ergonomics": "65",
+      "CQC-42 MACHETE › Noise": "No sound",
+      "CQC-42 MACHETE › Stamina Cost": "5%",
+      "CQC-42 MACHETE › Attacks › CQC-42 MACHETE_dm": "Damage",
+      "CQC-42 MACHETE_dm › Damage › Standard": "300 Melee",
+      "CQC-42 MACHETE_dm › Damage › vs. Durable": "150 Melee",
+      "CQC-42 MACHETE_dm › Penetration › Direct": "Medium",
+      "CQC-42 MACHETE_dm › Penetration › Slight Angle": "Unarmored",
+      "CQC-42 MACHETE_dm › Penetration › Large Angle": "Unarmored",
+      "CQC-42 MACHETE_dm › Penetration › Extreme Angle": "Unarmored",
+      "CQC-42 MACHETE_dm › Special Effects › Demolition Force": "10",
+      "CQC-42 MACHETE_dm › Special Effects › Stagger Force": "30",
+      "CQC-42 MACHETE_dm › Special Effects › Push Force": "10"
     },
     "source": {
       "type": "superstore",

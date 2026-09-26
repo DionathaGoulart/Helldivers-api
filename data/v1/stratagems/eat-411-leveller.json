@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -101,6 +101,32 @@
     "backpack": null,
     "attacks": [
       {
+        "name": "EAT-17 BACKBLAST E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 15,
+          "durable": 15,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 15
+        }
+      },
+      {
         "name": "EAT-411 P",
         "kind": "projectile",
         "damage": {
@@ -179,9 +205,23 @@
       "EAT-411 LEVELLER › Spread": "↔[4.00] ↕[4.00]",
       "EAT-411 LEVELLER › Sway": "1",
       "EAT-411 LEVELLER › Ergonomics": "15",
+      "EAT-411 LEVELLER › Noise": "Huge (~68m, small)",
       "EAT-411 LEVELLER › Capacity": "1",
+      "EAT-411 LEVELLER › Attacks › EAT-17 BACKBLAST E": "Explosion",
       "EAT-411 LEVELLER › Attacks › EAT-411 P": "Projectile",
       "EAT-411 LEVELLER › Attacks › EAT-411 P IE": "Explosion",
+      "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+      "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
+      "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
+      "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
+      "EAT-17 BACKBLAST E › Damage › Outer Radius": "14 - 0",
+      "EAT-17 BACKBLAST E › Damage › Outer Durable": "14 - 0",
+      "EAT-17 BACKBLAST E › Penetration › Direct": "Medium",
+      "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
+      "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
+      "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15",
       "EAT-411 P › Projectile › Mass": "500 g",
       "EAT-411 P › Projectile › Initial Velocity": "50 m/s",
       "EAT-411 P › Projectile › Drag Factor": "50%",

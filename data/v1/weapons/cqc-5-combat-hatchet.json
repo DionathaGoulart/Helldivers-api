@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -44,8 +44,8 @@
     },
     "attacks": [
       {
-        "name": "Combat Hatchet",
-        "kind": "melee",
+        "name": "CQC-5 COMBAT HATCHET_dm",
+        "kind": "other",
         "damage": {
           "standard": 240,
           "durable": 120,
@@ -74,22 +74,26 @@
       "Armor Penetration": "Medium",
       "Fire Rate": "100",
       "Capacity": "N/A",
-      "Ergonomics": "0",
+      "Ergonomics": "65",
       "Recoil": "8",
-      "CQC-5 Combat Hatchet › Fire Rate": "100 rpm",
-      "CQC-5 Combat Hatchet › Recoil": "0",
-      "CQC-5 Combat Hatchet › Ergonomics": "0",
-      "CQC-5 Combat Hatchet › Attacks › Combat Hatchet": "Damage",
-      "Combat Hatchet › Damage › Element": "Melee",
-      "Combat Hatchet › Damage › Standard": "240 Melee",
-      "Combat Hatchet › Damage › vs. Durable": "120 Melee",
-      "Combat Hatchet › Penetration › Direct": "Medium",
-      "Combat Hatchet › Penetration › Slight Angle": "Unarmored",
-      "Combat Hatchet › Penetration › Large Angle": "Unarmored",
-      "Combat Hatchet › Penetration › Extreme Angle": "Unarmored",
-      "Combat Hatchet › Special Effects › Demolition Force": "10",
-      "Combat Hatchet › Special Effects › Stagger Force": "25",
-      "Combat Hatchet › Special Effects › Push Force": "30"
+      "CQC-5 COMBAT HATCHET › Recoil": "6.25",
+      "CQC-5 COMBAT HATCHET › Horizontal Recoil": "2.5",
+      "CQC-5 COMBAT HATCHET › Vertical Recoil": "10",
+      "CQC-5 COMBAT HATCHET › Spread": "↔[10.00] ↕[10.00]",
+      "CQC-5 COMBAT HATCHET › Sway": "1",
+      "CQC-5 COMBAT HATCHET › Ergonomics": "65",
+      "CQC-5 COMBAT HATCHET › Noise": "No sound",
+      "CQC-5 COMBAT HATCHET › Stamina Cost": "4%",
+      "CQC-5 COMBAT HATCHET › Attacks › CQC-5 COMBAT HATCHET_dm": "Damage",
+      "CQC-5 COMBAT HATCHET_dm › Damage › Standard": "240 Melee",
+      "CQC-5 COMBAT HATCHET_dm › Damage › vs. Durable": "120 Melee",
+      "CQC-5 COMBAT HATCHET_dm › Penetration › Direct": "Medium",
+      "CQC-5 COMBAT HATCHET_dm › Penetration › Slight Angle": "Unarmored",
+      "CQC-5 COMBAT HATCHET_dm › Penetration › Large Angle": "Unarmored",
+      "CQC-5 COMBAT HATCHET_dm › Penetration › Extreme Angle": "Unarmored",
+      "CQC-5 COMBAT HATCHET_dm › Special Effects › Demolition Force": "10",
+      "CQC-5 COMBAT HATCHET_dm › Special Effects › Stagger Force": "25",
+      "CQC-5 COMBAT HATCHET_dm › Special Effects › Push Force": "30"
     },
     "source": {
       "type": "superstore",

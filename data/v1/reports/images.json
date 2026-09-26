@@ -6706,13 +6706,13 @@
       "bytes": 96348
     },
     {
-      "url": "/images/v1/warbonds/ironclad-democracy.32db6ed7.webp",
+      "url": "/images/v1/warbonds/ironclad-democracy.f6ff792b.webp",
       "wikiFile": "Ironclad_Democracy_Premium_Warbond_Cover.png",
-      "version": "6689c5",
+      "version": "24038d",
       "rendition": "cover",
       "width": 1024,
       "height": 512,
-      "bytes": 75944
+      "bytes": 74718
     },
     {
       "url": "/images/v1/warbonds/masters-of-ceremony.47d1c3f5.webp",
@@ -7796,6 +7796,10 @@
     {
       "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
       "since": "2026-09-22"
+    },
+    {
+      "url": "/images/v1/warbonds/ironclad-democracy.32db6ed7.webp",
+      "since": "2026-09-25"
     },
     {
       "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",

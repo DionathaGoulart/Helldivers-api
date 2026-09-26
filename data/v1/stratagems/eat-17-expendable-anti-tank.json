@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -102,7 +102,33 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "75mm HEAT GRENADE P",
+        "name": "EAT-17 BACKBLAST E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 15,
+          "durable": 15,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 15
+        }
+      },
+      {
+        "name": "EAT-17 P",
         "kind": "projectile",
         "damage": {
           "standard": 2000,
@@ -131,7 +157,7 @@
         }
       },
       {
-        "name": "75mm HEAT GRENADE P IE",
+        "name": "EAT-17 P IE",
         "kind": "explosion",
         "damage": {
           "standard": 150,
@@ -181,36 +207,50 @@
       "EAT-17 EXPENDABLE ANTI-TANK › Spread": "↔[4.00] ↕[4.00]",
       "EAT-17 EXPENDABLE ANTI-TANK › Sway": "1",
       "EAT-17 EXPENDABLE ANTI-TANK › Ergonomics": "15",
+      "EAT-17 EXPENDABLE ANTI-TANK › Noise": "Huge (~68m, small)",
       "EAT-17 EXPENDABLE ANTI-TANK › Capacity": "1",
-      "EAT-17 EXPENDABLE ANTI-TANK › Attacks › 75mm HEAT GRENADE P": "Projectile",
-      "EAT-17 EXPENDABLE ANTI-TANK › Attacks › 75mm HEAT GRENADE P IE": "Explosion",
-      "75mm HEAT GRENADE P › Projectile › Mass": "2.5 kg",
-      "75mm HEAT GRENADE P › Projectile › Initial Velocity": "200 m/s",
-      "75mm HEAT GRENADE P › Projectile › Drag Factor": "0%",
-      "75mm HEAT GRENADE P › Projectile › Gravity Factor": "100%",
-      "75mm HEAT GRENADE P › Projectile › Penetration Slowdown": "85%",
-      "75mm HEAT GRENADE P › Projectile › Explosion On Impact": "75mm HEAT GRENADE_P_IE",
-      "75mm HEAT GRENADE P › Damage › Standard": "2000 Ballistic",
-      "75mm HEAT GRENADE P › Damage › vs. Durable": "2000 Ballistic",
-      "75mm HEAT GRENADE P › Penetration › Direct": "Anti-Tank II",
-      "75mm HEAT GRENADE P › Penetration › Slight Angle": "Anti-Tank II",
-      "75mm HEAT GRENADE P › Penetration › Large Angle": "Anti-Tank II",
-      "75mm HEAT GRENADE P › Penetration › Extreme Angle": "Medium",
-      "75mm HEAT GRENADE P › Special Effects › Demolition Force": "30",
-      "75mm HEAT GRENADE P › Special Effects › Stagger Force": "50",
-      "75mm HEAT GRENADE P › Special Effects › Push Force": "25",
-      "75mm HEAT GRENADE P IE › Area of Effect › Inner Radius": "1.5 m",
-      "75mm HEAT GRENADE P IE › Area of Effect › Outer Radius": "3 m",
-      "75mm HEAT GRENADE P IE › Area of Effect › Shockwave Radius": "6 m",
-      "75mm HEAT GRENADE P IE › Damage › Damage Element": "None",
-      "75mm HEAT GRENADE P IE › Damage › Inner Radius": "150 Explosion",
-      "75mm HEAT GRENADE P IE › Damage › Inner Durable": "150 Explosion",
-      "75mm HEAT GRENADE P IE › Damage › Outer Radius": "149 - 0",
-      "75mm HEAT GRENADE P IE › Damage › Outer Durable": "149 - 0",
-      "75mm HEAT GRENADE P IE › Penetration › Direct": "Medium",
-      "75mm HEAT GRENADE P IE › AoE Effect › Demolition Force": "30",
-      "75mm HEAT GRENADE P IE › AoE Effect › Stagger Force": "60",
-      "75mm HEAT GRENADE P IE › AoE Effect › Push Force": "40"
+      "EAT-17 EXPENDABLE ANTI-TANK › Attacks › EAT-17 BACKBLAST E": "Explosion",
+      "EAT-17 EXPENDABLE ANTI-TANK › Attacks › EAT-17 P": "Projectile",
+      "EAT-17 EXPENDABLE ANTI-TANK › Attacks › EAT-17 P IE": "Explosion",
+      "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+      "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
+      "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
+      "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
+      "EAT-17 BACKBLAST E › Damage › Outer Radius": "14 - 0",
+      "EAT-17 BACKBLAST E › Damage › Outer Durable": "14 - 0",
+      "EAT-17 BACKBLAST E › Penetration › Direct": "Medium",
+      "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
+      "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
+      "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15",
+      "EAT-17 P › Projectile › Mass": "2.5 kg",
+      "EAT-17 P › Projectile › Initial Velocity": "200 m/s",
+      "EAT-17 P › Projectile › Drag Factor": "0%",
+      "EAT-17 P › Projectile › Gravity Factor": "100%",
+      "EAT-17 P › Projectile › Penetration Slowdown": "85%",
+      "EAT-17 P › Projectile › Explosion On Impact": "EAT-17_P_IE",
+      "EAT-17 P › Damage › Standard": "2000 Ballistic",
+      "EAT-17 P › Damage › vs. Durable": "2000 Ballistic",
+      "EAT-17 P › Penetration › Direct": "Anti-Tank II",
+      "EAT-17 P › Penetration › Slight Angle": "Anti-Tank II",
+      "EAT-17 P › Penetration › Large Angle": "Anti-Tank II",
+      "EAT-17 P › Penetration › Extreme Angle": "Medium",
+      "EAT-17 P › Special Effects › Demolition Force": "30",
+      "EAT-17 P › Special Effects › Stagger Force": "50",
+      "EAT-17 P › Special Effects › Push Force": "25",
+      "EAT-17 P IE › Area of Effect › Inner Radius": "1.5 m",
+      "EAT-17 P IE › Area of Effect › Outer Radius": "3 m",
+      "EAT-17 P IE › Area of Effect › Shockwave Radius": "6 m",
+      "EAT-17 P IE › Damage › Damage Element": "None",
+      "EAT-17 P IE › Damage › Inner Radius": "150 Explosion",
+      "EAT-17 P IE › Damage › Inner Durable": "150 Explosion",
+      "EAT-17 P IE › Damage › Outer Radius": "149 - 0",
+      "EAT-17 P IE › Damage › Outer Durable": "149 - 0",
+      "EAT-17 P IE › Penetration › Direct": "Medium",
+      "EAT-17 P IE › AoE Effect › Demolition Force": "30",
+      "EAT-17 P IE › AoE Effect › Stagger Force": "60",
+      "EAT-17 P IE › AoE Effect › Push Force": "40"
     },
     "source": {
       "type": "requisition",

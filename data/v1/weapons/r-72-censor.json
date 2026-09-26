@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -119,7 +119,7 @@
       "R-72 CENSOR › Spread": "↔[0.50] ↕[0.50]",
       "R-72 CENSOR › Sway": "1",
       "R-72 CENSOR › Ergonomics": "60",
-      "R-72 CENSOR › Noise": "Suppressed (~12m, tiny)",
+      "R-72 CENSOR › Noise": "Suppressed (~13m, tiny)",
       "R-72 CENSOR › Capacity": "20",
       "R-72 CENSOR › Spare Magazines": "8",
       "R-72 CENSOR › Starting Magazines": "6",

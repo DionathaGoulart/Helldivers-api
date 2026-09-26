@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -67,7 +67,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "15x100mm STANDARD ROCKET P",
+        "name": "JAR-5 P",
         "kind": "projectile",
         "damage": {
           "standard": 275,
@@ -120,26 +120,27 @@
       "JAR-5 DOMINATOR › Spread": "↔[10.00] ↕[10.00]",
       "JAR-5 DOMINATOR › Sway": "0.8",
       "JAR-5 DOMINATOR › Ergonomics": "30",
+      "JAR-5 DOMINATOR › Noise": "Medium (~48m, small)",
       "JAR-5 DOMINATOR › Capacity": "15",
       "JAR-5 DOMINATOR › Spare Magazines": "6",
       "JAR-5 DOMINATOR › Starting Magazines": "4",
       "JAR-5 DOMINATOR › Mags from Supply": "6",
       "JAR-5 DOMINATOR › Mags from Ammo Box": "3",
-      "JAR-5 DOMINATOR › Attacks › 15x100mm STANDARD ROCKET P": "Projectile",
-      "15x100mm STANDARD ROCKET P › Projectile › Mass": "100 g",
-      "15x100mm STANDARD ROCKET P › Projectile › Initial Velocity": "180 m/s",
-      "15x100mm STANDARD ROCKET P › Projectile › Drag Factor": "0%",
-      "15x100mm STANDARD ROCKET P › Projectile › Gravity Factor": "30%",
-      "15x100mm STANDARD ROCKET P › Projectile › Penetration Slowdown": "25%",
-      "15x100mm STANDARD ROCKET P › Damage › Standard": "275 Ballistic",
-      "15x100mm STANDARD ROCKET P › Damage › vs. Durable": "90 Ballistic",
-      "15x100mm STANDARD ROCKET P › Penetration › Direct": "Medium",
-      "15x100mm STANDARD ROCKET P › Penetration › Slight Angle": "Medium",
-      "15x100mm STANDARD ROCKET P › Penetration › Large Angle": "Medium",
-      "15x100mm STANDARD ROCKET P › Penetration › Extreme Angle": "Unarmored",
-      "15x100mm STANDARD ROCKET P › Special Effects › Demolition Force": "10",
-      "15x100mm STANDARD ROCKET P › Special Effects › Stagger Force": "35",
-      "15x100mm STANDARD ROCKET P › Special Effects › Push Force": "15"
+      "JAR-5 DOMINATOR › Attacks › JAR-5 P": "Projectile",
+      "JAR-5 P › Projectile › Mass": "100 g",
+      "JAR-5 P › Projectile › Initial Velocity": "180 m/s",
+      "JAR-5 P › Projectile › Drag Factor": "0%",
+      "JAR-5 P › Projectile › Gravity Factor": "30%",
+      "JAR-5 P › Projectile › Penetration Slowdown": "25%",
+      "JAR-5 P › Damage › Standard": "275 Ballistic",
+      "JAR-5 P › Damage › vs. Durable": "90 Ballistic",
+      "JAR-5 P › Penetration › Direct": "Medium",
+      "JAR-5 P › Penetration › Slight Angle": "Medium",
+      "JAR-5 P › Penetration › Large Angle": "Medium",
+      "JAR-5 P › Penetration › Extreme Angle": "Unarmored",
+      "JAR-5 P › Special Effects › Demolition Force": "10",
+      "JAR-5 P › Special Effects › Stagger Force": "35",
+      "JAR-5 P › Special Effects › Push Force": "15"
     },
     "source": {
       "type": "warbond",

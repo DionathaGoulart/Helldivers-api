@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-24.437095dd",
-    "generatedAt": "2026-09-24T23:51:08Z",
+    "dataVersion": "2026-09-25.70e2343c",
+    "generatedAt": "2026-09-25T23:55:47Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -148,7 +148,7 @@
       "GL-15 EVICTOR › Spread": "↔[15.00] ↕[12.00]",
       "GL-15 EVICTOR › Sway": "1",
       "GL-15 EVICTOR › Ergonomics": "65",
-      "GL-15 EVICTOR › Noise": "Medium (~50m, small)",
+      "GL-15 EVICTOR › Noise": "Medium (~48m, small)",
       "GL-15 EVICTOR › Capacity": "4",
       "GL-15 EVICTOR › Spare Rounds": "32",
       "GL-15 EVICTOR › Starting Rounds": "24",
