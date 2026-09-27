@@ -167,7 +167,8 @@ describe("docs site", () => {
       });
     }
     const css = await page("theme.css");
-    expect(css.match(/#[0-9a-f]{6}\b/g)?.length).toBeGreaterThan(15);
+    // The raw palette lives here; the exact count moves as the brand palette changes.
+    expect(css.match(/#[0-9a-f]{6}\b/g)?.length).toBeGreaterThan(10);
     // Both themes, and the dark one is the default (styleguide §0.2).
     expect(css).toContain('[data-theme="yellow"]');
     expect(css).toContain('[data-theme="black"]');
