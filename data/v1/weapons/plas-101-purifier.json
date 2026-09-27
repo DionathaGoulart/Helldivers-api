@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -199,7 +199,7 @@
       "PLAS-101 PURIFIER › Spread": "↔[10.00] ↕[10.00]",
       "PLAS-101 PURIFIER › Sway": "1",
       "PLAS-101 PURIFIER › Ergonomics": "65",
-      "PLAS-101 PURIFIER › Noise": "Medium (~48m, small)",
+      "PLAS-101 PURIFIER › Noise": "Medium (~48m)",
       "PLAS-101 PURIFIER › Capacity": "15",
       "PLAS-101 PURIFIER › Spare Magazines": "6",
       "PLAS-101 PURIFIER › Starting Magazines": "4",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "LIFT-182 Warp Pack",
     "upcoming": false,
     "aliases": [],
-    "description": "The Warp Pack significantly increases the wearer's mobility. When activated, the Helldiver is able to warp through terrain and enemies, potentially killing them in the process.",
+    "description": "The Warp Pack significantly increases the wearer's mobility. When activated, Helldivers are able to warp through terrain and enemies, potentially killing them in the process.",
     "image": {
       "url": "/images/v1/stratagems/lift-182-warp-pack.adea2ae2.webp",
       "width": 256,

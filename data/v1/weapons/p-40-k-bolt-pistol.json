@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -147,6 +147,7 @@
       "P/40-K BOLT PISTOL › Spread": "↔[2.00] ↕[2.00]",
       "P/40-K BOLT PISTOL › Sway": "1",
       "P/40-K BOLT PISTOL › Ergonomics": "30",
+      "P/40-K BOLT PISTOL › Noise": "Small (~33m)",
       "P/40-K BOLT PISTOL › Capacity": "6",
       "P/40-K BOLT PISTOL › Spare Magazines": "4",
       "P/40-K BOLT PISTOL › Starting Magazines": "3",

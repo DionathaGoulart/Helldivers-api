@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -117,62 +117,7 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "Artillery P",
-        "kind": "projectile",
-        "damage": {
-          "standard": 20,
-          "durable": 2,
-          "type": "Ballistic"
-        },
-        "penetration": {
-          "direct": "unarmored",
-          "slightAngle": "unarmored",
-          "largeAngle": "unarmored",
-          "extremeAngle": "unarmored"
-        },
-        "projectile": {
-          "pellets": null,
-          "massG": 11,
-          "initialVelocityMps": 500,
-          "dragFactorPct": 0,
-          "gravityFactorPct": 0,
-          "penetrationSlowdownPct": 25
-        },
-        "area": null,
-        "forces": {
-          "demolition": 10,
-          "stagger": 30,
-          "push": 10
-        }
-      },
-      {
-        "name": "Artillery P IE",
-        "kind": "explosion",
-        "damage": {
-          "standard": 600,
-          "durable": 600,
-          "type": "Explosion"
-        },
-        "penetration": {
-          "direct": "medium",
-          "slightAngle": null,
-          "largeAngle": null,
-          "extremeAngle": null
-        },
-        "projectile": null,
-        "area": {
-          "innerRadiusM": 3,
-          "outerRadiusM": 5,
-          "shockwaveRadiusM": 7
-        },
-        "forces": {
-          "demolition": 30,
-          "stagger": 25,
-          "push": 50
-        }
-      },
-      {
-        "name": "Burst P",
+        "name": "StA-X3 P",
         "kind": "projectile",
         "damage": {
           "standard": 200,
@@ -201,7 +146,7 @@
         }
       },
       {
-        "name": "Burst P IE",
+        "name": "StA-X3 P IE",
         "kind": "explosion",
         "damage": {
           "standard": 600,
@@ -217,6 +162,61 @@
         "projectile": null,
         "area": {
           "innerRadiusM": 2.5,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 25,
+          "push": 50
+        }
+      },
+      {
+        "name": "StA-X3 P1",
+        "kind": "projectile",
+        "damage": {
+          "standard": 20,
+          "durable": 2,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "unarmored",
+          "slightAngle": "unarmored",
+          "largeAngle": "unarmored",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 11,
+          "initialVelocityMps": 500,
+          "dragFactorPct": 0,
+          "gravityFactorPct": 0,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 10
+        }
+      },
+      {
+        "name": "StA-X3 P1 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 600,
+          "durable": 600,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": "medium",
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
           "outerRadiusM": 5,
           "shockwaveRadiusM": 7
         },
@@ -259,72 +259,73 @@
       "STA-X3 W.A.S.P. LAUNCHER › Spread": "↔[0.00] ↕[0.00]",
       "STA-X3 W.A.S.P. LAUNCHER › Sway": "1",
       "STA-X3 W.A.S.P. LAUNCHER › Ergonomics": "10",
+      "STA-X3 W.A.S.P. LAUNCHER › Noise": "Medium (~48m)",
       "STA-X3 W.A.S.P. LAUNCHER › Capacity": "7",
       "STA-X3 W.A.S.P. LAUNCHER › Spare Magazines": "5",
       "STA-X3 W.A.S.P. LAUNCHER › Starting Magazines": "5",
       "STA-X3 W.A.S.P. LAUNCHER › Mags from Supply": "3",
       "STA-X3 W.A.S.P. LAUNCHER › Mags from Ammo Box": "1",
-      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Artillery P": "Projectile",
-      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Burst P": "Projectile",
-      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Artillery P IE": "Explosion",
-      "STA-X3 W.A.S.P. LAUNCHER › Attacks › Burst P IE": "Explosion",
-      "Artillery P › Projectile › Mass": "11 g",
-      "Artillery P › Projectile › Initial Velocity": "500 m/s",
-      "Artillery P › Projectile › Drag Factor": "0%",
-      "Artillery P › Projectile › Gravity Factor": "0%",
-      "Artillery P › Projectile › Penetration Slowdown": "25%",
-      "Artillery P › Projectile › Explosion On Impact": "Artillery_P_IE",
-      "Artillery P › Projectile › Explosion Proximity": "12 m",
-      "Artillery P › Damage › Standard": "20 Ballistic",
-      "Artillery P › Damage › vs. Durable": "2 Ballistic",
-      "Artillery P › Penetration › Direct": "Unarmored",
-      "Artillery P › Penetration › Slight Angle": "Unarmored",
-      "Artillery P › Penetration › Large Angle": "Unarmored",
-      "Artillery P › Penetration › Extreme Angle": "Unarmored",
-      "Artillery P › Special Effects › Demolition Force": "10",
-      "Artillery P › Special Effects › Stagger Force": "30",
-      "Artillery P › Special Effects › Push Force": "10",
-      "Artillery P IE › Area of Effect › Inner Radius": "3 m",
-      "Artillery P IE › Area of Effect › Outer Radius": "5 m",
-      "Artillery P IE › Area of Effect › Shockwave Radius": "7 m",
-      "Artillery P IE › Area of Effect › Shrapnel Count": "7",
-      "Artillery P IE › Area of Effect › Shrapnel": "Burst_P",
-      "Artillery P IE › Damage › Damage Element": "None",
-      "Artillery P IE › Damage › Inner Radius": "600 Explosion",
-      "Artillery P IE › Damage › Inner Durable": "600 Explosion",
-      "Artillery P IE › Damage › Outer Radius": "599 - 0",
-      "Artillery P IE › Damage › Outer Durable": "599 - 0",
-      "Artillery P IE › Penetration › Direct": "Medium",
-      "Artillery P IE › AoE Effect › Demolition Force": "30",
-      "Artillery P IE › AoE Effect › Stagger Force": "25",
-      "Artillery P IE › AoE Effect › Push Force": "50",
-      "Burst P › Projectile › Mass": "11 g",
-      "Burst P › Projectile › Initial Velocity": "500 m/s",
-      "Burst P › Projectile › Drag Factor": "0%",
-      "Burst P › Projectile › Gravity Factor": "0%",
-      "Burst P › Projectile › Penetration Slowdown": "25%",
-      "Burst P › Projectile › Explosion On Impact": "Burst_P_IE",
-      "Burst P › Damage › Standard": "200 Ballistic",
-      "Burst P › Damage › vs. Durable": "200 Ballistic",
-      "Burst P › Penetration › Direct": "Anti-Tank II",
-      "Burst P › Penetration › Slight Angle": "Anti-Tank II",
-      "Burst P › Penetration › Large Angle": "Anti-Tank II",
-      "Burst P › Penetration › Extreme Angle": "Anti-Tank II",
-      "Burst P › Special Effects › Demolition Force": "30",
-      "Burst P › Special Effects › Stagger Force": "35",
-      "Burst P › Special Effects › Push Force": "25",
-      "Burst P IE › Area of Effect › Inner Radius": "2.5 m",
-      "Burst P IE › Area of Effect › Outer Radius": "5 m",
-      "Burst P IE › Area of Effect › Shockwave Radius": "7 m",
-      "Burst P IE › Damage › Damage Element": "None",
-      "Burst P IE › Damage › Inner Radius": "600 Explosion",
-      "Burst P IE › Damage › Inner Durable": "600 Explosion",
-      "Burst P IE › Damage › Outer Radius": "599 - 0",
-      "Burst P IE › Damage › Outer Durable": "599 - 0",
-      "Burst P IE › Penetration › Direct": "Medium",
-      "Burst P IE › AoE Effect › Demolition Force": "30",
-      "Burst P IE › AoE Effect › Stagger Force": "25",
-      "Burst P IE › AoE Effect › Push Force": "50"
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › StA-X3 P": "Projectile",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › StA-X3 P1": "Projectile",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › StA-X3 P1 IE": "Explosion",
+      "STA-X3 W.A.S.P. LAUNCHER › Attacks › StA-X3 P IE": "Explosion",
+      "StA-X3 P › Projectile › Mass": "11 g",
+      "StA-X3 P › Projectile › Initial Velocity": "500 m/s",
+      "StA-X3 P › Projectile › Drag Factor": "0%",
+      "StA-X3 P › Projectile › Gravity Factor": "0%",
+      "StA-X3 P › Projectile › Penetration Slowdown": "25%",
+      "StA-X3 P › Projectile › Explosion On Impact": "StA-X3_P_IE",
+      "StA-X3 P › Damage › Standard": "200 Ballistic",
+      "StA-X3 P › Damage › vs. Durable": "200 Ballistic",
+      "StA-X3 P › Penetration › Direct": "Anti-Tank II",
+      "StA-X3 P › Penetration › Slight Angle": "Anti-Tank II",
+      "StA-X3 P › Penetration › Large Angle": "Anti-Tank II",
+      "StA-X3 P › Penetration › Extreme Angle": "Anti-Tank II",
+      "StA-X3 P › Special Effects › Demolition Force": "30",
+      "StA-X3 P › Special Effects › Stagger Force": "35",
+      "StA-X3 P › Special Effects › Push Force": "25",
+      "StA-X3 P IE › Area of Effect › Inner Radius": "2.5 m",
+      "StA-X3 P IE › Area of Effect › Outer Radius": "5 m",
+      "StA-X3 P IE › Area of Effect › Shockwave Radius": "7 m",
+      "StA-X3 P IE › Damage › Damage Element": "None",
+      "StA-X3 P IE › Damage › Inner Radius": "600 Explosion",
+      "StA-X3 P IE › Damage › Inner Durable": "600 Explosion",
+      "StA-X3 P IE › Damage › Outer Radius": "599 - 0",
+      "StA-X3 P IE › Damage › Outer Durable": "599 - 0",
+      "StA-X3 P IE › Penetration › Direct": "Medium",
+      "StA-X3 P IE › AoE Effect › Demolition Force": "30",
+      "StA-X3 P IE › AoE Effect › Stagger Force": "25",
+      "StA-X3 P IE › AoE Effect › Push Force": "50",
+      "StA-X3 P1 › Projectile › Mass": "11 g",
+      "StA-X3 P1 › Projectile › Initial Velocity": "500 m/s",
+      "StA-X3 P1 › Projectile › Drag Factor": "0%",
+      "StA-X3 P1 › Projectile › Gravity Factor": "0%",
+      "StA-X3 P1 › Projectile › Penetration Slowdown": "25%",
+      "StA-X3 P1 › Projectile › Explosion On Impact": "StA-X3_P1_IE",
+      "StA-X3 P1 › Projectile › Explosion Proximity": "12 m",
+      "StA-X3 P1 › Damage › Standard": "20 Ballistic",
+      "StA-X3 P1 › Damage › vs. Durable": "2 Ballistic",
+      "StA-X3 P1 › Penetration › Direct": "Unarmored",
+      "StA-X3 P1 › Penetration › Slight Angle": "Unarmored",
+      "StA-X3 P1 › Penetration › Large Angle": "Unarmored",
+      "StA-X3 P1 › Penetration › Extreme Angle": "Unarmored",
+      "StA-X3 P1 › Special Effects › Demolition Force": "10",
+      "StA-X3 P1 › Special Effects › Stagger Force": "30",
+      "StA-X3 P1 › Special Effects › Push Force": "10",
+      "StA-X3 P1 IE › Area of Effect › Inner Radius": "3 m",
+      "StA-X3 P1 IE › Area of Effect › Outer Radius": "5 m",
+      "StA-X3 P1 IE › Area of Effect › Shockwave Radius": "7 m",
+      "StA-X3 P1 IE › Area of Effect › Shrapnel Count": "7",
+      "StA-X3 P1 IE › Area of Effect › Shrapnel": "StA-X3_P",
+      "StA-X3 P1 IE › Damage › Damage Element": "None",
+      "StA-X3 P1 IE › Damage › Inner Radius": "600 Explosion",
+      "StA-X3 P1 IE › Damage › Inner Durable": "600 Explosion",
+      "StA-X3 P1 IE › Damage › Outer Radius": "599 - 0",
+      "StA-X3 P1 IE › Damage › Outer Durable": "599 - 0",
+      "StA-X3 P1 IE › Penetration › Direct": "Medium",
+      "StA-X3 P1 IE › AoE Effect › Demolition Force": "30",
+      "StA-X3 P1 IE › AoE Effect › Stagger Force": "25",
+      "StA-X3 P1 IE › AoE Effect › Push Force": "50"
     },
     "source": {
       "type": "requisition",

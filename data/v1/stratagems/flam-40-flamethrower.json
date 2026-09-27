@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -233,6 +233,7 @@
       "FLAM-40 FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
       "FLAM-40 FLAMETHROWER › Sway": "1",
       "FLAM-40 FLAMETHROWER › Ergonomics": "5",
+      "FLAM-40 FLAMETHROWER › Noise": "Small (~33m)",
       "FLAM-40 FLAMETHROWER › Capacity": "150",
       "FLAM-40 FLAMETHROWER › Spare Magazines": "5",
       "FLAM-40 FLAMETHROWER › Starting Magazines": "3",

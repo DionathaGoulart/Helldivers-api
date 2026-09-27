@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -119,6 +119,7 @@
       "M6C/SOCOM PISTOL › Spread": "↔[10.00] ↕[10.00]",
       "M6C/SOCOM PISTOL › Sway": "1",
       "M6C/SOCOM PISTOL › Ergonomics": "100",
+      "M6C/SOCOM PISTOL › Noise": "Suppressed (~13m)",
       "M6C/SOCOM PISTOL › Capacity": "12",
       "M6C/SOCOM PISTOL › Spare Magazines": "10",
       "M6C/SOCOM PISTOL › Starting Magazines": "6",

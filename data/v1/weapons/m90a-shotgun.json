@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -67,7 +67,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "BUCKSHOT P",
+        "name": "M90A P",
         "kind": "projectile",
         "damage": {
           "standard": 55,
@@ -121,27 +121,28 @@
       "M90A SHOTGUN › Spread": "↔[120.00] ↕[100.00]",
       "M90A SHOTGUN › Sway": "1",
       "M90A SHOTGUN › Ergonomics": "65",
+      "M90A SHOTGUN › Noise": "Medium (~48m)",
       "M90A SHOTGUN › Capacity": "6",
       "M90A SHOTGUN › Spare Rounds": "44",
       "M90A SHOTGUN › Starting Rounds": "24",
       "M90A SHOTGUN › Rounds from Supply": "44",
       "M90A SHOTGUN › Rounds from Ammo Box": "22",
-      "M90A SHOTGUN › Attacks › BUCKSHOT P": "Projectile",
-      "BUCKSHOT P › Projectile › Pellets": "x 11",
-      "BUCKSHOT P › Projectile › Mass": "6 g",
-      "BUCKSHOT P › Projectile › Initial Velocity": "385 m/s",
-      "BUCKSHOT P › Projectile › Drag Factor": "50%",
-      "BUCKSHOT P › Projectile › Gravity Factor": "100%",
-      "BUCKSHOT P › Projectile › Penetration Slowdown": "25%",
-      "BUCKSHOT P › Damage › Standard": "55 Ballistic",
-      "BUCKSHOT P › Damage › vs. Durable": "20 Ballistic",
-      "BUCKSHOT P › Penetration › Direct": "Light",
-      "BUCKSHOT P › Penetration › Slight Angle": "Light",
-      "BUCKSHOT P › Penetration › Large Angle": "Light",
-      "BUCKSHOT P › Penetration › Extreme Angle": "Unarmored",
-      "BUCKSHOT P › Special Effects › Demolition Force": "10",
-      "BUCKSHOT P › Special Effects › Stagger Force": "35",
-      "BUCKSHOT P › Special Effects › Push Force": "30"
+      "M90A SHOTGUN › Attacks › M90A P": "Projectile",
+      "M90A P › Projectile › Pellets": "x 11",
+      "M90A P › Projectile › Mass": "6 g",
+      "M90A P › Projectile › Initial Velocity": "385 m/s",
+      "M90A P › Projectile › Drag Factor": "50%",
+      "M90A P › Projectile › Gravity Factor": "100%",
+      "M90A P › Projectile › Penetration Slowdown": "25%",
+      "M90A P › Damage › Standard": "55 Ballistic",
+      "M90A P › Damage › vs. Durable": "20 Ballistic",
+      "M90A P › Penetration › Direct": "Light",
+      "M90A P › Penetration › Slight Angle": "Light",
+      "M90A P › Penetration › Large Angle": "Light",
+      "M90A P › Penetration › Extreme Angle": "Unarmored",
+      "M90A P › Special Effects › Demolition Force": "10",
+      "M90A P › Special Effects › Stagger Force": "35",
+      "M90A P › Special Effects › Push Force": "30"
     },
     "source": {
       "type": "warbond",

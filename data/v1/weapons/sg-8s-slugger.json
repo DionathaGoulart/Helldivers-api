@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -67,7 +67,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "10g RIFLED SLUGS P",
+        "name": "SG-8S P",
         "kind": "projectile",
         "damage": {
           "standard": 330,
@@ -121,26 +121,27 @@
       "SG-8S SLUGGER › Spread": "↔[6.00] ↕[6.00]",
       "SG-8S SLUGGER › Sway": "1",
       "SG-8S SLUGGER › Ergonomics": "65",
+      "SG-8S SLUGGER › Noise": "Medium (~48m)",
       "SG-8S SLUGGER › Capacity": "16",
       "SG-8S SLUGGER › Spare Rounds": "60",
       "SG-8S SLUGGER › Starting Rounds": "32",
       "SG-8S SLUGGER › Rounds from Supply": "60",
       "SG-8S SLUGGER › Rounds from Ammo Box": "30",
-      "SG-8S SLUGGER › Attacks › 10g RIFLED SLUGS P": "Projectile",
-      "10g RIFLED SLUGS P › Projectile › Mass": "50 g",
-      "10g RIFLED SLUGS P › Projectile › Initial Velocity": "390 m/s",
-      "10g RIFLED SLUGS P › Projectile › Drag Factor": "200%",
-      "10g RIFLED SLUGS P › Projectile › Gravity Factor": "100%",
-      "10g RIFLED SLUGS P › Projectile › Penetration Slowdown": "25%",
-      "10g RIFLED SLUGS P › Damage › Standard": "330 Ballistic",
-      "10g RIFLED SLUGS P › Damage › vs. Durable": "90 Ballistic",
-      "10g RIFLED SLUGS P › Penetration › Direct": "Medium",
-      "10g RIFLED SLUGS P › Penetration › Slight Angle": "Medium",
-      "10g RIFLED SLUGS P › Penetration › Large Angle": "Medium",
-      "10g RIFLED SLUGS P › Penetration › Extreme Angle": "Unarmored",
-      "10g RIFLED SLUGS P › Special Effects › Demolition Force": "10",
-      "10g RIFLED SLUGS P › Special Effects › Stagger Force": "30",
-      "10g RIFLED SLUGS P › Special Effects › Push Force": "35"
+      "SG-8S SLUGGER › Attacks › SG-8S P": "Projectile",
+      "SG-8S P › Projectile › Mass": "50 g",
+      "SG-8S P › Projectile › Initial Velocity": "390 m/s",
+      "SG-8S P › Projectile › Drag Factor": "200%",
+      "SG-8S P › Projectile › Gravity Factor": "100%",
+      "SG-8S P › Projectile › Penetration Slowdown": "25%",
+      "SG-8S P › Damage › Standard": "330 Ballistic",
+      "SG-8S P › Damage › vs. Durable": "90 Ballistic",
+      "SG-8S P › Penetration › Direct": "Medium",
+      "SG-8S P › Penetration › Slight Angle": "Medium",
+      "SG-8S P › Penetration › Large Angle": "Medium",
+      "SG-8S P › Penetration › Extreme Angle": "Unarmored",
+      "SG-8S P › Special Effects › Demolition Force": "10",
+      "SG-8S P › Special Effects › Stagger Force": "30",
+      "SG-8S P › Special Effects › Push Force": "35"
     },
     "source": {
       "type": "warbond",

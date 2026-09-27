@@ -1567,13 +1567,13 @@
       "bytes": 24360
     },
     {
-      "url": "/images/v1/capes/mark-of-the-crimson-fang.21cfd895.webp",
+      "url": "/images/v1/capes/mark-of-the-crimson-fang.82903e34.webp",
       "wikiFile": "Mark_of_the_Crimson_Fang_Cape_Armory.png",
-      "version": "b1d376",
+      "version": "d764bf",
       "rendition": "render",
-      "width": 512,
-      "height": 512,
-      "bytes": 28660
+      "width": 491,
+      "height": 491,
+      "bytes": 18662
     },
     {
       "url": "/images/v1/capes/martyris-rex.8cfa13c5.webp",
@@ -7776,6 +7776,10 @@
     {
       "url": "/images/v1/armors/bfm-220-ironclad.9dee6a99.webp",
       "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/capes/mark-of-the-crimson-fang.21cfd895.webp",
+      "since": "2026-09-27"
     },
     {
       "url": "/images/v1/capes/shroud-of-the-juggernaut.3f7c8719.webp",

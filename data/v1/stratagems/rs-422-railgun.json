@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -224,7 +224,7 @@
       "RS-422 RAILGUN › Spread": "↔[0.10] ↕[0.10]",
       "RS-422 RAILGUN › Sway": "1",
       "RS-422 RAILGUN › Ergonomics": "35",
-      "RS-422 RAILGUN › Noise": "Medium (~48m, small)",
+      "RS-422 RAILGUN › Noise": "Medium (~48m)",
       "RS-422 RAILGUN › Capacity": "1",
       "RS-422 RAILGUN › Spare Magazines": "20",
       "RS-422 RAILGUN › Starting Magazines": "10",

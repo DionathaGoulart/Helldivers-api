@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-25.70e2343c",
-    "generatedAt": "2026-09-25T23:55:47Z",
+    "dataVersion": "2026-09-27.22dbb37d",
+    "generatedAt": "2026-09-27T04:00:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -68,7 +68,7 @@
     "melee": null,
     "attacks": [
       {
-        "name": "9x20mm FULL METAL JACKET P1",
+        "name": "P-19 P",
         "kind": "projectile",
         "damage": {
           "standard": 70,
@@ -119,26 +119,27 @@
       "P-19 REDEEMER › Spread": "↔[10.00] ↕[10.00]",
       "P-19 REDEEMER › Sway": "1",
       "P-19 REDEEMER › Ergonomics": "95",
+      "P-19 REDEEMER › Noise": "Small (~33m)",
       "P-19 REDEEMER › Capacity": "31",
       "P-19 REDEEMER › Spare Magazines": "6",
       "P-19 REDEEMER › Starting Magazines": "4",
       "P-19 REDEEMER › Mags from Supply": "6",
       "P-19 REDEEMER › Mags from Ammo Box": "3",
-      "P-19 REDEEMER › Attacks › 9x20mm FULL METAL JACKET P1": "Projectile",
-      "9x20mm FULL METAL JACKET P1 › Projectile › Mass": "7 g",
-      "9x20mm FULL METAL JACKET P1 › Projectile › Initial Velocity": "375 m/s",
-      "9x20mm FULL METAL JACKET P1 › Projectile › Drag Factor": "120%",
-      "9x20mm FULL METAL JACKET P1 › Projectile › Gravity Factor": "100%",
-      "9x20mm FULL METAL JACKET P1 › Projectile › Penetration Slowdown": "25%",
-      "9x20mm FULL METAL JACKET P1 › Damage › Standard": "70 Ballistic",
-      "9x20mm FULL METAL JACKET P1 › Damage › vs. Durable": "12 Ballistic",
-      "9x20mm FULL METAL JACKET P1 › Penetration › Direct": "Light",
-      "9x20mm FULL METAL JACKET P1 › Penetration › Slight Angle": "Light",
-      "9x20mm FULL METAL JACKET P1 › Penetration › Large Angle": "Light",
-      "9x20mm FULL METAL JACKET P1 › Penetration › Extreme Angle": "Unarmored",
-      "9x20mm FULL METAL JACKET P1 › Special Effects › Demolition Force": "10",
-      "9x20mm FULL METAL JACKET P1 › Special Effects › Stagger Force": "10",
-      "9x20mm FULL METAL JACKET P1 › Special Effects › Push Force": "4"
+      "P-19 REDEEMER › Attacks › P-19 P": "Projectile",
+      "P-19 P › Projectile › Mass": "7 g",
+      "P-19 P › Projectile › Initial Velocity": "375 m/s",
+      "P-19 P › Projectile › Drag Factor": "120%",
+      "P-19 P › Projectile › Gravity Factor": "100%",
+      "P-19 P › Projectile › Penetration Slowdown": "25%",
+      "P-19 P › Damage › Standard": "70 Ballistic",
+      "P-19 P › Damage › vs. Durable": "12 Ballistic",
+      "P-19 P › Penetration › Direct": "Light",
+      "P-19 P › Penetration › Slight Angle": "Light",
+      "P-19 P › Penetration › Large Angle": "Light",
+      "P-19 P › Penetration › Extreme Angle": "Unarmored",
+      "P-19 P › Special Effects › Demolition Force": "10",
+      "P-19 P › Special Effects › Stagger Force": "10",
+      "P-19 P › Special Effects › Push Force": "4"
     },
     "source": {
       "type": "warbond",

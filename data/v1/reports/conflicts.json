@@ -52,7 +52,7 @@
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "AC-8 AUTOCANNON › Mags from Ammo Box",
+          "location": "AC-8 AUTOCANNON › Rounds from Ammo Box",
           "value": 2
         }
       ]
@@ -71,7 +71,7 @@
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "AC-8 AUTOCANNON › Mags from Supply",
+          "location": "AC-8 AUTOCANNON › Rounds from Supply",
           "value": 5
         }
       ]
@@ -90,7 +90,7 @@
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "AC-8 AUTOCANNON › Spare Magazines",
+          "location": "AC-8 AUTOCANNON › Spare Rounds",
           "value": 10
         }
       ]
@@ -1118,7 +1118,7 @@
       "id": "las-13-trident",
       "field": "firearm.recoil",
       "rule": 2,
-      "chosen": 4.25,
+      "chosen": 1.75,
       "candidates": [
         {
           "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
@@ -1128,7 +1128,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
           "location": "LAS-13 TRIDENT › Recoil",
-          "value": 4.25
+          "value": 1.75
         }
       ]
     },
@@ -1927,6 +1927,44 @@
           "page": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
           "location": "R-63 DILIGENCE › Recoil",
           "value": 26.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-63cs-diligence-counter-sniper",
+      "field": "firearm.magazinesFromAmmoBox",
+      "rule": 2,
+      "chosen": 4,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+          "location": "infobox › Ammo Box Refill",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+          "location": "R-63CS DILIGENCE COUNTER SNIPER › Mags from Ammo Box",
+          "value": 4
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-63cs-diligence-counter-sniper",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 8,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+          "location": "infobox › Supply Box Refill",
+          "value": 6
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
+          "location": "R-63CS DILIGENCE COUNTER SNIPER › Mags from Supply",
+          "value": 8
         }
       ]
     },
