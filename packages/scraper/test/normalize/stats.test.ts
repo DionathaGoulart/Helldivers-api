@@ -27,6 +27,12 @@ describe("stat values", () => {
     expect(statValues(["5s / 15s / 60s"])).toEqual(["5s", "15s", "60s"]);
     expect(statValues(["900 m/s"])).toEqual(["900 m/s"]);
   });
+
+  it("splits values the wiki glued together without a <br>", () => {
+    expect(statValues(["1,400 (4mm)600 (10g)"])).toEqual(["1,400 (4mm)", "600 (10g)"]);
+    expect(statValues(["45 (4mm) 4 (10g)"])).toEqual(["45 (4mm)", "4 (10g)"]);
+    expect(statValues(["700 (0-25% heat)"])).toEqual(["700 (0-25% heat)"]);
+  });
 });
 
 describe("numbers", () => {

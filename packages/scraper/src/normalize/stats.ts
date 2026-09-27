@@ -10,11 +10,15 @@ const NONE = /^(?:|n\/a|∞|-|—|none|unknown|\?)$/i;
 const NUMBER = String.raw`\d[\d,]*(?:\.\d+)?`;
 const NOTE = String.raw`(?:\s*\([^)]*\))*`; // trailing qualifiers: `(8mm)`, `(x2)`, `(Upgraded)`
 
-/** Every value of every line, split on `•` and on spaced slashes (`5s / 15s`), trimmed. */
+/**
+ * Every value of every line, split on `•`, on spaced slashes (`5s / 15s`) and after a
+ * qualifier glued to the next value when the wiki drops its `<br>` (`1,400 (4mm)600 (10g)`),
+ * trimmed.
+ */
 export function statValues(lines: readonly string[]): string[] {
   return lines.flatMap((line) =>
     line
-      .split(/•|\s+\/\s+/)
+      .split(/•|\s+\/\s+|(?<=\))(?=\s*[~\d])/)
       .map((value) => value.trim())
       .filter(Boolean),
   );
