@@ -23,7 +23,7 @@ catalog:
   domhandler: 5.0.3
   # Bundles the Worker `build/worker.js` (arch §8.1); same minor as the one wrangler ships.
   esbuild: ^0.28.2
-  hono: ^4.13.8
+  hono: ^4.13.9
   robots-parser: 3.0.1
   # Pinned: WebP output bytes (and so image keys) must not change with an update (arch §6.5).
   sharp: 0.35.4
