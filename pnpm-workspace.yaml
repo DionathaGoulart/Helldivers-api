@@ -27,7 +27,7 @@ catalog:
   robots-parser: 3.0.1
   # Pinned: WebP output bytes (and so image keys) must not change with an update (arch §6.5).
   sharp: 0.35.4
-  tsx: ^4.23.13
+  tsx: ^4.23.15
   typescript: ^7.0.2
   vitest: ^5.0.1
   wrangler: 4.135.0
