@@ -69,10 +69,10 @@ export const firstCount = (lines: readonly string[], page: string) =>
 
 /**
  * `3s`, `2.5s(40mm)`, `0.2 sec`, `90 seconds`, `2.67` (the wiki sometimes drops the unit of a
- * duration cell); fuse kinds (`Impact`) and `Unknown seconds` give null.
+ * duration cell); fuse kinds (`Impact`), `Unknown seconds` and wiki expression errors give null.
  */
 export function parseSeconds(value: string, page: string): number | null {
-  if (/^(?:impact|proximity|unknown(?:\s+seconds)?)$/i.test(value)) {
+  if (/^(?:impact|proximity|unknown(?:\s+seconds)?|expression error:)/i.test(value)) {
     return null;
   }
   return match(value, String.raw`(?:\s*(?:s|secs?|seconds?))?`, page, "not a duration");

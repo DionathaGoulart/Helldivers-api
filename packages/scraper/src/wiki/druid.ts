@@ -37,6 +37,16 @@ export function readDruid($: CheerioAPI, page: string, container: string | null 
   if (boxes.length > 1 && container) {
     boxes = boxes.filter(`.druid-container-${container}`);
   }
+  // Some mission pages render a duplicate stratagem infobox (IDs `-1` and `-2`).
+  // Ignore it only when the markup is identical apart from that generated ID.
+  if (boxes.length > 1) {
+    const markup = boxes
+      .toArray()
+      .map((element) => $.html(element)?.replace(/\sid="druid-container-\d+"/, ""));
+    if (markup[0] && markup.every((html) => html === markup[0])) {
+      boxes = boxes.first();
+    }
+  }
   if (boxes.length !== 1) {
     throw new ParseError(page, INFOBOX, `expected 1 infobox, found ${boxes.length}`);
   }
