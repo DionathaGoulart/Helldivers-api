@@ -208,7 +208,11 @@ export function parseStratagemPage(
           box
             .find("span.Stratagemcodeicon img")
             .toArray()
-            .map((img) => $(img).attr("alt")?.replace(/^Stratagem Arrow (.+)\.svg$/, "$1"))
+            .map((img) =>
+              $(img)
+                .attr("alt")
+                ?.replace(/^Stratagem Arrow (.+)\.svg$/, "$1"),
+            )
             .join(",") === expectedCode.join(",")
       : null,
   );

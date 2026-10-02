@@ -217,9 +217,9 @@ describe("stratagem-page parser", async () => {
       .append('<span class="Stratagemcodeicon"><img alt="Stratagem Arrow Down.svg"></span>');
     box.after(duplicate);
 
-    expect(
-      parseStratagemPage($.html(), { url: page.url, expectedCode: ops.code }).code,
-    ).toEqual(ops.code);
+    expect(parseStratagemPage($.html(), { url: page.url, expectedCode: ops.code }).code).toEqual(
+      ops.code,
+    );
   });
 
   it("fails on a row filled in two tabs", async () => {
