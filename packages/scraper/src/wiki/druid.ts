@@ -28,14 +28,24 @@ export interface Druid {
   rows: ReadonlyMap<string, DruidRow>;
 }
 
+export type DruidBoxSelector = (box: Cheerio<Element>) => boolean;
+
 /**
  * The page's infobox. Mission objective pages add a second one for the objective itself
  * (Reinforcement Pods, SEAF Artillery); `container` then picks `.druid-container-<container>`.
  */
-export function readDruid($: CheerioAPI, page: string, container: string | null = null): Druid {
+export function readDruid(
+  $: CheerioAPI,
+  page: string,
+  container: string | null = null,
+  selectBox: DruidBoxSelector | null = null,
+): Druid {
   let boxes = $(INFOBOX);
   if (boxes.length > 1 && container) {
     boxes = boxes.filter(`.druid-container-${container}`);
+  }
+  if (boxes.length > 1 && selectBox) {
+    boxes = boxes.filter((_, element) => selectBox($(element)));
   }
   // Some mission pages render a duplicate stratagem infobox (IDs `-1` and `-2`).
   // Ignore it only when the markup is identical apart from that generated ID.

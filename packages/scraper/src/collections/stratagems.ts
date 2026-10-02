@@ -47,15 +47,25 @@ export const stratagemsPipeline: CollectionPipeline<"stratagems"> = {
     const resolveSource = itemSourceResolver(context);
 
     const index = await source.page(STRATAGEMS_INDEX);
-    const rows = parseStratagemsIndex(index.html, { url: index.url });
+    const parsedRows = parseStratagemsIndex(index.html, { url: index.url });
     const warnings: string[] = [];
     const conflicts: Conflict[] = [];
+    const seenRows = new Set<string>();
+    const rows = parsedRows.filter((row) => {
+      const key = `${row.page.title}\u0000${row.permit}\u0000${row.group}\u0000${row.label ?? ""}`;
+      if (seenRows.has(key)) {
+        warnings.push(`duplicate ${STRATAGEMS_INDEX} row ignored: ${row.page.title}`);
+        return false;
+      }
+      seenRows.add(key);
+      return true;
+    });
 
     const entities: Stratagem[] = [];
     const images: ImageRequest[] = [];
     for (const row of rows) {
       const page = await source.page(row.page.title);
-      const raw = parseStratagemPage(page.html, { url: page.url });
+      const raw = parseStratagemPage(page.html, { url: page.url, expectedCode: row.code });
       const id = idLock.resolve("stratagems", raw.title, raw.title);
       const note = (message: string) => warnings.push(`stratagems/${id}: ${message}`);
       const infobox = (key: string) => raw.infobox.find((candidate) => candidate.key === key);

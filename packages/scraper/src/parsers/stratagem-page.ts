@@ -194,9 +194,24 @@ function readShipModules($: CheerioAPI, url: string): RawShipModule[] {
   return modules;
 }
 
-export function parseStratagemPage(html: string, { url }: { url: string }): RawStratagemPage {
+export function parseStratagemPage(
+  html: string,
+  { url, expectedCode }: { url: string; expectedCode?: readonly string[] },
+): RawStratagemPage {
   const $ = loadHtml(html);
-  const druid = readDruid($, url, "stratagem");
+  const druid = readDruid(
+    $,
+    url,
+    "stratagem",
+    expectedCode && expectedCode.length > 0
+      ? (box) =>
+          box
+            .find("span.Stratagemcodeicon img")
+            .toArray()
+            .map((img) => $(img).attr("alt")?.replace(/^Stratagem Arrow (.+)\.svg$/, "$1"))
+            .join(",") === expectedCode.join(",")
+      : null,
+  );
 
   const infobox: RawStratagemPage["infobox"] = [];
   let code: string[] = [];

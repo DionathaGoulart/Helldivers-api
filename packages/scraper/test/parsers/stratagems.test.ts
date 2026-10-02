@@ -207,6 +207,21 @@ describe("stratagem-page parser", async () => {
     });
   });
 
+  it("selects the infobox matching the index code when the wiki duplicates it", async () => {
+    const page = await fixture("Orbital Precision Strike");
+    const $ = cheerio.load(page.html);
+    const box = $("#mw-content-text .druid-infobox").first();
+    const duplicate = box.clone().attr("id", "druid-container-2");
+    duplicate
+      .find(".druid-row-stratagem_code .druid-data")
+      .append('<span class="Stratagemcodeicon"><img alt="Stratagem Arrow Down.svg"></span>');
+    box.after(duplicate);
+
+    expect(
+      parseStratagemPage($.html(), { url: page.url, expectedCode: ops.code }).code,
+    ).toEqual(ops.code);
+  });
+
   it("fails on a row filled in two tabs", async () => {
     const page = await fixture("MG-43 Machine Gun");
     const html = page.html.replace(
