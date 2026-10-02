@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -136,7 +136,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -179,7 +179,7 @@
       "AR/GL-21 ONE-TWO › Spread": "↔[1.00] ↕[1.00]",
       "AR/GL-21 ONE-TWO › Sway": "1",
       "AR/GL-21 ONE-TWO › Ergonomics": "30",
-      "AR/GL-21 ONE-TWO › Noise": "Medium (~48m)",
+      "AR/GL-21 ONE-TWO › Noise When Firing": "Medium (~48m)",
       "AR/GL-21 ONE-TWO › Capacity": "40",
       "AR/GL-21 ONE-TWO › Spare Magazines": "6",
       "AR/GL-21 ONE-TWO › Starting Magazines": "4",
@@ -193,7 +193,7 @@
       "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Spread": "↔[30.00] ↕[30.00]",
       "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Sway": "1",
       "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Ergonomics": "95",
-      "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Noise": "Small (~33m)",
+      "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Noise When Firing": "Small (~33m)",
       "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Capacity": "1",
       "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Spare Rounds": "5",
       "AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Starting Rounds": "3",
@@ -222,6 +222,7 @@
       "GP-31 P › Projectile › Penetration Slowdown": "25%",
       "GP-31 P › Projectile › Explosion On Impact": "GP-31_P_IE",
       "GP-31 P › Projectile › Explode After": "GP-31_P_IE",
+      "GP-31 P › Projectile › Arming Distance": "4 m",
       "GP-31 P › Damage › Standard": "250 Ballistic",
       "GP-31 P › Damage › vs. Durable": "250 Ballistic",
       "GP-31 P › Penetration › Direct": "Medium",
@@ -239,7 +240,9 @@
       "GP-31 P IE › Damage › Inner Durable": "400 Explosion",
       "GP-31 P IE › Damage › Outer Radius": "399 - 0",
       "GP-31 P IE › Damage › Outer Durable": "399 - 0",
-      "GP-31 P IE › Penetration › Direct": "Medium",
+      "GP-31 P IE › Penetration › Inner AP": "Medium",
+      "GP-31 P IE › Penetration › Outer AP": "Light",
+      "GP-31 P IE › Penetration › Shockwave AP": "Medium",
       "GP-31 P IE › AoE Effect › Demolition Force": "30",
       "GP-31 P IE › AoE Effect › Stagger Force": "25",
       "GP-31 P IE › AoE Effect › Push Force": "30"

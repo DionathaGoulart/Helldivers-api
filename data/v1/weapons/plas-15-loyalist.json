@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -102,7 +102,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -157,9 +157,9 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
-          "slightAngle": "medium",
-          "largeAngle": "medium",
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
           "extremeAngle": null
         },
         "projectile": null,
@@ -212,7 +212,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -252,15 +252,15 @@
       "PLAS-15 LOYALIST › Spread": "↔[10.00] ↕[10.00]",
       "PLAS-15 LOYALIST › Sway": "1",
       "PLAS-15 LOYALIST › Ergonomics": "95",
-      "PLAS-15 LOYALIST › Noise": "Small (~33m)",
+      "PLAS-15 LOYALIST › Noise When Firing": "Small (~33m)",
       "PLAS-15 LOYALIST › Capacity": "8",
       "PLAS-15 LOYALIST › Spare Magazines": "5",
       "PLAS-15 LOYALIST › Starting Magazines": "3",
       "PLAS-15 LOYALIST › Mags from Supply": "5",
       "PLAS-15 LOYALIST › Mags from Ammo Box": "2",
-      "PLAS-15 LOYALIST › Charge › at (0.01)s": "P1× 0.50 dmg",
-      "PLAS-15 LOYALIST › Charge › at (0.75)s": "P2× 0.62 dmg",
-      "PLAS-15 LOYALIST › Charge › at (3.00)s": "P2× 1.00 dmg",
+      "PLAS-15 LOYALIST › Charge › at (0.01)s": "0.50 dmg × P1",
+      "PLAS-15 LOYALIST › Charge › at (0.75)s": "0.62 dmg × P2",
+      "PLAS-15 LOYALIST › Charge › at (3.00)s": "1.00 dmg × P2",
       "PLAS-15 LOYALIST › Charge › Speed Mult Range": "(1.00) (1.00)",
       "PLAS-15 LOYALIST › Charge › Distance Mult Range": "(0.70) (1.40)",
       "PLAS-15 LOYALIST › Charge › Damage Mult Range": "(0.50) (1.00)",
@@ -293,7 +293,9 @@
       "P1 IE › Damage › Inner Durable": "75 Explosion",
       "P1 IE › Damage › Outer Radius": "74 - 0",
       "P1 IE › Damage › Outer Durable": "74 - 0",
-      "P1 IE › Penetration › Direct": "Medium",
+      "P1 IE › Penetration › Inner AP": "Medium",
+      "P1 IE › Penetration › Outer AP": "Light",
+      "P1 IE › Penetration › Shockwave AP": "Medium",
       "P1 IE › AoE Effect › Demolition Force": "10",
       "P1 IE › AoE Effect › Stagger Force": "10",
       "P1 IE › AoE Effect › Push Force": "7",
@@ -320,9 +322,9 @@
       "P2 IE › Damage › Inner Durable": "225 Explosion",
       "P2 IE › Damage › Outer Radius": "224 - 0",
       "P2 IE › Damage › Outer Durable": "224 - 0",
-      "P2 IE › Penetration › Direct": "Medium",
-      "P2 IE › Penetration › Slight Angle": "Medium",
-      "P2 IE › Penetration › Large Angle": "Medium",
+      "P2 IE › Penetration › Inner AP": "Medium",
+      "P2 IE › Penetration › Outer AP": "Light",
+      "P2 IE › Penetration › Shockwave AP": "Medium",
       "P2 IE › AoE Effect › Demolition Force": "10",
       "P2 IE › AoE Effect › Stagger Force": "35",
       "P2 IE › AoE Effect › Push Force": "30",
@@ -349,7 +351,9 @@
       "PLAS-15 P IE › Damage › Inner Durable": "25 Explosion",
       "PLAS-15 P IE › Damage › Outer Radius": "24 - 0",
       "PLAS-15 P IE › Damage › Outer Durable": "24 - 0",
-      "PLAS-15 P IE › Penetration › Direct": "Medium",
+      "PLAS-15 P IE › Penetration › Inner AP": "Medium",
+      "PLAS-15 P IE › Penetration › Outer AP": "Light",
+      "PLAS-15 P IE › Penetration › Shockwave AP": "Medium",
       "PLAS-15 P IE › AoE Effect › Demolition Force": "10",
       "PLAS-15 P IE › AoE Effect › Stagger Force": "10",
       "PLAS-15 P IE › AoE Effect › Push Force": "5"

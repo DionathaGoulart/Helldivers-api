@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": null,
     "image": {
-      "url": "/images/v1/helmets/cw-22-kodiak.fd4e86db.webp",
+      "url": "/images/v1/helmets/cw-22-kodiak.4873a60f.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "CW-22_Kodiak_Helmet_Render.png"

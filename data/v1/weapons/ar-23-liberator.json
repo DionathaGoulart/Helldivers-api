@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -118,7 +118,7 @@
       "AR-23 LIBERATOR › Spread": "↔[2.00] ↕[2.00]",
       "AR-23 LIBERATOR › Sway": "1",
       "AR-23 LIBERATOR › Ergonomics": "65",
-      "AR-23 LIBERATOR › Noise": "Medium (~48m)",
+      "AR-23 LIBERATOR › Noise When Firing": "Medium (~48m)",
       "AR-23 LIBERATOR › Capacity": "45",
       "AR-23 LIBERATOR › Spare Magazines": "8",
       "AR-23 LIBERATOR › Starting Magazines": "6",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "This classic armor set is recognized by every citizen: worn by the heroic Helldivers who battled and forever defeated the Terminids, Cyborgs, and Illuminate in the First Galactic War.",
     "image": {
-      "url": "/images/v1/armors/dp-00-tactical.70702139.webp",
+      "url": "/images/v1/armors/dp-00-tactical.64017469.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "DP-00_Tactical_Armor_Render.png"

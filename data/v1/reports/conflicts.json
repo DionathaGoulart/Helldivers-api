@@ -677,6 +677,30 @@
       ]
     },
     {
+      "collection": "warbonds",
+      "id": "polar-patriots",
+      "field": "pages[0].items[1]",
+      "rule": 12,
+      "chosen": 1,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Polar_Patriots_Premium_Warbond",
+          "location": "Page 1 › Motivational Shocks",
+          "value": 1
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
+          "location": "boosters/motivational-shocks › source",
+          "value": 2
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Polar_Patriots_Premium_Warbond",
+          "location": "Page 1 › icon grid",
+          "value": 1
+        }
+      ]
+    },
+    {
       "collection": "weapons",
       "id": "ar-11-arbitrator",
       "field": "firearm.recoil",

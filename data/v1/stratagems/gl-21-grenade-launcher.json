@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -157,7 +157,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -204,7 +204,7 @@
       "GL-21 GRENADE LAUNCHER › Spread": "↔[20.00] ↕[20.00]",
       "GL-21 GRENADE LAUNCHER › Sway": "1",
       "GL-21 GRENADE LAUNCHER › Ergonomics": "25",
-      "GL-21 GRENADE LAUNCHER › Noise": "Small (~33m)",
+      "GL-21 GRENADE LAUNCHER › Noise When Firing": "Small (~33m)",
       "GL-21 GRENADE LAUNCHER › Capacity": "10",
       "GL-21 GRENADE LAUNCHER › Spare Magazines": "3",
       "GL-21 GRENADE LAUNCHER › Starting Magazines": "2",
@@ -219,6 +219,7 @@
       "GL-21 P › Projectile › Penetration Slowdown": "25%",
       "GL-21 P › Projectile › Explosion On Impact": "GL-21_P_IE",
       "GL-21 P › Projectile › Explode After": "GL-21_P_IE",
+      "GL-21 P › Projectile › Arming Distance": "7 m",
       "GL-21 P › Damage › Standard": "20 Ballistic",
       "GL-21 P › Damage › vs. Durable": "2 Ballistic",
       "GL-21 P › Penetration › Direct": "Unarmored",
@@ -236,7 +237,9 @@
       "GL-21 P IE › Damage › Inner Durable": "400 Explosion",
       "GL-21 P IE › Damage › Outer Radius": "399 - 0",
       "GL-21 P IE › Damage › Outer Durable": "399 - 0",
-      "GL-21 P IE › Penetration › Direct": "Medium",
+      "GL-21 P IE › Penetration › Inner AP": "Medium",
+      "GL-21 P IE › Penetration › Outer AP": "Light",
+      "GL-21 P IE › Penetration › Shockwave AP": "Medium",
       "GL-21 P IE › AoE Effect › Demolition Force": "30",
       "GL-21 P IE › AoE Effect › Stagger Force": "25",
       "GL-21 P IE › AoE Effect › Push Force": "30"

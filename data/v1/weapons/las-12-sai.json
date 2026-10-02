@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -116,7 +116,7 @@
       "LAS-12 SAI › Spread": "↔[140.00] ↕[140.00]",
       "LAS-12 SAI › Sway": "1",
       "LAS-12 SAI › Ergonomics": "65",
-      "LAS-12 SAI › Noise": "Medium (~48m)",
+      "LAS-12 SAI › Noise When Firing": "Medium (~48m)",
       "LAS-12 SAI › Spare Magazines": "5",
       "LAS-12 SAI › Starting Magazines": "4",
       "LAS-12 SAI › Mags from Supply": "6",

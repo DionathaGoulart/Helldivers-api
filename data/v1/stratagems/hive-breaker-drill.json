@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -39,11 +39,11 @@
       "down",
       "down"
     ],
-    "cooldownS": 0,
+    "cooldownS": 119,
     "cooldownVariants": [
       {
         "label": "With Morale Augmentation",
-        "seconds": 0
+        "seconds": 113.05
       }
     ],
     "callInTimeS": 10,
@@ -55,11 +55,11 @@
     "backpack": null,
     "attacks": [],
     "statsRaw": {
-      "Base Cooldown": "0s",
+      "Base Cooldown": "119s",
       "General › Call-in Time": "10 seconds",
       "General › Uses": "1",
-      "General › Cooldown › Standard": "0 seconds",
-      "General › Cooldown › With Morale Augmentation": "0 seconds"
+      "General › Cooldown › Standard": "119 seconds",
+      "General › Cooldown › With Morale Augmentation": "113.05 seconds"
     },
     "source": {
       "type": "other",

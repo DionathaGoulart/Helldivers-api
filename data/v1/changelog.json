@@ -1,15 +1,956 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
-    "count": 18,
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
+    "count": 19,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-02.396a11a6",
+      "date": "2026-10-02",
+      "summary": {
+        "added": 0,
+        "changed": 77,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "ar-23-liberator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-23 LIBERATOR › Noise\"]",
+            "statsRaw[\"AR-23 LIBERATOR › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23c-liberator-concussive",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-23C LIBERATOR CONCUSSIVE › Noise\"]",
+            "statsRaw[\"AR-23C LIBERATOR CONCUSSIVE › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23p-liberator-penetrator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-23P LIBERATOR PENETRATOR › Noise\"]",
+            "statsRaw[\"AR-23P LIBERATOR PENETRATOR › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-61-tenderizer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-61 TENDERIZER › Noise\"]",
+            "statsRaw[\"AR-61 TENDERIZER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-gl-21-one-two",
+          "kind": "changed",
+          "paths": [
+            "attacks[2].penetration.direct",
+            "statsRaw[\"AR/GL-21 ONE-TWO › Noise\"]",
+            "statsRaw[\"AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Noise\"]",
+            "statsRaw[\"GP-31 P IE › Penetration › Direct\"]",
+            "statsRaw[\"AR/GL-21 ONE-TWO › Noise When Firing\"]",
+            "statsRaw[\"AR/GL-21 ONE-TWO › Underbarrel AR/GL-21 ONE-TWO 0 › Noise When Firing\"]",
+            "statsRaw[\"GP-31 P › Projectile › Arming Distance\"]",
+            "statsRaw[\"GP-31 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"GP-31 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"GP-31 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "arc-12-blitzer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"ARC-12 BLITZER › Noise\"]",
+            "statsRaw[\"ARC-12 BLITZER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-10-incendiary",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-10 INCENDIARY E › Penetration › Direct\"]",
+            "statsRaw[\"G-10 INCENDIARY E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-10 INCENDIARY E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-10 INCENDIARY E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-12-high-explosive",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-12 HIGH EXPLOSIVE E › Penetration › Direct\"]",
+            "statsRaw[\"G-12 HIGH EXPLOSIVE E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-12 HIGH EXPLOSIVE E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-12 HIGH EXPLOSIVE E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-13-incendiary-impact",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-13 INCENDIARY IMPACT E › Penetration › Direct\"]",
+            "statsRaw[\"G-13 INCENDIARY IMPACT E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-13 INCENDIARY IMPACT E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-13 INCENDIARY IMPACT E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-142-pyrotech",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-142 PYROTECH › Noise\"]",
+            "statsRaw[\"G-142 PYROTECH E › Penetration › Direct\"]",
+            "statsRaw[\"G-142 PYROTECH › Noise When Firing\"]",
+            "statsRaw[\"G-142 PYROTECH E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-142 PYROTECH E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-142 PYROTECH E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-16-impact",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-16 IMPACT E › Penetration › Direct\"]",
+            "statsRaw[\"G-16 IMPACT E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-16 IMPACT E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-16 IMPACT E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-23-stun",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-23 STUN E › Penetration › Direct\"]",
+            "statsRaw[\"G-23 STUN E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-23 STUN E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-23 STUN E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-6-frag",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-6 FRAG E › Penetration › Direct\"]",
+            "statsRaw[\"G-6 FRAG E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-6 FRAG E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-6 FRAG E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-60-anti-tank-seeker",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "attacks[0].penetration.slightAngle",
+            "attacks[0].penetration.largeAngle",
+            "attacks[0].penetration.extremeAngle",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Direct\"]",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Slight Angle\"]",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Large Angle\"]",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Extreme Angle\"]",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-8-immolation",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"G-8 IMMOLATION E › Penetration › Direct\"]",
+            "statsRaw[\"G-8 IMMOLATION E › Penetration › Inner AP\"]",
+            "statsRaw[\"G-8 IMMOLATION E › Penetration › Outer AP\"]",
+            "statsRaw[\"G-8 IMMOLATION E › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "statsRaw[\"GL-15 EVICTOR › Noise\"]",
+            "statsRaw[\"GL-15 P IE › Penetration › Direct\"]",
+            "statsRaw[\"GL-15 EVICTOR › Noise When Firing\"]",
+            "statsRaw[\"GL-15 P › Projectile › Arming Distance\"]",
+            "statsRaw[\"GL-15 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"GL-15 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"GL-15 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-20-ultimatum",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "statsRaw[\"GP-20 ULTIMATUM › Noise\"]",
+            "statsRaw[\"GP-20 P IE › Penetration › Direct\"]",
+            "statsRaw[\"GP-20 ULTIMATUM › Noise When Firing\"]",
+            "statsRaw[\"GP-20 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"GP-20 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"GP-20 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-12-sai",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LAS-12 SAI › Noise\"]",
+            "statsRaw[\"LAS-12 SAI › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-13-trident",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LAS-13 TRIDENT › Noise\"]",
+            "statsRaw[\"LAS-13 TRIDENT › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-58-talon",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LAS-58 TALON › Noise\"]",
+            "statsRaw[\"LAS-58 TALON › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ma5c-assault-rifle",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"MA5C ASSAULT RIFLE › Noise\"]",
+            "statsRaw[\"MA5C ASSAULT RIFLE › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-11-stim-pistol",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P-11 STIM PISTOL › Noise\"]",
+            "statsRaw[\"P-11 STIM PISTOL › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-2-peacemaker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P-2 PEACEMAKER › Noise\"]",
+            "statsRaw[\"P-2 PEACEMAKER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-40-k-bolt-pistol",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "statsRaw[\"P/40-K BOLT PISTOL › Noise\"]",
+            "statsRaw[\"P/40-K P IE › Penetration › Direct\"]",
+            "statsRaw[\"P/40-K BOLT PISTOL › Noise When Firing\"]",
+            "statsRaw[\"P/40-K P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"P/40-K P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"P/40-K P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-69-veto",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P-69 VETO › Noise\"]",
+            "statsRaw[\"P-69 VETO › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-101-purifier",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "attacks[2].damage.standard",
+            "attacks[2].damage.durable",
+            "attacks[3].penetration.direct",
+            "attacks[3].penetration.slightAngle",
+            "attacks[3].penetration.largeAngle",
+            "statsRaw[\"PLAS-101 PURIFIER › Noise\"]",
+            "statsRaw[\"PLAS-101 PURIFIER › Charge › at (0.01)s\"]",
+            "statsRaw[\"PLAS-101 PURIFIER › Charge › at (1.00)s\"]",
+            "statsRaw[\"PLAS-101 PURIFIER › Charge › at (1.00)s (2)\"]",
+            "statsRaw[\"P IE › Penetration › Direct\"]",
+            "statsRaw[\"PLAS-101 P › Damage › Standard\"]",
+            "statsRaw[\"PLAS-101 P › Damage › vs. Durable\"]",
+            "statsRaw[\"PLAS-101 P IE › Penetration › Direct\"]",
+            "statsRaw[\"PLAS-101 P IE › Penetration › Slight Angle\"]",
+            "statsRaw[\"PLAS-101 P IE › Penetration › Large Angle\"]",
+            "statsRaw[\"PLAS-101 PURIFIER › Noise When Firing\"]",
+            "statsRaw[\"P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"P IE › Penetration › Shockwave AP\"]",
+            "statsRaw[\"PLAS-101 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"PLAS-101 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"PLAS-101 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-15-loyalist",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "attacks[3].penetration.direct",
+            "attacks[3].penetration.slightAngle",
+            "attacks[3].penetration.largeAngle",
+            "attacks[5].penetration.direct",
+            "statsRaw[\"PLAS-15 LOYALIST › Noise\"]",
+            "statsRaw[\"PLAS-15 LOYALIST › Charge › at (0.01)s\"]",
+            "statsRaw[\"PLAS-15 LOYALIST › Charge › at (0.75)s\"]",
+            "statsRaw[\"PLAS-15 LOYALIST › Charge › at (3.00)s\"]",
+            "statsRaw[\"P1 IE › Penetration › Direct\"]",
+            "statsRaw[\"P2 IE › Penetration › Direct\"]",
+            "statsRaw[\"P2 IE › Penetration › Slight Angle\"]",
+            "statsRaw[\"P2 IE › Penetration › Large Angle\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Direct\"]",
+            "statsRaw[\"PLAS-15 LOYALIST › Noise When Firing\"]",
+            "statsRaw[\"P1 IE › Penetration › Inner AP\"]",
+            "statsRaw[\"P1 IE › Penetration › Outer AP\"]",
+            "statsRaw[\"P1 IE › Penetration › Shockwave AP\"]",
+            "statsRaw[\"P2 IE › Penetration › Inner AP\"]",
+            "statsRaw[\"P2 IE › Penetration › Outer AP\"]",
+            "statsRaw[\"P2 IE › Penetration › Shockwave AP\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-4-hyena",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Spare Mags\"]",
+            "statsRaw[\"R-4 HYENA › Noise\"]",
+            "statsRaw[\"R-4 HYENA › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-6-deadeye",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-6 DEADEYE › Noise\"]",
+            "statsRaw[\"R-6 DEADEYE › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63-diligence",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-63 DILIGENCE › Noise\"]",
+            "statsRaw[\"R-63 DILIGENCE › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63cs-diligence-counter-sniper",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-63CS DILIGENCE COUNTER SNIPER › Noise\"]",
+            "statsRaw[\"R-63CS DILIGENCE COUNTER SNIPER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-72-censor",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-72 CENSOR › Noise\"]",
+            "statsRaw[\"R-72 CENSOR › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-22-bushwhacker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-22 BUSHWHACKER › Noise\"]",
+            "statsRaw[\"SG-22 BUSHWHACKER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8-punisher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-8 PUNISHER › Noise\"]",
+            "statsRaw[\"SG-8 PUNISHER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-88-break-action-shotgun",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-88 BREAK-ACTION SHOTGUN › Noise\"]",
+            "statsRaw[\"SG-88 BREAK-ACTION SHOTGUN › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-203-gallant",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SMG-203 GALLANT › Noise\"]",
+            "statsRaw[\"SMG-203 GALLANT › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-72-pummeler",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SMG-72 PUMMELER › Noise\"]",
+            "statsRaw[\"SMG-72 PUMMELER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-11-smg",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"STA-11 SMG › Noise\"]",
+            "statsRaw[\"STA-11 SMG › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-52-assault-rifle",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"STA-52 ASSAULT RIFLE › Noise\"]",
+            "statsRaw[\"STA-52 ASSAULT RIFLE › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "40-k-meltagun",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"40-K MELTAGUN › Noise\"]",
+            "statsRaw[\"40-K MELTAGUN › Charge › at (0.40)s\"]",
+            "statsRaw[\"40-K MELTAGUN › Charge › at (0.50)s\"]",
+            "statsRaw[\"40-K MELTAGUN › Charge › at (1.00)s\"]",
+            "statsRaw[\"40-K MELTAGUN › Noise When Firing\"]",
+            "statsRaw[\"40-K MELTAGUN B › Beam › Beam Max Falloff\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-ar-23-guard-dog",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Noise\"]",
+            "statsRaw[\"AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-100-portable-hellbomb",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].penetration.direct",
+            "statsRaw[\"Hellbomb › Penetration › Direct\"]",
+            "statsRaw[\"Hellbomb › Penetration › Inner AP\"]",
+            "statsRaw[\"Hellbomb › Penetration › Outer AP\"]",
+            "statsRaw[\"Hellbomb › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-9-defoliation-tool",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"CQC-9 DEFOLIATION TOOL › Noise\"]",
+            "statsRaw[\"CQC-9 DEFOLIATION TOOL › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-55-breakthrough-exosuit",
+          "kind": "changed",
+          "paths": [
+            "attacks[3].penetration.direct",
+            "statsRaw[\"Exosuit Destruction › Penetration › Direct\"]",
+            "statsRaw[\"Exosuit Destruction › Penetration › Inner AP\"]",
+            "statsRaw[\"Exosuit Destruction › Penetration › Outer AP\"]",
+            "statsRaw[\"Exosuit Destruction › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-21-grenade-launcher",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "statsRaw[\"GL-21 GRENADE LAUNCHER › Noise\"]",
+            "statsRaw[\"GL-21 P IE › Penetration › Direct\"]",
+            "statsRaw[\"GL-21 GRENADE LAUNCHER › Noise When Firing\"]",
+            "statsRaw[\"GL-21 P › Projectile › Arming Distance\"]",
+            "statsRaw[\"GL-21 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"GL-21 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"GL-21 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-28-belt-fed-grenade-launcher",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "statsRaw[\"GL-28 BELT-FED GRENADE LAUNCHER › Noise\"]",
+            "statsRaw[\"GL-28 P IE › Penetration › Direct\"]",
+            "statsRaw[\"GL-28 BELT-FED GRENADE LAUNCHER › Noise When Firing\"]",
+            "statsRaw[\"GL-28 P › Projectile › Arming Distance\"]",
+            "statsRaw[\"GL-28 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"GL-28 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"GL-28 P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "hive-breaker-drill",
+          "kind": "changed",
+          "paths": [
+            "cooldownS",
+            "cooldownVariants[0].seconds",
+            "statsRaw[\"Base Cooldown\"]",
+            "statsRaw[\"General › Cooldown › Standard\"]",
+            "statsRaw[\"General › Cooldown › With Morale Augmentation\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "portable-comms-relay",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Base Cooldown\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seaf-artillery",
+          "kind": "changed",
+          "paths": [
+            "cooldownS",
+            "cooldownVariants[0].seconds",
+            "attacks[1].penetration.direct",
+            "attacks[2].penetration.direct",
+            "attacks[3].penetration.direct",
+            "attacks[5].penetration.direct",
+            "attacks[6].penetration.direct",
+            "statsRaw[\"Base Cooldown\"]",
+            "statsRaw[\"General › Cooldown › Standard\"]",
+            "statsRaw[\"General › Cooldown › With Morale Augmentation\"]",
+            "statsRaw[\"SEAF Gun Explosive › Penetration › Direct (2)\"]",
+            "statsRaw[\"SEAF Gun High Yield Explosive › Penetration › Direct\"]",
+            "statsRaw[\"SEAF Gun Mini Nuke › Penetration › Direct\"]",
+            "statsRaw[\"SEAF Gun EMP › Penetration › Direct\"]",
+            "statsRaw[\"SEAF Gun Napalm › Penetration › Direct\"]",
+            "statsRaw[\"SEAF Gun Explosive › Penetration › Inner AP\"]",
+            "statsRaw[\"SEAF Gun Explosive › Penetration › Outer AP\"]",
+            "statsRaw[\"SEAF Gun Explosive › Penetration › Shockwave AP\"]",
+            "statsRaw[\"SEAF Gun High Yield Explosive › Penetration › Inner AP\"]",
+            "statsRaw[\"SEAF Gun High Yield Explosive › Penetration › Outer AP\"]",
+            "statsRaw[\"SEAF Gun High Yield Explosive › Penetration › Shockwave AP\"]",
+            "statsRaw[\"SEAF Gun Mini Nuke › Penetration › Inner AP\"]",
+            "statsRaw[\"SEAF Gun Mini Nuke › Penetration › Outer AP\"]",
+            "statsRaw[\"SEAF Gun Mini Nuke › Penetration › Shockwave AP\"]",
+            "statsRaw[\"SEAF Gun EMP › Penetration › Inner AP\"]",
+            "statsRaw[\"SEAF Gun EMP › Penetration › Outer AP\"]",
+            "statsRaw[\"SEAF Gun EMP › Penetration › Shockwave AP\"]",
+            "statsRaw[\"SEAF Gun Napalm › Penetration › Inner AP\"]",
+            "statsRaw[\"SEAF Gun Napalm › Penetration › Outer AP\"]",
+            "statsRaw[\"SEAF Gun Napalm › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seismic-probe",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Base Cooldown\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sssd-delivery",
+          "kind": "changed",
+          "paths": [
+            "code",
+            "cooldownS",
+            "cooldownVariants[0].seconds",
+            "statsRaw[\"Base Cooldown\"]",
+            "statsRaw[\"General › Cooldown › Standard\"]",
+            "statsRaw[\"General › Cooldown › With Morale Augmentation\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "super-earth-flag",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "statsRaw[\"Base Cooldown\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tactical-video-camera",
+          "kind": "changed",
+          "paths": [
+            "cooldownS",
+            "statsRaw[\"Base Cooldown\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-110-maelstrom",
+          "kind": "changed",
+          "paths": [
+            "attacks",
+            "statsRaw[\"MAELSTROM GATLING › Fire Rate\"]",
+            "statsRaw[\"MAELSTROM GATLING › Recoil\"]",
+            "statsRaw[\"MAELSTROM GATLING › Spread\"]",
+            "statsRaw[\"MAELSTROM GATLING › Noise\"]",
+            "statsRaw[\"MAELSTROM GATLING › Capacity\"]",
+            "statsRaw[\"MAELSTROM GATLING › Spare Magazines\"]",
+            "statsRaw[\"MAELSTROM GATLING › Wind Up Time\"]",
+            "statsRaw[\"MAELSTROM GATLING › Wind Down Time\"]",
+            "statsRaw[\"MAELSTROM GATLING › Attacks › GATLING P\"]",
+            "statsRaw[\"GATLING P › Projectile › Mass\"]",
+            "statsRaw[\"GATLING P › Projectile › Initial Velocity\"]",
+            "statsRaw[\"GATLING P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GATLING P › Projectile › Gravity Factor\"]",
+            "statsRaw[\"GATLING P › Projectile › Penetration Slowdown\"]",
+            "statsRaw[\"GATLING P › Damage › Standard\"]",
+            "statsRaw[\"GATLING P › Damage › vs. Durable\"]",
+            "statsRaw[\"GATLING P › Penetration › Direct\"]",
+            "statsRaw[\"GATLING P › Penetration › Slight Angle\"]",
+            "statsRaw[\"GATLING P › Penetration › Large Angle\"]",
+            "statsRaw[\"GATLING P › Penetration › Extreme Angle\"]",
+            "statsRaw[\"GATLING P › Special Effects › Demolition Force\"]",
+            "statsRaw[\"GATLING P › Special Effects › Stagger Force\"]",
+            "statsRaw[\"GATLING P › Special Effects › Push Force\"]",
+            "statsRaw[\"MAELSTROM › Cooldown\"]",
+            "statsRaw[\"MAELSTROM › Uses\"]",
+            "statsRaw[\"MAELSTROM › Main Health\"]",
+            "statsRaw[\"MAELSTROM › Main Armor\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Main Health\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Main Armor\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Fire Rate\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Recoil\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Horizontal Recoil\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Vertical Recoil\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Spread\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Sway\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Ergonomics\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Noise When Firing\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Turret Turn Speed\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Elevation Range\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Traverse Range\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Capacity\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › Barrels\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROM › P11\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Main Health\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Main Armor\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Fire Rate\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Recoil\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Horizontal Recoil\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Vertical Recoil\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Spread\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Sway\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Ergonomics\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Noise When Firing\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Capacity\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › Barrels\"]",
+            "statsRaw[\"MAELSTROM › SWP MAELSTROMIII › SWP MAELSTROMIII E\"]",
+            "statsRaw[\"P11 › Projectile › Mass\"]",
+            "statsRaw[\"P11 › Projectile › Initial Velocity\"]",
+            "statsRaw[\"P11 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P11 › Projectile › Gravity Factor\"]",
+            "statsRaw[\"P11 › Projectile › Penetration Slowdown\"]",
+            "statsRaw[\"P11 › Damage › Standard\"]",
+            "statsRaw[\"P11 › Damage › vs. Durable\"]",
+            "statsRaw[\"P11 › Penetration › Direct\"]",
+            "statsRaw[\"P11 › Penetration › Slight Angle\"]",
+            "statsRaw[\"P11 › Penetration › Large Angle\"]",
+            "statsRaw[\"P11 › Penetration › Extreme Angle\"]",
+            "statsRaw[\"P11 › Special Effects › Demolition Force\"]",
+            "statsRaw[\"P11 › Special Effects › Stagger Force\"]",
+            "statsRaw[\"P11 › Special Effects › Push Force\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Area of Effect › Inner Radius\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Area of Effect › Outer Radius\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Area of Effect › Shockwave Radius\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Damage › Damage Element\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Damage › Inner Radius\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Damage › Inner Durable\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Damage › Outer Radius\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Damage › Outer Durable\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Penetration › Inner AP\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Penetration › Outer AP\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Penetration › Shockwave AP\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › AoE Effect › Demolition Force\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › AoE Effect › Stagger Force\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › AoE Effect › Push Force\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-220-bastion-mk-xvi",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].penetration.direct",
+            "statsRaw[\"120mm HE CANNON ROUND P IE › Penetration › Direct\"]",
+            "statsRaw[\"BASTION MK XVI › SWP BASTION MK XVI › Turret Turn Speed\"]",
+            "statsRaw[\"BASTION MK XVI › SWP BASTION MK XVI › Elevation Range\"]",
+            "statsRaw[\"BASTION MK XVI › SWP BASTION MK XVI › Traverse Range\"]",
+            "statsRaw[\"120mm HE CANNON ROUND P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"120mm HE CANNON ROUND P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"120mm HE CANNON ROUND P IE › Penetration › Shockwave AP\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "upload-data",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Base Cooldown\"]"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "armed-resupply-pods",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "concealed-insertion",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "dead-sprint",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "experimental-infusion",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "effect"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "expert-extraction-pilot",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "firebomb-hellpods",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "flexible-reinforcement-budget",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "effect"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "hellpod-space-optimization",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "effect",
+            "source.label"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "increased-reinforcement-budget",
+          "kind": "changed",
+          "paths": [
+            "source.label"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "integrated-extinguishers",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "localization-confusion",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "motivational-shocks",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "muscle-enhancement",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "source.label"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "sample-extricator",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "sample-scanner",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "stamina-enhancement",
+          "kind": "changed",
+          "paths": [
+            "source.label"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "stun-pods",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "surplus-eat-allocation",
+          "kind": "changed",
+          "paths": [
+            "image",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "uav-recon-booster",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "source.label"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "vitality-enhancement",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "effect",
+            "source.label"
+          ]
+        },
+        {
+          "collection": "passives",
+          "id": "blunt-force-mitigation",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.width",
+            "image.height",
+            "image.wikiFile"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-09-27.22dbb37d",
       "date": "2026-09-27",

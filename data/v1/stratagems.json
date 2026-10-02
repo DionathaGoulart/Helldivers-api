@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "count": 115,
     "source": {
       "name": "The Helldivers Wiki",
@@ -212,15 +212,15 @@
         "40-K MELTAGUN › Spread": "↔[0.10] ↕[0.10]",
         "40-K MELTAGUN › Sway": "1",
         "40-K MELTAGUN › Ergonomics": "10",
-        "40-K MELTAGUN › Noise": "Medium (~48m)",
+        "40-K MELTAGUN › Noise When Firing": "Medium (~48m)",
         "40-K MELTAGUN › Capacity": "3",
         "40-K MELTAGUN › Spare Magazines": "4",
         "40-K MELTAGUN › Starting Magazines": "2",
         "40-K MELTAGUN › Mags from Supply": "3",
         "40-K MELTAGUN › Mags from Ammo Box": "1",
-        "40-K MELTAGUN › Charge › at (0.40)s": "DEFAULT× 1.00 dmg",
-        "40-K MELTAGUN › Charge › at (0.50)s": "DEFAULT× 1.00 dmg",
-        "40-K MELTAGUN › Charge › at (1.00)s": "DEFAULT× 1.00 dmg",
+        "40-K MELTAGUN › Charge › at (0.40)s": "1.00 dmg × DEFAULT",
+        "40-K MELTAGUN › Charge › at (0.50)s": "1.00 dmg × DEFAULT",
+        "40-K MELTAGUN › Charge › at (1.00)s": "1.00 dmg × DEFAULT",
         "40-K MELTAGUN › Charge › Speed Mult Range": "(1.00) (1.00)",
         "40-K MELTAGUN › Charge › Distance Mult Range": "(0.70) (1.40)",
         "40-K MELTAGUN › Charge › Damage Mult Range": "(1.00) (1.00)",
@@ -229,6 +229,7 @@
         "40-K MELTAGUN › Attacks › Fire Panic": "status",
         "40-K MELTAGUN › Attacks › FlamerSlowed": "status",
         "40-K MELTAGUN B › Beam › Beam Range": "15 m",
+        "40-K MELTAGUN B › Beam › Beam Max Falloff": "0.6 x DMG",
         "40-K MELTAGUN B › Damage › Standard": "2600 Laser",
         "40-K MELTAGUN B › Damage › vs. Durable": "2600 Laser",
         "40-K MELTAGUN B › Penetration › Direct": "Anti-Tank III",
@@ -3654,7 +3655,7 @@
         "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Spread": "↔[16.00] ↕[16.00]",
         "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Sway": "1",
         "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Ergonomics": "65",
-        "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Noise": "Small (~33m)",
+        "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Noise When Firing": "Small (~33m)",
         "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Capacity": "45",
         "AR-23P P › Projectile › Mass": "4.5 g",
         "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
@@ -4689,7 +4690,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_vi",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -4724,7 +4725,9 @@
         "Hellbomb › Damage › Inner Durable": "10000 Explosion",
         "Hellbomb › Damage › Outer Radius": "9999 - 0",
         "Hellbomb › Damage › Outer Durable": "9999 - 0",
-        "Hellbomb › Penetration › Direct": "Anti-Tank VI",
+        "Hellbomb › Penetration › Inner AP": "Anti-Tank VI",
+        "Hellbomb › Penetration › Outer AP": "Anti-Tank V",
+        "Hellbomb › Penetration › Shockwave AP": "Anti-Tank VI",
         "Hellbomb › AoE Effect › Demolition Force": "60",
         "Hellbomb › AoE Effect › Stagger Force": "50",
         "Hellbomb › AoE Effect › Push Force": "100"
@@ -5742,7 +5745,7 @@
         "CQC-9 DEFOLIATION TOOL › Spread": "↔[10.00] ↕[10.00]",
         "CQC-9 DEFOLIATION TOOL › Sway": "1",
         "CQC-9 DEFOLIATION TOOL › Ergonomics": "65",
-        "CQC-9 DEFOLIATION TOOL › Noise": "No sound",
+        "CQC-9 DEFOLIATION TOOL › Noise When Firing": "No sound",
         "CQC-9 DEFOLIATION TOOL › Stamina Cost": "5%",
         "CQC-9 DEFOLIATION TOOL › Attacks › CQC-9 DEFOLIATION TOOL_dm": "Damage",
         "CQC-9 DEFOLIATION TOOL_dm › Damage › Standard": "450 Melee",
@@ -10386,7 +10389,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -10469,7 +10472,9 @@
         "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
         "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
         "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
-        "Exosuit Destruction › Penetration › Direct": "Medium",
+        "Exosuit Destruction › Penetration › Inner AP": "Medium",
+        "Exosuit Destruction › Penetration › Outer AP": "Light",
+        "Exosuit Destruction › Penetration › Shockwave AP": "Medium",
         "Exosuit Destruction › AoE Effect › Demolition Force": "30",
         "Exosuit Destruction › AoE Effect › Stagger Force": "50",
         "Exosuit Destruction › AoE Effect › Push Force": "40"
@@ -11262,7 +11267,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -11309,7 +11314,7 @@
         "GL-21 GRENADE LAUNCHER › Spread": "↔[20.00] ↕[20.00]",
         "GL-21 GRENADE LAUNCHER › Sway": "1",
         "GL-21 GRENADE LAUNCHER › Ergonomics": "25",
-        "GL-21 GRENADE LAUNCHER › Noise": "Small (~33m)",
+        "GL-21 GRENADE LAUNCHER › Noise When Firing": "Small (~33m)",
         "GL-21 GRENADE LAUNCHER › Capacity": "10",
         "GL-21 GRENADE LAUNCHER › Spare Magazines": "3",
         "GL-21 GRENADE LAUNCHER › Starting Magazines": "2",
@@ -11324,6 +11329,7 @@
         "GL-21 P › Projectile › Penetration Slowdown": "25%",
         "GL-21 P › Projectile › Explosion On Impact": "GL-21_P_IE",
         "GL-21 P › Projectile › Explode After": "GL-21_P_IE",
+        "GL-21 P › Projectile › Arming Distance": "7 m",
         "GL-21 P › Damage › Standard": "20 Ballistic",
         "GL-21 P › Damage › vs. Durable": "2 Ballistic",
         "GL-21 P › Penetration › Direct": "Unarmored",
@@ -11341,7 +11347,9 @@
         "GL-21 P IE › Damage › Inner Durable": "400 Explosion",
         "GL-21 P IE › Damage › Outer Radius": "399 - 0",
         "GL-21 P IE › Damage › Outer Durable": "399 - 0",
-        "GL-21 P IE › Penetration › Direct": "Medium",
+        "GL-21 P IE › Penetration › Inner AP": "Medium",
+        "GL-21 P IE › Penetration › Outer AP": "Light",
+        "GL-21 P IE › Penetration › Shockwave AP": "Medium",
         "GL-21 P IE › AoE Effect › Demolition Force": "30",
         "GL-21 P IE › AoE Effect › Stagger Force": "25",
         "GL-21 P IE › AoE Effect › Push Force": "30"
@@ -11504,7 +11512,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "heavy",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -11549,7 +11557,7 @@
         "GL-28 BELT-FED GRENADE LAUNCHER › Spread": "↔[4.00] ↕[4.00]",
         "GL-28 BELT-FED GRENADE LAUNCHER › Sway": "1",
         "GL-28 BELT-FED GRENADE LAUNCHER › Ergonomics": "20",
-        "GL-28 BELT-FED GRENADE LAUNCHER › Noise": "Medium (~48m)",
+        "GL-28 BELT-FED GRENADE LAUNCHER › Noise When Firing": "Medium (~48m)",
         "GL-28 BELT-FED GRENADE LAUNCHER › Capacity": "120",
         "GL-28 BELT-FED GRENADE LAUNCHER › Attacks › GL-28 P": "Projectile",
         "GL-28 BELT-FED GRENADE LAUNCHER › Attacks › GL-28 P IE": "Explosion",
@@ -11559,6 +11567,7 @@
         "GL-28 P › Projectile › Gravity Factor": "100%",
         "GL-28 P › Projectile › Penetration Slowdown": "25%",
         "GL-28 P › Projectile › Explosion On Impact": "GL-28_P_IE",
+        "GL-28 P › Projectile › Arming Distance": "5 m",
         "GL-28 P › Damage › Standard": "0 Ballistic",
         "GL-28 P › Damage › vs. Durable": "0 Ballistic",
         "GL-28 P › Penetration › Direct": "Heavy",
@@ -11576,7 +11585,9 @@
         "GL-28 P IE › Damage › Inner Durable": "150 Explosion",
         "GL-28 P IE › Damage › Outer Radius": "149 - 0",
         "GL-28 P IE › Damage › Outer Durable": "149 - 0",
-        "GL-28 P IE › Penetration › Direct": "Heavy",
+        "GL-28 P IE › Penetration › Inner AP": "Heavy",
+        "GL-28 P IE › Penetration › Outer AP": "Medium",
+        "GL-28 P IE › Penetration › Shockwave AP": "Heavy",
         "GL-28 P IE › AoE Effect › Demolition Force": "30",
         "GL-28 P IE › AoE Effect › Stagger Force": "20",
         "GL-28 P IE › AoE Effect › Push Force": "20"
@@ -12298,11 +12309,11 @@
         "down",
         "down"
       ],
-      "cooldownS": 0,
+      "cooldownS": 119,
       "cooldownVariants": [
         {
           "label": "With Morale Augmentation",
-          "seconds": 0
+          "seconds": 113.05
         }
       ],
       "callInTimeS": 10,
@@ -12314,11 +12325,11 @@
       "backpack": null,
       "attacks": [],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "119s",
         "General › Call-in Time": "10 seconds",
         "General › Uses": "1",
-        "General › Cooldown › Standard": "0 seconds",
-        "General › Cooldown › With Morale Augmentation": "0 seconds"
+        "General › Cooldown › Standard": "119 seconds",
+        "General › Cooldown › With Morale Augmentation": "113.05 seconds"
       },
       "source": {
         "type": "other",
@@ -19053,7 +19064,7 @@
       "backpack": null,
       "attacks": [],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "N/A",
         "General › Call-in Time": "10 seconds",
         "General › Uses": "1",
         "General › Cooldown › Standard": "0 seconds",
@@ -20440,11 +20451,11 @@
         "up",
         "down"
       ],
-      "cooldownS": 0,
+      "cooldownS": 14,
       "cooldownVariants": [
         {
           "label": "With Morale Augmentation",
-          "seconds": 0
+          "seconds": 13.3
         }
       ],
       "callInTimeS": null,
@@ -20493,7 +20504,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20519,7 +20530,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20545,7 +20556,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_vi",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20597,7 +20608,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "heavy",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20623,7 +20634,7 @@
             "type": "Fire"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20642,11 +20653,11 @@
         }
       ],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "14s",
         "General › Call-in Time": "Unknown seconds",
         "General › Uses": "5",
-        "General › Cooldown › Standard": "0 seconds",
-        "General › Cooldown › With Morale Augmentation": "0 seconds",
+        "General › Cooldown › Standard": "14 seconds",
+        "General › Cooldown › With Morale Augmentation": "13.3 seconds",
         "SEAF Gun Explosive › Projectile › Mass": "70 kg",
         "SEAF Gun Explosive › Projectile › Initial Velocity": "300 m/s",
         "SEAF Gun Explosive › Projectile › Drag Factor": "50%",
@@ -20668,7 +20679,9 @@
         "SEAF Gun Explosive › Damage › Inner Durable": "1500 Explosion",
         "SEAF Gun Explosive › Damage › Outer Radius": "1499 - 0",
         "SEAF Gun Explosive › Damage › Outer Durable": "1499 - 0",
-        "SEAF Gun Explosive › Penetration › Direct (2)": "Anti-Tank II",
+        "SEAF Gun Explosive › Penetration › Inner AP": "Anti-Tank II",
+        "SEAF Gun Explosive › Penetration › Outer AP": "Anti-Tank I",
+        "SEAF Gun Explosive › Penetration › Shockwave AP": "Anti-Tank II",
         "SEAF Gun Explosive › AoE Effect › Demolition Force": "50",
         "SEAF Gun Explosive › AoE Effect › Stagger Force": "70",
         "SEAF Gun Explosive › AoE Effect › Push Force": "60",
@@ -20679,7 +20692,9 @@
         "SEAF Gun High Yield Explosive › Damage › Inner Durable": "1500 Explosion",
         "SEAF Gun High Yield Explosive › Damage › Outer Radius": "1499 - 0",
         "SEAF Gun High Yield Explosive › Damage › Outer Durable": "1499 - 0",
-        "SEAF Gun High Yield Explosive › Penetration › Direct": "Anti-Tank II",
+        "SEAF Gun High Yield Explosive › Penetration › Inner AP": "Anti-Tank II",
+        "SEAF Gun High Yield Explosive › Penetration › Outer AP": "Anti-Tank I",
+        "SEAF Gun High Yield Explosive › Penetration › Shockwave AP": "Anti-Tank II",
         "SEAF Gun High Yield Explosive › AoE Effect › Demolition Force": "50",
         "SEAF Gun High Yield Explosive › AoE Effect › Stagger Force": "100",
         "SEAF Gun High Yield Explosive › AoE Effect › Push Force": "40",
@@ -20690,7 +20705,9 @@
         "SEAF Gun Mini Nuke › Damage › Inner Durable": "10000 Explosion",
         "SEAF Gun Mini Nuke › Damage › Outer Radius": "9999 - 0",
         "SEAF Gun Mini Nuke › Damage › Outer Durable": "9999 - 0",
-        "SEAF Gun Mini Nuke › Penetration › Direct": "Anti-Tank VI",
+        "SEAF Gun Mini Nuke › Penetration › Inner AP": "Anti-Tank VI",
+        "SEAF Gun Mini Nuke › Penetration › Outer AP": "Anti-Tank V",
+        "SEAF Gun Mini Nuke › Penetration › Shockwave AP": "Anti-Tank VI",
         "SEAF Gun Mini Nuke › AoE Effect › Demolition Force": "60",
         "SEAF Gun Mini Nuke › AoE Effect › Stagger Force": "50",
         "SEAF Gun Mini Nuke › AoE Effect › Push Force": "100",
@@ -20702,7 +20719,9 @@
         "SEAF Gun EMP › Area of Effect › Shockwave Radius": "20 m",
         "SEAF Gun EMP › Damage › Inner Radius": "0 Explosion",
         "SEAF Gun EMP › Damage › Inner Durable": "0 Explosion",
-        "SEAF Gun EMP › Penetration › Direct": "Heavy",
+        "SEAF Gun EMP › Penetration › Inner AP": "Heavy",
+        "SEAF Gun EMP › Penetration › Outer AP": "Medium",
+        "SEAF Gun EMP › Penetration › Shockwave AP": "Heavy",
         "SEAF Gun EMP › AoE Effect › Status": "Stun Medium",
         "SEAF Gun EMP › AoE Effect › Status (2)": "Stun Medium",
         "SEAF Gun EMP › AoE Effect › Status Strength": "100",
@@ -20717,7 +20736,9 @@
         "SEAF Gun Napalm › Damage › Inner Durable": "250 Fire",
         "SEAF Gun Napalm › Damage › Outer Radius": "249 - 0",
         "SEAF Gun Napalm › Damage › Outer Durable": "249 - 0",
-        "SEAF Gun Napalm › Penetration › Direct": "Medium",
+        "SEAF Gun Napalm › Penetration › Inner AP": "Medium",
+        "SEAF Gun Napalm › Penetration › Outer AP": "Light",
+        "SEAF Gun Napalm › Penetration › Shockwave AP": "Medium",
         "SEAF Gun Napalm › AoE Effect › Status": "Fire",
         "SEAF Gun Napalm › AoE Effect › Status (2)": "Fire",
         "SEAF Gun Napalm › AoE Effect › Status Strength": "100",
@@ -20783,7 +20804,7 @@
       "backpack": null,
       "attacks": [],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "N/A",
         "General › Call-in Time": "10 seconds",
         "General › Uses": "1",
         "General › Cooldown › Standard": "0 seconds",
@@ -21192,16 +21213,14 @@
         "down",
         "down",
         "down",
-        "down",
-        "down",
         "up",
         "up"
       ],
-      "cooldownS": 0,
+      "cooldownS": 8,
       "cooldownVariants": [
         {
           "label": "With Morale Augmentation",
-          "seconds": 0
+          "seconds": 7.6
         }
       ],
       "callInTimeS": 4,
@@ -21213,11 +21232,11 @@
       "backpack": null,
       "attacks": [],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "8s",
         "General › Call-in Time": "4 seconds",
         "General › Uses": "1",
-        "General › Cooldown › Standard": "0 seconds",
-        "General › Cooldown › With Morale Augmentation": "0 seconds"
+        "General › Cooldown › Standard": "8 seconds",
+        "General › Cooldown › With Morale Augmentation": "7.6 seconds"
       },
       "source": {
         "type": "other",
@@ -21565,7 +21584,7 @@
       "name": "Super Earth Flag",
       "upcoming": false,
       "aliases": [],
-      "description": "The Super Earth Flag Stratagem is used to call down the Flag in the Spread Democracy, Free Colony, and Democratize the Void missions.",
+      "description": "The Super Earth Flag Stratagem is used to call down the Flag in the Spread Democracy, Free Colony, Seize Industrial Complex and Democratize the Void missions.",
       "image": {
         "url": "/images/v1/stratagems/super-earth-flag.a7811b5e.webp",
         "width": 256,
@@ -21604,7 +21623,7 @@
       "backpack": null,
       "attacks": [],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "N/A",
         "General › Call-in Time": "10 seconds",
         "General › Uses": "1",
         "General › Cooldown › Standard": "0 seconds",
@@ -21653,7 +21672,7 @@
         "left",
         "up"
       ],
-      "cooldownS": 0,
+      "cooldownS": null,
       "cooldownVariants": [],
       "callInTimeS": null,
       "callInTimeUpgradedS": null,
@@ -21666,7 +21685,7 @@
       "statsRaw": {
         "Permit Type": "Supply",
         "Traits": "Hellpod",
-        "Base Cooldown": "0s"
+        "Base Cooldown": "N/A"
       },
       "source": {
         "type": "other",
@@ -21739,7 +21758,7 @@
       "backpack": null,
       "attacks": [
         {
-          "name": "GATLING P",
+          "name": "P11",
           "kind": "projectile",
           "damage": {
             "standard": 150,
@@ -21766,6 +21785,32 @@
             "stagger": 25,
             "push": 20
           }
+        },
+        {
+          "name": "SWP MAELSTROMIII E",
+          "kind": "explosion",
+          "damage": {
+            "standard": 2000,
+            "durable": 2000,
+            "type": "Explosion"
+          },
+          "penetration": {
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
+          },
+          "projectile": null,
+          "area": {
+            "innerRadiusM": 3,
+            "outerRadiusM": 5,
+            "shockwaveRadiusM": 10
+          },
+          "forces": {
+            "demolition": 40,
+            "stagger": 50,
+            "push": 70
+          }
         }
       ],
       "statsRaw": {
@@ -21776,29 +21821,67 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "780 seconds",
         "General › Cooldown › With Morale Augmentation": "741 seconds",
-        "MAELSTROM GATLING › Fire Rate": "1200 rpm (600 rpm per gun)",
-        "MAELSTROM GATLING › Recoil": "Nonexistent",
-        "MAELSTROM GATLING › Spread": "↔[10.00] ↕[10.00]",
-        "MAELSTROM GATLING › Noise": "Medium (~50m, small)",
-        "MAELSTROM GATLING › Capacity": "300",
-        "MAELSTROM GATLING › Spare Magazines": "7",
-        "MAELSTROM GATLING › Wind Up Time": "0.5s",
-        "MAELSTROM GATLING › Wind Down Time": "0.5s",
-        "MAELSTROM GATLING › Attacks › GATLING P": "Projectile",
-        "GATLING P › Projectile › Mass": "52 g",
-        "GATLING P › Projectile › Initial Velocity": "980 m/s",
-        "GATLING P › Projectile › Drag Factor": "30%",
-        "GATLING P › Projectile › Gravity Factor": "100%",
-        "GATLING P › Projectile › Penetration Slowdown": "25%",
-        "GATLING P › Damage › Standard": "150 Ballistic",
-        "GATLING P › Damage › vs. Durable": "35 Ballistic",
-        "GATLING P › Penetration › Direct": "Heavy",
-        "GATLING P › Penetration › Slight Angle": "Heavy",
-        "GATLING P › Penetration › Large Angle": "Heavy",
-        "GATLING P › Penetration › Extreme Angle": "Unarmored",
-        "GATLING P › Special Effects › Demolition Force": "15",
-        "GATLING P › Special Effects › Stagger Force": "25",
-        "GATLING P › Special Effects › Push Force": "20"
+        "MAELSTROM › Cooldown": "780 s",
+        "MAELSTROM › Uses": "∞",
+        "MAELSTROM › Main Health": "8000",
+        "MAELSTROM › Main Armor": "Heavy",
+        "MAELSTROM › SWP MAELSTROM › Main Health": "100000",
+        "MAELSTROM › SWP MAELSTROM › Main Armor": "Medium",
+        "MAELSTROM › SWP MAELSTROM › Fire Rate": "1200 rpm",
+        "MAELSTROM › SWP MAELSTROM › Recoil": "1",
+        "MAELSTROM › SWP MAELSTROM › Horizontal Recoil": "0",
+        "MAELSTROM › SWP MAELSTROM › Vertical Recoil": "2",
+        "MAELSTROM › SWP MAELSTROM › Spread": "↔[10.00] ↕[10.00]",
+        "MAELSTROM › SWP MAELSTROM › Sway": "0",
+        "MAELSTROM › SWP MAELSTROM › Ergonomics": "65",
+        "MAELSTROM › SWP MAELSTROM › Noise When Firing": "Medium (~48m)",
+        "MAELSTROM › SWP MAELSTROM › Turret Turn Speed": "↔[35.00]°/s ↕[25.00]°/s",
+        "MAELSTROM › SWP MAELSTROM › Elevation Range": "[-3.00]° to [25.00]°",
+        "MAELSTROM › SWP MAELSTROM › Traverse Range": "[-20.00]° to [20.00]°",
+        "MAELSTROM › SWP MAELSTROM › Capacity": "300",
+        "MAELSTROM › SWP MAELSTROM › Barrels": "x 2",
+        "MAELSTROM › SWP MAELSTROM › P11": "Projectile",
+        "MAELSTROM › SWP MAELSTROMIII › Main Health": "100000",
+        "MAELSTROM › SWP MAELSTROMIII › Main Armor": "Unarmored",
+        "MAELSTROM › SWP MAELSTROMIII › Fire Rate": "240 rpm",
+        "MAELSTROM › SWP MAELSTROMIII › Recoil": "0",
+        "MAELSTROM › SWP MAELSTROMIII › Horizontal Recoil": "0",
+        "MAELSTROM › SWP MAELSTROMIII › Vertical Recoil": "0",
+        "MAELSTROM › SWP MAELSTROMIII › Spread": "↔[0.00] ↕[0.00]",
+        "MAELSTROM › SWP MAELSTROMIII › Sway": "0",
+        "MAELSTROM › SWP MAELSTROMIII › Ergonomics": "65",
+        "MAELSTROM › SWP MAELSTROMIII › Noise When Firing": "Medium (~48m)",
+        "MAELSTROM › SWP MAELSTROMIII › Capacity": "10",
+        "MAELSTROM › SWP MAELSTROMIII › Barrels": "x 10",
+        "MAELSTROM › SWP MAELSTROMIII › SWP MAELSTROMIII E": "Explosion",
+        "P11 › Projectile › Mass": "52 g",
+        "P11 › Projectile › Initial Velocity": "980 m/s",
+        "P11 › Projectile › Drag Factor": "30%",
+        "P11 › Projectile › Gravity Factor": "100%",
+        "P11 › Projectile › Penetration Slowdown": "25%",
+        "P11 › Damage › Standard": "150 Ballistic",
+        "P11 › Damage › vs. Durable": "35 Ballistic",
+        "P11 › Penetration › Direct": "Heavy",
+        "P11 › Penetration › Slight Angle": "Heavy",
+        "P11 › Penetration › Large Angle": "Heavy",
+        "P11 › Penetration › Extreme Angle": "Unarmored",
+        "P11 › Special Effects › Demolition Force": "15",
+        "P11 › Special Effects › Stagger Force": "25",
+        "P11 › Special Effects › Push Force": "20",
+        "SWP MAELSTROMIII E › Area of Effect › Inner Radius": "3 m",
+        "SWP MAELSTROMIII E › Area of Effect › Outer Radius": "5 m",
+        "SWP MAELSTROMIII E › Area of Effect › Shockwave Radius": "10 m",
+        "SWP MAELSTROMIII E › Damage › Damage Element": "None",
+        "SWP MAELSTROMIII E › Damage › Inner Radius": "2000 Explosion",
+        "SWP MAELSTROMIII E › Damage › Inner Durable": "2000 Explosion",
+        "SWP MAELSTROMIII E › Damage › Outer Radius": "1999 - 0",
+        "SWP MAELSTROMIII E › Damage › Outer Durable": "1999 - 0",
+        "SWP MAELSTROMIII E › Penetration › Inner AP": "Anti-Tank I",
+        "SWP MAELSTROMIII E › Penetration › Outer AP": "Heavy",
+        "SWP MAELSTROMIII E › Penetration › Shockwave AP": "Anti-Tank I",
+        "SWP MAELSTROMIII E › AoE Effect › Demolition Force": "40",
+        "SWP MAELSTROMIII E › AoE Effect › Stagger Force": "50",
+        "SWP MAELSTROMIII E › AoE Effect › Push Force": "70"
       },
       "source": {
         "type": "event",
@@ -21909,7 +21992,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_i",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -21978,6 +22061,9 @@
         "BASTION MK XVI › SWP BASTION MK XVI › Spread": "↔[10.00] ↕[10.00]",
         "BASTION MK XVI › SWP BASTION MK XVI › Sway": "0",
         "BASTION MK XVI › SWP BASTION MK XVI › Ergonomics": "65",
+        "BASTION MK XVI › SWP BASTION MK XVI › Turret Turn Speed": "↔[35.00]°/s ↕[25.00]°/s",
+        "BASTION MK XVI › SWP BASTION MK XVI › Elevation Range": "[-3.00]° to [25.00]°",
+        "BASTION MK XVI › SWP BASTION MK XVI › Traverse Range": "[-20.00]° to [20.00]°",
         "BASTION MK XVI › SWP BASTION MK XVI › Capacity": "1",
         "BASTION MK XVI › SWP BASTION MK XVI › 120mm HE CANNON ROUND P": "Projectile",
         "BASTION MK XVI › SWP BASTION MK XVI › 120mm HE CANNON ROUND P IE": "Explosion",
@@ -22013,7 +22099,9 @@
         "120mm HE CANNON ROUND P IE › Damage › Inner Durable": "750 Explosion",
         "120mm HE CANNON ROUND P IE › Damage › Outer Radius": "749 - 0",
         "120mm HE CANNON ROUND P IE › Damage › Outer Durable": "749 - 0",
-        "120mm HE CANNON ROUND P IE › Penetration › Direct": "Anti-Tank I",
+        "120mm HE CANNON ROUND P IE › Penetration › Inner AP": "Anti-Tank I",
+        "120mm HE CANNON ROUND P IE › Penetration › Outer AP": "Heavy",
+        "120mm HE CANNON ROUND P IE › Penetration › Shockwave AP": "Anti-Tank I",
         "120mm HE CANNON ROUND P IE › AoE Effect › Demolition Force": "40",
         "120mm HE CANNON ROUND P IE › AoE Effect › Stagger Force": "70",
         "120mm HE CANNON ROUND P IE › AoE Effect › Push Force": "40",
@@ -22398,7 +22486,7 @@
       "backpack": null,
       "attacks": [],
       "statsRaw": {
-        "Base Cooldown": "0s",
+        "Base Cooldown": "N/A",
         "General › Call-in Time": "4 seconds",
         "General › Uses": "1",
         "General › Cooldown › Standard": "0 seconds",

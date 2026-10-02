@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -154,7 +154,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "heavy",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -199,7 +199,7 @@
       "GL-28 BELT-FED GRENADE LAUNCHER › Spread": "↔[4.00] ↕[4.00]",
       "GL-28 BELT-FED GRENADE LAUNCHER › Sway": "1",
       "GL-28 BELT-FED GRENADE LAUNCHER › Ergonomics": "20",
-      "GL-28 BELT-FED GRENADE LAUNCHER › Noise": "Medium (~48m)",
+      "GL-28 BELT-FED GRENADE LAUNCHER › Noise When Firing": "Medium (~48m)",
       "GL-28 BELT-FED GRENADE LAUNCHER › Capacity": "120",
       "GL-28 BELT-FED GRENADE LAUNCHER › Attacks › GL-28 P": "Projectile",
       "GL-28 BELT-FED GRENADE LAUNCHER › Attacks › GL-28 P IE": "Explosion",
@@ -209,6 +209,7 @@
       "GL-28 P › Projectile › Gravity Factor": "100%",
       "GL-28 P › Projectile › Penetration Slowdown": "25%",
       "GL-28 P › Projectile › Explosion On Impact": "GL-28_P_IE",
+      "GL-28 P › Projectile › Arming Distance": "5 m",
       "GL-28 P › Damage › Standard": "0 Ballistic",
       "GL-28 P › Damage › vs. Durable": "0 Ballistic",
       "GL-28 P › Penetration › Direct": "Heavy",
@@ -226,7 +227,9 @@
       "GL-28 P IE › Damage › Inner Durable": "150 Explosion",
       "GL-28 P IE › Damage › Outer Radius": "149 - 0",
       "GL-28 P IE › Damage › Outer Durable": "149 - 0",
-      "GL-28 P IE › Penetration › Direct": "Heavy",
+      "GL-28 P IE › Penetration › Inner AP": "Heavy",
+      "GL-28 P IE › Penetration › Outer AP": "Medium",
+      "GL-28 P IE › Penetration › Shockwave AP": "Heavy",
       "GL-28 P IE › AoE Effect › Demolition Force": "30",
       "GL-28 P IE › AoE Effect › Stagger Force": "20",
       "GL-28 P IE › AoE Effect › Push Force": "20"

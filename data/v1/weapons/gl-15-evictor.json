@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -105,7 +105,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -148,7 +148,7 @@
       "GL-15 EVICTOR › Spread": "↔[15.00] ↕[12.00]",
       "GL-15 EVICTOR › Sway": "1",
       "GL-15 EVICTOR › Ergonomics": "65",
-      "GL-15 EVICTOR › Noise": "Medium (~48m)",
+      "GL-15 EVICTOR › Noise When Firing": "Medium (~48m)",
       "GL-15 EVICTOR › Capacity": "4",
       "GL-15 EVICTOR › Spare Rounds": "32",
       "GL-15 EVICTOR › Starting Rounds": "24",
@@ -163,6 +163,7 @@
       "GL-15 P › Projectile › Penetration Slowdown": "25%",
       "GL-15 P › Projectile › Explosion On Impact": "GL-15_P_IE",
       "GL-15 P › Projectile › Explode After": "GL-15_P_IE",
+      "GL-15 P › Projectile › Arming Distance": "7 m",
       "GL-15 P › Damage › Standard": "50 Ballistic",
       "GL-15 P › Damage › vs. Durable": "2 Ballistic",
       "GL-15 P › Penetration › Direct": "Medium",
@@ -180,7 +181,9 @@
       "GL-15 P IE › Damage › Inner Durable": "440 Explosion",
       "GL-15 P IE › Damage › Outer Radius": "439 - 0",
       "GL-15 P IE › Damage › Outer Durable": "439 - 0",
-      "GL-15 P IE › Penetration › Direct": "Medium",
+      "GL-15 P IE › Penetration › Inner AP": "Medium",
+      "GL-15 P IE › Penetration › Outer AP": "Light",
+      "GL-15 P IE › Penetration › Shockwave AP": "Medium",
       "GL-15 P IE › AoE Effect › Demolition Force": "30",
       "GL-15 P IE › AoE Effect › Stagger Force": "25",
       "GL-15 P IE › AoE Effect › Push Force": "30"

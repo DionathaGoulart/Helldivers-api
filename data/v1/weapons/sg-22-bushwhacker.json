@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
       "SG-22 BUSHWHACKER › Spread": "↔[200.00] ↕[150.00]",
       "SG-22 BUSHWHACKER › Sway": "1",
       "SG-22 BUSHWHACKER › Ergonomics": "65",
-      "SG-22 BUSHWHACKER › Noise": "Small (~33m)",
+      "SG-22 BUSHWHACKER › Noise When Firing": "Small (~33m)",
       "SG-22 BUSHWHACKER › Capacity": "3",
       "SG-22 BUSHWHACKER › Spare Rounds": "30",
       "SG-22 BUSHWHACKER › Starting Rounds": "30",

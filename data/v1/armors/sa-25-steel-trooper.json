@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "For optimal performance, the manufacturer recommends avoiding immersing this armor in salt water for prolonged periods.",
     "image": {
-      "url": "/images/v1/armors/sa-25-steel-trooper.0e3ac705.webp",
+      "url": "/images/v1/armors/sa-25-steel-trooper.9c50f106.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "SA-25_Steel_Trooper_Armor_Render.png"

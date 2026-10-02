@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "count": 111,
     "source": {
       "name": "The Helldivers Wiki",
@@ -259,7 +259,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",
+        "url": "/images/v1/helmets/af-02-haz-master.49554577.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "AF-02_Haz-Master_Helmet_Render.png"
@@ -292,7 +292,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/af-50-noxious-ranger.2ad0a707.webp",
+        "url": "/images/v1/helmets/af-50-noxious-ranger.422906fb.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "AF-50_Noxious_Ranger_Helmet_Render.png"
@@ -550,7 +550,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/bfm-16-tanker.7257a6a5.webp",
+        "url": "/images/v1/helmets/bfm-16-tanker.f21bfd36.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "BFM-16_Tanker_Helmet_Render.png"
@@ -583,7 +583,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/bfm-220-ironclad.2174e50b.webp",
+        "url": "/images/v1/helmets/bfm-220-ironclad.4453a5c6.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "BFM-220_Ironclad_Helmet_Render.png"
@@ -616,7 +616,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/bfm-77-reformer.9ea1d346.webp",
+        "url": "/images/v1/helmets/bfm-77-reformer.2ee4fb20.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "BFM-77_Reformer_Helmet_Render.png"
@@ -820,7 +820,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ce-27-ground-breaker.ddfefc38.webp",
+        "url": "/images/v1/helmets/ce-27-ground-breaker.151e2c28.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CE-27_Ground_Breaker_Helmet_Render.png"
@@ -853,7 +853,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ce-35-trench-engineer.5acea828.webp",
+        "url": "/images/v1/helmets/ce-35-trench-engineer.04faa1b6.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CE-35_Trench_Engineer_Helmet_Render.png"
@@ -886,7 +886,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ce-64-grenadier.a616cf5d.webp",
+        "url": "/images/v1/helmets/ce-64-grenadier.6e7f184f.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CE-64_Grenadier_Helmet_Render.png"
@@ -985,7 +985,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ce-81-juggernaut.3524c8fc.webp",
+        "url": "/images/v1/helmets/ce-81-juggernaut.204dc6a6.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CE-81_Juggernaut_Helmet_Render.png"
@@ -1018,7 +1018,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/cm-09-bonesnapper.417196ee.webp",
+        "url": "/images/v1/helmets/cm-09-bonesnapper.8f83e2a1.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CM-09_Bonesnapper_Helmet_Render.png"
@@ -1150,7 +1150,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/cm-21-trench-paramedic.4d4398e7.webp",
+        "url": "/images/v1/helmets/cm-21-trench-paramedic.ea9d55bf.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CM-21_Trench_Paramedic_Helmet_Render.png"
@@ -1288,7 +1288,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/cw-22-kodiak.fd4e86db.webp",
+        "url": "/images/v1/helmets/cw-22-kodiak.4873a60f.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CW-22_Kodiak_Helmet_Render.png"
@@ -1321,7 +1321,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/cw-36-winter-warrior.88078014.webp",
+        "url": "/images/v1/helmets/cw-36-winter-warrior.1fa619e2.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CW-36_Winter_Warrior_Helmet_Render.png"
@@ -1354,7 +1354,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/cw-4-arctic-ranger.dc11383c.webp",
+        "url": "/images/v1/helmets/cw-4-arctic-ranger.f5d13eae.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "CW-4_Arctic_Ranger_Helmet_Render.png"
@@ -1420,7 +1420,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/dp-00-tactical.ee584f20.webp",
+        "url": "/images/v1/helmets/dp-00-tactical.bf85ed25.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "DP-00_Tactical_Helmet_Render.png"
@@ -1654,7 +1654,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ds-42-federations-blade.fa3c0e81.webp",
+        "url": "/images/v1/helmets/ds-42-federations-blade.d92898bd.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "DS-42_Federation's_Blade_Helmet_Render.png"
@@ -1755,7 +1755,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ex-16-prototype-16.66be17d6.webp",
+        "url": "/images/v1/helmets/ex-16-prototype-16.ecda3a3d.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "EX-16_Prototype_16_Helmet_Render.png"
@@ -2382,7 +2382,7 @@
       "aliases": [],
       "description": "A helmet worn by the pioneering Helldivers who first ventured into the Void. Designed by Super Earth scientists with liberated Illuminate blueprints.",
       "image": {
-        "url": "/images/v1/helmets/ix-voidwalker.4242f2fd.webp",
+        "url": "/images/v1/helmets/ix-voidwalker.9bc63e70.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "IX-Voidwalker_Helmet_Render.png"
@@ -2506,7 +2506,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/o-44-bonded-pilot.4e6b8339.webp",
+        "url": "/images/v1/helmets/o-44-bonded-pilot.a7b7e470.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "O-44_Bonded_Pilot_Helmet_Render.png"
@@ -2572,7 +2572,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/ph-56-jaguar.903a4a91.webp",
+        "url": "/images/v1/helmets/ph-56-jaguar.bda540a8.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "PH-56_Jaguar_Helmet_Render.png"
@@ -3001,7 +3001,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/sa-25-steel-trooper.2b0cee0a.webp",
+        "url": "/images/v1/helmets/sa-25-steel-trooper.6f2bda34.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "SA-25_Steel_Trooper_Helmet_Render.png"
@@ -3460,7 +3460,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/tr-40-gold-eagle.97122474.webp",
+        "url": "/images/v1/helmets/tr-40-gold-eagle.4eef64f1.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "TR-40_Gold_Eagle_Helmet_Render.png"
@@ -3490,7 +3490,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/tr-62-knight.b549dcb7.webp",
+        "url": "/images/v1/helmets/tr-62-knight.b9c4f0bb.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "TR-62_Knight_Helmet_Render.png"
@@ -3520,7 +3520,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.e0bf04a4.webp",
+        "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.c8d7bb04.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "TR-7_Ambassador_of_the_Brand_Helmet_Render.png"
@@ -3550,7 +3550,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.aa0a4f01.webp",
+        "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.cdfa8489.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "TR-9_Cavalier_of_Democracy_Helmet_Render.png"
@@ -3613,7 +3613,7 @@
       "aliases": [],
       "description": null,
       "image": {
-        "url": "/images/v1/helmets/uf-50-bloodhound.87197d51.webp",
+        "url": "/images/v1/helmets/uf-50-bloodhound.ae6a9e80.webp",
         "width": 512,
         "height": 512,
         "wikiFile": "UF-50_Bloodhound_Helmet_Render.png"

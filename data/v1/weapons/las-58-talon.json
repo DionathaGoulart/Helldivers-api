@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -118,7 +118,7 @@
       "LAS-58 TALON › Spread": "↔[10.00] ↕[10.00]",
       "LAS-58 TALON › Sway": "1",
       "LAS-58 TALON › Ergonomics": "95",
-      "LAS-58 TALON › Noise": "Small (~33m)",
+      "LAS-58 TALON › Noise When Firing": "Small (~33m)",
       "LAS-58 TALON › Spare Magazines": "3",
       "LAS-58 TALON › Starting Magazines": "2",
       "LAS-58 TALON › Mags from Supply": "6",

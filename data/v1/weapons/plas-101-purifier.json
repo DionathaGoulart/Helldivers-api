@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -103,7 +103,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -124,8 +124,8 @@
         "name": "PLAS-101 P",
         "kind": "projectile",
         "damage": {
-          "standard": 100,
-          "durable": 50,
+          "standard": 200,
+          "durable": 100,
           "type": "Ballistic"
         },
         "penetration": {
@@ -158,9 +158,9 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
-          "slightAngle": "medium",
-          "largeAngle": "medium",
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
           "extremeAngle": null
         },
         "projectile": null,
@@ -199,15 +199,14 @@
       "PLAS-101 PURIFIER › Spread": "↔[10.00] ↕[10.00]",
       "PLAS-101 PURIFIER › Sway": "1",
       "PLAS-101 PURIFIER › Ergonomics": "65",
-      "PLAS-101 PURIFIER › Noise": "Medium (~48m)",
+      "PLAS-101 PURIFIER › Noise When Firing": "Medium (~48m)",
       "PLAS-101 PURIFIER › Capacity": "15",
       "PLAS-101 PURIFIER › Spare Magazines": "6",
       "PLAS-101 PURIFIER › Starting Magazines": "4",
       "PLAS-101 PURIFIER › Mags from Supply": "6",
       "PLAS-101 PURIFIER › Mags from Ammo Box": "3",
-      "PLAS-101 PURIFIER › Charge › at (0.01)s": "P× 0.50 dmg",
-      "PLAS-101 PURIFIER › Charge › at (1.00)s": "PLAS-101_P× 1.00 dmg",
-      "PLAS-101 PURIFIER › Charge › at (1.00)s (2)": "PLAS-101_P× 1.00 dmg",
+      "PLAS-101 PURIFIER › Charge › at (0.01)s": "0.50 dmg × P",
+      "PLAS-101 PURIFIER › Charge › at (1.00)s": "1.00 dmg × PLAS-101_P",
       "PLAS-101 PURIFIER › Charge › Speed Mult Range": "(1.00) (1.00)",
       "PLAS-101 PURIFIER › Charge › Distance Mult Range": "(0.70) (1.40)",
       "PLAS-101 PURIFIER › Charge › Damage Mult Range": "(0.50) (1.00)",
@@ -238,7 +237,9 @@
       "P IE › Damage › Inner Durable": "75 Explosion",
       "P IE › Damage › Outer Radius": "74 - 0",
       "P IE › Damage › Outer Durable": "74 - 0",
-      "P IE › Penetration › Direct": "Medium",
+      "P IE › Penetration › Inner AP": "Medium",
+      "P IE › Penetration › Outer AP": "Light",
+      "P IE › Penetration › Shockwave AP": "Medium",
       "P IE › AoE Effect › Demolition Force": "10",
       "P IE › AoE Effect › Stagger Force": "10",
       "P IE › AoE Effect › Push Force": "7",
@@ -248,8 +249,8 @@
       "PLAS-101 P › Projectile › Gravity Factor": "100%",
       "PLAS-101 P › Projectile › Penetration Slowdown": "35%",
       "PLAS-101 P › Projectile › Explosion On Impact": "PLAS-101_P_IE",
-      "PLAS-101 P › Damage › Standard": "100 Ballistic",
-      "PLAS-101 P › Damage › vs. Durable": "50 Ballistic",
+      "PLAS-101 P › Damage › Standard": "200 Ballistic",
+      "PLAS-101 P › Damage › vs. Durable": "100 Ballistic",
       "PLAS-101 P › Penetration › Direct": "Medium",
       "PLAS-101 P › Penetration › Slight Angle": "Medium",
       "PLAS-101 P › Penetration › Large Angle": "Medium",
@@ -265,9 +266,9 @@
       "PLAS-101 P IE › Damage › Inner Durable": "300 Explosion",
       "PLAS-101 P IE › Damage › Outer Radius": "299 - 0",
       "PLAS-101 P IE › Damage › Outer Durable": "299 - 0",
-      "PLAS-101 P IE › Penetration › Direct": "Medium",
-      "PLAS-101 P IE › Penetration › Slight Angle": "Medium",
-      "PLAS-101 P IE › Penetration › Large Angle": "Medium",
+      "PLAS-101 P IE › Penetration › Inner AP": "Medium",
+      "PLAS-101 P IE › Penetration › Outer AP": "Light",
+      "PLAS-101 P IE › Penetration › Shockwave AP": "Medium",
       "PLAS-101 P IE › AoE Effect › Demolition Force": "10",
       "PLAS-101 P IE › AoE Effect › Stagger Force": "35",
       "PLAS-101 P IE › AoE Effect › Push Force": "30"

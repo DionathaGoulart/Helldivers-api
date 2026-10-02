@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -127,7 +127,7 @@
       "ARC-12 BLITZER › Spread": "↔[1350.00] ↕[350.00]",
       "ARC-12 BLITZER › Sway": "1",
       "ARC-12 BLITZER › Ergonomics": "65",
-      "ARC-12 BLITZER › Noise": "Medium (~48m)",
+      "ARC-12 BLITZER › Noise When Firing": "Medium (~48m)",
       "ARC-12 BLITZER › Barrels": "x 5",
       "ARC-12 BLITZER › Attacks › ARC-12 BLITZER A": "Arc",
       "ARC-12 BLITZER › Attacks › Stun Small": "status",

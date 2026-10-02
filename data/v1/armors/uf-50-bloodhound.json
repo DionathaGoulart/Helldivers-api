@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "Users are advised not to scratch at the lacquer, as the Red 20,000 pigment that gives this armor its signature sheen may be correlated with rapid DNA unspooling.",
     "image": {
-      "url": "/images/v1/armors/uf-50-bloodhound.9f1e6710.webp",
+      "url": "/images/v1/armors/uf-50-bloodhound.486a699e.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "UF-50_Bloodhound_Armor_Render.png"

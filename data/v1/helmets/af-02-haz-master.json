@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": null,
     "image": {
-      "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",
+      "url": "/images/v1/helmets/af-02-haz-master.49554577.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "AF-02_Haz-Master_Helmet_Render.png"

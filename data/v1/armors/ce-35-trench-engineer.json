@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "After colonists of Hellmire recovered a lost shipment of this armor, the local pastime of fence-smashing was born.",
     "image": {
-      "url": "/images/v1/armors/ce-35-trench-engineer.35ea405f.webp",
+      "url": "/images/v1/armors/ce-35-trench-engineer.1c097b18.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "CE-35_Trench_Engineer_Armor_Render.png"

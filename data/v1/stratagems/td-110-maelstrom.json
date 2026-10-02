@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -70,7 +70,7 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "GATLING P",
+        "name": "P11",
         "kind": "projectile",
         "damage": {
           "standard": 150,
@@ -97,6 +97,32 @@
           "stagger": 25,
           "push": 20
         }
+      },
+      {
+        "name": "SWP MAELSTROMIII E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 2000,
+          "durable": 2000,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 5,
+          "shockwaveRadiusM": 10
+        },
+        "forces": {
+          "demolition": 40,
+          "stagger": 50,
+          "push": 70
+        }
       }
     ],
     "statsRaw": {
@@ -107,29 +133,67 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "780 seconds",
       "General › Cooldown › With Morale Augmentation": "741 seconds",
-      "MAELSTROM GATLING › Fire Rate": "1200 rpm (600 rpm per gun)",
-      "MAELSTROM GATLING › Recoil": "Nonexistent",
-      "MAELSTROM GATLING › Spread": "↔[10.00] ↕[10.00]",
-      "MAELSTROM GATLING › Noise": "Medium (~50m, small)",
-      "MAELSTROM GATLING › Capacity": "300",
-      "MAELSTROM GATLING › Spare Magazines": "7",
-      "MAELSTROM GATLING › Wind Up Time": "0.5s",
-      "MAELSTROM GATLING › Wind Down Time": "0.5s",
-      "MAELSTROM GATLING › Attacks › GATLING P": "Projectile",
-      "GATLING P › Projectile › Mass": "52 g",
-      "GATLING P › Projectile › Initial Velocity": "980 m/s",
-      "GATLING P › Projectile › Drag Factor": "30%",
-      "GATLING P › Projectile › Gravity Factor": "100%",
-      "GATLING P › Projectile › Penetration Slowdown": "25%",
-      "GATLING P › Damage › Standard": "150 Ballistic",
-      "GATLING P › Damage › vs. Durable": "35 Ballistic",
-      "GATLING P › Penetration › Direct": "Heavy",
-      "GATLING P › Penetration › Slight Angle": "Heavy",
-      "GATLING P › Penetration › Large Angle": "Heavy",
-      "GATLING P › Penetration › Extreme Angle": "Unarmored",
-      "GATLING P › Special Effects › Demolition Force": "15",
-      "GATLING P › Special Effects › Stagger Force": "25",
-      "GATLING P › Special Effects › Push Force": "20"
+      "MAELSTROM › Cooldown": "780 s",
+      "MAELSTROM › Uses": "∞",
+      "MAELSTROM › Main Health": "8000",
+      "MAELSTROM › Main Armor": "Heavy",
+      "MAELSTROM › SWP MAELSTROM › Main Health": "100000",
+      "MAELSTROM › SWP MAELSTROM › Main Armor": "Medium",
+      "MAELSTROM › SWP MAELSTROM › Fire Rate": "1200 rpm",
+      "MAELSTROM › SWP MAELSTROM › Recoil": "1",
+      "MAELSTROM › SWP MAELSTROM › Horizontal Recoil": "0",
+      "MAELSTROM › SWP MAELSTROM › Vertical Recoil": "2",
+      "MAELSTROM › SWP MAELSTROM › Spread": "↔[10.00] ↕[10.00]",
+      "MAELSTROM › SWP MAELSTROM › Sway": "0",
+      "MAELSTROM › SWP MAELSTROM › Ergonomics": "65",
+      "MAELSTROM › SWP MAELSTROM › Noise When Firing": "Medium (~48m)",
+      "MAELSTROM › SWP MAELSTROM › Turret Turn Speed": "↔[35.00]°/s ↕[25.00]°/s",
+      "MAELSTROM › SWP MAELSTROM › Elevation Range": "[-3.00]° to [25.00]°",
+      "MAELSTROM › SWP MAELSTROM › Traverse Range": "[-20.00]° to [20.00]°",
+      "MAELSTROM › SWP MAELSTROM › Capacity": "300",
+      "MAELSTROM › SWP MAELSTROM › Barrels": "x 2",
+      "MAELSTROM › SWP MAELSTROM › P11": "Projectile",
+      "MAELSTROM › SWP MAELSTROMIII › Main Health": "100000",
+      "MAELSTROM › SWP MAELSTROMIII › Main Armor": "Unarmored",
+      "MAELSTROM › SWP MAELSTROMIII › Fire Rate": "240 rpm",
+      "MAELSTROM › SWP MAELSTROMIII › Recoil": "0",
+      "MAELSTROM › SWP MAELSTROMIII › Horizontal Recoil": "0",
+      "MAELSTROM › SWP MAELSTROMIII › Vertical Recoil": "0",
+      "MAELSTROM › SWP MAELSTROMIII › Spread": "↔[0.00] ↕[0.00]",
+      "MAELSTROM › SWP MAELSTROMIII › Sway": "0",
+      "MAELSTROM › SWP MAELSTROMIII › Ergonomics": "65",
+      "MAELSTROM › SWP MAELSTROMIII › Noise When Firing": "Medium (~48m)",
+      "MAELSTROM › SWP MAELSTROMIII › Capacity": "10",
+      "MAELSTROM › SWP MAELSTROMIII › Barrels": "x 10",
+      "MAELSTROM › SWP MAELSTROMIII › SWP MAELSTROMIII E": "Explosion",
+      "P11 › Projectile › Mass": "52 g",
+      "P11 › Projectile › Initial Velocity": "980 m/s",
+      "P11 › Projectile › Drag Factor": "30%",
+      "P11 › Projectile › Gravity Factor": "100%",
+      "P11 › Projectile › Penetration Slowdown": "25%",
+      "P11 › Damage › Standard": "150 Ballistic",
+      "P11 › Damage › vs. Durable": "35 Ballistic",
+      "P11 › Penetration › Direct": "Heavy",
+      "P11 › Penetration › Slight Angle": "Heavy",
+      "P11 › Penetration › Large Angle": "Heavy",
+      "P11 › Penetration › Extreme Angle": "Unarmored",
+      "P11 › Special Effects › Demolition Force": "15",
+      "P11 › Special Effects › Stagger Force": "25",
+      "P11 › Special Effects › Push Force": "20",
+      "SWP MAELSTROMIII E › Area of Effect › Inner Radius": "3 m",
+      "SWP MAELSTROMIII E › Area of Effect › Outer Radius": "5 m",
+      "SWP MAELSTROMIII E › Area of Effect › Shockwave Radius": "10 m",
+      "SWP MAELSTROMIII E › Damage › Damage Element": "None",
+      "SWP MAELSTROMIII E › Damage › Inner Radius": "2000 Explosion",
+      "SWP MAELSTROMIII E › Damage › Inner Durable": "2000 Explosion",
+      "SWP MAELSTROMIII E › Damage › Outer Radius": "1999 - 0",
+      "SWP MAELSTROMIII E › Damage › Outer Durable": "1999 - 0",
+      "SWP MAELSTROMIII E › Penetration › Inner AP": "Anti-Tank I",
+      "SWP MAELSTROMIII E › Penetration › Outer AP": "Heavy",
+      "SWP MAELSTROMIII E › Penetration › Shockwave AP": "Anti-Tank I",
+      "SWP MAELSTROMIII E › AoE Effect › Demolition Force": "40",
+      "SWP MAELSTROMIII E › AoE Effect › Stagger Force": "50",
+      "SWP MAELSTROMIII E › AoE Effect › Push Force": "70"
     },
     "source": {
       "type": "event",

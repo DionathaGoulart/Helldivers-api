@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
       "R-6 DEADEYE › Spread": "↔[0.10] ↕[0.10]",
       "R-6 DEADEYE › Sway": "1",
       "R-6 DEADEYE › Ergonomics": "65",
-      "R-6 DEADEYE › Noise": "Medium (~48m)",
+      "R-6 DEADEYE › Noise When Firing": "Medium (~48m)",
       "R-6 DEADEYE › Capacity": "8",
       "R-6 DEADEYE › Spare Rounds": "60",
       "R-6 DEADEYE › Starting Rounds": "32",

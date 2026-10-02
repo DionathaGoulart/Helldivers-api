@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "count": 20,
     "source": {
       "name": "The Helldivers Wiki",
@@ -26,9 +26,7 @@
       "wiki": {
         "title": "Armed Resupply Pods",
         "url": "https://helldivers.wiki.gg/wiki/Armed_Resupply_Pods",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
       "source": {
@@ -59,9 +57,7 @@
       "wiki": {
         "title": "Concealed Insertion",
         "url": "https://helldivers.wiki.gg/wiki/Concealed_Insertion",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Equips Hellpods to deploy smokescreens on impact, obscuring Helldiver deployment.",
       "source": {
@@ -92,9 +88,7 @@
       "wiki": {
         "title": "Dead Sprint",
         "url": "https://helldivers.wiki.gg/wiki/Dead_Sprint",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
       "source": {
@@ -125,11 +119,9 @@
       "wiki": {
         "title": "Experimental Infusion",
         "url": "https://helldivers.wiki.gg/wiki/Experimental_Infusion",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
-      "effect": "In addition to restoring health, Stims temporarily increase movement speed and damage reduction.",
+      "effect": "In addition to restoring health, stims temporarily increase movement speed and damage reduction.",
       "source": {
         "type": "warbond",
         "label": "Viper Commandos",
@@ -158,9 +150,7 @@
       "wiki": {
         "title": "Expert Extraction Pilot",
         "url": "https://helldivers.wiki.gg/wiki/Expert_Extraction_Pilot",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Lowers the time it takes for the extraction shuttle to reach the extraction beacon.",
       "source": {
@@ -191,9 +181,7 @@
       "wiki": {
         "title": "Firebomb Hellpods",
         "url": "https://helldivers.wiki.gg/wiki/Firebomb_Hellpods",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Lines all Hellpods with volatile incendiaries that detonate upon impact, igniting any units in vicinity of the drop site.",
       "source": {
@@ -224,11 +212,9 @@
       "wiki": {
         "title": "Flexible Reinforcement Budget",
         "url": "https://helldivers.wiki.gg/wiki/Flexible_Reinforcement_Budget",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
-      "effect": "Reduces time until new reinforcements are granted once they've been depleted.",
+      "effect": "Reduce time until new reinforcements are granted once they've been depleted.",
       "source": {
         "type": "warbond",
         "label": "Steeled Veterans",
@@ -257,14 +243,12 @@
       "wiki": {
         "title": "Hellpod Space Optimization",
         "url": "https://helldivers.wiki.gg/wiki/Hellpod_Space_Optimization",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
-      "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades and Stims.",
+      "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades, and Stims.",
       "source": {
         "type": "warbond",
-        "label": "Helldivers Mobilize",
+        "label": "Helldivers Mobilize!",
         "warbondId": "helldivers-mobilize",
         "page": 3,
         "cost": {
@@ -295,7 +279,7 @@
       "effect": "Increases the number of available reinforcements.",
       "source": {
         "type": "warbond",
-        "label": "Helldivers Mobilize",
+        "label": "Helldivers Mobilize!",
         "warbondId": "helldivers-mobilize",
         "page": 10,
         "cost": {
@@ -321,9 +305,7 @@
       "wiki": {
         "title": "Integrated Extinguishers",
         "url": "https://helldivers.wiki.gg/wiki/Integrated_Extinguishers",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Equips Helldiver uniforms with form-fitting, automated, rapid-response fire suppression systems. Significantly reduces the time it takes to naturally extinguish flames without conducting ground-aided smothering manuevers.",
       "source": {
@@ -354,9 +336,7 @@
       "wiki": {
         "title": "Localization Confusion",
         "url": "https://helldivers.wiki.gg/wiki/Localization_Confusion",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Increases the time between enemy encounters.",
       "source": {
@@ -387,9 +367,7 @@
       "wiki": {
         "title": "Motivational Shocks",
         "url": "https://helldivers.wiki.gg/wiki/Motivational_Shocks",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Allows all Helldivers to recover faster after being slowed by an attack, such as acid. Does not mitigate “area effects,” such as EMS strikes.",
       "source": {
@@ -420,14 +398,12 @@
       "wiki": {
         "title": "Muscle Enhancement",
         "url": "https://helldivers.wiki.gg/wiki/Muscle_Enhancement",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Allows Helldivers to traverse difficult terrain with ease.",
       "source": {
         "type": "warbond",
-        "label": "Helldivers Mobilize",
+        "label": "Helldivers Mobilize!",
         "warbondId": "helldivers-mobilize",
         "page": 9,
         "cost": {
@@ -453,9 +429,7 @@
       "wiki": {
         "title": "Sample Extricator",
         "url": "https://helldivers.wiki.gg/wiki/Sample_Extricator",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Large enemies now have a chance of dropping Samples on death. Capped at 10 drops per mission.",
       "source": {
@@ -486,9 +460,7 @@
       "wiki": {
         "title": "Sample Scanner",
         "url": "https://helldivers.wiki.gg/wiki/Sample_Scanner",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "The Sample scanner gives you a 15% chance to receive twice the Samples on sample pick up.",
       "source": {
@@ -524,7 +496,7 @@
       "effect": "Increases all Helldivers' stamina capacity and recovery.",
       "source": {
         "type": "warbond",
-        "label": "Helldivers Mobilize",
+        "label": "Helldivers Mobilize!",
         "warbondId": "helldivers-mobilize",
         "page": 7,
         "cost": {
@@ -550,9 +522,7 @@
       "wiki": {
         "title": "Stun Pods",
         "url": "https://helldivers.wiki.gg/wiki/Stun_Pods",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Exposes Hellpod wiring upon surface contact, stunning any units in the vicinity of the drop site.",
       "source": {
@@ -574,13 +544,16 @@
       "upcoming": false,
       "aliases": [],
       "description": "Surplus EAT Allocation is a Booster in Helldivers 2. When equipped, a Helldiver squad gets 2 free uses of the EAT-17 Expendable Anti-Tank support weapon per mission.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/boosters/surplus-eat-allocation.42ee8f6e.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Surplus_EAT_Allocation_Booster_Icon.svg"
+      },
       "wiki": {
         "title": "Surplus EAT Allocation",
         "url": "https://helldivers.wiki.gg/wiki/Surplus_EAT_Allocation",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Grants two free uses of the Expendable Anti-Tank (EAT) Stratagem per mission; enough to grant a full squad one single-use rocket launcher each, provided squad members employ the proper equipment distribution protocol.",
       "source": {
@@ -611,14 +584,12 @@
       "wiki": {
         "title": "UAV Recon Booster",
         "url": "https://helldivers.wiki.gg/wiki/UAV_Recon_Booster",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "effect": "Increases all Helldivers' effective radar range.",
       "source": {
         "type": "warbond",
-        "label": "Helldivers Mobilize",
+        "label": "Helldivers Mobilize!",
         "warbondId": "helldivers-mobilize",
         "page": 6,
         "cost": {
@@ -644,14 +615,12 @@
       "wiki": {
         "title": "Vitality Enhancement",
         "url": "https://helldivers.wiki.gg/wiki/Vitality_Enhancement",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
-      "effect": "Provides minor damage reduction from all sources for all Helldivers",
+      "effect": "Provides minor damage reduction from all sources for all Helldivers.",
       "source": {
         "type": "warbond",
-        "label": "Helldivers Mobilize",
+        "label": "Helldivers Mobilize!",
         "warbondId": "helldivers-mobilize",
         "page": 4,
         "cost": {

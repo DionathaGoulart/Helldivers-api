@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -122,7 +122,7 @@
       "SMG-203 GALLANT › Spread": "↔[5.00] ↕[5.00]",
       "SMG-203 GALLANT › Sway": "1",
       "SMG-203 GALLANT › Ergonomics": "80",
-      "SMG-203 GALLANT › Noise": "Small (~33m)",
+      "SMG-203 GALLANT › Noise When Firing": "Small (~33m)",
       "SMG-203 GALLANT › Capacity": "50",
       "SMG-203 GALLANT › Spare Magazines": "7",
       "SMG-203 GALLANT › Starting Magazines": "5",

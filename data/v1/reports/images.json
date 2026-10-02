@@ -64,22 +64,22 @@
       "bytes": 31214
     },
     {
-      "url": "/images/v1/armors/af-02-haz-master.1746a2bd.webp",
+      "url": "/images/v1/armors/af-02-haz-master.61faad7b.webp",
       "wikiFile": "AF-02_Haz-Master_Armor_Render.png",
-      "version": "6545c2",
+      "version": "983940",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 31148
+      "bytes": 31068
     },
     {
-      "url": "/images/v1/armors/af-50-noxious-ranger.4345814c.webp",
+      "url": "/images/v1/armors/af-50-noxious-ranger.f86ccd9b.webp",
       "wikiFile": "AF-50_Noxious_Ranger_Armor_Render.png",
-      "version": "38ecac",
+      "version": "f2489f",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28130
+      "bytes": 28242
     },
     {
       "url": "/images/v1/armors/af-52-lockdown.18e50f27.webp",
@@ -217,22 +217,22 @@
       "bytes": 31344
     },
     {
-      "url": "/images/v1/armors/ce-27-ground-breaker.027b5701.webp",
+      "url": "/images/v1/armors/ce-27-ground-breaker.433eb407.webp",
       "wikiFile": "CE-27_Ground_Breaker_Armor_Render.png",
-      "version": "13a541",
+      "version": "f31adb",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28008
+      "bytes": 27846
     },
     {
-      "url": "/images/v1/armors/ce-35-trench-engineer.35ea405f.webp",
+      "url": "/images/v1/armors/ce-35-trench-engineer.1c097b18.webp",
       "wikiFile": "CE-35_Trench_Engineer_Armor_Render.png",
-      "version": "3b9334",
+      "version": "433371",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28176
+      "bytes": 28760
     },
     {
       "url": "/images/v1/armors/ce-64-grenadier.ffe6da0e.webp",
@@ -262,22 +262,22 @@
       "bytes": 28994
     },
     {
-      "url": "/images/v1/armors/ce-81-juggernaut.a43f6e9c.webp",
+      "url": "/images/v1/armors/ce-81-juggernaut.4860c575.webp",
       "wikiFile": "CE-81_Juggernaut_Armor_Render.png",
-      "version": "d7055a",
+      "version": "dcbb8e",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27328
+      "bytes": 25832
     },
     {
-      "url": "/images/v1/armors/cm-09-bonesnapper.a07b7b16.webp",
+      "url": "/images/v1/armors/cm-09-bonesnapper.b660170f.webp",
       "wikiFile": "CM-09_Bonesnapper_Armor_Render.png",
-      "version": "8bc155",
+      "version": "118ccf",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28770
+      "bytes": 28548
     },
     {
       "url": "/images/v1/armors/cm-10-clinician.936ffe55.webp",
@@ -307,13 +307,13 @@
       "bytes": 27590
     },
     {
-      "url": "/images/v1/armors/cm-21-trench-paramedic.f67aa724.webp",
+      "url": "/images/v1/armors/cm-21-trench-paramedic.8eb91e2f.webp",
       "wikiFile": "CM-21_Trench_Paramedic_Armor_Render.png",
-      "version": "8865f2",
+      "version": "16ce46",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27842
+      "bytes": 26378
     },
     {
       "url": "/images/v1/armors/cpg-48-sapper.9d0aae7f.webp",
@@ -343,31 +343,31 @@
       "bytes": 30110
     },
     {
-      "url": "/images/v1/armors/cw-22-kodiak.f936b41b.webp",
+      "url": "/images/v1/armors/cw-22-kodiak.9e5f2f0f.webp",
       "wikiFile": "CW-22_Kodiak_Armor_Render.png",
-      "version": "328906",
+      "version": "43ff69",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27666
+      "bytes": 27482
     },
     {
-      "url": "/images/v1/armors/cw-36-winter-warrior.99f5fb26.webp",
+      "url": "/images/v1/armors/cw-36-winter-warrior.e8cb1aef.webp",
       "wikiFile": "CW-36_Winter_Warrior_Armor_Render.png",
-      "version": "7c8e71",
+      "version": "808eaf",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 29128
+      "bytes": 29296
     },
     {
-      "url": "/images/v1/armors/cw-4-arctic-ranger.f101666a.webp",
+      "url": "/images/v1/armors/cw-4-arctic-ranger.b79921f4.webp",
       "wikiFile": "CW-4_Arctic_Ranger_Armor_Render.png",
-      "version": "21ec77",
+      "version": "244883",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27748
+      "bytes": 28232
     },
     {
       "url": "/images/v1/armors/cw-9-white-wolf.28e11dd2.webp",
@@ -379,13 +379,13 @@
       "bytes": 29250
     },
     {
-      "url": "/images/v1/armors/dp-00-tactical.70702139.webp",
+      "url": "/images/v1/armors/dp-00-tactical.64017469.webp",
       "wikiFile": "DP-00_Tactical_Armor_Render.png",
-      "version": "425a3d",
+      "version": "4583f6",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27660
+      "bytes": 26330
     },
     {
       "url": "/images/v1/armors/dp-11-champion-of-the-people.c10217fa.webp",
@@ -442,13 +442,13 @@
       "bytes": 30858
     },
     {
-      "url": "/images/v1/armors/ds-42-federations-blade.b4b300cc.webp",
+      "url": "/images/v1/armors/ds-42-federations-blade.3feab10a.webp",
       "wikiFile": "DS-42_Federation's_Blade_Armor_Render.png",
-      "version": "d1b114",
+      "version": "94c332",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27640
+      "bytes": 28020
     },
     {
       "url": "/images/v1/armors/ex-00-prototype-x.2300fcdc.webp",
@@ -469,13 +469,13 @@
       "bytes": 30490
     },
     {
-      "url": "/images/v1/armors/ex-16-prototype-16.5439c921.webp",
+      "url": "/images/v1/armors/ex-16-prototype-16.eb414d14.webp",
       "wikiFile": "EX-16_Prototype_16_Armor_Render.png",
-      "version": "61aa2a",
+      "version": "ba784e",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 30006
+      "bytes": 30422
     },
     {
       "url": "/images/v1/armors/fs-05-marksman.847dc190.webp",
@@ -802,13 +802,13 @@
       "bytes": 28862
     },
     {
-      "url": "/images/v1/armors/sa-25-steel-trooper.0e3ac705.webp",
+      "url": "/images/v1/armors/sa-25-steel-trooper.9c50f106.webp",
       "wikiFile": "SA-25_Steel_Trooper_Armor_Render.png",
-      "version": "f5481e",
+      "version": "e5cc32",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27966
+      "bytes": 27828
     },
     {
       "url": "/images/v1/armors/sa-32-dynamo.7204a619.webp",
@@ -892,13 +892,13 @@
       "bytes": 26328
     },
     {
-      "url": "/images/v1/armors/sr-64-cinderblock.4e0ea567.webp",
+      "url": "/images/v1/armors/sr-64-cinderblock.65bcfdae.webp",
       "wikiFile": "SR-64_Cinderblock_Armor_Render.png",
-      "version": "8dea07",
+      "version": "d5352e",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 23456
+      "bytes": 23886
     },
     {
       "url": "/images/v1/armors/tg-122-demo-trooper.6159afdd.webp",
@@ -928,40 +928,40 @@
       "bytes": 26272
     },
     {
-      "url": "/images/v1/armors/tr-40-gold-eagle.231fed2e.webp",
+      "url": "/images/v1/armors/tr-40-gold-eagle.79637b06.webp",
       "wikiFile": "TR-40_Gold_Eagle_Armor_Render.png",
-      "version": "3c27f1",
+      "version": "6c1bea",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27910
+      "bytes": 28208
     },
     {
-      "url": "/images/v1/armors/tr-62-knight.303a0ccc.webp",
+      "url": "/images/v1/armors/tr-62-knight.52991c0d.webp",
       "wikiFile": "TR-62_Knight_Armor_Render.png",
-      "version": "a61021",
+      "version": "7b41f4",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 24140
+      "bytes": 24098
     },
     {
-      "url": "/images/v1/armors/tr-7-ambassador-of-the-brand.eca8dadc.webp",
+      "url": "/images/v1/armors/tr-7-ambassador-of-the-brand.be25fb70.webp",
       "wikiFile": "TR-7_Ambassador_of_the_Brand_Armor_Render.png",
-      "version": "14960c",
+      "version": "6dc397",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 29606
+      "bytes": 28602
     },
     {
-      "url": "/images/v1/armors/tr-9-cavalier-of-democracy.f647d9ae.webp",
+      "url": "/images/v1/armors/tr-9-cavalier-of-democracy.9afb6f67.webp",
       "wikiFile": "TR-9_Cavalier_of_Democracy_Armor_Render.png",
-      "version": "3bd192",
+      "version": "767174",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 29436
+      "bytes": 28002
     },
     {
       "url": "/images/v1/armors/uf-16-inspector.ee9b4870.webp",
@@ -973,13 +973,13 @@
       "bytes": 27602
     },
     {
-      "url": "/images/v1/armors/uf-50-bloodhound.9f1e6710.webp",
+      "url": "/images/v1/armors/uf-50-bloodhound.486a699e.webp",
       "wikiFile": "UF-50_Bloodhound_Armor_Render.png",
-      "version": "39f25d",
+      "version": "823c98",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 27944
+      "bytes": 27468
     },
     {
       "url": "/images/v1/armors/uf-84-doubt-killer.8866968d.webp",
@@ -1142,6 +1142,15 @@
       "width": 256,
       "height": 256,
       "bytes": 4832
+    },
+    {
+      "url": "/images/v1/boosters/surplus-eat-allocation.42ee8f6e.webp",
+      "wikiFile": "Surplus_EAT_Allocation_Booster_Icon.svg",
+      "version": "3b9771",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 5698
     },
     {
       "url": "/images/v1/boosters/uav-recon-booster.aafba873.webp",
@@ -2494,22 +2503,22 @@
       "bytes": 42258
     },
     {
-      "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",
+      "url": "/images/v1/helmets/af-02-haz-master.49554577.webp",
       "wikiFile": "AF-02_Haz-Master_Helmet_Render.png",
-      "version": "5b75a5",
+      "version": "85fcb3",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 35906
+      "bytes": 36832
     },
     {
-      "url": "/images/v1/helmets/af-50-noxious-ranger.2ad0a707.webp",
+      "url": "/images/v1/helmets/af-50-noxious-ranger.422906fb.webp",
       "wikiFile": "AF-50_Noxious_Ranger_Helmet_Render.png",
-      "version": "9972a1",
+      "version": "631603",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 29666
+      "bytes": 32760
     },
     {
       "url": "/images/v1/helmets/af-52-lockdown.e0bce5ce.webp",
@@ -2575,31 +2584,31 @@
       "bytes": 33762
     },
     {
-      "url": "/images/v1/helmets/bfm-16-tanker.7257a6a5.webp",
+      "url": "/images/v1/helmets/bfm-16-tanker.f21bfd36.webp",
       "wikiFile": "BFM-16_Tanker_Helmet_Render.png",
-      "version": "458fd0",
+      "version": "43f68d",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 37038
+      "bytes": 38518
     },
     {
-      "url": "/images/v1/helmets/bfm-220-ironclad.2174e50b.webp",
+      "url": "/images/v1/helmets/bfm-220-ironclad.4453a5c6.webp",
       "wikiFile": "BFM-220_Ironclad_Helmet_Render.png",
-      "version": "f8dd89",
+      "version": "f0c6f5",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32902
+      "bytes": 33880
     },
     {
-      "url": "/images/v1/helmets/bfm-77-reformer.9ea1d346.webp",
+      "url": "/images/v1/helmets/bfm-77-reformer.2ee4fb20.webp",
       "wikiFile": "BFM-77_Reformer_Helmet_Render.png",
-      "version": "df8735",
+      "version": "dc70de",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 31638
+      "bytes": 34314
     },
     {
       "url": "/images/v1/helmets/bp-20-correct-officer.27bbc16a.webp",
@@ -2647,31 +2656,31 @@
       "bytes": 43222
     },
     {
-      "url": "/images/v1/helmets/ce-27-ground-breaker.ddfefc38.webp",
+      "url": "/images/v1/helmets/ce-27-ground-breaker.151e2c28.webp",
       "wikiFile": "CE-27_Ground_Breaker_Helmet_Render.png",
-      "version": "6beea0",
+      "version": "13d209",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32928
+      "bytes": 34610
     },
     {
-      "url": "/images/v1/helmets/ce-35-trench-engineer.5acea828.webp",
+      "url": "/images/v1/helmets/ce-35-trench-engineer.04faa1b6.webp",
       "wikiFile": "CE-35_Trench_Engineer_Helmet_Render.png",
-      "version": "343066",
+      "version": "9e4d99",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32524
+      "bytes": 36968
     },
     {
-      "url": "/images/v1/helmets/ce-64-grenadier.a616cf5d.webp",
+      "url": "/images/v1/helmets/ce-64-grenadier.6e7f184f.webp",
       "wikiFile": "CE-64_Grenadier_Helmet_Render.png",
-      "version": "100de2",
+      "version": "ad7828",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32578
+      "bytes": 36382
     },
     {
       "url": "/images/v1/helmets/ce-67-titan.da1ff695.webp",
@@ -2692,22 +2701,22 @@
       "bytes": 37464
     },
     {
-      "url": "/images/v1/helmets/ce-81-juggernaut.3524c8fc.webp",
+      "url": "/images/v1/helmets/ce-81-juggernaut.204dc6a6.webp",
       "wikiFile": "CE-81_Juggernaut_Helmet_Render.png",
-      "version": "dd315a",
+      "version": "be4fe7",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 33166
+      "bytes": 35906
     },
     {
-      "url": "/images/v1/helmets/cm-09-bonesnapper.417196ee.webp",
+      "url": "/images/v1/helmets/cm-09-bonesnapper.8f83e2a1.webp",
       "wikiFile": "CM-09_Bonesnapper_Helmet_Render.png",
-      "version": "c1dbe5",
+      "version": "d28081",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 33630
+      "bytes": 36246
     },
     {
       "url": "/images/v1/helmets/cm-10-clinician.f867561d.webp",
@@ -2737,13 +2746,13 @@
       "bytes": 31696
     },
     {
-      "url": "/images/v1/helmets/cm-21-trench-paramedic.4d4398e7.webp",
+      "url": "/images/v1/helmets/cm-21-trench-paramedic.ea9d55bf.webp",
       "wikiFile": "CM-21_Trench_Paramedic_Helmet_Render.png",
-      "version": "2c75d9",
+      "version": "73015a",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 33194
+      "bytes": 34884
     },
     {
       "url": "/images/v1/helmets/cpg-48-sapper.d9546146.webp",
@@ -2773,31 +2782,31 @@
       "bytes": 36864
     },
     {
-      "url": "/images/v1/helmets/cw-22-kodiak.fd4e86db.webp",
+      "url": "/images/v1/helmets/cw-22-kodiak.4873a60f.webp",
       "wikiFile": "CW-22_Kodiak_Helmet_Render.png",
-      "version": "7981ac",
+      "version": "d53d82",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 31554
+      "bytes": 31920
     },
     {
-      "url": "/images/v1/helmets/cw-36-winter-warrior.88078014.webp",
+      "url": "/images/v1/helmets/cw-36-winter-warrior.1fa619e2.webp",
       "wikiFile": "CW-36_Winter_Warrior_Helmet_Render.png",
-      "version": "13354a",
+      "version": "285bfb",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 26708
+      "bytes": 27888
     },
     {
-      "url": "/images/v1/helmets/cw-4-arctic-ranger.dc11383c.webp",
+      "url": "/images/v1/helmets/cw-4-arctic-ranger.f5d13eae.webp",
       "wikiFile": "CW-4_Arctic_Ranger_Helmet_Render.png",
-      "version": "abe101",
+      "version": "40ed57",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 43014
+      "bytes": 46374
     },
     {
       "url": "/images/v1/helmets/cw-9-white-wolf.798144c0.webp",
@@ -2809,13 +2818,13 @@
       "bytes": 32270
     },
     {
-      "url": "/images/v1/helmets/dp-00-tactical.ee584f20.webp",
+      "url": "/images/v1/helmets/dp-00-tactical.bf85ed25.webp",
       "wikiFile": "DP-00_Tactical_Helmet_Render.png",
-      "version": "f11cff",
+      "version": "4257aa",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 33106
+      "bytes": 34310
     },
     {
       "url": "/images/v1/helmets/dp-11-champion-of-the-people.28b277c1.webp",
@@ -2872,13 +2881,13 @@
       "bytes": 26902
     },
     {
-      "url": "/images/v1/helmets/ds-42-federations-blade.fa3c0e81.webp",
+      "url": "/images/v1/helmets/ds-42-federations-blade.d92898bd.webp",
       "wikiFile": "DS-42_Federation's_Blade_Helmet_Render.png",
-      "version": "f55cff",
+      "version": "2e7608",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32538
+      "bytes": 33164
     },
     {
       "url": "/images/v1/helmets/ex-00-prototype-x.bd039dd1.webp",
@@ -2899,13 +2908,13 @@
       "bytes": 34718
     },
     {
-      "url": "/images/v1/helmets/ex-16-prototype-16.66be17d6.webp",
+      "url": "/images/v1/helmets/ex-16-prototype-16.ecda3a3d.webp",
       "wikiFile": "EX-16_Prototype_16_Helmet_Render.png",
-      "version": "5b9c61",
+      "version": "3f2d6f",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32936
+      "bytes": 37490
     },
     {
       "url": "/images/v1/helmets/fs-05-marksman.69a105b1.webp",
@@ -3070,13 +3079,13 @@
       "bytes": 33680
     },
     {
-      "url": "/images/v1/helmets/ix-voidwalker.4242f2fd.webp",
+      "url": "/images/v1/helmets/ix-voidwalker.9bc63e70.webp",
       "wikiFile": "IX-Voidwalker_Helmet_Render.png",
-      "version": "f39ffa",
+      "version": "b3f291",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 33332
+      "bytes": 37746
     },
     {
       "url": "/images/v1/helmets/kdm-500-outrider.ad13ed3b.webp",
@@ -3106,13 +3115,13 @@
       "bytes": 37318
     },
     {
-      "url": "/images/v1/helmets/o-44-bonded-pilot.4e6b8339.webp",
+      "url": "/images/v1/helmets/o-44-bonded-pilot.a7b7e470.webp",
       "wikiFile": "O-44_Bonded_Pilot_Helmet_Render.png",
-      "version": "7d5359",
+      "version": "21b46a",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 37292
+      "bytes": 38576
     },
     {
       "url": "/images/v1/helmets/ph-202-twigsnapper.086236cf.webp",
@@ -3124,13 +3133,13 @@
       "bytes": 38230
     },
     {
-      "url": "/images/v1/helmets/ph-56-jaguar.903a4a91.webp",
+      "url": "/images/v1/helmets/ph-56-jaguar.bda540a8.webp",
       "wikiFile": "PH-56_Jaguar_Helmet_Render.png",
-      "version": "e87def",
+      "version": "55951f",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32598
+      "bytes": 33574
     },
     {
       "url": "/images/v1/helmets/ph-9-predator.42c81053.webp",
@@ -3241,13 +3250,13 @@
       "bytes": 33976
     },
     {
-      "url": "/images/v1/helmets/sa-25-steel-trooper.2b0cee0a.webp",
+      "url": "/images/v1/helmets/sa-25-steel-trooper.6f2bda34.webp",
       "wikiFile": "SA-25_Steel_Trooper_Helmet_Render.png",
-      "version": "fd9672",
+      "version": "455a44",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 31528
+      "bytes": 35446
     },
     {
       "url": "/images/v1/helmets/sa-32-dynamo.11301cd3.webp",
@@ -3367,40 +3376,40 @@
       "bytes": 28952
     },
     {
-      "url": "/images/v1/helmets/tr-40-gold-eagle.97122474.webp",
+      "url": "/images/v1/helmets/tr-40-gold-eagle.4eef64f1.webp",
       "wikiFile": "TR-40_Gold_Eagle_Helmet_Render.png",
-      "version": "43e41e",
+      "version": "3163a5",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 36668
+      "bytes": 40074
     },
     {
-      "url": "/images/v1/helmets/tr-62-knight.b549dcb7.webp",
+      "url": "/images/v1/helmets/tr-62-knight.b9c4f0bb.webp",
       "wikiFile": "TR-62_Knight_Helmet_Render.png",
-      "version": "73801e",
+      "version": "767a8b",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28882
+      "bytes": 26604
     },
     {
-      "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.e0bf04a4.webp",
+      "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.c8d7bb04.webp",
       "wikiFile": "TR-7_Ambassador_of_the_Brand_Helmet_Render.png",
-      "version": "ac495f",
+      "version": "d2e09d",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 37642
+      "bytes": 39626
     },
     {
-      "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.aa0a4f01.webp",
+      "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.cdfa8489.webp",
       "wikiFile": "TR-9_Cavalier_of_Democracy_Helmet_Render.png",
-      "version": "1c4c96",
+      "version": "4f9dcd",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 35194
+      "bytes": 35828
     },
     {
       "url": "/images/v1/helmets/uf-16-inspector.27a33f21.webp",
@@ -3412,13 +3421,13 @@
       "bytes": 35672
     },
     {
-      "url": "/images/v1/helmets/uf-50-bloodhound.87197d51.webp",
+      "url": "/images/v1/helmets/uf-50-bloodhound.ae6a9e80.webp",
       "wikiFile": "UF-50_Bloodhound_Helmet_Render.png",
-      "version": "5d9ece",
+      "version": "7bf186",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28546
+      "bytes": 32086
     },
     {
       "url": "/images/v1/helmets/uf-84-doubt-killer.287114d0.webp",
@@ -3466,13 +3475,13 @@
       "bytes": 2776
     },
     {
-      "url": "/images/v1/passives/blunt-force-mitigation.f144dd2f.webp",
-      "wikiFile": "Blunt-Force_Mitigation_Armor_Passive_Icon.png",
-      "version": "b53dde",
+      "url": "/images/v1/passives/blunt-force-mitigation.ad98e519.webp",
+      "wikiFile": "Blunt-Force_Mitigation_Armor_Passive_Icon.svg",
+      "version": "218237",
       "rendition": "icon",
-      "width": 167,
-      "height": 168,
-      "bytes": 3040
+      "width": 256,
+      "height": 256,
+      "bytes": 3212
     },
     {
       "url": "/images/v1/passives/concussive-padding-grenadier.adf18057.webp",
@@ -7770,12 +7779,92 @@
   ],
   "orphans": [
     {
+      "url": "/images/v1/armors/af-02-haz-master.1746a2bd.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/af-50-noxious-ranger.4345814c.webp",
+      "since": "2026-10-02"
+    },
+    {
       "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
       "since": "2026-09-23"
     },
     {
       "url": "/images/v1/armors/bfm-220-ironclad.9dee6a99.webp",
       "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/armors/ce-27-ground-breaker.027b5701.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/ce-35-trench-engineer.35ea405f.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/ce-81-juggernaut.a43f6e9c.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/cm-09-bonesnapper.a07b7b16.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/cm-21-trench-paramedic.f67aa724.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/cw-22-kodiak.f936b41b.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/cw-36-winter-warrior.99f5fb26.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/cw-4-arctic-ranger.f101666a.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/dp-00-tactical.70702139.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/ds-42-federations-blade.b4b300cc.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/ex-16-prototype-16.5439c921.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/sa-25-steel-trooper.0e3ac705.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/sr-64-cinderblock.4e0ea567.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/tr-40-gold-eagle.231fed2e.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/tr-62-knight.303a0ccc.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/tr-7-ambassador-of-the-brand.eca8dadc.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/tr-9-cavalier-of-democracy.f647d9ae.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/uf-50-bloodhound.9f1e6710.webp",
+      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/capes/mark-of-the-crimson-fang.21cfd895.webp",
@@ -7790,12 +7879,120 @@
       "since": "2026-09-23"
     },
     {
+      "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/af-50-noxious-ranger.2ad0a707.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/bfm-16-tanker.7257a6a5.webp",
+      "since": "2026-10-02"
+    },
+    {
       "url": "/images/v1/helmets/bfm-16-tanker.8fd0dad4.webp",
       "since": "2026-09-23"
     },
     {
+      "url": "/images/v1/helmets/bfm-220-ironclad.2174e50b.webp",
+      "since": "2026-10-02"
+    },
+    {
       "url": "/images/v1/helmets/bfm-220-ironclad.3a78a0d3.webp",
       "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/helmets/bfm-77-reformer.9ea1d346.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ce-27-ground-breaker.ddfefc38.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ce-35-trench-engineer.5acea828.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ce-64-grenadier.a616cf5d.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ce-81-juggernaut.3524c8fc.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/cm-09-bonesnapper.417196ee.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/cm-21-trench-paramedic.4d4398e7.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/cw-22-kodiak.fd4e86db.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/cw-36-winter-warrior.88078014.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/cw-4-arctic-ranger.dc11383c.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/dp-00-tactical.ee584f20.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ds-42-federations-blade.fa3c0e81.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ex-16-prototype-16.66be17d6.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ix-voidwalker.4242f2fd.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/o-44-bonded-pilot.4e6b8339.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ph-56-jaguar.903a4a91.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/sa-25-steel-trooper.2b0cee0a.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/tr-40-gold-eagle.97122474.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/tr-62-knight.b549dcb7.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.e0bf04a4.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.aa0a4f01.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/uf-50-bloodhound.87197d51.webp",
+      "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/passives/blunt-force-mitigation.f144dd2f.webp",
+      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",

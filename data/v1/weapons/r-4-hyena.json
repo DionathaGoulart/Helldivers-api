@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -128,7 +128,7 @@
       "Fire Rate": "190 rpm",
       "DPS": "696.67",
       "Capacity": "15",
-      "Spare Mags": "5 Magazines",
+      "Spare Mags": "5",
       "Supply Box Refill": "5",
       "Ammo Box Refill": "2",
       "Ergonomics": "30",
@@ -141,7 +141,7 @@
       "R-4 HYENA › Spread": "↔[0.50] ↕[0.50]",
       "R-4 HYENA › Sway": "1",
       "R-4 HYENA › Ergonomics": "30",
-      "R-4 HYENA › Noise": "Medium (~48m)",
+      "R-4 HYENA › Noise When Firing": "Medium (~48m)",
       "R-4 HYENA › Capacity": "15",
       "R-4 HYENA › Spare Magazines": "5",
       "R-4 HYENA › Starting Magazines": "4",

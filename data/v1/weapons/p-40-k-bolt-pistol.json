@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -105,7 +105,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -147,7 +147,7 @@
       "P/40-K BOLT PISTOL › Spread": "↔[2.00] ↕[2.00]",
       "P/40-K BOLT PISTOL › Sway": "1",
       "P/40-K BOLT PISTOL › Ergonomics": "30",
-      "P/40-K BOLT PISTOL › Noise": "Small (~33m)",
+      "P/40-K BOLT PISTOL › Noise When Firing": "Small (~33m)",
       "P/40-K BOLT PISTOL › Capacity": "6",
       "P/40-K BOLT PISTOL › Spare Magazines": "4",
       "P/40-K BOLT PISTOL › Starting Magazines": "3",
@@ -179,7 +179,9 @@
       "P/40-K P IE › Damage › Inner Durable": "175 Explosion",
       "P/40-K P IE › Damage › Outer Radius": "174 - 0",
       "P/40-K P IE › Damage › Outer Durable": "174 - 0",
-      "P/40-K P IE › Penetration › Direct": "Medium",
+      "P/40-K P IE › Penetration › Inner AP": "Medium",
+      "P/40-K P IE › Penetration › Outer AP": "Light",
+      "P/40-K P IE › Penetration › Shockwave AP": "Medium",
       "P/40-K P IE › AoE Effect › Demolition Force": "10",
       "P/40-K P IE › AoE Effect › Stagger Force": "35",
       "P/40-K P IE › AoE Effect › Push Force": "5"

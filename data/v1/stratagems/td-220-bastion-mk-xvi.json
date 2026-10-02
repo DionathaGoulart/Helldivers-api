@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -108,7 +108,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_i",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -177,6 +177,9 @@
       "BASTION MK XVI › SWP BASTION MK XVI › Spread": "↔[10.00] ↕[10.00]",
       "BASTION MK XVI › SWP BASTION MK XVI › Sway": "0",
       "BASTION MK XVI › SWP BASTION MK XVI › Ergonomics": "65",
+      "BASTION MK XVI › SWP BASTION MK XVI › Turret Turn Speed": "↔[35.00]°/s ↕[25.00]°/s",
+      "BASTION MK XVI › SWP BASTION MK XVI › Elevation Range": "[-3.00]° to [25.00]°",
+      "BASTION MK XVI › SWP BASTION MK XVI › Traverse Range": "[-20.00]° to [20.00]°",
       "BASTION MK XVI › SWP BASTION MK XVI › Capacity": "1",
       "BASTION MK XVI › SWP BASTION MK XVI › 120mm HE CANNON ROUND P": "Projectile",
       "BASTION MK XVI › SWP BASTION MK XVI › 120mm HE CANNON ROUND P IE": "Explosion",
@@ -212,7 +215,9 @@
       "120mm HE CANNON ROUND P IE › Damage › Inner Durable": "750 Explosion",
       "120mm HE CANNON ROUND P IE › Damage › Outer Radius": "749 - 0",
       "120mm HE CANNON ROUND P IE › Damage › Outer Durable": "749 - 0",
-      "120mm HE CANNON ROUND P IE › Penetration › Direct": "Anti-Tank I",
+      "120mm HE CANNON ROUND P IE › Penetration › Inner AP": "Anti-Tank I",
+      "120mm HE CANNON ROUND P IE › Penetration › Outer AP": "Heavy",
+      "120mm HE CANNON ROUND P IE › Penetration › Shockwave AP": "Anti-Tank I",
       "120mm HE CANNON ROUND P IE › AoE Effect › Demolition Force": "40",
       "120mm HE CANNON ROUND P IE › AoE Effect › Stagger Force": "70",
       "120mm HE CANNON ROUND P IE › AoE Effect › Push Force": "40",

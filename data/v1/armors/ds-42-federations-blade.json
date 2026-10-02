@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "This patriotic armor comes recommended by the Ministry of Expansion, empowering the wearer to re-seize from our enemies any territory that any human has laid claim to, at any point in time.",
     "image": {
-      "url": "/images/v1/armors/ds-42-federations-blade.b4b300cc.webp",
+      "url": "/images/v1/armors/ds-42-federations-blade.3feab10a.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "DS-42_Federation's_Blade_Armor_Render.png"

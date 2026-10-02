@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -112,7 +112,7 @@
       "LAS-13 TRIDENT › Spread": "↔[200.00] ↕[50.00]",
       "LAS-13 TRIDENT › Sway": "1",
       "LAS-13 TRIDENT › Ergonomics": "65",
-      "LAS-13 TRIDENT › Noise": "Medium (~48m)",
+      "LAS-13 TRIDENT › Noise When Firing": "Medium (~48m)",
       "LAS-13 TRIDENT › Spare Magazines": "3",
       "LAS-13 TRIDENT › Starting Magazines": "2",
       "LAS-13 TRIDENT › Mags from Supply": "6",

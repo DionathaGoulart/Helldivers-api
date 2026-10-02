@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
       "AR-61 TENDERIZER › Spread": "↔[1.00] ↕[1.00]",
       "AR-61 TENDERIZER › Sway": "1",
       "AR-61 TENDERIZER › Ergonomics": "65",
-      "AR-61 TENDERIZER › Noise": "Medium (~48m)",
+      "AR-61 TENDERIZER › Noise When Firing": "Medium (~48m)",
       "AR-61 TENDERIZER › Capacity": "35",
       "AR-61 TENDERIZER › Spare Magazines": "7",
       "AR-61 TENDERIZER › Starting Magazines": "5",

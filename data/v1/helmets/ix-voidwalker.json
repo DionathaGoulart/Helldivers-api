@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "A helmet worn by the pioneering Helldivers who first ventured into the Void. Designed by Super Earth scientists with liberated Illuminate blueprints.",
     "image": {
-      "url": "/images/v1/helmets/ix-voidwalker.4242f2fd.webp",
+      "url": "/images/v1/helmets/ix-voidwalker.9bc63e70.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "IX-Voidwalker_Helmet_Render.png"

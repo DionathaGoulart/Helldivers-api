@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
       "SG-8 PUNISHER › Spread": "↔[150.00] ↕[120.00]",
       "SG-8 PUNISHER › Sway": "1",
       "SG-8 PUNISHER › Ergonomics": "65",
-      "SG-8 PUNISHER › Noise": "Medium (~48m)",
+      "SG-8 PUNISHER › Noise When Firing": "Medium (~48m)",
       "SG-8 PUNISHER › Capacity": "16",
       "SG-8 PUNISHER › Spare Rounds": "60",
       "SG-8 PUNISHER › Starting Rounds": "32",

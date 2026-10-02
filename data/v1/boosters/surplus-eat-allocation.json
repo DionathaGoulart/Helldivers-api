@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-09-27.22dbb37d",
-    "generatedAt": "2026-09-27T04:00:21Z",
+    "dataVersion": "2026-10-02.396a11a6",
+    "generatedAt": "2026-10-02T13:25:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -15,13 +15,16 @@
     "upcoming": false,
     "aliases": [],
     "description": "Surplus EAT Allocation is a Booster in Helldivers 2. When equipped, a Helldiver squad gets 2 free uses of the EAT-17 Expendable Anti-Tank support weapon per mission.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/boosters/surplus-eat-allocation.42ee8f6e.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Surplus_EAT_Allocation_Booster_Icon.svg"
+    },
     "wiki": {
       "title": "Surplus EAT Allocation",
       "url": "https://helldivers.wiki.gg/wiki/Surplus_EAT_Allocation",
-      "flags": [
-        "broken_file_links"
-      ]
+      "flags": []
     },
     "effect": "Grants two free uses of the Expendable Anti-Tank (EAT) Stratagem per mission; enough to grant a full squad one single-use rocket launcher each, provided squad members employ the proper equipment distribution protocol.",
     "source": {
