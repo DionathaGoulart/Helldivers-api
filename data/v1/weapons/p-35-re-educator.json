@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.5ed9a70f",
-    "generatedAt": "2026-10-03T00:24:40Z",
+    "dataVersion": "2026-10-03.846d7a12",
+    "generatedAt": "2026-10-03T23:44:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -165,7 +165,7 @@
       "P-35 RE-EDUCATOR › Spread": "↔[5.00] ↕[5.00]",
       "P-35 RE-EDUCATOR › Sway": "1",
       "P-35 RE-EDUCATOR › Ergonomics": "100",
-      "P-35 RE-EDUCATOR › Noise": "No sound",
+      "P-35 RE-EDUCATOR › Noise When Firing": "No sound",
       "P-35 RE-EDUCATOR › Capacity": "6",
       "P-35 RE-EDUCATOR › Spare Magazines": "2",
       "P-35 RE-EDUCATOR › Starting Magazines": "2",

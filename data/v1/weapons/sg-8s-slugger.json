@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.5ed9a70f",
-    "generatedAt": "2026-10-03T00:24:40Z",
+    "dataVersion": "2026-10-03.846d7a12",
+    "generatedAt": "2026-10-03T23:44:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
       "SG-8S SLUGGER › Spread": "↔[6.00] ↕[6.00]",
       "SG-8S SLUGGER › Sway": "1",
       "SG-8S SLUGGER › Ergonomics": "65",
-      "SG-8S SLUGGER › Noise": "Medium (~48m)",
+      "SG-8S SLUGGER › Noise When Firing": "Medium (~48m)",
       "SG-8S SLUGGER › Capacity": "16",
       "SG-8S SLUGGER › Spare Rounds": "60",
       "SG-8S SLUGGER › Starting Rounds": "32",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.5ed9a70f",
-    "generatedAt": "2026-10-03T00:24:40Z",
+    "dataVersion": "2026-10-03.846d7a12",
+    "generatedAt": "2026-10-03T23:44:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -144,7 +144,7 @@
       "SG-451 COOKOUT › Spread": "↔[180.00] ↕[140.00]",
       "SG-451 COOKOUT › Sway": "1",
       "SG-451 COOKOUT › Ergonomics": "65",
-      "SG-451 COOKOUT › Noise": "Medium (~48m)",
+      "SG-451 COOKOUT › Noise When Firing": "Medium (~48m)",
       "SG-451 COOKOUT › Capacity": "16",
       "SG-451 COOKOUT › Spare Rounds": "60",
       "SG-451 COOKOUT › Starting Rounds": "32",

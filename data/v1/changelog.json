@@ -1,15 +1,117 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.5ed9a70f",
-    "generatedAt": "2026-10-03T00:24:40Z",
-    "count": 20,
+    "dataVersion": "2026-10-03.846d7a12",
+    "generatedAt": "2026-10-03T23:44:32Z",
+    "count": 21,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-03.846d7a12",
+      "date": "2026-10-03",
+      "summary": {
+        "added": 0,
+        "changed": 10,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "ironclad-democracy",
+          "kind": "changed",
+          "paths": [
+            "pages[2].items[1].cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-11-arbitrator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-11 ARBITRATOR › Noise\"]",
+            "statsRaw[\"AR-11 ARBITRATOR › Underbarrel AR-11 ARBITRATOR 0 › Noise\"]",
+            "statsRaw[\"AR-11 ARBITRATOR › Noise When Firing\"]",
+            "statsRaw[\"AR-11 ARBITRATOR › Underbarrel AR-11 ARBITRATOR 0 › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "dbs-2-double-freedom",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"DBS-2 DOUBLE FREEDOM › Noise\"]",
+            "statsRaw[\"DBS-2 DOUBLE FREEDOM › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m6c-socom-pistol",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"M6C/SOCOM PISTOL › Noise\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-35-re-educator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P-35 RE-EDUCATOR › Noise\"]",
+            "statsRaw[\"P-35 RE-EDUCATOR › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225ie-breaker-incendiary",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-225IE BREAKER INCENDIARY › Noise\"]",
+            "statsRaw[\"SG-225IE BREAKER INCENDIARY › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-451-cookout",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-451 COOKOUT › Noise\"]",
+            "statsRaw[\"SG-451 COOKOUT › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8s-slugger",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-8S SLUGGER › Noise\"]",
+            "statsRaw[\"SG-8S SLUGGER › Noise When Firing\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-1000-maxigun",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"M-1000 MAXIGUN › Noise\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Noise When Firing\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-03.5ed9a70f",
       "date": "2026-10-03",

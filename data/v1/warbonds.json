@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.5ed9a70f",
-    "generatedAt": "2026-10-03T00:24:40Z",
+    "dataVersion": "2026-10-03.846d7a12",
+    "generatedAt": "2026-10-03T23:44:32Z",
     "count": 25,
     "source": {
       "name": "The Helldivers Wiki",
@@ -4805,7 +4805,10 @@
                 "id": "gl-15-evictor",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 65
+              }
             },
             {
               "name": "Helmet Durability Check",
