@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -146,7 +146,7 @@
           "type": "Gas"
         },
         "penetration": {
-          "direct": "anti_tank_ii",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -268,7 +268,9 @@
       "GAS MORTAR SHELL P IE › Damage › Damage Element": "Gas",
       "GAS MORTAR SHELL P IE › Damage › Inner Radius": "0 Gas",
       "GAS MORTAR SHELL P IE › Damage › Inner Durable": "0 Gas",
-      "GAS MORTAR SHELL P IE › Penetration › Direct": "Anti-Tank II",
+      "GAS MORTAR SHELL P IE › Penetration › Inner AP": "Anti-Tank II",
+      "GAS MORTAR SHELL P IE › Penetration › Outer AP": "Anti-Tank I",
+      "GAS MORTAR SHELL P IE › Penetration › Shockwave AP": "Anti-Tank II",
       "GAS MORTAR SHELL P IE › AoE Effect › Status": "Gas",
       "GAS MORTAR SHELL P IE › AoE Effect › Status Strength": "100",
       "GAS MORTAR SHELL P IE › AoE Effect › Second Status": "Gas_Confusion",

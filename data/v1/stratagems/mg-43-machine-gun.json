@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -183,7 +183,7 @@
       "MG-43 MACHINE GUN › Spread": "↔[4.00] ↕[4.00]",
       "MG-43 MACHINE GUN › Sway": "1",
       "MG-43 MACHINE GUN › Ergonomics": "15",
-      "MG-43 MACHINE GUN › Noise": "Medium (~48m)",
+      "MG-43 MACHINE GUN › Noise When Firing": "Medium (~48m)",
       "MG-43 MACHINE GUN › Capacity": "175",
       "MG-43 MACHINE GUN › Spare Magazines": "3",
       "MG-43 MACHINE GUN › Starting Magazines": "2",

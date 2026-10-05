@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -136,7 +136,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -191,7 +191,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -258,7 +258,9 @@
       "100KG CLUSTER BOMB P E › Damage › Inner Durable": "350 Explosion",
       "100KG CLUSTER BOMB P E › Damage › Outer Radius": "349 - 0",
       "100KG CLUSTER BOMB P E › Damage › Outer Durable": "349 - 0",
-      "100KG CLUSTER BOMB P E › Penetration › Direct": "Medium",
+      "100KG CLUSTER BOMB P E › Penetration › Inner AP": "Medium",
+      "100KG CLUSTER BOMB P E › Penetration › Outer AP": "Light",
+      "100KG CLUSTER BOMB P E › Penetration › Shockwave AP": "Medium",
       "100KG CLUSTER BOMB P E › AoE Effect › Demolition Force": "30",
       "100KG CLUSTER BOMB P E › AoE Effect › Stagger Force": "50",
       "100KG CLUSTER BOMB P E › AoE Effect › Push Force": "40",
@@ -285,7 +287,9 @@
       "CLUSTER BOMB P4 IE › Damage › Inner Durable": "350 Explosion",
       "CLUSTER BOMB P4 IE › Damage › Outer Radius": "349 - 0",
       "CLUSTER BOMB P4 IE › Damage › Outer Durable": "349 - 0",
-      "CLUSTER BOMB P4 IE › Penetration › Direct": "Medium",
+      "CLUSTER BOMB P4 IE › Penetration › Inner AP": "Medium",
+      "CLUSTER BOMB P4 IE › Penetration › Outer AP": "Light",
+      "CLUSTER BOMB P4 IE › Penetration › Shockwave AP": "Medium",
       "CLUSTER BOMB P4 IE › AoE Effect › Demolition Force": "30",
       "CLUSTER BOMB P4 IE › AoE Effect › Stagger Force": "50",
       "CLUSTER BOMB P4 IE › AoE Effect › Push Force": "40"

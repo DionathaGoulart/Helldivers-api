@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -181,7 +181,7 @@
       "M-105 STALWART › Spread": "↔[6.00] ↕[6.00]",
       "M-105 STALWART › Sway": "1",
       "M-105 STALWART › Ergonomics": "40",
-      "M-105 STALWART › Noise": "Medium (~48m)",
+      "M-105 STALWART › Noise When Firing": "Medium (~48m)",
       "M-105 STALWART › Capacity": "250",
       "M-105 STALWART › Spare Magazines": "3",
       "M-105 STALWART › Starting Magazines": "2",

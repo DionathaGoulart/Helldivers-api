@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -91,7 +91,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_i",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -135,7 +135,9 @@
       "Anti Tank Mine › Damage › Inner Durable": "2000 Explosion",
       "Anti Tank Mine › Damage › Outer Radius": "1999 - 0",
       "Anti Tank Mine › Damage › Outer Durable": "1999 - 0",
-      "Anti Tank Mine › Penetration › Direct": "Anti-Tank I",
+      "Anti Tank Mine › Penetration › Inner AP": "Anti-Tank I",
+      "Anti Tank Mine › Penetration › Outer AP": "Heavy",
+      "Anti Tank Mine › Penetration › Shockwave AP": "Anti-Tank I",
       "Anti Tank Mine › AoE Effect › Demolition Force": "40",
       "Anti Tank Mine › AoE Effect › Stagger Force": "30",
       "Anti Tank Mine › AoE Effect › Push Force": "40"

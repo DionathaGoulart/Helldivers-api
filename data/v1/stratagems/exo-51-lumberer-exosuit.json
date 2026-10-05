@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -203,7 +203,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -251,7 +251,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -360,7 +360,9 @@
       "75mm HEAT GRENADE P1 IE › Damage › Inner Durable": "150 Explosion",
       "75mm HEAT GRENADE P1 IE › Damage › Outer Radius": "149 - 0",
       "75mm HEAT GRENADE P1 IE › Damage › Outer Durable": "149 - 0",
-      "75mm HEAT GRENADE P1 IE › Penetration › Direct": "Medium",
+      "75mm HEAT GRENADE P1 IE › Penetration › Inner AP": "Medium",
+      "75mm HEAT GRENADE P1 IE › Penetration › Outer AP": "Light",
+      "75mm HEAT GRENADE P1 IE › Penetration › Shockwave AP": "Medium",
       "75mm HEAT GRENADE P1 IE › AoE Effect › Demolition Force": "30",
       "75mm HEAT GRENADE P1 IE › AoE Effect › Stagger Force": "60",
       "75mm HEAT GRENADE P1 IE › AoE Effect › Push Force": "40",
@@ -380,7 +382,9 @@
       "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
       "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
       "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
-      "Exosuit Destruction › Penetration › Direct": "Medium",
+      "Exosuit Destruction › Penetration › Inner AP": "Medium",
+      "Exosuit Destruction › Penetration › Outer AP": "Light",
+      "Exosuit Destruction › Penetration › Shockwave AP": "Medium",
       "Exosuit Destruction › AoE Effect › Demolition Force": "30",
       "Exosuit Destruction › AoE Effect › Stagger Force": "50",
       "Exosuit Destruction › AoE Effect › Push Force": "40"

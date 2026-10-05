@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -104,7 +104,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -175,7 +175,7 @@
       "R-36 ERUPTOR › Spread": "↔[5.00] ↕[5.00]",
       "R-36 ERUPTOR › Sway": "0.8",
       "R-36 ERUPTOR › Ergonomics": "25",
-      "R-36 ERUPTOR › Noise": "Medium (~48m)",
+      "R-36 ERUPTOR › Noise When Firing": "Medium (~48m)",
       "R-36 ERUPTOR › Capacity": "5",
       "R-36 ERUPTOR › Spare Magazines": "6",
       "R-36 ERUPTOR › Starting Magazines": "4",
@@ -192,6 +192,7 @@
       "R-36 P › Projectile › Penetration Slowdown": "25%",
       "R-36 P › Projectile › Explosion On Impact": "R-36_P_IE",
       "R-36 P › Projectile › Explode After": "R-36_P_IE",
+      "R-36 P › Projectile › Arming Distance": "0.100000001 m",
       "R-36 P › Damage › Standard": "230 Ballistic",
       "R-36 P › Damage › vs. Durable": "115 Ballistic",
       "R-36 P › Penetration › Direct": "Heavy",
@@ -211,7 +212,9 @@
       "R-36 P IE › Damage › Inner Durable": "225 Explosion",
       "R-36 P IE › Damage › Outer Radius": "224 - 0",
       "R-36 P IE › Damage › Outer Durable": "224 - 0",
-      "R-36 P IE › Penetration › Direct": "Medium",
+      "R-36 P IE › Penetration › Inner AP": "Medium",
+      "R-36 P IE › Penetration › Outer AP": "Light",
+      "R-36 P IE › Penetration › Shockwave AP": "Medium",
       "R-36 P IE › AoE Effect › Demolition Force": "20",
       "R-36 P IE › AoE Effect › Stagger Force": "35",
       "R-36 P IE › AoE Effect › Push Force": "40",

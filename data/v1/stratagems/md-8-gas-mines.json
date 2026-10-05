@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -91,7 +91,7 @@
           "type": "Gas"
         },
         "penetration": {
-          "direct": "anti_tank_ii",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -159,7 +159,9 @@
       "Gas Mine › Damage › Inner Durable": "3 Gas",
       "Gas Mine › Damage › Outer Radius": "2 - 0",
       "Gas Mine › Damage › Outer Durable": "2 - 0",
-      "Gas Mine › Penetration › Direct": "Anti-Tank II",
+      "Gas Mine › Penetration › Inner AP": "Anti-Tank II",
+      "Gas Mine › Penetration › Outer AP": "Anti-Tank I",
+      "Gas Mine › Penetration › Shockwave AP": "Anti-Tank II",
       "Gas Mine › AoE Effect › Status": "Gas",
       "Gas Mine › AoE Effect › Status (2)": "Gas",
       "Gas Mine › AoE Effect › Status Strength": "100",

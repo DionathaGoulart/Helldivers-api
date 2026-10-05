@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -177,10 +177,10 @@
       "ARC-3 ARC THROWER › Spread": "↔[10.00] ↕[10.00]",
       "ARC-3 ARC THROWER › Sway": "1",
       "ARC-3 ARC THROWER › Ergonomics": "50",
-      "ARC-3 ARC THROWER › Noise": "Medium (~48m)",
-      "ARC-3 ARC THROWER › Charge › at (1.00)s": "DEFAULT× 1.00 dmg",
-      "ARC-3 ARC THROWER › Charge › at (1.10)s": "DEFAULT× 1.00 dmg",
-      "ARC-3 ARC THROWER › Charge › at (1.20)s": "DEFAULT× 1.00 dmg",
+      "ARC-3 ARC THROWER › Noise When Firing": "Medium (~48m)",
+      "ARC-3 ARC THROWER › Charge › at (1.00)s": "1.00 dmg × DEFAULT",
+      "ARC-3 ARC THROWER › Charge › at (1.10)s": "1.00 dmg × DEFAULT",
+      "ARC-3 ARC THROWER › Charge › at (1.20)s": "1.00 dmg × DEFAULT",
       "ARC-3 ARC THROWER › Charge › Speed Mult Range": "(0.70) (1.40)",
       "ARC-3 ARC THROWER › Charge › Distance Mult Range": "(1.00) (1.00)",
       "ARC-3 ARC THROWER › Charge › Damage Mult Range": "(1.00) (1.00)",

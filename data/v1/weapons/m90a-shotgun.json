@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
       "M90A SHOTGUN › Spread": "↔[120.00] ↕[100.00]",
       "M90A SHOTGUN › Sway": "1",
       "M90A SHOTGUN › Ergonomics": "65",
-      "M90A SHOTGUN › Noise": "Medium (~48m)",
+      "M90A SHOTGUN › Noise When Firing": "Medium (~48m)",
       "M90A SHOTGUN › Capacity": "6",
       "M90A SHOTGUN › Spare Rounds": "44",
       "M90A SHOTGUN › Starting Rounds": "24",

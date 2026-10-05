@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -206,7 +206,7 @@
       "SMG/FLAM-34 STOKER › Spread": "↔[5.00] ↕[5.00]",
       "SMG/FLAM-34 STOKER › Sway": "1",
       "SMG/FLAM-34 STOKER › Ergonomics": "60",
-      "SMG/FLAM-34 STOKER › Noise": "Small (~33m)",
+      "SMG/FLAM-34 STOKER › Noise When Firing": "Small (~33m)",
       "SMG/FLAM-34 STOKER › Capacity": "45",
       "SMG/FLAM-34 STOKER › Spare Magazines": "5",
       "SMG/FLAM-34 STOKER › Starting Magazines": "3",
@@ -219,7 +219,7 @@
       "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Spread": "↔[1.00] ↕[1.00]",
       "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Sway": "1",
       "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Ergonomics": "70",
-      "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Noise": "Small (~33m)",
+      "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Noise When Firing": "Small (~33m)",
       "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Capacity": "50",
       "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Underbarrel SMG/FLAM-34 STOKER 0 S": "Spray",
       "SMG/FLAM-34 STOKER › Underbarrel SMG/FLAM-34 STOKER 0 › Fire": "status",

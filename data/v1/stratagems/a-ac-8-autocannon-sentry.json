@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -142,7 +142,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -221,7 +221,9 @@
       "40mm APHE CANNON P IE › Damage › Inner Durable": "150 Explosion",
       "40mm APHE CANNON P IE › Damage › Outer Radius": "149 - 0",
       "40mm APHE CANNON P IE › Damage › Outer Durable": "149 - 0",
-      "40mm APHE CANNON P IE › Penetration › Direct": "Medium",
+      "40mm APHE CANNON P IE › Penetration › Inner AP": "Medium",
+      "40mm APHE CANNON P IE › Penetration › Outer AP": "Light",
+      "40mm APHE CANNON P IE › Penetration › Shockwave AP": "Medium",
       "40mm APHE CANNON P IE › AoE Effect › Demolition Force": "30",
       "40mm APHE CANNON P IE › AoE Effect › Stagger Force": "30",
       "40mm APHE CANNON P IE › AoE Effect › Push Force": "30"

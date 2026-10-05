@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -113,10 +113,10 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_iii",
-          "slightAngle": "anti_tank_iii",
-          "largeAngle": "anti_tank_iii",
-          "extremeAngle": "anti_tank_iii"
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
         },
         "projectile": null,
         "area": {
@@ -164,10 +164,9 @@
       "B/MD C4 PACK E › Damage › Inner Durable": "2000 Explosion",
       "B/MD C4 PACK E › Damage › Outer Radius": "1999 - 0",
       "B/MD C4 PACK E › Damage › Outer Durable": "1999 - 0",
-      "B/MD C4 PACK E › Penetration › Direct": "Anti-Tank III",
-      "B/MD C4 PACK E › Penetration › Slight Angle": "Anti-Tank III",
-      "B/MD C4 PACK E › Penetration › Large Angle": "Anti-Tank III",
-      "B/MD C4 PACK E › Penetration › Extreme Angle": "Anti-Tank III",
+      "B/MD C4 PACK E › Penetration › Inner AP": "Anti-Tank III",
+      "B/MD C4 PACK E › Penetration › Outer AP": "Anti-Tank II",
+      "B/MD C4 PACK E › Penetration › Shockwave AP": "Anti-Tank III",
       "B/MD C4 PACK E › AoE Effect › Demolition Force": "40",
       "B/MD C4 PACK E › AoE Effect › Stagger Force": "30",
       "B/MD C4 PACK E › AoE Effect › Push Force": "40"

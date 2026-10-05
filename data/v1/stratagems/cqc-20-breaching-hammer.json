@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -117,9 +117,9 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_ii",
-          "slightAngle": "anti_tank_ii",
-          "largeAngle": "anti_tank_ii",
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
           "extremeAngle": null
         },
         "projectile": null,
@@ -160,7 +160,7 @@
       "CQC-20 BREACHING HAMMER › Spread": "↔[10.00] ↕[10.00]",
       "CQC-20 BREACHING HAMMER › Sway": "1",
       "CQC-20 BREACHING HAMMER › Ergonomics": "65",
-      "CQC-20 BREACHING HAMMER › Noise": "No sound",
+      "CQC-20 BREACHING HAMMER › Noise When Firing": "No sound",
       "CQC-20 BREACHING HAMMER › Stamina Cost": "5%",
       "CQC-20 BREACHING HAMMER › Capacity": "1",
       "CQC-20 BREACHING HAMMER › Spare Magazines": "7",
@@ -186,9 +186,9 @@
       "CQC-20 BREACHING HAMMER IE › Damage › Inner Durable": "2200 Explosion",
       "CQC-20 BREACHING HAMMER IE › Damage › Outer Radius": "2199 - 0",
       "CQC-20 BREACHING HAMMER IE › Damage › Outer Durable": "2199 - 0",
-      "CQC-20 BREACHING HAMMER IE › Penetration › Direct": "Anti-Tank II",
-      "CQC-20 BREACHING HAMMER IE › Penetration › Slight Angle": "Anti-Tank II",
-      "CQC-20 BREACHING HAMMER IE › Penetration › Large Angle": "Anti-Tank II",
+      "CQC-20 BREACHING HAMMER IE › Penetration › Inner AP": "Anti-Tank II",
+      "CQC-20 BREACHING HAMMER IE › Penetration › Outer AP": "Anti-Tank I",
+      "CQC-20 BREACHING HAMMER IE › Penetration › Shockwave AP": "Anti-Tank II",
       "CQC-20 BREACHING HAMMER IE › AoE Effect › Demolition Force": "30",
       "CQC-20 BREACHING HAMMER IE › AoE Effect › Stagger Force": "50",
       "CQC-20 BREACHING HAMMER IE › AoE Effect › Push Force": "40"

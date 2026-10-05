@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -167,7 +167,7 @@
       "FLAM-66 TORCHER › Spread": "↔[1.00] ↕[1.00]",
       "FLAM-66 TORCHER › Sway": "1",
       "FLAM-66 TORCHER › Ergonomics": "45",
-      "FLAM-66 TORCHER › Noise": "Small (~33m)",
+      "FLAM-66 TORCHER › Noise When Firing": "Small (~33m)",
       "FLAM-66 TORCHER › Capacity": "100",
       "FLAM-66 TORCHER › Spare Magazines": "6",
       "FLAM-66 TORCHER › Starting Magazines": "3",

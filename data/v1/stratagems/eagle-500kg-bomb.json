@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -131,7 +131,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_ii",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -157,7 +157,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -221,7 +221,9 @@
       "500kg BOMB P E › Damage › Inner Durable": "1500 Explosion",
       "500kg BOMB P E › Damage › Outer Radius": "1499 - 0",
       "500kg BOMB P E › Damage › Outer Durable": "1499 - 0",
-      "500kg BOMB P E › Penetration › Direct": "Anti-Tank II",
+      "500kg BOMB P E › Penetration › Inner AP": "Anti-Tank II",
+      "500kg BOMB P E › Penetration › Outer AP": "Anti-Tank I",
+      "500kg BOMB P E › Penetration › Shockwave AP": "Anti-Tank II",
       "500kg BOMB P E › AoE Effect › Demolition Force": "50",
       "500kg BOMB P E › AoE Effect › Stagger Force": "100",
       "500kg BOMB P E › AoE Effect › Push Force": "40",
@@ -233,7 +235,9 @@
       "500kg BOMB P IE › Damage › Inner Durable": "100 Explosion",
       "500kg BOMB P IE › Damage › Outer Radius": "99 - 0",
       "500kg BOMB P IE › Damage › Outer Durable": "99 - 0",
-      "500kg BOMB P IE › Penetration › Direct": "Medium",
+      "500kg BOMB P IE › Penetration › Inner AP": "Medium",
+      "500kg BOMB P IE › Penetration › Outer AP": "Light",
+      "500kg BOMB P IE › Penetration › Shockwave AP": "Medium",
       "500kg BOMB P IE › AoE Effect › Demolition Force": "40",
       "500kg BOMB P IE › AoE Effect › Stagger Force": "10",
       "500kg BOMB P IE › AoE Effect › Push Force": "40"

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -100,7 +100,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -139,7 +139,7 @@
       "GP-31 GRENADE PISTOL › Spread": "↔[30.00] ↕[30.00]",
       "GP-31 GRENADE PISTOL › Sway": "1",
       "GP-31 GRENADE PISTOL › Ergonomics": "95",
-      "GP-31 GRENADE PISTOL › Noise": "Small (~33m)",
+      "GP-31 GRENADE PISTOL › Noise When Firing": "Small (~33m)",
       "GP-31 GRENADE PISTOL › Capacity": "1",
       "GP-31 GRENADE PISTOL › Spare Rounds": "6",
       "GP-31 GRENADE PISTOL › Starting Rounds": "4",
@@ -154,6 +154,7 @@
       "GP-31 P › Projectile › Penetration Slowdown": "25%",
       "GP-31 P › Projectile › Explosion On Impact": "GP-31_P_IE",
       "GP-31 P › Projectile › Explode After": "GP-31_P_IE",
+      "GP-31 P › Projectile › Arming Distance": "4 m",
       "GP-31 P › Damage › Standard": "250 Ballistic",
       "GP-31 P › Damage › vs. Durable": "250 Ballistic",
       "GP-31 P › Penetration › Direct": "Medium",
@@ -171,7 +172,9 @@
       "GP-31 P IE › Damage › Inner Durable": "400 Explosion",
       "GP-31 P IE › Damage › Outer Radius": "399 - 0",
       "GP-31 P IE › Damage › Outer Durable": "399 - 0",
-      "GP-31 P IE › Penetration › Direct": "Medium",
+      "GP-31 P IE › Penetration › Inner AP": "Medium",
+      "GP-31 P IE › Penetration › Outer AP": "Light",
+      "GP-31 P IE › Penetration › Shockwave AP": "Medium",
       "GP-31 P IE › AoE Effect › Demolition Force": "30",
       "GP-31 P IE › AoE Effect › Stagger Force": "25",
       "GP-31 P IE › AoE Effect › Push Force": "30"

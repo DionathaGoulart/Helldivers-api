@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -155,7 +155,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -210,7 +210,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -289,7 +289,7 @@
       "AC-8 AUTOCANNON › Spread": "↔[2.00] ↕[2.00]",
       "AC-8 AUTOCANNON › Sway": "1",
       "AC-8 AUTOCANNON › Ergonomics": "17",
-      "AC-8 AUTOCANNON › Noise": "Large (~58m)",
+      "AC-8 AUTOCANNON › Noise When Firing": "Large (~58m)",
       "AC-8 AUTOCANNON › Capacity": "10",
       "AC-8 AUTOCANNON › Spare Rounds": "10",
       "AC-8 AUTOCANNON › Starting Rounds": "10",
@@ -323,7 +323,9 @@
       "AC-8 P IE › Damage › Inner Durable": "150 Explosion",
       "AC-8 P IE › Damage › Outer Radius": "149 - 0",
       "AC-8 P IE › Damage › Outer Durable": "149 - 0",
-      "AC-8 P IE › Penetration › Direct": "Medium",
+      "AC-8 P IE › Penetration › Inner AP": "Medium",
+      "AC-8 P IE › Penetration › Outer AP": "Light",
+      "AC-8 P IE › Penetration › Shockwave AP": "Medium",
       "AC-8 P IE › AoE Effect › Demolition Force": "30",
       "AC-8 P IE › AoE Effect › Stagger Force": "40",
       "AC-8 P IE › AoE Effect › Push Force": "40",
@@ -335,6 +337,7 @@
       "AC-8 P1 › Projectile › Penetration Slowdown": "25%",
       "AC-8 P1 › Projectile › Explosion On Impact": "AC-8_P1_IE",
       "AC-8 P1 › Projectile › Explosion Proximity": "3 m",
+      "AC-8 P1 › Projectile › Arming Distance": "8 m",
       "AC-8 P1 › Damage › Standard": "150 Ballistic",
       "AC-8 P1 › Damage › vs. Durable": "150 Ballistic",
       "AC-8 P1 › Penetration › Direct": "Light",
@@ -354,7 +357,9 @@
       "AC-8 P1 IE › Damage › Inner Durable": "190 Explosion",
       "AC-8 P1 IE › Damage › Outer Radius": "189 - 0",
       "AC-8 P1 IE › Damage › Outer Durable": "189 - 0",
-      "AC-8 P1 IE › Penetration › Direct": "Medium",
+      "AC-8 P1 IE › Penetration › Inner AP": "Medium",
+      "AC-8 P1 IE › Penetration › Outer AP": "Light",
+      "AC-8 P1 IE › Penetration › Shockwave AP": "Medium",
       "AC-8 P1 IE › AoE Effect › Demolition Force": "20",
       "AC-8 P1 IE › AoE Effect › Stagger Force": "25",
       "AC-8 P1 IE › AoE Effect › Push Force": "40",

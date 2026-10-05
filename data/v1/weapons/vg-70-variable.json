@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -125,7 +125,7 @@
       "VG-70 VARIABLE › Spread": "↔[5.00] ↕[5.00]",
       "VG-70 VARIABLE › Sway": "1",
       "VG-70 VARIABLE › Ergonomics": "25",
-      "VG-70 VARIABLE › Noise": "Medium (~48m)",
+      "VG-70 VARIABLE › Noise When Firing": "Medium (~48m)",
       "VG-70 VARIABLE › Capacity": "49",
       "VG-70 VARIABLE › Spare Magazines": "7",
       "VG-70 VARIABLE › Starting Magazines": "6",

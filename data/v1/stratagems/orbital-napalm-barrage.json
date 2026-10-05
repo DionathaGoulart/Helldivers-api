@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -142,7 +142,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -248,7 +248,9 @@
       "120mm HE CANNON ROUND P3 IE › Damage › Inner Durable": "350 Explosion",
       "120mm HE CANNON ROUND P3 IE › Damage › Outer Radius": "349 - 0",
       "120mm HE CANNON ROUND P3 IE › Damage › Outer Durable": "349 - 0",
-      "120mm HE CANNON ROUND P3 IE › Penetration › Direct": "Medium",
+      "120mm HE CANNON ROUND P3 IE › Penetration › Inner AP": "Medium",
+      "120mm HE CANNON ROUND P3 IE › Penetration › Outer AP": "Light",
+      "120mm HE CANNON ROUND P3 IE › Penetration › Shockwave AP": "Medium",
       "120mm HE CANNON ROUND P3 IE › AoE Effect › Status": "Fire",
       "120mm HE CANNON ROUND P3 IE › AoE Effect › Status Strength": "100",
       "120mm HE CANNON ROUND P3 IE › AoE Effect › Second Status": "BurningHeavy",

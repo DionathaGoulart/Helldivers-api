@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -111,7 +111,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -166,7 +166,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -210,7 +210,7 @@
       "MLS-4X COMMANDO › Spread": "↔[0.00] ↕[0.00]",
       "MLS-4X COMMANDO › Sway": "1",
       "MLS-4X COMMANDO › Ergonomics": "10",
-      "MLS-4X COMMANDO › Noise": "Medium (~48m)",
+      "MLS-4X COMMANDO › Noise When Firing": "Medium (~48m)",
       "MLS-4X COMMANDO › Capacity": "4",
       "MLS-4X COMMANDO › Spare Magazines": "0",
       "MLS-4X COMMANDO › Starting Magazines": "0",
@@ -228,7 +228,9 @@
       "MLS-4X BACKBLAST E › Damage › Inner Durable": "5 Explosion",
       "MLS-4X BACKBLAST E › Damage › Outer Radius": "4 - 0",
       "MLS-4X BACKBLAST E › Damage › Outer Durable": "4 - 0",
-      "MLS-4X BACKBLAST E › Penetration › Direct": "Medium",
+      "MLS-4X BACKBLAST E › Penetration › Inner AP": "Medium",
+      "MLS-4X BACKBLAST E › Penetration › Outer AP": "Light",
+      "MLS-4X BACKBLAST E › Penetration › Shockwave AP": "Medium",
       "MLS-4X BACKBLAST E › AoE Effect › Demolition Force": "10",
       "MLS-4X BACKBLAST E › AoE Effect › Stagger Force": "20",
       "MLS-4X BACKBLAST E › AoE Effect › Push Force": "10",
@@ -256,7 +258,9 @@
       "MLS-4X P IE › Damage › Inner Durable": "150 Explosion",
       "MLS-4X P IE › Damage › Outer Radius": "149 - 0",
       "MLS-4X P IE › Damage › Outer Durable": "149 - 0",
-      "MLS-4X P IE › Penetration › Direct": "Medium",
+      "MLS-4X P IE › Penetration › Inner AP": "Medium",
+      "MLS-4X P IE › Penetration › Outer AP": "Light",
+      "MLS-4X P IE › Penetration › Shockwave AP": "Medium",
       "MLS-4X P IE › AoE Effect › Demolition Force": "30",
       "MLS-4X P IE › AoE Effect › Stagger Force": "40",
       "MLS-4X P IE › AoE Effect › Push Force": "40"

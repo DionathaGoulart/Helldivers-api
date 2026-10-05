@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -121,7 +121,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -178,7 +178,9 @@
       "ET APHE 75mm › Damage › Inner Durable": "150 Explosion",
       "ET APHE 75mm › Damage › Outer Radius": "149 - 0",
       "ET APHE 75mm › Damage › Outer Durable": "149 - 0",
-      "ET APHE 75mm › Penetration › Direct": "Medium",
+      "ET APHE 75mm › Penetration › Inner AP": "Medium",
+      "ET APHE 75mm › Penetration › Outer AP": "Light",
+      "ET APHE 75mm › Penetration › Shockwave AP": "Medium",
       "ET APHE 75mm › AoE Effect › Demolition Force": "30",
       "ET APHE 75mm › AoE Effect › Stagger Force": "60",
       "ET APHE 75mm › AoE Effect › Push Force": "40"

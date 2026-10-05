@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -107,7 +107,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -177,7 +177,7 @@
       "P-33 MISSILE PISTOL › Spread": "↔[8.00] ↕[8.00]",
       "P-33 MISSILE PISTOL › Sway": "1",
       "P-33 MISSILE PISTOL › Ergonomics": "45",
-      "P-33 MISSILE PISTOL › Noise": "Small (~33m)",
+      "P-33 MISSILE PISTOL › Noise When Firing": "Small (~33m)",
       "P-33 MISSILE PISTOL › Capacity": "1",
       "P-33 MISSILE PISTOL › Spare Magazines": "3",
       "P-33 MISSILE PISTOL › Starting Magazines": "1",
@@ -211,7 +211,9 @@
       "P-33 P IE › Damage › Inner Durable": "300 Explosion",
       "P-33 P IE › Damage › Outer Radius": "299 - 0",
       "P-33 P IE › Damage › Outer Durable": "299 - 0",
-      "P-33 P IE › Penetration › Direct": "Medium",
+      "P-33 P IE › Penetration › Inner AP": "Medium",
+      "P-33 P IE › Penetration › Outer AP": "Light",
+      "P-33 P IE › Penetration › Shockwave AP": "Medium",
       "P-33 P IE › AoE Effect › Demolition Force": "30",
       "P-33 P IE › AoE Effect › Stagger Force": "40",
       "P-33 P IE › AoE Effect › Push Force": "40",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -91,7 +91,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -135,7 +135,9 @@
       "Contact Mine › Damage › Inner Durable": "700 Explosion",
       "Contact Mine › Damage › Outer Radius": "699 - 0",
       "Contact Mine › Damage › Outer Durable": "699 - 0",
-      "Contact Mine › Penetration › Direct": "Medium",
+      "Contact Mine › Penetration › Inner AP": "Medium",
+      "Contact Mine › Penetration › Outer AP": "Light",
+      "Contact Mine › Penetration › Shockwave AP": "Medium",
       "Contact Mine › AoE Effect › Demolition Force": "30",
       "Contact Mine › AoE Effect › Stagger Force": "30",
       "Contact Mine › AoE Effect › Push Force": "30"

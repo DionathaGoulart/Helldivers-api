@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -169,7 +169,7 @@
       "P-72 CRISPER › Spread": "↔[1.00] ↕[1.00]",
       "P-72 CRISPER › Sway": "1",
       "P-72 CRISPER › Ergonomics": "95",
-      "P-72 CRISPER › Noise": "Small (~33m)",
+      "P-72 CRISPER › Noise When Firing": "Small (~33m)",
       "P-72 CRISPER › Capacity": "50",
       "P-72 CRISPER › Spare Magazines": "4",
       "P-72 CRISPER › Starting Magazines": "2",

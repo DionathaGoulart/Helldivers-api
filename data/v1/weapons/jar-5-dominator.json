@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -120,7 +120,7 @@
       "JAR-5 DOMINATOR › Spread": "↔[10.00] ↕[10.00]",
       "JAR-5 DOMINATOR › Sway": "0.8",
       "JAR-5 DOMINATOR › Ergonomics": "30",
-      "JAR-5 DOMINATOR › Noise": "Medium (~48m)",
+      "JAR-5 DOMINATOR › Noise When Firing": "Medium (~48m)",
       "JAR-5 DOMINATOR › Capacity": "15",
       "JAR-5 DOMINATOR › Spare Magazines": "6",
       "JAR-5 DOMINATOR › Starting Magazines": "4",

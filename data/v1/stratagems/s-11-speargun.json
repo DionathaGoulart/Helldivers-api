@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -197,7 +197,7 @@
           "type": "Gas"
         },
         "penetration": {
-          "direct": "anti_tank_ii",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -240,7 +240,7 @@
       "S-11 SPEARGUN › Spread": "↔[0.10] ↕[0.10]",
       "S-11 SPEARGUN › Sway": "1",
       "S-11 SPEARGUN › Ergonomics": "35",
-      "S-11 SPEARGUN › Noise": "Medium (~48m)",
+      "S-11 SPEARGUN › Noise When Firing": "Medium (~48m)",
       "S-11 SPEARGUN › Capacity": "1",
       "S-11 SPEARGUN › Spare Magazines": "12",
       "S-11 SPEARGUN › Starting Magazines": "12",
@@ -257,6 +257,7 @@
       "S-11 P › Projectile › Lifetime": "1.70000005 sec",
       "S-11 P › Projectile › Penetration Slowdown": "0%",
       "S-11 P › Projectile › Explode After": "S-11_P_E",
+      "S-11 P › Projectile › Arming Distance": "1 m",
       "S-11 P › Damage › Standard": "650 Ballistic",
       "S-11 P › Damage › vs. Durable": "275 Ballistic",
       "S-11 P › Penetration › Direct": "Anti-Tank I",
@@ -291,7 +292,9 @@
       "S-11 P E › Damage › Inner Durable": "3 Gas",
       "S-11 P E › Damage › Outer Radius": "2 - 0",
       "S-11 P E › Damage › Outer Durable": "2 - 0",
-      "S-11 P E › Penetration › Direct": "Anti-Tank II",
+      "S-11 P E › Penetration › Inner AP": "Anti-Tank II",
+      "S-11 P E › Penetration › Outer AP": "Anti-Tank I",
+      "S-11 P E › Penetration › Shockwave AP": "Anti-Tank II",
       "S-11 P E › AoE Effect › Status": "Gas",
       "S-11 P E › AoE Effect › Status Strength": "100",
       "S-11 P E › AoE Effect › Second Status": "Gas_Confusion",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -142,7 +142,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_i",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -202,7 +202,9 @@
       "120mm HE CANNON ROUND P1 IE › Damage › Inner Durable": "1200 Explosion",
       "120mm HE CANNON ROUND P1 IE › Damage › Outer Radius": "1199 - 0",
       "120mm HE CANNON ROUND P1 IE › Damage › Outer Durable": "1199 - 0",
-      "120mm HE CANNON ROUND P1 IE › Penetration › Direct": "Anti-Tank I",
+      "120mm HE CANNON ROUND P1 IE › Penetration › Inner AP": "Anti-Tank I",
+      "120mm HE CANNON ROUND P1 IE › Penetration › Outer AP": "Heavy",
+      "120mm HE CANNON ROUND P1 IE › Penetration › Shockwave AP": "Anti-Tank I",
       "120mm HE CANNON ROUND P1 IE › AoE Effect › Demolition Force": "50",
       "120mm HE CANNON ROUND P1 IE › AoE Effect › Stagger Force": "70",
       "120mm HE CANNON ROUND P1 IE › AoE Effect › Push Force": "40"

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -147,7 +147,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -225,7 +225,9 @@
       "40mm HE MORTAR P IE › Damage › Inner Durable": "400 Explosion",
       "40mm HE MORTAR P IE › Damage › Outer Radius": "399 - 0",
       "40mm HE MORTAR P IE › Damage › Outer Durable": "399 - 0",
-      "40mm HE MORTAR P IE › Penetration › Direct": "Medium",
+      "40mm HE MORTAR P IE › Penetration › Inner AP": "Medium",
+      "40mm HE MORTAR P IE › Penetration › Outer AP": "Light",
+      "40mm HE MORTAR P IE › Penetration › Shockwave AP": "Medium",
       "40mm HE MORTAR P IE › AoE Effect › Demolition Force": "30",
       "40mm HE MORTAR P IE › AoE Effect › Stagger Force": "35",
       "40mm HE MORTAR P IE › AoE Effect › Push Force": "40"

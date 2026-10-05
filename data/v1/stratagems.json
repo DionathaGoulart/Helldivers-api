@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "count": 115,
     "source": {
       "name": "The Helldivers Wiki",
@@ -392,7 +392,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -471,7 +471,9 @@
         "40mm APHE CANNON P IE › Damage › Inner Durable": "150 Explosion",
         "40mm APHE CANNON P IE › Damage › Outer Radius": "149 - 0",
         "40mm APHE CANNON P IE › Damage › Outer Durable": "149 - 0",
-        "40mm APHE CANNON P IE › Penetration › Direct": "Medium",
+        "40mm APHE CANNON P IE › Penetration › Inner AP": "Medium",
+        "40mm APHE CANNON P IE › Penetration › Outer AP": "Light",
+        "40mm APHE CANNON P IE › Penetration › Shockwave AP": "Medium",
         "40mm APHE CANNON P IE › AoE Effect › Demolition Force": "30",
         "40mm APHE CANNON P IE › AoE Effect › Stagger Force": "30",
         "40mm APHE CANNON P IE › AoE Effect › Push Force": "30"
@@ -1280,7 +1282,7 @@
             "type": "Gas"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -1402,7 +1404,9 @@
         "GAS MORTAR SHELL P IE › Damage › Damage Element": "Gas",
         "GAS MORTAR SHELL P IE › Damage › Inner Radius": "0 Gas",
         "GAS MORTAR SHELL P IE › Damage › Inner Durable": "0 Gas",
-        "GAS MORTAR SHELL P IE › Penetration › Direct": "Anti-Tank II",
+        "GAS MORTAR SHELL P IE › Penetration › Inner AP": "Anti-Tank II",
+        "GAS MORTAR SHELL P IE › Penetration › Outer AP": "Anti-Tank I",
+        "GAS MORTAR SHELL P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "GAS MORTAR SHELL P IE › AoE Effect › Status": "Gas",
         "GAS MORTAR SHELL P IE › AoE Effect › Status Strength": "100",
         "GAS MORTAR SHELL P IE › AoE Effect › Second Status": "Gas_Confusion",
@@ -1787,7 +1791,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -1865,7 +1869,9 @@
         "40mm HE MORTAR P IE › Damage › Inner Durable": "400 Explosion",
         "40mm HE MORTAR P IE › Damage › Outer Radius": "399 - 0",
         "40mm HE MORTAR P IE › Damage › Outer Durable": "399 - 0",
-        "40mm HE MORTAR P IE › Penetration › Direct": "Medium",
+        "40mm HE MORTAR P IE › Penetration › Inner AP": "Medium",
+        "40mm HE MORTAR P IE › Penetration › Outer AP": "Light",
+        "40mm HE MORTAR P IE › Penetration › Shockwave AP": "Medium",
         "40mm HE MORTAR P IE › AoE Effect › Demolition Force": "30",
         "40mm HE MORTAR P IE › AoE Effect › Stagger Force": "35",
         "40mm HE MORTAR P IE › AoE Effect › Push Force": "40"
@@ -2021,7 +2027,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -2069,7 +2075,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -2149,7 +2155,9 @@
         "EMS MORTAR SHELL P E › Damage › Damage Element": "None",
         "EMS MORTAR SHELL P E › Damage › Inner Radius": "0 Explosion",
         "EMS MORTAR SHELL P E › Damage › Inner Durable": "0 Explosion",
-        "EMS MORTAR SHELL P E › Penetration › Direct": "Anti-Tank II",
+        "EMS MORTAR SHELL P E › Penetration › Inner AP": "Anti-Tank II",
+        "EMS MORTAR SHELL P E › Penetration › Outer AP": "Anti-Tank I",
+        "EMS MORTAR SHELL P E › Penetration › Shockwave AP": "Anti-Tank II",
         "EMS MORTAR SHELL P E › AoE Effect › Status": "Stun Medium",
         "EMS MORTAR SHELL P E › AoE Effect › Status Strength": "100",
         "EMS MORTAR SHELL P E › AoE Effect › Demolition Force": "30",
@@ -2164,7 +2172,9 @@
         "EMS MORTAR SHELL P IE › Damage › Inner Durable": "150 Explosion",
         "EMS MORTAR SHELL P IE › Damage › Outer Radius": "149 - 0",
         "EMS MORTAR SHELL P IE › Damage › Outer Durable": "149 - 0",
-        "EMS MORTAR SHELL P IE › Penetration › Direct": "Medium",
+        "EMS MORTAR SHELL P IE › Penetration › Inner AP": "Medium",
+        "EMS MORTAR SHELL P IE › Penetration › Outer AP": "Light",
+        "EMS MORTAR SHELL P IE › Penetration › Shockwave AP": "Medium",
         "EMS MORTAR SHELL P IE › AoE Effect › Demolition Force": "30",
         "EMS MORTAR SHELL P IE › AoE Effect › Stagger Force": "30",
         "EMS MORTAR SHELL P IE › AoE Effect › Push Force": "20"
@@ -2505,7 +2515,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -2585,7 +2595,9 @@
         "70mm STANDARD ROCKET P IE › Damage › Inner Durable": "150 Explosion",
         "70mm STANDARD ROCKET P IE › Damage › Outer Radius": "149 - 0",
         "70mm STANDARD ROCKET P IE › Damage › Outer Durable": "149 - 0",
-        "70mm STANDARD ROCKET P IE › Penetration › Direct": "Medium",
+        "70mm STANDARD ROCKET P IE › Penetration › Inner AP": "Medium",
+        "70mm STANDARD ROCKET P IE › Penetration › Outer AP": "Light",
+        "70mm STANDARD ROCKET P IE › Penetration › Shockwave AP": "Medium",
         "70mm STANDARD ROCKET P IE › AoE Effect › Demolition Force": "30",
         "70mm STANDARD ROCKET P IE › AoE Effect › Stagger Force": "30",
         "70mm STANDARD ROCKET P IE › AoE Effect › Push Force": "10"
@@ -2749,7 +2761,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -2804,7 +2816,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -2883,7 +2895,7 @@
         "AC-8 AUTOCANNON › Spread": "↔[2.00] ↕[2.00]",
         "AC-8 AUTOCANNON › Sway": "1",
         "AC-8 AUTOCANNON › Ergonomics": "17",
-        "AC-8 AUTOCANNON › Noise": "Large (~58m)",
+        "AC-8 AUTOCANNON › Noise When Firing": "Large (~58m)",
         "AC-8 AUTOCANNON › Capacity": "10",
         "AC-8 AUTOCANNON › Spare Rounds": "10",
         "AC-8 AUTOCANNON › Starting Rounds": "10",
@@ -2917,7 +2929,9 @@
         "AC-8 P IE › Damage › Inner Durable": "150 Explosion",
         "AC-8 P IE › Damage › Outer Radius": "149 - 0",
         "AC-8 P IE › Damage › Outer Durable": "149 - 0",
-        "AC-8 P IE › Penetration › Direct": "Medium",
+        "AC-8 P IE › Penetration › Inner AP": "Medium",
+        "AC-8 P IE › Penetration › Outer AP": "Light",
+        "AC-8 P IE › Penetration › Shockwave AP": "Medium",
         "AC-8 P IE › AoE Effect › Demolition Force": "30",
         "AC-8 P IE › AoE Effect › Stagger Force": "40",
         "AC-8 P IE › AoE Effect › Push Force": "40",
@@ -2929,6 +2943,7 @@
         "AC-8 P1 › Projectile › Penetration Slowdown": "25%",
         "AC-8 P1 › Projectile › Explosion On Impact": "AC-8_P1_IE",
         "AC-8 P1 › Projectile › Explosion Proximity": "3 m",
+        "AC-8 P1 › Projectile › Arming Distance": "8 m",
         "AC-8 P1 › Damage › Standard": "150 Ballistic",
         "AC-8 P1 › Damage › vs. Durable": "150 Ballistic",
         "AC-8 P1 › Penetration › Direct": "Light",
@@ -2948,7 +2963,9 @@
         "AC-8 P1 IE › Damage › Inner Durable": "190 Explosion",
         "AC-8 P1 IE › Damage › Outer Radius": "189 - 0",
         "AC-8 P1 IE › Damage › Outer Durable": "189 - 0",
-        "AC-8 P1 IE › Penetration › Direct": "Medium",
+        "AC-8 P1 IE › Penetration › Inner AP": "Medium",
+        "AC-8 P1 IE › Penetration › Outer AP": "Light",
+        "AC-8 P1 IE › Penetration › Shockwave AP": "Medium",
         "AC-8 P1 IE › AoE Effect › Demolition Force": "20",
         "AC-8 P1 IE › AoE Effect › Stagger Force": "25",
         "AC-8 P1 IE › AoE Effect › Push Force": "40",
@@ -3214,7 +3231,7 @@
         "APW-1 ANTI-MATERIEL RIFLE › Spread": "↔[0.10] ↕[0.10]",
         "APW-1 ANTI-MATERIEL RIFLE › Sway": "1",
         "APW-1 ANTI-MATERIEL RIFLE › Ergonomics": "35",
-        "APW-1 ANTI-MATERIEL RIFLE › Noise": "Large (~58m)",
+        "APW-1 ANTI-MATERIEL RIFLE › Noise When Firing": "Large (~58m)",
         "APW-1 ANTI-MATERIEL RIFLE › Capacity": "7",
         "APW-1 ANTI-MATERIEL RIFLE › Spare Magazines": "8",
         "APW-1 ANTI-MATERIEL RIFLE › Starting Magazines": "5",
@@ -3483,10 +3500,10 @@
         "ARC-3 ARC THROWER › Spread": "↔[10.00] ↕[10.00]",
         "ARC-3 ARC THROWER › Sway": "1",
         "ARC-3 ARC THROWER › Ergonomics": "50",
-        "ARC-3 ARC THROWER › Noise": "Medium (~48m)",
-        "ARC-3 ARC THROWER › Charge › at (1.00)s": "DEFAULT× 1.00 dmg",
-        "ARC-3 ARC THROWER › Charge › at (1.10)s": "DEFAULT× 1.00 dmg",
-        "ARC-3 ARC THROWER › Charge › at (1.20)s": "DEFAULT× 1.00 dmg",
+        "ARC-3 ARC THROWER › Noise When Firing": "Medium (~48m)",
+        "ARC-3 ARC THROWER › Charge › at (1.00)s": "1.00 dmg × DEFAULT",
+        "ARC-3 ARC THROWER › Charge › at (1.10)s": "1.00 dmg × DEFAULT",
+        "ARC-3 ARC THROWER › Charge › at (1.20)s": "1.00 dmg × DEFAULT",
         "ARC-3 ARC THROWER › Charge › Speed Mult Range": "(0.70) (1.40)",
         "ARC-3 ARC THROWER › Charge › Distance Mult Range": "(1.00) (1.00)",
         "ARC-3 ARC THROWER › Charge › Damage Mult Range": "(1.00) (1.00)",
@@ -3828,7 +3845,7 @@
         "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Spread": "↔[1.00] ↕[1.00]",
         "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Sway": "1",
         "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Ergonomics": "65",
-        "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Noise": "Medium (~48m)",
+        "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Noise When Firing": "Medium (~48m)",
         "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Capacity": "100",
         "AX/ARC-3 K-9 › Attacks › AX/ARC-3 K-9 A": "Arc",
         "AX/ARC-3 K-9 › Attacks › Stun Small": "status",
@@ -4055,7 +4072,7 @@
         "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Spread": "↔[10.00] ↕[10.00]",
         "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Sway": "1",
         "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Ergonomics": "65",
-        "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Noise": "Small (~33m)",
+        "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Noise When Firing": "Small (~33m)",
         "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Capacity": "80",
         "AX/FLAM-75 HOT DOG › Attacks › AX/FLAM-75 HOT DOG S": "Spray",
         "AX/FLAM-75 HOT DOG › Attacks › Fire": "status",
@@ -4248,7 +4265,7 @@
         "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Spread": "↔[10.00] ↕[10.00]",
         "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Sway": "1",
         "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Ergonomics": "65",
-        "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Noise": "Medium (~48m)",
+        "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Noise When Firing": "Medium (~48m)",
         "AX/LAS-5 ROVER › Heat Data › Overheats at": "200 °C",
         "AX/LAS-5 ROVER › Heat Data › Warmup": "0.2 sec",
         "AX/LAS-5 ROVER › Heat Data › Heat Per Shot": "2 °C",
@@ -4458,7 +4475,7 @@
         "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Spread": "↔[10.00] ↕[10.00]",
         "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Sway": "1",
         "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Ergonomics": "65",
-        "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Noise": "Small (~33m)",
+        "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Noise When Firing": "Small (~33m)",
         "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Capacity": "100",
         "AX/TX-13 DOG BREATH › Attacks › AX/TX-13 DOG BREATH S": "Spray",
         "AX/TX-13 DOG BREATH › Attacks › Gas Confusion Var2": "status",
@@ -4963,7 +4980,7 @@
         "B/FLAM-80 CREMATOR › Spread": "↔[10.00] ↕[10.00]",
         "B/FLAM-80 CREMATOR › Sway": "1",
         "B/FLAM-80 CREMATOR › Ergonomics": "5",
-        "B/FLAM-80 CREMATOR › Noise": "Small (~33m)",
+        "B/FLAM-80 CREMATOR › Noise When Firing": "Small (~33m)",
         "B/FLAM-80 CREMATOR › Capacity": "500",
         "B/FLAM-80 CREMATOR › Mags from Supply": "250",
         "B/FLAM-80 CREMATOR › Mags from Ammo Box": "125",
@@ -5118,10 +5135,10 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_iii",
-            "slightAngle": "anti_tank_iii",
-            "largeAngle": "anti_tank_iii",
-            "extremeAngle": "anti_tank_iii"
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
           },
           "projectile": null,
           "area": {
@@ -5169,10 +5186,9 @@
         "B/MD C4 PACK E › Damage › Inner Durable": "2000 Explosion",
         "B/MD C4 PACK E › Damage › Outer Radius": "1999 - 0",
         "B/MD C4 PACK E › Damage › Outer Durable": "1999 - 0",
-        "B/MD C4 PACK E › Penetration › Direct": "Anti-Tank III",
-        "B/MD C4 PACK E › Penetration › Slight Angle": "Anti-Tank III",
-        "B/MD C4 PACK E › Penetration › Large Angle": "Anti-Tank III",
-        "B/MD C4 PACK E › Penetration › Extreme Angle": "Anti-Tank III",
+        "B/MD C4 PACK E › Penetration › Inner AP": "Anti-Tank III",
+        "B/MD C4 PACK E › Penetration › Outer AP": "Anti-Tank II",
+        "B/MD C4 PACK E › Penetration › Shockwave AP": "Anti-Tank III",
         "B/MD C4 PACK E › AoE Effect › Demolition Force": "40",
         "B/MD C4 PACK E › AoE Effect › Stagger Force": "30",
         "B/MD C4 PACK E › AoE Effect › Push Force": "40"
@@ -5410,7 +5426,7 @@
         "CQC-1 ONE TRUE FLAG › Spread": "↔[10.00] ↕[10.00]",
         "CQC-1 ONE TRUE FLAG › Sway": "1",
         "CQC-1 ONE TRUE FLAG › Ergonomics": "65",
-        "CQC-1 ONE TRUE FLAG › Noise": "No sound",
+        "CQC-1 ONE TRUE FLAG › Noise When Firing": "No sound",
         "CQC-1 ONE TRUE FLAG › Stamina Cost": "3%",
         "CQC-1 ONE TRUE FLAG › Attacks › CQC-1 ONE TRUE FLAG_dm": "Damage",
         "CQC-1 ONE TRUE FLAG_dm › Damage › Standard": "200 Melee",
@@ -5546,9 +5562,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
-            "slightAngle": "anti_tank_ii",
-            "largeAngle": "anti_tank_ii",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -5589,7 +5605,7 @@
         "CQC-20 BREACHING HAMMER › Spread": "↔[10.00] ↕[10.00]",
         "CQC-20 BREACHING HAMMER › Sway": "1",
         "CQC-20 BREACHING HAMMER › Ergonomics": "65",
-        "CQC-20 BREACHING HAMMER › Noise": "No sound",
+        "CQC-20 BREACHING HAMMER › Noise When Firing": "No sound",
         "CQC-20 BREACHING HAMMER › Stamina Cost": "5%",
         "CQC-20 BREACHING HAMMER › Capacity": "1",
         "CQC-20 BREACHING HAMMER › Spare Magazines": "7",
@@ -5615,9 +5631,9 @@
         "CQC-20 BREACHING HAMMER IE › Damage › Inner Durable": "2200 Explosion",
         "CQC-20 BREACHING HAMMER IE › Damage › Outer Radius": "2199 - 0",
         "CQC-20 BREACHING HAMMER IE › Damage › Outer Durable": "2199 - 0",
-        "CQC-20 BREACHING HAMMER IE › Penetration › Direct": "Anti-Tank II",
-        "CQC-20 BREACHING HAMMER IE › Penetration › Slight Angle": "Anti-Tank II",
-        "CQC-20 BREACHING HAMMER IE › Penetration › Large Angle": "Anti-Tank II",
+        "CQC-20 BREACHING HAMMER IE › Penetration › Inner AP": "Anti-Tank II",
+        "CQC-20 BREACHING HAMMER IE › Penetration › Outer AP": "Anti-Tank I",
+        "CQC-20 BREACHING HAMMER IE › Penetration › Shockwave AP": "Anti-Tank II",
         "CQC-20 BREACHING HAMMER IE › AoE Effect › Demolition Force": "30",
         "CQC-20 BREACHING HAMMER IE › AoE Effect › Stagger Force": "50",
         "CQC-20 BREACHING HAMMER IE › AoE Effect › Push Force": "40"
@@ -5952,7 +5968,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -6009,7 +6025,9 @@
         "ET APHE 75mm › Damage › Inner Durable": "150 Explosion",
         "ET APHE 75mm › Damage › Outer Radius": "149 - 0",
         "ET APHE 75mm › Damage › Outer Durable": "149 - 0",
-        "ET APHE 75mm › Penetration › Direct": "Medium",
+        "ET APHE 75mm › Penetration › Inner AP": "Medium",
+        "ET APHE 75mm › Penetration › Outer AP": "Light",
+        "ET APHE 75mm › Penetration › Shockwave AP": "Medium",
         "ET APHE 75mm › AoE Effect › Demolition Force": "30",
         "ET APHE 75mm › AoE Effect › Stagger Force": "60",
         "ET APHE 75mm › AoE Effect › Push Force": "40"
@@ -6139,7 +6157,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -6207,7 +6225,9 @@
         "40mm HE GRENADE P IE › Damage › Inner Durable": "400 Explosion",
         "40mm HE GRENADE P IE › Damage › Outer Radius": "399 - 0",
         "40mm HE GRENADE P IE › Damage › Outer Durable": "399 - 0",
-        "40mm HE GRENADE P IE › Penetration › Direct": "Medium",
+        "40mm HE GRENADE P IE › Penetration › Inner AP": "Medium",
+        "40mm HE GRENADE P IE › Penetration › Outer AP": "Light",
+        "40mm HE GRENADE P IE › Penetration › Shockwave AP": "Medium",
         "40mm HE GRENADE P IE › AoE Effect › Demolition Force": "30",
         "40mm HE GRENADE P IE › AoE Effect › Stagger Force": "25",
         "40mm HE GRENADE P IE › AoE Effect › Push Force": "30"
@@ -6489,7 +6509,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "heavy",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -6551,7 +6571,9 @@
         "110mm STANDARD ROCKET P IE › Damage › Inner Durable": "300 Explosion",
         "110mm STANDARD ROCKET P IE › Damage › Outer Radius": "299 - 0",
         "110mm STANDARD ROCKET P IE › Damage › Outer Durable": "299 - 0",
-        "110mm STANDARD ROCKET P IE › Penetration › Direct": "Heavy",
+        "110mm STANDARD ROCKET P IE › Penetration › Inner AP": "Heavy",
+        "110mm STANDARD ROCKET P IE › Penetration › Outer AP": "Medium",
+        "110mm STANDARD ROCKET P IE › Penetration › Shockwave AP": "Heavy",
         "110mm STANDARD ROCKET P IE › AoE Effect › Demolition Force": "30",
         "110mm STANDARD ROCKET P IE › AoE Effect › Stagger Force": "30",
         "110mm STANDARD ROCKET P IE › AoE Effect › Push Force": "10"
@@ -6691,7 +6713,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -6717,7 +6739,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -6781,7 +6803,9 @@
         "500kg BOMB P E › Damage › Inner Durable": "1500 Explosion",
         "500kg BOMB P E › Damage › Outer Radius": "1499 - 0",
         "500kg BOMB P E › Damage › Outer Durable": "1499 - 0",
-        "500kg BOMB P E › Penetration › Direct": "Anti-Tank II",
+        "500kg BOMB P E › Penetration › Inner AP": "Anti-Tank II",
+        "500kg BOMB P E › Penetration › Outer AP": "Anti-Tank I",
+        "500kg BOMB P E › Penetration › Shockwave AP": "Anti-Tank II",
         "500kg BOMB P E › AoE Effect › Demolition Force": "50",
         "500kg BOMB P E › AoE Effect › Stagger Force": "100",
         "500kg BOMB P E › AoE Effect › Push Force": "40",
@@ -6793,7 +6817,9 @@
         "500kg BOMB P IE › Damage › Inner Durable": "100 Explosion",
         "500kg BOMB P IE › Damage › Outer Radius": "99 - 0",
         "500kg BOMB P IE › Damage › Outer Durable": "99 - 0",
-        "500kg BOMB P IE › Penetration › Direct": "Medium",
+        "500kg BOMB P IE › Penetration › Inner AP": "Medium",
+        "500kg BOMB P IE › Penetration › Outer AP": "Light",
+        "500kg BOMB P IE › Penetration › Shockwave AP": "Medium",
         "500kg BOMB P IE › AoE Effect › Demolition Force": "40",
         "500kg BOMB P IE › AoE Effect › Stagger Force": "10",
         "500kg BOMB P IE › AoE Effect › Push Force": "40"
@@ -6937,7 +6963,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_i",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -7000,7 +7026,9 @@
         "Eagle Bomb 100kg › Damage › Inner Durable": "800 Explosion",
         "Eagle Bomb 100kg › Damage › Outer Radius": "799 - 0",
         "Eagle Bomb 100kg › Damage › Outer Durable": "799 - 0",
-        "Eagle Bomb 100kg › Penetration › Direct": "Anti-Tank I",
+        "Eagle Bomb 100kg › Penetration › Inner AP": "Anti-Tank I",
+        "Eagle Bomb 100kg › Penetration › Outer AP": "Heavy",
+        "Eagle Bomb 100kg › Penetration › Shockwave AP": "Anti-Tank I",
         "Eagle Bomb 100kg › AoE Effect › Demolition Force": "40",
         "Eagle Bomb 100kg › AoE Effect › Stagger Force": "50",
         "Eagle Bomb 100kg › AoE Effect › Push Force": "40"
@@ -7145,7 +7173,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -7200,7 +7228,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -7267,7 +7295,9 @@
         "100KG CLUSTER BOMB P E › Damage › Inner Durable": "350 Explosion",
         "100KG CLUSTER BOMB P E › Damage › Outer Radius": "349 - 0",
         "100KG CLUSTER BOMB P E › Damage › Outer Durable": "349 - 0",
-        "100KG CLUSTER BOMB P E › Penetration › Direct": "Medium",
+        "100KG CLUSTER BOMB P E › Penetration › Inner AP": "Medium",
+        "100KG CLUSTER BOMB P E › Penetration › Outer AP": "Light",
+        "100KG CLUSTER BOMB P E › Penetration › Shockwave AP": "Medium",
         "100KG CLUSTER BOMB P E › AoE Effect › Demolition Force": "30",
         "100KG CLUSTER BOMB P E › AoE Effect › Stagger Force": "50",
         "100KG CLUSTER BOMB P E › AoE Effect › Push Force": "40",
@@ -7294,7 +7324,9 @@
         "CLUSTER BOMB P4 IE › Damage › Inner Durable": "350 Explosion",
         "CLUSTER BOMB P4 IE › Damage › Outer Radius": "349 - 0",
         "CLUSTER BOMB P4 IE › Damage › Outer Durable": "349 - 0",
-        "CLUSTER BOMB P4 IE › Penetration › Direct": "Medium",
+        "CLUSTER BOMB P4 IE › Penetration › Inner AP": "Medium",
+        "CLUSTER BOMB P4 IE › Penetration › Outer AP": "Light",
+        "CLUSTER BOMB P4 IE › Penetration › Shockwave AP": "Medium",
         "CLUSTER BOMB P4 IE › AoE Effect › Demolition Force": "30",
         "CLUSTER BOMB P4 IE › AoE Effect › Stagger Force": "50",
         "CLUSTER BOMB P4 IE › AoE Effect › Push Force": "40"
@@ -7439,7 +7471,7 @@
             "type": "Gas"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -7545,7 +7577,9 @@
         "S P6 IE › Damage › Damage Element": "Gas",
         "S P6 IE › Damage › Inner Radius": "0 Gas",
         "S P6 IE › Damage › Inner Durable": "0 Gas",
-        "S P6 IE › Penetration › Direct": "Anti-Tank II",
+        "S P6 IE › Penetration › Inner AP": "Anti-Tank II",
+        "S P6 IE › Penetration › Outer AP": "Anti-Tank I",
+        "S P6 IE › Penetration › Shockwave AP": "Anti-Tank II",
         "S P6 IE › AoE Effect › Status": "Gas",
         "S P6 IE › AoE Effect › Status Strength": "100",
         "S P6 IE › AoE Effect › Second Status": "Gas_Confusion",
@@ -7707,7 +7741,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -7815,7 +7849,9 @@
         "NAPALM BOMB P IE › Damage › Inner Durable": "250 Explosion",
         "NAPALM BOMB P IE › Damage › Outer Radius": "249 - 0",
         "NAPALM BOMB P IE › Damage › Outer Durable": "249 - 0",
-        "NAPALM BOMB P IE › Penetration › Direct": "Medium",
+        "NAPALM BOMB P IE › Penetration › Inner AP": "Medium",
+        "NAPALM BOMB P IE › Penetration › Outer AP": "Light",
+        "NAPALM BOMB P IE › Penetration › Shockwave AP": "Medium",
         "NAPALM BOMB P IE › AoE Effect › Status": "Fire",
         "NAPALM BOMB P IE › AoE Effect › Status Strength": "100",
         "NAPALM BOMB P IE › AoE Effect › Second Status": "BurningHeavy",
@@ -8239,7 +8275,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -8311,7 +8347,9 @@
         "23mm HE CANNON P IE › Damage › Inner Durable": "350 Explosion",
         "23mm HE CANNON P IE › Damage › Outer Radius": "349 - 0",
         "23mm HE CANNON P IE › Damage › Outer Durable": "349 - 0",
-        "23mm HE CANNON P IE › Penetration › Direct": "Medium",
+        "23mm HE CANNON P IE › Penetration › Inner AP": "Medium",
+        "23mm HE CANNON P IE › Penetration › Outer AP": "Light",
+        "23mm HE CANNON P IE › Penetration › Shockwave AP": "Medium",
         "23mm HE CANNON P IE › AoE Effect › Demolition Force": "30",
         "23mm HE CANNON P IE › AoE Effect › Stagger Force": "35",
         "23mm HE CANNON P IE › AoE Effect › Push Force": "5"
@@ -8430,7 +8468,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -8485,7 +8523,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -8527,7 +8565,7 @@
         "EAT-17 EXPENDABLE ANTI-TANK › Spread": "↔[4.00] ↕[4.00]",
         "EAT-17 EXPENDABLE ANTI-TANK › Sway": "1",
         "EAT-17 EXPENDABLE ANTI-TANK › Ergonomics": "15",
-        "EAT-17 EXPENDABLE ANTI-TANK › Noise": "Huge (~68m)",
+        "EAT-17 EXPENDABLE ANTI-TANK › Noise When Firing": "Huge (~68m)",
         "EAT-17 EXPENDABLE ANTI-TANK › Capacity": "1",
         "EAT-17 EXPENDABLE ANTI-TANK › Attacks › EAT-17 BACKBLAST E": "Explosion",
         "EAT-17 EXPENDABLE ANTI-TANK › Attacks › EAT-17 P": "Projectile",
@@ -8540,7 +8578,9 @@
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Outer Radius": "14 - 0",
         "EAT-17 BACKBLAST E › Damage › Outer Durable": "14 - 0",
-        "EAT-17 BACKBLAST E › Penetration › Direct": "Medium",
+        "EAT-17 BACKBLAST E › Penetration › Inner AP": "Medium",
+        "EAT-17 BACKBLAST E › Penetration › Outer AP": "Light",
+        "EAT-17 BACKBLAST E › Penetration › Shockwave AP": "Medium",
         "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
         "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
         "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15",
@@ -8567,7 +8607,9 @@
         "EAT-17 P IE › Damage › Inner Durable": "150 Explosion",
         "EAT-17 P IE › Damage › Outer Radius": "149 - 0",
         "EAT-17 P IE › Damage › Outer Durable": "149 - 0",
-        "EAT-17 P IE › Penetration › Direct": "Medium",
+        "EAT-17 P IE › Penetration › Inner AP": "Medium",
+        "EAT-17 P IE › Penetration › Outer AP": "Light",
+        "EAT-17 P IE › Penetration › Shockwave AP": "Medium",
         "EAT-17 P IE › AoE Effect › Demolition Force": "30",
         "EAT-17 P IE › AoE Effect › Stagger Force": "60",
         "EAT-17 P IE › AoE Effect › Push Force": "40"
@@ -8685,7 +8727,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -8740,10 +8782,10 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
-            "slightAngle": "anti_tank_ii",
-            "largeAngle": "anti_tank_ii",
-            "extremeAngle": "anti_tank_ii"
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
           },
           "projectile": null,
           "area": {
@@ -8781,7 +8823,7 @@
         "EAT-411 LEVELLER › Spread": "↔[4.00] ↕[4.00]",
         "EAT-411 LEVELLER › Sway": "1",
         "EAT-411 LEVELLER › Ergonomics": "15",
-        "EAT-411 LEVELLER › Noise": "Huge (~68m)",
+        "EAT-411 LEVELLER › Noise When Firing": "Huge (~68m)",
         "EAT-411 LEVELLER › Capacity": "1",
         "EAT-411 LEVELLER › Attacks › EAT-17 BACKBLAST E": "Explosion",
         "EAT-411 LEVELLER › Attacks › EAT-411 P": "Projectile",
@@ -8794,7 +8836,9 @@
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Outer Radius": "14 - 0",
         "EAT-17 BACKBLAST E › Damage › Outer Durable": "14 - 0",
-        "EAT-17 BACKBLAST E › Penetration › Direct": "Medium",
+        "EAT-17 BACKBLAST E › Penetration › Inner AP": "Medium",
+        "EAT-17 BACKBLAST E › Penetration › Outer AP": "Light",
+        "EAT-17 BACKBLAST E › Penetration › Shockwave AP": "Medium",
         "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
         "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
         "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15",
@@ -8821,10 +8865,9 @@
         "EAT-411 P IE › Damage › Inner Durable": "2500 Explosion",
         "EAT-411 P IE › Damage › Outer Radius": "2499 - 0",
         "EAT-411 P IE › Damage › Outer Durable": "2499 - 0",
-        "EAT-411 P IE › Penetration › Direct": "Anti-Tank II",
-        "EAT-411 P IE › Penetration › Slight Angle": "Anti-Tank II",
-        "EAT-411 P IE › Penetration › Large Angle": "Anti-Tank II",
-        "EAT-411 P IE › Penetration › Extreme Angle": "Anti-Tank II",
+        "EAT-411 P IE › Penetration › Inner AP": "Anti-Tank II",
+        "EAT-411 P IE › Penetration › Outer AP": "Anti-Tank I",
+        "EAT-411 P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "EAT-411 P IE › AoE Effect › Demolition Force": "40",
         "EAT-411 P IE › AoE Effect › Stagger Force": "100",
         "EAT-411 P IE › AoE Effect › Push Force": "40"
@@ -8942,7 +8985,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -9019,10 +9062,10 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
-            "slightAngle": "anti_tank_ii",
-            "largeAngle": "anti_tank_ii",
-            "extremeAngle": "medium"
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
           },
           "projectile": null,
           "area": {
@@ -9074,9 +9117,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
-            "slightAngle": "medium",
-            "largeAngle": "medium",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -9137,7 +9180,7 @@
         "EAT-700 EXPENDABLE NAPALM › Spread": "↔[4.00] ↕[4.00]",
         "EAT-700 EXPENDABLE NAPALM › Sway": "1",
         "EAT-700 EXPENDABLE NAPALM › Ergonomics": "15",
-        "EAT-700 EXPENDABLE NAPALM › Noise": "Huge (~68m)",
+        "EAT-700 EXPENDABLE NAPALM › Noise When Firing": "Huge (~68m)",
         "EAT-700 EXPENDABLE NAPALM › Capacity": "1",
         "EAT-700 EXPENDABLE NAPALM › Attacks › EAT-17 BACKBLAST E": "Explosion",
         "EAT-700 EXPENDABLE NAPALM › Attacks › EAT-700 P": "Projectile",
@@ -9154,7 +9197,9 @@
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Outer Radius": "14 - 0",
         "EAT-17 BACKBLAST E › Damage › Outer Durable": "14 - 0",
-        "EAT-17 BACKBLAST E › Penetration › Direct": "Medium",
+        "EAT-17 BACKBLAST E › Penetration › Inner AP": "Medium",
+        "EAT-17 BACKBLAST E › Penetration › Outer AP": "Light",
+        "EAT-17 BACKBLAST E › Penetration › Shockwave AP": "Medium",
         "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
         "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
         "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15",
@@ -9196,10 +9241,9 @@
         "EAT-700 P IE › Damage › Inner Durable": "250 Explosion",
         "EAT-700 P IE › Damage › Outer Radius": "249 - 0",
         "EAT-700 P IE › Damage › Outer Durable": "249 - 0",
-        "EAT-700 P IE › Penetration › Direct": "Anti-Tank II",
-        "EAT-700 P IE › Penetration › Slight Angle": "Anti-Tank II",
-        "EAT-700 P IE › Penetration › Large Angle": "Anti-Tank II",
-        "EAT-700 P IE › Penetration › Extreme Angle": "Medium",
+        "EAT-700 P IE › Penetration › Inner AP": "Anti-Tank II",
+        "EAT-700 P IE › Penetration › Outer AP": "Anti-Tank I",
+        "EAT-700 P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "EAT-700 P IE › AoE Effect › Status": "Fire",
         "EAT-700 P IE › AoE Effect › Status Strength": "100",
         "EAT-700 P IE › AoE Effect › Second Status": "BurningHeavy",
@@ -9214,6 +9258,7 @@
         "EAT-700 P1 › Projectile › Lifetime": "7 sec",
         "EAT-700 P1 › Projectile › Penetration Slowdown": "25%",
         "EAT-700 P1 › Projectile › Explosion On Impact": "EAT-700_P1_IE",
+        "EAT-700 P1 › Projectile › Arming Distance": "3 m",
         "EAT-700 P1 › Damage › Standard": "200 Ballistic",
         "EAT-700 P1 › Damage › vs. Durable": "200 Ballistic",
         "EAT-700 P1 › Penetration › Direct": "Unarmored",
@@ -9231,9 +9276,9 @@
         "EAT-700 P1 IE › Damage › Inner Durable": "50 Explosion",
         "EAT-700 P1 IE › Damage › Outer Radius": "49 - 0",
         "EAT-700 P1 IE › Damage › Outer Durable": "49 - 0",
-        "EAT-700 P1 IE › Penetration › Direct": "Medium",
-        "EAT-700 P1 IE › Penetration › Slight Angle": "Medium",
-        "EAT-700 P1 IE › Penetration › Large Angle": "Medium",
+        "EAT-700 P1 IE › Penetration › Inner AP": "Medium",
+        "EAT-700 P1 IE › Penetration › Outer AP": "Light",
+        "EAT-700 P1 IE › Penetration › Shockwave AP": "Medium",
         "EAT-700 P1 IE › AoE Effect › Status": "BurningHeavy",
         "EAT-700 P1 IE › AoE Effect › Status Strength": "50",
         "EAT-700 P1 IE › AoE Effect › Second Status": "Fire",
@@ -9400,7 +9445,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -9448,7 +9493,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -9543,7 +9588,9 @@
         "70mm MISSILE P IE › Damage › Inner Durable": "400 Explosion",
         "70mm MISSILE P IE › Damage › Outer Radius": "399 - 0",
         "70mm MISSILE P IE › Damage › Outer Durable": "399 - 0",
-        "70mm MISSILE P IE › Penetration › Direct": "Medium",
+        "70mm MISSILE P IE › Penetration › Inner AP": "Medium",
+        "70mm MISSILE P IE › Penetration › Outer AP": "Light",
+        "70mm MISSILE P IE › Penetration › Shockwave AP": "Medium",
         "70mm MISSILE P IE › AoE Effect › Demolition Force": "30",
         "70mm MISSILE P IE › AoE Effect › Stagger Force": "60",
         "70mm MISSILE P IE › AoE Effect › Push Force": "70",
@@ -9563,7 +9610,9 @@
         "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
         "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
         "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
-        "Exosuit Destruction › Penetration › Direct": "Medium",
+        "Exosuit Destruction › Penetration › Inner AP": "Medium",
+        "Exosuit Destruction › Penetration › Outer AP": "Light",
+        "Exosuit Destruction › Penetration › Shockwave AP": "Medium",
         "Exosuit Destruction › AoE Effect › Demolition Force": "30",
         "Exosuit Destruction › AoE Effect › Stagger Force": "50",
         "Exosuit Destruction › AoE Effect › Push Force": "40"
@@ -9685,7 +9734,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -9733,7 +9782,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -9815,7 +9864,9 @@
         "30mm APHE CANNON P IE › Damage › Inner Durable": "150 Explosion",
         "30mm APHE CANNON P IE › Damage › Outer Radius": "149 - 0",
         "30mm APHE CANNON P IE › Damage › Outer Durable": "149 - 0",
-        "30mm APHE CANNON P IE › Penetration › Direct": "Medium",
+        "30mm APHE CANNON P IE › Penetration › Inner AP": "Medium",
+        "30mm APHE CANNON P IE › Penetration › Outer AP": "Light",
+        "30mm APHE CANNON P IE › Penetration › Shockwave AP": "Medium",
         "30mm APHE CANNON P IE › AoE Effect › Demolition Force": "30",
         "30mm APHE CANNON P IE › AoE Effect › Stagger Force": "40",
         "30mm APHE CANNON P IE › AoE Effect › Push Force": "40",
@@ -9835,7 +9886,9 @@
         "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
         "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
         "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
-        "Exosuit Destruction › Penetration › Direct": "Medium",
+        "Exosuit Destruction › Penetration › Inner AP": "Medium",
+        "Exosuit Destruction › Penetration › Outer AP": "Light",
+        "Exosuit Destruction › Penetration › Shockwave AP": "Medium",
         "Exosuit Destruction › AoE Effect › Demolition Force": "30",
         "Exosuit Destruction › AoE Effect › Stagger Force": "50",
         "Exosuit Destruction › AoE Effect › Push Force": "40"
@@ -10047,7 +10100,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -10095,7 +10148,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -10204,7 +10257,9 @@
         "75mm HEAT GRENADE P1 IE › Damage › Inner Durable": "150 Explosion",
         "75mm HEAT GRENADE P1 IE › Damage › Outer Radius": "149 - 0",
         "75mm HEAT GRENADE P1 IE › Damage › Outer Durable": "149 - 0",
-        "75mm HEAT GRENADE P1 IE › Penetration › Direct": "Medium",
+        "75mm HEAT GRENADE P1 IE › Penetration › Inner AP": "Medium",
+        "75mm HEAT GRENADE P1 IE › Penetration › Outer AP": "Light",
+        "75mm HEAT GRENADE P1 IE › Penetration › Shockwave AP": "Medium",
         "75mm HEAT GRENADE P1 IE › AoE Effect › Demolition Force": "30",
         "75mm HEAT GRENADE P1 IE › AoE Effect › Stagger Force": "60",
         "75mm HEAT GRENADE P1 IE › AoE Effect › Push Force": "40",
@@ -10224,7 +10279,9 @@
         "Exosuit Destruction › Damage › Inner Durable": "200 Explosion",
         "Exosuit Destruction › Damage › Outer Radius": "199 - 0",
         "Exosuit Destruction › Damage › Outer Durable": "199 - 0",
-        "Exosuit Destruction › Penetration › Direct": "Medium",
+        "Exosuit Destruction › Penetration › Inner AP": "Medium",
+        "Exosuit Destruction › Penetration › Outer AP": "Light",
+        "Exosuit Destruction › Penetration › Shockwave AP": "Medium",
         "Exosuit Destruction › AoE Effect › Demolition Force": "30",
         "Exosuit Destruction › AoE Effect › Stagger Force": "50",
         "Exosuit Destruction › AoE Effect › Push Force": "40"
@@ -10634,7 +10691,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -10681,7 +10738,7 @@
         "FAF-14 SPEAR › Spread": "↔[0.00] ↕[0.00]",
         "FAF-14 SPEAR › Sway": "1",
         "FAF-14 SPEAR › Ergonomics": "10",
-        "FAF-14 SPEAR › Noise": "Medium (~48m)",
+        "FAF-14 SPEAR › Noise When Firing": "Medium (~48m)",
         "FAF-14 SPEAR › Capacity": "1",
         "FAF-14 SPEAR › Spare Magazines": "4",
         "FAF-14 SPEAR › Starting Magazines": "4",
@@ -10713,7 +10770,9 @@
         "FAF-14 P IE › Damage › Inner Durable": "200 Explosion",
         "FAF-14 P IE › Damage › Outer Radius": "199 - 0",
         "FAF-14 P IE › Damage › Outer Durable": "199 - 0",
-        "FAF-14 P IE › Penetration › Direct": "Medium",
+        "FAF-14 P IE › Penetration › Inner AP": "Medium",
+        "FAF-14 P IE › Penetration › Outer AP": "Light",
+        "FAF-14 P IE › Penetration › Shockwave AP": "Medium",
         "FAF-14 P IE › AoE Effect › Demolition Force": "30",
         "FAF-14 P IE › AoE Effect › Stagger Force": "60",
         "FAF-14 P IE › AoE Effect › Push Force": "70"
@@ -10955,7 +11014,7 @@
         "FLAM-40 FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
         "FLAM-40 FLAMETHROWER › Sway": "1",
         "FLAM-40 FLAMETHROWER › Ergonomics": "5",
-        "FLAM-40 FLAMETHROWER › Noise": "Small (~33m)",
+        "FLAM-40 FLAMETHROWER › Noise When Firing": "Small (~33m)",
         "FLAM-40 FLAMETHROWER › Capacity": "150",
         "FLAM-40 FLAMETHROWER › Spare Magazines": "5",
         "FLAM-40 FLAMETHROWER › Starting Magazines": "3",
@@ -11754,7 +11813,7 @@
             "type": "Arc"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -11847,7 +11906,7 @@
         "GL-52 DE-ESCALATOR › Spread": "↔[15.00] ↕[15.00]",
         "GL-52 DE-ESCALATOR › Sway": "1",
         "GL-52 DE-ESCALATOR › Ergonomics": "25",
-        "GL-52 DE-ESCALATOR › Noise": "Small (~33m)",
+        "GL-52 DE-ESCALATOR › Noise When Firing": "Small (~33m)",
         "GL-52 DE-ESCALATOR › Capacity": "6",
         "GL-52 DE-ESCALATOR › Spare Rounds": "40",
         "GL-52 DE-ESCALATOR › Starting Rounds": "32",
@@ -11863,6 +11922,7 @@
         "GL-52 P › Projectile › Gravity Factor": "100%",
         "GL-52 P › Projectile › Penetration Slowdown": "25%",
         "GL-52 P › Projectile › Explosion On Impact": "GL-52_P_IE",
+        "GL-52 P › Projectile › Arming Distance": "4 m",
         "GL-52 P › Damage › Standard": "20 Ballistic",
         "GL-52 P › Damage › vs. Durable": "2 Ballistic",
         "GL-52 P › Penetration › Direct": "Unarmored",
@@ -11879,7 +11939,9 @@
         "GL-52 P IE › Damage › Damage Element": "Electricity",
         "GL-52 P IE › Damage › Inner Radius": "0 Arc",
         "GL-52 P IE › Damage › Inner Durable": "0 Arc",
-        "GL-52 P IE › Penetration › Direct": "Anti-Tank II",
+        "GL-52 P IE › Penetration › Inner AP": "Anti-Tank II",
+        "GL-52 P IE › Penetration › Outer AP": "Anti-Tank I",
+        "GL-52 P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "GL-52 P IE › AoE Effect › Demolition Force": "0",
         "GL-52 P IE › AoE Effect › Stagger Force": "0",
         "GL-52 P IE › AoE Effect › Push Force": "0",
@@ -12031,7 +12093,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -12086,7 +12148,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -12141,7 +12203,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "heavy",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -12188,7 +12250,7 @@
         "GR-8 RECOILLESS RIFLE › Spread": "↔[4.00] ↕[4.00]",
         "GR-8 RECOILLESS RIFLE › Sway": "1",
         "GR-8 RECOILLESS RIFLE › Ergonomics": "10",
-        "GR-8 RECOILLESS RIFLE › Noise": "Huge (~68m)",
+        "GR-8 RECOILLESS RIFLE › Noise When Firing": "Huge (~68m)",
         "GR-8 RECOILLESS RIFLE › Capacity": "1",
         "GR-8 RECOILLESS RIFLE › Spare Magazines": "5",
         "GR-8 RECOILLESS RIFLE › Starting Magazines": "5",
@@ -12207,7 +12269,9 @@
         "GR-8 BACKBLAST E › Damage › Inner Durable": "20 Explosion",
         "GR-8 BACKBLAST E › Damage › Outer Radius": "19 - 0",
         "GR-8 BACKBLAST E › Damage › Outer Durable": "19 - 0",
-        "GR-8 BACKBLAST E › Penetration › Direct": "Medium",
+        "GR-8 BACKBLAST E › Penetration › Inner AP": "Medium",
+        "GR-8 BACKBLAST E › Penetration › Outer AP": "Light",
+        "GR-8 BACKBLAST E › Penetration › Shockwave AP": "Medium",
         "GR-8 BACKBLAST E › AoE Effect › Demolition Force": "10",
         "GR-8 BACKBLAST E › AoE Effect › Stagger Force": "30",
         "GR-8 BACKBLAST E › AoE Effect › Push Force": "20",
@@ -12234,7 +12298,9 @@
         "GR-8 P IE › Damage › Inner Durable": "150 Explosion",
         "GR-8 P IE › Damage › Outer Radius": "149 - 0",
         "GR-8 P IE › Damage › Outer Durable": "149 - 0",
-        "GR-8 P IE › Penetration › Direct": "Medium",
+        "GR-8 P IE › Penetration › Inner AP": "Medium",
+        "GR-8 P IE › Penetration › Outer AP": "Light",
+        "GR-8 P IE › Penetration › Shockwave AP": "Medium",
         "GR-8 P IE › AoE Effect › Demolition Force": "30",
         "GR-8 P IE › AoE Effect › Stagger Force": "50",
         "GR-8 P IE › AoE Effect › Push Force": "40",
@@ -12261,7 +12327,9 @@
         "GR-8 P1 IE › Damage › Inner Durable": "800 Explosion",
         "GR-8 P1 IE › Damage › Outer Radius": "799 - 0",
         "GR-8 P1 IE › Damage › Outer Durable": "799 - 0",
-        "GR-8 P1 IE › Penetration › Direct": "Heavy",
+        "GR-8 P1 IE › Penetration › Inner AP": "Heavy",
+        "GR-8 P1 IE › Penetration › Outer AP": "Medium",
+        "GR-8 P1 IE › Penetration › Shockwave AP": "Heavy",
         "GR-8 P1 IE › AoE Effect › Demolition Force": "30",
         "GR-8 P1 IE › AoE Effect › Stagger Force": "60",
         "GR-8 P1 IE › AoE Effect › Push Force": "40"
@@ -12516,7 +12584,7 @@
         "LAS-98 LASER CANNON › Spread": "↔[10.00] ↕[10.00]",
         "LAS-98 LASER CANNON › Sway": "1",
         "LAS-98 LASER CANNON › Ergonomics": "45",
-        "LAS-98 LASER CANNON › Noise": "Medium (~48m)",
+        "LAS-98 LASER CANNON › Noise When Firing": "Medium (~48m)",
         "LAS-98 LASER CANNON › Spare Magazines": "2",
         "LAS-98 LASER CANNON › Starting Magazines": "2",
         "LAS-98 LASER CANNON › Mags from Supply": "6",
@@ -12694,7 +12762,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -12737,7 +12805,7 @@
         "LAS-99 QUASAR CANNON › Spread": "↔[4.00] ↕[4.00]",
         "LAS-99 QUASAR CANNON › Sway": "1",
         "LAS-99 QUASAR CANNON › Ergonomics": "35",
-        "LAS-99 QUASAR CANNON › Noise": "Medium (~48m)",
+        "LAS-99 QUASAR CANNON › Noise When Firing": "Medium (~48m)",
         "LAS-99 QUASAR CANNON › Spare Magazines": "0",
         "LAS-99 QUASAR CANNON › Starting Magazines": "0",
         "LAS-99 QUASAR CANNON › Mags from Supply": "6",
@@ -12773,7 +12841,9 @@
         "LAS-99 P IE › Damage › Inner Durable": "150 Explosion",
         "LAS-99 P IE › Damage › Outer Radius": "149 - 0",
         "LAS-99 P IE › Damage › Outer Durable": "149 - 0",
-        "LAS-99 P IE › Penetration › Direct": "Medium",
+        "LAS-99 P IE › Penetration › Inner AP": "Medium",
+        "LAS-99 P IE › Penetration › Outer AP": "Light",
+        "LAS-99 P IE › Penetration › Shockwave AP": "Medium",
         "LAS-99 P IE › AoE Effect › Demolition Force": "30",
         "LAS-99 P IE › AoE Effect › Stagger Force": "50",
         "LAS-99 P IE › AoE Effect › Push Force": "40"
@@ -12895,9 +12965,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "heavy",
-            "slightAngle": "heavy",
-            "largeAngle": "heavy",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -12958,9 +13028,9 @@
         "LIFT-182 WARP PACK E › Damage › Inner Durable": "1000 Explosion",
         "LIFT-182 WARP PACK E › Damage › Outer Radius": "999 - 0",
         "LIFT-182 WARP PACK E › Damage › Outer Durable": "999 - 0",
-        "LIFT-182 WARP PACK E › Penetration › Direct": "Heavy",
-        "LIFT-182 WARP PACK E › Penetration › Slight Angle": "Heavy",
-        "LIFT-182 WARP PACK E › Penetration › Large Angle": "Heavy",
+        "LIFT-182 WARP PACK E › Penetration › Inner AP": "Heavy",
+        "LIFT-182 WARP PACK E › Penetration › Outer AP": "Medium",
+        "LIFT-182 WARP PACK E › Penetration › Shockwave AP": "Heavy",
         "LIFT-182 WARP PACK E › AoE Effect › Demolition Force": "20",
         "LIFT-182 WARP PACK E › AoE Effect › Stagger Force": "25",
         "LIFT-182 WARP PACK E › AoE Effect › Push Force": "20"
@@ -13792,7 +13862,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -13873,7 +13943,9 @@
         "Incinerator FRV Fuel Explosion › Damage › Inner Durable": "1500 Explosion",
         "Incinerator FRV Fuel Explosion › Damage › Outer Radius": "1499 - 0",
         "Incinerator FRV Fuel Explosion › Damage › Outer Durable": "1499 - 0",
-        "Incinerator FRV Fuel Explosion › Penetration › Direct": "Anti-Tank II",
+        "Incinerator FRV Fuel Explosion › Penetration › Inner AP": "Anti-Tank II",
+        "Incinerator FRV Fuel Explosion › Penetration › Outer AP": "Anti-Tank I",
+        "Incinerator FRV Fuel Explosion › Penetration › Shockwave AP": "Anti-Tank II",
         "Incinerator FRV Fuel Explosion › AoE Effect › Demolition Force": "50",
         "Incinerator FRV Fuel Explosion › AoE Effect › Stagger Force": "100",
         "Incinerator FRV Fuel Explosion › AoE Effect › Push Force": "40"
@@ -14060,7 +14132,7 @@
         "M-105 STALWART › Spread": "↔[6.00] ↕[6.00]",
         "M-105 STALWART › Sway": "1",
         "M-105 STALWART › Ergonomics": "40",
-        "M-105 STALWART › Noise": "Medium (~48m)",
+        "M-105 STALWART › Noise When Firing": "Medium (~48m)",
         "M-105 STALWART › Capacity": "250",
         "M-105 STALWART › Spare Magazines": "3",
         "M-105 STALWART › Starting Magazines": "2",
@@ -14177,7 +14249,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_i",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -14221,7 +14293,9 @@
         "Anti Tank Mine › Damage › Inner Durable": "2000 Explosion",
         "Anti Tank Mine › Damage › Outer Radius": "1999 - 0",
         "Anti Tank Mine › Damage › Outer Durable": "1999 - 0",
-        "Anti Tank Mine › Penetration › Direct": "Anti-Tank I",
+        "Anti Tank Mine › Penetration › Inner AP": "Anti-Tank I",
+        "Anti Tank Mine › Penetration › Outer AP": "Heavy",
+        "Anti Tank Mine › Penetration › Shockwave AP": "Anti-Tank I",
         "Anti Tank Mine › AoE Effect › Demolition Force": "40",
         "Anti Tank Mine › AoE Effect › Stagger Force": "30",
         "Anti Tank Mine › AoE Effect › Push Force": "40"
@@ -14321,7 +14395,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -14365,7 +14439,9 @@
         "Contact Mine › Damage › Inner Durable": "700 Explosion",
         "Contact Mine › Damage › Outer Radius": "699 - 0",
         "Contact Mine › Damage › Outer Durable": "699 - 0",
-        "Contact Mine › Penetration › Direct": "Medium",
+        "Contact Mine › Penetration › Inner AP": "Medium",
+        "Contact Mine › Penetration › Outer AP": "Light",
+        "Contact Mine › Penetration › Shockwave AP": "Medium",
         "Contact Mine › AoE Effect › Demolition Force": "30",
         "Contact Mine › AoE Effect › Stagger Force": "30",
         "Contact Mine › AoE Effect › Push Force": "30"
@@ -14465,7 +14541,7 @@
             "type": "Gas"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -14533,7 +14609,9 @@
         "Gas Mine › Damage › Inner Durable": "3 Gas",
         "Gas Mine › Damage › Outer Radius": "2 - 0",
         "Gas Mine › Damage › Outer Durable": "2 - 0",
-        "Gas Mine › Penetration › Direct": "Anti-Tank II",
+        "Gas Mine › Penetration › Inner AP": "Anti-Tank II",
+        "Gas Mine › Penetration › Outer AP": "Anti-Tank I",
+        "Gas Mine › Penetration › Shockwave AP": "Anti-Tank II",
         "Gas Mine › AoE Effect › Status": "Gas",
         "Gas Mine › AoE Effect › Status (2)": "Gas",
         "Gas Mine › AoE Effect › Status Strength": "100",
@@ -14653,7 +14731,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -14719,7 +14797,9 @@
         "Incendiary Mine › Damage › Inner Durable": "300 Explosion",
         "Incendiary Mine › Damage › Outer Radius": "299 - 0",
         "Incendiary Mine › Damage › Outer Durable": "299 - 0",
-        "Incendiary Mine › Penetration › Direct": "Medium",
+        "Incendiary Mine › Penetration › Inner AP": "Medium",
+        "Incendiary Mine › Penetration › Outer AP": "Light",
+        "Incendiary Mine › Penetration › Shockwave AP": "Medium",
         "Incendiary Mine › AoE Effect › Status": "Fire",
         "Incendiary Mine › AoE Effect › Status (2)": "Fire",
         "Incendiary Mine › AoE Effect › Demolition Force": "30",
@@ -14920,7 +15000,7 @@
         "MG-206 HEAVY MACHINE GUN › Spread": "↔[5.00] ↕[5.00]",
         "MG-206 HEAVY MACHINE GUN › Sway": "1",
         "MG-206 HEAVY MACHINE GUN › Ergonomics": "0",
-        "MG-206 HEAVY MACHINE GUN › Noise": "Medium (~48m)",
+        "MG-206 HEAVY MACHINE GUN › Noise When Firing": "Medium (~48m)",
         "MG-206 HEAVY MACHINE GUN › Capacity": "100",
         "MG-206 HEAVY MACHINE GUN › Spare Magazines": "2",
         "MG-206 HEAVY MACHINE GUN › Starting Magazines": "1",
@@ -15129,7 +15209,7 @@
         "MG-43 MACHINE GUN › Spread": "↔[4.00] ↕[4.00]",
         "MG-43 MACHINE GUN › Sway": "1",
         "MG-43 MACHINE GUN › Ergonomics": "15",
-        "MG-43 MACHINE GUN › Noise": "Medium (~48m)",
+        "MG-43 MACHINE GUN › Noise When Firing": "Medium (~48m)",
         "MG-43 MACHINE GUN › Capacity": "175",
         "MG-43 MACHINE GUN › Spare Magazines": "3",
         "MG-43 MACHINE GUN › Starting Magazines": "2",
@@ -15313,7 +15393,7 @@
         "MGX-42 BULLET STORM › Spread": "↔[5.00] ↕[5.00]",
         "MGX-42 BULLET STORM › Sway": "1",
         "MGX-42 BULLET STORM › Ergonomics": "25",
-        "MGX-42 BULLET STORM › Noise": "Medium (~48m)",
+        "MGX-42 BULLET STORM › Noise When Firing": "Medium (~48m)",
         "MGX-42 BULLET STORM › Capacity": "300",
         "MGX-42 BULLET STORM › Spare Magazines": "0",
         "MGX-42 BULLET STORM › Starting Magazines": "0",
@@ -15451,7 +15531,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -15506,7 +15586,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -15550,7 +15630,7 @@
         "MLS-4X COMMANDO › Spread": "↔[0.00] ↕[0.00]",
         "MLS-4X COMMANDO › Sway": "1",
         "MLS-4X COMMANDO › Ergonomics": "10",
-        "MLS-4X COMMANDO › Noise": "Medium (~48m)",
+        "MLS-4X COMMANDO › Noise When Firing": "Medium (~48m)",
         "MLS-4X COMMANDO › Capacity": "4",
         "MLS-4X COMMANDO › Spare Magazines": "0",
         "MLS-4X COMMANDO › Starting Magazines": "0",
@@ -15568,7 +15648,9 @@
         "MLS-4X BACKBLAST E › Damage › Inner Durable": "5 Explosion",
         "MLS-4X BACKBLAST E › Damage › Outer Radius": "4 - 0",
         "MLS-4X BACKBLAST E › Damage › Outer Durable": "4 - 0",
-        "MLS-4X BACKBLAST E › Penetration › Direct": "Medium",
+        "MLS-4X BACKBLAST E › Penetration › Inner AP": "Medium",
+        "MLS-4X BACKBLAST E › Penetration › Outer AP": "Light",
+        "MLS-4X BACKBLAST E › Penetration › Shockwave AP": "Medium",
         "MLS-4X BACKBLAST E › AoE Effect › Demolition Force": "10",
         "MLS-4X BACKBLAST E › AoE Effect › Stagger Force": "20",
         "MLS-4X BACKBLAST E › AoE Effect › Push Force": "10",
@@ -15596,7 +15678,9 @@
         "MLS-4X P IE › Damage › Inner Durable": "150 Explosion",
         "MLS-4X P IE › Damage › Outer Radius": "149 - 0",
         "MLS-4X P IE › Damage › Outer Durable": "149 - 0",
-        "MLS-4X P IE › Penetration › Direct": "Medium",
+        "MLS-4X P IE › Penetration › Inner AP": "Medium",
+        "MLS-4X P IE › Penetration › Outer AP": "Light",
+        "MLS-4X P IE › Penetration › Shockwave AP": "Medium",
         "MLS-4X P IE › AoE Effect › Demolition Force": "30",
         "MLS-4X P IE › AoE Effect › Stagger Force": "40",
         "MLS-4X P IE › AoE Effect › Push Force": "40"
@@ -15709,10 +15793,10 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_iii",
-            "slightAngle": "anti_tank_iii",
-            "largeAngle": "anti_tank_iii",
-            "extremeAngle": "anti_tank_iii"
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
           },
           "projectile": null,
           "area": {
@@ -15735,10 +15819,10 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_v",
-            "slightAngle": "anti_tank_v",
-            "largeAngle": "anti_tank_v",
-            "extremeAngle": "anti_tank_v"
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
           },
           "projectile": null,
           "area": {
@@ -15782,10 +15866,9 @@
         "SWP SOLO SILO E › Damage › Inner Durable": "2500 Explosion",
         "SWP SOLO SILO E › Damage › Outer Radius": "2499 - 0",
         "SWP SOLO SILO E › Damage › Outer Durable": "2499 - 0",
-        "SWP SOLO SILO E › Penetration › Direct": "Anti-Tank III",
-        "SWP SOLO SILO E › Penetration › Slight Angle": "Anti-Tank III",
-        "SWP SOLO SILO E › Penetration › Large Angle": "Anti-Tank III",
-        "SWP SOLO SILO E › Penetration › Extreme Angle": "Anti-Tank III",
+        "SWP SOLO SILO E › Penetration › Inner AP": "Anti-Tank III",
+        "SWP SOLO SILO E › Penetration › Outer AP": "Anti-Tank II",
+        "SWP SOLO SILO E › Penetration › Shockwave AP": "Anti-Tank III",
         "SWP SOLO SILO E › AoE Effect › Demolition Force": "40",
         "SWP SOLO SILO E › AoE Effect › Stagger Force": "100",
         "SWP SOLO SILO E › AoE Effect › Push Force": "40",
@@ -15797,10 +15880,9 @@
         "SWP SOLO SILO EImpact › Damage › Inner Durable": "1500 Explosion",
         "SWP SOLO SILO EImpact › Damage › Outer Radius": "1499 - 0",
         "SWP SOLO SILO EImpact › Damage › Outer Durable": "1499 - 0",
-        "SWP SOLO SILO EImpact › Penetration › Direct": "Anti-Tank V",
-        "SWP SOLO SILO EImpact › Penetration › Slight Angle": "Anti-Tank V",
-        "SWP SOLO SILO EImpact › Penetration › Large Angle": "Anti-Tank V",
-        "SWP SOLO SILO EImpact › Penetration › Extreme Angle": "Anti-Tank V",
+        "SWP SOLO SILO EImpact › Penetration › Inner AP": "Anti-Tank V",
+        "SWP SOLO SILO EImpact › Penetration › Outer AP": "Anti-Tank IV",
+        "SWP SOLO SILO EImpact › Penetration › Shockwave AP": "Anti-Tank V",
         "SWP SOLO SILO EImpact › AoE Effect › Demolition Force": "40",
         "SWP SOLO SILO EImpact › AoE Effect › Stagger Force": "100",
         "SWP SOLO SILO EImpact › AoE Effect › Push Force": "40"
@@ -15876,7 +15958,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_vi",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -15912,7 +15994,9 @@
         "Hellbomb › Damage › Inner Durable": "10000 Explosion",
         "Hellbomb › Damage › Outer Radius": "9999 - 0",
         "Hellbomb › Damage › Outer Durable": "9999 - 0",
-        "Hellbomb › Penetration › Direct": "Anti-Tank VI",
+        "Hellbomb › Penetration › Inner AP": "Anti-Tank VI",
+        "Hellbomb › Penetration › Outer AP": "Anti-Tank V",
+        "Hellbomb › Penetration › Shockwave AP": "Anti-Tank VI",
         "Hellbomb › AoE Effect › Demolition Force": "60",
         "Hellbomb › AoE Effect › Stagger Force": "50",
         "Hellbomb › AoE Effect › Push Force": "100"
@@ -16060,7 +16144,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_i",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -16120,7 +16204,9 @@
         "120mm HE CANNON ROUND P1 IE › Damage › Inner Durable": "1200 Explosion",
         "120mm HE CANNON ROUND P1 IE › Damage › Outer Radius": "1199 - 0",
         "120mm HE CANNON ROUND P1 IE › Damage › Outer Durable": "1199 - 0",
-        "120mm HE CANNON ROUND P1 IE › Penetration › Direct": "Anti-Tank I",
+        "120mm HE CANNON ROUND P1 IE › Penetration › Inner AP": "Anti-Tank I",
+        "120mm HE CANNON ROUND P1 IE › Penetration › Outer AP": "Heavy",
+        "120mm HE CANNON ROUND P1 IE › Penetration › Shockwave AP": "Anti-Tank I",
         "120mm HE CANNON ROUND P1 IE › AoE Effect › Demolition Force": "50",
         "120mm HE CANNON ROUND P1 IE › AoE Effect › Stagger Force": "70",
         "120mm HE CANNON ROUND P1 IE › AoE Effect › Push Force": "40"
@@ -16272,7 +16358,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -16332,7 +16418,9 @@
         "380mm HE CANNON ROUND P1 IE › Damage › Inner Durable": "1500 Explosion",
         "380mm HE CANNON ROUND P1 IE › Damage › Outer Radius": "1499 - 0",
         "380mm HE CANNON ROUND P1 IE › Damage › Outer Durable": "1499 - 0",
-        "380mm HE CANNON ROUND P1 IE › Penetration › Direct": "Anti-Tank II",
+        "380mm HE CANNON ROUND P1 IE › Penetration › Inner AP": "Anti-Tank II",
+        "380mm HE CANNON ROUND P1 IE › Penetration › Outer AP": "Anti-Tank I",
+        "380mm HE CANNON ROUND P1 IE › Penetration › Shockwave AP": "Anti-Tank II",
         "380mm HE CANNON ROUND P1 IE › AoE Effect › Demolition Force": "50",
         "380mm HE CANNON ROUND P1 IE › AoE Effect › Stagger Force": "70",
         "380mm HE CANNON ROUND P1 IE › AoE Effect › Push Force": "60"
@@ -16470,7 +16558,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -16525,7 +16613,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -16591,7 +16679,9 @@
         "110mm AIRBURST CANNON ROUND P IE › Damage › Inner Durable": "350 Explosion",
         "110mm AIRBURST CANNON ROUND P IE › Damage › Outer Radius": "349 - 0",
         "110mm AIRBURST CANNON ROUND P IE › Damage › Outer Durable": "349 - 0",
-        "110mm AIRBURST CANNON ROUND P IE › Penetration › Direct": "Medium",
+        "110mm AIRBURST CANNON ROUND P IE › Penetration › Inner AP": "Medium",
+        "110mm AIRBURST CANNON ROUND P IE › Penetration › Outer AP": "Light",
+        "110mm AIRBURST CANNON ROUND P IE › Penetration › Shockwave AP": "Medium",
         "110mm AIRBURST CANNON ROUND P IE › AoE Effect › Demolition Force": "30",
         "110mm AIRBURST CANNON ROUND P IE › AoE Effect › Stagger Force": "50",
         "110mm AIRBURST CANNON ROUND P IE › AoE Effect › Push Force": "40",
@@ -16618,7 +16708,9 @@
         "SHRAPNEL P1 IE › Damage › Inner Durable": "350 Explosion",
         "SHRAPNEL P1 IE › Damage › Outer Radius": "349 - 0",
         "SHRAPNEL P1 IE › Damage › Outer Durable": "349 - 0",
-        "SHRAPNEL P1 IE › Penetration › Direct": "Medium",
+        "SHRAPNEL P1 IE › Penetration › Inner AP": "Medium",
+        "SHRAPNEL P1 IE › Penetration › Outer AP": "Light",
+        "SHRAPNEL P1 IE › Penetration › Shockwave AP": "Medium",
         "SHRAPNEL P1 IE › AoE Effect › Demolition Force": "30",
         "SHRAPNEL P1 IE › AoE Effect › Stagger Force": "50",
         "SHRAPNEL P1 IE › AoE Effect › Push Force": "40"
@@ -16747,7 +16839,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -16829,7 +16921,9 @@
         "110mm E.M.S. CANNON ROUND P IE › Damage › Damage Element": "None",
         "110mm E.M.S. CANNON ROUND P IE › Damage › Inner Radius": "0 Explosion",
         "110mm E.M.S. CANNON ROUND P IE › Damage › Inner Durable": "0 Explosion",
-        "110mm E.M.S. CANNON ROUND P IE › Penetration › Direct": "Anti-Tank II",
+        "110mm E.M.S. CANNON ROUND P IE › Penetration › Inner AP": "Anti-Tank II",
+        "110mm E.M.S. CANNON ROUND P IE › Penetration › Outer AP": "Anti-Tank I",
+        "110mm E.M.S. CANNON ROUND P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "110mm E.M.S. CANNON ROUND P IE › AoE Effect › Status": "Stun Medium",
         "110mm E.M.S. CANNON ROUND P IE › AoE Effect › Status Strength": "100",
         "110mm E.M.S. CANNON ROUND P IE › AoE Effect › Demolition Force": "30",
@@ -16961,7 +17055,7 @@
             "type": "Gas"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -17066,7 +17160,9 @@
         "110mm GAS CANNON ROUND P IE › Damage › Damage Element": "Gas",
         "110mm GAS CANNON ROUND P IE › Damage › Inner Radius": "0 Gas",
         "110mm GAS CANNON ROUND P IE › Damage › Inner Durable": "0 Gas",
-        "110mm GAS CANNON ROUND P IE › Penetration › Direct": "Anti-Tank II",
+        "110mm GAS CANNON ROUND P IE › Penetration › Inner AP": "Anti-Tank II",
+        "110mm GAS CANNON ROUND P IE › Penetration › Outer AP": "Anti-Tank I",
+        "110mm GAS CANNON ROUND P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "110mm GAS CANNON ROUND P IE › AoE Effect › Status": "Gas",
         "110mm GAS CANNON ROUND P IE › AoE Effect › Status Strength": "100",
         "110mm GAS CANNON ROUND P IE › AoE Effect › Second Status": "Gas_Confusion",
@@ -17227,7 +17323,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -17317,7 +17413,9 @@
         "23mm HE CANNON P1 IE › Damage › Inner Durable": "350 Explosion",
         "23mm HE CANNON P1 IE › Damage › Outer Radius": "349 - 0",
         "23mm HE CANNON P1 IE › Damage › Outer Durable": "349 - 0",
-        "23mm HE CANNON P1 IE › Penetration › Direct": "Medium",
+        "23mm HE CANNON P1 IE › Penetration › Inner AP": "Medium",
+        "23mm HE CANNON P1 IE › Penetration › Outer AP": "Light",
+        "23mm HE CANNON P1 IE › Penetration › Shockwave AP": "Medium",
         "23mm HE CANNON P1 IE › AoE Effect › Demolition Force": "30",
         "23mm HE CANNON P1 IE › AoE Effect › Stagger Force": "35",
         "23mm HE CANNON P1 IE › AoE Effect › Push Force": "5",
@@ -17707,7 +17805,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -17813,7 +17911,9 @@
         "120mm HE CANNON ROUND P3 IE › Damage › Inner Durable": "350 Explosion",
         "120mm HE CANNON ROUND P3 IE › Damage › Outer Radius": "349 - 0",
         "120mm HE CANNON ROUND P3 IE › Damage › Outer Durable": "349 - 0",
-        "120mm HE CANNON ROUND P3 IE › Penetration › Direct": "Medium",
+        "120mm HE CANNON ROUND P3 IE › Penetration › Inner AP": "Medium",
+        "120mm HE CANNON ROUND P3 IE › Penetration › Outer AP": "Light",
+        "120mm HE CANNON ROUND P3 IE › Penetration › Shockwave AP": "Medium",
         "120mm HE CANNON ROUND P3 IE › AoE Effect › Status": "Fire",
         "120mm HE CANNON ROUND P3 IE › AoE Effect › Status Strength": "100",
         "120mm HE CANNON ROUND P3 IE › AoE Effect › Second Status": "BurningHeavy",
@@ -17979,7 +18079,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -18039,7 +18139,9 @@
         "380mm HE CANNON ROUND P IE › Damage › Inner Durable": "1500 Explosion",
         "380mm HE CANNON ROUND P IE › Damage › Outer Radius": "1499 - 0",
         "380mm HE CANNON ROUND P IE › Damage › Outer Durable": "1499 - 0",
-        "380mm HE CANNON ROUND P IE › Penetration › Direct": "Anti-Tank II",
+        "380mm HE CANNON ROUND P IE › Penetration › Inner AP": "Anti-Tank II",
+        "380mm HE CANNON ROUND P IE › Penetration › Outer AP": "Anti-Tank I",
+        "380mm HE CANNON ROUND P IE › Penetration › Shockwave AP": "Anti-Tank II",
         "380mm HE CANNON ROUND P IE › AoE Effect › Demolition Force": "50",
         "380mm HE CANNON ROUND P IE › AoE Effect › Stagger Force": "70",
         "380mm HE CANNON ROUND P IE › AoE Effect › Push Force": "60"
@@ -18168,7 +18270,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -18199,6 +18301,9 @@
         "General › Cooldown › With All Upgrades": "153.9 seconds",
         "Orbital Railcannon Strike › Cooldown": "180 s",
         "Orbital Railcannon Strike › Uses": "∞",
+        "Orbital Railcannon Strike › Duration": "2 s",
+        "Orbital Railcannon Strike › Search Range": "30 m",
+        "Orbital Railcannon Strike › Movement Speed": "90 m/s",
         "Orbital Railcannon Strike › Attacks › RAIL CANNON ROUND P": "Projectile",
         "Orbital Railcannon Strike › Attacks › RAIL CANNON ROUND P E": "Explosion",
         "RAIL CANNON ROUND P › Projectile › Mass": "5 kg",
@@ -18224,7 +18329,9 @@
         "RAIL CANNON ROUND P E › Damage › Inner Durable": "1000 Explosion",
         "RAIL CANNON ROUND P E › Damage › Outer Radius": "999 - 0",
         "RAIL CANNON ROUND P E › Damage › Outer Durable": "999 - 0",
-        "RAIL CANNON ROUND P E › Penetration › Direct": "Anti-Tank II",
+        "RAIL CANNON ROUND P E › Penetration › Inner AP": "Anti-Tank II",
+        "RAIL CANNON ROUND P E › Penetration › Outer AP": "Anti-Tank I",
+        "RAIL CANNON ROUND P E › Penetration › Shockwave AP": "Anti-Tank II",
         "RAIL CANNON ROUND P E › AoE Effect › Demolition Force": "50",
         "RAIL CANNON ROUND P E › AoE Effect › Stagger Force": "30",
         "RAIL CANNON ROUND P E › AoE Effect › Push Force": "50"
@@ -18555,7 +18662,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -18615,7 +18722,9 @@
         "380mm HE CANNON ROUND P1 IE › Damage › Inner Durable": "1500 Explosion",
         "380mm HE CANNON ROUND P1 IE › Damage › Outer Radius": "1499 - 0",
         "380mm HE CANNON ROUND P1 IE › Damage › Outer Durable": "1499 - 0",
-        "380mm HE CANNON ROUND P1 IE › Penetration › Direct": "Anti-Tank II",
+        "380mm HE CANNON ROUND P1 IE › Penetration › Inner AP": "Anti-Tank II",
+        "380mm HE CANNON ROUND P1 IE › Penetration › Outer AP": "Anti-Tank I",
+        "380mm HE CANNON ROUND P1 IE › Penetration › Shockwave AP": "Anti-Tank II",
         "380mm HE CANNON ROUND P1 IE › AoE Effect › Demolition Force": "50",
         "380mm HE CANNON ROUND P1 IE › AoE Effect › Stagger Force": "70",
         "380mm HE CANNON ROUND P1 IE › AoE Effect › Push Force": "60"
@@ -18780,9 +18889,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_i",
-            "slightAngle": "anti_tank_i",
-            "largeAngle": "anti_tank_i",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -18835,9 +18944,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "heavy",
-            "slightAngle": "heavy",
-            "largeAngle": "heavy",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -18861,9 +18970,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "anti_tank_i",
-            "slightAngle": "anti_tank_i",
-            "largeAngle": "anti_tank_i",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -18908,15 +19017,15 @@
         "PLAS-45 EPOCH › Spread": "↔[30.00] ↕[30.00]",
         "PLAS-45 EPOCH › Sway": "1",
         "PLAS-45 EPOCH › Ergonomics": "25",
-        "PLAS-45 EPOCH › Noise": "Medium (~48m)",
+        "PLAS-45 EPOCH › Noise When Firing": "Medium (~48m)",
         "PLAS-45 EPOCH › Capacity": "3",
         "PLAS-45 EPOCH › Spare Magazines": "4",
         "PLAS-45 EPOCH › Starting Magazines": "2",
         "PLAS-45 EPOCH › Mags from Supply": "2",
         "PLAS-45 EPOCH › Mags from Ammo Box": "1",
-        "PLAS-45 EPOCH › Charge › at (1.00)s": "PLAS-45_P× 1.00 dmg",
-        "PLAS-45 EPOCH › Charge › at (2.50)s": "P3× 1.94 dmg",
-        "PLAS-45 EPOCH › Charge › at (2.60)s": "P3× 2.00 dmg",
+        "PLAS-45 EPOCH › Charge › at (1.00)s": "1.00 dmg × PLAS-45_P",
+        "PLAS-45 EPOCH › Charge › at (2.50)s": "1.94 dmg × P3",
+        "PLAS-45 EPOCH › Charge › at (2.60)s": "2.00 dmg × P3",
         "PLAS-45 EPOCH › Charge › Speed Mult Range": "(1.00) (1.00)",
         "PLAS-45 EPOCH › Charge › Distance Mult Range": "(0.70) (1.40)",
         "PLAS-45 EPOCH › Charge › Damage Mult Range": "(1.00) (2.00)",
@@ -18933,6 +19042,7 @@
         "P3 › Projectile › Penetration Slowdown": "35%",
         "P3 › Projectile › Explosion On Impact": "P3_IE",
         "P3 › Projectile › Explode After": "P3_IE",
+        "P3 › Projectile › Arming Distance": "1 m",
         "P3 › Damage › Standard": "400 Ballistic",
         "P3 › Damage › vs. Durable": "200 Ballistic",
         "P3 › Penetration › Direct": "Anti-Tank I",
@@ -18950,9 +19060,9 @@
         "P3 IE › Damage › Inner Durable": "800 Explosion",
         "P3 IE › Damage › Outer Radius": "799 - 0",
         "P3 IE › Damage › Outer Durable": "799 - 0",
-        "P3 IE › Penetration › Direct": "Anti-Tank I",
-        "P3 IE › Penetration › Slight Angle": "Anti-Tank I",
-        "P3 IE › Penetration › Large Angle": "Anti-Tank I",
+        "P3 IE › Penetration › Inner AP": "Anti-Tank I",
+        "P3 IE › Penetration › Outer AP": "Heavy",
+        "P3 IE › Penetration › Shockwave AP": "Anti-Tank I",
         "P3 IE › AoE Effect › Demolition Force": "30",
         "P3 IE › AoE Effect › Stagger Force": "35",
         "P3 IE › AoE Effect › Push Force": "30",
@@ -18964,6 +19074,7 @@
         "PLAS-45 P › Projectile › Penetration Slowdown": "35%",
         "PLAS-45 P › Projectile › Explosion On Impact": "PLAS-45_P_IE",
         "PLAS-45 P › Projectile › Explode After": "PLAS-45_P_IE",
+        "PLAS-45 P › Projectile › Arming Distance": "1 m",
         "PLAS-45 P › Damage › Standard": "400 Ballistic",
         "PLAS-45 P › Damage › vs. Durable": "200 Ballistic",
         "PLAS-45 P › Penetration › Direct": "Heavy",
@@ -18981,9 +19092,9 @@
         "PLAS-45 P IE › Damage › Inner Durable": "500 Explosion",
         "PLAS-45 P IE › Damage › Outer Radius": "499 - 0",
         "PLAS-45 P IE › Damage › Outer Durable": "499 - 0",
-        "PLAS-45 P IE › Penetration › Direct": "Heavy",
-        "PLAS-45 P IE › Penetration › Slight Angle": "Heavy",
-        "PLAS-45 P IE › Penetration › Large Angle": "Heavy",
+        "PLAS-45 P IE › Penetration › Inner AP": "Heavy",
+        "PLAS-45 P IE › Penetration › Outer AP": "Medium",
+        "PLAS-45 P IE › Penetration › Shockwave AP": "Heavy",
         "PLAS-45 P IE › AoE Effect › Demolition Force": "10",
         "PLAS-45 P IE › AoE Effect › Stagger Force": "20",
         "PLAS-45 P IE › AoE Effect › Push Force": "7",
@@ -18995,9 +19106,9 @@
         "PLAS-45 EPOCH Overcharge E › Damage › Inner Durable": "800 Explosion",
         "PLAS-45 EPOCH Overcharge E › Damage › Outer Radius": "799 - 0",
         "PLAS-45 EPOCH Overcharge E › Damage › Outer Durable": "799 - 0",
-        "PLAS-45 EPOCH Overcharge E › Penetration › Direct": "Anti-Tank I",
-        "PLAS-45 EPOCH Overcharge E › Penetration › Slight Angle": "Anti-Tank I",
-        "PLAS-45 EPOCH Overcharge E › Penetration › Large Angle": "Anti-Tank I",
+        "PLAS-45 EPOCH Overcharge E › Penetration › Inner AP": "Anti-Tank I",
+        "PLAS-45 EPOCH Overcharge E › Penetration › Outer AP": "Heavy",
+        "PLAS-45 EPOCH Overcharge E › Penetration › Shockwave AP": "Anti-Tank I",
         "PLAS-45 EPOCH Overcharge E › AoE Effect › Demolition Force": "30",
         "PLAS-45 EPOCH Overcharge E › AoE Effect › Stagger Force": "35",
         "PLAS-45 EPOCH Overcharge E › AoE Effect › Push Force": "30"
@@ -19447,7 +19558,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -19502,9 +19613,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
-            "slightAngle": "medium",
-            "largeAngle": "medium",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -19557,7 +19668,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -19612,9 +19723,9 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
-            "slightAngle": "medium",
-            "largeAngle": "medium",
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
             "extremeAngle": null
           },
           "projectile": null,
@@ -19688,7 +19799,7 @@
         "RL-77 AIRBURST ROCKET LAUNCHER › Spread": "↔[4.00] ↕[4.00]",
         "RL-77 AIRBURST ROCKET LAUNCHER › Sway": "1",
         "RL-77 AIRBURST ROCKET LAUNCHER › Ergonomics": "10",
-        "RL-77 AIRBURST ROCKET LAUNCHER › Noise": "Huge (~68m)",
+        "RL-77 AIRBURST ROCKET LAUNCHER › Noise When Firing": "Huge (~68m)",
         "RL-77 AIRBURST ROCKET LAUNCHER › Capacity": "1",
         "RL-77 AIRBURST ROCKET LAUNCHER › Spare Magazines": "5",
         "RL-77 AIRBURST ROCKET LAUNCHER › Starting Magazines": "5",
@@ -19710,7 +19821,9 @@
         "GR-8 BACKBLAST E › Damage › Inner Durable": "20 Explosion",
         "GR-8 BACKBLAST E › Damage › Outer Radius": "19 - 0",
         "GR-8 BACKBLAST E › Damage › Outer Durable": "19 - 0",
-        "GR-8 BACKBLAST E › Penetration › Direct": "Medium",
+        "GR-8 BACKBLAST E › Penetration › Inner AP": "Medium",
+        "GR-8 BACKBLAST E › Penetration › Outer AP": "Light",
+        "GR-8 BACKBLAST E › Penetration › Shockwave AP": "Medium",
         "GR-8 BACKBLAST E › AoE Effect › Demolition Force": "10",
         "GR-8 BACKBLAST E › AoE Effect › Stagger Force": "30",
         "GR-8 BACKBLAST E › AoE Effect › Push Force": "20",
@@ -19723,6 +19836,7 @@
         "RL-77 P › Projectile › Explosion On Impact": "RL-77_P_IE",
         "RL-77 P › Projectile › Explode After": "RL-77_P_IE",
         "RL-77 P › Projectile › Explosion Proximity": "2 m",
+        "RL-77 P › Projectile › Arming Distance": "1 m",
         "RL-77 P › Damage › Standard": "350 Ballistic",
         "RL-77 P › Damage › vs. Durable": "350 Ballistic",
         "RL-77 P › Penetration › Direct": "Medium",
@@ -19742,9 +19856,9 @@
         "RL-77 P IE › Damage › Inner Durable": "150 Explosion",
         "RL-77 P IE › Damage › Outer Radius": "149 - 0",
         "RL-77 P IE › Damage › Outer Durable": "149 - 0",
-        "RL-77 P IE › Penetration › Direct": "Medium",
-        "RL-77 P IE › Penetration › Slight Angle": "Medium",
-        "RL-77 P IE › Penetration › Large Angle": "Medium",
+        "RL-77 P IE › Penetration › Inner AP": "Medium",
+        "RL-77 P IE › Penetration › Outer AP": "Light",
+        "RL-77 P IE › Penetration › Shockwave AP": "Medium",
         "RL-77 P IE › AoE Effect › Demolition Force": "25",
         "RL-77 P IE › AoE Effect › Stagger Force": "25",
         "RL-77 P IE › AoE Effect › Push Force": "40",
@@ -19756,6 +19870,7 @@
         "RL-77 P1 › Projectile › Penetration Slowdown": "25%",
         "RL-77 P1 › Projectile › Explosion On Impact": "RL-77_P1_IE",
         "RL-77 P1 › Projectile › Explode After": "RL-77_P1_IE",
+        "RL-77 P1 › Projectile › Arming Distance": "15 m",
         "RL-77 P1 › Damage › Standard": "150 Ballistic",
         "RL-77 P1 › Damage › vs. Durable": "150 Ballistic",
         "RL-77 P1 › Penetration › Direct": "Medium",
@@ -19773,7 +19888,9 @@
         "RL-77 P1 IE › Damage › Inner Durable": "500 Explosion",
         "RL-77 P1 IE › Damage › Outer Radius": "499 - 0",
         "RL-77 P1 IE › Damage › Outer Durable": "499 - 0",
-        "RL-77 P1 IE › Penetration › Direct": "Medium",
+        "RL-77 P1 IE › Penetration › Inner AP": "Medium",
+        "RL-77 P1 IE › Penetration › Outer AP": "Light",
+        "RL-77 P1 IE › Penetration › Shockwave AP": "Medium",
         "RL-77 P1 IE › AoE Effect › Demolition Force": "20",
         "RL-77 P1 IE › AoE Effect › Stagger Force": "25",
         "RL-77 P1 IE › AoE Effect › Push Force": "40",
@@ -19785,6 +19902,7 @@
         "RL-77 P2 › Projectile › Penetration Slowdown": "25%",
         "RL-77 P2 › Projectile › Explosion On Impact": "RL-77_P2_IE",
         "RL-77 P2 › Projectile › Explode After": "RL-77_P2_IE",
+        "RL-77 P2 › Projectile › Arming Distance": "1 m",
         "RL-77 P2 › Damage › Standard": "350 Ballistic",
         "RL-77 P2 › Damage › vs. Durable": "350 Ballistic",
         "RL-77 P2 › Penetration › Direct": "Medium",
@@ -19804,9 +19922,9 @@
         "RL-77 P2 IE › Damage › Inner Durable": "150 Explosion",
         "RL-77 P2 IE › Damage › Outer Radius": "149 - 0",
         "RL-77 P2 IE › Damage › Outer Durable": "149 - 0",
-        "RL-77 P2 IE › Penetration › Direct": "Medium",
-        "RL-77 P2 IE › Penetration › Slight Angle": "Medium",
-        "RL-77 P2 IE › Penetration › Large Angle": "Medium",
+        "RL-77 P2 IE › Penetration › Inner AP": "Medium",
+        "RL-77 P2 IE › Penetration › Outer AP": "Light",
+        "RL-77 P2 IE › Penetration › Shockwave AP": "Medium",
         "RL-77 P2 IE › AoE Effect › Demolition Force": "25",
         "RL-77 P2 IE › AoE Effect › Stagger Force": "25",
         "RL-77 P2 IE › AoE Effect › Push Force": "40",
@@ -19817,6 +19935,7 @@
         "RL-77 P3 › Projectile › Penetration Slowdown": "25%",
         "RL-77 P3 › Projectile › Explosion On Impact": "RL-77_P1_IE",
         "RL-77 P3 › Projectile › Explode After": "RL-77_P1_IE",
+        "RL-77 P3 › Projectile › Arming Distance": "1 m",
         "RL-77 P3 › Damage › Standard": "150 Ballistic",
         "RL-77 P3 › Damage › vs. Durable": "150 Ballistic",
         "RL-77 P3 › Penetration › Direct": "Medium",
@@ -19986,7 +20105,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20055,15 +20174,15 @@
         "RS-422 RAILGUN › Spread": "↔[0.10] ↕[0.10]",
         "RS-422 RAILGUN › Sway": "1",
         "RS-422 RAILGUN › Ergonomics": "35",
-        "RS-422 RAILGUN › Noise": "Medium (~48m)",
+        "RS-422 RAILGUN › Noise When Firing": "Medium (~48m)",
         "RS-422 RAILGUN › Capacity": "1",
         "RS-422 RAILGUN › Spare Magazines": "20",
         "RS-422 RAILGUN › Starting Magazines": "10",
         "RS-422 RAILGUN › Mags from Supply": "10",
         "RS-422 RAILGUN › Mags from Ammo Box": "5",
-        "RS-422 RAILGUN › Charge › at (0.45)s": "DEFAULT× 1.00 dmg",
-        "RS-422 RAILGUN › Charge › at (0.50)s": "DEFAULT× 1.03 dmg",
-        "RS-422 RAILGUN › Charge › at (3.00)s": "DEFAULT× 2.50 dmg",
+        "RS-422 RAILGUN › Charge › at (0.45)s": "1.00 dmg × DEFAULT",
+        "RS-422 RAILGUN › Charge › at (0.50)s": "1.03 dmg × DEFAULT",
+        "RS-422 RAILGUN › Charge › at (3.00)s": "2.50 dmg × DEFAULT",
         "RS-422 RAILGUN › Charge › Speed Mult Range": "(0.70) (1.00)",
         "RS-422 RAILGUN › Charge › Distance Mult Range": "(0.70) (1.40)",
         "RS-422 RAILGUN › Charge › Damage Mult Range": "(1.00) (2.50)",
@@ -20092,7 +20211,9 @@
         "RS-422 RAILGUN Overcharge E › Damage › Inner Durable": "300 Explosion",
         "RS-422 RAILGUN Overcharge E › Damage › Outer Radius": "299 - 0",
         "RS-422 RAILGUN Overcharge E › Damage › Outer Durable": "299 - 0",
-        "RS-422 RAILGUN Overcharge E › Penetration › Direct": "Medium",
+        "RS-422 RAILGUN Overcharge E › Penetration › Inner AP": "Medium",
+        "RS-422 RAILGUN Overcharge E › Penetration › Outer AP": "Light",
+        "RS-422 RAILGUN Overcharge E › Penetration › Shockwave AP": "Medium",
         "RS-422 RAILGUN Overcharge E › AoE Effect › Demolition Force": "20",
         "RS-422 RAILGUN Overcharge E › AoE Effect › Stagger Force": "5",
         "RS-422 RAILGUN Overcharge E › AoE Effect › Push Force": "40",
@@ -20307,7 +20428,7 @@
             "type": "Gas"
           },
           "penetration": {
-            "direct": "anti_tank_ii",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -20350,7 +20471,7 @@
         "S-11 SPEARGUN › Spread": "↔[0.10] ↕[0.10]",
         "S-11 SPEARGUN › Sway": "1",
         "S-11 SPEARGUN › Ergonomics": "35",
-        "S-11 SPEARGUN › Noise": "Medium (~48m)",
+        "S-11 SPEARGUN › Noise When Firing": "Medium (~48m)",
         "S-11 SPEARGUN › Capacity": "1",
         "S-11 SPEARGUN › Spare Magazines": "12",
         "S-11 SPEARGUN › Starting Magazines": "12",
@@ -20367,6 +20488,7 @@
         "S-11 P › Projectile › Lifetime": "1.70000005 sec",
         "S-11 P › Projectile › Penetration Slowdown": "0%",
         "S-11 P › Projectile › Explode After": "S-11_P_E",
+        "S-11 P › Projectile › Arming Distance": "1 m",
         "S-11 P › Damage › Standard": "650 Ballistic",
         "S-11 P › Damage › vs. Durable": "275 Ballistic",
         "S-11 P › Penetration › Direct": "Anti-Tank I",
@@ -20401,7 +20523,9 @@
         "S-11 P E › Damage › Inner Durable": "3 Gas",
         "S-11 P E › Damage › Outer Radius": "2 - 0",
         "S-11 P E › Damage › Outer Durable": "2 - 0",
-        "S-11 P E › Penetration › Direct": "Anti-Tank II",
+        "S-11 P E › Penetration › Inner AP": "Anti-Tank II",
+        "S-11 P E › Penetration › Outer AP": "Anti-Tank I",
+        "S-11 P E › Penetration › Shockwave AP": "Anti-Tank II",
         "S-11 P E › AoE Effect › Status": "Gas",
         "S-11 P E › AoE Effect › Status Strength": "100",
         "S-11 P E › AoE Effect › Second Status": "Gas_Confusion",
@@ -21393,7 +21517,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -21448,7 +21572,7 @@
             "type": "Explosion"
           },
           "penetration": {
-            "direct": "medium",
+            "direct": null,
             "slightAngle": null,
             "largeAngle": null,
             "extremeAngle": null
@@ -21498,7 +21622,7 @@
         "STA-X3 W.A.S.P. LAUNCHER › Spread": "↔[0.00] ↕[0.00]",
         "STA-X3 W.A.S.P. LAUNCHER › Sway": "1",
         "STA-X3 W.A.S.P. LAUNCHER › Ergonomics": "10",
-        "STA-X3 W.A.S.P. LAUNCHER › Noise": "Medium (~48m)",
+        "STA-X3 W.A.S.P. LAUNCHER › Noise When Firing": "Medium (~48m)",
         "STA-X3 W.A.S.P. LAUNCHER › Capacity": "7",
         "STA-X3 W.A.S.P. LAUNCHER › Spare Magazines": "5",
         "STA-X3 W.A.S.P. LAUNCHER › Starting Magazines": "5",
@@ -21531,7 +21655,9 @@
         "StA-X3 P IE › Damage › Inner Durable": "600 Explosion",
         "StA-X3 P IE › Damage › Outer Radius": "599 - 0",
         "StA-X3 P IE › Damage › Outer Durable": "599 - 0",
-        "StA-X3 P IE › Penetration › Direct": "Medium",
+        "StA-X3 P IE › Penetration › Inner AP": "Medium",
+        "StA-X3 P IE › Penetration › Outer AP": "Light",
+        "StA-X3 P IE › Penetration › Shockwave AP": "Medium",
         "StA-X3 P IE › AoE Effect › Demolition Force": "30",
         "StA-X3 P IE › AoE Effect › Stagger Force": "25",
         "StA-X3 P IE › AoE Effect › Push Force": "50",
@@ -21542,6 +21668,7 @@
         "StA-X3 P1 › Projectile › Penetration Slowdown": "25%",
         "StA-X3 P1 › Projectile › Explosion On Impact": "StA-X3_P1_IE",
         "StA-X3 P1 › Projectile › Explosion Proximity": "12 m",
+        "StA-X3 P1 › Projectile › Arming Distance": "30 m",
         "StA-X3 P1 › Damage › Standard": "20 Ballistic",
         "StA-X3 P1 › Damage › vs. Durable": "2 Ballistic",
         "StA-X3 P1 › Penetration › Direct": "Unarmored",
@@ -21561,7 +21688,9 @@
         "StA-X3 P1 IE › Damage › Inner Durable": "600 Explosion",
         "StA-X3 P1 IE › Damage › Outer Radius": "599 - 0",
         "StA-X3 P1 IE › Damage › Outer Durable": "599 - 0",
-        "StA-X3 P1 IE › Penetration › Direct": "Medium",
+        "StA-X3 P1 IE › Penetration › Inner AP": "Medium",
+        "StA-X3 P1 IE › Penetration › Outer AP": "Light",
+        "StA-X3 P1 IE › Penetration › Shockwave AP": "Medium",
         "StA-X3 P1 IE › AoE Effect › Demolition Force": "30",
         "StA-X3 P1 IE › AoE Effect › Stagger Force": "25",
         "StA-X3 P1 IE › AoE Effect › Push Force": "50"
@@ -22392,7 +22521,7 @@
         "TX-41 STERILIZER › Spread": "↔[10.00] ↕[10.00]",
         "TX-41 STERILIZER › Sway": "1",
         "TX-41 STERILIZER › Ergonomics": "20",
-        "TX-41 STERILIZER › Noise": "Small (~33m)",
+        "TX-41 STERILIZER › Noise When Firing": "Small (~33m)",
         "TX-41 STERILIZER › Capacity": "125",
         "TX-41 STERILIZER › Spare Magazines": "4",
         "TX-41 STERILIZER › Starting Magazines": "3",

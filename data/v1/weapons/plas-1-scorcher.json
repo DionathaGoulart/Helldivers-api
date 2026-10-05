@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -105,7 +105,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -147,7 +147,7 @@
       "PLAS-1 SCORCHER › Spread": "↔[10.00] ↕[10.00]",
       "PLAS-1 SCORCHER › Sway": "1",
       "PLAS-1 SCORCHER › Ergonomics": "65",
-      "PLAS-1 SCORCHER › Noise": "Medium (~48m)",
+      "PLAS-1 SCORCHER › Noise When Firing": "Medium (~48m)",
       "PLAS-1 SCORCHER › Capacity": "20",
       "PLAS-1 SCORCHER › Spare Magazines": "5",
       "PLAS-1 SCORCHER › Starting Magazines": "3",
@@ -178,7 +178,9 @@
       "PLAS-1 P IE › Damage › Inner Durable": "100 Explosion",
       "PLAS-1 P IE › Damage › Outer Radius": "99 - 0",
       "PLAS-1 P IE › Damage › Outer Durable": "99 - 0",
-      "PLAS-1 P IE › Penetration › Direct": "Medium",
+      "PLAS-1 P IE › Penetration › Inner AP": "Medium",
+      "PLAS-1 P IE › Penetration › Outer AP": "Light",
+      "PLAS-1 P IE › Penetration › Shockwave AP": "Medium",
       "PLAS-1 P IE › AoE Effect › Demolition Force": "10",
       "PLAS-1 P IE › AoE Effect › Stagger Force": "10",
       "PLAS-1 P IE › AoE Effect › Push Force": "7"

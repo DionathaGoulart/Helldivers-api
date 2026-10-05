@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -135,7 +135,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "anti_tank_i",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -198,7 +198,9 @@
       "Eagle Bomb 100kg › Damage › Inner Durable": "800 Explosion",
       "Eagle Bomb 100kg › Damage › Outer Radius": "799 - 0",
       "Eagle Bomb 100kg › Damage › Outer Durable": "799 - 0",
-      "Eagle Bomb 100kg › Penetration › Direct": "Anti-Tank I",
+      "Eagle Bomb 100kg › Penetration › Inner AP": "Anti-Tank I",
+      "Eagle Bomb 100kg › Penetration › Outer AP": "Heavy",
+      "Eagle Bomb 100kg › Penetration › Shockwave AP": "Anti-Tank I",
       "Eagle Bomb 100kg › AoE Effect › Demolition Force": "40",
       "Eagle Bomb 100kg › AoE Effect › Stagger Force": "50",
       "Eagle Bomb 100kg › AoE Effect › Push Force": "40"

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -136,7 +136,7 @@
           "type": "Gas"
         },
         "penetration": {
-          "direct": "anti_tank_ii",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -242,7 +242,9 @@
       "S P6 IE › Damage › Damage Element": "Gas",
       "S P6 IE › Damage › Inner Radius": "0 Gas",
       "S P6 IE › Damage › Inner Durable": "0 Gas",
-      "S P6 IE › Penetration › Direct": "Anti-Tank II",
+      "S P6 IE › Penetration › Inner AP": "Anti-Tank II",
+      "S P6 IE › Penetration › Outer AP": "Anti-Tank I",
+      "S P6 IE › Penetration › Shockwave AP": "Anti-Tank II",
       "S P6 IE › AoE Effect › Status": "Gas",
       "S P6 IE › AoE Effect › Status Strength": "100",
       "S P6 IE › AoE Effect › Second Status": "Gas_Confusion",

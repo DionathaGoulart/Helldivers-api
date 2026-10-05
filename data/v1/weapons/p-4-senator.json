@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -122,7 +122,7 @@
       "P-4 SENATOR › Spread": "↔[8.00] ↕[8.00]",
       "P-4 SENATOR › Sway": "1",
       "P-4 SENATOR › Ergonomics": "75",
-      "P-4 SENATOR › Noise": "Small (~33m)",
+      "P-4 SENATOR › Noise When Firing": "Small (~33m)",
       "P-4 SENATOR › Capacity": "6",
       "P-4 SENATOR › Spare Rounds": "40",
       "P-4 SENATOR › Starting Rounds": "32",

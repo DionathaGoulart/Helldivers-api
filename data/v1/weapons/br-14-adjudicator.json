@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -118,7 +118,7 @@
       "BR-14 ADJUDICATOR › Spread": "↔[1.00] ↕[1.00]",
       "BR-14 ADJUDICATOR › Sway": "1",
       "BR-14 ADJUDICATOR › Ergonomics": "40",
-      "BR-14 ADJUDICATOR › Noise": "Medium (~48m)",
+      "BR-14 ADJUDICATOR › Noise When Firing": "Medium (~48m)",
       "BR-14 ADJUDICATOR › Capacity": "30",
       "BR-14 ADJUDICATOR › Spare Magazines": "8",
       "BR-14 ADJUDICATOR › Starting Magazines": "6",

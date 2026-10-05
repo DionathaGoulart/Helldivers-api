@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -143,7 +143,7 @@
       "SG-97 SWEEPER › Spread": "↔[125.00] ↕[105.00]",
       "SG-97 SWEEPER › Sway": "1",
       "SG-97 SWEEPER › Ergonomics": "65",
-      "SG-97 SWEEPER › Noise": "Medium (~48m)",
+      "SG-97 SWEEPER › Noise When Firing": "Medium (~48m)",
       "SG-97 SWEEPER › Capacity": "7",
       "SG-97 SWEEPER › Spare Rounds": "70",
       "SG-97 SWEEPER › Starting Rounds": "46",

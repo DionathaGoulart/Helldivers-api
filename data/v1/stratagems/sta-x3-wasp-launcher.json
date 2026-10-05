@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -154,7 +154,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -209,7 +209,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -259,7 +259,7 @@
       "STA-X3 W.A.S.P. LAUNCHER › Spread": "↔[0.00] ↕[0.00]",
       "STA-X3 W.A.S.P. LAUNCHER › Sway": "1",
       "STA-X3 W.A.S.P. LAUNCHER › Ergonomics": "10",
-      "STA-X3 W.A.S.P. LAUNCHER › Noise": "Medium (~48m)",
+      "STA-X3 W.A.S.P. LAUNCHER › Noise When Firing": "Medium (~48m)",
       "STA-X3 W.A.S.P. LAUNCHER › Capacity": "7",
       "STA-X3 W.A.S.P. LAUNCHER › Spare Magazines": "5",
       "STA-X3 W.A.S.P. LAUNCHER › Starting Magazines": "5",
@@ -292,7 +292,9 @@
       "StA-X3 P IE › Damage › Inner Durable": "600 Explosion",
       "StA-X3 P IE › Damage › Outer Radius": "599 - 0",
       "StA-X3 P IE › Damage › Outer Durable": "599 - 0",
-      "StA-X3 P IE › Penetration › Direct": "Medium",
+      "StA-X3 P IE › Penetration › Inner AP": "Medium",
+      "StA-X3 P IE › Penetration › Outer AP": "Light",
+      "StA-X3 P IE › Penetration › Shockwave AP": "Medium",
       "StA-X3 P IE › AoE Effect › Demolition Force": "30",
       "StA-X3 P IE › AoE Effect › Stagger Force": "25",
       "StA-X3 P IE › AoE Effect › Push Force": "50",
@@ -303,6 +305,7 @@
       "StA-X3 P1 › Projectile › Penetration Slowdown": "25%",
       "StA-X3 P1 › Projectile › Explosion On Impact": "StA-X3_P1_IE",
       "StA-X3 P1 › Projectile › Explosion Proximity": "12 m",
+      "StA-X3 P1 › Projectile › Arming Distance": "30 m",
       "StA-X3 P1 › Damage › Standard": "20 Ballistic",
       "StA-X3 P1 › Damage › vs. Durable": "2 Ballistic",
       "StA-X3 P1 › Penetration › Direct": "Unarmored",
@@ -322,7 +325,9 @@
       "StA-X3 P1 IE › Damage › Inner Durable": "600 Explosion",
       "StA-X3 P1 IE › Damage › Outer Radius": "599 - 0",
       "StA-X3 P1 IE › Damage › Outer Durable": "599 - 0",
-      "StA-X3 P1 IE › Penetration › Direct": "Medium",
+      "StA-X3 P1 IE › Penetration › Inner AP": "Medium",
+      "StA-X3 P1 IE › Penetration › Outer AP": "Light",
+      "StA-X3 P1 IE › Penetration › Shockwave AP": "Medium",
       "StA-X3 P1 IE › AoE Effect › Demolition Force": "30",
       "StA-X3 P1 IE › AoE Effect › Stagger Force": "25",
       "StA-X3 P1 IE › AoE Effect › Push Force": "50"

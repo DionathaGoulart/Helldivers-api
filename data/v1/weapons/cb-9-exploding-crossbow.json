@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -102,9 +102,9 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
-          "slightAngle": "medium",
-          "largeAngle": "medium",
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
           "extremeAngle": null
         },
         "projectile": null,
@@ -141,7 +141,7 @@
       "CB-9 EXPLODING CROSSBOW › Spread": "↔[0.50] ↕[0.50]",
       "CB-9 EXPLODING CROSSBOW › Sway": "1",
       "CB-9 EXPLODING CROSSBOW › Ergonomics": "45",
-      "CB-9 EXPLODING CROSSBOW › Noise": "Medium (~48m)",
+      "CB-9 EXPLODING CROSSBOW › Noise When Firing": "Medium (~48m)",
       "CB-9 EXPLODING CROSSBOW › Capacity": "5",
       "CB-9 EXPLODING CROSSBOW › Spare Magazines": "8",
       "CB-9 EXPLODING CROSSBOW › Starting Magazines": "6",
@@ -155,6 +155,7 @@
       "CB-9 P › Projectile › Gravity Factor": "50%",
       "CB-9 P › Projectile › Penetration Slowdown": "25%",
       "CB-9 P › Projectile › Explosion On Impact": "CB-9_P_IE",
+      "CB-9 P › Projectile › Arming Distance": "0.100000001 m",
       "CB-9 P › Damage › Standard": "270 Ballistic",
       "CB-9 P › Damage › vs. Durable": "50 Ballistic",
       "CB-9 P › Penetration › Direct": "Medium",
@@ -172,9 +173,9 @@
       "CB-9 P IE › Damage › Inner Durable": "350 Explosion",
       "CB-9 P IE › Damage › Outer Radius": "349 - 0",
       "CB-9 P IE › Damage › Outer Durable": "349 - 0",
-      "CB-9 P IE › Penetration › Direct": "Medium",
-      "CB-9 P IE › Penetration › Slight Angle": "Medium",
-      "CB-9 P IE › Penetration › Large Angle": "Medium",
+      "CB-9 P IE › Penetration › Inner AP": "Medium",
+      "CB-9 P IE › Penetration › Outer AP": "Light",
+      "CB-9 P IE › Penetration › Shockwave AP": "Medium",
       "CB-9 P IE › AoE Effect › Demolition Force": "20",
       "CB-9 P IE › AoE Effect › Stagger Force": "25",
       "CB-9 P IE › AoE Effect › Push Force": "30"

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -96,7 +96,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -162,7 +162,9 @@
       "Incendiary Mine › Damage › Inner Durable": "300 Explosion",
       "Incendiary Mine › Damage › Outer Radius": "299 - 0",
       "Incendiary Mine › Damage › Outer Durable": "299 - 0",
-      "Incendiary Mine › Penetration › Direct": "Medium",
+      "Incendiary Mine › Penetration › Inner AP": "Medium",
+      "Incendiary Mine › Penetration › Outer AP": "Light",
+      "Incendiary Mine › Penetration › Shockwave AP": "Medium",
       "Incendiary Mine › AoE Effect › Status": "Fire",
       "Incendiary Mine › AoE Effect › Status (2)": "Fire",
       "Incendiary Mine › AoE Effect › Demolition Force": "30",

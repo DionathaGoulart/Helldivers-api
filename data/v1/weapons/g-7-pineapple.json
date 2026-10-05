@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -52,7 +52,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -107,7 +107,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -149,7 +149,9 @@
       "G-7 PINEAPPLE E › Damage › Inner Durable": "300 Explosion",
       "G-7 PINEAPPLE E › Damage › Outer Radius": "299 - 0",
       "G-7 PINEAPPLE E › Damage › Outer Durable": "299 - 0",
-      "G-7 PINEAPPLE E › Penetration › Direct": "Medium",
+      "G-7 PINEAPPLE E › Penetration › Inner AP": "Medium",
+      "G-7 PINEAPPLE E › Penetration › Outer AP": "Light",
+      "G-7 PINEAPPLE E › Penetration › Shockwave AP": "Medium",
       "G-7 PINEAPPLE E › AoE Effect › Demolition Force": "30",
       "G-7 PINEAPPLE E › AoE Effect › Stagger Force": "25",
       "G-7 PINEAPPLE E › AoE Effect › Push Force": "40",
@@ -160,6 +162,7 @@
       "G-7 P › Projectile › Penetration Slowdown": "25%",
       "G-7 P › Projectile › Explosion On Impact": "G-7_P_IE",
       "G-7 P › Projectile › Explode After": "G-7_P_IE",
+      "G-7 P › Projectile › Arming Distance": "15 m",
       "G-7 P › Damage › Standard": "300 Ballistic",
       "G-7 P › Damage › vs. Durable": "300 Ballistic",
       "G-7 P › Penetration › Direct": "Medium",
@@ -177,7 +180,9 @@
       "G-7 P IE › Damage › Inner Durable": "100 Explosion",
       "G-7 P IE › Damage › Outer Radius": "99 - 0",
       "G-7 P IE › Damage › Outer Durable": "99 - 0",
-      "G-7 P IE › Penetration › Direct": "Medium",
+      "G-7 P IE › Penetration › Inner AP": "Medium",
+      "G-7 P IE › Penetration › Outer AP": "Light",
+      "G-7 P IE › Penetration › Shockwave AP": "Medium",
       "G-7 P IE › AoE Effect › Demolition Force": "20",
       "G-7 P IE › AoE Effect › Stagger Force": "25",
       "G-7 P IE › AoE Effect › Push Force": "40"

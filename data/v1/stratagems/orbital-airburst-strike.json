@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -129,7 +129,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -184,7 +184,7 @@
           "type": "Explosion"
         },
         "penetration": {
-          "direct": "medium",
+          "direct": null,
           "slightAngle": null,
           "largeAngle": null,
           "extremeAngle": null
@@ -250,7 +250,9 @@
       "110mm AIRBURST CANNON ROUND P IE › Damage › Inner Durable": "350 Explosion",
       "110mm AIRBURST CANNON ROUND P IE › Damage › Outer Radius": "349 - 0",
       "110mm AIRBURST CANNON ROUND P IE › Damage › Outer Durable": "349 - 0",
-      "110mm AIRBURST CANNON ROUND P IE › Penetration › Direct": "Medium",
+      "110mm AIRBURST CANNON ROUND P IE › Penetration › Inner AP": "Medium",
+      "110mm AIRBURST CANNON ROUND P IE › Penetration › Outer AP": "Light",
+      "110mm AIRBURST CANNON ROUND P IE › Penetration › Shockwave AP": "Medium",
       "110mm AIRBURST CANNON ROUND P IE › AoE Effect › Demolition Force": "30",
       "110mm AIRBURST CANNON ROUND P IE › AoE Effect › Stagger Force": "50",
       "110mm AIRBURST CANNON ROUND P IE › AoE Effect › Push Force": "40",
@@ -277,7 +279,9 @@
       "SHRAPNEL P1 IE › Damage › Inner Durable": "350 Explosion",
       "SHRAPNEL P1 IE › Damage › Outer Radius": "349 - 0",
       "SHRAPNEL P1 IE › Damage › Outer Durable": "349 - 0",
-      "SHRAPNEL P1 IE › Penetration › Direct": "Medium",
+      "SHRAPNEL P1 IE › Penetration › Inner AP": "Medium",
+      "SHRAPNEL P1 IE › Penetration › Outer AP": "Light",
+      "SHRAPNEL P1 IE › Penetration › Shockwave AP": "Medium",
       "SHRAPNEL P1 IE › AoE Effect › Demolition Force": "30",
       "SHRAPNEL P1 IE › AoE Effect › Stagger Force": "50",
       "SHRAPNEL P1 IE › AoE Effect › Push Force": "40"

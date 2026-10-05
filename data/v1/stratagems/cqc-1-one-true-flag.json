@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-03.846d7a12",
-    "generatedAt": "2026-10-03T23:44:32Z",
+    "dataVersion": "2026-10-04.33709997",
+    "generatedAt": "2026-10-04T23:55:49Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -112,7 +112,7 @@
       "CQC-1 ONE TRUE FLAG › Spread": "↔[10.00] ↕[10.00]",
       "CQC-1 ONE TRUE FLAG › Sway": "1",
       "CQC-1 ONE TRUE FLAG › Ergonomics": "65",
-      "CQC-1 ONE TRUE FLAG › Noise": "No sound",
+      "CQC-1 ONE TRUE FLAG › Noise When Firing": "No sound",
       "CQC-1 ONE TRUE FLAG › Stamina Cost": "3%",
       "CQC-1 ONE TRUE FLAG › Attacks › CQC-1 ONE TRUE FLAG_dm": "Damage",
       "CQC-1 ONE TRUE FLAG_dm › Damage › Standard": "200 Melee",
