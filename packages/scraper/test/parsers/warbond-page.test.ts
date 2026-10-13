@@ -1,3 +1,4 @@
+import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 import { ParseError } from "../../src/errors.ts";
 import { findItem, findItemPage, parseWarbondPage } from "../../src/parsers/warbond-page.ts";
@@ -87,6 +88,24 @@ describe("warbond-page parser (infobox)", () => {
     expect(() => parseWarbondPage(article("<p>gone</p>"), { url: page.url })).toThrow(
       "expected 1 infobox, found 0",
     );
+  });
+
+  it("allows unannounced price and credits only on an upcoming warbond", async () => {
+    const upcoming = await fixture("Ironclad Democracy Premium Warbond");
+    const $ = cheerio.load(upcoming.html);
+    $(".druid-row-cost, .druid-row-credit-claim").remove();
+    const html = $.html();
+    expect(parseWarbondPage(html, { url: upcoming.url })).toMatchObject({
+      cost: null,
+      creditsClaimable: null,
+      pages: expect.arrayContaining([expect.objectContaining({ number: 1 })]),
+    });
+
+    $("#catlinks li")
+      .filter((_, li) => $(li).text().trim() === "Unreleased Content")
+      .remove();
+    expect(() => parseWarbondPage($.html(), { url: upcoming.url })).toThrow("cost");
+    expect(() => parseWarbondPage($.html(), { url: upcoming.url })).toThrow("creditsClaimable");
   });
 });
 

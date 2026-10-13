@@ -73,6 +73,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
       }
       const id = idLock.resolve("warbonds", raw.title, stem);
       const note = (message: string) => warnings.push(`warbonds/${id}: ${message}`);
+      const upcoming = isUpcoming(raw.categories);
 
       const amount = (cost: RawCost | null, fallback: Cost["currency"], field: string) => {
         const text = cost?.text.trim() ?? "";
@@ -87,7 +88,20 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
       };
       const cost = amount(raw.cost, "super_credits", "Cost");
       if (cost === null) {
-        throw new NormalizeError(page.url, raw.cost.text, "warbond without a price");
+        if (!upcoming || raw.cost !== null) {
+          throw new NormalizeError(page.url, raw.cost?.text ?? "", "warbond without a price");
+        }
+        note("price not announced");
+      }
+      const creditsText = raw.creditsClaimable?.text.trim() ?? "";
+      const creditsClaimable = /^none$/i.test(creditsText)
+        ? 0
+        : amount(raw.creditsClaimable, "super_credits", "Credits Claimable");
+      if (creditsClaimable === null) {
+        if (!upcoming || raw.creditsClaimable !== null) {
+          throw new NormalizeError(page.url, creditsText, "warbond without claimable credits");
+        }
+        note("claimable credits not announced");
       }
 
       const typeCategory = raw.categories.find((c) =>
@@ -155,7 +169,7 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
         id,
         slug: slugify(raw.name),
         name: raw.name,
-        upcoming: isUpcoming(raw.categories),
+        upcoming,
         aliases: [...new Set(aliases)]
           .filter((alias) => alias && alias !== raw.name && alias !== raw.title)
           .sort(),
@@ -168,9 +182,8 @@ export const warbondsPipeline: CollectionPipeline<"warbonds"> = {
         },
         type: TYPES[row.type],
         releaseDate: parseReleaseDate(raw.releaseDate, page.url),
-        cost: { currency: "super_credits", amount: cost },
-        superCreditsClaimable:
-          amount(raw.creditsClaimable, "super_credits", "Credits Claimable") ?? 0,
+        cost: cost === null ? null : { currency: "super_credits", amount: cost },
+        superCreditsClaimable: creditsClaimable,
         medalsAllPages: amount(raw.medalsAllPages, "medals", "All Pages Unlocked"),
         medalsAllItems: amount(raw.medalsAllItems, "medals", "All Items Unlocked"),
         pages,

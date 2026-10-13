@@ -6,7 +6,7 @@ import { detectCurrency } from "../wiki/currency.ts";
 import { readDruid } from "../wiki/druid.ts";
 import { loadHtml, textOf } from "../wiki/html.ts";
 import { firstArticleLink } from "../wiki/links.ts";
-import { readCanonicalTitle, readCategories, readLead } from "../wiki/page.ts";
+import { isUpcoming, readCanonicalTitle, readCategories, readLead } from "../wiki/page.ts";
 import { findInSection, readSections, type Section } from "../wiki/sections.ts";
 import { linkFromHref } from "../wiki/title.ts";
 import { cellAt, columnIndexes, readWikitable } from "../wiki/wikitable.ts";
@@ -30,27 +30,36 @@ export const RawWarbondGridCell = z.object({
   title: z.string().min(1), // linked article, "Surplus EAT Allocation"
 });
 
-export const RawWarbondPage = z.object({
-  title: z.string().min(1), // canonical page title
-  name: z.string().min(1), // DRUID title, "Helldivers Mobilize!"
-  lead: z.string().min(1).nullable(),
-  categories: z.array(z.string()),
-  image: RawImage.nullable(), // cover
-  releaseDate: z.string().min(1), // "August 12th, 2026"
-  cost: RawCost, // "1,000 Super Credits", "Free"
-  creditsClaimable: RawCost, // "300 Super Credits", "None"
-  medalsAllPages: RawCost.nullable(),
-  medalsAllItems: RawCost.nullable(),
-  pages: z
-    .array(
-      z.object({
-        number: z.number().int().positive(),
-        items: z.array(RawWarbondItem).min(1),
-        grid: z.array(RawWarbondGridCell).nullable(), // null: no icon grid on the page
-      }),
-    )
-    .min(1),
-});
+export const RawWarbondPage = z
+  .object({
+    title: z.string().min(1), // canonical page title
+    name: z.string().min(1), // DRUID title, "Helldivers Mobilize!"
+    lead: z.string().min(1).nullable(),
+    categories: z.array(z.string()),
+    image: RawImage.nullable(), // cover
+    releaseDate: z.string().min(1), // "August 12th, 2026"
+    cost: RawCost.nullable(), // null only for an upcoming warbond with no announced price
+    creditsClaimable: RawCost.nullable(), // null only for upcoming; "None" is an explicit zero
+    medalsAllPages: RawCost.nullable(),
+    medalsAllItems: RawCost.nullable(),
+    pages: z
+      .array(
+        z.object({
+          number: z.number().int().positive(),
+          items: z.array(RawWarbondItem).min(1),
+          grid: z.array(RawWarbondGridCell).nullable(), // null: no icon grid on the page
+        }),
+      )
+      .min(1),
+  })
+  .superRefine((page, context) => {
+    if (isUpcoming(page.categories)) return;
+    for (const field of ["cost", "creditsClaimable"] as const) {
+      if (page[field] === null) {
+        context.addIssue({ code: "custom", path: [field], message: "missing on released warbond" });
+      }
+    }
+  });
 
 export type RawWarbondItem = z.infer<typeof RawWarbondItem>;
 export type RawWarbondGridCell = z.infer<typeof RawWarbondGridCell>;

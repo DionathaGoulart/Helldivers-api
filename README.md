@@ -133,6 +133,9 @@ Departments and kinds are hyphenated in a path (`by-category/orbital-cannons`,
 `by-kind/victory-pose`) while `by-source` keeps the enum spelling (`by-source/pre_order`); the
 field values themselves are always the enum (`orbital_cannons`, `victory_pose`, `pre_order`).
 
+For upcoming warbonds, `cost` and `superCreditsClaimable` are `null` when the wiki has not
+announced them yet. Zero means explicitly free or no claimable credits; it does not mean unknown.
+
 ## Examples
 
 ```sh
@@ -244,6 +247,10 @@ current, pull `main` and deploy again.
   request in the API.
 
 ## Versioning
+
+Until v1 launches, shapes may still change, as noted above. The correction for upcoming warbonds
+widens `cost` and `superCreditsClaimable` to allow `null`; clients using the earlier schema must
+handle these unknown values. The compatibility guarantees below apply after launch.
 
 The version is in the path. Inside `/v1` only additive changes happen: new optional fields, new
 collections, new enum values. **Treat every enum as open** — the wiki adds weapon categories and
