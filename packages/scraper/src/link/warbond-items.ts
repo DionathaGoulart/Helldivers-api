@@ -3,6 +3,7 @@ import {
   type Cost,
   type Dataset,
   type Id,
+  type Pattern,
   PatternTarget,
   type Source,
   type Warbond,
@@ -62,6 +63,7 @@ const VARIANT_SUFFIX = / (Hellpod|Shuttle|Exosuit|Vehicle)$/; // rule 10
 interface Candidate {
   collection: WarbondRefCollection;
   id: Id;
+  soleVariant: NonNullable<WarbondRef["variant"]> | null;
 }
 
 export class WarbondRefIndex {
@@ -80,7 +82,13 @@ export class WarbondRefIndex {
     this.#collections = new Set(WarbondRefCollection.options.filter((c) => dataset[c]));
     for (const collection of this.#collections) {
       for (const entity of dataset[collection] ?? []) {
-        const candidate = { collection, id: entity.id };
+        const pattern = collection === "patterns" ? (entity as Pattern) : null;
+        const candidate: Candidate = {
+          collection,
+          id: entity.id,
+          soleVariant:
+            pattern?.variants.length === 1 ? (pattern.variants[0]?.target ?? null) : null,
+        };
         // Index-only rows without a page of their own point at an anchor of the index
         // (weapon patterns: `Cosmetics#Patterns`), which identifies nothing.
         if (!new URL(entity.wiki.url).hash) {
@@ -116,17 +124,28 @@ export class WarbondRefIndex {
       throw new NormalizeError(page, row.name, `ambiguous warbond row (${row.wikiType}): ${names}`);
     }
     if (candidate.collection !== "patterns") {
-      return { ...candidate, variant: null };
+      return { collection: candidate.collection, id: candidate.id, variant: null };
     }
     const suffix = VARIANT_SUFFIX.exec(row.name)?.[1];
     if (!suffix) {
+      if (candidate.soleVariant) {
+        return {
+          collection: candidate.collection,
+          id: candidate.id,
+          variant: candidate.soleVariant,
+        };
+      }
       throw new NormalizeError(
         page,
         row.name,
         "pattern row without a Hellpod/Shuttle/Exosuit/Vehicle suffix",
       );
     }
-    return { ...candidate, variant: PatternTarget.parse(suffix.toLowerCase()) };
+    return {
+      collection: candidate.collection,
+      id: candidate.id,
+      variant: PatternTarget.parse(suffix.toLowerCase()),
+    };
   }
 }
 

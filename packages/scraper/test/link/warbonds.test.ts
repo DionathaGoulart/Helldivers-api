@@ -89,6 +89,32 @@ describe("WarbondRefIndex", () => {
     );
   });
 
+  it("uses the sole pattern variant when a warbond row has no target suffix", () => {
+    const pattern = entity(load(), "patterns", "castellans-green");
+    const sole = {
+      ...pattern,
+      id: "verdant-camouflage",
+      name: "Verdant Camouflage",
+      wiki: {
+        ...pattern.wiki,
+        title: "Verdant Camouflage",
+        url: "https://helldivers.wiki.gg/wiki/Verdant_Camouflage",
+      },
+      variants: pattern.variants.filter((variant) => variant.target === "vehicle"),
+    };
+    const index = new WarbondRefIndex({ patterns: [sole] });
+    const row = {
+      name: "Verdant Camouflage",
+      wikiType: "Pattern",
+      link: { title: "Verdant Camouflage" },
+    };
+    expect(WarbondRefIndex.refOf(row, index.candidates(row), PAGE)).toEqual({
+      collection: "patterns",
+      id: "verdant-camouflage",
+      variant: "vehicle",
+    });
+  });
+
   it("finds nothing for currency rows, other types or index anchors", () => {
     const row = (name: string, wikiType: string, title: string) => ({
       name,

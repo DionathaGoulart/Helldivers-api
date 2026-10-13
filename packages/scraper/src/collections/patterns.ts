@@ -57,7 +57,11 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
       }
 
       const variants: { target: string; image: null; source: Source }[] = [];
-      for (const target of VEHICLE_TARGETS) {
+      // A Tank-only page describes one vehicle wrap. Other pages retain the index's
+      // four target columns, including variants whose infobox tab is missing.
+      const tankOnly = raw.variants.length === 1 && raw.variants[0]?.tab === "Tank";
+      const targets = tankOnly ? (["vehicle"] as const) : VEHICLE_TARGETS;
+      for (const target of targets) {
         const tab = raw.variants.find((variant) => variant.target === target) ?? null;
         const indexCost = row.costs[target];
         const priced = (cost: RawCost | null | undefined, url: string) =>
@@ -67,7 +71,7 @@ export const patternsPipeline: CollectionPipeline<"patterns"> = {
         if (listedAmount !== undefined && pageAmount !== undefined && listedAmount !== pageAmount) {
           note(`${target} cost differs from the pattern page (${tab?.cost?.text})`);
         }
-        const itemName = `${row.name} ${ROW_SUFFIX[target]}`;
+        const itemName = tankOnly ? row.name : `${row.name} ${ROW_SUFFIX[target]}`;
         const variantSource = await resolveSource({
           cell: row.source,
           // A priced page tab fills an empty Cosmetics cell; `Free` on Standard has no currency.

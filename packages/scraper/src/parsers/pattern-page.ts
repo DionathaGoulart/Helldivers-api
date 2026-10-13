@@ -14,8 +14,7 @@ export const PATTERN_TABS = {
   FRV: "vehicle",
 } as const;
 
-// Standard Pattern's `Tank` tab says "Free with the FRV pattern"; Cosmetics has no column for it.
-const IGNORED_TABS: readonly string[] = ["Tank"];
+// Cosmetics groups FRV and Tank under Vehicle Cost. Prefer FRV when both tabs exist.
 
 export const RawPatternVariant = z.object({
   tab: z.string().min(1), // DRUID tab, "FRV"
@@ -38,12 +37,17 @@ export type RawPatternPage = z.infer<typeof RawPatternPage>;
 
 export function parsePatternPage(html: string, { url }: { url: string }): RawPatternPage {
   const page = parseArmorPage(html, { url });
+  const hasFrv = page.tabs.some((tab) => tab.name === "FRV");
   const variants = page.tabs.flatMap((tab) => {
-    if (tab.name !== null && IGNORED_TABS.includes(tab.name)) {
+    if (tab.name === "Tank" && hasFrv) {
       return [];
     }
     const target =
-      tab.name === null ? undefined : PATTERN_TABS[tab.name as keyof typeof PATTERN_TABS];
+      tab.name === "Tank"
+        ? "vehicle"
+        : tab.name === null
+          ? undefined
+          : PATTERN_TABS[tab.name as keyof typeof PATTERN_TABS];
     if (!target || tab.name === null) {
       throw new ParseError(
         url,

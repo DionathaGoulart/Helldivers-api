@@ -195,4 +195,31 @@ describe("pattern-page parser", async () => {
       'unknown pattern tab "Boat"',
     );
   });
+
+  it("uses a lone Tank tab as the vehicle variant without losing its details", async () => {
+    const page = await fixture("Verdant Camouflage");
+    const verdant = parsePatternPage(page.html, { url: page.url });
+    expect(verdant.variants).toEqual([
+      {
+        tab: "Tank",
+        target: "vehicle",
+        source: {
+          label: "Ironclad Democracy",
+          link: {
+            label: "Ironclad Democracy",
+            title: "Ironclad Democracy Premium Warbond",
+            anchor: null,
+          },
+          pageMarker: null,
+        },
+        cost: { text: "Medals", currency: "medals" },
+        image: {
+          file: "Verdant_Camouflage_Pattern_Icon.png",
+          src: "/images/Verdant_Camouflage_Pattern_Icon.png?9c2465",
+          width: 400,
+          height: 400,
+        },
+      },
+    ]);
+  });
 });

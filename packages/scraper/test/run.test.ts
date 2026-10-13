@@ -116,6 +116,44 @@ class RenamedSource implements WikiSource {
   }
 }
 
+/** Models a Cosmetics row for the Tank-only Verdant page in a fresh wiki scrape. */
+class VerdantPatternSource implements WikiSource {
+  readonly offline = true;
+  readonly #inner = new FixtureSource(FIXTURES_DIR);
+
+  robotsTxt(): Promise<string> {
+    return this.#inner.robotsTxt();
+  }
+
+  async page(title: string): Promise<WikiPage> {
+    const page = await this.#inner.page(title);
+    if (title !== "Cosmetics") return page;
+    const $ = cheerio.load(page.html);
+    const original = $('a[title="Castellans Green Pattern"]').first().closest("tr");
+    const row = original.clone();
+    original.after(row);
+    row
+      .find('a[title="Castellans Green Pattern"]')
+      .attr("href", "/wiki/Verdant_Camouflage")
+      .attr("title", "Verdant Camouflage");
+    row.find("big").first().text("Verdant Camouflage");
+    for (const cell of row.children("td").slice(2, 5)) $(cell).empty();
+    row
+      .children("td")
+      .eq(5)
+      .html(
+        '<span class="Currencyicons"><span style="white-space:nowrap"><span class="Medalicon"><img alt="Medals" src="/images/Medal.svg"></span> 20</span></span>',
+      );
+    row
+      .children("td")
+      .eq(6)
+      .html(
+        '<a href="/wiki/Ironclad_Democracy_Premium_Warbond" title="Ironclad Democracy Premium Warbond">Ironclad Democracy</a>',
+      );
+    return { ...page, html: $.html() };
+  }
+}
+
 /** Fixture source whose Helldivers Mobilize tables swap two boosters' names, not their prices,
  *  between pages 4 and 6; the icon grids stay right (Ironclad Democracy, 2026-09-24). */
 class SwappedRowsSource implements WikiSource {
@@ -945,6 +983,33 @@ describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
     expect(lock.patterns["Cosmetics#Patterns/Arctic"]).toBe("arctic");
     expect(lock.titles.Redacted).toBe("redacted");
     expect(lock.warbonds["Helldivers Mobilize Warbond"]).toBe("helldivers-mobilize");
+  });
+
+  it("publishes a Tank-only pattern with one vehicle variant", async () => {
+    await fromBaseline();
+    const report = await run("2026-09-16T21:07:00.123Z", new VerdantPatternSource(), true, [
+      "patterns",
+      "warbonds",
+    ]);
+    expect(report.failure).toBeNull();
+    expect(report.quarantined).toEqual([]);
+
+    const published = JSON.parse(
+      await readFile(join(dataDir, "v1", "patterns", "verdant-camouflage.json"), "utf8"),
+    );
+    expect(published.data.variants).toEqual([
+      expect.objectContaining({
+        target: "vehicle",
+        image: expect.objectContaining({ wikiFile: "Verdant_Camouflage_Pattern_Icon.png" }),
+        source: expect.objectContaining({
+          type: "warbond",
+          label: "Ironclad Democracy",
+          warbondId: "ironclad-democracy",
+          page: 1,
+          cost: { currency: "medals", amount: 20 },
+        }),
+      }),
+    ]);
   });
 
   it("marks the unreleased Ironclad Democracy items upcoming", async () => {
