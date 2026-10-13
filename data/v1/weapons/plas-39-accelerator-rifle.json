@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -153,11 +153,11 @@
       "PLAS-39 ACCELERATOR RIFLE › Mags from Supply": "12",
       "PLAS-39 ACCELERATOR RIFLE › Mags from Ammo Box": "6",
       "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.45)s": "1.00 dmg × DEFAULT",
-      "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.50)s": "1.17 dmg × DEFAULT",
-      "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.90)s": "2.50 dmg × DEFAULT",
+      "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.50)s": "1.00 dmg × DEFAULT",
+      "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.90)s": "1.00 dmg × DEFAULT",
       "PLAS-39 ACCELERATOR RIFLE › Charge › Speed Mult Range": "(0.70) (1.00)",
       "PLAS-39 ACCELERATOR RIFLE › Charge › Distance Mult Range": "(0.70) (1.40)",
-      "PLAS-39 ACCELERATOR RIFLE › Charge › Damage Mult Range": "(1.00) (2.50)",
+      "PLAS-39 ACCELERATOR RIFLE › Charge › Damage Mult Range": "(1.00) (1.00)",
       "PLAS-39 ACCELERATOR RIFLE › Attacks › PLAS-39 P": "Projectile",
       "PLAS-39 ACCELERATOR RIFLE › Attacks › PLAS-39 P IE": "Explosion",
       "PLAS-39 P › Projectile › Mass": "25 g",

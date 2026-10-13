@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -127,7 +127,7 @@
     ],
     "statsRaw": {
       "Permit Type": "Supply",
-      "Traits": "Vehicle • Heavy Armour Penetrating • Anti Tank",
+      "Traits": "Vehicle • Heavy Armor Penetrating • Anti-Tank",
       "Base Cooldown": "780s",
       "General › Call-in Time": "10.50 seconds",
       "General › Uses": "Unlimited",
@@ -147,10 +147,12 @@
       "MAELSTROM › SWP MAELSTROM › Sway": "0",
       "MAELSTROM › SWP MAELSTROM › Ergonomics": "65",
       "MAELSTROM › SWP MAELSTROM › Noise When Firing": "Medium (~48m)",
+      "MAELSTROM › SWP MAELSTROM › Capacity": "300",
       "MAELSTROM › SWP MAELSTROM › Turret Turn Speed": "↔[35.00]°/s ↕[25.00]°/s",
       "MAELSTROM › SWP MAELSTROM › Elevation Range": "[-3.00]° to [25.00]°",
       "MAELSTROM › SWP MAELSTROM › Traverse Range": "[-20.00]° to [20.00]°",
-      "MAELSTROM › SWP MAELSTROM › Capacity": "300",
+      "MAELSTROM › SWP MAELSTROM › Wind Up Time": "0.5 s",
+      "MAELSTROM › SWP MAELSTROM › Wind Down Time": "0.5 s",
       "MAELSTROM › SWP MAELSTROM › Barrels": "x 2",
       "MAELSTROM › SWP MAELSTROM › P11": "Projectile",
       "MAELSTROM › SWP MAELSTROMIII › Main Health": "100000",

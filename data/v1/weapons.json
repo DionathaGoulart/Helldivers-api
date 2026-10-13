@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
-    "count": 105,
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
+    "count": 108,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -3485,6 +3485,51 @@
       }
     },
     {
+      "id": "g-11-caltrops",
+      "slug": "g-11-caltrops",
+      "name": "G-11 Caltrops",
+      "upcoming": true,
+      "aliases": [],
+      "description": "The G-11 Caltrops is a Special Throwable that deploys a field of proximity stun mines.",
+      "image": null,
+      "wiki": {
+        "title": "G-11 Caltrops",
+        "url": "https://helldivers.wiki.gg/wiki/G-11_Caltrops",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "category": "throwable",
+      "subcategory": "special",
+      "traitIds": [
+        "stun",
+        "sticky"
+      ],
+      "firearm": null,
+      "throwable": {
+        "capacity": null,
+        "startingCount": null,
+        "fromSupply": null,
+        "fuseTimeS": null,
+        "cookable": false
+      },
+      "melee": null,
+      "attacks": [],
+      "statsRaw": {
+        "Cookable": "No",
+        "Fuse Time": "Proximity",
+        "Trait(s)": "Stun • Sticky"
+      },
+      "source": {
+        "type": "warbond",
+        "label": "Scope of Authority",
+        "warbondId": "scope-of-authority",
+        "page": 3,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
       "id": "g-12-high-explosive",
       "slug": "g-12-high-explosive",
       "name": "G-12 High Explosive",
@@ -5925,7 +5970,8 @@
         "DPS": "490",
         "Capacity": "4",
         "Spare Rounds": "32",
-        "Supply Box Refill": "16",
+        "Supply Box Refill": "32",
+        "Ammo Box Refill": "16",
         "Ergonomics": "65",
         "Recoil": "83",
         "Reload Time": "2.67",
@@ -6124,10 +6170,10 @@
         "GP-20 ULTIMATUM › Ergonomics": "35",
         "GP-20 ULTIMATUM › Noise When Firing": "Small (~33m)",
         "GP-20 ULTIMATUM › Capacity": "1",
-        "GP-20 ULTIMATUM › Spare Magazines": "1",
-        "GP-20 ULTIMATUM › Starting Magazines": "0",
-        "GP-20 ULTIMATUM › Mags from Supply": "1",
-        "GP-20 ULTIMATUM › Mags from Ammo Box": "1",
+        "GP-20 ULTIMATUM › Spare Rounds": "1",
+        "GP-20 ULTIMATUM › Starting Rounds": "0",
+        "GP-20 ULTIMATUM › Rounds from Supply": "1",
+        "GP-20 ULTIMATUM › Rounds from Ammo Box": "1",
         "GP-20 ULTIMATUM › Attacks › GP-20 P": "Projectile",
         "GP-20 ULTIMATUM › Attacks › GP-20 P IE": "Explosion",
         "GP-20 P › Projectile › Mass": "500 g",
@@ -6683,7 +6729,7 @@
       "statsRaw": {
         "Weapon Category": "Primary Weapons",
         "Weapon Type": "Energy-Based",
-        "Traits": "Medium Armor Penetrating • One-Handed • Heat",
+        "Traits": "Medium Armor Penetrating • One Handed • Heat",
         "Standard Damage": "80 Ballistic",
         "Armor Penetration": "Medium",
         "Fire Rate": "800 rpm",
@@ -9269,10 +9315,10 @@
         "P-33 MISSILE PISTOL › Ergonomics": "45",
         "P-33 MISSILE PISTOL › Noise When Firing": "Small (~33m)",
         "P-33 MISSILE PISTOL › Capacity": "1",
-        "P-33 MISSILE PISTOL › Spare Magazines": "3",
-        "P-33 MISSILE PISTOL › Starting Magazines": "1",
-        "P-33 MISSILE PISTOL › Mags from Supply": "2",
-        "P-33 MISSILE PISTOL › Mags from Ammo Box": "1",
+        "P-33 MISSILE PISTOL › Spare Rounds": "3",
+        "P-33 MISSILE PISTOL › Starting Rounds": "1",
+        "P-33 MISSILE PISTOL › Rounds from Supply": "2",
+        "P-33 MISSILE PISTOL › Rounds from Ammo Box": "1",
         "P-33 MISSILE PISTOL › Attacks › P-33 P": "Projectile",
         "P-33 MISSILE PISTOL › Attacks › P-33 P1": "Projectile",
         "P-33 MISSILE PISTOL › Attacks › P-33 P IE": "Explosion",
@@ -9516,10 +9562,10 @@
         "P-34 BREACHER › Ergonomics": "45",
         "P-34 BREACHER › Noise When Firing": "Small (~33m)",
         "P-34 BREACHER › Capacity": "1",
-        "P-34 BREACHER › Spare Magazines": "2",
-        "P-34 BREACHER › Starting Magazines": "1",
-        "P-34 BREACHER › Mags from Supply": "1",
-        "P-34 BREACHER › Mags from Ammo Box": "1",
+        "P-34 BREACHER › Spare Rounds": "2",
+        "P-34 BREACHER › Starting Rounds": "1",
+        "P-34 BREACHER › Rounds from Supply": "1",
+        "P-34 BREACHER › Rounds from Ammo Box": "1",
         "P-34 BREACHER › Attacks › P-34 P": "Projectile",
         "P-34 BREACHER › Attacks › P-34 BREACHER E": "Explosion",
         "P-34 BREACHER › Attacks › Fire": "status",
@@ -10135,6 +10181,60 @@
           "currency": "medals",
           "amount": 50
         },
+        "rotating": null
+      }
+    },
+    {
+      "id": "p-44-mist",
+      "slug": "p-44-mist",
+      "name": "P-44 Mist",
+      "upcoming": true,
+      "aliases": [],
+      "description": "The P-44 Mist is an automatcic Secondary Pistol.",
+      "image": null,
+      "wiki": {
+        "title": "P-44 Mist",
+        "url": "https://helldivers.wiki.gg/wiki/P-44_Mist",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "category": "secondary",
+      "subcategory": "pistol",
+      "traitIds": [],
+      "firearm": {
+        "firingModes": [],
+        "fireRateRpm": [],
+        "dps": [],
+        "capacity": null,
+        "spareMagazines": null,
+        "startingMagazines": null,
+        "magazinesFromSupply": null,
+        "magazinesFromAmmoBox": null,
+        "recoil": null,
+        "horizontalRecoil": null,
+        "verticalRecoil": null,
+        "spread": null,
+        "sway": null,
+        "ergonomics": null,
+        "reloadKind": "none",
+        "reloadTimeS": null,
+        "reloadTimeUpgradedS": null,
+        "tacticalReloadTimeS": null
+      },
+      "throwable": null,
+      "melee": null,
+      "attacks": [],
+      "statsRaw": {
+        "Weapon Category": "Secondary Weapons",
+        "Weapon Type": "Pistol"
+      },
+      "source": {
+        "type": "warbond",
+        "label": "Scope of Authority",
+        "warbondId": "scope-of-authority",
+        "page": 2,
+        "cost": null,
         "rotating": null
       }
     },
@@ -11661,11 +11761,11 @@
         "PLAS-39 ACCELERATOR RIFLE › Mags from Supply": "12",
         "PLAS-39 ACCELERATOR RIFLE › Mags from Ammo Box": "6",
         "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.45)s": "1.00 dmg × DEFAULT",
-        "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.50)s": "1.17 dmg × DEFAULT",
-        "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.90)s": "2.50 dmg × DEFAULT",
+        "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.50)s": "1.00 dmg × DEFAULT",
+        "PLAS-39 ACCELERATOR RIFLE › Charge › at (0.90)s": "1.00 dmg × DEFAULT",
         "PLAS-39 ACCELERATOR RIFLE › Charge › Speed Mult Range": "(0.70) (1.00)",
         "PLAS-39 ACCELERATOR RIFLE › Charge › Distance Mult Range": "(0.70) (1.40)",
-        "PLAS-39 ACCELERATOR RIFLE › Charge › Damage Mult Range": "(1.00) (2.50)",
+        "PLAS-39 ACCELERATOR RIFLE › Charge › Damage Mult Range": "(1.00) (1.00)",
         "PLAS-39 ACCELERATOR RIFLE › Attacks › PLAS-39 P": "Projectile",
         "PLAS-39 ACCELERATOR RIFLE › Attacks › PLAS-39 P IE": "Explosion",
         "PLAS-39 P › Projectile › Mass": "25 g",
@@ -12620,6 +12720,63 @@
           "currency": "medals",
           "amount": 35
         },
+        "rotating": null
+      }
+    },
+    {
+      "id": "r-40-sightliner",
+      "slug": "r-40-sightliner",
+      "name": "R-40 Sightliner",
+      "upcoming": false,
+      "aliases": [],
+      "description": "The R-40 Sightliner is a Primary bolt-action Sniper Rifle.",
+      "image": null,
+      "wiki": {
+        "title": "R-40 Sightliner",
+        "url": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "category": "primary",
+      "subcategory": "marksman_rifle",
+      "traitIds": [
+        "heavy-armor-penetrating"
+      ],
+      "firearm": {
+        "firingModes": [],
+        "fireRateRpm": [],
+        "dps": [],
+        "capacity": null,
+        "spareMagazines": null,
+        "startingMagazines": null,
+        "magazinesFromSupply": null,
+        "magazinesFromAmmoBox": null,
+        "recoil": null,
+        "horizontalRecoil": null,
+        "verticalRecoil": null,
+        "spread": null,
+        "sway": null,
+        "ergonomics": null,
+        "reloadKind": "none",
+        "reloadTimeS": null,
+        "reloadTimeUpgradedS": null,
+        "tacticalReloadTimeS": null
+      },
+      "throwable": null,
+      "melee": null,
+      "attacks": [],
+      "statsRaw": {
+        "Weapon Category": "Primary Weapons",
+        "Traits": "Heavy Armor Penetrating",
+        "Armor Penetration": "Heavy"
+      },
+      "source": {
+        "type": "warbond",
+        "label": "Scope of Authority",
+        "warbondId": "scope-of-authority",
+        "page": 1,
+        "cost": null,
         "rotating": null
       }
     },

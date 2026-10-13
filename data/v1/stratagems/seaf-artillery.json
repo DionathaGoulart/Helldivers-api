@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -37,7 +37,7 @@
       "up",
       "down"
     ],
-    "cooldownS": 14,
+    "cooldownS": 15,
     "cooldownVariants": [
       {
         "label": "With Morale Augmentation",
@@ -46,19 +46,19 @@
     ],
     "callInTimeS": null,
     "callInTimeUpgradedS": null,
-    "uses": 5,
+    "uses": "unlimited",
     "unlockLevel": null,
     "shipModules": [],
     "supportWeapon": null,
     "backpack": null,
     "attacks": [
       {
-        "name": "SEAF Gun Explosive",
+        "name": "S P10",
         "kind": "projectile",
         "damage": {
           "standard": 4000,
           "durable": 4000,
-          "type": "Damage"
+          "type": "Ballistic"
         },
         "penetration": {
           "direct": "anti_tank_iv",
@@ -82,59 +82,7 @@
         }
       },
       {
-        "name": "SEAF Gun Explosive",
-        "kind": "explosion",
-        "damage": {
-          "standard": 1500,
-          "durable": 1500,
-          "type": "Explosion"
-        },
-        "penetration": {
-          "direct": null,
-          "slightAngle": null,
-          "largeAngle": null,
-          "extremeAngle": null
-        },
-        "projectile": null,
-        "area": {
-          "innerRadiusM": 4,
-          "outerRadiusM": 12,
-          "shockwaveRadiusM": 18
-        },
-        "forces": {
-          "demolition": 50,
-          "stagger": 70,
-          "push": 60
-        }
-      },
-      {
-        "name": "SEAF Gun High Yield Explosive",
-        "kind": "explosion",
-        "damage": {
-          "standard": 1500,
-          "durable": 1500,
-          "type": "Explosion"
-        },
-        "penetration": {
-          "direct": null,
-          "slightAngle": null,
-          "largeAngle": null,
-          "extremeAngle": null
-        },
-        "projectile": null,
-        "area": {
-          "innerRadiusM": 6.7,
-          "outerRadiusM": 20,
-          "shockwaveRadiusM": 30
-        },
-        "forces": {
-          "demolition": 50,
-          "stagger": 100,
-          "push": 40
-        }
-      },
-      {
-        "name": "SEAF Gun Mini Nuke",
+        "name": "S P10 IE",
         "kind": "explosion",
         "damage": {
           "standard": 10000,
@@ -160,7 +108,135 @@
         }
       },
       {
-        "name": "SEAF Gun Smoke",
+        "name": "S P11",
+        "kind": "projectile",
+        "damage": {
+          "standard": 4000,
+          "durable": 4000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 1000,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "S P11 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 250,
+          "durable": 250,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1.60000002,
+          "outerRadiusM": 13,
+          "shockwaveRadiusM": 20
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 40
+        }
+      },
+      {
+        "name": "BurningHeavy",
+        "kind": "status",
+        "damage": {
+          "standard": 200,
+          "durable": 200,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "Fire",
+        "kind": "status",
+        "damage": {
+          "standard": 100,
+          "durable": 100,
+          "type": "Fire"
+        },
+        "penetration": {
+          "direct": "heavy",
+          "slightAngle": "heavy",
+          "largeAngle": "heavy",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": 0,
+          "stagger": 0,
+          "push": 0
+        }
+      },
+      {
+        "name": "S P12",
+        "kind": "projectile",
+        "damage": {
+          "standard": 4000,
+          "durable": 4000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 1000,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "S P12 IE",
         "kind": "explosion",
         "damage": {
           "standard": null,
@@ -186,7 +262,36 @@
         }
       },
       {
-        "name": "SEAF Gun EMP",
+        "name": "S P7",
+        "kind": "projectile",
+        "damage": {
+          "standard": 4000,
+          "durable": 4000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 1000,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "S P7 IE",
         "kind": "explosion",
         "damage": {
           "standard": 0,
@@ -207,17 +312,68 @@
         },
         "forces": {
           "demolition": 30,
-          "stagger": 10,
-          "push": 40
+          "stagger": 50,
+          "push": 0
         }
       },
       {
-        "name": "SEAF Gun Napalm",
+        "name": "Stun Medium",
+        "kind": "status",
+        "damage": {
+          "standard": null,
+          "durable": null,
+          "type": null
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": null,
+        "forces": {
+          "demolition": null,
+          "stagger": null,
+          "push": null
+        }
+      },
+      {
+        "name": "S P8",
+        "kind": "projectile",
+        "damage": {
+          "standard": 4000,
+          "durable": 4000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 1000,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
+          "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "S P8 IE",
         "kind": "explosion",
         "damage": {
-          "standard": 250,
-          "durable": 250,
-          "type": "Fire"
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Explosion"
         },
         "penetration": {
           "direct": null,
@@ -227,13 +383,68 @@
         },
         "projectile": null,
         "area": {
-          "innerRadiusM": 1.6,
-          "outerRadiusM": 13,
-          "shockwaveRadiusM": 20
+          "innerRadiusM": 4,
+          "outerRadiusM": 12,
+          "shockwaveRadiusM": 18
         },
         "forces": {
-          "demolition": 30,
+          "demolition": 50,
+          "stagger": 70,
+          "push": 60
+        }
+      },
+      {
+        "name": "S P9",
+        "kind": "projectile",
+        "damage": {
+          "standard": 4000,
+          "durable": 4000,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_iv",
+          "slightAngle": "anti_tank_iii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "anti_tank_ii"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70000,
+          "initialVelocityMps": 300,
+          "dragFactorPct": 50,
+          "gravityFactorPct": 1000,
+          "penetrationSlowdownPct": 25
+        },
+        "area": null,
+        "forces": {
+          "demolition": 50,
           "stagger": 50,
+          "push": 20
+        }
+      },
+      {
+        "name": "S P9 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 1500,
+          "durable": 1500,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 6.69999981,
+          "outerRadiusM": 20,
+          "shockwaveRadiusM": 30
+        },
+        "forces": {
+          "demolition": 50,
+          "stagger": 100,
           "push": 40
         }
       }
@@ -244,95 +455,215 @@
       "General › Uses": "5",
       "General › Cooldown › Standard": "14 seconds",
       "General › Cooldown › With Morale Augmentation": "13.3 seconds",
-      "SEAF Gun Explosive › Projectile › Mass": "70 kg",
-      "SEAF Gun Explosive › Projectile › Initial Velocity": "300 m/s",
-      "SEAF Gun Explosive › Projectile › Drag Factor": "50%",
-      "SEAF Gun Explosive › Projectile › Gravity Factor": "1000%",
-      "SEAF Gun Explosive › Projectile › Penetration Slowdown": "25%",
-      "SEAF Gun Explosive › Damage › Standard": "4000 Damage",
-      "SEAF Gun Explosive › Damage › vs. Durable": "4000 Damage",
-      "SEAF Gun Explosive › Penetration › Direct": "Anti-Tank IV",
-      "SEAF Gun Explosive › Penetration › Slight Angle": "Anti-Tank III",
-      "SEAF Gun Explosive › Penetration › Large Angle": "Anti-Tank II",
-      "SEAF Gun Explosive › Penetration › Extreme Angle": "Anti-Tank II",
-      "SEAF Gun Explosive › Special Effects › Demolition Force": "50",
-      "SEAF Gun Explosive › Special Effects › Stagger Force": "50",
-      "SEAF Gun Explosive › Special Effects › Push Force": "20",
-      "SEAF Gun Explosive › Area of Effect › Inner Radius": "4 m",
-      "SEAF Gun Explosive › Area of Effect › Outer Radius": "12 m",
-      "SEAF Gun Explosive › Area of Effect › Shockwave Radius": "18 m",
-      "SEAF Gun Explosive › Damage › Inner Radius": "1500 Explosion",
-      "SEAF Gun Explosive › Damage › Inner Durable": "1500 Explosion",
-      "SEAF Gun Explosive › Damage › Outer Radius": "1499 - 0",
-      "SEAF Gun Explosive › Damage › Outer Durable": "1499 - 0",
-      "SEAF Gun Explosive › Penetration › Inner AP": "Anti-Tank II",
-      "SEAF Gun Explosive › Penetration › Outer AP": "Anti-Tank I",
-      "SEAF Gun Explosive › Penetration › Shockwave AP": "Anti-Tank II",
-      "SEAF Gun Explosive › AoE Effect › Demolition Force": "50",
-      "SEAF Gun Explosive › AoE Effect › Stagger Force": "70",
-      "SEAF Gun Explosive › AoE Effect › Push Force": "60",
-      "SEAF Gun High Yield Explosive › Area of Effect › Inner Radius": "6.7 m",
-      "SEAF Gun High Yield Explosive › Area of Effect › Outer Radius": "20 m",
-      "SEAF Gun High Yield Explosive › Area of Effect › Shockwave Radius": "30 m",
-      "SEAF Gun High Yield Explosive › Damage › Inner Radius": "1500 Explosion",
-      "SEAF Gun High Yield Explosive › Damage › Inner Durable": "1500 Explosion",
-      "SEAF Gun High Yield Explosive › Damage › Outer Radius": "1499 - 0",
-      "SEAF Gun High Yield Explosive › Damage › Outer Durable": "1499 - 0",
-      "SEAF Gun High Yield Explosive › Penetration › Inner AP": "Anti-Tank II",
-      "SEAF Gun High Yield Explosive › Penetration › Outer AP": "Anti-Tank I",
-      "SEAF Gun High Yield Explosive › Penetration › Shockwave AP": "Anti-Tank II",
-      "SEAF Gun High Yield Explosive › AoE Effect › Demolition Force": "50",
-      "SEAF Gun High Yield Explosive › AoE Effect › Stagger Force": "100",
-      "SEAF Gun High Yield Explosive › AoE Effect › Push Force": "40",
-      "SEAF Gun Mini Nuke › Area of Effect › Inner Radius": "17 m",
-      "SEAF Gun Mini Nuke › Area of Effect › Outer Radius": "25 m",
-      "SEAF Gun Mini Nuke › Area of Effect › Shockwave Radius": "45 m",
-      "SEAF Gun Mini Nuke › Damage › Inner Radius": "10000 Explosion",
-      "SEAF Gun Mini Nuke › Damage › Inner Durable": "10000 Explosion",
-      "SEAF Gun Mini Nuke › Damage › Outer Radius": "9999 - 0",
-      "SEAF Gun Mini Nuke › Damage › Outer Durable": "9999 - 0",
-      "SEAF Gun Mini Nuke › Penetration › Inner AP": "Anti-Tank VI",
-      "SEAF Gun Mini Nuke › Penetration › Outer AP": "Anti-Tank V",
-      "SEAF Gun Mini Nuke › Penetration › Shockwave AP": "Anti-Tank VI",
-      "SEAF Gun Mini Nuke › AoE Effect › Demolition Force": "60",
-      "SEAF Gun Mini Nuke › AoE Effect › Stagger Force": "50",
-      "SEAF Gun Mini Nuke › AoE Effect › Push Force": "100",
-      "SEAF Gun Smoke › Area of Effect › Inner Radius": "13 m",
-      "SEAF Gun Smoke › Area of Effect › Outer Radius": "13 m",
-      "SEAF Gun Smoke › Area of Effect › Shockwave Radius": "0 m",
-      "SEAF Gun EMP › Area of Effect › Inner Radius": "1 m",
-      "SEAF Gun EMP › Area of Effect › Outer Radius": "13 m",
-      "SEAF Gun EMP › Area of Effect › Shockwave Radius": "20 m",
-      "SEAF Gun EMP › Damage › Inner Radius": "0 Explosion",
-      "SEAF Gun EMP › Damage › Inner Durable": "0 Explosion",
-      "SEAF Gun EMP › Penetration › Inner AP": "Heavy",
-      "SEAF Gun EMP › Penetration › Outer AP": "Medium",
-      "SEAF Gun EMP › Penetration › Shockwave AP": "Heavy",
-      "SEAF Gun EMP › AoE Effect › Status": "Stun Medium",
-      "SEAF Gun EMP › AoE Effect › Status (2)": "Stun Medium",
-      "SEAF Gun EMP › AoE Effect › Status Strength": "100",
-      "SEAF Gun EMP › AoE Effect › Demolition Force": "30",
-      "SEAF Gun EMP › AoE Effect › Stagger Force": "10",
-      "SEAF Gun EMP › AoE Effect › Push Force": "40",
-      "SEAF Gun Napalm › Area of Effect › Inner Radius": "1.6 m",
-      "SEAF Gun Napalm › Area of Effect › Outer Radius": "13 m",
-      "SEAF Gun Napalm › Area of Effect › Shockwave Radius": "20 m",
-      "SEAF Gun Napalm › Damage › Damage Element": "Fire",
-      "SEAF Gun Napalm › Damage › Inner Radius": "250 Fire",
-      "SEAF Gun Napalm › Damage › Inner Durable": "250 Fire",
-      "SEAF Gun Napalm › Damage › Outer Radius": "249 - 0",
-      "SEAF Gun Napalm › Damage › Outer Durable": "249 - 0",
-      "SEAF Gun Napalm › Penetration › Inner AP": "Medium",
-      "SEAF Gun Napalm › Penetration › Outer AP": "Light",
-      "SEAF Gun Napalm › Penetration › Shockwave AP": "Medium",
-      "SEAF Gun Napalm › AoE Effect › Status": "Fire",
-      "SEAF Gun Napalm › AoE Effect › Status (2)": "Fire",
-      "SEAF Gun Napalm › AoE Effect › Status Strength": "100",
-      "SEAF Gun Napalm › AoE Effect › Second Status": "BurningHeavy",
-      "SEAF Gun Napalm › AoE Effect › Status Strength (2)": "50",
-      "SEAF Gun Napalm › AoE Effect › Demolition Force": "30",
-      "SEAF Gun Napalm › AoE Effect › Stagger Force": "50",
-      "SEAF Gun Napalm › AoE Effect › Push Force": "40"
+      "SEAF ARTILLERY › Cooldown": "15 s",
+      "SEAF ARTILLERY › Uses": "∞",
+      "SEAF ARTILLERY › Attacks › S P10": "Projectile",
+      "SEAF ARTILLERY › Attacks › S P11": "Projectile",
+      "SEAF ARTILLERY › Attacks › S P12": "Projectile",
+      "SEAF ARTILLERY › Attacks › S P7": "Projectile",
+      "SEAF ARTILLERY › Attacks › S P8": "Projectile",
+      "SEAF ARTILLERY › Attacks › S P9": "Projectile",
+      "SEAF ARTILLERY › Attacks › S P10 IE": "Explosion",
+      "SEAF ARTILLERY › Attacks › S P11 IE": "Explosion",
+      "SEAF ARTILLERY › Attacks › S P12 IE": "Explosion",
+      "SEAF ARTILLERY › Attacks › S P7 IE": "Explosion",
+      "SEAF ARTILLERY › Attacks › S P8 IE": "Explosion",
+      "SEAF ARTILLERY › Attacks › S P9 IE": "Explosion",
+      "SEAF ARTILLERY › Attacks › BurningHeavy": "status",
+      "SEAF ARTILLERY › Attacks › Fire": "status",
+      "SEAF ARTILLERY › Attacks › Stun Medium": "status",
+      "S P10 › Projectile › Mass": "70 kg",
+      "S P10 › Projectile › Initial Velocity": "300 m/s",
+      "S P10 › Projectile › Drag Factor": "50%",
+      "S P10 › Projectile › Gravity Factor": "1000%",
+      "S P10 › Projectile › Penetration Slowdown": "25%",
+      "S P10 › Projectile › Explosion On Impact": "S_P10_IE",
+      "S P10 › Damage › Standard": "4000 Ballistic",
+      "S P10 › Damage › vs. Durable": "4000 Ballistic",
+      "S P10 › Penetration › Direct": "Anti-Tank IV",
+      "S P10 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P10 › Penetration › Large Angle": "Anti-Tank II",
+      "S P10 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P10 › Special Effects › Demolition Force": "50",
+      "S P10 › Special Effects › Stagger Force": "50",
+      "S P10 › Special Effects › Push Force": "20",
+      "S P10 IE › Area of Effect › Inner Radius": "17 m",
+      "S P10 IE › Area of Effect › Outer Radius": "25 m",
+      "S P10 IE › Area of Effect › Shockwave Radius": "45 m",
+      "S P10 IE › Damage › Damage Element": "None",
+      "S P10 IE › Damage › Inner Radius": "10000 Explosion",
+      "S P10 IE › Damage › Inner Durable": "10000 Explosion",
+      "S P10 IE › Damage › Outer Radius": "9999 - 0",
+      "S P10 IE › Damage › Outer Durable": "9999 - 0",
+      "S P10 IE › Penetration › Inner AP": "Anti-Tank VI",
+      "S P10 IE › Penetration › Outer AP": "Anti-Tank V",
+      "S P10 IE › Penetration › Shockwave AP": "Anti-Tank VI",
+      "S P10 IE › AoE Effect › Demolition Force": "60",
+      "S P10 IE › AoE Effect › Stagger Force": "50",
+      "S P10 IE › AoE Effect › Push Force": "100",
+      "S P11 › Projectile › Mass": "70 kg",
+      "S P11 › Projectile › Initial Velocity": "300 m/s",
+      "S P11 › Projectile › Drag Factor": "50%",
+      "S P11 › Projectile › Gravity Factor": "1000%",
+      "S P11 › Projectile › Penetration Slowdown": "25%",
+      "S P11 › Projectile › Explosion On Impact": "S_P11_IE",
+      "S P11 › Damage › Standard": "4000 Ballistic",
+      "S P11 › Damage › vs. Durable": "4000 Ballistic",
+      "S P11 › Penetration › Direct": "Anti-Tank IV",
+      "S P11 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P11 › Penetration › Large Angle": "Anti-Tank II",
+      "S P11 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P11 › Special Effects › Demolition Force": "50",
+      "S P11 › Special Effects › Stagger Force": "50",
+      "S P11 › Special Effects › Push Force": "20",
+      "S P11 IE › Area of Effect › Inner Radius": "1.60000002 m",
+      "S P11 IE › Area of Effect › Outer Radius": "13 m",
+      "S P11 IE › Area of Effect › Shockwave Radius": "20 m",
+      "S P11 IE › Damage › Damage Element": "None",
+      "S P11 IE › Damage › Inner Radius": "250 Explosion",
+      "S P11 IE › Damage › Inner Durable": "250 Explosion",
+      "S P11 IE › Damage › Outer Radius": "249 - 0",
+      "S P11 IE › Damage › Outer Durable": "249 - 0",
+      "S P11 IE › Penetration › Inner AP": "Medium",
+      "S P11 IE › Penetration › Outer AP": "Light",
+      "S P11 IE › Penetration › Shockwave AP": "Medium",
+      "S P11 IE › AoE Effect › Status": "Fire",
+      "S P11 IE › AoE Effect › Status Strength": "100",
+      "S P11 IE › AoE Effect › Second Status": "BurningHeavy",
+      "S P11 IE › AoE Effect › Status Strength (2)": "50",
+      "S P11 IE › AoE Effect › Demolition Force": "30",
+      "S P11 IE › AoE Effect › Stagger Force": "50",
+      "S P11 IE › AoE Effect › Push Force": "40",
+      "BurningHeavy › Status › Status Duration": "1 sec",
+      "BurningHeavy › Damage › Element": "Fire",
+      "BurningHeavy › Damage › Standard": "200 Fire",
+      "BurningHeavy › Damage › vs. Durable": "200 Fire",
+      "BurningHeavy › Penetration › Direct": "Heavy",
+      "BurningHeavy › Penetration › Slight Angle": "Heavy",
+      "BurningHeavy › Penetration › Large Angle": "Heavy",
+      "BurningHeavy › Penetration › Extreme Angle": "Unarmored",
+      "BurningHeavy › Special Effects › Demolition Force": "0",
+      "BurningHeavy › Special Effects › Stagger Force": "0",
+      "BurningHeavy › Special Effects › Push Force": "0",
+      "Fire › Status › Status Duration": "3 sec",
+      "Fire › Damage › Element": "Fire",
+      "Fire › Damage › Standard": "100 Fire",
+      "Fire › Damage › vs. Durable": "100 Fire",
+      "Fire › Penetration › Direct": "Heavy",
+      "Fire › Penetration › Slight Angle": "Heavy",
+      "Fire › Penetration › Large Angle": "Heavy",
+      "Fire › Penetration › Extreme Angle": "Unarmored",
+      "Fire › Special Effects › Demolition Force": "0",
+      "Fire › Special Effects › Stagger Force": "0",
+      "Fire › Special Effects › Push Force": "0",
+      "S P12 › Projectile › Mass": "70 kg",
+      "S P12 › Projectile › Initial Velocity": "300 m/s",
+      "S P12 › Projectile › Drag Factor": "50%",
+      "S P12 › Projectile › Gravity Factor": "1000%",
+      "S P12 › Projectile › Penetration Slowdown": "25%",
+      "S P12 › Projectile › Explosion On Impact": "S_P12_IE",
+      "S P12 › Damage › Standard": "4000 Ballistic",
+      "S P12 › Damage › vs. Durable": "4000 Ballistic",
+      "S P12 › Penetration › Direct": "Anti-Tank IV",
+      "S P12 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P12 › Penetration › Large Angle": "Anti-Tank II",
+      "S P12 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P12 › Special Effects › Demolition Force": "50",
+      "S P12 › Special Effects › Stagger Force": "50",
+      "S P12 › Special Effects › Push Force": "20",
+      "S P12 IE › Area of Effect › Inner Radius": "13 m",
+      "S P12 IE › Area of Effect › Outer Radius": "13 m",
+      "S P12 IE › Area of Effect › Shockwave Radius": "0 m",
+      "S P12 IE › Area of Effect › AoE Duration": "30 s",
+      "S P7 › Projectile › Mass": "70 kg",
+      "S P7 › Projectile › Initial Velocity": "300 m/s",
+      "S P7 › Projectile › Drag Factor": "50%",
+      "S P7 › Projectile › Gravity Factor": "1000%",
+      "S P7 › Projectile › Penetration Slowdown": "25%",
+      "S P7 › Projectile › Explosion On Impact": "S_P7_IE",
+      "S P7 › Damage › Standard": "4000 Ballistic",
+      "S P7 › Damage › vs. Durable": "4000 Ballistic",
+      "S P7 › Penetration › Direct": "Anti-Tank IV",
+      "S P7 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P7 › Penetration › Large Angle": "Anti-Tank II",
+      "S P7 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P7 › Special Effects › Demolition Force": "50",
+      "S P7 › Special Effects › Stagger Force": "50",
+      "S P7 › Special Effects › Push Force": "20",
+      "S P7 IE › Area of Effect › Inner Radius": "1 m",
+      "S P7 IE › Area of Effect › Outer Radius": "13 m",
+      "S P7 IE › Area of Effect › Shockwave Radius": "20 m",
+      "S P7 IE › Area of Effect › AoE Duration": "15 s",
+      "S P7 IE › Damage › Damage Element": "None",
+      "S P7 IE › Damage › Inner Radius": "0 Explosion",
+      "S P7 IE › Damage › Inner Durable": "0 Explosion",
+      "S P7 IE › Penetration › Inner AP": "Anti-Tank II",
+      "S P7 IE › Penetration › Outer AP": "Anti-Tank I",
+      "S P7 IE › Penetration › Shockwave AP": "Anti-Tank II",
+      "S P7 IE › AoE Effect › Status": "Stun Medium",
+      "S P7 IE › AoE Effect › Status Strength": "100",
+      "S P7 IE › AoE Effect › Demolition Force": "30",
+      "S P7 IE › AoE Effect › Stagger Force": "50",
+      "S P7 IE › AoE Effect › Push Force": "0",
+      "Stun Medium › Status › Status Duration": "3 sec",
+      "S P8 › Projectile › Mass": "70 kg",
+      "S P8 › Projectile › Initial Velocity": "300 m/s",
+      "S P8 › Projectile › Drag Factor": "50%",
+      "S P8 › Projectile › Gravity Factor": "1000%",
+      "S P8 › Projectile › Penetration Slowdown": "25%",
+      "S P8 › Projectile › Explosion On Impact": "S_P8_IE",
+      "S P8 › Damage › Standard": "4000 Ballistic",
+      "S P8 › Damage › vs. Durable": "4000 Ballistic",
+      "S P8 › Penetration › Direct": "Anti-Tank IV",
+      "S P8 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P8 › Penetration › Large Angle": "Anti-Tank II",
+      "S P8 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P8 › Special Effects › Demolition Force": "50",
+      "S P8 › Special Effects › Stagger Force": "50",
+      "S P8 › Special Effects › Push Force": "20",
+      "S P8 IE › Area of Effect › Inner Radius": "4 m",
+      "S P8 IE › Area of Effect › Outer Radius": "12 m",
+      "S P8 IE › Area of Effect › Shockwave Radius": "18 m",
+      "S P8 IE › Damage › Damage Element": "None",
+      "S P8 IE › Damage › Inner Radius": "1500 Explosion",
+      "S P8 IE › Damage › Inner Durable": "1500 Explosion",
+      "S P8 IE › Damage › Outer Radius": "1499 - 0",
+      "S P8 IE › Damage › Outer Durable": "1499 - 0",
+      "S P8 IE › Penetration › Inner AP": "Anti-Tank II",
+      "S P8 IE › Penetration › Outer AP": "Anti-Tank I",
+      "S P8 IE › Penetration › Shockwave AP": "Anti-Tank II",
+      "S P8 IE › AoE Effect › Demolition Force": "50",
+      "S P8 IE › AoE Effect › Stagger Force": "70",
+      "S P8 IE › AoE Effect › Push Force": "60",
+      "S P9 › Projectile › Mass": "70 kg",
+      "S P9 › Projectile › Initial Velocity": "300 m/s",
+      "S P9 › Projectile › Drag Factor": "50%",
+      "S P9 › Projectile › Gravity Factor": "1000%",
+      "S P9 › Projectile › Penetration Slowdown": "25%",
+      "S P9 › Projectile › Explosion On Impact": "S_P9_IE",
+      "S P9 › Damage › Standard": "4000 Ballistic",
+      "S P9 › Damage › vs. Durable": "4000 Ballistic",
+      "S P9 › Penetration › Direct": "Anti-Tank IV",
+      "S P9 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P9 › Penetration › Large Angle": "Anti-Tank II",
+      "S P9 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P9 › Special Effects › Demolition Force": "50",
+      "S P9 › Special Effects › Stagger Force": "50",
+      "S P9 › Special Effects › Push Force": "20",
+      "S P9 IE › Area of Effect › Inner Radius": "6.69999981 m",
+      "S P9 IE › Area of Effect › Outer Radius": "20 m",
+      "S P9 IE › Area of Effect › Shockwave Radius": "30 m",
+      "S P9 IE › Damage › Damage Element": "None",
+      "S P9 IE › Damage › Inner Radius": "1500 Explosion",
+      "S P9 IE › Damage › Inner Durable": "1500 Explosion",
+      "S P9 IE › Damage › Outer Radius": "1499 - 0",
+      "S P9 IE › Damage › Outer Durable": "1499 - 0",
+      "S P9 IE › Penetration › Inner AP": "Anti-Tank II",
+      "S P9 IE › Penetration › Outer AP": "Anti-Tank I",
+      "S P9 IE › Penetration › Shockwave AP": "Anti-Tank II",
+      "S P9 IE › AoE Effect › Demolition Force": "50",
+      "S P9 IE › AoE Effect › Stagger Force": "100",
+      "S P9 IE › AoE Effect › Push Force": "40"
     },
     "source": {
       "type": "other",

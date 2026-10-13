@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -179,10 +179,10 @@
       "P-33 MISSILE PISTOL › Ergonomics": "45",
       "P-33 MISSILE PISTOL › Noise When Firing": "Small (~33m)",
       "P-33 MISSILE PISTOL › Capacity": "1",
-      "P-33 MISSILE PISTOL › Spare Magazines": "3",
-      "P-33 MISSILE PISTOL › Starting Magazines": "1",
-      "P-33 MISSILE PISTOL › Mags from Supply": "2",
-      "P-33 MISSILE PISTOL › Mags from Ammo Box": "1",
+      "P-33 MISSILE PISTOL › Spare Rounds": "3",
+      "P-33 MISSILE PISTOL › Starting Rounds": "1",
+      "P-33 MISSILE PISTOL › Rounds from Supply": "2",
+      "P-33 MISSILE PISTOL › Rounds from Ammo Box": "1",
       "P-33 MISSILE PISTOL › Attacks › P-33 P": "Projectile",
       "P-33 MISSILE PISTOL › Attacks › P-33 P1": "Projectile",
       "P-33 MISSILE PISTOL › Attacks › P-33 P IE": "Explosion",

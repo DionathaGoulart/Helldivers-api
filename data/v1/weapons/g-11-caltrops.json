@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "g-11-caltrops",
+    "slug": "g-11-caltrops",
+    "name": "G-11 Caltrops",
+    "upcoming": true,
+    "aliases": [],
+    "description": "The G-11 Caltrops is a Special Throwable that deploys a field of proximity stun mines.",
+    "image": null,
+    "wiki": {
+      "title": "G-11 Caltrops",
+      "url": "https://helldivers.wiki.gg/wiki/G-11_Caltrops",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "category": "throwable",
+    "subcategory": "special",
+    "traitIds": [
+      "stun",
+      "sticky"
+    ],
+    "firearm": null,
+    "throwable": {
+      "capacity": null,
+      "startingCount": null,
+      "fromSupply": null,
+      "fuseTimeS": null,
+      "cookable": false
+    },
+    "melee": null,
+    "attacks": [],
+    "statsRaw": {
+      "Cookable": "No",
+      "Fuse Time": "Proximity",
+      "Trait(s)": "Stun • Sticky"
+    },
+    "source": {
+      "type": "warbond",
+      "label": "Scope of Authority",
+      "warbondId": "scope-of-authority",
+      "page": 3,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

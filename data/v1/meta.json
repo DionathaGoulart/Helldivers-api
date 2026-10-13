@@ -1,7 +1,7 @@
 {
   "apiVersion": "v1",
-  "dataVersion": "2026-10-04.33709997",
-  "generatedAt": "2026-10-04T23:55:49Z",
+  "dataVersion": "2026-10-13.d4a987db",
+  "generatedAt": "2026-10-13T18:14:11Z",
   "source": {
     "name": "The Helldivers Wiki",
     "url": "https://helldivers.wiki.gg"
@@ -29,7 +29,7 @@
       "count": 31
     },
     "patterns": {
-      "count": 27
+      "count": 30
     },
     "player-cards": {
       "count": 77
@@ -41,13 +41,13 @@
       "count": 57
     },
     "warbonds": {
-      "count": 25
+      "count": 26
     },
     "weapon-traits": {
       "count": 28
     },
     "weapons": {
-      "count": 105
+      "count": 108
     }
   }
 }

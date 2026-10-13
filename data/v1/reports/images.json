@@ -109,13 +109,13 @@
       "bytes": 26914
     },
     {
-      "url": "/images/v1/armors/b-08-light-gunner.c5dbce3c.webp",
+      "url": "/images/v1/armors/b-08-light-gunner.96f02321.webp",
       "wikiFile": "B-08_Light_Gunner_Armor_Render.png",
-      "version": "84922c",
+      "version": "5fda3d",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 26588
+      "bytes": 24556
     },
     {
       "url": "/images/v1/armors/b-22-model-citizen.c770f6fd.webp",
@@ -244,13 +244,13 @@
       "bytes": 28950
     },
     {
-      "url": "/images/v1/armors/ce-67-titan.0043461c.webp",
+      "url": "/images/v1/armors/ce-67-titan.53d15a26.webp",
       "wikiFile": "CE-67_Titan_Armor_Render.png",
-      "version": "5b3742",
+      "version": "720e4f",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 26638
+      "bytes": 25614
     },
     {
       "url": "/images/v1/armors/ce-74-breaker.d951de4c.webp",
@@ -514,13 +514,13 @@
       "bytes": 25404
     },
     {
-      "url": "/images/v1/armors/fs-37-ravager.a9de9439.webp",
+      "url": "/images/v1/armors/fs-37-ravager.7eaf5f4e.webp",
       "wikiFile": "FS-37_Ravager_Armor_Render.png",
-      "version": "a71a00",
+      "version": "fe9808",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 26886
+      "bytes": 25076
     },
     {
       "url": "/images/v1/armors/fs-38-eradicator.3ee78b69.webp",
@@ -793,13 +793,13 @@
       "bytes": 29328
     },
     {
-      "url": "/images/v1/armors/sa-12-servo-assisted.b30968c7.webp",
+      "url": "/images/v1/armors/sa-12-servo-assisted.56a743af.webp",
       "wikiFile": "SA-12_Servo_Assisted_Armor_Render.png",
-      "version": "915050",
+      "version": "dddc63",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 28862
+      "bytes": 29578
     },
     {
       "url": "/images/v1/armors/sa-25-steel-trooper.9c50f106.webp",
@@ -2548,13 +2548,13 @@
       "bytes": 32226
     },
     {
-      "url": "/images/v1/helmets/b-08-light-gunner.f8ac9403.webp",
+      "url": "/images/v1/helmets/b-08-light-gunner.ea311a42.webp",
       "wikiFile": "B-08_Light_Gunner_Helmet_Render.png",
-      "version": "becc08",
+      "version": "a3da29",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 31752
+      "bytes": 30866
     },
     {
       "url": "/images/v1/helmets/b-22-model-citizen.d9bc0e44.webp",
@@ -2683,13 +2683,13 @@
       "bytes": 36382
     },
     {
-      "url": "/images/v1/helmets/ce-67-titan.da1ff695.webp",
+      "url": "/images/v1/helmets/ce-67-titan.8fbf1a35.webp",
       "wikiFile": "CE-67_Titan_Helmet_Render.png",
-      "version": "f9dc32",
+      "version": "655396",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 32218
+      "bytes": 33048
     },
     {
       "url": "/images/v1/helmets/ce-74-breaker.00474c6f.webp",
@@ -2953,13 +2953,13 @@
       "bytes": 30726
     },
     {
-      "url": "/images/v1/helmets/fs-37-ravager.72e8ab09.webp",
+      "url": "/images/v1/helmets/fs-37-ravager.0071cf33.webp",
       "wikiFile": "FS-37_Ravager_Helmet_Render.png",
-      "version": "3179ac",
+      "version": "1b0735",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 29652
+      "bytes": 30004
     },
     {
       "url": "/images/v1/helmets/fs-38-eradicator.cfdf06d8.webp",
@@ -3241,13 +3241,13 @@
       "bytes": 36844
     },
     {
-      "url": "/images/v1/helmets/sa-12-servo-assisted.d8b3f35e.webp",
+      "url": "/images/v1/helmets/sa-12-servo-assisted.7f77bff7.webp",
       "wikiFile": "SA-12_Servo_Assisted_Helmet_Render.png",
-      "version": "e6409e",
+      "version": "43142a",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 33976
+      "bytes": 35118
     },
     {
       "url": "/images/v1/helmets/sa-25-steel-trooper.6f2bda34.webp",
@@ -3907,6 +3907,15 @@
       "bytes": 13382
     },
     {
+      "url": "/images/v1/patterns/executive-onyx-vehicle.de2dc26f.webp",
+      "wikiFile": "Executive_Onyx_Pattern_Icon.png",
+      "version": "2919fb",
+      "rendition": "render",
+      "width": 400,
+      "height": 400,
+      "bytes": 12596
+    },
+    {
       "url": "/images/v1/patterns/extrasolar-ash-exosuit.32bb10b0.webp",
       "wikiFile": "Extrasolar_Ash_Exosuit_Pattern_Icon.png",
       "version": "6fa860",
@@ -3959,6 +3968,15 @@
       "width": 512,
       "height": 288,
       "bytes": 10962
+    },
+    {
+      "url": "/images/v1/patterns/glacial-polymer-vehicle.59dad0bd.webp",
+      "wikiFile": "Glacial_Polymer_Pattern_Icon.png",
+      "version": "630c7e",
+      "rendition": "render",
+      "width": 400,
+      "height": 400,
+      "bytes": 12432
     },
     {
       "url": "/images/v1/patterns/helldiver-weapon.d85906c7.webp",
@@ -4364,6 +4382,15 @@
       "width": 512,
       "height": 288,
       "bytes": 11848
+    },
+    {
+      "url": "/images/v1/patterns/verdant-camouflage-vehicle.32c8ed9b.webp",
+      "wikiFile": "Verdant_Camouflage_Pattern_Icon.png",
+      "version": "9c2465",
+      "rendition": "render",
+      "width": 400,
+      "height": 400,
+      "bytes": 13346
     },
     {
       "url": "/images/v1/player-cards/agent-of-oblivion.77f987be.webp",
@@ -6778,6 +6805,15 @@
       "bytes": 56116
     },
     {
+      "url": "/images/v1/warbonds/scope-of-authority.d9e90b26.webp",
+      "wikiFile": "Scope_of_Authority_Premium_Warbond_Cover.png",
+      "version": "eb67e0",
+      "rendition": "cover",
+      "width": 1024,
+      "height": 562,
+      "bytes": 97382
+    },
+    {
       "url": "/images/v1/warbonds/servants-of-freedom.e6bfbd64.webp",
       "wikiFile": "Servants_of_Freedom_Premium_Warbond_Cover.png",
       "version": "b73600",
@@ -7787,6 +7823,10 @@
       "since": "2026-10-02"
     },
     {
+      "url": "/images/v1/armors/b-08-light-gunner.c5dbce3c.webp",
+      "since": "2026-10-13"
+    },
+    {
       "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
       "since": "2026-09-23"
     },
@@ -7801,6 +7841,10 @@
     {
       "url": "/images/v1/armors/ce-35-trench-engineer.35ea405f.webp",
       "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/ce-67-titan.0043461c.webp",
+      "since": "2026-10-13"
     },
     {
       "url": "/images/v1/armors/ce-81-juggernaut.a43f6e9c.webp",
@@ -7837,6 +7881,14 @@
     {
       "url": "/images/v1/armors/ex-16-prototype-16.5439c921.webp",
       "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/armors/fs-37-ravager.a9de9439.webp",
+      "since": "2026-10-13"
+    },
+    {
+      "url": "/images/v1/armors/sa-12-servo-assisted.b30968c7.webp",
+      "since": "2026-10-13"
     },
     {
       "url": "/images/v1/armors/sa-25-steel-trooper.0e3ac705.webp",
@@ -7887,6 +7939,10 @@
       "since": "2026-10-02"
     },
     {
+      "url": "/images/v1/helmets/b-08-light-gunner.f8ac9403.webp",
+      "since": "2026-10-13"
+    },
+    {
       "url": "/images/v1/helmets/bfm-16-tanker.7257a6a5.webp",
       "since": "2026-10-02"
     },
@@ -7917,6 +7973,10 @@
     {
       "url": "/images/v1/helmets/ce-64-grenadier.a616cf5d.webp",
       "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ce-67-titan.da1ff695.webp",
+      "since": "2026-10-13"
     },
     {
       "url": "/images/v1/helmets/ce-81-juggernaut.3524c8fc.webp",
@@ -7955,6 +8015,10 @@
       "since": "2026-10-02"
     },
     {
+      "url": "/images/v1/helmets/fs-37-ravager.72e8ab09.webp",
+      "since": "2026-10-13"
+    },
+    {
       "url": "/images/v1/helmets/ix-voidwalker.4242f2fd.webp",
       "since": "2026-10-02"
     },
@@ -7965,6 +8029,10 @@
     {
       "url": "/images/v1/helmets/ph-56-jaguar.903a4a91.webp",
       "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/sa-12-servo-assisted.d8b3f35e.webp",
+      "since": "2026-10-13"
     },
     {
       "url": "/images/v1/helmets/sa-25-steel-trooper.2b0cee0a.webp",

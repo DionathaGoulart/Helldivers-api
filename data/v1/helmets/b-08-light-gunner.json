@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": null,
     "image": {
-      "url": "/images/v1/helmets/b-08-light-gunner.f8ac9403.webp",
+      "url": "/images/v1/helmets/b-08-light-gunner.ea311a42.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "B-08_Light_Gunner_Helmet_Render.png"

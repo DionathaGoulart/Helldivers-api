@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -110,12 +110,12 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "EMS MORTAR SHELL P",
+        "name": "A/M-23 P",
         "kind": "projectile",
         "damage": {
           "standard": 20,
           "durable": 2,
-          "type": "Damage"
+          "type": "Ballistic"
         },
         "penetration": {
           "direct": "unarmored",
@@ -139,7 +139,33 @@
         }
       },
       {
-        "name": "EMS MORTAR SHELL P E",
+        "name": "A/M-23 P IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 2,
+          "shockwaveRadiusM": 3
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 30,
+          "push": 20
+        }
+      },
+      {
+        "name": "A/M-23 P E",
         "kind": "explosion",
         "damage": {
           "standard": 0,
@@ -185,32 +211,6 @@
           "stagger": null,
           "push": null
         }
-      },
-      {
-        "name": "EMS MORTAR SHELL P IE",
-        "kind": "explosion",
-        "damage": {
-          "standard": 150,
-          "durable": 150,
-          "type": "Explosion"
-        },
-        "penetration": {
-          "direct": null,
-          "slightAngle": null,
-          "largeAngle": null,
-          "extremeAngle": null
-        },
-        "projectile": null,
-        "area": {
-          "innerRadiusM": 1,
-          "outerRadiusM": 2,
-          "shockwaveRadiusM": 3
-        },
-        "forces": {
-          "demolition": 30,
-          "stagger": 30,
-          "push": 20
-        }
       }
     ],
     "statsRaw": {
@@ -238,66 +238,70 @@
       "EMS MORTAR SENTRY › Vertical Turn Speed": "55",
       "EMS MORTAR SENTRY › Lifetime": "180 sec",
       "EMS MORTAR SENTRY › Vertical Limit": "(35.00) (89.00)",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Main Health": "400",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Main Armor": "Light",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Fire Rate": "60 rpm",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Recoil": "6.25",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Horizontal Recoil": "2.5",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Vertical Recoil": "10",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Spread": "↔[50.00] ↕[50.00]",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Sway": "1",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Ergonomics": "65",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Capacity": "16",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › EMS MORTAR SHELL P": "Projectile",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › EMS MORTAR SHELL P E": "Explosion",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › EMS MORTAR SHELL P IE": "Explosion",
-      "EMS MORTAR SENTRY › SWP EMS MORTAR SENTRY › Stun Medium": "status",
-      "EMS MORTAR SHELL P › Projectile › Mass": "70 kg",
-      "EMS MORTAR SHELL P › Projectile › Initial Velocity": "100 m/s",
-      "EMS MORTAR SHELL P › Projectile › Drag Factor": "25%",
-      "EMS MORTAR SHELL P › Projectile › Gravity Factor": "600%",
-      "EMS MORTAR SHELL P › Projectile › Penetration Slowdown": "25%",
-      "EMS MORTAR SHELL P › Projectile › Explosion On Impact": "EMS MORTAR SHELL_P_IE",
-      "EMS MORTAR SHELL P › Projectile › Explode After": "EMS MORTAR SHELL_P_E",
-      "EMS MORTAR SHELL P › Damage › Standard": "20 Damage",
-      "EMS MORTAR SHELL P › Damage › vs. Durable": "2 Damage",
-      "EMS MORTAR SHELL P › Penetration › Direct": "Unarmored",
-      "EMS MORTAR SHELL P › Penetration › Slight Angle": "Unarmored",
-      "EMS MORTAR SHELL P › Penetration › Large Angle": "Unarmored",
-      "EMS MORTAR SHELL P › Penetration › Extreme Angle": "Unarmored",
-      "EMS MORTAR SHELL P › Special Effects › Demolition Force": "10",
-      "EMS MORTAR SHELL P › Special Effects › Stagger Force": "30",
-      "EMS MORTAR SHELL P › Special Effects › Push Force": "10",
-      "EMS MORTAR SHELL P E › Area of Effect › Inner Radius": "1 m",
-      "EMS MORTAR SHELL P E › Area of Effect › Outer Radius": "10 m",
-      "EMS MORTAR SHELL P E › Area of Effect › Shockwave Radius": "12 m",
-      "EMS MORTAR SHELL P E › Area of Effect › AoE Duration": "7 s",
-      "EMS MORTAR SHELL P E › Damage › Damage Element": "None",
-      "EMS MORTAR SHELL P E › Damage › Inner Radius": "0 Explosion",
-      "EMS MORTAR SHELL P E › Damage › Inner Durable": "0 Explosion",
-      "EMS MORTAR SHELL P E › Penetration › Inner AP": "Anti-Tank II",
-      "EMS MORTAR SHELL P E › Penetration › Outer AP": "Anti-Tank I",
-      "EMS MORTAR SHELL P E › Penetration › Shockwave AP": "Anti-Tank II",
-      "EMS MORTAR SHELL P E › AoE Effect › Status": "Stun Medium",
-      "EMS MORTAR SHELL P E › AoE Effect › Status Strength": "100",
-      "EMS MORTAR SHELL P E › AoE Effect › Demolition Force": "30",
-      "EMS MORTAR SHELL P E › AoE Effect › Stagger Force": "50",
-      "EMS MORTAR SHELL P E › AoE Effect › Push Force": "0",
-      "Stun Medium › Status › Status Duration": "3 sec",
-      "EMS MORTAR SHELL P IE › Area of Effect › Inner Radius": "1 m",
-      "EMS MORTAR SHELL P IE › Area of Effect › Outer Radius": "2 m",
-      "EMS MORTAR SHELL P IE › Area of Effect › Shockwave Radius": "3 m",
-      "EMS MORTAR SHELL P IE › Damage › Damage Element": "None",
-      "EMS MORTAR SHELL P IE › Damage › Inner Radius": "150 Explosion",
-      "EMS MORTAR SHELL P IE › Damage › Inner Durable": "150 Explosion",
-      "EMS MORTAR SHELL P IE › Damage › Outer Radius": "149 - 0",
-      "EMS MORTAR SHELL P IE › Damage › Outer Durable": "149 - 0",
-      "EMS MORTAR SHELL P IE › Penetration › Inner AP": "Medium",
-      "EMS MORTAR SHELL P IE › Penetration › Outer AP": "Light",
-      "EMS MORTAR SHELL P IE › Penetration › Shockwave AP": "Medium",
-      "EMS MORTAR SHELL P IE › AoE Effect › Demolition Force": "30",
-      "EMS MORTAR SHELL P IE › AoE Effect › Stagger Force": "30",
-      "EMS MORTAR SHELL P IE › AoE Effect › Push Force": "20"
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Main Health": "400",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Main Armor": "Light",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Fire Rate": "60 rpm",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Recoil": "6.25",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Horizontal Recoil": "2.5",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Vertical Recoil": "10",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Spread": "↔[50.00] ↕[50.00]",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Sway": "1",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Ergonomics": "65",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Noise When Firing": "Medium (~48m)",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Capacity": "16",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Turret Turn Speed": "↔[55.00]°/s ↕[55.00]°/s",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Elevation Range": "[35.00]° to [89.00]°",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Traverse Range": "[-180.00]° to [180.00]°",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › A/M-23 P": "Projectile",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › A/M-23 P IE": "Explosion",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › A/M-23 P E": "Explosion",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Stun Medium": "status",
+      "A/M-23 P › Projectile › Mass": "70 kg",
+      "A/M-23 P › Projectile › Initial Velocity": "100 m/s",
+      "A/M-23 P › Projectile › Drag Factor": "25%",
+      "A/M-23 P › Projectile › Gravity Factor": "600%",
+      "A/M-23 P › Projectile › Penetration Slowdown": "25%",
+      "A/M-23 P › Projectile › Explosion On Impact": "A/M-23_P_IE",
+      "A/M-23 P › Projectile › Explode After": "A/M-23",
+      "A/M-23 P › Damage › Standard": "20 Ballistic",
+      "A/M-23 P › Damage › vs. Durable": "2 Ballistic",
+      "A/M-23 P › Penetration › Direct": "Unarmored",
+      "A/M-23 P › Penetration › Slight Angle": "Unarmored",
+      "A/M-23 P › Penetration › Large Angle": "Unarmored",
+      "A/M-23 P › Penetration › Extreme Angle": "Unarmored",
+      "A/M-23 P › Special Effects › Demolition Force": "10",
+      "A/M-23 P › Special Effects › Stagger Force": "30",
+      "A/M-23 P › Special Effects › Push Force": "10",
+      "A/M-23 P IE › Area of Effect › Inner Radius": "1 m",
+      "A/M-23 P IE › Area of Effect › Outer Radius": "2 m",
+      "A/M-23 P IE › Area of Effect › Shockwave Radius": "3 m",
+      "A/M-23 P IE › Damage › Damage Element": "None",
+      "A/M-23 P IE › Damage › Inner Radius": "150 Explosion",
+      "A/M-23 P IE › Damage › Inner Durable": "150 Explosion",
+      "A/M-23 P IE › Damage › Outer Radius": "149 - 0",
+      "A/M-23 P IE › Damage › Outer Durable": "149 - 0",
+      "A/M-23 P IE › Penetration › Inner AP": "Medium",
+      "A/M-23 P IE › Penetration › Outer AP": "Light",
+      "A/M-23 P IE › Penetration › Shockwave AP": "Medium",
+      "A/M-23 P IE › AoE Effect › Demolition Force": "30",
+      "A/M-23 P IE › AoE Effect › Stagger Force": "30",
+      "A/M-23 P IE › AoE Effect › Push Force": "20",
+      "A/M-23 P E › Area of Effect › Inner Radius": "1 m",
+      "A/M-23 P E › Area of Effect › Outer Radius": "10 m",
+      "A/M-23 P E › Area of Effect › Shockwave Radius": "12 m",
+      "A/M-23 P E › Area of Effect › AoE Duration": "7 s",
+      "A/M-23 P E › Damage › Damage Element": "None",
+      "A/M-23 P E › Damage › Inner Radius": "0 Explosion",
+      "A/M-23 P E › Damage › Inner Durable": "0 Explosion",
+      "A/M-23 P E › Penetration › Inner AP": "Anti-Tank II",
+      "A/M-23 P E › Penetration › Outer AP": "Anti-Tank I",
+      "A/M-23 P E › Penetration › Shockwave AP": "Anti-Tank II",
+      "A/M-23 P E › AoE Effect › Status": "Stun Medium",
+      "A/M-23 P E › AoE Effect › Status Strength": "100",
+      "A/M-23 P E › AoE Effect › Demolition Force": "30",
+      "A/M-23 P E › AoE Effect › Stagger Force": "50",
+      "A/M-23 P E › AoE Effect › Push Force": "0",
+      "Stun Medium › Status › Status Duration": "3 sec"
     },
     "source": {
       "type": "requisition",

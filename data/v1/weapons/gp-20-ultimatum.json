@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -141,10 +141,10 @@
       "GP-20 ULTIMATUM › Ergonomics": "35",
       "GP-20 ULTIMATUM › Noise When Firing": "Small (~33m)",
       "GP-20 ULTIMATUM › Capacity": "1",
-      "GP-20 ULTIMATUM › Spare Magazines": "1",
-      "GP-20 ULTIMATUM › Starting Magazines": "0",
-      "GP-20 ULTIMATUM › Mags from Supply": "1",
-      "GP-20 ULTIMATUM › Mags from Ammo Box": "1",
+      "GP-20 ULTIMATUM › Spare Rounds": "1",
+      "GP-20 ULTIMATUM › Starting Rounds": "0",
+      "GP-20 ULTIMATUM › Rounds from Supply": "1",
+      "GP-20 ULTIMATUM › Rounds from Ammo Box": "1",
       "GP-20 ULTIMATUM › Attacks › GP-20 P": "Projectile",
       "GP-20 ULTIMATUM › Attacks › GP-20 P IE": "Explosion",
       "GP-20 P › Projectile › Mass": "500 g",

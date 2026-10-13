@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -97,7 +97,7 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "100KG BOMB P1",
+        "name": "S P5",
         "kind": "projectile",
         "damage": {
           "standard": 1500,
@@ -126,7 +126,7 @@
         }
       },
       {
-        "name": "100KG BOMB P1 IE",
+        "name": "S P5 IE",
         "kind": "explosion",
         "damage": {
           "standard": null,
@@ -171,27 +171,27 @@
       "Eagle Smoke Strike › Uses": "2",
       "Eagle Smoke Strike › Main Health": "100",
       "Eagle Smoke Strike › Main Armor": "Unarmored",
-      "Eagle Smoke Strike › Attacks › 100KG BOMB P1": "Projectile",
-      "Eagle Smoke Strike › Attacks › 100KG BOMB P1 IE": "Explosion",
-      "100KG BOMB P1 › Projectile › Mass": "100 g",
-      "100KG BOMB P1 › Projectile › Initial Velocity": "500 m/s",
-      "100KG BOMB P1 › Projectile › Drag Factor": "50%",
-      "100KG BOMB P1 › Projectile › Gravity Factor": "100%",
-      "100KG BOMB P1 › Projectile › Penetration Slowdown": "25%",
-      "100KG BOMB P1 › Projectile › Explosion On Impact": "100KG BOMB_P1_IE",
-      "100KG BOMB P1 › Damage › Standard": "1500 Ballistic",
-      "100KG BOMB P1 › Damage › vs. Durable": "1500 Ballistic",
-      "100KG BOMB P1 › Penetration › Direct": "Anti-Tank III",
-      "100KG BOMB P1 › Penetration › Slight Angle": "Anti-Tank III",
-      "100KG BOMB P1 › Penetration › Large Angle": "Anti-Tank III",
-      "100KG BOMB P1 › Penetration › Extreme Angle": "Anti-Tank III",
-      "100KG BOMB P1 › Special Effects › Demolition Force": "40",
-      "100KG BOMB P1 › Special Effects › Stagger Force": "20",
-      "100KG BOMB P1 › Special Effects › Push Force": "15",
-      "100KG BOMB P1 IE › Area of Effect › Inner Radius": "12 m",
-      "100KG BOMB P1 IE › Area of Effect › Outer Radius": "12 m",
-      "100KG BOMB P1 IE › Area of Effect › Shockwave Radius": "0 m",
-      "100KG BOMB P1 IE › Area of Effect › AoE Duration": "30 s"
+      "Eagle Smoke Strike › Attacks › S P5": "Projectile",
+      "Eagle Smoke Strike › Attacks › S P5 IE": "Explosion",
+      "S P5 › Projectile › Mass": "100 g",
+      "S P5 › Projectile › Initial Velocity": "500 m/s",
+      "S P5 › Projectile › Drag Factor": "50%",
+      "S P5 › Projectile › Gravity Factor": "100%",
+      "S P5 › Projectile › Penetration Slowdown": "25%",
+      "S P5 › Projectile › Explosion On Impact": "S_P5_IE",
+      "S P5 › Damage › Standard": "1500 Ballistic",
+      "S P5 › Damage › vs. Durable": "1500 Ballistic",
+      "S P5 › Penetration › Direct": "Anti-Tank III",
+      "S P5 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P5 › Penetration › Large Angle": "Anti-Tank III",
+      "S P5 › Penetration › Extreme Angle": "Anti-Tank III",
+      "S P5 › Special Effects › Demolition Force": "40",
+      "S P5 › Special Effects › Stagger Force": "20",
+      "S P5 › Special Effects › Push Force": "15",
+      "S P5 IE › Area of Effect › Inner Radius": "12 m",
+      "S P5 IE › Area of Effect › Outer Radius": "12 m",
+      "S P5 IE › Area of Effect › Shockwave Radius": "0 m",
+      "S P5 IE › Area of Effect › AoE Duration": "30 s"
     },
     "source": {
       "type": "requisition",

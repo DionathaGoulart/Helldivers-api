@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -170,6 +170,8 @@
       "M-1000 MAXIGUN › Capacity": "1000",
       "M-1000 MAXIGUN › Rounds from Supply": "500",
       "M-1000 MAXIGUN › Rounds from Ammo Box": "250",
+      "M-1000 MAXIGUN › Wind Up Time": "0.5 s",
+      "M-1000 MAXIGUN › Wind Down Time": "0.5 s",
       "M-1000 MAXIGUN › Attacks › M-1000 P": "Projectile",
       "M-1000 P › Projectile › Mass": "11 g",
       "M-1000 P › Projectile › Initial Velocity": "920 m/s",

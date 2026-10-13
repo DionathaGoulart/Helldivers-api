@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "verdant-camouflage",
+    "slug": "verdant-camouflage",
+    "name": "Verdant Camouflage",
+    "upcoming": false,
+    "aliases": [],
+    "description": "Verdant Camouflage is a selectable wrap for the TD-220 Bastion MK XVI and TD-110 Maelstrom.",
+    "image": {
+      "url": "/images/v1/patterns/verdant-camouflage-vehicle.32c8ed9b.webp",
+      "width": 400,
+      "height": 400,
+      "wikiFile": "Verdant_Camouflage_Pattern_Icon.png"
+    },
+    "wiki": {
+      "title": "Verdant Camouflage",
+      "url": "https://helldivers.wiki.gg/wiki/Verdant_Camouflage",
+      "flags": [
+        "stub"
+      ]
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "vehicle",
+        "image": {
+          "url": "/images/v1/patterns/verdant-camouflage-vehicle.32c8ed9b.webp",
+          "width": 400,
+          "height": 400,
+          "wikiFile": "Verdant_Camouflage_Pattern_Icon.png"
+        },
+        "source": {
+          "type": "warbond",
+          "label": "Ironclad Democracy",
+          "warbondId": "ironclad-democracy",
+          "page": 1,
+          "cost": {
+            "currency": "medals",
+            "amount": 20
+          },
+          "rotating": null
+        }
+      }
+    ]
+  }
+}

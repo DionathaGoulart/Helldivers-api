@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -88,12 +88,12 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "110mm STANDARD ROCKET P",
+        "name": "S P1",
         "kind": "projectile",
         "damage": {
           "standard": 600,
           "durable": 600,
-          "type": "Damage"
+          "type": "Ballistic"
         },
         "penetration": {
           "direct": "anti_tank_iii",
@@ -117,7 +117,7 @@
         }
       },
       {
-        "name": "110mm STANDARD ROCKET P IE",
+        "name": "S P1 IE",
         "kind": "explosion",
         "damage": {
           "standard": 300,
@@ -162,37 +162,37 @@
       "EAGLE 110MM ROCKET PODS › Uses": "3",
       "EAGLE 110MM ROCKET PODS › Main Health": "100",
       "EAGLE 110MM ROCKET PODS › Main Armor": "Unarmored",
-      "EAGLE 110MM ROCKET PODS › Attacks › 110mm STANDARD ROCKET P": "Projectile",
-      "EAGLE 110MM ROCKET PODS › Attacks › 110mm STANDARD ROCKET P IE": "Explosion",
-      "110mm STANDARD ROCKET P › Projectile › Mass": "3.3 kg",
-      "110mm STANDARD ROCKET P › Projectile › Initial Velocity": "700 m/s",
-      "110mm STANDARD ROCKET P › Projectile › Drag Factor": "0%",
-      "110mm STANDARD ROCKET P › Projectile › Gravity Factor": "210%",
-      "110mm STANDARD ROCKET P › Projectile › Penetration Slowdown": "25%",
-      "110mm STANDARD ROCKET P › Projectile › Explosion On Impact": "110mm STANDARD ROCKET_P_IE",
-      "110mm STANDARD ROCKET P › Damage › Standard": "600 Damage",
-      "110mm STANDARD ROCKET P › Damage › vs. Durable": "600 Damage",
-      "110mm STANDARD ROCKET P › Penetration › Direct": "Anti-Tank III",
-      "110mm STANDARD ROCKET P › Penetration › Slight Angle": "Anti-Tank III",
-      "110mm STANDARD ROCKET P › Penetration › Large Angle": "Anti-Tank III",
-      "110mm STANDARD ROCKET P › Penetration › Extreme Angle": "Anti-Tank III",
-      "110mm STANDARD ROCKET P › Special Effects › Demolition Force": "40",
-      "110mm STANDARD ROCKET P › Special Effects › Stagger Force": "40",
-      "110mm STANDARD ROCKET P › Special Effects › Push Force": "15",
-      "110mm STANDARD ROCKET P IE › Area of Effect › Inner Radius": "1.60000002 m",
-      "110mm STANDARD ROCKET P IE › Area of Effect › Outer Radius": "5 m",
-      "110mm STANDARD ROCKET P IE › Area of Effect › Shockwave Radius": "8 m",
-      "110mm STANDARD ROCKET P IE › Damage › Damage Element": "None",
-      "110mm STANDARD ROCKET P IE › Damage › Inner Radius": "300 Explosion",
-      "110mm STANDARD ROCKET P IE › Damage › Inner Durable": "300 Explosion",
-      "110mm STANDARD ROCKET P IE › Damage › Outer Radius": "299 - 0",
-      "110mm STANDARD ROCKET P IE › Damage › Outer Durable": "299 - 0",
-      "110mm STANDARD ROCKET P IE › Penetration › Inner AP": "Heavy",
-      "110mm STANDARD ROCKET P IE › Penetration › Outer AP": "Medium",
-      "110mm STANDARD ROCKET P IE › Penetration › Shockwave AP": "Heavy",
-      "110mm STANDARD ROCKET P IE › AoE Effect › Demolition Force": "30",
-      "110mm STANDARD ROCKET P IE › AoE Effect › Stagger Force": "30",
-      "110mm STANDARD ROCKET P IE › AoE Effect › Push Force": "10"
+      "EAGLE 110MM ROCKET PODS › Attacks › S P1": "Projectile",
+      "EAGLE 110MM ROCKET PODS › Attacks › S P1 IE": "Explosion",
+      "S P1 › Projectile › Mass": "3.3 kg",
+      "S P1 › Projectile › Initial Velocity": "700 m/s",
+      "S P1 › Projectile › Drag Factor": "0%",
+      "S P1 › Projectile › Gravity Factor": "210%",
+      "S P1 › Projectile › Penetration Slowdown": "25%",
+      "S P1 › Projectile › Explosion On Impact": "S_P1_IE",
+      "S P1 › Damage › Standard": "600 Ballistic",
+      "S P1 › Damage › vs. Durable": "600 Ballistic",
+      "S P1 › Penetration › Direct": "Anti-Tank III",
+      "S P1 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P1 › Penetration › Large Angle": "Anti-Tank III",
+      "S P1 › Penetration › Extreme Angle": "Anti-Tank III",
+      "S P1 › Special Effects › Demolition Force": "40",
+      "S P1 › Special Effects › Stagger Force": "40",
+      "S P1 › Special Effects › Push Force": "15",
+      "S P1 IE › Area of Effect › Inner Radius": "1.60000002 m",
+      "S P1 IE › Area of Effect › Outer Radius": "5 m",
+      "S P1 IE › Area of Effect › Shockwave Radius": "8 m",
+      "S P1 IE › Damage › Damage Element": "None",
+      "S P1 IE › Damage › Inner Radius": "300 Explosion",
+      "S P1 IE › Damage › Inner Durable": "300 Explosion",
+      "S P1 IE › Damage › Outer Radius": "299 - 0",
+      "S P1 IE › Damage › Outer Durable": "299 - 0",
+      "S P1 IE › Penetration › Inner AP": "Heavy",
+      "S P1 IE › Penetration › Outer AP": "Medium",
+      "S P1 IE › Penetration › Shockwave AP": "Heavy",
+      "S P1 IE › AoE Effect › Demolition Force": "30",
+      "S P1 IE › AoE Effect › Stagger Force": "30",
+      "S P1 IE › AoE Effect › Push Force": "10"
     },
     "source": {
       "type": "requisition",

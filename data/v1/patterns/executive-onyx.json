@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "executive-onyx",
+    "slug": "executive-onyx",
+    "name": "Executive Onyx",
+    "upcoming": false,
+    "aliases": [],
+    "description": "Executive Onyx is a selectable wrap for the TD-220 Bastion MK XVI and TD-110 Maelstrom.",
+    "image": {
+      "url": "/images/v1/patterns/executive-onyx-vehicle.de2dc26f.webp",
+      "width": 400,
+      "height": 400,
+      "wikiFile": "Executive_Onyx_Pattern_Icon.png"
+    },
+    "wiki": {
+      "title": "Executive Onyx",
+      "url": "https://helldivers.wiki.gg/wiki/Executive_Onyx",
+      "flags": [
+        "stub"
+      ]
+    },
+    "scope": "vehicle",
+    "unlockLevel": null,
+    "variants": [
+      {
+        "target": "vehicle",
+        "image": {
+          "url": "/images/v1/patterns/executive-onyx-vehicle.de2dc26f.webp",
+          "width": 400,
+          "height": 400,
+          "wikiFile": "Executive_Onyx_Pattern_Icon.png"
+        },
+        "source": {
+          "type": "warbond",
+          "label": "Ironclad Democracy",
+          "warbondId": "ironclad-democracy",
+          "page": 3,
+          "cost": {
+            "currency": "medals",
+            "amount": 55
+          },
+          "rotating": null
+        }
+      }
+    ]
+  }
+}

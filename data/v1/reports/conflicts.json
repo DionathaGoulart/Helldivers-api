@@ -230,6 +230,49 @@
     },
     {
       "collection": "stratagems",
+      "id": "exo-45-patriot-exosuit",
+      "field": "cooldownS",
+      "rule": 2,
+      "chosen": 600,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+          "location": "infobox › Base Cooldown",
+          "value": 420
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+          "location": "General › Cooldown › Standard",
+          "value": 420
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+          "location": "Patriot Exosuit › Cooldown",
+          "value": 600
+        }
+      ]
+    },
+    {
+      "collection": "stratagems",
+      "id": "exo-45-patriot-exosuit",
+      "field": "uses",
+      "rule": 2,
+      "chosen": 1,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+          "location": "General › Uses",
+          "value": 3
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
+          "location": "Patriot Exosuit › Uses",
+          "value": 1
+        }
+      ]
+    },
+    {
+      "collection": "stratagems",
       "id": "flam-40-flamethrower",
       "field": "supportWeapon.magazinesFromAmmoBox",
       "rule": 2,
@@ -433,6 +476,49 @@
           "value": [
             60
           ]
+        }
+      ]
+    },
+    {
+      "collection": "stratagems",
+      "id": "seaf-artillery",
+      "field": "cooldownS",
+      "rule": 2,
+      "chosen": 15,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+          "location": "infobox › Base Cooldown",
+          "value": 14
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+          "location": "General › Cooldown › Standard",
+          "value": 14
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+          "location": "SEAF ARTILLERY › Cooldown",
+          "value": 15
+        }
+      ]
+    },
+    {
+      "collection": "stratagems",
+      "id": "seaf-artillery",
+      "field": "uses",
+      "rule": 2,
+      "chosen": "unlimited",
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+          "location": "General › Uses",
+          "value": 5
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
+          "location": "SEAF ARTILLERY › Uses",
+          "value": "unlimited"
         }
       ]
     },
@@ -941,25 +1027,6 @@
           "page": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
           "location": "FLAM-66 TORCHER › Recoil",
           "value": 0.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "gl-15-evictor",
-      "field": "firearm.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 32,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-          "location": "infobox › Supply Box Refill",
-          "value": 16
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-          "location": "GL-15 EVICTOR › Rounds from Supply",
-          "value": 32
         }
       ]
     },

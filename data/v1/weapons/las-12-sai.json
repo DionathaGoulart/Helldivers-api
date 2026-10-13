@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -98,7 +98,7 @@
     "statsRaw": {
       "Weapon Category": "Primary Weapons",
       "Weapon Type": "Energy-Based",
-      "Traits": "Medium Armor Penetrating • One-Handed • Heat",
+      "Traits": "Medium Armor Penetrating • One Handed • Heat",
       "Standard Damage": "80 Ballistic",
       "Armor Penetration": "Medium",
       "Fire Rate": "800 rpm",

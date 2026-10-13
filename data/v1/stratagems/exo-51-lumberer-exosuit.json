@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -77,6 +77,61 @@
     "supportWeapon": null,
     "backpack": null,
     "attacks": [
+      {
+        "name": "P8",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1300,
+          "durable": 1300,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_ii",
+          "slightAngle": "anti_tank_ii",
+          "largeAngle": "anti_tank_ii",
+          "extremeAngle": "medium"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 6500,
+          "initialVelocityMps": 625,
+          "dragFactorPct": 75,
+          "gravityFactorPct": 100,
+          "penetrationSlowdownPct": 85
+        },
+        "area": null,
+        "forces": {
+          "demolition": 30,
+          "stagger": 50,
+          "push": 25
+        }
+      },
+      {
+        "name": "P8 IE",
+        "kind": "explosion",
+        "damage": {
+          "standard": 150,
+          "durable": 150,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 3,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 30,
+          "stagger": 60,
+          "push": 40
+        }
+      },
       {
         "name": "LUMBERER FLAMETHROWER S",
         "kind": "spray",
@@ -166,61 +221,6 @@
         }
       },
       {
-        "name": "75mm HEAT GRENADE P1",
-        "kind": "projectile",
-        "damage": {
-          "standard": 1300,
-          "durable": 1300,
-          "type": "Ballistic"
-        },
-        "penetration": {
-          "direct": "anti_tank_ii",
-          "slightAngle": "anti_tank_ii",
-          "largeAngle": "anti_tank_ii",
-          "extremeAngle": "medium"
-        },
-        "projectile": {
-          "pellets": null,
-          "massG": 6500,
-          "initialVelocityMps": 625,
-          "dragFactorPct": 75,
-          "gravityFactorPct": 100,
-          "penetrationSlowdownPct": 85
-        },
-        "area": null,
-        "forces": {
-          "demolition": 30,
-          "stagger": 50,
-          "push": 25
-        }
-      },
-      {
-        "name": "75mm HEAT GRENADE P1 IE",
-        "kind": "explosion",
-        "damage": {
-          "standard": 150,
-          "durable": 150,
-          "type": "Explosion"
-        },
-        "penetration": {
-          "direct": null,
-          "slightAngle": null,
-          "largeAngle": null,
-          "extremeAngle": null
-        },
-        "projectile": null,
-        "area": {
-          "innerRadiusM": 3,
-          "outerRadiusM": 6,
-          "shockwaveRadiusM": 7
-        },
-        "forces": {
-          "demolition": 30,
-          "stagger": 60,
-          "push": 40
-        }
-      },
-      {
         "name": "Exosuit Stomp",
         "kind": "other",
         "damage": {
@@ -279,35 +279,66 @@
       "General › Cooldown › With Morale Augmentation": "399 seconds",
       "General › Cooldown › With DSS Boost": "273 seconds",
       "General › Cooldown › With All Upgrades": "252 seconds",
-      "LUMBERER › Cooldown": "420 s",
-      "LUMBERER › Uses": "3",
-      "LUMBERER › Main Health": "1800",
-      "LUMBERER › Main Armor": "Heavy",
-      "LUMBERER › LUMBERER FLAMETHROWER › Main Health": "800",
-      "LUMBERER › LUMBERER FLAMETHROWER › Main Armor": "Medium",
-      "LUMBERER › LUMBERER FLAMETHROWER › Recoil": "0",
-      "LUMBERER › LUMBERER FLAMETHROWER › Horizontal Recoil": "0",
-      "LUMBERER › LUMBERER FLAMETHROWER › Vertical Recoil": "0",
-      "LUMBERER › LUMBERER FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
-      "LUMBERER › LUMBERER FLAMETHROWER › Sway": "0",
-      "LUMBERER › LUMBERER FLAMETHROWER › Ergonomics": "65",
-      "LUMBERER › LUMBERER FLAMETHROWER › Capacity": "500",
-      "LUMBERER › LUMBERER FLAMETHROWER › LUMBERER FLAMETHROWER S": "Spray",
-      "LUMBERER › LUMBERER FLAMETHROWER › Fire": "status",
-      "LUMBERER › LUMBERER FLAMETHROWER › Fire Panic": "status",
-      "LUMBERER › LUMBERER FLAMETHROWER › FlamerSlowed": "status",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Main Health": "800",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Main Armor": "Medium",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Fire Rate": "30 rpm",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Recoil": "222.5",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Horizontal Recoil": "125",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Vertical Recoil": "320",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Spread": "↔[2.00] ↕[2.00]",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Sway": "0",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Ergonomics": "65",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › Capacity": "25",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › 75mm HEAT GRENADE P1": "Projectile",
-      "LUMBERER › LUMBERER ANTI TANK CANNON › 75mm HEAT GRENADE P1 IE": "Explosion",
+      "LUMBERER EXOSUIT › Cooldown": "420 s",
+      "LUMBERER EXOSUIT › Uses": "3",
+      "LUMBERER EXOSUIT › Main Health": "1800",
+      "LUMBERER EXOSUIT › Main Armor": "Heavy",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Main Health": "800",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Main Armor": "Medium",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Fire Rate": "30 rpm",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Recoil": "222.5",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Horizontal Recoil": "125",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Vertical Recoil": "320",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Spread": "↔[2.00] ↕[2.00]",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Sway": "0",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Ergonomics": "65",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Noise When Firing": "Large (~58m)",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Capacity": "25",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › P8": "Projectile",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › P8 IE": "Explosion",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Main Health": "800",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Main Armor": "Medium",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Recoil": "0",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Horizontal Recoil": "0",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Vertical Recoil": "0",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Sway": "0",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Ergonomics": "65",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Noise When Firing": "Medium (~48m)",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Capacity": "500",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › LUMBERER FLAMETHROWER S": "Spray",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Fire": "status",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Fire Panic": "status",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › FlamerSlowed": "status",
+      "P8 › Projectile › Mass": "6.5 kg",
+      "P8 › Projectile › Initial Velocity": "625 m/s",
+      "P8 › Projectile › Drag Factor": "75%",
+      "P8 › Projectile › Gravity Factor": "100%",
+      "P8 › Projectile › Penetration Slowdown": "85%",
+      "P8 › Projectile › Explosion On Impact": "P8_IE",
+      "P8 › Damage › Standard": "1300 Ballistic",
+      "P8 › Damage › vs. Durable": "1300 Ballistic",
+      "P8 › Penetration › Direct": "Anti-Tank II",
+      "P8 › Penetration › Slight Angle": "Anti-Tank II",
+      "P8 › Penetration › Large Angle": "Anti-Tank II",
+      "P8 › Penetration › Extreme Angle": "Medium",
+      "P8 › Special Effects › Demolition Force": "30",
+      "P8 › Special Effects › Stagger Force": "50",
+      "P8 › Special Effects › Push Force": "25",
+      "P8 IE › Area of Effect › Inner Radius": "3 m",
+      "P8 IE › Area of Effect › Outer Radius": "6 m",
+      "P8 IE › Area of Effect › Shockwave Radius": "7 m",
+      "P8 IE › Damage › Damage Element": "None",
+      "P8 IE › Damage › Inner Radius": "150 Explosion",
+      "P8 IE › Damage › Inner Durable": "150 Explosion",
+      "P8 IE › Damage › Outer Radius": "149 - 0",
+      "P8 IE › Damage › Outer Durable": "149 - 0",
+      "P8 IE › Penetration › Inner AP": "Medium",
+      "P8 IE › Penetration › Outer AP": "Light",
+      "P8 IE › Penetration › Shockwave AP": "Medium",
+      "P8 IE › AoE Effect › Demolition Force": "30",
+      "P8 IE › AoE Effect › Stagger Force": "60",
+      "P8 IE › AoE Effect › Push Force": "40",
       "LUMBERER FLAMETHROWER S › Damage › Element": "Fire",
       "LUMBERER FLAMETHROWER S › Damage › Standard": "3 Fire",
       "LUMBERER FLAMETHROWER S › Damage › vs. Durable": "3 Fire",
@@ -337,35 +368,6 @@
       "Fire › Special Effects › Push Force": "0",
       "Fire Panic › Status › Status Duration": "1 sec",
       "FlamerSlowed › Status › Status Duration": "0.5 sec",
-      "75mm HEAT GRENADE P1 › Projectile › Mass": "6.5 kg",
-      "75mm HEAT GRENADE P1 › Projectile › Initial Velocity": "625 m/s",
-      "75mm HEAT GRENADE P1 › Projectile › Drag Factor": "75%",
-      "75mm HEAT GRENADE P1 › Projectile › Gravity Factor": "100%",
-      "75mm HEAT GRENADE P1 › Projectile › Penetration Slowdown": "85%",
-      "75mm HEAT GRENADE P1 › Projectile › Explosion On Impact": "75mm HEAT GRENADE_P1_IE",
-      "75mm HEAT GRENADE P1 › Damage › Standard": "1300 Ballistic",
-      "75mm HEAT GRENADE P1 › Damage › vs. Durable": "1300 Ballistic",
-      "75mm HEAT GRENADE P1 › Penetration › Direct": "Anti-Tank II",
-      "75mm HEAT GRENADE P1 › Penetration › Slight Angle": "Anti-Tank II",
-      "75mm HEAT GRENADE P1 › Penetration › Large Angle": "Anti-Tank II",
-      "75mm HEAT GRENADE P1 › Penetration › Extreme Angle": "Medium",
-      "75mm HEAT GRENADE P1 › Special Effects › Demolition Force": "30",
-      "75mm HEAT GRENADE P1 › Special Effects › Stagger Force": "50",
-      "75mm HEAT GRENADE P1 › Special Effects › Push Force": "25",
-      "75mm HEAT GRENADE P1 IE › Area of Effect › Inner Radius": "3 m",
-      "75mm HEAT GRENADE P1 IE › Area of Effect › Outer Radius": "6 m",
-      "75mm HEAT GRENADE P1 IE › Area of Effect › Shockwave Radius": "7 m",
-      "75mm HEAT GRENADE P1 IE › Damage › Damage Element": "None",
-      "75mm HEAT GRENADE P1 IE › Damage › Inner Radius": "150 Explosion",
-      "75mm HEAT GRENADE P1 IE › Damage › Inner Durable": "150 Explosion",
-      "75mm HEAT GRENADE P1 IE › Damage › Outer Radius": "149 - 0",
-      "75mm HEAT GRENADE P1 IE › Damage › Outer Durable": "149 - 0",
-      "75mm HEAT GRENADE P1 IE › Penetration › Inner AP": "Medium",
-      "75mm HEAT GRENADE P1 IE › Penetration › Outer AP": "Light",
-      "75mm HEAT GRENADE P1 IE › Penetration › Shockwave AP": "Medium",
-      "75mm HEAT GRENADE P1 IE › AoE Effect › Demolition Force": "30",
-      "75mm HEAT GRENADE P1 IE › AoE Effect › Stagger Force": "60",
-      "75mm HEAT GRENADE P1 IE › AoE Effect › Push Force": "40",
       "Exosuit Stomp › Damage › Standard": "200 Damage",
       "Exosuit Stomp › Damage › vs. Durable": "200 Damage",
       "Exosuit Stomp › Penetration › Direct": "Heavy",

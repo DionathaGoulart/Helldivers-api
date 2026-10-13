@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-04.33709997",
-    "generatedAt": "2026-10-04T23:55:49Z",
+    "dataVersion": "2026-10-13.d4a987db",
+    "generatedAt": "2026-10-13T18:14:11Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -16,7 +16,7 @@
     "aliases": [],
     "description": "Each servo-assisted limb contains 138 miniature motors, to support a natural gait and long-term spinal health.",
     "image": {
-      "url": "/images/v1/armors/sa-12-servo-assisted.b30968c7.webp",
+      "url": "/images/v1/armors/sa-12-servo-assisted.56a743af.webp",
       "width": 512,
       "height": 512,
       "wikiFile": "SA-12_Servo_Assisted_Armor_Render.png"
