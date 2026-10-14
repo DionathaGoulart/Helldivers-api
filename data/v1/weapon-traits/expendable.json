@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,7 +19,9 @@
     "wiki": {
       "title": "Equipment Traits",
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Expendable",
-      "flags": []
+      "flags": [
+        "broken_file_links"
+      ]
     },
     "weaponIds": [],
     "stratagemIds": [

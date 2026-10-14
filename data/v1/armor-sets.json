@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
-    "count": 110,
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
+    "count": 112,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -1748,6 +1748,46 @@
       "capeLink": {
         "method": "superstore_set",
         "evidence": "Superstore page 13 (Urban Legends) stocks exactly one armor (SR-64 Cinderblock) and one cape (Stone-Wrought Perseverance)"
+      }
+    },
+    {
+      "id": "ss-15-focal-point",
+      "slug": "ss-15-focal-point",
+      "name": "SS-15 Focal Point",
+      "upcoming": true,
+      "wiki": {
+        "title": "SS-15 Focal Point",
+        "url": "https://helldivers.wiki.gg/wiki/SS-15_Focal_Point",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "armorId": "ss-15-focal-point",
+      "helmetId": "ss-15-focal-point",
+      "capeId": "boundary-banker",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "scope-of-authority page 2 lists exactly one armor (SS-15 Focal Point) and one cape (Boundary Banker)"
+      }
+    },
+    {
+      "id": "ss-33-mimetic-marshal",
+      "slug": "ss-33-mimetic-marshal",
+      "name": "SS-33 Mimetic Marshal",
+      "upcoming": true,
+      "wiki": {
+        "title": "SS-33 Mimetic Marshal",
+        "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "armorId": "ss-33-mimetic-marshal",
+      "helmetId": "ss-33-mimetic-marshal",
+      "capeId": "mimetic-mesh",
+      "capeLink": {
+        "method": "warbond_page",
+        "evidence": "scope-of-authority page 1 lists exactly one armor (SS-33 Mimetic Marshal) and one cape (Mimetic Mesh)"
       }
     },
     {

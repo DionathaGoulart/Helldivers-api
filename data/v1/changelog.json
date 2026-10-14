@@ -1,15 +1,351 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
-    "count": 23,
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
+    "count": 24,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-14.22735c70",
+      "date": "2026-10-14",
+      "summary": {
+        "added": 13,
+        "changed": 31,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "scope-of-authority",
+          "kind": "changed",
+          "paths": [
+            "pages[0].items[2].ref",
+            "pages[0].items[3].ref",
+            "pages[0].items[4].ref",
+            "pages[0].items[5].ref",
+            "pages[1].items[1].ref",
+            "pages[1].items[3].ref",
+            "pages[1].items[4].ref",
+            "pages[1].items[5].ref",
+            "pages[1].items[6].ref",
+            "pages[2].items[1].ref"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-44-mist",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-sightliner",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Weapon Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "amw-20-apex",
+          "kind": "added"
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "added"
+        },
+        {
+          "collection": "armors",
+          "id": "ss-15-focal-point",
+          "kind": "added"
+        },
+        {
+          "collection": "armors",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "added"
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-15-focal-point",
+          "kind": "added"
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "added"
+        },
+        {
+          "collection": "capes",
+          "id": "boundary-banker",
+          "kind": "added"
+        },
+        {
+          "collection": "capes",
+          "id": "mimetic-mesh",
+          "kind": "added"
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ss-15-focal-point",
+          "kind": "added"
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "added"
+        },
+        {
+          "collection": "passives",
+          "id": "stationary-shroud",
+          "kind": "added"
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "anti-tank",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "arc",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "backpack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "beam",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "caustic",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "chargeup",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "eagle",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "expendable",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "explosive",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "guided",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heat",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heavy-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "hellpod",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "incendiary",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "light-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "medium-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "melee",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "one-handed",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "orbital",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "rounds-reload",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sentry",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stationary-reload",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sticky",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stimulative",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stun",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "support-weapon",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "suppressed",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "vehicle",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "boundary-banker",
+          "kind": "added"
+        },
+        {
+          "collection": "player-cards",
+          "id": "mimetic-mesh",
+          "kind": "added"
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-13.d4a987db",
       "date": "2026-10-13",

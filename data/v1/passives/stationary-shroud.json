@@ -1,0 +1,37 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "stationary-shroud",
+    "slug": "stationary-shroud",
+    "name": "Stationary Shroud",
+    "upcoming": false,
+    "aliases": [],
+    "description": "Reduces weapon sway and detection range by mimicking foliage concealment while in the crouched or prone position",
+    "image": {
+      "url": "/images/v1/passives/stationary-shroud.067d4e3a.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Stationary_Shroud_Armor_Passive_Icon.svg"
+    },
+    "wiki": {
+      "title": "Stationary Shroud",
+      "url": "https://helldivers.wiki.gg/wiki/Stationary_Shroud",
+      "flags": []
+    },
+    "effects": [
+      "Reduces weapon sway and detection range by mimicking foliage concealment while in the crouched or prone position"
+    ],
+    "armorIds": [
+      "ss-15-focal-point",
+      "ss-33-mimetic-marshal"
+    ]
+  }
+}

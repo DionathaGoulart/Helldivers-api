@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
     "count": 26,
     "source": {
       "name": "The Helldivers Wiki",
@@ -6658,25 +6658,41 @@
             {
               "name": "SS-33 Mimetic Marshal",
               "wikiType": "Helmet",
-              "ref": null,
+              "ref": {
+                "collection": "helmets",
+                "id": "ss-33-mimetic-marshal",
+                "variant": null
+              },
               "cost": null
             },
             {
               "name": "SS-33 Mimetic Marshal",
               "wikiType": "Light Armor",
-              "ref": null,
+              "ref": {
+                "collection": "armors",
+                "id": "ss-33-mimetic-marshal",
+                "variant": null
+              },
               "cost": null
             },
             {
               "name": "Mimetic Mesh",
               "wikiType": "Cape",
-              "ref": null,
+              "ref": {
+                "collection": "capes",
+                "id": "mimetic-mesh",
+                "variant": null
+              },
               "cost": null
             },
             {
               "name": "Mimetic Mesh",
               "wikiType": "Player Card",
-              "ref": null,
+              "ref": {
+                "collection": "player-cards",
+                "id": "mimetic-mesh",
+                "variant": null
+              },
               "cost": null
             }
           ]
@@ -6696,7 +6712,11 @@
             {
               "name": "LAS-44 Nova",
               "wikiType": "Support Weapon",
-              "ref": null,
+              "ref": {
+                "collection": "stratagems",
+                "id": "las-44-nova",
+                "variant": null
+              },
               "cost": null
             },
             {
@@ -6712,25 +6732,41 @@
             {
               "name": "SS-15 Focal Point",
               "wikiType": "Helmet",
-              "ref": null,
+              "ref": {
+                "collection": "helmets",
+                "id": "ss-15-focal-point",
+                "variant": null
+              },
               "cost": null
             },
             {
               "name": "SS-15 Focal Point",
               "wikiType": "Medium Armor",
-              "ref": null,
+              "ref": {
+                "collection": "armors",
+                "id": "ss-15-focal-point",
+                "variant": null
+              },
               "cost": null
             },
             {
               "name": "Boundary Banker",
               "wikiType": "Cape",
-              "ref": null,
+              "ref": {
+                "collection": "capes",
+                "id": "boundary-banker",
+                "variant": null
+              },
               "cost": null
             },
             {
               "name": "Boundary Banker",
               "wikiType": "Player Card",
-              "ref": null,
+              "ref": {
+                "collection": "player-cards",
+                "id": "boundary-banker",
+                "variant": null
+              },
               "cost": null
             }
           ]
@@ -6750,7 +6786,11 @@
             {
               "name": "AMW-20 Apex",
               "wikiType": "Support Weapon",
-              "ref": null,
+              "ref": {
+                "collection": "stratagems",
+                "id": "amw-20-apex",
+                "variant": null
+              },
               "cost": null
             },
             {

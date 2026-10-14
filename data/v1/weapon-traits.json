@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
     "count": 28,
     "source": {
       "name": "The Helldivers Wiki",
@@ -21,7 +21,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Anti-Tank",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "g-123-thermite",
@@ -82,7 +84,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Arc",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "arc-12-blitzer",
@@ -106,11 +110,14 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Backpack",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
         "ac-8-autocannon",
+        "amw-20-apex",
         "ax-ar-23-guard-dog",
         "ax-arc-3-k-9",
         "ax-flam-75-hot-dog",
@@ -146,7 +153,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Beam",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "las-5-scythe",
@@ -170,7 +179,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Caustic",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "g-4-gas",
@@ -197,7 +208,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Chargeup",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "plas-101-purifier",
@@ -222,7 +235,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Eagle",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
@@ -247,7 +262,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Expendable",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
@@ -270,7 +287,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Explosive",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "ar-gl-21-one-two",
@@ -354,7 +373,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Guided",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "g-50-seeker",
@@ -378,7 +399,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heat",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "las-12-sai",
@@ -405,7 +428,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Heavy_Armor_Penetrating",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "g-12-high-explosive",
@@ -447,7 +472,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Hellpod",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
@@ -461,6 +488,7 @@
         "a-m-23-ems-mortar-sentry",
         "a-mg-43-machine-gun-sentry",
         "a-mls-4x-rocket-sentry",
+        "amw-20-apex",
         "ax-ar-23-guard-dog",
         "ax-arc-3-k-9",
         "ax-flam-75-hot-dog",
@@ -475,6 +503,7 @@
         "e-mg-101-hmg-emplacement",
         "flam-40-flamethrower",
         "fx-12-shield-generator-relay",
+        "las-44-nova",
         "las-98-laser-cannon",
         "lift-182-warp-pack",
         "lift-850-jump-pack",
@@ -500,7 +529,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Incendiary",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "ar-2-coyote",
@@ -539,7 +570,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "ar-11-arbitrator",
@@ -596,7 +629,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Medium_Armor_Penetrating",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "ar-2-coyote",
@@ -665,7 +700,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Melee",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "cqc-19-stun-lance",
@@ -693,7 +730,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#One_Handed",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "cb-9-exploding-crossbow",
@@ -747,7 +786,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Orbital",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
@@ -776,7 +817,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Rounds_Reload",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "dbs-2-double-freedom",
@@ -808,7 +851,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Sentry",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
@@ -835,7 +880,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stationary_Reload",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [
@@ -860,7 +907,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Sticky",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "g-109-urchin",
@@ -885,7 +934,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stimulative",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "p-11-stim-pistol"
@@ -903,7 +954,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Stun",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "ar-32-pacifier",
@@ -929,7 +982,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Support_Weapon",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "cqc-72-entrenchment-tool",
@@ -938,6 +993,7 @@
       "stratagemIds": [
         "40-k-meltagun",
         "ac-8-autocannon",
+        "amw-20-apex",
         "apw-1-anti-materiel-rifle",
         "arc-3-arc-thrower",
         "b-flam-80-cremator",
@@ -954,6 +1010,7 @@
         "gl-28-belt-fed-grenade-launcher",
         "gl-52-de-escalator",
         "gr-8-recoilless-rifle",
+        "las-44-nova",
         "las-98-laser-cannon",
         "las-99-quasar-cannon",
         "m-1000-maxigun",
@@ -982,7 +1039,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Suppressed",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [
         "ar-59-suppressor",
@@ -1003,7 +1062,9 @@
       "wiki": {
         "title": "Equipment Traits",
         "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Vehicle",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "weaponIds": [],
       "stratagemIds": [

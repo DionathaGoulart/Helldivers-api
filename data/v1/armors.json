@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
-    "count": 110,
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
+    "count": 112,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -3826,6 +3826,70 @@
           "amount": 250
         },
         "rotating": false
+      }
+    },
+    {
+      "id": "ss-15-focal-point",
+      "slug": "ss-15-focal-point",
+      "name": "SS-15 Focal Point",
+      "upcoming": true,
+      "aliases": [],
+      "description": "SS-15 Focal Point is a set of medium armor in Helldivers 2.",
+      "image": null,
+      "wiki": {
+        "title": "SS-15 Focal Point",
+        "url": "https://helldivers.wiki.gg/wiki/SS-15_Focal_Point",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "medium",
+      "armorRating": 100,
+      "speed": 500,
+      "staminaRegen": 100,
+      "passiveId": "stationary-shroud",
+      "setIds": [
+        "ss-15-focal-point"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Scope of Authority",
+        "warbondId": "scope-of-authority",
+        "page": 2,
+        "cost": null,
+        "rotating": null
+      }
+    },
+    {
+      "id": "ss-33-mimetic-marshal",
+      "slug": "ss-33-mimetic-marshal",
+      "name": "SS-33 Mimetic Marshal",
+      "upcoming": true,
+      "aliases": [],
+      "description": "SS-33 Mimetic Marshal is a set of light armor in Helldivers 2.",
+      "image": null,
+      "wiki": {
+        "title": "SS-33 Mimetic Marshal",
+        "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "stationary-shroud",
+      "setIds": [
+        "ss-33-mimetic-marshal"
+      ],
+      "source": {
+        "type": "warbond",
+        "label": "Scope of Authority",
+        "warbondId": "scope-of-authority",
+        "page": 1,
+        "cost": null,
+        "rotating": null
       }
     },
     {

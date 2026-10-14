@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "mimetic-mesh",
+    "slug": "mimetic-mesh",
+    "name": "Mimetic Mesh",
+    "upcoming": true,
+    "aliases": [],
+    "description": "Mimetic Mesh is a cape and a player card in Helldivers 2.",
+    "image": null,
+    "wiki": {
+      "title": "Mimetic Mesh",
+      "url": "https://helldivers.wiki.gg/wiki/Mimetic_Mesh",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "setIds": [
+      "ss-33-mimetic-marshal"
+    ],
+    "playerCardId": "mimetic-mesh",
+    "source": {
+      "type": "warbond",
+      "label": "Scope of Authority",
+      "warbondId": "scope-of-authority",
+      "page": 1,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

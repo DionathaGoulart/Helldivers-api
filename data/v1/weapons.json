@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-13.d4a987db",
-    "generatedAt": "2026-10-13T18:14:11Z",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
     "count": 108,
     "source": {
       "name": "The Helldivers Wiki",
@@ -10190,7 +10190,7 @@
       "name": "P-44 Mist",
       "upcoming": true,
       "aliases": [],
-      "description": "The P-44 Mist is an automatcic Secondary Pistol.",
+      "description": "The P-44 Mist is an automatic Secondary Pistol.",
       "image": null,
       "wiki": {
         "title": "P-44 Mist",
@@ -12768,6 +12768,7 @@
       "attacks": [],
       "statsRaw": {
         "Weapon Category": "Primary Weapons",
+        "Weapon Type": "Marksman Rifles",
         "Traits": "Heavy Armor Penetrating",
         "Armor Penetration": "Heavy"
       },

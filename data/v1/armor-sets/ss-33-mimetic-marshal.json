@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-14.22735c70",
+    "generatedAt": "2026-10-14T00:15:21Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ss-33-mimetic-marshal",
+    "slug": "ss-33-mimetic-marshal",
+    "name": "SS-33 Mimetic Marshal",
+    "upcoming": true,
+    "wiki": {
+      "title": "SS-33 Mimetic Marshal",
+      "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "armorId": "ss-33-mimetic-marshal",
+    "helmetId": "ss-33-mimetic-marshal",
+    "capeId": "mimetic-mesh",
+    "capeLink": {
+      "method": "warbond_page",
+      "evidence": "scope-of-authority page 1 lists exactly one armor (SS-33 Mimetic Marshal) and one cape (Mimetic Mesh)"
+    }
+  }
+}
