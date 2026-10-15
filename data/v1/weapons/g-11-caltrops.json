@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-14.22735c70",
-    "generatedAt": "2026-10-14T00:15:21Z",
+    "dataVersion": "2026-10-14.5421da88",
+    "generatedAt": "2026-10-14T23:53:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -15,7 +15,12 @@
     "upcoming": true,
     "aliases": [],
     "description": "The G-11 Caltrops is a Special Throwable that deploys a field of proximity stun mines.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/g-11-caltrops.fbcc95ee.webp",
+      "width": 512,
+      "height": 317,
+      "wikiFile": "G-11_Caltrops_Throwable_Render.png"
+    },
     "wiki": {
       "title": "G-11 Caltrops",
       "url": "https://helldivers.wiki.gg/wiki/G-11_Caltrops",

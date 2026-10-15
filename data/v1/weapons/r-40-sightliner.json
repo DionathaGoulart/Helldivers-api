@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-14.22735c70",
-    "generatedAt": "2026-10-14T00:15:21Z",
+    "dataVersion": "2026-10-14.5421da88",
+    "generatedAt": "2026-10-14T23:53:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -15,7 +15,12 @@
     "upcoming": false,
     "aliases": [],
     "description": "The R-40 Sightliner is a Primary bolt-action Sniper Rifle.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/weapons/r-40-sightliner.f6f6e8af.webp",
+      "width": 512,
+      "height": 118,
+      "wikiFile": "R-40_Sightliner_Primary_Render.png"
+    },
     "wiki": {
       "title": "R-40 Sightliner",
       "url": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-14.22735c70",
-    "generatedAt": "2026-10-14T00:15:21Z",
+    "dataVersion": "2026-10-14.5421da88",
+    "generatedAt": "2026-10-14T23:53:10Z",
     "count": 108,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3491,7 +3491,12 @@
       "upcoming": true,
       "aliases": [],
       "description": "The G-11 Caltrops is a Special Throwable that deploys a field of proximity stun mines.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/g-11-caltrops.fbcc95ee.webp",
+        "width": 512,
+        "height": 317,
+        "wikiFile": "G-11_Caltrops_Throwable_Render.png"
+      },
       "wiki": {
         "title": "G-11 Caltrops",
         "url": "https://helldivers.wiki.gg/wiki/G-11_Caltrops",
@@ -10191,7 +10196,12 @@
       "upcoming": true,
       "aliases": [],
       "description": "The P-44 Mist is an automatic Secondary Pistol.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/p-44-mist.c421216e.webp",
+        "width": 512,
+        "height": 233,
+        "wikiFile": "P-44_Mist_Secondary_Render.png"
+      },
       "wiki": {
         "title": "P-44 Mist",
         "url": "https://helldivers.wiki.gg/wiki/P-44_Mist",
@@ -12730,7 +12740,12 @@
       "upcoming": false,
       "aliases": [],
       "description": "The R-40 Sightliner is a Primary bolt-action Sniper Rifle.",
-      "image": null,
+      "image": {
+        "url": "/images/v1/weapons/r-40-sightliner.f6f6e8af.webp",
+        "width": 512,
+        "height": 118,
+        "wikiFile": "R-40_Sightliner_Primary_Render.png"
+      },
       "wiki": {
         "title": "R-40 Sightliner",
         "url": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",

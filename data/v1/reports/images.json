@@ -901,6 +901,24 @@
       "bytes": 23886
     },
     {
+      "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
+      "wikiFile": "SS-15_Focal_Point_Default_Armor_Set_Image.png",
+      "version": "65926f",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 44176
+    },
+    {
+      "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
+      "wikiFile": "SS-33_Mimetic_Marshal_Default_Armor_Set_Image.png",
+      "version": "ce4935",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 47242
+    },
+    {
       "url": "/images/v1/armors/tg-122-demo-trooper.6159afdd.webp",
       "wikiFile": "TG-122_Demo-Trooper_Armor_Render.png",
       "version": "95857c",
@@ -1223,6 +1241,15 @@
       "width": 512,
       "height": 512,
       "bytes": 23704
+    },
+    {
+      "url": "/images/v1/capes/boundary-banker.f8ffb2e8.webp",
+      "wikiFile": "Boundary_Banker_Cape_Default.png",
+      "version": "ca0168",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 50734
     },
     {
       "url": "/images/v1/capes/camo-cloak.454dee96.webp",
@@ -1601,6 +1628,15 @@
       "width": 512,
       "height": 512,
       "bytes": 23668
+    },
+    {
+      "url": "/images/v1/capes/mimetic-mesh.fb85ee4e.webp",
+      "wikiFile": "Mimetic_Mesh_Cape_Promo.png",
+      "version": "cdb09a",
+      "rendition": "render",
+      "width": 262,
+      "height": 354,
+      "bytes": 31150
     },
     {
       "url": "/images/v1/capes/mirandas-legacy.e1ad9682.webp",
@@ -3349,6 +3385,24 @@
       "bytes": 33012
     },
     {
+      "url": "/images/v1/helmets/ss-15-focal-point.5ddde896.webp",
+      "wikiFile": "SS-15_Focal_Point_Helmet_Render.png",
+      "version": "b411e5",
+      "rendition": "render",
+      "width": 384,
+      "height": 384,
+      "bytes": 29334
+    },
+    {
+      "url": "/images/v1/helmets/ss-33-mimetic-marshal.64d55204.webp",
+      "wikiFile": "SS-33_Mimetic_Marshal_Helmet_Render.png",
+      "version": "4216e3",
+      "rendition": "render",
+      "width": 384,
+      "height": 384,
+      "bytes": 40286
+    },
+    {
       "url": "/images/v1/helmets/tg-122-demo-trooper.96150a29.webp",
       "wikiFile": "TG-122_Demo-Trooper_Helmet_Render.png",
       "version": "9696b4",
@@ -4447,6 +4501,15 @@
       "bytes": 3100
     },
     {
+      "url": "/images/v1/player-cards/boundary-banker.9c95cbd0.webp",
+      "wikiFile": "Boundary_Banker_Player_Card_Icon.png",
+      "version": "bd0896",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 29710
+    },
+    {
       "url": "/images/v1/player-cards/camo-cloak.bb6dfa03.webp",
       "wikiFile": "Camo_Cloak_Player_Card.png",
       "version": "43cecb",
@@ -4751,6 +4814,15 @@
       "width": 276,
       "height": 512,
       "bytes": 11060
+    },
+    {
+      "url": "/images/v1/player-cards/mimetic-mesh.562b6898.webp",
+      "wikiFile": "Mimetic_Mesh_Player_Card_Icon.png",
+      "version": "f44695",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 23362
     },
     {
       "url": "/images/v1/player-cards/mirandas-legacy.fdebedb1.webp",
@@ -6814,13 +6886,13 @@
       "bytes": 56116
     },
     {
-      "url": "/images/v1/warbonds/scope-of-authority.d9e90b26.webp",
+      "url": "/images/v1/warbonds/scope-of-authority.971043df.webp",
       "wikiFile": "Scope_of_Authority_Premium_Warbond_Cover.png",
-      "version": "eb67e0",
+      "version": "9ad864",
       "rendition": "cover",
       "width": 1024,
       "height": 562,
-      "bytes": 97382
+      "bytes": 100918
     },
     {
       "url": "/images/v1/warbonds/servants-of-freedom.e6bfbd64.webp",
@@ -7091,6 +7163,15 @@
       "width": 512,
       "height": 512,
       "bytes": 13172
+    },
+    {
+      "url": "/images/v1/weapons/g-11-caltrops.fbcc95ee.webp",
+      "wikiFile": "G-11_Caltrops_Throwable_Render.png",
+      "version": "a67b12",
+      "rendition": "render",
+      "width": 512,
+      "height": 317,
+      "bytes": 38294
     },
     {
       "url": "/images/v1/weapons/g-12-high-explosive.88e191a4.webp",
@@ -7489,6 +7570,15 @@
       "bytes": 6916
     },
     {
+      "url": "/images/v1/weapons/p-44-mist.c421216e.webp",
+      "wikiFile": "P-44_Mist_Secondary_Render.png",
+      "version": "8a61cf",
+      "rendition": "render",
+      "width": 512,
+      "height": 233,
+      "bytes": 17740
+    },
+    {
       "url": "/images/v1/weapons/p-69-veto.e05a5301.webp",
       "wikiFile": "P-69_Veto_Secondary_Icon.png",
       "version": "e02465",
@@ -7595,6 +7685,15 @@
       "width": 512,
       "height": 288,
       "bytes": 10324
+    },
+    {
+      "url": "/images/v1/weapons/r-40-sightliner.f6f6e8af.webp",
+      "wikiFile": "R-40_Sightliner_Primary_Render.png",
+      "version": "1d243b",
+      "rendition": "render",
+      "width": 512,
+      "height": 118,
+      "bytes": 13378
     },
     {
       "url": "/images/v1/weapons/r-6-deadeye.405ad6ee.webp",
@@ -8082,6 +8181,10 @@
     {
       "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
       "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/warbonds/scope-of-authority.d9e90b26.webp",
+      "since": "2026-10-14"
     },
     {
       "url": "/images/v1/weapons/ar-11-arbitrator.9a7e3dbf.webp",
