@@ -156,6 +156,135 @@ describe("runSmoke", () => {
     expect(calls.filter((path) => path === "/v1/meta.json")).toHaveLength(3);
   });
 
+  it("waits when openapi and query still serve the previous version after meta converges", async () => {
+    let openapi = 0;
+    let query = 0;
+    const { deps, calls, lines } = site({
+      "/v1/openapi.json": () =>
+        json({ openapi: "3.1.0", "x-data-version": openapi++ === 0 ? "old" : VERSION }),
+      "/v1/query/weapons?category=primary": (init) => {
+        if (new Headers(init?.headers).has("if-none-match"))
+          return new Response(null, { status: 304 });
+        const version = query++ === 0 ? "old" : VERSION;
+        return json(
+          { meta: { total: 54 } },
+          { "x-data-version": version, etag: `W/"${version}-0123456789abcdef"`, ...tierOf(init) },
+        );
+      },
+    });
+    expect(await runSmoke(options, deps)).toEqual([]);
+    expect(calls.filter((path) => path === "/v1/openapi.json")).toHaveLength(2);
+    expect(calls.filter((path) => path === "/v1/query/weapons?category=primary")).toHaveLength(3);
+    expect(lines.filter((line) => line.startsWith("wait"))).toHaveLength(2);
+    expect(lines.some((line) => line.startsWith("FAIL"))).toBe(false);
+  });
+
+  it("retries conditional 200 responses and then requires 304 for item and query", async () => {
+    let itemRevalidations = 0;
+    let queryRevalidations = 0;
+    const { deps, calls } = site({
+      "/v1/weapons/ar-23-liberator.json": (init) =>
+        new Headers(init?.headers).has("if-none-match")
+          ? itemRevalidations++ === 0
+            ? json({ data: {} })
+            : new Response(null, { status: 304 })
+          : json(
+              { data: { image: { url: IMAGE } } },
+              { etag: '"abc"', "cache-control": "public, max-age=300" },
+            ),
+      "/v1/query/weapons?category=primary": (init) =>
+        new Headers(init?.headers).has("if-none-match")
+          ? queryRevalidations++ === 0
+            ? json({ meta: { total: 54 } })
+            : new Response(null, { status: 304 })
+          : json(
+              { meta: { total: 54 } },
+              {
+                "x-data-version": VERSION,
+                etag: `W/"${VERSION}-0123456789abcdef"`,
+                ...tierOf(init),
+              },
+            ),
+    });
+    expect(await runSmoke(options, deps)).toEqual([]);
+    expect(calls.filter((path) => path === "/v1/weapons/ar-23-liberator.json")).toHaveLength(4);
+    expect(calls.filter((path) => path === "/v1/query/weapons?category=primary")).toHaveLength(4);
+  });
+
+  it("fails persistent propagation within one shared deadline", async () => {
+    let meta = 0;
+    const { deps, calls } = site({
+      "/v1/meta.json": () =>
+        json(
+          { dataVersion: meta++ === 0 ? "old" : VERSION },
+          { "x-data-version": VERSION, "x-build-id": BUILD },
+        ),
+      "/v1/openapi.json": () => json({ openapi: "3.1.0", "x-data-version": "old" }),
+      "/v1/query/weapons?category=primary": (init) =>
+        new Headers(init?.headers).has("if-none-match")
+          ? json({ meta: { total: 54 } })
+          : json(
+              { meta: { total: 54 } },
+              {
+                "x-data-version": VERSION,
+                etag: `W/"${VERSION}-0123456789abcdef"`,
+                ...tierOf(init),
+              },
+            ),
+    });
+    expect(await runSmoke({ ...options, waitMs: 20_000 }, deps)).toEqual([
+      "openapi: x-data-version old",
+      "query + revalidation: revalidation HTTP 200",
+    ]);
+    expect(calls.filter((path) => path === "/v1/openapi.json")).toHaveLength(2);
+    expect(calls.filter((path) => path === "/v1/query/weapons?category=primary")).toHaveLength(2);
+  });
+
+  it("times out persistent item revalidation and query version mismatches", async () => {
+    const item = site({
+      "/v1/weapons/ar-23-liberator.json": (init) =>
+        new Headers(init?.headers).has("if-none-match")
+          ? json({ data: {} })
+          : json(
+              { data: { image: { url: IMAGE } } },
+              { etag: '"abc"', "cache-control": "public, max-age=300" },
+            ),
+    });
+    expect(await runSmoke({ ...options, waitMs: 20_000 }, item.deps)).toEqual([
+      "item + revalidation: revalidation HTTP 200",
+    ]);
+    expect(item.calls.filter((path) => path === "/v1/weapons/ar-23-liberator.json")).toHaveLength(
+      6,
+    );
+
+    const query = site({
+      "/v1/query/weapons?category=primary": (init) =>
+        json(
+          { meta: { total: 54 } },
+          { "x-data-version": "old", etag: 'W/"old-0123456789abcdef"', ...tierOf(init) },
+        ),
+    });
+    expect(await runSmoke({ ...options, waitMs: 20_000 }, query.deps)).toEqual([
+      `query + revalidation: x-data-version: expected ${VERSION}, got old`,
+    ]);
+    expect(
+      query.calls.filter((path) => path === "/v1/query/weapons?category=primary"),
+    ).toHaveLength(3);
+  });
+
+  it("does not retry a structural error", async () => {
+    const { deps, calls } = site({
+      "/v1/openapi.json": () => json({ openapi: "2.0.0", "x-data-version": "old" }),
+      "/v1/query/weapons?category=primary": () => json({ error: true }, {}, 500),
+    });
+    expect(await runSmoke(options, deps)).toEqual([
+      "openapi: openapi 2.0.0",
+      "query + revalidation: HTTP 500",
+    ]);
+    expect(calls.filter((path) => path === "/v1/openapi.json")).toHaveLength(1);
+    expect(calls.filter((path) => path === "/v1/query/weapons?category=primary")).toHaveLength(1);
+  });
+
   it("gives up after the wait and keeps checking the rest", async () => {
     const { deps } = site({ "/v1/meta.json": () => json({ dataVersion: "2026-09-16.00000000" }) });
     expect(await runSmoke({ ...options, waitMs: 30_000 }, deps)).toEqual([

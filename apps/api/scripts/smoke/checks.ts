@@ -29,6 +29,7 @@ export const BAD_KEY = `hd2_000000000000_${"A".repeat(43)}`;
 const PROBLEM_SLUGS = Object.keys(PROBLEM_TYPES);
 
 class CheckError extends Error {}
+class PropagationError extends CheckError {}
 
 function expect(condition: unknown, message: string): asserts condition {
   if (!condition) throw new CheckError(message);
@@ -45,6 +46,7 @@ function expectHeader(response: Response, name: string, expected: string | RegEx
 export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<string[]> {
   const base = options.base.replace(/\/+$/, "");
   const failures: string[] = [];
+  const deadline = deps.now() + options.waitMs;
 
   const request = async (path: string, init: RequestInit = {}) => {
     const started = deps.now();
@@ -58,7 +60,18 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
 
   const check = async (name: string, run: () => Promise<string>) => {
     try {
-      const detail = await run();
+      let detail: string;
+      for (;;) {
+        try {
+          detail = await run();
+          break;
+        } catch (error) {
+          if (!(error instanceof PropagationError) || deps.now() + options.retryMs > deadline)
+            throw error;
+          deps.log(`wait  ${name} · ${error.message}`);
+          await deps.sleep(options.retryMs);
+        }
+      }
       deps.log(`ok    ${name} · ${detail}`);
     } catch (error) {
       const reason = error instanceof Error ? error.message : String(error);
@@ -78,28 +91,22 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
   // Waits for the deployment under test, then checks it. A code- or docs-only deploy keeps the
   // dataVersion, so the build id is what tells the new deployment from the one it replaces.
   await check("meta", async () => {
-    const deadline = deps.now() + options.waitMs;
     const gateBuild = options.buildId !== "dev";
-    for (;;) {
-      const { response, ms } = await request("/v1/meta.json");
-      const body = response.ok ? ((await response.json()) as { dataVersion?: string }) : {};
-      const served = response.headers.get("x-build-id");
-      const stale: string[] = [];
-      if (body.dataVersion !== options.dataVersion) {
-        stale.push(`dataVersion ${body.dataVersion ?? `HTTP ${response.status}`}`);
-      }
-      if (gateBuild && served !== options.buildId) stale.push(`build ${served ?? "none"}`);
-      if (stale.length === 0) {
-        expectHeader(response, "access-control-allow-origin", "*");
-        expectHeader(response, "x-data-version", options.dataVersion);
-        return `${response.status} ${options.dataVersion} ${ms} ms`;
-      }
-      expect(
-        deps.now() + options.retryMs <= deadline,
+    const { response, ms } = await request("/v1/meta.json");
+    const body = response.ok ? ((await response.json()) as { dataVersion?: string }) : {};
+    const served = response.headers.get("x-build-id");
+    const stale: string[] = [];
+    if (body.dataVersion !== options.dataVersion) {
+      stale.push(`dataVersion ${body.dataVersion ?? `HTTP ${response.status}`}`);
+    }
+    if (gateBuild && served !== options.buildId) stale.push(`build ${served ?? "none"}`);
+    if (stale.length > 0)
+      throw new PropagationError(
         `${stale.join(", ")}, expected ${options.dataVersion}${gateBuild ? ` · ${options.buildId}` : ""}`,
       );
-      await deps.sleep(options.retryMs);
-    }
+    expectHeader(response, "access-control-allow-origin", "*");
+    expectHeader(response, "x-data-version", options.dataVersion);
+    return `${response.status} ${options.dataVersion} ${ms} ms`;
   });
 
   await check("item + revalidation", async () => {
@@ -111,6 +118,10 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     expect(etag, "no ETag");
     item = (await response.json()) as typeof item;
     const revalidated = await request(ITEM_PATH, { headers: { "If-None-Match": etag } });
+    if (revalidated.response.status === 200) {
+      await revalidated.response.body?.cancel();
+      throw new PropagationError("revalidation HTTP 200");
+    }
     expect(revalidated.response.status === 304, `revalidation HTTP ${revalidated.response.status}`);
     return `200 ${ms} ms · 304 ${revalidated.ms} ms`;
   });
@@ -168,10 +179,9 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     expect(response.status === 200, `HTTP ${response.status}`);
     const body = (await response.json()) as { openapi?: string; "x-data-version"?: string };
     expect(body.openapi === "3.1.0", `openapi ${body.openapi}`);
-    expect(
-      body["x-data-version"] === options.dataVersion,
-      `x-data-version ${body["x-data-version"]}`,
-    );
+    expect(body["x-data-version"], "x-data-version undefined");
+    if (body["x-data-version"] !== options.dataVersion)
+      throw new PropagationError(`x-data-version ${body["x-data-version"]}`);
     return `200 ${ms} ms`;
   });
 
@@ -180,7 +190,14 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     const { response, ms } = await request(path, { headers: auth });
     expect(response.status === 200, `HTTP ${response.status}`);
     expectHeader(response, "access-control-allow-origin", "*");
-    expectHeader(response, "x-data-version", options.dataVersion);
+    const servedVersion = response.headers.get("x-data-version");
+    expect(servedVersion, `x-data-version: expected ${options.dataVersion}, got none`);
+    if (servedVersion !== options.dataVersion) {
+      await response.body?.cancel();
+      throw new PropagationError(
+        `x-data-version: expected ${options.dataVersion}, got ${servedVersion}`,
+      );
+    }
     expectHeader(response, "x-api-tier", tier);
     expectHeader(
       response,
@@ -203,6 +220,10 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
     const revalidated = await request(path, {
       headers: { ...auth, "If-None-Match": response.headers.get("etag") ?? "" },
     });
+    if (revalidated.response.status === 200) {
+      await revalidated.response.body?.cancel();
+      throw new PropagationError("revalidation HTTP 200");
+    }
     expect(revalidated.response.status === 304, `revalidation HTTP ${revalidated.response.status}`);
     return `200 ${body.meta.total} items ${ms} ms · 304 ${revalidated.ms} ms`;
   });
