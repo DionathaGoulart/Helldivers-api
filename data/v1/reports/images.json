@@ -5284,6 +5284,15 @@
       "bytes": 2180
     },
     {
+      "url": "/images/v1/stratagems/amw-20-apex.5306e20e.webp",
+      "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg",
+      "version": "255891",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 2542
+    },
+    {
       "url": "/images/v1/stratagems/apw-1-anti-materiel-rifle.c8291f72.webp",
       "wikiFile": "Anti-Materiel_Rifle_Stratagem_Icon_Background.svg",
       "version": "37652d",
@@ -5687,6 +5696,15 @@
       "width": 256,
       "height": 256,
       "bytes": 2180
+    },
+    {
+      "url": "/images/v1/stratagems/las-44-nova.5306e20e.webp",
+      "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg",
+      "version": "255891",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 2542
     },
     {
       "url": "/images/v1/stratagems/las-98-laser-cannon.22750656.webp",

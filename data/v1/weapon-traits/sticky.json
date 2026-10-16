@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-14.5421da88",
-    "generatedAt": "2026-10-14T23:53:10Z",
+    "dataVersion": "2026-10-15.c7eda2e1",
+    "generatedAt": "2026-10-15T23:39:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -19,9 +19,7 @@
     "wiki": {
       "title": "Equipment Traits",
       "url": "https://helldivers.wiki.gg/wiki/Equipment_Traits#Sticky",
-      "flags": [
-        "broken_file_links"
-      ]
+      "flags": []
     },
     "weaponIds": [
       "g-109-urchin",

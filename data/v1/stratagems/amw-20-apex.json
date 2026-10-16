@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-14.5421da88",
-    "generatedAt": "2026-10-14T23:53:10Z",
+    "dataVersion": "2026-10-15.c7eda2e1",
+    "generatedAt": "2026-10-15T23:39:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -15,7 +15,12 @@
     "upcoming": true,
     "aliases": [],
     "description": "The AMW-20 Apex is a Support Weapon that deploys a high-powered anti-materiel rifle equipped with explosive rounds.",
-    "image": null,
+    "image": {
+      "url": "/images/v1/stratagems/amw-20-apex.5306e20e.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg"
+    },
     "wiki": {
       "title": "AMW-20 Apex",
       "url": "https://helldivers.wiki.gg/wiki/AMW-20_Apex",

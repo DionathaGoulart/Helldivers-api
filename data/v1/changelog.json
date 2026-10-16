@@ -1,15 +1,266 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-14.5421da88",
-    "generatedAt": "2026-10-14T23:53:10Z",
-    "count": 25,
+    "dataVersion": "2026-10-15.c7eda2e1",
+    "generatedAt": "2026-10-15T23:39:39Z",
+    "count": 26,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-15.c7eda2e1",
+      "date": "2026-10-15",
+      "summary": {
+        "added": 0,
+        "changed": 30,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "amw-20-apex",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "changed",
+          "paths": [
+            "image"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "anti-tank",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "arc",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "backpack",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "beam",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "caustic",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "chargeup",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "eagle",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "expendable",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "explosive",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "guided",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heat",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heavy-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "hellpod",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "incendiary",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "light-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "medium-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "melee",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "one-handed",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "orbital",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "rounds-reload",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sentry",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stationary-reload",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "sticky",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stimulative",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "stun",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "support-weapon",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "suppressed",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "vehicle",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-14.5421da88",
       "date": "2026-10-14",
