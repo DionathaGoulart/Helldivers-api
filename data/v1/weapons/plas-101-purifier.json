@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-16.2200dd9b",
-    "generatedAt": "2026-10-16T23:29:39Z",
+    "dataVersion": "2026-10-17.a04898ee",
+    "generatedAt": "2026-10-17T23:02:20Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -189,7 +189,7 @@
       "Supply Box Refill": "6",
       "Ammo Box Refill": "3",
       "Ergonomics": "65",
-      "Recoil": "20",
+      "Recoil": "16",
       "Reload Time": "2.5s",
       "Tactical Reload Time": "2.5s",
       "PLAS-101 PURIFIER › Fire Rate": "1000 rpm",

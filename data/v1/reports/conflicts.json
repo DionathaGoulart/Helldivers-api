@@ -918,25 +918,6 @@
     },
     {
       "collection": "weapons",
-      "id": "arc-12-blitzer",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 45,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
-          "location": "infobox › Recoil",
-          "value": 60
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/ARC-12_Blitzer",
-          "location": "ARC-12 BLITZER › Recoil",
-          "value": 45
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
       "id": "br-14-adjudicator",
       "field": "firearm.recoil",
       "rule": 2,
@@ -964,7 +945,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
           "location": "infobox › Recoil",
-          "value": 35
+          "value": 26
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/CB-9_Exploding_Crossbow",
@@ -1002,7 +983,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
           "location": "infobox › Recoil",
-          "value": 2
+          "value": 1
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
@@ -1040,7 +1021,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
           "location": "infobox › Recoil",
-          "value": 43
+          "value": 31
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/GP-20_Ultimatum",
@@ -1059,7 +1040,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
           "location": "infobox › Recoil",
-          "value": 43
+          "value": 31
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/GP-31_Grenade_Pistol",
@@ -1078,7 +1059,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
           "location": "infobox › Recoil",
-          "value": 75
+          "value": 58
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/JAR-5_Dominator",
@@ -1515,7 +1496,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
           "location": "infobox › Recoil",
-          "value": 15
+          "value": 14
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/P-19_Redeemer",
@@ -1534,7 +1515,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
           "location": "infobox › Recoil",
-          "value": 23
+          "value": 20
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/P-2_Peacemaker",
@@ -1591,7 +1572,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/P-4_Senator",
           "location": "infobox › Recoil",
-          "value": 43
+          "value": 31
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/P-4_Senator",
@@ -1686,7 +1667,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
           "location": "infobox › Recoil",
-          "value": 3
+          "value": 2
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/P-72_Crisper",
@@ -1743,7 +1724,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
           "location": "infobox › Recoil",
-          "value": 20
+          "value": 16
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/PLAS-1_Scorcher",
@@ -1762,7 +1743,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
           "location": "infobox › Recoil",
-          "value": 20
+          "value": 16
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/PLAS-101_Purifier",
@@ -1800,7 +1781,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
           "location": "infobox › Recoil",
-          "value": 8
+          "value": 6
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/PLAS-15_Loyalist",
@@ -1857,7 +1838,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
           "location": "infobox › Recoil",
-          "value": 75
+          "value": 58
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/R-36_Eruptor",
@@ -2047,7 +2028,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
           "location": "infobox › Recoil",
-          "value": 170
+          "value": 108
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
@@ -2161,7 +2142,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",
           "location": "infobox › Recoil",
-          "value": 110
+          "value": 78
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-8P_Punisher_Plasma",

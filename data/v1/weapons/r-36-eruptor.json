@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-16.2200dd9b",
-    "generatedAt": "2026-10-16T23:29:39Z",
+    "dataVersion": "2026-10-17.a04898ee",
+    "generatedAt": "2026-10-17T23:02:20Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -165,7 +165,7 @@
       "Supply Box Refill": "6",
       "Ammo Box Refill": "3",
       "Ergonomics": "25",
-      "Recoil": "75",
+      "Recoil": "58",
       "Reload Time": "4.67s",
       "Tactical Reload Time": "2.75s / 1.4s (Just Rechambering)",
       "R-36 ERUPTOR › Fire Rate": "32 rpm",

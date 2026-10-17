@@ -1,15 +1,250 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-16.2200dd9b",
-    "generatedAt": "2026-10-16T23:29:39Z",
-    "count": 27,
+    "dataVersion": "2026-10-17.a04898ee",
+    "generatedAt": "2026-10-17T23:02:20Z",
+    "count": 28,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-17.a04898ee",
+      "date": "2026-10-17",
+      "summary": {
+        "added": 0,
+        "changed": 17,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "arc-12-blitzer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cb-9-exploding-crossbow",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "flam-66-torcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-20-ultimatum",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-31-grenade-pistol",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "jar-5-dominator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-19-redeemer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-2-peacemaker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-4-senator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-72-crisper",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-1-scorcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-101-purifier",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-15-loyalist",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-36-eruptor",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-22-bushwhacker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8p-punisher-plasma",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-ac-8-autocannon-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].name",
+            "attacks[0].damage.type",
+            "attacks[1].name",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Main Health\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Main Armor\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Fire Rate\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Recoil\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Horizontal Recoil\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Vertical Recoil\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Spread\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Sway\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Ergonomics\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › Capacity\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › 40mm APHE CANNON P\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › SWP AUTOCANNON SENTRY › 40mm APHE CANNON P IE\"]",
+            "statsRaw[\"40mm APHE CANNON P › Projectile › Mass\"]",
+            "statsRaw[\"40mm APHE CANNON P › Projectile › Initial Velocity\"]",
+            "statsRaw[\"40mm APHE CANNON P › Projectile › Drag Factor\"]",
+            "statsRaw[\"40mm APHE CANNON P › Projectile › Gravity Factor\"]",
+            "statsRaw[\"40mm APHE CANNON P › Projectile › Penetration Slowdown\"]",
+            "statsRaw[\"40mm APHE CANNON P › Projectile › Explosion On Impact\"]",
+            "statsRaw[\"40mm APHE CANNON P › Damage › Standard\"]",
+            "statsRaw[\"40mm APHE CANNON P › Damage › vs. Durable\"]",
+            "statsRaw[\"40mm APHE CANNON P › Penetration › Direct\"]",
+            "statsRaw[\"40mm APHE CANNON P › Penetration › Slight Angle\"]",
+            "statsRaw[\"40mm APHE CANNON P › Penetration › Large Angle\"]",
+            "statsRaw[\"40mm APHE CANNON P › Penetration › Extreme Angle\"]",
+            "statsRaw[\"40mm APHE CANNON P › Special Effects › Demolition Force\"]",
+            "statsRaw[\"40mm APHE CANNON P › Special Effects › Stagger Force\"]",
+            "statsRaw[\"40mm APHE CANNON P › Special Effects › Push Force\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Area of Effect › Inner Radius\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Area of Effect › Outer Radius\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Area of Effect › Shockwave Radius\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Damage › Damage Element\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Damage › Inner Radius\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Damage › Inner Durable\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Damage › Outer Radius\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Damage › Outer Durable\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › Penetration › Shockwave AP\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › AoE Effect › Demolition Force\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › AoE Effect › Stagger Force\"]",
+            "statsRaw[\"40mm APHE CANNON P IE › AoE Effect › Push Force\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Main Health\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Main Armor\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Fire Rate\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Recoil\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Horizontal Recoil\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Vertical Recoil\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Spread\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Sway\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Ergonomics\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Noise When Firing\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Capacity\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Turret Turn Speed\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Elevation Range\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › Traverse Range\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › A/AC-8 P\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › AUTOCANNON SENTRY › A/AC-8 P IE\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Mass\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Initial Velocity\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Gravity Factor\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Penetration Slowdown\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Explosion On Impact\"]",
+            "statsRaw[\"A/AC-8 P › Damage › Standard\"]",
+            "statsRaw[\"A/AC-8 P › Damage › vs. Durable\"]",
+            "statsRaw[\"A/AC-8 P › Penetration › Direct\"]",
+            "statsRaw[\"A/AC-8 P › Penetration › Slight Angle\"]",
+            "statsRaw[\"A/AC-8 P › Penetration › Large Angle\"]",
+            "statsRaw[\"A/AC-8 P › Penetration › Extreme Angle\"]",
+            "statsRaw[\"A/AC-8 P › Special Effects › Demolition Force\"]",
+            "statsRaw[\"A/AC-8 P › Special Effects › Stagger Force\"]",
+            "statsRaw[\"A/AC-8 P › Special Effects › Push Force\"]",
+            "statsRaw[\"A/AC-8 P IE › Area of Effect › Inner Radius\"]",
+            "statsRaw[\"A/AC-8 P IE › Area of Effect › Outer Radius\"]",
+            "statsRaw[\"A/AC-8 P IE › Area of Effect › Shockwave Radius\"]",
+            "statsRaw[\"A/AC-8 P IE › Damage › Damage Element\"]",
+            "statsRaw[\"A/AC-8 P IE › Damage › Inner Radius\"]",
+            "statsRaw[\"A/AC-8 P IE › Damage › Inner Durable\"]",
+            "statsRaw[\"A/AC-8 P IE › Damage › Outer Radius\"]",
+            "statsRaw[\"A/AC-8 P IE › Damage › Outer Durable\"]",
+            "statsRaw[\"A/AC-8 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"A/AC-8 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"A/AC-8 P IE › Penetration › Shockwave AP\"]",
+            "statsRaw[\"A/AC-8 P IE › AoE Effect › Demolition Force\"]",
+            "statsRaw[\"A/AC-8 P IE › AoE Effect › Stagger Force\"]",
+            "statsRaw[\"A/AC-8 P IE › AoE Effect › Push Force\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-16.2200dd9b",
       "date": "2026-10-16",

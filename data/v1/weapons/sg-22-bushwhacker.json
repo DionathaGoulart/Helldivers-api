@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-16.2200dd9b",
-    "generatedAt": "2026-10-16T23:29:39Z",
+    "dataVersion": "2026-10-17.a04898ee",
+    "generatedAt": "2026-10-17T23:02:20Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -110,7 +110,7 @@
       "Capacity": "3",
       "Spare Rounds": "30",
       "Ergonomics": "65",
-      "Recoil": "170",
+      "Recoil": "108",
       "Rounds Reload Full Time": "1.75s",
       "Reload Time For One Round": "1.1s",
       "Reload Time for >1 Round": "0.3s",
