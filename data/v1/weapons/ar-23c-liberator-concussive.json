@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -108,7 +108,7 @@
       "Capacity": "60",
       "Spare Mags": "6",
       "Ergonomics": "65",
-      "Recoil": "28",
+      "Recoil": "22",
       "Reload Time": "3.5s",
       "AR-23C LIBERATOR CONCUSSIVE › Fire Rate": "400 rpm",
       "AR-23C LIBERATOR CONCUSSIVE › Recoil": "22.25",

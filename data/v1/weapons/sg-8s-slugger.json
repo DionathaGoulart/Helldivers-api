@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -110,7 +110,7 @@
       "Supply Box Refill": "60",
       "Ammo Box Refill": "30",
       "Ergonomics": "65",
-      "Recoil": "120",
+      "Recoil": "83",
       "Rounds Reload Full Time": "6.45s",
       "Reload Time For One Round": "1.25s (Empty) / 0.4s (Partial)",
       "Reload Time for >1 Round": "0.33s",

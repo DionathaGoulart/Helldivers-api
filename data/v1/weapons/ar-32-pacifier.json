@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -132,7 +132,7 @@
       "Capacity": "40",
       "Spare Mags": "8",
       "Ergonomics": "60",
-      "Recoil": "18",
+      "Recoil": "14",
       "Reload Time": "3s",
       "Tactical Reload Time": "1.85s",
       "AR-32 PACIFIER › Fire Rate": "700 rpm",

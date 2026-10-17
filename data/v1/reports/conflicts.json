@@ -793,31 +793,12 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
           "location": "infobox › Recoil",
-          "value": 14
+          "value": 11
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/AR-23_Liberator",
           "location": "AR-23 LIBERATOR › Recoil",
           "value": 10.5
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "ar-23a-liberator-carbine",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 18,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
-          "location": "infobox › Recoil",
-          "value": 26
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/AR-23A_Liberator_Carbine",
-          "location": "AR-23A LIBERATOR CARBINE › Recoil",
-          "value": 18
         }
       ]
     },
@@ -831,7 +812,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
           "location": "infobox › Recoil",
-          "value": 28
+          "value": 22
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/AR-23C_Liberator_Concussive",
@@ -869,7 +850,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
           "location": "infobox › Recoil",
-          "value": 18
+          "value": 14
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/AR-32_Pacifier",
@@ -1173,7 +1154,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
           "location": "infobox › Recoil",
-          "value": 4
+          "value": 2
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/LAS-13_Trident",
@@ -1477,7 +1458,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
           "location": "infobox › Recoil",
-          "value": 15
+          "value": 12
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/MP-98_Knight",
@@ -1857,31 +1838,12 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
           "location": "infobox › Recoil",
-          "value": 20
+          "value": 29
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
           "location": "R-2 AMENDMENT › Recoil",
           "value": 28.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "r-2124-constitution",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 30,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
-          "location": "infobox › Recoil",
-          "value": 15
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-2124_Constitution",
-          "location": "R-2124 CONSTITUTION › Recoil",
-          "value": 30
         }
       ]
     },
@@ -1952,7 +1914,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
           "location": "infobox › Recoil",
-          "value": 120
+          "value": 83
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/R-6_Deadeye",
@@ -1971,7 +1933,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
           "location": "infobox › Recoil",
-          "value": 35
+          "value": 26
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/R-63_Diligence",
@@ -2002,25 +1964,6 @@
     {
       "collection": "weapons",
       "id": "r-63cs-diligence-counter-sniper",
-      "field": "firearm.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 8,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
-          "location": "infobox › Supply Box Refill",
-          "value": 6
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
-          "location": "R-63CS DILIGENCE COUNTER SNIPER › Mags from Supply",
-          "value": 8
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "r-63cs-diligence-counter-sniper",
       "field": "firearm.recoil",
       "rule": 2,
       "chosen": 40,
@@ -2028,7 +1971,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
           "location": "infobox › Recoil",
-          "value": 53
+          "value": 33
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/R-63CS_Diligence_Counter_Sniper",
@@ -2123,7 +2066,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
           "location": "infobox › Recoil",
-          "value": 55
+          "value": 43
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
@@ -2199,7 +2142,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
           "location": "infobox › Recoil",
-          "value": 120
+          "value": 83
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
@@ -2237,7 +2180,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
           "location": "infobox › Recoil",
-          "value": 120
+          "value": 83
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SG-8S_Slugger",
@@ -2332,7 +2275,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
           "location": "infobox › Recoil",
-          "value": 10
+          "value": 9
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SMG-37_Defender",
@@ -2351,7 +2294,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
           "location": "infobox › Recoil",
-          "value": 10
+          "value": 9
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/SMG-72_Pummeler",
@@ -2389,7 +2332,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
           "location": "infobox › Recoil",
-          "value": 13
+          "value": 11
         },
         {
           "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",

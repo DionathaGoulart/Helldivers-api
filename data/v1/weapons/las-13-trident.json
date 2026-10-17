@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -31,8 +31,8 @@
     "category": "primary",
     "subcategory": "energy_based",
     "traitIds": [
-      "heat",
-      "light-armor-penetrating"
+      "light-armor-penetrating",
+      "heat"
     ],
     "firearm": {
       "firingModes": [
@@ -93,7 +93,7 @@
       "Weapon Category": "Primary Weapons",
       "Weapon Type": "Energy-Based",
       "Firing Modes": "Auto",
-      "Traits": "Heat • Light Armor Penetrating",
+      "Traits": "Light Armor Penetrating • Heat",
       "Standard Damage": "360 Laser",
       "Armor Penetration": "Light",
       "Fire Rate": "300 rpm",
@@ -103,7 +103,7 @@
       "Supply Box Refill": "3",
       "Ammo Box Refill": "2",
       "Ergonomics": "65",
-      "Recoil": "4",
+      "Recoil": "2",
       "Reload Time": "2.9s",
       "Tactical Reload Time": "3.67s",
       "LAS-13 TRIDENT › Recoil": "1.75",

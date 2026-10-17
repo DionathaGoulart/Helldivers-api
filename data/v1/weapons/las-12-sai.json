@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "LAS-12 Sai",
     "upcoming": false,
     "aliases": [],
-    "description": "The LAS-12 Sai is a Primary Energy-Based submachine gun with high damage and spread.",
+    "description": "The LAS-12 Sai is an Primary Energy-Based submachine gun with high damage output and significant spread.",
     "image": {
       "url": "/images/v1/weapons/las-12-sai.c1182999.webp",
       "width": 512,

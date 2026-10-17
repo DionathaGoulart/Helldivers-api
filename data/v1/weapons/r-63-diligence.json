@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "R-63 Diligence",
     "upcoming": false,
     "aliases": [],
-    "description": "The R-63 Diligence is a Primary Marksman Rifle that fires Light armor penetrating, but highly damaging shots.",
+    "description": "The R-63 Diligence is a Primary Marksman Rifle that fires high damage shots with great accuracy.",
     "image": {
       "url": "/images/v1/weapons/r-63-diligence.92ab1ff8.webp",
       "width": 512,
@@ -109,7 +109,7 @@
       "Supply Box Refill": "8",
       "Ammo Box Refill": "4",
       "Ergonomics": "65",
-      "Recoil": "35",
+      "Recoil": "26",
       "Reload Time": "2.83s",
       "Tactical Reload Time": "2.35s",
       "R-63 DILIGENCE › Fire Rate": "350 rpm",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -55,9 +55,9 @@
       "sway": 1,
       "ergonomics": 95,
       "reloadKind": "magazine",
-      "reloadTimeS": 2,
+      "reloadTimeS": 1.85,
       "reloadTimeUpgradedS": null,
-      "tacticalReloadTimeS": 2.45
+      "tacticalReloadTimeS": 2.8
     },
     "throwable": null,
     "melee": null,
@@ -119,8 +119,8 @@
       "Ammo Box Refill": "1",
       "Ergonomics": "95",
       "Recoil": "0",
-      "Reload Time": "2s",
-      "Tactical Reload Time": "2.45s",
+      "Reload Time": "1.85s",
+      "Tactical Reload Time": "2.8s",
       "LAS-7 DAGGER › Recoil": "0",
       "LAS-7 DAGGER › Horizontal Recoil": "0",
       "LAS-7 DAGGER › Vertical Recoil": "0",

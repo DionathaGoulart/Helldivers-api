@@ -1,15 +1,215 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
-    "count": 26,
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
+    "count": 27,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-16.2200dd9b",
+      "date": "2026-10-16",
+      "summary": {
+        "added": 0,
+        "changed": 22,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "scope-of-authority",
+          "kind": "changed",
+          "paths": [
+            "cost",
+            "superCreditsClaimable"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23-liberator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23a-liberator-carbine",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23c-liberator-concussive",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-32-pacifier",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-12-sai",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-13-trident",
+          "kind": "changed",
+          "paths": [
+            "traitIds[0]",
+            "traitIds[1]",
+            "statsRaw.Traits",
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-7-dagger",
+          "kind": "changed",
+          "paths": [
+            "firearm.reloadTimeS",
+            "firearm.tacticalReloadTimeS",
+            "statsRaw[\"Reload Time\"]",
+            "statsRaw[\"Tactical Reload Time\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "mp-98-knight",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2-amendment",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2124-constitution",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-6-deadeye",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63-diligence",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63cs-diligence-counter-sniper",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "statsRaw[\"Supply Box Refill\"]",
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225-breaker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8-punisher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8s-slugger",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-37-defender",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Firing Modes\"]",
+            "statsRaw.Recoil",
+            "statsRaw[\"Supply Box Refill\"]",
+            "statsRaw[\"Ammo Box Refill\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-72-pummeler",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-11-smg",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Recoil"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mimetic-mesh",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mimetic-mesh",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-15.c7eda2e1",
       "date": "2026-10-15",

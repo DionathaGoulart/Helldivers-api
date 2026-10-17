@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-15.c7eda2e1",
-    "generatedAt": "2026-10-15T23:39:39Z",
+    "dataVersion": "2026-10-16.2200dd9b",
+    "generatedAt": "2026-10-16T23:29:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -101,7 +101,7 @@
     "statsRaw": {
       "Weapon Category": "Primary Weapons",
       "Weapon Type": "Submachine Guns",
-      "Firing Modes": "Full • Semi • Burst",
+      "Firing Modes": "Auto • Semi • Burst",
       "Traits": "Light Armor Penetrating • One Handed",
       "Standard Damage": "110 Ballistic",
       "Armor Penetration": "Light",
@@ -109,8 +109,10 @@
       "DPS": "953.34",
       "Capacity": "45",
       "Spare Mags": "7",
+      "Supply Box Refill": "7",
+      "Ammo Box Refill": "3",
       "Ergonomics": "90",
-      "Recoil": "10",
+      "Recoil": "9",
       "Reload Time": "2.8s",
       "SMG-37 DEFENDER › Fire Rate": "520 rpm",
       "SMG-37 DEFENDER › Recoil": "8.75",
