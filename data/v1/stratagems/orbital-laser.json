@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -87,9 +87,9 @@
         "name": "ORBITAL LASER_DPS",
         "kind": "spray",
         "damage": {
-          "standard": 600,
-          "durable": 600,
-          "type": "Ballistic"
+          "standard": 599.999994,
+          "durable": 599.999994,
+          "type": "Damage"
         },
         "penetration": {
           "direct": "anti_tank_ii",
@@ -147,8 +147,8 @@
       "Orbital Laser › Movement Speed": "10 m/s",
       "Orbital Laser › Attacks › ORBITAL LASER_DPS": "Spray",
       "Orbital Laser › Attacks › Fire": "status",
-      "ORBITAL LASER_DPS › Damage › Standard": "600 Ballistic",
-      "ORBITAL LASER_DPS › Damage › vs. Durable": "600 Ballistic",
+      "ORBITAL LASER_DPS › Damage › Standard": "599.999994 Damage",
+      "ORBITAL LASER_DPS › Damage › vs. Durable": "599.999994 Damage",
       "ORBITAL LASER_DPS › Penetration › Direct": "Anti-Tank II",
       "ORBITAL LASER_DPS › Penetration › Slight Angle": "Anti-Tank II",
       "ORBITAL LASER_DPS › Penetration › Large Angle": "Anti-Tank II",

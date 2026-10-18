@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -33,8 +33,7 @@
     "category": null,
     "kind": "support_weapon",
     "traitIds": [
-      "support-weapon",
-      "hellpod"
+      "support-weapon"
     ],
     "code": [],
     "cooldownS": null,
@@ -70,33 +69,13 @@
         "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
       }
     ],
-    "supportWeapon": {
-      "firingModes": [],
-      "fireRateRpm": [],
-      "dps": [],
-      "capacity": null,
-      "spareMagazines": null,
-      "startingMagazines": null,
-      "magazinesFromSupply": null,
-      "magazinesFromAmmoBox": null,
-      "recoil": null,
-      "horizontalRecoil": null,
-      "verticalRecoil": null,
-      "spread": null,
-      "sway": null,
-      "ergonomics": null,
-      "reloadKind": "none",
-      "reloadTimeS": null,
-      "reloadTimeUpgradedS": null,
-      "tacticalReloadTimeS": null
-    },
+    "supportWeapon": null,
     "backpack": null,
     "attacks": [],
     "statsRaw": {
       "Permit Type": "Supply",
-      "Traits": "Support Weapon • Hellpod",
-      "Weapon Category": "Support Weapons",
-      "Weapon Type": "Heavy Energy-Based"
+      "Traits": "Support Weapon",
+      "Weapon Category": "Support Weapons"
     },
     "source": {
       "type": "warbond",

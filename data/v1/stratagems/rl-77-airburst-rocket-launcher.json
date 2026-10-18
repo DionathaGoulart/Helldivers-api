@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -83,33 +83,7 @@
         "effect": "All Support Weapons launch immediately once called in, reducing overall deployment time."
       }
     ],
-    "supportWeapon": {
-      "firingModes": [
-        "other"
-      ],
-      "fireRateRpm": [
-        600
-      ],
-      "dps": [],
-      "capacity": 1,
-      "spareMagazines": 5,
-      "startingMagazines": 5,
-      "magazinesFromSupply": 3,
-      "magazinesFromAmmoBox": 1,
-      "recoil": 77.5,
-      "horizontalRecoil": 45,
-      "verticalRecoil": 110,
-      "spread": {
-        "horizontal": 4,
-        "vertical": 4
-      },
-      "sway": 1,
-      "ergonomics": 10,
-      "reloadKind": "stationary",
-      "reloadTimeS": 5.1,
-      "reloadTimeUpgradedS": 4.6,
-      "tacticalReloadTimeS": null
-    },
+    "supportWeapon": null,
     "backpack": null,
     "attacks": [
       {
@@ -338,7 +312,6 @@
       "Traits": "Support Weapon • Backpack • Medium Armor Penetrating • Stationary Reload",
       "Base Cooldown": "480s",
       "Weapon Category": "Support Weapons",
-      "Weapon Type": "Rocket Launcher",
       "Firing Modes": "Cluster • Flak",
       "Standard Damage": "350 Ballistic (Rocket) / 150 Explosion 150 Ballistic(Bomblets / 500 Explosion x25)",
       "Armor Penetration": "Medium",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -82,12 +82,12 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "S P",
+        "name": "S P24",
         "kind": "projectile",
         "damage": {
           "standard": 300,
           "durable": 300,
-          "type": "Damage"
+          "type": "Ballistic"
         },
         "penetration": {
           "direct": "anti_tank_iii",
@@ -111,7 +111,7 @@
         }
       },
       {
-        "name": "S P IE",
+        "name": "S P5 IE",
         "kind": "explosion",
         "damage": {
           "standard": null,
@@ -154,27 +154,27 @@
       "Orbital Smoke Strike › Bombs": "1",
       "Orbital Smoke Strike › Salvos": "6",
       "Orbital Smoke Strike › Bombardment Area Size": "15 m",
-      "Orbital Smoke Strike › Attacks › S P": "Projectile",
-      "Orbital Smoke Strike › Attacks › S P IE": "Explosion",
-      "S P › Projectile › Mass": "5 kg",
-      "S P › Projectile › Initial Velocity": "400 m/s",
-      "S P › Projectile › Drag Factor": "0%",
-      "S P › Projectile › Gravity Factor": "100%",
-      "S P › Projectile › Penetration Slowdown": "25%",
-      "S P › Projectile › Explosion On Impact": "S_P_IE",
-      "S P › Damage › Standard": "300 Damage",
-      "S P › Damage › vs. Durable": "300 Damage",
-      "S P › Penetration › Direct": "Anti-Tank III",
-      "S P › Penetration › Slight Angle": "Anti-Tank III",
-      "S P › Penetration › Large Angle": "Anti-Tank II",
-      "S P › Penetration › Extreme Angle": "Anti-Tank II",
-      "S P › Special Effects › Demolition Force": "50",
-      "S P › Special Effects › Stagger Force": "60",
-      "S P › Special Effects › Push Force": "15",
-      "S P IE › Area of Effect › Inner Radius": "12 m",
-      "S P IE › Area of Effect › Outer Radius": "12 m",
-      "S P IE › Area of Effect › Shockwave Radius": "0 m",
-      "S P IE › Area of Effect › AoE Duration": "30 s"
+      "Orbital Smoke Strike › Attacks › S P24": "Projectile",
+      "Orbital Smoke Strike › Attacks › S P5 IE": "Explosion",
+      "S P24 › Projectile › Mass": "5 kg",
+      "S P24 › Projectile › Initial Velocity": "400 m/s",
+      "S P24 › Projectile › Drag Factor": "0%",
+      "S P24 › Projectile › Gravity Factor": "100%",
+      "S P24 › Projectile › Penetration Slowdown": "25%",
+      "S P24 › Projectile › Explosion On Impact": "S_P5_IE",
+      "S P24 › Damage › Standard": "300 Ballistic",
+      "S P24 › Damage › vs. Durable": "300 Ballistic",
+      "S P24 › Penetration › Direct": "Anti-Tank III",
+      "S P24 › Penetration › Slight Angle": "Anti-Tank III",
+      "S P24 › Penetration › Large Angle": "Anti-Tank II",
+      "S P24 › Penetration › Extreme Angle": "Anti-Tank II",
+      "S P24 › Special Effects › Demolition Force": "50",
+      "S P24 › Special Effects › Stagger Force": "60",
+      "S P24 › Special Effects › Push Force": "15",
+      "S P5 IE › Area of Effect › Inner Radius": "12 m",
+      "S P5 IE › Area of Effect › Outer Radius": "12 m",
+      "S P5 IE › Area of Effect › Shockwave Radius": "0 m",
+      "S P5 IE › Area of Effect › AoE Duration": "30 s"
     },
     "source": {
       "type": "requisition",

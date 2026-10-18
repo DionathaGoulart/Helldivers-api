@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "P-44 Mist",
     "upcoming": true,
     "aliases": [],
-    "description": "The P-44 Mist is an automatic Secondary Pistol.",
+    "description": "The P-44 Mist is a fully automatic Secondary Pistol.",
     "image": {
       "url": "/images/v1/weapons/p-44-mist.c421216e.webp",
       "width": 512,
@@ -30,9 +30,14 @@
     },
     "category": "secondary",
     "subcategory": "pistol",
-    "traitIds": [],
+    "traitIds": [
+      "one-handed"
+    ],
     "firearm": {
-      "firingModes": [],
+      "firingModes": [
+        "auto",
+        "semi"
+      ],
       "fireRateRpm": [],
       "dps": [],
       "capacity": null,
@@ -56,13 +61,15 @@
     "attacks": [],
     "statsRaw": {
       "Weapon Category": "Secondary Weapons",
-      "Weapon Type": "Pistol"
+      "Weapon Type": "Pistol",
+      "Firing Modes": "Auto • Semi",
+      "Traits": "One Handed"
     },
     "source": {
       "type": "warbond",
       "label": "Scope of Authority",
       "warbondId": "scope-of-authority",
-      "page": 2,
+      "page": 3,
       "cost": null,
       "rotating": null
     }

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -88,36 +88,7 @@
         "effect": "All Support Weapon stratagems launch immediately once when called in, reducing overall deployment time."
       }
     ],
-    "supportWeapon": {
-      "firingModes": [
-        "semi",
-        "auto"
-      ],
-      "fireRateRpm": [
-        200
-      ],
-      "dps": [
-        3333.33
-      ],
-      "capacity": 6,
-      "spareMagazines": 40,
-      "startingMagazines": 32,
-      "magazinesFromSupply": 40,
-      "magazinesFromAmmoBox": 20,
-      "recoil": 83.75,
-      "horizontalRecoil": 75,
-      "verticalRecoil": 92.5,
-      "spread": {
-        "horizontal": 15,
-        "vertical": 15
-      },
-      "sway": 1,
-      "ergonomics": 25,
-      "reloadKind": "magazine",
-      "reloadTimeS": 4.7,
-      "reloadTimeUpgradedS": null,
-      "tacticalReloadTimeS": null
-    },
+    "supportWeapon": null,
     "backpack": null,
     "attacks": [
       {
@@ -225,7 +196,6 @@
       "Traits": "Support Weapon • Explosive • Heavy Armor Penetrating • Arc",
       "Base Cooldown": "480s",
       "Weapon Category": "Support Weapons",
-      "Weapon Type": "Stun • Tesla",
       "Firing Modes": "Semi • Auto",
       "Standard Damage": "100 Arc (x10)",
       "Armor Penetration": "Heavy",

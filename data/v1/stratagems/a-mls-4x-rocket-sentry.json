@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -45,7 +45,7 @@
       "right",
       "left"
     ],
-    "cooldownS": 150,
+    "cooldownS": 45,
     "cooldownVariants": [
       {
         "label": "With Morale Augmentation",
@@ -62,7 +62,7 @@
     ],
     "callInTimeS": 7.75,
     "callInTimeUpgradedS": 4.75,
-    "uses": "unlimited",
+    "uses": 1,
     "unlockLevel": 15,
     "shipModules": [
       {
@@ -105,12 +105,12 @@
     "backpack": null,
     "attacks": [
       {
-        "name": "70mm STANDARD ROCKET P",
+        "name": "A/MLS-4X P",
         "kind": "projectile",
         "damage": {
           "standard": 525,
           "durable": 525,
-          "type": "Damage"
+          "type": "Ballistic"
         },
         "penetration": {
           "direct": "anti_tank_i",
@@ -134,7 +134,7 @@
         }
       },
       {
-        "name": "70mm STANDARD ROCKET P IE",
+        "name": "A/MLS-4X P IE",
         "kind": "explosion",
         "damage": {
           "standard": 150,
@@ -158,6 +158,32 @@
           "stagger": 30,
           "push": 10
         }
+      },
+      {
+        "name": "EAT-17 BACKBLAST E",
+        "kind": "explosion",
+        "damage": {
+          "standard": 15,
+          "durable": 15,
+          "type": "Explosion"
+        },
+        "penetration": {
+          "direct": null,
+          "slightAngle": null,
+          "largeAngle": null,
+          "extremeAngle": null
+        },
+        "projectile": null,
+        "area": {
+          "innerRadiusM": 1,
+          "outerRadiusM": 6,
+          "shockwaveRadiusM": 7
+        },
+        "forces": {
+          "demolition": 10,
+          "stagger": 30,
+          "push": 15
+        }
       }
     ],
     "statsRaw": {
@@ -178,56 +204,75 @@
       "Sentry › Turn Rate › Upgraded": "48 °/s",
       "Sentry › Health › Standard": "400",
       "Sentry › Health › Upgraded": "600",
-      "ROCKET SENTRY › Cooldown": "150 s",
-      "ROCKET SENTRY › Uses": "∞",
+      "ROCKET SENTRY › Cooldown": "45 s",
+      "ROCKET SENTRY › Uses": "1",
       "ROCKET SENTRY › Main Health": "400",
       "ROCKET SENTRY › Main Armor": "Light",
       "ROCKET SENTRY › Horizontal Turn Speed": "40",
       "ROCKET SENTRY › Vertical Turn Speed": "40",
       "ROCKET SENTRY › Lifetime": "150 sec",
       "ROCKET SENTRY › Vertical Limit": "(-45.00) (90.00)",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Main Health": "400",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Main Armor": "Light",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Fire Rate": "90 rpm",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Recoil": "6.25",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Horizontal Recoil": "2.5",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Vertical Recoil": "10",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Spread": "↔[5.00] ↕[15.00]",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Sway": "1",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Ergonomics": "65",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Capacity": "16",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › Barrels": "x 16",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › 70mm STANDARD ROCKET P": "Projectile",
-      "ROCKET SENTRY › SWP ROCKET SENTRY › 70mm STANDARD ROCKET P IE": "Explosion",
-      "70mm STANDARD ROCKET P › Projectile › Mass": "6 kg",
-      "70mm STANDARD ROCKET P › Projectile › Initial Velocity": "100 m/s",
-      "70mm STANDARD ROCKET P › Projectile › Drag Factor": "0%",
-      "70mm STANDARD ROCKET P › Projectile › Gravity Factor": "10%",
-      "70mm STANDARD ROCKET P › Projectile › Penetration Slowdown": "25%",
-      "70mm STANDARD ROCKET P › Projectile › Explosion On Impact": "70mm STANDARD ROCKET_P_IE",
-      "70mm STANDARD ROCKET P › Damage › Standard": "525 Damage",
-      "70mm STANDARD ROCKET P › Damage › vs. Durable": "525 Damage",
-      "70mm STANDARD ROCKET P › Penetration › Direct": "Anti-Tank I",
-      "70mm STANDARD ROCKET P › Penetration › Slight Angle": "Anti-Tank I",
-      "70mm STANDARD ROCKET P › Penetration › Large Angle": "Anti-Tank I",
-      "70mm STANDARD ROCKET P › Penetration › Extreme Angle": "Unarmored",
-      "70mm STANDARD ROCKET P › Special Effects › Demolition Force": "30",
-      "70mm STANDARD ROCKET P › Special Effects › Stagger Force": "35",
-      "70mm STANDARD ROCKET P › Special Effects › Push Force": "10",
-      "70mm STANDARD ROCKET P IE › Area of Effect › Inner Radius": "1 m",
-      "70mm STANDARD ROCKET P IE › Area of Effect › Outer Radius": "4 m",
-      "70mm STANDARD ROCKET P IE › Area of Effect › Shockwave Radius": "6 m",
-      "70mm STANDARD ROCKET P IE › Damage › Damage Element": "None",
-      "70mm STANDARD ROCKET P IE › Damage › Inner Radius": "150 Explosion",
-      "70mm STANDARD ROCKET P IE › Damage › Inner Durable": "150 Explosion",
-      "70mm STANDARD ROCKET P IE › Damage › Outer Radius": "149 - 0",
-      "70mm STANDARD ROCKET P IE › Damage › Outer Durable": "149 - 0",
-      "70mm STANDARD ROCKET P IE › Penetration › Inner AP": "Medium",
-      "70mm STANDARD ROCKET P IE › Penetration › Outer AP": "Light",
-      "70mm STANDARD ROCKET P IE › Penetration › Shockwave AP": "Medium",
-      "70mm STANDARD ROCKET P IE › AoE Effect › Demolition Force": "30",
-      "70mm STANDARD ROCKET P IE › AoE Effect › Stagger Force": "30",
-      "70mm STANDARD ROCKET P IE › AoE Effect › Push Force": "10"
+      "ROCKET SENTRY › ROCKET SENTRY › Main Health": "400",
+      "ROCKET SENTRY › ROCKET SENTRY › Main Armor": "Light",
+      "ROCKET SENTRY › ROCKET SENTRY › Fire Rate": "90 rpm",
+      "ROCKET SENTRY › ROCKET SENTRY › Recoil": "6.25",
+      "ROCKET SENTRY › ROCKET SENTRY › Horizontal Recoil": "2.5",
+      "ROCKET SENTRY › ROCKET SENTRY › Vertical Recoil": "10",
+      "ROCKET SENTRY › ROCKET SENTRY › Spread": "↔[5.00] ↕[15.00]",
+      "ROCKET SENTRY › ROCKET SENTRY › Sway": "1",
+      "ROCKET SENTRY › ROCKET SENTRY › Ergonomics": "65",
+      "ROCKET SENTRY › ROCKET SENTRY › Noise When Firing": "Medium (~48m)",
+      "ROCKET SENTRY › ROCKET SENTRY › Capacity": "16",
+      "ROCKET SENTRY › ROCKET SENTRY › Turret Turn Speed": "↔[40.00]°/s ↕[40.00]°/s",
+      "ROCKET SENTRY › ROCKET SENTRY › Elevation Range": "[-45.00]° to [90.00]°",
+      "ROCKET SENTRY › ROCKET SENTRY › Traverse Range": "[-180.00]° to [180.00]°",
+      "ROCKET SENTRY › ROCKET SENTRY › Barrels": "x 16",
+      "ROCKET SENTRY › ROCKET SENTRY › A/MLS-4X P": "Projectile",
+      "ROCKET SENTRY › ROCKET SENTRY › EAT-17 BACKBLAST E": "Explosion",
+      "ROCKET SENTRY › ROCKET SENTRY › A/MLS-4X P IE": "Explosion",
+      "A/MLS-4X P › Projectile › Mass": "6 kg",
+      "A/MLS-4X P › Projectile › Initial Velocity": "100 m/s",
+      "A/MLS-4X P › Projectile › Drag Factor": "0%",
+      "A/MLS-4X P › Projectile › Gravity Factor": "10%",
+      "A/MLS-4X P › Projectile › Penetration Slowdown": "25%",
+      "A/MLS-4X P › Projectile › Explosion On Impact": "A/MLS-4X_P_IE",
+      "A/MLS-4X P › Damage › Standard": "525 Ballistic",
+      "A/MLS-4X P › Damage › vs. Durable": "525 Ballistic",
+      "A/MLS-4X P › Penetration › Direct": "Anti-Tank I",
+      "A/MLS-4X P › Penetration › Slight Angle": "Anti-Tank I",
+      "A/MLS-4X P › Penetration › Large Angle": "Anti-Tank I",
+      "A/MLS-4X P › Penetration › Extreme Angle": "Unarmored",
+      "A/MLS-4X P › Special Effects › Demolition Force": "30",
+      "A/MLS-4X P › Special Effects › Stagger Force": "35",
+      "A/MLS-4X P › Special Effects › Push Force": "10",
+      "A/MLS-4X P IE › Area of Effect › Inner Radius": "1 m",
+      "A/MLS-4X P IE › Area of Effect › Outer Radius": "4 m",
+      "A/MLS-4X P IE › Area of Effect › Shockwave Radius": "6 m",
+      "A/MLS-4X P IE › Damage › Damage Element": "None",
+      "A/MLS-4X P IE › Damage › Inner Radius": "150 Explosion",
+      "A/MLS-4X P IE › Damage › Inner Durable": "150 Explosion",
+      "A/MLS-4X P IE › Damage › Outer Radius": "149 - 0",
+      "A/MLS-4X P IE › Damage › Outer Durable": "149 - 0",
+      "A/MLS-4X P IE › Penetration › Inner AP": "Medium",
+      "A/MLS-4X P IE › Penetration › Outer AP": "Light",
+      "A/MLS-4X P IE › Penetration › Shockwave AP": "Medium",
+      "A/MLS-4X P IE › AoE Effect › Demolition Force": "30",
+      "A/MLS-4X P IE › AoE Effect › Stagger Force": "30",
+      "A/MLS-4X P IE › AoE Effect › Push Force": "10",
+      "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+      "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
+      "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
+      "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
+      "EAT-17 BACKBLAST E › Damage › Outer Radius": "14 - 0",
+      "EAT-17 BACKBLAST E › Damage › Outer Durable": "14 - 0",
+      "EAT-17 BACKBLAST E › Penetration › Inner AP": "Medium",
+      "EAT-17 BACKBLAST E › Penetration › Outer AP": "Light",
+      "EAT-17 BACKBLAST E › Penetration › Shockwave AP": "Medium",
+      "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
+      "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
+      "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15"
     },
     "source": {
       "type": "requisition",

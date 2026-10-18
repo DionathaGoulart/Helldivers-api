@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -125,16 +125,6 @@
             "cost": null
           },
           {
-            "name": "P-44 Mist",
-            "wikiType": "Secondary Pistol",
-            "ref": {
-              "collection": "weapons",
-              "id": "p-44-mist",
-              "variant": null
-            },
-            "cost": null
-          },
-          {
             "name": "SS-15 Focal Point",
             "wikiType": "Helmet",
             "ref": {
@@ -204,6 +194,16 @@
             "ref": {
               "collection": "weapons",
               "id": "g-11-caltrops",
+              "variant": null
+            },
+            "cost": null
+          },
+          {
+            "name": "P-44 Mist",
+            "wikiType": "Secondary Pistol",
+            "ref": {
+              "collection": "weapons",
+              "id": "p-44-mist",
               "variant": null
             },
             "cost": null

@@ -40,58 +40,44 @@
     },
     {
       "collection": "stratagems",
-      "id": "ac-8-autocannon",
-      "field": "supportWeapon.magazinesFromAmmoBox",
+      "id": "a-mls-4x-rocket-sentry",
+      "field": "cooldownS",
       "rule": 2,
-      "chosen": 2,
+      "chosen": 45,
       "candidates": [
         {
-          "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "infobox › Ammo Box Refill",
-          "value": 10
+          "page": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+          "location": "infobox › Base Cooldown",
+          "value": 150
         },
         {
-          "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "AC-8 AUTOCANNON › Rounds from Ammo Box",
-          "value": 2
+          "page": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+          "location": "General › Cooldown › Standard",
+          "value": 150
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+          "location": "ROCKET SENTRY › Cooldown",
+          "value": 45
         }
       ]
     },
     {
       "collection": "stratagems",
-      "id": "ac-8-autocannon",
-      "field": "supportWeapon.magazinesFromSupply",
+      "id": "a-mls-4x-rocket-sentry",
+      "field": "uses",
       "rule": 2,
-      "chosen": 5,
+      "chosen": 1,
       "candidates": [
         {
-          "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "infobox › Supply Box Refill",
-          "value": 25
+          "page": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+          "location": "General › Uses",
+          "value": "unlimited"
         },
         {
-          "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "AC-8 AUTOCANNON › Rounds from Supply",
-          "value": 5
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "ac-8-autocannon",
-      "field": "supportWeapon.spareMagazines",
-      "rule": 2,
-      "chosen": 10,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "infobox › Spare Rounds",
-          "value": 50
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/AC-8_Autocannon",
-          "location": "AC-8 AUTOCANNON › Spare Rounds",
-          "value": 10
+          "page": "https://helldivers.wiki.gg/wiki/A/MLS-4X_Rocket_Sentry",
+          "location": "ROCKET SENTRY › Uses",
+          "value": 1
         }
       ]
     },
@@ -111,63 +97,6 @@
           "page": "https://helldivers.wiki.gg/wiki/B-1_Supply_Pack",
           "location": "B-1 Supply Pack › Call-in Time",
           "value": 5
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "b-flam-80-cremator",
-      "field": "supportWeapon.magazinesFromAmmoBox",
-      "rule": 2,
-      "chosen": 125,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/B/FLAM-80_Cremator",
-          "location": "infobox › Ammo Box Refill",
-          "value": 250
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/B/FLAM-80_Cremator",
-          "location": "B/FLAM-80 CREMATOR › Mags from Ammo Box",
-          "value": 125
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "b-flam-80-cremator",
-      "field": "supportWeapon.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 250,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/B/FLAM-80_Cremator",
-          "location": "infobox › Supply Box Refill",
-          "value": 500
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/B/FLAM-80_Cremator",
-          "location": "B/FLAM-80 CREMATOR › Mags from Supply",
-          "value": 250
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "b-md-c4-pack",
-      "field": "supportWeapon.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 1,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",
-          "location": "infobox › Supply Box Refill",
-          "value": 3
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/B/MD_C4_Pack",
-          "location": "B/MD C4 PACK › Mags from Supply",
-          "value": 1
         }
       ]
     },
@@ -273,69 +202,6 @@
     },
     {
       "collection": "stratagems",
-      "id": "flam-40-flamethrower",
-      "field": "supportWeapon.magazinesFromAmmoBox",
-      "rule": 2,
-      "chosen": 3,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower",
-          "location": "infobox › Ammo Box Refill",
-          "value": 2
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower",
-          "location": "FLAM-40 FLAMETHROWER › Mags from Ammo Box",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "flam-40-flamethrower",
-      "field": "supportWeapon.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 6,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower",
-          "location": "infobox › Supply Box Refill",
-          "value": 5
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/FLAM-40_Flamethrower",
-          "location": "FLAM-40 FLAMETHROWER › Mags from Supply",
-          "value": 6
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "las-99-quasar-cannon",
-      "field": "supportWeapon.fireRateRpm",
-      "rule": 2,
-      "chosen": [
-        10
-      ],
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon",
-          "location": "infobox › Fire Rate",
-          "value": [
-            3.34
-          ]
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/LAS-99_Quasar_Cannon",
-          "location": "LAS-99 QUASAR CANNON › Fire Rate",
-          "value": [
-            10
-          ]
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
       "id": "md-17-anti-tank-mines",
       "field": "callInTimeS",
       "rule": 2,
@@ -393,25 +259,6 @@
     },
     {
       "collection": "stratagems",
-      "id": "mg-43-machine-gun",
-      "field": "supportWeapon.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 2,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MG-43_Machine_Gun",
-          "location": "infobox › Supply Box Refill",
-          "value": 3
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MG-43_Machine_Gun",
-          "location": "MG-43 MACHINE GUN › Mags from Supply",
-          "value": 2
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
       "id": "nux-223-hellbomb",
       "field": "callInTimeS",
       "rule": 2,
@@ -426,56 +273,6 @@
           "page": "https://helldivers.wiki.gg/wiki/NUX-223_Hellbomb",
           "location": "NUX-223 Hellbomb › Call-in Time",
           "value": 5
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "rl-77-airburst-rocket-launcher",
-      "field": "supportWeapon.fireRateRpm",
-      "rule": 2,
-      "chosen": [
-        600
-      ],
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher",
-          "location": "infobox › Fire Rate",
-          "value": [
-            16
-          ]
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/RL-77_Airburst_Rocket_Launcher",
-          "location": "RL-77 AIRBURST ROCKET LAUNCHER › Fire Rate",
-          "value": [
-            600
-          ]
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "rs-422-railgun",
-      "field": "supportWeapon.fireRateRpm",
-      "rule": 2,
-      "chosen": [
-        60
-      ],
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/RS-422_Railgun",
-          "location": "infobox › Fire Rate",
-          "value": [
-            34
-          ]
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/RS-422_Railgun",
-          "location": "RS-422 RAILGUN › Fire Rate",
-          "value": [
-            60
-          ]
         }
       ]
     },
@@ -519,82 +316,6 @@
           "page": "https://helldivers.wiki.gg/wiki/SEAF_Artillery",
           "location": "SEAF ARTILLERY › Uses",
           "value": "unlimited"
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "sta-x3-wasp-launcher",
-      "field": "supportWeapon.recoil",
-      "rule": 2,
-      "chosen": 6.25,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/StA-X3_W.A.S.P._Launcher",
-          "location": "infobox › Recoil",
-          "value": 6
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/StA-X3_W.A.S.P._Launcher",
-          "location": "STA-X3 W.A.S.P. LAUNCHER › Recoil",
-          "value": 6.25
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "tx-41-sterilizer",
-      "field": "supportWeapon.capacity",
-      "rule": 2,
-      "chosen": 125,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
-          "location": "infobox › Capacity",
-          "value": 100
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
-          "location": "TX-41 STERILIZER › Capacity",
-          "value": 125
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "tx-41-sterilizer",
-      "field": "supportWeapon.magazinesFromAmmoBox",
-      "rule": 2,
-      "chosen": 3,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
-          "location": "infobox › Ammo Box Refill",
-          "value": 2
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
-          "location": "TX-41 STERILIZER › Mags from Ammo Box",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "tx-41-sterilizer",
-      "field": "supportWeapon.magazinesFromSupply",
-      "rule": 2,
-      "chosen": 6,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
-          "location": "infobox › Supply Box Refill",
-          "value": 4
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/TX-41_Sterilizer",
-          "location": "TX-41 STERILIZER › Mags from Supply",
-          "value": 6
         }
       ]
     },

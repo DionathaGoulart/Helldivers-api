@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "count": 28,
     "source": {
       "name": "The Helldivers Wiki",
@@ -462,7 +462,6 @@
         "a-m-23-ems-mortar-sentry",
         "a-mg-43-machine-gun-sentry",
         "a-mls-4x-rocket-sentry",
-        "amw-20-apex",
         "ax-ar-23-guard-dog",
         "ax-arc-3-k-9",
         "ax-flam-75-hot-dog",
@@ -477,7 +476,6 @@
         "e-mg-101-hmg-emplacement",
         "flam-40-flamethrower",
         "fx-12-shield-generator-relay",
-        "las-44-nova",
         "las-98-laser-cannon",
         "lift-182-warp-pack",
         "lift-850-jump-pack",
@@ -724,6 +722,7 @@
         "p-35-re-educator",
         "p-4-senator",
         "p-40-k-bolt-pistol",
+        "p-44-mist",
         "p-69-veto",
         "p-72-crisper",
         "p-92-warrant",

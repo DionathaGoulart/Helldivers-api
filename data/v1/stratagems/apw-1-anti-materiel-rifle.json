@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -88,35 +88,7 @@
         "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
       }
     ],
-    "supportWeapon": {
-      "firingModes": [
-        "semi"
-      ],
-      "fireRateRpm": [
-        400
-      ],
-      "dps": [
-        3000
-      ],
-      "capacity": 7,
-      "spareMagazines": 8,
-      "startingMagazines": 5,
-      "magazinesFromSupply": 4,
-      "magazinesFromAmmoBox": 2,
-      "recoil": 155.5,
-      "horizontalRecoil": 11,
-      "verticalRecoil": 300,
-      "spread": {
-        "horizontal": 0.1,
-        "vertical": 0.1
-      },
-      "sway": 1,
-      "ergonomics": 35,
-      "reloadKind": "magazine",
-      "reloadTimeS": 3.05,
-      "reloadTimeUpgradedS": 2.75,
-      "tacticalReloadTimeS": 2.05
-    },
+    "supportWeapon": null,
     "backpack": null,
     "attacks": [
       {
@@ -154,7 +126,6 @@
       "Traits": "Support Weapon • Heavy Armor Penetrating",
       "Base Cooldown": "480s",
       "Weapon Category": "Support Weapons",
-      "Weapon Type": "Anti-Armor Precision",
       "Firing Modes": "Semi",
       "Standard Damage": "450 Ballistic",
       "Armor Penetration": "Heavy",

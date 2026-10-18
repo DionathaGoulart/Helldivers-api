@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -73,31 +73,7 @@
         "effect": "Reduces cooldown time for all Stratagems by 5%."
       }
     ],
-    "supportWeapon": {
-      "firingModes": [],
-      "fireRateRpm": [
-        600
-      ],
-      "dps": [],
-      "capacity": 1,
-      "spareMagazines": null,
-      "startingMagazines": null,
-      "magazinesFromSupply": null,
-      "magazinesFromAmmoBox": null,
-      "recoil": 6.25,
-      "horizontalRecoil": 2.5,
-      "verticalRecoil": 10,
-      "spread": {
-        "horizontal": 4,
-        "vertical": 4
-      },
-      "sway": 1,
-      "ergonomics": 15,
-      "reloadKind": "none",
-      "reloadTimeS": null,
-      "reloadTimeUpgradedS": null,
-      "tacticalReloadTimeS": null
-    },
+    "supportWeapon": null,
     "backpack": null,
     "attacks": [
       {
@@ -286,7 +262,6 @@
       "Traits": "Support Weapon • Incendiary • Expendable",
       "Base Cooldown": "140s",
       "Weapon Category": "Support Weapons",
-      "Weapon Type": "Incendiary",
       "Standard Damage": "500 Ballistic (Projectile) / 250 Explosion 200 Ballistic (Bomblets / 50 Explosion x25)",
       "Armor Penetration": "Medium (Bomblets)",
       "Fire Rate": "600 rpm",

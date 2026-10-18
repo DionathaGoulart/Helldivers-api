@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -103,7 +103,6 @@
       "Traits": "Support Weapon • Anti-Tank • Melee",
       "Base Cooldown": "480s",
       "Weapon Category": "Support Weapons",
-      "Weapon Type": "Melee",
       "Standard Damage": "450/s Melee",
       "Armor Penetration": "Anti-Tank I",
       "DPS": "450",

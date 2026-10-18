@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-17.a04898ee",
-    "generatedAt": "2026-10-17T23:02:20Z",
+    "dataVersion": "2026-10-18.ae86f551",
+    "generatedAt": "2026-10-18T23:02:06Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -89,29 +89,7 @@
         "effect": "All Support Weapon stratagems launch immediately once called in, reducing overall deployment time."
       }
     ],
-    "supportWeapon": {
-      "firingModes": [],
-      "fireRateRpm": [],
-      "dps": [],
-      "capacity": null,
-      "spareMagazines": 2,
-      "startingMagazines": 2,
-      "magazinesFromSupply": 6,
-      "magazinesFromAmmoBox": 3,
-      "recoil": 0,
-      "horizontalRecoil": 0,
-      "verticalRecoil": 0,
-      "spread": {
-        "horizontal": 10,
-        "vertical": 10
-      },
-      "sway": 1,
-      "ergonomics": 45,
-      "reloadKind": "magazine",
-      "reloadTimeS": 3.65,
-      "reloadTimeUpgradedS": 3.3,
-      "tacticalReloadTimeS": 5.1
-    },
+    "supportWeapon": null,
     "backpack": null,
     "attacks": [
       {
@@ -164,7 +142,6 @@
       "Traits": "Support Weapon • Hellpod • Heavy Armor Penetrating • Heat • Beam",
       "Base Cooldown": "480s",
       "Weapon Category": "Support Weapons",
-      "Weapon Type": "Heavy Energy-Based",
       "Standard Damage": "350 DPS Laser / 100 DPS Fire",
       "Armor Penetration": "Heavy",
       "Capacity": "12.5s",
