@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-20.219a706c",
+    "generatedAt": "2026-10-20T00:15:34Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "longshot",
+    "slug": "longshot",
+    "name": "Longshot",
+    "upcoming": false,
+    "aliases": [],
+    "description": null,
+    "image": {
+      "url": "/images/v1/titles/longshot.74c654db.webp",
+      "width": 256,
+      "height": 274,
+      "wikiFile": "Longshot_Title_Icon.png"
+    },
+    "wiki": {
+      "title": "Longshot",
+      "url": "https://helldivers.wiki.gg/wiki/Longshot",
+      "flags": []
+    },
+    "kind": "acquirable",
+    "levelEarned": null,
+    "source": {
+      "type": "warbond",
+      "label": "Scope of Authority",
+      "warbondId": "scope-of-authority",
+      "page": 3,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}

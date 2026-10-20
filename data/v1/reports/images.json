@@ -2260,6 +2260,15 @@
       "bytes": 7380
     },
     {
+      "url": "/images/v1/emotes/manual-ballistic-projection-protocol.36c2803f.webp",
+      "wikiFile": "Manual_Ballistic_Projection_Protocol_Emote_Icon.png",
+      "version": "66cfdb",
+      "rendition": "icon",
+      "width": 256,
+      "height": 384,
+      "bytes": 19440
+    },
+    {
       "url": "/images/v1/emotes/mime-instrumentation.9ab62552.webp",
       "wikiFile": "Mime_Instrumentation_Victory_Pose_Icon.png",
       "version": "e41a3b",
@@ -6470,6 +6479,15 @@
       "width": 256,
       "height": 256,
       "bytes": 6812
+    },
+    {
+      "url": "/images/v1/titles/longshot.74c654db.webp",
+      "wikiFile": "Longshot_Title_Icon.png",
+      "version": "8f60fb",
+      "rendition": "icon",
+      "width": 256,
+      "height": 274,
+      "bytes": 11130
     },
     {
       "url": "/images/v1/titles/marshal.2e51edfb.webp",

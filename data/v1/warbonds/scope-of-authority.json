@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-18.ae86f551",
-    "generatedAt": "2026-10-18T23:02:06Z",
+    "dataVersion": "2026-10-20.219a706c",
+    "generatedAt": "2026-10-20T00:15:34Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -211,13 +211,21 @@
           {
             "name": "Manual Ballistic Projection Protocol",
             "wikiType": "Emote",
-            "ref": null,
+            "ref": {
+              "collection": "emotes",
+              "id": "manual-ballistic-projection-protocol",
+              "variant": null
+            },
             "cost": null
           },
           {
             "name": "Longshot",
             "wikiType": "Title",
-            "ref": null,
+            "ref": {
+              "collection": "titles",
+              "id": "longshot",
+              "variant": null
+            },
             "cost": null
           }
         ]

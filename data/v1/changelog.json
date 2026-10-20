@@ -1,15 +1,121 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-18.ae86f551",
-    "generatedAt": "2026-10-18T23:02:06Z",
-    "count": 29,
+    "dataVersion": "2026-10-20.219a706c",
+    "generatedAt": "2026-10-20T00:15:34Z",
+    "count": 30,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-20.219a706c",
+      "date": "2026-10-20",
+      "summary": {
+        "added": 2,
+        "changed": 10,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "scope-of-authority",
+          "kind": "changed",
+          "paths": [
+            "pages[2].items[4].ref",
+            "pages[2].items[5].ref"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seismic-probe",
+          "kind": "changed",
+          "paths": [
+            "cooldownS",
+            "cooldownVariants[0].seconds",
+            "statsRaw[\"Base Cooldown\"]",
+            "statsRaw[\"General › Cooldown › Standard\"]",
+            "statsRaw[\"General › Cooldown › With Morale Augmentation\"]"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ss-15-focal-point",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-15-focal-point",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "boundary-banker",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ss-15-focal-point",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "boundary-banker",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "manual-ballistic-projection-protocol",
+          "kind": "added"
+        },
+        {
+          "collection": "titles",
+          "id": "longshot",
+          "kind": "added"
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-18.ae86f551",
       "date": "2026-10-18",

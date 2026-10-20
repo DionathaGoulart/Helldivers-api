@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-18.ae86f551",
-    "generatedAt": "2026-10-18T23:02:06Z",
+    "dataVersion": "2026-10-20.219a706c",
+    "generatedAt": "2026-10-20T00:15:34Z",
     "count": 113,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3372,7 +3372,9 @@
       "wiki": {
         "title": "SS-15 Focal Point",
         "url": "https://helldivers.wiki.gg/wiki/SS-15_Focal_Point",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "setIds": [
         "ss-15-focal-point"
@@ -3402,7 +3404,9 @@
       "wiki": {
         "title": "SS-33 Mimetic Marshal",
         "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
-        "flags": []
+        "flags": [
+          "broken_file_links"
+        ]
       },
       "setIds": [
         "ss-33-mimetic-marshal"
