@@ -168,7 +168,12 @@ describe("classifySource", () => {
     warbonds: new WarbondResolver({
       aliases: { "Helldivers Mobilize!": "helldivers-mobilize" },
     }),
-    sourceLabels: { "Starter Equipment": "default", Superstore: "superstore" } as const,
+    sourceLabels: {
+      "Starter Equipment": "default",
+      Hanger: "requisition",
+      Hangar: "requisition",
+      Superstore: "superstore",
+    } as const,
     page: PAGE,
   };
 
@@ -203,6 +208,11 @@ describe("classifySource", () => {
   });
 
   it("maps labels, then warbond aliases, and fails on anything else", () => {
+    expect(classifySource({ label: "Hanger", link: null, pageMarker: null }, options)).toEqual({
+      type: "requisition",
+      warbondId: null,
+      page: null,
+    });
     expect(classifySource({ label: "Superstore", link: null, pageMarker: null }, options)).toEqual({
       type: "superstore",
       warbondId: null,
