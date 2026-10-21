@@ -172,6 +172,12 @@ describe("stratagem fields", () => {
     expect(leadAbbreviations(null)).toEqual([]);
   });
 
+  it.each(["Hangar", "Hanger", " HANGER "])("normalizes %s to the hangar department", (label) => {
+    expect(parseDepartment(label, "https://helldivers.wiki.gg/wiki/M-103_Supply_FRV")).toBe(
+      "hangar",
+    );
+  });
+
   it("knows every ship section of /wiki/Ship_Modules as a department", async () => {
     const page = await fixture("Ship Modules");
     const $ = loadHtml(page.html);

@@ -107,7 +107,9 @@ export function parseCode(arrows: readonly string[], page: string): Direction[] 
 
 /** `Patriotic Administration Center` → `patriotic_administration_center` (ship section names). */
 export function parseDepartment(label: string, page: string): Department {
-  const department = Department.safeParse(label.trim().toLowerCase().replace(/\s+/g, "_"));
+  const normalized = label.trim().toLowerCase().replace(/\s+/g, "_");
+  // M-103 Supply FRV's infobox spells the Hangar ship section "Hanger".
+  const department = Department.safeParse(normalized === "hanger" ? "hangar" : normalized);
   if (!department.success) {
     throw new NormalizeError(page, label, "unknown ship department");
   }
