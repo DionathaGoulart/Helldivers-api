@@ -55,7 +55,46 @@ export type RawStoreSet = z.infer<typeof RawStoreSet>;
 export type RawSuperstore = z.infer<typeof RawSuperstore>;
 
 const CELL = ".warbond-cell";
+const ACQ_CELL = ".hd2-acq-cell";
 const CELL_TITLE = /^(.+?)(?: \(([^()]+)\))? \(\d[\d,]* SC\)$/;
+const SC_PRICE = /^(?:\d+|\d{1,3}(?:,\d{3})+)$/;
+const ACQ_TYPES = {
+  armor: "Armor",
+  helmet: "Helmet",
+  cape: "Cape",
+  card: "PlayerCard",
+} as const;
+
+function readAcquisitionCell(
+  $: CheerioAPI,
+  element: Element,
+  url: string,
+  selector: string,
+): RawStoreItem {
+  const cell = $(element);
+  const types = Object.entries(ACQ_TYPES).filter(([key]) => cell.hasClass(`hd2-acq-crop-${key}`));
+  const anchor = cell.find(".hd2-acq-image > a[href]");
+  const link = linkFromHref(anchor.attr("href") ?? "");
+  const name = anchor.attr("title")?.trim() || link?.title;
+  const cost = cell.find(".hd2-acq-cost");
+  const price = textOf(cost.find(".hd2-cost-value"));
+  if (
+    types.length !== 1 ||
+    anchor.length !== 1 ||
+    !link ||
+    !name ||
+    !SC_PRICE.test(price) ||
+    detectCurrency(cost) !== "super_credits"
+  ) {
+    throw new ParseError(url, selector, "unexpected acquisition cell");
+  }
+  return {
+    name,
+    type: types[0]?.[1] ?? null,
+    link: { label: name, ...link },
+    cost: { text: price, currency: "super_credits" },
+  };
+}
 
 function readSet($: CheerioAPI, table: Element, url: string, selector: string) {
   const rows = $(table)
@@ -96,9 +135,12 @@ function readPages($: CheerioAPI, url: string) {
     if (!number) {
       throw new ParseError(url, selector, `unexpected tab "${panel.label}"`);
     }
-    const items = ownElements($, panel, CELL)
+    const items = ownElements($, panel, `${CELL}, ${ACQ_CELL}`)
       .toArray()
       .map((element) => {
+        if ($(element).is(ACQ_CELL)) {
+          return readAcquisitionCell($, element, url, `${selector} ${ACQ_CELL}`);
+        }
         const cell = $(element);
         const title = cell.attr("title") ?? "";
         const match = CELL_TITLE.exec(title);

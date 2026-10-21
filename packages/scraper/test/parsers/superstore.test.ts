@@ -1,3 +1,4 @@
+import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 import { parseSuperstore, SUPERSTORE } from "../../src/parsers/superstore.ts";
 import { article, fixture } from "../fixtures.ts";
@@ -53,5 +54,60 @@ describe("superstore parser", async () => {
     expect(() => parseSuperstore(article("<p>gone</p>"), { url: page.url })).toThrow(
       "h2#Stock: expected 1 section, found 0",
     );
+  });
+
+  it("reads the new acquisition cells on Page 1", () => {
+    const $ = cheerio.load(page.html);
+    const panel = $("#Page_1-0");
+    panel.find(".warbond-cell").remove();
+    panel.append(`<div class="hd2-acq-container">
+      <div class="hd2-acq-cell hd2-acq-crop-helmet"><div class="hd2-acq-cost"><img src="/images/Super_Credit.svg"><span class="hd2-cost-value">125</span></div><div class="hd2-acq-image"><a href="/wiki/SS-500_Pale_Prosecutor" title="SS-500 Pale Prosecutor"><img alt="SS-500 Pale Prosecutor Helmet Render.png"></a></div></div>
+      <div class="hd2-acq-cell hd2-acq-crop-card"><div class="hd2-acq-cost"><img src="/images/Super_Credit.svg"><span class="hd2-cost-value">35</span></div><div class="hd2-acq-image"><a href="/wiki/Arctic_Decree" title="Arctic Decree"><img alt="Arctic Decree Player Card Icon.png"></a></div></div>
+      <div class="hd2-acq-cell hd2-acq-crop-cape"><div class="hd2-acq-cost"><img src="/images/Super_Credit.svg"><span class="hd2-cost-value">100</span></div><div class="hd2-acq-image"><a href="/wiki/Arctic_Decree" title="Arctic Decree"><img alt="Arctic Decree Cape Render.png"></a></div></div>
+      <div class="hd2-acq-cell hd2-acq-crop-armor"><div class="hd2-acq-cost"><img src="/images/Super_Credit.svg"><span class="hd2-cost-value">250</span></div><div class="hd2-acq-image"><a href="/wiki/SS-500_Pale_Prosecutor" title="SS-500 Pale Prosecutor"><img alt="SS-500 Pale Prosecutor Armor Render.png"></a></div></div>
+    </div>`);
+    const current = parseSuperstore($.html(), { url: page.url });
+    expect(current.pages[0]?.items).toEqual([
+      {
+        name: "SS-500 Pale Prosecutor",
+        type: "Helmet",
+        link: { label: "SS-500 Pale Prosecutor", title: "SS-500 Pale Prosecutor", anchor: null },
+        cost: { text: "125", currency: "super_credits" },
+      },
+      {
+        name: "Arctic Decree",
+        type: "PlayerCard",
+        link: { label: "Arctic Decree", title: "Arctic Decree", anchor: null },
+        cost: { text: "35", currency: "super_credits" },
+      },
+      {
+        name: "Arctic Decree",
+        type: "Cape",
+        link: { label: "Arctic Decree", title: "Arctic Decree", anchor: null },
+        cost: { text: "100", currency: "super_credits" },
+      },
+      {
+        name: "SS-500 Pale Prosecutor",
+        type: "Armor",
+        link: { label: "SS-500 Pale Prosecutor", title: "SS-500 Pale Prosecutor", anchor: null },
+        cost: { text: "250", currency: "super_credits" },
+      },
+    ]);
+    expect(current.pages).toHaveLength(25);
+
+    panel.find(".hd2-acq-cell").first().find(".hd2-cost-value").remove();
+    expect(() => parseSuperstore($.html(), { url: page.url })).toThrow(
+      "unexpected acquisition cell",
+    );
+    panel
+      .find(".hd2-acq-cell")
+      .first()
+      .find(".hd2-acq-cost")
+      .append('<span class="hd2-cost-value">unreadable</span>');
+    expect(() => parseSuperstore($.html(), { url: page.url })).toThrow(
+      "unexpected acquisition cell",
+    );
+    panel.find(".hd2-acq-container").remove();
+    expect(() => parseSuperstore($.html(), { url: page.url })).toThrow();
   });
 });
