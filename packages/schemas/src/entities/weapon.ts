@@ -94,6 +94,7 @@ export const Weapon = z.object({
   subcategory: z.enum([
     "assault_rifle",
     "marksman_rifle",
+    "sniper_rifle",
     "submachine_gun",
     "shotgun",
     "explosive",

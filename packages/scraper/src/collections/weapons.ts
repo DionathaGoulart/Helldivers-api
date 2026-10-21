@@ -17,9 +17,10 @@ import type { CollectionPipeline, ScrapeContext } from "./types.ts";
 // weapon-traits collection, so that pipeline runs first. Civilian weapons (tab `Civilian`) take
 // their subcategory from the `Weapon Type` row and their source from the Procurement section.
 
-const SUBCATEGORY_TABS: Readonly<Record<string, Weapon["subcategory"]>> = {
+export const SUBCATEGORY_TABS: Readonly<Record<string, Weapon["subcategory"]>> = {
   "Assault Rifle": "assault_rifle",
   "Marksman Rifle": "marksman_rifle",
+  "Sniper Rifle": "sniper_rifle",
   "Submachine Gun": "submachine_gun",
   Shotgun: "shotgun",
   Explosive: "explosive",

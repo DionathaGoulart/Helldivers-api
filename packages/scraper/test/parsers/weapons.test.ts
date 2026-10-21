@@ -1,4 +1,6 @@
 import { describe, expect, it } from "vitest";
+import { Weapon } from "@hd2/schemas";
+import { SUBCATEGORY_TABS } from "../../src/collections/weapons.ts";
 import { ParseError } from "../../src/errors.ts";
 import { findItem, parseWarbondPage } from "../../src/parsers/warbond-page.ts";
 import { parseWeaponPage } from "../../src/parsers/weapon-page.ts";
@@ -66,6 +68,17 @@ describe("weapons-index parser", async () => {
       subcategory: "Special",
     });
     expect(special("G-3 Smoke")).toMatchObject({ category: "Throwable", subcategory: "Special" });
+  });
+
+  it("accepts the Sniper Rifle tab as a weapon subcategory", () => {
+    const sniperIndex = index.html.replaceAll("Marksman Rifle", "Sniper Rifle");
+    const sniper = parseWeaponsIndex(sniperIndex, { url: index.url }).find(
+      (row) => row.subcategory === "Sniper Rifle",
+    );
+    expect(sniper).toBeDefined();
+    expect(Weapon.shape.subcategory.parse(SUBCATEGORY_TABS[sniper?.subcategory ?? ""])).toBe(
+      "sniper_rifle",
+    );
   });
 
   it("fails loudly when the layout changes", () => {
