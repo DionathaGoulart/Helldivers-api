@@ -22,6 +22,7 @@ import { readDatasetFiles } from "@hd2/schemas/node";
 import * as cheerio from "cheerio";
 import { afterAll, afterEach, beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { PIPELINES, selectPipelines } from "../src/collections/index.ts";
+import type { HttpClient } from "../src/http/client.ts";
 import type { ImageBackend } from "../src/images/attach.ts";
 import { silentLogger } from "../src/log.ts";
 import type { RunReport } from "../src/publish/report.ts";
@@ -328,6 +329,38 @@ const run = (
     now: () => new Date(at),
     logger: silentLogger,
   });
+
+it("includes HTTP fallback warnings even when the run fails", async () => {
+  const http = {
+    stats: { requests: 4, notModified: 0, bytes: 0, retries: 3, pauses: 0 },
+    warnings: ["Using cached wiki page after HTTP 502"],
+  } as unknown as HttpClient;
+  const source: WikiSource = {
+    offline: false,
+    robotsTxt: async () => {
+      throw new Error("later failure");
+    },
+    page: async () => {
+      throw new Error("unexpected page");
+    },
+  };
+  const report = await runScrape({
+    dataDir,
+    source,
+    http,
+    images: null,
+    only: ["boosters"],
+    allowDrop: false,
+    fullRefresh: false,
+    baseUrl: "https://helldivers.wiki.gg",
+    userAgent: "test",
+    now: () => new Date("2026-10-21T12:00:00Z"),
+    logger: silentLogger,
+  });
+  expect(report.ok).toBe(false);
+  expect(report.warnings).toEqual(["Using cached wiki page after HTTP 502"]);
+  expect(report.http?.requests).toBe(4);
+});
 
 async function readTree(root: string): Promise<Record<string, string>> {
   const entries = await readdir(root, { recursive: true, withFileTypes: true });

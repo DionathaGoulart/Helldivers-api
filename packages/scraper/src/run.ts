@@ -362,6 +362,7 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     });
   } finally {
     report.http = options.http?.stats ?? null;
+    report.warnings.push(...(options.http?.warnings ?? []));
     report.durationMs = options.now().getTime() - started.getTime();
   }
   return report;

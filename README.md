@@ -292,6 +292,13 @@ challenges one runner's IP); after a good run the catch-up skips without touchin
 
 Run it by hand from the Actions tab (`full_refresh`, `allow_drop`, `only`, `drill`).
 
+After exhausting retries for a network error or HTTP 500/502/504, an ordinary run can reuse
+cached item HTML fetched within the last seven days, for at most three pages per run. Each
+fallback is listed in the run warnings; it does not count as a 304 or renew the cache age.
+Index pages, full refreshes, robots.txt, images and wiki blocks never use this fallback.
+Requests time out after 30 seconds, including reading the response body. Missing, expired or
+invalid cached HTML still fails the run, preserving the published dataset.
+
 ### Manual fallback
 
 If GitHub Actions cannot reach the wiki, the same run works from a machine with the write key in

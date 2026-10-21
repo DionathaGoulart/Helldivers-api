@@ -9,6 +9,9 @@ import type { RobotsPolicy } from "./robots.ts";
 
 export const RETRY_DELAYS_MS: readonly number[] = [5_000, 20_000, 60_000];
 const MAX_RETRY_AFTER_MS = 300_000;
+const MAX_STALE_AGE_MS = 7 * 24 * 60 * 60 * 1000;
+const MAX_STALE_FALLBACKS = 3;
+const REQUEST_TIMEOUT_MS = 30_000;
 
 export class HttpError extends Error {
   constructor(
@@ -62,6 +65,7 @@ export interface HttpClientOptions {
   cache: HttpCache | null;
   fullRefresh: boolean;
   retryDelaysMs?: readonly number[];
+  requestTimeoutMs?: number;
   fetch?: (request: Request) => Promise<Response>;
   clock?: Clock;
   logger?: Logger;
@@ -72,6 +76,8 @@ export interface GetOptions {
   immutable?: boolean;
   /** Never revalidate: the wiki answers 304 for a page whose transcluded rows changed. */
   fresh?: boolean;
+  /** Reuse a recent validated wiki page after exhausted transient retries. */
+  staleIfError?: boolean;
 }
 
 export interface HttpResult {
@@ -79,6 +85,7 @@ export interface HttpResult {
   status: 200 | 304;
   body: Buffer;
   fromCache: boolean;
+  stale?: boolean;
   lastModified: string | null;
 }
 
@@ -114,6 +121,7 @@ export class HttpClient {
   readonly #queue: PoliteQueue;
   readonly #blocks = new BlockDetector();
   readonly #stats = { requests: 0, notModified: 0, bytes: 0, retries: 0 };
+  readonly #warnings: string[] = [];
   #robots: RobotsPolicy | null = null;
 
   constructor(options: HttpClientOptions) {
@@ -127,6 +135,10 @@ export class HttpClient {
 
   get stats(): HttpStats {
     return { ...this.#stats, pauses: this.#queue.stats.pauses };
+  }
+
+  get warnings(): readonly string[] {
+    return [...this.#warnings];
   }
 
   /** Every later request is checked against robots.txt; a larger Crawl-delay wins. */
@@ -173,6 +185,8 @@ export class HttpClient {
         const reason = result.error instanceof Error ? result.error.message : String(result.error);
         this.#logger.warn("http", { url: url.href, error: reason, ms: result.ms });
         if (retryDelay === undefined) {
+          const fallback = this.#stale(url, cached, options, reason);
+          if (fallback) return fallback;
           throw new HttpError(url.href, 0, reason);
         }
         await this.#retry(url, retryDelay, 0);
@@ -199,6 +213,10 @@ export class HttpClient {
         await this.#retry(url, retryDelay, retryAfterMs(response.headers, this.#clock.now()));
         continue;
       }
+      if ([500, 502, 504].includes(response.status)) {
+        const fallback = this.#stale(url, cached, options, `HTTP ${response.status}`);
+        if (fallback) return fallback;
+      }
       throw new HttpError(url.href, response.status);
     }
   }
@@ -206,7 +224,13 @@ export class HttpClient {
   async #attempt(url: URL, headers: Headers): Promise<Attempt> {
     const started = this.#clock.now();
     try {
-      const response = await this.#fetch(new Request(url, { headers, redirect: "follow" }));
+      const response = await this.#fetch(
+        new Request(url, {
+          headers,
+          redirect: "follow",
+          signal: AbortSignal.timeout(this.#options.requestTimeoutMs ?? REQUEST_TIMEOUT_MS),
+        }),
+      );
       let body: Buffer | null = null;
       if (response.status === 200) {
         body = Buffer.from(await response.arrayBuffer());
@@ -251,7 +275,46 @@ export class HttpClient {
       url.href,
       { etag: response.headers.get("etag"), lastModified },
       body,
+      this.#clock.now(),
     );
     return { url: finalUrl, status: 200, body, fromCache: false, lastModified };
+  }
+
+  #stale(
+    url: URL,
+    cached: CachedResponse | null,
+    options: GetOptions,
+    reason: string,
+  ): HttpResult | null {
+    if (
+      !options.staleIfError ||
+      options.fresh ||
+      options.immutable ||
+      this.#options.fullRefresh ||
+      !url.pathname.startsWith("/wiki/") ||
+      !cached ||
+      this.#warnings.length >= MAX_STALE_FALLBACKS
+    )
+      return null;
+    const now = cached.legacyTimestamp ? Date.now() : this.#clock.now();
+    const ageMs = now - cached.fetchedAt;
+    if (ageMs < 0 || ageMs > MAX_STALE_AGE_MS) return null;
+    try {
+      this.#blocks.checkWikiHtml(url.href, cached.body.toString("utf8"));
+    } catch (error) {
+      if (error instanceof Error) return null;
+      throw error;
+    }
+    const warning = `Using cached wiki page ${url.href} after ${reason} (${Math.ceil(ageMs / 1000)}s old)`;
+    this.#warnings.push(warning);
+    this.#logger.warn("http stale fallback", { url: url.href, reason, ageMs });
+    return {
+      url: url.href,
+      status: 200,
+      body: cached.body,
+      fromCache: true,
+      stale: true,
+      lastModified: cached.lastModified,
+    };
   }
 }

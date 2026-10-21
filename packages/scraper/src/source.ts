@@ -43,6 +43,7 @@ export class OnlineSource implements WikiSource {
     const normalized = normalizeTitle(title);
     const result = await this.http.get(titleToPath(normalized), {
       fresh: this.#fresh.has(normalized),
+      staleIfError: !this.#fresh.has(normalized),
     });
     return {
       title: normalized,

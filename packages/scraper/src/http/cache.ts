@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { mkdir, readFile, rename, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rename, stat, writeFile } from "node:fs/promises";
 import { join } from "node:path";
 import { z } from "zod";
 
@@ -10,6 +10,7 @@ const CacheMeta = z.object({
   url: z.string(),
   etag: z.string().nullable(),
   lastModified: z.string().nullable(),
+  fetchedAt: z.number().finite().optional(),
 });
 
 export interface Validators {
@@ -19,6 +20,8 @@ export interface Validators {
 
 export interface CachedResponse extends Validators {
   body: Buffer;
+  fetchedAt: number;
+  legacyTimestamp: boolean;
 }
 
 const cacheKey = (url: string) => createHash("sha1").update(url).digest("hex");
@@ -43,17 +46,27 @@ export class HttpCache {
         return null;
       }
       const body = await readFile(join(this.dir, `${key}.body`));
-      return { etag: meta.etag, lastModified: meta.lastModified, body };
+      const legacyTimestamp = meta.fetchedAt === undefined;
+      const fetchedAt = meta.fetchedAt ?? (await stat(join(this.dir, `${key}.body`))).mtimeMs;
+      return { etag: meta.etag, lastModified: meta.lastModified, body, fetchedAt, legacyTimestamp };
     } catch {
       return null;
     }
   }
 
   /** Body first, then validators: a crash in between only costs one full GET. */
-  async put(url: string, validators: Validators, body: Uint8Array): Promise<void> {
+  async put(
+    url: string,
+    validators: Validators,
+    body: Uint8Array,
+    fetchedAt = Date.now(),
+  ): Promise<void> {
     const key = cacheKey(url);
     await mkdir(this.dir, { recursive: true });
     await writeAtomic(join(this.dir, `${key}.body`), body);
-    await writeAtomic(join(this.dir, `${key}.json`), JSON.stringify({ url, ...validators }));
+    await writeAtomic(
+      join(this.dir, `${key}.json`),
+      JSON.stringify({ url, ...validators, fetchedAt }),
+    );
   }
 }

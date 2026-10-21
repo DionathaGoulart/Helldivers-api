@@ -26,8 +26,8 @@ describe("OnlineSource", () => {
     await source.page("Stratagems");
     await source.page("TD-110 Maelstrom");
     expect(calls).toEqual([
-      ["/wiki/Stratagems", { fresh: true }],
-      ["/wiki/TD-110_Maelstrom", { fresh: false }],
+      ["/wiki/Stratagems", { fresh: true, staleIfError: false }],
+      ["/wiki/TD-110_Maelstrom", { fresh: false, staleIfError: true }],
     ]);
   });
 });

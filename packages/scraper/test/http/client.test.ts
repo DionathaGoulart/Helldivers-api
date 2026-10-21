@@ -1,4 +1,5 @@
-import { mkdtemp, rm } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { mkdtemp, readFile, rm, utimes, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
@@ -6,6 +7,8 @@ import { BlockedError } from "../../src/http/block-detect.ts";
 import { HttpCache } from "../../src/http/cache.ts";
 import { DisallowedUrlError, HttpClient, HttpError } from "../../src/http/client.ts";
 import { parseRobots } from "../../src/http/robots.ts";
+import type { Logger } from "../../src/log.ts";
+import { OnlineSource } from "../../src/source.ts";
 import { fakeClock } from "./fake-clock.ts";
 
 const BASE = "https://helldivers.wiki.gg";
@@ -38,7 +41,15 @@ afterEach(async () => {
   await rm(dir, { recursive: true, force: true });
 });
 
-function client(replies: Reply[], overrides: { fullRefresh?: boolean; cache?: boolean } = {}) {
+function client(
+  replies: Reply[],
+  overrides: {
+    fullRefresh?: boolean;
+    cache?: boolean;
+    logger?: Logger;
+    requestTimeoutMs?: number;
+  } = {},
+) {
   const clock = fakeClock();
   const { fetch, requests } = fakeFetch(replies);
   const http = new HttpClient({
@@ -49,6 +60,8 @@ function client(replies: Reply[], overrides: { fullRefresh?: boolean; cache?: bo
     fullRefresh: overrides.fullRefresh ?? false,
     fetch,
     clock,
+    ...(overrides.logger ? { logger: overrides.logger } : {}),
+    ...(overrides.requestTimeoutMs ? { requestTimeoutMs: overrides.requestTimeoutMs } : {}),
   });
   return { http, requests, clock };
 }
@@ -130,6 +143,215 @@ describe("HttpClient", () => {
       new Response(null, { status: 500 }),
     ]);
     await expect(http.get("/wiki/Boosters")).rejects.toThrow(HttpError);
+  });
+
+  it("uses recent validated HTML after four 502s and reports the fallback", async () => {
+    const warnings: string[] = [];
+    await client([html()]).http.get("/wiki/Boosters");
+    const { http, clock } = client(
+      Array.from({ length: 4 }, () => new Response(null, { status: 502 })),
+      {
+        logger: {
+          info() {},
+          warn(msg) {
+            warnings.push(msg);
+          },
+          error() {},
+        },
+      },
+    );
+    const result = await http.get("/wiki/Boosters", { staleIfError: true });
+    expect(result).toMatchObject({ status: 200, fromCache: true, stale: true });
+    expect(result.body.toString()).toBe(PAGE);
+    expect(clock.sleeps).toEqual([5_000, 20_000, 60_000]);
+    expect(http.stats).toMatchObject({ requests: 4, retries: 3, notModified: 0 });
+    expect(http.warnings).toHaveLength(1);
+    expect(warnings).toContain("http stale fallback");
+  });
+
+  it("OnlineSource enables fallback only for item pages", async () => {
+    const { http } = client([]);
+    const called: unknown[] = [];
+    http.get = async (_target, options) => {
+      called.push(options);
+      return {
+        url: `${BASE}/wiki/Boosters`,
+        status: 200,
+        body: Buffer.from(PAGE),
+        fromCache: false,
+        lastModified: null,
+      };
+    };
+    const source = new OnlineSource(http, ["Weapons"]);
+    await source.page("Boosters");
+    await source.page("Weapons");
+    expect(called).toEqual([
+      { fresh: false, staleIfError: true },
+      { fresh: true, staleIfError: false },
+    ]);
+  });
+
+  it.each([500, 502, 504])("permits fallback for HTTP %s", async (status) => {
+    await client([html()]).http.get("/wiki/Boosters");
+    const { http } = client(Array.from({ length: 4 }, () => new Response(null, { status })));
+    expect((await http.get("/wiki/Boosters", { staleIfError: true })).stale).toBe(true);
+  });
+
+  it.each([403, 429, 503])("never falls back after HTTP %s", async (status) => {
+    await client([html()]).http.get("/wiki/Boosters");
+    const { http } = client(Array.from({ length: 4 }, () => new Response(null, { status })));
+    await expect(http.get("/wiki/Boosters", { staleIfError: true })).rejects.toThrow();
+    expect(http.warnings).toEqual([]);
+  });
+
+  it("requires explicit opt-in, a cache body, and a non-fresh normal page", async () => {
+    await client([html()]).http.get("/wiki/Boosters");
+    for (const options of [{}, { staleIfError: true, fresh: true }]) {
+      const { http } = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+      await expect(http.get("/wiki/Boosters", options)).rejects.toThrow(HttpError);
+    }
+    const full = client(
+      Array.from({ length: 4 }, () => new Response(null, { status: 502 })),
+      { fullRefresh: true },
+    );
+    await expect(full.http.get("/wiki/Boosters", { staleIfError: true })).rejects.toThrow(
+      HttpError,
+    );
+    const missing = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+    await expect(missing.http.get("/wiki/Missing", { staleIfError: true })).rejects.toThrow(
+      HttpError,
+    );
+    const immutable = client([]);
+    expect(
+      (await immutable.http.get("/wiki/Boosters", { staleIfError: true, immutable: true })).stale,
+    ).toBeUndefined();
+    expect(immutable.requests).toHaveLength(0);
+  });
+
+  it("rejects old and invalid cached HTML", async () => {
+    const cache = new HttpCache(join(dir, "http"));
+    const url = `${BASE}/wiki/Boosters`;
+    await cache.put(
+      url,
+      { etag: null, lastModified: null },
+      Buffer.from(PAGE),
+      1_000_000 - 8 * 24 * 60 * 60 * 1000,
+    );
+    const old = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+    await expect(old.http.get(url, { staleIfError: true })).rejects.toThrow(HttpError);
+    await cache.put(
+      url,
+      { etag: null, lastModified: null },
+      Buffer.from("<html>blocked</html>"),
+      1_000_000,
+    );
+    const invalid = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+    await expect(invalid.http.get(url, { staleIfError: true })).rejects.toThrow(HttpError);
+  });
+
+  it("uses legacy body mtime and never refreshes cache age on 304 or fallback", async () => {
+    const url = `${BASE}/wiki/Boosters`;
+    await client([html()]).http.get(url);
+    const key = createHash("sha1").update(url).digest("hex");
+    const metaPath = join(dir, "http", `${key}.json`);
+    const meta = JSON.parse(await readFile(metaPath, "utf8"));
+    delete meta.fetchedAt;
+    await writeFile(metaPath, JSON.stringify(meta));
+    const oldDate = new Date(Date.now() - 8 * 24 * 60 * 60 * 1000);
+    await utimes(join(dir, "http", `${key}.body`), oldDate, oldDate);
+    const revalidate = client([new Response(null, { status: 304 })]);
+    await revalidate.http.get(url);
+    const failed = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+    await expect(failed.http.get(url, { staleIfError: true })).rejects.toThrow(HttpError);
+    expect(failed.http.warnings).toEqual([]);
+  });
+
+  it("accepts a recent legacy cache entry restored by Actions", async () => {
+    const url = `${BASE}/wiki/Boosters`;
+    await client([html()]).http.get(url);
+    const key = createHash("sha1").update(url).digest("hex");
+    const metaPath = join(dir, "http", `${key}.json`);
+    const meta = JSON.parse(await readFile(metaPath, "utf8"));
+    delete meta.fetchedAt;
+    await writeFile(metaPath, JSON.stringify(meta));
+    const { http } = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+    expect((await http.get(url, { staleIfError: true })).stale).toBe(true);
+  });
+
+  it("limits fallback to three pages per client", async () => {
+    const cache = new HttpCache(join(dir, "http"));
+    for (let i = 0; i < 4; i++) {
+      await cache.put(
+        `${BASE}/wiki/Page${i}`,
+        { etag: null, lastModified: null },
+        Buffer.from(PAGE),
+        1_000_000,
+      );
+    }
+    const { http } = client(Array.from({ length: 16 }, () => new Response(null, { status: 502 })));
+    for (let i = 0; i < 3; i++) {
+      expect((await http.get(`/wiki/Page${i}`, { staleIfError: true })).stale).toBe(true);
+    }
+    await expect(http.get("/wiki/Page3", { staleIfError: true })).rejects.toThrow(HttpError);
+    expect(http.warnings).toHaveLength(3);
+  });
+
+  it("treats a timed-out request as a retryable network failure", async () => {
+    await client([html()]).http.get("/wiki/Boosters");
+    const http = new HttpClient({
+      baseUrl: BASE,
+      userAgent: UA,
+      pacing,
+      cache: new HttpCache(join(dir, "http")),
+      fullRefresh: false,
+      retryDelaysMs: [],
+      requestTimeoutMs: 10,
+      clock: fakeClock(),
+      fetch: async (request) =>
+        new Promise((_resolve, reject) => {
+          request.signal.addEventListener("abort", () => reject(request.signal.reason), {
+            once: true,
+          });
+        }),
+    });
+    expect((await http.get("/wiki/Boosters", { staleIfError: true })).stale).toBe(true);
+  });
+
+  it("times out while reading a stalled response body", async () => {
+    await client([html()]).http.get("/wiki/Boosters");
+    const http = new HttpClient({
+      baseUrl: BASE,
+      userAgent: UA,
+      pacing,
+      cache: new HttpCache(join(dir, "http")),
+      fullRefresh: false,
+      retryDelaysMs: [],
+      requestTimeoutMs: 10,
+      clock: fakeClock(),
+      fetch: async (request) =>
+        new Response(
+          new ReadableStream({
+            start(controller) {
+              request.signal.addEventListener(
+                "abort",
+                () => controller.error(request.signal.reason),
+                { once: true },
+              );
+            },
+          }),
+          { status: 200 },
+        ),
+    });
+    expect((await http.get("/wiki/Boosters", { staleIfError: true })).stale).toBe(true);
+  });
+
+  it("rejects corrupt cache metadata", async () => {
+    const url = `${BASE}/wiki/Boosters`;
+    await client([html()]).http.get(url);
+    const key = createHash("sha1").update(url).digest("hex");
+    await writeFile(join(dir, "http", `${key}.json`), "broken");
+    const { http } = client(Array.from({ length: 4 }, () => new Response(null, { status: 502 })));
+    await expect(http.get(url, { staleIfError: true })).rejects.toThrow(HttpError);
   });
 
   it("does not retry other client errors", async () => {
