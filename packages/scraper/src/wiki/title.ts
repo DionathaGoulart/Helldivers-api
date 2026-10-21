@@ -10,6 +10,7 @@ export function normalizeTitle(title: string): string {
 /** `City Fighter's Resolve` → `/wiki/City_Fighter's_Resolve` (apostrophes stay, arch §5.4). */
 export function titleToPath(title: string): string {
   const encoded = encodeURI(normalizeTitle(title).replaceAll(" ", "_"))
+    .replaceAll("&", "%26")
     .replaceAll("?", "%3F")
     .replaceAll("#", "%23");
   return `/wiki/${encoded}`;

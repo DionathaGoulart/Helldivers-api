@@ -19,6 +19,7 @@ describe("wiki titles", () => {
     ["R/40-K Hot-Shot Marksman Rifle", "/wiki/R/40-K_Hot-Shot_Marksman_Rifle"],
     ["Castellan’s Creed", "/wiki/Castellan%E2%80%99s_Creed"],
     ["Halo: ODST?", "/wiki/Halo:_ODST%3F"],
+    ["SG-225SP Breaker Spray&Pray", "/wiki/SG-225SP_Breaker_Spray%26Pray"],
   ])("paths %s as %s", (title, path) => {
     expect(titleToPath(title)).toBe(path);
   });
@@ -26,6 +27,9 @@ describe("wiki titles", () => {
   it("builds wiki URLs with anchors", () => {
     expect(wikiUrl("Equipment Traits", "Light_Armor_Penetrating")).toBe(
       "https://helldivers.wiki.gg/wiki/Equipment_Traits#Light_Armor_Penetrating",
+    );
+    expect(wikiUrl("SG-225SP Breaker Spray&Pray")).toBe(
+      "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
     );
   });
 
