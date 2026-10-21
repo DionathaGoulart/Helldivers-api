@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -149,6 +149,7 @@
       "AR-2 COYOTE › Mags from Ammo Box": "4",
       "AR-2 COYOTE › Attacks › AR-2 P": "Projectile",
       "AR-2 COYOTE › Attacks › Fire": "status",
+      "AR-2 P › Projectile › Size": "7 mm",
       "AR-2 P › Projectile › Mass": "8 g",
       "AR-2 P › Projectile › Initial Velocity": "650 m/s",
       "AR-2 P › Projectile › Drag Factor": "30%",

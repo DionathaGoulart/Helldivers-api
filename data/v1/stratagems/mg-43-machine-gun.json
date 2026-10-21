@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -157,6 +157,7 @@
       "MG-43 MACHINE GUN › Mags from Supply": "2",
       "MG-43 MACHINE GUN › Mags from Ammo Box": "1",
       "MG-43 MACHINE GUN › Attacks › MG-43 P": "Projectile",
+      "MG-43 P › Projectile › Size": "8 mm",
       "MG-43 P › Projectile › Mass": "11 g",
       "MG-43 P › Projectile › Initial Velocity": "820 m/s",
       "MG-43 P › Projectile › Drag Factor": "30%",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -23,10 +23,8 @@
     },
     "wiki": {
       "title": "SG-225SP Breaker Spray&Pray",
-      "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
+      "flags": []
     },
     "category": "primary",
     "subcategory": "shotgun",
@@ -42,7 +40,7 @@
         330
       ],
       "dps": [
-        1320
+        1584
       ],
       "capacity": 26,
       "spareMagazines": 8,
@@ -70,8 +68,8 @@
         "name": "SG-225SP P",
         "kind": "projectile",
         "damage": {
-          "standard": 15,
-          "durable": 4,
+          "standard": 18,
+          "durable": 5,
           "type": "Ballistic"
         },
         "penetration": {
@@ -101,10 +99,10 @@
       "Weapon Type": "Shotguns",
       "Firing Modes": "Auto • Semi",
       "Traits": "Light Armor Penetrating",
-      "Standard Damage": "240 Ballistic",
+      "Standard Damage": "288 Ballistic",
       "Armor Penetration": "Light",
       "Fire Rate": "330 rpm",
-      "DPS": "1,320",
+      "DPS": "1,584",
       "Capacity": "26",
       "Spare Mags": "8",
       "Supply Box Refill": "8",
@@ -127,13 +125,14 @@
       "SG-225SP BREAKER SPRAY&PRAY › Mags from Ammo Box": "4",
       "SG-225SP BREAKER SPRAY&PRAY › Attacks › SG-225SP P": "Projectile",
       "SG-225SP P › Projectile › Pellets": "x 16",
+      "SG-225SP P › Projectile › Size": "3 mm",
       "SG-225SP P › Projectile › Mass": "1 g",
       "SG-225SP P › Projectile › Initial Velocity": "250 m/s",
       "SG-225SP P › Projectile › Drag Factor": "50%",
       "SG-225SP P › Projectile › Gravity Factor": "100%",
       "SG-225SP P › Projectile › Penetration Slowdown": "80%",
-      "SG-225SP P › Damage › Standard": "15 Ballistic",
-      "SG-225SP P › Damage › vs. Durable": "4 Ballistic",
+      "SG-225SP P › Damage › Standard": "18 Ballistic",
+      "SG-225SP P › Damage › vs. Durable": "5 Ballistic",
       "SG-225SP P › Penetration › Direct": "Light",
       "SG-225SP P › Penetration › Slight Angle": "Light",
       "SG-225SP P › Penetration › Large Angle": "Light",

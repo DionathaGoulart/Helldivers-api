@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,9 +50,9 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 18.5,
-      "horizontalRecoil": 12,
-      "verticalRecoil": 25,
+      "recoil": 14.5,
+      "horizontalRecoil": 9,
+      "verticalRecoil": 20,
       "spread": {
         "horizontal": 2,
         "vertical": 2
@@ -72,7 +72,7 @@
         "kind": "projectile",
         "damage": {
           "standard": 90,
-          "durable": 16,
+          "durable": 20,
           "type": "Ballistic"
         },
         "penetration": {
@@ -113,9 +113,9 @@
       "Reload Time": "3.15s",
       "Tactical Reload Time": "2s",
       "MA5C ASSAULT RIFLE › Fire Rate": "640 rpm",
-      "MA5C ASSAULT RIFLE › Recoil": "18.5",
-      "MA5C ASSAULT RIFLE › Horizontal Recoil": "12",
-      "MA5C ASSAULT RIFLE › Vertical Recoil": "25",
+      "MA5C ASSAULT RIFLE › Recoil": "14.5",
+      "MA5C ASSAULT RIFLE › Horizontal Recoil": "9",
+      "MA5C ASSAULT RIFLE › Vertical Recoil": "20",
       "MA5C ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
       "MA5C ASSAULT RIFLE › Sway": "1",
       "MA5C ASSAULT RIFLE › Ergonomics": "60",
@@ -126,13 +126,14 @@
       "MA5C ASSAULT RIFLE › Mags from Supply": "8",
       "MA5C ASSAULT RIFLE › Mags from Ammo Box": "4",
       "MA5C ASSAULT RIFLE › Attacks › MA5C P": "Projectile",
+      "MA5C P › Projectile › Size": "8 mm",
       "MA5C P › Projectile › Mass": "11 g",
       "MA5C P › Projectile › Initial Velocity": "820 m/s",
       "MA5C P › Projectile › Drag Factor": "30%",
       "MA5C P › Projectile › Gravity Factor": "100%",
       "MA5C P › Projectile › Penetration Slowdown": "25%",
       "MA5C P › Damage › Standard": "90 Ballistic",
-      "MA5C P › Damage › vs. Durable": "16 Ballistic",
+      "MA5C P › Damage › vs. Durable": "20 Ballistic",
       "MA5C P › Penetration › Direct": "Medium",
       "MA5C P › Penetration › Slight Angle": "Medium",
       "MA5C P › Penetration › Large Angle": "Medium",

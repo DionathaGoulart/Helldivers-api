@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -125,6 +125,7 @@
       "BR-14 ADJUDICATOR › Mags from Supply": "8",
       "BR-14 ADJUDICATOR › Mags from Ammo Box": "4",
       "BR-14 ADJUDICATOR › Attacks › BR-14 P": "Projectile",
+      "BR-14 P › Projectile › Size": "8 mm",
       "BR-14 P › Projectile › Mass": "11 g",
       "BR-14 P › Projectile › Initial Velocity": "820 m/s",
       "BR-14 P › Projectile › Drag Factor": "30%",

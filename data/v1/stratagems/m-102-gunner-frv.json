@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -123,6 +123,7 @@
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Mags from Supply": "2",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Mags from Ammo Box": "1",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › MG-206 P": "Projectile",
+      "MG-206 P › Projectile › Size": "12.5 mm",
       "MG-206 P › Projectile › Mass": "52 g",
       "MG-206 P › Projectile › Initial Velocity": "980 m/s",
       "MG-206 P › Projectile › Drag Factor": "30%",

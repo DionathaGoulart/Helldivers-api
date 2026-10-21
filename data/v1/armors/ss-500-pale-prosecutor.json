@@ -1,0 +1,49 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "ss-500-pale-prosecutor",
+    "slug": "ss-500-pale-prosecutor",
+    "name": "SS-500 Pale Prosecutor",
+    "upcoming": false,
+    "aliases": [],
+    "description": "Tailored from insulated canvas, with a design honoring the ghost-like marksmen of ancient sub-zero campaigns. Featuring adaptive camouflage capabilities, it is engineered for long-duration vigils delivering swift, legally binding verdicts from extreme range.",
+    "image": {
+      "url": "/images/v1/armors/ss-500-pale-prosecutor.a1fb8b99.webp",
+      "width": 512,
+      "height": 512,
+      "wikiFile": "SS-500_Pale_Prosecutor_Armor_Render.png"
+    },
+    "wiki": {
+      "title": "SS-500 Pale Prosecutor",
+      "url": "https://helldivers.wiki.gg/wiki/SS-500_Pale_Prosecutor",
+      "flags": []
+    },
+    "weight": "light",
+    "armorRating": 50,
+    "speed": 550,
+    "staminaRegen": 125,
+    "passiveId": "stationary-shroud",
+    "setIds": [
+      "ss-500-pale-prosecutor"
+    ],
+    "source": {
+      "type": "superstore",
+      "label": "Superstore",
+      "warbondId": null,
+      "page": null,
+      "cost": {
+        "currency": "super_credits",
+        "amount": 250
+      },
+      "rotating": false
+    }
+  }
+}

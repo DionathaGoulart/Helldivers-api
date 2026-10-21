@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,6 +24,7 @@
     "weaponIds": [],
     "stratagemIds": [
       "ac-8-autocannon",
+      "amw-20-apex",
       "faf-14-spear",
       "gr-8-recoilless-rifle",
       "mg-206-heavy-machine-gun",

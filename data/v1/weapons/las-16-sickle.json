@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "LAS-16 Sickle",
       "url": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "energy_based",
@@ -105,7 +103,7 @@
       "Armor Penetration": "Light",
       "Fire Rate": "750 rpm",
       "DPS": "750",
-      "Capacity": "7s (87)",
+      "Capacity": "8s (105)",
       "Spare Mags": "3",
       "Supply Box Refill": "3",
       "Ammo Box Refill": "1",
@@ -126,11 +124,12 @@
       "LAS-16 SICKLE › Mags from Supply": "6",
       "LAS-16 SICKLE › Mags from Ammo Box": "3",
       "LAS-16 SICKLE › Heat Data › Overheats at": "100 °C",
-      "LAS-16 SICKLE › Heat Data › Warmup": "0.5 sec",
-      "LAS-16 SICKLE › Heat Data › Heat Per Shot": "1.14999998 °C",
+      "LAS-16 SICKLE › Heat Data › Warmup": "0.3 sec",
+      "LAS-16 SICKLE › Heat Data › Heat Per Shot": "0.949999988 °C",
       "LAS-16 SICKLE › Heat Data › Cool Per Sec": "12 - 8 - 6",
       "LAS-16 SICKLE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
       "LAS-16 SICKLE › Attacks › LAS-16 P": "Projectile",
+      "LAS-16 P › Projectile › Size": "10 mm",
       "LAS-16 P › Projectile › Mass": "12 g",
       "LAS-16 P › Projectile › Initial Velocity": "1300 m/s",
       "LAS-16 P › Projectile › Drag Factor": "0%",

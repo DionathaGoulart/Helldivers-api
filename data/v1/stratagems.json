@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "count": 117,
     "source": {
       "name": "The Helldivers Wiki",
@@ -27,7 +27,6 @@
         "title": "40-K Meltagun",
         "url": "https://helldivers.wiki.gg/wiki/40-K_Meltagun",
         "flags": [
-          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -204,7 +203,7 @@
         "40-K MELTAGUN › Attacks › Fire Panic": "status",
         "40-K MELTAGUN › Attacks › FlamerSlowed": "status",
         "40-K MELTAGUN B › Beam › Beam Range": "15 m",
-        "40-K MELTAGUN B › Beam › Beam Max Falloff": "0.6 x DMG",
+        "40-K MELTAGUN B › Beam › Beam Max Falloff": "0.600000024 x DMG",
         "40-K MELTAGUN B › Damage › Standard": "2600 Laser",
         "40-K MELTAGUN B › Damage › vs. Durable": "2600 Laser",
         "40-K MELTAGUN B › Penetration › Direct": "Anti-Tank III",
@@ -648,9 +647,7 @@
       "wiki": {
         "title": "A/FLAM-40 Flame Sentry",
         "url": "https://helldivers.wiki.gg/wiki/A/FLAM-40_Flame_Sentry",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "permitType": "defensive",
       "availability": "loadout",
@@ -737,8 +734,8 @@
           "name": "FLAME SENTRY S",
           "kind": "spray",
           "damage": {
-            "standard": 3,
-            "durable": 3,
+            "standard": 8,
+            "durable": 8,
             "type": "Fire"
           },
           "penetration": {
@@ -885,8 +882,8 @@
         "FLAME SENTRY › FLAME SENTRY › Fire Panic": "status",
         "FLAME SENTRY › FLAME SENTRY › FlamerSlowed": "status",
         "FLAME SENTRY S › Damage › Element": "Fire",
-        "FLAME SENTRY S › Damage › Standard": "3 Fire",
-        "FLAME SENTRY S › Damage › vs. Durable": "3 Fire",
+        "FLAME SENTRY S › Damage › Standard": "8 Fire",
+        "FLAME SENTRY S › Damage › vs. Durable": "8 Fire",
         "FLAME SENTRY S › Penetration › Direct": "Heavy",
         "FLAME SENTRY S › Penetration › Slight Angle": "Heavy",
         "FLAME SENTRY S › Penetration › Large Angle": "Heavy",
@@ -3086,14 +3083,14 @@
       "id": "amw-20-apex",
       "slug": "amw-20-apex",
       "name": "AMW-20 Apex",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The AMW-20 Apex is a Support Weapon that deploys a high-powered anti-materiel rifle.",
       "image": {
-        "url": "/images/v1/stratagems/amw-20-apex.5306e20e.webp",
+        "url": "/images/v1/stratagems/amw-20-apex.fe4509ba.webp",
         "width": 256,
         "height": 256,
-        "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg"
+        "wikiFile": "Apex_Stratagem_Icon_Background.svg"
       },
       "wiki": {
         "title": "AMW-20 Apex",
@@ -3108,14 +3105,28 @@
       "kind": "support_weapon",
       "traitIds": [
         "support-weapon",
-        "backpack"
+        "backpack",
+        "heavy-armor-penetrating",
+        "stationary-reload"
       ],
-      "code": [],
-      "cooldownS": null,
-      "cooldownVariants": [],
-      "callInTimeS": null,
-      "callInTimeUpgradedS": null,
-      "uses": null,
+      "code": [
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "left"
+      ],
+      "cooldownS": 480,
+      "cooldownVariants": [
+        {
+          "label": "With Morale Augmentation",
+          "seconds": 456
+        }
+      ],
+      "callInTimeS": 7.75,
+      "callInTimeUpgradedS": 4.75,
+      "uses": "unlimited",
       "unlockLevel": null,
       "shipModules": [
         {
@@ -3146,18 +3157,97 @@
       ],
       "supportWeapon": null,
       "backpack": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "AMW-20 P",
+          "kind": "projectile",
+          "damage": {
+            "standard": 1550,
+            "durable": 930,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "anti_tank_i",
+            "slightAngle": "anti_tank_i",
+            "largeAngle": "anti_tank_i",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": {
+            "pellets": null,
+            "massG": 70,
+            "initialVelocityMps": 1500,
+            "dragFactorPct": 10,
+            "gravityFactorPct": 35,
+            "penetrationSlowdownPct": 10
+          },
+          "area": null,
+          "forces": {
+            "demolition": 15,
+            "stagger": 40,
+            "push": 25
+          }
+        }
+      ],
       "statsRaw": {
         "Permit Type": "Supply",
-        "Traits": "Support Weapon • Backpack",
-        "Weapon Category": "Support Weapons"
+        "Traits": "Support Weapon • Backpack • Heavy Armour Penetrating • Stationary Reload",
+        "Base Cooldown": "480s",
+        "Weapon Category": "Support Weapons",
+        "Firing Modes": "Semi",
+        "Standard Damage": "1,550 Ballistic",
+        "Armor Penetration": "Anti-Tank I",
+        "Fire Rate": "50 rpm",
+        "DPS": "1,291.67",
+        "Capacity": "5",
+        "Spare Mags": "4 Magazines",
+        "Ammo Box Refill": "1",
+        "Ergonomics": "14",
+        "Reload Time": "5.0s / 4.55s (Upgraded)",
+        "Tactical Reload Time": "3.65 / 3.3s (Upgraded)",
+        "General › Call-in Time › Standard": "7.75 seconds",
+        "General › Call-in Time › Upgraded": "4.75 seconds",
+        "General › Uses": "Unlimited",
+        "General › Cooldown › Standard": "480 seconds",
+        "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "AMW-20 APEX › Fire Rate": "50 rpm",
+        "AMW-20 APEX › Recoil": "337.5",
+        "AMW-20 APEX › Horizontal Recoil": "175",
+        "AMW-20 APEX › Vertical Recoil": "500",
+        "AMW-20 APEX › Spread": "↔[0.10] ↕[0.10]",
+        "AMW-20 APEX › Sway": "1",
+        "AMW-20 APEX › Ergonomics": "14",
+        "AMW-20 APEX › Noise When Firing": "Large (~58m)",
+        "AMW-20 APEX › Capacity": "5",
+        "AMW-20 APEX › Spare Magazines": "4",
+        "AMW-20 APEX › Starting Magazines": "4",
+        "AMW-20 APEX › Mags from Supply": "2",
+        "AMW-20 APEX › Mags from Ammo Box": "1",
+        "AMW-20 APEX › Attacks › AMW-20 P": "Projectile",
+        "AMW-20 P › Projectile › Size": "60 mm",
+        "AMW-20 P › Projectile › Mass": "70 g",
+        "AMW-20 P › Projectile › Initial Velocity": "1500 m/s",
+        "AMW-20 P › Projectile › Drag Factor": "10%",
+        "AMW-20 P › Projectile › Gravity Factor": "35%",
+        "AMW-20 P › Projectile › Penetration Slowdown": "10%",
+        "AMW-20 P › Damage › Standard": "1550 Ballistic",
+        "AMW-20 P › Damage › vs. Durable": "930 Ballistic",
+        "AMW-20 P › Penetration › Direct": "Anti-Tank I",
+        "AMW-20 P › Penetration › Slight Angle": "Anti-Tank I",
+        "AMW-20 P › Penetration › Large Angle": "Anti-Tank I",
+        "AMW-20 P › Penetration › Extreme Angle": "Unarmored",
+        "AMW-20 P › Special Effects › Demolition Force": "15",
+        "AMW-20 P › Special Effects › Stagger Force": "40",
+        "AMW-20 P › Special Effects › Push Force": "25"
       },
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP2",
         "warbondId": "scope-of-authority",
-        "page": 3,
-        "cost": null,
+        "page": 2,
+        "cost": {
+          "currency": "medals",
+          "amount": 50
+        },
         "rotating": null
       }
     },
@@ -5096,7 +5186,7 @@
         }
       ],
       "callInTimeS": 9.75,
-      "callInTimeUpgradedS": null,
+      "callInTimeUpgradedS": 4.75,
       "uses": "unlimited",
       "unlockLevel": null,
       "shipModules": [
@@ -5164,7 +5254,8 @@
         "Supply Box Refill": "3",
         "Ammo Box Refill": "1",
         "Reload Time": "1.1s / 1s (Upgraded)",
-        "General › Call-in Time": "9.75 seconds",
+        "General › Call-in Time › Standard": "9.75 seconds",
+        "General › Call-in Time › Upgraded": "4.75 seconds",
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
@@ -5357,10 +5448,15 @@
         "up"
       ],
       "cooldownS": 480,
-      "cooldownVariants": [],
-      "callInTimeS": null,
-      "callInTimeUpgradedS": null,
-      "uses": null,
+      "cooldownVariants": [
+        {
+          "label": "With Morale Augmentation",
+          "seconds": 456
+        }
+      ],
+      "callInTimeS": 9.75,
+      "callInTimeUpgradedS": 4.75,
+      "uses": "unlimited",
       "unlockLevel": null,
       "shipModules": [
         {
@@ -5416,6 +5512,11 @@
         "Capacity": "N/A",
         "Ergonomics": "65",
         "Recoil": "8",
+        "General › Call-in Time › Standard": "9.75 seconds",
+        "General › Call-in Time › Upgraded": "4.75 seconds",
+        "General › Uses": "Unlimited",
+        "General › Cooldown › Standard": "480 seconds",
+        "General › Cooldown › With Morale Augmentation": "456 seconds",
         "CQC-1 ONE TRUE FLAG › Recoil": "6.25",
         "CQC-1 ONE TRUE FLAG › Horizontal Recoil": "2.5",
         "CQC-1 ONE TRUE FLAG › Vertical Recoil": "10",
@@ -5465,9 +5566,7 @@
       "wiki": {
         "title": "CQC-20 Breaching Hammer",
         "url": "https://helldivers.wiki.gg/wiki/CQC-20_Breaching_Hammer",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "permitType": "supply",
       "availability": "loadout",
@@ -5584,7 +5683,7 @@
         "Standard Damage": "300 Melee / 2,200 Explosion",
         "Armor Penetration": "Medium (Melee) / Anti-Tank II (Explosion)",
         "Capacity": "1",
-        "Spare Rounds": "7",
+        "Spare Rounds": "10",
         "Supply Box Refill": "7",
         "Ammo Box Refill": "3",
         "Ergonomics": "65",
@@ -5603,7 +5702,7 @@
         "CQC-20 BREACHING HAMMER › Noise When Firing": "No sound",
         "CQC-20 BREACHING HAMMER › Stamina Cost": "5%",
         "CQC-20 BREACHING HAMMER › Capacity": "1",
-        "CQC-20 BREACHING HAMMER › Spare Magazines": "7",
+        "CQC-20 BREACHING HAMMER › Spare Magazines": "10",
         "CQC-20 BREACHING HAMMER › Starting Magazines": "7",
         "CQC-20 BREACHING HAMMER › Mags from Supply": "7",
         "CQC-20 BREACHING HAMMER › Mags from Ammo Box": "3",
@@ -7356,7 +7455,6 @@
         "title": "Eagle Gas Airstrike",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Gas_Airstrike",
         "flags": [
-          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -7479,7 +7577,7 @@
             "shockwaveRadiusM": 15
           },
           "forces": {
-            "demolition": 50,
+            "demolition": 40,
             "stagger": 10,
             "push": 40
           }
@@ -7551,6 +7649,7 @@
         "Eagle Gas Airstrike › Attacks › S P6 IE": "Explosion",
         "Eagle Gas Airstrike › Attacks › Gas": "status",
         "Eagle Gas Airstrike › Attacks › Gas Confusion": "status",
+        "S P6 › Projectile › Size": "25 mm",
         "S P6 › Projectile › Mass": "100 g",
         "S P6 › Projectile › Initial Velocity": "500 m/s",
         "S P6 › Projectile › Drag Factor": "50%",
@@ -7580,7 +7679,7 @@
         "S P6 IE › AoE Effect › Status Strength": "100",
         "S P6 IE › AoE Effect › Second Status": "Gas_Confusion",
         "S P6 IE › AoE Effect › Status Strength (2)": "100",
-        "S P6 IE › AoE Effect › Demolition Force": "50",
+        "S P6 IE › AoE Effect › Demolition Force": "40",
         "S P6 IE › AoE Effect › Stagger Force": "10",
         "S P6 IE › AoE Effect › Push Force": "40",
         "Gas › Status › Status Duration": "6 sec",
@@ -9892,7 +9991,6 @@
         "title": "EXO-51 Lumberer Exosuit",
         "url": "https://helldivers.wiki.gg/wiki/EXO-51_Lumberer_Exosuit",
         "flags": [
-          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -10003,8 +10101,8 @@
           "name": "LUMBERER FLAMETHROWER S",
           "kind": "spray",
           "damage": {
-            "standard": 3,
-            "durable": 3,
+            "standard": 8,
+            "durable": 8,
             "type": "Fire"
           },
           "penetration": {
@@ -10177,6 +10275,7 @@
         "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Fire": "status",
         "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Fire Panic": "status",
         "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › FlamerSlowed": "status",
+        "P8 › Projectile › Size": "75 mm",
         "P8 › Projectile › Mass": "6.5 kg",
         "P8 › Projectile › Initial Velocity": "625 m/s",
         "P8 › Projectile › Drag Factor": "75%",
@@ -10207,8 +10306,8 @@
         "P8 IE › AoE Effect › Stagger Force": "60",
         "P8 IE › AoE Effect › Push Force": "40",
         "LUMBERER FLAMETHROWER S › Damage › Element": "Fire",
-        "LUMBERER FLAMETHROWER S › Damage › Standard": "3 Fire",
-        "LUMBERER FLAMETHROWER S › Damage › vs. Durable": "3 Fire",
+        "LUMBERER FLAMETHROWER S › Damage › Standard": "8 Fire",
+        "LUMBERER FLAMETHROWER S › Damage › vs. Durable": "8 Fire",
         "LUMBERER FLAMETHROWER S › Penetration › Direct": "Heavy",
         "LUMBERER FLAMETHROWER S › Penetration › Slight Angle": "Heavy",
         "LUMBERER FLAMETHROWER S › Penetration › Large Angle": "Heavy",
@@ -12218,14 +12317,14 @@
       "id": "las-44-nova",
       "slug": "las-44-nova",
       "name": "LAS-44 Nova",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
-      "description": "The LAS-44 Nova is a Support Weapon that deploys a high-powered, energy-based anti-materiel rifle. It does not require ammunition, but its ammo capacity depends on its heat buildup.",
+      "description": "The LAS-44 Nova is a Support Weapon that deploys a high-powered, energy-based sniper rifle. It does not require ammunition, but must cool down between shots.",
       "image": {
-        "url": "/images/v1/stratagems/las-44-nova.5306e20e.webp",
+        "url": "/images/v1/stratagems/las-44-nova.801f15c2.webp",
         "width": 256,
         "height": 256,
-        "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg"
+        "wikiFile": "Nova_Stratagem_Icon_Background.svg"
       },
       "wiki": {
         "title": "LAS-44 Nova",
@@ -12239,14 +12338,27 @@
       "category": null,
       "kind": "support_weapon",
       "traitIds": [
-        "support-weapon"
+        "support-weapon",
+        "heavy-armor-penetrating",
+        "heat"
       ],
-      "code": [],
-      "cooldownS": null,
-      "cooldownVariants": [],
-      "callInTimeS": null,
-      "callInTimeUpgradedS": null,
-      "uses": null,
+      "code": [
+        "down",
+        "left",
+        "right",
+        "down",
+        "down"
+      ],
+      "cooldownS": 480,
+      "cooldownVariants": [
+        {
+          "label": "With Morale Augmentation",
+          "seconds": 456
+        }
+      ],
+      "callInTimeS": 7.75,
+      "callInTimeUpgradedS": 4.75,
+      "uses": "unlimited",
       "unlockLevel": null,
       "shipModules": [
         {
@@ -12277,18 +12389,98 @@
       ],
       "supportWeapon": null,
       "backpack": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "LAS-44 P",
+          "kind": "projectile",
+          "damage": {
+            "standard": 880,
+            "durable": 880,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "anti_tank_i",
+            "slightAngle": "anti_tank_i",
+            "largeAngle": "anti_tank_i",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": {
+            "pellets": null,
+            "massG": 8,
+            "initialVelocityMps": 1500,
+            "dragFactorPct": 0,
+            "gravityFactorPct": 0,
+            "penetrationSlowdownPct": 25
+          },
+          "area": null,
+          "forces": {
+            "demolition": 17,
+            "stagger": 20,
+            "push": 20
+          }
+        }
+      ],
       "statsRaw": {
         "Permit Type": "Supply",
-        "Traits": "Support Weapon",
-        "Weapon Category": "Support Weapons"
+        "Traits": "Support Weapon • Heavy Armour Penetrating • Heat",
+        "Base Cooldown": "480s",
+        "Weapon Category": "Support Weapons",
+        "Standard Damage": "880 Ballistic",
+        "Armor Penetration": "Anti-Tank I",
+        "Fire Rate": "30 rpm",
+        "DPS": "440",
+        "Capacity": "∞",
+        "Spare Mags": "0 Magazines",
+        "Ergonomics": "70",
+        "General › Call-in Time › Standard": "7.75 seconds",
+        "General › Call-in Time › Upgraded": "4.75 seconds",
+        "General › Uses": "Unlimited",
+        "General › Cooldown › Standard": "480 seconds",
+        "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "LAS-44 NOVA › Fire Rate": "30 rpm",
+        "LAS-44 NOVA › Recoil": "410",
+        "LAS-44 NOVA › Horizontal Recoil": "20",
+        "LAS-44 NOVA › Vertical Recoil": "800",
+        "LAS-44 NOVA › Spread": "↔[2.00] ↕[2.00]",
+        "LAS-44 NOVA › Sway": "0.3",
+        "LAS-44 NOVA › Ergonomics": "70",
+        "LAS-44 NOVA › Noise When Firing": "Medium (~48m)",
+        "LAS-44 NOVA › Spare Magazines": "0",
+        "LAS-44 NOVA › Starting Magazines": "0",
+        "LAS-44 NOVA › Mags from Supply": "6",
+        "LAS-44 NOVA › Mags from Ammo Box": "3",
+        "LAS-44 NOVA › Heat Data › Overheats at": "100 °C",
+        "LAS-44 NOVA › Heat Data › Warmup": "1.6 sec",
+        "LAS-44 NOVA › Heat Data › Heat Per Shot": "100 °C",
+        "LAS-44 NOVA › Heat Data › Cool Per Sec": "33.6 - 28 - 24",
+        "LAS-44 NOVA › Heat Data › Cooldown After Overheat": "33.6 - 28 - 24",
+        "LAS-44 NOVA › Attacks › LAS-44 P": "Projectile",
+        "LAS-44 P › Projectile › Size": "10 mm",
+        "LAS-44 P › Projectile › Mass": "8 g",
+        "LAS-44 P › Projectile › Initial Velocity": "1500 m/s",
+        "LAS-44 P › Projectile › Drag Factor": "0%",
+        "LAS-44 P › Projectile › Gravity Factor": "0%",
+        "LAS-44 P › Projectile › Lifetime": "6 sec",
+        "LAS-44 P › Projectile › Penetration Slowdown": "25%",
+        "LAS-44 P › Damage › Standard": "880 Ballistic",
+        "LAS-44 P › Damage › vs. Durable": "880 Ballistic",
+        "LAS-44 P › Penetration › Direct": "Anti-Tank I",
+        "LAS-44 P › Penetration › Slight Angle": "Anti-Tank I",
+        "LAS-44 P › Penetration › Large Angle": "Anti-Tank I",
+        "LAS-44 P › Penetration › Extreme Angle": "Unarmored",
+        "LAS-44 P › Special Effects › Demolition Force": "17",
+        "LAS-44 P › Special Effects › Stagger Force": "20",
+        "LAS-44 P › Special Effects › Push Force": "20"
       },
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of Authority P3",
         "warbondId": "scope-of-authority",
-        "page": 2,
-        "cost": null,
+        "page": 3,
+        "cost": {
+          "currency": "medals",
+          "amount": 110
+        },
         "rotating": null
       }
     },
@@ -13096,9 +13288,7 @@
       "wiki": {
         "title": "M-1000 Maxigun",
         "url": "https://helldivers.wiki.gg/wiki/M-1000_Maxigun",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "permitType": "supply",
       "availability": "loadout",
@@ -13178,8 +13368,8 @@
           "area": null,
           "forces": {
             "demolition": 10,
-            "stagger": 15,
-            "push": 12
+            "stagger": 20,
+            "push": 24
           }
         }
       ],
@@ -13216,6 +13406,7 @@
         "M-1000 MAXIGUN › Wind Up Time": "0.5 s",
         "M-1000 MAXIGUN › Wind Down Time": "0.5 s",
         "M-1000 MAXIGUN › Attacks › M-1000 P": "Projectile",
+        "M-1000 P › Projectile › Size": "8 mm",
         "M-1000 P › Projectile › Mass": "11 g",
         "M-1000 P › Projectile › Initial Velocity": "920 m/s",
         "M-1000 P › Projectile › Drag Factor": "30%",
@@ -13228,8 +13419,8 @@
         "M-1000 P › Penetration › Large Angle": "Medium",
         "M-1000 P › Penetration › Extreme Angle": "Unarmored",
         "M-1000 P › Special Effects › Demolition Force": "10",
-        "M-1000 P › Special Effects › Stagger Force": "15",
-        "M-1000 P › Special Effects › Push Force": "12"
+        "M-1000 P › Special Effects › Stagger Force": "20",
+        "M-1000 P › Special Effects › Push Force": "24"
       },
       "source": {
         "type": "warbond",
@@ -13358,6 +13549,7 @@
         "GUNNER FRV › SWP HEAVY MACHINE GUN › Mags from Supply": "2",
         "GUNNER FRV › SWP HEAVY MACHINE GUN › Mags from Ammo Box": "1",
         "GUNNER FRV › SWP HEAVY MACHINE GUN › MG-206 P": "Projectile",
+        "MG-206 P › Projectile › Size": "12.5 mm",
         "MG-206 P › Projectile › Mass": "52 g",
         "MG-206 P › Projectile › Initial Velocity": "980 m/s",
         "MG-206 P › Projectile › Drag Factor": "30%",
@@ -13402,13 +13594,12 @@
         "title": "M-103 Supply FRV",
         "url": "https://helldivers.wiki.gg/wiki/M-103_Supply_FRV",
         "flags": [
-          "potentially_outdated",
           "broken_file_links"
         ]
       },
       "permitType": "supply",
       "availability": "loadout",
-      "category": null,
+      "category": "hangar",
       "kind": "vehicle",
       "traitIds": [
         "vehicle",
@@ -13499,6 +13690,7 @@
         "SUPPLY FRV › SWP SUPPLY FRV › Elevation Range": "[-60.00]° to [90.00]°",
         "SUPPLY FRV › SWP SUPPLY FRV › Traverse Range": "[-180.00]° to [180.00]°",
         "SUPPLY FRV › SWP SUPPLY FRV › AR-23P P": "Projectile",
+        "AR-23P P › Projectile › Size": "5.5 mm",
         "AR-23P P › Projectile › Mass": "4.5 g",
         "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
         "AR-23P P › Projectile › Drag Factor": "30%",
@@ -13515,11 +13707,14 @@
         "AR-23P P › Special Effects › Push Force": "10"
       },
       "source": {
-        "type": "event",
-        "label": "Census Thunder",
+        "type": "requisition",
+        "label": "Hanger",
         "warbondId": null,
         "page": null,
-        "cost": null,
+        "cost": {
+          "currency": "requisition",
+          "amount": 25000
+        },
         "rotating": null
       }
     },
@@ -13529,7 +13724,7 @@
       "name": "M-104 Incinerator FRV",
       "upcoming": false,
       "aliases": [],
-      "description": "The M-104 Incinerator FRV is a Stratagem that deploys an armored four-wheeled ground vehicle, equipped with a spiked ramming grille and a heavy flamethrower.",
+      "description": "The M-104 Incinerator FRV is a Stratagem that deploys an armored four-wheeled ground vehicle, equipped with a spiked ramming grille and a mounted B/FLAM-80 Cremator.",
       "image": {
         "url": "/images/v1/stratagems/m-104-incinerator-frv.58c79032.webp",
         "width": 256,
@@ -14935,6 +15130,7 @@
         "MG-43 MACHINE GUN › Mags from Supply": "2",
         "MG-43 MACHINE GUN › Mags from Ammo Box": "1",
         "MG-43 MACHINE GUN › Attacks › MG-43 P": "Projectile",
+        "MG-43 P › Projectile › Size": "8 mm",
         "MG-43 P › Projectile › Mass": "11 g",
         "MG-43 P › Projectile › Initial Velocity": "820 m/s",
         "MG-43 P › Projectile › Drag Factor": "30%",
@@ -16097,9 +16293,7 @@
       "wiki": {
         "title": "Orbital Airburst Strike",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Airburst_Strike",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "permitType": "offensive",
       "availability": "loadout",
@@ -16115,19 +16309,19 @@
         "right",
         "right"
       ],
-      "cooldownS": 100,
+      "cooldownS": 90,
       "cooldownVariants": [
         {
           "label": "With Morale Augmentation",
-          "seconds": 95
+          "seconds": 85.5
         },
         {
           "label": "With Zero-G Breech Loading",
-          "seconds": 90
+          "seconds": 81
         },
         {
           "label": "With All Upgrades",
-          "seconds": 85.5
+          "seconds": 76.95
         }
       ],
       "callInTimeS": 4.45,
@@ -16278,16 +16472,16 @@
       "statsRaw": {
         "Permit Type": "Offensive",
         "Traits": "Explosive • Orbital • Medium Armor Penetrating",
-        "Base Cooldown": "100s",
+        "Base Cooldown": "90s",
         "Unlock Level": "5",
         "General › Call-in Time › Standard": "4.45 seconds",
         "General › Call-in Time › Upgraded": "3.45 seconds",
         "General › Uses": "Unlimited",
-        "General › Cooldown › Standard": "100 seconds",
-        "General › Cooldown › With Morale Augmentation": "95 seconds",
-        "General › Cooldown › With Zero-G Breech Loading": "90 seconds",
-        "General › Cooldown › With All Upgrades": "85.5 seconds",
-        "Orbital Airburst Strike › Cooldown": "100 s",
+        "General › Cooldown › Standard": "90 seconds",
+        "General › Cooldown › With Morale Augmentation": "85.5 seconds",
+        "General › Cooldown › With Zero-G Breech Loading": "81 seconds",
+        "General › Cooldown › With All Upgrades": "76.95 seconds",
+        "Orbital Airburst Strike › Cooldown": "90 s",
         "Orbital Airburst Strike › Uses": "∞",
         "Orbital Airburst Strike › Bombs": "1",
         "Orbital Airburst Strike › Salvos": "4",
@@ -16296,6 +16490,7 @@
         "Orbital Airburst Strike › Attacks › S P15 IE": "Explosion",
         "Orbital Airburst Strike › Attacks › P14": "Projectile",
         "Orbital Airburst Strike › Attacks › P14 IE": "Explosion",
+        "S P15 › Projectile › Size": "110 mm",
         "S P15 › Projectile › Mass": "5 kg",
         "S P15 › Projectile › Initial Velocity": "400 m/s",
         "S P15 › Projectile › Drag Factor": "0%",
@@ -16329,6 +16524,7 @@
         "S P15 IE › AoE Effect › Demolition Force": "30",
         "S P15 IE › AoE Effect › Stagger Force": "50",
         "S P15 IE › AoE Effect › Push Force": "40",
+        "P14 › Projectile › Size": "8 mm",
         "P14 › Projectile › Mass": "2 g",
         "P14 › Projectile › Initial Velocity": "300 m/s",
         "P14 › Projectile › Drag Factor": "50%",
@@ -20548,6 +20744,7 @@
         "SEAF ARTILLERY › Attacks › BurningHeavy": "status",
         "SEAF ARTILLERY › Attacks › Fire": "status",
         "SEAF ARTILLERY › Attacks › Stun Medium": "status",
+        "S P10 › Projectile › Size": "360 mm",
         "S P10 › Projectile › Mass": "70 kg",
         "S P10 › Projectile › Initial Velocity": "300 m/s",
         "S P10 › Projectile › Drag Factor": "50%",
@@ -20577,6 +20774,7 @@
         "S P10 IE › AoE Effect › Demolition Force": "60",
         "S P10 IE › AoE Effect › Stagger Force": "50",
         "S P10 IE › AoE Effect › Push Force": "100",
+        "S P11 › Projectile › Size": "360 mm",
         "S P11 › Projectile › Mass": "70 kg",
         "S P11 › Projectile › Initial Velocity": "300 m/s",
         "S P11 › Projectile › Drag Factor": "50%",
@@ -20632,6 +20830,7 @@
         "Fire › Special Effects › Demolition Force": "0",
         "Fire › Special Effects › Stagger Force": "0",
         "Fire › Special Effects › Push Force": "0",
+        "S P12 › Projectile › Size": "360 mm",
         "S P12 › Projectile › Mass": "70 kg",
         "S P12 › Projectile › Initial Velocity": "300 m/s",
         "S P12 › Projectile › Drag Factor": "50%",
@@ -20651,6 +20850,7 @@
         "S P12 IE › Area of Effect › Outer Radius": "13 m",
         "S P12 IE › Area of Effect › Shockwave Radius": "0 m",
         "S P12 IE › Area of Effect › AoE Duration": "30 s",
+        "S P7 › Projectile › Size": "360 mm",
         "S P7 › Projectile › Mass": "70 kg",
         "S P7 › Projectile › Initial Velocity": "300 m/s",
         "S P7 › Projectile › Drag Factor": "50%",
@@ -20682,6 +20882,7 @@
         "S P7 IE › AoE Effect › Stagger Force": "50",
         "S P7 IE › AoE Effect › Push Force": "0",
         "Stun Medium › Status › Status Duration": "3 sec",
+        "S P8 › Projectile › Size": "360 mm",
         "S P8 › Projectile › Mass": "70 kg",
         "S P8 › Projectile › Initial Velocity": "300 m/s",
         "S P8 › Projectile › Drag Factor": "50%",
@@ -20711,6 +20912,7 @@
         "S P8 IE › AoE Effect › Demolition Force": "50",
         "S P8 IE › AoE Effect › Stagger Force": "70",
         "S P8 IE › AoE Effect › Push Force": "60",
+        "S P9 › Projectile › Size": "360 mm",
         "S P9 › Projectile › Mass": "70 kg",
         "S P9 › Projectile › Initial Velocity": "300 m/s",
         "S P9 › Projectile › Drag Factor": "50%",
@@ -21208,6 +21410,8 @@
       "kind": "mission",
       "traitIds": [],
       "code": [
+        "down",
+        "down",
         "down",
         "down",
         "down",

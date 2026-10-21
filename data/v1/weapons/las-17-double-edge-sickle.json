@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "LAS-17 Double-Edge Sickle",
       "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "energy_based",
@@ -216,7 +214,7 @@
       "LAS-17 DOUBLE-EDGE SICKLE › Mags from Supply": "6",
       "LAS-17 DOUBLE-EDGE SICKLE › Mags from Ammo Box": "3",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Overheats at": "200 °C",
-      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.5 sec",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.3 sec",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Heat Per Shot": "1.14999998 °C",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cool Per Sec": "12 - 8 - 6",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
@@ -224,6 +222,7 @@
       "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LAS-17 P": "Projectile",
       "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LAS-17 P1": "Projectile",
       "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LAS-17 P2": "Projectile",
+      "LAS-16 P › Projectile › Size": "10 mm",
       "LAS-16 P › Projectile › Mass": "12 g",
       "LAS-16 P › Projectile › Initial Velocity": "1300 m/s",
       "LAS-16 P › Projectile › Drag Factor": "0%",
@@ -239,6 +238,7 @@
       "LAS-16 P › Special Effects › Demolition Force": "10",
       "LAS-16 P › Special Effects › Stagger Force": "10",
       "LAS-16 P › Special Effects › Push Force": "10",
+      "LAS-17 P › Projectile › Size": "10 mm",
       "LAS-17 P › Projectile › Mass": "12 g",
       "LAS-17 P › Projectile › Initial Velocity": "1300 m/s",
       "LAS-17 P › Projectile › Drag Factor": "0%",
@@ -254,6 +254,7 @@
       "LAS-17 P › Special Effects › Demolition Force": "10",
       "LAS-17 P › Special Effects › Stagger Force": "10",
       "LAS-17 P › Special Effects › Push Force": "10",
+      "LAS-17 P1 › Projectile › Size": "10 mm",
       "LAS-17 P1 › Projectile › Mass": "12 g",
       "LAS-17 P1 › Projectile › Initial Velocity": "1300 m/s",
       "LAS-17 P1 › Projectile › Drag Factor": "0%",
@@ -269,6 +270,7 @@
       "LAS-17 P1 › Special Effects › Demolition Force": "10",
       "LAS-17 P1 › Special Effects › Stagger Force": "10",
       "LAS-17 P1 › Special Effects › Push Force": "10",
+      "LAS-17 P2 › Projectile › Size": "10 mm",
       "LAS-17 P2 › Projectile › Mass": "12 g",
       "LAS-17 P2 › Projectile › Initial Velocity": "1300 m/s",
       "LAS-17 P2 › Projectile › Drag Factor": "0%",

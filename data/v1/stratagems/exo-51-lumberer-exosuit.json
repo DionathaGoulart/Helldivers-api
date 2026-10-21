@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,7 +25,6 @@
       "title": "EXO-51 Lumberer Exosuit",
       "url": "https://helldivers.wiki.gg/wiki/EXO-51_Lumberer_Exosuit",
       "flags": [
-        "potentially_outdated",
         "broken_file_links"
       ]
     },
@@ -136,8 +135,8 @@
         "name": "LUMBERER FLAMETHROWER S",
         "kind": "spray",
         "damage": {
-          "standard": 3,
-          "durable": 3,
+          "standard": 8,
+          "durable": 8,
           "type": "Fire"
         },
         "penetration": {
@@ -310,6 +309,7 @@
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Fire": "status",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Fire Panic": "status",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › FlamerSlowed": "status",
+      "P8 › Projectile › Size": "75 mm",
       "P8 › Projectile › Mass": "6.5 kg",
       "P8 › Projectile › Initial Velocity": "625 m/s",
       "P8 › Projectile › Drag Factor": "75%",
@@ -340,8 +340,8 @@
       "P8 IE › AoE Effect › Stagger Force": "60",
       "P8 IE › AoE Effect › Push Force": "40",
       "LUMBERER FLAMETHROWER S › Damage › Element": "Fire",
-      "LUMBERER FLAMETHROWER S › Damage › Standard": "3 Fire",
-      "LUMBERER FLAMETHROWER S › Damage › vs. Durable": "3 Fire",
+      "LUMBERER FLAMETHROWER S › Damage › Standard": "8 Fire",
+      "LUMBERER FLAMETHROWER S › Damage › vs. Durable": "8 Fire",
       "LUMBERER FLAMETHROWER S › Penetration › Direct": "Heavy",
       "LUMBERER FLAMETHROWER S › Penetration › Slight Angle": "Heavy",
       "LUMBERER FLAMETHROWER S › Penetration › Large Angle": "Heavy",

@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
-    "count": 112,
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
+    "count": 113,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -103,7 +103,7 @@
       "capeId": "schema-laid-bare",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 7 (Control Group) stocks exactly one armor (AD-11 Livewire) and one cape (Schema Laid Bare)"
+        "evidence": "Superstore page 8 (Control Group) stocks exactly one armor (AD-11 Livewire) and one cape (Schema Laid Bare)"
       }
     },
     {
@@ -338,7 +338,7 @@
       "capeId": "tread-of-liberty",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 1 (Exo Experts) stocks exactly one armor (BFM-77 Reformer) and one cape (Tread of Liberty)"
+        "evidence": "Superstore page 2 (Exo Experts) stocks exactly one armor (BFM-77 Reformer) and one cape (Tread of Liberty)"
       }
     },
     {
@@ -398,7 +398,7 @@
       "capeId": "badge-of-order",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 8 (Force of Law) stocks exactly one armor (BP-77 Grand Juror) and one cape (Badge of Order)"
+        "evidence": "Superstore page 9 (Force of Law) stocks exactly one armor (BP-77 Grand Juror) and one cape (Badge of Order)"
       }
     },
     {
@@ -668,7 +668,7 @@
       "capeId": "testament-to-attrition",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 3 (Entrenched Division) stocks exactly one armor (CPR-80 Bulwark) and one cape (Testament to Attrition)"
+        "evidence": "Superstore page 4 (Entrenched Division) stocks exactly one armor (CPR-80 Bulwark) and one cape (Testament to Attrition)"
       }
     },
     {
@@ -823,7 +823,7 @@
       "capeId": "thundering-hooves-of-loyalty",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 10 (War Horses) stocks exactly one armor (DP-8 Mountain-Scaled) and one cape (Thundering Hooves of Loyalty)"
+        "evidence": "Superstore page 11 (War Horses) stocks exactly one armor (DP-8 Mountain-Scaled) and one cape (Thundering Hooves of Loyalty)"
       }
     },
     {
@@ -843,7 +843,7 @@
       "capeId": "eternal-corona",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 6 (Dust Devils) stocks exactly one armor (DS-10 Big Game Hunter) and one cape (Eternal Corona)"
+        "evidence": "Superstore page 7 (Dust Devils) stocks exactly one armor (DS-10 Big Game Hunter) and one cape (Eternal Corona)"
       }
     },
     {
@@ -1084,7 +1084,7 @@
       "capeId": "veil-of-the-valorous-vagabond",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 11 (Borderline Justice) stocks exactly one armor (GS-11 Democracy's Deputy) and one cape (Veil of the Valorous Vagabond)"
+        "evidence": "Superstore page 12 (Borderline Justice) stocks exactly one armor (GS-11 Democracy's Deputy) and one cape (Veil of the Valorous Vagabond)"
       }
     },
     {
@@ -1240,7 +1240,7 @@
       "capeId": "vision-of-freedom",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 12 (Servants of Freedom) stocks exactly one armor (IE-57 Hell-Bent) and one cape (Vision of Freedom)"
+        "evidence": "Superstore page 13 (Servants of Freedom) stocks exactly one armor (IE-57 Hell-Bent) and one cape (Vision of Freedom)"
       }
     },
     {
@@ -1309,7 +1309,7 @@
       "capeId": "diagram-of-the-noblest-payload",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 2 (Exo Experts) stocks exactly one armor (O-44 Bonded Pilot) and one cape (Diagram of the Noblest Payload)"
+        "evidence": "Superstore page 3 (Exo Experts) stocks exactly one armor (O-44 Bonded Pilot) and one cape (Diagram of the Noblest Payload)"
       }
     },
     {
@@ -1414,7 +1414,7 @@
       "capeId": "seal-of-general-consensus",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 9 (Masters of Ceremony) stocks exactly one armor (RE-824 Bearer of the Standard) and one cape (Seal of General Consensus)"
+        "evidence": "Superstore page 10 (Masters of Ceremony) stocks exactly one armor (RE-824 Bearer of the Standard) and one cape (Seal of General Consensus)"
       }
     },
     {
@@ -1432,7 +1432,7 @@
       "capeId": "gilded-quill",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 4 (Redacted Regiment) stocks exactly one armor (RS-100 Sanctioner) and one cape (Gilded Quill)"
+        "evidence": "Superstore page 5 (Redacted Regiment) stocks exactly one armor (RS-100 Sanctioner) and one cape (Gilded Quill)"
       }
     },
     {
@@ -1486,7 +1486,7 @@
       "capeId": "de-foresters-sailcloth",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 5 (Python Commandos) stocks exactly one armor (RS-6 Fiend Destroyer) and one cape (De-Forester's Sailcloth)"
+        "evidence": "Superstore page 6 (Python Commandos) stocks exactly one armor (RS-6 Fiend Destroyer) and one cape (De-Forester's Sailcloth)"
       }
     },
     {
@@ -1747,14 +1747,14 @@
       "capeId": "stone-wrought-perseverance",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 13 (Urban Legends) stocks exactly one armor (SR-64 Cinderblock) and one cape (Stone-Wrought Perseverance)"
+        "evidence": "Superstore page 14 (Urban Legends) stocks exactly one armor (SR-64 Cinderblock) and one cape (Stone-Wrought Perseverance)"
       }
     },
     {
       "id": "ss-15-focal-point",
       "slug": "ss-15-focal-point",
       "name": "SS-15 Focal Point",
-      "upcoming": true,
+      "upcoming": false,
       "wiki": {
         "title": "SS-15 Focal Point",
         "url": "https://helldivers.wiki.gg/wiki/SS-15_Focal_Point",
@@ -1774,7 +1774,7 @@
       "id": "ss-33-mimetic-marshal",
       "slug": "ss-33-mimetic-marshal",
       "name": "SS-33 Mimetic Marshal",
-      "upcoming": true,
+      "upcoming": false,
       "wiki": {
         "title": "SS-33 Mimetic Marshal",
         "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
@@ -1788,6 +1788,24 @@
       "capeLink": {
         "method": "warbond_page",
         "evidence": "scope-of-authority page 1 lists exactly one armor (SS-33 Mimetic Marshal) and one cape (Mimetic Mesh)"
+      }
+    },
+    {
+      "id": "ss-500-pale-prosecutor",
+      "slug": "ss-500-pale-prosecutor",
+      "name": "SS-500 Pale Prosecutor",
+      "upcoming": false,
+      "wiki": {
+        "title": "SS-500 Pale Prosecutor",
+        "url": "https://helldivers.wiki.gg/wiki/SS-500_Pale_Prosecutor",
+        "flags": []
+      },
+      "armorId": "ss-500-pale-prosecutor",
+      "helmetId": "ss-500-pale-prosecutor",
+      "capeId": "arctic-decree",
+      "capeLink": {
+        "method": "superstore_set",
+        "evidence": "Superstore page 1 (Scope of Authority) stocks exactly one armor (SS-500 Pale Prosecutor) and one cape (Arctic Decree)"
       }
     },
     {
@@ -1952,7 +1970,7 @@
       "capeId": "cover-of-darkness",
       "capeLink": {
         "method": "superstore_set",
-        "evidence": "Superstore page 14 (Truth Enforcers) stocks exactly one armor (UF-84 Doubt Killer) and one cape (Cover of Darkness)"
+        "evidence": "Superstore page 15 (Truth Enforcers) stocks exactly one armor (UF-84 Doubt Killer) and one cape (Cover of Darkness)"
       }
     }
   ]

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -23,7 +23,7 @@
     "capeId": "cover-of-darkness",
     "capeLink": {
       "method": "superstore_set",
-      "evidence": "Superstore page 14 (Truth Enforcers) stocks exactly one armor (UF-84 Doubt Killer) and one cape (Cover of Darkness)"
+      "evidence": "Superstore page 15 (Truth Enforcers) stocks exactly one armor (UF-84 Doubt Killer) and one cape (Cover of Darkness)"
     }
   }
 }

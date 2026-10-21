@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "Orbital Airburst Strike",
       "url": "https://helldivers.wiki.gg/wiki/Orbital_Airburst_Strike",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "permitType": "offensive",
     "availability": "loadout",
@@ -42,19 +40,19 @@
       "right",
       "right"
     ],
-    "cooldownS": 100,
+    "cooldownS": 90,
     "cooldownVariants": [
       {
         "label": "With Morale Augmentation",
-        "seconds": 95
+        "seconds": 85.5
       },
       {
         "label": "With Zero-G Breech Loading",
-        "seconds": 90
+        "seconds": 81
       },
       {
         "label": "With All Upgrades",
-        "seconds": 85.5
+        "seconds": 76.95
       }
     ],
     "callInTimeS": 4.45,
@@ -205,16 +203,16 @@
     "statsRaw": {
       "Permit Type": "Offensive",
       "Traits": "Explosive • Orbital • Medium Armor Penetrating",
-      "Base Cooldown": "100s",
+      "Base Cooldown": "90s",
       "Unlock Level": "5",
       "General › Call-in Time › Standard": "4.45 seconds",
       "General › Call-in Time › Upgraded": "3.45 seconds",
       "General › Uses": "Unlimited",
-      "General › Cooldown › Standard": "100 seconds",
-      "General › Cooldown › With Morale Augmentation": "95 seconds",
-      "General › Cooldown › With Zero-G Breech Loading": "90 seconds",
-      "General › Cooldown › With All Upgrades": "85.5 seconds",
-      "Orbital Airburst Strike › Cooldown": "100 s",
+      "General › Cooldown › Standard": "90 seconds",
+      "General › Cooldown › With Morale Augmentation": "85.5 seconds",
+      "General › Cooldown › With Zero-G Breech Loading": "81 seconds",
+      "General › Cooldown › With All Upgrades": "76.95 seconds",
+      "Orbital Airburst Strike › Cooldown": "90 s",
       "Orbital Airburst Strike › Uses": "∞",
       "Orbital Airburst Strike › Bombs": "1",
       "Orbital Airburst Strike › Salvos": "4",
@@ -223,6 +221,7 @@
       "Orbital Airburst Strike › Attacks › S P15 IE": "Explosion",
       "Orbital Airburst Strike › Attacks › P14": "Projectile",
       "Orbital Airburst Strike › Attacks › P14 IE": "Explosion",
+      "S P15 › Projectile › Size": "110 mm",
       "S P15 › Projectile › Mass": "5 kg",
       "S P15 › Projectile › Initial Velocity": "400 m/s",
       "S P15 › Projectile › Drag Factor": "0%",
@@ -256,6 +255,7 @@
       "S P15 IE › AoE Effect › Demolition Force": "30",
       "S P15 IE › AoE Effect › Stagger Force": "50",
       "S P15 IE › AoE Effect › Push Force": "40",
+      "P14 › Projectile › Size": "8 mm",
       "P14 › Projectile › Mass": "2 g",
       "P14 › Projectile › Initial Velocity": "300 m/s",
       "P14 › Projectile › Drag Factor": "50%",

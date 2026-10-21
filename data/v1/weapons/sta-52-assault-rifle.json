@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "StA-52 Assault Rifle",
       "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "assault_rifle",
@@ -45,13 +43,13 @@
         1185
       ],
       "capacity": 56,
-      "spareMagazines": 6,
+      "spareMagazines": 7,
       "startingMagazines": 4,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 14,
-      "horizontalRecoil": 8,
-      "verticalRecoil": 20,
+      "recoil": 7.25,
+      "horizontalRecoil": 4.5,
+      "verticalRecoil": 10,
       "spread": {
         "horizontal": 2,
         "vertical": 2
@@ -114,19 +112,20 @@
       "Reload Time": "4.2s",
       "Tactical Reload Time": "2.5s",
       "STA-52 ASSAULT RIFLE › Fire Rate": "790 rpm",
-      "STA-52 ASSAULT RIFLE › Recoil": "14",
-      "STA-52 ASSAULT RIFLE › Horizontal Recoil": "8",
-      "STA-52 ASSAULT RIFLE › Vertical Recoil": "20",
+      "STA-52 ASSAULT RIFLE › Recoil": "7.25",
+      "STA-52 ASSAULT RIFLE › Horizontal Recoil": "4.5",
+      "STA-52 ASSAULT RIFLE › Vertical Recoil": "10",
       "STA-52 ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
       "STA-52 ASSAULT RIFLE › Sway": "1",
       "STA-52 ASSAULT RIFLE › Ergonomics": "55",
       "STA-52 ASSAULT RIFLE › Noise When Firing": "Medium (~48m)",
       "STA-52 ASSAULT RIFLE › Capacity": "56",
-      "STA-52 ASSAULT RIFLE › Spare Magazines": "6",
+      "STA-52 ASSAULT RIFLE › Spare Magazines": "7",
       "STA-52 ASSAULT RIFLE › Starting Magazines": "4",
       "STA-52 ASSAULT RIFLE › Mags from Supply": "6",
       "STA-52 ASSAULT RIFLE › Mags from Ammo Box": "3",
       "STA-52 ASSAULT RIFLE › Attacks › AR-23 P": "Projectile",
+      "AR-23 P › Projectile › Size": "5.5 mm",
       "AR-23 P › Projectile › Mass": "4.5 g",
       "AR-23 P › Projectile › Initial Velocity": "900 m/s",
       "AR-23 P › Projectile › Drag Factor": "30%",

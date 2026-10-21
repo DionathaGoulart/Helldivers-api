@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -155,6 +155,7 @@
       "G-7 PINEAPPLE E › AoE Effect › Demolition Force": "30",
       "G-7 PINEAPPLE E › AoE Effect › Stagger Force": "25",
       "G-7 PINEAPPLE E › AoE Effect › Push Force": "40",
+      "G-7 P › Projectile › Size": "40 mm",
       "G-7 P › Projectile › Mass": "150 g",
       "G-7 P › Projectile › Initial Velocity": "25 m/s",
       "G-7 P › Projectile › Drag Factor": "50%",

@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
-    "count": 112,
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
+    "count": 113,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -3832,7 +3832,7 @@
       "id": "ss-15-focal-point",
       "slug": "ss-15-focal-point",
       "name": "SS-15 Focal Point",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "SS-15 Focal Point is a set of medium armor in Helldivers 2.",
       "image": {
@@ -3858,10 +3858,13 @@
       ],
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP2",
         "warbondId": "scope-of-authority",
         "page": 2,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 55
+        },
         "rotating": null
       }
     },
@@ -3869,9 +3872,9 @@
       "id": "ss-33-mimetic-marshal",
       "slug": "ss-33-mimetic-marshal",
       "name": "SS-33 Mimetic Marshal",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
-      "description": "SS-33 Mimetic Marshal is a set of light armor in Helldivers 2.",
+      "description": "This light armor features state-of-the-art synthetic adaptive fibers and light-diffusing scrim netting, enabling its wearer to blend seamlessly into any wilderness, and carry out unannounced compliance audits with as much surprise as they deem appropriate.",
       "image": {
         "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
         "width": 512,
@@ -3895,11 +3898,52 @@
       ],
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP1",
         "warbondId": "scope-of-authority",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 30
+        },
         "rotating": null
+      }
+    },
+    {
+      "id": "ss-500-pale-prosecutor",
+      "slug": "ss-500-pale-prosecutor",
+      "name": "SS-500 Pale Prosecutor",
+      "upcoming": false,
+      "aliases": [],
+      "description": "Tailored from insulated canvas, with a design honoring the ghost-like marksmen of ancient sub-zero campaigns. Featuring adaptive camouflage capabilities, it is engineered for long-duration vigils delivering swift, legally binding verdicts from extreme range.",
+      "image": {
+        "url": "/images/v1/armors/ss-500-pale-prosecutor.a1fb8b99.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "SS-500_Pale_Prosecutor_Armor_Render.png"
+      },
+      "wiki": {
+        "title": "SS-500 Pale Prosecutor",
+        "url": "https://helldivers.wiki.gg/wiki/SS-500_Pale_Prosecutor",
+        "flags": []
+      },
+      "weight": "light",
+      "armorRating": 50,
+      "speed": 550,
+      "staminaRegen": 125,
+      "passiveId": "stationary-shroud",
+      "setIds": [
+        "ss-500-pale-prosecutor"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 250
+        },
+        "rotating": false
       }
     },
     {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -184,6 +184,7 @@
       "SG-20 HALT › Attacks › SG-20 P1": "Projectile",
       "SG-20 HALT › Attacks › Stun Large": "status",
       "SG-20 P › Projectile › Pellets": "x 11",
+      "SG-20 P › Projectile › Size": "8 mm",
       "SG-20 P › Projectile › Mass": "6 g",
       "SG-20 P › Projectile › Initial Velocity": "385 m/s",
       "SG-20 P › Projectile › Drag Factor": "30%",
@@ -199,6 +200,7 @@
       "SG-20 P › Special Effects › Stagger Force": "20",
       "SG-20 P › Special Effects › Push Force": "20",
       "SG-20 P1 › Projectile › Pellets": "x 20",
+      "SG-20 P1 › Projectile › Size": "5.5 mm",
       "SG-20 P1 › Projectile › Mass": "4.5 g",
       "SG-20 P1 › Projectile › Initial Velocity": "800 m/s",
       "SG-20 P1 › Projectile › Drag Factor": "30%",

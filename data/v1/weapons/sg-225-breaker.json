@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "SG-225 Breaker",
       "url": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "shotgun",
@@ -42,7 +40,7 @@
         300
       ],
       "dps": [
-        1650
+        1980
       ],
       "capacity": 16,
       "spareMagazines": 7,
@@ -70,8 +68,8 @@
         "name": "SG-225 P",
         "kind": "projectile",
         "damage": {
-          "standard": 30,
-          "durable": 6,
+          "standard": 36,
+          "durable": 8,
           "type": "Ballistic"
         },
         "penetration": {
@@ -101,10 +99,10 @@
       "Weapon Type": "Shotguns",
       "Firing Modes": "Auto • Semi",
       "Traits": "Light Armor Penetrating",
-      "Standard Damage": "330 Ballistic",
+      "Standard Damage": "396 Ballistic",
       "Armor Penetration": "Light",
       "Fire Rate": "300 rpm",
-      "DPS": "1,650",
+      "DPS": "1,980",
       "Capacity": "16",
       "Spare Mags": "7",
       "Supply Box Refill": "7",
@@ -127,13 +125,14 @@
       "SG-225 BREAKER › Mags from Ammo Box": "3",
       "SG-225 BREAKER › Attacks › SG-225 P": "Projectile",
       "SG-225 P › Projectile › Pellets": "x 11",
+      "SG-225 P › Projectile › Size": "8 mm",
       "SG-225 P › Projectile › Mass": "4 g",
       "SG-225 P › Projectile › Initial Velocity": "360 m/s",
       "SG-225 P › Projectile › Drag Factor": "50%",
       "SG-225 P › Projectile › Gravity Factor": "100%",
       "SG-225 P › Projectile › Penetration Slowdown": "80%",
-      "SG-225 P › Damage › Standard": "30 Ballistic",
-      "SG-225 P › Damage › vs. Durable": "6 Ballistic",
+      "SG-225 P › Damage › Standard": "36 Ballistic",
+      "SG-225 P › Damage › vs. Durable": "8 Ballistic",
       "SG-225 P › Penetration › Direct": "Light",
       "SG-225 P › Penetration › Slight Angle": "Light",
       "SG-225 P › Penetration › Large Angle": "Light",

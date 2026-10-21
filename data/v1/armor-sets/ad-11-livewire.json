@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,7 +25,7 @@
     "capeId": "schema-laid-bare",
     "capeLink": {
       "method": "superstore_set",
-      "evidence": "Superstore page 7 (Control Group) stocks exactly one armor (AD-11 Livewire) and one cape (Schema Laid Bare)"
+      "evidence": "Superstore page 8 (Control Group) stocks exactly one armor (AD-11 Livewire) and one cape (Schema Laid Bare)"
     }
   }
 }

@@ -467,6 +467,191 @@
       ]
     },
     {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "medalsAllItems",
+      "rule": 1,
+      "chosen": 603,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "infobox › All Items Unlocked",
+          "value": 603
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "page tables › sum",
+          "value": 541
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[0].items[2].cost",
+      "rule": 1,
+      "chosen": {
+        "currency": "medals",
+        "amount": 45
+      },
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 1 › SS-33 Mimetic Marshal",
+          "value": {
+            "currency": "medals",
+            "amount": 45
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
+          "location": "helmets/ss-33-mimetic-marshal › source",
+          "value": {
+            "currency": "medals",
+            "amount": 30
+          }
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[0].items[3].cost",
+      "rule": 1,
+      "chosen": {
+        "currency": "medals",
+        "amount": 30
+      },
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 1 › SS-33 Mimetic Marshal",
+          "value": {
+            "currency": "medals",
+            "amount": 30
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
+          "location": "armors/ss-33-mimetic-marshal › source",
+          "value": {
+            "currency": "medals",
+            "amount": 45
+          }
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[0].items[4].cost",
+      "rule": 1,
+      "chosen": null,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 1 › Mimetic Mesh",
+          "value": {
+            "currency": "medals",
+            "amount": 8
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Mimetic_Mesh",
+          "location": "capes/mimetic-mesh › source",
+          "value": null
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[0].items[5].cost",
+      "rule": 1,
+      "chosen": null,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 1 › Mimetic Mesh",
+          "value": {
+            "currency": "medals",
+            "amount": 2
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Mimetic_Mesh",
+          "location": "player-cards/mimetic-mesh › source",
+          "value": null
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[1].items[4].cost",
+      "rule": 1,
+      "chosen": null,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 2 › Boundary Banker",
+          "value": {
+            "currency": "medals",
+            "amount": 25
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Boundary_Banker",
+          "location": "capes/boundary-banker › source",
+          "value": null
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[1].items[5].cost",
+      "rule": 1,
+      "chosen": null,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 2 › Boundary Banker",
+          "value": {
+            "currency": "medals",
+            "amount": 7
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Boundary_Banker",
+          "location": "player-cards/boundary-banker › source",
+          "value": null
+        }
+      ]
+    },
+    {
+      "collection": "warbonds",
+      "id": "scope-of-authority",
+      "field": "pages[2].items[3].cost",
+      "rule": 1,
+      "chosen": null,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
+          "location": "Page 3 › Manual Ballistic Projection Protocol",
+          "value": {
+            "currency": "medals",
+            "amount": 20
+          }
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/Manual_Ballistic_Projection_Protocol",
+          "location": "emotes/manual-ballistic-projection-protocol › source",
+          "value": null
+        }
+      ]
+    },
+    {
       "collection": "weapons",
       "id": "ar-11-arbitrator",
       "field": "firearm.recoil",
@@ -1136,7 +1321,7 @@
       "id": "ma5c-assault-rifle",
       "field": "firearm.recoil",
       "rule": 2,
-      "chosen": 18.5,
+      "chosen": 14.5,
       "candidates": [
         {
           "page": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
@@ -1146,7 +1331,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/MA5C_Assault_Rifle",
           "location": "MA5C ASSAULT RIFLE › Recoil",
-          "value": 18.5
+          "value": 14.5
         }
       ]
     },
@@ -1337,6 +1522,44 @@
           "page": "https://helldivers.wiki.gg/wiki/P/40-K_Bolt_Pistol",
           "location": "P/40-K BOLT PISTOL › Mags from Supply",
           "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-44-mist",
+      "field": "firearm.magazinesFromSupply",
+      "rule": 2,
+      "chosen": 6,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-44_Mist",
+          "location": "infobox › Supply Box Refill",
+          "value": 5
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-44_Mist",
+          "location": "P-44 MIST › Mags from Supply",
+          "value": 6
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "p-44-mist",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 16.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-44_Mist",
+          "location": "infobox › Recoil",
+          "value": 17
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/P-44_Mist",
+          "location": "P-44 MIST › Recoil",
+          "value": 16.5
         }
       ]
     },
@@ -1608,6 +1831,44 @@
     },
     {
       "collection": "weapons",
+      "id": "r-40-sightliner",
+      "field": "firearm.ergonomics",
+      "rule": 2,
+      "chosen": 40,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
+          "location": "infobox › Ergonomics",
+          "value": 31
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
+          "location": "R-40 SIGHTLINER › Ergonomics",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "r-40-sightliner",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 87.5,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
+          "location": "infobox › Recoil",
+          "value": 76
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
+          "location": "R-40 SIGHTLINER › Recoil",
+          "value": 87.5
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
       "id": "r-6-deadeye",
       "field": "firearm.recoil",
       "rule": 2,
@@ -1804,12 +2065,12 @@
       "chosen": 40,
       "candidates": [
         {
-          "page": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
+          "page": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
           "location": "infobox › Recoil",
           "value": 45
         },
         {
-          "page": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
+          "page": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
           "location": "SG-225SP BREAKER SPRAY&PRAY › Recoil",
           "value": 40
         }
@@ -2029,7 +2290,7 @@
       "id": "sta-11-smg",
       "field": "firearm.recoil",
       "rule": 2,
-      "chosen": 11.25,
+      "chosen": 8.75,
       "candidates": [
         {
           "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
@@ -2039,7 +2300,45 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
           "location": "STA-11 SMG › Recoil",
-          "value": 11.25
+          "value": 8.75
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sta-52-assault-rifle",
+      "field": "firearm.recoil",
+      "rule": 2,
+      "chosen": 7.25,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+          "location": "infobox › Recoil",
+          "value": 14
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+          "location": "STA-52 ASSAULT RIFLE › Recoil",
+          "value": 7.25
+        }
+      ]
+    },
+    {
+      "collection": "weapons",
+      "id": "sta-52-assault-rifle",
+      "field": "firearm.spareMagazines",
+      "rule": 2,
+      "chosen": 7,
+      "candidates": [
+        {
+          "page": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+          "location": "infobox › Spare Mags",
+          "value": 6
+        },
+        {
+          "page": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
+          "location": "STA-52 ASSAULT RIFLE › Spare Magazines",
+          "value": 7
         }
       ]
     },

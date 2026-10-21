@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "count": 32,
     "source": {
       "name": "The Helldivers Wiki",
@@ -822,9 +822,9 @@
       "name": "Stationary Shroud",
       "upcoming": false,
       "aliases": [],
-      "description": "Reduces weapon sway and detection range by mimicking foliage concealment while in the crouched or prone position",
+      "description": "Reduces weapon sway while aiming by 35%. Wearer makes 15% less noise when moving. Mimics foliage-level concealment, reducing enemy detection range while the wearer remains stationary and crouched or prone.",
       "image": {
-        "url": "/images/v1/passives/stationary-shroud.067d4e3a.webp",
+        "url": "/images/v1/passives/stationary-shroud.e3b111da.webp",
         "width": 256,
         "height": 256,
         "wikiFile": "Stationary_Shroud_Armor_Passive_Icon.svg"
@@ -835,11 +835,14 @@
         "flags": []
       },
       "effects": [
-        "Reduces weapon sway and detection range by mimicking foliage concealment while in the crouched or prone position"
+        "Reduces weapon sway while aiming by 35%.",
+        "Wearer makes 15% less noise when moving.",
+        "Mimics foliage-level concealment, reducing enemy detection range while the wearer remains stationary and crouched or prone."
       ],
       "armorIds": [
         "ss-15-focal-point",
-        "ss-33-mimetic-marshal"
+        "ss-33-mimetic-marshal",
+        "ss-500-pale-prosecutor"
       ]
     },
     {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,14 +12,14 @@
     "id": "amw-20-apex",
     "slug": "amw-20-apex",
     "name": "AMW-20 Apex",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
     "description": "The AMW-20 Apex is a Support Weapon that deploys a high-powered anti-materiel rifle.",
     "image": {
-      "url": "/images/v1/stratagems/amw-20-apex.5306e20e.webp",
+      "url": "/images/v1/stratagems/amw-20-apex.fe4509ba.webp",
       "width": 256,
       "height": 256,
-      "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg"
+      "wikiFile": "Apex_Stratagem_Icon_Background.svg"
     },
     "wiki": {
       "title": "AMW-20 Apex",
@@ -34,14 +34,28 @@
     "kind": "support_weapon",
     "traitIds": [
       "support-weapon",
-      "backpack"
+      "backpack",
+      "heavy-armor-penetrating",
+      "stationary-reload"
     ],
-    "code": [],
-    "cooldownS": null,
-    "cooldownVariants": [],
-    "callInTimeS": null,
-    "callInTimeUpgradedS": null,
-    "uses": null,
+    "code": [
+      "down",
+      "left",
+      "left",
+      "up",
+      "down",
+      "left"
+    ],
+    "cooldownS": 480,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 456
+      }
+    ],
+    "callInTimeS": 7.75,
+    "callInTimeUpgradedS": 4.75,
+    "uses": "unlimited",
     "unlockLevel": null,
     "shipModules": [
       {
@@ -72,18 +86,97 @@
     ],
     "supportWeapon": null,
     "backpack": null,
-    "attacks": [],
+    "attacks": [
+      {
+        "name": "AMW-20 P",
+        "kind": "projectile",
+        "damage": {
+          "standard": 1550,
+          "durable": 930,
+          "type": "Ballistic"
+        },
+        "penetration": {
+          "direct": "anti_tank_i",
+          "slightAngle": "anti_tank_i",
+          "largeAngle": "anti_tank_i",
+          "extremeAngle": "unarmored"
+        },
+        "projectile": {
+          "pellets": null,
+          "massG": 70,
+          "initialVelocityMps": 1500,
+          "dragFactorPct": 10,
+          "gravityFactorPct": 35,
+          "penetrationSlowdownPct": 10
+        },
+        "area": null,
+        "forces": {
+          "demolition": 15,
+          "stagger": 40,
+          "push": 25
+        }
+      }
+    ],
     "statsRaw": {
       "Permit Type": "Supply",
-      "Traits": "Support Weapon • Backpack",
-      "Weapon Category": "Support Weapons"
+      "Traits": "Support Weapon • Backpack • Heavy Armour Penetrating • Stationary Reload",
+      "Base Cooldown": "480s",
+      "Weapon Category": "Support Weapons",
+      "Firing Modes": "Semi",
+      "Standard Damage": "1,550 Ballistic",
+      "Armor Penetration": "Anti-Tank I",
+      "Fire Rate": "50 rpm",
+      "DPS": "1,291.67",
+      "Capacity": "5",
+      "Spare Mags": "4 Magazines",
+      "Ammo Box Refill": "1",
+      "Ergonomics": "14",
+      "Reload Time": "5.0s / 4.55s (Upgraded)",
+      "Tactical Reload Time": "3.65 / 3.3s (Upgraded)",
+      "General › Call-in Time › Standard": "7.75 seconds",
+      "General › Call-in Time › Upgraded": "4.75 seconds",
+      "General › Uses": "Unlimited",
+      "General › Cooldown › Standard": "480 seconds",
+      "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "AMW-20 APEX › Fire Rate": "50 rpm",
+      "AMW-20 APEX › Recoil": "337.5",
+      "AMW-20 APEX › Horizontal Recoil": "175",
+      "AMW-20 APEX › Vertical Recoil": "500",
+      "AMW-20 APEX › Spread": "↔[0.10] ↕[0.10]",
+      "AMW-20 APEX › Sway": "1",
+      "AMW-20 APEX › Ergonomics": "14",
+      "AMW-20 APEX › Noise When Firing": "Large (~58m)",
+      "AMW-20 APEX › Capacity": "5",
+      "AMW-20 APEX › Spare Magazines": "4",
+      "AMW-20 APEX › Starting Magazines": "4",
+      "AMW-20 APEX › Mags from Supply": "2",
+      "AMW-20 APEX › Mags from Ammo Box": "1",
+      "AMW-20 APEX › Attacks › AMW-20 P": "Projectile",
+      "AMW-20 P › Projectile › Size": "60 mm",
+      "AMW-20 P › Projectile › Mass": "70 g",
+      "AMW-20 P › Projectile › Initial Velocity": "1500 m/s",
+      "AMW-20 P › Projectile › Drag Factor": "10%",
+      "AMW-20 P › Projectile › Gravity Factor": "35%",
+      "AMW-20 P › Projectile › Penetration Slowdown": "10%",
+      "AMW-20 P › Damage › Standard": "1550 Ballistic",
+      "AMW-20 P › Damage › vs. Durable": "930 Ballistic",
+      "AMW-20 P › Penetration › Direct": "Anti-Tank I",
+      "AMW-20 P › Penetration › Slight Angle": "Anti-Tank I",
+      "AMW-20 P › Penetration › Large Angle": "Anti-Tank I",
+      "AMW-20 P › Penetration › Extreme Angle": "Unarmored",
+      "AMW-20 P › Special Effects › Demolition Force": "15",
+      "AMW-20 P › Special Effects › Stagger Force": "40",
+      "AMW-20 P › Special Effects › Push Force": "25"
     },
     "source": {
       "type": "warbond",
-      "label": "Scope of Authority",
+      "label": "Scope of AuthorityP2",
       "warbondId": "scope-of-authority",
-      "page": 3,
-      "cost": null,
+      "page": 2,
+      "cost": {
+        "currency": "medals",
+        "amount": 50
+      },
       "rotating": null
     }
   }

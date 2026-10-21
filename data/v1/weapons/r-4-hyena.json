@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "R-4 Hyena",
       "url": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "marksman_rifle",
@@ -149,6 +147,7 @@
       "R-4 HYENA › Mags from Ammo Box": "2",
       "R-4 HYENA › Attacks › R-4 P": "Projectile",
       "R-4 HYENA › Attacks › Fire": "status",
+      "R-4 P › Projectile › Size": "9 mm",
       "R-4 P › Projectile › Mass": "20 g",
       "R-4 P › Projectile › Initial Velocity": "950 m/s",
       "R-4 P › Projectile › Drag Factor": "30%",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "count": 58,
     "source": {
       "name": "The Helldivers Wiki",
@@ -877,7 +877,10 @@
         "label": "Scope of Authority",
         "warbondId": "scope-of-authority",
         "page": 3,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 20
+        },
         "rotating": null
       }
     },

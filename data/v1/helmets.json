@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
-    "count": 113,
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
+    "count": 114,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -3360,7 +3360,7 @@
       "id": "ss-15-focal-point",
       "slug": "ss-15-focal-point",
       "name": "SS-15 Focal Point",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -3381,10 +3381,13 @@
       ],
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP2",
         "warbondId": "scope-of-authority",
         "page": 2,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
         "rotating": null
       }
     },
@@ -3392,7 +3395,7 @@
       "id": "ss-33-mimetic-marshal",
       "slug": "ss-33-mimetic-marshal",
       "name": "SS-33 Mimetic Marshal",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -3413,11 +3416,47 @@
       ],
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP1",
         "warbondId": "scope-of-authority",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 45
+        },
         "rotating": null
+      }
+    },
+    {
+      "id": "ss-500-pale-prosecutor",
+      "slug": "ss-500-pale-prosecutor",
+      "name": "SS-500 Pale Prosecutor",
+      "upcoming": false,
+      "aliases": [],
+      "description": null,
+      "image": {
+        "url": "/images/v1/helmets/ss-500-pale-prosecutor.4e890e26.webp",
+        "width": 512,
+        "height": 512,
+        "wikiFile": "SS-500_Pale_Prosecutor_Helmet_Render.png"
+      },
+      "wiki": {
+        "title": "SS-500 Pale Prosecutor",
+        "url": "https://helldivers.wiki.gg/wiki/SS-500_Pale_Prosecutor",
+        "flags": []
+      },
+      "setIds": [
+        "ss-500-pale-prosecutor"
+      ],
+      "source": {
+        "type": "superstore",
+        "label": "Superstore",
+        "warbondId": null,
+        "page": null,
+        "cost": {
+          "currency": "super_credits",
+          "amount": 125
+        },
+        "rotating": false
       }
     },
     {

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "count": 108,
     "source": {
       "name": "The Helldivers Wiki",
@@ -361,6 +361,7 @@
         "AR-2 COYOTE › Mags from Ammo Box": "4",
         "AR-2 COYOTE › Attacks › AR-2 P": "Projectile",
         "AR-2 COYOTE › Attacks › Fire": "status",
+        "AR-2 P › Projectile › Size": "7 mm",
         "AR-2 P › Projectile › Mass": "8 g",
         "AR-2 P › Projectile › Initial Velocity": "650 m/s",
         "AR-2 P › Projectile › Drag Factor": "30%",
@@ -946,6 +947,7 @@
         "AR-23P LIBERATOR PENETRATOR › Mags from Supply": "8",
         "AR-23P LIBERATOR PENETRATOR › Mags from Ammo Box": "4",
         "AR-23P LIBERATOR PENETRATOR › Attacks › AR-23P P": "Projectile",
+        "AR-23P P › Projectile › Size": "5.5 mm",
         "AR-23P P › Projectile › Mass": "4.5 g",
         "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
         "AR-23P P › Projectile › Drag Factor": "30%",
@@ -1959,6 +1961,7 @@
         "BR-14 ADJUDICATOR › Mags from Supply": "8",
         "BR-14 ADJUDICATOR › Mags from Ammo Box": "4",
         "BR-14 ADJUDICATOR › Attacks › BR-14 P": "Projectile",
+        "BR-14 P › Projectile › Size": "8 mm",
         "BR-14 P › Projectile › Mass": "11 g",
         "BR-14 P › Projectile › Initial Velocity": "820 m/s",
         "BR-14 P › Projectile › Drag Factor": "30%",
@@ -3488,7 +3491,7 @@
       "id": "g-11-caltrops",
       "slug": "g-11-caltrops",
       "name": "G-11 Caltrops",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The G-11 Caltrops is a Special Throwable that deploys a field of proximity stun mines.",
       "image": {
@@ -3512,25 +3515,109 @@
       ],
       "firearm": null,
       "throwable": {
-        "capacity": null,
-        "startingCount": null,
-        "fromSupply": null,
+        "capacity": 5,
+        "startingCount": 4,
+        "fromSupply": 3,
         "fuseTimeS": null,
         "cookable": false
       },
       "melee": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "G-11 CALTROPS E",
+          "kind": "explosion",
+          "damage": {
+            "standard": 50,
+            "durable": 10,
+            "type": "Explosion"
+          },
+          "penetration": {
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
+          },
+          "projectile": null,
+          "area": {
+            "innerRadiusM": 1,
+            "outerRadiusM": 10,
+            "shockwaveRadiusM": 15
+          },
+          "forces": {
+            "demolition": 10,
+            "stagger": 30,
+            "push": 0
+          }
+        },
+        {
+          "name": "Stun Small",
+          "kind": "status",
+          "damage": {
+            "standard": null,
+            "durable": null,
+            "type": null
+          },
+          "penetration": {
+            "direct": null,
+            "slightAngle": null,
+            "largeAngle": null,
+            "extremeAngle": null
+          },
+          "projectile": null,
+          "area": null,
+          "forces": {
+            "demolition": null,
+            "stagger": null,
+            "push": null
+          }
+        }
+      ],
       "statsRaw": {
+        "Damage": "50",
+        "Penetration": "Medium",
+        "Outer Radius": "10m",
         "Cookable": "No",
         "Fuse Time": "Proximity",
-        "Trait(s)": "Stun • Sticky"
+        "Trait(s)": "Stun • Sticky",
+        "G-11 CALTROPS › Recoil": "6.25",
+        "G-11 CALTROPS › Horizontal Recoil": "2.5",
+        "G-11 CALTROPS › Vertical Recoil": "10",
+        "G-11 CALTROPS › Spread": "↔[10.00] ↕[10.00]",
+        "G-11 CALTROPS › Sway": "1",
+        "G-11 CALTROPS › Ergonomics": "65",
+        "G-11 CALTROPS › Noise When Firing": "No sound",
+        "G-11 CALTROPS › Throwables from Supply": "3",
+        "G-11 CALTROPS › Max Rounds": "5",
+        "G-11 CALTROPS › Starting Rounds": "4",
+        "G-11 CALTROPS › Attacks › G-11 CALTROPS E": "Explosion",
+        "G-11 CALTROPS › Attacks › Stun Small": "status",
+        "G-11 CALTROPS E › Area of Effect › Inner Radius": "1 m",
+        "G-11 CALTROPS E › Area of Effect › Outer Radius": "10 m",
+        "G-11 CALTROPS E › Area of Effect › Shockwave Radius": "15 m",
+        "G-11 CALTROPS E › Damage › Damage Element": "None",
+        "G-11 CALTROPS E › Damage › Inner Radius": "50 Explosion",
+        "G-11 CALTROPS E › Damage › Inner Durable": "10 Explosion",
+        "G-11 CALTROPS E › Damage › Outer Radius": "49 - 0",
+        "G-11 CALTROPS E › Damage › Outer Durable": "9 - 0",
+        "G-11 CALTROPS E › Penetration › Inner AP": "Medium",
+        "G-11 CALTROPS E › Penetration › Outer AP": "Light",
+        "G-11 CALTROPS E › Penetration › Shockwave AP": "Medium",
+        "G-11 CALTROPS E › AoE Effect › Status": "Stun Small",
+        "G-11 CALTROPS E › AoE Effect › Status Strength": "5",
+        "G-11 CALTROPS E › AoE Effect › Demolition Force": "10",
+        "G-11 CALTROPS E › AoE Effect › Stagger Force": "30",
+        "G-11 CALTROPS E › AoE Effect › Push Force": "0",
+        "Stun Small › Status › Status Duration": "1.5 sec"
       },
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of Authority P1",
         "warbondId": "scope-of-authority",
-        "page": 3,
-        "cost": null,
+        "page": 1,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
         "rotating": null
       }
     },
@@ -4791,9 +4878,7 @@
       "wiki": {
         "title": "G/40-K Melta Mine",
         "url": "https://helldivers.wiki.gg/wiki/G/40-K_Melta_Mine",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "throwable",
       "subcategory": "special",
@@ -5237,6 +5322,7 @@
         "G-6 FRAG E › AoE Effect › Demolition Force": "20",
         "G-6 FRAG E › AoE Effect › Stagger Force": "25",
         "G-6 FRAG E › AoE Effect › Push Force": "40",
+        "AC-8 P2 › Projectile › Size": "10 mm",
         "AC-8 P2 › Projectile › Mass": "100 g",
         "AC-8 P2 › Projectile › Initial Velocity": "30 m/s",
         "AC-8 P2 › Projectile › Drag Factor": "40%",
@@ -5515,6 +5601,7 @@
         "G-7 PINEAPPLE E › AoE Effect › Demolition Force": "30",
         "G-7 PINEAPPLE E › AoE Effect › Stagger Force": "25",
         "G-7 PINEAPPLE E › AoE Effect › Push Force": "40",
+        "G-7 P › Projectile › Size": "40 mm",
         "G-7 P › Projectile › Mass": "150 g",
         "G-7 P › Projectile › Initial Velocity": "25 m/s",
         "G-7 P › Projectile › Drag Factor": "50%",
@@ -6948,9 +7035,7 @@
       "wiki": {
         "title": "LAS-16 Sickle",
         "url": "https://helldivers.wiki.gg/wiki/LAS-16_Sickle",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "energy_based",
@@ -7029,7 +7114,7 @@
         "Armor Penetration": "Light",
         "Fire Rate": "750 rpm",
         "DPS": "750",
-        "Capacity": "7s (87)",
+        "Capacity": "8s (105)",
         "Spare Mags": "3",
         "Supply Box Refill": "3",
         "Ammo Box Refill": "1",
@@ -7050,11 +7135,12 @@
         "LAS-16 SICKLE › Mags from Supply": "6",
         "LAS-16 SICKLE › Mags from Ammo Box": "3",
         "LAS-16 SICKLE › Heat Data › Overheats at": "100 °C",
-        "LAS-16 SICKLE › Heat Data › Warmup": "0.5 sec",
-        "LAS-16 SICKLE › Heat Data › Heat Per Shot": "1.14999998 °C",
+        "LAS-16 SICKLE › Heat Data › Warmup": "0.3 sec",
+        "LAS-16 SICKLE › Heat Data › Heat Per Shot": "0.949999988 °C",
         "LAS-16 SICKLE › Heat Data › Cool Per Sec": "12 - 8 - 6",
         "LAS-16 SICKLE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
         "LAS-16 SICKLE › Attacks › LAS-16 P": "Projectile",
+        "LAS-16 P › Projectile › Size": "10 mm",
         "LAS-16 P › Projectile › Mass": "12 g",
         "LAS-16 P › Projectile › Initial Velocity": "1300 m/s",
         "LAS-16 P › Projectile › Drag Factor": "0%",
@@ -7099,9 +7185,7 @@
       "wiki": {
         "title": "LAS-17 Double-Edge Sickle",
         "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "energy_based",
@@ -7291,7 +7375,7 @@
         "LAS-17 DOUBLE-EDGE SICKLE › Mags from Supply": "6",
         "LAS-17 DOUBLE-EDGE SICKLE › Mags from Ammo Box": "3",
         "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Overheats at": "200 °C",
-        "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.5 sec",
+        "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.3 sec",
         "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Heat Per Shot": "1.14999998 °C",
         "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cool Per Sec": "12 - 8 - 6",
         "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
@@ -7299,6 +7383,7 @@
         "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LAS-17 P": "Projectile",
         "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LAS-17 P1": "Projectile",
         "LAS-17 DOUBLE-EDGE SICKLE › Attacks › LAS-17 P2": "Projectile",
+        "LAS-16 P › Projectile › Size": "10 mm",
         "LAS-16 P › Projectile › Mass": "12 g",
         "LAS-16 P › Projectile › Initial Velocity": "1300 m/s",
         "LAS-16 P › Projectile › Drag Factor": "0%",
@@ -7314,6 +7399,7 @@
         "LAS-16 P › Special Effects › Demolition Force": "10",
         "LAS-16 P › Special Effects › Stagger Force": "10",
         "LAS-16 P › Special Effects › Push Force": "10",
+        "LAS-17 P › Projectile › Size": "10 mm",
         "LAS-17 P › Projectile › Mass": "12 g",
         "LAS-17 P › Projectile › Initial Velocity": "1300 m/s",
         "LAS-17 P › Projectile › Drag Factor": "0%",
@@ -7329,6 +7415,7 @@
         "LAS-17 P › Special Effects › Demolition Force": "10",
         "LAS-17 P › Special Effects › Stagger Force": "10",
         "LAS-17 P › Special Effects › Push Force": "10",
+        "LAS-17 P1 › Projectile › Size": "10 mm",
         "LAS-17 P1 › Projectile › Mass": "12 g",
         "LAS-17 P1 › Projectile › Initial Velocity": "1300 m/s",
         "LAS-17 P1 › Projectile › Drag Factor": "0%",
@@ -7344,6 +7431,7 @@
         "LAS-17 P1 › Special Effects › Demolition Force": "10",
         "LAS-17 P1 › Special Effects › Stagger Force": "10",
         "LAS-17 P1 › Special Effects › Push Force": "10",
+        "LAS-17 P2 › Projectile › Size": "10 mm",
         "LAS-17 P2 › Projectile › Mass": "12 g",
         "LAS-17 P2 › Projectile › Initial Velocity": "1300 m/s",
         "LAS-17 P2 › Projectile › Drag Factor": "0%",
@@ -7973,6 +8061,7 @@
         "M6C/SOCOM PISTOL › Mags from Supply": "10",
         "M6C/SOCOM PISTOL › Mags from Ammo Box": "5",
         "M6C/SOCOM PISTOL › Attacks › M6C/SOCOM P": "Projectile",
+        "M6C/SOCOM P › Projectile › Size": "12 mm",
         "M6C/SOCOM P › Projectile › Mass": "15 g",
         "M6C/SOCOM P › Projectile › Initial Velocity": "285 m/s",
         "M6C/SOCOM P › Projectile › Drag Factor": "120%",
@@ -8120,6 +8209,7 @@
         "M7S SMG › Mags from Supply": "7",
         "M7S SMG › Mags from Ammo Box": "3",
         "M7S SMG › Attacks › M7S P": "Projectile",
+        "M7S P › Projectile › Size": "9 mm",
         "M7S P › Projectile › Mass": "7 g",
         "M7S P › Projectile › Initial Velocity": "320 m/s",
         "M7S P › Projectile › Drag Factor": "120%",
@@ -8163,9 +8253,7 @@
       "wiki": {
         "title": "M90A Shotgun",
         "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "shotgun",
@@ -8181,7 +8269,7 @@
           80
         ],
         "dps": [
-          806.67
+          967.99
         ],
         "capacity": 6,
         "spareMagazines": 44,
@@ -8209,8 +8297,8 @@
           "name": "M90A P",
           "kind": "projectile",
           "damage": {
-            "standard": 55,
-            "durable": 20,
+            "standard": 66,
+            "durable": 24,
             "type": "Ballistic"
           },
           "penetration": {
@@ -8240,10 +8328,10 @@
         "Weapon Type": "Shotguns",
         "Firing Modes": "Semi",
         "Traits": "Light Armor Penetrating • Rounds Reload",
-        "Standard Damage": "605 Ballistic",
+        "Standard Damage": "726 Ballistic",
         "Armor Penetration": "Light",
         "Fire Rate": "80 rpm",
-        "DPS": "806.67",
+        "DPS": "967.99",
         "Capacity": "6",
         "Spare Shells": "44",
         "Supply Box Refill": "44",
@@ -8268,13 +8356,14 @@
         "M90A SHOTGUN › Rounds from Ammo Box": "22",
         "M90A SHOTGUN › Attacks › M90A P": "Projectile",
         "M90A P › Projectile › Pellets": "x 11",
+        "M90A P › Projectile › Size": "8 mm",
         "M90A P › Projectile › Mass": "6 g",
         "M90A P › Projectile › Initial Velocity": "385 m/s",
         "M90A P › Projectile › Drag Factor": "50%",
         "M90A P › Projectile › Gravity Factor": "100%",
         "M90A P › Projectile › Penetration Slowdown": "25%",
-        "M90A P › Damage › Standard": "55 Ballistic",
-        "M90A P › Damage › vs. Durable": "20 Ballistic",
+        "M90A P › Damage › Standard": "66 Ballistic",
+        "M90A P › Damage › vs. Durable": "24 Ballistic",
         "M90A P › Penetration › Direct": "Light",
         "M90A P › Penetration › Slight Angle": "Light",
         "M90A P › Penetration › Large Angle": "Light",
@@ -8337,9 +8426,9 @@
         "startingMagazines": 5,
         "magazinesFromSupply": 8,
         "magazinesFromAmmoBox": 4,
-        "recoil": 18.5,
-        "horizontalRecoil": 12,
-        "verticalRecoil": 25,
+        "recoil": 14.5,
+        "horizontalRecoil": 9,
+        "verticalRecoil": 20,
         "spread": {
           "horizontal": 2,
           "vertical": 2
@@ -8359,7 +8448,7 @@
           "kind": "projectile",
           "damage": {
             "standard": 90,
-            "durable": 16,
+            "durable": 20,
             "type": "Ballistic"
           },
           "penetration": {
@@ -8400,9 +8489,9 @@
         "Reload Time": "3.15s",
         "Tactical Reload Time": "2s",
         "MA5C ASSAULT RIFLE › Fire Rate": "640 rpm",
-        "MA5C ASSAULT RIFLE › Recoil": "18.5",
-        "MA5C ASSAULT RIFLE › Horizontal Recoil": "12",
-        "MA5C ASSAULT RIFLE › Vertical Recoil": "25",
+        "MA5C ASSAULT RIFLE › Recoil": "14.5",
+        "MA5C ASSAULT RIFLE › Horizontal Recoil": "9",
+        "MA5C ASSAULT RIFLE › Vertical Recoil": "20",
         "MA5C ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
         "MA5C ASSAULT RIFLE › Sway": "1",
         "MA5C ASSAULT RIFLE › Ergonomics": "60",
@@ -8413,13 +8502,14 @@
         "MA5C ASSAULT RIFLE › Mags from Supply": "8",
         "MA5C ASSAULT RIFLE › Mags from Ammo Box": "4",
         "MA5C ASSAULT RIFLE › Attacks › MA5C P": "Projectile",
+        "MA5C P › Projectile › Size": "8 mm",
         "MA5C P › Projectile › Mass": "11 g",
         "MA5C P › Projectile › Initial Velocity": "820 m/s",
         "MA5C P › Projectile › Drag Factor": "30%",
         "MA5C P › Projectile › Gravity Factor": "100%",
         "MA5C P › Projectile › Penetration Slowdown": "25%",
         "MA5C P › Damage › Standard": "90 Ballistic",
-        "MA5C P › Damage › vs. Durable": "16 Ballistic",
+        "MA5C P › Damage › vs. Durable": "20 Ballistic",
         "MA5C P › Penetration › Direct": "Medium",
         "MA5C P › Penetration › Slight Angle": "Medium",
         "MA5C P › Penetration › Large Angle": "Medium",
@@ -8835,6 +8925,7 @@
         "P-113 VERDICT › Mags from Supply": "10",
         "P-113 VERDICT › Mags from Ammo Box": "5",
         "P-113 VERDICT › Attacks › P-113 P": "Projectile",
+        "P-113 P › Projectile › Size": "12 mm",
         "P-113 P › Projectile › Mass": "15 g",
         "P-113 P › Projectile › Initial Velocity": "285 m/s",
         "P-113 P › Projectile › Drag Factor": "120%",
@@ -9070,7 +9161,7 @@
           "kind": "projectile",
           "damage": {
             "standard": 100,
-            "durable": 32,
+            "durable": 20,
             "type": "Ballistic"
           },
           "penetration": {
@@ -9125,13 +9216,14 @@
         "P-2 PEACEMAKER › Mags from Supply": "8",
         "P-2 PEACEMAKER › Mags from Ammo Box": "4",
         "P-2 PEACEMAKER › Attacks › P-2 P": "Projectile",
+        "P-2 P › Projectile › Size": "9 mm",
         "P-2 P › Projectile › Mass": "7 g",
         "P-2 P › Projectile › Initial Velocity": "320 m/s",
         "P-2 P › Projectile › Drag Factor": "120%",
         "P-2 P › Projectile › Gravity Factor": "100%",
         "P-2 P › Projectile › Penetration Slowdown": "25%",
         "P-2 P › Damage › Standard": "100 Ballistic",
-        "P-2 P › Damage › vs. Durable": "32 Ballistic",
+        "P-2 P › Damage › vs. Durable": "20 Ballistic",
         "P-2 P › Penetration › Direct": "Light",
         "P-2 P › Penetration › Slight Angle": "Light",
         "P-2 P › Penetration › Large Angle": "Light",
@@ -10193,7 +10285,7 @@
       "id": "p-44-mist",
       "slug": "p-44-mist",
       "name": "P-44 Mist",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The P-44 Mist is a fully automatic Secondary Pistol.",
       "image": {
@@ -10212,26 +10304,32 @@
       "category": "secondary",
       "subcategory": "pistol",
       "traitIds": [
-        "one-handed"
+        "one-handed",
+        "light-armor-penetrating"
       ],
       "firearm": {
         "firingModes": [
           "auto",
           "semi"
         ],
-        "fireRateRpm": [],
+        "fireRateRpm": [
+          400
+        ],
         "dps": [],
-        "capacity": null,
-        "spareMagazines": null,
-        "startingMagazines": null,
-        "magazinesFromSupply": null,
-        "magazinesFromAmmoBox": null,
-        "recoil": null,
-        "horizontalRecoil": null,
-        "verticalRecoil": null,
-        "spread": null,
-        "sway": null,
-        "ergonomics": null,
+        "capacity": 25,
+        "spareMagazines": 5,
+        "startingMagazines": 4,
+        "magazinesFromSupply": 6,
+        "magazinesFromAmmoBox": 3,
+        "recoil": 16.5,
+        "horizontalRecoil": 9,
+        "verticalRecoil": 24,
+        "spread": {
+          "horizontal": 6,
+          "vertical": 10
+        },
+        "sway": 1,
+        "ergonomics": 90,
         "reloadKind": "none",
         "reloadTimeS": null,
         "reloadTimeUpgradedS": null,
@@ -10239,19 +10337,89 @@
       },
       "throwable": null,
       "melee": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "P-44 P",
+          "kind": "projectile",
+          "damage": {
+            "standard": 110,
+            "durable": 18,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "light",
+            "slightAngle": "light",
+            "largeAngle": "light",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": {
+            "pellets": null,
+            "massG": 7,
+            "initialVelocityMps": 375,
+            "dragFactorPct": 120,
+            "gravityFactorPct": 100,
+            "penetrationSlowdownPct": 25
+          },
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 10,
+            "push": 4
+          }
+        }
+      ],
       "statsRaw": {
         "Weapon Category": "Secondary Weapons",
-        "Weapon Type": "Pistol",
+        "Weapon Type": "Pistols",
         "Firing Modes": "Auto • Semi",
-        "Traits": "One Handed"
+        "Traits": "One Handed • Light Armor Penetrating",
+        "Standard Damage": "110",
+        "Armor Penetration": "Light",
+        "Fire Rate": "400",
+        "Capacity": "25",
+        "Spare Mags": "5",
+        "Supply Box Refill": "5",
+        "Ergonomics": "90",
+        "Recoil": "17",
+        "P-44 MIST › Fire Rate": "400 rpm",
+        "P-44 MIST › Recoil": "16.5",
+        "P-44 MIST › Horizontal Recoil": "9",
+        "P-44 MIST › Vertical Recoil": "24",
+        "P-44 MIST › Spread": "↔[6.00] ↕[10.00]",
+        "P-44 MIST › Sway": "1",
+        "P-44 MIST › Ergonomics": "90",
+        "P-44 MIST › Noise When Firing": "Small (~33m)",
+        "P-44 MIST › Capacity": "25",
+        "P-44 MIST › Spare Magazines": "5",
+        "P-44 MIST › Starting Magazines": "4",
+        "P-44 MIST › Mags from Supply": "6",
+        "P-44 MIST › Mags from Ammo Box": "3",
+        "P-44 MIST › Attacks › P-44 P": "Projectile",
+        "P-44 P › Projectile › Size": "9 mm",
+        "P-44 P › Projectile › Mass": "7 g",
+        "P-44 P › Projectile › Initial Velocity": "375 m/s",
+        "P-44 P › Projectile › Drag Factor": "120%",
+        "P-44 P › Projectile › Gravity Factor": "100%",
+        "P-44 P › Projectile › Penetration Slowdown": "25%",
+        "P-44 P › Damage › Standard": "110 Ballistic",
+        "P-44 P › Damage › vs. Durable": "18 Ballistic",
+        "P-44 P › Penetration › Direct": "Light",
+        "P-44 P › Penetration › Slight Angle": "Light",
+        "P-44 P › Penetration › Large Angle": "Light",
+        "P-44 P › Penetration › Extreme Angle": "Unarmored",
+        "P-44 P › Special Effects › Demolition Force": "10",
+        "P-44 P › Special Effects › Stagger Force": "10",
+        "P-44 P › Special Effects › Push Force": "4"
       },
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP3",
         "warbondId": "scope-of-authority",
         "page": 3,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 65
+        },
         "rotating": null
       }
     },
@@ -10376,6 +10544,7 @@
         "P-69 VETO › Rounds from Supply": "90",
         "P-69 VETO › Rounds from Ammo Box": "45",
         "P-69 VETO › Attacks › P-69 P": "Projectile",
+        "P-69 P › Projectile › Size": "12 mm",
         "P-69 P › Projectile › Mass": "7 g",
         "P-69 P › Projectile › Initial Velocity": "375 m/s",
         "P-69 P › Projectile › Drag Factor": "0%",
@@ -10764,6 +10933,7 @@
         "P-92 WARRANT › Mags from Ammo Box": "3",
         "P-92 WARRANT › Attacks › P-92 P": "Projectile",
         "P-92 WARRANT › Attacks › P-92 P1": "Projectile",
+        "P-92 P › Projectile › Size": "12 mm",
         "P-92 P › Projectile › Mass": "15 g",
         "P-92 P › Projectile › Initial Velocity": "285 m/s",
         "P-92 P › Projectile › Drag Factor": "0%",
@@ -10778,6 +10948,7 @@
         "P-92 P › Special Effects › Demolition Force": "10",
         "P-92 P › Special Effects › Stagger Force": "15",
         "P-92 P › Special Effects › Push Force": "10",
+        "P-92 P1 › Projectile › Size": "12 mm",
         "P-92 P1 › Projectile › Mass": "15 g",
         "P-92 P1 › Projectile › Initial Velocity": "285 m/s",
         "P-92 P1 › Projectile › Drag Factor": "0%",
@@ -11649,9 +11820,7 @@
       "wiki": {
         "title": "PLAS-39 Accelerator Rifle",
         "url": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "energy_based",
@@ -11716,7 +11885,7 @@
           "area": null,
           "forces": {
             "demolition": 10,
-            "stagger": 20,
+            "stagger": 15,
             "push": 10
           }
         },
@@ -11785,6 +11954,7 @@
         "PLAS-39 ACCELERATOR RIFLE › Charge › Damage Mult Range": "(1.00) (1.00)",
         "PLAS-39 ACCELERATOR RIFLE › Attacks › PLAS-39 P": "Projectile",
         "PLAS-39 ACCELERATOR RIFLE › Attacks › PLAS-39 P IE": "Explosion",
+        "PLAS-39 P › Projectile › Size": "20 mm",
         "PLAS-39 P › Projectile › Mass": "25 g",
         "PLAS-39 P › Projectile › Initial Velocity": "1000 m/s",
         "PLAS-39 P › Projectile › Drag Factor": "10%",
@@ -11798,7 +11968,7 @@
         "PLAS-39 P › Penetration › Large Angle": "Medium",
         "PLAS-39 P › Penetration › Extreme Angle": "Unarmored",
         "PLAS-39 P › Special Effects › Demolition Force": "10",
-        "PLAS-39 P › Special Effects › Stagger Force": "20",
+        "PLAS-39 P › Special Effects › Stagger Force": "15",
         "PLAS-39 P › Special Effects › Push Force": "10",
         "PLAS-39 P IE › Area of Effect › Inner Radius": "1 m",
         "PLAS-39 P IE › Area of Effect › Outer Radius": "2 m",
@@ -12432,9 +12602,7 @@
       "wiki": {
         "title": "R-4 Hyena",
         "url": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "marksman_rifle",
@@ -12557,6 +12725,7 @@
         "R-4 HYENA › Mags from Ammo Box": "2",
         "R-4 HYENA › Attacks › R-4 P": "Projectile",
         "R-4 HYENA › Attacks › Fire": "status",
+        "R-4 P › Projectile › Size": "9 mm",
         "R-4 P › Projectile › Mass": "20 g",
         "R-4 P › Projectile › Initial Velocity": "950 m/s",
         "R-4 P › Projectile › Drag Factor": "30%",
@@ -12744,7 +12913,7 @@
       "id": "r-40-sightliner",
       "slug": "r-40-sightliner",
       "name": "R-40 Sightliner",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "The R-40 Sightliner is a Primary bolt-action Sniper Rifle.",
       "image": {
@@ -12756,12 +12925,10 @@
       "wiki": {
         "title": "R-40 Sightliner",
         "url": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "category": "primary",
-      "subcategory": "marksman_rifle",
+      "subcategory": "sniper_rifle",
       "traitIds": [
         "heavy-armor-penetrating"
       ],
@@ -12769,40 +12936,120 @@
         "firingModes": [
           "other"
         ],
-        "fireRateRpm": [],
-        "dps": [],
-        "capacity": null,
-        "spareMagazines": null,
-        "startingMagazines": null,
-        "magazinesFromSupply": null,
-        "magazinesFromAmmoBox": null,
-        "recoil": null,
-        "horizontalRecoil": null,
-        "verticalRecoil": null,
-        "spread": null,
-        "sway": null,
-        "ergonomics": null,
-        "reloadKind": "none",
-        "reloadTimeS": null,
+        "fireRateRpm": [
+          40
+        ],
+        "dps": [
+          233.33
+        ],
+        "capacity": 10,
+        "spareMagazines": 8,
+        "startingMagazines": 6,
+        "magazinesFromSupply": 8,
+        "magazinesFromAmmoBox": 4,
+        "recoil": 87.5,
+        "horizontalRecoil": 45,
+        "verticalRecoil": 130,
+        "spread": {
+          "horizontal": 0.1,
+          "vertical": 0.1
+        },
+        "sway": 0.7,
+        "ergonomics": 40,
+        "reloadKind": "magazine",
+        "reloadTimeS": 3,
         "reloadTimeUpgradedS": null,
-        "tacticalReloadTimeS": null
+        "tacticalReloadTimeS": 2
       },
       "throwable": null,
       "melee": null,
-      "attacks": [],
+      "attacks": [
+        {
+          "name": "R-40 P",
+          "kind": "projectile",
+          "damage": {
+            "standard": 350,
+            "durable": 205,
+            "type": "Ballistic"
+          },
+          "penetration": {
+            "direct": "heavy",
+            "slightAngle": "heavy",
+            "largeAngle": "heavy",
+            "extremeAngle": "unarmored"
+          },
+          "projectile": {
+            "pellets": null,
+            "massG": 11,
+            "initialVelocityMps": 950,
+            "dragFactorPct": 20,
+            "gravityFactorPct": 100,
+            "penetrationSlowdownPct": 25
+          },
+          "area": null,
+          "forces": {
+            "demolition": 10,
+            "stagger": 20,
+            "push": 25
+          }
+        }
+      ],
       "statsRaw": {
         "Weapon Category": "Primary Weapons",
         "Weapon Type": "Marksman Rifles",
         "Firing Modes": "Bolt-Action",
         "Traits": "Heavy Armor Penetrating",
-        "Armor Penetration": "Heavy"
+        "Standard Damage": "350 Ballistic",
+        "Armor Penetration": "Heavy",
+        "Fire Rate": "40 rpm",
+        "DPS": "233.33",
+        "Capacity": "10",
+        "Spare Mags": "8",
+        "Supply Box Refill": "8",
+        "Ammo Box Refill": "4",
+        "Ergonomics": "31",
+        "Recoil": "76",
+        "Reload Time": "3s",
+        "Tactical Reload Time": "2s",
+        "R-40 SIGHTLINER › Fire Rate": "40 rpm",
+        "R-40 SIGHTLINER › Recoil": "87.5",
+        "R-40 SIGHTLINER › Horizontal Recoil": "45",
+        "R-40 SIGHTLINER › Vertical Recoil": "130",
+        "R-40 SIGHTLINER › Spread": "↔[0.10] ↕[0.10]",
+        "R-40 SIGHTLINER › Sway": "0.7",
+        "R-40 SIGHTLINER › Ergonomics": "40",
+        "R-40 SIGHTLINER › Noise When Firing": "Medium (~48m)",
+        "R-40 SIGHTLINER › Capacity": "10",
+        "R-40 SIGHTLINER › Spare Magazines": "8",
+        "R-40 SIGHTLINER › Starting Magazines": "6",
+        "R-40 SIGHTLINER › Mags from Supply": "8",
+        "R-40 SIGHTLINER › Mags from Ammo Box": "4",
+        "R-40 SIGHTLINER › Attacks › R-40 P": "Projectile",
+        "R-40 P › Projectile › Size": "8 mm",
+        "R-40 P › Projectile › Mass": "11 g",
+        "R-40 P › Projectile › Initial Velocity": "950 m/s",
+        "R-40 P › Projectile › Drag Factor": "20%",
+        "R-40 P › Projectile › Gravity Factor": "100%",
+        "R-40 P › Projectile › Penetration Slowdown": "25%",
+        "R-40 P › Damage › Standard": "350 Ballistic",
+        "R-40 P › Damage › vs. Durable": "205 Ballistic",
+        "R-40 P › Penetration › Direct": "Heavy",
+        "R-40 P › Penetration › Slight Angle": "Heavy",
+        "R-40 P › Penetration › Large Angle": "Heavy",
+        "R-40 P › Penetration › Extreme Angle": "Unarmored",
+        "R-40 P › Special Effects › Demolition Force": "10",
+        "R-40 P › Special Effects › Stagger Force": "20",
+        "R-40 P › Special Effects › Push Force": "25"
       },
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of Authority P1",
         "warbondId": "scope-of-authority",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 35
+        },
         "rotating": null
       }
     },
@@ -13564,6 +13811,7 @@
         "SG-20 HALT › Attacks › SG-20 P1": "Projectile",
         "SG-20 HALT › Attacks › Stun Large": "status",
         "SG-20 P › Projectile › Pellets": "x 11",
+        "SG-20 P › Projectile › Size": "8 mm",
         "SG-20 P › Projectile › Mass": "6 g",
         "SG-20 P › Projectile › Initial Velocity": "385 m/s",
         "SG-20 P › Projectile › Drag Factor": "30%",
@@ -13579,6 +13827,7 @@
         "SG-20 P › Special Effects › Stagger Force": "20",
         "SG-20 P › Special Effects › Push Force": "20",
         "SG-20 P1 › Projectile › Pellets": "x 20",
+        "SG-20 P1 › Projectile › Size": "5.5 mm",
         "SG-20 P1 › Projectile › Mass": "4.5 g",
         "SG-20 P1 › Projectile › Initial Velocity": "800 m/s",
         "SG-20 P1 › Projectile › Drag Factor": "30%",
@@ -13625,9 +13874,7 @@
       "wiki": {
         "title": "SG-22 Bushwhacker",
         "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "secondary",
       "subcategory": "special",
@@ -13645,7 +13892,7 @@
           650
         ],
         "dps": [
-          1215
+          1620
         ],
         "capacity": 3,
         "spareMagazines": 30,
@@ -13673,8 +13920,8 @@
           "name": "SG-22 P",
           "kind": "projectile",
           "damage": {
-            "standard": 45,
-            "durable": 12,
+            "standard": 54,
+            "durable": 15,
             "type": "Ballistic"
           },
           "penetration": {
@@ -13704,10 +13951,10 @@
         "Weapon Type": "Special",
         "Firing Modes": "Semi • All Barrel",
         "Traits": "Light Armor Penetrating • One Handed • Rounds Reload",
-        "Standard Damage": "405 Ballistic",
+        "Standard Damage": "486 Ballistic",
         "Armor Penetration": "Light",
         "Fire Rate": "650 rpm",
-        "DPS": "1,215",
+        "DPS": "1,620",
         "Capacity": "3",
         "Spare Rounds": "30",
         "Ergonomics": "65",
@@ -13731,13 +13978,14 @@
         "SG-22 BUSHWHACKER › Barrels": "x 3",
         "SG-22 BUSHWHACKER › Attacks › SG-22 P": "Projectile",
         "SG-22 P › Projectile › Pellets": "x 9",
+        "SG-22 P › Projectile › Size": "8 mm",
         "SG-22 P › Projectile › Mass": "6 g",
         "SG-22 P › Projectile › Initial Velocity": "385 m/s",
         "SG-22 P › Projectile › Drag Factor": "50%",
         "SG-22 P › Projectile › Gravity Factor": "100%",
         "SG-22 P › Projectile › Penetration Slowdown": "25%",
-        "SG-22 P › Damage › Standard": "45 Ballistic",
-        "SG-22 P › Damage › vs. Durable": "12 Ballistic",
+        "SG-22 P › Damage › Standard": "54 Ballistic",
+        "SG-22 P › Damage › vs. Durable": "15 Ballistic",
         "SG-22 P › Penetration › Direct": "Light",
         "SG-22 P › Penetration › Slight Angle": "Light",
         "SG-22 P › Penetration › Large Angle": "Light",
@@ -13774,9 +14022,7 @@
       "wiki": {
         "title": "SG-225 Breaker",
         "url": "https://helldivers.wiki.gg/wiki/SG-225_Breaker",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "shotgun",
@@ -13792,7 +14038,7 @@
           300
         ],
         "dps": [
-          1650
+          1980
         ],
         "capacity": 16,
         "spareMagazines": 7,
@@ -13820,8 +14066,8 @@
           "name": "SG-225 P",
           "kind": "projectile",
           "damage": {
-            "standard": 30,
-            "durable": 6,
+            "standard": 36,
+            "durable": 8,
             "type": "Ballistic"
           },
           "penetration": {
@@ -13851,10 +14097,10 @@
         "Weapon Type": "Shotguns",
         "Firing Modes": "Auto • Semi",
         "Traits": "Light Armor Penetrating",
-        "Standard Damage": "330 Ballistic",
+        "Standard Damage": "396 Ballistic",
         "Armor Penetration": "Light",
         "Fire Rate": "300 rpm",
-        "DPS": "1,650",
+        "DPS": "1,980",
         "Capacity": "16",
         "Spare Mags": "7",
         "Supply Box Refill": "7",
@@ -13877,13 +14123,14 @@
         "SG-225 BREAKER › Mags from Ammo Box": "3",
         "SG-225 BREAKER › Attacks › SG-225 P": "Projectile",
         "SG-225 P › Projectile › Pellets": "x 11",
+        "SG-225 P › Projectile › Size": "8 mm",
         "SG-225 P › Projectile › Mass": "4 g",
         "SG-225 P › Projectile › Initial Velocity": "360 m/s",
         "SG-225 P › Projectile › Drag Factor": "50%",
         "SG-225 P › Projectile › Gravity Factor": "100%",
         "SG-225 P › Projectile › Penetration Slowdown": "80%",
-        "SG-225 P › Damage › Standard": "30 Ballistic",
-        "SG-225 P › Damage › vs. Durable": "6 Ballistic",
+        "SG-225 P › Damage › Standard": "36 Ballistic",
+        "SG-225 P › Damage › vs. Durable": "8 Ballistic",
         "SG-225 P › Penetration › Direct": "Light",
         "SG-225 P › Penetration › Slight Angle": "Light",
         "SG-225 P › Penetration › Large Angle": "Light",
@@ -14102,10 +14349,8 @@
       },
       "wiki": {
         "title": "SG-225SP Breaker Spray&Pray",
-        "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray&Pray",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
+        "flags": []
       },
       "category": "primary",
       "subcategory": "shotgun",
@@ -14121,7 +14366,7 @@
           330
         ],
         "dps": [
-          1320
+          1584
         ],
         "capacity": 26,
         "spareMagazines": 8,
@@ -14149,8 +14394,8 @@
           "name": "SG-225SP P",
           "kind": "projectile",
           "damage": {
-            "standard": 15,
-            "durable": 4,
+            "standard": 18,
+            "durable": 5,
             "type": "Ballistic"
           },
           "penetration": {
@@ -14180,10 +14425,10 @@
         "Weapon Type": "Shotguns",
         "Firing Modes": "Auto • Semi",
         "Traits": "Light Armor Penetrating",
-        "Standard Damage": "240 Ballistic",
+        "Standard Damage": "288 Ballistic",
         "Armor Penetration": "Light",
         "Fire Rate": "330 rpm",
-        "DPS": "1,320",
+        "DPS": "1,584",
         "Capacity": "26",
         "Spare Mags": "8",
         "Supply Box Refill": "8",
@@ -14206,13 +14451,14 @@
         "SG-225SP BREAKER SPRAY&PRAY › Mags from Ammo Box": "4",
         "SG-225SP BREAKER SPRAY&PRAY › Attacks › SG-225SP P": "Projectile",
         "SG-225SP P › Projectile › Pellets": "x 16",
+        "SG-225SP P › Projectile › Size": "3 mm",
         "SG-225SP P › Projectile › Mass": "1 g",
         "SG-225SP P › Projectile › Initial Velocity": "250 m/s",
         "SG-225SP P › Projectile › Drag Factor": "50%",
         "SG-225SP P › Projectile › Gravity Factor": "100%",
         "SG-225SP P › Projectile › Penetration Slowdown": "80%",
-        "SG-225SP P › Damage › Standard": "15 Ballistic",
-        "SG-225SP P › Damage › vs. Durable": "4 Ballistic",
+        "SG-225SP P › Damage › Standard": "18 Ballistic",
+        "SG-225SP P › Damage › vs. Durable": "5 Ballistic",
         "SG-225SP P › Penetration › Direct": "Light",
         "SG-225SP P › Penetration › Slight Angle": "Light",
         "SG-225SP P › Penetration › Large Angle": "Light",
@@ -14378,6 +14624,7 @@
         "SG-451 COOKOUT › Attacks › SG-451 P": "Projectile",
         "SG-451 COOKOUT › Attacks › Fire": "status",
         "SG-451 P › Projectile › Pellets": "x 20",
+        "SG-451 P › Projectile › Size": "8 mm",
         "SG-451 P › Projectile › Mass": "2 g",
         "SG-451 P › Projectile › Initial Velocity": "120 m/s",
         "SG-451 P › Projectile › Drag Factor": "80%",
@@ -14434,9 +14681,7 @@
       "wiki": {
         "title": "SG-8 Punisher",
         "url": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "shotgun",
@@ -14452,7 +14697,7 @@
           80
         ],
         "dps": [
-          539.99
+          647.99
         ],
         "capacity": 16,
         "spareMagazines": 60,
@@ -14480,8 +14725,8 @@
           "name": "SG-22 P",
           "kind": "projectile",
           "damage": {
-            "standard": 45,
-            "durable": 12,
+            "standard": 54,
+            "durable": 15,
             "type": "Ballistic"
           },
           "penetration": {
@@ -14511,10 +14756,10 @@
         "Weapon Type": "Shotguns",
         "Firing Modes": "Semi",
         "Traits": "Light Armor Penetrating • Rounds Reload",
-        "Standard Damage": "405 Ballistic",
+        "Standard Damage": "486 Ballistic",
         "Armor Penetration": "Light",
         "Fire Rate": "80 rpm",
-        "DPS": "539.99",
+        "DPS": "647.99",
         "Capacity": "16",
         "Spare Shells": "60",
         "Supply Box Refill": "60",
@@ -14539,13 +14784,14 @@
         "SG-8 PUNISHER › Rounds from Ammo Box": "30",
         "SG-8 PUNISHER › Attacks › SG-22 P": "Projectile",
         "SG-22 P › Projectile › Pellets": "x 9",
+        "SG-22 P › Projectile › Size": "8 mm",
         "SG-22 P › Projectile › Mass": "6 g",
         "SG-22 P › Projectile › Initial Velocity": "385 m/s",
         "SG-22 P › Projectile › Drag Factor": "50%",
         "SG-22 P › Projectile › Gravity Factor": "100%",
         "SG-22 P › Projectile › Penetration Slowdown": "25%",
-        "SG-22 P › Damage › Standard": "45 Ballistic",
-        "SG-22 P › Damage › vs. Durable": "12 Ballistic",
+        "SG-22 P › Damage › Standard": "54 Ballistic",
+        "SG-22 P › Damage › vs. Durable": "15 Ballistic",
         "SG-22 P › Penetration › Direct": "Light",
         "SG-22 P › Penetration › Slight Angle": "Light",
         "SG-22 P › Penetration › Large Angle": "Light",
@@ -15349,6 +15595,7 @@
         "SMG-203 GALLANT › Mags from Supply": "7",
         "SMG-203 GALLANT › Mags from Ammo Box": "3",
         "SMG-203 GALLANT › Attacks › SMG-203 P": "Projectile",
+        "SMG-203 P › Projectile › Size": "9 mm",
         "SMG-203 P › Projectile › Mass": "7 g",
         "SMG-203 P › Projectile › Initial Velocity": "450 m/s",
         "SMG-203 P › Projectile › Drag Factor": "120%",
@@ -16130,9 +16377,7 @@
       "wiki": {
         "title": "StA-11 SMG",
         "url": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "submachine_gun",
@@ -16148,22 +16393,22 @@
           1050
         ],
         "dps": [
-          1575
+          1750
         ],
         "capacity": 48,
         "spareMagazines": 7,
         "startingMagazines": 5,
         "magazinesFromSupply": 7,
         "magazinesFromAmmoBox": 3,
-        "recoil": 11.25,
+        "recoil": 8.75,
         "horizontalRecoil": 7.5,
-        "verticalRecoil": 15,
+        "verticalRecoil": 10,
         "spread": {
           "horizontal": 5,
           "vertical": 5
         },
         "sway": 0.7,
-        "ergonomics": 80,
+        "ergonomics": 90,
         "reloadKind": "magazine",
         "reloadTimeS": 2.6,
         "reloadTimeUpgradedS": null,
@@ -16173,11 +16418,11 @@
       "melee": null,
       "attacks": [
         {
-          "name": "MP-98 P",
+          "name": "P-2 P",
           "kind": "projectile",
           "damage": {
-            "standard": 90,
-            "durable": 18,
+            "standard": 100,
+            "durable": 20,
             "type": "Ballistic"
           },
           "penetration": {
@@ -16189,7 +16434,7 @@
           "projectile": {
             "pellets": null,
             "massG": 7,
-            "initialVelocityMps": 375,
+            "initialVelocityMps": 320,
             "dragFactorPct": 120,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
@@ -16198,7 +16443,7 @@
           "forces": {
             "demolition": 10,
             "stagger": 10,
-            "push": 5
+            "push": 4
           }
         }
       ],
@@ -16207,46 +16452,47 @@
         "Weapon Type": "Submachine Guns",
         "Firing Modes": "Auto",
         "Traits": "Light Armor Penetrating • One Handed",
-        "Standard Damage": "90 Ballistic",
+        "Standard Damage": "100 Ballistic",
         "Armor Penetration": "Light",
-        "Fire Rate": "1050 rpm",
-        "DPS": "1,575",
+        "Fire Rate": "1,050 rpm",
+        "DPS": "1,750",
         "Capacity": "48",
         "Spare Mags": "7",
         "Supply Box Refill": "7",
         "Ammo Box Refill": "3",
-        "Ergonomics": "80",
+        "Ergonomics": "90",
         "Recoil": "11",
         "Reload Time": "2.6s",
         "Tactical Reload Time": "1.7s",
         "STA-11 SMG › Fire Rate": "1050 rpm",
-        "STA-11 SMG › Recoil": "11.25",
+        "STA-11 SMG › Recoil": "8.75",
         "STA-11 SMG › Horizontal Recoil": "7.5",
-        "STA-11 SMG › Vertical Recoil": "15",
+        "STA-11 SMG › Vertical Recoil": "10",
         "STA-11 SMG › Spread": "↔[5.00] ↕[5.00]",
         "STA-11 SMG › Sway": "0.7",
-        "STA-11 SMG › Ergonomics": "80",
+        "STA-11 SMG › Ergonomics": "90",
         "STA-11 SMG › Noise When Firing": "Small (~33m)",
         "STA-11 SMG › Capacity": "48",
         "STA-11 SMG › Spare Magazines": "7",
         "STA-11 SMG › Starting Magazines": "5",
         "STA-11 SMG › Mags from Supply": "7",
         "STA-11 SMG › Mags from Ammo Box": "3",
-        "STA-11 SMG › Attacks › MP-98 P": "Projectile",
-        "MP-98 P › Projectile › Mass": "7 g",
-        "MP-98 P › Projectile › Initial Velocity": "375 m/s",
-        "MP-98 P › Projectile › Drag Factor": "120%",
-        "MP-98 P › Projectile › Gravity Factor": "100%",
-        "MP-98 P › Projectile › Penetration Slowdown": "25%",
-        "MP-98 P › Damage › Standard": "90 Ballistic",
-        "MP-98 P › Damage › vs. Durable": "18 Ballistic",
-        "MP-98 P › Penetration › Direct": "Light",
-        "MP-98 P › Penetration › Slight Angle": "Light",
-        "MP-98 P › Penetration › Large Angle": "Light",
-        "MP-98 P › Penetration › Extreme Angle": "Unarmored",
-        "MP-98 P › Special Effects › Demolition Force": "10",
-        "MP-98 P › Special Effects › Stagger Force": "10",
-        "MP-98 P › Special Effects › Push Force": "5"
+        "STA-11 SMG › Attacks › P-2 P": "Projectile",
+        "P-2 P › Projectile › Size": "9 mm",
+        "P-2 P › Projectile › Mass": "7 g",
+        "P-2 P › Projectile › Initial Velocity": "320 m/s",
+        "P-2 P › Projectile › Drag Factor": "120%",
+        "P-2 P › Projectile › Gravity Factor": "100%",
+        "P-2 P › Projectile › Penetration Slowdown": "25%",
+        "P-2 P › Damage › Standard": "100 Ballistic",
+        "P-2 P › Damage › vs. Durable": "20 Ballistic",
+        "P-2 P › Penetration › Direct": "Light",
+        "P-2 P › Penetration › Slight Angle": "Light",
+        "P-2 P › Penetration › Large Angle": "Light",
+        "P-2 P › Penetration › Extreme Angle": "Unarmored",
+        "P-2 P › Special Effects › Demolition Force": "10",
+        "P-2 P › Special Effects › Stagger Force": "10",
+        "P-2 P › Special Effects › Push Force": "4"
       },
       "source": {
         "type": "warbond",
@@ -16276,9 +16522,7 @@
       "wiki": {
         "title": "StA-52 Assault Rifle",
         "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
-        "flags": [
-          "potentially_outdated"
-        ]
+        "flags": []
       },
       "category": "primary",
       "subcategory": "assault_rifle",
@@ -16297,13 +16541,13 @@
           1185
         ],
         "capacity": 56,
-        "spareMagazines": 6,
+        "spareMagazines": 7,
         "startingMagazines": 4,
         "magazinesFromSupply": 6,
         "magazinesFromAmmoBox": 3,
-        "recoil": 14,
-        "horizontalRecoil": 8,
-        "verticalRecoil": 20,
+        "recoil": 7.25,
+        "horizontalRecoil": 4.5,
+        "verticalRecoil": 10,
         "spread": {
           "horizontal": 2,
           "vertical": 2
@@ -16366,19 +16610,20 @@
         "Reload Time": "4.2s",
         "Tactical Reload Time": "2.5s",
         "STA-52 ASSAULT RIFLE › Fire Rate": "790 rpm",
-        "STA-52 ASSAULT RIFLE › Recoil": "14",
-        "STA-52 ASSAULT RIFLE › Horizontal Recoil": "8",
-        "STA-52 ASSAULT RIFLE › Vertical Recoil": "20",
+        "STA-52 ASSAULT RIFLE › Recoil": "7.25",
+        "STA-52 ASSAULT RIFLE › Horizontal Recoil": "4.5",
+        "STA-52 ASSAULT RIFLE › Vertical Recoil": "10",
         "STA-52 ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
         "STA-52 ASSAULT RIFLE › Sway": "1",
         "STA-52 ASSAULT RIFLE › Ergonomics": "55",
         "STA-52 ASSAULT RIFLE › Noise When Firing": "Medium (~48m)",
         "STA-52 ASSAULT RIFLE › Capacity": "56",
-        "STA-52 ASSAULT RIFLE › Spare Magazines": "6",
+        "STA-52 ASSAULT RIFLE › Spare Magazines": "7",
         "STA-52 ASSAULT RIFLE › Starting Magazines": "4",
         "STA-52 ASSAULT RIFLE › Mags from Supply": "6",
         "STA-52 ASSAULT RIFLE › Mags from Ammo Box": "3",
         "STA-52 ASSAULT RIFLE › Attacks › AR-23 P": "Projectile",
+        "AR-23 P › Projectile › Size": "5.5 mm",
         "AR-23 P › Projectile › Mass": "4.5 g",
         "AR-23 P › Projectile › Initial Velocity": "900 m/s",
         "AR-23 P › Projectile › Drag Factor": "30%",

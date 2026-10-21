@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "SG-8 Punisher",
       "url": "https://helldivers.wiki.gg/wiki/SG-8_Punisher",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "shotgun",
@@ -42,7 +40,7 @@
         80
       ],
       "dps": [
-        539.99
+        647.99
       ],
       "capacity": 16,
       "spareMagazines": 60,
@@ -70,8 +68,8 @@
         "name": "SG-22 P",
         "kind": "projectile",
         "damage": {
-          "standard": 45,
-          "durable": 12,
+          "standard": 54,
+          "durable": 15,
           "type": "Ballistic"
         },
         "penetration": {
@@ -101,10 +99,10 @@
       "Weapon Type": "Shotguns",
       "Firing Modes": "Semi",
       "Traits": "Light Armor Penetrating • Rounds Reload",
-      "Standard Damage": "405 Ballistic",
+      "Standard Damage": "486 Ballistic",
       "Armor Penetration": "Light",
       "Fire Rate": "80 rpm",
-      "DPS": "539.99",
+      "DPS": "647.99",
       "Capacity": "16",
       "Spare Shells": "60",
       "Supply Box Refill": "60",
@@ -129,13 +127,14 @@
       "SG-8 PUNISHER › Rounds from Ammo Box": "30",
       "SG-8 PUNISHER › Attacks › SG-22 P": "Projectile",
       "SG-22 P › Projectile › Pellets": "x 9",
+      "SG-22 P › Projectile › Size": "8 mm",
       "SG-22 P › Projectile › Mass": "6 g",
       "SG-22 P › Projectile › Initial Velocity": "385 m/s",
       "SG-22 P › Projectile › Drag Factor": "50%",
       "SG-22 P › Projectile › Gravity Factor": "100%",
       "SG-22 P › Projectile › Penetration Slowdown": "25%",
-      "SG-22 P › Damage › Standard": "45 Ballistic",
-      "SG-22 P › Damage › vs. Durable": "12 Ballistic",
+      "SG-22 P › Damage › Standard": "54 Ballistic",
+      "SG-22 P › Damage › vs. Durable": "15 Ballistic",
       "SG-22 P › Penetration › Direct": "Light",
       "SG-22 P › Penetration › Slight Angle": "Light",
       "SG-22 P › Penetration › Large Angle": "Light",

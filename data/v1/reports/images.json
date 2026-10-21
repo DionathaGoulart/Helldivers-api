@@ -919,6 +919,15 @@
       "bytes": 47242
     },
     {
+      "url": "/images/v1/armors/ss-500-pale-prosecutor.a1fb8b99.webp",
+      "wikiFile": "SS-500_Pale_Prosecutor_Armor_Render.png",
+      "version": "38846c",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 24962
+    },
+    {
       "url": "/images/v1/armors/tg-122-demo-trooper.6159afdd.webp",
       "wikiFile": "TG-122_Demo-Trooper_Armor_Render.png",
       "version": "95857c",
@@ -1205,6 +1214,15 @@
       "width": 512,
       "height": 512,
       "bytes": 23468
+    },
+    {
+      "url": "/images/v1/capes/arctic-decree.14d6cef9.webp",
+      "wikiFile": "Arctic_Decree_Cape_Render.png",
+      "version": "82725a",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 22882
     },
     {
       "url": "/images/v1/capes/badge-of-order.5fcee68a.webp",
@@ -3412,6 +3430,15 @@
       "bytes": 40286
     },
     {
+      "url": "/images/v1/helmets/ss-500-pale-prosecutor.4e890e26.webp",
+      "wikiFile": "SS-500_Pale_Prosecutor_Helmet_Render.png",
+      "version": "a1dad1",
+      "rendition": "render",
+      "width": 512,
+      "height": 512,
+      "bytes": 43322
+    },
+    {
       "url": "/images/v1/helmets/tg-122-demo-trooper.96150a29.webp",
       "wikiFile": "TG-122_Demo-Trooper_Helmet_Render.png",
       "version": "9696b4",
@@ -3754,13 +3781,13 @@
       "bytes": 2914
     },
     {
-      "url": "/images/v1/passives/stationary-shroud.067d4e3a.webp",
+      "url": "/images/v1/passives/stationary-shroud.e3b111da.webp",
       "wikiFile": "Stationary_Shroud_Armor_Passive_Icon.svg",
-      "version": "9c3326",
+      "version": "bfe5b7",
       "rendition": "icon",
       "width": 256,
       "height": 256,
-      "bytes": 9182
+      "bytes": 6316
     },
     {
       "url": "/images/v1/passives/supplementary-adrenaline.e296d3db.webp",
@@ -4472,6 +4499,15 @@
       "width": 276,
       "height": 512,
       "bytes": 2768
+    },
+    {
+      "url": "/images/v1/player-cards/arctic-decree.a614eb79.webp",
+      "wikiFile": "Arctic_Decree_Player_Card_Icon.png",
+      "version": "276ffa",
+      "rendition": "card",
+      "width": 256,
+      "height": 512,
+      "bytes": 14396
     },
     {
       "url": "/images/v1/player-cards/badge-of-order.f3a8eb67.webp",
@@ -5293,13 +5329,13 @@
       "bytes": 2180
     },
     {
-      "url": "/images/v1/stratagems/amw-20-apex.5306e20e.webp",
-      "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg",
-      "version": "255891",
+      "url": "/images/v1/stratagems/amw-20-apex.fe4509ba.webp",
+      "wikiFile": "Apex_Stratagem_Icon_Background.svg",
+      "version": "ff81dc",
       "rendition": "icon",
       "width": 256,
       "height": 256,
-      "bytes": 2542
+      "bytes": 2968
     },
     {
       "url": "/images/v1/stratagems/apw-1-anti-materiel-rifle.c8291f72.webp",
@@ -5707,13 +5743,13 @@
       "bytes": 2180
     },
     {
-      "url": "/images/v1/stratagems/las-44-nova.5306e20e.webp",
-      "wikiFile": "Support_Weapon_Stratagem_Fallback_Icon.svg",
-      "version": "255891",
+      "url": "/images/v1/stratagems/las-44-nova.801f15c2.webp",
+      "wikiFile": "Nova_Stratagem_Icon_Background.svg",
+      "version": "44e1ea",
       "rendition": "icon",
       "width": 256,
       "height": 256,
-      "bytes": 2542
+      "bytes": 2710
     },
     {
       "url": "/images/v1/stratagems/las-98-laser-cannon.22750656.webp",
@@ -6922,13 +6958,13 @@
       "bytes": 56116
     },
     {
-      "url": "/images/v1/warbonds/scope-of-authority.971043df.webp",
+      "url": "/images/v1/warbonds/scope-of-authority.19fcfb0a.webp",
       "wikiFile": "Scope_of_Authority_Premium_Warbond_Cover.png",
-      "version": "9ad864",
+      "version": "94f0f5",
       "rendition": "cover",
       "width": 1024,
-      "height": 562,
-      "bytes": 100918
+      "height": 512,
+      "bytes": 93634
     },
     {
       "url": "/images/v1/warbonds/servants-of-freedom.e6bfbd64.webp",
@@ -8207,6 +8243,18 @@
       "since": "2026-10-02"
     },
     {
+      "url": "/images/v1/passives/stationary-shroud.067d4e3a.webp",
+      "since": "2026-10-21"
+    },
+    {
+      "url": "/images/v1/stratagems/amw-20-apex.5306e20e.webp",
+      "since": "2026-10-21"
+    },
+    {
+      "url": "/images/v1/stratagems/las-44-nova.5306e20e.webp",
+      "since": "2026-10-21"
+    },
+    {
       "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
       "since": "2026-09-22"
     },
@@ -8217,6 +8265,10 @@
     {
       "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
       "since": "2026-09-23"
+    },
+    {
+      "url": "/images/v1/warbonds/scope-of-authority.971043df.webp",
+      "since": "2026-10-21"
     },
     {
       "url": "/images/v1/warbonds/scope-of-authority.d9e90b26.webp",

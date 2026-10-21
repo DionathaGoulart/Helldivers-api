@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,9 +12,9 @@
     "id": "ss-33-mimetic-marshal",
     "slug": "ss-33-mimetic-marshal",
     "name": "SS-33 Mimetic Marshal",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
-    "description": "SS-33 Mimetic Marshal is a set of light armor in Helldivers 2.",
+    "description": "This light armor features state-of-the-art synthetic adaptive fibers and light-diffusing scrim netting, enabling its wearer to blend seamlessly into any wilderness, and carry out unannounced compliance audits with as much surprise as they deem appropriate.",
     "image": {
       "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
       "width": 512,
@@ -38,10 +38,13 @@
     ],
     "source": {
       "type": "warbond",
-      "label": "Scope of Authority",
+      "label": "Scope of AuthorityP1",
       "warbondId": "scope-of-authority",
       "page": 1,
-      "cost": null,
+      "cost": {
+        "currency": "medals",
+        "amount": 30
+      },
       "rotating": null
     }
   }

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,7 +25,6 @@
       "title": "Eagle Gas Airstrike",
       "url": "https://helldivers.wiki.gg/wiki/Eagle_Gas_Airstrike",
       "flags": [
-        "potentially_outdated",
         "broken_file_links"
       ]
     },
@@ -148,7 +147,7 @@
           "shockwaveRadiusM": 15
         },
         "forces": {
-          "demolition": 50,
+          "demolition": 40,
           "stagger": 10,
           "push": 40
         }
@@ -220,6 +219,7 @@
       "Eagle Gas Airstrike › Attacks › S P6 IE": "Explosion",
       "Eagle Gas Airstrike › Attacks › Gas": "status",
       "Eagle Gas Airstrike › Attacks › Gas Confusion": "status",
+      "S P6 › Projectile › Size": "25 mm",
       "S P6 › Projectile › Mass": "100 g",
       "S P6 › Projectile › Initial Velocity": "500 m/s",
       "S P6 › Projectile › Drag Factor": "50%",
@@ -249,7 +249,7 @@
       "S P6 IE › AoE Effect › Status Strength": "100",
       "S P6 IE › AoE Effect › Second Status": "Gas_Confusion",
       "S P6 IE › AoE Effect › Status Strength (2)": "100",
-      "S P6 IE › AoE Effect › Demolition Force": "50",
+      "S P6 IE › AoE Effect › Demolition Force": "40",
       "S P6 IE › AoE Effect › Stagger Force": "10",
       "S P6 IE › AoE Effect › Push Force": "40",
       "Gas › Status › Status Duration": "6 sec",

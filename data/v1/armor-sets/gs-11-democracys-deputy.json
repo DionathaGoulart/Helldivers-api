@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -23,7 +23,7 @@
     "capeId": "veil-of-the-valorous-vagabond",
     "capeLink": {
       "method": "superstore_set",
-      "evidence": "Superstore page 11 (Borderline Justice) stocks exactly one armor (GS-11 Democracy's Deputy) and one cape (Veil of the Valorous Vagabond)"
+      "evidence": "Superstore page 12 (Borderline Justice) stocks exactly one armor (GS-11 Democracy's Deputy) and one cape (Veil of the Valorous Vagabond)"
     }
   }
 }

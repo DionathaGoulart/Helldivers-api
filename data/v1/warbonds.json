@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "count": 26,
     "source": {
       "name": "The Helldivers Wiki",
@@ -6610,13 +6610,17 @@
       "id": "scope-of-authority",
       "slug": "scope-of-authority",
       "name": "Scope of Authority",
-      "upcoming": true,
-      "aliases": [],
+      "upcoming": false,
+      "aliases": [
+        "Scope of AuthorityP1",
+        "Scope of AuthorityP2",
+        "Scope of AuthorityP3"
+      ],
       "description": "Scope of Authority is a Premium Warbond that will available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
-        "url": "/images/v1/warbonds/scope-of-authority.971043df.webp",
+        "url": "/images/v1/warbonds/scope-of-authority.19fcfb0a.webp",
         "width": 1024,
-        "height": 562,
+        "height": 512,
         "wikiFile": "Scope_of_Authority_Premium_Warbond_Cover.png"
       },
       "wiki": {
@@ -6633,8 +6637,8 @@
         "amount": 1000
       },
       "superCreditsClaimable": 300,
-      "medalsAllPages": null,
-      "medalsAllItems": null,
+      "medalsAllPages": 145,
+      "medalsAllItems": 603,
       "pages": [
         {
           "number": 1,
@@ -6656,7 +6660,10 @@
                 "id": "r-40-sightliner",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 35
+              }
             },
             {
               "name": "SS-33 Mimetic Marshal",
@@ -6666,7 +6673,10 @@
                 "id": "ss-33-mimetic-marshal",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 45
+              }
             },
             {
               "name": "SS-33 Mimetic Marshal",
@@ -6676,7 +6686,10 @@
                 "id": "ss-33-mimetic-marshal",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 30
+              }
             },
             {
               "name": "Mimetic Mesh",
@@ -6697,6 +6710,19 @@
                 "variant": null
               },
               "cost": null
+            },
+            {
+              "name": "G-11 Caltrops",
+              "wikiType": "Special Throwable",
+              "ref": {
+                "collection": "weapons",
+                "id": "g-11-caltrops",
+                "variant": null
+              },
+              "cost": {
+                "currency": "medals",
+                "amount": 35
+              }
             }
           ]
         },
@@ -6713,14 +6739,17 @@
               }
             },
             {
-              "name": "LAS-44 Nova",
+              "name": "AMW-20 Apex",
               "wikiType": "Support Weapon",
               "ref": {
                 "collection": "stratagems",
-                "id": "las-44-nova",
+                "id": "amw-20-apex",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 50
+              }
             },
             {
               "name": "SS-15 Focal Point",
@@ -6730,7 +6759,10 @@
                 "id": "ss-15-focal-point",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 45
+              }
             },
             {
               "name": "SS-15 Focal Point",
@@ -6740,7 +6772,10 @@
                 "id": "ss-15-focal-point",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 55
+              }
             },
             {
               "name": "Boundary Banker",
@@ -6777,24 +6812,17 @@
               }
             },
             {
-              "name": "AMW-20 Apex",
+              "name": "LAS-44 Nova",
               "wikiType": "Support Weapon",
               "ref": {
                 "collection": "stratagems",
-                "id": "amw-20-apex",
+                "id": "las-44-nova",
                 "variant": null
               },
-              "cost": null
-            },
-            {
-              "name": "G-11 Caltrops",
-              "wikiType": "Special Throwable",
-              "ref": {
-                "collection": "weapons",
-                "id": "g-11-caltrops",
-                "variant": null
-              },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 110
+              }
             },
             {
               "name": "P-44 Mist",
@@ -6804,7 +6832,10 @@
                 "id": "p-44-mist",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 65
+              }
             },
             {
               "name": "Manual Ballistic Projection Protocol",
@@ -6824,7 +6855,10 @@
                 "id": "longshot",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 20
+              }
             }
           ]
         }

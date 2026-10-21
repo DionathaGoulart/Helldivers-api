@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -472,6 +472,7 @@
       "SEAF ARTILLERY › Attacks › BurningHeavy": "status",
       "SEAF ARTILLERY › Attacks › Fire": "status",
       "SEAF ARTILLERY › Attacks › Stun Medium": "status",
+      "S P10 › Projectile › Size": "360 mm",
       "S P10 › Projectile › Mass": "70 kg",
       "S P10 › Projectile › Initial Velocity": "300 m/s",
       "S P10 › Projectile › Drag Factor": "50%",
@@ -501,6 +502,7 @@
       "S P10 IE › AoE Effect › Demolition Force": "60",
       "S P10 IE › AoE Effect › Stagger Force": "50",
       "S P10 IE › AoE Effect › Push Force": "100",
+      "S P11 › Projectile › Size": "360 mm",
       "S P11 › Projectile › Mass": "70 kg",
       "S P11 › Projectile › Initial Velocity": "300 m/s",
       "S P11 › Projectile › Drag Factor": "50%",
@@ -556,6 +558,7 @@
       "Fire › Special Effects › Demolition Force": "0",
       "Fire › Special Effects › Stagger Force": "0",
       "Fire › Special Effects › Push Force": "0",
+      "S P12 › Projectile › Size": "360 mm",
       "S P12 › Projectile › Mass": "70 kg",
       "S P12 › Projectile › Initial Velocity": "300 m/s",
       "S P12 › Projectile › Drag Factor": "50%",
@@ -575,6 +578,7 @@
       "S P12 IE › Area of Effect › Outer Radius": "13 m",
       "S P12 IE › Area of Effect › Shockwave Radius": "0 m",
       "S P12 IE › Area of Effect › AoE Duration": "30 s",
+      "S P7 › Projectile › Size": "360 mm",
       "S P7 › Projectile › Mass": "70 kg",
       "S P7 › Projectile › Initial Velocity": "300 m/s",
       "S P7 › Projectile › Drag Factor": "50%",
@@ -606,6 +610,7 @@
       "S P7 IE › AoE Effect › Stagger Force": "50",
       "S P7 IE › AoE Effect › Push Force": "0",
       "Stun Medium › Status › Status Duration": "3 sec",
+      "S P8 › Projectile › Size": "360 mm",
       "S P8 › Projectile › Mass": "70 kg",
       "S P8 › Projectile › Initial Velocity": "300 m/s",
       "S P8 › Projectile › Drag Factor": "50%",
@@ -635,6 +640,7 @@
       "S P8 IE › AoE Effect › Demolition Force": "50",
       "S P8 IE › AoE Effect › Stagger Force": "70",
       "S P8 IE › AoE Effect › Push Force": "60",
+      "S P9 › Projectile › Size": "360 mm",
       "S P9 › Projectile › Mass": "70 kg",
       "S P9 › Projectile › Initial Velocity": "300 m/s",
       "S P9 › Projectile › Drag Factor": "50%",

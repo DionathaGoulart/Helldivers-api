@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,13 +25,12 @@
       "title": "M-103 Supply FRV",
       "url": "https://helldivers.wiki.gg/wiki/M-103_Supply_FRV",
       "flags": [
-        "potentially_outdated",
         "broken_file_links"
       ]
     },
     "permitType": "supply",
     "availability": "loadout",
-    "category": null,
+    "category": "hangar",
     "kind": "vehicle",
     "traitIds": [
       "vehicle",
@@ -122,6 +121,7 @@
       "SUPPLY FRV › SWP SUPPLY FRV › Elevation Range": "[-60.00]° to [90.00]°",
       "SUPPLY FRV › SWP SUPPLY FRV › Traverse Range": "[-180.00]° to [180.00]°",
       "SUPPLY FRV › SWP SUPPLY FRV › AR-23P P": "Projectile",
+      "AR-23P P › Projectile › Size": "5.5 mm",
       "AR-23P P › Projectile › Mass": "4.5 g",
       "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
       "AR-23P P › Projectile › Drag Factor": "30%",
@@ -138,11 +138,14 @@
       "AR-23P P › Special Effects › Push Force": "10"
     },
     "source": {
-      "type": "event",
-      "label": "Census Thunder",
+      "type": "requisition",
+      "label": "Hanger",
       "warbondId": null,
       "page": null,
-      "cost": null,
+      "cost": {
+        "currency": "requisition",
+        "amount": 25000
+      },
       "rotating": null
     }
   }

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-20.219a706c",
-    "generatedAt": "2026-10-20T00:15:34Z",
+    "dataVersion": "2026-10-21.1884aa91",
+    "generatedAt": "2026-10-21T16:44:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "SG-22 Bushwhacker",
       "url": "https://helldivers.wiki.gg/wiki/SG-22_Bushwhacker",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "secondary",
     "subcategory": "special",
@@ -44,7 +42,7 @@
         650
       ],
       "dps": [
-        1215
+        1620
       ],
       "capacity": 3,
       "spareMagazines": 30,
@@ -72,8 +70,8 @@
         "name": "SG-22 P",
         "kind": "projectile",
         "damage": {
-          "standard": 45,
-          "durable": 12,
+          "standard": 54,
+          "durable": 15,
           "type": "Ballistic"
         },
         "penetration": {
@@ -103,10 +101,10 @@
       "Weapon Type": "Special",
       "Firing Modes": "Semi • All Barrel",
       "Traits": "Light Armor Penetrating • One Handed • Rounds Reload",
-      "Standard Damage": "405 Ballistic",
+      "Standard Damage": "486 Ballistic",
       "Armor Penetration": "Light",
       "Fire Rate": "650 rpm",
-      "DPS": "1,215",
+      "DPS": "1,620",
       "Capacity": "3",
       "Spare Rounds": "30",
       "Ergonomics": "65",
@@ -130,13 +128,14 @@
       "SG-22 BUSHWHACKER › Barrels": "x 3",
       "SG-22 BUSHWHACKER › Attacks › SG-22 P": "Projectile",
       "SG-22 P › Projectile › Pellets": "x 9",
+      "SG-22 P › Projectile › Size": "8 mm",
       "SG-22 P › Projectile › Mass": "6 g",
       "SG-22 P › Projectile › Initial Velocity": "385 m/s",
       "SG-22 P › Projectile › Drag Factor": "50%",
       "SG-22 P › Projectile › Gravity Factor": "100%",
       "SG-22 P › Projectile › Penetration Slowdown": "25%",
-      "SG-22 P › Damage › Standard": "45 Ballistic",
-      "SG-22 P › Damage › vs. Durable": "12 Ballistic",
+      "SG-22 P › Damage › Standard": "54 Ballistic",
+      "SG-22 P › Damage › vs. Durable": "15 Ballistic",
       "SG-22 P › Penetration › Direct": "Light",
       "SG-22 P › Penetration › Slight Angle": "Light",
       "SG-22 P › Penetration › Large Angle": "Light",
