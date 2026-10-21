@@ -1,5 +1,5 @@
-import { describe, expect, it } from "vitest";
 import { Weapon } from "@hd2/schemas";
+import { describe, expect, it } from "vitest";
 import { SUBCATEGORY_TABS } from "../../src/collections/weapons.ts";
 import { ParseError } from "../../src/errors.ts";
 import { findItem, parseWarbondPage } from "../../src/parsers/warbond-page.ts";
