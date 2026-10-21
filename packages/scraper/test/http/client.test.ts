@@ -278,7 +278,7 @@ describe("HttpClient", () => {
     expect((await http.get(url, { staleIfError: true })).stale).toBe(true);
   });
 
-  it("limits fallback to three pages per client", async () => {
+  it("limits fallback to three consecutive pages", async () => {
     const cache = new HttpCache(join(dir, "http"));
     for (let i = 0; i < 4; i++) {
       await cache.put(
@@ -295,6 +295,41 @@ describe("HttpClient", () => {
     await expect(http.get("/wiki/Page3", { staleIfError: true })).rejects.toThrow(HttpError);
     expect(http.warnings).toHaveLength(3);
   });
+
+  it.each([200, 304])("resets the fallback limit after a live wiki %s", async (status) => {
+    const url = "/wiki/Boosters";
+    await client([html()]).http.get(url);
+    const failures = () => Array.from({ length: 12 }, () => new Response(null, { status: 502 }));
+    const { http } = client([
+      ...failures(),
+      status === 200 ? html() : new Response(null, { status }),
+      ...failures(),
+    ]);
+    for (let i = 0; i < 3; i++) {
+      expect((await http.get(url, { staleIfError: true })).stale).toBe(true);
+    }
+    expect((await http.get(url)).stale).toBeUndefined();
+    for (let i = 0; i < 3; i++) {
+      expect((await http.get(url, { staleIfError: true })).stale).toBe(true);
+    }
+    expect(http.warnings).toHaveLength(6);
+  });
+
+  it.each(["/robots.txt", "/images/test.png"])(
+    "does not reset the fallback limit after fetching %s",
+    async (otherUrl) => {
+      const url = "/wiki/Boosters";
+      await client([html()]).http.get(url);
+      const failures = () => Array.from({ length: 4 }, () => new Response(null, { status: 502 }));
+      const { http } = client([...failures(), ...failures(), ...failures(), html(), ...failures()]);
+      for (let i = 0; i < 3; i++) {
+        expect((await http.get(url, { staleIfError: true })).stale).toBe(true);
+      }
+      await http.get(otherUrl);
+      await expect(http.get(url, { staleIfError: true })).rejects.toThrow(HttpError);
+      expect(http.warnings).toHaveLength(3);
+    },
+  );
 
   it("treats a timed-out request as a retryable network failure", async () => {
     await client([html()]).http.get("/wiki/Boosters");

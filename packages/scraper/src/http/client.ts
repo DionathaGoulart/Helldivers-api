@@ -10,7 +10,7 @@ import type { RobotsPolicy } from "./robots.ts";
 export const RETRY_DELAYS_MS: readonly number[] = [5_000, 20_000, 60_000];
 const MAX_RETRY_AFTER_MS = 300_000;
 const MAX_STALE_AGE_MS = 7 * 24 * 60 * 60 * 1000;
-const MAX_STALE_FALLBACKS = 3;
+const MAX_CONSECUTIVE_STALE_FALLBACKS = 3;
 const REQUEST_TIMEOUT_MS = 30_000;
 
 export class HttpError extends Error {
@@ -122,6 +122,7 @@ export class HttpClient {
   readonly #blocks = new BlockDetector();
   readonly #stats = { requests: 0, notModified: 0, bytes: 0, retries: 0 };
   readonly #warnings: string[] = [];
+  #consecutiveStaleFallbacks = 0;
   #robots: RobotsPolicy | null = null;
 
   constructor(options: HttpClientOptions) {
@@ -204,10 +205,14 @@ export class HttpClient {
       this.#blocks.checkResponse(url.href, response.status, response.headers);
 
       if (response.status === 304) {
-        return this.#notModified(url, cached);
+        const result = this.#notModified(url, cached);
+        if (url.pathname.startsWith("/wiki/")) this.#consecutiveStaleFallbacks = 0;
+        return result;
       }
       if (response.status === 200 && body) {
-        return this.#fresh(url, response, body);
+        const result = await this.#fresh(url, response, body);
+        if (url.pathname.startsWith("/wiki/")) this.#consecutiveStaleFallbacks = 0;
+        return result;
       }
       if (isRetryable(response.status) && retryDelay !== undefined) {
         await this.#retry(url, retryDelay, retryAfterMs(response.headers, this.#clock.now()));
@@ -293,7 +298,7 @@ export class HttpClient {
       this.#options.fullRefresh ||
       !url.pathname.startsWith("/wiki/") ||
       !cached ||
-      this.#warnings.length >= MAX_STALE_FALLBACKS
+      this.#consecutiveStaleFallbacks >= MAX_CONSECUTIVE_STALE_FALLBACKS
     )
       return null;
     const now = cached.legacyTimestamp ? Date.now() : this.#clock.now();
@@ -306,6 +311,7 @@ export class HttpClient {
       throw error;
     }
     const warning = `Using cached wiki page ${url.href} after ${reason} (${Math.ceil(ageMs / 1000)}s old)`;
+    this.#consecutiveStaleFallbacks += 1;
     this.#warnings.push(warning);
     this.#logger.warn("http stale fallback", { url: url.href, reason, ageMs });
     return {
