@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -127,6 +127,7 @@
       "LAS-12 SAI › Heat Data › Cool Per Sec": "8.1 - 5.4 - 4.1",
       "LAS-12 SAI › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",
       "LAS-12 SAI › Attacks › LAS-12 P": "Projectile",
+      "LAS-12 P › Projectile › Size": "10 mm",
       "LAS-12 P › Projectile › Mass": "12 g",
       "LAS-12 P › Projectile › Initial Velocity": "100 m/s",
       "LAS-12 P › Projectile › Drag Factor": "0%",

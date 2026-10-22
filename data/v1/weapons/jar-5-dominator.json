@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -127,6 +127,7 @@
       "JAR-5 DOMINATOR › Mags from Supply": "6",
       "JAR-5 DOMINATOR › Mags from Ammo Box": "3",
       "JAR-5 DOMINATOR › Attacks › JAR-5 P": "Projectile",
+      "JAR-5 P › Projectile › Size": "15 mm",
       "JAR-5 P › Projectile › Mass": "100 g",
       "JAR-5 P › Projectile › Initial Velocity": "180 m/s",
       "JAR-5 P › Projectile › Drag Factor": "0%",

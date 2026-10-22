@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "count": 94,
     "source": {
       "name": "The Helldivers Wiki",
@@ -79,7 +79,7 @@
       "name": "Arctic Decree",
       "upcoming": false,
       "aliases": [],
-      "description": ".",
+      "description": "Sewn from premium canvas and equipped with integrated adaptive camouflage capabilities, this cape features a prominent, high-contrast target reticle printed directly on the back.",
       "image": {
         "url": "/images/v1/capes/arctic-decree.14d6cef9.webp",
         "width": 512,
@@ -247,7 +247,7 @@
       "id": "boundary-banker",
       "slug": "boundary-banker",
       "name": "Boundary Banker",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": "Boundary Banker is a cape and a player card in Helldivers 2.",
       "image": {
@@ -269,10 +269,13 @@
       "playerCardId": "boundary-banker",
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP2",
         "warbondId": "scope-of-authority",
         "page": 2,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 25
+        },
         "rotating": null
       }
     },
@@ -1671,9 +1674,9 @@
       "id": "mimetic-mesh",
       "slug": "mimetic-mesh",
       "name": "Mimetic Mesh",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
-      "description": "Mimetic Mesh is a cape and a player card in Helldivers 2.",
+      "description": "Woven from breathable adaptive camouflage mesh designed to mimic surrounding biomes, allowing them to carry out discreet compliance checks completely unbothered by less observant hostiles.",
       "image": {
         "url": "/images/v1/capes/mimetic-mesh.fb85ee4e.webp",
         "width": 262,
@@ -1693,10 +1696,13 @@
       "playerCardId": "mimetic-mesh",
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP1",
         "warbondId": "scope-of-authority",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 8
+        },
         "rotating": null
       }
     },
@@ -2973,7 +2979,7 @@
       "name": "Watchful Compatriot",
       "upcoming": false,
       "aliases": [],
-      "description": "Watchful Compatriot is a cape and a player card in Helldivers 2.",
+      "description": "Sports a retro print that was first made popular in GW1 cereal merchandising. It helps citizens to remember that not all machines are twisted mechano-socialists; some are piloted by true-hearted humans and we can all rest easy in their gaze.",
       "image": {
         "url": "/images/v1/capes/watchful-compatriot.1cee0383.webp",
         "width": 512,

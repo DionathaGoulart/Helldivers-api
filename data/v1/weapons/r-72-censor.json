@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -126,6 +126,7 @@
       "R-72 CENSOR › Mags from Supply": "8",
       "R-72 CENSOR › Mags from Ammo Box": "4",
       "R-72 CENSOR › Attacks › R-72 P": "Projectile",
+      "R-72 P › Projectile › Size": "8 mm",
       "R-72 P › Projectile › Mass": "20 g",
       "R-72 P › Projectile › Initial Velocity": "330 m/s",
       "R-72 P › Projectile › Drag Factor": "30%",

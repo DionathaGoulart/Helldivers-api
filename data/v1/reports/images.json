@@ -901,13 +901,13 @@
       "bytes": 23886
     },
     {
-      "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
-      "wikiFile": "SS-15_Focal_Point_Default_Armor_Set_Image.png",
-      "version": "65926f",
+      "url": "/images/v1/armors/ss-15-focal-point.5fc8da01.webp",
+      "wikiFile": "SS-15_Focal_Point_Armor_Render.png",
+      "version": "e6f845",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 44176
+      "bytes": 26646
     },
     {
       "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
@@ -3412,22 +3412,22 @@
       "bytes": 33012
     },
     {
-      "url": "/images/v1/helmets/ss-15-focal-point.5ddde896.webp",
+      "url": "/images/v1/helmets/ss-15-focal-point.9498f2f9.webp",
       "wikiFile": "SS-15_Focal_Point_Helmet_Render.png",
-      "version": "b411e5",
+      "version": "5d5d46",
       "rendition": "render",
-      "width": 384,
-      "height": 384,
-      "bytes": 29334
+      "width": 512,
+      "height": 512,
+      "bytes": 36470
     },
     {
-      "url": "/images/v1/helmets/ss-33-mimetic-marshal.64d55204.webp",
+      "url": "/images/v1/helmets/ss-33-mimetic-marshal.beedf37d.webp",
       "wikiFile": "SS-33_Mimetic_Marshal_Helmet_Render.png",
-      "version": "4216e3",
+      "version": "cfcbdf",
       "rendition": "render",
-      "width": 384,
-      "height": 384,
-      "bytes": 40286
+      "width": 512,
+      "height": 512,
+      "bytes": 50988
     },
     {
       "url": "/images/v1/helmets/ss-500-pale-prosecutor.4e890e26.webp",
@@ -8079,6 +8079,10 @@
       "since": "2026-10-02"
     },
     {
+      "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
+      "since": "2026-10-21"
+    },
+    {
       "url": "/images/v1/armors/tr-40-gold-eagle.231fed2e.webp",
       "since": "2026-10-02"
     },
@@ -8217,6 +8221,14 @@
     {
       "url": "/images/v1/helmets/sa-25-steel-trooper.2b0cee0a.webp",
       "since": "2026-10-02"
+    },
+    {
+      "url": "/images/v1/helmets/ss-15-focal-point.5ddde896.webp",
+      "since": "2026-10-21"
+    },
+    {
+      "url": "/images/v1/helmets/ss-33-mimetic-marshal.64d55204.webp",
+      "since": "2026-10-21"
     },
     {
       "url": "/images/v1/helmets/tr-40-gold-eagle.97122474.webp",

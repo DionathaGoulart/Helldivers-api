@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -126,6 +126,7 @@
       "R-63 DILIGENCE › Mags from Supply": "8",
       "R-63 DILIGENCE › Mags from Ammo Box": "4",
       "R-63 DILIGENCE › Attacks › R-63 P": "Projectile",
+      "R-63 P › Projectile › Size": "9 mm",
       "R-63 P › Projectile › Mass": "20 g",
       "R-63 P › Projectile › Initial Velocity": "850 m/s",
       "R-63 P › Projectile › Drag Factor": "30%",

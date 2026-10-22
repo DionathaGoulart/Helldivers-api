@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -101,7 +101,10 @@
               "id": "mimetic-mesh",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 8
+            }
           },
           {
             "name": "Mimetic Mesh",
@@ -111,7 +114,10 @@
               "id": "mimetic-mesh",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 2
+            }
           },
           {
             "name": "G-11 Caltrops",
@@ -187,7 +193,10 @@
               "id": "boundary-banker",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 25
+            }
           },
           {
             "name": "Boundary Banker",
@@ -197,7 +206,10 @@
               "id": "boundary-banker",
               "variant": null
             },
-            "cost": null
+            "cost": {
+              "currency": "medals",
+              "amount": 7
+            }
           }
         ]
       },

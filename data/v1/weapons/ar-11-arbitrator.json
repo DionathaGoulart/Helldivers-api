@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -176,6 +176,7 @@
       "AR-11 ARBITRATOR › Underbarrel AR-11 ARBITRATOR 0 › Rounds from Supply": "20",
       "AR-11 ARBITRATOR › Underbarrel AR-11 ARBITRATOR 0 › Rounds from Ammo Box": "10",
       "AR-11 ARBITRATOR › Underbarrel AR-11 ARBITRATOR 0 › P4": "Projectile",
+      "AR-11 P › Projectile › Size": "8 mm",
       "AR-11 P › Projectile › Mass": "11 g",
       "AR-11 P › Projectile › Initial Velocity": "920 m/s",
       "AR-11 P › Projectile › Drag Factor": "30%",
@@ -191,6 +192,7 @@
       "AR-11 P › Special Effects › Stagger Force": "15",
       "AR-11 P › Special Effects › Push Force": "12",
       "P4 › Projectile › Pellets": "x 9",
+      "P4 › Projectile › Size": "8 mm",
       "P4 › Projectile › Mass": "6 g",
       "P4 › Projectile › Initial Velocity": "385 m/s",
       "P4 › Projectile › Drag Factor": "50%",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "count": 80,
     "source": {
       "name": "The Helldivers Wiki",
@@ -200,7 +200,7 @@
       "id": "boundary-banker",
       "slug": "boundary-banker",
       "name": "Boundary Banker",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -219,10 +219,13 @@
       "pairedCapeId": "boundary-banker",
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP2",
         "warbondId": "scope-of-authority",
         "page": 2,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 7
+        },
         "rotating": null
       }
     },
@@ -1286,7 +1289,7 @@
       "id": "mimetic-mesh",
       "slug": "mimetic-mesh",
       "name": "Mimetic Mesh",
-      "upcoming": true,
+      "upcoming": false,
       "aliases": [],
       "description": null,
       "image": {
@@ -1305,10 +1308,13 @@
       "pairedCapeId": "mimetic-mesh",
       "source": {
         "type": "warbond",
-        "label": "Scope of Authority",
+        "label": "Scope of AuthorityP1",
         "warbondId": "scope-of-authority",
         "page": 1,
-        "cost": null,
+        "cost": {
+          "currency": "medals",
+          "amount": 2
+        },
         "rotating": null
       }
     },

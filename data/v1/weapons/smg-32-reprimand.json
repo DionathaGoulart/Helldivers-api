@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -126,6 +126,7 @@
       "SMG-32 REPRIMAND › Mags from Supply": "9",
       "SMG-32 REPRIMAND › Mags from Ammo Box": "4",
       "SMG-32 REPRIMAND › Attacks › SMG-32 P": "Projectile",
+      "SMG-32 P › Projectile › Size": "12 mm",
       "SMG-32 P › Projectile › Mass": "15 g",
       "SMG-32 P › Projectile › Initial Velocity": "285 m/s",
       "SMG-32 P › Projectile › Drag Factor": "120%",

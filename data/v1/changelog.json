@@ -1,15 +1,395 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
-    "count": 31,
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
+    "count": 32,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-21.fb36bb01",
+      "date": "2026-10-21",
+      "summary": {
+        "added": 0,
+        "changed": 43,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "scope-of-authority",
+          "kind": "changed",
+          "paths": [
+            "pages[0].items[4].cost",
+            "pages[0].items[5].cost",
+            "pages[1].items[4].cost",
+            "pages[1].items[5].cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-11-arbitrator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-11 P › Projectile › Size\"]",
+            "statsRaw[\"P4 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23-liberator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-23 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23a-liberator-carbine",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-23 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23c-liberator-concussive",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-23C P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-32-pacifier",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-32 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-59-suppressor",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-59 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-61-tenderizer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR-61 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-gl-21-one-two",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AR/GL-21 P › Projectile › Size\"]",
+            "statsRaw[\"GP-31 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cb-9-exploding-crossbow",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"CB-9 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "dbs-2-double-freedom",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"DBS-2 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GL-15 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "jar-5-dominator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"JAR-5 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-12-sai",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LAS-12 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "mp-98-knight",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"MP-98 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-1-scorcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"PLAS-1 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-101-purifier",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"PLAS-101 PURIFIER › Charge › at (1.00)s (2)\"]",
+            "statsRaw[\"P › Projectile › Size\"]",
+            "statsRaw[\"PLAS-101 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2-amendment",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-2 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2124-constitution",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-2124 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-36-eruptor",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-36 P › Projectile › Size\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-k-hot-shot-marksman-rifle",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R/40-K P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-6-deadeye",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-6 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63-diligence",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-63 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63cs-diligence-counter-sniper",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-63CS P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-72-censor",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"R-72 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8p-punisher-plasma",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-8P P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8s-slugger",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-8S P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-97-sweeper",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SG-97 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-32-reprimand",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SMG-32 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-37-defender",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SMG-37 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-72-pummeler",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SMG-72 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-flam-34-stoker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SMG/FLAM-34 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "vg-70-variable",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"VG-70 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ss-15-focal-point",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "image.url",
+            "image.wikiFile",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-15-focal-point",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.width",
+            "image.height",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.width",
+            "image.height"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "arctic-decree",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "boundary-banker",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "mimetic-mesh",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "description",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "watchful-compatriot",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ss-15-focal-point",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "boundary-banker",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "source.label",
+            "source.cost"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "mimetic-mesh",
+          "kind": "changed",
+          "paths": [
+            "upcoming",
+            "source.label",
+            "source.cost"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-21.1884aa91",
       "date": "2026-10-21",

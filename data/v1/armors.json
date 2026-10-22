@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "count": 113,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3834,19 +3834,17 @@
       "name": "SS-15 Focal Point",
       "upcoming": false,
       "aliases": [],
-      "description": "SS-15 Focal Point is a set of medium armor in Helldivers 2.",
+      "description": "Designed for forward observers coordinating long-range decrees. This medium suit features, integrated adaptive camouflage capabilities and an asymmetrical optic visor, ensuring hostile movements are cataloged meticulously--and discreetly--before being permanently stricken from state records.",
       "image": {
-        "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
+        "url": "/images/v1/armors/ss-15-focal-point.5fc8da01.webp",
         "width": 512,
         "height": 512,
-        "wikiFile": "SS-15_Focal_Point_Default_Armor_Set_Image.png"
+        "wikiFile": "SS-15_Focal_Point_Armor_Render.png"
       },
       "wiki": {
         "title": "SS-15 Focal Point",
         "url": "https://helldivers.wiki.gg/wiki/SS-15_Focal_Point",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "weight": "medium",
       "armorRating": 100,

@@ -481,7 +481,7 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
           "location": "page tables › sum",
-          "value": 541
+          "value": 583
         }
       ]
     },
@@ -538,94 +538,6 @@
             "currency": "medals",
             "amount": 45
           }
-        }
-      ]
-    },
-    {
-      "collection": "warbonds",
-      "id": "scope-of-authority",
-      "field": "pages[0].items[4].cost",
-      "rule": 1,
-      "chosen": null,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "Page 1 › Mimetic Mesh",
-          "value": {
-            "currency": "medals",
-            "amount": 8
-          }
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Mimetic_Mesh",
-          "location": "capes/mimetic-mesh › source",
-          "value": null
-        }
-      ]
-    },
-    {
-      "collection": "warbonds",
-      "id": "scope-of-authority",
-      "field": "pages[0].items[5].cost",
-      "rule": 1,
-      "chosen": null,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "Page 1 › Mimetic Mesh",
-          "value": {
-            "currency": "medals",
-            "amount": 2
-          }
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Mimetic_Mesh",
-          "location": "player-cards/mimetic-mesh › source",
-          "value": null
-        }
-      ]
-    },
-    {
-      "collection": "warbonds",
-      "id": "scope-of-authority",
-      "field": "pages[1].items[4].cost",
-      "rule": 1,
-      "chosen": null,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "Page 2 › Boundary Banker",
-          "value": {
-            "currency": "medals",
-            "amount": 25
-          }
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Boundary_Banker",
-          "location": "capes/boundary-banker › source",
-          "value": null
-        }
-      ]
-    },
-    {
-      "collection": "warbonds",
-      "id": "scope-of-authority",
-      "field": "pages[1].items[5].cost",
-      "rule": 1,
-      "chosen": null,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "Page 2 › Boundary Banker",
-          "value": {
-            "currency": "medals",
-            "amount": 7
-          }
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Boundary_Banker",
-          "location": "player-cards/boundary-banker › source",
-          "value": null
         }
       ]
     },

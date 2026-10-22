@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,7 +12,7 @@
     "id": "boundary-banker",
     "slug": "boundary-banker",
     "name": "Boundary Banker",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
     "description": "Boundary Banker is a cape and a player card in Helldivers 2.",
     "image": {
@@ -34,10 +34,13 @@
     "playerCardId": "boundary-banker",
     "source": {
       "type": "warbond",
-      "label": "Scope of Authority",
+      "label": "Scope of AuthorityP2",
       "warbondId": "scope-of-authority",
       "page": 2,
-      "cost": null,
+      "cost": {
+        "currency": "medals",
+        "amount": 25
+      },
       "rotating": null
     }
   }

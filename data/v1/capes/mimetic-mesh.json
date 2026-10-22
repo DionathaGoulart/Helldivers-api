@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -12,9 +12,9 @@
     "id": "mimetic-mesh",
     "slug": "mimetic-mesh",
     "name": "Mimetic Mesh",
-    "upcoming": true,
+    "upcoming": false,
     "aliases": [],
-    "description": "Mimetic Mesh is a cape and a player card in Helldivers 2.",
+    "description": "Woven from breathable adaptive camouflage mesh designed to mimic surrounding biomes, allowing them to carry out discreet compliance checks completely unbothered by less observant hostiles.",
     "image": {
       "url": "/images/v1/capes/mimetic-mesh.fb85ee4e.webp",
       "width": 262,
@@ -34,10 +34,13 @@
     "playerCardId": "mimetic-mesh",
     "source": {
       "type": "warbond",
-      "label": "Scope of Authority",
+      "label": "Scope of AuthorityP1",
       "warbondId": "scope-of-authority",
       "page": 1,
-      "cost": null,
+      "cost": {
+        "currency": "medals",
+        "amount": 8
+      },
       "rotating": null
     }
   }

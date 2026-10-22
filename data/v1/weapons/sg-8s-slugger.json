@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -128,6 +128,7 @@
       "SG-8S SLUGGER › Rounds from Supply": "60",
       "SG-8S SLUGGER › Rounds from Ammo Box": "30",
       "SG-8S SLUGGER › Attacks › SG-8S P": "Projectile",
+      "SG-8S P › Projectile › Size": "18 mm",
       "SG-8S P › Projectile › Mass": "50 g",
       "SG-8S P › Projectile › Initial Velocity": "390 m/s",
       "SG-8S P › Projectile › Drag Factor": "200%",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.1884aa91",
-    "generatedAt": "2026-10-21T16:44:39Z",
+    "dataVersion": "2026-10-21.fb36bb01",
+    "generatedAt": "2026-10-21T23:58:40Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -157,6 +157,7 @@
       "GL-15 EVICTOR › Rounds from Ammo Box": "16",
       "GL-15 EVICTOR › Attacks › GL-15 P": "Projectile",
       "GL-15 EVICTOR › Attacks › GL-15 P IE": "Explosion",
+      "GL-15 P › Projectile › Size": "40 mm",
       "GL-15 P › Projectile › Mass": "50 g",
       "GL-15 P › Projectile › Initial Velocity": "100 m/s",
       "GL-15 P › Projectile › Drag Factor": "120%",
