@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -160,12 +160,13 @@
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Horizontal Recoil": "22.5",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Vertical Recoil": "27.5",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Spread": "↔[20.00] ↕[20.00]",
-      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Sway": "1",
-      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Ergonomics": "25",
+      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Base Sway": "1",
+      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Base Ergonomics": "25",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Noise When Firing": "Small (~33m)",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Capacity": "60",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › GL-21 P": "Projectile",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › GL-21 P IE": "Explosion",
+      "GL-21 P › Projectile › Size": "40 mm",
       "GL-21 P › Projectile › Mass": "50 g",
       "GL-21 P › Projectile › Initial Velocity": "100 m/s",
       "GL-21 P › Projectile › Drag Factor": "120%",

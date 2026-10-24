@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -150,8 +150,8 @@
       "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Horizontal Recoil": "30",
       "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Vertical Recoil": "60",
       "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Spread": "↔[1.00] ↕[1.00]",
-      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Sway": "1",
-      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Ergonomics": "65",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Base Sway": "1",
+      "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Base Ergonomics": "65",
       "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Noise When Firing": "Medium (~48m)",
       "AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Capacity": "100",
       "AX/ARC-3 K-9 › Attacks › AX/ARC-3 K-9 A": "Arc",

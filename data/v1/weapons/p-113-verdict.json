@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -56,7 +56,7 @@
         "horizontal": 8,
         "vertical": 8
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 100,
       "reloadKind": "magazine",
       "reloadTimeS": 2,
@@ -116,8 +116,8 @@
       "P-113 VERDICT › Horizontal Recoil": "15",
       "P-113 VERDICT › Vertical Recoil": "47.5",
       "P-113 VERDICT › Spread": "↔[8.00] ↕[8.00]",
-      "P-113 VERDICT › Sway": "1",
-      "P-113 VERDICT › Ergonomics": "100",
+      "P-113 VERDICT › Base Sway": "1",
+      "P-113 VERDICT › Base Ergonomics": "100",
       "P-113 VERDICT › Noise When Firing": "Small (~33m)",
       "P-113 VERDICT › Capacity": "10",
       "P-113 VERDICT › Spare Magazines": "10",

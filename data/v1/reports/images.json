@@ -1261,13 +1261,13 @@
       "bytes": 23704
     },
     {
-      "url": "/images/v1/capes/boundary-banker.f8ffb2e8.webp",
-      "wikiFile": "Boundary_Banker_Cape_Default.png",
-      "version": "ca0168",
+      "url": "/images/v1/capes/boundary-banker.3bc527bd.webp",
+      "wikiFile": "Boundary_Banner_Cape_Render.png",
+      "version": "55a766",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 50734
+      "bytes": 40752
     },
     {
       "url": "/images/v1/capes/camo-cloak.454dee96.webp",
@@ -4547,7 +4547,7 @@
     },
     {
       "url": "/images/v1/player-cards/boundary-banker.9c95cbd0.webp",
-      "wikiFile": "Boundary_Banker_Player_Card_Icon.png",
+      "wikiFile": "Boundary_Banner_Player_Card_Icon.png",
       "version": "bd0896",
       "rendition": "card",
       "width": 256,
@@ -6958,13 +6958,13 @@
       "bytes": 56116
     },
     {
-      "url": "/images/v1/warbonds/scope-of-authority.19fcfb0a.webp",
+      "url": "/images/v1/warbonds/scope-of-authority.aafba35b.webp",
       "wikiFile": "Scope_of_Authority_Premium_Warbond_Cover.png",
-      "version": "94f0f5",
+      "version": "ab311d",
       "rendition": "cover",
       "width": 1024,
       "height": 512,
-      "bytes": 93634
+      "bytes": 113900
     },
     {
       "url": "/images/v1/warbonds/servants-of-freedom.e6bfbd64.webp",
@@ -8007,14 +8007,6 @@
       "since": "2026-10-13"
     },
     {
-      "url": "/images/v1/armors/bfm-16-tanker.0b380c0b.webp",
-      "since": "2026-09-23"
-    },
-    {
-      "url": "/images/v1/armors/bfm-220-ironclad.9dee6a99.webp",
-      "since": "2026-09-23"
-    },
-    {
       "url": "/images/v1/armors/ce-27-ground-breaker.027b5701.webp",
       "since": "2026-10-02"
     },
@@ -8103,16 +8095,12 @@
       "since": "2026-10-02"
     },
     {
+      "url": "/images/v1/capes/boundary-banker.f8ffb2e8.webp",
+      "since": "2026-10-24"
+    },
+    {
       "url": "/images/v1/capes/mark-of-the-crimson-fang.21cfd895.webp",
       "since": "2026-09-27"
-    },
-    {
-      "url": "/images/v1/capes/shroud-of-the-juggernaut.3f7c8719.webp",
-      "since": "2026-09-23"
-    },
-    {
-      "url": "/images/v1/capes/standard-of-rapid-evacuation.22c41926.webp",
-      "since": "2026-09-23"
     },
     {
       "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",
@@ -8131,16 +8119,8 @@
       "since": "2026-10-02"
     },
     {
-      "url": "/images/v1/helmets/bfm-16-tanker.8fd0dad4.webp",
-      "since": "2026-09-23"
-    },
-    {
       "url": "/images/v1/helmets/bfm-220-ironclad.2174e50b.webp",
       "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/bfm-220-ironclad.3a78a0d3.webp",
-      "since": "2026-09-23"
     },
     {
       "url": "/images/v1/helmets/bfm-77-reformer.9ea1d346.webp",
@@ -8267,16 +8247,12 @@
       "since": "2026-10-21"
     },
     {
-      "url": "/images/v1/stratagems/tactical-video-camera.e0fc637c.webp",
-      "since": "2026-09-22"
-    },
-    {
       "url": "/images/v1/warbonds/ironclad-democracy.32db6ed7.webp",
       "since": "2026-09-25"
     },
     {
-      "url": "/images/v1/warbonds/ironclad-democracy.6972b666.webp",
-      "since": "2026-09-23"
+      "url": "/images/v1/warbonds/scope-of-authority.19fcfb0a.webp",
+      "since": "2026-10-24"
     },
     {
       "url": "/images/v1/warbonds/scope-of-authority.971043df.webp",
@@ -8285,26 +8261,6 @@
     {
       "url": "/images/v1/warbonds/scope-of-authority.d9e90b26.webp",
       "since": "2026-10-14"
-    },
-    {
-      "url": "/images/v1/weapons/ar-11-arbitrator.9a7e3dbf.webp",
-      "since": "2026-09-23"
-    },
-    {
-      "url": "/images/v1/weapons/g-60-anti-tank-seeker.68dfed86.webp",
-      "since": "2026-09-23"
-    },
-    {
-      "url": "/images/v1/weapons/g-8-immolation.46624083.webp",
-      "since": "2026-09-23"
-    },
-    {
-      "url": "/images/v1/weapons/gl-15-evictor.364720fd.webp",
-      "since": "2026-09-23"
-    },
-    {
-      "url": "/images/v1/weapons/p-34-breacher.ce4c188b.webp",
-      "since": "2026-09-23"
     }
   ]
 }

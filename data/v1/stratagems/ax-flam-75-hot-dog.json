@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -197,8 +197,8 @@
       "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Horizontal Recoil": "0",
       "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Vertical Recoil": "0",
       "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Spread": "↔[10.00] ↕[10.00]",
-      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Sway": "1",
-      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Ergonomics": "65",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Base Sway": "1",
+      "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Base Ergonomics": "65",
       "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Noise When Firing": "Small (~33m)",
       "AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Capacity": "80",
       "AX/FLAM-75 HOT DOG › Attacks › AX/FLAM-75 HOT DOG S": "Spray",

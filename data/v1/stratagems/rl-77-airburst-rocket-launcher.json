@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -333,8 +333,8 @@
       "RL-77 AIRBURST ROCKET LAUNCHER › Horizontal Recoil": "45",
       "RL-77 AIRBURST ROCKET LAUNCHER › Vertical Recoil": "110",
       "RL-77 AIRBURST ROCKET LAUNCHER › Spread": "↔[4.00] ↕[4.00]",
-      "RL-77 AIRBURST ROCKET LAUNCHER › Sway": "1",
-      "RL-77 AIRBURST ROCKET LAUNCHER › Ergonomics": "10",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Base Sway": "1",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Base Ergonomics": "10",
       "RL-77 AIRBURST ROCKET LAUNCHER › Noise When Firing": "Huge (~68m)",
       "RL-77 AIRBURST ROCKET LAUNCHER › Capacity": "1",
       "RL-77 AIRBURST ROCKET LAUNCHER › Spare Magazines": "5",
@@ -363,6 +363,7 @@
       "GR-8 BACKBLAST E › AoE Effect › Demolition Force": "10",
       "GR-8 BACKBLAST E › AoE Effect › Stagger Force": "30",
       "GR-8 BACKBLAST E › AoE Effect › Push Force": "20",
+      "RL-77 P › Projectile › Size": "85 mm",
       "RL-77 P › Projectile › Mass": "3.3 kg",
       "RL-77 P › Projectile › Initial Velocity": "250 m/s",
       "RL-77 P › Projectile › Drag Factor": "30%",
@@ -398,6 +399,7 @@
       "RL-77 P IE › AoE Effect › Demolition Force": "25",
       "RL-77 P IE › AoE Effect › Stagger Force": "25",
       "RL-77 P IE › AoE Effect › Push Force": "40",
+      "RL-77 P1 › Projectile › Size": "40 mm",
       "RL-77 P1 › Projectile › Mass": "100 g",
       "RL-77 P1 › Projectile › Initial Velocity": "25 m/s",
       "RL-77 P1 › Projectile › Drag Factor": "50%",
@@ -430,6 +432,7 @@
       "RL-77 P1 IE › AoE Effect › Demolition Force": "20",
       "RL-77 P1 IE › AoE Effect › Stagger Force": "25",
       "RL-77 P1 IE › AoE Effect › Push Force": "40",
+      "RL-77 P2 › Projectile › Size": "85 mm",
       "RL-77 P2 › Projectile › Mass": "3.3 kg",
       "RL-77 P2 › Projectile › Initial Velocity": "250 m/s",
       "RL-77 P2 › Projectile › Drag Factor": "30%",
@@ -464,6 +467,7 @@
       "RL-77 P2 IE › AoE Effect › Demolition Force": "25",
       "RL-77 P2 IE › AoE Effect › Stagger Force": "25",
       "RL-77 P2 IE › AoE Effect › Push Force": "40",
+      "RL-77 P3 › Projectile › Size": "40 mm",
       "RL-77 P3 › Projectile › Mass": "100 g",
       "RL-77 P3 › Projectile › Initial Velocity": "25 m/s",
       "RL-77 P3 › Projectile › Drag Factor": "50%",

@@ -1,15 +1,576 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
-    "count": 32,
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
+    "count": 33,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-24.4dee3d67",
+      "date": "2026-10-24",
+      "summary": {
+        "added": 0,
+        "changed": 47,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "scope-of-authority",
+          "kind": "changed",
+          "paths": [
+            "pages[2].items[3].cost"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23-liberator",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"AR-23 LIBERATOR › Sway\"]",
+            "statsRaw[\"AR-23 LIBERATOR › Ergonomics\"]",
+            "statsRaw[\"AR-23 LIBERATOR › Base Sway\"]",
+            "statsRaw[\"AR-23 LIBERATOR › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23p-liberator-penetrator",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"AR-23P LIBERATOR PENETRATOR › Sway\"]",
+            "statsRaw[\"AR-23P LIBERATOR PENETRATOR › Ergonomics\"]",
+            "statsRaw[\"AR-23P LIBERATOR PENETRATOR › Base Sway\"]",
+            "statsRaw[\"AR-23P LIBERATOR PENETRATOR › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cqc-2-saber",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"CQC-2 SABER › Sway\"]",
+            "statsRaw[\"CQC-2 SABER › Ergonomics\"]",
+            "statsRaw[\"CQC-2 SABER › Base Sway\"]",
+            "statsRaw[\"CQC-2 SABER › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-58-talon",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"LAS-58 TALON › Sway\"]",
+            "statsRaw[\"LAS-58 TALON › Ergonomics\"]",
+            "statsRaw[\"LAS-58 TALON › Base Sway\"]",
+            "statsRaw[\"LAS-58 TALON › Base Ergonomics\"]",
+            "statsRaw[\"LAS-58 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m6c-socom-pistol",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"M6C/SOCOM PISTOL › Sway\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Ergonomics\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Base Sway\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-113-verdict",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"P-113 VERDICT › Sway\"]",
+            "statsRaw[\"P-113 VERDICT › Ergonomics\"]",
+            "statsRaw[\"P-113 VERDICT › Base Sway\"]",
+            "statsRaw[\"P-113 VERDICT › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-44-mist",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags[0]",
+            "firearm.dps",
+            "firearm.sway",
+            "firearm.reloadKind",
+            "firearm.reloadTimeS",
+            "firearm.tacticalReloadTimeS",
+            "statsRaw[\"Standard Damage\"]",
+            "statsRaw[\"Fire Rate\"]",
+            "statsRaw[\"P-44 MIST › Sway\"]",
+            "statsRaw[\"P-44 MIST › Ergonomics\"]",
+            "statsRaw.DPS",
+            "statsRaw[\"Reload Time\"]",
+            "statsRaw[\"Tactical Reload Time\"]",
+            "statsRaw[\"P-44 MIST › Base Sway\"]",
+            "statsRaw[\"P-44 MIST › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-69-veto",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"P-69 VETO › Sway\"]",
+            "statsRaw[\"P-69 VETO › Ergonomics\"]",
+            "statsRaw[\"P-69 VETO › Base Sway\"]",
+            "statsRaw[\"P-69 VETO › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-92-warrant",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"P-92 WARRANT › Sway\"]",
+            "statsRaw[\"P-92 WARRANT › Ergonomics\"]",
+            "statsRaw[\"P-92 WARRANT › Base Sway\"]",
+            "statsRaw[\"P-92 WARRANT › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-k-hot-shot-marksman-rifle",
+          "kind": "changed",
+          "paths": [
+            "firearm.sway",
+            "statsRaw[\"R/40-K HOT-SHOT MARKSMAN RIFLE › Sway\"]",
+            "statsRaw[\"R/40-K HOT-SHOT MARKSMAN RIFLE › Ergonomics\"]",
+            "statsRaw[\"R/40-K HOT-SHOT MARKSMAN RIFLE › Base Sway\"]",
+            "statsRaw[\"R/40-K HOT-SHOT MARKSMAN RIFLE › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-sightliner",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "firearm.sway",
+            "firearm.ergonomics",
+            "statsRaw[\"Weapon Type\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Sway\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Ergonomics\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Base Sway\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-flam-40-flame-sentry",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"FLAME SENTRY › FLAME SENTRY › Sway\"]",
+            "statsRaw[\"FLAME SENTRY › FLAME SENTRY › Ergonomics\"]",
+            "statsRaw[\"FLAME SENTRY › FLAME SENTRY › Base Sway\"]",
+            "statsRaw[\"FLAME SENTRY › FLAME SENTRY › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-gm-17-gas-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Sway\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Ergonomics\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Base Sway\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Base Ergonomics\"]",
+            "statsRaw[\"A/GM-17 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mg-43-machine-gun-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Sway\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Ergonomics\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Base Sway\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Base Ergonomics\"]",
+            "statsRaw[\"MG-43 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "amw-20-apex",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"AMW-20 APEX › Sway\"]",
+            "statsRaw[\"AMW-20 APEX › Ergonomics\"]",
+            "statsRaw[\"AMW-20 APEX › Base Sway\"]",
+            "statsRaw[\"AMW-20 APEX › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-arc-3-k-9",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Sway\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Ergonomics\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Base Sway\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-flam-75-hot-dog",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Sway\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Ergonomics\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Base Sway\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-las-5-rover",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Sway\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Ergonomics\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › Heat Data › Warmup\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Base Sway\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-tx-13-dog-breath",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Sway\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Ergonomics\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Base Sway\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-flam-80-cremator",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"B/FLAM-80 CREMATOR › Sway\"]",
+            "statsRaw[\"B/FLAM-80 CREMATOR › Ergonomics\"]",
+            "statsRaw[\"B/FLAM-80 CREMATOR › Base Sway\"]",
+            "statsRaw[\"B/FLAM-80 CREMATOR › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-gl-21-grenadier-battlement",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Sway\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Ergonomics\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Base Sway\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Base Ergonomics\"]",
+            "statsRaw[\"GL-21 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-strafing-run",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Sway\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Ergonomics\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Base Sway\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Base Ergonomics\"]",
+            "statsRaw[\"P5 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-45-patriot-exosuit",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT HMG › Sway\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT HMG › Ergonomics\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Sway\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Ergonomics\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT HMG › Base Sway\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT HMG › Base Ergonomics\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Base Sway\"]",
+            "statsRaw[\"Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Base Ergonomics\"]",
+            "statsRaw[\"MG-43 P › Projectile › Size\"]",
+            "statsRaw[\"P6 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-51-lumberer-exosuit",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Sway\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Ergonomics\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Sway\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Ergonomics\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Base Sway\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Base Ergonomics\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Base Sway\"]",
+            "statsRaw[\"LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "flam-40-flamethrower",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Sway\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Ergonomics\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Base Sway\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"LAS-44 NOVA › Sway\"]",
+            "statsRaw[\"LAS-44 NOVA › Ergonomics\"]",
+            "statsRaw[\"LAS-44 NOVA › Heat Data › Warmup\"]",
+            "statsRaw[\"LAS-44 NOVA › Base Sway\"]",
+            "statsRaw[\"LAS-44 NOVA › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-99-quasar-cannon",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LAS-99 QUASAR CANNON › Sway\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Ergonomics\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Heat Data › Warmup\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Base Sway\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Base Ergonomics\"]",
+            "statsRaw[\"LAS-99 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-102-gunner-frv",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GUNNER FRV › SWP HEAVY MACHINE GUN › Sway\"]",
+            "statsRaw[\"GUNNER FRV › SWP HEAVY MACHINE GUN › Ergonomics\"]",
+            "statsRaw[\"GUNNER FRV › SWP HEAVY MACHINE GUN › Base Sway\"]",
+            "statsRaw[\"GUNNER FRV › SWP HEAVY MACHINE GUN › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-103-supply-frv",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "unlockLevel",
+            "statsRaw[\"SUPPLY FRV › SWP SUPPLY FRV › Sway\"]",
+            "statsRaw[\"SUPPLY FRV › SWP SUPPLY FRV › Ergonomics\"]",
+            "statsRaw[\"Unlock Level\"]",
+            "statsRaw[\"SUPPLY FRV › SWP SUPPLY FRV › Base Sway\"]",
+            "statsRaw[\"SUPPLY FRV › SWP SUPPLY FRV › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-120mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P18 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-ems-strike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P25 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gas-strike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P14 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gatling-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P16 › Projectile › Size\"]",
+            "statsRaw[\"S P17 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-napalm-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P20 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-smoke-strike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P24 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-walking-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P22 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "plas-45-epoch",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"PLAS-45 EPOCH › Sway\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Ergonomics\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Base Sway\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Base Ergonomics\"]",
+            "statsRaw[\"P3 › Projectile › Size\"]",
+            "statsRaw[\"PLAS-45 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Sway\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Ergonomics\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Base Sway\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Base Ergonomics\"]",
+            "statsRaw[\"RL-77 P › Projectile › Size\"]",
+            "statsRaw[\"RL-77 P1 › Projectile › Size\"]",
+            "statsRaw[\"RL-77 P2 › Projectile › Size\"]",
+            "statsRaw[\"RL-77 P3 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rs-422-railgun",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"RS-422 RAILGUN › Sway\"]",
+            "statsRaw[\"RS-422 RAILGUN › Ergonomics\"]",
+            "statsRaw[\"RS-422 RAILGUN › Base Sway\"]",
+            "statsRaw[\"RS-422 RAILGUN › Base Ergonomics\"]",
+            "statsRaw[\"RS-422 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sta-x3-wasp-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Sway\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Ergonomics\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Base Sway\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Base Ergonomics\"]",
+            "statsRaw[\"StA-X3 P › Projectile › Size\"]",
+            "statsRaw[\"StA-X3 P1 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tx-41-sterilizer",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"TX-41 STERILIZER › Sway\"]",
+            "statsRaw[\"TX-41 STERILIZER › Ergonomics\"]",
+            "statsRaw[\"TX-41 STERILIZER › Base Sway\"]",
+            "statsRaw[\"TX-41 STERILIZER › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "bfm-220-ironclad",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "boundary-banker",
+          "kind": "changed",
+          "paths": [
+            "slug",
+            "name",
+            "description",
+            "image.url",
+            "image.wikiFile",
+            "wiki.title",
+            "wiki.url",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "capes",
+          "id": "watchful-compatriot",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "player-cards",
+          "id": "boundary-banker",
+          "kind": "changed",
+          "paths": [
+            "slug",
+            "name",
+            "image.wikiFile",
+            "wiki.title",
+            "wiki.url",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "emotes",
+          "id": "manual-ballistic-projection-protocol",
+          "kind": "changed",
+          "paths": [
+            "source.cost"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-21.fb36bb01",
       "date": "2026-10-21",

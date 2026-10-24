@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "count": 26,
     "source": {
       "name": "The Helldivers Wiki",
@@ -6618,7 +6618,7 @@
       ],
       "description": "Scope of Authority is a Premium Warbond that will available for 1,000 Super Credits in the Warbonds tab of the Acquisition Center.",
       "image": {
-        "url": "/images/v1/warbonds/scope-of-authority.19fcfb0a.webp",
+        "url": "/images/v1/warbonds/scope-of-authority.aafba35b.webp",
         "width": 1024,
         "height": 512,
         "wikiFile": "Scope_of_Authority_Premium_Warbond_Cover.png"
@@ -6857,7 +6857,10 @@
                 "id": "manual-ballistic-projection-protocol",
                 "variant": null
               },
-              "cost": null
+              "cost": {
+                "currency": "medals",
+                "amount": 20
+              }
             },
             {
               "name": "Longshot",

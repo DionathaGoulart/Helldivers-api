@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,6 +25,7 @@
       "title": "M-103 Supply FRV",
       "url": "https://helldivers.wiki.gg/wiki/M-103_Supply_FRV",
       "flags": [
+        "potentially_outdated",
         "broken_file_links"
       ]
     },
@@ -55,7 +56,7 @@
     "callInTimeS": 10.5,
     "callInTimeUpgradedS": null,
     "uses": "unlimited",
-    "unlockLevel": null,
+    "unlockLevel": 1,
     "shipModules": [
       {
         "department": "bridge",
@@ -100,6 +101,7 @@
       "Permit Type": "Supply",
       "Traits": "Vehicle • Medium Armor Penetrating",
       "Base Cooldown": "480s",
+      "Unlock Level": "1",
       "General › Call-in Time": "10.50 seconds",
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
@@ -113,8 +115,8 @@
       "SUPPLY FRV › SWP SUPPLY FRV › Horizontal Recoil": "5",
       "SUPPLY FRV › SWP SUPPLY FRV › Vertical Recoil": "1.5",
       "SUPPLY FRV › SWP SUPPLY FRV › Spread": "↔[10.00] ↕[10.00]",
-      "SUPPLY FRV › SWP SUPPLY FRV › Sway": "1",
-      "SUPPLY FRV › SWP SUPPLY FRV › Ergonomics": "65",
+      "SUPPLY FRV › SWP SUPPLY FRV › Base Sway": "1",
+      "SUPPLY FRV › SWP SUPPLY FRV › Base Ergonomics": "65",
       "SUPPLY FRV › SWP SUPPLY FRV › Noise When Firing": "Medium (~48m)",
       "SUPPLY FRV › SWP SUPPLY FRV › Capacity": "120",
       "SUPPLY FRV › SWP SUPPLY FRV › Turret Turn Speed": "↔[130.00]°/s ↕[90.00]°/s",

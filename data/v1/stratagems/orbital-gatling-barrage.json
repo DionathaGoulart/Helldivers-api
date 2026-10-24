@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -203,6 +203,7 @@
       "ORBITAL GATLING BARRAGE › Attacks › S P16": "Projectile",
       "ORBITAL GATLING BARRAGE › Attacks › S P17": "Projectile",
       "ORBITAL GATLING BARRAGE › Attacks › S P16 IE": "Explosion",
+      "S P16 › Projectile › Size": "23 mm",
       "S P16 › Projectile › Mass": "400 g",
       "S P16 › Projectile › Initial Velocity": "1050 m/s",
       "S P16 › Projectile › Drag Factor": "30%",
@@ -232,6 +233,7 @@
       "S P16 IE › AoE Effect › Demolition Force": "30",
       "S P16 IE › AoE Effect › Stagger Force": "35",
       "S P16 IE › AoE Effect › Push Force": "5",
+      "S P17 › Projectile › Size": "23 mm",
       "S P17 › Projectile › Mass": "400 g",
       "S P17 › Projectile › Initial Velocity": "1050 m/s",
       "S P17 › Projectile › Drag Factor": "30%",

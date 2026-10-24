@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "Watchful Compatriot",
     "upcoming": false,
     "aliases": [],
-    "description": "Sports a retro print that was first made popular in GW1 cereal merchandising. It helps citizens to remember that not all machines are twisted mechano-socialists; some are piloted by true-hearted humans and we can all rest easy in their gaze.",
+    "description": "This cape's retro print. first made popular in GW1 cereal merchandising, helps children remember that not all machines are twisted mechano-socialists; some are piloted by true-hearted humans, and we can all rest easy in their gaze.",
     "image": {
       "url": "/images/v1/capes/watchful-compatriot.1cee0383.webp",
       "width": 512,

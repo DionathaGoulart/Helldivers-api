@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -239,8 +239,8 @@
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Horizontal Recoil": "2.5",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Vertical Recoil": "10",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Spread": "↔[50.00] ↕[50.00]",
-      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Sway": "1",
-      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Ergonomics": "65",
+      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Base Sway": "1",
+      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Base Ergonomics": "65",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Noise When Firing": "Medium (~48m)",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Capacity": "16",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Turret Turn Speed": "↔[55.00]°/s ↕[55.00]°/s",
@@ -250,6 +250,7 @@
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › A/GM-17 P IE": "Explosion",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Gas": "status",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Gas Confusion": "status",
+      "A/GM-17 P › Projectile › Size": "360 mm",
       "A/GM-17 P › Projectile › Mass": "70 kg",
       "A/GM-17 P › Projectile › Initial Velocity": "100 m/s",
       "A/GM-17 P › Projectile › Drag Factor": "25%",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -255,8 +255,8 @@
       "PLAS-45 EPOCH › Horizontal Recoil": "17.5",
       "PLAS-45 EPOCH › Vertical Recoil": "55",
       "PLAS-45 EPOCH › Spread": "↔[30.00] ↕[30.00]",
-      "PLAS-45 EPOCH › Sway": "1",
-      "PLAS-45 EPOCH › Ergonomics": "25",
+      "PLAS-45 EPOCH › Base Sway": "1",
+      "PLAS-45 EPOCH › Base Ergonomics": "25",
       "PLAS-45 EPOCH › Noise When Firing": "Medium (~48m)",
       "PLAS-45 EPOCH › Capacity": "3",
       "PLAS-45 EPOCH › Spare Magazines": "4",
@@ -274,6 +274,7 @@
       "PLAS-45 EPOCH › Attacks › PLAS-45 EPOCH Overcharge E": "Explosion",
       "PLAS-45 EPOCH › Attacks › P3 IE": "Explosion",
       "PLAS-45 EPOCH › Attacks › PLAS-45 P IE": "Explosion",
+      "P3 › Projectile › Size": "20 mm",
       "P3 › Projectile › Mass": "100 g",
       "P3 › Projectile › Initial Velocity": "250 m/s",
       "P3 › Projectile › Drag Factor": "10%",
@@ -306,6 +307,7 @@
       "P3 IE › AoE Effect › Demolition Force": "30",
       "P3 IE › AoE Effect › Stagger Force": "35",
       "P3 IE › AoE Effect › Push Force": "30",
+      "PLAS-45 P › Projectile › Size": "20 mm",
       "PLAS-45 P › Projectile › Mass": "100 g",
       "PLAS-45 P › Projectile › Initial Velocity": "250 m/s",
       "PLAS-45 P › Projectile › Drag Factor": "10%",

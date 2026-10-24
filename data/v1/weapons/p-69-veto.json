@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -57,7 +57,7 @@
         "horizontal": 8,
         "vertical": 8
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 100,
       "reloadKind": "rounds",
       "reloadTimeS": 3.3,
@@ -120,8 +120,8 @@
       "P-69 VETO › Horizontal Recoil": "12.5",
       "P-69 VETO › Vertical Recoil": "47.5",
       "P-69 VETO › Spread": "↔[8.00] ↕[8.00]",
-      "P-69 VETO › Sway": "1",
-      "P-69 VETO › Ergonomics": "100",
+      "P-69 VETO › Base Sway": "1",
+      "P-69 VETO › Base Ergonomics": "100",
       "P-69 VETO › Noise When Firing": "Small (~33m)",
       "P-69 VETO › Capacity": "12",
       "P-69 VETO › Spare Rounds": "90",

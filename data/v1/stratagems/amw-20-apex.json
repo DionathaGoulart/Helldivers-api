@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,6 +25,7 @@
       "title": "AMW-20 Apex",
       "url": "https://helldivers.wiki.gg/wiki/AMW-20_Apex",
       "flags": [
+        "potentially_outdated",
         "broken_file_links"
       ]
     },
@@ -143,8 +144,8 @@
       "AMW-20 APEX › Horizontal Recoil": "175",
       "AMW-20 APEX › Vertical Recoil": "500",
       "AMW-20 APEX › Spread": "↔[0.10] ↕[0.10]",
-      "AMW-20 APEX › Sway": "1",
-      "AMW-20 APEX › Ergonomics": "14",
+      "AMW-20 APEX › Base Sway": "1",
+      "AMW-20 APEX › Base Ergonomics": "14",
       "AMW-20 APEX › Noise When Firing": "Large (~58m)",
       "AMW-20 APEX › Capacity": "5",
       "AMW-20 APEX › Spare Magazines": "4",

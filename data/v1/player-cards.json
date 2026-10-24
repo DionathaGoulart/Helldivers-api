@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "count": 80,
     "source": {
       "name": "The Helldivers Wiki",
@@ -198,8 +198,8 @@
     },
     {
       "id": "boundary-banker",
-      "slug": "boundary-banker",
-      "name": "Boundary Banker",
+      "slug": "boundary-banner",
+      "name": "Boundary Banner",
       "upcoming": false,
       "aliases": [],
       "description": null,
@@ -207,14 +207,12 @@
         "url": "/images/v1/player-cards/boundary-banker.9c95cbd0.webp",
         "width": 256,
         "height": 512,
-        "wikiFile": "Boundary_Banker_Player_Card_Icon.png"
+        "wikiFile": "Boundary_Banner_Player_Card_Icon.png"
       },
       "wiki": {
-        "title": "Boundary Banker",
-        "url": "https://helldivers.wiki.gg/wiki/Boundary_Banker",
-        "flags": [
-          "broken_file_links"
-        ]
+        "title": "Boundary Banner",
+        "url": "https://helldivers.wiki.gg/wiki/Boundary_Banner",
+        "flags": []
       },
       "pairedCapeId": "boundary-banker",
       "source": {

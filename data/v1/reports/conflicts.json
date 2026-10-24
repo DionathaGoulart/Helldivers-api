@@ -469,25 +469,6 @@
     {
       "collection": "warbonds",
       "id": "scope-of-authority",
-      "field": "medalsAllItems",
-      "rule": 1,
-      "chosen": 603,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "infobox › All Items Unlocked",
-          "value": 603
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "page tables › sum",
-          "value": 583
-        }
-      ]
-    },
-    {
-      "collection": "warbonds",
-      "id": "scope-of-authority",
       "field": "pages[0].items[2].cost",
       "rule": 1,
       "chosen": {
@@ -538,28 +519,6 @@
             "currency": "medals",
             "amount": 45
           }
-        }
-      ]
-    },
-    {
-      "collection": "warbonds",
-      "id": "scope-of-authority",
-      "field": "pages[2].items[3].cost",
-      "rule": 1,
-      "chosen": null,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Scope_of_Authority_Premium_Warbond",
-          "location": "Page 3 › Manual Ballistic Projection Protocol",
-          "value": {
-            "currency": "medals",
-            "amount": 20
-          }
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Manual_Ballistic_Projection_Protocol",
-          "location": "emotes/manual-ballistic-projection-protocol › source",
-          "value": null
         }
       ]
     },
@@ -1738,25 +1697,6 @@
           "page": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
           "location": "R/40-K HOT-SHOT MARKSMAN RIFLE › Recoil",
           "value": 18.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "r-40-sightliner",
-      "field": "firearm.ergonomics",
-      "rule": 2,
-      "chosen": 40,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
-          "location": "infobox › Ergonomics",
-          "value": 31
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
-          "location": "R-40 SIGHTLINER › Ergonomics",
-          "value": 40
         }
       ]
     },

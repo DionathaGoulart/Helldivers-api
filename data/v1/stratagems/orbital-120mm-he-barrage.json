@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-21.fb36bb01",
-    "generatedAt": "2026-10-21T23:58:40Z",
+    "dataVersion": "2026-10-24.4dee3d67",
+    "generatedAt": "2026-10-24T13:17:59Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -179,6 +179,7 @@
       "ORBITAL 120MM HE BARRAGE › Bombardment Area Size": "27 m",
       "ORBITAL 120MM HE BARRAGE › Attacks › S P18": "Projectile",
       "ORBITAL 120MM HE BARRAGE › Attacks › S P18 IE": "Explosion",
+      "S P18 › Projectile › Size": "84 mm",
       "S P18 › Projectile › Mass": "5 kg",
       "S P18 › Projectile › Initial Velocity": "400 m/s",
       "S P18 › Projectile › Drag Factor": "0%",
