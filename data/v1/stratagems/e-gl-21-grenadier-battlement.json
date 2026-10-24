@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -156,9 +156,8 @@
       "GRENADIER BATTLEMENT › Main Health": "3000",
       "GRENADIER BATTLEMENT › Main Armor": "Unarmored",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Fire Rate": "160 rpm",
-      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Recoil": "25",
-      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Horizontal Recoil": "22.5",
-      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Vertical Recoil": "27.5",
+      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Drift Recoil": "↔[25.00] ↕[25.00]",
+      "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Climb Recoil": "↔[20.00] ↕[30.00]",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Spread": "↔[20.00] ↕[20.00]",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Base Sway": "1",
       "GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Base Ergonomics": "25",

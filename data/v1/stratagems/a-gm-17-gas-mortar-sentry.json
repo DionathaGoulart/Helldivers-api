@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -235,9 +235,8 @@
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Main Health": "400",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Main Armor": "Light",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Fire Rate": "80 rpm",
-      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Recoil": "6.25",
-      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Horizontal Recoil": "2.5",
-      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Vertical Recoil": "10",
+      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Climb Recoil": "↔[2.50] ↕[10.00]",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Spread": "↔[50.00] ↕[50.00]",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Base Sway": "1",
       "GAS MORTAR SENTRY › GAS MORTAR SENTRY › Base Ergonomics": "65",

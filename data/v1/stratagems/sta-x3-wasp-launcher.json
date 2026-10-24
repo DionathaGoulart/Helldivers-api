@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -223,9 +223,8 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "STA-X3 W.A.S.P. LAUNCHER › Fire Rate": "500 rpm",
-      "STA-X3 W.A.S.P. LAUNCHER › Recoil": "6.25",
-      "STA-X3 W.A.S.P. LAUNCHER › Horizontal Recoil": "2.5",
-      "STA-X3 W.A.S.P. LAUNCHER › Vertical Recoil": "10",
+      "STA-X3 W.A.S.P. LAUNCHER › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "STA-X3 W.A.S.P. LAUNCHER › Climb Recoil": "↔[2.50] ↕[10.00]",
       "STA-X3 W.A.S.P. LAUNCHER › Spread": "↔[0.00] ↕[0.00]",
       "STA-X3 W.A.S.P. LAUNCHER › Base Sway": "1",
       "STA-X3 W.A.S.P. LAUNCHER › Base Ergonomics": "10",

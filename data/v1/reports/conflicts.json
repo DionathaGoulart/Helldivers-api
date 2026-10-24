@@ -543,25 +543,6 @@
     },
     {
       "collection": "weapons",
-      "id": "ar-2-coyote",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 19.75,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
-          "location": "infobox › Recoil",
-          "value": 17
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/AR-2_Coyote",
-          "location": "AR-2 COYOTE › Recoil",
-          "value": 19.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
       "id": "ar-23-liberator",
       "field": "firearm.recoil",
       "rule": 2,
@@ -766,25 +747,6 @@
           "page": "https://helldivers.wiki.gg/wiki/FLAM-66_Torcher",
           "location": "FLAM-66 TORCHER › Recoil",
           "value": 0.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "gl-15-evictor",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 82.5,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-          "location": "infobox › Recoil",
-          "value": 83
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-          "location": "GL-15 EVICTOR › Recoil",
-          "value": 82.5
         }
       ]
     },
@@ -1132,25 +1094,6 @@
     },
     {
       "collection": "weapons",
-      "id": "m6c-socom-pistol",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 19.5,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
-          "location": "infobox › Recoil",
-          "value": 20
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/M6C/SOCOM_Pistol",
-          "location": "M6C/SOCOM PISTOL › Recoil",
-          "value": 19.5
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
       "id": "m7s-smg",
       "field": "firearm.recoil",
       "rule": 2,
@@ -1165,25 +1108,6 @@
           "page": "https://helldivers.wiki.gg/wiki/M7S_SMG",
           "location": "M7S SMG › Recoil",
           "value": 8.375
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "m90a-shotgun",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 82.5,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
-          "location": "infobox › Recoil",
-          "value": 83
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
-          "location": "M90A SHOTGUN › Recoil",
-          "value": 82.5
         }
       ]
     },
@@ -1246,25 +1170,6 @@
     },
     {
       "collection": "weapons",
-      "id": "p-113-verdict",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 31.25,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
-          "location": "infobox › Recoil",
-          "value": 31
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/P-113_Verdict",
-          "location": "P-113 VERDICT › Recoil",
-          "value": 31.25
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
       "id": "p-19-redeemer",
       "field": "firearm.recoil",
       "rule": 2,
@@ -1316,25 +1221,6 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/P-33_Missile_Pistol",
           "location": "P-33 MISSILE PISTOL › Recoil",
-          "value": 312.5
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "p-34-breacher",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 312.5,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
-          "location": "infobox › Recoil",
-          "value": 313
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/P-34_Breacher",
-          "location": "P-34 BREACHER › Recoil",
           "value": 312.5
         }
       ]
@@ -1494,25 +1380,6 @@
     {
       "collection": "weapons",
       "id": "p-92-warrant",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 31.25,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
-          "location": "infobox › Recoil",
-          "value": 31
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/P-92_Warrant",
-          "location": "P-92 WARRANT › Recoil",
-          "value": 31.25
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "p-92-warrant",
       "field": "firearm.spareMagazines",
       "rule": 2,
       "chosen": 7,
@@ -1626,25 +1493,6 @@
     },
     {
       "collection": "weapons",
-      "id": "r-2-amendment",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 28.75,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
-          "location": "infobox › Recoil",
-          "value": 29
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-2_Amendment",
-          "location": "R-2 AMENDMENT › Recoil",
-          "value": 28.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
       "id": "r-36-eruptor",
       "field": "firearm.recoil",
       "rule": 2,
@@ -1697,25 +1545,6 @@
           "page": "https://helldivers.wiki.gg/wiki/R/40-K_Hot-Shot_Marksman_Rifle",
           "location": "R/40-K HOT-SHOT MARKSMAN RIFLE › Recoil",
           "value": 18.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "r-40-sightliner",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 87.5,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
-          "location": "infobox › Recoil",
-          "value": 76
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/R-40_Sightliner",
-          "location": "R-40 SIGHTLINER › Recoil",
-          "value": 87.5
         }
       ]
     },
@@ -2133,25 +1962,6 @@
         {
           "page": "https://helldivers.wiki.gg/wiki/SMG/FLAM-34_Stoker",
           "location": "SMG/FLAM-34 STOKER › Recoil",
-          "value": 8.75
-        }
-      ]
-    },
-    {
-      "collection": "weapons",
-      "id": "sta-11-smg",
-      "field": "firearm.recoil",
-      "rule": 2,
-      "chosen": 8.75,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
-          "location": "infobox › Recoil",
-          "value": 11
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
-          "location": "STA-11 SMG › Recoil",
           "value": 8.75
         }
       ]

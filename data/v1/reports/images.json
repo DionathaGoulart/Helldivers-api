@@ -910,13 +910,13 @@
       "bytes": 26646
     },
     {
-      "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
-      "wikiFile": "SS-33_Mimetic_Marshal_Default_Armor_Set_Image.png",
-      "version": "ce4935",
+      "url": "/images/v1/armors/ss-33-mimetic-marshal.0eb59deb.webp",
+      "wikiFile": "SS-33_Mimetic_Marshal_Armor_Render.png",
+      "version": "aed424",
       "rendition": "render",
       "width": 512,
       "height": 512,
-      "bytes": 47242
+      "bytes": 33602
     },
     {
       "url": "/images/v1/armors/ss-500-pale-prosecutor.a1fb8b99.webp",
@@ -8073,6 +8073,10 @@
     {
       "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
       "since": "2026-10-21"
+    },
+    {
+      "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
+      "since": "2026-10-24"
     },
     {
       "url": "/images/v1/armors/tr-40-gold-eagle.231fed2e.webp",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -329,9 +329,8 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "RL-77 AIRBURST ROCKET LAUNCHER › Fire Rate": "600 rpm",
-      "RL-77 AIRBURST ROCKET LAUNCHER › Recoil": "77.5",
-      "RL-77 AIRBURST ROCKET LAUNCHER › Horizontal Recoil": "45",
-      "RL-77 AIRBURST ROCKET LAUNCHER › Vertical Recoil": "110",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Drift Recoil": "↔[40.00] ↕[40.00]",
+      "RL-77 AIRBURST ROCKET LAUNCHER › Climb Recoil": "↔[50.00] ↕[180.00]",
       "RL-77 AIRBURST ROCKET LAUNCHER › Spread": "↔[4.00] ↕[4.00]",
       "RL-77 AIRBURST ROCKET LAUNCHER › Base Sway": "1",
       "RL-77 AIRBURST ROCKET LAUNCHER › Base Ergonomics": "10",

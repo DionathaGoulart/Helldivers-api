@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -48,9 +48,9 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 87.5,
-      "horizontalRecoil": 45,
-      "verticalRecoil": 130,
+      "recoil": 76,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.1,
         "vertical": 0.1
@@ -113,9 +113,8 @@
       "Reload Time": "3s",
       "Tactical Reload Time": "2s",
       "R-40 SIGHTLINER › Fire Rate": "40 rpm",
-      "R-40 SIGHTLINER › Recoil": "87.5",
-      "R-40 SIGHTLINER › Horizontal Recoil": "45",
-      "R-40 SIGHTLINER › Vertical Recoil": "130",
+      "R-40 SIGHTLINER › Drift Recoil": "↔[40.00] ↕[50.00]",
+      "R-40 SIGHTLINER › Climb Recoil": "↔[50.00] ↕[210.00]",
       "R-40 SIGHTLINER › Spread": "↔[0.10] ↕[0.10]",
       "R-40 SIGHTLINER › Base Sway": "0.7",
       "R-40 SIGHTLINER › Base Ergonomics": "40",

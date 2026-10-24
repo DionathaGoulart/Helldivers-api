@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -147,9 +147,8 @@
       "AX/LAS-5 ROVER › Mags from Ammo Box": "1",
       "AX/LAS-5 ROVER › Max Rounds": "4",
       "AX/LAS-5 ROVER › Starting Rounds": "4",
-      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Recoil": "1",
-      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Horizontal Recoil": "1.5",
-      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Vertical Recoil": "0.5",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Drift Recoil": "↔[2.00] ↕[0.50]",
+      "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Climb Recoil": "↔[1.00] ↕[0.50]",
       "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Spread": "↔[10.00] ↕[10.00]",
       "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Base Sway": "1",
       "AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Base Ergonomics": "65",

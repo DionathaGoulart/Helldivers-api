@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -167,9 +167,8 @@
       "AX/TX-13 DOG BREATH › Mags from Ammo Box": "3",
       "AX/TX-13 DOG BREATH › Max Rounds": "6",
       "AX/TX-13 DOG BREATH › Starting Rounds": "6",
-      "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Recoil": "0",
-      "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Horizontal Recoil": "0",
-      "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Vertical Recoil": "0",
+      "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Climb Recoil": "↔[0.00] ↕[0.00]",
       "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Spread": "↔[10.00] ↕[10.00]",
       "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Base Sway": "1",
       "AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Base Ergonomics": "65",

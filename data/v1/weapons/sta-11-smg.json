@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "StA-11 SMG",
       "url": "https://helldivers.wiki.gg/wiki/StA-11_SMG",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "submachine_gun",
@@ -47,14 +49,14 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 7,
       "magazinesFromAmmoBox": 3,
-      "recoil": 8.75,
-      "horizontalRecoil": 7.5,
-      "verticalRecoil": 10,
+      "recoil": 11,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 5,
         "vertical": 5
       },
-      "sway": 0.7,
+      "sway": null,
       "ergonomics": 90,
       "reloadKind": "magazine",
       "reloadTimeS": 2.6,
@@ -112,12 +114,11 @@
       "Reload Time": "2.6s",
       "Tactical Reload Time": "1.7s",
       "STA-11 SMG › Fire Rate": "1050 rpm",
-      "STA-11 SMG › Recoil": "8.75",
-      "STA-11 SMG › Horizontal Recoil": "7.5",
-      "STA-11 SMG › Vertical Recoil": "10",
+      "STA-11 SMG › Drift Recoil": "↔[10.00] ↕[12.00]",
+      "STA-11 SMG › Climb Recoil": "↔[5.00] ↕[8.00]",
       "STA-11 SMG › Spread": "↔[5.00] ↕[5.00]",
-      "STA-11 SMG › Sway": "0.7",
-      "STA-11 SMG › Ergonomics": "90",
+      "STA-11 SMG › Base Sway": "0.7",
+      "STA-11 SMG › Base Ergonomics": "90",
       "STA-11 SMG › Noise When Firing": "Small (~33m)",
       "STA-11 SMG › Capacity": "48",
       "STA-11 SMG › Spare Magazines": "7",

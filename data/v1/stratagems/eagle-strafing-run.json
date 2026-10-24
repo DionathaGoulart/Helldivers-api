@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -168,9 +168,8 @@
       "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Main Health": "100",
       "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Main Armor": "Unarmored",
       "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Fire Rate": "4000 rpm",
-      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Recoil": "0",
-      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Horizontal Recoil": "0",
-      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Vertical Recoil": "0",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Climb Recoil": "↔[0.00] ↕[0.00]",
       "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Spread": "↔[10.00] ↕[10.00]",
       "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Base Sway": "1",
       "Eagle Strafing Run › SWP EAGLE STRAFING RUN › Base Ergonomics": "65",

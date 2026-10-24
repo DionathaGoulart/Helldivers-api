@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,14 +50,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 19.75,
-      "horizontalRecoil": 11.5,
-      "verticalRecoil": 28,
+      "recoil": 17,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 4,
         "vertical": 4
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 50,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -135,12 +135,11 @@
       "Reload Time": "3s",
       "Tactical Reload Time": "2s",
       "AR-2 COYOTE › Fire Rate": "600 rpm",
-      "AR-2 COYOTE › Recoil": "19.75",
-      "AR-2 COYOTE › Horizontal Recoil": "11.5",
-      "AR-2 COYOTE › Vertical Recoil": "28",
+      "AR-2 COYOTE › Drift Recoil": "↔[17.00] ↕[20.00]",
+      "AR-2 COYOTE › Climb Recoil": "↔[6.00] ↕[36.00]",
       "AR-2 COYOTE › Spread": "↔[4.00] ↕[4.00]",
-      "AR-2 COYOTE › Sway": "1",
-      "AR-2 COYOTE › Ergonomics": "50",
+      "AR-2 COYOTE › Base Sway": "1",
+      "AR-2 COYOTE › Base Ergonomics": "50",
       "AR-2 COYOTE › Noise When Firing": "Medium (~48m)",
       "AR-2 COYOTE › Capacity": "45",
       "AR-2 COYOTE › Spare Magazines": "8",

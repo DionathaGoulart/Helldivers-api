@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -204,9 +204,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
-      "FLAM-40 FLAMETHROWER › Recoil": "1.25",
-      "FLAM-40 FLAMETHROWER › Horizontal Recoil": "0",
-      "FLAM-40 FLAMETHROWER › Vertical Recoil": "2.5",
+      "FLAM-40 FLAMETHROWER › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "FLAM-40 FLAMETHROWER › Climb Recoil": "↔[0.00] ↕[5.00]",
       "FLAM-40 FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
       "FLAM-40 FLAMETHROWER › Base Sway": "1",
       "FLAM-40 FLAMETHROWER › Base Ergonomics": "5",

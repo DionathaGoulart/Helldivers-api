@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "M-1000 Maxigun",
       "url": "https://helldivers.wiki.gg/wiki/M-1000_Maxigun",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "permitType": "supply",
     "availability": "loadout",
@@ -129,12 +131,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "M-1000 MAXIGUN › Fire Rate": "1500 rpm",
-      "M-1000 MAXIGUN › Recoil": "21.25",
-      "M-1000 MAXIGUN › Horizontal Recoil": "17.5",
-      "M-1000 MAXIGUN › Vertical Recoil": "25",
+      "M-1000 MAXIGUN › Drift Recoil": "↔[20.00] ↕[20.00]",
+      "M-1000 MAXIGUN › Climb Recoil": "↔[15.00] ↕[30.00]",
       "M-1000 MAXIGUN › Spread": "↔[10.00] ↕[10.00]",
-      "M-1000 MAXIGUN › Sway": "1",
-      "M-1000 MAXIGUN › Ergonomics": "4",
+      "M-1000 MAXIGUN › Base Sway": "1",
+      "M-1000 MAXIGUN › Base Ergonomics": "4",
       "M-1000 MAXIGUN › Noise When Firing": "Medium (~48m)",
       "M-1000 MAXIGUN › Capacity": "1000",
       "M-1000 MAXIGUN › Rounds from Supply": "500",

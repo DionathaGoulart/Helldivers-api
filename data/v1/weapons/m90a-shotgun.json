@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "M90A Shotgun",
       "url": "https://helldivers.wiki.gg/wiki/M90A_Shotgun",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "shotgun",
@@ -47,14 +49,14 @@
       "startingMagazines": 24,
       "magazinesFromSupply": 44,
       "magazinesFromAmmoBox": 22,
-      "recoil": 82.5,
-      "horizontalRecoil": 45,
-      "verticalRecoil": 120,
+      "recoil": 83,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 120,
         "vertical": 100
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "rounds",
       "reloadTimeS": 3.6,
@@ -113,12 +115,11 @@
       "Reload Time For One Round": "1.5s (Empty) / 0.45s (Partial)",
       "Reload Time for >1 Round": "0.4s",
       "M90A SHOTGUN › Fire Rate": "80 rpm",
-      "M90A SHOTGUN › Recoil": "82.5",
-      "M90A SHOTGUN › Horizontal Recoil": "45",
-      "M90A SHOTGUN › Vertical Recoil": "120",
+      "M90A SHOTGUN › Drift Recoil": "↔[40.00] ↕[40.00]",
+      "M90A SHOTGUN › Climb Recoil": "↔[50.00] ↕[200.00]",
       "M90A SHOTGUN › Spread": "↔[120.00] ↕[100.00]",
-      "M90A SHOTGUN › Sway": "1",
-      "M90A SHOTGUN › Ergonomics": "65",
+      "M90A SHOTGUN › Base Sway": "1",
+      "M90A SHOTGUN › Base Ergonomics": "65",
       "M90A SHOTGUN › Noise When Firing": "Medium (~48m)",
       "M90A SHOTGUN › Capacity": "6",
       "M90A SHOTGUN › Spare Rounds": "44",

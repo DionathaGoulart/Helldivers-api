@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,9 +50,9 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 7,
       "magazinesFromAmmoBox": 3,
-      "recoil": 31.25,
-      "horizontalRecoil": 15,
-      "verticalRecoil": 47.5,
+      "recoil": 31,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 8,
         "vertical": 8
@@ -142,9 +142,8 @@
       "Reload Time": "2s",
       "Tactical Reload Time": "1.4s",
       "P-92 WARRANT › Fire Rate": "450 rpm",
-      "P-92 WARRANT › Recoil": "31.25",
-      "P-92 WARRANT › Horizontal Recoil": "15",
-      "P-92 WARRANT › Vertical Recoil": "47.5",
+      "P-92 WARRANT › Drift Recoil": "↔[20.00] ↕[50.00]",
+      "P-92 WARRANT › Climb Recoil": "↔[10.00] ↕[45.00]",
       "P-92 WARRANT › Spread": "↔[8.00] ↕[8.00]",
       "P-92 WARRANT › Base Sway": "1",
       "P-92 WARRANT › Base Ergonomics": "100",

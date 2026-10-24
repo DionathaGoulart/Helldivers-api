@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "count": 113,
     "source": {
       "name": "The Helldivers Wiki",
@@ -1776,9 +1776,7 @@
       "wiki": {
         "title": "SS-33 Mimetic Marshal",
         "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "armorId": "ss-33-mimetic-marshal",
       "helmetId": "ss-33-mimetic-marshal",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "PLAS-39 Accelerator Rifle",
       "url": "https://helldivers.wiki.gg/wiki/PLAS-39_Accelerator_Rifle",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "energy_based",
@@ -48,18 +50,18 @@
       "magazinesFromSupply": 12,
       "magazinesFromAmmoBox": 6,
       "recoil": 3,
-      "horizontalRecoil": 3,
-      "verticalRecoil": 3,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.5,
         "vertical": 0.5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 60,
       "reloadKind": "magazine",
-      "reloadTimeS": 3.4,
+      "reloadTimeS": 2.7,
       "reloadTimeUpgradedS": null,
-      "tacticalReloadTimeS": 3.4
+      "tacticalReloadTimeS": 2.7
     },
     "throwable": null,
     "melee": null,
@@ -135,15 +137,14 @@
       "Ammo Box Refill": "6",
       "Ergonomics": "60",
       "Recoil": "3",
-      "Reload Time": "3.4s",
-      "Tactical Reload Time": "3.4s",
+      "Reload Time": "2.7s",
+      "Tactical Reload Time": "2.7s",
       "PLAS-39 ACCELERATOR RIFLE › Fire Rate": "550 rpm",
-      "PLAS-39 ACCELERATOR RIFLE › Recoil": "3",
-      "PLAS-39 ACCELERATOR RIFLE › Horizontal Recoil": "3",
-      "PLAS-39 ACCELERATOR RIFLE › Vertical Recoil": "3",
+      "PLAS-39 ACCELERATOR RIFLE › Drift Recoil": "↔[3.00] ↕[3.00]",
+      "PLAS-39 ACCELERATOR RIFLE › Climb Recoil": "↔[3.00] ↕[3.00]",
       "PLAS-39 ACCELERATOR RIFLE › Spread": "↔[0.50] ↕[0.50]",
-      "PLAS-39 ACCELERATOR RIFLE › Sway": "1",
-      "PLAS-39 ACCELERATOR RIFLE › Ergonomics": "60",
+      "PLAS-39 ACCELERATOR RIFLE › Base Sway": "1",
+      "PLAS-39 ACCELERATOR RIFLE › Base Ergonomics": "60",
       "PLAS-39 ACCELERATOR RIFLE › Noise When Firing": "Medium (~48m)",
       "PLAS-39 ACCELERATOR RIFLE › Capacity": "9",
       "PLAS-39 ACCELERATOR RIFLE › Spare Magazines": "12",

@@ -1,15 +1,462 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
-    "count": 33,
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
+    "count": 34,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-24.47a3d19d",
+      "date": "2026-10-24",
+      "summary": {
+        "added": 0,
+        "changed": 30,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "ar-2-coyote",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "statsRaw[\"AR-2 COYOTE › Recoil\"]",
+            "statsRaw[\"AR-2 COYOTE › Horizontal Recoil\"]",
+            "statsRaw[\"AR-2 COYOTE › Vertical Recoil\"]",
+            "statsRaw[\"AR-2 COYOTE › Sway\"]",
+            "statsRaw[\"AR-2 COYOTE › Ergonomics\"]",
+            "statsRaw[\"AR-2 COYOTE › Drift Recoil\"]",
+            "statsRaw[\"AR-2 COYOTE › Climb Recoil\"]",
+            "statsRaw[\"AR-2 COYOTE › Base Sway\"]",
+            "statsRaw[\"AR-2 COYOTE › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "statsRaw[\"GL-15 EVICTOR › Recoil\"]",
+            "statsRaw[\"GL-15 EVICTOR › Horizontal Recoil\"]",
+            "statsRaw[\"GL-15 EVICTOR › Vertical Recoil\"]",
+            "statsRaw[\"GL-15 EVICTOR › Sway\"]",
+            "statsRaw[\"GL-15 EVICTOR › Ergonomics\"]",
+            "statsRaw[\"GL-15 EVICTOR › Drift Recoil\"]",
+            "statsRaw[\"GL-15 EVICTOR › Climb Recoil\"]",
+            "statsRaw[\"GL-15 EVICTOR › Base Sway\"]",
+            "statsRaw[\"GL-15 EVICTOR › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m6c-socom-pistol",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "statsRaw[\"M6C/SOCOM PISTOL › Recoil\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Horizontal Recoil\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Vertical Recoil\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Drift Recoil\"]",
+            "statsRaw[\"M6C/SOCOM PISTOL › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m90a-shotgun",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "statsRaw[\"M90A SHOTGUN › Recoil\"]",
+            "statsRaw[\"M90A SHOTGUN › Horizontal Recoil\"]",
+            "statsRaw[\"M90A SHOTGUN › Vertical Recoil\"]",
+            "statsRaw[\"M90A SHOTGUN › Sway\"]",
+            "statsRaw[\"M90A SHOTGUN › Ergonomics\"]",
+            "statsRaw[\"M90A SHOTGUN › Drift Recoil\"]",
+            "statsRaw[\"M90A SHOTGUN › Climb Recoil\"]",
+            "statsRaw[\"M90A SHOTGUN › Base Sway\"]",
+            "statsRaw[\"M90A SHOTGUN › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-113-verdict",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "statsRaw[\"P-113 VERDICT › Recoil\"]",
+            "statsRaw[\"P-113 VERDICT › Horizontal Recoil\"]",
+            "statsRaw[\"P-113 VERDICT › Vertical Recoil\"]",
+            "statsRaw[\"P-113 VERDICT › Drift Recoil\"]",
+            "statsRaw[\"P-113 VERDICT › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-34-breacher",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "statsRaw[\"P-34 BREACHER › Recoil\"]",
+            "statsRaw[\"P-34 BREACHER › Horizontal Recoil\"]",
+            "statsRaw[\"P-34 BREACHER › Vertical Recoil\"]",
+            "statsRaw[\"P-34 BREACHER › Sway\"]",
+            "statsRaw[\"P-34 BREACHER › Ergonomics\"]",
+            "statsRaw[\"P-34 BREACHER › Spare Rounds\"]",
+            "statsRaw[\"P-34 BREACHER › Starting Rounds\"]",
+            "statsRaw[\"P-34 BREACHER › Rounds from Supply\"]",
+            "statsRaw[\"P-34 BREACHER › Rounds from Ammo Box\"]",
+            "statsRaw[\"P-34 BREACHER › Drift Recoil\"]",
+            "statsRaw[\"P-34 BREACHER › Climb Recoil\"]",
+            "statsRaw[\"P-34 BREACHER › Base Sway\"]",
+            "statsRaw[\"P-34 BREACHER › Base Ergonomics\"]",
+            "statsRaw[\"P-34 BREACHER › Spare Magazines\"]",
+            "statsRaw[\"P-34 BREACHER › Starting Magazines\"]",
+            "statsRaw[\"P-34 BREACHER › Mags from Supply\"]",
+            "statsRaw[\"P-34 BREACHER › Mags from Ammo Box\"]",
+            "statsRaw[\"P-34 P › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-69-veto",
+          "kind": "changed",
+          "paths": [
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "statsRaw[\"P-69 VETO › Recoil\"]",
+            "statsRaw[\"P-69 VETO › Horizontal Recoil\"]",
+            "statsRaw[\"P-69 VETO › Vertical Recoil\"]",
+            "statsRaw[\"P-69 VETO › Drift Recoil\"]",
+            "statsRaw[\"P-69 VETO › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-92-warrant",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "statsRaw[\"P-92 WARRANT › Recoil\"]",
+            "statsRaw[\"P-92 WARRANT › Horizontal Recoil\"]",
+            "statsRaw[\"P-92 WARRANT › Vertical Recoil\"]",
+            "statsRaw[\"P-92 WARRANT › Drift Recoil\"]",
+            "statsRaw[\"P-92 WARRANT › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-39-accelerator-rifle",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "firearm.reloadTimeS",
+            "firearm.tacticalReloadTimeS",
+            "statsRaw[\"Reload Time\"]",
+            "statsRaw[\"Tactical Reload Time\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Recoil\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Horizontal Recoil\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Vertical Recoil\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Sway\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Ergonomics\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Drift Recoil\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Climb Recoil\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Base Sway\"]",
+            "statsRaw[\"PLAS-39 ACCELERATOR RIFLE › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2-amendment",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "statsRaw[\"R-2 AMENDMENT › Recoil\"]",
+            "statsRaw[\"R-2 AMENDMENT › Horizontal Recoil\"]",
+            "statsRaw[\"R-2 AMENDMENT › Vertical Recoil\"]",
+            "statsRaw[\"R-2 AMENDMENT › Sway\"]",
+            "statsRaw[\"R-2 AMENDMENT › Ergonomics\"]",
+            "statsRaw[\"R-2 AMENDMENT › Drift Recoil\"]",
+            "statsRaw[\"R-2 AMENDMENT › Climb Recoil\"]",
+            "statsRaw[\"R-2 AMENDMENT › Base Sway\"]",
+            "statsRaw[\"R-2 AMENDMENT › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-sightliner",
+          "kind": "changed",
+          "paths": [
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "statsRaw[\"R-40 SIGHTLINER › Recoil\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Horizontal Recoil\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Vertical Recoil\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Drift Recoil\"]",
+            "statsRaw[\"R-40 SIGHTLINER › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-11-smg",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "firearm.recoil",
+            "firearm.horizontalRecoil",
+            "firearm.verticalRecoil",
+            "firearm.sway",
+            "statsRaw[\"STA-11 SMG › Recoil\"]",
+            "statsRaw[\"STA-11 SMG › Horizontal Recoil\"]",
+            "statsRaw[\"STA-11 SMG › Vertical Recoil\"]",
+            "statsRaw[\"STA-11 SMG › Sway\"]",
+            "statsRaw[\"STA-11 SMG › Ergonomics\"]",
+            "statsRaw[\"STA-11 SMG › Drift Recoil\"]",
+            "statsRaw[\"STA-11 SMG › Climb Recoil\"]",
+            "statsRaw[\"STA-11 SMG › Base Sway\"]",
+            "statsRaw[\"STA-11 SMG › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "tm-1-lure-mine",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AC-8 P2 › Projectile › Size\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-gm-17-gas-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Recoil\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Horizontal Recoil\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Vertical Recoil\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Drift Recoil\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › GAS MORTAR SENTRY › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mg-43-machine-gun-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Recoil\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Horizontal Recoil\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Vertical Recoil\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Drift Recoil\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › MACHINE GUN SENTRY › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-arc-3-k-9",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Recoil\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Horizontal Recoil\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Vertical Recoil\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Drift Recoil\"]",
+            "statsRaw[\"AX/ARC-3 K-9 › AX/ARC-3 K-9DR 0 › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-flam-75-hot-dog",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Recoil\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Horizontal Recoil\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Vertical Recoil\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Drift Recoil\"]",
+            "statsRaw[\"AX/FLAM-75 HOT DOG › AX/FLAM-75 HOT DOGDR 0 › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-las-5-rover",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Recoil\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Horizontal Recoil\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Vertical Recoil\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Drift Recoil\"]",
+            "statsRaw[\"AX/LAS-5 ROVER › AX/LAS-5 ROVERDR 0 › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-tx-13-dog-breath",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Recoil\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Horizontal Recoil\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Vertical Recoil\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Drift Recoil\"]",
+            "statsRaw[\"AX/TX-13 DOG BREATH › AX/TX-13 DOG BREATHDR 0 › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-gl-21-grenadier-battlement",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Recoil\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Horizontal Recoil\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Vertical Recoil\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Drift Recoil\"]",
+            "statsRaw[\"GRENADIER BATTLEMENT › GRENADIER BATTLEMENT › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-strafing-run",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Recoil\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Horizontal Recoil\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Vertical Recoil\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Drift Recoil\"]",
+            "statsRaw[\"Eagle Strafing Run › SWP EAGLE STRAFING RUN › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "flam-40-flamethrower",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Recoil\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Horizontal Recoil\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Vertical Recoil\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Drift Recoil\"]",
+            "statsRaw[\"FLAM-40 FLAMETHROWER › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-99-quasar-cannon",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LAS-99 QUASAR CANNON › Recoil\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Horizontal Recoil\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Vertical Recoil\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Drift Recoil\"]",
+            "statsRaw[\"LAS-99 QUASAR CANNON › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-1000-maxigun",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "statsRaw[\"M-1000 MAXIGUN › Recoil\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Horizontal Recoil\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Vertical Recoil\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Sway\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Ergonomics\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Drift Recoil\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Climb Recoil\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Base Sway\"]",
+            "statsRaw[\"M-1000 MAXIGUN › Base Ergonomics\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "plas-45-epoch",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"PLAS-45 EPOCH › Recoil\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Horizontal Recoil\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Vertical Recoil\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Drift Recoil\"]",
+            "statsRaw[\"PLAS-45 EPOCH › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Recoil\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Horizontal Recoil\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Vertical Recoil\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Drift Recoil\"]",
+            "statsRaw[\"RL-77 AIRBURST ROCKET LAUNCHER › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sta-x3-wasp-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Recoil\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Horizontal Recoil\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Vertical Recoil\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Drift Recoil\"]",
+            "statsRaw[\"STA-X3 W.A.S.P. LAUNCHER › Climb Recoil\"]"
+          ]
+        },
+        {
+          "collection": "armors",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.wikiFile",
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "helmets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ss-33-mimetic-marshal",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-24.4dee3d67",
       "date": "2026-10-24",

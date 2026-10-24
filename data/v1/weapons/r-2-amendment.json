@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 28.75,
-      "horizontalRecoil": 17.5,
-      "verticalRecoil": 40,
+      "recoil": 29,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.1,
         "vertical": 0.1
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 50,
       "reloadKind": "magazine",
       "reloadTimeS": 3.5,
@@ -134,12 +134,11 @@
       "Reload Time": "3.5s",
       "Tactical Reload Time": "2.8s",
       "R-2 AMENDMENT › Fire Rate": "480 rpm",
-      "R-2 AMENDMENT › Recoil": "28.75",
-      "R-2 AMENDMENT › Horizontal Recoil": "17.5",
-      "R-2 AMENDMENT › Vertical Recoil": "40",
+      "R-2 AMENDMENT › Drift Recoil": "↔[25.00] ↕[35.00]",
+      "R-2 AMENDMENT › Climb Recoil": "↔[10.00] ↕[45.00]",
       "R-2 AMENDMENT › Spread": "↔[0.10] ↕[0.10]",
-      "R-2 AMENDMENT › Sway": "1",
-      "R-2 AMENDMENT › Ergonomics": "50",
+      "R-2 AMENDMENT › Base Sway": "1",
+      "R-2 AMENDMENT › Base Ergonomics": "50",
       "R-2 AMENDMENT › Noise When Firing": "Medium (~48m)",
       "R-2 AMENDMENT › Capacity": "20",
       "R-2 AMENDMENT › Spare Magazines": "8",

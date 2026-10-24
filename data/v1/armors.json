@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.4dee3d67",
-    "generatedAt": "2026-10-24T13:17:59Z",
+    "dataVersion": "2026-10-24.47a3d19d",
+    "generatedAt": "2026-10-24T23:08:19Z",
     "count": 113,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3874,17 +3874,15 @@
       "aliases": [],
       "description": "This light armor features state-of-the-art synthetic adaptive fibers and light-diffusing scrim netting, enabling its wearer to blend seamlessly into any wilderness, and carry out unannounced compliance audits with as much surprise as they deem appropriate.",
       "image": {
-        "url": "/images/v1/armors/ss-33-mimetic-marshal.b81067d7.webp",
+        "url": "/images/v1/armors/ss-33-mimetic-marshal.0eb59deb.webp",
         "width": 512,
         "height": 512,
-        "wikiFile": "SS-33_Mimetic_Marshal_Default_Armor_Set_Image.png"
+        "wikiFile": "SS-33_Mimetic_Marshal_Armor_Render.png"
       },
       "wiki": {
         "title": "SS-33 Mimetic Marshal",
         "url": "https://helldivers.wiki.gg/wiki/SS-33_Mimetic_Marshal",
-        "flags": [
-          "broken_file_links"
-        ]
+        "flags": []
       },
       "weight": "light",
       "armorRating": 50,
