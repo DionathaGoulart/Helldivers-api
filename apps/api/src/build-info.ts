@@ -6,6 +6,8 @@ import type { Collection } from "@hd2/schemas";
  */
 export interface BuildInfo {
   dataVersion: string;
+  /** Bundle fingerprint injected by bundleWorker; invalidates responses on code-only deploys. */
+  responseVersion?: string;
   generatedAt: string;
   /** Ids of every collection a query filter references (`warbond`, `trait`, `passive`, `set`). */
   ids: Partial<Record<Collection, readonly string[]>>;

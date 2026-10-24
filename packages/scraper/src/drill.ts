@@ -1,5 +1,6 @@
 import type { ImageBackend } from "./images/attach.ts";
 import { B2Error } from "./images/b2.ts";
+import { SUPERSTORE } from "./parsers/superstore.ts";
 import type { WikiPage, WikiSource } from "./source.ts";
 import { loadHtml } from "./wiki/html.ts";
 
@@ -71,8 +72,10 @@ export class DrillSource implements WikiSource {
     return this.kind === "robots-changed" ? spoilRobots(robots) : robots;
   }
 
-  async page(title: string): Promise<WikiPage> {
-    const page = await this.inner.page(title);
+  async page(title: string, options: { fresh?: boolean } = {}): Promise<WikiPage> {
+    const page = await this.inner.page(title, options);
+    // Superstore is checked early but does not determine any collection's entity count.
+    if (this.kind === "count-drop" && title === SUPERSTORE) return page;
     if (!this.#firstPage) {
       return page;
     }

@@ -85,4 +85,23 @@ describe("B2Store", () => {
     await store.delete("images/v1/a.0d15ea5e.webp");
     expect(s3.requests.map((request) => request.method)).toEqual(["DELETE", "DELETE"]);
   });
+
+  it("aborts a stalled B2 request and stops after the retry limit", async () => {
+    let attempts = 0;
+    const store = new B2Store({
+      ...options,
+      retryDelaysMs: [1],
+      requestTimeoutMs: 10,
+      fetch: (request) => {
+        attempts += 1;
+        return new Promise((_resolve, reject) => {
+          request.signal.addEventListener("abort", () => reject(request.signal.reason), {
+            once: true,
+          });
+        });
+      },
+    });
+    await expect(store.exists("images/v1/a.webp")).rejects.toThrow(B2Error);
+    expect(attempts).toBe(2);
+  });
 });

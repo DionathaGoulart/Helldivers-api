@@ -12,6 +12,7 @@ const MAX_RETRY_AFTER_MS = 300_000;
 const MAX_STALE_AGE_MS = 7 * 24 * 60 * 60 * 1000;
 const MAX_CONSECUTIVE_STALE_FALLBACKS = 3;
 const REQUEST_TIMEOUT_MS = 30_000;
+const MAX_REDIRECTS = 5;
 
 export class HttpError extends Error {
   constructor(
@@ -150,14 +151,14 @@ export class HttpClient {
   }
 
   async get(target: string, options: GetOptions = {}): Promise<HttpResult> {
-    const url = new URL(target, this.#base);
+    let url = new URL(target, this.#base);
     url.hash = "";
     assertFetchable(url, this.#base);
     if (this.#robots && !this.#robots.isAllowed(url.href)) {
       throw new DisallowedUrlError(url.href, "robots.txt disallows it");
     }
 
-    const cached = this.#options.cache ? await this.#options.cache.get(url.href) : null;
+    let cached = this.#options.cache ? await this.#options.cache.get(url.href) : null;
     if (cached && options.immutable) {
       return {
         url: url.href,
@@ -177,12 +178,14 @@ export class HttpClient {
     }
 
     const delays = this.#options.retryDelaysMs ?? RETRY_DELAYS_MS;
+    let redirects = 0;
     for (let attempt = 0; ; attempt += 1) {
       const result = await this.#queue.run(() => this.#attempt(url, headers));
       this.#stats.requests += 1;
       const retryDelay = delays[attempt];
 
       if (!result.ok) {
+        if (result.error instanceof DisallowedUrlError) throw result.error;
         const reason = result.error instanceof Error ? result.error.message : String(result.error);
         this.#logger.warn("http", { url: url.href, error: reason, ms: result.ms });
         if (retryDelay === undefined) {
@@ -195,6 +198,30 @@ export class HttpClient {
       }
 
       const { response, body } = result;
+      // Native fetch is asked not to follow redirects. Validate each next URL before sending it.
+      // A custom fetch that follows despite `redirect: manual` is rejected as an unsafe adapter.
+      if (response.url && response.url !== url.href) {
+        throw new DisallowedUrlError(response.url, "fetch followed a redirect without validation");
+      }
+      if ([301, 302, 303, 307, 308].includes(response.status)) {
+        const location = response.headers.get("location");
+        if (!location || redirects >= MAX_REDIRECTS) {
+          throw new HttpError(url.href, response.status, "missing Location or too many redirects");
+        }
+        const next = new URL(location, url);
+        next.hash = "";
+        assertFetchable(next, this.#base);
+        if (this.#robots && !this.#robots.isAllowed(next.href)) {
+          throw new DisallowedUrlError(next.href, "robots.txt disallows it");
+        }
+        redirects += 1;
+        url = next;
+        cached = null;
+        headers.delete("if-none-match");
+        headers.delete("if-modified-since");
+        attempt = -1;
+        continue;
+      }
       this.#logger.info("http", {
         url: url.href,
         status: response.status,
@@ -232,7 +259,7 @@ export class HttpClient {
       const response = await this.#fetch(
         new Request(url, {
           headers,
-          redirect: "follow",
+          redirect: "manual",
           signal: AbortSignal.timeout(this.#options.requestTimeoutMs ?? REQUEST_TIMEOUT_MS),
         }),
       );

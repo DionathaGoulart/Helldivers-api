@@ -1,4 +1,4 @@
-import { mkdtemp, rm } from "node:fs/promises";
+import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import { pathToFileURL } from "node:url";
@@ -16,6 +16,28 @@ const dir = await mkdtemp(join(tmpdir(), "hd2-worker-"));
 afterAll(() => rm(dir, { recursive: true, force: true }));
 
 describe("bundleWorker", () => {
+  it("fingerprints code changes with unchanged dataset metadata deterministically", async () => {
+    const { site } = await syntheticSite();
+    const entry = join(dir, "fingerprint.ts");
+    const outfile = join(dir, "fingerprint.js");
+    const compile = async (behavior: number) => {
+      await writeFile(
+        entry,
+        `export default { version: __BUILD_INFO__.responseVersion, behavior: ${behavior} };`,
+      );
+      await bundleWorker(entry, outfile, site.build);
+      const code = await readFile(outfile, "utf8");
+      const result = await import(
+        `data:text/javascript;base64,${Buffer.from(code).toString("base64")}`
+      );
+      return result.default.version as string;
+    };
+    const first = await compile(1);
+    expect(first).toMatch(/^[a-f0-9]{64}$/);
+    expect(await compile(1)).toBe(first);
+    expect(await compile(2)).not.toBe(first);
+  });
+
   it("builds a self-contained worker.js that knows its dataset", async () => {
     const { files, site } = await syntheticSite();
     const outfile = join(dir, "worker.js");

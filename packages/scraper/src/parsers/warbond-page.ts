@@ -66,6 +66,7 @@ export type RawWarbondGridCell = z.infer<typeof RawWarbondGridCell>;
 export type RawWarbondPage = z.infer<typeof RawWarbondPage>;
 
 const COLUMNS = ["Icon", "Item", "Type", "Cost"] as const;
+const SUMMARY_ROW = /^(?:total\b|page\s+total\b)/i;
 
 const rawCost = (cell: Cheerio<Element>) => ({
   text: textOf(cell),
@@ -91,19 +92,28 @@ export function parseWarbondPage(html: string, { url }: { url: string }): RawWar
     }
     const table = readWikitable($, tables.first());
     const column = columnIndexes(table, COLUMNS, url, selector);
-    // Only full item rows; summary lines such as "Total page cost" have fewer cells (arch §4.5).
-    const items = table.rows
-      .filter((row) => row.cells.length === COLUMNS.length)
-      .map((row) => {
-        const cell = (name: (typeof COLUMNS)[number]) => cellAt(row, column[name], url, selector);
-        return {
+    const items = table.rows.flatMap((row) => {
+      const labelCell = row.cells[column.Item] ?? row.cells[0];
+      const label = (labelCell ? textOf(labelCell) : "").replace(/\s+/g, " ").trim();
+      // Summary lines such as "Total page cost" have fewer cells (arch §4.5).
+      if (row.cells.length < COLUMNS.length && SUMMARY_ROW.test(label)) return [];
+      if (row.cells.length !== COLUMNS.length) {
+        throw new ParseError(
+          url,
+          selector,
+          `unexpected ${JSON.stringify(label)} row: found ${row.cells.length} cells, expected ${COLUMNS.length}`,
+        );
+      }
+      const cell = (name: (typeof COLUMNS)[number]) => cellAt(row, column[name], url, selector);
+      return [
+        {
           name: textOf(cell("Item")),
           link: firstArticleLink(cell("Item")),
           wikiType: textOf(cell("Type")),
           cost: rawCost(cell("Cost")),
-        };
-      })
-      .filter((item) => item.name !== "");
+        },
+      ];
+    });
     return [{ number: Number(number), items, grid: readGrid($, section) }];
   });
 

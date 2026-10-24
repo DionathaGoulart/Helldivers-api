@@ -1,5 +1,11 @@
 import { describe, expect, it } from "vitest";
-import { downloadPath, imageVersion, isVector } from "../../src/images/download.ts";
+import type { HttpClient } from "../../src/http/client.ts";
+import {
+  downloadPath,
+  imageVersion,
+  isVector,
+  WikiImageFetcher,
+} from "../../src/images/download.ts";
 import { fitSize } from "../../src/images/rendition.ts";
 
 describe("fitSize", () => {
@@ -22,6 +28,22 @@ describe("fitSize", () => {
 });
 
 describe("downloadPath", () => {
+  it("fetches unversioned images fresh and versioned images as immutable", async () => {
+    const calls: unknown[] = [];
+    const http = {
+      get: async (path: string, options: unknown) => {
+        calls.push({ path, options });
+        return { body: Buffer.from("image") };
+      },
+    } as unknown as HttpClient;
+    const fetcher = new WikiImageFetcher(http);
+    await fetcher.fetch("/images/A.png");
+    await fetcher.fetch("/images/B.png?97e7bb");
+    expect(calls).toEqual([
+      { path: "/images/A.png", options: { immutable: false, fresh: true } },
+      { path: "/images/B.png?97e7bb", options: { immutable: true, fresh: false } },
+    ]);
+  });
   const image = (src: string, width: number | null, height: number | null, file?: string) => ({
     file: file ?? (/([^/]+?)(?:\?|$)/.exec(src.split("/").at(-1) ?? "")?.[1] as string),
     src,

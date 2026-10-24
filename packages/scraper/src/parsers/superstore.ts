@@ -63,7 +63,31 @@ const ACQ_TYPES = {
   helmet: "Helmet",
   cape: "Cape",
   card: "PlayerCard",
+  emote: "Emote",
+  primary: null,
+  secondary: null,
 } as const;
+
+function acquisitionType(cell: ReturnType<CheerioAPI>) {
+  const crops = (cell.attr("class") ?? "")
+    .split(/\s+/)
+    .filter((className) => className.startsWith("hd2-acq-crop-"));
+  if (crops.length > 0) {
+    if (crops.length !== 1) return undefined;
+    const key = crops[0]?.slice("hd2-acq-crop-".length) as keyof typeof ACQ_TYPES | undefined;
+    return key && key in ACQ_TYPES ? ACQ_TYPES[key] : undefined;
+  }
+
+  // The wiki omits crop classes for legacy armory assets and weapon renders.
+  const alt = cell.find(".hd2-acq-image img").attr("alt") ?? "";
+  if (/\bHelmet\b/i.test(alt)) return "Helmet";
+  if (/\bBody\b/i.test(alt)) return "Armor";
+  if (/\bEmote Icon\./i.test(alt)) return "Emote";
+  if (/\b(?:Primary|Secondary) Render\./i.test(alt) || /\bThrowable Render\./i.test(alt)) {
+    return null;
+  }
+  return undefined;
+}
 
 function readAcquisitionCell(
   $: CheerioAPI,
@@ -72,25 +96,38 @@ function readAcquisitionCell(
   selector: string,
 ): RawStoreItem {
   const cell = $(element);
-  const types = Object.entries(ACQ_TYPES).filter(([key]) => cell.hasClass(`hd2-acq-crop-${key}`));
+  const type = acquisitionType(cell);
   const anchor = cell.find(".hd2-acq-image > a[href]");
   const link = linkFromHref(anchor.attr("href") ?? "");
   const name = anchor.attr("title")?.trim() || link?.title;
   const cost = cell.find(".hd2-acq-cost");
   const price = textOf(cost.find(".hd2-cost-value"));
   if (
-    types.length !== 1 ||
+    type === undefined ||
     anchor.length !== 1 ||
     !link ||
     !name ||
     !SC_PRICE.test(price) ||
     detectCurrency(cost) !== "super_credits"
   ) {
-    throw new ParseError(url, selector, "unexpected acquisition cell");
+    const issues = [
+      type === undefined ? "unrecognized item type" : null,
+      anchor.length !== 1 ? `expected 1 item link, found ${anchor.length}` : null,
+      !link ? `invalid item href ${JSON.stringify(anchor.attr("href") ?? "")}` : null,
+      !name ? "missing item title" : null,
+      !SC_PRICE.test(price) ? `invalid Super Credit price ${JSON.stringify(price)}` : null,
+      detectCurrency(cost) !== "super_credits" ? "currency is not Super Credits" : null,
+    ].filter((issue): issue is string => issue !== null);
+    const alt = cell.find(".hd2-acq-image img").attr("alt") ?? "";
+    throw new ParseError(
+      url,
+      selector,
+      `unexpected acquisition cell (${issues.join("; ")}; class=${JSON.stringify(cell.attr("class") ?? "")}; alt=${JSON.stringify(alt)})`,
+    );
   }
   return {
     name,
-    type: types[0]?.[1] ?? null,
+    type,
     link: { label: name, ...link },
     cost: { text: price, currency: "super_credits" },
   };

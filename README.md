@@ -285,20 +285,38 @@ with the item URL, the field and what the wiki says.
 ## Daily scrape
 
 `scrape.yml` runs at 18:07 America/Sao_Paulo, Sundays with a full refresh. A run that changes
-anything commits `data/` and deploys; a run that changes nothing commits nothing. Any failure
-leaves `data/v1` untouched and opens a `scraper-alert` issue, which the next green run closes.
+anything commits `data/`; deployment waits for CI to pass on that exact revision. A run that
+changes nothing commits nothing. Scrape validation failures leave the published dataset
+untouched. Workflow failures open a `scraper-alert` issue, including failures after scraping
+(validation, commit or push); the next successful workflow closes it.
 A failed run gets one catch-up at 06:07 on a fresh runner (the wiki's Cloudflare sometimes
 challenges one runner's IP); after a good run the catch-up skips without touching the wiki.
 
 Run it by hand from the Actions tab (`full_refresh`, `allow_drop`, `only`, `drill`).
+Choose `none` for a real run; rehearsals cannot commit or close existing alerts.
+
+Scraper regression tests run before network access. Superstore markup is checked before item
+pages, so an incompatible layout fails early. Unknown types, invalid prices and malformed
+warbond item rows fail explicitly instead of silently dropping data. Reports are retained as
+Actions artifacts for 14 days. CI also validates workflow syntax with pinned actionlint.
+
+Publication stages the entire data directory, including the ID lock and changelog archives,
+then swaps it with rollback on failure. An interrupted swap is recovered before the next run
+reads the dataset. Run only one scraper at a time for a given `DATA_DIR` (Actions serializes runs).
 
 After exhausting retries for a network error or HTTP 500/502/504, an ordinary run can reuse
 cached item HTML fetched within the last seven days, for at most three consecutive pages.
 A successful live wiki response (200/304) resets this limit. Each fallback is listed in the
 run warnings; it does not count as a 304 or renew the cache age.
 Index pages, full refreshes, robots.txt, images and wiki blocks never use this fallback.
+If a cached armor page disagrees with the fresh index about its passive, the scraper fetches
+that page again without validators before normalizing it. This handles stale transcluded
+passive names without guessing aliases; an unresolved reference still stops publication.
 Requests time out after 30 seconds, including reading the response body. Missing, expired or
 invalid cached HTML still fails the run, preserving the published dataset.
+Every redirect is checked against the allowed host, paths and robots policy before following
+it. B2 requests also time out after 30 seconds per attempt. Unversioned wiki images are fetched
+fresh on each online run; versioned images keep their immutable cache behavior.
 
 ### Manual fallback
 
@@ -312,7 +330,10 @@ pnpm validate:data
 git add data/ && git commit -F .reports/commit-message.txt && git push
 ```
 
-The push to `main` starts `deploy.yml`, which builds, deploys and smokes the site.
+The push to `main` starts CI. Only a successful CI run for a push on `main` triggers deployment;
+manual deployments must also reference a revision that passed CI. Deployment refuses a stale
+revision if `main` advanced. Dynamic API cache keys and ETags include a bundle fingerprint, so
+code fixes invalidate cached query/search responses even when the dataset stays unchanged.
 
 ## Contributing
 

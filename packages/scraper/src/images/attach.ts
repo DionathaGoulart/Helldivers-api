@@ -186,7 +186,8 @@ export async function attachImages(input: AttachImagesInput): Promise<AttachImag
             entry.version === version &&
             entry.rendition === rendition,
         );
-      if (reuse) {
+      // An unversioned wiki URL may change while keeping the same name. Recheck it online.
+      if (reuse && (version !== null || !backend)) {
         stats.reused += 1;
         resolved.set(base, imageOf(reuse));
         continue;

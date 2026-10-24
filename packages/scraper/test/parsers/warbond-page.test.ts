@@ -148,6 +148,33 @@ describe("warbond-page parser (page tables)", async () => {
     ]);
   });
 
+  it("skips explicit summary rows and rejects malformed item rows", () => {
+    const summaryPage = cheerio.load(mobilizePage.html);
+    const summaryRow = summaryPage("table.wikitable tr")
+      .filter((_, tr) => {
+        const cells = summaryPage(tr).children("td");
+        return cells.length === 4 && summaryPage(cells[1]).text().includes("100 Super Credits");
+      })
+      .first();
+    expect(summaryRow).toHaveLength(1);
+    summaryRow.closest("table").append('<tr><td colspan="4">Total page cost: 210 Medals</td></tr>');
+    expect(
+      parseWarbondPage(summaryPage.html(), { url: mobilizePage.url }).pages[0]?.items,
+    ).toHaveLength(8);
+
+    const malformedPage = cheerio.load(mobilizePage.html);
+    const creditRow = malformedPage("table.wikitable tr")
+      .filter((_, tr) => {
+        const cells = malformedPage(tr).children("td");
+        return cells.length === 4 && malformedPage(cells[1]).text().includes("100 Super Credits");
+      })
+      .first();
+    creditRow.append("<td>new metadata</td>");
+    expect(() => parseWarbondPage(malformedPage.html(), { url: mobilizePage.url })).toThrow(
+      'unexpected "100 Super Credits" row: found 5 cells, expected 4',
+    );
+  });
+
   it("reads the icon grid of each page, the second account of its items (rule 12)", () => {
     expect(redacted.pages.map((page) => page.grid?.length)).toEqual([7, 6, 6]); // one cell per row
     expect(redacted.pages[2]?.grid).toContainEqual({ title: "Concealed Insertion" });

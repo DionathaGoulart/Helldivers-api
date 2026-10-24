@@ -39,6 +39,23 @@ const attach = (
   });
 
 describe("attachImages", () => {
+  it("refetches an unversioned wiki image when its bytes change", async () => {
+    const backend = fakeBackend();
+    const image = { ...icon("A.svg"), src: "/images/A.svg" };
+    const request: [string, ImageRequest[]][] = [["boosters", [{ id: "a", variant: null, image }]]];
+    const first = await attach({ boosters: [booster("a")] }, request, backend);
+    backend.fetched.length = 0;
+    backend.encoder = {
+      encode: async () => ({ body: Buffer.from("changed image"), width: 256, height: 256 }),
+    };
+    const second = await attach({ boosters: [booster("a")] }, request, backend, first.manifest);
+    expect(backend.fetched).toEqual(["/images/A.svg"]);
+    expect(second.stats).toMatchObject({ fetched: 1, reused: 0, uploaded: 1 });
+    expect(second.dataset.boosters?.[0]?.image?.url).not.toBe(
+      first.dataset.boosters?.[0]?.image?.url,
+    );
+  });
+
   it("skips the PUT of a key B2 already holds", async () => {
     const backend = fakeBackend();
     const first = await attach(

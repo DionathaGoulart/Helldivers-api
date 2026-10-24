@@ -1,3 +1,4 @@
+import { fnv1a64 } from "../../src/lib/etag.ts";
 import { PROBLEM_TYPES } from "../../src/lib/problem.ts";
 
 // Post-deploy checks (arch §11 Smoke, plan D29): the static host (`_headers`, `_redirects`,
@@ -210,11 +211,7 @@ export async function runSmoke(options: SmokeOptions, deps: SmokeDeps): Promise<
       "ratelimit",
       new RegExp(`^"${tier}";r=\\d+;t=\\d+, "daily";r=\\d+;t=\\d+$`),
     );
-    expectHeader(
-      response,
-      "etag",
-      new RegExp(`^W/"${options.dataVersion.replace(".", "\\.")}-[a-f0-9]{16}"$`),
-    );
+    expectHeader(response, "etag", new RegExp(`^W/"[a-f0-9]{64}-${fnv1a64(path)}"$`));
     const body = (await response.json()) as { meta: { total: number } };
     expect(body.meta.total > 0, "no primary weapons");
     const revalidated = await request(path, {

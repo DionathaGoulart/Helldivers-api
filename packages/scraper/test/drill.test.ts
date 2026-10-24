@@ -1,6 +1,7 @@
 import { cp, mkdtemp, readdir, readFile, rm } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join, relative } from "node:path";
+import type { Collection } from "@hd2/schemas";
 import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import { DrillSource, drillBackend, drillFetch } from "../src/drill.ts";
 import { HttpClient } from "../src/http/client.ts";
@@ -34,13 +35,14 @@ async function readTree(root: string): Promise<Record<string, string>> {
 const run = (
   source: WikiSource = new FixtureSource(FIXTURES_DIR),
   images: ImageBackend | null = fakeBackend(),
+  only: Collection[] | null = ["boosters"],
 ) =>
   runScrape({
     dataDir,
     source,
     http: null,
     images,
-    only: ["boosters"],
+    only,
     allowDrop: false,
     fullRefresh: false,
     baseUrl: "https://helldivers.wiki.gg",
@@ -59,6 +61,35 @@ afterEach(async () => {
 });
 
 describe("SCRAPER_DRILL", () => {
+  it("passes targeted fresh requests through the drill source", async () => {
+    let received: { fresh?: boolean } | undefined;
+    const source: WikiSource = {
+      offline: false,
+      robotsTxt: async () => "",
+      page: async (title, options) => {
+        received = options;
+        return {
+          title,
+          url: `https://helldivers.wiki.gg/wiki/${title}`,
+          html: "<html>",
+          fromCache: false,
+          lastModified: null,
+        };
+      },
+    };
+    await new DrillSource(source, "count-drop").page("SA-7 Headfirst", { fresh: true });
+    expect(received).toEqual({ fresh: true });
+  });
+
+  it("count-drop still targets the index after the Superstore preflight", async () => {
+    const fixtures = new FixtureSource(FIXTURES_DIR);
+    const source = new DrillSource(fixtures, "count-drop");
+    const published = await readTree(join(dataDir, "v1"));
+    const report = await run(source, fakeBackend(), ["boosters", "warbonds"]);
+    expect(report.failure?.kind).toBe("count-drop");
+    expect(await readTree(join(dataDir, "v1"))).toEqual(published);
+  }, 15_000); // Parses two collections and validates the complete dataset on disk.
+
   it.each(["parser-broken", "count-drop", "robots-changed"] as const)(
     "%s fails the run and publishes nothing",
     async (kind) => {
@@ -81,7 +112,7 @@ describe("SCRAPER_DRILL", () => {
     expect(report.failure?.kind).toBe("images");
     expect(report.failure?.messages.join(" ")).toContain("drill: upload refused");
     expect(await readTree(join(dataDir, "v1"))).toEqual(published);
-  });
+  }, 15_000); // Two full dataset validations and a recoverable disk publication.
 
   it("blocked stops the client after three refusals in a row", async () => {
     const http = new HttpClient({

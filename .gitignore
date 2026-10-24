@@ -6,6 +6,7 @@ dist/
 apps/api/build/
 .cache/
 .staging/
+.staging-*/
 .reports/
 .vitest/
 .wrangler/

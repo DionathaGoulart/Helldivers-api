@@ -26,8 +26,8 @@ on:
       drill:
         description: Rehearse a failure instead of scraping for real (arch §7.1)
         type: choice
-        default: ""
-        options: ["", "parser-broken", "blocked", "count-drop", "images", "robots-changed"]
+        default: none
+        options: [none, "parser-broken", "blocked", "count-drop", "images", "robots-changed"]
 
 permissions:
   contents: write
@@ -84,6 +84,8 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
+      - name: Check scraper regressions before contacting the wiki
+        run: pnpm exec vitest run --project scraper
       # Validators and bodies from the last run: a quiet wiki answers 304 to almost every request.
       - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
         with:
@@ -104,16 +106,16 @@ jobs:
           SCRAPER_FULL_REFRESH: ${{ steps.mode.outputs.full_refresh }}
           SCRAPER_ALLOW_DROP: ${{ inputs.allow_drop }}
           SCRAPER_ONLY: ${{ inputs.only }}
-          SCRAPER_DRILL: ${{ inputs.drill }}
+          SCRAPER_DRILL: ${{ inputs.drill != 'none' && inputs.drill || '' }}
           B2_S3_ENDPOINT: ${{ vars.B2_S3_ENDPOINT }}
           B2_BUCKET: ${{ vars.B2_BUCKET }}
           B2_WRITE_KEY_ID: ${{ secrets.B2_WRITE_KEY_ID }}
           B2_WRITE_APP_KEY: ${{ secrets.B2_WRITE_APP_KEY }}
       - run: pnpm validate:data
-      # The push starts `deploy.yml` on its own: unlike GITHUB_TOKEN, a deploy key triggers
-      # workflows. `ci.yml` runs on the same push.
+      # The deploy key triggers CI; deployment waits for that exact revision to pass CI.
       - id: commit
         name: Commit the dataset when it changed
+        if: inputs.drill == '' || inputs.drill == 'none'
         run: |
           if [ -z "$(git status --porcelain data/)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
@@ -124,6 +126,7 @@ jobs:
           git add data/
           git commit -F .reports/commit-message.txt
           git pull --rebase
+          pnpm validate:data
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"
       # GitHub disables a scheduled workflow after 60 days without repository activity (arch §7.3).
@@ -132,16 +135,29 @@ jobs:
         run: pnpm keepalive --max-idle-days 45
       - name: Job summary
         if: always()
-        run: cat .reports/summary.md >> "$GITHUB_STEP_SUMMARY"
+        run: |
+          if [ -f .reports/summary.md ]; then
+            cat .reports/summary.md >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Scrape report unavailable; inspect the failing setup or execution step." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Preserve scrape diagnostics
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: scrape-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: .reports/
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Alert
         if: failure()
-        run: pnpm alert --report .reports
+        run: pnpm alert --report .reports --failed workflow-failed
         env:
           GH_TOKEN: ${{ github.token }}
       # A green run closes the alerts an earlier failure left open, and opens, updates or closes
       # the one [wiki] issue listing what the wiki contradicts itself about (rule 12, quarantine).
       - name: Close alerts
-        if: success()
+        if: success() && (inputs.drill == '' || inputs.drill == 'none')
         run: pnpm alert --report .reports
         env:
           GH_TOKEN: ${{ github.token }}

@@ -1,4 +1,5 @@
-import { join } from "node:path";
+import { mkdir } from "node:fs/promises";
+import { dirname, join } from "node:path";
 import type { Collection, Id, IdLock } from "@hd2/schemas";
 import { ImageManifest, validateDataset } from "@hd2/schemas";
 import { readIdLock, writeIdLock } from "@hd2/schemas/node";
@@ -26,6 +27,7 @@ import type { Logger } from "./log.ts";
 import { WarbondResolver } from "./normalize/warbonds.ts";
 import { idLockPath, readOverrides } from "./overrides.ts";
 import { EQUIPMENT_TRAITS_INDEX, parseEquipmentTraits } from "./parsers/equipment-traits.ts";
+import { parseSuperstore, SUPERSTORE } from "./parsers/superstore.ts";
 import { archiveEntries, buildEntry, prependEntry } from "./publish/changelog.ts";
 import { CONFLICTS_FILE, describeConflict, mergeConflicts } from "./publish/conflicts.ts";
 import {
@@ -40,7 +42,7 @@ import { diffDatasets } from "./publish/diff.ts";
 import { checkGuardrails, type GuardrailCheck } from "./publish/guardrails.ts";
 import { type QuarantinedEntity, quarantine } from "./publish/quarantine.ts";
 import type { FailureKind, RunReport } from "./publish/report.ts";
-import { writeDataset } from "./publish/write.ts";
+import { recoverDataset, writeDataset } from "./publish/write.ts";
 import { MemoSource, MissingFixtureError, type WikiSource } from "./source.ts";
 import { wikiUrl } from "./wiki/title.ts";
 
@@ -118,6 +120,9 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
 
   let collection: Collection | null = null; // the pipeline running now, named by an alert
   try {
+    await recoverDataset(dataDir);
+    const current = await readCurrentDataset(join(dataDir, "v1"));
+    report.previousDataVersion = current.manifest?.dataVersion ?? null;
     // 1. Preflight: robots.txt allows the planned index pages and Content-Signal is unchanged.
     const pipelines = selectPipelines(options.only);
     const robotsTxt = await source.robotsTxt();
@@ -138,9 +143,15 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
     const overrides = await readOverrides(dataDir);
     const locked = await readIdLock(idLockPath(dataDir));
     const lockBefore = locked.serialize();
-    const current = await readCurrentDataset(join(dataDir, "v1"));
-    report.previousDataVersion = current.manifest?.dataVersion ?? null;
     const warbonds = new WarbondResolver({ aliases: overrides.warbondAliases });
+
+    // Detect Superstore layout drift before fetching hundreds of individual item pages.
+    if (pipelines.some((pipeline) => pipeline.collection === "warbonds")) {
+      collection = "warbonds";
+      const store = await source.page(SUPERSTORE);
+      parseSuperstore(store.html, { url: store.url });
+      collection = null;
+    }
 
     // 2–5. Discover, fetch, parse, normalize; again when a renamed page would change an id (rule 8).
     const scrapeAll = async (idLock: IdLock) => {
@@ -338,14 +349,16 @@ export async function runScrape(options: RunOptions): Promise<RunReport> {
       );
     }
 
-    // 9 + 11. Stage and swap, then the files that depend on a successful publish.
-    if (!unchanged) {
-      await writeDataset(dataDir, files);
-      await archiveEntries(dataDir, archived);
-      report.changed = true;
-    }
-    if (idLock.serialize() !== lockBefore) {
-      await writeIdLock(idLockPath(dataDir), idLock);
+    // 9 + 11. Publish data, archives and ID lock as one recoverable directory swap.
+    if (!unchanged || idLock.serialize() !== lockBefore) {
+      await writeDataset(dataDir, files, async (staged) => {
+        if (!unchanged) await archiveEntries(staged, archived);
+        if (idLock.serialize() !== lockBefore) {
+          await mkdir(dirname(idLockPath(staged)), { recursive: true });
+          await writeIdLock(idLockPath(staged), idLock);
+        }
+      });
+      report.changed = !unchanged;
     }
     report.ok = true;
   } catch (error) {

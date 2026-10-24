@@ -9,6 +9,7 @@ import {
   type IssueApi,
   RestIssueApi,
   raiseAlert,
+  reportWorkflowFailure,
   scrapeAlert,
   syncWikiAlert,
   WIKI_ALERT_TITLE,
@@ -88,7 +89,7 @@ describe("alert bodies", () => {
   it("names the kind, the collection, the run and the last good data", () => {
     const alert = scrapeAlert(failed, run);
     expect(alert.title).toBe("[scraper] count-drop: weapons");
-    expect(alert.body).toContain("failed with `count-drop`; `data/v1` is untouched");
+    expect(alert.body).toContain("failed with `count-drop`");
     expect(alert.body).toContain(`Run: ${run.url}`);
     expect(alert.body).toContain("Last good data version: `2026-09-17.2d3c0c72`");
     expect(alert.body).toContain("- weapons: 104 → 80"); // only the collections that moved
@@ -113,7 +114,17 @@ describe("alert bodies", () => {
   it("builds the deploy alert", () => {
     const alert = deployAlert("smoke-failed", { ...run, workflow: "deploy" });
     expect(alert.title).toBe("[deploy] smoke-failed");
-    expect(alert.body).toContain("previous deployment stays live");
+    expect(alert.body).toContain("Deployment completed, but smoke checks failed");
+  });
+
+  it("preserves scrape failures and reports failures after a successful scrape", () => {
+    expect(reportWorkflowFailure(failed, "workflow-failed")).toBe(failed);
+    const green = { ...failed, ok: true, failure: null };
+    expect(reportWorkflowFailure(green)).toBe(green);
+    const report = reportWorkflowFailure(green, "workflow-failed");
+    expect(report.ok).toBe(false);
+    expect(scrapeAlert(report, run).body).toContain("Workflow failed after scraping succeeded");
+    expect(wikiAlert(report, run)).toBeNull();
   });
 });
 
@@ -130,7 +141,7 @@ describe("raise and clear", () => {
       `open:${ALERT_LABEL}`,
       `create:[scraper] count-drop: weapons:${ALERT_LABEL}`,
       `open:${ALERT_LABEL}`,
-      "comment:7:The scrape run failed with `count-drop`; `data/v1` is untouched and nothing was deployed.",
+      "comment:7:The scrape run failed with `count-drop`. Inspect the failing step and publication status before retrying.",
     ]);
   });
 

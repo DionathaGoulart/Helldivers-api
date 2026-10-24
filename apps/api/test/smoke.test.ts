@@ -1,9 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { BAD_KEY, runSmoke, type SmokeDeps, type SmokeOptions } from "../scripts/smoke/checks.ts";
+import { dynamicETag } from "../src/lib/etag.ts";
 import { PROBLEM_TYPES } from "../src/lib/problem.ts";
 
 const VERSION = "2026-09-17.2d3c0c72";
 const BUILD = "0123456789abcdef0123456789abcdef01234567";
+const RESPONSE_VERSION = "a".repeat(64);
+const QUERY_ETAG = dynamicETag(RESPONSE_VERSION, "/v1/query/weapons?category=primary");
 const IMAGE = "/images/v1/weapons/ar-23-liberator.932ff63d.webp";
 const cors = { "access-control-allow-origin": "*" };
 const html = (body: string, status = 200) =>
@@ -64,7 +67,7 @@ function site(overrides: Record<string, (init?: RequestInit) => Response> = {}) 
             { meta: { total: 54 } },
             {
               "x-data-version": VERSION,
-              etag: `W/"${VERSION}-0123456789abcdef"`,
+              etag: QUERY_ETAG,
               ...tierOf(init),
             },
           ),
@@ -125,6 +128,23 @@ const options: SmokeOptions = {
 };
 
 describe("runSmoke", () => {
+  it.each([
+    `W/"${VERSION}-0123456789abcdef"`,
+    dynamicETag(RESPONSE_VERSION, "/v1/query/boosters"),
+    '"arbitrary"',
+  ])(
+    "rejects a dynamic ETag without the bundle fingerprint and exact query hash: %s",
+    async (etag) => {
+      const { deps } = site({
+        "/v1/query/weapons?category=primary": (init) =>
+          json({ meta: { total: 54 } }, { "x-data-version": VERSION, etag, ...tierOf(init) }),
+      });
+      const failures = await runSmoke(options, deps);
+      expect(failures).toHaveLength(1);
+      expect(failures[0]).toContain("query + revalidation: etag: expected");
+    },
+  );
+
   it("passes against a healthy deployment", async () => {
     const { deps, lines } = site();
     expect(await runSmoke(options, deps)).toEqual([]);
@@ -168,7 +188,7 @@ describe("runSmoke", () => {
         const version = query++ === 0 ? "old" : VERSION;
         return json(
           { meta: { total: 54 } },
-          { "x-data-version": version, etag: `W/"${version}-0123456789abcdef"`, ...tierOf(init) },
+          { "x-data-version": version, etag: QUERY_ETAG, ...tierOf(init) },
         );
       },
     });
@@ -201,7 +221,7 @@ describe("runSmoke", () => {
               { meta: { total: 54 } },
               {
                 "x-data-version": VERSION,
-                etag: `W/"${VERSION}-0123456789abcdef"`,
+                etag: QUERY_ETAG,
                 ...tierOf(init),
               },
             ),
@@ -227,7 +247,7 @@ describe("runSmoke", () => {
               { meta: { total: 54 } },
               {
                 "x-data-version": VERSION,
-                etag: `W/"${VERSION}-0123456789abcdef"`,
+                etag: QUERY_ETAG,
                 ...tierOf(init),
               },
             ),

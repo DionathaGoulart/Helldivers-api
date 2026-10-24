@@ -52,7 +52,7 @@ export function scrapeAlert(report: RunReport, run: AlertRun): Alert {
     .filter(({ before, after }) => before !== after)
     .map(({ collection, before, after }) => `${collection}: ${before} → ${after}`);
   const body = [
-    `The ${run.workflow} run failed with \`${failure.kind}\`; \`data/v1\` is untouched and nothing was deployed.`,
+    `The ${run.workflow} run failed with \`${failure.kind}\`. Inspect the failing step and publication status before retrying.`,
     "",
     ...lines(run),
     `Last good data version: ${report.previousDataVersion ? `\`${report.previousDataVersion}\`` : "none"}`,
@@ -71,10 +71,26 @@ export function scrapeAlert(report: RunReport, run: AlertRun): Alert {
   };
 }
 
+/** A later CI step can fail even though scraping succeeded. Never close alerts in that case. */
+export function reportWorkflowFailure(report: RunReport, failed?: string): RunReport {
+  if (!failed || !report.ok) return report;
+  return {
+    ...report,
+    ok: false,
+    failure: {
+      kind: "error",
+      collection: null,
+      messages: [
+        `Workflow failed after scraping succeeded (${failed}); check validation, commit, push and subsequent steps.`,
+      ],
+    },
+  };
+}
+
 /** `[deploy] smoke-failed`, opened by `deploy.yml` when the deployed site fails its checks. */
 export function deployAlert(kind: string, run: AlertRun): Alert {
   const body = [
-    `The deploy workflow failed at \`${kind}\`. The previous deployment stays live.`,
+    `The deploy workflow failed at \`${kind}\`. ${kind === "smoke-failed" ? "Deployment completed, but smoke checks failed; inspect the live deployment and roll back if needed." : "Check the deployment status before retrying."}`,
     "",
     ...lines(run),
   ];

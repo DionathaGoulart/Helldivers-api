@@ -403,6 +403,28 @@ const hashless = (value: unknown): unknown =>
   );
 
 describe("pnpm scrape --offline", { timeout: 300_000 }, () => {
+  it("checks Superstore before item pages and preserves the last good version on failure", async () => {
+    await fromBaseline();
+    const fixture = new FixtureSource(FIXTURES_DIR);
+    const visited: string[] = [];
+    const source: WikiSource = {
+      offline: true,
+      robotsTxt: () => fixture.robotsTxt(),
+      page: async (title) => {
+        visited.push(title);
+        const page = await fixture.page(title);
+        return title === "Superstore" ? { ...page, html: "<p>changed layout</p>" } : page;
+      },
+    };
+    const report = await run("2026-09-16T21:07:00Z", source);
+    expect(report.ok).toBe(false);
+    expect(report.failure).toMatchObject({ kind: "parser-broken", collection: "warbonds" });
+    expect(report.previousDataVersion).toBe(baseline.dataVersion);
+    expect(visited).toEqual(["Superstore"]);
+    const manifest = JSON.parse(await readFile(join(dataDir, "v1", "meta.json"), "utf8"));
+    expect(manifest.dataVersion).toBe(baseline.dataVersion);
+  });
+
   it("publishes every collection equal to the golden snapshots", async () => {
     const report = baseline;
     const dataDir = join(baselineDir, "data");

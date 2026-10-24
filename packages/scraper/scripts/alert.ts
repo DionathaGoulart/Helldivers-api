@@ -6,6 +6,7 @@ import {
   deployAlert,
   RestIssueApi,
   raiseAlert,
+  reportWorkflowFailure,
   scrapeAlert,
   syncWikiAlert,
   wikiAlert,
@@ -60,7 +61,7 @@ const run = {
 };
 
 // The scrape report; the job can fail before the scraper writes it (install, cache, validate:data).
-const report = values.deploy
+const loadedReport = values.deploy
   ? null
   : await readFile(join(resolve(cwd, values.report), RUN_REPORT_FILE), "utf8").then(
       (text) => JSON.parse(text) as RunReport,
@@ -73,6 +74,7 @@ const report = values.deploy
         },
       }),
     );
+const report = loadedReport ? reportWorkflowFailure(loadedReport, values.failed) : null;
 const alert = report
   ? report.ok
     ? null

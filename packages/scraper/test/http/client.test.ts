@@ -470,4 +470,58 @@ describe("HttpClient", () => {
     expect(requests).toHaveLength(2);
     expect(clock.sleeps).toEqual([10_000]);
   });
+
+  it("validates every redirect against host, path and robots before requesting it", async () => {
+    for (const destination of [
+      "https://other.example/api.php",
+      "/api.php?action=parse",
+      "/wiki/Secret",
+    ]) {
+      const { http, requests } = client([
+        new Response(null, { status: 302, headers: { location: destination } }),
+      ]);
+      http.useRobots(
+        parseRobots(`${BASE}/robots.txt`, "User-agent: *\nDisallow: /wiki/Secret", UA),
+      );
+      await expect(http.get("/wiki/Boosters")).rejects.toThrow(DisallowedUrlError);
+      expect(requests).toHaveLength(1);
+      expect(requests[0]?.redirect).toBe("manual");
+    }
+  });
+
+  it("follows an allowed redirect with pacing and limits redirect loops", async () => {
+    const moved = client([
+      new Response(null, { status: 301, headers: { location: "/wiki/Armor" } }),
+      html(),
+    ]);
+    const result = await moved.http.get("/wiki/Boosters");
+    expect(moved.requests.map((request) => request.url)).toEqual([
+      `${BASE}/wiki/Boosters`,
+      `${BASE}/wiki/Armor`,
+    ]);
+    expect(moved.clock.sleeps).toEqual([3_000]);
+    expect(moved.http.stats.requests).toBe(2);
+    expect(result.url).toBe(`${BASE}/wiki/Armor`);
+
+    const loop = client(
+      Array.from(
+        { length: 6 },
+        () => new Response(null, { status: 302, headers: { location: "/wiki/Boosters" } }),
+      ),
+    );
+    await expect(loop.http.get("/wiki/Boosters")).rejects.toThrow("too many redirects");
+    expect(loop.requests).toHaveLength(6);
+  });
+
+  it("rejects a fetch adapter that silently follows a redirect", async () => {
+    const { http, requests } = client([
+      () => {
+        const response = html();
+        Object.defineProperty(response, "url", { value: "https://other.example/api.php" });
+        return response;
+      },
+    ]);
+    await expect(http.get("/wiki/Boosters")).rejects.toThrow(DisallowedUrlError);
+    expect(requests).toHaveLength(1);
+  });
 });

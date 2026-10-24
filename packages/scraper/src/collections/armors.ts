@@ -37,15 +37,30 @@ export const armorsPipeline: CollectionPipeline<"armors"> = {
     const entities: Armor[] = [];
     const images: ImageRequest[] = [];
     for (const row of rows) {
-      const page = await source.page(row.page.title);
-      const raw = parseArmorPage(page.html, { url: page.url });
+      let page = await source.page(row.page.title);
+      let raw = parseArmorPage(page.html, { url: page.url });
+      const initialTab = armoryTab(raw, "Body Armor");
+      if (!initialTab) {
+        throw new NormalizeError(page.url, raw.name, "no Body Armor tab");
+      }
+      let tab = initialTab;
+      let passiveLink =
+        tab.rows.find((candidate) => candidate.key === "passive")?.links[0] ?? row.passive;
+      if (!source.offline && page.fromCache && passiveLink.title !== row.passive.title) {
+        page = await source.page(row.page.title, { fresh: true });
+        raw = parseArmorPage(page.html, { url: page.url });
+        const refreshedTab = armoryTab(raw, "Body Armor");
+        if (!refreshedTab) {
+          throw new NormalizeError(page.url, raw.name, "no Body Armor tab after fresh fetch");
+        }
+        tab = refreshedTab;
+        passiveLink =
+          tab.rows.find((candidate) => candidate.key === "passive")?.links[0] ?? row.passive;
+      }
+
       const id = idLock.resolve("armors", raw.title, raw.title);
       const name = armoryName(raw.name);
       const note = (message: string) => warnings.push(`armors/${id}: ${message}`);
-      const tab = armoryTab(raw, "Body Armor");
-      if (!tab) {
-        throw new NormalizeError(page.url, raw.name, "no Body Armor tab");
-      }
       const infobox = (key: string) => tab.rows.find((candidate) => candidate.key === key) ?? null;
 
       const typeText = infobox("type")?.text ?? row.weight;
@@ -65,7 +80,6 @@ export const armorsPipeline: CollectionPipeline<"armors"> = {
         return value;
       };
 
-      const passiveLink = infobox("passive")?.links[0] ?? row.passive;
       if (passiveLink.title !== row.passive.title) {
         note(`passive differs from ${ARMOR_INDEX} (${row.passive.title})`);
       }

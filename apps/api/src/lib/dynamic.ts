@@ -18,7 +18,7 @@ export function waitUntil(c: Context<AppEnv>, promise: Promise<unknown>): void {
  * Serves a validated query or search (arch §8.4). `canonical` is the path plus the normalized
  * query, so equivalent URLs share one ETag and one cache entry:
  * If-None-Match → 304 before any data is loaded; then the Cache API under a key that carries the
- * `dataVersion` (a deploy invalidates every entry); on a miss `render` builds the body.
+ * bundle fingerprint (code and data changes invalidate entries); on a miss `render` builds the body.
  */
 export async function serveDynamic(
   c: Context<AppEnv>,
@@ -27,9 +27,10 @@ export async function serveDynamic(
   render: () => Promise<unknown>,
 ): Promise<Response> {
   const { dataVersion } = app.build;
+  const responseVersion = app.build.responseVersion ?? dataVersion;
   const headers = {
     "Cache-Control": DYNAMIC_CACHE_CONTROL,
-    ETag: dynamicETag(dataVersion, canonical),
+    ETag: dynamicETag(responseVersion, canonical),
     "X-Data-Version": dataVersion,
     "X-Content-Type-Options": "nosniff",
     ...CORS_HEADERS,
@@ -40,7 +41,7 @@ export async function serveDynamic(
 
   const cache = app.cache();
   const separator = canonical.includes("?") ? "&" : "?";
-  const key = new Request(new URL(`${canonical}${separator}_dv=${dataVersion}`, c.req.url));
+  const key = new Request(new URL(`${canonical}${separator}_dv=${responseVersion}`, c.req.url));
   const hit = await cache?.match(key).catch(() => undefined);
   if (hit) {
     return hit;

@@ -16,7 +16,7 @@ export interface WikiPage {
 export interface WikiSource {
   readonly offline: boolean;
   robotsTxt(): Promise<string>;
-  page(title: string): Promise<WikiPage>;
+  page(title: string, options?: { fresh?: boolean }): Promise<WikiPage>;
 }
 
 export class OnlineSource implements WikiSource {
@@ -39,11 +39,11 @@ export class OnlineSource implements WikiSource {
     return (await this.http.get("/robots.txt")).body.toString("utf8");
   }
 
-  async page(title: string): Promise<WikiPage> {
+  async page(title: string, options: { fresh?: boolean } = {}): Promise<WikiPage> {
     const normalized = normalizeTitle(title);
     const result = await this.http.get(titleToPath(normalized), {
-      fresh: this.#fresh.has(normalized),
-      staleIfError: !this.#fresh.has(normalized),
+      fresh: options.fresh === true || this.#fresh.has(normalized),
+      staleIfError: options.fresh !== true && !this.#fresh.has(normalized),
     });
     return {
       title: normalized,
@@ -68,8 +68,13 @@ export class MemoSource implements WikiSource {
     return this.inner.robotsTxt();
   }
 
-  page(title: string): Promise<WikiPage> {
+  page(title: string, options: { fresh?: boolean } = {}): Promise<WikiPage> {
     const normalized = normalizeTitle(title);
+    if (options.fresh) {
+      const page = this.inner.page(normalized, options);
+      this.#pages.set(normalized, page);
+      return page;
+    }
     let page = this.#pages.get(normalized);
     if (!page) {
       page = this.inner.page(normalized);
@@ -98,7 +103,7 @@ export class FixtureSource implements WikiSource {
     return readFile(join(this.dir, "robots.txt"), "utf8");
   }
 
-  async page(title: string): Promise<WikiPage> {
+  async page(title: string, _options: { fresh?: boolean } = {}): Promise<WikiPage> {
     const normalized = normalizeTitle(title);
     let html: string;
     try {

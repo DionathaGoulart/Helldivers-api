@@ -6,6 +6,7 @@ import { AwsClient } from "aws4fetch";
 
 export const IMAGE_CACHE_CONTROL = "public, max-age=31536000, immutable";
 export const B2_RETRY_DELAYS_MS: readonly number[] = [1_000, 5_000, 15_000];
+export const B2_REQUEST_TIMEOUT_MS = 30_000;
 
 export interface ImageStore {
   exists(key: string): Promise<boolean>;
@@ -40,6 +41,7 @@ export interface B2StoreOptions {
   appKey: string;
   fetch?: (request: Request) => Promise<Response>;
   retryDelaysMs?: readonly number[];
+  requestTimeoutMs?: number;
   sleep?: (ms: number) => Promise<void>;
 }
 
@@ -50,6 +52,7 @@ export class B2Store implements ImageStore {
   readonly #bucketUrl: string;
   readonly #fetch: (request: Request) => Promise<Response>;
   readonly #delays: readonly number[];
+  readonly #timeoutMs: number;
   readonly #sleep: (ms: number) => Promise<void>;
 
   constructor(options: B2StoreOptions) {
@@ -62,6 +65,7 @@ export class B2Store implements ImageStore {
     this.#bucketUrl = `${options.endpoint.replace(/\/+$/, "")}/${encodeURIComponent(options.bucket)}`;
     this.#fetch = options.fetch ?? ((request) => fetch(request));
     this.#delays = options.retryDelaysMs ?? B2_RETRY_DELAYS_MS;
+    this.#timeoutMs = options.requestTimeoutMs ?? B2_REQUEST_TIMEOUT_MS;
     this.#sleep = options.sleep ?? ((ms) => new Promise((resolve) => setTimeout(resolve, ms)));
   }
 
@@ -100,7 +104,9 @@ export class B2Store implements ImageStore {
       let response: Response;
       try {
         const request = await this.#client.sign(url, { method, ...init });
-        response = await this.#fetch(request);
+        response = await this.#fetch(
+          new Request(request, { signal: AbortSignal.timeout(this.#timeoutMs) }),
+        );
       } catch (error) {
         if (retryDelay === undefined) {
           throw new B2Error(method, key, 0, error instanceof Error ? error.message : String(error));

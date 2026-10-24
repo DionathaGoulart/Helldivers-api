@@ -1,3 +1,5 @@
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 import * as cheerio from "cheerio";
 import { describe, expect, it } from "vitest";
 import { parseSuperstore, SUPERSTORE } from "../../src/parsers/superstore.ts";
@@ -109,5 +111,41 @@ describe("superstore parser", async () => {
     );
     panel.find(".hd2-acq-container").remove();
     expect(() => parseSuperstore($.html(), { url: page.url })).toThrow();
+  });
+
+  it("reads live acquisition cells and rejects unknown or conflicting crop classes", () => {
+    const liveCells = readFileSync(
+      join(import.meta.dirname, "../fixtures/superstore-acquisition-cells.html"),
+      "utf8",
+    );
+    const $ = cheerio.load(page.html);
+    const panel = $("#Page_2-0");
+    panel.append(liveCells);
+
+    const items = parseSuperstore($.html(), { url: page.url }).pages[1]?.items;
+    expect(items?.slice(-6)).toMatchObject([
+      { name: "LAS-12 Sai", type: null, cost: { text: "400", currency: "super_credits" } },
+      { type: null, cost: { currency: "super_credits" } }, // secondary weapon
+      { type: "Helmet" },
+      { type: "Armor" },
+      { type: "Emote" },
+      { type: null }, // throwable
+    ]);
+
+    const unknown = liveCells.replace("hd2-acq-crop-primary", "hd2-acq-crop-unknown");
+    const unknownPage = cheerio.load(page.html);
+    unknownPage("#Page_2-0").append(unknown);
+    expect(() => parseSuperstore(unknownPage.html(), { url: page.url })).toThrow(
+      "unrecognized item type",
+    );
+    const conflicting = liveCells.replace(
+      "hd2-acq-crop-primary",
+      "hd2-acq-crop-primary hd2-acq-crop-secondary",
+    );
+    const conflictingPage = cheerio.load(page.html);
+    conflictingPage("#Page_2-0").append(conflicting);
+    expect(() => parseSuperstore(conflictingPage.html(), { url: page.url })).toThrow(
+      "unrecognized item type",
+    );
   });
 });

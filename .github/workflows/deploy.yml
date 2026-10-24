@@ -1,18 +1,15 @@
 name: deploy
 
 on:
-  push:
+  workflow_run:
+    workflows: [ci]
+    types: [completed]
     branches: [main]
-    paths:
-      - "apps/**"
-      - "packages/**"
-      - "data/**"
-      - "pnpm-lock.yaml"
-      - ".github/workflows/deploy.yml"
   workflow_dispatch:
 
 permissions:
   contents: read
+  actions: read
   issues: write
 
 concurrency:
@@ -21,16 +18,32 @@ concurrency:
 
 jobs:
   deploy:
+    if: >-
+      (github.event_name == 'workflow_dispatch' && github.ref == 'refs/heads/main') ||
+      (github.event.workflow_run.conclusion == 'success' &&
+       github.event.workflow_run.event == 'push' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     env:
       WRANGLER_SEND_METRICS: "false"
+      BUILD_SHA: ${{ github.event.workflow_run.head_sha || github.sha }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          # A scrape commit is newer than the SHA that triggered the caller.
-          ref: main
+          # Deploy exactly the revision CI checked, never a moving branch tip.
+          ref: ${{ github.event.workflow_run.head_sha || github.sha }}
           persist-credentials: false
+      - name: Verify the revision passed CI
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          sha="$(git rev-parse HEAD)"
+          conclusion="$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/ci.yml/runs?head_sha=$sha&event=push&branch=main&per_page=1" --jq '.workflow_runs[0].conclusion')"
+          if [ "$conclusion" != "success" ]; then
+            echo "::error::This revision has not passed CI on main"
+            exit 1
+          fi
       - uses: pnpm/action-setup@ea17c68df8912ef543352723c149a84f56e3d413 # v6.1.0
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
@@ -57,8 +70,15 @@ jobs:
           REQUIRE_IMAGES: "1"
       - name: Deploy the Worker
         working-directory: apps/api
-        run: pnpm exec wrangler deploy
+        run: |
+          current="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')"
+          if [ "$(git rev-parse HEAD)" != "$current" ]; then
+            echo "::error::main advanced; refusing to deploy an older revision"
+            exit 1
+          fi
+          pnpm exec wrangler deploy
         env:
+          GH_TOKEN: ${{ github.token }}
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       # SMOKE_API_KEY: a production key (`pnpm key:issue` with the production secret), so the checks
@@ -67,7 +87,7 @@ jobs:
         run: pnpm smoke --base https://helldivers-api.dionatha.com.br
         env:
           SMOKE_API_KEY: ${{ secrets.SMOKE_API_KEY }}
-      # A failed deploy keeps the previous deployment live; the issue says which step broke.
+      # Smoke failure happens after publication; the issue distinguishes that case.
       - name: Alert
         if: failure()
         run: pnpm alert --deploy --failed ${{ steps.smoke.conclusion == 'failure' && 'smoke-failed' || 'deploy-failed' }}

@@ -44,8 +44,8 @@ if (issues.length > 0) {
   );
 }
 
-// GitHub sets GITHUB_SHA; a local build is `dev`, which smoke does not gate on.
-const site = buildSite(files, process.env.GITHUB_SHA ?? "dev");
+// workflow_run supplies the checked revision explicitly; its event SHA can differ.
+const site = buildSite(files, process.env.BUILD_SHA ?? process.env.GITHUB_SHA ?? "dev");
 
 await rm(distDir, { recursive: true, force: true });
 await mkdir(distDir, { recursive: true });

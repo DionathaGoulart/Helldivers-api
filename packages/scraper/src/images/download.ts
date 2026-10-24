@@ -47,11 +47,12 @@ export interface ImageFetcher {
   fetch(path: string): Promise<Buffer>;
 }
 
-/** Downloads through the polite client; a versioned URL already in the HTTP cache costs nothing. */
+/** Downloads through the polite client; only versioned URLs name immutable bytes. */
 export class WikiImageFetcher implements ImageFetcher {
   constructor(readonly http: HttpClient) {}
 
   async fetch(path: string): Promise<Buffer> {
-    return (await this.http.get(path, { immutable: true })).body;
+    const immutable = imageVersion(path) !== null;
+    return (await this.http.get(path, { immutable, fresh: !immutable })).body;
   }
 }
