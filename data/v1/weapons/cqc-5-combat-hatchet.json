@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -76,12 +76,11 @@
       "Capacity": "N/A",
       "Ergonomics": "65",
       "Recoil": "8",
-      "CQC-5 COMBAT HATCHET › Recoil": "6.25",
-      "CQC-5 COMBAT HATCHET › Horizontal Recoil": "2.5",
-      "CQC-5 COMBAT HATCHET › Vertical Recoil": "10",
+      "CQC-5 COMBAT HATCHET › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "CQC-5 COMBAT HATCHET › Climb Recoil": "↔[2.50] ↕[10.00]",
       "CQC-5 COMBAT HATCHET › Spread": "↔[10.00] ↕[10.00]",
-      "CQC-5 COMBAT HATCHET › Sway": "1",
-      "CQC-5 COMBAT HATCHET › Ergonomics": "65",
+      "CQC-5 COMBAT HATCHET › Base Sway": "1",
+      "CQC-5 COMBAT HATCHET › Base Ergonomics": "65",
       "CQC-5 COMBAT HATCHET › Noise When Firing": "No sound",
       "CQC-5 COMBAT HATCHET › Stamina Cost": "4%",
       "CQC-5 COMBAT HATCHET › Attacks › CQC-5 COMBAT HATCHET_dm": "Damage",

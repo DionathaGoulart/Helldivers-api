@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -144,12 +144,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "MG-43 MACHINE GUN › Fire Rate": "760 rpm",
-      "MG-43 MACHINE GUN › Recoil": "21.25",
-      "MG-43 MACHINE GUN › Horizontal Recoil": "17.5",
-      "MG-43 MACHINE GUN › Vertical Recoil": "25",
+      "MG-43 MACHINE GUN › Drift Recoil": "↔[20.00] ↕[20.00]",
+      "MG-43 MACHINE GUN › Climb Recoil": "↔[15.00] ↕[30.00]",
       "MG-43 MACHINE GUN › Spread": "↔[4.00] ↕[4.00]",
-      "MG-43 MACHINE GUN › Sway": "1",
-      "MG-43 MACHINE GUN › Ergonomics": "15",
+      "MG-43 MACHINE GUN › Base Sway": "1",
+      "MG-43 MACHINE GUN › Base Ergonomics": "15",
       "MG-43 MACHINE GUN › Noise When Firing": "Medium (~48m)",
       "MG-43 MACHINE GUN › Capacity": "175",
       "MG-43 MACHINE GUN › Spare Magazines": "3",

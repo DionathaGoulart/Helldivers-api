@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -48,9 +48,9 @@
       "startingMagazines": 2,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 1.75,
-      "horizontalRecoil": 2,
-      "verticalRecoil": 1.5,
+      "recoil": 2,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 10,
         "vertical": 10
@@ -112,9 +112,8 @@
       "Reload Time": "2.4s",
       "Tactical Reload Time": "4.6s",
       "LAS-58 TALON › Fire Rate": "750 rpm",
-      "LAS-58 TALON › Recoil": "1.75",
-      "LAS-58 TALON › Horizontal Recoil": "2",
-      "LAS-58 TALON › Vertical Recoil": "1.5",
+      "LAS-58 TALON › Drift Recoil": "↔[2.00] ↕[2.00]",
+      "LAS-58 TALON › Climb Recoil": "↔[2.00] ↕[1.00]",
       "LAS-58 TALON › Spread": "↔[10.00] ↕[10.00]",
       "LAS-58 TALON › Base Sway": "1",
       "LAS-58 TALON › Base Ergonomics": "95",

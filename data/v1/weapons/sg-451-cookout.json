@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,14 +50,14 @@
       "startingMagazines": 32,
       "magazinesFromSupply": 60,
       "magazinesFromAmmoBox": 30,
-      "recoil": 71.25,
-      "horizontalRecoil": 42.5,
-      "verticalRecoil": 100,
+      "recoil": 100,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 180,
         "vertical": 140
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "rounds",
       "reloadTimeS": 6.45,
@@ -138,12 +138,11 @@
       "Reload Time For One Round": "1.25s (Empty) / 0.4s (Partial)",
       "Reload Time for >1 Round": "0.33s",
       "SG-451 COOKOUT › Fire Rate": "80 rpm",
-      "SG-451 COOKOUT › Recoil": "71.25",
-      "SG-451 COOKOUT › Horizontal Recoil": "42.5",
-      "SG-451 COOKOUT › Vertical Recoil": "100",
+      "SG-451 COOKOUT › Drift Recoil": "↔[35.00] ↕[35.00]",
+      "SG-451 COOKOUT › Climb Recoil": "↔[50.00] ↕[165.00]",
       "SG-451 COOKOUT › Spread": "↔[180.00] ↕[140.00]",
-      "SG-451 COOKOUT › Sway": "1",
-      "SG-451 COOKOUT › Ergonomics": "65",
+      "SG-451 COOKOUT › Base Sway": "1",
+      "SG-451 COOKOUT › Base Ergonomics": "65",
       "SG-451 COOKOUT › Noise When Firing": "Medium (~48m)",
       "SG-451 COOKOUT › Capacity": "16",
       "SG-451 COOKOUT › Spare Rounds": "60",

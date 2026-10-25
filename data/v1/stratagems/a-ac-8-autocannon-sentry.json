@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -189,12 +189,11 @@
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Main Health": "400",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Main Armor": "Light",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Fire Rate": "160 rpm",
-      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Recoil": "6.25",
-      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Horizontal Recoil": "2.5",
-      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Vertical Recoil": "10",
+      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Climb Recoil": "↔[2.50] ↕[10.00]",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Spread": "↔[2.00] ↕[2.00]",
-      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Sway": "1",
-      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Ergonomics": "65",
+      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Base Sway": "1",
+      "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Base Ergonomics": "65",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Noise When Firing": "Medium (~48m)",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Capacity": "24",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Turret Turn Speed": "↔[20.00]°/s ↕[20.00]°/s",
@@ -202,6 +201,7 @@
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Traverse Range": "[-180.00]° to [180.00]°",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › A/AC-8 P": "Projectile",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › A/AC-8 P IE": "Explosion",
+      "A/AC-8 P › Projectile › Size": "40 mm",
       "A/AC-8 P › Projectile › Mass": "900 g",
       "A/AC-8 P › Projectile › Initial Velocity": "1021 m/s",
       "A/AC-8 P › Projectile › Drag Factor": "30%",

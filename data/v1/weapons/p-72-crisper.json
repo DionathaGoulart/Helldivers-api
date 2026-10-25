@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -43,14 +43,14 @@
       "startingMagazines": 2,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 1.5,
-      "horizontalRecoil": 1.5,
-      "verticalRecoil": 1.5,
+      "recoil": 2,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 1,
         "vertical": 1
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 95,
       "reloadKind": "magazine",
       "reloadTimeS": 2.35,
@@ -163,12 +163,11 @@
       "Recoil": "2",
       "Reload Time": "2.35s",
       "Tactical Reload Time": "2.35s",
-      "P-72 CRISPER › Recoil": "1.5",
-      "P-72 CRISPER › Horizontal Recoil": "1.5",
-      "P-72 CRISPER › Vertical Recoil": "1.5",
+      "P-72 CRISPER › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "P-72 CRISPER › Climb Recoil": "↔[3.00] ↕[3.00]",
       "P-72 CRISPER › Spread": "↔[1.00] ↕[1.00]",
-      "P-72 CRISPER › Sway": "1",
-      "P-72 CRISPER › Ergonomics": "95",
+      "P-72 CRISPER › Base Sway": "1",
+      "P-72 CRISPER › Base Ergonomics": "95",
       "P-72 CRISPER › Noise When Firing": "Small (~33m)",
       "P-72 CRISPER › Capacity": "50",
       "P-72 CRISPER › Spare Magazines": "4",

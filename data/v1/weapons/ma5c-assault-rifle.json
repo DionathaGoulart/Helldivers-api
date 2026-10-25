@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,14 +50,14 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 14.5,
-      "horizontalRecoil": 9,
-      "verticalRecoil": 20,
+      "recoil": 19,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 2,
         "vertical": 2
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 60,
       "reloadKind": "magazine",
       "reloadTimeS": 3.15,
@@ -113,12 +113,11 @@
       "Reload Time": "3.15s",
       "Tactical Reload Time": "2s",
       "MA5C ASSAULT RIFLE › Fire Rate": "640 rpm",
-      "MA5C ASSAULT RIFLE › Recoil": "14.5",
-      "MA5C ASSAULT RIFLE › Horizontal Recoil": "9",
-      "MA5C ASSAULT RIFLE › Vertical Recoil": "20",
+      "MA5C ASSAULT RIFLE › Drift Recoil": "↔[6.00] ↕[15.00]",
+      "MA5C ASSAULT RIFLE › Climb Recoil": "↔[12.00] ↕[25.00]",
       "MA5C ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
-      "MA5C ASSAULT RIFLE › Sway": "1",
-      "MA5C ASSAULT RIFLE › Ergonomics": "60",
+      "MA5C ASSAULT RIFLE › Base Sway": "1",
+      "MA5C ASSAULT RIFLE › Base Ergonomics": "60",
       "MA5C ASSAULT RIFLE › Noise When Firing": "Medium (~48m)",
       "MA5C ASSAULT RIFLE › Capacity": "32",
       "MA5C ASSAULT RIFLE › Spare Magazines": "8",

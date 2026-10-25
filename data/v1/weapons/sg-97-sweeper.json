@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 46,
       "magazinesFromSupply": 70,
       "magazinesFromAmmoBox": 35,
-      "recoil": 76.25,
-      "horizontalRecoil": 57.5,
-      "verticalRecoil": 95,
+      "recoil": 76,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 125,
         "vertical": 105
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "rounds",
       "reloadTimeS": 4,
@@ -137,12 +137,11 @@
       "Reload Time For One Round": "1.5s (Empty) / 0.43s (Partial)",
       "Reload Time for >1 Round": "0.43s",
       "SG-97 SWEEPER › Fire Rate": "150 rpm",
-      "SG-97 SWEEPER › Recoil": "76.25",
-      "SG-97 SWEEPER › Horizontal Recoil": "57.5",
-      "SG-97 SWEEPER › Vertical Recoil": "95",
+      "SG-97 SWEEPER › Drift Recoil": "↔[65.00] ↕[40.00]",
+      "SG-97 SWEEPER › Climb Recoil": "↔[50.00] ↕[150.00]",
       "SG-97 SWEEPER › Spread": "↔[125.00] ↕[105.00]",
-      "SG-97 SWEEPER › Sway": "1",
-      "SG-97 SWEEPER › Ergonomics": "65",
+      "SG-97 SWEEPER › Base Sway": "1",
+      "SG-97 SWEEPER › Base Ergonomics": "65",
       "SG-97 SWEEPER › Noise When Firing": "Medium (~48m)",
       "SG-97 SWEEPER › Capacity": "7",
       "SG-97 SWEEPER › Spare Rounds": "70",

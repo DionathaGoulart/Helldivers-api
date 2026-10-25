@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -197,6 +197,7 @@
       "Eagle 500kg Bomb › Attacks › S P": "Projectile",
       "Eagle 500kg Bomb › Attacks › S P E": "Explosion",
       "Eagle 500kg Bomb › Attacks › S P IE": "Explosion",
+      "S P › Projectile › Size": "50 mm",
       "S P › Projectile › Mass": "500 g",
       "S P › Projectile › Initial Velocity": "500 m/s",
       "S P › Projectile › Drag Factor": "50%",

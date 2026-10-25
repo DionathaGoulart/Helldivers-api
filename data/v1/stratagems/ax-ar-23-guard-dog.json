@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -133,14 +133,14 @@
       "AX/AR-23 GUARD DOG › Starting Rounds": "8",
       "AX/AR-23 GUARD DOG › AR-23P P": "Projectile",
       "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Fire Rate": "660 rpm",
-      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Recoil": "6.25",
-      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Horizontal Recoil": "2.5",
-      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Vertical Recoil": "10",
+      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Climb Recoil": "↔[2.50] ↕[10.00]",
       "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Spread": "↔[16.00] ↕[16.00]",
-      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Sway": "1",
-      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Ergonomics": "65",
+      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Base Sway": "1",
+      "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Base Ergonomics": "65",
       "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Noise When Firing": "Small (~33m)",
       "AX/AR-23 GUARD DOG › AX/AR-23 GUARD DOGDR 0 › Capacity": "45",
+      "AR-23P P › Projectile › Size": "5.5 mm",
       "AR-23P P › Projectile › Mass": "4.5 g",
       "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
       "AR-23P P › Projectile › Drag Factor": "30%",

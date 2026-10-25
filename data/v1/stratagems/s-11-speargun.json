@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -209,12 +209,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "S-11 SPEARGUN › Fire Rate": "60 rpm",
-      "S-11 SPEARGUN › Recoil": "15.75",
-      "S-11 SPEARGUN › Horizontal Recoil": "6.5",
-      "S-11 SPEARGUN › Vertical Recoil": "25",
+      "S-11 SPEARGUN › Drift Recoil": "↔[10.00] ↕[25.00]",
+      "S-11 SPEARGUN › Climb Recoil": "↔[3.00] ↕[25.00]",
       "S-11 SPEARGUN › Spread": "↔[0.10] ↕[0.10]",
-      "S-11 SPEARGUN › Sway": "1",
-      "S-11 SPEARGUN › Ergonomics": "35",
+      "S-11 SPEARGUN › Base Sway": "1",
+      "S-11 SPEARGUN › Base Ergonomics": "35",
       "S-11 SPEARGUN › Noise When Firing": "Medium (~48m)",
       "S-11 SPEARGUN › Capacity": "1",
       "S-11 SPEARGUN › Spare Magazines": "12",
@@ -225,6 +224,7 @@
       "S-11 SPEARGUN › Attacks › Gas": "status",
       "S-11 SPEARGUN › Attacks › Gas Confusion": "status",
       "S-11 SPEARGUN › Attacks › S-11 P E": "Explosion",
+      "S-11 P › Projectile › Size": "10 mm",
       "S-11 P › Projectile › Mass": "100 g",
       "S-11 P › Projectile › Initial Velocity": "300 m/s",
       "S-11 P › Projectile › Drag Factor": "400%",

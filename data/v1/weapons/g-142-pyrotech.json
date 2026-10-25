@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -123,12 +123,11 @@
       "Fuse Time": "2.9s",
       "Capacity": "6",
       "Trait(s)": "Incendiary • Explosive",
-      "G-142 PYROTECH › Recoil": "6.25",
-      "G-142 PYROTECH › Horizontal Recoil": "2.5",
-      "G-142 PYROTECH › Vertical Recoil": "10",
+      "G-142 PYROTECH › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "G-142 PYROTECH › Climb Recoil": "↔[2.50] ↕[10.00]",
       "G-142 PYROTECH › Spread": "↔[10.00] ↕[10.00]",
-      "G-142 PYROTECH › Sway": "1",
-      "G-142 PYROTECH › Ergonomics": "65",
+      "G-142 PYROTECH › Base Sway": "1",
+      "G-142 PYROTECH › Base Ergonomics": "65",
       "G-142 PYROTECH › Noise When Firing": "Medium (~48m)",
       "G-142 PYROTECH › Capacity": "2000",
       "G-142 PYROTECH › Spare Magazines": "4",

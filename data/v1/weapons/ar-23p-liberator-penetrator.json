@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,9 +50,9 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 14.125,
-      "horizontalRecoil": 9.5,
-      "verticalRecoil": 18.75,
+      "recoil": 12,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 1,
         "vertical": 1
@@ -112,9 +112,8 @@
       "Recoil": "12",
       "Reload Time": "3s",
       "AR-23P LIBERATOR PENETRATOR › Fire Rate": "640 rpm",
-      "AR-23P LIBERATOR PENETRATOR › Recoil": "14.125",
-      "AR-23P LIBERATOR PENETRATOR › Horizontal Recoil": "9.5",
-      "AR-23P LIBERATOR PENETRATOR › Vertical Recoil": "18.75",
+      "AR-23P LIBERATOR PENETRATOR › Drift Recoil": "↔[10.00] ↕[15.00]",
+      "AR-23P LIBERATOR PENETRATOR › Climb Recoil": "↔[9.00] ↕[22.50]",
       "AR-23P LIBERATOR PENETRATOR › Spread": "↔[1.00] ↕[1.00]",
       "AR-23P LIBERATOR PENETRATOR › Base Sway": "1",
       "AR-23P LIBERATOR PENETRATOR › Base Ergonomics": "59",

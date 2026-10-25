@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -111,9 +111,8 @@
       "SUPPLY FRV › Main Health": "2400",
       "SUPPLY FRV › Main Armor": "Unarmored",
       "SUPPLY FRV › SWP SUPPLY FRV › Fire Rate": "640 rpm",
-      "SUPPLY FRV › SWP SUPPLY FRV › Recoil": "3.25",
-      "SUPPLY FRV › SWP SUPPLY FRV › Horizontal Recoil": "5",
-      "SUPPLY FRV › SWP SUPPLY FRV › Vertical Recoil": "1.5",
+      "SUPPLY FRV › SWP SUPPLY FRV › Drift Recoil": "↔[10.00] ↕[0.00]",
+      "SUPPLY FRV › SWP SUPPLY FRV › Climb Recoil": "↔[0.00] ↕[3.00]",
       "SUPPLY FRV › SWP SUPPLY FRV › Spread": "↔[10.00] ↕[10.00]",
       "SUPPLY FRV › SWP SUPPLY FRV › Base Sway": "1",
       "SUPPLY FRV › SWP SUPPLY FRV › Base Ergonomics": "65",

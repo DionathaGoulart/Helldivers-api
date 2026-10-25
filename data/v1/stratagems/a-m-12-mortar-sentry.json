@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -193,12 +193,11 @@
       "Mortar Sentry › MORTAR SENTRY › Main Health": "400",
       "Mortar Sentry › MORTAR SENTRY › Main Armor": "Light",
       "Mortar Sentry › MORTAR SENTRY › Fire Rate": "60 rpm",
-      "Mortar Sentry › MORTAR SENTRY › Recoil": "6.25",
-      "Mortar Sentry › MORTAR SENTRY › Horizontal Recoil": "2.5",
-      "Mortar Sentry › MORTAR SENTRY › Vertical Recoil": "10",
+      "Mortar Sentry › MORTAR SENTRY › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "Mortar Sentry › MORTAR SENTRY › Climb Recoil": "↔[2.50] ↕[10.00]",
       "Mortar Sentry › MORTAR SENTRY › Spread": "↔[50.00] ↕[100.00]",
-      "Mortar Sentry › MORTAR SENTRY › Sway": "1",
-      "Mortar Sentry › MORTAR SENTRY › Ergonomics": "65",
+      "Mortar Sentry › MORTAR SENTRY › Base Sway": "1",
+      "Mortar Sentry › MORTAR SENTRY › Base Ergonomics": "65",
       "Mortar Sentry › MORTAR SENTRY › Noise When Firing": "Medium (~48m)",
       "Mortar Sentry › MORTAR SENTRY › Capacity": "36",
       "Mortar Sentry › MORTAR SENTRY › Turret Turn Speed": "↔[55.00]°/s ↕[55.00]°/s",
@@ -206,6 +205,7 @@
       "Mortar Sentry › MORTAR SENTRY › Traverse Range": "[-180.00]° to [180.00]°",
       "Mortar Sentry › MORTAR SENTRY › A/M-12 P": "Projectile",
       "Mortar Sentry › MORTAR SENTRY › A/M-12 P IE": "Explosion",
+      "A/M-12 P › Projectile › Size": "360 mm",
       "A/M-12 P › Projectile › Mass": "70 kg",
       "A/M-12 P › Projectile › Initial Velocity": "100 m/s",
       "A/M-12 P › Projectile › Drag Factor": "25%",

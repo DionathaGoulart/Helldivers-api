@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -165,12 +165,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "FAF-14 SPEAR › Fire Rate": "240 rpm",
-      "FAF-14 SPEAR › Recoil": "6.25",
-      "FAF-14 SPEAR › Horizontal Recoil": "2.5",
-      "FAF-14 SPEAR › Vertical Recoil": "10",
+      "FAF-14 SPEAR › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "FAF-14 SPEAR › Climb Recoil": "↔[2.50] ↕[10.00]",
       "FAF-14 SPEAR › Spread": "↔[0.00] ↕[0.00]",
-      "FAF-14 SPEAR › Sway": "1",
-      "FAF-14 SPEAR › Ergonomics": "10",
+      "FAF-14 SPEAR › Base Sway": "1",
+      "FAF-14 SPEAR › Base Ergonomics": "10",
       "FAF-14 SPEAR › Noise When Firing": "Medium (~48m)",
       "FAF-14 SPEAR › Capacity": "1",
       "FAF-14 SPEAR › Spare Magazines": "4",
@@ -179,6 +178,7 @@
       "FAF-14 SPEAR › Mags from Ammo Box": "1",
       "FAF-14 SPEAR › Attacks › FAF-14 P": "Projectile",
       "FAF-14 SPEAR › Attacks › FAF-14 P IE": "Explosion",
+      "FAF-14 P › Projectile › Size": "66 mm",
       "FAF-14 P › Projectile › Mass": "350 g",
       "FAF-14 P › Projectile › Initial Velocity": "70 m/s",
       "FAF-14 P › Projectile › Drag Factor": "0%",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -76,12 +76,11 @@
       "Armor Penetration": "Medium",
       "Fire Rate": "150",
       "Ergonomics": "65",
-      "CQC-72 ENTRENCHMENT TOOL › Recoil": "6.25",
-      "CQC-72 ENTRENCHMENT TOOL › Horizontal Recoil": "2.5",
-      "CQC-72 ENTRENCHMENT TOOL › Vertical Recoil": "10",
+      "CQC-72 ENTRENCHMENT TOOL › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "CQC-72 ENTRENCHMENT TOOL › Climb Recoil": "↔[2.50] ↕[10.00]",
       "CQC-72 ENTRENCHMENT TOOL › Spread": "↔[10.00] ↕[10.00]",
-      "CQC-72 ENTRENCHMENT TOOL › Sway": "1",
-      "CQC-72 ENTRENCHMENT TOOL › Ergonomics": "65",
+      "CQC-72 ENTRENCHMENT TOOL › Base Sway": "1",
+      "CQC-72 ENTRENCHMENT TOOL › Base Ergonomics": "65",
       "CQC-72 ENTRENCHMENT TOOL › Noise When Firing": "No sound",
       "CQC-72 ENTRENCHMENT TOOL › Stamina Cost": "3%",
       "CQC-72 ENTRENCHMENT TOOL › Attacks › CQC-72 ENTRENCHMENT TOOL_dm": "Damage",

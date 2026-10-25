@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -194,12 +194,11 @@
       "INCINERATOR FRV › Uses": "∞",
       "INCINERATOR FRV › Main Health": "2900",
       "INCINERATOR FRV › Main Armor": "Light",
-      "INCINERATOR FRV › SWP CREMATOR › Recoil": "4.5",
-      "INCINERATOR FRV › SWP CREMATOR › Horizontal Recoil": "3",
-      "INCINERATOR FRV › SWP CREMATOR › Vertical Recoil": "6",
+      "INCINERATOR FRV › SWP CREMATOR › Drift Recoil": "↔[5.00] ↕[10.00]",
+      "INCINERATOR FRV › SWP CREMATOR › Climb Recoil": "↔[1.00] ↕[2.00]",
       "INCINERATOR FRV › SWP CREMATOR › Spread": "↔[10.00] ↕[10.00]",
-      "INCINERATOR FRV › SWP CREMATOR › Sway": "1",
-      "INCINERATOR FRV › SWP CREMATOR › Ergonomics": "15",
+      "INCINERATOR FRV › SWP CREMATOR › Base Sway": "1",
+      "INCINERATOR FRV › SWP CREMATOR › Base Ergonomics": "15",
       "INCINERATOR FRV › SWP CREMATOR › Noise When Firing": "Small (~33m)",
       "INCINERATOR FRV › SWP CREMATOR › Capacity": "800",
       "INCINERATOR FRV › SWP CREMATOR › Spare Magazines": "0",

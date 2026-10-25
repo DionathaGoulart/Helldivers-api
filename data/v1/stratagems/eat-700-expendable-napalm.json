@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -273,12 +273,11 @@
       "General › Cooldown › Standard": "140 seconds",
       "General › Cooldown › With Morale Augmentation": "133 seconds",
       "EAT-700 EXPENDABLE NAPALM › Fire Rate": "600 rpm",
-      "EAT-700 EXPENDABLE NAPALM › Recoil": "6.25",
-      "EAT-700 EXPENDABLE NAPALM › Horizontal Recoil": "2.5",
-      "EAT-700 EXPENDABLE NAPALM › Vertical Recoil": "10",
+      "EAT-700 EXPENDABLE NAPALM › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "EAT-700 EXPENDABLE NAPALM › Climb Recoil": "↔[2.50] ↕[10.00]",
       "EAT-700 EXPENDABLE NAPALM › Spread": "↔[4.00] ↕[4.00]",
-      "EAT-700 EXPENDABLE NAPALM › Sway": "1",
-      "EAT-700 EXPENDABLE NAPALM › Ergonomics": "15",
+      "EAT-700 EXPENDABLE NAPALM › Base Sway": "1",
+      "EAT-700 EXPENDABLE NAPALM › Base Ergonomics": "15",
       "EAT-700 EXPENDABLE NAPALM › Noise When Firing": "Huge (~68m)",
       "EAT-700 EXPENDABLE NAPALM › Capacity": "1",
       "EAT-700 EXPENDABLE NAPALM › Attacks › EAT-17 BACKBLAST E": "Explosion",
@@ -302,6 +301,7 @@
       "EAT-17 BACKBLAST E › AoE Effect › Demolition Force": "10",
       "EAT-17 BACKBLAST E › AoE Effect › Stagger Force": "30",
       "EAT-17 BACKBLAST E › AoE Effect › Push Force": "15",
+      "EAT-700 P › Projectile › Size": "75 mm",
       "EAT-700 P › Projectile › Mass": "2.5 kg",
       "EAT-700 P › Projectile › Initial Velocity": "200 m/s",
       "EAT-700 P › Projectile › Drag Factor": "0%",
@@ -350,6 +350,7 @@
       "EAT-700 P IE › AoE Effect › Demolition Force": "30",
       "EAT-700 P IE › AoE Effect › Stagger Force": "50",
       "EAT-700 P IE › AoE Effect › Push Force": "40",
+      "EAT-700 P1 › Projectile › Size": "85 mm",
       "EAT-700 P1 › Projectile › Mass": "3 kg",
       "EAT-700 P1 › Projectile › Initial Velocity": "15 m/s",
       "EAT-700 P1 › Projectile › Drag Factor": "1500%",

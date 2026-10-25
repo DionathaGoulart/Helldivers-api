@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -48,9 +48,9 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 7,
       "magazinesFromAmmoBox": 3,
-      "recoil": 18.75,
-      "horizontalRecoil": 12.5,
-      "verticalRecoil": 25,
+      "recoil": 19,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.5,
         "vertical": 0.5
@@ -113,9 +113,8 @@
       "Reload Time": "2.9s",
       "Tactical Reload Time": "2.9s",
       "R/40-K HOT-SHOT MARKSMAN RIFLE › Fire Rate": "210 rpm",
-      "R/40-K HOT-SHOT MARKSMAN RIFLE › Recoil": "18.75",
-      "R/40-K HOT-SHOT MARKSMAN RIFLE › Horizontal Recoil": "12.5",
-      "R/40-K HOT-SHOT MARKSMAN RIFLE › Vertical Recoil": "25",
+      "R/40-K HOT-SHOT MARKSMAN RIFLE › Drift Recoil": "↔[12.50] ↕[17.50]",
+      "R/40-K HOT-SHOT MARKSMAN RIFLE › Climb Recoil": "↔[12.50] ↕[32.50]",
       "R/40-K HOT-SHOT MARKSMAN RIFLE › Spread": "↔[0.50] ↕[0.50]",
       "R/40-K HOT-SHOT MARKSMAN RIFLE › Base Sway": "1",
       "R/40-K HOT-SHOT MARKSMAN RIFLE › Base Ergonomics": "30",

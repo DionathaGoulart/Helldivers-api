@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -175,9 +175,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
-      "TX-41 STERILIZER › Recoil": "1.25",
-      "TX-41 STERILIZER › Horizontal Recoil": "0",
-      "TX-41 STERILIZER › Vertical Recoil": "2.5",
+      "TX-41 STERILIZER › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "TX-41 STERILIZER › Climb Recoil": "↔[0.00] ↕[5.00]",
       "TX-41 STERILIZER › Spread": "↔[10.00] ↕[10.00]",
       "TX-41 STERILIZER › Base Sway": "1",
       "TX-41 STERILIZER › Base Ergonomics": "20",

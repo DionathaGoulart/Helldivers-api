@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,6 +25,7 @@
       "title": "G-11 Caltrops",
       "url": "https://helldivers.wiki.gg/wiki/G-11_Caltrops",
       "flags": [
+        "potentially_outdated",
         "broken_file_links"
       ]
     },
@@ -100,12 +101,11 @@
       "Cookable": "No",
       "Fuse Time": "Proximity",
       "Trait(s)": "Stun • Sticky",
-      "G-11 CALTROPS › Recoil": "6.25",
-      "G-11 CALTROPS › Horizontal Recoil": "2.5",
-      "G-11 CALTROPS › Vertical Recoil": "10",
+      "G-11 CALTROPS › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "G-11 CALTROPS › Climb Recoil": "↔[2.50] ↕[10.00]",
       "G-11 CALTROPS › Spread": "↔[10.00] ↕[10.00]",
-      "G-11 CALTROPS › Sway": "1",
-      "G-11 CALTROPS › Ergonomics": "65",
+      "G-11 CALTROPS › Base Sway": "1",
+      "G-11 CALTROPS › Base Ergonomics": "65",
       "G-11 CALTROPS › Noise When Firing": "No sound",
       "G-11 CALTROPS › Throwables from Supply": "3",
       "G-11 CALTROPS › Max Rounds": "5",

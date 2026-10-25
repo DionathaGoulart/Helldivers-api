@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,14 +50,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 13.25,
-      "horizontalRecoil": 6.5,
-      "verticalRecoil": 20,
+      "recoil": 13,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 2,
         "vertical": 2
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 60,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -112,12 +112,11 @@
       "Recoil": "13",
       "Reload Time": "3s",
       "AR-59 SUPPRESSOR › Fire Rate": "850 rpm",
-      "AR-59 SUPPRESSOR › Recoil": "13.25",
-      "AR-59 SUPPRESSOR › Horizontal Recoil": "6.5",
-      "AR-59 SUPPRESSOR › Vertical Recoil": "20",
+      "AR-59 SUPPRESSOR › Drift Recoil": "↔[7.00] ↕[14.00]",
+      "AR-59 SUPPRESSOR › Climb Recoil": "↔[6.00] ↕[26.00]",
       "AR-59 SUPPRESSOR › Spread": "↔[2.00] ↕[2.00]",
-      "AR-59 SUPPRESSOR › Sway": "1",
-      "AR-59 SUPPRESSOR › Ergonomics": "60",
+      "AR-59 SUPPRESSOR › Base Sway": "1",
+      "AR-59 SUPPRESSOR › Base Ergonomics": "60",
       "AR-59 SUPPRESSOR › Noise When Firing": "Suppressed (~13m)",
       "AR-59 SUPPRESSOR › Capacity": "45",
       "AR-59 SUPPRESSOR › Spare Magazines": "8",

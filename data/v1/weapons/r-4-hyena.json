@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "R-4 Hyena",
       "url": "https://helldivers.wiki.gg/wiki/R-4_Hyena",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "marksman_rifle",
@@ -47,14 +49,14 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 5,
       "magazinesFromAmmoBox": 2,
-      "recoil": 65,
-      "horizontalRecoil": 40,
-      "verticalRecoil": 90,
+      "recoil": 54,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.5,
         "vertical": 0.5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 30,
       "reloadKind": "magazine",
       "reloadTimeS": 2.5,
@@ -133,12 +135,11 @@
       "Recoil": "54",
       "Reload Time": "2.5s",
       "R-4 HYENA › Fire Rate": "190 rpm",
-      "R-4 HYENA › Recoil": "65",
-      "R-4 HYENA › Horizontal Recoil": "40",
-      "R-4 HYENA › Vertical Recoil": "90",
+      "R-4 HYENA › Drift Recoil": "↔[30.00] ↕[30.00]",
+      "R-4 HYENA › Climb Recoil": "↔[50.00] ↕[150.00]",
       "R-4 HYENA › Spread": "↔[0.50] ↕[0.50]",
-      "R-4 HYENA › Sway": "1",
-      "R-4 HYENA › Ergonomics": "30",
+      "R-4 HYENA › Base Sway": "1",
+      "R-4 HYENA › Base Ergonomics": "30",
       "R-4 HYENA › Noise When Firing": "Medium (~48m)",
       "R-4 HYENA › Capacity": "15",
       "R-4 HYENA › Spare Magazines": "5",

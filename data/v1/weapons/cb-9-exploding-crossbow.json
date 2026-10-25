@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -47,14 +47,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 26.25,
-      "horizontalRecoil": 17.5,
-      "verticalRecoil": 35,
+      "recoil": 26,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.5,
         "vertical": 0.5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 45,
       "reloadKind": "magazine",
       "reloadTimeS": 3.33,
@@ -135,12 +135,11 @@
       "Reload Time": "3.33s",
       "Tactical Reload Time": "3.33s",
       "CB-9 EXPLODING CROSSBOW › Fire Rate": "50 rpm",
-      "CB-9 EXPLODING CROSSBOW › Recoil": "26.25",
-      "CB-9 EXPLODING CROSSBOW › Horizontal Recoil": "17.5",
-      "CB-9 EXPLODING CROSSBOW › Vertical Recoil": "35",
+      "CB-9 EXPLODING CROSSBOW › Drift Recoil": "↔[25.00] ↕[25.00]",
+      "CB-9 EXPLODING CROSSBOW › Climb Recoil": "↔[10.00] ↕[45.00]",
       "CB-9 EXPLODING CROSSBOW › Spread": "↔[0.50] ↕[0.50]",
-      "CB-9 EXPLODING CROSSBOW › Sway": "1",
-      "CB-9 EXPLODING CROSSBOW › Ergonomics": "45",
+      "CB-9 EXPLODING CROSSBOW › Base Sway": "1",
+      "CB-9 EXPLODING CROSSBOW › Base Ergonomics": "45",
       "CB-9 EXPLODING CROSSBOW › Noise When Firing": "Medium (~48m)",
       "CB-9 EXPLODING CROSSBOW › Capacity": "5",
       "CB-9 EXPLODING CROSSBOW › Spare Magazines": "8",

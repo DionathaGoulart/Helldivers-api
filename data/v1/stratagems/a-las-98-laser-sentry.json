@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -171,12 +171,11 @@
       "LASER SENTRY › Vertical Limit": "(-60.00) (90.00)",
       "LASER SENTRY › LASER SENTRY › Main Health": "400",
       "LASER SENTRY › LASER SENTRY › Main Armor": "Light",
-      "LASER SENTRY › LASER SENTRY › Recoil": "0",
-      "LASER SENTRY › LASER SENTRY › Horizontal Recoil": "0",
-      "LASER SENTRY › LASER SENTRY › Vertical Recoil": "0",
+      "LASER SENTRY › LASER SENTRY › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "LASER SENTRY › LASER SENTRY › Climb Recoil": "↔[0.00] ↕[0.00]",
       "LASER SENTRY › LASER SENTRY › Spread": "↔[5.00] ↕[5.00]",
-      "LASER SENTRY › LASER SENTRY › Sway": "1",
-      "LASER SENTRY › LASER SENTRY › Ergonomics": "65",
+      "LASER SENTRY › LASER SENTRY › Base Sway": "1",
+      "LASER SENTRY › LASER SENTRY › Base Ergonomics": "65",
       "LASER SENTRY › LASER SENTRY › Noise When Firing": "Medium (~48m)",
       "LASER SENTRY › LASER SENTRY › Turret Turn Speed": "↔[80.00]°/s ↕[50.00]°/s",
       "LASER SENTRY › LASER SENTRY › Elevation Range": "[-60.00]° to [90.00]°",

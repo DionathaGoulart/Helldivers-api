@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -245,9 +245,8 @@
       "FLAME SENTRY › Vertical Limit": "(-45.00) (90.00)",
       "FLAME SENTRY › FLAME SENTRY › Main Health": "400",
       "FLAME SENTRY › FLAME SENTRY › Main Armor": "Light",
-      "FLAME SENTRY › FLAME SENTRY › Recoil": "0",
-      "FLAME SENTRY › FLAME SENTRY › Horizontal Recoil": "0",
-      "FLAME SENTRY › FLAME SENTRY › Vertical Recoil": "0",
+      "FLAME SENTRY › FLAME SENTRY › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "FLAME SENTRY › FLAME SENTRY › Climb Recoil": "↔[0.00] ↕[0.00]",
       "FLAME SENTRY › FLAME SENTRY › Spread": "↔[50.00] ↕[25.00]",
       "FLAME SENTRY › FLAME SENTRY › Base Sway": "1",
       "FLAME SENTRY › FLAME SENTRY › Base Ergonomics": "65",

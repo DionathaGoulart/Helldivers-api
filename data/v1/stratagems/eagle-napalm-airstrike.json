@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -225,6 +225,7 @@
       "Eagle Napalm Airstrike › Attacks › S P3 IE": "Explosion",
       "Eagle Napalm Airstrike › Attacks › BurningHeavy": "status",
       "Eagle Napalm Airstrike › Attacks › Fire": "status",
+      "S P3 › Projectile › Size": "25 mm",
       "S P3 › Projectile › Mass": "100 g",
       "S P3 › Projectile › Initial Velocity": "500 m/s",
       "S P3 › Projectile › Drag Factor": "50%",

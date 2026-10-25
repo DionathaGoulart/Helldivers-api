@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 57.5,
-      "horizontalRecoil": 40,
-      "verticalRecoil": 75,
+      "recoil": 58,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 10,
         "vertical": 10
       },
-      "sway": 0.8,
+      "sway": null,
       "ergonomics": 30,
       "reloadKind": "magazine",
       "reloadTimeS": 3.8,
@@ -114,12 +114,11 @@
       "Reload Time": "3.8s",
       "Tactical Reload Time": "2.65s",
       "JAR-5 DOMINATOR › Fire Rate": "250 rpm",
-      "JAR-5 DOMINATOR › Recoil": "57.5",
-      "JAR-5 DOMINATOR › Horizontal Recoil": "40",
-      "JAR-5 DOMINATOR › Vertical Recoil": "75",
+      "JAR-5 DOMINATOR › Drift Recoil": "↔[30.00] ↕[30.00]",
+      "JAR-5 DOMINATOR › Climb Recoil": "↔[50.00] ↕[120.00]",
       "JAR-5 DOMINATOR › Spread": "↔[10.00] ↕[10.00]",
-      "JAR-5 DOMINATOR › Sway": "0.8",
-      "JAR-5 DOMINATOR › Ergonomics": "30",
+      "JAR-5 DOMINATOR › Base Sway": "0.8",
+      "JAR-5 DOMINATOR › Base Ergonomics": "30",
       "JAR-5 DOMINATOR › Noise When Firing": "Medium (~48m)",
       "JAR-5 DOMINATOR › Capacity": "15",
       "JAR-5 DOMINATOR › Spare Magazines": "6",

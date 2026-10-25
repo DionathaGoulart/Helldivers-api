@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 32,
       "magazinesFromSupply": 60,
       "magazinesFromAmmoBox": 30,
-      "recoil": 82.5,
-      "horizontalRecoil": 45,
-      "verticalRecoil": 120,
+      "recoil": 83,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.1,
         "vertical": 0.1
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "rounds",
       "reloadTimeS": 6.4,
@@ -115,12 +115,11 @@
       "Reload Time For One Round": "2.3s (Empty) / 1.4s (Partial)",
       "Reload Time for >1 Round": "0.6s",
       "R-6 DEADEYE › Fire Rate": "100 rpm",
-      "R-6 DEADEYE › Recoil": "82.5",
-      "R-6 DEADEYE › Horizontal Recoil": "45",
-      "R-6 DEADEYE › Vertical Recoil": "120",
+      "R-6 DEADEYE › Drift Recoil": "↔[40.00] ↕[40.00]",
+      "R-6 DEADEYE › Climb Recoil": "↔[50.00] ↕[200.00]",
       "R-6 DEADEYE › Spread": "↔[0.10] ↕[0.10]",
-      "R-6 DEADEYE › Sway": "1",
-      "R-6 DEADEYE › Ergonomics": "65",
+      "R-6 DEADEYE › Base Sway": "1",
+      "R-6 DEADEYE › Base Ergonomics": "65",
       "R-6 DEADEYE › Noise When Firing": "Medium (~48m)",
       "R-6 DEADEYE › Capacity": "8",
       "R-6 DEADEYE › Spare Rounds": "60",

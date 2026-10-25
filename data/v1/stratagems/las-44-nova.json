@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -134,9 +134,8 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "LAS-44 NOVA › Fire Rate": "30 rpm",
-      "LAS-44 NOVA › Recoil": "410",
-      "LAS-44 NOVA › Horizontal Recoil": "20",
-      "LAS-44 NOVA › Vertical Recoil": "800",
+      "LAS-44 NOVA › Drift Recoil": "↔[20.00] ↕[800.00]",
+      "LAS-44 NOVA › Climb Recoil": "↔[20.00] ↕[800.00]",
       "LAS-44 NOVA › Spread": "↔[2.00] ↕[2.00]",
       "LAS-44 NOVA › Base Sway": "0.3",
       "LAS-44 NOVA › Base Ergonomics": "70",

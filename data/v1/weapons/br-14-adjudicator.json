@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 27,
-      "horizontalRecoil": 11.5,
-      "verticalRecoil": 42.5,
+      "recoil": 24,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 1,
         "vertical": 1
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 40,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -112,12 +112,11 @@
       "Reload Time": "3s",
       "Tactical Reload Time": "1.85s",
       "BR-14 ADJUDICATOR › Fire Rate": "550 rpm",
-      "BR-14 ADJUDICATOR › Recoil": "27",
-      "BR-14 ADJUDICATOR › Horizontal Recoil": "11.5",
-      "BR-14 ADJUDICATOR › Vertical Recoil": "42.5",
+      "BR-14 ADJUDICATOR › Drift Recoil": "↔[17.00] ↕[35.00]",
+      "BR-14 ADJUDICATOR › Climb Recoil": "↔[6.00] ↕[50.00]",
       "BR-14 ADJUDICATOR › Spread": "↔[1.00] ↕[1.00]",
-      "BR-14 ADJUDICATOR › Sway": "1",
-      "BR-14 ADJUDICATOR › Ergonomics": "40",
+      "BR-14 ADJUDICATOR › Base Sway": "1",
+      "BR-14 ADJUDICATOR › Base Ergonomics": "40",
       "BR-14 ADJUDICATOR › Noise When Firing": "Medium (~48m)",
       "BR-14 ADJUDICATOR › Capacity": "30",
       "BR-14 ADJUDICATOR › Spare Magazines": "8",

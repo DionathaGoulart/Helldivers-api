@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 57.5,
-      "horizontalRecoil": 40,
-      "verticalRecoil": 75,
+      "recoil": 58,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 5,
         "vertical": 5
       },
-      "sway": 0.8,
+      "sway": null,
       "ergonomics": 25,
       "reloadKind": "magazine",
       "reloadTimeS": 4.67,
@@ -169,12 +169,11 @@
       "Reload Time": "4.67s",
       "Tactical Reload Time": "2.75s / 1.4s (Just Rechambering)",
       "R-36 ERUPTOR › Fire Rate": "32 rpm",
-      "R-36 ERUPTOR › Recoil": "57.5",
-      "R-36 ERUPTOR › Horizontal Recoil": "40",
-      "R-36 ERUPTOR › Vertical Recoil": "75",
+      "R-36 ERUPTOR › Drift Recoil": "↔[30.00] ↕[30.00]",
+      "R-36 ERUPTOR › Climb Recoil": "↔[50.00] ↕[120.00]",
       "R-36 ERUPTOR › Spread": "↔[5.00] ↕[5.00]",
-      "R-36 ERUPTOR › Sway": "0.8",
-      "R-36 ERUPTOR › Ergonomics": "25",
+      "R-36 ERUPTOR › Base Sway": "0.8",
+      "R-36 ERUPTOR › Base Ergonomics": "25",
       "R-36 ERUPTOR › Noise When Firing": "Medium (~48m)",
       "R-36 ERUPTOR › Capacity": "5",
       "R-36 ERUPTOR › Spare Magazines": "6",

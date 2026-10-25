@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 22,
       "magazinesFromSupply": 40,
       "magazinesFromAmmoBox": 20,
-      "recoil": 162.5,
-      "horizontalRecoil": 65,
-      "verticalRecoil": 260,
+      "recoil": 163,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 150,
         "vertical": 120
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "rounds",
       "reloadTimeS": 1.9,
@@ -114,12 +114,11 @@
       "Reload Time": "1.9s",
       "Tactical Reload Time": "1.9s",
       "DBS-2 DOUBLE FREEDOM › Fire Rate": "650 rpm",
-      "DBS-2 DOUBLE FREEDOM › Recoil": "162.5",
-      "DBS-2 DOUBLE FREEDOM › Horizontal Recoil": "65",
-      "DBS-2 DOUBLE FREEDOM › Vertical Recoil": "260",
+      "DBS-2 DOUBLE FREEDOM › Drift Recoil": "↔[60.00] ↕[120.00]",
+      "DBS-2 DOUBLE FREEDOM › Climb Recoil": "↔[70.00] ↕[400.00]",
       "DBS-2 DOUBLE FREEDOM › Spread": "↔[150.00] ↕[120.00]",
-      "DBS-2 DOUBLE FREEDOM › Sway": "1",
-      "DBS-2 DOUBLE FREEDOM › Ergonomics": "65",
+      "DBS-2 DOUBLE FREEDOM › Base Sway": "1",
+      "DBS-2 DOUBLE FREEDOM › Base Ergonomics": "65",
       "DBS-2 DOUBLE FREEDOM › Noise When Firing": "Medium (~48m)",
       "DBS-2 DOUBLE FREEDOM › Capacity": "2",
       "DBS-2 DOUBLE FREEDOM › Spare Rounds": "40",

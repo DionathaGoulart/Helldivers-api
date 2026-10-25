@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -144,12 +144,11 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
-      "ARC-3 ARC THROWER › Recoil": "45",
-      "ARC-3 ARC THROWER › Horizontal Recoil": "45",
-      "ARC-3 ARC THROWER › Vertical Recoil": "45",
+      "ARC-3 ARC THROWER › Drift Recoil": "↔[40.00] ↕[40.00]",
+      "ARC-3 ARC THROWER › Climb Recoil": "↔[50.00] ↕[50.00]",
       "ARC-3 ARC THROWER › Spread": "↔[10.00] ↕[10.00]",
-      "ARC-3 ARC THROWER › Sway": "1",
-      "ARC-3 ARC THROWER › Ergonomics": "50",
+      "ARC-3 ARC THROWER › Base Sway": "1",
+      "ARC-3 ARC THROWER › Base Ergonomics": "50",
       "ARC-3 ARC THROWER › Noise When Firing": "Medium (~48m)",
       "ARC-3 ARC THROWER › Charge › at (1.00)s": "1.00 dmg × DEFAULT",
       "ARC-3 ARC THROWER › Charge › at (1.10)s": "1.00 dmg × DEFAULT",

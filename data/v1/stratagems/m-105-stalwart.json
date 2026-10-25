@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -142,12 +142,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "M-105 STALWART › Fire Rate": "850 rpm",
-      "M-105 STALWART › Recoil": "15",
-      "M-105 STALWART › Horizontal Recoil": "12.5",
-      "M-105 STALWART › Vertical Recoil": "17.5",
+      "M-105 STALWART › Drift Recoil": "↔[15.00] ↕[15.00]",
+      "M-105 STALWART › Climb Recoil": "↔[10.00] ↕[20.00]",
       "M-105 STALWART › Spread": "↔[6.00] ↕[6.00]",
-      "M-105 STALWART › Sway": "1",
-      "M-105 STALWART › Ergonomics": "40",
+      "M-105 STALWART › Base Sway": "1",
+      "M-105 STALWART › Base Ergonomics": "40",
       "M-105 STALWART › Noise When Firing": "Medium (~48m)",
       "M-105 STALWART › Capacity": "250",
       "M-105 STALWART › Spare Magazines": "3",
@@ -155,6 +154,7 @@
       "M-105 STALWART › Mags from Supply": "2",
       "M-105 STALWART › Mags from Ammo Box": "1",
       "M-105 STALWART › Attacks › AR-23 P": "Projectile",
+      "AR-23 P › Projectile › Size": "5.5 mm",
       "AR-23 P › Projectile › Mass": "4.5 g",
       "AR-23 P › Projectile › Initial Velocity": "900 m/s",
       "AR-23 P › Projectile › Drag Factor": "30%",

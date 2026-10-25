@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -191,12 +191,11 @@
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Main Health": "800",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Main Armor": "Medium",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Fire Rate": "180 rpm",
-      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Recoil": "80",
-      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Horizontal Recoil": "60",
-      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Vertical Recoil": "100",
+      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Drift Recoil": "↔[60.00] ↕[100.00]",
+      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Climb Recoil": "↔[60.00] ↕[100.00]",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Spread": "↔[200.00] ↕[200.00]",
-      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Sway": "0",
-      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Ergonomics": "65",
+      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Base Sway": "0",
+      "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Base Ergonomics": "65",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Noise When Firing": "Medium (~48m)",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Capacity": "6",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Spare Rounds": "64",
@@ -205,6 +204,7 @@
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › Rounds from Ammo Box": "1",
       "BREAKTHROUGH EXOSUIT › BREAKTHROUGH SCATTERGUN › P9": "Projectile",
       "P9 › Projectile › Pellets": "x 40",
+      "P9 › Projectile › Size": "10 mm",
       "P9 › Projectile › Mass": "6 g",
       "P9 › Projectile › Initial Velocity": "385 m/s",
       "P9 › Projectile › Drag Factor": "120%",

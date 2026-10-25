@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "LAS-17 Double-Edge Sickle",
       "url": "https://helldivers.wiki.gg/wiki/LAS-17_Double-Edge_Sickle",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "energy_based",
@@ -51,14 +53,14 @@
       "startingMagazines": 2,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 1.75,
-      "horizontalRecoil": 1.5,
-      "verticalRecoil": 2,
+      "recoil": 2,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 20,
         "vertical": 20
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "none",
       "reloadTimeS": null,
@@ -202,19 +204,18 @@
       "Recoil": "2",
       "Tactical Reload Time": "2.83s",
       "LAS-17 DOUBLE-EDGE SICKLE › Fire Rate": "700 rpm",
-      "LAS-17 DOUBLE-EDGE SICKLE › Recoil": "1.75",
-      "LAS-17 DOUBLE-EDGE SICKLE › Horizontal Recoil": "1.5",
-      "LAS-17 DOUBLE-EDGE SICKLE › Vertical Recoil": "2",
+      "LAS-17 DOUBLE-EDGE SICKLE › Drift Recoil": "↔[2.00] ↕[2.00]",
+      "LAS-17 DOUBLE-EDGE SICKLE › Climb Recoil": "↔[1.00] ↕[2.00]",
       "LAS-17 DOUBLE-EDGE SICKLE › Spread": "↔[20.00] ↕[20.00]",
-      "LAS-17 DOUBLE-EDGE SICKLE › Sway": "1",
-      "LAS-17 DOUBLE-EDGE SICKLE › Ergonomics": "65",
+      "LAS-17 DOUBLE-EDGE SICKLE › Base Sway": "1",
+      "LAS-17 DOUBLE-EDGE SICKLE › Base Ergonomics": "65",
       "LAS-17 DOUBLE-EDGE SICKLE › Noise When Firing": "Medium (~48m)",
       "LAS-17 DOUBLE-EDGE SICKLE › Spare Magazines": "3",
       "LAS-17 DOUBLE-EDGE SICKLE › Starting Magazines": "2",
       "LAS-17 DOUBLE-EDGE SICKLE › Mags from Supply": "6",
       "LAS-17 DOUBLE-EDGE SICKLE › Mags from Ammo Box": "3",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Overheats at": "200 °C",
-      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.3 sec",
+      "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Warmup": "0.33 sec",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Heat Per Shot": "1.14999998 °C",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cool Per Sec": "12 - 8 - 6",
       "LAS-17 DOUBLE-EDGE SICKLE › Heat Data › Cooldown After Overheat": "RELOAD NEEDED",

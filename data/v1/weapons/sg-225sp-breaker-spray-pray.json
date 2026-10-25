@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "SG-225SP Breaker Spray&Pray",
       "url": "https://helldivers.wiki.gg/wiki/SG-225SP_Breaker_Spray%26Pray",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "shotgun",
@@ -47,14 +49,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 40,
-      "horizontalRecoil": 35,
-      "verticalRecoil": 45,
+      "recoil": 45,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 200,
         "vertical": 200
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -111,12 +113,11 @@
       "Recoil": "45",
       "Reload Time": "3s",
       "SG-225SP BREAKER SPRAY&PRAY › Fire Rate": "330 rpm",
-      "SG-225SP BREAKER SPRAY&PRAY › Recoil": "40",
-      "SG-225SP BREAKER SPRAY&PRAY › Horizontal Recoil": "35",
-      "SG-225SP BREAKER SPRAY&PRAY › Vertical Recoil": "45",
+      "SG-225SP BREAKER SPRAY&PRAY › Drift Recoil": "↔[35.00] ↕[35.00]",
+      "SG-225SP BREAKER SPRAY&PRAY › Climb Recoil": "↔[35.00] ↕[55.00]",
       "SG-225SP BREAKER SPRAY&PRAY › Spread": "↔[200.00] ↕[200.00]",
-      "SG-225SP BREAKER SPRAY&PRAY › Sway": "1",
-      "SG-225SP BREAKER SPRAY&PRAY › Ergonomics": "65",
+      "SG-225SP BREAKER SPRAY&PRAY › Base Sway": "1",
+      "SG-225SP BREAKER SPRAY&PRAY › Base Ergonomics": "65",
       "SG-225SP BREAKER SPRAY&PRAY › Noise When Firing": "Medium (~48m)",
       "SG-225SP BREAKER SPRAY&PRAY › Capacity": "26",
       "SG-225SP BREAKER SPRAY&PRAY › Spare Magazines": "8",

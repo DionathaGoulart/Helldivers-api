@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -51,13 +51,13 @@
       "magazinesFromSupply": 2,
       "magazinesFromAmmoBox": 1,
       "recoil": 10,
-      "horizontalRecoil": 5,
-      "verticalRecoil": 15,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 5,
         "vertical": 5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 100,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -159,12 +159,11 @@
       "Reload Time": "3s",
       "Tactical Reload Time": "3s",
       "P-35 RE-EDUCATOR › Fire Rate": "110 rpm",
-      "P-35 RE-EDUCATOR › Recoil": "10",
-      "P-35 RE-EDUCATOR › Horizontal Recoil": "5",
-      "P-35 RE-EDUCATOR › Vertical Recoil": "15",
+      "P-35 RE-EDUCATOR › Drift Recoil": "↔[5.00] ↕[15.00]",
+      "P-35 RE-EDUCATOR › Climb Recoil": "↔[5.00] ↕[15.00]",
       "P-35 RE-EDUCATOR › Spread": "↔[5.00] ↕[5.00]",
-      "P-35 RE-EDUCATOR › Sway": "1",
-      "P-35 RE-EDUCATOR › Ergonomics": "100",
+      "P-35 RE-EDUCATOR › Base Sway": "1",
+      "P-35 RE-EDUCATOR › Base Ergonomics": "100",
       "P-35 RE-EDUCATOR › Noise When Firing": "No sound",
       "P-35 RE-EDUCATOR › Capacity": "6",
       "P-35 RE-EDUCATOR › Spare Magazines": "2",
@@ -174,6 +173,7 @@
       "P-35 RE-EDUCATOR › Attacks › P-35 P": "Projectile",
       "P-35 RE-EDUCATOR › Attacks › Gas": "status",
       "P-35 RE-EDUCATOR › Attacks › Gas Confusion": "status",
+      "P-35 P › Projectile › Size": "1 mm",
       "P-35 P › Projectile › Mass": "10 g",
       "P-35 P › Projectile › Initial Velocity": "150 m/s",
       "P-35 P › Projectile › Drag Factor": "200%",

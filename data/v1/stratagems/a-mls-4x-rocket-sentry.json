@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -215,12 +215,11 @@
       "ROCKET SENTRY › ROCKET SENTRY › Main Health": "400",
       "ROCKET SENTRY › ROCKET SENTRY › Main Armor": "Light",
       "ROCKET SENTRY › ROCKET SENTRY › Fire Rate": "90 rpm",
-      "ROCKET SENTRY › ROCKET SENTRY › Recoil": "6.25",
-      "ROCKET SENTRY › ROCKET SENTRY › Horizontal Recoil": "2.5",
-      "ROCKET SENTRY › ROCKET SENTRY › Vertical Recoil": "10",
+      "ROCKET SENTRY › ROCKET SENTRY › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "ROCKET SENTRY › ROCKET SENTRY › Climb Recoil": "↔[2.50] ↕[10.00]",
       "ROCKET SENTRY › ROCKET SENTRY › Spread": "↔[5.00] ↕[15.00]",
-      "ROCKET SENTRY › ROCKET SENTRY › Sway": "1",
-      "ROCKET SENTRY › ROCKET SENTRY › Ergonomics": "65",
+      "ROCKET SENTRY › ROCKET SENTRY › Base Sway": "1",
+      "ROCKET SENTRY › ROCKET SENTRY › Base Ergonomics": "65",
       "ROCKET SENTRY › ROCKET SENTRY › Noise When Firing": "Medium (~48m)",
       "ROCKET SENTRY › ROCKET SENTRY › Capacity": "16",
       "ROCKET SENTRY › ROCKET SENTRY › Turret Turn Speed": "↔[40.00]°/s ↕[40.00]°/s",
@@ -230,6 +229,7 @@
       "ROCKET SENTRY › ROCKET SENTRY › A/MLS-4X P": "Projectile",
       "ROCKET SENTRY › ROCKET SENTRY › EAT-17 BACKBLAST E": "Explosion",
       "ROCKET SENTRY › ROCKET SENTRY › A/MLS-4X P IE": "Explosion",
+      "A/MLS-4X P › Projectile › Size": "70 mm",
       "A/MLS-4X P › Projectile › Mass": "6 kg",
       "A/MLS-4X P › Projectile › Initial Velocity": "100 m/s",
       "A/MLS-4X P › Projectile › Drag Factor": "0%",

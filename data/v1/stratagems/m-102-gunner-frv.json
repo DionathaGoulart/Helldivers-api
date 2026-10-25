@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -110,9 +110,8 @@
       "GUNNER FRV › Main Health": "2400",
       "GUNNER FRV › Main Armor": "Unarmored",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Fire Rate": "600 rpm",
-      "GUNNER FRV › SWP HEAVY MACHINE GUN › Recoil": "20.5",
-      "GUNNER FRV › SWP HEAVY MACHINE GUN › Horizontal Recoil": "11",
-      "GUNNER FRV › SWP HEAVY MACHINE GUN › Vertical Recoil": "30",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Drift Recoil": "↔[20.00] ↕[30.00]",
+      "GUNNER FRV › SWP HEAVY MACHINE GUN › Climb Recoil": "↔[2.00] ↕[30.00]",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Spread": "↔[5.00] ↕[5.00]",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Base Sway": "1",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Base Ergonomics": "30",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -48,14 +48,14 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 40,
-      "horizontalRecoil": 27.5,
-      "verticalRecoil": 52.5,
+      "recoil": 33,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.5,
         "vertical": 0.5
       },
-      "sway": 0.8,
+      "sway": null,
       "ergonomics": 35,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -113,12 +113,11 @@
       "Reload Time": "3s",
       "Tactical Reload Time": "1.9s",
       "R-63CS DILIGENCE COUNTER SNIPER › Fire Rate": "350 rpm",
-      "R-63CS DILIGENCE COUNTER SNIPER › Recoil": "40",
-      "R-63CS DILIGENCE COUNTER SNIPER › Horizontal Recoil": "27.5",
-      "R-63CS DILIGENCE COUNTER SNIPER › Vertical Recoil": "52.5",
+      "R-63CS DILIGENCE COUNTER SNIPER › Drift Recoil": "↔[25.00] ↕[25.00]",
+      "R-63CS DILIGENCE COUNTER SNIPER › Climb Recoil": "↔[30.00] ↕[80.00]",
       "R-63CS DILIGENCE COUNTER SNIPER › Spread": "↔[0.50] ↕[0.50]",
-      "R-63CS DILIGENCE COUNTER SNIPER › Sway": "0.8",
-      "R-63CS DILIGENCE COUNTER SNIPER › Ergonomics": "35",
+      "R-63CS DILIGENCE COUNTER SNIPER › Base Sway": "0.8",
+      "R-63CS DILIGENCE COUNTER SNIPER › Base Ergonomics": "35",
       "R-63CS DILIGENCE COUNTER SNIPER › Noise When Firing": "Medium (~48m)",
       "R-63CS DILIGENCE COUNTER SNIPER › Capacity": "15",
       "R-63CS DILIGENCE COUNTER SNIPER › Spare Magazines": "6",

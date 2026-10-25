@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 2,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 1.75,
-      "horizontalRecoil": 1.5,
-      "verticalRecoil": 2,
+      "recoil": 2,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 200,
         "vertical": 50
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "magazine",
       "reloadTimeS": 2.9,
@@ -106,12 +106,11 @@
       "Recoil": "2",
       "Reload Time": "2.9s",
       "Tactical Reload Time": "3.67s",
-      "LAS-13 TRIDENT › Recoil": "1.75",
-      "LAS-13 TRIDENT › Horizontal Recoil": "1.5",
-      "LAS-13 TRIDENT › Vertical Recoil": "2",
+      "LAS-13 TRIDENT › Drift Recoil": "↔[2.00] ↕[2.00]",
+      "LAS-13 TRIDENT › Climb Recoil": "↔[1.00] ↕[2.00]",
       "LAS-13 TRIDENT › Spread": "↔[200.00] ↕[50.00]",
-      "LAS-13 TRIDENT › Sway": "1",
-      "LAS-13 TRIDENT › Ergonomics": "65",
+      "LAS-13 TRIDENT › Base Sway": "1",
+      "LAS-13 TRIDENT › Base Ergonomics": "65",
       "LAS-13 TRIDENT › Noise When Firing": "Medium (~48m)",
       "LAS-13 TRIDENT › Spare Magazines": "3",
       "LAS-13 TRIDENT › Starting Magazines": "2",

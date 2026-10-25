@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,9 +50,9 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 16.5,
-      "horizontalRecoil": 9,
-      "verticalRecoil": 24,
+      "recoil": 17,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 6,
         "vertical": 10
@@ -114,9 +114,8 @@
       "Reload Time": "2.3s",
       "Tactical Reload Time": "1.35s",
       "P-44 MIST › Fire Rate": "400 rpm",
-      "P-44 MIST › Recoil": "16.5",
-      "P-44 MIST › Horizontal Recoil": "9",
-      "P-44 MIST › Vertical Recoil": "24",
+      "P-44 MIST › Drift Recoil": "↔[10.00] ↕[24.00]",
+      "P-44 MIST › Climb Recoil": "↔[8.00] ↕[24.00]",
       "P-44 MIST › Spread": "↔[6.00] ↕[10.00]",
       "P-44 MIST › Base Sway": "1",
       "P-44 MIST › Base Ergonomics": "90",

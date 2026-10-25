@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,14 +50,14 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 9,
       "magazinesFromAmmoBox": 4,
-      "recoil": 31.5,
-      "horizontalRecoil": 15.5,
-      "verticalRecoil": 47.5,
+      "recoil": 32,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 5,
         "vertical": 5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 55,
       "reloadKind": "magazine",
       "reloadTimeS": 3.55,
@@ -113,12 +113,11 @@
       "Reload Time": "3.55s",
       "Tactical Reload Time": "2.1s",
       "SMG-32 REPRIMAND › Fire Rate": "490 rpm",
-      "SMG-32 REPRIMAND › Recoil": "31.5",
-      "SMG-32 REPRIMAND › Horizontal Recoil": "15.5",
-      "SMG-32 REPRIMAND › Vertical Recoil": "47.5",
+      "SMG-32 REPRIMAND › Drift Recoil": "↔[25.00] ↕[40.00]",
+      "SMG-32 REPRIMAND › Climb Recoil": "↔[6.00] ↕[55.00]",
       "SMG-32 REPRIMAND › Spread": "↔[5.00] ↕[5.00]",
-      "SMG-32 REPRIMAND › Sway": "1",
-      "SMG-32 REPRIMAND › Ergonomics": "55",
+      "SMG-32 REPRIMAND › Base Sway": "1",
+      "SMG-32 REPRIMAND › Base Ergonomics": "55",
       "SMG-32 REPRIMAND › Noise When Firing": "Small (~33m)",
       "SMG-32 REPRIMAND › Capacity": "25",
       "SMG-32 REPRIMAND › Spare Magazines": "9",

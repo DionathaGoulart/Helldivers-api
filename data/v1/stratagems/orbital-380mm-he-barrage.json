@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -180,6 +180,7 @@
       "ORBITAL 380MM HE BARRAGE › Bombardment Area Size": "36 m",
       "ORBITAL 380MM HE BARRAGE › Attacks › S P22": "Projectile",
       "ORBITAL 380MM HE BARRAGE › Attacks › S P22 IE": "Explosion",
+      "S P22 › Projectile › Size": "406 mm",
       "S P22 › Projectile › Mass": "30 kg",
       "S P22 › Projectile › Initial Velocity": "400 m/s",
       "S P22 › Projectile › Drag Factor": "0%",

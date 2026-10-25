@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -215,12 +215,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "GL-52 DE-ESCALATOR › Fire Rate": "200 rpm",
-      "GL-52 DE-ESCALATOR › Recoil": "83.75",
-      "GL-52 DE-ESCALATOR › Horizontal Recoil": "75",
-      "GL-52 DE-ESCALATOR › Vertical Recoil": "92.5",
+      "GL-52 DE-ESCALATOR › Drift Recoil": "↔[90.00] ↕[95.00]",
+      "GL-52 DE-ESCALATOR › Climb Recoil": "↔[60.00] ↕[90.00]",
       "GL-52 DE-ESCALATOR › Spread": "↔[15.00] ↕[15.00]",
-      "GL-52 DE-ESCALATOR › Sway": "1",
-      "GL-52 DE-ESCALATOR › Ergonomics": "25",
+      "GL-52 DE-ESCALATOR › Base Sway": "1",
+      "GL-52 DE-ESCALATOR › Base Ergonomics": "25",
       "GL-52 DE-ESCALATOR › Noise When Firing": "Small (~33m)",
       "GL-52 DE-ESCALATOR › Capacity": "6",
       "GL-52 DE-ESCALATOR › Spare Rounds": "40",
@@ -231,6 +230,7 @@
       "GL-52 DE-ESCALATOR › Attacks › GL-52 P IE": "Explosion",
       "GL-52 DE-ESCALATOR › Attacks › GL-52 P IE A": "Arc",
       "GL-52 DE-ESCALATOR › Attacks › Stun Small": "status",
+      "GL-52 P › Projectile › Size": "40 mm",
       "GL-52 P › Projectile › Mass": "50 g",
       "GL-52 P › Projectile › Initial Velocity": "100 m/s",
       "GL-52 P › Projectile › Drag Factor": "120%",

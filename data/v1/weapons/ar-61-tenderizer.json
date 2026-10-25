@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -52,14 +52,14 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 7,
       "magazinesFromAmmoBox": 3,
-      "recoil": 8,
-      "horizontalRecoil": 6,
-      "verticalRecoil": 10,
+      "recoil": 10,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 1,
         "vertical": 1
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "magazine",
       "reloadTimeS": 3.33,
@@ -115,12 +115,11 @@
       "Reload Time": "3.33s",
       "Tactical Reload Time": "2.18s",
       "AR-61 TENDERIZER › Fire Rate": "600 rpm",
-      "AR-61 TENDERIZER › Recoil": "8",
-      "AR-61 TENDERIZER › Horizontal Recoil": "6",
-      "AR-61 TENDERIZER › Vertical Recoil": "10",
+      "AR-61 TENDERIZER › Drift Recoil": "↔[7.00] ↕[7.00]",
+      "AR-61 TENDERIZER › Climb Recoil": "↔[5.00] ↕[13.00]",
       "AR-61 TENDERIZER › Spread": "↔[1.00] ↕[1.00]",
-      "AR-61 TENDERIZER › Sway": "1",
-      "AR-61 TENDERIZER › Ergonomics": "65",
+      "AR-61 TENDERIZER › Base Sway": "1",
+      "AR-61 TENDERIZER › Base Ergonomics": "65",
       "AR-61 TENDERIZER › Noise When Firing": "Medium (~48m)",
       "AR-61 TENDERIZER › Capacity": "35",
       "AR-61 TENDERIZER › Spare Magazines": "7",

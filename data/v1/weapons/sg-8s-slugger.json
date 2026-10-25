@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 32,
       "magazinesFromSupply": 60,
       "magazinesFromAmmoBox": 30,
-      "recoil": 82.5,
-      "horizontalRecoil": 45,
-      "verticalRecoil": 120,
+      "recoil": 83,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 6,
         "vertical": 6
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 65,
       "reloadKind": "rounds",
       "reloadTimeS": 6.45,
@@ -115,12 +115,11 @@
       "Reload Time For One Round": "1.25s (Empty) / 0.4s (Partial)",
       "Reload Time for >1 Round": "0.33s",
       "SG-8S SLUGGER › Fire Rate": "80 rpm",
-      "SG-8S SLUGGER › Recoil": "82.5",
-      "SG-8S SLUGGER › Horizontal Recoil": "45",
-      "SG-8S SLUGGER › Vertical Recoil": "120",
+      "SG-8S SLUGGER › Drift Recoil": "↔[40.00] ↕[40.00]",
+      "SG-8S SLUGGER › Climb Recoil": "↔[50.00] ↕[200.00]",
       "SG-8S SLUGGER › Spread": "↔[6.00] ↕[6.00]",
-      "SG-8S SLUGGER › Sway": "1",
-      "SG-8S SLUGGER › Ergonomics": "65",
+      "SG-8S SLUGGER › Base Sway": "1",
+      "SG-8S SLUGGER › Base Ergonomics": "65",
       "SG-8S SLUGGER › Noise When Firing": "Medium (~48m)",
       "SG-8S SLUGGER › Capacity": "16",
       "SG-8S SLUGGER › Spare Rounds": "60",

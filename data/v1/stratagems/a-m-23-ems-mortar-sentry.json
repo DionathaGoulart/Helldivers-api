@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -241,12 +241,11 @@
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Main Health": "400",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Main Armor": "Light",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Fire Rate": "60 rpm",
-      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Recoil": "6.25",
-      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Horizontal Recoil": "2.5",
-      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Vertical Recoil": "10",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Climb Recoil": "↔[2.50] ↕[10.00]",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Spread": "↔[50.00] ↕[50.00]",
-      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Sway": "1",
-      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Ergonomics": "65",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Base Sway": "1",
+      "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Base Ergonomics": "65",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Noise When Firing": "Medium (~48m)",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Capacity": "16",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Turret Turn Speed": "↔[55.00]°/s ↕[55.00]°/s",
@@ -256,6 +255,7 @@
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › A/M-23 P IE": "Explosion",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › A/M-23 P E": "Explosion",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Stun Medium": "status",
+      "A/M-23 P › Projectile › Size": "360 mm",
       "A/M-23 P › Projectile › Mass": "70 kg",
       "A/M-23 P › Projectile › Initial Velocity": "100 m/s",
       "A/M-23 P › Projectile › Drag Factor": "25%",

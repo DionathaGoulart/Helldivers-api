@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -51,14 +51,14 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 7,
       "magazinesFromAmmoBox": 3,
-      "recoil": 8.75,
-      "horizontalRecoil": 7.5,
-      "verticalRecoil": 10,
+      "recoil": 9,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 5,
         "vertical": 5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 90,
       "reloadKind": "magazine",
       "reloadTimeS": 2.8,
@@ -115,12 +115,11 @@
       "Recoil": "9",
       "Reload Time": "2.8s",
       "SMG-37 DEFENDER › Fire Rate": "520 rpm",
-      "SMG-37 DEFENDER › Recoil": "8.75",
-      "SMG-37 DEFENDER › Horizontal Recoil": "7.5",
-      "SMG-37 DEFENDER › Vertical Recoil": "10",
+      "SMG-37 DEFENDER › Drift Recoil": "↔[10.00] ↕[10.00]",
+      "SMG-37 DEFENDER › Climb Recoil": "↔[5.00] ↕[10.00]",
       "SMG-37 DEFENDER › Spread": "↔[5.00] ↕[5.00]",
-      "SMG-37 DEFENDER › Sway": "1",
-      "SMG-37 DEFENDER › Ergonomics": "90",
+      "SMG-37 DEFENDER › Base Sway": "1",
+      "SMG-37 DEFENDER › Base Ergonomics": "90",
       "SMG-37 DEFENDER › Noise When Firing": "Small (~33m)",
       "SMG-37 DEFENDER › Capacity": "45",
       "SMG-37 DEFENDER › Spare Magazines": "7",

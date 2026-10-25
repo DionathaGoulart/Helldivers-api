@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -141,12 +141,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "MG-206 HEAVY MACHINE GUN › Fire Rate": "600 rpm",
-      "MG-206 HEAVY MACHINE GUN › Recoil": "43.75",
-      "MG-206 HEAVY MACHINE GUN › Horizontal Recoil": "32.5",
-      "MG-206 HEAVY MACHINE GUN › Vertical Recoil": "55",
+      "MG-206 HEAVY MACHINE GUN › Drift Recoil": "↔[50.00] ↕[80.00]",
+      "MG-206 HEAVY MACHINE GUN › Climb Recoil": "↔[15.00] ↕[30.00]",
       "MG-206 HEAVY MACHINE GUN › Spread": "↔[5.00] ↕[5.00]",
-      "MG-206 HEAVY MACHINE GUN › Sway": "1",
-      "MG-206 HEAVY MACHINE GUN › Ergonomics": "0",
+      "MG-206 HEAVY MACHINE GUN › Base Sway": "1",
+      "MG-206 HEAVY MACHINE GUN › Base Ergonomics": "0",
       "MG-206 HEAVY MACHINE GUN › Noise When Firing": "Medium (~48m)",
       "MG-206 HEAVY MACHINE GUN › Capacity": "100",
       "MG-206 HEAVY MACHINE GUN › Spare Magazines": "2",
@@ -154,6 +153,7 @@
       "MG-206 HEAVY MACHINE GUN › Mags from Supply": "2",
       "MG-206 HEAVY MACHINE GUN › Mags from Ammo Box": "1",
       "MG-206 HEAVY MACHINE GUN › Attacks › MG-206 P": "Projectile",
+      "MG-206 P › Projectile › Size": "12.5 mm",
       "MG-206 P › Projectile › Mass": "52 g",
       "MG-206 P › Projectile › Initial Velocity": "980 m/s",
       "MG-206 P › Projectile › Drag Factor": "30%",

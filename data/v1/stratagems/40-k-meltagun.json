@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -25,6 +25,7 @@
       "title": "40-K Meltagun",
       "url": "https://helldivers.wiki.gg/wiki/40-K_Meltagun",
       "flags": [
+        "potentially_outdated",
         "broken_file_links"
       ]
     },
@@ -178,12 +179,11 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
-      "40-K MELTAGUN › Recoil": "2.125",
-      "40-K MELTAGUN › Horizontal Recoil": "0",
-      "40-K MELTAGUN › Vertical Recoil": "4.25",
+      "40-K MELTAGUN › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "40-K MELTAGUN › Climb Recoil": "↔[0.00] ↕[8.50]",
       "40-K MELTAGUN › Spread": "↔[0.10] ↕[0.10]",
-      "40-K MELTAGUN › Sway": "1",
-      "40-K MELTAGUN › Ergonomics": "10",
+      "40-K MELTAGUN › Base Sway": "1",
+      "40-K MELTAGUN › Base Ergonomics": "10",
       "40-K MELTAGUN › Noise When Firing": "Medium (~48m)",
       "40-K MELTAGUN › Capacity": "3",
       "40-K MELTAGUN › Spare Magazines": "4",

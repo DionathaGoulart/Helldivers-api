@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -52,14 +52,14 @@
       "startingMagazines": 5,
       "magazinesFromSupply": 7,
       "magazinesFromAmmoBox": 3,
-      "recoil": 8.375,
-      "horizontalRecoil": 4.75,
-      "verticalRecoil": 12,
+      "recoil": 8,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 5,
         "vertical": 5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 90,
       "reloadKind": "magazine",
       "reloadTimeS": 3,
@@ -115,12 +115,11 @@
       "Reload Time": "3s",
       "Tactical Reload Time": "2s",
       "M7S SMG › Fire Rate": "872 rpm",
-      "M7S SMG › Recoil": "8.375",
-      "M7S SMG › Horizontal Recoil": "4.75",
-      "M7S SMG › Vertical Recoil": "12",
+      "M7S SMG › Drift Recoil": "↔[7.00] ↕[14.00]",
+      "M7S SMG › Climb Recoil": "↔[2.50] ↕[10.00]",
       "M7S SMG › Spread": "↔[5.00] ↕[5.00]",
-      "M7S SMG › Sway": "1",
-      "M7S SMG › Ergonomics": "90",
+      "M7S SMG › Base Sway": "1",
+      "M7S SMG › Base Ergonomics": "90",
       "M7S SMG › Noise When Firing": "Suppressed (~13m)",
       "M7S SMG › Capacity": "48",
       "M7S SMG › Spare Magazines": "7",

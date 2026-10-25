@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -156,6 +156,7 @@
       "Orbital Railcannon Strike › Movement Speed": "90 m/s",
       "Orbital Railcannon Strike › Attacks › S P26": "Projectile",
       "Orbital Railcannon Strike › Attacks › S P26 E": "Explosion",
+      "S P26 › Projectile › Size": "100 mm",
       "S P26 › Projectile › Mass": "5 kg",
       "S P26 › Projectile › Initial Velocity": "14000 m/s",
       "S P26 › Projectile › Drag Factor": "0%",

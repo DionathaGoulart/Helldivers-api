@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,14 +49,14 @@
       "startingMagazines": 6,
       "magazinesFromSupply": 8,
       "magazinesFromAmmoBox": 4,
-      "recoil": 12.5,
-      "horizontalRecoil": 10,
-      "verticalRecoil": 15,
+      "recoil": 13,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 0.5,
         "vertical": 0.5
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 60,
       "reloadKind": "magazine",
       "reloadTimeS": 2.5,
@@ -113,12 +113,11 @@
       "Recoil": "13",
       "Reload Time": "2.5s",
       "R-72 CENSOR › Fire Rate": "400 rpm",
-      "R-72 CENSOR › Recoil": "12.5",
-      "R-72 CENSOR › Horizontal Recoil": "10",
-      "R-72 CENSOR › Vertical Recoil": "15",
+      "R-72 CENSOR › Drift Recoil": "↔[10.00] ↕[15.00]",
+      "R-72 CENSOR › Climb Recoil": "↔[10.00] ↕[15.00]",
       "R-72 CENSOR › Spread": "↔[0.50] ↕[0.50]",
-      "R-72 CENSOR › Sway": "1",
-      "R-72 CENSOR › Ergonomics": "60",
+      "R-72 CENSOR › Base Sway": "1",
+      "R-72 CENSOR › Base Ergonomics": "60",
       "R-72 CENSOR › Noise When Firing": "Suppressed (~13m)",
       "R-72 CENSOR › Capacity": "20",
       "R-72 CENSOR › Spare Magazines": "8",

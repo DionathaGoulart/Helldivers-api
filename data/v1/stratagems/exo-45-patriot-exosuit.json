@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -253,9 +253,8 @@
       "Patriot Exosuit › PATRIOT EXOSUIT HMG › Main Health": "800",
       "Patriot Exosuit › PATRIOT EXOSUIT HMG › Main Armor": "Medium",
       "Patriot Exosuit › PATRIOT EXOSUIT HMG › Fire Rate": "1200 rpm",
-      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Recoil": "5",
-      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Horizontal Recoil": "5",
-      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Vertical Recoil": "5",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Drift Recoil": "↔[8.00] ↕[5.00]",
+      "Patriot Exosuit › PATRIOT EXOSUIT HMG › Climb Recoil": "↔[2.00] ↕[5.00]",
       "Patriot Exosuit › PATRIOT EXOSUIT HMG › Spread": "↔[50.00] ↕[50.00]",
       "Patriot Exosuit › PATRIOT EXOSUIT HMG › Base Sway": "1",
       "Patriot Exosuit › PATRIOT EXOSUIT HMG › Base Ergonomics": "65",
@@ -267,9 +266,8 @@
       "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Main Health": "800",
       "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Main Armor": "Medium",
       "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Fire Rate": "90 rpm",
-      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Recoil": "6.25",
-      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Horizontal Recoil": "2.5",
-      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Vertical Recoil": "10",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Drift Recoil": "↔[2.50] ↕[10.00]",
+      "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Climb Recoil": "↔[2.50] ↕[10.00]",
       "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Spread": "↔[10.00] ↕[10.00]",
       "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Base Sway": "1",
       "Patriot Exosuit › PATRIOT EXOSUIT MISSILE LAUNCHER › Base Ergonomics": "65",

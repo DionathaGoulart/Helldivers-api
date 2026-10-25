@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "StA-52 Assault Rifle",
       "url": "https://helldivers.wiki.gg/wiki/StA-52_Assault_Rifle",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "assault_rifle",
@@ -47,14 +49,14 @@
       "startingMagazines": 4,
       "magazinesFromSupply": 6,
       "magazinesFromAmmoBox": 3,
-      "recoil": 7.25,
-      "horizontalRecoil": 4.5,
-      "verticalRecoil": 10,
+      "recoil": 14,
+      "horizontalRecoil": null,
+      "verticalRecoil": null,
       "spread": {
         "horizontal": 2,
         "vertical": 2
       },
-      "sway": 1,
+      "sway": null,
       "ergonomics": 55,
       "reloadKind": "magazine",
       "reloadTimeS": 4.2,
@@ -112,12 +114,11 @@
       "Reload Time": "4.2s",
       "Tactical Reload Time": "2.5s",
       "STA-52 ASSAULT RIFLE › Fire Rate": "790 rpm",
-      "STA-52 ASSAULT RIFLE › Recoil": "7.25",
-      "STA-52 ASSAULT RIFLE › Horizontal Recoil": "4.5",
-      "STA-52 ASSAULT RIFLE › Vertical Recoil": "10",
+      "STA-52 ASSAULT RIFLE › Drift Recoil": "↔[5.00] ↕[7.50]",
+      "STA-52 ASSAULT RIFLE › Climb Recoil": "↔[4.00] ↕[12.50]",
       "STA-52 ASSAULT RIFLE › Spread": "↔[2.00] ↕[2.00]",
-      "STA-52 ASSAULT RIFLE › Sway": "1",
-      "STA-52 ASSAULT RIFLE › Ergonomics": "55",
+      "STA-52 ASSAULT RIFLE › Base Sway": "1",
+      "STA-52 ASSAULT RIFLE › Base Ergonomics": "55",
       "STA-52 ASSAULT RIFLE › Noise When Firing": "Medium (~48m)",
       "STA-52 ASSAULT RIFLE › Capacity": "56",
       "STA-52 ASSAULT RIFLE › Spare Magazines": "7",

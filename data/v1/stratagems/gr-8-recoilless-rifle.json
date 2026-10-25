@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -247,12 +247,11 @@
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
       "GR-8 RECOILLESS RIFLE › Fire Rate": "600 rpm",
-      "GR-8 RECOILLESS RIFLE › Recoil": "77.5",
-      "GR-8 RECOILLESS RIFLE › Horizontal Recoil": "45",
-      "GR-8 RECOILLESS RIFLE › Vertical Recoil": "110",
+      "GR-8 RECOILLESS RIFLE › Drift Recoil": "↔[40.00] ↕[40.00]",
+      "GR-8 RECOILLESS RIFLE › Climb Recoil": "↔[50.00] ↕[180.00]",
       "GR-8 RECOILLESS RIFLE › Spread": "↔[4.00] ↕[4.00]",
-      "GR-8 RECOILLESS RIFLE › Sway": "1",
-      "GR-8 RECOILLESS RIFLE › Ergonomics": "10",
+      "GR-8 RECOILLESS RIFLE › Base Sway": "1",
+      "GR-8 RECOILLESS RIFLE › Base Ergonomics": "10",
       "GR-8 RECOILLESS RIFLE › Noise When Firing": "Huge (~68m)",
       "GR-8 RECOILLESS RIFLE › Capacity": "1",
       "GR-8 RECOILLESS RIFLE › Spare Magazines": "5",
@@ -278,6 +277,7 @@
       "GR-8 BACKBLAST E › AoE Effect › Demolition Force": "10",
       "GR-8 BACKBLAST E › AoE Effect › Stagger Force": "30",
       "GR-8 BACKBLAST E › AoE Effect › Push Force": "20",
+      "GR-8 P › Projectile › Size": "85 mm",
       "GR-8 P › Projectile › Mass": "3.3 kg",
       "GR-8 P › Projectile › Initial Velocity": "250 m/s",
       "GR-8 P › Projectile › Drag Factor": "30%",
@@ -307,6 +307,7 @@
       "GR-8 P IE › AoE Effect › Demolition Force": "30",
       "GR-8 P IE › AoE Effect › Stagger Force": "50",
       "GR-8 P IE › AoE Effect › Push Force": "40",
+      "GR-8 P1 › Projectile › Size": "85 mm",
       "GR-8 P1 › Projectile › Mass": "3.3 kg",
       "GR-8 P1 › Projectile › Initial Velocity": "250 m/s",
       "GR-8 P1 › Projectile › Drag Factor": "0%",

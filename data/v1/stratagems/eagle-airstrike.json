@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -177,6 +177,7 @@
       "Eagle Airstrike › Capacity": "6",
       "Eagle Airstrike › Attacks › Bomb 100kg": "Projectile",
       "Eagle Airstrike › Attacks › Eagle Bomb 100kg": "Explosion",
+      "Bomb 100kg › Projectile › Size": "25 mm",
       "Bomb 100kg › Projectile › Mass": "100 g",
       "Bomb 100kg › Projectile › Initial Velocity": "500 m/s",
       "Bomb 100kg › Projectile › Drag Factor": "50%",

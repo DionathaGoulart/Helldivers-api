@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-24.47a3d19d",
-    "generatedAt": "2026-10-24T23:08:19Z",
+    "dataVersion": "2026-10-25.9dc310d4",
+    "generatedAt": "2026-10-25T23:11:55Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -286,9 +286,8 @@
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Main Health": "800",
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Main Armor": "Medium",
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Fire Rate": "30 rpm",
-      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Recoil": "222.5",
-      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Horizontal Recoil": "125",
-      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Vertical Recoil": "320",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Drift Recoil": "↔[150.00] ↕[320.00]",
+      "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Climb Recoil": "↔[100.00] ↕[320.00]",
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Spread": "↔[2.00] ↕[2.00]",
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Base Sway": "0",
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › Base Ergonomics": "65",
@@ -298,9 +297,8 @@
       "LUMBERER EXOSUIT › LUMBERER ANTI TANK CANNON › P8 IE": "Explosion",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Main Health": "800",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Main Armor": "Medium",
-      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Recoil": "0",
-      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Horizontal Recoil": "0",
-      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Vertical Recoil": "0",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Drift Recoil": "↔[0.00] ↕[0.00]",
+      "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Climb Recoil": "↔[0.00] ↕[0.00]",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Base Sway": "0",
       "LUMBERER EXOSUIT › LUMBERER FLAMETHROWER › Base Ergonomics": "65",
