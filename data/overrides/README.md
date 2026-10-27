@@ -3,6 +3,19 @@
 Hand-maintained inputs of `pnpm scrape` (plus the generated id lock). Every file is
 validated when the scraper starts.
 
+Known `event` source labels also accept a trailing four-digit year, with or without
+parentheses: `Liberty Day 2186`, `Liberty Day 2187` and `Liberty Day (2187)` all use
+the existing `Liberty Day` mapping. Warbond links, exact source mappings and warbond
+aliases take precedence. This fallback does not apply to other source types,
+unknown event names, partial matches or malformed years.
+
+For future source failures, inspect `.reports/run.json` in the Actions artifact
+and reproduce the exact wiki label in a regression test. Formatting changes to a
+known event should reuse its base mapping; a genuinely new source needs an explicit
+mapping below. Keep unknown sources rejected rather than defaulting them to `other`.
+Run the affected tests and full suite before a controlled online verification;
+the original failed run may have stopped before reaching other changed pages.
+
 | File | Shape | Purpose |
 | --- | --- | --- |
 | `ids.lock.json` | `{ <collection>: { <wiki title, or Title#Anchor for index-only rows>: <id> } }` | Written by the scraper on publish. Weapon patterns have neither a page nor a row anchor and are keyed `Cosmetics#Patterns/<name>`. Published ids never change, even when the wiki renames a page. Do not edit by hand unless an id must be re-pointed. |

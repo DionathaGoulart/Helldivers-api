@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
-import type { Weapon } from "@hd2/schemas";
+import type { SourceType, Weapon } from "@hd2/schemas";
 import { describe, expect, it } from "vitest";
 import { NormalizeError } from "../../src/errors.ts";
 import { classifySource, pageFromMarker } from "../../src/normalize/sources.ts";
@@ -172,6 +172,7 @@ describe("classifySource", () => {
       "Starter Equipment": "default",
       Hanger: "requisition",
       Hangar: "requisition",
+      "Liberty Day": "event",
       Superstore: "superstore",
     } as const,
     page: PAGE,
@@ -227,6 +228,65 @@ describe("classifySource", () => {
     expect(() =>
       classifySource({ label: "Galactic War Reward", link: null, pageMarker: null }, options),
     ).toThrow("map it in data/overrides/source-labels.json");
+  });
+
+  it("accepts dated events using the repository source mappings", async () => {
+    const sourceLabels = JSON.parse(
+      await readFile(
+        join(import.meta.dirname, "../../../../data/overrides/source-labels.json"),
+        "utf8",
+      ),
+    ) as Record<string, SourceType>;
+    for (const label of ["Liberty Day 2186", "Liberty Day 2187", "  Liberty\tDay (2188)  "]) {
+      expect(
+        classifySource(
+          { label, link: { label, title: "Liberty Day", anchor: null }, pageMarker: null },
+          { ...options, sourceLabels },
+        ),
+      ).toEqual({ type: "event", warbondId: null, page: null });
+    }
+  });
+
+  it("keeps explicit source mappings, warbond links and aliases ahead of dated events", () => {
+    const cell = { label: "Liberty Day 2186", link: null, pageMarker: null };
+    expect(
+      classifySource(cell, {
+        ...options,
+        sourceLabels: { ...options.sourceLabels, "Liberty Day 2186": "edition" },
+      }),
+    ).toEqual({ type: "edition", warbondId: null, page: null });
+    expect(
+      classifySource(
+        {
+          ...cell,
+          link: { label: cell.label, title: "Python Commandos Premium Warbond", anchor: null },
+        },
+        options,
+      ),
+    ).toEqual({ type: "warbond", warbondId: "python-commandos", page: null });
+    expect(
+      classifySource(cell, {
+        ...options,
+        warbonds: new WarbondResolver({ aliases: { [cell.label]: "python-commandos" } }),
+      }),
+    ).toEqual({ type: "warbond", warbondId: "python-commandos", page: null });
+  });
+
+  it("rejects unknown events, dated non-events and malformed event years", () => {
+    for (const label of [
+      "Unknown Event 2186",
+      "Hanger 2186",
+      "Liberty Daylight 2186",
+      "Liberty Day 218",
+      "Liberty Day 21860",
+      "Liberty Day (2186",
+      "Liberty Day 2186)",
+      "Liberty Day 2186 extra",
+    ]) {
+      expect(() => classifySource({ label, link: null, pageMarker: null }, options)).toThrow(
+        "map it in data/overrides/source-labels.json",
+      );
+    }
   });
 
   it("reads page markers", () => {

@@ -58,6 +58,17 @@ export function classifySource(
       page: pageFromMarker(cell.pageMarker),
     };
   } catch {
+    // The wiki appends a release year to recurring event names. Only accept it when the
+    // unversioned label is an explicitly configured event; all other labels still fail closed.
+    const eventLabel = /^(.+?)\s+(?:\(\d{4}\)|\d{4})$/.exec(label)?.[1];
+    const eventType = eventLabel
+      ? Object.entries(sourceLabels).find(
+          ([known]) => normalizeWarbondLabel(known) === eventLabel,
+        )?.[1]
+      : null;
+    if (eventType === "event") {
+      return { type: "event", warbondId: null, page: null };
+    }
     throw new NormalizeError(
       page,
       cell.label,
