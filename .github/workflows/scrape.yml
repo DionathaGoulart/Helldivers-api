@@ -147,7 +147,8 @@ jobs:
         with:
           name: scrape-report-${{ github.run_id }}-${{ github.run_attempt }}
           path: .reports/
-          if-no-files-found: ignore
+          include-hidden-files: true
+          if-no-files-found: warn
           retention-days: 14
       - name: Alert
         if: failure()
