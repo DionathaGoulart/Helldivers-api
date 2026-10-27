@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-25.9dc310d4",
-    "generatedAt": "2026-10-25T23:11:55Z",
+    "dataVersion": "2026-10-27.61d45e63",
+    "generatedAt": "2026-10-27T13:17:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -26,6 +26,7 @@
       "ar-23-liberator",
       "ar-23a-liberator-carbine",
       "ar-23c-liberator-concussive",
+      "ar-23l-liberator-legacy",
       "ar-59-suppressor",
       "ar-61-tenderizer",
       "ar-gl-21-one-two",

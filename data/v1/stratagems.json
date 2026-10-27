@@ -1,9 +1,9 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-25.9dc310d4",
-    "generatedAt": "2026-10-25T23:11:55Z",
-    "count": 117,
+    "dataVersion": "2026-10-27.61d45e63",
+    "generatedAt": "2026-10-27T13:17:32Z",
+    "count": 119,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -3205,7 +3205,7 @@
         "Spare Mags": "4 Magazines",
         "Ammo Box Refill": "1",
         "Ergonomics": "14",
-        "Reload Time": "5.0s / 4.55s (Upgraded)",
+        "Reload Time": "5.0s / 4.55s (Upgraded) / 3s (Assisted)",
         "Tactical Reload Time": "3.65 / 3.3s (Upgraded)",
         "General › Call-in Time › Standard": "7.75 seconds",
         "General › Call-in Time › Upgraded": "4.75 seconds",
@@ -7437,6 +7437,121 @@
           "currency": "requisition",
           "amount": 4000
         },
+        "rotating": null
+      }
+    },
+    {
+      "id": "eagle-fly-by",
+      "slug": "eagle-fly-by",
+      "name": "Eagle Fly By",
+      "upcoming": false,
+      "aliases": [],
+      "description": "The Eagle Fly By is an offensive stratagem that deploys an Eagle that flies over the mission area.",
+      "image": {
+        "url": "/images/v1/stratagems/eagle-fly-by.5a55cdef.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Eagle_Stratagem_Fallback_Icon_Background.svg"
+      },
+      "wiki": {
+        "title": "Eagle Fly By",
+        "url": "https://helldivers.wiki.gg/wiki/Eagle_Fly_By",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "permitType": "offensive",
+      "availability": "loadout",
+      "category": null,
+      "kind": "eagle",
+      "traitIds": [
+        "eagle"
+      ],
+      "code": [
+        "up",
+        "down",
+        "down",
+        "up",
+        "up",
+        "down",
+        "down",
+        "up",
+        "up"
+      ],
+      "cooldownS": 15,
+      "cooldownVariants": [
+        {
+          "label": "With Morale Augmentation",
+          "seconds": 14.25
+        },
+        {
+          "label": "With Liquid-Ventilated Cockpit",
+          "seconds": 7.5
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 6.75
+        }
+      ],
+      "callInTimeS": 2.85,
+      "callInTimeUpgradedS": null,
+      "uses": 4,
+      "unlockLevel": null,
+      "shipModules": [
+        {
+          "department": "hangar",
+          "module": "Liquid-Ventilated Cockpit",
+          "effect": "Eagle stratagem cooldown reduced by 50%."
+        },
+        {
+          "department": "hangar",
+          "module": "Pit Crew Hazard Pay",
+          "effect": "Reduces Eagle Rearm time by 20%."
+        },
+        {
+          "department": "hangar",
+          "module": "Expanded Weapons Bay",
+          "effect": "Increases the number Eagle stratagem uses per Rearm by 1."
+        },
+        {
+          "department": "hangar",
+          "module": "XXL Weapons Bay",
+          "effect": "Eagle stratagems that drop multiple bombs will drop 1 additional bomb(s)."
+        },
+        {
+          "department": "hangar",
+          "module": "Advanced Crew Training",
+          "effect": "Eagle Rearm cooldown further reduced by 10% if called in while Eagle uses still remain."
+        },
+        {
+          "department": "bridge",
+          "module": "Morale Augmentation",
+          "effect": "Reduces cooldown time for all Stratagems by 5%."
+        }
+      ],
+      "supportWeapon": null,
+      "backpack": null,
+      "attacks": [],
+      "statsRaw": {
+        "Permit Type": "Offensive",
+        "Traits": "Eagle",
+        "General › Call-in Time": "2.85 seconds",
+        "General › Rearm Time › Standard": "150 seconds",
+        "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+        "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+        "General › Uses › Standard": "4",
+        "General › Uses › Upgraded": "5",
+        "General › Cooldown › Standard": "15 seconds",
+        "General › Cooldown › With Morale Augmentation": "14.25 seconds",
+        "General › Cooldown › With Liquid-Ventilated Cockpit": "7.5 seconds",
+        "General › Cooldown › With All Upgrades": "6.75 seconds"
+      },
+      "source": {
+        "type": "event",
+        "label": "Liberty Day 2026",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
         "rotating": null
       }
     },
@@ -16560,6 +16675,114 @@
           "currency": "requisition",
           "amount": 4000
         },
+        "rotating": null
+      }
+    },
+    {
+      "id": "orbital-confetti",
+      "slug": "orbital-confetti",
+      "name": "Orbital Confetti",
+      "upcoming": false,
+      "aliases": [],
+      "description": "The Orbital Confetti is an offensive stratagem that shoots orbital rounds filled with Confetti at the mission area.",
+      "image": {
+        "url": "/images/v1/stratagems/orbital-confetti.34607a5e.webp",
+        "width": 256,
+        "height": 256,
+        "wikiFile": "Orbital_Strike_Stratagem_Fallback_Icon_Background.svg"
+      },
+      "wiki": {
+        "title": "Orbital Confetti",
+        "url": "https://helldivers.wiki.gg/wiki/Orbital_Confetti",
+        "flags": [
+          "broken_file_links"
+        ]
+      },
+      "permitType": "offensive",
+      "availability": "loadout",
+      "category": null,
+      "kind": "orbital",
+      "traitIds": [
+        "orbital"
+      ],
+      "code": [
+        "right",
+        "down",
+        "down",
+        "up",
+        "up",
+        "down",
+        "down",
+        "up",
+        "up"
+      ],
+      "cooldownS": 80,
+      "cooldownVariants": [
+        {
+          "label": "With Morale Augmentation",
+          "seconds": 76
+        },
+        {
+          "label": "With Zero-G Breech Loading",
+          "seconds": 72
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 68.4
+        }
+      ],
+      "callInTimeS": 6,
+      "callInTimeUpgradedS": 5,
+      "uses": "unlimited",
+      "unlockLevel": null,
+      "shipModules": [
+        {
+          "department": "orbital_cannons",
+          "module": "Exploding Shrapnel",
+          "effect": "Reduces damage falloff from the center of explosions caused by orbital Stratagems."
+        },
+        {
+          "department": "orbital_cannons",
+          "module": "Zero-G Breech Loading",
+          "effect": "Orbital stratagem cooldown time reduced by 10%."
+        },
+        {
+          "department": "orbital_cannons",
+          "module": "High-Density Explosives",
+          "effect": "Increases the damage radius on explosions caused by orbital Stratagems by 10%."
+        },
+        {
+          "department": "bridge",
+          "module": "Targeting Software Upgrade",
+          "effect": "1-second reduction in call-in time for all Orbital Stratagems."
+        },
+        {
+          "department": "bridge",
+          "module": "Morale Augmentation",
+          "effect": "Reduces cooldown time for all Stratagems by 5%."
+        }
+      ],
+      "supportWeapon": null,
+      "backpack": null,
+      "attacks": [],
+      "statsRaw": {
+        "Permit Type": "Offensive",
+        "Traits": "Orbital",
+        "Base Cooldown": "80s",
+        "General › Call-in Time › Standard": "6 seconds",
+        "General › Call-in Time › Upgraded": "5 seconds",
+        "General › Uses": "Unlimited",
+        "General › Cooldown › Standard": "80 seconds",
+        "General › Cooldown › With Morale Augmentation": "76 seconds",
+        "General › Cooldown › With Zero-G Breech Loading": "72 seconds",
+        "General › Cooldown › With All Upgrades": "68.4 seconds"
+      },
+      "source": {
+        "type": "event",
+        "label": "Liberty Day 2026",
+        "warbondId": null,
+        "page": null,
+        "cost": null,
         "rotating": null
       }
     },

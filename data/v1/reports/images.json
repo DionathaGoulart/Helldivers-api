@@ -5563,6 +5563,15 @@
       "bytes": 3656
     },
     {
+      "url": "/images/v1/stratagems/eagle-fly-by.5a55cdef.webp",
+      "wikiFile": "Eagle_Stratagem_Fallback_Icon_Background.svg",
+      "version": "906dd7",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3052
+    },
+    {
       "url": "/images/v1/stratagems/eagle-gas-airstrike.62eb8bf5.webp",
       "wikiFile": "Eagle_Gas_Airstrike_Stratagem_Icon_Background.svg",
       "version": "e47dc1",
@@ -5957,6 +5966,15 @@
       "width": 256,
       "height": 256,
       "bytes": 3662
+    },
+    {
+      "url": "/images/v1/stratagems/orbital-confetti.34607a5e.webp",
+      "wikiFile": "Orbital_Strike_Stratagem_Fallback_Icon_Background.svg",
+      "version": "5bcff4",
+      "rendition": "icon",
+      "width": 256,
+      "height": 256,
+      "bytes": 3252
     },
     {
       "url": "/images/v1/stratagems/orbital-ems-strike.bf679220.webp",
@@ -7066,6 +7084,15 @@
       "bytes": 11802
     },
     {
+      "url": "/images/v1/weapons/ar-23l-liberator-legacy.75026c8c.webp",
+      "wikiFile": "AR-23L_Liberator_Primary_Render.png",
+      "version": "ee6b7e",
+      "rendition": "render",
+      "width": 512,
+      "height": 288,
+      "bytes": 13136
+    },
+    {
       "url": "/images/v1/weapons/ar-23p-liberator-penetrator.eaccb0c6.webp",
       "wikiFile": "AR-23P_Liberator_Penetrator_Primary_Render.png",
       "version": "82edd5",
@@ -8101,10 +8128,6 @@
     {
       "url": "/images/v1/capes/boundary-banker.f8ffb2e8.webp",
       "since": "2026-10-24"
-    },
-    {
-      "url": "/images/v1/capes/mark-of-the-crimson-fang.21cfd895.webp",
-      "since": "2026-09-27"
     },
     {
       "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",

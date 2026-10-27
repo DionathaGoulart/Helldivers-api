@@ -1,7 +1,7 @@
 {
   "apiVersion": "v1",
-  "dataVersion": "2026-10-25.9dc310d4",
-  "generatedAt": "2026-10-25T23:11:55Z",
+  "dataVersion": "2026-10-27.61d45e63",
+  "generatedAt": "2026-10-27T13:17:32Z",
   "source": {
     "name": "The Helldivers Wiki",
     "url": "https://helldivers.wiki.gg"
@@ -35,7 +35,7 @@
       "count": 80
     },
     "stratagems": {
-      "count": 117
+      "count": 119
     },
     "titles": {
       "count": 58
@@ -47,7 +47,7 @@
       "count": 28
     },
     "weapons": {
-      "count": 108
+      "count": 109
     }
   }
 }

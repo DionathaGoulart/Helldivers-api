@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "apiVersion": "v1",
+    "dataVersion": "2026-10-27.61d45e63",
+    "generatedAt": "2026-10-27T13:17:32Z",
+    "source": {
+      "name": "The Helldivers Wiki",
+      "url": "https://helldivers.wiki.gg"
+    }
+  },
+  "data": {
+    "id": "eagle-fly-by",
+    "slug": "eagle-fly-by",
+    "name": "Eagle Fly By",
+    "upcoming": false,
+    "aliases": [],
+    "description": "The Eagle Fly By is an offensive stratagem that deploys an Eagle that flies over the mission area.",
+    "image": {
+      "url": "/images/v1/stratagems/eagle-fly-by.5a55cdef.webp",
+      "width": 256,
+      "height": 256,
+      "wikiFile": "Eagle_Stratagem_Fallback_Icon_Background.svg"
+    },
+    "wiki": {
+      "title": "Eagle Fly By",
+      "url": "https://helldivers.wiki.gg/wiki/Eagle_Fly_By",
+      "flags": [
+        "broken_file_links"
+      ]
+    },
+    "permitType": "offensive",
+    "availability": "loadout",
+    "category": null,
+    "kind": "eagle",
+    "traitIds": [
+      "eagle"
+    ],
+    "code": [
+      "up",
+      "down",
+      "down",
+      "up",
+      "up",
+      "down",
+      "down",
+      "up",
+      "up"
+    ],
+    "cooldownS": 15,
+    "cooldownVariants": [
+      {
+        "label": "With Morale Augmentation",
+        "seconds": 14.25
+      },
+      {
+        "label": "With Liquid-Ventilated Cockpit",
+        "seconds": 7.5
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 6.75
+      }
+    ],
+    "callInTimeS": 2.85,
+    "callInTimeUpgradedS": null,
+    "uses": 4,
+    "unlockLevel": null,
+    "shipModules": [
+      {
+        "department": "hangar",
+        "module": "Liquid-Ventilated Cockpit",
+        "effect": "Eagle stratagem cooldown reduced by 50%."
+      },
+      {
+        "department": "hangar",
+        "module": "Pit Crew Hazard Pay",
+        "effect": "Reduces Eagle Rearm time by 20%."
+      },
+      {
+        "department": "hangar",
+        "module": "Expanded Weapons Bay",
+        "effect": "Increases the number Eagle stratagem uses per Rearm by 1."
+      },
+      {
+        "department": "hangar",
+        "module": "XXL Weapons Bay",
+        "effect": "Eagle stratagems that drop multiple bombs will drop 1 additional bomb(s)."
+      },
+      {
+        "department": "hangar",
+        "module": "Advanced Crew Training",
+        "effect": "Eagle Rearm cooldown further reduced by 10% if called in while Eagle uses still remain."
+      },
+      {
+        "department": "bridge",
+        "module": "Morale Augmentation",
+        "effect": "Reduces cooldown time for all Stratagems by 5%."
+      }
+    ],
+    "supportWeapon": null,
+    "backpack": null,
+    "attacks": [],
+    "statsRaw": {
+      "Permit Type": "Offensive",
+      "Traits": "Eagle",
+      "General › Call-in Time": "2.85 seconds",
+      "General › Rearm Time › Standard": "150 seconds",
+      "General › Rearm Time › With Pit Crew Hazard Pay": "120 seconds",
+      "General › Rearm Time › With Advanced Crew Training": "108 seconds",
+      "General › Uses › Standard": "4",
+      "General › Uses › Upgraded": "5",
+      "General › Cooldown › Standard": "15 seconds",
+      "General › Cooldown › With Morale Augmentation": "14.25 seconds",
+      "General › Cooldown › With Liquid-Ventilated Cockpit": "7.5 seconds",
+      "General › Cooldown › With All Upgrades": "6.75 seconds"
+    },
+    "source": {
+      "type": "event",
+      "label": "Liberty Day 2026",
+      "warbondId": null,
+      "page": null,
+      "cost": null,
+      "rotating": null
+    }
+  }
+}
