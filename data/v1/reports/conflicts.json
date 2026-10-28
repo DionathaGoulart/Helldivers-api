@@ -140,25 +140,6 @@
     },
     {
       "collection": "stratagems",
-      "id": "eagle-airstrike",
-      "field": "callInTimeS",
-      "rule": 2,
-      "chosen": 0,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Eagle_Airstrike",
-          "location": "General › Call-in Time",
-          "value": 4.1
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/Eagle_Airstrike",
-          "location": "Eagle Airstrike › Call-in Time",
-          "value": 0
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
       "id": "exo-45-patriot-exosuit",
       "field": "cooldownS",
       "rule": 2,
@@ -197,63 +178,6 @@
           "page": "https://helldivers.wiki.gg/wiki/EXO-45_Patriot_Exosuit",
           "location": "Patriot Exosuit › Uses",
           "value": 1
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "md-17-anti-tank-mines",
-      "field": "callInTimeS",
-      "rule": 2,
-      "chosen": 3,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MD-17_Anti-Tank_Mines",
-          "location": "General › Call-in Time › Standard",
-          "value": 7.75
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MD-17_Anti-Tank_Mines",
-          "location": "MD-17 Anti-Tank Mines › Call-in Time",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "md-6-anti-personnel-minefield",
-      "field": "callInTimeS",
-      "rule": 2,
-      "chosen": 3,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MD-6_Anti-Personnel_Minefield",
-          "location": "General › Call-in Time › Standard",
-          "value": 7.75
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MD-6_Anti-Personnel_Minefield",
-          "location": "MD-6 Anti-Personnel Minefield › Call-in Time",
-          "value": 3
-        }
-      ]
-    },
-    {
-      "collection": "stratagems",
-      "id": "md-i4-incendiary-mines",
-      "field": "callInTimeS",
-      "rule": 2,
-      "chosen": 3,
-      "candidates": [
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MD-I4_Incendiary_Mines",
-          "location": "General › Call-in Time › Standard",
-          "value": 7.75
-        },
-        {
-          "page": "https://helldivers.wiki.gg/wiki/MD-I4_Incendiary_Mines",
-          "location": "MD-I4 Incendiary Mines › Call-in Time",
-          "value": 3
         }
       ]
     },

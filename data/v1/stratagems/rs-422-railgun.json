@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-27.61d45e63",
-    "generatedAt": "2026-10-27T13:17:32Z",
+    "dataVersion": "2026-10-28.584abe6a",
+    "generatedAt": "2026-10-28T00:28:03Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,6 +50,14 @@
       {
         "label": "With Morale Augmentation",
         "seconds": 456
+      },
+      {
+        "label": "With Streamlined Request Process",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
       }
     ],
     "callInTimeS": 7.75,
@@ -190,6 +198,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Streamlined Request Process": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
       "RS-422 RAILGUN › Fire Rate": "60 rpm",
       "RS-422 RAILGUN › Drift Recoil": "↔[10.00] ↕[25.00]",
       "RS-422 RAILGUN › Climb Recoil": "↔[3.00] ↕[25.00]",
