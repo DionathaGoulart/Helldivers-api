@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-28.584abe6a",
-    "generatedAt": "2026-10-28T00:28:03Z",
+    "dataVersion": "2026-10-30.c9b85ffc",
+    "generatedAt": "2026-10-30T00:51:50Z",
     "count": 119,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3098,7 +3098,6 @@
         "title": "AMW-20 Apex",
         "url": "https://helldivers.wiki.gg/wiki/AMW-20_Apex",
         "flags": [
-          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -3125,6 +3124,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -3185,7 +3192,7 @@
           },
           "area": null,
           "forces": {
-            "demolition": 15,
+            "demolition": 30,
             "stagger": 40,
             "push": 25
           }
@@ -3212,6 +3219,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "AMW-20 APEX › Fire Rate": "50 rpm",
         "AMW-20 APEX › Drift Recoil": "↔[200.00] ↕[450.00]",
         "AMW-20 APEX › Climb Recoil": "↔[150.00] ↕[550.00]",
@@ -3225,7 +3234,7 @@
         "AMW-20 APEX › Mags from Supply": "2",
         "AMW-20 APEX › Mags from Ammo Box": "1",
         "AMW-20 APEX › Attacks › AMW-20 P": "Projectile",
-        "AMW-20 P › Projectile › Size": "60 mm",
+        "AMW-20 P › Projectile › Size": "20 mm",
         "AMW-20 P › Projectile › Mass": "70 g",
         "AMW-20 P › Projectile › Initial Velocity": "1500 m/s",
         "AMW-20 P › Projectile › Drag Factor": "10%",
@@ -3237,7 +3246,7 @@
         "AMW-20 P › Penetration › Slight Angle": "Anti-Tank I",
         "AMW-20 P › Penetration › Large Angle": "Anti-Tank I",
         "AMW-20 P › Penetration › Extreme Angle": "Unarmored",
-        "AMW-20 P › Special Effects › Demolition Force": "15",
+        "AMW-20 P › Special Effects › Demolition Force": "30",
         "AMW-20 P › Special Effects › Stagger Force": "40",
         "AMW-20 P › Special Effects › Push Force": "25"
       },
@@ -12448,7 +12457,6 @@
         "title": "LAS-44 Nova",
         "url": "https://helldivers.wiki.gg/wiki/LAS-44_Nova",
         "flags": [
-          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -12458,7 +12466,7 @@
       "kind": "support_weapon",
       "traitIds": [
         "support-weapon",
-        "heavy-armor-penetrating",
+        "anti-tank",
         "heat"
       ],
       "code": [
@@ -12473,6 +12481,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -12541,7 +12557,7 @@
       ],
       "statsRaw": {
         "Permit Type": "Supply",
-        "Traits": "Support Weapon • Heavy Armour Penetrating • Heat",
+        "Traits": "Support Weapon • Anti-Tank • Heat",
         "Base Cooldown": "480s",
         "Weapon Category": "Support Weapons",
         "Standard Damage": "880 Ballistic",
@@ -12556,6 +12572,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "LAS-44 NOVA › Fire Rate": "30 rpm",
         "LAS-44 NOVA › Drift Recoil": "↔[20.00] ↕[800.00]",
         "LAS-44 NOVA › Climb Recoil": "↔[20.00] ↕[800.00]",

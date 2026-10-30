@@ -1,15 +1,69 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-28.584abe6a",
-    "generatedAt": "2026-10-28T00:28:03Z",
-    "count": 37,
+    "dataVersion": "2026-10-30.c9b85ffc",
+    "generatedAt": "2026-10-30T00:51:50Z",
+    "count": 38,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-30.c9b85ffc",
+      "date": "2026-10-30",
+      "summary": {
+        "added": 0,
+        "changed": 4,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "amw-20-apex",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "cooldownVariants",
+            "attacks[0].forces.demolition",
+            "statsRaw[\"AMW-20 P › Projectile › Size\"]",
+            "statsRaw[\"AMW-20 P › Special Effects › Demolition Force\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "traitIds[1]",
+            "cooldownVariants",
+            "statsRaw.Traits",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "anti-tank",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        },
+        {
+          "collection": "weapon-traits",
+          "id": "heavy-armor-penetrating",
+          "kind": "changed",
+          "paths": [
+            "stratagemIds"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-28.584abe6a",
       "date": "2026-10-28",
