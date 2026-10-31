@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-30.c9b85ffc",
-    "generatedAt": "2026-10-30T00:51:50Z",
+    "dataVersion": "2026-10-31.466deb2c",
+    "generatedAt": "2026-10-31T00:43:43Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -84,7 +84,7 @@
           "pellets": null,
           "massG": 52,
           "initialVelocityMps": 980,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -125,7 +125,7 @@
       "MG-206 P › Projectile › Size": "12.5 mm",
       "MG-206 P › Projectile › Mass": "52 g",
       "MG-206 P › Projectile › Initial Velocity": "980 m/s",
-      "MG-206 P › Projectile › Drag Factor": "30%",
+      "MG-206 P › Projectile › Drag Coefficient": "30%",
       "MG-206 P › Projectile › Gravity Factor": "100%",
       "MG-206 P › Projectile › Penetration Slowdown": "25%",
       "MG-206 P › Damage › Standard": "150 Ballistic",

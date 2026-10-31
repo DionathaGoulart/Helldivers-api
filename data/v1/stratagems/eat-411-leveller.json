@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-30.c9b85ffc",
-    "generatedAt": "2026-10-30T00:51:50Z",
+    "dataVersion": "2026-10-31.466deb2c",
+    "generatedAt": "2026-10-31T00:43:43Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,6 +50,14 @@
       {
         "label": "With Morale Augmentation",
         "seconds": 133
+      },
+      {
+        "label": "With Streamlined Request Process",
+        "seconds": 126
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 119.7
       }
     ],
     "callInTimeS": 7.75,
@@ -120,7 +128,7 @@
           "pellets": null,
           "massG": 500,
           "initialVelocityMps": 50,
-          "dragFactorPct": 50,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -173,6 +181,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "140 seconds",
       "General › Cooldown › With Morale Augmentation": "133 seconds",
+      "General › Cooldown › With Streamlined Request Process": "126 seconds",
+      "General › Cooldown › With All Upgrades": "119.7 seconds",
       "EAT-411 LEVELLER › Fire Rate": "600 rpm",
       "EAT-411 LEVELLER › Drift Recoil": "↔[2.50] ↕[10.00]",
       "EAT-411 LEVELLER › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -201,7 +211,7 @@
       "EAT-411 P › Projectile › Size": "80 mm",
       "EAT-411 P › Projectile › Mass": "500 g",
       "EAT-411 P › Projectile › Initial Velocity": "50 m/s",
-      "EAT-411 P › Projectile › Drag Factor": "50%",
+      "EAT-411 P › Projectile › Drag Coefficient": "50%",
       "EAT-411 P › Projectile › Gravity Factor": "100%",
       "EAT-411 P › Projectile › Penetration Slowdown": "25%",
       "EAT-411 P › Projectile › Explosion On Impact": "EAT-411_P_IE",

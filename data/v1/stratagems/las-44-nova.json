@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-30.c9b85ffc",
-    "generatedAt": "2026-10-30T00:51:50Z",
+    "dataVersion": "2026-10-31.466deb2c",
+    "generatedAt": "2026-10-31T00:43:43Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -111,7 +111,7 @@
           "pellets": null,
           "massG": 8,
           "initialVelocityMps": 1500,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 0,
           "penetrationSlowdownPct": 25
         },
@@ -162,7 +162,7 @@
       "LAS-44 P › Projectile › Size": "10 mm",
       "LAS-44 P › Projectile › Mass": "8 g",
       "LAS-44 P › Projectile › Initial Velocity": "1500 m/s",
-      "LAS-44 P › Projectile › Drag Factor": "0%",
+      "LAS-44 P › Projectile › Drag Coefficient": "0%",
       "LAS-44 P › Projectile › Gravity Factor": "0%",
       "LAS-44 P › Projectile › Lifetime": "6 sec",
       "LAS-44 P › Projectile › Penetration Slowdown": "25%",

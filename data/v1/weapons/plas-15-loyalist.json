@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-30.c9b85ffc",
-    "generatedAt": "2026-10-30T00:51:50Z",
+    "dataVersion": "2026-10-31.466deb2c",
+    "generatedAt": "2026-10-31T00:43:43Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -82,7 +82,7 @@
           "pellets": null,
           "massG": 25,
           "initialVelocityMps": 550,
-          "dragFactorPct": 150,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 35
         },
@@ -137,7 +137,7 @@
           "pellets": null,
           "massG": 25,
           "initialVelocityMps": 350,
-          "dragFactorPct": 150,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 35
         },
@@ -172,61 +172,6 @@
           "demolition": 10,
           "stagger": 35,
           "push": 30
-        }
-      },
-      {
-        "name": "PLAS-15 P",
-        "kind": "projectile",
-        "damage": {
-          "standard": 100,
-          "durable": 50,
-          "type": "Ballistic"
-        },
-        "penetration": {
-          "direct": "light",
-          "slightAngle": "light",
-          "largeAngle": "light",
-          "extremeAngle": "unarmored"
-        },
-        "projectile": {
-          "pellets": null,
-          "massG": 10,
-          "initialVelocityMps": 550,
-          "dragFactorPct": 100,
-          "gravityFactorPct": 50,
-          "penetrationSlowdownPct": 35
-        },
-        "area": null,
-        "forces": {
-          "demolition": 10,
-          "stagger": 20,
-          "push": 10
-        }
-      },
-      {
-        "name": "PLAS-15 P IE",
-        "kind": "explosion",
-        "damage": {
-          "standard": 25,
-          "durable": 25,
-          "type": "Explosion"
-        },
-        "penetration": {
-          "direct": null,
-          "slightAngle": null,
-          "largeAngle": null,
-          "extremeAngle": null
-        },
-        "projectile": null,
-        "area": {
-          "innerRadiusM": 0.75,
-          "outerRadiusM": 1.5,
-          "shockwaveRadiusM": 2
-        },
-        "forces": {
-          "demolition": 10,
-          "stagger": 10,
-          "push": 5
         }
       }
     ],
@@ -265,14 +210,12 @@
       "PLAS-15 LOYALIST › Charge › Damage Mult Range": "(0.50) (1.00)",
       "PLAS-15 LOYALIST › Attacks › P1": "Projectile",
       "PLAS-15 LOYALIST › Attacks › P2": "Projectile",
-      "PLAS-15 LOYALIST › Attacks › PLAS-15 P": "Projectile",
       "PLAS-15 LOYALIST › Attacks › P1 IE": "Explosion",
       "PLAS-15 LOYALIST › Attacks › P2 IE": "Explosion",
-      "PLAS-15 LOYALIST › Attacks › PLAS-15 P IE": "Explosion",
       "P1 › Projectile › Size": "20 mm",
       "P1 › Projectile › Mass": "25 g",
       "P1 › Projectile › Initial Velocity": "550 m/s",
-      "P1 › Projectile › Drag Factor": "150%",
+      "P1 › Projectile › Drag Coefficient": "150%",
       "P1 › Projectile › Gravity Factor": "100%",
       "P1 › Projectile › Penetration Slowdown": "35%",
       "P1 › Projectile › Explosion On Impact": "P1_IE",
@@ -302,7 +245,7 @@
       "P2 › Projectile › Size": "20 mm",
       "P2 › Projectile › Mass": "25 g",
       "P2 › Projectile › Initial Velocity": "350 m/s",
-      "P2 › Projectile › Drag Factor": "150%",
+      "P2 › Projectile › Drag Coefficient": "150%",
       "P2 › Projectile › Gravity Factor": "100%",
       "P2 › Projectile › Penetration Slowdown": "35%",
       "P2 › Projectile › Explosion On Impact": "P2_IE",
@@ -328,37 +271,7 @@
       "P2 IE › Penetration › Shockwave AP": "Medium",
       "P2 IE › AoE Effect › Demolition Force": "10",
       "P2 IE › AoE Effect › Stagger Force": "35",
-      "P2 IE › AoE Effect › Push Force": "30",
-      "PLAS-15 P › Projectile › Size": "10 mm",
-      "PLAS-15 P › Projectile › Mass": "10 g",
-      "PLAS-15 P › Projectile › Initial Velocity": "550 m/s",
-      "PLAS-15 P › Projectile › Drag Factor": "100%",
-      "PLAS-15 P › Projectile › Gravity Factor": "50%",
-      "PLAS-15 P › Projectile › Penetration Slowdown": "35%",
-      "PLAS-15 P › Projectile › Explosion On Impact": "PLAS-15_P_IE",
-      "PLAS-15 P › Damage › Standard": "100 Ballistic",
-      "PLAS-15 P › Damage › vs. Durable": "50 Ballistic",
-      "PLAS-15 P › Penetration › Direct": "Light",
-      "PLAS-15 P › Penetration › Slight Angle": "Light",
-      "PLAS-15 P › Penetration › Large Angle": "Light",
-      "PLAS-15 P › Penetration › Extreme Angle": "Unarmored",
-      "PLAS-15 P › Special Effects › Demolition Force": "10",
-      "PLAS-15 P › Special Effects › Stagger Force": "20",
-      "PLAS-15 P › Special Effects › Push Force": "10",
-      "PLAS-15 P IE › Area of Effect › Inner Radius": "0.75 m",
-      "PLAS-15 P IE › Area of Effect › Outer Radius": "1.5 m",
-      "PLAS-15 P IE › Area of Effect › Shockwave Radius": "2 m",
-      "PLAS-15 P IE › Damage › Damage Element": "None",
-      "PLAS-15 P IE › Damage › Inner Radius": "25 Explosion",
-      "PLAS-15 P IE › Damage › Inner Durable": "25 Explosion",
-      "PLAS-15 P IE › Damage › Outer Radius": "24 - 0",
-      "PLAS-15 P IE › Damage › Outer Durable": "24 - 0",
-      "PLAS-15 P IE › Penetration › Inner AP": "Medium",
-      "PLAS-15 P IE › Penetration › Outer AP": "Light",
-      "PLAS-15 P IE › Penetration › Shockwave AP": "Medium",
-      "PLAS-15 P IE › AoE Effect › Demolition Force": "10",
-      "PLAS-15 P IE › AoE Effect › Stagger Force": "10",
-      "PLAS-15 P IE › AoE Effect › Push Force": "5"
+      "P2 IE › AoE Effect › Push Force": "30"
     },
     "source": {
       "type": "warbond",

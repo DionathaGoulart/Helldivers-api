@@ -1,15 +1,136 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-30.c9b85ffc",
-    "generatedAt": "2026-10-30T00:51:50Z",
-    "count": 38,
+    "dataVersion": "2026-10-31.466deb2c",
+    "generatedAt": "2026-10-31T00:43:43Z",
+    "count": 39,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-10-31.466deb2c",
+      "date": "2026-10-31",
+      "summary": {
+        "added": 0,
+        "changed": 7,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "ar-23-liberator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-15-loyalist",
+          "kind": "changed",
+          "paths": [
+            "attacks",
+            "statsRaw[\"PLAS-15 LOYALIST › Attacks › PLAS-15 P\"]",
+            "statsRaw[\"PLAS-15 LOYALIST › Attacks › PLAS-15 P IE\"]",
+            "statsRaw[\"P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Size\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Mass\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Initial Velocity\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Gravity Factor\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Penetration Slowdown\"]",
+            "statsRaw[\"PLAS-15 P › Projectile › Explosion On Impact\"]",
+            "statsRaw[\"PLAS-15 P › Damage › Standard\"]",
+            "statsRaw[\"PLAS-15 P › Damage › vs. Durable\"]",
+            "statsRaw[\"PLAS-15 P › Penetration › Direct\"]",
+            "statsRaw[\"PLAS-15 P › Penetration › Slight Angle\"]",
+            "statsRaw[\"PLAS-15 P › Penetration › Large Angle\"]",
+            "statsRaw[\"PLAS-15 P › Penetration › Extreme Angle\"]",
+            "statsRaw[\"PLAS-15 P › Special Effects › Demolition Force\"]",
+            "statsRaw[\"PLAS-15 P › Special Effects › Stagger Force\"]",
+            "statsRaw[\"PLAS-15 P › Special Effects › Push Force\"]",
+            "statsRaw[\"PLAS-15 P IE › Area of Effect › Inner Radius\"]",
+            "statsRaw[\"PLAS-15 P IE › Area of Effect › Outer Radius\"]",
+            "statsRaw[\"PLAS-15 P IE › Area of Effect › Shockwave Radius\"]",
+            "statsRaw[\"PLAS-15 P IE › Damage › Damage Element\"]",
+            "statsRaw[\"PLAS-15 P IE › Damage › Inner Radius\"]",
+            "statsRaw[\"PLAS-15 P IE › Damage › Inner Durable\"]",
+            "statsRaw[\"PLAS-15 P IE › Damage › Outer Radius\"]",
+            "statsRaw[\"PLAS-15 P IE › Damage › Outer Durable\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Inner AP\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Outer AP\"]",
+            "statsRaw[\"PLAS-15 P IE › Penetration › Shockwave AP\"]",
+            "statsRaw[\"PLAS-15 P IE › AoE Effect › Demolition Force\"]",
+            "statsRaw[\"PLAS-15 P IE › AoE Effect › Stagger Force\"]",
+            "statsRaw[\"PLAS-15 P IE › AoE Effect › Push Force\"]",
+            "statsRaw[\"P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P2 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "amw-20-apex",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AMW-20 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AMW-20 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-411-leveller",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"EAT-411 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"EAT-411 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"LAS-44 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-44 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-102-gunner-frv",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MG-206 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"MG-206 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mg-206-heavy-machine-gun",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MG-206 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"MG-206 P › Projectile › Drag Coefficient\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-30.c9b85ffc",
       "date": "2026-10-30",

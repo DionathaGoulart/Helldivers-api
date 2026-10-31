@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-30.c9b85ffc",
-    "generatedAt": "2026-10-30T00:51:50Z",
+    "dataVersion": "2026-10-31.466deb2c",
+    "generatedAt": "2026-10-31T00:43:43Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -113,7 +113,7 @@
           "pellets": null,
           "massG": 70,
           "initialVelocityMps": 1500,
-          "dragFactorPct": 10,
+          "dragFactorPct": null,
           "gravityFactorPct": 35,
           "penetrationSlowdownPct": 10
         },
@@ -164,7 +164,7 @@
       "AMW-20 P › Projectile › Size": "20 mm",
       "AMW-20 P › Projectile › Mass": "70 g",
       "AMW-20 P › Projectile › Initial Velocity": "1500 m/s",
-      "AMW-20 P › Projectile › Drag Factor": "10%",
+      "AMW-20 P › Projectile › Drag Coefficient": "10%",
       "AMW-20 P › Projectile › Gravity Factor": "35%",
       "AMW-20 P › Projectile › Penetration Slowdown": "10%",
       "AMW-20 P › Damage › Standard": "1550 Ballistic",
