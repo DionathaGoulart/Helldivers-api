@@ -1,15 +1,39 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-10-31.466deb2c",
-    "generatedAt": "2026-10-31T00:43:43Z",
-    "count": 39,
+    "dataVersion": "2026-11-01.00ab421b",
+    "generatedAt": "2026-11-01T00:03:26Z",
+    "count": 40,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-01.00ab421b",
+      "date": "2026-11-01",
+      "summary": {
+        "added": 0,
+        "changed": 1,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "mgx-42-bullet-storm",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MGX-42 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"MGX-42 P › Projectile › Drag Coefficient\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-10-31.466deb2c",
       "date": "2026-10-31",

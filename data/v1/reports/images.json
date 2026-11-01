@@ -8022,64 +8022,12 @@
   ],
   "orphans": [
     {
-      "url": "/images/v1/armors/af-02-haz-master.1746a2bd.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/af-50-noxious-ranger.4345814c.webp",
-      "since": "2026-10-02"
-    },
-    {
       "url": "/images/v1/armors/b-08-light-gunner.c5dbce3c.webp",
       "since": "2026-10-13"
     },
     {
-      "url": "/images/v1/armors/ce-27-ground-breaker.027b5701.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/ce-35-trench-engineer.35ea405f.webp",
-      "since": "2026-10-02"
-    },
-    {
       "url": "/images/v1/armors/ce-67-titan.0043461c.webp",
       "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/armors/ce-81-juggernaut.a43f6e9c.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/cm-09-bonesnapper.a07b7b16.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/cm-21-trench-paramedic.f67aa724.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/cw-22-kodiak.f936b41b.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/cw-36-winter-warrior.99f5fb26.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/cw-4-arctic-ranger.f101666a.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/dp-00-tactical.70702139.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/ds-42-federations-blade.b4b300cc.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/ex-16-prototype-16.5439c921.webp",
-      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/armors/fs-37-ravager.a9de9439.webp",
@@ -8090,14 +8038,6 @@
       "since": "2026-10-13"
     },
     {
-      "url": "/images/v1/armors/sa-25-steel-trooper.0e3ac705.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/sr-64-cinderblock.4e0ea567.webp",
-      "since": "2026-10-02"
-    },
-    {
       "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
       "since": "2026-10-21"
     },
@@ -8106,128 +8046,24 @@
       "since": "2026-10-24"
     },
     {
-      "url": "/images/v1/armors/tr-40-gold-eagle.231fed2e.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/tr-62-knight.303a0ccc.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/tr-7-ambassador-of-the-brand.eca8dadc.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/tr-9-cavalier-of-democracy.f647d9ae.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/armors/uf-50-bloodhound.9f1e6710.webp",
-      "since": "2026-10-02"
-    },
-    {
       "url": "/images/v1/capes/boundary-banker.f8ffb2e8.webp",
       "since": "2026-10-24"
-    },
-    {
-      "url": "/images/v1/helmets/af-02-haz-master.1960e902.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/af-50-noxious-ranger.2ad0a707.webp",
-      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/helmets/b-08-light-gunner.f8ac9403.webp",
       "since": "2026-10-13"
     },
     {
-      "url": "/images/v1/helmets/bfm-16-tanker.7257a6a5.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/bfm-220-ironclad.2174e50b.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/bfm-77-reformer.9ea1d346.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/ce-27-ground-breaker.ddfefc38.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/ce-35-trench-engineer.5acea828.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/ce-64-grenadier.a616cf5d.webp",
-      "since": "2026-10-02"
-    },
-    {
       "url": "/images/v1/helmets/ce-67-titan.da1ff695.webp",
       "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/helmets/ce-81-juggernaut.3524c8fc.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/cm-09-bonesnapper.417196ee.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/cm-21-trench-paramedic.4d4398e7.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/cw-22-kodiak.fd4e86db.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/cw-36-winter-warrior.88078014.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/cw-4-arctic-ranger.dc11383c.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/dp-00-tactical.ee584f20.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/ds-42-federations-blade.fa3c0e81.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/ex-16-prototype-16.66be17d6.webp",
-      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/helmets/fs-37-ravager.72e8ab09.webp",
       "since": "2026-10-13"
     },
     {
-      "url": "/images/v1/helmets/ix-voidwalker.4242f2fd.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/o-44-bonded-pilot.4e6b8339.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/ph-56-jaguar.903a4a91.webp",
-      "since": "2026-10-02"
-    },
-    {
       "url": "/images/v1/helmets/sa-12-servo-assisted.d8b3f35e.webp",
       "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/helmets/sa-25-steel-trooper.2b0cee0a.webp",
-      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/helmets/ss-15-focal-point.5ddde896.webp",
@@ -8236,30 +8072,6 @@
     {
       "url": "/images/v1/helmets/ss-33-mimetic-marshal.64d55204.webp",
       "since": "2026-10-21"
-    },
-    {
-      "url": "/images/v1/helmets/tr-40-gold-eagle.97122474.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/tr-62-knight.b549dcb7.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/tr-7-ambassador-of-the-brand.e0bf04a4.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/tr-9-cavalier-of-democracy.aa0a4f01.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/helmets/uf-50-bloodhound.87197d51.webp",
-      "since": "2026-10-02"
-    },
-    {
-      "url": "/images/v1/passives/blunt-force-mitigation.f144dd2f.webp",
-      "since": "2026-10-02"
     },
     {
       "url": "/images/v1/passives/stationary-shroud.067d4e3a.webp",
