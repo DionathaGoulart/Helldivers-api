@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -84,7 +84,7 @@
           "pellets": 11,
           "massG": 4,
           "initialVelocityMps": 360,
-          "dragFactorPct": 50,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 80
         },
@@ -129,7 +129,7 @@
       "SG-225 P › Projectile › Size": "8 mm",
       "SG-225 P › Projectile › Mass": "4 g",
       "SG-225 P › Projectile › Initial Velocity": "360 m/s",
-      "SG-225 P › Projectile › Drag Factor": "50%",
+      "SG-225 P › Projectile › Drag Coefficient": "50%",
       "SG-225 P › Projectile › Gravity Factor": "100%",
       "SG-225 P › Projectile › Penetration Slowdown": "80%",
       "SG-225 P › Damage › Standard": "36 Ballistic",

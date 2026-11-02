@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -87,7 +87,7 @@
           "pellets": null,
           "massG": 52,
           "initialVelocityMps": 980,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -169,7 +169,7 @@
       "P11 › Projectile › Size": "12.5 mm",
       "P11 › Projectile › Mass": "52 g",
       "P11 › Projectile › Initial Velocity": "980 m/s",
-      "P11 › Projectile › Drag Factor": "30%",
+      "P11 › Projectile › Drag Coefficient": "30%",
       "P11 › Projectile › Gravity Factor": "100%",
       "P11 › Projectile › Penetration Slowdown": "25%",
       "P11 › Damage › Standard": "150 Ballistic",
@@ -184,6 +184,7 @@
       "SWP MAELSTROMIII E › Area of Effect › Inner Radius": "3 m",
       "SWP MAELSTROMIII E › Area of Effect › Outer Radius": "5 m",
       "SWP MAELSTROMIII E › Area of Effect › Shockwave Radius": "10 m",
+      "SWP MAELSTROMIII E › Area of Effect › Damage Falloff Type": "Quick",
       "SWP MAELSTROMIII E › Damage › Damage Element": "None",
       "SWP MAELSTROMIII E › Damage › Inner Radius": "2000 Explosion",
       "SWP MAELSTROMIII E › Damage › Inner Durable": "2000 Explosion",

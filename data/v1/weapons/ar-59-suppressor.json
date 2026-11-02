@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -85,7 +85,7 @@
           "pellets": null,
           "massG": 4.5,
           "initialVelocityMps": 330,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 120,
           "penetrationSlowdownPct": 25
         },
@@ -127,7 +127,7 @@
       "AR-59 P › Projectile › Size": "5.5 mm",
       "AR-59 P › Projectile › Mass": "4.5 g",
       "AR-59 P › Projectile › Initial Velocity": "330 m/s",
-      "AR-59 P › Projectile › Drag Factor": "30%",
+      "AR-59 P › Projectile › Drag Coefficient": "30%",
       "AR-59 P › Projectile › Gravity Factor": "120%",
       "AR-59 P › Projectile › Penetration Slowdown": "25%",
       "AR-59 P › Damage › Standard": "80 Ballistic",

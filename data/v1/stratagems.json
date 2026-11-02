@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "count": 119,
     "source": {
       "name": "The Helldivers Wiki",
@@ -53,6 +53,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -181,6 +189,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "40-K MELTAGUN › Drift Recoil": "↔[0.00] ↕[0.00]",
         "40-K MELTAGUN › Climb Recoil": "↔[0.00] ↕[8.50]",
         "40-K MELTAGUN › Spread": "↔[0.10] ↕[0.10]",
@@ -203,6 +213,7 @@
         "40-K MELTAGUN › Attacks › Fire Panic": "status",
         "40-K MELTAGUN › Attacks › FlamerSlowed": "status",
         "40-K MELTAGUN B › Beam › Beam Range": "15 m",
+        "40-K MELTAGUN B › Beam › Falloff Start Distance": "5 m",
         "40-K MELTAGUN B › Beam › Beam Max Falloff": "0.600000024 x DMG",
         "40-K MELTAGUN B › Damage › Standard": "2600 Laser",
         "40-K MELTAGUN B › Damage › vs. Durable": "2600 Laser",
@@ -346,7 +357,7 @@
             "pellets": null,
             "massG": 900,
             "initialVelocityMps": 1021,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -428,7 +439,7 @@
         "A/AC-8 P › Projectile › Size": "40 mm",
         "A/AC-8 P › Projectile › Mass": "900 g",
         "A/AC-8 P › Projectile › Initial Velocity": "1021 m/s",
-        "A/AC-8 P › Projectile › Drag Factor": "30%",
+        "A/AC-8 P › Projectile › Drag Coefficient": "30%",
         "A/AC-8 P › Projectile › Gravity Factor": "100%",
         "A/AC-8 P › Projectile › Penetration Slowdown": "25%",
         "A/AC-8 P › Projectile › Explosion On Impact": "A/AC-8_P_IE",
@@ -444,6 +455,7 @@
         "A/AC-8 P IE › Area of Effect › Inner Radius": "2 m",
         "A/AC-8 P IE › Area of Effect › Outer Radius": "6 m",
         "A/AC-8 P IE › Area of Effect › Shockwave Radius": "8 m",
+        "A/AC-8 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "A/AC-8 P IE › Damage › Damage Element": "None",
         "A/AC-8 P IE › Damage › Inner Radius": "150 Explosion",
         "A/AC-8 P IE › Damage › Inner Durable": "150 Explosion",
@@ -1048,7 +1060,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 820,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -1106,7 +1118,7 @@
         "MG-43 P › Projectile › Size": "8 mm",
         "MG-43 P › Projectile › Mass": "11 g",
         "MG-43 P › Projectile › Initial Velocity": "820 m/s",
-        "MG-43 P › Projectile › Drag Factor": "30%",
+        "MG-43 P › Projectile › Drag Coefficient": "30%",
         "MG-43 P › Projectile › Gravity Factor": "100%",
         "MG-43 P › Projectile › Penetration Slowdown": "25%",
         "MG-43 P › Damage › Standard": "90 Ballistic",
@@ -1249,7 +1261,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 100,
-            "dragFactorPct": 25,
+            "dragFactorPct": null,
             "gravityFactorPct": 600,
             "penetrationSlowdownPct": 25
           },
@@ -1375,7 +1387,7 @@
         "A/GM-17 P › Projectile › Size": "360 mm",
         "A/GM-17 P › Projectile › Mass": "70 kg",
         "A/GM-17 P › Projectile › Initial Velocity": "100 m/s",
-        "A/GM-17 P › Projectile › Drag Factor": "25%",
+        "A/GM-17 P › Projectile › Drag Coefficient": "25%",
         "A/GM-17 P › Projectile › Gravity Factor": "600%",
         "A/GM-17 P › Projectile › Penetration Slowdown": "25%",
         "A/GM-17 P › Projectile › Explosion On Impact": "A/GM-17_P_IE",
@@ -1392,6 +1404,7 @@
         "A/GM-17 P IE › Area of Effect › Outer Radius": "7 m",
         "A/GM-17 P IE › Area of Effect › Shockwave Radius": "7 m",
         "A/GM-17 P IE › Area of Effect › AoE Duration": "15 s",
+        "A/GM-17 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "A/GM-17 P IE › Damage › Damage Element": "Gas",
         "A/GM-17 P IE › Damage › Inner Radius": "0 Gas",
         "A/GM-17 P IE › Damage › Inner Durable": "0 Gas",
@@ -1765,7 +1778,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 100,
-            "dragFactorPct": 25,
+            "dragFactorPct": null,
             "gravityFactorPct": 600,
             "penetrationSlowdownPct": 25
           },
@@ -1846,7 +1859,7 @@
         "A/M-12 P › Projectile › Size": "360 mm",
         "A/M-12 P › Projectile › Mass": "70 kg",
         "A/M-12 P › Projectile › Initial Velocity": "100 m/s",
-        "A/M-12 P › Projectile › Drag Factor": "25%",
+        "A/M-12 P › Projectile › Drag Coefficient": "25%",
         "A/M-12 P › Projectile › Gravity Factor": "600%",
         "A/M-12 P › Projectile › Penetration Slowdown": "25%",
         "A/M-12 P › Projectile › Explosion On Impact": "A/M-12_P_IE",
@@ -1862,6 +1875,7 @@
         "A/M-12 P IE › Area of Effect › Inner Radius": "3 m",
         "A/M-12 P IE › Area of Effect › Outer Radius": "9 m",
         "A/M-12 P IE › Area of Effect › Shockwave Radius": "13 m",
+        "A/M-12 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "A/M-12 P IE › Damage › Damage Element": "None",
         "A/M-12 P IE › Damage › Inner Radius": "400 Explosion",
         "A/M-12 P IE › Damage › Inner Durable": "400 Explosion",
@@ -2005,7 +2019,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 100,
-            "dragFactorPct": 25,
+            "dragFactorPct": null,
             "gravityFactorPct": 600,
             "penetrationSlowdownPct": 25
           },
@@ -2136,7 +2150,7 @@
         "A/M-23 P › Projectile › Size": "360 mm",
         "A/M-23 P › Projectile › Mass": "70 kg",
         "A/M-23 P › Projectile › Initial Velocity": "100 m/s",
-        "A/M-23 P › Projectile › Drag Factor": "25%",
+        "A/M-23 P › Projectile › Drag Coefficient": "25%",
         "A/M-23 P › Projectile › Gravity Factor": "600%",
         "A/M-23 P › Projectile › Penetration Slowdown": "25%",
         "A/M-23 P › Projectile › Explosion On Impact": "A/M-23_P_IE",
@@ -2153,6 +2167,7 @@
         "A/M-23 P IE › Area of Effect › Inner Radius": "1 m",
         "A/M-23 P IE › Area of Effect › Outer Radius": "2 m",
         "A/M-23 P IE › Area of Effect › Shockwave Radius": "3 m",
+        "A/M-23 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "A/M-23 P IE › Damage › Damage Element": "None",
         "A/M-23 P IE › Damage › Inner Radius": "150 Explosion",
         "A/M-23 P IE › Damage › Inner Durable": "150 Explosion",
@@ -2168,6 +2183,7 @@
         "A/M-23 P E › Area of Effect › Outer Radius": "10 m",
         "A/M-23 P E › Area of Effect › Shockwave Radius": "12 m",
         "A/M-23 P E › Area of Effect › AoE Duration": "7 s",
+        "A/M-23 P E › Area of Effect › Damage Falloff Type": "Quick",
         "A/M-23 P E › Damage › Damage Element": "None",
         "A/M-23 P E › Damage › Inner Radius": "0 Explosion",
         "A/M-23 P E › Damage › Inner Durable": "0 Explosion",
@@ -2306,7 +2322,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 820,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -2362,7 +2378,7 @@
         "MG-43 P › Projectile › Size": "8 mm",
         "MG-43 P › Projectile › Mass": "11 g",
         "MG-43 P › Projectile › Initial Velocity": "820 m/s",
-        "MG-43 P › Projectile › Drag Factor": "30%",
+        "MG-43 P › Projectile › Drag Coefficient": "30%",
         "MG-43 P › Projectile › Gravity Factor": "100%",
         "MG-43 P › Projectile › Penetration Slowdown": "25%",
         "MG-43 P › Damage › Standard": "90 Ballistic",
@@ -2501,7 +2517,7 @@
             "pellets": null,
             "massG": 6000,
             "initialVelocityMps": 100,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 10,
             "penetrationSlowdownPct": 25
           },
@@ -2611,7 +2627,7 @@
         "A/MLS-4X P › Projectile › Size": "70 mm",
         "A/MLS-4X P › Projectile › Mass": "6 kg",
         "A/MLS-4X P › Projectile › Initial Velocity": "100 m/s",
-        "A/MLS-4X P › Projectile › Drag Factor": "0%",
+        "A/MLS-4X P › Projectile › Drag Coefficient": "0%",
         "A/MLS-4X P › Projectile › Gravity Factor": "10%",
         "A/MLS-4X P › Projectile › Penetration Slowdown": "25%",
         "A/MLS-4X P › Projectile › Explosion On Impact": "A/MLS-4X_P_IE",
@@ -2627,6 +2643,7 @@
         "A/MLS-4X P IE › Area of Effect › Inner Radius": "1 m",
         "A/MLS-4X P IE › Area of Effect › Outer Radius": "4 m",
         "A/MLS-4X P IE › Area of Effect › Shockwave Radius": "6 m",
+        "A/MLS-4X P IE › Area of Effect › Damage Falloff Type": "Quick",
         "A/MLS-4X P IE › Damage › Damage Element": "None",
         "A/MLS-4X P IE › Damage › Inner Radius": "150 Explosion",
         "A/MLS-4X P IE › Damage › Inner Durable": "150 Explosion",
@@ -2641,6 +2658,7 @@
         "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
         "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+        "EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
         "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
@@ -2708,6 +2726,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -2762,7 +2788,7 @@
             "pellets": null,
             "massG": 120,
             "initialVelocityMps": 820,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 55
           },
@@ -2817,7 +2843,7 @@
             "pellets": null,
             "massG": 130,
             "initialVelocityMps": 820,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -2872,7 +2898,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 30,
-            "dragFactorPct": 40,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -2908,6 +2934,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "AC-8 AUTOCANNON › Fire Rate": "190 rpm",
         "AC-8 AUTOCANNON › Drift Recoil": "↔[200.00] ↕[450.00]",
         "AC-8 AUTOCANNON › Climb Recoil": "↔[2.00] ↕[100.00]",
@@ -2928,7 +2956,7 @@
         "AC-8 P › Projectile › Size": "20 mm",
         "AC-8 P › Projectile › Mass": "120 g",
         "AC-8 P › Projectile › Initial Velocity": "820 m/s",
-        "AC-8 P › Projectile › Drag Factor": "30%",
+        "AC-8 P › Projectile › Drag Coefficient": "30%",
         "AC-8 P › Projectile › Gravity Factor": "100%",
         "AC-8 P › Projectile › Penetration Slowdown": "55%",
         "AC-8 P › Projectile › Explosion On Impact": "AC-8_P_IE",
@@ -2944,6 +2972,7 @@
         "AC-8 P IE › Area of Effect › Inner Radius": "2 m",
         "AC-8 P IE › Area of Effect › Outer Radius": "4 m",
         "AC-8 P IE › Area of Effect › Shockwave Radius": "5.5 m",
+        "AC-8 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "AC-8 P IE › Damage › Damage Element": "None",
         "AC-8 P IE › Damage › Inner Radius": "150 Explosion",
         "AC-8 P IE › Damage › Inner Durable": "150 Explosion",
@@ -2958,7 +2987,7 @@
         "AC-8 P1 › Projectile › Size": "40 mm",
         "AC-8 P1 › Projectile › Mass": "130 g",
         "AC-8 P1 › Projectile › Initial Velocity": "820 m/s",
-        "AC-8 P1 › Projectile › Drag Factor": "30%",
+        "AC-8 P1 › Projectile › Drag Coefficient": "30%",
         "AC-8 P1 › Projectile › Gravity Factor": "100%",
         "AC-8 P1 › Projectile › Lifetime": "0.899999976 sec",
         "AC-8 P1 › Projectile › Penetration Slowdown": "25%",
@@ -2977,6 +3006,7 @@
         "AC-8 P1 IE › Area of Effect › Inner Radius": "2 m",
         "AC-8 P1 IE › Area of Effect › Outer Radius": "7 m",
         "AC-8 P1 IE › Area of Effect › Shockwave Radius": "8 m",
+        "AC-8 P1 IE › Area of Effect › Damage Falloff Type": "Quick",
         "AC-8 P1 IE › Area of Effect › Shrapnel Count": "30",
         "AC-8 P1 IE › Area of Effect › Shrapnel": "AC-8_P2",
         "AC-8 P1 IE › Damage › Damage Element": "None",
@@ -2993,7 +3023,7 @@
         "AC-8 P2 › Projectile › Size": "10 mm",
         "AC-8 P2 › Projectile › Mass": "100 g",
         "AC-8 P2 › Projectile › Initial Velocity": "30 m/s",
-        "AC-8 P2 › Projectile › Drag Factor": "40%",
+        "AC-8 P2 › Projectile › Drag Coefficient": "40%",
         "AC-8 P2 › Projectile › Gravity Factor": "100%",
         "AC-8 P2 › Projectile › Penetration Slowdown": "25%",
         "AC-8 P2 › Damage › Standard": "110 Ballistic",
@@ -3304,6 +3334,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -3363,7 +3401,7 @@
             "pellets": null,
             "massG": 52,
             "initialVelocityMps": 880,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -3398,6 +3436,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "APW-1 ANTI-MATERIEL RIFLE › Fire Rate": "400 rpm",
         "APW-1 ANTI-MATERIEL RIFLE › Drift Recoil": "↔[20.00] ↕[300.00]",
         "APW-1 ANTI-MATERIEL RIFLE › Climb Recoil": "↔[2.00] ↕[300.00]",
@@ -3414,7 +3454,7 @@
         "APW-1 P › Projectile › Size": "12.5 mm",
         "APW-1 P › Projectile › Mass": "52 g",
         "APW-1 P › Projectile › Initial Velocity": "880 m/s",
-        "APW-1 P › Projectile › Drag Factor": "30%",
+        "APW-1 P › Projectile › Drag Coefficient": "30%",
         "APW-1 P › Projectile › Gravity Factor": "100%",
         "APW-1 P › Projectile › Penetration Slowdown": "25%",
         "APW-1 P › Damage › Standard": "450 Ballistic",
@@ -3548,6 +3588,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -3641,6 +3689,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "ARC-3 ARC THROWER › Drift Recoil": "↔[40.00] ↕[40.00]",
         "ARC-3 ARC THROWER › Climb Recoil": "↔[50.00] ↕[50.00]",
         "ARC-3 ARC THROWER › Spread": "↔[10.00] ↕[10.00]",
@@ -3781,7 +3831,7 @@
             "pellets": null,
             "massG": 4.5,
             "initialVelocityMps": 1000,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -3822,7 +3872,7 @@
         "AR-23P P › Projectile › Size": "5.5 mm",
         "AR-23P P › Projectile › Mass": "4.5 g",
         "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
-        "AR-23P P › Projectile › Drag Factor": "30%",
+        "AR-23P P › Projectile › Drag Coefficient": "30%",
         "AR-23P P › Projectile › Gravity Factor": "100%",
         "AR-23P P › Projectile › Penetration Slowdown": "25%",
         "AR-23P P › Damage › Standard": "65 Ballistic",
@@ -4946,6 +4996,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -5089,6 +5147,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "B/FLAM-80 CREMATOR › Drift Recoil": "↔[0.00] ↕[0.00]",
         "B/FLAM-80 CREMATOR › Climb Recoil": "↔[0.00] ↕[5.00]",
         "B/FLAM-80 CREMATOR › Spread": "↔[10.00] ↕[10.00]",
@@ -5188,6 +5248,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 9.75,
@@ -5264,6 +5332,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "B/MD C4 PACK › Main Health": "10",
         "B/MD C4 PACK › Main Armor": "Unarmored",
         "B/MD C4 PACK › Mags from Supply": "1",
@@ -5274,6 +5344,7 @@
         "B/MD C4 PACK E › Area of Effect › Inner Radius": "3 m",
         "B/MD C4 PACK E › Area of Effect › Outer Radius": "7 m",
         "B/MD C4 PACK E › Area of Effect › Shockwave Radius": "8 m",
+        "B/MD C4 PACK E › Area of Effect › Damage Falloff Type": "Quick",
         "B/MD C4 PACK E › Damage › Damage Element": "None",
         "B/MD C4 PACK E › Damage › Inner Radius": "2000 Explosion",
         "B/MD C4 PACK E › Damage › Inner Durable": "2000 Explosion",
@@ -5457,6 +5528,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 9.75,
@@ -5522,6 +5601,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "CQC-1 ONE TRUE FLAG › Drift Recoil": "↔[2.50] ↕[10.00]",
         "CQC-1 ONE TRUE FLAG › Climb Recoil": "↔[2.50] ↕[10.00]",
         "CQC-1 ONE TRUE FLAG › Spread": "↔[10.00] ↕[10.00]",
@@ -5596,6 +5677,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -5699,6 +5788,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "CQC-20 BREACHING HAMMER › Drift Recoil": "↔[2.50] ↕[10.00]",
         "CQC-20 BREACHING HAMMER › Climb Recoil": "↔[2.50] ↕[10.00]",
         "CQC-20 BREACHING HAMMER › Spread": "↔[10.00] ↕[10.00]",
@@ -5725,6 +5816,7 @@
         "CQC-20 BREACHING HAMMER IE › Area of Effect › Inner Radius": "0.5 m",
         "CQC-20 BREACHING HAMMER IE › Area of Effect › Outer Radius": "3 m",
         "CQC-20 BREACHING HAMMER IE › Area of Effect › Shockwave Radius": "12 m",
+        "CQC-20 BREACHING HAMMER IE › Area of Effect › Damage Falloff Type": "Quick",
         "CQC-20 BREACHING HAMMER IE › Damage › Damage Element": "None",
         "CQC-20 BREACHING HAMMER IE › Damage › Inner Radius": "2200 Explosion",
         "CQC-20 BREACHING HAMMER IE › Damage › Inner Durable": "2200 Explosion",
@@ -5790,6 +5882,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -5853,6 +5953,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "CQC-9 DEFOLIATION TOOL › Drift Recoil": "↔[2.50] ↕[10.00]",
         "CQC-9 DEFOLIATION TOOL › Climb Recoil": "↔[2.50] ↕[10.00]",
         "CQC-9 DEFOLIATION TOOL › Spread": "↔[10.00] ↕[10.00]",
@@ -6045,7 +6147,7 @@
             "pellets": null,
             "massG": 6500,
             "initialVelocityMps": 625,
-            "dragFactorPct": 75,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -6104,7 +6206,7 @@
         "ET Cannon 75mm APHE › Projectile › Size": "75 mm",
         "ET Cannon 75mm APHE › Projectile › Mass": "6.5 kg",
         "ET Cannon 75mm APHE › Projectile › Initial Velocity": "625 m/s",
-        "ET Cannon 75mm APHE › Projectile › Drag Factor": "75%",
+        "ET Cannon 75mm APHE › Projectile › Drag Coefficient": "75%",
         "ET Cannon 75mm APHE › Projectile › Gravity Factor": "100%",
         "ET Cannon 75mm APHE › Projectile › Penetration Slowdown": "25%",
         "ET Cannon 75mm APHE › Damage › Standard": "1300 Damage",
@@ -6235,7 +6337,7 @@
             "pellets": null,
             "massG": 50,
             "initialVelocityMps": 100,
-            "dragFactorPct": 120,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -6302,7 +6404,7 @@
         "GL-21 P › Projectile › Size": "40 mm",
         "GL-21 P › Projectile › Mass": "50 g",
         "GL-21 P › Projectile › Initial Velocity": "100 m/s",
-        "GL-21 P › Projectile › Drag Factor": "120%",
+        "GL-21 P › Projectile › Drag Coefficient": "120%",
         "GL-21 P › Projectile › Gravity Factor": "100%",
         "GL-21 P › Projectile › Penetration Slowdown": "25%",
         "GL-21 P › Projectile › Explosion On Impact": "GL-21_P_IE",
@@ -6320,6 +6422,7 @@
         "GL-21 P IE › Area of Effect › Inner Radius": "3.5 m",
         "GL-21 P IE › Area of Effect › Outer Radius": "7.5 m",
         "GL-21 P IE › Area of Effect › Shockwave Radius": "8 m",
+        "GL-21 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "GL-21 P IE › Damage › Damage Element": "None",
         "GL-21 P IE › Damage › Inner Radius": "400 Explosion",
         "GL-21 P IE › Damage › Inner Durable": "400 Explosion",
@@ -6437,7 +6540,7 @@
             "pellets": null,
             "massG": 52,
             "initialVelocityMps": 880,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -6468,7 +6571,7 @@
         "Rifle 12.5x100mm Full Metal Jacket › Projectile › Size": "12.5 mm",
         "Rifle 12.5x100mm Full Metal Jacket › Projectile › Mass": "52 g",
         "Rifle 12.5x100mm Full Metal Jacket › Projectile › Initial Velocity": "880 m/s",
-        "Rifle 12.5x100mm Full Metal Jacket › Projectile › Drag Factor": "30%",
+        "Rifle 12.5x100mm Full Metal Jacket › Projectile › Drag Coefficient": "30%",
         "Rifle 12.5x100mm Full Metal Jacket › Projectile › Gravity Factor": "100%",
         "Rifle 12.5x100mm Full Metal Jacket › Projectile › Penetration Slowdown": "25%",
         "Rifle 12.5x100mm Full Metal Jacket › Damage › Standard": "200 Damage",
@@ -6590,7 +6693,7 @@
             "pellets": null,
             "massG": 3300,
             "initialVelocityMps": 700,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 210,
             "penetrationSlowdownPct": 25
           },
@@ -6652,7 +6755,7 @@
         "S P1 › Projectile › Size": "110 mm",
         "S P1 › Projectile › Mass": "3.3 kg",
         "S P1 › Projectile › Initial Velocity": "700 m/s",
-        "S P1 › Projectile › Drag Factor": "0%",
+        "S P1 › Projectile › Drag Coefficient": "0%",
         "S P1 › Projectile › Gravity Factor": "210%",
         "S P1 › Projectile › Penetration Slowdown": "25%",
         "S P1 › Projectile › Explosion On Impact": "S_P1_IE",
@@ -6668,6 +6771,7 @@
         "S P1 IE › Area of Effect › Inner Radius": "1.60000002 m",
         "S P1 IE › Area of Effect › Outer Radius": "5 m",
         "S P1 IE › Area of Effect › Shockwave Radius": "8 m",
+        "S P1 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P1 IE › Damage › Damage Element": "None",
         "S P1 IE › Damage › Inner Radius": "300 Explosion",
         "S P1 IE › Damage › Inner Durable": "300 Explosion",
@@ -6795,7 +6899,7 @@
             "pellets": null,
             "massG": 500,
             "initialVelocityMps": 500,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -6884,7 +6988,7 @@
         "S P › Projectile › Size": "50 mm",
         "S P › Projectile › Mass": "500 g",
         "S P › Projectile › Initial Velocity": "500 m/s",
-        "S P › Projectile › Drag Factor": "50%",
+        "S P › Projectile › Drag Coefficient": "50%",
         "S P › Projectile › Gravity Factor": "100%",
         "S P › Projectile › Penetration Slowdown": "25%",
         "S P › Projectile › Explosion On Impact": "S_P_IE",
@@ -6901,6 +7005,7 @@
         "S P E › Area of Effect › Inner Radius": "10 m",
         "S P E › Area of Effect › Outer Radius": "25 m",
         "S P E › Area of Effect › Shockwave Radius": "35 m",
+        "S P E › Area of Effect › Damage Falloff Type": "Quick",
         "S P E › Damage › Damage Element": "None",
         "S P E › Damage › Inner Radius": "1500 Explosion",
         "S P E › Damage › Inner Durable": "1500 Explosion",
@@ -6915,6 +7020,7 @@
         "S P IE › Area of Effect › Inner Radius": "1 m",
         "S P IE › Area of Effect › Outer Radius": "3 m",
         "S P IE › Area of Effect › Shockwave Radius": "6 m",
+        "S P IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P IE › Damage › Damage Element": "None",
         "S P IE › Damage › Inner Radius": "100 Explosion",
         "S P IE › Damage › Inner Durable": "100 Explosion",
@@ -7046,7 +7152,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 500,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -7108,7 +7214,7 @@
         "S P2 › Projectile › Size": "25 mm",
         "S P2 › Projectile › Mass": "100 g",
         "S P2 › Projectile › Initial Velocity": "500 m/s",
-        "S P2 › Projectile › Drag Factor": "50%",
+        "S P2 › Projectile › Drag Coefficient": "50%",
         "S P2 › Projectile › Gravity Factor": "100%",
         "S P2 › Projectile › Penetration Slowdown": "25%",
         "S P2 › Projectile › Explosion On Impact": "S_P2_IE",
@@ -7124,6 +7230,7 @@
         "S P2 IE › Area of Effect › Inner Radius": "5 m",
         "S P2 IE › Area of Effect › Outer Radius": "10 m",
         "S P2 IE › Area of Effect › Shockwave Radius": "14 m",
+        "S P2 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P2 IE › Damage › Damage Element": "None",
         "S P2 IE › Damage › Inner Radius": "800 Explosion",
         "S P2 IE › Damage › Inner Durable": "800 Explosion",
@@ -7256,7 +7363,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -7311,7 +7418,7 @@
             "pellets": null,
             "massG": 50,
             "initialVelocityMps": 30,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -7375,7 +7482,7 @@
         "S P4 › Projectile › Size": "25 mm",
         "S P4 › Projectile › Mass": "100 g",
         "S P4 › Projectile › Initial Velocity": "300 m/s",
-        "S P4 › Projectile › Drag Factor": "50%",
+        "S P4 › Projectile › Drag Coefficient": "50%",
         "S P4 › Projectile › Gravity Factor": "100%",
         "S P4 › Projectile › Lifetime": "0.349999994 sec",
         "S P4 › Projectile › Penetration Slowdown": "25%",
@@ -7392,6 +7499,7 @@
         "S P4 E › Area of Effect › Inner Radius": "1 m",
         "S P4 E › Area of Effect › Outer Radius": "2 m",
         "S P4 E › Area of Effect › Shockwave Radius": "10 m",
+        "S P4 E › Area of Effect › Damage Falloff Type": "Quick",
         "S P4 E › Area of Effect › Shrapnel Count": "8",
         "S P4 E › Area of Effect › Shrapnel": "P13",
         "S P4 E › Damage › Damage Element": "None",
@@ -7408,7 +7516,7 @@
         "P13 › Projectile › Size": "40 mm",
         "P13 › Projectile › Mass": "50 g",
         "P13 › Projectile › Initial Velocity": "30 m/s",
-        "P13 › Projectile › Drag Factor": "50%",
+        "P13 › Projectile › Drag Coefficient": "50%",
         "P13 › Projectile › Gravity Factor": "100%",
         "P13 › Projectile › Penetration Slowdown": "25%",
         "P13 › Projectile › Explosion On Impact": "P13_IE",
@@ -7424,6 +7532,7 @@
         "P13 IE › Area of Effect › Inner Radius": "3 m",
         "P13 IE › Area of Effect › Outer Radius": "6 m",
         "P13 IE › Area of Effect › Shockwave Radius": "8 m",
+        "P13 IE › Area of Effect › Damage Falloff Type": "Slow",
         "P13 IE › Damage › Damage Element": "None",
         "P13 IE › Damage › Inner Radius": "350 Explosion",
         "P13 IE › Damage › Inner Durable": "350 Explosion",
@@ -7465,6 +7574,7 @@
         "title": "Eagle Fly By",
         "url": "https://helldivers.wiki.gg/wiki/Eagle_Fly_By",
         "flags": [
+          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -7671,7 +7781,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 500,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -7778,7 +7888,7 @@
         "S P6 › Projectile › Size": "25 mm",
         "S P6 › Projectile › Mass": "100 g",
         "S P6 › Projectile › Initial Velocity": "500 m/s",
-        "S P6 › Projectile › Drag Factor": "50%",
+        "S P6 › Projectile › Drag Coefficient": "50%",
         "S P6 › Projectile › Gravity Factor": "100%",
         "S P6 › Projectile › Penetration Slowdown": "25%",
         "S P6 › Projectile › Explosion On Impact": "S_P6_IE",
@@ -7795,6 +7905,7 @@
         "S P6 IE › Area of Effect › Outer Radius": "12 m",
         "S P6 IE › Area of Effect › Shockwave Radius": "15 m",
         "S P6 IE › Area of Effect › AoE Duration": "15 s",
+        "S P6 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P6 IE › Damage › Damage Element": "Gas",
         "S P6 IE › Damage › Inner Radius": "0 Gas",
         "S P6 IE › Damage › Inner Durable": "0 Gas",
@@ -7942,7 +8053,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 500,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -8050,7 +8161,7 @@
         "S P3 › Projectile › Size": "25 mm",
         "S P3 › Projectile › Mass": "100 g",
         "S P3 › Projectile › Initial Velocity": "500 m/s",
-        "S P3 › Projectile › Drag Factor": "50%",
+        "S P3 › Projectile › Drag Coefficient": "50%",
         "S P3 › Projectile › Gravity Factor": "100%",
         "S P3 › Projectile › Penetration Slowdown": "25%",
         "S P3 › Projectile › Explosion On Impact": "S_P3_IE",
@@ -8066,6 +8177,7 @@
         "S P3 IE › Area of Effect › Inner Radius": "2 m",
         "S P3 IE › Area of Effect › Outer Radius": "10 m",
         "S P3 IE › Area of Effect › Shockwave Radius": "15 m",
+        "S P3 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P3 IE › Damage › Damage Element": "None",
         "S P3 IE › Damage › Inner Radius": "250 Explosion",
         "S P3 IE › Damage › Inner Durable": "250 Explosion",
@@ -8286,7 +8398,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 500,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -8348,7 +8460,7 @@
         "S P5 › Projectile › Size": "25 mm",
         "S P5 › Projectile › Mass": "100 g",
         "S P5 › Projectile › Initial Velocity": "500 m/s",
-        "S P5 › Projectile › Drag Factor": "50%",
+        "S P5 › Projectile › Drag Coefficient": "50%",
         "S P5 › Projectile › Gravity Factor": "100%",
         "S P5 › Projectile › Penetration Slowdown": "25%",
         "S P5 › Projectile › Explosion On Impact": "S_P5_IE",
@@ -8364,7 +8476,8 @@
         "S P5 IE › Area of Effect › Inner Radius": "12 m",
         "S P5 IE › Area of Effect › Outer Radius": "12 m",
         "S P5 IE › Area of Effect › Shockwave Radius": "0 m",
-        "S P5 IE › Area of Effect › AoE Duration": "30 s"
+        "S P5 IE › Area of Effect › AoE Duration": "30 s",
+        "S P5 IE › Area of Effect › Damage Falloff Type": "Quick"
       },
       "source": {
         "type": "requisition",
@@ -8478,7 +8591,7 @@
             "pellets": null,
             "massG": 400,
             "initialVelocityMps": 1050,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -8550,7 +8663,7 @@
         "P5 › Projectile › Size": "23 mm",
         "P5 › Projectile › Mass": "400 g",
         "P5 › Projectile › Initial Velocity": "1050 m/s",
-        "P5 › Projectile › Drag Factor": "30%",
+        "P5 › Projectile › Drag Coefficient": "30%",
         "P5 › Projectile › Gravity Factor": "100%",
         "P5 › Projectile › Penetration Slowdown": "25%",
         "P5 › Projectile › Explosion On Impact": "P5_IE",
@@ -8566,6 +8679,7 @@
         "P5 IE › Area of Effect › Inner Radius": "2.5 m",
         "P5 IE › Area of Effect › Outer Radius": "5 m",
         "P5 IE › Area of Effect › Shockwave Radius": "6.5 m",
+        "P5 IE › Area of Effect › Damage Falloff Type": "Slow",
         "P5 IE › Damage › Damage Element": "None",
         "P5 IE › Damage › Inner Radius": "350 Explosion",
         "P5 IE › Damage › Inner Durable": "350 Explosion",
@@ -8633,6 +8747,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 66.5
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 63
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 59.85
         }
       ],
       "callInTimeS": 6.75,
@@ -8703,7 +8825,7 @@
             "pellets": null,
             "massG": 2500,
             "initialVelocityMps": 200,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 85
           },
@@ -8757,6 +8879,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "70 seconds",
         "General › Cooldown › With Morale Augmentation": "66.5 seconds",
+        "General › Cooldown › With Streamlined Request Process": "63 seconds",
+        "General › Cooldown › With All Upgrades": "59.85 seconds",
         "EAT-17 EXPENDABLE ANTI-TANK › Fire Rate": "600 rpm",
         "EAT-17 EXPENDABLE ANTI-TANK › Drift Recoil": "↔[2.50] ↕[10.00]",
         "EAT-17 EXPENDABLE ANTI-TANK › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -8771,6 +8895,7 @@
         "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
         "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+        "EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
         "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
@@ -8785,7 +8910,7 @@
         "EAT-17 P › Projectile › Size": "75 mm",
         "EAT-17 P › Projectile › Mass": "2.5 kg",
         "EAT-17 P › Projectile › Initial Velocity": "200 m/s",
-        "EAT-17 P › Projectile › Drag Factor": "0%",
+        "EAT-17 P › Projectile › Drag Coefficient": "0%",
         "EAT-17 P › Projectile › Gravity Factor": "100%",
         "EAT-17 P › Projectile › Penetration Slowdown": "85%",
         "EAT-17 P › Projectile › Explosion On Impact": "EAT-17_P_IE",
@@ -8801,6 +8926,7 @@
         "EAT-17 P IE › Area of Effect › Inner Radius": "1.5 m",
         "EAT-17 P IE › Area of Effect › Outer Radius": "3 m",
         "EAT-17 P IE › Area of Effect › Shockwave Radius": "6 m",
+        "EAT-17 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-17 P IE › Damage › Damage Element": "None",
         "EAT-17 P IE › Damage › Inner Radius": "150 Explosion",
         "EAT-17 P IE › Damage › Inner Durable": "150 Explosion",
@@ -9014,6 +9140,7 @@
         "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
         "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+        "EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
         "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
@@ -9044,6 +9171,7 @@
         "EAT-411 P IE › Area of Effect › Inner Radius": "10 m",
         "EAT-411 P IE › Area of Effect › Outer Radius": "25 m",
         "EAT-411 P IE › Area of Effect › Shockwave Radius": "35 m",
+        "EAT-411 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-411 P IE › Damage › Damage Element": "None",
         "EAT-411 P IE › Damage › Inner Radius": "2500 Explosion",
         "EAT-411 P IE › Damage › Inner Durable": "2500 Explosion",
@@ -9110,6 +9238,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 133
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 126
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 119.7
         }
       ],
       "callInTimeS": 7.75,
@@ -9180,7 +9316,7 @@
             "pellets": null,
             "massG": 2500,
             "initialVelocityMps": 200,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 85
           },
@@ -9257,7 +9393,7 @@
             "pellets": null,
             "massG": 3000,
             "initialVelocityMps": 15,
-            "dragFactorPct": 1500,
+            "dragFactorPct": null,
             "gravityFactorPct": 400,
             "penetrationSlowdownPct": 25
           },
@@ -9332,6 +9468,8 @@
         "General › Uses": "unlimited",
         "General › Cooldown › Standard": "140 seconds",
         "General › Cooldown › With Morale Augmentation": "133 seconds",
+        "General › Cooldown › With Streamlined Request Process": "126 seconds",
+        "General › Cooldown › With All Upgrades": "119.7 seconds",
         "EAT-700 EXPENDABLE NAPALM › Fire Rate": "600 rpm",
         "EAT-700 EXPENDABLE NAPALM › Drift Recoil": "↔[2.50] ↕[10.00]",
         "EAT-700 EXPENDABLE NAPALM › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -9350,6 +9488,7 @@
         "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
         "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+        "EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
         "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
         "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
@@ -9364,7 +9503,7 @@
         "EAT-700 P › Projectile › Size": "75 mm",
         "EAT-700 P › Projectile › Mass": "2.5 kg",
         "EAT-700 P › Projectile › Initial Velocity": "200 m/s",
-        "EAT-700 P › Projectile › Drag Factor": "0%",
+        "EAT-700 P › Projectile › Drag Coefficient": "0%",
         "EAT-700 P › Projectile › Gravity Factor": "100%",
         "EAT-700 P › Projectile › Penetration Slowdown": "85%",
         "EAT-700 P › Projectile › Explosion On Impact": "EAT-700_P_IE",
@@ -9393,6 +9532,7 @@
         "EAT-700 P IE › Area of Effect › Inner Radius": "1.60000002 m",
         "EAT-700 P IE › Area of Effect › Outer Radius": "8 m",
         "EAT-700 P IE › Area of Effect › Shockwave Radius": "10 m",
+        "EAT-700 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-700 P IE › Area of Effect › Shrapnel Count": "20",
         "EAT-700 P IE › Area of Effect › Shrapnel": "EAT-700_P1",
         "EAT-700 P IE › Damage › Damage Element": "None",
@@ -9413,7 +9553,7 @@
         "EAT-700 P1 › Projectile › Size": "85 mm",
         "EAT-700 P1 › Projectile › Mass": "3 kg",
         "EAT-700 P1 › Projectile › Initial Velocity": "15 m/s",
-        "EAT-700 P1 › Projectile › Drag Factor": "1500%",
+        "EAT-700 P1 › Projectile › Drag Coefficient": "1500%",
         "EAT-700 P1 › Projectile › Gravity Factor": "400%",
         "EAT-700 P1 › Projectile › Lifetime": "7 sec",
         "EAT-700 P1 › Projectile › Penetration Slowdown": "25%",
@@ -9431,6 +9571,7 @@
         "EAT-700 P1 IE › Area of Effect › Inner Radius": "1.60000002 m",
         "EAT-700 P1 IE › Area of Effect › Outer Radius": "5 m",
         "EAT-700 P1 IE › Area of Effect › Shockwave Radius": "5 m",
+        "EAT-700 P1 IE › Area of Effect › Damage Falloff Type": "Quick",
         "EAT-700 P1 IE › Damage › Damage Element": "None",
         "EAT-700 P1 IE › Damage › Inner Radius": "50 Explosion",
         "EAT-700 P1 IE › Damage › Inner Durable": "50 Explosion",
@@ -9556,7 +9697,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 820,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -9585,7 +9726,7 @@
             "pellets": null,
             "massG": 2500,
             "initialVelocityMps": 200,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 85
           },
@@ -9742,7 +9883,7 @@
         "MG-43 P › Projectile › Size": "8 mm",
         "MG-43 P › Projectile › Mass": "11 g",
         "MG-43 P › Projectile › Initial Velocity": "820 m/s",
-        "MG-43 P › Projectile › Drag Factor": "30%",
+        "MG-43 P › Projectile › Drag Coefficient": "30%",
         "MG-43 P › Projectile › Gravity Factor": "100%",
         "MG-43 P › Projectile › Penetration Slowdown": "25%",
         "MG-43 P › Damage › Standard": "90 Ballistic",
@@ -9757,7 +9898,7 @@
         "P6 › Projectile › Size": "75 mm",
         "P6 › Projectile › Mass": "2.5 kg",
         "P6 › Projectile › Initial Velocity": "200 m/s",
-        "P6 › Projectile › Drag Factor": "30%",
+        "P6 › Projectile › Drag Coefficient": "30%",
         "P6 › Projectile › Gravity Factor": "100%",
         "P6 › Projectile › Lifetime": "15 sec",
         "P6 › Projectile › Penetration Slowdown": "85%",
@@ -9775,6 +9916,7 @@
         "P6 IE › Area of Effect › Inner Radius": "1 m",
         "P6 IE › Area of Effect › Outer Radius": "2 m",
         "P6 IE › Area of Effect › Shockwave Radius": "4 m",
+        "P6 IE › Area of Effect › Damage Falloff Type": "Quick",
         "P6 IE › Damage › Damage Element": "None",
         "P6 IE › Damage › Inner Radius": "400 Explosion",
         "P6 IE › Damage › Inner Durable": "400 Explosion",
@@ -9789,6 +9931,7 @@
         "MLS-4X BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "MLS-4X BACKBLAST E › Area of Effect › Outer Radius": "2 m",
         "MLS-4X BACKBLAST E › Area of Effect › Shockwave Radius": "3 m",
+        "MLS-4X BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "MLS-4X BACKBLAST E › Damage › Damage Element": "None",
         "MLS-4X BACKBLAST E › Damage › Inner Radius": "5 Explosion",
         "MLS-4X BACKBLAST E › Damage › Inner Durable": "5 Explosion",
@@ -9920,7 +10063,7 @@
             "pellets": null,
             "massG": 900,
             "initialVelocityMps": 1021,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -10050,7 +10193,7 @@
         "P7 › Projectile › Size": "40 mm",
         "P7 › Projectile › Mass": "900 g",
         "P7 › Projectile › Initial Velocity": "1021 m/s",
-        "P7 › Projectile › Drag Factor": "30%",
+        "P7 › Projectile › Drag Coefficient": "30%",
         "P7 › Projectile › Gravity Factor": "100%",
         "P7 › Projectile › Penetration Slowdown": "25%",
         "P7 › Projectile › Explosion On Impact": "P7_IE",
@@ -10066,6 +10209,7 @@
         "P7 IE › Area of Effect › Inner Radius": "1.5 m",
         "P7 IE › Area of Effect › Outer Radius": "4.5 m",
         "P7 IE › Area of Effect › Shockwave Radius": "6 m",
+        "P7 IE › Area of Effect › Damage Falloff Type": "Quick",
         "P7 IE › Damage › Damage Element": "None",
         "P7 IE › Damage › Inner Radius": "150 Explosion",
         "P7 IE › Damage › Inner Durable": "150 Explosion",
@@ -10199,7 +10343,7 @@
             "pellets": null,
             "massG": 6500,
             "initialVelocityMps": 625,
-            "dragFactorPct": 75,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 85
           },
@@ -10415,7 +10559,7 @@
         "P8 › Projectile › Size": "75 mm",
         "P8 › Projectile › Mass": "6.5 kg",
         "P8 › Projectile › Initial Velocity": "625 m/s",
-        "P8 › Projectile › Drag Factor": "75%",
+        "P8 › Projectile › Drag Coefficient": "75%",
         "P8 › Projectile › Gravity Factor": "100%",
         "P8 › Projectile › Penetration Slowdown": "85%",
         "P8 › Projectile › Explosion On Impact": "P8_IE",
@@ -10431,6 +10575,7 @@
         "P8 IE › Area of Effect › Inner Radius": "3 m",
         "P8 IE › Area of Effect › Outer Radius": "6 m",
         "P8 IE › Area of Effect › Shockwave Radius": "7 m",
+        "P8 IE › Area of Effect › Damage Falloff Type": "Quick",
         "P8 IE › Damage › Damage Element": "None",
         "P8 IE › Damage › Inner Radius": "150 Explosion",
         "P8 IE › Damage › Inner Durable": "150 Explosion",
@@ -10590,7 +10735,7 @@
             "pellets": 40,
             "massG": 6,
             "initialVelocityMps": 385,
-            "dragFactorPct": 120,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -10705,7 +10850,7 @@
         "P9 › Projectile › Size": "10 mm",
         "P9 › Projectile › Mass": "6 g",
         "P9 › Projectile › Initial Velocity": "385 m/s",
-        "P9 › Projectile › Drag Factor": "120%",
+        "P9 › Projectile › Drag Coefficient": "120%",
         "P9 › Projectile › Gravity Factor": "100%",
         "P9 › Projectile › Penetration Slowdown": "25%",
         "P9 › Damage › Standard": "90 Ballistic",
@@ -10804,6 +10949,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -10858,7 +11011,7 @@
             "pellets": null,
             "massG": 350,
             "initialVelocityMps": 70,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 0,
             "penetrationSlowdownPct": 25
           },
@@ -10917,6 +11070,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "FAF-14 SPEAR › Fire Rate": "240 rpm",
         "FAF-14 SPEAR › Drift Recoil": "↔[2.50] ↕[10.00]",
         "FAF-14 SPEAR › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -10934,7 +11089,7 @@
         "FAF-14 P › Projectile › Size": "66 mm",
         "FAF-14 P › Projectile › Mass": "350 g",
         "FAF-14 P › Projectile › Initial Velocity": "70 m/s",
-        "FAF-14 P › Projectile › Drag Factor": "0%",
+        "FAF-14 P › Projectile › Drag Coefficient": "0%",
         "FAF-14 P › Projectile › Gravity Factor": "0%",
         "FAF-14 P › Projectile › Lifetime": "15 sec",
         "FAF-14 P › Projectile › Penetration Slowdown": "25%",
@@ -10951,6 +11106,7 @@
         "FAF-14 P IE › Area of Effect › Inner Radius": "1.5 m",
         "FAF-14 P IE › Area of Effect › Outer Radius": "3 m",
         "FAF-14 P IE › Area of Effect › Shockwave Radius": "6 m",
+        "FAF-14 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "FAF-14 P IE › Damage › Damage Element": "None",
         "FAF-14 P IE › Damage › Inner Radius": "200 Explosion",
         "FAF-14 P IE › Damage › Inner Durable": "200 Explosion",
@@ -11016,6 +11172,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -11171,6 +11335,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "FLAM-40 FLAMETHROWER › Drift Recoil": "↔[0.00] ↕[0.00]",
         "FLAM-40 FLAMETHROWER › Climb Recoil": "↔[0.00] ↕[5.00]",
         "FLAM-40 FLAMETHROWER › Spread": "↔[10.00] ↕[10.00]",
@@ -11380,6 +11546,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -11439,7 +11613,7 @@
             "pellets": null,
             "massG": 50,
             "initialVelocityMps": 100,
-            "dragFactorPct": 120,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -11498,6 +11672,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "GL-21 GRENADE LAUNCHER › Fire Rate": "160 rpm",
         "GL-21 GRENADE LAUNCHER › Drift Recoil": "↔[170.00] ↕[175.00]",
         "GL-21 GRENADE LAUNCHER › Climb Recoil": "↔[60.00] ↕[90.00]",
@@ -11515,7 +11691,7 @@
         "GL-21 P › Projectile › Size": "40 mm",
         "GL-21 P › Projectile › Mass": "50 g",
         "GL-21 P › Projectile › Initial Velocity": "100 m/s",
-        "GL-21 P › Projectile › Drag Factor": "120%",
+        "GL-21 P › Projectile › Drag Coefficient": "120%",
         "GL-21 P › Projectile › Gravity Factor": "100%",
         "GL-21 P › Projectile › Penetration Slowdown": "25%",
         "GL-21 P › Projectile › Explosion On Impact": "GL-21_P_IE",
@@ -11533,6 +11709,7 @@
         "GL-21 P IE › Area of Effect › Inner Radius": "3.5 m",
         "GL-21 P IE › Area of Effect › Outer Radius": "7.5 m",
         "GL-21 P IE › Area of Effect › Shockwave Radius": "8 m",
+        "GL-21 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "GL-21 P IE › Damage › Damage Element": "None",
         "GL-21 P IE › Damage › Inner Radius": "400 Explosion",
         "GL-21 P IE › Damage › Inner Durable": "400 Explosion",
@@ -11602,6 +11779,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -11651,7 +11836,7 @@
             "pellets": null,
             "massG": 50,
             "initialVelocityMps": 100,
-            "dragFactorPct": 120,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -11708,6 +11893,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "GL-28 BELT-FED GRENADE LAUNCHER › Fire Rate": "240 rpm",
         "GL-28 BELT-FED GRENADE LAUNCHER › Drift Recoil": "↔[20.00] ↕[25.00]",
         "GL-28 BELT-FED GRENADE LAUNCHER › Climb Recoil": "↔[15.00] ↕[35.00]",
@@ -11721,7 +11908,7 @@
         "GL-28 P › Projectile › Size": "40 mm",
         "GL-28 P › Projectile › Mass": "50 g",
         "GL-28 P › Projectile › Initial Velocity": "100 m/s",
-        "GL-28 P › Projectile › Drag Factor": "120%",
+        "GL-28 P › Projectile › Drag Coefficient": "120%",
         "GL-28 P › Projectile › Gravity Factor": "100%",
         "GL-28 P › Projectile › Penetration Slowdown": "25%",
         "GL-28 P › Projectile › Explosion On Impact": "GL-28_P_IE",
@@ -11738,6 +11925,7 @@
         "GL-28 P IE › Area of Effect › Inner Radius": "2 m",
         "GL-28 P IE › Area of Effect › Outer Radius": "4 m",
         "GL-28 P IE › Area of Effect › Shockwave Radius": "5.5 m",
+        "GL-28 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "GL-28 P IE › Damage › Damage Element": "None",
         "GL-28 P IE › Damage › Inner Radius": "150 Explosion",
         "GL-28 P IE › Damage › Inner Durable": "150 Explosion",
@@ -11804,6 +11992,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -11863,7 +12059,7 @@
             "pellets": null,
             "massG": 50,
             "initialVelocityMps": 100,
-            "dragFactorPct": 120,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -11968,6 +12164,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "GL-52 DE-ESCALATOR › Fire Rate": "200 rpm",
         "GL-52 DE-ESCALATOR › Drift Recoil": "↔[90.00] ↕[95.00]",
         "GL-52 DE-ESCALATOR › Climb Recoil": "↔[60.00] ↕[90.00]",
@@ -11987,7 +12185,7 @@
         "GL-52 P › Projectile › Size": "40 mm",
         "GL-52 P › Projectile › Mass": "50 g",
         "GL-52 P › Projectile › Initial Velocity": "100 m/s",
-        "GL-52 P › Projectile › Drag Factor": "120%",
+        "GL-52 P › Projectile › Drag Coefficient": "120%",
         "GL-52 P › Projectile › Gravity Factor": "100%",
         "GL-52 P › Projectile › Penetration Slowdown": "25%",
         "GL-52 P › Projectile › Explosion On Impact": "GL-52_P_IE",
@@ -12004,6 +12202,7 @@
         "GL-52 P IE › Area of Effect › Inner Radius": "1 m",
         "GL-52 P IE › Area of Effect › Outer Radius": "3 m",
         "GL-52 P IE › Area of Effect › Shockwave Radius": "4 m",
+        "GL-52 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "GL-52 P IE › Area of Effect › Arc": "GL-52_P_IE_A",
         "GL-52 P IE › Damage › Damage Element": "Electricity",
         "GL-52 P IE › Damage › Inner Radius": "0 Arc",
@@ -12090,6 +12289,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -12170,7 +12377,7 @@
             "pellets": null,
             "massG": 3300,
             "initialVelocityMps": 250,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -12225,7 +12432,7 @@
             "pellets": null,
             "massG": 3300,
             "initialVelocityMps": 250,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 85
           },
@@ -12284,6 +12491,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "GR-8 RECOILLESS RIFLE › Fire Rate": "600 rpm",
         "GR-8 RECOILLESS RIFLE › Drift Recoil": "↔[40.00] ↕[40.00]",
         "GR-8 RECOILLESS RIFLE › Climb Recoil": "↔[50.00] ↕[180.00]",
@@ -12304,6 +12513,7 @@
         "GR-8 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "GR-8 BACKBLAST E › Area of Effect › Outer Radius": "8 m",
         "GR-8 BACKBLAST E › Area of Effect › Shockwave Radius": "9 m",
+        "GR-8 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "GR-8 BACKBLAST E › Damage › Damage Element": "None",
         "GR-8 BACKBLAST E › Damage › Inner Radius": "20 Explosion",
         "GR-8 BACKBLAST E › Damage › Inner Durable": "20 Explosion",
@@ -12318,7 +12528,7 @@
         "GR-8 P › Projectile › Size": "85 mm",
         "GR-8 P › Projectile › Mass": "3.3 kg",
         "GR-8 P › Projectile › Initial Velocity": "250 m/s",
-        "GR-8 P › Projectile › Drag Factor": "30%",
+        "GR-8 P › Projectile › Drag Coefficient": "30%",
         "GR-8 P › Projectile › Gravity Factor": "100%",
         "GR-8 P › Projectile › Penetration Slowdown": "25%",
         "GR-8 P › Projectile › Explosion On Impact": "GR-8_P_IE",
@@ -12334,6 +12544,7 @@
         "GR-8 P IE › Area of Effect › Inner Radius": "1.5 m",
         "GR-8 P IE › Area of Effect › Outer Radius": "3 m",
         "GR-8 P IE › Area of Effect › Shockwave Radius": "6 m",
+        "GR-8 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "GR-8 P IE › Damage › Damage Element": "None",
         "GR-8 P IE › Damage › Inner Radius": "150 Explosion",
         "GR-8 P IE › Damage › Inner Durable": "150 Explosion",
@@ -12348,7 +12559,7 @@
         "GR-8 P1 › Projectile › Size": "85 mm",
         "GR-8 P1 › Projectile › Mass": "3.3 kg",
         "GR-8 P1 › Projectile › Initial Velocity": "250 m/s",
-        "GR-8 P1 › Projectile › Drag Factor": "0%",
+        "GR-8 P1 › Projectile › Drag Coefficient": "0%",
         "GR-8 P1 › Projectile › Gravity Factor": "100%",
         "GR-8 P1 › Projectile › Penetration Slowdown": "85%",
         "GR-8 P1 › Projectile › Explosion On Impact": "GR-8_P1_IE",
@@ -12364,6 +12575,7 @@
         "GR-8 P1 IE › Area of Effect › Inner Radius": "3 m",
         "GR-8 P1 IE › Area of Effect › Outer Radius": "7.5 m",
         "GR-8 P1 IE › Area of Effect › Shockwave Radius": "12 m",
+        "GR-8 P1 IE › Area of Effect › Damage Falloff Type": "Quick",
         "GR-8 P1 IE › Damage › Damage Element": "None",
         "GR-8 P1 IE › Damage › Inner Radius": "800 Explosion",
         "GR-8 P1 IE › Damage › Inner Durable": "800 Explosion",
@@ -12673,6 +12885,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -12777,6 +12997,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "LAS-98 LASER CANNON › Drift Recoil": "↔[0.00] ↕[0.00]",
         "LAS-98 LASER CANNON › Climb Recoil": "↔[0.00] ↕[0.00]",
         "LAS-98 LASER CANNON › Spread": "↔[10.00] ↕[10.00]",
@@ -12872,6 +13094,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -12916,7 +13146,7 @@
             "pellets": null,
             "massG": 12,
             "initialVelocityMps": 1300,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 0,
             "penetrationSlowdownPct": 25
           },
@@ -12971,6 +13201,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "LAS-99 QUASAR CANNON › Fire Rate": "10 rpm",
         "LAS-99 QUASAR CANNON › Drift Recoil": "↔[40.00] ↕[40.00]",
         "LAS-99 QUASAR CANNON › Climb Recoil": "↔[50.00] ↕[180.00]",
@@ -12992,7 +13224,7 @@
         "LAS-99 P › Projectile › Size": "10 mm",
         "LAS-99 P › Projectile › Mass": "12 g",
         "LAS-99 P › Projectile › Initial Velocity": "1300 m/s",
-        "LAS-99 P › Projectile › Drag Factor": "0%",
+        "LAS-99 P › Projectile › Drag Coefficient": "0%",
         "LAS-99 P › Projectile › Gravity Factor": "0%",
         "LAS-99 P › Projectile › Lifetime": "6 sec",
         "LAS-99 P › Projectile › Penetration Slowdown": "25%",
@@ -13009,6 +13241,7 @@
         "LAS-99 P IE › Area of Effect › Inner Radius": "1.5 m",
         "LAS-99 P IE › Area of Effect › Outer Radius": "3 m",
         "LAS-99 P IE › Area of Effect › Shockwave Radius": "6 m",
+        "LAS-99 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "LAS-99 P IE › Damage › Damage Element": "None",
         "LAS-99 P IE › Damage › Inner Radius": "150 Explosion",
         "LAS-99 P IE › Damage › Inner Durable": "150 Explosion",
@@ -13196,6 +13429,7 @@
         "LIFT-182 WARP PACK E › Area of Effect › Inner Radius": "1.39999998 m",
         "LIFT-182 WARP PACK E › Area of Effect › Outer Radius": "1.5 m",
         "LIFT-182 WARP PACK E › Area of Effect › Shockwave Radius": "2 m",
+        "LIFT-182 WARP PACK E › Area of Effect › Damage Falloff Type": "Slow",
         "LIFT-182 WARP PACK E › Damage › Damage Element": "None",
         "LIFT-182 WARP PACK E › Damage › Inner Radius": "1000 Explosion",
         "LIFT-182 WARP PACK E › Damage › Inner Durable": "1000 Explosion",
@@ -13459,6 +13693,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -13508,7 +13750,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 920,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -13539,6 +13781,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "M-1000 MAXIGUN › Fire Rate": "1500 rpm",
         "M-1000 MAXIGUN › Drift Recoil": "↔[20.00] ↕[20.00]",
         "M-1000 MAXIGUN › Climb Recoil": "↔[15.00] ↕[30.00]",
@@ -13555,7 +13799,7 @@
         "M-1000 P › Projectile › Size": "8 mm",
         "M-1000 P › Projectile › Mass": "11 g",
         "M-1000 P › Projectile › Initial Velocity": "920 m/s",
-        "M-1000 P › Projectile › Drag Factor": "30%",
+        "M-1000 P › Projectile › Drag Coefficient": "30%",
         "M-1000 P › Projectile › Gravity Factor": "100%",
         "M-1000 P › Projectile › Penetration Slowdown": "25%",
         "M-1000 P › Damage › Standard": "80 Ballistic",
@@ -13799,7 +14043,7 @@
             "pellets": null,
             "massG": 4.5,
             "initialVelocityMps": 1000,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -13839,7 +14083,7 @@
         "AR-23P P › Projectile › Size": "5.5 mm",
         "AR-23P P › Projectile › Mass": "4.5 g",
         "AR-23P P › Projectile › Initial Velocity": "1000 m/s",
-        "AR-23P P › Projectile › Drag Factor": "30%",
+        "AR-23P P › Projectile › Drag Coefficient": "30%",
         "AR-23P P › Projectile › Gravity Factor": "100%",
         "AR-23P P › Projectile › Penetration Slowdown": "25%",
         "AR-23P P › Damage › Standard": "65 Ballistic",
@@ -14158,6 +14402,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -14217,7 +14469,7 @@
             "pellets": null,
             "massG": 4.5,
             "initialVelocityMps": 900,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -14250,6 +14502,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "M-105 STALWART › Fire Rate": "850 rpm",
         "M-105 STALWART › Drift Recoil": "↔[15.00] ↕[15.00]",
         "M-105 STALWART › Climb Recoil": "↔[10.00] ↕[20.00]",
@@ -14266,7 +14520,7 @@
         "AR-23 P › Projectile › Size": "5.5 mm",
         "AR-23 P › Projectile › Mass": "4.5 g",
         "AR-23 P › Projectile › Initial Velocity": "900 m/s",
-        "AR-23 P › Projectile › Drag Factor": "30%",
+        "AR-23 P › Projectile › Drag Coefficient": "30%",
         "AR-23 P › Projectile › Gravity Factor": "100%",
         "AR-23 P › Projectile › Penetration Slowdown": "25%",
         "AR-23 P › Damage › Standard": "90 Ballistic",
@@ -14412,6 +14666,7 @@
         "ANTI-TANK MINES E › Area of Effect › Inner Radius": "3 m",
         "ANTI-TANK MINES E › Area of Effect › Outer Radius": "7 m",
         "ANTI-TANK MINES E › Area of Effect › Shockwave Radius": "14 m",
+        "ANTI-TANK MINES E › Area of Effect › Damage Falloff Type": "Slow",
         "ANTI-TANK MINES E › Damage › Damage Element": "None",
         "ANTI-TANK MINES E › Damage › Inner Radius": "2000 Explosion",
         "ANTI-TANK MINES E › Damage › Inner Durable": "2000 Explosion",
@@ -14557,6 +14812,7 @@
         "ANTI-PERSONNEL MINEFIELD E › Area of Effect › Inner Radius": "1.20000005 m",
         "ANTI-PERSONNEL MINEFIELD E › Area of Effect › Outer Radius": "5 m",
         "ANTI-PERSONNEL MINEFIELD E › Area of Effect › Shockwave Radius": "7 m",
+        "ANTI-PERSONNEL MINEFIELD E › Area of Effect › Damage Falloff Type": "Slow",
         "ANTI-PERSONNEL MINEFIELD E › Damage › Damage Element": "None",
         "ANTI-PERSONNEL MINEFIELD E › Damage › Inner Radius": "700 Explosion",
         "ANTI-PERSONNEL MINEFIELD E › Damage › Inner Durable": "700 Explosion",
@@ -14749,6 +15005,7 @@
         "GAS MINES E › Area of Effect › Outer Radius": "6 m",
         "GAS MINES E › Area of Effect › Shockwave Radius": "6 m",
         "GAS MINES E › Area of Effect › AoE Duration": "15 s",
+        "GAS MINES E › Area of Effect › Damage Falloff Type": "Quick",
         "GAS MINES E › Damage › Damage Element": "Gas",
         "GAS MINES E › Damage › Inner Radius": "3 Gas",
         "GAS MINES E › Damage › Inner Durable": "3 Gas",
@@ -14938,6 +15195,7 @@
         "INCENDIARY MINES E › Area of Effect › Inner Radius": "1.20000005 m",
         "INCENDIARY MINES E › Area of Effect › Outer Radius": "4 m",
         "INCENDIARY MINES E › Area of Effect › Shockwave Radius": "7 m",
+        "INCENDIARY MINES E › Area of Effect › Damage Falloff Type": "Quick",
         "INCENDIARY MINES E › Damage › Damage Element": "None",
         "INCENDIARY MINES E › Damage › Inner Radius": "300 Explosion",
         "INCENDIARY MINES E › Damage › Inner Durable": "300 Explosion",
@@ -15198,6 +15456,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -15257,7 +15523,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 820,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -15292,6 +15558,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "MG-43 MACHINE GUN › Fire Rate": "760 rpm",
         "MG-43 MACHINE GUN › Drift Recoil": "↔[20.00] ↕[20.00]",
         "MG-43 MACHINE GUN › Climb Recoil": "↔[15.00] ↕[30.00]",
@@ -15308,7 +15576,7 @@
         "MG-43 P › Projectile › Size": "8 mm",
         "MG-43 P › Projectile › Mass": "11 g",
         "MG-43 P › Projectile › Initial Velocity": "820 m/s",
-        "MG-43 P › Projectile › Drag Factor": "30%",
+        "MG-43 P › Projectile › Drag Coefficient": "30%",
         "MG-43 P › Projectile › Gravity Factor": "100%",
         "MG-43 P › Projectile › Penetration Slowdown": "25%",
         "MG-43 P › Damage › Standard": "90 Ballistic",
@@ -15537,6 +15805,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 114
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 108
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 102.6
         }
       ],
       "callInTimeS": 7.75,
@@ -15607,7 +15883,7 @@
             "pellets": null,
             "massG": 350,
             "initialVelocityMps": 70,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 0,
             "penetrationSlowdownPct": 25
           },
@@ -15662,6 +15938,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "120 seconds",
         "General › Cooldown › With Morale Augmentation": "114 seconds",
+        "General › Cooldown › With Streamlined Request Process": "108 seconds",
+        "General › Cooldown › With All Upgrades": "102.6 seconds",
         "MLS-4X COMMANDO › Fire Rate": "240 rpm",
         "MLS-4X COMMANDO › Drift Recoil": "↔[2.50] ↕[10.00]",
         "MLS-4X COMMANDO › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -15677,6 +15955,7 @@
         "MLS-4X BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "MLS-4X BACKBLAST E › Area of Effect › Outer Radius": "2 m",
         "MLS-4X BACKBLAST E › Area of Effect › Shockwave Radius": "3 m",
+        "MLS-4X BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "MLS-4X BACKBLAST E › Damage › Damage Element": "None",
         "MLS-4X BACKBLAST E › Damage › Inner Radius": "5 Explosion",
         "MLS-4X BACKBLAST E › Damage › Inner Durable": "5 Explosion",
@@ -15691,7 +15970,7 @@
         "MLS-4X P › Projectile › Size": "66 mm",
         "MLS-4X P › Projectile › Mass": "350 g",
         "MLS-4X P › Projectile › Initial Velocity": "70 m/s",
-        "MLS-4X P › Projectile › Drag Factor": "0%",
+        "MLS-4X P › Projectile › Drag Coefficient": "0%",
         "MLS-4X P › Projectile › Gravity Factor": "0%",
         "MLS-4X P › Projectile › Lifetime": "15 sec",
         "MLS-4X P › Projectile › Penetration Slowdown": "25%",
@@ -15708,6 +15987,7 @@
         "MLS-4X P IE › Area of Effect › Inner Radius": "1 m",
         "MLS-4X P IE › Area of Effect › Outer Radius": "2 m",
         "MLS-4X P IE › Area of Effect › Shockwave Radius": "4 m",
+        "MLS-4X P IE › Area of Effect › Damage Falloff Type": "Quick",
         "MLS-4X P IE › Damage › Damage Element": "None",
         "MLS-4X P IE › Damage › Inner Radius": "150 Explosion",
         "MLS-4X P IE › Damage › Inner Durable": "150 Explosion",
@@ -15774,6 +16054,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 171
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 162
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 153.9
         }
       ],
       "callInTimeS": 7.75,
@@ -15865,6 +16153,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "180 seconds",
         "General › Cooldown › With Morale Augmentation": "171 seconds",
+        "General › Cooldown › With Streamlined Request Process": "162 seconds",
+        "General › Cooldown › With All Upgrades": "153.9 seconds",
         "SOLO SILO › Cooldown": "180 s",
         "SOLO SILO › Uses": "∞",
         "SOLO SILO › Main Health": "1500",
@@ -15876,6 +16166,7 @@
         "SOLO SILO E › Area of Effect › Inner Radius": "10 m",
         "SOLO SILO E › Area of Effect › Outer Radius": "25 m",
         "SOLO SILO E › Area of Effect › Shockwave Radius": "35 m",
+        "SOLO SILO E › Area of Effect › Damage Falloff Type": "Quick",
         "SOLO SILO E › Damage › Damage Element": "None",
         "SOLO SILO E › Damage › Inner Radius": "2500 Explosion",
         "SOLO SILO E › Damage › Inner Durable": "2500 Explosion",
@@ -15890,6 +16181,7 @@
         "SOLO SILO EImpact › Area of Effect › Inner Radius": "3 m",
         "SOLO SILO EImpact › Area of Effect › Outer Radius": "6 m",
         "SOLO SILO EImpact › Area of Effect › Shockwave Radius": "6 m",
+        "SOLO SILO EImpact › Area of Effect › Damage Falloff Type": "Slow",
         "SOLO SILO EImpact › Damage › Damage Element": "None",
         "SOLO SILO EImpact › Damage › Inner Radius": "1500 Explosion",
         "SOLO SILO EImpact › Damage › Inner Durable": "1500 Explosion",
@@ -16139,7 +16431,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -16199,7 +16491,7 @@
         "S P18 › Projectile › Size": "84 mm",
         "S P18 › Projectile › Mass": "5 kg",
         "S P18 › Projectile › Initial Velocity": "400 m/s",
-        "S P18 › Projectile › Drag Factor": "0%",
+        "S P18 › Projectile › Drag Coefficient": "0%",
         "S P18 › Projectile › Gravity Factor": "100%",
         "S P18 › Projectile › Penetration Slowdown": "25%",
         "S P18 › Projectile › Explosion On Impact": "S_P18_IE",
@@ -16215,6 +16507,7 @@
         "S P18 IE › Area of Effect › Inner Radius": "3.29999995 m",
         "S P18 IE › Area of Effect › Outer Radius": "10 m",
         "S P18 IE › Area of Effect › Shockwave Radius": "11 m",
+        "S P18 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P18 IE › Damage › Damage Element": "None",
         "S P18 IE › Damage › Inner Radius": "1200 Explosion",
         "S P18 IE › Damage › Inner Durable": "1200 Explosion",
@@ -16354,7 +16647,7 @@
             "pellets": null,
             "massG": 30000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -16414,7 +16707,7 @@
         "S P22 › Projectile › Size": "406 mm",
         "S P22 › Projectile › Mass": "30 kg",
         "S P22 › Projectile › Initial Velocity": "400 m/s",
-        "S P22 › Projectile › Drag Factor": "0%",
+        "S P22 › Projectile › Drag Coefficient": "0%",
         "S P22 › Projectile › Gravity Factor": "100%",
         "S P22 › Projectile › Penetration Slowdown": "25%",
         "S P22 › Projectile › Explosion On Impact": "S_P22_IE",
@@ -16430,6 +16723,7 @@
         "S P22 IE › Area of Effect › Inner Radius": "4 m",
         "S P22 IE › Area of Effect › Outer Radius": "12 m",
         "S P22 IE › Area of Effect › Shockwave Radius": "18 m",
+        "S P22 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P22 IE › Damage › Damage Element": "None",
         "S P22 IE › Damage › Inner Radius": "1500 Explosion",
         "S P22 IE › Damage › Inner Durable": "1500 Explosion",
@@ -16555,7 +16849,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -16610,7 +16904,7 @@
             "pellets": null,
             "massG": 2,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -16672,7 +16966,7 @@
         "S P15 › Projectile › Size": "110 mm",
         "S P15 › Projectile › Mass": "5 kg",
         "S P15 › Projectile › Initial Velocity": "400 m/s",
-        "S P15 › Projectile › Drag Factor": "0%",
+        "S P15 › Projectile › Drag Coefficient": "0%",
         "S P15 › Projectile › Gravity Factor": "100%",
         "S P15 › Projectile › Lifetime": "0.949999988 sec",
         "S P15 › Projectile › Penetration Slowdown": "25%",
@@ -16690,6 +16984,7 @@
         "S P15 IE › Area of Effect › Inner Radius": "0.200000003 m",
         "S P15 IE › Area of Effect › Outer Radius": "0.5 m",
         "S P15 IE › Area of Effect › Shockwave Radius": "4 m",
+        "S P15 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P15 IE › Area of Effect › Shrapnel Count": "12",
         "S P15 IE › Area of Effect › Shrapnel": "P14",
         "S P15 IE › Damage › Damage Element": "None",
@@ -16706,7 +17001,7 @@
         "P14 › Projectile › Size": "8 mm",
         "P14 › Projectile › Mass": "2 g",
         "P14 › Projectile › Initial Velocity": "300 m/s",
-        "P14 › Projectile › Drag Factor": "50%",
+        "P14 › Projectile › Drag Coefficient": "50%",
         "P14 › Projectile › Gravity Factor": "100%",
         "P14 › Projectile › Penetration Slowdown": "25%",
         "P14 › Projectile › Explosion On Impact": "P14_IE",
@@ -16722,6 +17017,7 @@
         "P14 IE › Area of Effect › Inner Radius": "3 m",
         "P14 IE › Area of Effect › Outer Radius": "6 m",
         "P14 IE › Area of Effect › Shockwave Radius": "8 m",
+        "P14 IE › Area of Effect › Damage Falloff Type": "Slow",
         "P14 IE › Damage › Damage Element": "None",
         "P14 IE › Damage › Inner Radius": "350 Explosion",
         "P14 IE › Damage › Inner Durable": "350 Explosion",
@@ -16763,6 +17059,7 @@
         "title": "Orbital Confetti",
         "url": "https://helldivers.wiki.gg/wiki/Orbital_Confetti",
         "flags": [
+          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -16946,7 +17243,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -17029,7 +17326,7 @@
         "S P25 › Projectile › Size": "84 mm",
         "S P25 › Projectile › Mass": "5 kg",
         "S P25 › Projectile › Initial Velocity": "400 m/s",
-        "S P25 › Projectile › Drag Factor": "0%",
+        "S P25 › Projectile › Drag Coefficient": "0%",
         "S P25 › Projectile › Gravity Factor": "100%",
         "S P25 › Projectile › Penetration Slowdown": "25%",
         "S P25 › Projectile › Explosion On Impact": "S_P25_IE",
@@ -17046,6 +17343,7 @@
         "S P25 IE › Area of Effect › Outer Radius": "13 m",
         "S P25 IE › Area of Effect › Shockwave Radius": "20 m",
         "S P25 IE › Area of Effect › AoE Duration": "15 s",
+        "S P25 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P25 IE › Damage › Damage Element": "None",
         "S P25 IE › Damage › Inner Radius": "0 Explosion",
         "S P25 IE › Damage › Inner Durable": "0 Explosion",
@@ -17163,7 +17461,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -17269,7 +17567,7 @@
         "S P14 › Projectile › Size": "84 mm",
         "S P14 › Projectile › Mass": "5 kg",
         "S P14 › Projectile › Initial Velocity": "400 m/s",
-        "S P14 › Projectile › Drag Factor": "0%",
+        "S P14 › Projectile › Drag Coefficient": "0%",
         "S P14 › Projectile › Gravity Factor": "100%",
         "S P14 › Projectile › Penetration Slowdown": "25%",
         "S P14 › Projectile › Explosion On Impact": "S_P14_IE",
@@ -17286,6 +17584,7 @@
         "S P14 IE › Area of Effect › Outer Radius": "15 m",
         "S P14 IE › Area of Effect › Shockwave Radius": "20 m",
         "S P14 IE › Area of Effect › AoE Duration": "15 s",
+        "S P14 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P14 IE › Damage › Damage Element": "Gas",
         "S P14 IE › Damage › Inner Radius": "0 Gas",
         "S P14 IE › Damage › Inner Durable": "0 Gas",
@@ -17432,7 +17731,7 @@
             "pellets": null,
             "massG": 400,
             "initialVelocityMps": 1050,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -17487,7 +17786,7 @@
             "pellets": null,
             "massG": 400,
             "initialVelocityMps": 1050,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -17522,7 +17821,7 @@
         "S P16 › Projectile › Size": "23 mm",
         "S P16 › Projectile › Mass": "400 g",
         "S P16 › Projectile › Initial Velocity": "1050 m/s",
-        "S P16 › Projectile › Drag Factor": "30%",
+        "S P16 › Projectile › Drag Coefficient": "30%",
         "S P16 › Projectile › Gravity Factor": "100%",
         "S P16 › Projectile › Penetration Slowdown": "25%",
         "S P16 › Projectile › Explosion On Impact": "S_P16_IE",
@@ -17538,6 +17837,7 @@
         "S P16 IE › Area of Effect › Inner Radius": "1.5 m",
         "S P16 IE › Area of Effect › Outer Radius": "4.5 m",
         "S P16 IE › Area of Effect › Shockwave Radius": "6.5 m",
+        "S P16 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P16 IE › Damage › Damage Element": "None",
         "S P16 IE › Damage › Inner Radius": "350 Explosion",
         "S P16 IE › Damage › Inner Durable": "350 Explosion",
@@ -17552,7 +17852,7 @@
         "S P17 › Projectile › Size": "23 mm",
         "S P17 › Projectile › Mass": "400 g",
         "S P17 › Projectile › Initial Velocity": "1050 m/s",
-        "S P17 › Projectile › Drag Factor": "30%",
+        "S P17 › Projectile › Drag Coefficient": "30%",
         "S P17 › Projectile › Gravity Factor": "100%",
         "S P17 › Projectile › Penetration Slowdown": "25%",
         "S P17 › Damage › Standard": "350 Ballistic",
@@ -17916,7 +18216,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -18022,7 +18322,7 @@
         "S P20 › Projectile › Size": "84 mm",
         "S P20 › Projectile › Mass": "5 kg",
         "S P20 › Projectile › Initial Velocity": "400 m/s",
-        "S P20 › Projectile › Drag Factor": "0%",
+        "S P20 › Projectile › Drag Coefficient": "0%",
         "S P20 › Projectile › Gravity Factor": "100%",
         "S P20 › Projectile › Penetration Slowdown": "25%",
         "S P20 › Projectile › Explosion On Impact": "S_P20_IE",
@@ -18038,6 +18338,7 @@
         "S P20 IE › Area of Effect › Inner Radius": "3.29999995 m",
         "S P20 IE › Area of Effect › Outer Radius": "10 m",
         "S P20 IE › Area of Effect › Shockwave Radius": "11 m",
+        "S P20 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P20 IE › Damage › Damage Element": "None",
         "S P20 IE › Damage › Inner Radius": "350 Explosion",
         "S P20 IE › Damage › Inner Durable": "350 Explosion",
@@ -18191,7 +18492,7 @@
             "pellets": null,
             "massG": 30000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -18251,7 +18552,7 @@
         "S P13 › Projectile › Size": "406 mm",
         "S P13 › Projectile › Mass": "30 kg",
         "S P13 › Projectile › Initial Velocity": "400 m/s",
-        "S P13 › Projectile › Drag Factor": "0%",
+        "S P13 › Projectile › Drag Coefficient": "0%",
         "S P13 › Projectile › Gravity Factor": "100%",
         "S P13 › Projectile › Penetration Slowdown": "25%",
         "S P13 › Projectile › Explosion On Impact": "S_P13_IE",
@@ -18267,6 +18568,7 @@
         "S P13 IE › Area of Effect › Inner Radius": "4 m",
         "S P13 IE › Area of Effect › Outer Radius": "12 m",
         "S P13 IE › Area of Effect › Shockwave Radius": "18 m",
+        "S P13 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P13 IE › Damage › Damage Element": "None",
         "S P13 IE › Damage › Inner Radius": "1500 Explosion",
         "S P13 IE › Damage › Inner Durable": "1500 Explosion",
@@ -18383,7 +18685,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 14000,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 0
           },
@@ -18442,7 +18744,7 @@
         "S P26 › Projectile › Size": "100 mm",
         "S P26 › Projectile › Mass": "5 kg",
         "S P26 › Projectile › Initial Velocity": "14000 m/s",
-        "S P26 › Projectile › Drag Factor": "0%",
+        "S P26 › Projectile › Drag Coefficient": "0%",
         "S P26 › Projectile › Gravity Factor": "100%",
         "S P26 › Projectile › Penetration Slowdown": "0%",
         "S P26 › Projectile › Explode After": "S_P26_E",
@@ -18458,6 +18760,7 @@
         "S P26 E › Area of Effect › Inner Radius": "2.5 m",
         "S P26 E › Area of Effect › Outer Radius": "2.5 m",
         "S P26 E › Area of Effect › Shockwave Radius": "10 m",
+        "S P26 E › Area of Effect › Damage Falloff Type": "Slow",
         "S P26 E › Damage › Damage Element": "None",
         "S P26 E › Damage › Inner Radius": "1000 Explosion",
         "S P26 E › Damage › Inner Durable": "1000 Explosion",
@@ -18573,7 +18876,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -18633,7 +18936,7 @@
         "S P24 › Projectile › Size": "84 mm",
         "S P24 › Projectile › Mass": "5 kg",
         "S P24 › Projectile › Initial Velocity": "400 m/s",
-        "S P24 › Projectile › Drag Factor": "0%",
+        "S P24 › Projectile › Drag Coefficient": "0%",
         "S P24 › Projectile › Gravity Factor": "100%",
         "S P24 › Projectile › Penetration Slowdown": "25%",
         "S P24 › Projectile › Explosion On Impact": "S_P5_IE",
@@ -18649,7 +18952,8 @@
         "S P5 IE › Area of Effect › Inner Radius": "12 m",
         "S P5 IE › Area of Effect › Outer Radius": "12 m",
         "S P5 IE › Area of Effect › Shockwave Radius": "0 m",
-        "S P5 IE › Area of Effect › AoE Duration": "30 s"
+        "S P5 IE › Area of Effect › AoE Duration": "30 s",
+        "S P5 IE › Area of Effect › Damage Falloff Type": "Quick"
       },
       "source": {
         "type": "requisition",
@@ -18777,7 +19081,7 @@
             "pellets": null,
             "massG": 30000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -18837,7 +19141,7 @@
         "S P22 › Projectile › Size": "406 mm",
         "S P22 › Projectile › Mass": "30 kg",
         "S P22 › Projectile › Initial Velocity": "400 m/s",
-        "S P22 › Projectile › Drag Factor": "0%",
+        "S P22 › Projectile › Drag Coefficient": "0%",
         "S P22 › Projectile › Gravity Factor": "100%",
         "S P22 › Projectile › Penetration Slowdown": "25%",
         "S P22 › Projectile › Explosion On Impact": "S_P22_IE",
@@ -18853,6 +19157,7 @@
         "S P22 IE › Area of Effect › Inner Radius": "4 m",
         "S P22 IE › Area of Effect › Outer Radius": "12 m",
         "S P22 IE › Area of Effect › Shockwave Radius": "18 m",
+        "S P22 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P22 IE › Damage › Damage Element": "None",
         "S P22 IE › Damage › Inner Radius": "1500 Explosion",
         "S P22 IE › Damage › Inner Durable": "1500 Explosion",
@@ -18920,6 +19225,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -18979,7 +19292,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 250,
-            "dragFactorPct": 10,
+            "dragFactorPct": null,
             "gravityFactorPct": 200,
             "penetrationSlowdownPct": 35
           },
@@ -19034,7 +19347,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 250,
-            "dragFactorPct": 10,
+            "dragFactorPct": null,
             "gravityFactorPct": 200,
             "penetrationSlowdownPct": 35
           },
@@ -19119,6 +19432,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "PLAS-45 EPOCH › Fire Rate": "600 rpm",
         "PLAS-45 EPOCH › Drift Recoil": "↔[20.00] ↕[45.00]",
         "PLAS-45 EPOCH › Climb Recoil": "↔[15.00] ↕[65.00]",
@@ -19145,7 +19460,7 @@
         "P3 › Projectile › Size": "20 mm",
         "P3 › Projectile › Mass": "100 g",
         "P3 › Projectile › Initial Velocity": "250 m/s",
-        "P3 › Projectile › Drag Factor": "10%",
+        "P3 › Projectile › Drag Coefficient": "10%",
         "P3 › Projectile › Gravity Factor": "200%",
         "P3 › Projectile › Lifetime": "0.600000024 sec",
         "P3 › Projectile › Penetration Slowdown": "35%",
@@ -19164,6 +19479,7 @@
         "P3 IE › Area of Effect › Inner Radius": "3 m",
         "P3 IE › Area of Effect › Outer Radius": "4 m",
         "P3 IE › Area of Effect › Shockwave Radius": "5 m",
+        "P3 IE › Area of Effect › Damage Falloff Type": "Quick",
         "P3 IE › Damage › Damage Element": "None",
         "P3 IE › Damage › Inner Radius": "800 Explosion",
         "P3 IE › Damage › Inner Durable": "800 Explosion",
@@ -19178,7 +19494,7 @@
         "PLAS-45 P › Projectile › Size": "20 mm",
         "PLAS-45 P › Projectile › Mass": "100 g",
         "PLAS-45 P › Projectile › Initial Velocity": "250 m/s",
-        "PLAS-45 P › Projectile › Drag Factor": "10%",
+        "PLAS-45 P › Projectile › Drag Coefficient": "10%",
         "PLAS-45 P › Projectile › Gravity Factor": "200%",
         "PLAS-45 P › Projectile › Lifetime": "0.600000024 sec",
         "PLAS-45 P › Projectile › Penetration Slowdown": "35%",
@@ -19197,6 +19513,7 @@
         "PLAS-45 P IE › Area of Effect › Inner Radius": "2.29999995 m",
         "PLAS-45 P IE › Area of Effect › Outer Radius": "3 m",
         "PLAS-45 P IE › Area of Effect › Shockwave Radius": "4 m",
+        "PLAS-45 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "PLAS-45 P IE › Damage › Damage Element": "None",
         "PLAS-45 P IE › Damage › Inner Radius": "500 Explosion",
         "PLAS-45 P IE › Damage › Inner Durable": "500 Explosion",
@@ -19211,6 +19528,7 @@
         "PLAS-45 EPOCH Overcharge E › Area of Effect › Inner Radius": "3 m",
         "PLAS-45 EPOCH Overcharge E › Area of Effect › Outer Radius": "4 m",
         "PLAS-45 EPOCH Overcharge E › Area of Effect › Shockwave Radius": "5 m",
+        "PLAS-45 EPOCH Overcharge E › Area of Effect › Damage Falloff Type": "Quick",
         "PLAS-45 EPOCH Overcharge E › Damage › Damage Element": "None",
         "PLAS-45 EPOCH Overcharge E › Damage › Inner Radius": "800 Explosion",
         "PLAS-45 EPOCH Overcharge E › Damage › Inner Durable": "800 Explosion",
@@ -19597,6 +19915,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -19677,7 +20003,7 @@
             "pellets": null,
             "massG": 3300,
             "initialVelocityMps": 250,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -19732,7 +20058,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 25,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 400,
             "penetrationSlowdownPct": 25
           },
@@ -19787,7 +20113,7 @@
             "pellets": null,
             "massG": 3300,
             "initialVelocityMps": 250,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -19842,7 +20168,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 25,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 400,
             "penetrationSlowdownPct": 25
           },
@@ -19875,6 +20201,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "RL-77 AIRBURST ROCKET LAUNCHER › Fire Rate": "600 rpm",
         "RL-77 AIRBURST ROCKET LAUNCHER › Drift Recoil": "↔[40.00] ↕[40.00]",
         "RL-77 AIRBURST ROCKET LAUNCHER › Climb Recoil": "↔[50.00] ↕[180.00]",
@@ -19898,6 +20226,7 @@
         "GR-8 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
         "GR-8 BACKBLAST E › Area of Effect › Outer Radius": "8 m",
         "GR-8 BACKBLAST E › Area of Effect › Shockwave Radius": "9 m",
+        "GR-8 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
         "GR-8 BACKBLAST E › Damage › Damage Element": "None",
         "GR-8 BACKBLAST E › Damage › Inner Radius": "20 Explosion",
         "GR-8 BACKBLAST E › Damage › Inner Durable": "20 Explosion",
@@ -19912,7 +20241,7 @@
         "RL-77 P › Projectile › Size": "85 mm",
         "RL-77 P › Projectile › Mass": "3.3 kg",
         "RL-77 P › Projectile › Initial Velocity": "250 m/s",
-        "RL-77 P › Projectile › Drag Factor": "30%",
+        "RL-77 P › Projectile › Drag Coefficient": "30%",
         "RL-77 P › Projectile › Gravity Factor": "100%",
         "RL-77 P › Projectile › Lifetime": "1.5 sec",
         "RL-77 P › Projectile › Penetration Slowdown": "25%",
@@ -19932,6 +20261,7 @@
         "RL-77 P IE › Area of Effect › Inner Radius": "3 m",
         "RL-77 P IE › Area of Effect › Outer Radius": "5 m",
         "RL-77 P IE › Area of Effect › Shockwave Radius": "7 m",
+        "RL-77 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "RL-77 P IE › Area of Effect › Shrapnel Count": "25",
         "RL-77 P IE › Area of Effect › Shrapnel": "RL-77_P1",
         "RL-77 P IE › Damage › Damage Element": "None",
@@ -19948,7 +20278,7 @@
         "RL-77 P1 › Projectile › Size": "40 mm",
         "RL-77 P1 › Projectile › Mass": "100 g",
         "RL-77 P1 › Projectile › Initial Velocity": "25 m/s",
-        "RL-77 P1 › Projectile › Drag Factor": "50%",
+        "RL-77 P1 › Projectile › Drag Coefficient": "50%",
         "RL-77 P1 › Projectile › Gravity Factor": "400%",
         "RL-77 P1 › Projectile › Lifetime": "0.800000012 sec",
         "RL-77 P1 › Projectile › Penetration Slowdown": "25%",
@@ -19967,6 +20297,7 @@
         "RL-77 P1 IE › Area of Effect › Inner Radius": "4 m",
         "RL-77 P1 IE › Area of Effect › Outer Radius": "6 m",
         "RL-77 P1 IE › Area of Effect › Shockwave Radius": "8 m",
+        "RL-77 P1 IE › Area of Effect › Damage Falloff Type": "Slow",
         "RL-77 P1 IE › Damage › Damage Element": "None",
         "RL-77 P1 IE › Damage › Inner Radius": "500 Explosion",
         "RL-77 P1 IE › Damage › Inner Durable": "500 Explosion",
@@ -19981,7 +20312,7 @@
         "RL-77 P2 › Projectile › Size": "85 mm",
         "RL-77 P2 › Projectile › Mass": "3.3 kg",
         "RL-77 P2 › Projectile › Initial Velocity": "250 m/s",
-        "RL-77 P2 › Projectile › Drag Factor": "30%",
+        "RL-77 P2 › Projectile › Drag Coefficient": "30%",
         "RL-77 P2 › Projectile › Gravity Factor": "100%",
         "RL-77 P2 › Projectile › Lifetime": "0.25 sec",
         "RL-77 P2 › Projectile › Penetration Slowdown": "25%",
@@ -20000,6 +20331,7 @@
         "RL-77 P2 IE › Area of Effect › Inner Radius": "3 m",
         "RL-77 P2 IE › Area of Effect › Outer Radius": "5 m",
         "RL-77 P2 IE › Area of Effect › Shockwave Radius": "7 m",
+        "RL-77 P2 IE › Area of Effect › Damage Falloff Type": "Quick",
         "RL-77 P2 IE › Area of Effect › Shrapnel Count": "25",
         "RL-77 P2 IE › Area of Effect › Shrapnel": "RL-77_P3",
         "RL-77 P2 IE › Damage › Damage Element": "None",
@@ -20016,7 +20348,7 @@
         "RL-77 P3 › Projectile › Size": "40 mm",
         "RL-77 P3 › Projectile › Mass": "100 g",
         "RL-77 P3 › Projectile › Initial Velocity": "25 m/s",
-        "RL-77 P3 › Projectile › Drag Factor": "50%",
+        "RL-77 P3 › Projectile › Drag Coefficient": "50%",
         "RL-77 P3 › Projectile › Gravity Factor": "400%",
         "RL-77 P3 › Projectile › Penetration Slowdown": "25%",
         "RL-77 P3 › Projectile › Explosion On Impact": "RL-77_P1_IE",
@@ -20153,7 +20485,7 @@
             "pellets": null,
             "massG": 50,
             "initialVelocityMps": 2000,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 0
           },
@@ -20259,7 +20591,7 @@
         "RS-422 P › Projectile › Size": "10 mm",
         "RS-422 P › Projectile › Mass": "50 g",
         "RS-422 P › Projectile › Initial Velocity": "2000 m/s",
-        "RS-422 P › Projectile › Drag Factor": "30%",
+        "RS-422 P › Projectile › Drag Coefficient": "30%",
         "RS-422 P › Projectile › Gravity Factor": "100%",
         "RS-422 P › Projectile › Lifetime": "5 sec",
         "RS-422 P › Projectile › Penetration Slowdown": "0%",
@@ -20275,6 +20607,7 @@
         "RS-422 RAILGUN Overcharge E › Area of Effect › Inner Radius": "0.400000006 m",
         "RS-422 RAILGUN Overcharge E › Area of Effect › Outer Radius": "2 m",
         "RS-422 RAILGUN Overcharge E › Area of Effect › Shockwave Radius": "3 m",
+        "RS-422 RAILGUN Overcharge E › Area of Effect › Damage Falloff Type": "Quick",
         "RS-422 RAILGUN Overcharge E › Damage › Damage Element": "None",
         "RS-422 RAILGUN Overcharge E › Damage › Inner Radius": "300 Explosion",
         "RS-422 RAILGUN Overcharge E › Damage › Inner Durable": "300 Explosion",
@@ -20350,6 +20683,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -20409,7 +20750,7 @@
             "pellets": null,
             "massG": 100,
             "initialVelocityMps": 300,
-            "dragFactorPct": 400,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 0
           },
@@ -20508,6 +20849,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "S-11 SPEARGUN › Fire Rate": "60 rpm",
         "S-11 SPEARGUN › Drift Recoil": "↔[10.00] ↕[25.00]",
         "S-11 SPEARGUN › Climb Recoil": "↔[3.00] ↕[25.00]",
@@ -20527,7 +20870,7 @@
         "S-11 P › Projectile › Size": "10 mm",
         "S-11 P › Projectile › Mass": "100 g",
         "S-11 P › Projectile › Initial Velocity": "300 m/s",
-        "S-11 P › Projectile › Drag Factor": "400%",
+        "S-11 P › Projectile › Drag Coefficient": "400%",
         "S-11 P › Projectile › Gravity Factor": "100%",
         "S-11 P › Projectile › Lifetime": "1.70000005 sec",
         "S-11 P › Projectile › Penetration Slowdown": "0%",
@@ -20562,6 +20905,7 @@
         "S-11 P E › Area of Effect › Outer Radius": "5 m",
         "S-11 P E › Area of Effect › Shockwave Radius": "7 m",
         "S-11 P E › Area of Effect › AoE Duration": "10 s",
+        "S-11 P E › Area of Effect › Damage Falloff Type": "Quick",
         "S-11 P E › Damage › Damage Element": "Gas",
         "S-11 P E › Damage › Inner Radius": "3 Gas",
         "S-11 P E › Damage › Inner Durable": "3 Gas",
@@ -20652,7 +20996,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 1000,
             "penetrationSlowdownPct": 25
           },
@@ -20707,7 +21051,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 1000,
             "penetrationSlowdownPct": 25
           },
@@ -20806,7 +21150,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 1000,
             "penetrationSlowdownPct": 25
           },
@@ -20861,7 +21205,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 1000,
             "penetrationSlowdownPct": 25
           },
@@ -20938,7 +21282,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 1000,
             "penetrationSlowdownPct": 25
           },
@@ -20993,7 +21337,7 @@
             "pellets": null,
             "massG": 70000,
             "initialVelocityMps": 300,
-            "dragFactorPct": 50,
+            "dragFactorPct": null,
             "gravityFactorPct": 1000,
             "penetrationSlowdownPct": 25
           },
@@ -21057,7 +21401,7 @@
         "S P10 › Projectile › Size": "360 mm",
         "S P10 › Projectile › Mass": "70 kg",
         "S P10 › Projectile › Initial Velocity": "300 m/s",
-        "S P10 › Projectile › Drag Factor": "50%",
+        "S P10 › Projectile › Drag Coefficient": "50%",
         "S P10 › Projectile › Gravity Factor": "1000%",
         "S P10 › Projectile › Penetration Slowdown": "25%",
         "S P10 › Projectile › Explosion On Impact": "S_P10_IE",
@@ -21073,6 +21417,7 @@
         "S P10 IE › Area of Effect › Inner Radius": "17 m",
         "S P10 IE › Area of Effect › Outer Radius": "25 m",
         "S P10 IE › Area of Effect › Shockwave Radius": "45 m",
+        "S P10 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P10 IE › Damage › Damage Element": "None",
         "S P10 IE › Damage › Inner Radius": "10000 Explosion",
         "S P10 IE › Damage › Inner Durable": "10000 Explosion",
@@ -21087,7 +21432,7 @@
         "S P11 › Projectile › Size": "360 mm",
         "S P11 › Projectile › Mass": "70 kg",
         "S P11 › Projectile › Initial Velocity": "300 m/s",
-        "S P11 › Projectile › Drag Factor": "50%",
+        "S P11 › Projectile › Drag Coefficient": "50%",
         "S P11 › Projectile › Gravity Factor": "1000%",
         "S P11 › Projectile › Penetration Slowdown": "25%",
         "S P11 › Projectile › Explosion On Impact": "S_P11_IE",
@@ -21103,6 +21448,7 @@
         "S P11 IE › Area of Effect › Inner Radius": "1.60000002 m",
         "S P11 IE › Area of Effect › Outer Radius": "13 m",
         "S P11 IE › Area of Effect › Shockwave Radius": "20 m",
+        "S P11 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P11 IE › Damage › Damage Element": "None",
         "S P11 IE › Damage › Inner Radius": "250 Explosion",
         "S P11 IE › Damage › Inner Durable": "250 Explosion",
@@ -21143,7 +21489,7 @@
         "S P12 › Projectile › Size": "360 mm",
         "S P12 › Projectile › Mass": "70 kg",
         "S P12 › Projectile › Initial Velocity": "300 m/s",
-        "S P12 › Projectile › Drag Factor": "50%",
+        "S P12 › Projectile › Drag Coefficient": "50%",
         "S P12 › Projectile › Gravity Factor": "1000%",
         "S P12 › Projectile › Penetration Slowdown": "25%",
         "S P12 › Projectile › Explosion On Impact": "S_P12_IE",
@@ -21160,10 +21506,11 @@
         "S P12 IE › Area of Effect › Outer Radius": "13 m",
         "S P12 IE › Area of Effect › Shockwave Radius": "0 m",
         "S P12 IE › Area of Effect › AoE Duration": "30 s",
+        "S P12 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P7 › Projectile › Size": "360 mm",
         "S P7 › Projectile › Mass": "70 kg",
         "S P7 › Projectile › Initial Velocity": "300 m/s",
-        "S P7 › Projectile › Drag Factor": "50%",
+        "S P7 › Projectile › Drag Coefficient": "50%",
         "S P7 › Projectile › Gravity Factor": "1000%",
         "S P7 › Projectile › Penetration Slowdown": "25%",
         "S P7 › Projectile › Explosion On Impact": "S_P7_IE",
@@ -21180,6 +21527,7 @@
         "S P7 IE › Area of Effect › Outer Radius": "13 m",
         "S P7 IE › Area of Effect › Shockwave Radius": "20 m",
         "S P7 IE › Area of Effect › AoE Duration": "15 s",
+        "S P7 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P7 IE › Damage › Damage Element": "None",
         "S P7 IE › Damage › Inner Radius": "0 Explosion",
         "S P7 IE › Damage › Inner Durable": "0 Explosion",
@@ -21195,7 +21543,7 @@
         "S P8 › Projectile › Size": "360 mm",
         "S P8 › Projectile › Mass": "70 kg",
         "S P8 › Projectile › Initial Velocity": "300 m/s",
-        "S P8 › Projectile › Drag Factor": "50%",
+        "S P8 › Projectile › Drag Coefficient": "50%",
         "S P8 › Projectile › Gravity Factor": "1000%",
         "S P8 › Projectile › Penetration Slowdown": "25%",
         "S P8 › Projectile › Explosion On Impact": "S_P8_IE",
@@ -21211,6 +21559,7 @@
         "S P8 IE › Area of Effect › Inner Radius": "4 m",
         "S P8 IE › Area of Effect › Outer Radius": "12 m",
         "S P8 IE › Area of Effect › Shockwave Radius": "18 m",
+        "S P8 IE › Area of Effect › Damage Falloff Type": "Slow",
         "S P8 IE › Damage › Damage Element": "None",
         "S P8 IE › Damage › Inner Radius": "1500 Explosion",
         "S P8 IE › Damage › Inner Durable": "1500 Explosion",
@@ -21225,7 +21574,7 @@
         "S P9 › Projectile › Size": "360 mm",
         "S P9 › Projectile › Mass": "70 kg",
         "S P9 › Projectile › Initial Velocity": "300 m/s",
-        "S P9 › Projectile › Drag Factor": "50%",
+        "S P9 › Projectile › Drag Coefficient": "50%",
         "S P9 › Projectile › Gravity Factor": "1000%",
         "S P9 › Projectile › Penetration Slowdown": "25%",
         "S P9 › Projectile › Explosion On Impact": "S_P9_IE",
@@ -21241,6 +21590,7 @@
         "S P9 IE › Area of Effect › Inner Radius": "6.69999981 m",
         "S P9 IE › Area of Effect › Outer Radius": "20 m",
         "S P9 IE › Area of Effect › Shockwave Radius": "30 m",
+        "S P9 IE › Area of Effect › Damage Falloff Type": "Quick",
         "S P9 IE › Damage › Damage Element": "None",
         "S P9 IE › Damage › Inner Radius": "1500 Explosion",
         "S P9 IE › Damage › Inner Durable": "1500 Explosion",
@@ -21802,6 +22152,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -21856,7 +22214,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 500,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 0,
             "penetrationSlowdownPct": 25
           },
@@ -21911,7 +22269,7 @@
             "pellets": null,
             "massG": 11,
             "initialVelocityMps": 500,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 0,
             "penetrationSlowdownPct": 25
           },
@@ -21973,6 +22331,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "STA-X3 W.A.S.P. LAUNCHER › Fire Rate": "500 rpm",
         "STA-X3 W.A.S.P. LAUNCHER › Drift Recoil": "↔[2.50] ↕[10.00]",
         "STA-X3 W.A.S.P. LAUNCHER › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -21992,7 +22352,7 @@
         "StA-X3 P › Projectile › Size": "1 mm",
         "StA-X3 P › Projectile › Mass": "11 g",
         "StA-X3 P › Projectile › Initial Velocity": "500 m/s",
-        "StA-X3 P › Projectile › Drag Factor": "0%",
+        "StA-X3 P › Projectile › Drag Coefficient": "0%",
         "StA-X3 P › Projectile › Gravity Factor": "0%",
         "StA-X3 P › Projectile › Penetration Slowdown": "25%",
         "StA-X3 P › Projectile › Explosion On Impact": "StA-X3_P_IE",
@@ -22008,6 +22368,7 @@
         "StA-X3 P IE › Area of Effect › Inner Radius": "2.5 m",
         "StA-X3 P IE › Area of Effect › Outer Radius": "5 m",
         "StA-X3 P IE › Area of Effect › Shockwave Radius": "7 m",
+        "StA-X3 P IE › Area of Effect › Damage Falloff Type": "Quick",
         "StA-X3 P IE › Damage › Damage Element": "None",
         "StA-X3 P IE › Damage › Inner Radius": "600 Explosion",
         "StA-X3 P IE › Damage › Inner Durable": "600 Explosion",
@@ -22022,7 +22383,7 @@
         "StA-X3 P1 › Projectile › Size": "1 mm",
         "StA-X3 P1 › Projectile › Mass": "11 g",
         "StA-X3 P1 › Projectile › Initial Velocity": "500 m/s",
-        "StA-X3 P1 › Projectile › Drag Factor": "0%",
+        "StA-X3 P1 › Projectile › Drag Coefficient": "0%",
         "StA-X3 P1 › Projectile › Gravity Factor": "0%",
         "StA-X3 P1 › Projectile › Penetration Slowdown": "25%",
         "StA-X3 P1 › Projectile › Explosion On Impact": "StA-X3_P1_IE",
@@ -22040,6 +22401,7 @@
         "StA-X3 P1 IE › Area of Effect › Inner Radius": "3 m",
         "StA-X3 P1 IE › Area of Effect › Outer Radius": "5 m",
         "StA-X3 P1 IE › Area of Effect › Shockwave Radius": "7 m",
+        "StA-X3 P1 IE › Area of Effect › Damage Falloff Type": "Quick",
         "StA-X3 P1 IE › Area of Effect › Shrapnel Count": "7",
         "StA-X3 P1 IE › Area of Effect › Shrapnel": "StA-X3_P",
         "StA-X3 P1 IE › Damage › Damage Element": "None",
@@ -22263,7 +22625,7 @@
             "pellets": null,
             "massG": 52,
             "initialVelocityMps": 980,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -22345,7 +22707,7 @@
         "P11 › Projectile › Size": "12.5 mm",
         "P11 › Projectile › Mass": "52 g",
         "P11 › Projectile › Initial Velocity": "980 m/s",
-        "P11 › Projectile › Drag Factor": "30%",
+        "P11 › Projectile › Drag Coefficient": "30%",
         "P11 › Projectile › Gravity Factor": "100%",
         "P11 › Projectile › Penetration Slowdown": "25%",
         "P11 › Damage › Standard": "150 Ballistic",
@@ -22360,6 +22722,7 @@
         "SWP MAELSTROMIII E › Area of Effect › Inner Radius": "3 m",
         "SWP MAELSTROMIII E › Area of Effect › Outer Radius": "5 m",
         "SWP MAELSTROMIII E › Area of Effect › Shockwave Radius": "10 m",
+        "SWP MAELSTROMIII E › Area of Effect › Damage Falloff Type": "Quick",
         "SWP MAELSTROMIII E › Damage › Damage Element": "None",
         "SWP MAELSTROMIII E › Damage › Inner Radius": "2000 Explosion",
         "SWP MAELSTROMIII E › Damage › Inner Durable": "2000 Explosion",
@@ -22461,7 +22824,7 @@
             "pellets": null,
             "massG": 5000,
             "initialVelocityMps": 400,
-            "dragFactorPct": 0,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -22516,7 +22879,7 @@
             "pellets": null,
             "massG": 52,
             "initialVelocityMps": 980,
-            "dragFactorPct": 30,
+            "dragFactorPct": null,
             "gravityFactorPct": 100,
             "penetrationSlowdownPct": 25
           },
@@ -22571,7 +22934,7 @@
         "P10 › Projectile › Size": "84 mm",
         "P10 › Projectile › Mass": "5 kg",
         "P10 › Projectile › Initial Velocity": "400 m/s",
-        "P10 › Projectile › Drag Factor": "0%",
+        "P10 › Projectile › Drag Coefficient": "0%",
         "P10 › Projectile › Gravity Factor": "100%",
         "P10 › Projectile › Penetration Slowdown": "25%",
         "P10 › Projectile › Explosion On Impact": "P10_IE",
@@ -22587,6 +22950,7 @@
         "P10 IE › Area of Effect › Inner Radius": "3.29999995 m",
         "P10 IE › Area of Effect › Outer Radius": "10 m",
         "P10 IE › Area of Effect › Shockwave Radius": "11 m",
+        "P10 IE › Area of Effect › Damage Falloff Type": "Slow",
         "P10 IE › Damage › Damage Element": "None",
         "P10 IE › Damage › Inner Radius": "750 Explosion",
         "P10 IE › Damage › Inner Durable": "750 Explosion",
@@ -22601,7 +22965,7 @@
         "MG-206 P › Projectile › Size": "12.5 mm",
         "MG-206 P › Projectile › Mass": "52 g",
         "MG-206 P › Projectile › Initial Velocity": "980 m/s",
-        "MG-206 P › Projectile › Drag Factor": "30%",
+        "MG-206 P › Projectile › Drag Coefficient": "30%",
         "MG-206 P › Projectile › Gravity Factor": "100%",
         "MG-206 P › Projectile › Penetration Slowdown": "25%",
         "MG-206 P › Damage › Standard": "150 Ballistic",
@@ -22729,6 +23093,14 @@
         {
           "label": "With Morale Augmentation",
           "seconds": 456
+        },
+        {
+          "label": "With Streamlined Request Process",
+          "seconds": 432
+        },
+        {
+          "label": "With All Upgrades",
+          "seconds": 410.4
         }
       ],
       "callInTimeS": 7.75,
@@ -22856,6 +23228,8 @@
         "General › Uses": "Unlimited",
         "General › Cooldown › Standard": "480 seconds",
         "General › Cooldown › With Morale Augmentation": "456 seconds",
+        "General › Cooldown › With Streamlined Request Process": "432 seconds",
+        "General › Cooldown › With All Upgrades": "410.4 seconds",
         "TX-41 STERILIZER › Drift Recoil": "↔[0.00] ↕[0.00]",
         "TX-41 STERILIZER › Climb Recoil": "↔[0.00] ↕[5.00]",
         "TX-41 STERILIZER › Spread": "↔[10.00] ↕[10.00]",

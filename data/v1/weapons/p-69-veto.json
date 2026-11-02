@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -85,7 +85,7 @@
           "pellets": null,
           "massG": 7,
           "initialVelocityMps": 375,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 30,
           "penetrationSlowdownPct": 25
         },
@@ -131,7 +131,7 @@
       "P-69 P › Projectile › Size": "12 mm",
       "P-69 P › Projectile › Mass": "7 g",
       "P-69 P › Projectile › Initial Velocity": "375 m/s",
-      "P-69 P › Projectile › Drag Factor": "0%",
+      "P-69 P › Projectile › Drag Coefficient": "0%",
       "P-69 P › Projectile › Gravity Factor": "30%",
       "P-69 P › Projectile › Penetration Slowdown": "25%",
       "P-69 P › Damage › Standard": "105 Ballistic",

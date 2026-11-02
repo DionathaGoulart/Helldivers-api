@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -85,7 +85,7 @@
           "pellets": null,
           "massG": 25,
           "initialVelocityMps": 550,
-          "dragFactorPct": 150,
+          "dragFactorPct": null,
           "gravityFactorPct": 50,
           "penetrationSlowdownPct": 35
         },
@@ -157,7 +157,7 @@
       "PLAS-1 P › Projectile › Size": "20 mm",
       "PLAS-1 P › Projectile › Mass": "25 g",
       "PLAS-1 P › Projectile › Initial Velocity": "550 m/s",
-      "PLAS-1 P › Projectile › Drag Factor": "150%",
+      "PLAS-1 P › Projectile › Drag Coefficient": "150%",
       "PLAS-1 P › Projectile › Gravity Factor": "50%",
       "PLAS-1 P › Projectile › Penetration Slowdown": "35%",
       "PLAS-1 P › Projectile › Explosion On Impact": "PLAS-1_P_IE",
@@ -173,6 +173,7 @@
       "PLAS-1 P IE › Area of Effect › Inner Radius": "1 m",
       "PLAS-1 P IE › Area of Effect › Outer Radius": "2 m",
       "PLAS-1 P IE › Area of Effect › Shockwave Radius": "2 m",
+      "PLAS-1 P IE › Area of Effect › Damage Falloff Type": "Quick",
       "PLAS-1 P IE › Damage › Damage Element": "None",
       "PLAS-1 P IE › Damage › Inner Radius": "100 Explosion",
       "PLAS-1 P IE › Damage › Inner Durable": "100 Explosion",

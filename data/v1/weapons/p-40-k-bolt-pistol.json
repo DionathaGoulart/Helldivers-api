@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -85,7 +85,7 @@
           "pellets": null,
           "massG": 100,
           "initialVelocityMps": 350,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 30,
           "penetrationSlowdownPct": 25
         },
@@ -157,7 +157,7 @@
       "P/40-K P › Projectile › Size": "15 mm",
       "P/40-K P › Projectile › Mass": "100 g",
       "P/40-K P › Projectile › Initial Velocity": "350 m/s",
-      "P/40-K P › Projectile › Drag Factor": "0%",
+      "P/40-K P › Projectile › Drag Coefficient": "0%",
       "P/40-K P › Projectile › Gravity Factor": "30%",
       "P/40-K P › Projectile › Lifetime": "0.600000024 sec",
       "P/40-K P › Projectile › Penetration Slowdown": "25%",
@@ -174,6 +174,7 @@
       "P/40-K P IE › Area of Effect › Inner Radius": "1 m",
       "P/40-K P IE › Area of Effect › Outer Radius": "3.5 m",
       "P/40-K P IE › Area of Effect › Shockwave Radius": "5 m",
+      "P/40-K P IE › Area of Effect › Damage Falloff Type": "Quick",
       "P/40-K P IE › Damage › Damage Element": "None",
       "P/40-K P IE › Damage › Inner Radius": "175 Explosion",
       "P/40-K P IE › Damage › Inner Durable": "175 Explosion",

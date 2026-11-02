@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,6 +49,14 @@
       {
         "label": "With Morale Augmentation",
         "seconds": 456
+      },
+      {
+        "label": "With Streamlined Request Process",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
       }
     ],
     "callInTimeS": 7.75,
@@ -108,7 +116,7 @@
           "pellets": null,
           "massG": 50,
           "initialVelocityMps": 100,
-          "dragFactorPct": 120,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -167,6 +175,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Streamlined Request Process": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
       "GL-21 GRENADE LAUNCHER › Fire Rate": "160 rpm",
       "GL-21 GRENADE LAUNCHER › Drift Recoil": "↔[170.00] ↕[175.00]",
       "GL-21 GRENADE LAUNCHER › Climb Recoil": "↔[60.00] ↕[90.00]",
@@ -184,7 +194,7 @@
       "GL-21 P › Projectile › Size": "40 mm",
       "GL-21 P › Projectile › Mass": "50 g",
       "GL-21 P › Projectile › Initial Velocity": "100 m/s",
-      "GL-21 P › Projectile › Drag Factor": "120%",
+      "GL-21 P › Projectile › Drag Coefficient": "120%",
       "GL-21 P › Projectile › Gravity Factor": "100%",
       "GL-21 P › Projectile › Penetration Slowdown": "25%",
       "GL-21 P › Projectile › Explosion On Impact": "GL-21_P_IE",
@@ -202,6 +212,7 @@
       "GL-21 P IE › Area of Effect › Inner Radius": "3.5 m",
       "GL-21 P IE › Area of Effect › Outer Radius": "7.5 m",
       "GL-21 P IE › Area of Effect › Shockwave Radius": "8 m",
+      "GL-21 P IE › Area of Effect › Damage Falloff Type": "Quick",
       "GL-21 P IE › Damage › Damage Element": "None",
       "GL-21 P IE › Damage › Inner Radius": "400 Explosion",
       "GL-21 P IE › Damage › Inner Durable": "400 Explosion",

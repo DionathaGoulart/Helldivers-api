@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,6 +50,14 @@
       {
         "label": "With Morale Augmentation",
         "seconds": 133
+      },
+      {
+        "label": "With Streamlined Request Process",
+        "seconds": 126
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 119.7
       }
     ],
     "callInTimeS": 7.75,
@@ -120,7 +128,7 @@
           "pellets": null,
           "massG": 2500,
           "initialVelocityMps": 200,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 85
         },
@@ -197,7 +205,7 @@
           "pellets": null,
           "massG": 3000,
           "initialVelocityMps": 15,
-          "dragFactorPct": 1500,
+          "dragFactorPct": null,
           "gravityFactorPct": 400,
           "penetrationSlowdownPct": 25
         },
@@ -272,6 +280,8 @@
       "General › Uses": "unlimited",
       "General › Cooldown › Standard": "140 seconds",
       "General › Cooldown › With Morale Augmentation": "133 seconds",
+      "General › Cooldown › With Streamlined Request Process": "126 seconds",
+      "General › Cooldown › With All Upgrades": "119.7 seconds",
       "EAT-700 EXPENDABLE NAPALM › Fire Rate": "600 rpm",
       "EAT-700 EXPENDABLE NAPALM › Drift Recoil": "↔[2.50] ↕[10.00]",
       "EAT-700 EXPENDABLE NAPALM › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -290,6 +300,7 @@
       "EAT-17 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
       "EAT-17 BACKBLAST E › Area of Effect › Outer Radius": "6 m",
       "EAT-17 BACKBLAST E › Area of Effect › Shockwave Radius": "7 m",
+      "EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
       "EAT-17 BACKBLAST E › Damage › Damage Element": "None",
       "EAT-17 BACKBLAST E › Damage › Inner Radius": "15 Explosion",
       "EAT-17 BACKBLAST E › Damage › Inner Durable": "15 Explosion",
@@ -304,7 +315,7 @@
       "EAT-700 P › Projectile › Size": "75 mm",
       "EAT-700 P › Projectile › Mass": "2.5 kg",
       "EAT-700 P › Projectile › Initial Velocity": "200 m/s",
-      "EAT-700 P › Projectile › Drag Factor": "0%",
+      "EAT-700 P › Projectile › Drag Coefficient": "0%",
       "EAT-700 P › Projectile › Gravity Factor": "100%",
       "EAT-700 P › Projectile › Penetration Slowdown": "85%",
       "EAT-700 P › Projectile › Explosion On Impact": "EAT-700_P_IE",
@@ -333,6 +344,7 @@
       "EAT-700 P IE › Area of Effect › Inner Radius": "1.60000002 m",
       "EAT-700 P IE › Area of Effect › Outer Radius": "8 m",
       "EAT-700 P IE › Area of Effect › Shockwave Radius": "10 m",
+      "EAT-700 P IE › Area of Effect › Damage Falloff Type": "Quick",
       "EAT-700 P IE › Area of Effect › Shrapnel Count": "20",
       "EAT-700 P IE › Area of Effect › Shrapnel": "EAT-700_P1",
       "EAT-700 P IE › Damage › Damage Element": "None",
@@ -353,7 +365,7 @@
       "EAT-700 P1 › Projectile › Size": "85 mm",
       "EAT-700 P1 › Projectile › Mass": "3 kg",
       "EAT-700 P1 › Projectile › Initial Velocity": "15 m/s",
-      "EAT-700 P1 › Projectile › Drag Factor": "1500%",
+      "EAT-700 P1 › Projectile › Drag Coefficient": "1500%",
       "EAT-700 P1 › Projectile › Gravity Factor": "400%",
       "EAT-700 P1 › Projectile › Lifetime": "7 sec",
       "EAT-700 P1 › Projectile › Penetration Slowdown": "25%",
@@ -371,6 +383,7 @@
       "EAT-700 P1 IE › Area of Effect › Inner Radius": "1.60000002 m",
       "EAT-700 P1 IE › Area of Effect › Outer Radius": "5 m",
       "EAT-700 P1 IE › Area of Effect › Shockwave Radius": "5 m",
+      "EAT-700 P1 IE › Area of Effect › Damage Falloff Type": "Quick",
       "EAT-700 P1 IE › Damage › Damage Element": "None",
       "EAT-700 P1 IE › Damage › Inner Radius": "50 Explosion",
       "EAT-700 P1 IE › Damage › Inner Durable": "50 Explosion",

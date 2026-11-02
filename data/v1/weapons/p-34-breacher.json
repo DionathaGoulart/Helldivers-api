@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -82,7 +82,7 @@
           "pellets": null,
           "massG": 10,
           "initialVelocityMps": 150,
-          "dragFactorPct": 200,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 0
         },
@@ -197,7 +197,7 @@
       "P-34 P › Projectile › Size": "1 mm",
       "P-34 P › Projectile › Mass": "10 g",
       "P-34 P › Projectile › Initial Velocity": "150 m/s",
-      "P-34 P › Projectile › Drag Factor": "200%",
+      "P-34 P › Projectile › Drag Coefficient": "200%",
       "P-34 P › Projectile › Gravity Factor": "100%",
       "P-34 P › Projectile › Lifetime": "1.70000005 sec",
       "P-34 P › Projectile › Penetration Slowdown": "0%",
@@ -215,6 +215,7 @@
       "P-34 BREACHER E › Area of Effect › Inner Radius": "1.5 m",
       "P-34 BREACHER E › Area of Effect › Outer Radius": "2.5 m",
       "P-34 BREACHER E › Area of Effect › Shockwave Radius": "4 m",
+      "P-34 BREACHER E › Area of Effect › Damage Falloff Type": "Quick",
       "P-34 BREACHER E › Damage › Damage Element": "None",
       "P-34 BREACHER E › Damage › Inner Radius": "2000 Explosion",
       "P-34 BREACHER E › Damage › Inner Durable": "2000 Explosion",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -80,7 +80,7 @@
           "pellets": null,
           "massG": 500,
           "initialVelocityMps": 20,
-          "dragFactorPct": 50,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -149,7 +149,7 @@
       "GP-20 P › Projectile › Size": "80 mm",
       "GP-20 P › Projectile › Mass": "500 g",
       "GP-20 P › Projectile › Initial Velocity": "20 m/s",
-      "GP-20 P › Projectile › Drag Factor": "50%",
+      "GP-20 P › Projectile › Drag Coefficient": "50%",
       "GP-20 P › Projectile › Gravity Factor": "100%",
       "GP-20 P › Projectile › Penetration Slowdown": "25%",
       "GP-20 P › Projectile › Explosion On Impact": "GP-20_P_IE",
@@ -165,6 +165,7 @@
       "GP-20 P IE › Area of Effect › Inner Radius": "2 m",
       "GP-20 P IE › Area of Effect › Outer Radius": "12 m",
       "GP-20 P IE › Area of Effect › Shockwave Radius": "25 m",
+      "GP-20 P IE › Area of Effect › Damage Falloff Type": "Slow",
       "GP-20 P IE › Damage › Damage Element": "None",
       "GP-20 P IE › Damage › Inner Radius": "2000 Explosion",
       "GP-20 P IE › Damage › Inner Durable": "2000 Explosion",

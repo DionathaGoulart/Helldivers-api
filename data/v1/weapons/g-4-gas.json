@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -133,6 +133,7 @@
       "G-4 GAS E › Area of Effect › Outer Radius": "7 m",
       "G-4 GAS E › Area of Effect › Shockwave Radius": "7 m",
       "G-4 GAS E › Area of Effect › AoE Duration": "15 s",
+      "G-4 GAS E › Area of Effect › Damage Falloff Type": "Quick",
       "G-4 GAS E › Damage › Damage Element": "Gas",
       "G-4 GAS E › Damage › Inner Radius": "3 Gas",
       "G-4 GAS E › Damage › Inner Durable": "3 Gas",

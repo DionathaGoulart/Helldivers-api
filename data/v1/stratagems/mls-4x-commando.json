@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -49,6 +49,14 @@
       {
         "label": "With Morale Augmentation",
         "seconds": 114
+      },
+      {
+        "label": "With Streamlined Request Process",
+        "seconds": 108
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 102.6
       }
     ],
     "callInTimeS": 7.75,
@@ -119,7 +127,7 @@
           "pellets": null,
           "massG": 350,
           "initialVelocityMps": 70,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 0,
           "penetrationSlowdownPct": 25
         },
@@ -174,6 +182,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "120 seconds",
       "General › Cooldown › With Morale Augmentation": "114 seconds",
+      "General › Cooldown › With Streamlined Request Process": "108 seconds",
+      "General › Cooldown › With All Upgrades": "102.6 seconds",
       "MLS-4X COMMANDO › Fire Rate": "240 rpm",
       "MLS-4X COMMANDO › Drift Recoil": "↔[2.50] ↕[10.00]",
       "MLS-4X COMMANDO › Climb Recoil": "↔[2.50] ↕[10.00]",
@@ -189,6 +199,7 @@
       "MLS-4X BACKBLAST E › Area of Effect › Inner Radius": "1 m",
       "MLS-4X BACKBLAST E › Area of Effect › Outer Radius": "2 m",
       "MLS-4X BACKBLAST E › Area of Effect › Shockwave Radius": "3 m",
+      "MLS-4X BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
       "MLS-4X BACKBLAST E › Damage › Damage Element": "None",
       "MLS-4X BACKBLAST E › Damage › Inner Radius": "5 Explosion",
       "MLS-4X BACKBLAST E › Damage › Inner Durable": "5 Explosion",
@@ -203,7 +214,7 @@
       "MLS-4X P › Projectile › Size": "66 mm",
       "MLS-4X P › Projectile › Mass": "350 g",
       "MLS-4X P › Projectile › Initial Velocity": "70 m/s",
-      "MLS-4X P › Projectile › Drag Factor": "0%",
+      "MLS-4X P › Projectile › Drag Coefficient": "0%",
       "MLS-4X P › Projectile › Gravity Factor": "0%",
       "MLS-4X P › Projectile › Lifetime": "15 sec",
       "MLS-4X P › Projectile › Penetration Slowdown": "25%",
@@ -220,6 +231,7 @@
       "MLS-4X P IE › Area of Effect › Inner Radius": "1 m",
       "MLS-4X P IE › Area of Effect › Outer Radius": "2 m",
       "MLS-4X P IE › Area of Effect › Shockwave Radius": "4 m",
+      "MLS-4X P IE › Area of Effect › Damage Falloff Type": "Quick",
       "MLS-4X P IE › Damage › Damage Element": "None",
       "MLS-4X P IE › Damage › Inner Radius": "150 Explosion",
       "MLS-4X P IE › Damage › Inner Durable": "150 Explosion",

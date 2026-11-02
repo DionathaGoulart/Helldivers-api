@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -83,7 +83,7 @@
           "pellets": null,
           "massG": 100,
           "initialVelocityMps": 90,
-          "dragFactorPct": 400,
+          "dragFactorPct": null,
           "gravityFactorPct": 300,
           "penetrationSlowdownPct": 35
         },
@@ -155,7 +155,7 @@
       "SG-8P P › Projectile › Size": "20 mm",
       "SG-8P P › Projectile › Mass": "100 g",
       "SG-8P P › Projectile › Initial Velocity": "90 m/s",
-      "SG-8P P › Projectile › Drag Factor": "400%",
+      "SG-8P P › Projectile › Drag Coefficient": "400%",
       "SG-8P P › Projectile › Gravity Factor": "300%",
       "SG-8P P › Projectile › Penetration Slowdown": "35%",
       "SG-8P P › Projectile › Explosion On Impact": "SG-8P_P_IE",
@@ -173,6 +173,7 @@
       "SG-8P P IE › Area of Effect › Inner Radius": "2.29999995 m",
       "SG-8P P IE › Area of Effect › Outer Radius": "3 m",
       "SG-8P P IE › Area of Effect › Shockwave Radius": "4 m",
+      "SG-8P P IE › Area of Effect › Damage Falloff Type": "Quick",
       "SG-8P P IE › Damage › Damage Element": "None",
       "SG-8P P IE › Damage › Inner Radius": "225 Explosion",
       "SG-8P P IE › Damage › Inner Durable": "225 Explosion",

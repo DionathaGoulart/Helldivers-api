@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -87,7 +87,7 @@
           "pellets": null,
           "massG": 15,
           "initialVelocityMps": 1,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 0,
           "penetrationSlowdownPct": 25
         },
@@ -142,7 +142,7 @@
           "pellets": null,
           "massG": 15,
           "initialVelocityMps": 1,
-          "dragFactorPct": 0,
+          "dragFactorPct": null,
           "gravityFactorPct": 0,
           "penetrationSlowdownPct": 25
         },
@@ -188,7 +188,7 @@
       "P-33 P › Projectile › Size": "12 mm",
       "P-33 P › Projectile › Mass": "15 g",
       "P-33 P › Projectile › Initial Velocity": "1 m/s",
-      "P-33 P › Projectile › Drag Factor": "0%",
+      "P-33 P › Projectile › Drag Coefficient": "0%",
       "P-33 P › Projectile › Gravity Factor": "0%",
       "P-33 P › Projectile › Lifetime": "3 sec",
       "P-33 P › Projectile › Penetration Slowdown": "25%",
@@ -206,6 +206,7 @@
       "P-33 P IE › Area of Effect › Inner Radius": "2 m",
       "P-33 P IE › Area of Effect › Outer Radius": "4 m",
       "P-33 P IE › Area of Effect › Shockwave Radius": "12 m",
+      "P-33 P IE › Area of Effect › Damage Falloff Type": "Quick",
       "P-33 P IE › Damage › Damage Element": "None",
       "P-33 P IE › Damage › Inner Radius": "300 Explosion",
       "P-33 P IE › Damage › Inner Durable": "300 Explosion",
@@ -220,7 +221,7 @@
       "P-33 P1 › Projectile › Size": "12 mm",
       "P-33 P1 › Projectile › Mass": "15 g",
       "P-33 P1 › Projectile › Initial Velocity": "1 m/s",
-      "P-33 P1 › Projectile › Drag Factor": "0%",
+      "P-33 P1 › Projectile › Drag Coefficient": "0%",
       "P-33 P1 › Projectile › Gravity Factor": "0%",
       "P-33 P1 › Projectile › Lifetime": "3 sec",
       "P-33 P1 › Projectile › Penetration Slowdown": "25%",

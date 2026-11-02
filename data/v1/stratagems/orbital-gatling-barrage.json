@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -116,7 +116,7 @@
           "pellets": null,
           "massG": 400,
           "initialVelocityMps": 1050,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -171,7 +171,7 @@
           "pellets": null,
           "massG": 400,
           "initialVelocityMps": 1050,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -206,7 +206,7 @@
       "S P16 › Projectile › Size": "23 mm",
       "S P16 › Projectile › Mass": "400 g",
       "S P16 › Projectile › Initial Velocity": "1050 m/s",
-      "S P16 › Projectile › Drag Factor": "30%",
+      "S P16 › Projectile › Drag Coefficient": "30%",
       "S P16 › Projectile › Gravity Factor": "100%",
       "S P16 › Projectile › Penetration Slowdown": "25%",
       "S P16 › Projectile › Explosion On Impact": "S_P16_IE",
@@ -222,6 +222,7 @@
       "S P16 IE › Area of Effect › Inner Radius": "1.5 m",
       "S P16 IE › Area of Effect › Outer Radius": "4.5 m",
       "S P16 IE › Area of Effect › Shockwave Radius": "6.5 m",
+      "S P16 IE › Area of Effect › Damage Falloff Type": "Slow",
       "S P16 IE › Damage › Damage Element": "None",
       "S P16 IE › Damage › Inner Radius": "350 Explosion",
       "S P16 IE › Damage › Inner Durable": "350 Explosion",
@@ -236,7 +237,7 @@
       "S P17 › Projectile › Size": "23 mm",
       "S P17 › Projectile › Mass": "400 g",
       "S P17 › Projectile › Initial Velocity": "1050 m/s",
-      "S P17 › Projectile › Drag Factor": "30%",
+      "S P17 › Projectile › Drag Coefficient": "30%",
       "S P17 › Projectile › Gravity Factor": "100%",
       "S P17 › Projectile › Penetration Slowdown": "25%",
       "S P17 › Damage › Standard": "350 Ballistic",

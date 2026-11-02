@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -50,6 +50,14 @@
       {
         "label": "With Morale Augmentation",
         "seconds": 456
+      },
+      {
+        "label": "With Streamlined Request Process",
+        "seconds": 432
+      },
+      {
+        "label": "With All Upgrades",
+        "seconds": 410.4
       }
     ],
     "callInTimeS": 7.75,
@@ -130,7 +138,7 @@
           "pellets": null,
           "massG": 3300,
           "initialVelocityMps": 250,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -185,7 +193,7 @@
           "pellets": null,
           "massG": 100,
           "initialVelocityMps": 25,
-          "dragFactorPct": 50,
+          "dragFactorPct": null,
           "gravityFactorPct": 400,
           "penetrationSlowdownPct": 25
         },
@@ -240,7 +248,7 @@
           "pellets": null,
           "massG": 3300,
           "initialVelocityMps": 250,
-          "dragFactorPct": 30,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -295,7 +303,7 @@
           "pellets": null,
           "massG": 100,
           "initialVelocityMps": 25,
-          "dragFactorPct": 50,
+          "dragFactorPct": null,
           "gravityFactorPct": 400,
           "penetrationSlowdownPct": 25
         },
@@ -328,6 +336,8 @@
       "General › Uses": "Unlimited",
       "General › Cooldown › Standard": "480 seconds",
       "General › Cooldown › With Morale Augmentation": "456 seconds",
+      "General › Cooldown › With Streamlined Request Process": "432 seconds",
+      "General › Cooldown › With All Upgrades": "410.4 seconds",
       "RL-77 AIRBURST ROCKET LAUNCHER › Fire Rate": "600 rpm",
       "RL-77 AIRBURST ROCKET LAUNCHER › Drift Recoil": "↔[40.00] ↕[40.00]",
       "RL-77 AIRBURST ROCKET LAUNCHER › Climb Recoil": "↔[50.00] ↕[180.00]",
@@ -351,6 +361,7 @@
       "GR-8 BACKBLAST E › Area of Effect › Inner Radius": "1 m",
       "GR-8 BACKBLAST E › Area of Effect › Outer Radius": "8 m",
       "GR-8 BACKBLAST E › Area of Effect › Shockwave Radius": "9 m",
+      "GR-8 BACKBLAST E › Area of Effect › Damage Falloff Type": "Quick",
       "GR-8 BACKBLAST E › Damage › Damage Element": "None",
       "GR-8 BACKBLAST E › Damage › Inner Radius": "20 Explosion",
       "GR-8 BACKBLAST E › Damage › Inner Durable": "20 Explosion",
@@ -365,7 +376,7 @@
       "RL-77 P › Projectile › Size": "85 mm",
       "RL-77 P › Projectile › Mass": "3.3 kg",
       "RL-77 P › Projectile › Initial Velocity": "250 m/s",
-      "RL-77 P › Projectile › Drag Factor": "30%",
+      "RL-77 P › Projectile › Drag Coefficient": "30%",
       "RL-77 P › Projectile › Gravity Factor": "100%",
       "RL-77 P › Projectile › Lifetime": "1.5 sec",
       "RL-77 P › Projectile › Penetration Slowdown": "25%",
@@ -385,6 +396,7 @@
       "RL-77 P IE › Area of Effect › Inner Radius": "3 m",
       "RL-77 P IE › Area of Effect › Outer Radius": "5 m",
       "RL-77 P IE › Area of Effect › Shockwave Radius": "7 m",
+      "RL-77 P IE › Area of Effect › Damage Falloff Type": "Quick",
       "RL-77 P IE › Area of Effect › Shrapnel Count": "25",
       "RL-77 P IE › Area of Effect › Shrapnel": "RL-77_P1",
       "RL-77 P IE › Damage › Damage Element": "None",
@@ -401,7 +413,7 @@
       "RL-77 P1 › Projectile › Size": "40 mm",
       "RL-77 P1 › Projectile › Mass": "100 g",
       "RL-77 P1 › Projectile › Initial Velocity": "25 m/s",
-      "RL-77 P1 › Projectile › Drag Factor": "50%",
+      "RL-77 P1 › Projectile › Drag Coefficient": "50%",
       "RL-77 P1 › Projectile › Gravity Factor": "400%",
       "RL-77 P1 › Projectile › Lifetime": "0.800000012 sec",
       "RL-77 P1 › Projectile › Penetration Slowdown": "25%",
@@ -420,6 +432,7 @@
       "RL-77 P1 IE › Area of Effect › Inner Radius": "4 m",
       "RL-77 P1 IE › Area of Effect › Outer Radius": "6 m",
       "RL-77 P1 IE › Area of Effect › Shockwave Radius": "8 m",
+      "RL-77 P1 IE › Area of Effect › Damage Falloff Type": "Slow",
       "RL-77 P1 IE › Damage › Damage Element": "None",
       "RL-77 P1 IE › Damage › Inner Radius": "500 Explosion",
       "RL-77 P1 IE › Damage › Inner Durable": "500 Explosion",
@@ -434,7 +447,7 @@
       "RL-77 P2 › Projectile › Size": "85 mm",
       "RL-77 P2 › Projectile › Mass": "3.3 kg",
       "RL-77 P2 › Projectile › Initial Velocity": "250 m/s",
-      "RL-77 P2 › Projectile › Drag Factor": "30%",
+      "RL-77 P2 › Projectile › Drag Coefficient": "30%",
       "RL-77 P2 › Projectile › Gravity Factor": "100%",
       "RL-77 P2 › Projectile › Lifetime": "0.25 sec",
       "RL-77 P2 › Projectile › Penetration Slowdown": "25%",
@@ -453,6 +466,7 @@
       "RL-77 P2 IE › Area of Effect › Inner Radius": "3 m",
       "RL-77 P2 IE › Area of Effect › Outer Radius": "5 m",
       "RL-77 P2 IE › Area of Effect › Shockwave Radius": "7 m",
+      "RL-77 P2 IE › Area of Effect › Damage Falloff Type": "Quick",
       "RL-77 P2 IE › Area of Effect › Shrapnel Count": "25",
       "RL-77 P2 IE › Area of Effect › Shrapnel": "RL-77_P3",
       "RL-77 P2 IE › Damage › Damage Element": "None",
@@ -469,7 +483,7 @@
       "RL-77 P3 › Projectile › Size": "40 mm",
       "RL-77 P3 › Projectile › Mass": "100 g",
       "RL-77 P3 › Projectile › Initial Velocity": "25 m/s",
-      "RL-77 P3 › Projectile › Drag Factor": "50%",
+      "RL-77 P3 › Projectile › Drag Coefficient": "50%",
       "RL-77 P3 › Projectile › Gravity Factor": "400%",
       "RL-77 P3 › Projectile › Penetration Slowdown": "25%",
       "RL-77 P3 › Projectile › Explosion On Impact": "RL-77_P1_IE",

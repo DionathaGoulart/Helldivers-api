@@ -1,15 +1,1897 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
-    "count": 40,
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
+    "count": 41,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-02.84aa0d5e",
+      "date": "2026-11-02",
+      "summary": {
+        "added": 0,
+        "changed": 169,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "ar-11-arbitrator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"AR-11 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P4 › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-11 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P4 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-2-coyote",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-2 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-2 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23a-liberator-carbine",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23c-liberator-concussive",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23C P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23C P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23l-liberator-legacy",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-23p-liberator-penetrator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23P P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23P P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-32-pacifier",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-32 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-32 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-59-suppressor",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-59 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-59 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-61-tenderizer",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-61 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-61 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ar-gl-21-one-two",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"AR/GL-21 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GP-31 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR/GL-21 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GP-31 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GP-31 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "br-14-adjudicator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"BR-14 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"BR-14 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "cb-9-exploding-crossbow",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"CB-9 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"CB-9 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"CB-9 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "dbs-2-double-freedom",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"DBS-2 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"DBS-2 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-10-incendiary",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-10 INCENDIARY E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-109-urchin",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-109 URCHIN E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-11-caltrops",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-11 CALTROPS E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-12-high-explosive",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-12 HIGH EXPLOSIVE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-123-thermite",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-123 THERMITE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-13-incendiary-impact",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-13 INCENDIARY IMPACT E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-142-pyrotech",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-142 PYROTECH E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-16-impact",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-16 IMPACT E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-23-stun",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-23 STUN E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-3-smoke",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-3 SMOKE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-31-arc",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-31 ARC E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-4-gas",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-4 GAS E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-40-k-melta-mine",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G/40-K MELTA MINE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-48-giga-grenade",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-48 GIGA GRENADE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-50-seeker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-50 SEEKER E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-6-frag",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"G-6 FRAG E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-60-anti-tank-seeker",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-60 ANTI-TANK SEEKER E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-7-pineapple",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"G-7 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"G-7 PINEAPPLE E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"G-7 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"G-7 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-8-immolation",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-8 IMMOLATION E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-89-smokescreen",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-89 SMOKESCREEN E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GL-15 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GL-15 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GL-15 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-20-ultimatum",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GP-20 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GP-20 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GP-20 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-31-grenade-pistol",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GP-31 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GP-31 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GP-31 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "jar-5-dominator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"JAR-5 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"JAR-5 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-12-sai",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"LAS-12 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-12 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-16-sickle",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"LAS-16 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-16 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-17-double-edge-sickle",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[1].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "attacks[3].projectile.dragFactorPct",
+            "statsRaw[\"LAS-16 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-17 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-17 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-17 P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-16 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"LAS-17 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"LAS-17 P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"LAS-17 P2 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-58-talon",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"LAS-58 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"LAS-58 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m6c-socom-pistol",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"M6C/SOCOM P › Projectile › Drag Factor\"]",
+            "statsRaw[\"M6C/SOCOM P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m7s-smg",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"M7S P › Projectile › Drag Factor\"]",
+            "statsRaw[\"M7S P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "m90a-shotgun",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"M90A P › Projectile › Drag Factor\"]",
+            "statsRaw[\"M90A P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ma5c-assault-rifle",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MA5C P › Projectile › Drag Factor\"]",
+            "statsRaw[\"MA5C P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "mp-98-knight",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MP-98 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"MP-98 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-11-stim-pistol",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-11 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-11 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-113-verdict",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-113 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-113 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-19-redeemer",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-19 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-19 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-2-peacemaker",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-2 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-2 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-33-missile-pistol",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"P-33 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-33 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-33 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P-33 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"P-33 P1 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-34-breacher",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-34 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-34 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P-34 BREACHER E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-35-re-educator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-35 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-35 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-4-senator",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-4 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-4 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-40-k-bolt-pistol",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P/40-K P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P/40-K P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P/40-K P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-44-mist",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-44 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-44 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-69-veto",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-69 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-69 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-92-warrant",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"P-92 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-92 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-92 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P-92 P1 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-1-scorcher",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"PLAS-1 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"PLAS-1 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"PLAS-1 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-101-purifier",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"P › Projectile › Drag Factor\"]",
+            "statsRaw[\"PLAS-101 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"PLAS-101 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"PLAS-101 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-15-loyalist",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P1 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"P2 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-39-accelerator-rifle",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"PLAS-39 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"PLAS-39 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"PLAS-39 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2-amendment",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-2 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-2 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-2124-constitution",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-2124 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-2124 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-36-eruptor",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"R-36 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-36 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"R-36 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-4-hyena",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-4 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-4 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-k-hot-shot-marksman-rifle",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R/40-K P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R/40-K P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-sightliner",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-40 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-40 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-6-deadeye",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-6 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-6 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63-diligence",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-63 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-63 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-63cs-diligence-counter-sniper",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-63CS P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-63CS P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-72-censor",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"R-72 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"R-72 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-20-halt",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"SG-20 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-20 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-20 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"SG-20 P1 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-22-bushwhacker",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-22 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-22 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225-breaker",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-225 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-225 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225ie-breaker-incendiary",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-225IE P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-225IE P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-225sp-breaker-spray-pray",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-225SP P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-225SP P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-451-cookout",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-451 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-451 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8-punisher",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-22 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-22 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-88-break-action-shotgun",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-88 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-88 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8p-punisher-plasma",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-8P P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-8P P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"SG-8P P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-8s-slugger",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-8S P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-8S P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sg-97-sweeper",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SG-97 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SG-97 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-203-gallant",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SMG-203 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SMG-203 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-32-reprimand",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SMG-32 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SMG-32 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-37-defender",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SMG-37 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SMG-37 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-72-pummeler",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SMG-72 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SMG-72 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "smg-flam-34-stoker",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"SMG/FLAM-34 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"SMG/FLAM-34 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-11-smg",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P-2 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P-2 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "sta-52-assault-rifle",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "ted-63-dynamite",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"TED-63 DYNAMITE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "tm-1-lure-mine",
+          "kind": "changed",
+          "paths": [
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"TM-1 LURE MINE E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "vg-70-variable",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"VG-70 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"VG-70 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "40-k-meltagun",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"40-K MELTAGUN B › Beam › Falloff Start Distance\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-ac-8-autocannon-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"A/AC-8 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"A/AC-8 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"A/AC-8 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-g-16-gatling-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MG-43 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"MG-43 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-gm-17-gas-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"A/GM-17 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"A/GM-17 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"A/GM-17 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-12-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"A/M-12 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"A/M-12 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"A/M-12 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-23-ems-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"A/M-23 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"A/M-23 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"A/M-23 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"A/M-23 P E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mg-43-machine-gun-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MG-43 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"MG-43 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mls-4x-rocket-sentry",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"A/MLS-4X P › Projectile › Drag Factor\"]",
+            "statsRaw[\"A/MLS-4X P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"A/MLS-4X P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ac-8-autocannon",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "attacks[4].projectile.dragFactorPct",
+            "statsRaw[\"AC-8 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AC-8 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"AC-8 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"AC-8 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"AC-8 P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"AC-8 P1 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"AC-8 P2 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "apw-1-anti-materiel-rifle",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"APW-1 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"APW-1 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "arc-3-arc-thrower",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ax-ar-23-guard-dog",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23P P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23P P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-flam-80-cremator",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "b-md-c4-pack",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"B/MD C4 PACK E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-1-one-true-flag",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-20-breaching-hammer",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"CQC-20 BREACHING HAMMER IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-9-defoliation-tool",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-at-12-anti-tank-emplacement",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"ET Cannon 75mm APHE › Projectile › Drag Factor\"]",
+            "statsRaw[\"ET Cannon 75mm APHE › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-gl-21-grenadier-battlement",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GL-21 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GL-21 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GL-21 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "e-mg-101-hmg-emplacement",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"Rifle 12.5x100mm Full Metal Jacket › Projectile › Drag Factor\"]",
+            "statsRaw[\"Rifle 12.5x100mm Full Metal Jacket › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-110mm-rocket-pods",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P1 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-500kg-bomb",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-airstrike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P2 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P2 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-cluster-bomb",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"S P4 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P13 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P4 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P4 E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"P13 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P13 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-fly-by",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-gas-airstrike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P6 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P6 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P6 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-napalm-airstrike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P3 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P3 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P3 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-smoke-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P5 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P5 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P5 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-strafing-run",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P5 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P5 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P5 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-17-expendable-anti-tank",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"EAT-17 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"EAT-17 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"EAT-17 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-411-leveller",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"EAT-411 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eat-700-expendable-napalm",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[1].projectile.dragFactorPct",
+            "attacks[4].projectile.dragFactorPct",
+            "statsRaw[\"EAT-700 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"EAT-700 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"EAT-17 BACKBLAST E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"EAT-700 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"EAT-700 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"EAT-700 P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"EAT-700 P1 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-45-patriot-exosuit",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"MG-43 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P6 › Projectile › Drag Factor\"]",
+            "statsRaw[\"MG-43 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P6 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P6 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"MLS-4X BACKBLAST E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-49-emancipator-exosuit",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P7 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P7 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P7 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-51-lumberer-exosuit",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P8 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P8 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P8 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "exo-55-breakthrough-exosuit",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P9 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P9 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "faf-14-spear",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"FAF-14 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"FAF-14 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"FAF-14 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "flam-40-flamethrower",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-21-grenade-launcher",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GL-21 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"GL-21 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GL-21 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-28-belt-fed-grenade-launcher",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GL-28 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"GL-28 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GL-28 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gl-52-de-escalator",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"GL-52 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"GL-52 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GL-52 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "gr-8-recoilless-rifle",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[1].projectile.dragFactorPct",
+            "attacks[3].projectile.dragFactorPct",
+            "statsRaw[\"GR-8 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"GR-8 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"GR-8 BACKBLAST E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"GR-8 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GR-8 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"GR-8 P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"GR-8 P1 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-98-laser-cannon",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-99-quasar-cannon",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"LAS-99 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"LAS-99 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"LAS-99 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-182-warp-pack",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LIFT-182 WARP PACK E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-1000-maxigun",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"M-1000 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"M-1000 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-103-supply-frv",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23P P › Projectile › Drag Factor\"]",
+            "statsRaw[\"AR-23P P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-105-stalwart",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"AR-23 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"AR-23 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-17-anti-tank-mines",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"ANTI-TANK MINES E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-6-anti-personnel-minefield",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"ANTI-PERSONNEL MINEFIELD E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-8-gas-mines",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GAS MINES E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-i4-incendiary-mines",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"INCENDIARY MINES E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mg-43-machine-gun",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"MG-43 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"MG-43 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "mls-4x-commando",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[1].projectile.dragFactorPct",
+            "statsRaw[\"MLS-4X P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"MLS-4X BACKBLAST E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"MLS-4X P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"MLS-4X P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ms-11-solo-silo",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"SOLO SILO E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"SOLO SILO EImpact › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-120mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P18 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P18 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P18 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-380mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P22 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P22 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P22 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-airburst-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"S P15 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P14 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P15 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P15 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"P14 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P14 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-confetti",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-ems-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P25 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P25 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P25 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gas-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P14 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P14 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P14 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gatling-barrage",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"S P16 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P17 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P16 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P16 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P17 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-napalm-barrage",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P20 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P20 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P20 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-precision-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P13 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P13 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P13 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-railcannon-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P26 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P26 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P26 E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-smoke-strike",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P24 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P24 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P5 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-walking-barrage",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S P22 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P22 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P22 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "plas-45-epoch",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"P3 › Projectile › Drag Factor\"]",
+            "statsRaw[\"PLAS-45 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"P3 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P3 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"PLAS-45 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"PLAS-45 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"PLAS-45 EPOCH Overcharge E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[1].projectile.dragFactorPct",
+            "attacks[3].projectile.dragFactorPct",
+            "attacks[5].projectile.dragFactorPct",
+            "attacks[7].projectile.dragFactorPct",
+            "statsRaw[\"RL-77 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"RL-77 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"RL-77 P2 › Projectile › Drag Factor\"]",
+            "statsRaw[\"RL-77 P3 › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"GR-8 BACKBLAST E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"RL-77 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"RL-77 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"RL-77 P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"RL-77 P1 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"RL-77 P2 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"RL-77 P2 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"RL-77 P3 › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rs-422-railgun",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"RS-422 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"RS-422 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"RS-422 RAILGUN Overcharge E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "s-11-speargun",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"S-11 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"S-11 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S-11 P E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seaf-artillery",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "attacks[6].projectile.dragFactorPct",
+            "attacks[8].projectile.dragFactorPct",
+            "attacks[11].projectile.dragFactorPct",
+            "attacks[13].projectile.dragFactorPct",
+            "statsRaw[\"S P10 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P11 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P12 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P7 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P8 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P9 › Projectile › Drag Factor\"]",
+            "statsRaw[\"S P10 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P10 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P11 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P11 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P12 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P12 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P7 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P7 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P8 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P8 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P9 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"S P9 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "sta-x3-wasp-launcher",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"StA-X3 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"StA-X3 P1 › Projectile › Drag Factor\"]",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]",
+            "statsRaw[\"StA-X3 P › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"StA-X3 P IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"StA-X3 P1 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"StA-X3 P1 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-110-maelstrom",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "statsRaw[\"P11 › Projectile › Drag Factor\"]",
+            "statsRaw[\"P11 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"SWP MAELSTROMIII E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-220-bastion-mk-xvi",
+          "kind": "changed",
+          "paths": [
+            "attacks[0].projectile.dragFactorPct",
+            "attacks[2].projectile.dragFactorPct",
+            "statsRaw[\"P10 › Projectile › Drag Factor\"]",
+            "statsRaw[\"MG-206 P › Projectile › Drag Factor\"]",
+            "statsRaw[\"P10 › Projectile › Drag Coefficient\"]",
+            "statsRaw[\"P10 IE › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"MG-206 P › Projectile › Drag Coefficient\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "tx-41-sterilizer",
+          "kind": "changed",
+          "paths": [
+            "cooldownVariants",
+            "statsRaw[\"General › Cooldown › With Streamlined Request Process\"]",
+            "statsRaw[\"General › Cooldown › With All Upgrades\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-01.00ab421b",
       "date": "2026-11-01",

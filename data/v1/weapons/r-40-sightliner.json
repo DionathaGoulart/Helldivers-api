@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -83,7 +83,7 @@
           "pellets": null,
           "massG": 11,
           "initialVelocityMps": 950,
-          "dragFactorPct": 20,
+          "dragFactorPct": null,
           "gravityFactorPct": 100,
           "penetrationSlowdownPct": 25
         },
@@ -128,7 +128,7 @@
       "R-40 P › Projectile › Size": "8 mm",
       "R-40 P › Projectile › Mass": "11 g",
       "R-40 P › Projectile › Initial Velocity": "950 m/s",
-      "R-40 P › Projectile › Drag Factor": "20%",
+      "R-40 P › Projectile › Drag Coefficient": "20%",
       "R-40 P › Projectile › Gravity Factor": "100%",
       "R-40 P › Projectile › Penetration Slowdown": "25%",
       "R-40 P › Damage › Standard": "350 Ballistic",

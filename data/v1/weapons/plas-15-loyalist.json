@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-01.00ab421b",
-    "generatedAt": "2026-11-01T00:03:26Z",
+    "dataVersion": "2026-11-02.84aa0d5e",
+    "generatedAt": "2026-11-02T00:38:10Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -231,6 +231,7 @@
       "P1 IE › Area of Effect › Inner Radius": "1 m",
       "P1 IE › Area of Effect › Outer Radius": "2 m",
       "P1 IE › Area of Effect › Shockwave Radius": "2 m",
+      "P1 IE › Area of Effect › Damage Falloff Type": "Quick",
       "P1 IE › Damage › Damage Element": "None",
       "P1 IE › Damage › Inner Radius": "75 Explosion",
       "P1 IE › Damage › Inner Durable": "75 Explosion",
@@ -261,6 +262,7 @@
       "P2 IE › Area of Effect › Inner Radius": "2.9000001 m",
       "P2 IE › Area of Effect › Outer Radius": "3 m",
       "P2 IE › Area of Effect › Shockwave Radius": "4 m",
+      "P2 IE › Area of Effect › Damage Falloff Type": "Quick",
       "P2 IE › Damage › Damage Element": "None",
       "P2 IE › Damage › Inner Radius": "225 Explosion",
       "P2 IE › Damage › Inner Durable": "225 Explosion",
