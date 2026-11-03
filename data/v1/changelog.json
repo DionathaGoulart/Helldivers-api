@@ -1,15 +1,51 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-02.84aa0d5e",
-    "generatedAt": "2026-11-02T00:38:10Z",
-    "count": 41,
+    "dataVersion": "2026-11-03.f13d6afd",
+    "generatedAt": "2026-11-03T02:54:10Z",
+    "count": 42,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-03.f13d6afd",
+      "date": "2026-11-03",
+      "summary": {
+        "added": 0,
+        "changed": 3,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "g-109-urchin",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-109 URCHIN E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-500kg-bomb",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P E › Area of Effect › Damage Falloff Type\"]",
+            "statsRaw[\"S P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-airstrike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P2 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-02.84aa0d5e",
       "date": "2026-11-02",
