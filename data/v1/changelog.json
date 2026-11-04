@@ -1,15 +1,118 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-03.f13d6afd",
-    "generatedAt": "2026-11-03T02:54:10Z",
-    "count": 42,
+    "dataVersion": "2026-11-04.78dd296a",
+    "generatedAt": "2026-11-04T01:16:05Z",
+    "count": 43,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-04.78dd296a",
+      "date": "2026-11-04",
+      "summary": {
+        "added": 0,
+        "changed": 11,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "warbonds",
+          "id": "scope-of-authority",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "g-11-caltrops",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.height"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "las-16-sickle",
+          "kind": "changed",
+          "paths": [
+            "description",
+            "statsRaw.Capacity"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "p-44-mist",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.height"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "r-40-sightliner",
+          "kind": "changed",
+          "paths": [
+            "image.url",
+            "image.height"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-20-breaching-hammer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"CQC-20 BREACHING HAMMER IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-17-anti-tank-mines",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"ANTI-TANK MINES E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "ms-11-solo-silo",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SOLO SILO EImpact › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-napalm-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P20 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "td-220-bastion-mk-xvi",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P10 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-03.f13d6afd",
       "date": "2026-11-03",

@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-03.f13d6afd",
-    "generatedAt": "2026-11-03T02:54:10Z",
+    "dataVersion": "2026-11-04.78dd296a",
+    "generatedAt": "2026-11-04T01:16:05Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "GL-15 Evictor",
     "upcoming": false,
     "aliases": [],
-    "description": "GL-15 Evictor is a Explosive primary weapon that fires high-damaging grenades that explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
+    "description": "GL-15 Evictor is an Explosive primary weapon that fires high-damaging grenades which explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
     "image": {
       "url": "/images/v1/weapons/gl-15-evictor.a291f417.webp",
       "width": 512,

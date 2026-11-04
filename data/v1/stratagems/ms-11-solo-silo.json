@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-03.f13d6afd",
-    "generatedAt": "2026-11-03T02:54:10Z",
+    "dataVersion": "2026-11-04.78dd296a",
+    "generatedAt": "2026-11-04T01:16:05Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -177,7 +177,7 @@
       "SOLO SILO EImpact › Area of Effect › Inner Radius": "3 m",
       "SOLO SILO EImpact › Area of Effect › Outer Radius": "6 m",
       "SOLO SILO EImpact › Area of Effect › Shockwave Radius": "6 m",
-      "SOLO SILO EImpact › Area of Effect › Damage Falloff Type": "Slow",
+      "SOLO SILO EImpact › Area of Effect › Damage Falloff Type": "Quick",
       "SOLO SILO EImpact › Damage › Damage Element": "None",
       "SOLO SILO EImpact › Damage › Inner Radius": "1500 Explosion",
       "SOLO SILO EImpact › Damage › Inner Durable": "1500 Explosion",

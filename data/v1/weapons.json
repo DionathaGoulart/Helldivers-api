@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-03.f13d6afd",
-    "generatedAt": "2026-11-03T02:54:10Z",
+    "dataVersion": "2026-11-04.78dd296a",
+    "generatedAt": "2026-11-04T01:16:05Z",
     "count": 109,
     "source": {
       "name": "The Helldivers Wiki",
@@ -837,7 +837,7 @@
       "aliases": [],
       "description": "The AR-23L Liberator Legacy is a Primary Assault Rifle, available for all Helldivers. It is heavily styled after the AR-19 Liberator starting rifle from Helldivers 1",
       "image": {
-        "url": "/images/v1/weapons/ar-23l-liberator-legacy.75026c8c.webp",
+        "url": "/images/v1/weapons/ar-23l-liberator-legacy.54dcb21e.webp",
         "width": 512,
         "height": 288,
         "wikiFile": "AR-23L_Liberator_Primary_Render.png"
@@ -3629,9 +3629,9 @@
       "aliases": [],
       "description": "The G-11 Caltrops is a Special Throwable that deploys a field of proximity stun mines.",
       "image": {
-        "url": "/images/v1/weapons/g-11-caltrops.fbcc95ee.webp",
+        "url": "/images/v1/weapons/g-11-caltrops.8a30936e.webp",
         "width": 512,
-        "height": 317,
+        "height": 512,
         "wikiFile": "G-11_Caltrops_Throwable_Render.png"
       },
       "wiki": {
@@ -6096,7 +6096,7 @@
       "name": "GL-15 Evictor",
       "upcoming": false,
       "aliases": [],
-      "description": "GL-15 Evictor is a Explosive primary weapon that fires high-damaging grenades that explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
+      "description": "GL-15 Evictor is an Explosive primary weapon that fires high-damaging grenades which explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
       "image": {
         "url": "/images/v1/weapons/gl-15-evictor.a291f417.webp",
         "width": 512,
@@ -7181,7 +7181,7 @@
       "name": "LAS-16 Sickle",
       "upcoming": false,
       "aliases": [],
-      "description": "The LAS-16 Sickle is a Primary Energy-Based weapon that operates like an Assault Rifle, shooting targets with a barrage of laser pulses.",
+      "description": "The LAS-16 Sickle is a Primary Energy-Based weapon that operates like an Assault Rifle, shooting targets with a barrage of laser bolts.",
       "image": {
         "url": "/images/v1/weapons/las-16-sickle.a96f3675.webp",
         "width": 512,
@@ -7272,7 +7272,7 @@
         "Armor Penetration": "Light",
         "Fire Rate": "750 rpm",
         "DPS": "750",
-        "Capacity": "8s (105)",
+        "Capacity": "8.4s (106)",
         "Spare Mags": "3",
         "Supply Box Refill": "3",
         "Ammo Box Refill": "1",
@@ -10445,9 +10445,9 @@
       "aliases": [],
       "description": "The P-44 Mist is a fully automatic Secondary Pistol.",
       "image": {
-        "url": "/images/v1/weapons/p-44-mist.c421216e.webp",
+        "url": "/images/v1/weapons/p-44-mist.63146adf.webp",
         "width": 512,
-        "height": 233,
+        "height": 288,
         "wikiFile": "P-44_Mist_Secondary_Render.png"
       },
       "wiki": {
@@ -13001,9 +13001,9 @@
       "aliases": [],
       "description": "The R-40 Sightliner is a Primary bolt-action Sniper Rifle.",
       "image": {
-        "url": "/images/v1/weapons/r-40-sightliner.f6f6e8af.webp",
+        "url": "/images/v1/weapons/r-40-sightliner.cbef789f.webp",
         "width": 512,
-        "height": 118,
+        "height": 288,
         "wikiFile": "R-40_Sightliner_Primary_Render.png"
       },
       "wiki": {
