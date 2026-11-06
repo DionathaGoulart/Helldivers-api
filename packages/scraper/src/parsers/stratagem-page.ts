@@ -7,7 +7,7 @@ import { type DruidRow, readDruid } from "../wiki/druid.ts";
 import { loadHtml, textOf } from "../wiki/html.ts";
 import { firstArticleLink } from "../wiki/links.ts";
 import { readCanonicalTitle, readCategories, readLead } from "../wiki/page.ts";
-import { readCodeArrows } from "../wiki/stratagem-code.ts";
+import { CODE_ARROW, readCodeArrows } from "../wiki/stratagem-code.ts";
 import { RawCost, RawImage, RawLink } from "./raw.ts";
 import { articleLinks, RawInfoboxRow, RawStatTable, rawText, readTables } from "./weapon-page.ts";
 
@@ -206,7 +206,7 @@ export function parseStratagemPage(
     expectedCode && expectedCode.length > 0
       ? (box) =>
           box
-            .find("span.Stratagemcodeicon img")
+            .find(CODE_ARROW)
             .toArray()
             .map((img) =>
               $(img)

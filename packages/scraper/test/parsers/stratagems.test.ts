@@ -84,6 +84,25 @@ describe("stratagems-index parser", async () => {
     expect(unknown.find((row) => row.name === "M-103 Supply FRV")?.code).toEqual([]);
   });
 
+  it("reads code arrows using the current wiki class", () => {
+    const $ = cheerio.load(index.html);
+    $("td")
+      .filter((_, td) => $(td).text().trim() === "M-103 Supply FRV")
+      .next()
+      .find("span.Stratagemcodeicon")
+      .attr("class", "stratcode");
+    const current = parseStratagemsIndex($.html(), { url: index.url });
+    expect(current.find((row) => row.name === "M-103 Supply FRV")?.code).toEqual([
+      "Left",
+      "Down",
+      "Left",
+      "Left",
+      "Down",
+      "Up",
+      "Right",
+    ]);
+  });
+
   it("fails loudly when the layout changes", () => {
     const parse = (html: string) => () => parseStratagemsIndex(html, { url: index.url });
     expect(parse(article("<p>gone</p>"))).toThrow("h3 Offensive Permit");
@@ -177,6 +196,22 @@ describe("stratagem-page parser", async () => {
     expect(mg43.image?.file).toBe("Machine_Gun_Stratagem_Icon_Background.svg");
   });
 
+  it.each(["stratcode", "Stratagemcodeicon stratcode"])(
+    "reads codes with class %s",
+    async (classes) => {
+      const cremator = await fixture("B/FLAM-80 Cremator");
+      const html = cremator.html.replaceAll("Stratagemcodeicon", classes);
+      expect(parseStratagemPage(html, { url: cremator.url }).code).toEqual([
+        "Down",
+        "Down",
+        "Right",
+        "Down",
+        "Up",
+        "Up",
+      ]);
+    },
+  );
+
   it("reads section rows and td labels of the General table", async () => {
     const sentry = await load("A/G-16 Gatling Sentry");
     expect(sentry.general.filter((row) => row.section === "Sentry")).toEqual([
@@ -216,6 +251,22 @@ describe("stratagem-page parser", async () => {
       .find(".druid-row-stratagem_code .druid-data")
       .append('<span class="Stratagemcodeicon"><img alt="Stratagem Arrow Down.svg"></span>');
     box.after(duplicate);
+
+    expect(parseStratagemPage($.html(), { url: page.url, expectedCode: ops.code }).code).toEqual(
+      ops.code,
+    );
+  });
+
+  it("selects a current-class infobox matching the index code", async () => {
+    const page = await fixture("Orbital Precision Strike");
+    const $ = cheerio.load(page.html);
+    const original = $("#mw-content-text .druid-infobox").first();
+    const box = original.clone().attr("id", "druid-container-2");
+    box.find(".Stratagemcodeicon").attr("class", "stratcode");
+    original
+      .find(".druid-row-stratagem_code .druid-data")
+      .append('<span class="Stratagemcodeicon"><img alt="Stratagem Arrow Down.svg"></span>');
+    original.after(box);
 
     expect(parseStratagemPage($.html(), { url: page.url, expectedCode: ops.code }).code).toEqual(
       ops.code,
