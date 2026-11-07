@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-06.0068e8e4",
-    "generatedAt": "2026-11-06T14:09:23Z",
+    "dataVersion": "2026-11-07.8bdee2c0",
+    "generatedAt": "2026-11-07T15:38:39Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "Super Earth Flag",
     "upcoming": false,
     "aliases": [],
-    "description": "The Super Earth Flag Stratagem is used to call down the Flag in the Spread Democracy, Free Colony, Seize Industrial Complex and Democratize the Void missions.",
+    "description": "The Super Earth Flag Stratagem is used to call down the Flag in the Spread Democracy, Free Colony, Seize Industrial Complex, and Democratize the Void missions.",
     "image": {
       "url": "/images/v1/stratagems/super-earth-flag.a7811b5e.webp",
       "width": 256,
