@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-07.8bdee2c0",
-    "generatedAt": "2026-11-07T15:38:39Z",
+    "dataVersion": "2026-11-08.08661b74",
+    "generatedAt": "2026-11-08T00:28:36Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -143,7 +143,7 @@
       "Spare Mags": "8 Magazines",
       "Supply Box Refill": "4",
       "Ammo Box Refill": "2",
-      "Ergonomics": "35",
+      "Ergonomics": "31",
       "Reload Time": "3.05s / 2.75s (Upgraded)",
       "Tactical Reload Time": "2.05s / 1.85s (Upgraded)",
       "Unlock Level": "1",

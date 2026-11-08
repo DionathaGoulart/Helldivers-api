@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-07.8bdee2c0",
-    "generatedAt": "2026-11-07T15:38:39Z",
+    "dataVersion": "2026-11-08.08661b74",
+    "generatedAt": "2026-11-08T00:28:36Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -140,7 +140,7 @@
       "DPS": "1,050 • 1,275 • 1,725",
       "Capacity": "250",
       "Spare Mags": "3 Magazines",
-      "Ergonomics": "40",
+      "Ergonomics": "35",
       "Reload Time": "5.9s / 5.33s (Upgraded)",
       "Tactical Reload Time": "4.4s / 4s (Upgraded)",
       "Unlock Level": "1",

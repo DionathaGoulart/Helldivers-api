@@ -1,15 +1,66 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-07.8bdee2c0",
-    "generatedAt": "2026-11-07T15:38:39Z",
-    "count": 45,
+    "dataVersion": "2026-11-08.08661b74",
+    "generatedAt": "2026-11-08T00:28:36Z",
+    "count": 46,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-08.08661b74",
+      "date": "2026-11-08",
+      "summary": {
+        "added": 0,
+        "changed": 5,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "amw-20-apex",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Ergonomics"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "apw-1-anti-materiel-rifle",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Ergonomics"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "cqc-20-breaching-hammer",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"CQC-20 BREACHING HAMMER IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Ergonomics"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-105-stalwart",
+          "kind": "changed",
+          "paths": [
+            "statsRaw.Ergonomics"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-07.8bdee2c0",
       "date": "2026-11-07",
