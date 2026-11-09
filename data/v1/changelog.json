@@ -1,15 +1,179 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-08.08661b74",
-    "generatedAt": "2026-11-08T00:28:36Z",
-    "count": 46,
+    "dataVersion": "2026-11-09.29c4d5b5",
+    "generatedAt": "2026-11-09T00:48:01Z",
+    "count": 47,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-09.29c4d5b5",
+      "date": "2026-11-09",
+      "summary": {
+        "added": 0,
+        "changed": 19,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "g-109-urchin",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"G-109 URCHIN E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "gp-20-ultimatum",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GP-20 P IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "tm-1-lure-mine",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"TM-1 LURE MINE E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-cluster-bomb",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P13 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "eagle-strafing-run",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P5 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "lift-182-warp-pack",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LIFT-182 WARP PACK E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-102-gunner-frv",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GUNNER FRV › Main Armor\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-103-supply-frv",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"SUPPLY FRV › Main Armor\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "m-104-incinerator-frv",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"INCINERATOR FRV › Main Armor\"]",
+            "statsRaw[\"Incinerator FRV Fuel Explosion › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "md-6-anti-personnel-minefield",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"ANTI-PERSONNEL MINEFIELD E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-120mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P18 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-380mm-he-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P22 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-airburst-strike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"P14 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-gatling-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P16 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-precision-strike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P13 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-railcannon-strike",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P26 E › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "orbital-walking-barrage",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P22 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "rl-77-airburst-rocket-launcher",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"RL-77 P1 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "seaf-artillery",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"S P8 IE › Area of Effect › Damage Falloff Type\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-08.08661b74",
       "date": "2026-11-08",

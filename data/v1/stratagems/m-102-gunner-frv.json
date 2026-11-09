@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-08.08661b74",
-    "generatedAt": "2026-11-08T00:28:36Z",
+    "dataVersion": "2026-11-09.29c4d5b5",
+    "generatedAt": "2026-11-09T00:48:01Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -108,7 +108,7 @@
       "GUNNER FRV › Cooldown": "480 s",
       "GUNNER FRV › Uses": "∞",
       "GUNNER FRV › Main Health": "2400",
-      "GUNNER FRV › Main Armor": "Unarmored",
+      "GUNNER FRV › Main Armor": "Medium",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Fire Rate": "600 rpm",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Drift Recoil": "↔[20.00] ↕[30.00]",
       "GUNNER FRV › SWP HEAVY MACHINE GUN › Climb Recoil": "↔[2.00] ↕[30.00]",

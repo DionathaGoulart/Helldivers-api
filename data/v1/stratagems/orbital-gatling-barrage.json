@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-08.08661b74",
-    "generatedAt": "2026-11-08T00:28:36Z",
+    "dataVersion": "2026-11-09.29c4d5b5",
+    "generatedAt": "2026-11-09T00:48:01Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -222,7 +222,7 @@
       "S P16 IE › Area of Effect › Inner Radius": "1.5 m",
       "S P16 IE › Area of Effect › Outer Radius": "4.5 m",
       "S P16 IE › Area of Effect › Shockwave Radius": "6.5 m",
-      "S P16 IE › Area of Effect › Damage Falloff Type": "Slow",
+      "S P16 IE › Area of Effect › Damage Falloff Type": "Quick",
       "S P16 IE › Damage › Damage Element": "None",
       "S P16 IE › Damage › Inner Radius": "350 Explosion",
       "S P16 IE › Damage › Inner Durable": "350 Explosion",
