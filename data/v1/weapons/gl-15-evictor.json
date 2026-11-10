@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-09.29c4d5b5",
-    "generatedAt": "2026-11-09T00:48:01Z",
+    "dataVersion": "2026-11-10.7dab8cac",
+    "generatedAt": "2026-11-10T03:28:15Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -14,7 +14,7 @@
     "name": "GL-15 Evictor",
     "upcoming": false,
     "aliases": [],
-    "description": "GL-15 Evictor is an Explosive primary weapon that fires high-damaging grenades which explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
+    "description": "The GL-15 Evictor (sometimes called the China Lake) is an Explosive primary weapon that fires high-damaging grenades which explode upon impact. The pump handle chambers each round, similar to a pump-action shotgun.",
     "image": {
       "url": "/images/v1/weapons/gl-15-evictor.a291f417.webp",
       "width": 512,
@@ -24,9 +24,7 @@
     "wiki": {
       "title": "GL-15 Evictor",
       "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-      "flags": [
-        "potentially_outdated"
-      ]
+      "flags": []
     },
     "category": "primary",
     "subcategory": "explosive",
