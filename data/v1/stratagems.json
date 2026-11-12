@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-10.7dab8cac",
-    "generatedAt": "2026-11-10T03:28:15Z",
+    "dataVersion": "2026-11-12.12c2cb2d",
+    "generatedAt": "2026-11-12T02:14:28Z",
     "count": 119,
     "source": {
       "name": "The Helldivers Wiki",
@@ -3128,6 +3128,7 @@
         "title": "AMW-20 Apex",
         "url": "https://helldivers.wiki.gg/wiki/AMW-20_Apex",
         "flags": [
+          "potentially_outdated",
           "broken_file_links"
         ]
       },
@@ -16215,7 +16216,7 @@
       "aliases": [
         "NUX-223 Hellbomb"
       ],
-      "description": "Helldivers must enter the following sequence in order to call down this special Stratagem during a mission:",
+      "description": "The NUX-223 Hellbomb is a standard-issue Stratagem, available to all Helldivers regardless of rank. However, this Stratagem is only available when near an enemy structure that is required to be destroyed as part of a Mission or an Optional objective: Command Bunkers, Fuel Reserves, Gunship Facilities, Orbital Cannons, Stratagem Jammers, Monoliths, Shrieker Nests, Spore Spewers, and Rogue Research Stations.",
       "image": {
         "url": "/images/v1/stratagems/nux-223-hellbomb.67b5a819.webp",
         "width": 256,

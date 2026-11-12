@@ -8022,22 +8022,6 @@
   ],
   "orphans": [
     {
-      "url": "/images/v1/armors/b-08-light-gunner.c5dbce3c.webp",
-      "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/armors/ce-67-titan.0043461c.webp",
-      "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/armors/fs-37-ravager.a9de9439.webp",
-      "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/armors/sa-12-servo-assisted.b30968c7.webp",
-      "since": "2026-10-13"
-    },
-    {
       "url": "/images/v1/armors/ss-15-focal-point.c476fe27.webp",
       "since": "2026-10-21"
     },
@@ -8048,22 +8032,6 @@
     {
       "url": "/images/v1/capes/boundary-banker.f8ffb2e8.webp",
       "since": "2026-10-24"
-    },
-    {
-      "url": "/images/v1/helmets/b-08-light-gunner.f8ac9403.webp",
-      "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/helmets/ce-67-titan.da1ff695.webp",
-      "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/helmets/fs-37-ravager.72e8ab09.webp",
-      "since": "2026-10-13"
-    },
-    {
-      "url": "/images/v1/helmets/sa-12-servo-assisted.d8b3f35e.webp",
-      "since": "2026-10-13"
     },
     {
       "url": "/images/v1/helmets/ss-15-focal-point.5ddde896.webp",
