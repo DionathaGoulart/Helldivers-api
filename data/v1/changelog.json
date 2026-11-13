@@ -1,15 +1,42 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-12.12c2cb2d",
-    "generatedAt": "2026-11-12T02:14:28Z",
-    "count": 49,
+    "dataVersion": "2026-11-13.06553785",
+    "generatedAt": "2026-11-13T01:47:37Z",
+    "count": 50,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-13.06553785",
+      "date": "2026-11-13",
+      "summary": {
+        "added": 0,
+        "changed": 2,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "las-44-nova",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "boosters",
+          "id": "stamina-enhancement",
+          "kind": "changed",
+          "paths": [
+            "description"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-12.12c2cb2d",
       "date": "2026-11-12",
