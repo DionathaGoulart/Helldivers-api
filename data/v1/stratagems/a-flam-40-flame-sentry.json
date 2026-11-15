@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -239,10 +239,7 @@
       "FLAME SENTRY › Uses": "∞",
       "FLAME SENTRY › Main Health": "400",
       "FLAME SENTRY › Main Armor": "Light",
-      "FLAME SENTRY › Horizontal Turn Speed": "140",
-      "FLAME SENTRY › Vertical Turn Speed": "140",
       "FLAME SENTRY › Lifetime": "150 sec",
-      "FLAME SENTRY › Vertical Limit": "(-45.00) (90.00)",
       "FLAME SENTRY › FLAME SENTRY › Main Health": "400",
       "FLAME SENTRY › FLAME SENTRY › Main Armor": "Light",
       "FLAME SENTRY › FLAME SENTRY › Drift Recoil": "↔[0.00] ↕[0.00]",

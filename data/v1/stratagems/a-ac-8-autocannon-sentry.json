@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -182,10 +182,7 @@
       "AUTOCANNON SENTRY › Uses": "∞",
       "AUTOCANNON SENTRY › Main Health": "400",
       "AUTOCANNON SENTRY › Main Armor": "Light",
-      "AUTOCANNON SENTRY › Horizontal Turn Speed": "20",
-      "AUTOCANNON SENTRY › Vertical Turn Speed": "20",
       "AUTOCANNON SENTRY › Lifetime": "150 sec",
-      "AUTOCANNON SENTRY › Vertical Limit": "(-60.00) (70.00)",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Main Health": "400",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Main Armor": "Light",
       "AUTOCANNON SENTRY › AUTOCANNON SENTRY › Fire Rate": "160 rpm",

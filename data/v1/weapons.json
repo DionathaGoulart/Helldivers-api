@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "count": 109,
     "source": {
       "name": "The Helldivers Wiki",
@@ -6106,7 +6106,9 @@
       "wiki": {
         "title": "GL-15 Evictor",
         "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-        "flags": []
+        "flags": [
+          "potentially_outdated"
+        ]
       },
       "category": "primary",
       "subcategory": "explosive",
@@ -11797,8 +11799,7 @@
         "PLAS-15 LOYALIST › Mags from Supply": "5",
         "PLAS-15 LOYALIST › Mags from Ammo Box": "2",
         "PLAS-15 LOYALIST › Charge › at (0.01)s": "0.50 dmg × P1",
-        "PLAS-15 LOYALIST › Charge › at (0.75)s": "0.62 dmg × P2",
-        "PLAS-15 LOYALIST › Charge › at (3.00)s": "1.00 dmg × P2",
+        "PLAS-15 LOYALIST › Charge › at (0.75)s": "1.00 dmg × P2",
         "PLAS-15 LOYALIST › Charge › Speed Mult Range": "(1.00) (1.00)",
         "PLAS-15 LOYALIST › Charge › Distance Mult Range": "(0.70) (1.40)",
         "PLAS-15 LOYALIST › Charge › Damage Mult Range": "(0.50) (1.00)",

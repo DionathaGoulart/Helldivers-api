@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -155,10 +155,7 @@
       "GATLING SENTRY › Uses": "∞",
       "GATLING SENTRY › Main Health": "400",
       "GATLING SENTRY › Main Armor": "Light",
-      "GATLING SENTRY › Horizontal Turn Speed": "80",
-      "GATLING SENTRY › Vertical Turn Speed": "50",
       "GATLING SENTRY › Lifetime": "150 sec",
-      "GATLING SENTRY › Vertical Limit": "(-60.00) (90.00)",
       "GATLING SENTRY › GATLING SENTRY › Main Health": "400",
       "GATLING SENTRY › GATLING SENTRY › Main Armor": "Light",
       "GATLING SENTRY › GATLING SENTRY › Fire Rate": "1600 rpm",

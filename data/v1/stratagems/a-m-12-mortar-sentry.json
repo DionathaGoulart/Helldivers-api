@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -186,10 +186,7 @@
       "Mortar Sentry › Uses": "∞",
       "Mortar Sentry › Main Health": "400",
       "Mortar Sentry › Main Armor": "Light",
-      "Mortar Sentry › Horizontal Turn Speed": "55",
-      "Mortar Sentry › Vertical Turn Speed": "55",
       "Mortar Sentry › Lifetime": "180 sec",
-      "Mortar Sentry › Vertical Limit": "(35.00) (89.00)",
       "Mortar Sentry › MORTAR SENTRY › Main Health": "400",
       "Mortar Sentry › MORTAR SENTRY › Main Armor": "Light",
       "Mortar Sentry › MORTAR SENTRY › Fire Rate": "60 rpm",

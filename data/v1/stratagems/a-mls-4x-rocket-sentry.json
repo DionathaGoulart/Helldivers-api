@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -208,10 +208,7 @@
       "ROCKET SENTRY › Uses": "1",
       "ROCKET SENTRY › Main Health": "400",
       "ROCKET SENTRY › Main Armor": "Light",
-      "ROCKET SENTRY › Horizontal Turn Speed": "40",
-      "ROCKET SENTRY › Vertical Turn Speed": "40",
       "ROCKET SENTRY › Lifetime": "150 sec",
-      "ROCKET SENTRY › Vertical Limit": "(-45.00) (90.00)",
       "ROCKET SENTRY › ROCKET SENTRY › Main Health": "400",
       "ROCKET SENTRY › ROCKET SENTRY › Main Armor": "Light",
       "ROCKET SENTRY › ROCKET SENTRY › Fire Rate": "90 rpm",

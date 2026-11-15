@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -234,10 +234,7 @@
       "EMS MORTAR SENTRY › Uses": "∞",
       "EMS MORTAR SENTRY › Main Health": "400",
       "EMS MORTAR SENTRY › Main Armor": "Light",
-      "EMS MORTAR SENTRY › Horizontal Turn Speed": "55",
-      "EMS MORTAR SENTRY › Vertical Turn Speed": "55",
       "EMS MORTAR SENTRY › Lifetime": "180 sec",
-      "EMS MORTAR SENTRY › Vertical Limit": "(35.00) (89.00)",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Main Health": "400",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Main Armor": "Light",
       "EMS MORTAR SENTRY › EMS MORTAR SENTRY › Fire Rate": "60 rpm",

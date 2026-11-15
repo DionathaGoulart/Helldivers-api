@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -24,7 +24,9 @@
     "wiki": {
       "title": "GL-15 Evictor",
       "url": "https://helldivers.wiki.gg/wiki/GL-15_Evictor",
-      "flags": []
+      "flags": [
+        "potentially_outdated"
+      ]
     },
     "category": "primary",
     "subcategory": "explosive",

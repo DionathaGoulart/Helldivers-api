@@ -1,15 +1,133 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
-    "count": 50,
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
+    "count": 51,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-15.c8c5dcb6",
+      "date": "2026-11-15",
+      "summary": {
+        "added": 0,
+        "changed": 11,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "weapons",
+          "id": "gl-15-evictor",
+          "kind": "changed",
+          "paths": [
+            "wiki.flags"
+          ]
+        },
+        {
+          "collection": "weapons",
+          "id": "plas-15-loyalist",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"PLAS-15 LOYALIST › Charge › at (0.75)s\"]",
+            "statsRaw[\"PLAS-15 LOYALIST › Charge › at (3.00)s\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-ac-8-autocannon-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"AUTOCANNON SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"AUTOCANNON SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-flam-40-flame-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"FLAME SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"FLAME SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"FLAME SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-g-16-gatling-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GATLING SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"GATLING SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"GATLING SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-gm-17-gas-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"GAS MORTAR SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"GAS MORTAR SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-las-98-laser-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"LASER SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"LASER SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"LASER SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-12-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"Mortar Sentry › Horizontal Turn Speed\"]",
+            "statsRaw[\"Mortar Sentry › Vertical Turn Speed\"]",
+            "statsRaw[\"Mortar Sentry › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-m-23-ems-mortar-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"EMS MORTAR SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"EMS MORTAR SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"EMS MORTAR SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mg-43-machine-gun-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"MACHINE GUN SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"MACHINE GUN SENTRY › Vertical Limit\"]"
+          ]
+        },
+        {
+          "collection": "stratagems",
+          "id": "a-mls-4x-rocket-sentry",
+          "kind": "changed",
+          "paths": [
+            "statsRaw[\"ROCKET SENTRY › Horizontal Turn Speed\"]",
+            "statsRaw[\"ROCKET SENTRY › Vertical Turn Speed\"]",
+            "statsRaw[\"ROCKET SENTRY › Vertical Limit\"]"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-13.06553785",
       "date": "2026-11-13",

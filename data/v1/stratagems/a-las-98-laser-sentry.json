@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -165,10 +165,7 @@
       "LASER SENTRY › Uses": "∞",
       "LASER SENTRY › Main Health": "400",
       "LASER SENTRY › Main Armor": "Light",
-      "LASER SENTRY › Horizontal Turn Speed": "80",
-      "LASER SENTRY › Vertical Turn Speed": "50",
       "LASER SENTRY › Lifetime": "180 sec",
-      "LASER SENTRY › Vertical Limit": "(-60.00) (90.00)",
       "LASER SENTRY › LASER SENTRY › Main Health": "400",
       "LASER SENTRY › LASER SENTRY › Main Armor": "Light",
       "LASER SENTRY › LASER SENTRY › Drift Recoil": "↔[0.00] ↕[0.00]",

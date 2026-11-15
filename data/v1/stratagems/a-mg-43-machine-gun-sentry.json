@@ -1,8 +1,8 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-13.06553785",
-    "generatedAt": "2026-11-13T01:47:37Z",
+    "dataVersion": "2026-11-15.c8c5dcb6",
+    "generatedAt": "2026-11-15T16:19:32Z",
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
@@ -156,10 +156,7 @@
       "MACHINE GUN SENTRY › Uses": "∞",
       "MACHINE GUN SENTRY › Main Health": "400",
       "MACHINE GUN SENTRY › Main Armor": "Light",
-      "MACHINE GUN SENTRY › Horizontal Turn Speed": "80",
-      "MACHINE GUN SENTRY › Vertical Turn Speed": "50",
       "MACHINE GUN SENTRY › Lifetime": "150 sec",
-      "MACHINE GUN SENTRY › Vertical Limit": "(-60.00) (90.00)",
       "MACHINE GUN SENTRY › MACHINE GUN SENTRY › Main Health": "400",
       "MACHINE GUN SENTRY › MACHINE GUN SENTRY › Main Armor": "Light",
       "MACHINE GUN SENTRY › MACHINE GUN SENTRY › Fire Rate": "630 rpm",
