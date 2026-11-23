@@ -1,15 +1,51 @@
 {
   "meta": {
     "apiVersion": "v1",
-    "dataVersion": "2026-11-18.5f050e8e",
-    "generatedAt": "2026-11-18T02:52:04Z",
-    "count": 53,
+    "dataVersion": "2026-11-23.a3214e06",
+    "generatedAt": "2026-11-23T21:01:58Z",
+    "count": 54,
     "source": {
       "name": "The Helldivers Wiki",
       "url": "https://helldivers.wiki.gg"
     }
   },
   "data": [
+    {
+      "dataVersion": "2026-11-23.a3214e06",
+      "date": "2026-11-23",
+      "summary": {
+        "added": 0,
+        "changed": 3,
+        "removed": 0
+      },
+      "changes": [
+        {
+          "collection": "stratagems",
+          "id": "m-104-incinerator-frv",
+          "kind": "changed",
+          "paths": [
+            "source.type",
+            "source.label"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "ad-11-livewire",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        },
+        {
+          "collection": "armor-sets",
+          "id": "bp-77-grand-juror",
+          "kind": "changed",
+          "paths": [
+            "capeLink.evidence"
+          ]
+        }
+      ]
+    },
     {
       "dataVersion": "2026-11-18.5f050e8e",
       "date": "2026-11-18",
