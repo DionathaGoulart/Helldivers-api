@@ -1,6 +1,7 @@
 import type { Id, SourceType } from "@hd2/schemas";
 import { NormalizeError } from "../errors.ts";
 import type { RawSourceCell } from "../parsers/raw.ts";
+import { normalizeTitle } from "../wiki/title.ts";
 import {
   normalizeWarbondLabel,
   pageFromAnchor,
@@ -9,7 +10,11 @@ import {
 } from "./warbonds.ts";
 
 // Item page `Source` cells (arch §4.5, §5.5 rule 3): a link to a warbond page, a label from
-// `data/overrides/source-labels.json`, or a warbond alias. Anything else fails the run.
+// `data/overrides/source-labels.json`, a warbond alias, or a link to the `Campaigns` page.
+// Anything else fails the run.
+
+/** The page every campaign and Major Order reward links to; its sources are all events. */
+const CAMPAIGNS_TITLE = "Campaigns";
 
 export type { RawSourceCell };
 
@@ -58,6 +63,12 @@ export function classifySource(
       page: pageFromMarker(cell.pageMarker),
     };
   } catch {
+    // Campaign and Major Order rewards link `/wiki/Campaigns#<anchor>`, and the wiki writes their
+    // label freely (`Blazing Electorate`, `Serene Guardian Campaign`). The link itself proves the
+    // source, so a new campaign needs no mapping; explicit labels and aliases still win above.
+    if (cell.link && normalizeTitle(cell.link.title) === CAMPAIGNS_TITLE) {
+      return { type: "event", warbondId: null, page: null };
+    }
     // The wiki appends a release year to recurring event names. Only accept it when the
     // unversioned label is an explicitly configured event; all other labels still fail closed.
     const eventLabel = /^(.+?)\s+(?:\(\d{4}\)|\d{4})$/.exec(label)?.[1];

@@ -230,6 +230,53 @@ describe("classifySource", () => {
     ).toThrow("map it in data/overrides/source-labels.json");
   });
 
+  it("reads an unmapped campaign label from its Campaigns link", () => {
+    for (const label of ["Serene Guardian Campaign", "Brand New Campaign 1"]) {
+      expect(
+        classifySource(
+          {
+            label,
+            link: { label, title: "Campaigns", anchor: label.replaceAll(" ", "_") },
+            pageMarker: null,
+          },
+          options,
+        ),
+      ).toEqual({ type: "event", warbondId: null, page: null });
+    }
+    // A mapping and an alias still win over the link.
+    expect(
+      classifySource(
+        {
+          label: "Superstore",
+          link: { label: "Superstore", title: "Campaigns", anchor: null },
+          pageMarker: null,
+        },
+        options,
+      ),
+    ).toEqual({ type: "superstore", warbondId: null, page: null });
+    expect(
+      classifySource(
+        {
+          label: "Helldivers Mobilize!",
+          link: { label: "Helldivers Mobilize!", title: "Campaigns", anchor: null },
+          pageMarker: null,
+        },
+        options,
+      ),
+    ).toEqual({ type: "warbond", warbondId: "helldivers-mobilize", page: null });
+    // Any other link leaves an unknown label failing closed.
+    expect(() =>
+      classifySource(
+        {
+          label: "Galactic War Reward",
+          link: { label: "Galactic War Reward", title: "Galactic War", anchor: null },
+          pageMarker: null,
+        },
+        options,
+      ),
+    ).toThrow("map it in data/overrides/source-labels.json");
+  });
+
   it("accepts dated events using the repository source mappings", async () => {
     const sourceLabels = JSON.parse(
       await readFile(
